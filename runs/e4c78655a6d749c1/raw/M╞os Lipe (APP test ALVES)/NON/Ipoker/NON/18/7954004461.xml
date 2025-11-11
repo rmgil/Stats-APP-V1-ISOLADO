@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954004461">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1081421253</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:20:34</duration>
+  <gamecount>15</gamecount>
+  <startdate>2024-02-18 16:35:34</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>144,048</bets>
+  <wins>44,048</wins>
+  <chipsin>99,850</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP54</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081332824</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>354</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10571414930">
+  <general>
+   <startdate>2024-02-18 16:35:34</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" win="0" dealer="1" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,910" bet="150"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="91,130" bet="1,150"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="120,437" bet="150"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="cekalica123" addon="0" reg_code="" chips="98,809" bet="2,250"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="106,279" bet="150"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="111,840" bet="9,350"/>
+    <player seat="10" win="22,550" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="106,421" bet="20,399"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="covidfish" sum="150"/>
+   <action no="2" type="15" player="Djebila" sum="150"/>
+   <action no="3" type="15" player="cekalica123" sum="150"/>
+   <action no="4" type="15" player="kostwinner" sum="150"/>
+   <action no="5" type="15" player="jokerready47" sum="150"/>
+   <action no="6" type="15" player="phostar" sum="150"/>
+   <action no="7" type="15" player="veryinv0lved" sum="150"/>
+   <action no="8" type="2" player="covidfish" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="9" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="cekalica123">X X</cards>
+   <action no="10" type="23" player="cekalica123" sum="2,100"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="11" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="12" type="3" player="jokerready47" sum="2,100"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="13" type="23" player="phostar" sum="9,200"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="14" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="15" type="0" player="covidfish" sum="0"/>
+   <action no="16" type="0" player="cekalica123" sum="0"/>
+   <action no="17" type="3" player="jokerready47" sum="7,100"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 DJ C6</cards>
+   <action no="18" type="4" player="jokerready47" sum="0"/>
+   <action no="19" type="5" player="phostar" sum="11,049"/>
+   <action no="20" type="0" player="jokerready47" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442260">
+  <general>
+   <startdate>2024-02-18 16:37:19</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,760" bet="150"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="100,000" bet="150"/>
+    <player seat="4" win="0" dealer="1" rebuy="0" name="covidfish" addon="0" reg_code="" chips="89,980" bet="2,650"/>
+    <player seat="5" win="7,200" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="120,287" bet="8,000"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="cekalica123" addon="0" reg_code="" chips="96,559" bet="1,150"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="106,129" bet="150"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="102,490" bet="150"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="119,621" bet="150"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="Djebila" sum="150"/>
+   <action no="2" type="15" player="cekalica123" sum="150"/>
+   <action no="3" type="15" player="kostwinner" sum="150"/>
+   <action no="4" type="15" player="jokerready47" sum="150"/>
+   <action no="5" type="15" player="phostar" sum="150"/>
+   <action no="6" type="15" player="veryinv0lved" sum="150"/>
+   <action no="7" type="15" player="tropeiro123" sum="150"/>
+   <action no="8" type="15" player="covidfish" sum="150"/>
+   <action no="9" type="1" player="Djebila" sum="500"/>
+   <action no="10" type="2" player="cekalica123" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="11" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="12" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="13" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="14" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ D2</cards>
+   <action no="15" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="16" type="23" player="covidfish" sum="2,500"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="17" type="23" player="Djebila" sum="8,000"/>
+   <cards type="Pocket" player="cekalica123">X X</cards>
+   <action no="18" type="0" player="cekalica123" sum="0"/>
+   <action no="19" type="0" player="covidfish" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442409">
+  <general>
+   <startdate>2024-02-18 16:38:39</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,610" bet="180"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="99,850" bet="6,180"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="87,330" bet="180"/>
+    <player seat="5" win="0" dealer="1" rebuy="0" name="Djebila" addon="0" reg_code="" chips="124,837" bet="6,180"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="cekalica123" addon="0" reg_code="" chips="95,409" bet="780"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="105,979" bet="1,380"/>
+    <player seat="9" win="21,240" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="102,340" bet="21,048"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="119,471" bet="180"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="cekalica123" sum="180"/>
+   <action no="2" type="15" player="kostwinner" sum="180"/>
+   <action no="3" type="15" player="jokerready47" sum="180"/>
+   <action no="4" type="15" player="phostar" sum="180"/>
+   <action no="5" type="15" player="veryinv0lved" sum="180"/>
+   <action no="6" type="15" player="tropeiro123" sum="180"/>
+   <action no="7" type="15" player="covidfish" sum="180"/>
+   <action no="8" type="15" player="Djebila" sum="180"/>
+   <action no="9" type="1" player="cekalica123" sum="600"/>
+   <action no="10" type="2" player="kostwinner" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="11" type="3" player="jokerready47" sum="1,200"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="12" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="13" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CQ SA</cards>
+   <action no="14" type="23" player="tropeiro123" sum="6,000"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="15" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="16" type="3" player="Djebila" sum="6,000"/>
+   <cards type="Pocket" player="cekalica123">X X</cards>
+   <action no="17" type="0" player="cekalica123" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="18" type="0" player="kostwinner" sum="0"/>
+   <action no="19" type="3" player="jokerready47" sum="4,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 C9 H9</cards>
+   <action no="20" type="5" player="jokerready47" sum="14,868"/>
+   <action no="21" type="0" player="tropeiro123" sum="0"/>
+   <action no="22" type="0" player="Djebila" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442546">
+  <general>
+   <startdate>2024-02-18 16:39:55</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,430" bet="180"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="93,670" bet="180"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="87,150" bet="180"/>
+    <player seat="5" win="40,934" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="118,657" bet="47,050"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="104,599" bet="780"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="117,400" bet="18,397"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="119,291" bet="2,820"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="kostwinner" sum="180"/>
+   <action no="2" type="15" player="jokerready47" sum="180"/>
+   <action no="3" type="15" player="phostar" sum="180"/>
+   <action no="4" type="15" player="veryinv0lved" sum="180"/>
+   <action no="5" type="15" player="tropeiro123" sum="180"/>
+   <action no="6" type="15" player="covidfish" sum="180"/>
+   <action no="7" type="15" player="Djebila" sum="180"/>
+   <action no="8" type="1" player="kostwinner" sum="600"/>
+   <action no="9" type="2" player="jokerready47" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="10" type="23" player="phostar" sum="2,640"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="11" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S9 H5</cards>
+   <action no="12" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="13" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="14" type="23" player="Djebila" sum="10,080"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="15" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="16" type="3" player="jokerready47" sum="8,880"/>
+   <action no="17" type="0" player="phostar" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D6 H9</cards>
+   <action no="18" type="4" player="jokerready47" sum="0"/>
+   <action no="19" type="5" player="Djebila" sum="8,137"/>
+   <action no="20" type="3" player="jokerready47" sum="8,137"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="21" type="4" player="jokerready47" sum="0"/>
+   <action no="22" type="5" player="Djebila" sum="28,653"/>
+   <action no="23" type="0" player="jokerready47" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442730">
+  <general>
+   <startdate>2024-02-18 16:41:31</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,250" bet="180"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="93,490" bet="180"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="86,970" bet="180"/>
+    <player seat="5" win="4,440" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="141,194" bet="2,520"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="100,000" bet="180"/>
+    <player seat="7" win="0" dealer="1" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="103,819" bet="180"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="99,003" bet="780"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="116,471" bet="1,380"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="jokerready47" sum="180"/>
+   <action no="2" type="15" player="phostar" sum="180"/>
+   <action no="3" type="15" player="veryinv0lved" sum="180"/>
+   <action no="4" type="15" player="tropeiro123" sum="180"/>
+   <action no="5" type="15" player="covidfish" sum="180"/>
+   <action no="6" type="15" player="Djebila" sum="180"/>
+   <action no="7" type="15" player="mcyver51" sum="180"/>
+   <action no="8" type="15" player="kostwinner" sum="180"/>
+   <action no="9" type="1" player="jokerready47" sum="600"/>
+   <action no="10" type="2" player="phostar" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="11" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ D2</cards>
+   <action no="12" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="13" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="14" type="23" player="Djebila" sum="2,520"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="15" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="16" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="17" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="18" type="0" player="phostar" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442786">
+  <general>
+   <startdate>2024-02-18 16:42:04</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="93,070" bet="1,380"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="93,310" bet="180"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="86,790" bet="180"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="144,254" bet="180"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,820" bet="180"/>
+    <player seat="7" win="4,440" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="103,639" bet="2,400"/>
+    <player seat="9" win="0" dealer="1" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="98,223" bet="180"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="115,091" bet="780"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="phostar" sum="180"/>
+   <action no="2" type="15" player="veryinv0lved" sum="180"/>
+   <action no="3" type="15" player="tropeiro123" sum="180"/>
+   <action no="4" type="15" player="covidfish" sum="180"/>
+   <action no="5" type="15" player="Djebila" sum="180"/>
+   <action no="6" type="15" player="mcyver51" sum="180"/>
+   <action no="7" type="15" player="kostwinner" sum="180"/>
+   <action no="8" type="15" player="jokerready47" sum="180"/>
+   <action no="9" type="1" player="phostar" sum="600"/>
+   <action no="10" type="2" player="veryinv0lved" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SJ D3</cards>
+   <action no="11" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="12" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="13" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="14" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="15" type="23" player="kostwinner" sum="2,400"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="16" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="17" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="18" type="0" player="veryinv0lved" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571442862">
+  <general>
+   <startdate>2024-02-18 16:42:46</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="91,690" bet="780"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="93,130" bet="1,380"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="86,610" bet="3,180"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="144,074" bet="180"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,640" bet="180"/>
+    <player seat="7" win="9,240" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="106,699" bet="3,180"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="98,043" bet="180"/>
+    <player seat="10" win="0" dealer="1" rebuy="0" name="phostar" addon="0" reg_code="" chips="114,311" bet="180"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="veryinv0lved" sum="180"/>
+   <action no="2" type="15" player="tropeiro123" sum="180"/>
+   <action no="3" type="15" player="covidfish" sum="180"/>
+   <action no="4" type="15" player="Djebila" sum="180"/>
+   <action no="5" type="15" player="mcyver51" sum="180"/>
+   <action no="6" type="15" player="kostwinner" sum="180"/>
+   <action no="7" type="15" player="jokerready47" sum="180"/>
+   <action no="8" type="15" player="phostar" sum="180"/>
+   <action no="9" type="1" player="veryinv0lved" sum="600"/>
+   <action no="10" type="2" player="tropeiro123" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="covidfish">DJ D9</cards>
+   <action no="11" type="23" player="covidfish" sum="3,000"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="12" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="13" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">S10 D10</cards>
+   <action no="14" type="3" player="kostwinner" sum="3,000"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="15" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="16" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="17" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C4 HJ</cards>
+   <action no="18" type="0" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA H7 DK</cards>
+   <action no="19" type="4" player="covidfish" sum="0"/>
+   <action no="20" type="4" player="kostwinner" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action no="21" type="4" player="covidfish" sum="0"/>
+   <action no="22" type="4" player="kostwinner" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action no="23" type="4" player="covidfish" sum="0"/>
+   <action no="24" type="4" player="kostwinner" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571443053">
+  <general>
+   <startdate>2024-02-18 16:44:30</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="12,350" dealer="1" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="90,910" bet="19,855"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="91,750" bet="5,035"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="83,430" bet="1,380"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="143,894" bet="180"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,460" bet="180"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="112,759" bet="180"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="97,863" bet="180"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="114,131" bet="180"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="tropeiro123" sum="180"/>
+   <action no="2" type="15" player="covidfish" sum="180"/>
+   <action no="3" type="15" player="Djebila" sum="180"/>
+   <action no="4" type="15" player="mcyver51" sum="180"/>
+   <action no="5" type="15" player="kostwinner" sum="180"/>
+   <action no="6" type="15" player="jokerready47" sum="180"/>
+   <action no="7" type="15" player="phostar" sum="180"/>
+   <action no="8" type="15" player="veryinv0lved" sum="180"/>
+   <action no="9" type="1" player="tropeiro123" sum="600"/>
+   <action no="10" type="2" player="covidfish" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="11" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="12" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="13" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="14" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="15" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="16" type="23" player="veryinv0lved" sum="2,400"/>
+   <cards type="Pocket" player="tropeiro123">S8 S10</cards>
+   <action no="17" type="3" player="tropeiro123" sum="1,800"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="18" type="0" player="covidfish" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 C9 DQ</cards>
+   <action no="19" type="4" player="tropeiro123" sum="0"/>
+   <action no="20" type="5" player="veryinv0lved" sum="2,455"/>
+   <action no="21" type="3" player="tropeiro123" sum="2,455"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" type="4" player="tropeiro123" sum="0"/>
+   <action no="23" type="5" player="veryinv0lved" sum="14,820"/>
+   <action no="24" type="0" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571443219">
+  <general>
+   <startdate>2024-02-18 16:46:07</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="98,225" bet="180"/>
+    <player seat="2" win="0" dealer="1" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="86,715" bet="180"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="82,050" bet="780"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="143,714" bet="1,380"/>
+    <player seat="6" win="4,440" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,280" bet="2,400"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="112,579" bet="180"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="97,683" bet="180"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="113,951" bet="180"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="covidfish" sum="180"/>
+   <action no="2" type="15" player="Djebila" sum="180"/>
+   <action no="3" type="15" player="mcyver51" sum="180"/>
+   <action no="4" type="15" player="kostwinner" sum="180"/>
+   <action no="5" type="15" player="jokerready47" sum="180"/>
+   <action no="6" type="15" player="phostar" sum="180"/>
+   <action no="7" type="15" player="veryinv0lved" sum="180"/>
+   <action no="8" type="15" player="tropeiro123" sum="180"/>
+   <action no="9" type="1" player="covidfish" sum="600"/>
+   <action no="10" type="2" player="Djebila" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="11" type="23" player="mcyver51" sum="2,400"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="12" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="13" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="14" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="15" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S10 H6</cards>
+   <action no="16" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="17" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="18" type="0" player="Djebila" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471004">
+  <general>
+   <startdate>2024-02-18 16:47:09</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="98,045" bet="180"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="86,535" bet="1,380"/>
+    <player seat="4" win="0" dealer="1" rebuy="0" name="covidfish" addon="0" reg_code="" chips="81,270" bet="180"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="142,334" bet="780"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="102,340" bet="1,380"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="112,399" bet="180"/>
+    <player seat="9" win="5,640" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="97,503" bet="2,580"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="113,771" bet="180"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="Djebila" sum="180"/>
+   <action no="2" type="15" player="mcyver51" sum="180"/>
+   <action no="3" type="15" player="kostwinner" sum="180"/>
+   <action no="4" type="15" player="jokerready47" sum="180"/>
+   <action no="5" type="15" player="phostar" sum="180"/>
+   <action no="6" type="15" player="veryinv0lved" sum="180"/>
+   <action no="7" type="15" player="tropeiro123" sum="180"/>
+   <action no="8" type="15" player="covidfish" sum="180"/>
+   <action no="9" type="1" player="Djebila" sum="600"/>
+   <action no="10" type="2" player="mcyver51" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="11" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="12" type="3" player="jokerready47" sum="1,200"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="13" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="14" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D7 D5</cards>
+   <action no="15" type="3" player="tropeiro123" sum="1,200"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="16" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="17" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="18" type="4" player="mcyver51" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HK DQ</cards>
+   <action no="19" type="4" player="mcyver51" sum="0"/>
+   <action no="20" type="4" player="jokerready47" sum="0"/>
+   <action no="21" type="4" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action no="22" type="4" player="mcyver51" sum="0"/>
+   <action no="23" type="5" player="jokerready47" sum="1,200"/>
+   <action no="24" type="0" player="tropeiro123" sum="0"/>
+   <action no="25" type="0" player="mcyver51" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471138">
+  <general>
+   <startdate>2024-02-18 16:48:23</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="97,865" bet="200"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="85,155" bet="200"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="81,090" bet="200"/>
+    <player seat="5" win="0" dealer="1" rebuy="0" name="Djebila" addon="0" reg_code="" chips="141,554" bet="200"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="100,960" bet="900"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="112,219" bet="1,600"/>
+    <player seat="9" win="5,100" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="101,763" bet="4,200"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="113,591" bet="200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="mcyver51" sum="200"/>
+   <action no="2" type="15" player="kostwinner" sum="200"/>
+   <action no="3" type="15" player="jokerready47" sum="200"/>
+   <action no="4" type="15" player="phostar" sum="200"/>
+   <action no="5" type="15" player="veryinv0lved" sum="200"/>
+   <action no="6" type="15" player="tropeiro123" sum="200"/>
+   <action no="7" type="15" player="covidfish" sum="200"/>
+   <action no="8" type="15" player="Djebila" sum="200"/>
+   <action no="9" type="1" player="mcyver51" sum="700"/>
+   <action no="10" type="2" player="kostwinner" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="11" type="23" player="jokerready47" sum="4,200"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="12" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="13" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C10 S7</cards>
+   <action no="14" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="15" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="16" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="17" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="18" type="0" player="kostwinner" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471208">
+  <general>
+   <startdate>2024-02-18 16:48:59</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="97,665" bet="200"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="84,955" bet="200"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="80,890" bet="200"/>
+    <player seat="5" win="8,180" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="141,354" bet="8,866"/>
+    <player seat="6" win="0" dealer="1" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="100,060" bet="200"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="110,619" bet="900"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="105,263" bet="3,140"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="113,391" bet="200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="kostwinner" sum="200"/>
+   <action no="2" type="15" player="jokerready47" sum="200"/>
+   <action no="3" type="15" player="phostar" sum="200"/>
+   <action no="4" type="15" player="veryinv0lved" sum="200"/>
+   <action no="5" type="15" player="tropeiro123" sum="200"/>
+   <action no="6" type="15" player="covidfish" sum="200"/>
+   <action no="7" type="15" player="Djebila" sum="200"/>
+   <action no="8" type="15" player="mcyver51" sum="200"/>
+   <action no="9" type="1" player="kostwinner" sum="700"/>
+   <action no="10" type="2" player="jokerready47" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="11" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="12" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D8 CQ</cards>
+   <action no="13" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="14" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="15" type="23" player="Djebila" sum="2,940"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="16" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="17" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="18" type="3" player="jokerready47" sum="1,540"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK S7 S2</cards>
+   <action no="19" type="4" player="jokerready47" sum="0"/>
+   <action no="20" type="5" player="Djebila" sum="5,726"/>
+   <action no="21" type="0" player="jokerready47" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471323">
+  <general>
+   <startdate>2024-02-18 16:50:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="97,465" bet="20,374"/>
+    <player seat="2" win="44,048" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="84,755" bet="20,374"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="80,690" bet="200"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="146,394" bet="200"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,860" bet="200"/>
+    <player seat="7" win="0" dealer="1" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="109,719" bet="200"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="102,123" bet="900"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="113,191" bet="1,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="jokerready47" sum="200"/>
+   <action no="2" type="15" player="phostar" sum="200"/>
+   <action no="3" type="15" player="veryinv0lved" sum="200"/>
+   <action no="4" type="15" player="tropeiro123" sum="200"/>
+   <action no="5" type="15" player="covidfish" sum="200"/>
+   <action no="6" type="15" player="Djebila" sum="200"/>
+   <action no="7" type="15" player="mcyver51" sum="200"/>
+   <action no="8" type="15" player="kostwinner" sum="200"/>
+   <action no="9" type="1" player="jokerready47" sum="700"/>
+   <action no="10" type="2" player="phostar" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">D9 H9</cards>
+   <action no="11" type="23" player="veryinv0lved" sum="2,800"/>
+   <cards type="Pocket" player="tropeiro123">HJ HQ</cards>
+   <action no="12" type="23" player="tropeiro123" sum="8,400"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="13" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="14" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="15" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="16" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="17" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="18" type="0" player="phostar" sum="0"/>
+   <action no="19" type="3" player="veryinv0lved" sum="5,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 DJ C5</cards>
+   <action no="20" type="4" player="veryinv0lved" sum="0"/>
+   <action no="21" type="5" player="tropeiro123" sum="5,124"/>
+   <action no="22" type="3" player="veryinv0lved" sum="5,124"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+   <action no="23" type="5" player="veryinv0lved" sum="6,650"/>
+   <action no="24" type="3" player="tropeiro123" sum="6,650"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action no="25" type="4" player="veryinv0lved" sum="0"/>
+   <action no="26" type="4" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471547">
+  <general>
+   <startdate>2024-02-18 16:52:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="77,091" bet="1,600"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="108,429" bet="200"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="80,490" bet="200"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="146,194" bet="200"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,660" bet="200"/>
+    <player seat="7" win="18,600" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="109,519" bet="35,650"/>
+    <player seat="9" win="0" dealer="1" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="101,223" bet="7,650"/>
+    <player seat="10" win="0" dealer="0" rebuy="0" name="phostar" addon="0" reg_code="" chips="111,591" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="phostar" sum="200"/>
+   <action no="2" type="15" player="veryinv0lved" sum="200"/>
+   <action no="3" type="15" player="tropeiro123" sum="200"/>
+   <action no="4" type="15" player="covidfish" sum="200"/>
+   <action no="5" type="15" player="Djebila" sum="200"/>
+   <action no="6" type="15" player="mcyver51" sum="200"/>
+   <action no="7" type="15" player="kostwinner" sum="200"/>
+   <action no="8" type="15" player="jokerready47" sum="200"/>
+   <action no="9" type="1" player="phostar" sum="700"/>
+   <action no="10" type="2" player="veryinv0lved" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C8 SK</cards>
+   <action no="11" type="0" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="12" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="13" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="14" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="15" type="23" player="kostwinner" sum="2,800"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="16" type="3" player="jokerready47" sum="2,800"/>
+   <cards type="Pocket" player="phostar">X X</cards>
+   <action no="17" type="0" player="phostar" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="18" type="0" player="veryinv0lved" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 HJ C6</cards>
+   <action no="19" type="5" player="kostwinner" sum="4,650"/>
+   <action no="20" type="3" player="jokerready47" sum="4,650"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="21" type="4" player="kostwinner" sum="0"/>
+   <action no="22" type="4" player="jokerready47" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action no="23" type="5" player="kostwinner" sum="28,000"/>
+   <action no="24" type="0" player="jokerready47" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10571471801">
+  <general>
+   <startdate>2024-02-18 16:54:24</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" rebuy="0" name="veryinv0lved" addon="0" reg_code="" chips="75,491" bet="900"/>
+    <player seat="2" win="0" dealer="0" rebuy="0" name="tropeiro123" addon="0" reg_code="7954004461" chips="108,229" bet="108,229"/>
+    <player seat="4" win="0" dealer="0" rebuy="0" name="covidfish" addon="0" reg_code="" chips="80,290" bet="200"/>
+    <player seat="5" win="0" dealer="0" rebuy="0" name="Djebila" addon="0" reg_code="" chips="145,994" bet="200"/>
+    <player seat="6" win="0" dealer="0" rebuy="0" name="mcyver51" addon="0" reg_code="" chips="99,460" bet="200"/>
+    <player seat="7" win="0" dealer="0" rebuy="0" name="kostwinner" addon="0" reg_code="" chips="120,469" bet="200"/>
+    <player seat="9" win="0" dealer="0" rebuy="0" name="jokerready47" addon="0" reg_code="" chips="93,573" bet="200"/>
+    <player seat="10" win="218,358" dealer="1" rebuy="0" name="phostar" addon="0" reg_code="" chips="110,691" bet="108,229">
+     <knockout kicked="tropeiro123" tobounty="€4.55" tobalance="€4.55"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" player="veryinv0lved" sum="200"/>
+   <action no="2" type="15" player="tropeiro123" sum="200"/>
+   <action no="3" type="15" player="covidfish" sum="200"/>
+   <action no="4" type="15" player="Djebila" sum="200"/>
+   <action no="5" type="15" player="mcyver51" sum="200"/>
+   <action no="6" type="15" player="kostwinner" sum="200"/>
+   <action no="7" type="15" player="jokerready47" sum="200"/>
+   <action no="8" type="15" player="phostar" sum="200"/>
+   <action no="9" type="1" player="veryinv0lved" sum="700"/>
+   <action no="10" type="2" player="tropeiro123" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="covidfish">X X</cards>
+   <action no="11" type="0" player="covidfish" sum="0"/>
+   <cards type="Pocket" player="Djebila">X X</cards>
+   <action no="12" type="0" player="Djebila" sum="0"/>
+   <cards type="Pocket" player="mcyver51">X X</cards>
+   <action no="13" type="0" player="mcyver51" sum="0"/>
+   <cards type="Pocket" player="kostwinner">X X</cards>
+   <action no="14" type="0" player="kostwinner" sum="0"/>
+   <cards type="Pocket" player="jokerready47">X X</cards>
+   <action no="15" type="0" player="jokerready47" sum="0"/>
+   <cards type="Pocket" player="phostar">H9 DK</cards>
+   <action no="16" type="23" player="phostar" sum="2,800"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action no="17" type="0" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C7 D10</cards>
+   <action no="18" type="3" player="tropeiro123" sum="1,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK D7 D9</cards>
+   <action no="19" type="4" player="tropeiro123" sum="0"/>
+   <action no="20" type="5" player="phostar" sum="5,293"/>
+   <action no="21" type="3" player="tropeiro123" sum="5,293"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action no="22" type="4" player="tropeiro123" sum="0"/>
+   <action no="23" type="5" player="phostar" sum="12,385"/>
+   <action no="24" type="23" player="tropeiro123" sum="30,370"/>
+   <action no="25" type="3" player="phostar" sum="17,985"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action no="26" type="5" player="tropeiro123" sum="69,566"/>
+   <action no="27" type="3" player="phostar" sum="69,566"/>
+  </round>
+ </game>
+</session>

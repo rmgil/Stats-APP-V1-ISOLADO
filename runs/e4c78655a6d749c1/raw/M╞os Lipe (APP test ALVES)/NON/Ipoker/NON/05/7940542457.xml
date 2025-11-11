@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7940542457">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3500 GTD|Bigstack Hunter, 1080221078</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:08:12</duration>
+  <gamecount>5</gamecount>
+  <startdate>2024-02-05 14:04:13</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>100,000</bets>
+  <wins>0</wins>
+  <chipsin>76,303</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP11.20</statuspoints>
+  <awardpoints>RP16.80</awardpoints>
+  <ipoints>RP11.20</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079576938</tournamentcode>
+  <tournamentname>€3500 GTD|Bigstack Hunter</tournamentname>
+  <place>220</place>
+  <buyin>€5.69 + €5.69 + €1.12</buyin>
+  <totalbuyin>€12.50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10546816325">
+  <general>
+   <startdate>2024-02-05 14:04:13</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>120</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="7Pink" bet="120" win="0" seat="4" dealer="1" chips="141,492"/>
+    <player rebuy="0" addon="0" reg_code="" name="SevenBeatAce" bet="920" win="0" seat="5" dealer="0" chips="212,633"/>
+    <player rebuy="0" addon="0" reg_code="" name="Rekson1k1" bet="20,948" win="20,560" seat="6" dealer="0" chips="88,590"/>
+    <player rebuy="0" addon="0" reg_code="" name="kanari" bet="9,640" win="0" seat="7" dealer="0" chips="202,200"/>
+    <player rebuy="0" addon="0" reg_code="" name="Xeniyaruss" bet="120" win="0" seat="9" dealer="0" chips="137,184"/>
+    <player rebuy="0" addon="0" reg_code="" name="rin1rus" bet="120" win="0" seat="10" dealer="0" chips="57,512"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SevenBeatAce" type="15" sum="120"/>
+   <action no="2" player="Rekson1k1" type="15" sum="120"/>
+   <action no="3" player="kanari" type="15" sum="120"/>
+   <action no="4" player="Xeniyaruss" type="15" sum="120"/>
+   <action no="5" player="rin1rus" type="15" sum="120"/>
+   <action no="6" player="7Pink" type="15" sum="120"/>
+   <action no="7" player="SevenBeatAce" type="1" sum="800"/>
+   <action no="8" player="Rekson1k1" type="2" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards player="kanari" type="Pocket">X X</cards>
+   <action no="9" player="kanari" type="3" sum="1,600"/>
+   <cards player="Xeniyaruss" type="Pocket">X X</cards>
+   <action no="10" player="Xeniyaruss" type="0" sum="0"/>
+   <cards player="rin1rus" type="Pocket">X X</cards>
+   <action no="11" player="rin1rus" type="0" sum="0"/>
+   <cards player="7Pink" type="Pocket">X X</cards>
+   <action no="12" player="7Pink" type="0" sum="0"/>
+   <cards player="SevenBeatAce" type="Pocket">X X</cards>
+   <action no="13" player="SevenBeatAce" type="0" sum="0"/>
+   <cards player="Rekson1k1" type="Pocket">X X</cards>
+   <action no="14" player="Rekson1k1" type="4" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H10 SK</cards>
+   <action no="15" player="Rekson1k1" type="4" sum="0"/>
+   <action no="16" player="kanari" type="5" sum="2,360"/>
+   <action no="17" player="Rekson1k1" type="23" sum="7,920"/>
+   <action no="18" player="kanari" type="3" sum="5,560"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action no="19" player="Rekson1k1" type="5" sum="11,308"/>
+   <action no="20" player="kanari" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10546816392">
+  <general>
+   <startdate>2024-02-05 14:05:12</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="7940542457" name="tropeiro123" bet="23,697" win="0" seat="1" dealer="0" chips="100,000"/>
+    <player rebuy="0" addon="0" reg_code="" name="MyRingIsLost" bet="75,051" win="51,354" seat="2" dealer="0" chips="100,000"/>
+    <player rebuy="0" addon="0" reg_code="" name="7Pink" bet="160" win="0" seat="4" dealer="0" chips="141,372"/>
+    <player rebuy="0" addon="0" reg_code="" name="SevenBeatAce" bet="160" win="0" seat="5" dealer="1" chips="211,713"/>
+    <player rebuy="0" addon="0" reg_code="" name="Rekson1k1" bet="1,160" win="0" seat="6" dealer="0" chips="99,510"/>
+    <player rebuy="0" addon="0" reg_code="" name="kanari" bet="2,160" win="0" seat="7" dealer="0" chips="192,560"/>
+    <player rebuy="0" addon="0" reg_code="" name="Xeniyaruss" bet="160" win="0" seat="9" dealer="0" chips="137,064"/>
+    <player rebuy="0" addon="0" reg_code="" name="rin1rus" bet="160" win="0" seat="10" dealer="0" chips="57,392"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Rekson1k1" type="15" sum="160"/>
+   <action no="2" player="kanari" type="15" sum="160"/>
+   <action no="3" player="Xeniyaruss" type="15" sum="160"/>
+   <action no="4" player="rin1rus" type="15" sum="160"/>
+   <action no="5" player="tropeiro123" type="15" sum="160"/>
+   <action no="6" player="MyRingIsLost" type="15" sum="160"/>
+   <action no="7" player="7Pink" type="15" sum="160"/>
+   <action no="8" player="SevenBeatAce" type="15" sum="160"/>
+   <action no="9" player="Rekson1k1" type="1" sum="1,000"/>
+   <action no="10" player="kanari" type="2" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards player="Xeniyaruss" type="Pocket">X X</cards>
+   <action no="11" player="Xeniyaruss" type="0" sum="0"/>
+   <cards player="rin1rus" type="Pocket">X X</cards>
+   <action no="12" player="rin1rus" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 CJ</cards>
+   <action no="13" player="tropeiro123" type="23" sum="4,200"/>
+   <cards player="MyRingIsLost" type="Pocket">X X</cards>
+   <action no="14" player="MyRingIsLost" type="3" sum="4,200"/>
+   <cards player="7Pink" type="Pocket">X X</cards>
+   <action no="15" player="7Pink" type="0" sum="0"/>
+   <cards player="SevenBeatAce" type="Pocket">X X</cards>
+   <action no="16" player="SevenBeatAce" type="0" sum="0"/>
+   <cards player="Rekson1k1" type="Pocket">X X</cards>
+   <action no="17" player="Rekson1k1" type="0" sum="0"/>
+   <cards player="kanari" type="Pocket">X X</cards>
+   <action no="18" player="kanari" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 SK D4</cards>
+   <action no="19" player="tropeiro123" type="5" sum="3,170"/>
+   <action no="20" player="MyRingIsLost" type="3" sum="3,170"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="21" player="tropeiro123" type="5" sum="16,167"/>
+   <action no="22" player="MyRingIsLost" type="3" sum="16,167"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action no="23" player="tropeiro123" type="4" sum="0"/>
+   <action no="24" player="MyRingIsLost" type="5" sum="51,354"/>
+   <action no="25" player="tropeiro123" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10546833465">
+  <general>
+   <startdate>2024-02-05 14:07:49</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="7940542457" name="tropeiro123" bet="160" win="0" seat="1" dealer="0" chips="76,303"/>
+    <player rebuy="0" addon="0" reg_code="" name="MyRingIsLost" bet="160" win="0" seat="2" dealer="0" chips="127,657"/>
+    <player rebuy="0" addon="0" reg_code="" name="7Pink" bet="4,160" win="0" seat="4" dealer="0" chips="141,212"/>
+    <player rebuy="0" addon="0" reg_code="" name="SevenBeatAce" bet="12,160" win="0" seat="5" dealer="0" chips="211,553"/>
+    <player rebuy="0" addon="0" reg_code="" name="Rekson1k1" bet="98,190" win="32,280" seat="6" dealer="1" chips="98,350"/>
+    <player rebuy="0" addon="0" reg_code="" name="kanari" bet="1,160" win="0" seat="7" dealer="0" chips="190,400"/>
+    <player rebuy="0" addon="0" reg_code="" name="Xeniyaruss" bet="2,160" win="0" seat="9" dealer="0" chips="136,904"/>
+    <player rebuy="0" addon="0" reg_code="" name="rin1rus" bet="160" win="0" seat="10" dealer="0" chips="57,232"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="kanari" type="15" sum="160"/>
+   <action no="2" player="Xeniyaruss" type="15" sum="160"/>
+   <action no="3" player="rin1rus" type="15" sum="160"/>
+   <action no="4" player="tropeiro123" type="15" sum="160"/>
+   <action no="5" player="MyRingIsLost" type="15" sum="160"/>
+   <action no="6" player="7Pink" type="15" sum="160"/>
+   <action no="7" player="SevenBeatAce" type="15" sum="160"/>
+   <action no="8" player="Rekson1k1" type="15" sum="160"/>
+   <action no="9" player="kanari" type="1" sum="1,000"/>
+   <action no="10" player="Xeniyaruss" type="2" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards player="rin1rus" type="Pocket">X X</cards>
+   <action no="11" player="rin1rus" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">SK H4</cards>
+   <action no="12" player="tropeiro123" type="0" sum="0"/>
+   <cards player="MyRingIsLost" type="Pocket">X X</cards>
+   <action no="13" player="MyRingIsLost" type="0" sum="0"/>
+   <cards player="7Pink" type="Pocket">X X</cards>
+   <action no="14" player="7Pink" type="23" sum="4,000"/>
+   <cards player="SevenBeatAce" type="Pocket">X X</cards>
+   <action no="15" player="SevenBeatAce" type="23" sum="12,000"/>
+   <cards player="Rekson1k1" type="Pocket">X X</cards>
+   <action no="16" player="Rekson1k1" type="23" sum="98,190"/>
+   <cards player="kanari" type="Pocket">X X</cards>
+   <action no="17" player="kanari" type="0" sum="0"/>
+   <cards player="Xeniyaruss" type="Pocket">X X</cards>
+   <action no="18" player="Xeniyaruss" type="0" sum="0"/>
+   <action no="19" player="7Pink" type="0" sum="0"/>
+   <action no="20" player="SevenBeatAce" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10546833514">
+  <general>
+   <startdate>2024-02-05 14:08:35</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="7940542457" name="tropeiro123" bet="4,360" win="0" seat="1" dealer="0" chips="76,143"/>
+    <player rebuy="0" addon="0" reg_code="" name="MyRingIsLost" bet="63,440" win="0" seat="2" dealer="0" chips="127,497"/>
+    <player rebuy="0" addon="0" reg_code="" name="7Pink" bet="63,440" win="135,040" seat="4" dealer="0" chips="137,052"/>
+    <player rebuy="0" addon="0" reg_code="" name="SevenBeatAce" bet="160" win="0" seat="5" dealer="0" chips="199,393"/>
+    <player rebuy="0" addon="0" reg_code="" name="Rekson1k1" bet="160" win="0" seat="6" dealer="0" chips="118,470"/>
+    <player rebuy="0" addon="0" reg_code="" name="kanari" bet="160" win="0" seat="7" dealer="1" chips="189,240"/>
+    <player rebuy="0" addon="0" reg_code="" name="Xeniyaruss" bet="1,160" win="0" seat="9" dealer="0" chips="134,744"/>
+    <player rebuy="0" addon="0" reg_code="" name="rin1rus" bet="2,160" win="0" seat="10" dealer="0" chips="57,072"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Xeniyaruss" type="15" sum="160"/>
+   <action no="2" player="rin1rus" type="15" sum="160"/>
+   <action no="3" player="tropeiro123" type="15" sum="160"/>
+   <action no="4" player="MyRingIsLost" type="15" sum="160"/>
+   <action no="5" player="7Pink" type="15" sum="160"/>
+   <action no="6" player="SevenBeatAce" type="15" sum="160"/>
+   <action no="7" player="Rekson1k1" type="15" sum="160"/>
+   <action no="8" player="kanari" type="15" sum="160"/>
+   <action no="9" player="Xeniyaruss" type="1" sum="1,000"/>
+   <action no="10" player="rin1rus" type="2" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CK H10</cards>
+   <action no="11" player="tropeiro123" type="23" sum="4,200"/>
+   <cards player="MyRingIsLost" type="Pocket">S8 C9</cards>
+   <action no="12" player="MyRingIsLost" type="3" sum="4,200"/>
+   <cards player="7Pink" type="Pocket">D10 DQ</cards>
+   <action no="13" player="7Pink" type="3" sum="4,200"/>
+   <cards player="SevenBeatAce" type="Pocket">X X</cards>
+   <action no="14" player="SevenBeatAce" type="0" sum="0"/>
+   <cards player="Rekson1k1" type="Pocket">X X</cards>
+   <action no="15" player="Rekson1k1" type="0" sum="0"/>
+   <cards player="kanari" type="Pocket">X X</cards>
+   <action no="16" player="kanari" type="0" sum="0"/>
+   <cards player="Xeniyaruss" type="Pocket">X X</cards>
+   <action no="17" player="Xeniyaruss" type="0" sum="0"/>
+   <cards player="rin1rus" type="Pocket">X X</cards>
+   <action no="18" player="rin1rus" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 SQ H6</cards>
+   <action no="19" player="tropeiro123" type="4" sum="0"/>
+   <action no="20" player="MyRingIsLost" type="4" sum="0"/>
+   <action no="21" player="7Pink" type="5" sum="8,440"/>
+   <action no="22" player="tropeiro123" type="0" sum="0"/>
+   <action no="23" player="MyRingIsLost" type="3" sum="8,440"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="24" player="MyRingIsLost" type="4" sum="0"/>
+   <action no="25" player="7Pink" type="5" sum="16,880"/>
+   <action no="26" player="MyRingIsLost" type="3" sum="16,880"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="27" player="MyRingIsLost" type="4" sum="0"/>
+   <action no="28" player="7Pink" type="5" sum="33,760"/>
+   <action no="29" player="MyRingIsLost" type="3" sum="33,760"/>
+  </round>
+ </game>
+ <game gamecode="10546833685">
+  <general>
+   <startdate>2024-02-05 14:11:11</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="7940542457" name="tropeiro123" bet="71,783" win="0" seat="1" dealer="0" chips="71,783"/>
+    <player rebuy="0" addon="0" reg_code="" name="MyRingIsLost" bet="160" win="0" seat="2" dealer="0" chips="64,057"/>
+    <player rebuy="0" addon="0" reg_code="" name="7Pink" bet="160" win="0" seat="4" dealer="0" chips="208,652"/>
+    <player rebuy="0" addon="0" reg_code="" name="SevenBeatAce" bet="160" win="0" seat="5" dealer="0" chips="199,233"/>
+    <player rebuy="0" addon="0" reg_code="" name="Rekson1k1" bet="160" win="0" seat="6" dealer="0" chips="118,310"/>
+    <player rebuy="0" addon="0" reg_code="" name="kanari" bet="89,860" win="145,526" seat="7" dealer="0" chips="189,080">
+     <knockout tobounty="€2.84" kicked="tropeiro123" tobalance="€2.85"/>
+    </player>
+    <player rebuy="0" addon="0" reg_code="" name="Xeniyaruss" bet="160" win="0" seat="9" dealer="1" chips="133,584"/>
+    <player rebuy="0" addon="0" reg_code="" name="rin1rus" bet="1,160" win="0" seat="10" dealer="0" chips="54,912"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="rin1rus" type="15" sum="160"/>
+   <action no="2" player="tropeiro123" type="15" sum="160"/>
+   <action no="3" player="MyRingIsLost" type="15" sum="160"/>
+   <action no="4" player="7Pink" type="15" sum="160"/>
+   <action no="5" player="SevenBeatAce" type="15" sum="160"/>
+   <action no="6" player="Rekson1k1" type="15" sum="160"/>
+   <action no="7" player="kanari" type="15" sum="160"/>
+   <action no="8" player="Xeniyaruss" type="15" sum="160"/>
+   <action no="9" player="rin1rus" type="1" sum="1,000"/>
+   <action no="10" player="tropeiro123" type="2" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards player="MyRingIsLost" type="Pocket">X X</cards>
+   <action no="11" player="MyRingIsLost" type="0" sum="0"/>
+   <cards player="7Pink" type="Pocket">X X</cards>
+   <action no="12" player="7Pink" type="0" sum="0"/>
+   <cards player="SevenBeatAce" type="Pocket">X X</cards>
+   <action no="13" player="SevenBeatAce" type="0" sum="0"/>
+   <cards player="Rekson1k1" type="Pocket">X X</cards>
+   <action no="14" player="Rekson1k1" type="0" sum="0"/>
+   <cards player="kanari" type="Pocket">CJ HK</cards>
+   <action no="15" player="kanari" type="3" sum="2,000"/>
+   <cards player="Xeniyaruss" type="Pocket">X X</cards>
+   <action no="16" player="Xeniyaruss" type="0" sum="0"/>
+   <cards player="rin1rus" type="Pocket">X X</cards>
+   <action no="17" player="rin1rus" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">SK DA</cards>
+   <action no="18" player="tropeiro123" type="23" sum="14,000"/>
+   <action no="19" player="kanari" type="3" sum="12,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 HJ HQ</cards>
+   <action no="20" player="tropeiro123" type="5" sum="7,570"/>
+   <action no="21" player="kanari" type="23" sum="15,140"/>
+   <action no="22" player="tropeiro123" type="3" sum="7,570"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action no="23" player="tropeiro123" type="4" sum="0"/>
+   <action no="24" player="kanari" type="5" sum="60,560"/>
+   <action no="25" player="tropeiro123" type="7" sum="42,483"/>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+</session>

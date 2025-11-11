@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7961639474">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€7000 GTD|Fists of Fury, 1082141171</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>02:17:47</duration>
+  <gamecount>131</gamecount>
+  <startdate>2024-02-26 19:11:27</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,269,661</bets>
+  <wins>817,307</wins>
+  <chipsin>9,944</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP36</statuspoints>
+  <awardpoints>RP108</awardpoints>
+  <ipoints>RP36</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081503037</tournamentcode>
+  <tournamentname>€7000 GTD|Fists of Fury</tournamentname>
+  <place>38</place>
+  <buyin>€18.20 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10586064542">
+  <general>
+   <startdate>2024-02-26 19:11:27</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="ExetaRes" chips="73,213" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="166,385" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="365,688" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="432,278" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="1" seat="6"/>
+    <player name="HuMaN" chips="88,414" win="0" addon="0" reg_code="" bet="8,640" rebuy="0" dealer="0" seat="7"/>
+    <player name="tropeiro123" chips="131,435" win="19,840" addon="0" reg_code="7961639474" bet="130,795" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="HuMaN" type="15"/>
+   <action no="2" sum="640" player="tropeiro123" type="15"/>
+   <action no="3" sum="640" player="ExetaRes" type="15"/>
+   <action no="4" sum="640" player="Darkter" type="15"/>
+   <action no="5" sum="640" player="BrazHell" type="15"/>
+   <action no="6" sum="640" player="Wihulu" type="15"/>
+   <action no="7" sum="4,000" player="HuMaN" type="1"/>
+   <action no="8" sum="8,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="ExetaRes" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Darkter" type="0"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="BrazHell" type="0"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="13" sum="4,000" player="HuMaN" type="3"/>
+   <cards player="tropeiro123" type="Pocket">SK CA</cards>
+   <action no="14" sum="130,795" player="tropeiro123" type="23"/>
+   <action no="15" sum="0" player="HuMaN" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586064550">
+  <general>
+   <startdate>2024-02-26 19:11:54</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="ExetaRes" chips="72,573" win="0" addon="0" reg_code="" bet="16,640" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="165,745" win="39,840" addon="0" reg_code="" bet="24,640" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="365,048" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="431,638" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="79,774" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="1" seat="7"/>
+    <player name="tropeiro123" chips="142,635" win="0" addon="0" reg_code="7961639474" bet="4,640" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="tropeiro123" type="15"/>
+   <action no="2" sum="640" player="ExetaRes" type="15"/>
+   <action no="3" sum="640" player="Darkter" type="15"/>
+   <action no="4" sum="640" player="BrazHell" type="15"/>
+   <action no="5" sum="640" player="Wihulu" type="15"/>
+   <action no="6" sum="640" player="HuMaN" type="15"/>
+   <action no="7" sum="4,000" player="tropeiro123" type="1"/>
+   <action no="8" sum="8,000" player="ExetaRes" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action no="9" sum="16,000" player="Darkter" type="23"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="BrazHell" type="0"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 DQ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="14" sum="8,000" player="ExetaRes" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA H6 H3</cards>
+   <action no="15" sum="0" player="ExetaRes" type="4"/>
+   <action no="16" sum="8,000" player="Darkter" type="5"/>
+   <action no="17" sum="0" player="ExetaRes" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586064555">
+  <general>
+   <startdate>2024-02-26 19:12:18</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="ExetaRes" chips="55,933" win="61,213" addon="0" reg_code="" bet="55,933" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="188,945" win="0" addon="0" reg_code="" bet="8,640" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="364,408" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="430,998" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="79,134" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="7"/>
+    <player name="tropeiro123" chips="137,995" win="61,213" addon="0" reg_code="7961639474" bet="137,355" rebuy="0" dealer="1" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="ExetaRes" type="15"/>
+   <action no="2" sum="640" player="Darkter" type="15"/>
+   <action no="3" sum="640" player="BrazHell" type="15"/>
+   <action no="4" sum="640" player="Wihulu" type="15"/>
+   <action no="5" sum="640" player="HuMaN" type="15"/>
+   <action no="6" sum="640" player="tropeiro123" type="15"/>
+   <action no="7" sum="4,000" player="ExetaRes" type="1"/>
+   <action no="8" sum="8,000" player="Darkter" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="BrazHell" type="0"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA H7</cards>
+   <action no="12" sum="137,355" player="tropeiro123" type="23"/>
+   <cards player="ExetaRes" type="Pocket">CA C7</cards>
+   <action no="13" sum="51,293" player="ExetaRes" type="7"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Darkter" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ S3 C4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10586064561">
+  <general>
+   <startdate>2024-02-26 19:12:58</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="414,835" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="61,213" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="1" seat="2"/>
+    <player name="Darkter" chips="180,305" win="0" addon="0" reg_code="" bet="101,056" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="363,768" win="205,952" addon="0" reg_code="" bet="101,056" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="430,358" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="78,494" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="7"/>
+    <player name="velcrocall" chips="82,034" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="9"/>
+    <player name="tropeiro123" chips="143,275" win="0" addon="0" reg_code="7961639474" bet="640" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="Darkter" type="15"/>
+   <action no="2" sum="640" player="BrazHell" type="15"/>
+   <action no="3" sum="640" player="Wihulu" type="15"/>
+   <action no="4" sum="640" player="HuMaN" type="15"/>
+   <action no="5" sum="640" player="velcrocall" type="15"/>
+   <action no="6" sum="640" player="tropeiro123" type="15"/>
+   <action no="7" sum="640" player="roubeisuasfichas" type="15"/>
+   <action no="8" sum="640" player="ExetaRes" type="15"/>
+   <action no="9" sum="4,000" player="Darkter" type="1"/>
+   <action no="10" sum="8,000" player="BrazHell" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="HuMaN" type="0"/>
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="velcrocall" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 D5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="roubeisuasfichas" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="roubeisuasfichas" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ExetaRes" type="0"/>
+   <cards player="Darkter" type="Pocket">H10 CA</cards>
+   <action no="17" sum="4,000" player="Darkter" type="3"/>
+   <cards player="BrazHell" type="Pocket">HK D3</cards>
+   <action no="18" sum="0" player="BrazHell" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H9 HA</cards>
+   <action no="19" sum="8,000" player="Darkter" type="5"/>
+   <action no="20" sum="8,000" player="BrazHell" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="21" sum="0" player="Darkter" type="4"/>
+   <action no="22" sum="20,416" player="BrazHell" type="5"/>
+   <action no="23" sum="20,416" player="Darkter" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="24" sum="0" player="Darkter" type="4"/>
+   <action no="25" sum="64,000" player="BrazHell" type="5"/>
+   <action no="26" sum="64,000" player="Darkter" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10586064578">
+  <general>
+   <startdate>2024-02-26 19:14:22</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="414,195" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="60,573" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="79,249" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="1" seat="4"/>
+    <player name="BrazHell" chips="468,664" win="293,120" addon="0" reg_code="" bet="144,640" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="429,718" win="0" addon="0" reg_code="" bet="144,640" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="77,854" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="7"/>
+    <player name="velcrocall" chips="81,394" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="9"/>
+    <player name="tropeiro123" chips="142,635" win="0" addon="0" reg_code="7961639474" bet="640" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="BrazHell" type="15"/>
+   <action no="2" sum="640" player="Wihulu" type="15"/>
+   <action no="3" sum="640" player="HuMaN" type="15"/>
+   <action no="4" sum="640" player="velcrocall" type="15"/>
+   <action no="5" sum="640" player="tropeiro123" type="15"/>
+   <action no="6" sum="640" player="roubeisuasfichas" type="15"/>
+   <action no="7" sum="640" player="ExetaRes" type="15"/>
+   <action no="8" sum="640" player="Darkter" type="15"/>
+   <action no="9" sum="4,000" player="BrazHell" type="1"/>
+   <action no="10" sum="8,000" player="Wihulu" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="HuMaN" type="0"/>
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="velcrocall" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA S7</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="roubeisuasfichas" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="roubeisuasfichas" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ExetaRes" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Darkter" type="0"/>
+   <cards player="BrazHell" type="Pocket">SJ DJ</cards>
+   <action no="17" sum="24,000" player="BrazHell" type="23"/>
+   <cards player="Wihulu" type="Pocket">D8 C8</cards>
+   <action no="18" sum="16,000" player="Wihulu" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C6 H10</cards>
+   <action no="19" sum="24,000" player="BrazHell" type="5"/>
+   <action no="20" sum="24,000" player="Wihulu" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="21" sum="48,000" player="BrazHell" type="5"/>
+   <action no="22" sum="96,000" player="Wihulu" type="23"/>
+   <action no="23" sum="48,000" player="BrazHell" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+   <action no="24" sum="0" player="BrazHell" type="4"/>
+   <action no="25" sum="0" player="Wihulu" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10586064587">
+  <general>
+   <startdate>2024-02-26 19:15:13</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="413,555" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="59,933" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="78,609" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="617,144" win="0" addon="0" reg_code="" bet="16,640" rebuy="0" dealer="1" seat="5"/>
+    <player name="Wihulu" chips="285,078" win="0" addon="0" reg_code="" bet="4,640" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="77,214" win="41,120" addon="0" reg_code="" bet="77,214" rebuy="0" dealer="0" seat="7"/>
+    <player name="velcrocall" chips="80,754" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="9"/>
+    <player name="tropeiro123" chips="141,995" win="0" addon="0" reg_code="7961639474" bet="640" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="Wihulu" type="15"/>
+   <action no="2" sum="640" player="HuMaN" type="15"/>
+   <action no="3" sum="640" player="velcrocall" type="15"/>
+   <action no="4" sum="640" player="tropeiro123" type="15"/>
+   <action no="5" sum="640" player="roubeisuasfichas" type="15"/>
+   <action no="6" sum="640" player="ExetaRes" type="15"/>
+   <action no="7" sum="640" player="Darkter" type="15"/>
+   <action no="8" sum="640" player="BrazHell" type="15"/>
+   <action no="9" sum="4,000" player="Wihulu" type="1"/>
+   <action no="10" sum="8,000" player="HuMaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="velcrocall" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA D8</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="roubeisuasfichas" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="roubeisuasfichas" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ExetaRes" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Darkter" type="0"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="16" sum="16,000" player="BrazHell" type="23"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="18" sum="8,000" player="HuMaN" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D2 H7</cards>
+   <action no="19" sum="60,574" player="HuMaN" type="5"/>
+   <action no="20" sum="0" player="BrazHell" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586064596">
+  <general>
+   <startdate>2024-02-26 19:16:03</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="412,915" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="59,293" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="2"/>
+    <player name="Darkter" chips="77,969" win="0" addon="0" reg_code="" bet="77,329" rebuy="0" dealer="0" seat="4"/>
+    <player name="BrazHell" chips="600,504" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="280,438" win="0" addon="0" reg_code="" bet="640" rebuy="0" dealer="1" seat="6"/>
+    <player name="HuMaN" chips="101,694" win="0" addon="0" reg_code="" bet="4,640" rebuy="0" dealer="0" seat="7"/>
+    <player name="velcrocall" chips="80,114" win="0" addon="0" reg_code="" bet="8,640" rebuy="0" dealer="0" seat="9"/>
+    <player name="tropeiro123" chips="141,355" win="171,778" addon="0" reg_code="7961639474" bet="77,969" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="640" player="HuMaN" type="15"/>
+   <action no="2" sum="640" player="velcrocall" type="15"/>
+   <action no="3" sum="640" player="tropeiro123" type="15"/>
+   <action no="4" sum="640" player="roubeisuasfichas" type="15"/>
+   <action no="5" sum="640" player="ExetaRes" type="15"/>
+   <action no="6" sum="640" player="Darkter" type="15"/>
+   <action no="7" sum="640" player="BrazHell" type="15"/>
+   <action no="8" sum="640" player="Wihulu" type="15"/>
+   <action no="9" sum="4,000" player="HuMaN" type="1"/>
+   <action no="10" sum="8,000" player="velcrocall" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DJ SJ</cards>
+   <action no="11" sum="16,000" player="tropeiro123" type="23"/>
+   <cards player="roubeisuasfichas" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="roubeisuasfichas" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ExetaRes" type="0"/>
+   <cards player="Darkter" type="Pocket">S10 SA</cards>
+   <action no="14" sum="77,329" player="Darkter" type="23"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BrazHell" type="0"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="HuMaN" type="0"/>
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="velcrocall" type="0"/>
+   <action no="19" sum="61,329" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 H9 C7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10586064608">
+  <general>
+   <startdate>2024-02-26 19:17:09</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="412,275" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="58,653" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="2"/>
+    <player name="BrazHell" chips="599,864" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="279,798" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="97,054" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="1" seat="7"/>
+    <player name="velcrocall" chips="71,474" win="0" addon="0" reg_code="" bet="5,220" rebuy="0" dealer="0" seat="9"/>
+    <player name="tropeiro123" chips="235,164" win="14,040" addon="0" reg_code="7961639474" bet="9,720" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="720" player="velcrocall" type="15"/>
+   <action no="2" sum="720" player="tropeiro123" type="15"/>
+   <action no="3" sum="720" player="roubeisuasfichas" type="15"/>
+   <action no="4" sum="720" player="ExetaRes" type="15"/>
+   <action no="5" sum="720" player="BrazHell" type="15"/>
+   <action no="6" sum="720" player="Wihulu" type="15"/>
+   <action no="7" sum="720" player="HuMaN" type="15"/>
+   <action no="8" sum="4,500" player="velcrocall" type="1"/>
+   <action no="9" sum="9,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H9 C9</cards>
+   <cards player="roubeisuasfichas" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="roubeisuasfichas" type="0"/>
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ExetaRes" type="0"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BrazHell" type="0"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="HuMaN" type="0"/>
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="velcrocall" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586064613">
+  <general>
+   <startdate>2024-02-26 19:17:37</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player name="roubeisuasfichas" chips="411,555" win="509,568" addon="0" reg_code="" bet="411,555" rebuy="0" dealer="0" seat="1"/>
+    <player name="ExetaRes" chips="57,933" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="2"/>
+    <player name="BrazHell" chips="599,144" win="0" addon="0" reg_code="" bet="18,720" rebuy="0" dealer="0" seat="5"/>
+    <player name="Wihulu" chips="279,078" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="6"/>
+    <player name="HuMaN" chips="96,334" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="0" seat="7"/>
+    <player name="velcrocall" chips="66,254" win="0" addon="0" reg_code="" bet="720" rebuy="0" dealer="1" seat="9"/>
+    <player name="tropeiro123" chips="243,984" win="0" addon="0" reg_code="7961639474" bet="243,264" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="720" player="tropeiro123" type="15"/>
+   <action no="2" sum="720" player="roubeisuasfichas" type="15"/>
+   <action no="3" sum="720" player="ExetaRes" type="15"/>
+   <action no="4" sum="720" player="BrazHell" type="15"/>
+   <action no="5" sum="720" player="Wihulu" type="15"/>
+   <action no="6" sum="720" player="HuMaN" type="15"/>
+   <action no="7" sum="720" player="velcrocall" type="15"/>
+   <action no="8" sum="4,500" player="tropeiro123" type="1"/>
+   <action no="9" sum="9,000" player="roubeisuasfichas" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ExetaRes" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ExetaRes" type="0"/>
+   <cards player="BrazHell" type="Pocket">X X</cards>
+   <action no="11" sum="18,000" player="BrazHell" type="23"/>
+   <cards player="Wihulu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Wihulu" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="HuMaN" type="0"/>
+   <cards player="velcrocall" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="velcrocall" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 C10</cards>
+   <action no="15" sum="243,264" player="tropeiro123" type="23"/>
+   <cards player="roubeisuasfichas" type="Pocket">CK SK</cards>
+   <action no="16" sum="401,835" player="roubeisuasfichas" type="7"/>
+   <action no="17" sum="0" player="BrazHell" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 DK C5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+</session>

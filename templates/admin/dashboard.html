@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Stat Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        
+        .admin-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .admin-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .admin-card h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .stat-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .stat-box h4 {
+            font-size: 2rem;
+            margin: 0;
+        }
+        
+        .stat-box p {
+            margin: 5px 0 0 0;
+            opacity: 0.9;
+        }
+        
+        .btn-admin {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            transition: transform 0.2s;
+        }
+        
+        .btn-admin:hover {
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('simplified.dashboard_page') }}">Stat Manager</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('simplified.dashboard_page') }}">Dashboard</a>
+                <a class="nav-link" href="{{ url_for('admin.index') }}">Admin</a>
+                <a class="nav-link" href="{{ url_for('auth.logout') }}">Sair</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="admin-container">
+        <h1 class="mb-4">Painel Administrativo</h1>
+        
+        <div class="row">
+            <div class="col-md-6">
+                <div class="admin-card">
+                    <h3><i class="bi bi-envelope-check"></i> Emails Aprovados</h3>
+                    <p class="text-muted">Gira a lista de emails pré-aprovados para registo.</p>
+                    <a href="{{ url_for('admin.manage_emails') }}" class="btn btn-admin">
+                        <i class="bi bi-pencil-square"></i> Gerir Emails
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="admin-card">
+                    <h3><i class="bi bi-ticket-detailed"></i> Códigos de Convite</h3>
+                    <p class="text-muted">Gere e gira códigos de convite para novos utilizadores.</p>
+                    <a href="{{ url_for('admin.manage_codes') }}" class="btn btn-admin">
+                        <i class="bi bi-key"></i> Gerir Códigos
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="admin-card">
+            <h3><i class="bi bi-info-circle"></i> Informações do Sistema</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <h4 id="total-users">-</h4>
+                        <p>Usuários Totais</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <h4 id="active-codes">-</h4>
+                        <p>Códigos Ativos</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <h4 id="approved-emails">-</h4>
+                        <p>Emails Aprovados</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="stat-box">
+                        <h4 id="recent-registrations">-</h4>
+                        <p>Registros (7 dias)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

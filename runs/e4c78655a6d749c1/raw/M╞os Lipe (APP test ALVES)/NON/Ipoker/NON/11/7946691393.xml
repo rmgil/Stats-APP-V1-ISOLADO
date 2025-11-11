@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946691393">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,000|The Classic, 1080785099</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:41:14</duration>
+  <gamecount>37</gamecount>
+  <startdate>2024-02-11 13:13:50</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>410,758</bets>
+  <wins>232,377</wins>
+  <chipsin>64,500</chipsin>
+  <chipsout>91,807</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080681494</tournamentcode>
+  <tournamentname>€2,000|The Classic</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558226786">
+  <general>
+   <startdate>2024-02-11 13:13:50</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" bet="30,000" seat="1" rebuy="0" dealer="1" name="LPLS1980" chips="30,000" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="29,820" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="30,000" win="64,500" addon="0"/>
+    <player reg_code="" bet="1,380" seat="5" rebuy="0" dealer="0" name="800k" chips="18,293" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="27,630" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="70,323" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="102,101" win="0" addon="0"/>
+    <player reg_code="" bet="2,580" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="29,530" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="180"/>
+   <action type="15" no="2" player="800k" sum="180"/>
+   <action type="15" no="3" player="MeisterVogel" sum="180"/>
+   <action type="15" no="4" player="TacoAlPastor" sum="180"/>
+   <action type="15" no="5" player="sondreliee" sum="180"/>
+   <action type="15" no="6" player="Sleeepc" sum="180"/>
+   <action type="15" no="7" player="LPLS1980" sum="180"/>
+   <action type="1" no="8" player="tropeiro123" sum="600"/>
+   <action type="2" no="9" player="800k" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="10" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="11" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="12" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="23" no="13" player="Sleeepc" sum="2,400"/>
+   <cards type="Pocket" player="LPLS1980">S3 SA</cards>
+   <action type="3" no="14" player="LPLS1980" sum="2,400"/>
+   <cards type="Pocket" player="tropeiro123">DA S5</cards>
+   <action type="23" no="15" player="tropeiro123" sum="29,820"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="16" player="800k" sum="0"/>
+   <action type="0" no="17" player="Sleeepc" sum="0"/>
+   <action type="7" no="18" player="LPLS1980" sum="27,420"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C5 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10558257262">
+  <general>
+   <startdate>2024-02-11 13:14:56</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7946691393" bet="9,540" seat="2" rebuy="0" dealer="1" name="tropeiro123" chips="64,500" win="12,748" addon="0"/>
+    <player reg_code="" bet="780" seat="5" rebuy="0" dealer="0" name="800k" chips="16,913" win="0" addon="0"/>
+    <player reg_code="" bet="1,380" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="27,450" win="0" addon="0"/>
+    <player reg_code="" bet="5,114" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="70,143" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="101,921" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="26,950" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="800k" sum="180"/>
+   <action type="15" no="2" player="MeisterVogel" sum="180"/>
+   <action type="15" no="3" player="TacoAlPastor" sum="180"/>
+   <action type="15" no="4" player="sondreliee" sum="180"/>
+   <action type="15" no="5" player="Sleeepc" sum="180"/>
+   <action type="15" no="6" player="tropeiro123" sum="180"/>
+   <action type="1" no="7" player="800k" sum="600"/>
+   <action type="2" no="8" player="MeisterVogel" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="23" no="9" player="TacoAlPastor" sum="2,400"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="10" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="11" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S6 SK</cards>
+   <action type="3" no="12" player="tropeiro123" sum="2,400"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="13" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="14" player="MeisterVogel" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 HJ SJ</cards>
+   <action type="5" no="15" player="TacoAlPastor" sum="2,534"/>
+   <action type="23" no="16" player="tropeiro123" sum="6,960"/>
+   <action type="0" no="17" player="TacoAlPastor" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257283">
+  <general>
+   <startdate>2024-02-11 13:16:02</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7946691393" bet="180" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="72,134" win="0" addon="0"/>
+    <player reg_code="" bet="29,820" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="30,000" win="10,980" addon="0"/>
+    <player reg_code="" bet="180" seat="5" rebuy="0" dealer="1" name="800k" chips="16,133" win="0" addon="0"/>
+    <player reg_code="" bet="780" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="26,070" win="0" addon="0"/>
+    <player reg_code="" bet="1,380" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="65,029" win="0" addon="0"/>
+    <player reg_code="" bet="2,820" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="101,741" win="0" addon="0"/>
+    <player reg_code="" bet="2,820" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="26,770" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MeisterVogel" sum="180"/>
+   <action type="15" no="2" player="TacoAlPastor" sum="180"/>
+   <action type="15" no="3" player="sondreliee" sum="180"/>
+   <action type="15" no="4" player="Sleeepc" sum="180"/>
+   <action type="15" no="5" player="tropeiro123" sum="180"/>
+   <action type="15" no="6" player="JDAtlas" sum="180"/>
+   <action type="15" no="7" player="800k" sum="180"/>
+   <action type="1" no="8" player="MeisterVogel" sum="600"/>
+   <action type="2" no="9" player="TacoAlPastor" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="23" no="10" player="sondreliee" sum="2,640"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="3" no="11" player="Sleeepc" sum="2,640"/>
+   <cards type="Pocket" player="tropeiro123">D6 SA</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="13" player="JDAtlas" sum="29,820"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="14" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="15" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="16" player="TacoAlPastor" sum="0"/>
+   <action type="0" no="17" player="sondreliee" sum="0"/>
+   <action type="0" no="18" player="Sleeepc" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257300">
+  <general>
+   <startdate>2024-02-11 13:16:50</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7946691393" bet="180" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="71,954" win="0" addon="0"/>
+    <player reg_code="" bet="4,860" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="38,160" win="6,900" addon="0"/>
+    <player reg_code="" bet="180" seat="5" rebuy="0" dealer="0" name="800k" chips="15,953" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="6" rebuy="0" dealer="1" name="MeisterVogel" chips="25,290" win="0" addon="0"/>
+    <player reg_code="" bet="780" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="63,649" win="0" addon="0"/>
+    <player reg_code="" bet="2,700" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="98,921" win="0" addon="0"/>
+    <player reg_code="" bet="180" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="23,950" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TacoAlPastor" sum="180"/>
+   <action type="15" no="2" player="sondreliee" sum="180"/>
+   <action type="15" no="3" player="Sleeepc" sum="180"/>
+   <action type="15" no="4" player="tropeiro123" sum="180"/>
+   <action type="15" no="5" player="JDAtlas" sum="180"/>
+   <action type="15" no="6" player="800k" sum="180"/>
+   <action type="15" no="7" player="MeisterVogel" sum="180"/>
+   <action type="1" no="8" player="TacoAlPastor" sum="600"/>
+   <action type="2" no="9" player="sondreliee" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="10" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C10 C5</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="12" player="JDAtlas" sum="2,520"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="13" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="14" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="15" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="3" no="16" player="sondreliee" sum="1,320"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 D3 C6</cards>
+   <action type="4" no="17" player="sondreliee" sum="0"/>
+   <action type="5" no="18" player="JDAtlas" sum="2,160"/>
+   <action type="0" no="19" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257319">
+  <general>
+   <startdate>2024-02-11 13:18:00</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="7946691393" bet="200" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="71,774" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="42,360" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="5" rebuy="0" dealer="0" name="800k" chips="15,773" win="0" addon="0"/>
+    <player reg_code="" bet="24,906" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="25,110" win="4,900" addon="0"/>
+    <player reg_code="" bet="200" seat="7" rebuy="0" dealer="1" name="TacoAlPastor" chips="62,869" win="0" addon="0"/>
+    <player reg_code="" bet="900" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="96,221" win="0" addon="0"/>
+    <player reg_code="" bet="1,600" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="23,770" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="sondreliee" sum="200"/>
+   <action type="15" no="2" player="Sleeepc" sum="200"/>
+   <action type="15" no="3" player="tropeiro123" sum="200"/>
+   <action type="15" no="4" player="JDAtlas" sum="200"/>
+   <action type="15" no="5" player="800k" sum="200"/>
+   <action type="15" no="6" player="MeisterVogel" sum="200"/>
+   <action type="15" no="7" player="TacoAlPastor" sum="200"/>
+   <action type="1" no="8" player="sondreliee" sum="700"/>
+   <action type="2" no="9" player="Sleeepc" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H9 D2</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="11" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="12" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="23" no="13" player="MeisterVogel" sum="24,906"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="14" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="15" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="16" player="Sleeepc" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257342">
+  <general>
+   <startdate>2024-02-11 13:19:09</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="7946691393" bet="13,332" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="71,574" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="42,160" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="5" rebuy="0" dealer="0" name="800k" chips="15,573" win="0" addon="0"/>
+    <player reg_code="" bet="27,332" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="28,410" win="28,364" addon="0"/>
+    <player reg_code="" bet="200" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="62,669" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="9" rebuy="0" dealer="1" name="sondreliee" chips="95,321" win="0" addon="0"/>
+    <player reg_code="" bet="900" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="22,170" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Sleeepc" sum="200"/>
+   <action type="15" no="2" player="tropeiro123" sum="200"/>
+   <action type="15" no="3" player="JDAtlas" sum="200"/>
+   <action type="15" no="4" player="800k" sum="200"/>
+   <action type="15" no="5" player="MeisterVogel" sum="200"/>
+   <action type="15" no="6" player="TacoAlPastor" sum="200"/>
+   <action type="15" no="7" player="sondreliee" sum="200"/>
+   <action type="1" no="8" player="Sleeepc" sum="700"/>
+   <action type="2" no="9" player="tropeiro123" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="10" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="11" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="23" no="12" player="MeisterVogel" sum="3,220"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="13" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="14" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="15" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CQ D4</cards>
+   <action type="3" no="16" player="tropeiro123" sum="1,820"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ C8 CK</cards>
+   <action type="4" no="17" player="tropeiro123" sum="0"/>
+   <action type="5" no="18" player="MeisterVogel" sum="4,270"/>
+   <action type="3" no="19" player="tropeiro123" sum="4,270"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action type="4" no="20" player="tropeiro123" sum="0"/>
+   <action type="5" no="21" player="MeisterVogel" sum="5,642"/>
+   <action type="3" no="22" player="tropeiro123" sum="5,642"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action type="4" no="23" player="tropeiro123" sum="0"/>
+   <action type="5" no="24" player="MeisterVogel" sum="14,000"/>
+   <action type="0" no="25" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257386">
+  <general>
+   <startdate>2024-02-11 13:21:45</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="7946691393" bet="8,432" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="58,242" win="12,432" addon="0"/>
+    <player reg_code="" bet="1,600" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="41,960" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="5" rebuy="0" dealer="0" name="800k" chips="15,373" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="43,442" win="0" addon="0"/>
+    <player reg_code="" bet="5,016" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="62,469" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="95,121" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="10" rebuy="0" dealer="1" name="Sleeepc" chips="21,270" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="200"/>
+   <action type="15" no="2" player="JDAtlas" sum="200"/>
+   <action type="15" no="3" player="800k" sum="200"/>
+   <action type="15" no="4" player="MeisterVogel" sum="200"/>
+   <action type="15" no="5" player="TacoAlPastor" sum="200"/>
+   <action type="15" no="6" player="sondreliee" sum="200"/>
+   <action type="15" no="7" player="Sleeepc" sum="200"/>
+   <action type="1" no="8" player="tropeiro123" sum="700"/>
+   <action type="2" no="9" player="JDAtlas" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="10" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="11" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="23" no="12" player="TacoAlPastor" sum="2,800"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="13" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="14" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H6 D6</cards>
+   <action type="3" no="15" player="tropeiro123" sum="2,100"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="16" player="JDAtlas" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA S2 SA</cards>
+   <action type="4" no="17" player="tropeiro123" sum="0"/>
+   <action type="5" no="18" player="TacoAlPastor" sum="2,016"/>
+   <action type="23" no="19" player="tropeiro123" sum="5,432"/>
+   <action type="0" no="20" player="TacoAlPastor" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257417">
+  <general>
+   <startdate>2024-02-11 13:23:29</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" bet="200" seat="1" rebuy="0" dealer="0" name="matekl" chips="30,000" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="2,940" seat="2" rebuy="0" dealer="1" name="tropeiro123" chips="65,658" win="5,100" addon="0"/>
+    <player reg_code="" bet="900" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="40,360" win="0" addon="0"/>
+    <player reg_code="" bet="1,600" seat="5" rebuy="0" dealer="0" name="800k" chips="15,173" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="43,242" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="57,453" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="94,921" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="21,070" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="JDAtlas" sum="200"/>
+   <action type="15" no="2" player="800k" sum="200"/>
+   <action type="15" no="3" player="MeisterVogel" sum="200"/>
+   <action type="15" no="4" player="TacoAlPastor" sum="200"/>
+   <action type="15" no="5" player="sondreliee" sum="200"/>
+   <action type="15" no="6" player="Sleeepc" sum="200"/>
+   <action type="15" no="7" player="matekl" sum="200"/>
+   <action type="15" no="8" player="tropeiro123" sum="200"/>
+   <action type="1" no="9" player="JDAtlas" sum="700"/>
+   <action type="2" no="10" player="800k" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="11" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="12" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="13" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="14" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="15" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SA H4</cards>
+   <action type="23" no="16" player="tropeiro123" sum="2,940"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="17" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="18" player="800k" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257427">
+  <general>
+   <startdate>2024-02-11 13:23:57</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" bet="3,280" seat="1" rebuy="0" dealer="0" name="matekl" chips="29,800" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="200" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="69,158" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="4" rebuy="0" dealer="1" name="JDAtlas" chips="39,460" win="0" addon="0"/>
+    <player reg_code="" bet="900" seat="5" rebuy="0" dealer="0" name="800k" chips="13,573" win="0" addon="0"/>
+    <player reg_code="" bet="9,622" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="43,042" win="8,460" addon="0"/>
+    <player reg_code="" bet="200" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="57,253" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="94,721" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="20,870" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="800k" sum="200"/>
+   <action type="15" no="2" player="MeisterVogel" sum="200"/>
+   <action type="15" no="3" player="TacoAlPastor" sum="200"/>
+   <action type="15" no="4" player="sondreliee" sum="200"/>
+   <action type="15" no="5" player="Sleeepc" sum="200"/>
+   <action type="15" no="6" player="matekl" sum="200"/>
+   <action type="15" no="7" player="tropeiro123" sum="200"/>
+   <action type="15" no="8" player="JDAtlas" sum="200"/>
+   <action type="1" no="9" player="800k" sum="700"/>
+   <action type="2" no="10" player="MeisterVogel" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="11" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="12" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="13" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="23" no="14" player="matekl" sum="3,080"/>
+   <cards type="Pocket" player="tropeiro123">C8 C10</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="16" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="800k">X X</cards>
+   <action type="0" no="17" player="800k" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="3" no="18" player="MeisterVogel" sum="1,680"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D7 SK</cards>
+   <action type="4" no="19" player="MeisterVogel" sum="0"/>
+   <action type="4" no="20" player="matekl" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action type="5" no="21" player="MeisterVogel" sum="6,342"/>
+   <action type="0" no="22" player="matekl" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558257448">
+  <general>
+   <startdate>2024-02-11 13:25:20</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" bet="12,673" seat="1" rebuy="0" dealer="0" name="matekl" chips="26,520" win="28,646" addon="0"/>
+    <player reg_code="7946691393" bet="200" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="68,958" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="39,260" win="0" addon="0"/>
+    <player reg_code="" bet="12,473" seat="5" rebuy="0" dealer="1" name="800k" chips="12,673" win="0" addon="0"/>
+    <player reg_code="" bet="900" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="48,222" win="0" addon="0"/>
+    <player reg_code="" bet="1,600" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="57,053" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="94,521" win="0" addon="0"/>
+    <player reg_code="" bet="200" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="20,670" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MeisterVogel" sum="200"/>
+   <action type="15" no="2" player="TacoAlPastor" sum="200"/>
+   <action type="15" no="3" player="sondreliee" sum="200"/>
+   <action type="15" no="4" player="Sleeepc" sum="200"/>
+   <action type="15" no="5" player="matekl" sum="200"/>
+   <action type="15" no="6" player="tropeiro123" sum="200"/>
+   <action type="15" no="7" player="JDAtlas" sum="200"/>
+   <action type="15" no="8" player="800k" sum="200"/>
+   <action type="1" no="9" player="MeisterVogel" sum="700"/>
+   <action type="2" no="10" player="TacoAlPastor" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="11" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="12" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">HJ DQ</cards>
+   <action type="23" no="13" player="matekl" sum="3,080"/>
+   <cards type="Pocket" player="tropeiro123">DA C2</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="15" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="800k">HK SQ</cards>
+   <action type="23" no="16" player="800k" sum="12,473"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="17" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="18" player="TacoAlPastor" sum="0"/>
+   <action type="3" no="19" player="matekl" sum="9,393"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ C8 D9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+  </round>
+ </game>
+ <game gamecode="10558279815">
+  <general>
+   <startdate>2024-02-11 13:26:10</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="250" seat="1" rebuy="0" dealer="0" name="matekl" chips="42,493" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="250" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="68,758" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="39,060" win="0" addon="0"/>
+    <player reg_code="" bet="6,410" seat="6" rebuy="0" dealer="1" name="MeisterVogel" chips="47,322" win="0" addon="0"/>
+    <player reg_code="" bet="1,050" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="55,453" win="0" addon="0"/>
+    <player reg_code="" bet="12,570" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="94,321" win="14,870" addon="0"/>
+    <player reg_code="" bet="250" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="20,470" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TacoAlPastor" sum="250"/>
+   <action type="15" no="2" player="sondreliee" sum="250"/>
+   <action type="15" no="3" player="Sleeepc" sum="250"/>
+   <action type="15" no="4" player="matekl" sum="250"/>
+   <action type="15" no="5" player="tropeiro123" sum="250"/>
+   <action type="15" no="6" player="JDAtlas" sum="250"/>
+   <action type="15" no="7" player="MeisterVogel" sum="250"/>
+   <action type="1" no="8" player="TacoAlPastor" sum="800"/>
+   <action type="2" no="9" player="sondreliee" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="10" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="11" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DQ C3</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="13" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="23" no="14" player="MeisterVogel" sum="3,200"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="15" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="3" no="16" player="sondreliee" sum="1,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 CA C4</cards>
+   <action type="4" no="17" player="sondreliee" sum="0"/>
+   <action type="5" no="18" player="MeisterVogel" sum="2,960"/>
+   <action type="23" no="19" player="sondreliee" sum="9,120"/>
+   <action type="0" no="20" player="MeisterVogel" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279833">
+  <general>
+   <startdate>2024-02-11 13:27:09</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="250" seat="1" rebuy="0" dealer="0" name="matekl" chips="42,243" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="250" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="68,508" win="0" addon="0"/>
+    <player reg_code="" bet="6,669" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="38,810" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="40,912" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="7" rebuy="0" dealer="1" name="TacoAlPastor" chips="54,403" win="0" addon="0"/>
+    <player reg_code="" bet="1,050" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="102,781" win="0" addon="0"/>
+    <player reg_code="" bet="20,220" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="20,220" win="15,388" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="sondreliee" sum="250"/>
+   <action type="15" no="2" player="Sleeepc" sum="250"/>
+   <action type="15" no="3" player="matekl" sum="250"/>
+   <action type="15" no="4" player="tropeiro123" sum="250"/>
+   <action type="15" no="5" player="JDAtlas" sum="250"/>
+   <action type="15" no="6" player="MeisterVogel" sum="250"/>
+   <action type="15" no="7" player="TacoAlPastor" sum="250"/>
+   <action type="1" no="8" player="sondreliee" sum="800"/>
+   <action type="2" no="9" player="Sleeepc" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="10" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S7 S2</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="12" player="JDAtlas" sum="3,360"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="13" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="14" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="15" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="3" no="16" player="Sleeepc" sum="1,760"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 HJ D10</cards>
+   <action type="4" no="17" player="Sleeepc" sum="0"/>
+   <action type="5" no="18" player="JDAtlas" sum="3,059"/>
+   <action type="23" no="19" player="Sleeepc" sum="16,610"/>
+   <action type="0" no="20" player="JDAtlas" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279843">
+  <general>
+   <startdate>2024-02-11 13:27:52</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="1,850" seat="1" rebuy="0" dealer="0" name="matekl" chips="41,993" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="250" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="68,258" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="32,141" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="40,662" win="0" addon="0"/>
+    <player reg_code="" bet="3,200" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="54,153" win="5,750" addon="0"/>
+    <player reg_code="" bet="250" seat="9" rebuy="0" dealer="1" name="sondreliee" chips="101,731" win="0" addon="0"/>
+    <player reg_code="" bet="1,050" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="28,939" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Sleeepc" sum="250"/>
+   <action type="15" no="2" player="matekl" sum="250"/>
+   <action type="15" no="3" player="tropeiro123" sum="250"/>
+   <action type="15" no="4" player="JDAtlas" sum="250"/>
+   <action type="15" no="5" player="MeisterVogel" sum="250"/>
+   <action type="15" no="6" player="TacoAlPastor" sum="250"/>
+   <action type="15" no="7" player="sondreliee" sum="250"/>
+   <action type="1" no="8" player="Sleeepc" sum="800"/>
+   <action type="2" no="9" player="matekl" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HJ C7</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="11" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="12" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="23" no="13" player="TacoAlPastor" sum="3,200"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="14" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="15" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="16" player="matekl" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279851">
+  <general>
+   <startdate>2024-02-11 13:28:26</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="1,050" seat="1" rebuy="0" dealer="0" name="matekl" chips="40,143" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="5,750" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="68,008" win="9,200" addon="0"/>
+    <player reg_code="" bet="250" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="31,891" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="5" rebuy="0" dealer="0" name="fishgreedy885" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="40,412" win="0" addon="0"/>
+    <player reg_code="" bet="3,450" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="58,053" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="101,481" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="10" rebuy="0" dealer="1" name="Sleeepc" chips="27,889" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="matekl" sum="250"/>
+   <action type="15" no="2" player="tropeiro123" sum="250"/>
+   <action type="15" no="3" player="JDAtlas" sum="250"/>
+   <action type="15" no="4" player="fishgreedy885" sum="250"/>
+   <action type="15" no="5" player="MeisterVogel" sum="250"/>
+   <action type="15" no="6" player="TacoAlPastor" sum="250"/>
+   <action type="15" no="7" player="sondreliee" sum="250"/>
+   <action type="15" no="8" player="Sleeepc" sum="250"/>
+   <action type="1" no="9" player="matekl" sum="800"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="11" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="fishgreedy885">X X</cards>
+   <action type="0" no="12" player="fishgreedy885" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="13" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="23" no="14" player="TacoAlPastor" sum="3,200"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="15" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="16" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="17" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C3 H3</cards>
+   <action type="3" no="18" player="tropeiro123" sum="1,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 C4 C5</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="TacoAlPastor" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action type="5" no="21" player="tropeiro123" sum="2,300"/>
+   <action type="0" no="22" player="TacoAlPastor" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279876">
+  <general>
+   <startdate>2024-02-11 13:29:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="250" seat="1" rebuy="0" dealer="1" name="matekl" chips="39,093" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="3,610" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="73,758" win="0" addon="0"/>
+    <player reg_code="" bet="31,641" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="31,641" win="75,358" addon="0"/>
+    <player reg_code="" bet="250" seat="5" rebuy="0" dealer="0" name="fishgreedy885" chips="29,750" win="0" addon="0"/>
+    <player reg_code="" bet="31,641" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="40,162" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="54,603" win="0" addon="0"/>
+    <player reg_code="" bet="7,466" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="101,231" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="27,639" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="250"/>
+   <action type="15" no="2" player="JDAtlas" sum="250"/>
+   <action type="15" no="3" player="fishgreedy885" sum="250"/>
+   <action type="15" no="4" player="MeisterVogel" sum="250"/>
+   <action type="15" no="5" player="TacoAlPastor" sum="250"/>
+   <action type="15" no="6" player="sondreliee" sum="250"/>
+   <action type="15" no="7" player="Sleeepc" sum="250"/>
+   <action type="15" no="8" player="matekl" sum="250"/>
+   <action type="1" no="9" player="tropeiro123" sum="800"/>
+   <action type="2" no="10" player="JDAtlas" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishgreedy885">X X</cards>
+   <action type="0" no="11" player="fishgreedy885" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">HQ SA</cards>
+   <action type="23" no="12" player="MeisterVogel" sum="3,360"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="13" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="3" no="14" player="sondreliee" sum="3,360"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="15" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="16" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CA C4</cards>
+   <action type="3" no="17" player="tropeiro123" sum="2,560"/>
+   <cards type="Pocket" player="JDAtlas">S6 D6</cards>
+   <action type="3" no="18" player="JDAtlas" sum="1,760"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 DA S9</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="JDAtlas" sum="0"/>
+   <action type="5" no="21" player="MeisterVogel" sum="3,856"/>
+   <action type="3" no="22" player="sondreliee" sum="3,856"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+   <action type="3" no="24" player="JDAtlas" sum="3,856"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="4" no="25" player="JDAtlas" sum="0"/>
+   <action type="5" no="26" player="MeisterVogel" sum="8,912"/>
+   <action type="0" no="27" player="sondreliee" sum="0"/>
+   <action type="23" no="28" player="JDAtlas" sum="24,175"/>
+   <action type="3" no="29" player="MeisterVogel" sum="15,263"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10558279931">
+  <general>
+   <startdate>2024-02-11 13:32:41</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" bet="250" seat="1" rebuy="0" dealer="0" name="matekl" chips="38,843" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="250" seat="2" rebuy="0" dealer="1" name="tropeiro123" chips="70,148" win="0" addon="0"/>
+    <player reg_code="" bet="1,050" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="75,358" win="0" addon="0"/>
+    <player reg_code="" bet="9,650" seat="5" rebuy="0" dealer="0" name="fishgreedy885" chips="29,500" win="12,400" addon="0"/>
+    <player reg_code="" bet="250" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="8,521" win="0" addon="0"/>
+    <player reg_code="" bet="3,450" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="54,353" win="0" addon="0"/>
+    <player reg_code="" bet="3,450" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="93,765" win="0" addon="0"/>
+    <player reg_code="" bet="250" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="27,389" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="JDAtlas" sum="250"/>
+   <action type="15" no="2" player="fishgreedy885" sum="250"/>
+   <action type="15" no="3" player="MeisterVogel" sum="250"/>
+   <action type="15" no="4" player="TacoAlPastor" sum="250"/>
+   <action type="15" no="5" player="sondreliee" sum="250"/>
+   <action type="15" no="6" player="Sleeepc" sum="250"/>
+   <action type="15" no="7" player="matekl" sum="250"/>
+   <action type="15" no="8" player="tropeiro123" sum="250"/>
+   <action type="1" no="9" player="JDAtlas" sum="800"/>
+   <action type="2" no="10" player="fishgreedy885" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="11" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="23" no="12" player="TacoAlPastor" sum="3,200"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="3" no="13" player="sondreliee" sum="3,200"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="14" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="15" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S5 HA</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="17" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="fishgreedy885">X X</cards>
+   <action type="3" no="18" player="fishgreedy885" sum="1,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK CJ H3</cards>
+   <action type="4" no="19" player="fishgreedy885" sum="0"/>
+   <action type="4" no="20" player="TacoAlPastor" sum="0"/>
+   <action type="4" no="21" player="sondreliee" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action type="4" no="22" player="fishgreedy885" sum="0"/>
+   <action type="4" no="23" player="TacoAlPastor" sum="0"/>
+   <action type="4" no="24" player="sondreliee" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action type="5" no="25" player="fishgreedy885" sum="6,200"/>
+   <action type="0" no="26" player="TacoAlPastor" sum="0"/>
+   <action type="0" no="27" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279964">
+  <general>
+   <startdate>2024-02-11 13:34:07</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="1" rebuy="0" dealer="0" name="matekl" chips="38,593" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="275" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="69,898" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="1" name="JDAtlas" chips="74,308" win="0" addon="0"/>
+    <player reg_code="" bet="1,175" seat="5" rebuy="0" dealer="0" name="fishgreedy885" chips="38,450" win="0" addon="0"/>
+    <player reg_code="" bet="8,267" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="8,271" win="10,300" addon="0"/>
+    <player reg_code="" bet="275" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="50,903" win="0" addon="0"/>
+    <player reg_code="" bet="3,875" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="90,315" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="27,139" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="fishgreedy885" sum="275"/>
+   <action type="15" no="2" player="MeisterVogel" sum="275"/>
+   <action type="15" no="3" player="TacoAlPastor" sum="275"/>
+   <action type="15" no="4" player="sondreliee" sum="275"/>
+   <action type="15" no="5" player="Sleeepc" sum="275"/>
+   <action type="15" no="6" player="matekl" sum="275"/>
+   <action type="15" no="7" player="tropeiro123" sum="275"/>
+   <action type="15" no="8" player="JDAtlas" sum="275"/>
+   <action type="1" no="9" player="fishgreedy885" sum="900"/>
+   <action type="2" no="10" player="MeisterVogel" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="11" player="TacoAlPastor" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="23" no="12" player="sondreliee" sum="3,600"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" no="13" player="Sleeepc" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="14" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ HJ</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="16" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="fishgreedy885">X X</cards>
+   <action type="0" no="17" player="fishgreedy885" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="3" no="18" player="MeisterVogel" sum="1,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 CQ CK</cards>
+   <action type="4" no="19" player="MeisterVogel" sum="0"/>
+   <action type="4" no="20" player="sondreliee" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action type="5" no="21" player="MeisterVogel" sum="4,392"/>
+   <action type="0" no="22" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558279983">
+  <general>
+   <startdate>2024-02-11 13:35:02</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="1" rebuy="0" dealer="0" name="matekl" chips="38,318" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="26,864" seat="2" rebuy="0" dealer="0" name="tropeiro123" chips="69,623" win="58,078" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="0" name="JDAtlas" chips="74,033" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="5" rebuy="0" dealer="1" name="fishgreedy885" chips="37,275" win="0" addon="0"/>
+    <player reg_code="" bet="1,175" seat="6" rebuy="0" dealer="0" name="MeisterVogel" chips="14,696" win="0" addon="0"/>
+    <player reg_code="" bet="2,075" seat="7" rebuy="0" dealer="0" name="TacoAlPastor" chips="50,628" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="9" rebuy="0" dealer="0" name="sondreliee" chips="86,440" win="0" addon="0"/>
+    <player reg_code="" bet="26,589" seat="10" rebuy="0" dealer="0" name="Sleeepc" chips="26,864" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MeisterVogel" sum="275"/>
+   <action type="15" no="2" player="TacoAlPastor" sum="275"/>
+   <action type="15" no="3" player="sondreliee" sum="275"/>
+   <action type="15" no="4" player="Sleeepc" sum="275"/>
+   <action type="15" no="5" player="matekl" sum="275"/>
+   <action type="15" no="6" player="tropeiro123" sum="275"/>
+   <action type="15" no="7" player="JDAtlas" sum="275"/>
+   <action type="15" no="8" player="fishgreedy885" sum="275"/>
+   <action type="1" no="9" player="MeisterVogel" sum="900"/>
+   <action type="2" no="10" player="TacoAlPastor" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="11" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="Sleeepc">SJ DJ</cards>
+   <action type="23" no="12" player="Sleeepc" sum="3,600"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="13" player="matekl" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CA HA</cards>
+   <action type="23" no="14" player="tropeiro123" sum="8,100"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="15" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="fishgreedy885">X X</cards>
+   <action type="0" no="16" player="fishgreedy885" sum="0"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action type="0" no="17" player="MeisterVogel" sum="0"/>
+   <cards type="Pocket" player="TacoAlPastor">X X</cards>
+   <action type="0" no="18" player="TacoAlPastor" sum="0"/>
+   <action type="23" no="19" player="Sleeepc" sum="26,589"/>
+   <action type="3" no="20" player="tropeiro123" sum="18,489"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK H9 CQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+  </round>
+ </game>
+ <game gamecode="10558279992">
+  <general>
+   <startdate>2024-02-11 13:35:33</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="9,337" seat="1" rebuy="0" dealer="0" name="heartfirst876" chips="56,280" win="21,849" addon="0"/>
+    <player reg_code="" bet="275" seat="2" rebuy="0" dealer="0" name="WhosWhoo" chips="23,884" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="0" name="bigstaker" chips="50,105" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="5" rebuy="0" dealer="0" name="illidandik" chips="49,880" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="7" rebuy="0" dealer="1" name="SystemOFaClown" chips="12,885" win="0" addon="0"/>
+    <player reg_code="" bet="9,337" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="57,450" win="0" addon="0"/>
+    <player reg_code="" bet="2,075" seat="10" rebuy="0" dealer="0" name="WorldsBestBoss" chips="30,356" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="PowerSkills" sum="275"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="3" player="heartfirst876" sum="275"/>
+   <action type="15" no="4" player="WhosWhoo" sum="275"/>
+   <action type="15" no="5" player="bigstaker" sum="275"/>
+   <action type="15" no="6" player="illidandik" sum="275"/>
+   <action type="15" no="7" player="SystemOFaClown" sum="275"/>
+   <action type="1" no="8" player="PowerSkills" sum="900"/>
+   <action type="2" no="9" player="WorldsBestBoss" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="heartfirst876">CQ CJ</cards>
+   <action type="3" no="10" player="heartfirst876" sum="1,800"/>
+   <cards type="Pocket" player="WhosWhoo">X X</cards>
+   <action type="0" no="11" player="WhosWhoo" sum="0"/>
+   <cards type="Pocket" player="bigstaker">X X</cards>
+   <action type="0" no="12" player="bigstaker" sum="0"/>
+   <cards type="Pocket" player="illidandik">X X</cards>
+   <action type="0" no="13" player="illidandik" sum="0"/>
+   <cards type="Pocket" player="SystemOFaClown">X X</cards>
+   <action type="0" no="14" player="SystemOFaClown" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">H8 H10</cards>
+   <action type="3" no="15" player="PowerSkills" sum="900"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="4" no="16" player="WorldsBestBoss" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H5 DJ</cards>
+   <action type="4" no="17" player="PowerSkills" sum="0"/>
+   <action type="4" no="18" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="19" player="heartfirst876" sum="3,662"/>
+   <action type="3" no="20" player="PowerSkills" sum="3,662"/>
+   <action type="0" no="21" player="WorldsBestBoss" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action type="4" no="22" player="PowerSkills" sum="0"/>
+   <action type="5" no="23" player="heartfirst876" sum="3,600"/>
+   <action type="3" no="24" player="PowerSkills" sum="3,600"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+   <action type="4" no="25" player="PowerSkills" sum="0"/>
+   <action type="4" no="26" player="heartfirst876" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558304928">
+  <general>
+   <startdate>2024-02-11 13:36:52</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="2,075" seat="1" rebuy="0" dealer="0" name="heartfirst876" chips="68,792" win="0" addon="0"/>
+    <player reg_code="" bet="3,875" seat="2" rebuy="0" dealer="0" name="WhosWhoo" chips="23,609" win="0" addon="0"/>
+    <player reg_code="" bet="3,875" seat="4" rebuy="0" dealer="0" name="bigstaker" chips="49,830" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="5" rebuy="0" dealer="0" name="illidandik" chips="49,605" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="100,562" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="100,837" win="15,425" addon="0"/>
+    <player reg_code="" bet="275" seat="7" rebuy="0" dealer="0" name="SystemOFaClown" chips="12,610" win="0" addon="0"/>
+    <player reg_code="" bet="1,175" seat="10" rebuy="0" dealer="0" name="WorldsBestBoss" chips="28,281" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="2" player="heartfirst876" sum="275"/>
+   <action type="15" no="3" player="WhosWhoo" sum="275"/>
+   <action type="15" no="4" player="bigstaker" sum="275"/>
+   <action type="15" no="5" player="illidandik" sum="275"/>
+   <action type="15" no="6" player="tropeiro123" sum="275"/>
+   <action type="15" no="7" player="SystemOFaClown" sum="275"/>
+   <action type="1" no="8" player="WorldsBestBoss" sum="900"/>
+   <action type="2" no="9" player="heartfirst876" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WhosWhoo">X X</cards>
+   <action type="23" no="10" player="WhosWhoo" sum="3,600"/>
+   <cards type="Pocket" player="bigstaker">X X</cards>
+   <action type="3" no="11" player="bigstaker" sum="3,600"/>
+   <cards type="Pocket" player="illidandik">X X</cards>
+   <action type="0" no="12" player="illidandik" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HK DA</cards>
+   <action type="23" no="13" player="tropeiro123" sum="100,562"/>
+   <cards type="Pocket" player="SystemOFaClown">X X</cards>
+   <action type="0" no="14" player="SystemOFaClown" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="heartfirst876">X X</cards>
+   <action type="0" no="16" player="heartfirst876" sum="0"/>
+   <action type="0" no="17" player="WhosWhoo" sum="0"/>
+   <action type="0" no="18" player="bigstaker" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558304932">
+  <general>
+   <startdate>2024-02-11 13:37:05</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="1" rebuy="0" dealer="1" name="shoeless" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="29,993" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="30,000" win="19,650" addon="0"/>
+    <player reg_code="" bet="9,275" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="86,165" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="73,758" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="48,113" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="14,675" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="BFBikeNSE" sum="275"/>
+   <action type="15" no="2" player="sondreliee" sum="275"/>
+   <action type="15" no="3" player="JDAtlas" sum="275"/>
+   <action type="15" no="4" player="PowerSkills" sum="275"/>
+   <action type="15" no="5" player="SunRunAndylula" sum="275"/>
+   <action type="15" no="6" player="shoeless" sum="275"/>
+   <action type="1" no="7" player="BFBikeNSE" sum="900"/>
+   <action type="2" no="8" player="sondreliee" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="9" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="10" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="11" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="shoeless">X X</cards>
+   <action type="0" no="12" player="shoeless" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="3" no="13" player="BFBikeNSE" sum="900"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="4" no="14" player="sondreliee" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D9 HJ</cards>
+   <action type="5" no="15" player="BFBikeNSE" sum="1,800"/>
+   <action type="3" no="16" player="sondreliee" sum="1,800"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action type="5" no="17" player="BFBikeNSE" sum="5,400"/>
+   <action type="3" no="18" player="sondreliee" sum="5,400"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action type="5" no="19" player="BFBikeNSE" sum="20,718"/>
+   <action type="0" no="20" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558304978">
+  <general>
+   <startdate>2024-02-11 13:38:16</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="2" rebuy="0" dealer="1" name="BFBikeNSE" chips="40,375" win="0" addon="0"/>
+    <player reg_code="" bet="2,075" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="76,890" win="0" addon="0"/>
+    <player reg_code="" bet="5,400" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="73,483" win="4,975" addon="0"/>
+    <player reg_code="" bet="275" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="47,838" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="14,400" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="sondreliee" sum="275"/>
+   <action type="15" no="2" player="JDAtlas" sum="275"/>
+   <action type="15" no="3" player="PowerSkills" sum="275"/>
+   <action type="15" no="4" player="SunRunAndylula" sum="275"/>
+   <action type="15" no="5" player="BFBikeNSE" sum="275"/>
+   <action type="1" no="6" player="sondreliee" sum="900"/>
+   <action type="2" no="7" player="JDAtlas" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="8" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="9" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="10" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="3" no="11" player="sondreliee" sum="900"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="12" player="JDAtlas" sum="5,400"/>
+   <action type="0" no="13" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558304994">
+  <general>
+   <startdate>2024-02-11 13:38:42</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="40,100" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="0" name="heartable45" chips="30,000" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="6,651" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="112,387" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="6" rebuy="0" dealer="1" name="sondreliee" chips="74,815" win="0" addon="0"/>
+    <player reg_code="" bet="1,175" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="76,383" win="0" addon="0"/>
+    <player reg_code="" bet="12,051" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="47,563" win="15,577" addon="0"/>
+    <player reg_code="" bet="275" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="14,125" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="JDAtlas" sum="275"/>
+   <action type="15" no="2" player="PowerSkills" sum="275"/>
+   <action type="15" no="3" player="SunRunAndylula" sum="275"/>
+   <action type="15" no="4" player="BFBikeNSE" sum="275"/>
+   <action type="15" no="5" player="heartable45" sum="275"/>
+   <action type="15" no="6" player="tropeiro123" sum="275"/>
+   <action type="15" no="7" player="sondreliee" sum="275"/>
+   <action type="1" no="8" player="JDAtlas" sum="900"/>
+   <action type="2" no="9" player="PowerSkills" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="10" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="11" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="12" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C9 D10</cards>
+   <action type="23" no="13" player="tropeiro123" sum="3,780"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="14" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="15" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="3" no="16" player="PowerSkills" sum="1,980"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 SA C2</cards>
+   <action type="4" no="17" player="PowerSkills" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="2,596"/>
+   <action type="3" no="19" player="PowerSkills" sum="2,596"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action type="5" no="20" player="PowerSkills" sum="5,400"/>
+   <action type="0" no="21" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558305061">
+  <general>
+   <startdate>2024-02-11 13:40:01</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="275" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="39,825" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="0" name="heartable45" chips="29,725" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="275" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="105,736" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="74,540" win="0" addon="0"/>
+    <player reg_code="" bet="3,780" seat="7" rebuy="0" dealer="1" name="JDAtlas" chips="75,208" win="6,425" addon="0"/>
+    <player reg_code="" bet="1,175" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="56,489" win="0" addon="0"/>
+    <player reg_code="" bet="2,075" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="13,850" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="PowerSkills" sum="275"/>
+   <action type="15" no="2" player="SunRunAndylula" sum="275"/>
+   <action type="15" no="3" player="BFBikeNSE" sum="275"/>
+   <action type="15" no="4" player="heartable45" sum="275"/>
+   <action type="15" no="5" player="tropeiro123" sum="275"/>
+   <action type="15" no="6" player="sondreliee" sum="275"/>
+   <action type="15" no="7" player="JDAtlas" sum="275"/>
+   <action type="1" no="8" player="PowerSkills" sum="900"/>
+   <action type="2" no="9" player="SunRunAndylula" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="10" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="11" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S10 D7</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="13" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="14" player="JDAtlas" sum="3,780"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="15" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="16" player="SunRunAndylula" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558305091">
+  <general>
+   <startdate>2024-02-11 13:40:41</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" bet="2,075" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="39,550" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="4" rebuy="0" dealer="0" name="heartable45" chips="29,450" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="275" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="105,461" win="0" addon="0"/>
+    <player reg_code="" bet="275" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="74,265" win="0" addon="0"/>
+    <player reg_code="" bet="28,013" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="79,558" win="37,763" addon="0"/>
+    <player reg_code="" bet="16,844" seat="9" rebuy="0" dealer="1" name="PowerSkills" chips="55,314" win="0" addon="0"/>
+    <player reg_code="" bet="1,175" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="11,775" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="SunRunAndylula" sum="275"/>
+   <action type="15" no="2" player="BFBikeNSE" sum="275"/>
+   <action type="15" no="3" player="heartable45" sum="275"/>
+   <action type="15" no="4" player="tropeiro123" sum="275"/>
+   <action type="15" no="5" player="sondreliee" sum="275"/>
+   <action type="15" no="6" player="JDAtlas" sum="275"/>
+   <action type="15" no="7" player="PowerSkills" sum="275"/>
+   <action type="1" no="8" player="SunRunAndylula" sum="900"/>
+   <action type="2" no="9" player="BFBikeNSE" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="10" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S7 CK</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="12" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="23" no="13" player="JDAtlas" sum="3,780"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="23" no="14" player="PowerSkills" sum="10,800"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="15" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="16" player="BFBikeNSE" sum="0"/>
+   <action type="3" no="17" player="JDAtlas" sum="7,020"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 H7 C9</cards>
+   <action type="4" no="18" player="JDAtlas" sum="0"/>
+   <action type="5" no="19" player="PowerSkills" sum="5,769"/>
+   <action type="23" no="20" player="JDAtlas" sum="16,938"/>
+   <action type="0" no="21" player="PowerSkills" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558305140">
+  <general>
+   <startdate>2024-02-11 13:41:56</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="1,300" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="37,475" win="0" addon="0"/>
+    <player reg_code="" bet="2,300" seat="4" rebuy="0" dealer="0" name="heartable45" chips="29,175" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="4,200" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="105,186" win="7,100" addon="0"/>
+    <player reg_code="" bet="300" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="73,990" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="100,477" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="38,470" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="10" rebuy="0" dealer="1" name="SunRunAndylula" chips="10,600" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="BFBikeNSE" sum="300"/>
+   <action type="15" no="2" player="heartable45" sum="300"/>
+   <action type="15" no="3" player="tropeiro123" sum="300"/>
+   <action type="15" no="4" player="sondreliee" sum="300"/>
+   <action type="15" no="5" player="JDAtlas" sum="300"/>
+   <action type="15" no="6" player="PowerSkills" sum="300"/>
+   <action type="15" no="7" player="SunRunAndylula" sum="300"/>
+   <action type="1" no="8" player="BFBikeNSE" sum="1,000"/>
+   <action type="2" no="9" player="heartable45" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HA H3</cards>
+   <action type="23" no="10" player="tropeiro123" sum="4,200"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="0" no="11" player="sondreliee" sum="0"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="12" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="13" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="14" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="15" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="16" player="heartable45" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558305151">
+  <general>
+   <startdate>2024-02-11 13:42:18</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="300" seat="1" rebuy="0" dealer="0" name="TaiwanNaves" chips="64,536" win="0" addon="0"/>
+    <player reg_code="" bet="35,875" seat="2" rebuy="0" dealer="1" name="BFBikeNSE" chips="36,175" win="13,400" addon="0"/>
+    <player reg_code="" bet="1,300" seat="4" rebuy="0" dealer="0" name="heartable45" chips="26,875" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="2,300" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="109,986" win="0" addon="0"/>
+    <player reg_code="" bet="4,300" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="73,690" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="100,177" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="38,170" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="10,300" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="heartable45" sum="300"/>
+   <action type="15" no="2" player="tropeiro123" sum="300"/>
+   <action type="15" no="3" player="sondreliee" sum="300"/>
+   <action type="15" no="4" player="JDAtlas" sum="300"/>
+   <action type="15" no="5" player="PowerSkills" sum="300"/>
+   <action type="15" no="6" player="SunRunAndylula" sum="300"/>
+   <action type="15" no="7" player="TaiwanNaves" sum="300"/>
+   <action type="15" no="8" player="BFBikeNSE" sum="300"/>
+   <action type="1" no="9" player="heartable45" sum="1,000"/>
+   <action type="2" no="10" player="tropeiro123" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="23" no="11" player="sondreliee" sum="4,000"/>
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="12" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="13" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="14" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="TaiwanNaves">X X</cards>
+   <action type="0" no="15" player="TaiwanNaves" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="23" no="16" player="BFBikeNSE" sum="35,875"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="17" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CJ D9</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+   <action type="0" no="19" player="sondreliee" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558305172">
+  <general>
+   <startdate>2024-02-11 13:42:57</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="4,300" seat="1" rebuy="0" dealer="0" name="TaiwanNaves" chips="64,236" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="2" rebuy="0" dealer="0" name="BFBikeNSE" chips="45,275" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="4" rebuy="0" dealer="1" name="heartable45" chips="25,575" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="4,300" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="107,686" win="0" addon="0"/>
+    <player reg_code="" bet="69,090" seat="6" rebuy="0" dealer="0" name="sondreliee" chips="69,390" win="14,400" addon="0"/>
+    <player reg_code="" bet="300" seat="7" rebuy="0" dealer="0" name="JDAtlas" chips="99,877" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="PowerSkills" chips="37,870" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="10" rebuy="0" dealer="0" name="SunRunAndylula" chips="10,000" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="300"/>
+   <action type="15" no="2" player="sondreliee" sum="300"/>
+   <action type="15" no="3" player="JDAtlas" sum="300"/>
+   <action type="15" no="4" player="PowerSkills" sum="300"/>
+   <action type="15" no="5" player="SunRunAndylula" sum="300"/>
+   <action type="15" no="6" player="TaiwanNaves" sum="300"/>
+   <action type="15" no="7" player="BFBikeNSE" sum="300"/>
+   <action type="15" no="8" player="heartable45" sum="300"/>
+   <action type="1" no="9" player="tropeiro123" sum="1,000"/>
+   <action type="2" no="10" player="sondreliee" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JDAtlas">X X</cards>
+   <action type="0" no="11" player="JDAtlas" sum="0"/>
+   <cards type="Pocket" player="PowerSkills">X X</cards>
+   <action type="0" no="12" player="PowerSkills" sum="0"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action type="0" no="13" player="SunRunAndylula" sum="0"/>
+   <cards type="Pocket" player="TaiwanNaves">X X</cards>
+   <action type="23" no="14" player="TaiwanNaves" sum="4,000"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="15" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="16" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D10 DA</cards>
+   <action type="3" no="17" player="tropeiro123" sum="3,000"/>
+   <cards type="Pocket" player="sondreliee">X X</cards>
+   <action type="23" no="18" player="sondreliee" sum="69,090"/>
+   <action type="0" no="19" player="TaiwanNaves" sum="0"/>
+   <action type="0" no="20" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321328">
+  <general>
+   <startdate>2024-02-11 13:44:36</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="300" seat="1" rebuy="0" dealer="1" name="MJSmithpoker1970" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="1,300" seat="2" rebuy="0" dealer="0" name="Laddien77" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="2,300" seat="5" rebuy="0" dealer="0" name="YoooC" chips="132,240" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="107,205" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="7" rebuy="0" dealer="0" name="tratratratatatta" chips="90,043" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="30,953" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="4,200" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="103,386" win="7,100" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Laddien77" sum="300"/>
+   <action type="15" no="2" player="YoooC" sum="300"/>
+   <action type="15" no="3" player="RIGEL2" sum="300"/>
+   <action type="15" no="4" player="tratratratatatta" sum="300"/>
+   <action type="15" no="5" player="traumfanger" sum="300"/>
+   <action type="15" no="6" player="tropeiro123" sum="300"/>
+   <action type="15" no="7" player="MJSmithpoker1970" sum="300"/>
+   <action type="1" no="8" player="Laddien77" sum="1,000"/>
+   <action type="2" no="9" player="YoooC" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="10" player="RIGEL2" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="11" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="0" no="12" player="traumfanger" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CA HJ</cards>
+   <action type="23" no="13" player="tropeiro123" sum="4,200"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="14" player="MJSmithpoker1970" sum="0"/>
+   <cards type="Pocket" player="Laddien77">X X</cards>
+   <action type="0" no="15" player="Laddien77" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="16" player="YoooC" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321340">
+  <general>
+   <startdate>2024-02-11 13:45:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="300" seat="1" rebuy="0" dealer="0" name="MJSmithpoker1970" chips="29,700" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="2" rebuy="0" dealer="1" name="Laddien77" chips="28,700" win="0" addon="0"/>
+    <player reg_code="" bet="1,300" seat="5" rebuy="0" dealer="0" name="YoooC" chips="129,940" win="0" addon="0"/>
+    <player reg_code="" bet="2,300" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="106,905" win="0" addon="0"/>
+    <player reg_code="" bet="29,614" seat="7" rebuy="0" dealer="0" name="tratratratatatta" chips="89,743" win="63,728" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="30,653" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="29,614" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="108,186" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="YoooC" sum="300"/>
+   <action type="15" no="2" player="RIGEL2" sum="300"/>
+   <action type="15" no="3" player="tratratratatatta" sum="300"/>
+   <action type="15" no="4" player="traumfanger" sum="300"/>
+   <action type="15" no="5" player="tropeiro123" sum="300"/>
+   <action type="15" no="6" player="MJSmithpoker1970" sum="300"/>
+   <action type="15" no="7" player="Laddien77" sum="300"/>
+   <action type="1" no="8" player="YoooC" sum="1,000"/>
+   <action type="2" no="9" player="RIGEL2" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tratratratatatta">SJ DJ</cards>
+   <action type="23" no="10" player="tratratratatatta" sum="4,000"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="0" no="11" player="traumfanger" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CA C4</cards>
+   <action type="23" no="12" player="tropeiro123" sum="12,000"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="13" player="MJSmithpoker1970" sum="0"/>
+   <cards type="Pocket" player="Laddien77">X X</cards>
+   <action type="0" no="14" player="Laddien77" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="15" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="16" player="RIGEL2" sum="0"/>
+   <action type="3" no="17" player="tratratratatatta" sum="8,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 D3 H5</cards>
+   <action type="4" no="18" player="tratratratatatta" sum="0"/>
+   <action type="5" no="19" player="tropeiro123" sum="7,275"/>
+   <action type="23" no="20" player="tratratratatatta" sum="17,314"/>
+   <action type="3" no="21" player="tropeiro123" sum="10,039"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action type="4" no="22" player="tratratratatatta" sum="0"/>
+   <action type="4" no="23" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action type="4" no="24" player="tratratratatatta" sum="0"/>
+   <action type="4" no="25" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321393">
+  <general>
+   <startdate>2024-02-11 13:47:34</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="300" seat="1" rebuy="0" dealer="0" name="MJSmithpoker1970" chips="29,400" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="4" rebuy="0" dealer="0" name="TarspAss" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="5" rebuy="0" dealer="1" name="YoooC" chips="128,640" win="0" addon="0"/>
+    <player reg_code="" bet="1,300" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="104,605" win="0" addon="0"/>
+    <player reg_code="" bet="2,300" seat="7" rebuy="0" dealer="0" name="tratratratatatta" chips="123,857" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="30,353" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="4,200" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="78,572" win="7,100" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="RIGEL2" sum="300"/>
+   <action type="15" no="2" player="tratratratatatta" sum="300"/>
+   <action type="15" no="3" player="traumfanger" sum="300"/>
+   <action type="15" no="4" player="tropeiro123" sum="300"/>
+   <action type="15" no="5" player="MJSmithpoker1970" sum="300"/>
+   <action type="15" no="6" player="TarspAss" sum="300"/>
+   <action type="15" no="7" player="YoooC" sum="300"/>
+   <action type="1" no="8" player="RIGEL2" sum="1,000"/>
+   <action type="2" no="9" player="tratratratatatta" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="0" no="10" player="traumfanger" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D7 C7</cards>
+   <action type="23" no="11" player="tropeiro123" sum="4,200"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="12" player="MJSmithpoker1970" sum="0"/>
+   <cards type="Pocket" player="TarspAss">X X</cards>
+   <action type="0" no="13" player="TarspAss" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="14" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="15" player="RIGEL2" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="16" player="tratratratatatta" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321404">
+  <general>
+   <startdate>2024-02-11 13:47:59</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" bet="300" seat="1" rebuy="0" dealer="0" name="MJSmithpoker1970" chips="29,100" win="0" addon="0"/>
+    <player reg_code="" bet="6,960" seat="4" rebuy="0" dealer="0" name="TarspAss" chips="29,700" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="5" rebuy="0" dealer="0" name="YoooC" chips="128,340" win="0" addon="0"/>
+    <player reg_code="" bet="300" seat="6" rebuy="0" dealer="1" name="RIGEL2" chips="103,305" win="0" addon="0"/>
+    <player reg_code="" bet="1,300" seat="7" rebuy="0" dealer="0" name="tratratratatatta" chips="121,557" win="0" addon="0"/>
+    <player reg_code="" bet="30,053" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="30,053" win="16,420" addon="0"/>
+    <player reg_code="7946691393" bet="300" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="83,372" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tratratratatatta" sum="300"/>
+   <action type="15" no="2" player="traumfanger" sum="300"/>
+   <action type="15" no="3" player="tropeiro123" sum="300"/>
+   <action type="15" no="4" player="MJSmithpoker1970" sum="300"/>
+   <action type="15" no="5" player="TarspAss" sum="300"/>
+   <action type="15" no="6" player="YoooC" sum="300"/>
+   <action type="15" no="7" player="RIGEL2" sum="300"/>
+   <action type="1" no="8" player="tratratratatatta" sum="1,000"/>
+   <action type="2" no="9" player="traumfanger" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DQ S7</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="11" player="MJSmithpoker1970" sum="0"/>
+   <cards type="Pocket" player="TarspAss">X X</cards>
+   <action type="23" no="12" player="TarspAss" sum="4,000"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="13" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="14" player="RIGEL2" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="15" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="3" no="16" player="traumfanger" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 C7 CJ</cards>
+   <action type="4" no="17" player="traumfanger" sum="0"/>
+   <action type="5" no="18" player="TarspAss" sum="2,660"/>
+   <action type="3" no="19" player="traumfanger" sum="2,660"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="4" no="20" player="traumfanger" sum="0"/>
+   <action type="4" no="21" player="TarspAss" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action type="5" no="22" player="traumfanger" sum="23,093"/>
+   <action type="0" no="23" player="TarspAss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321428">
+  <general>
+   <startdate>2024-02-11 13:49:33</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="350" seat="1" rebuy="0" dealer="0" name="MJSmithpoker1970" chips="28,800" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="2" rebuy="0" dealer="0" name="MAiK0lm3n" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="4" rebuy="0" dealer="0" name="TarspAss" chips="22,740" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="5" rebuy="0" dealer="0" name="YoooC" chips="128,040" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="103,005" win="0" addon="0"/>
+    <player reg_code="" bet="12,197" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="39,513" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="44,877" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="83,072" win="26,144" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="traumfanger" sum="350"/>
+   <action type="15" no="2" player="tropeiro123" sum="350"/>
+   <action type="15" no="3" player="MJSmithpoker1970" sum="350"/>
+   <action type="15" no="4" player="MAiK0lm3n" sum="350"/>
+   <action type="15" no="5" player="TarspAss" sum="350"/>
+   <action type="15" no="6" player="YoooC" sum="350"/>
+   <action type="15" no="7" player="RIGEL2" sum="350"/>
+   <action type="1" no="8" player="traumfanger" sum="1,250"/>
+   <action type="2" no="9" player="tropeiro123" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="10" player="MJSmithpoker1970" sum="0"/>
+   <cards type="Pocket" player="MAiK0lm3n">X X</cards>
+   <action type="0" no="11" player="MAiK0lm3n" sum="0"/>
+   <cards type="Pocket" player="TarspAss">X X</cards>
+   <action type="0" no="12" player="TarspAss" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="13" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="14" player="RIGEL2" sum="0"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="3" no="15" player="traumfanger" sum="1,250"/>
+   <cards type="Pocket" player="tropeiro123">S3 S5</cards>
+   <action type="4" no="16" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 HJ H3</cards>
+   <action type="4" no="17" player="traumfanger" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="2,500"/>
+   <action type="3" no="19" player="traumfanger" sum="2,500"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action type="4" no="20" player="traumfanger" sum="0"/>
+   <action type="5" no="21" player="tropeiro123" sum="6,847"/>
+   <action type="3" no="22" player="traumfanger" sum="6,847"/>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+   <action type="4" no="23" player="traumfanger" sum="0"/>
+   <action type="5" no="24" player="tropeiro123" sum="32,680"/>
+   <action type="0" no="25" player="traumfanger" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321473">
+  <general>
+   <startdate>2024-02-11 13:51:26</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="2,850" seat="1" rebuy="0" dealer="0" name="MJSmithpoker1970" chips="28,450" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="2" rebuy="0" dealer="0" name="MAiK0lm3n" chips="29,650" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="4" rebuy="0" dealer="0" name="TarspAss" chips="22,390" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="5" rebuy="0" dealer="0" name="YoooC" chips="127,690" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="102,655" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="9" rebuy="0" dealer="1" name="traumfanger" chips="27,316" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="96,669" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="97,019" win="7,450" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="350"/>
+   <action type="15" no="2" player="MJSmithpoker1970" sum="350"/>
+   <action type="15" no="3" player="MAiK0lm3n" sum="350"/>
+   <action type="15" no="4" player="TarspAss" sum="350"/>
+   <action type="15" no="5" player="YoooC" sum="350"/>
+   <action type="15" no="6" player="RIGEL2" sum="350"/>
+   <action type="15" no="7" player="traumfanger" sum="350"/>
+   <action type="1" no="8" player="tropeiro123" sum="1,250"/>
+   <action type="2" no="9" player="MJSmithpoker1970" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MAiK0lm3n">X X</cards>
+   <action type="0" no="10" player="MAiK0lm3n" sum="0"/>
+   <cards type="Pocket" player="TarspAss">X X</cards>
+   <action type="0" no="11" player="TarspAss" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="12" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">X X</cards>
+   <action type="0" no="13" player="RIGEL2" sum="0"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="0" no="14" player="traumfanger" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ SJ</cards>
+   <action type="23" no="15" player="tropeiro123" sum="96,669"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action type="0" no="16" player="MJSmithpoker1970" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558321493">
+  <general>
+   <startdate>2024-02-11 13:52:05</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="28,950" seat="2" rebuy="0" dealer="0" name="MAiK0lm3n" chips="29,300" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="4" rebuy="0" dealer="0" name="TarspAss" chips="22,040" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="5" rebuy="0" dealer="0" name="YoooC" chips="127,340" win="0" addon="0"/>
+    <player reg_code="" bet="29,300" seat="6" rebuy="0" dealer="0" name="RIGEL2" chips="102,305" win="60,350" addon="0"/>
+    <player reg_code="" bet="350" seat="7" rebuy="0" dealer="0" name="ArneSlot" chips="29,050" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="9" rebuy="0" dealer="0" name="traumfanger" chips="26,966" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="350" seat="10" rebuy="0" dealer="1" name="tropeiro123" chips="101,619" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MAiK0lm3n" sum="350"/>
+   <action type="15" no="2" player="TarspAss" sum="350"/>
+   <action type="15" no="3" player="YoooC" sum="350"/>
+   <action type="15" no="4" player="RIGEL2" sum="350"/>
+   <action type="15" no="5" player="ArneSlot" sum="350"/>
+   <action type="15" no="6" player="traumfanger" sum="350"/>
+   <action type="15" no="7" player="tropeiro123" sum="350"/>
+   <action type="2" no="8" player="MAiK0lm3n" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TarspAss">X X</cards>
+   <action type="0" no="9" player="TarspAss" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="10" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="RIGEL2">S5 D5</cards>
+   <action type="23" no="11" player="RIGEL2" sum="5,000"/>
+   <cards type="Pocket" player="ArneSlot">X X</cards>
+   <action type="0" no="12" player="ArneSlot" sum="0"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action type="0" no="13" player="traumfanger" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S10 D6</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="MAiK0lm3n">H10 DK</cards>
+   <action type="23" no="15" player="MAiK0lm3n" sum="28,950"/>
+   <action type="3" no="16" player="RIGEL2" sum="23,950"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 S8 SQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10558321509">
+  <general>
+   <startdate>2024-02-11 13:52:52</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="24,244" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="24,244" win="76,282" addon="0"/>
+    <player reg_code="" bet="2,850" seat="2" rebuy="0" dealer="0" name="matekl" chips="119,329" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="39,650" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="36,504" win="0" addon="0"/>
+    <player reg_code="" bet="26,003" seat="7" rebuy="0" dealer="0" name="marlonvm" chips="26,353" win="0" addon="0"/>
+    <player reg_code="" bet="145,857" seat="9" rebuy="0" dealer="1" name="tratratratatatta" chips="146,207" win="4,218" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="dovedale88" sum="350"/>
+   <action type="15" no="2" player="matekl" sum="350"/>
+   <action type="15" no="3" player="rehuperuna" sum="350"/>
+   <action type="15" no="4" player="BFBikeNSE" sum="350"/>
+   <action type="15" no="5" player="marlonvm" sum="350"/>
+   <action type="15" no="6" player="tratratratatatta" sum="350"/>
+   <action type="1" no="7" player="dovedale88" sum="1,250"/>
+   <action type="2" no="8" player="matekl" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="9" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="10" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="marlonvm">SK S10</cards>
+   <action type="23" no="11" player="marlonvm" sum="26,003"/>
+   <cards type="Pocket" player="tratratratatatta">DJ DA</cards>
+   <action type="23" no="12" player="tratratratatatta" sum="145,857"/>
+   <cards type="Pocket" player="dovedale88">HJ HQ</cards>
+   <action type="7" no="13" player="dovedale88" sum="22,644"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="14" player="matekl" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 CQ S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+  </round>
+ </game>
+ <game gamecode="10558321520">
+  <general>
+   <startdate>2024-02-11 13:53:38</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="350" seat="1" rebuy="0" dealer="1" name="dovedale88" chips="76,282" win="0" addon="0"/>
+    <player reg_code="" bet="24,462" seat="2" rebuy="0" dealer="0" name="matekl" chips="116,479" win="23,174" addon="0"/>
+    <player reg_code="" bet="2,850" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="39,300" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="36,154" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="9,462" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="101,269" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="124,072" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="10" rebuy="0" dealer="0" name="YoooC" chips="126,990" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="matekl" sum="350"/>
+   <action type="15" no="2" player="rehuperuna" sum="350"/>
+   <action type="15" no="3" player="BFBikeNSE" sum="350"/>
+   <action type="15" no="4" player="tropeiro123" sum="350"/>
+   <action type="15" no="5" player="tratratratatatta" sum="350"/>
+   <action type="15" no="6" player="YoooC" sum="350"/>
+   <action type="15" no="7" player="dovedale88" sum="350"/>
+   <action type="1" no="8" player="matekl" sum="1,250"/>
+   <action type="2" no="9" player="rehuperuna" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="10" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C7 CA</cards>
+   <action type="23" no="11" player="tropeiro123" sum="5,250"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="12" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="13" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="14" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="3" no="15" player="matekl" sum="4,000"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="16" player="rehuperuna" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 DQ D10</cards>
+   <action type="4" no="17" player="matekl" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="3,862"/>
+   <action type="3" no="19" player="matekl" sum="3,862"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action type="4" no="20" player="matekl" sum="0"/>
+   <action type="4" no="21" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action type="5" no="22" player="matekl" sum="15,000"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+</session>

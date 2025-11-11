@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7939716439">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1080142769</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:37:01</duration>
+  <gamecount>22</gamecount>
+  <startdate>2024-02-04 16:02:17</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>41,610</bets>
+  <wins>52,370</wins>
+  <chipsin>99,610</chipsin>
+  <chipsout>112,380</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080047722</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10545190715">
+  <general>
+   <startdate>2024-02-04 16:02:17</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player chips="116,584" seat="1" addon="0" win="0" name="newktk2" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="99,410" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="5,000" rebuy="0" reg_code="7939716439"/>
+    <player chips="99,900" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="107,872" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="13,100" rebuy="0" reg_code=""/>
+    <player chips="25,565" seat="6" addon="0" win="0" name="Subarik88" dealer="1" bet="100" rebuy="0" reg_code=""/>
+    <player chips="108,890" seat="7" addon="0" win="32,400" name="nevermind70" dealer="0" bet="13,100" rebuy="0" reg_code=""/>
+    <player chips="81,174" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="800" rebuy="0" reg_code=""/>
+    <player chips="108,390" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="100" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="nevermind70" sum="100" type="15" no="1"/>
+   <action player="OLOBONgro88" sum="100" type="15" no="2"/>
+   <action player="emirali01" sum="100" type="15" no="3"/>
+   <action player="newktk2" sum="100" type="15" no="4"/>
+   <action player="tropeiro123" sum="100" type="15" no="5"/>
+   <action player="CountDzNuts" sum="100" type="15" no="6"/>
+   <action player="DontShove" sum="100" type="15" no="7"/>
+   <action player="Subarik88" sum="100" type="15" no="8"/>
+   <action player="nevermind70" sum="350" type="1" no="9"/>
+   <action player="OLOBONgro88" sum="700" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="11"/>
+   <cards player="newktk2" type="Pocket">X X</cards>
+   <action player="newktk2" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">H5 S5</cards>
+   <action player="tropeiro123" sum="1,470" type="23" no="13"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="14"/>
+   <cards player="DontShove" type="Pocket">CK DJ</cards>
+   <action player="DontShove" sum="4,900" type="23" no="15"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="16"/>
+   <cards player="nevermind70" type="Pocket">SA HQ</cards>
+   <action player="nevermind70" sum="4,550" type="3" no="17"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="18"/>
+   <action player="tropeiro123" sum="3,430" type="3" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 D3 C7</cards>
+   <action player="nevermind70" sum="0" type="4" no="20"/>
+   <action player="tropeiro123" sum="0" type="4" no="21"/>
+   <action player="DontShove" sum="0" type="4" no="22"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action player="nevermind70" sum="8,100" type="5" no="23"/>
+   <action player="tropeiro123" sum="0" type="0" no="24"/>
+   <action player="DontShove" sum="8,100" type="3" no="25"/>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+   <action player="nevermind70" sum="0" type="4" no="26"/>
+   <action player="DontShove" sum="0" type="4" no="27"/>
+  </round>
+ </game>
+ <game gamecode="10545190979">
+  <general>
+   <startdate>2024-02-04 16:04:05</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player chips="116,484" seat="1" addon="0" win="0" name="newktk2" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="94,410" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="8,570" rebuy="0" reg_code="7939716439"/>
+    <player chips="99,800" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="94,772" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="25,465" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="128,190" seat="7" addon="0" win="18,790" name="nevermind70" dealer="1" bet="128,190" rebuy="0" reg_code=""/>
+    <player chips="80,374" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="450" rebuy="0" reg_code=""/>
+    <player chips="108,290" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="800" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="OLOBONgro88" sum="100" type="15" no="1"/>
+   <action player="emirali01" sum="100" type="15" no="2"/>
+   <action player="newktk2" sum="100" type="15" no="3"/>
+   <action player="tropeiro123" sum="100" type="15" no="4"/>
+   <action player="CountDzNuts" sum="100" type="15" no="5"/>
+   <action player="DontShove" sum="100" type="15" no="6"/>
+   <action player="Subarik88" sum="100" type="15" no="7"/>
+   <action player="nevermind70" sum="100" type="15" no="8"/>
+   <action player="OLOBONgro88" sum="350" type="1" no="9"/>
+   <action player="emirali01" sum="700" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="newktk2" type="Pocket">X X</cards>
+   <action player="newktk2" sum="0" type="0" no="11"/>
+   <cards player="tropeiro123" type="Pocket">HK H8</cards>
+   <action player="tropeiro123" sum="1,470" type="23" no="12"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="13"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="14"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="15"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="1,470" type="3" no="16"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="17"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 H3 H6</cards>
+   <action player="tropeiro123" sum="0" type="4" no="19"/>
+   <action player="nevermind70" sum="2,800" type="5" no="20"/>
+   <action player="tropeiro123" sum="7,000" type="23" no="21"/>
+   <action player="nevermind70" sum="126,620" type="23" no="22"/>
+   <action player="tropeiro123" sum="0" type="0" no="23"/>
+  </round>
+ </game>
+ <game gamecode="10545191161">
+  <general>
+   <startdate>2024-02-04 16:05:32</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player chips="116,384" seat="1" addon="0" win="0" name="newktk2" dealer="0" bet="1,850" rebuy="0" reg_code=""/>
+    <player chips="85,840" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="100" rebuy="0" reg_code="7939716439"/>
+    <player chips="99,700" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="94,672" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="25,365" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="138,410" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="79,924" seat="9" addon="0" win="4,650" name="OLOBONgro88" dealer="1" bet="3,250" rebuy="0" reg_code=""/>
+    <player chips="107,490" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="450" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="emirali01" sum="100" type="15" no="1"/>
+   <action player="newktk2" sum="100" type="15" no="2"/>
+   <action player="tropeiro123" sum="100" type="15" no="3"/>
+   <action player="CountDzNuts" sum="100" type="15" no="4"/>
+   <action player="DontShove" sum="100" type="15" no="5"/>
+   <action player="Subarik88" sum="100" type="15" no="6"/>
+   <action player="nevermind70" sum="100" type="15" no="7"/>
+   <action player="OLOBONgro88" sum="100" type="15" no="8"/>
+   <action player="emirali01" sum="350" type="1" no="9"/>
+   <action player="newktk2" sum="700" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D5 H6</cards>
+   <action player="tropeiro123" sum="0" type="0" no="11"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="12"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="13"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="14"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="15"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="1,750" type="23" no="16"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="17"/>
+   <cards player="newktk2" type="Pocket">X X</cards>
+   <action player="newktk2" sum="1,050" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 SJ S10</cards>
+   <action player="newktk2" sum="0" type="4" no="19"/>
+   <action player="OLOBONgro88" sum="1,400" type="5" no="20"/>
+   <action player="newktk2" sum="0" type="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10545191294">
+  <general>
+   <startdate>2024-02-04 16:06:39</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player chips="114,534" seat="1" addon="0" win="0" name="newktk2" dealer="0" bet="450" rebuy="0" reg_code=""/>
+    <player chips="85,740" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="800" rebuy="0" reg_code="7939716439"/>
+    <player chips="99,600" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="94,572" seat="5" addon="0" win="2,550" name="DontShove" dealer="0" bet="1,540" rebuy="0" reg_code=""/>
+    <player chips="25,265" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="138,310" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="82,724" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="107,040" seat="10" addon="0" win="0" name="emirali01" dealer="1" bet="100" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="newktk2" sum="100" type="15" no="1"/>
+   <action player="tropeiro123" sum="100" type="15" no="2"/>
+   <action player="CountDzNuts" sum="100" type="15" no="3"/>
+   <action player="DontShove" sum="100" type="15" no="4"/>
+   <action player="Subarik88" sum="100" type="15" no="5"/>
+   <action player="nevermind70" sum="100" type="15" no="6"/>
+   <action player="OLOBONgro88" sum="100" type="15" no="7"/>
+   <action player="emirali01" sum="100" type="15" no="8"/>
+   <action player="newktk2" sum="350" type="1" no="9"/>
+   <action player="tropeiro123" sum="700" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="11"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="1,540" type="23" no="12"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="13"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="14"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="15"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="16"/>
+   <cards player="newktk2" type="Pocket">X X</cards>
+   <action player="newktk2" sum="0" type="0" no="17"/>
+   <cards player="tropeiro123" type="Pocket">SQ C3</cards>
+   <action player="tropeiro123" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+ <game gamecode="10545191394">
+  <general>
+   <startdate>2024-02-04 16:07:26</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player chips="114,084" seat="1" addon="0" win="0" name="newktk2" dealer="1" bet="100" rebuy="0" reg_code=""/>
+    <player chips="84,940" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="450" rebuy="0" reg_code="7939716439"/>
+    <player chips="99,500" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="1,500" rebuy="0" reg_code=""/>
+    <player chips="96,322" seat="5" addon="0" win="3,950" name="DontShove" dealer="0" bet="2,803" rebuy="0" reg_code=""/>
+    <player chips="25,165" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="138,210" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="82,624" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="100" rebuy="0" reg_code=""/>
+    <player chips="106,940" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="100" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="100" type="15" no="1"/>
+   <action player="CountDzNuts" sum="100" type="15" no="2"/>
+   <action player="DontShove" sum="100" type="15" no="3"/>
+   <action player="Subarik88" sum="100" type="15" no="4"/>
+   <action player="nevermind70" sum="100" type="15" no="5"/>
+   <action player="OLOBONgro88" sum="100" type="15" no="6"/>
+   <action player="emirali01" sum="100" type="15" no="7"/>
+   <action player="newktk2" sum="100" type="15" no="8"/>
+   <action player="tropeiro123" sum="350" type="1" no="9"/>
+   <action player="CountDzNuts" sum="700" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="1,400" type="23" no="11"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="12"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="13"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="14"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="15"/>
+   <cards player="newktk2" type="Pocket">X X</cards>
+   <action player="newktk2" sum="0" type="0" no="16"/>
+   <cards player="tropeiro123" type="Pocket">S2 CA</cards>
+   <action player="tropeiro123" sum="0" type="0" no="17"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="700" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 CK D10</cards>
+   <action player="CountDzNuts" sum="0" type="4" no="19"/>
+   <action player="DontShove" sum="1,303" type="5" no="20"/>
+   <action player="CountDzNuts" sum="0" type="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10545217962">
+  <general>
+   <startdate>2024-02-04 16:09:00</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="84,490" seat="2" addon="0" win="14,200" name="tropeiro123" dealer="1" bet="6,600" rebuy="0" reg_code="7939716439"/>
+    <player chips="98,000" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="520" rebuy="0" reg_code=""/>
+    <player chips="98,772" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="6,600" rebuy="0" reg_code=""/>
+    <player chips="25,065" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="138,110" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="82,524" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="106,840" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="120" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CountDzNuts" sum="120" type="15" no="1"/>
+   <action player="DontShove" sum="120" type="15" no="2"/>
+   <action player="Subarik88" sum="120" type="15" no="3"/>
+   <action player="nevermind70" sum="120" type="15" no="4"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="5"/>
+   <action player="emirali01" sum="120" type="15" no="6"/>
+   <action player="tropeiro123" sum="120" type="15" no="7"/>
+   <action player="CountDzNuts" sum="400" type="1" no="8"/>
+   <action player="DontShove" sum="800" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="10"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="11"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">C3 H3</cards>
+   <action player="tropeiro123" sum="1,840" type="23" no="14"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="15"/>
+   <cards player="DontShove" type="Pocket">D4 D7</cards>
+   <action player="DontShove" sum="1,040" type="3" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ H5 H8</cards>
+   <action player="DontShove" sum="0" type="4" no="17"/>
+   <action player="tropeiro123" sum="1,230" type="5" no="18"/>
+   <action player="DontShove" sum="4,640" type="23" no="19"/>
+   <action player="tropeiro123" sum="3,410" type="3" no="20"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action player="DontShove" sum="0" type="4" no="21"/>
+   <action player="tropeiro123" sum="0" type="4" no="22"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action player="DontShove" sum="0" type="4" no="23"/>
+   <action player="tropeiro123" sum="0" type="4" no="24"/>
+  </round>
+ </game>
+ <game gamecode="10545218231">
+  <general>
+   <startdate>2024-02-04 16:11:14</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="100,000" seat="1" addon="0" win="0" name="1001Titor1" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="92,090" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="120" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,480" seat="4" addon="0" win="0" name="CountDzNuts" dealer="1" bet="120" rebuy="0" reg_code=""/>
+    <player chips="92,172" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="520" rebuy="0" reg_code=""/>
+    <player chips="24,945" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="920" rebuy="0" reg_code=""/>
+    <player chips="137,990" seat="7" addon="0" win="2,960" name="nevermind70" dealer="0" bet="2,000" rebuy="0" reg_code=""/>
+    <player chips="82,404" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="106,720" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="120" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DontShove" sum="120" type="15" no="1"/>
+   <action player="Subarik88" sum="120" type="15" no="2"/>
+   <action player="nevermind70" sum="120" type="15" no="3"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="4"/>
+   <action player="emirali01" sum="120" type="15" no="5"/>
+   <action player="1001Titor1" sum="120" type="15" no="6"/>
+   <action player="tropeiro123" sum="120" type="15" no="7"/>
+   <action player="CountDzNuts" sum="120" type="15" no="8"/>
+   <action player="DontShove" sum="400" type="1" no="9"/>
+   <action player="Subarik88" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="2,000" type="23" no="11"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="13"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="0" type="0" no="14"/>
+   <cards player="tropeiro123" type="Pocket">S4 H5</cards>
+   <action player="tropeiro123" sum="0" type="0" no="15"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="16"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="17"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+ <game gamecode="10545218318">
+  <general>
+   <startdate>2024-02-04 16:11:51</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="99,880" seat="1" addon="0" win="0" name="1001Titor1" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="91,970" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="120" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,360" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="91,652" seat="5" addon="0" win="0" name="DontShove" dealer="1" bet="120" rebuy="0" reg_code=""/>
+    <player chips="24,025" seat="6" addon="0" win="10,358" name="Subarik88" dealer="0" bet="3,939" rebuy="0" reg_code=""/>
+    <player chips="140,030" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="1,880" rebuy="0" reg_code=""/>
+    <player chips="82,284" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="3,939" rebuy="0" reg_code=""/>
+    <player chips="106,600" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="120" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Subarik88" sum="120" type="15" no="1"/>
+   <action player="nevermind70" sum="120" type="15" no="2"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="3"/>
+   <action player="emirali01" sum="120" type="15" no="4"/>
+   <action player="1001Titor1" sum="120" type="15" no="5"/>
+   <action player="tropeiro123" sum="120" type="15" no="6"/>
+   <action player="CountDzNuts" sum="120" type="15" no="7"/>
+   <action player="DontShove" sum="120" type="15" no="8"/>
+   <action player="Subarik88" sum="400" type="1" no="9"/>
+   <action player="nevermind70" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="OLOBONgro88" type="Pocket">CA C9</cards>
+   <action player="OLOBONgro88" sum="1,760" type="23" no="11"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="12"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">S5 DQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="14"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="15"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="16"/>
+   <cards player="Subarik88" type="Pocket">SK S8</cards>
+   <action player="Subarik88" sum="1,360" type="3" no="17"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="960" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 D3 D8</cards>
+   <action player="Subarik88" sum="0" type="4" no="19"/>
+   <action player="nevermind70" sum="0" type="4" no="20"/>
+   <action player="OLOBONgro88" sum="2,059" type="5" no="21"/>
+   <action player="Subarik88" sum="2,059" type="3" no="22"/>
+   <action player="nevermind70" sum="0" type="0" no="23"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action player="Subarik88" sum="0" type="4" no="24"/>
+   <action player="OLOBONgro88" sum="0" type="4" no="25"/>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+   <action player="Subarik88" sum="0" type="4" no="26"/>
+   <action player="OLOBONgro88" sum="0" type="4" no="27"/>
+  </round>
+ </game>
+ <game gamecode="10545218479">
+  <general>
+   <startdate>2024-02-04 16:13:08</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="99,760" seat="1" addon="0" win="0" name="1001Titor1" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="91,850" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="120" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,240" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="91,532" seat="5" addon="0" win="8,232" name="DontShove" dealer="0" bet="6,072" rebuy="0" reg_code=""/>
+    <player chips="30,444" seat="6" addon="0" win="0" name="Subarik88" dealer="1" bet="120" rebuy="0" reg_code=""/>
+    <player chips="138,150" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="3,356" rebuy="0" reg_code=""/>
+    <player chips="78,345" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="920" rebuy="0" reg_code=""/>
+    <player chips="106,480" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="120" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="nevermind70" sum="120" type="15" no="1"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="2"/>
+   <action player="emirali01" sum="120" type="15" no="3"/>
+   <action player="1001Titor1" sum="120" type="15" no="4"/>
+   <action player="tropeiro123" sum="120" type="15" no="5"/>
+   <action player="CountDzNuts" sum="120" type="15" no="6"/>
+   <action player="DontShove" sum="120" type="15" no="7"/>
+   <action player="Subarik88" sum="120" type="15" no="8"/>
+   <action player="nevermind70" sum="400" type="1" no="9"/>
+   <action player="OLOBONgro88" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="11"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">S5 S10</cards>
+   <action player="tropeiro123" sum="0" type="0" no="13"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="14"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="1,600" type="23" no="15"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="16"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="1,200" type="3" no="17"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA D7 C9</cards>
+   <action player="nevermind70" sum="0" type="4" no="19"/>
+   <action player="DontShove" sum="1,636" type="5" no="20"/>
+   <action player="nevermind70" sum="1,636" type="3" no="21"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action player="nevermind70" sum="0" type="4" no="22"/>
+   <action player="DontShove" sum="0" type="4" no="23"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action player="nevermind70" sum="0" type="4" no="24"/>
+   <action player="DontShove" sum="2,716" type="5" no="25"/>
+   <action player="nevermind70" sum="0" type="0" no="26"/>
+  </round>
+ </game>
+ <game gamecode="10545218713">
+  <general>
+   <startdate>2024-02-04 16:15:04</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="99,640" seat="1" addon="0" win="0" name="1001Titor1" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="91,730" seat="2" addon="0" win="2,960" name="tropeiro123" dealer="0" bet="1,680" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,120" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="96,408" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="30,324" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="134,794" seat="7" addon="0" win="0" name="nevermind70" dealer="1" bet="120" rebuy="0" reg_code=""/>
+    <player chips="77,425" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="520" rebuy="0" reg_code=""/>
+    <player chips="106,360" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="920" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="OLOBONgro88" sum="120" type="15" no="1"/>
+   <action player="emirali01" sum="120" type="15" no="2"/>
+   <action player="1001Titor1" sum="120" type="15" no="3"/>
+   <action player="tropeiro123" sum="120" type="15" no="4"/>
+   <action player="CountDzNuts" sum="120" type="15" no="5"/>
+   <action player="DontShove" sum="120" type="15" no="6"/>
+   <action player="Subarik88" sum="120" type="15" no="7"/>
+   <action player="nevermind70" sum="120" type="15" no="8"/>
+   <action player="OLOBONgro88" sum="400" type="1" no="9"/>
+   <action player="emirali01" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="0" type="0" no="11"/>
+   <cards player="tropeiro123" type="Pocket">D10 DJ</cards>
+   <action player="tropeiro123" sum="1,680" type="23" no="12"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="13"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="14"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="15"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="16"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="17"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+ <game gamecode="10545218848">
+  <general>
+   <startdate>2024-02-04 16:16:14</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="99,520" seat="1" addon="0" win="0" name="1001Titor1" dealer="0" bet="1,720" rebuy="0" reg_code=""/>
+    <player chips="93,770" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="120" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,000" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="96,288" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="30,204" seat="6" addon="0" win="4,560" name="Subarik88" dealer="0" bet="3,224" rebuy="0" reg_code=""/>
+    <player chips="134,674" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="76,905" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="1" bet="120" rebuy="0" reg_code=""/>
+    <player chips="105,440" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="520" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="emirali01" sum="120" type="15" no="1"/>
+   <action player="1001Titor1" sum="120" type="15" no="2"/>
+   <action player="tropeiro123" sum="120" type="15" no="3"/>
+   <action player="CountDzNuts" sum="120" type="15" no="4"/>
+   <action player="DontShove" sum="120" type="15" no="5"/>
+   <action player="Subarik88" sum="120" type="15" no="6"/>
+   <action player="nevermind70" sum="120" type="15" no="7"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="8"/>
+   <action player="emirali01" sum="400" type="1" no="9"/>
+   <action player="1001Titor1" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D10 C5</cards>
+   <action player="tropeiro123" sum="0" type="0" no="11"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="12"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="13"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="1,600" type="23" no="14"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="15"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="16"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="17"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="800" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D3 H2</cards>
+   <action player="1001Titor1" sum="0" type="4" no="19"/>
+   <action player="Subarik88" sum="1,504" type="5" no="20"/>
+   <action player="1001Titor1" sum="0" type="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10545218949">
+  <general>
+   <startdate>2024-02-04 16:17:00</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player chips="97,800" seat="1" addon="0" win="4,960" name="1001Titor1" dealer="0" bet="9,600" rebuy="0" reg_code=""/>
+    <player chips="93,650" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="920" rebuy="0" reg_code="7939716439"/>
+    <player chips="96,880" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="96,168" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="33,044" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="134,554" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="76,785" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="120" rebuy="0" reg_code=""/>
+    <player chips="104,920" seat="10" addon="0" win="0" name="emirali01" dealer="1" bet="1,720" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="1001Titor1" sum="120" type="15" no="1"/>
+   <action player="tropeiro123" sum="120" type="15" no="2"/>
+   <action player="CountDzNuts" sum="120" type="15" no="3"/>
+   <action player="DontShove" sum="120" type="15" no="4"/>
+   <action player="Subarik88" sum="120" type="15" no="5"/>
+   <action player="nevermind70" sum="120" type="15" no="6"/>
+   <action player="OLOBONgro88" sum="120" type="15" no="7"/>
+   <action player="emirali01" sum="120" type="15" no="8"/>
+   <action player="1001Titor1" sum="400" type="1" no="9"/>
+   <action player="tropeiro123" sum="800" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="11"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="12"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="13"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="14"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="15"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="1,600" type="23" no="16"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="9,600" type="23" no="17"/>
+   <cards player="tropeiro123" type="Pocket">DQ H4</cards>
+   <action player="tropeiro123" sum="0" type="0" no="18"/>
+   <action player="emirali01" sum="0" type="0" no="19"/>
+  </round>
+ </game>
+ <game gamecode="10545219063">
+  <general>
+   <startdate>2024-02-04 16:17:50</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="101,040" seat="1" addon="0" win="0" name="1001Titor1" dealer="1" bet="130" rebuy="0" reg_code=""/>
+    <player chips="92,730" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="580" rebuy="0" reg_code="7939716439"/>
+    <player chips="96,760" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+    <player chips="96,048" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="32,924" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="134,434" seat="7" addon="0" win="27,590" name="nevermind70" dealer="0" bet="134,434" rebuy="0" reg_code=""/>
+    <player chips="76,665" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="12,730" rebuy="0" reg_code=""/>
+    <player chips="103,200" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="130" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="130" type="15" no="1"/>
+   <action player="CountDzNuts" sum="130" type="15" no="2"/>
+   <action player="DontShove" sum="130" type="15" no="3"/>
+   <action player="Subarik88" sum="130" type="15" no="4"/>
+   <action player="nevermind70" sum="130" type="15" no="5"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="6"/>
+   <action player="emirali01" sum="130" type="15" no="7"/>
+   <action player="1001Titor1" sum="130" type="15" no="8"/>
+   <action player="tropeiro123" sum="450" type="1" no="9"/>
+   <action player="CountDzNuts" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="11"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="12"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="2,250" type="23" no="13"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="7,200" type="23" no="14"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="15"/>
+   <cards player="1001Titor1" type="Pocket">X X</cards>
+   <action player="1001Titor1" sum="0" type="0" no="16"/>
+   <cards player="tropeiro123" type="Pocket">C9 DJ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="17"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="18"/>
+   <action player="nevermind70" sum="4,950" type="3" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 C2 S7</cards>
+   <action player="nevermind70" sum="0" type="4" no="20"/>
+   <action player="OLOBONgro88" sum="5,400" type="5" no="21"/>
+   <action player="nevermind70" sum="127,104" type="23" no="22"/>
+   <action player="OLOBONgro88" sum="0" type="0" no="23"/>
+  </round>
+ </game>
+ <game gamecode="10545259069">
+  <general>
+   <startdate>2024-02-04 16:19:26</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="92,150" seat="2" addon="0" win="31,920" name="tropeiro123" dealer="1" bet="13,430" rebuy="0" reg_code="7939716439"/>
+    <player chips="95,730" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="580" rebuy="0" reg_code=""/>
+    <player chips="95,918" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="2,110" rebuy="0" reg_code=""/>
+    <player chips="32,794" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="149,294" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="63,935" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="13,430" rebuy="0" reg_code=""/>
+    <player chips="103,070" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="2,110" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CountDzNuts" sum="130" type="15" no="1"/>
+   <action player="DontShove" sum="130" type="15" no="2"/>
+   <action player="Subarik88" sum="130" type="15" no="3"/>
+   <action player="nevermind70" sum="130" type="15" no="4"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="5"/>
+   <action player="emirali01" sum="130" type="15" no="6"/>
+   <action player="tropeiro123" sum="130" type="15" no="7"/>
+   <action player="CountDzNuts" sum="450" type="1" no="8"/>
+   <action player="DontShove" sum="900" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="10"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="11"/>
+   <cards player="OLOBONgro88" type="Pocket">CK C8</cards>
+   <action player="OLOBONgro88" sum="1,980" type="23" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="1,980" type="3" no="13"/>
+   <cards player="tropeiro123" type="Pocket">S6 H6</cards>
+   <action player="tropeiro123" sum="1,980" type="3" no="14"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="15"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="1,080" type="3" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 C3 C2</cards>
+   <action player="DontShove" sum="0" type="4" no="17"/>
+   <action player="OLOBONgro88" sum="0" type="4" no="18"/>
+   <action player="emirali01" sum="0" type="4" no="19"/>
+   <action player="tropeiro123" sum="2,320" type="5" no="20"/>
+   <action player="DontShove" sum="0" type="0" no="21"/>
+   <action player="OLOBONgro88" sum="2,320" type="3" no="22"/>
+   <action player="emirali01" sum="0" type="0" no="23"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action player="OLOBONgro88" sum="0" type="4" no="24"/>
+   <action player="tropeiro123" sum="0" type="4" no="25"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action player="OLOBONgro88" sum="9,000" type="5" no="26"/>
+   <action player="tropeiro123" sum="9,000" type="3" no="27"/>
+  </round>
+ </game>
+ <game gamecode="10545259349">
+  <general>
+   <startdate>2024-02-04 16:21:36</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="100,000" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="110,640" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="130" rebuy="0" reg_code="7939716439"/>
+    <player chips="95,150" seat="4" addon="0" win="0" name="CountDzNuts" dealer="1" bet="130" rebuy="0" reg_code=""/>
+    <player chips="93,808" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="580" rebuy="0" reg_code=""/>
+    <player chips="32,664" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="5,375" rebuy="0" reg_code=""/>
+    <player chips="149,164" seat="7" addon="0" win="11,980" name="nevermind70" dealer="0" bet="11,365" rebuy="0" reg_code=""/>
+    <player chips="50,505" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="100,960" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="130" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DontShove" sum="130" type="15" no="1"/>
+   <action player="Subarik88" sum="130" type="15" no="2"/>
+   <action player="nevermind70" sum="130" type="15" no="3"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="4"/>
+   <action player="emirali01" sum="130" type="15" no="5"/>
+   <action player="Frasse12" sum="130" type="15" no="6"/>
+   <action player="tropeiro123" sum="130" type="15" no="7"/>
+   <action player="CountDzNuts" sum="130" type="15" no="8"/>
+   <action player="DontShove" sum="450" type="1" no="9"/>
+   <action player="Subarik88" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="2,250" type="23" no="11"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="13"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="14"/>
+   <cards player="tropeiro123" type="Pocket">C9 HJ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="15"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="16"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="17"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="1,350" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 CJ S3</cards>
+   <action player="Subarik88" sum="0" type="4" no="19"/>
+   <action player="nevermind70" sum="2,995" type="5" no="20"/>
+   <action player="Subarik88" sum="2,995" type="3" no="21"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action player="Subarik88" sum="0" type="4" no="22"/>
+   <action player="nevermind70" sum="5,990" type="5" no="23"/>
+   <action player="Subarik88" sum="0" type="0" no="24"/>
+  </round>
+ </game>
+ <game gamecode="10545259524">
+  <general>
+   <startdate>2024-02-04 16:22:50</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="99,870" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="110,510" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="130" rebuy="0" reg_code="7939716439"/>
+    <player chips="95,020" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="2,380" rebuy="0" reg_code=""/>
+    <player chips="93,228" seat="5" addon="0" win="6,890" name="DontShove" dealer="1" bet="6,300" rebuy="0" reg_code=""/>
+    <player chips="27,289" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="580" rebuy="0" reg_code=""/>
+    <player chips="155,769" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+    <player chips="50,375" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="100,830" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="130" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Subarik88" sum="130" type="15" no="1"/>
+   <action player="nevermind70" sum="130" type="15" no="2"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="3"/>
+   <action player="emirali01" sum="130" type="15" no="4"/>
+   <action player="Frasse12" sum="130" type="15" no="5"/>
+   <action player="tropeiro123" sum="130" type="15" no="6"/>
+   <action player="CountDzNuts" sum="130" type="15" no="7"/>
+   <action player="DontShove" sum="130" type="15" no="8"/>
+   <action player="Subarik88" sum="450" type="1" no="9"/>
+   <action player="nevermind70" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="11"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="12"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">C3 CQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="14"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="2,250" type="23" no="15"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="6,300" type="23" no="16"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="17"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="18"/>
+   <action player="CountDzNuts" sum="0" type="0" no="19"/>
+  </round>
+ </game>
+ <game gamecode="10545259744">
+  <general>
+   <startdate>2024-02-04 16:24:25</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="99,740" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="110,380" seat="2" addon="0" win="3,290" name="tropeiro123" dealer="0" bet="1,890" rebuy="0" reg_code="7939716439"/>
+    <player chips="92,640" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="97,738" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="26,709" seat="6" addon="0" win="0" name="Subarik88" dealer="1" bet="130" rebuy="0" reg_code=""/>
+    <player chips="154,739" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="580" rebuy="0" reg_code=""/>
+    <player chips="50,245" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+    <player chips="100,700" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="130" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="nevermind70" sum="130" type="15" no="1"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="2"/>
+   <action player="emirali01" sum="130" type="15" no="3"/>
+   <action player="Frasse12" sum="130" type="15" no="4"/>
+   <action player="tropeiro123" sum="130" type="15" no="5"/>
+   <action player="CountDzNuts" sum="130" type="15" no="6"/>
+   <action player="DontShove" sum="130" type="15" no="7"/>
+   <action player="Subarik88" sum="130" type="15" no="8"/>
+   <action player="nevermind70" sum="450" type="1" no="9"/>
+   <action player="OLOBONgro88" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="11"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">HK H10</cards>
+   <action player="tropeiro123" sum="1,890" type="23" no="13"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="14"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="15"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="16"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="17"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+ <game gamecode="10545259813">
+  <general>
+   <startdate>2024-02-04 16:24:58</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="99,610" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="112,640" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="130" rebuy="0" reg_code="7939716439"/>
+    <player chips="92,510" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="97,608" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="26,579" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="1,930" rebuy="0" reg_code=""/>
+    <player chips="154,159" seat="7" addon="0" win="5,990" name="nevermind70" dealer="1" bet="5,400" rebuy="0" reg_code=""/>
+    <player chips="49,215" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="0" bet="580" rebuy="0" reg_code=""/>
+    <player chips="100,570" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="OLOBONgro88" sum="130" type="15" no="1"/>
+   <action player="emirali01" sum="130" type="15" no="2"/>
+   <action player="Frasse12" sum="130" type="15" no="3"/>
+   <action player="tropeiro123" sum="130" type="15" no="4"/>
+   <action player="CountDzNuts" sum="130" type="15" no="5"/>
+   <action player="DontShove" sum="130" type="15" no="6"/>
+   <action player="Subarik88" sum="130" type="15" no="7"/>
+   <action player="nevermind70" sum="130" type="15" no="8"/>
+   <action player="OLOBONgro88" sum="450" type="1" no="9"/>
+   <action player="emirali01" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="11"/>
+   <cards player="tropeiro123" type="Pocket">H2 SQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="12"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="13"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="14"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="1,800" type="23" no="15"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="5,400" type="23" no="16"/>
+   <cards player="OLOBONgro88" type="Pocket">X X</cards>
+   <action player="OLOBONgro88" sum="0" type="0" no="17"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="18"/>
+   <action player="Subarik88" sum="0" type="0" no="19"/>
+  </round>
+ </game>
+ <game gamecode="10545259927">
+  <general>
+   <startdate>2024-02-04 16:25:46</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="99,480" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+    <player chips="112,510" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="130" rebuy="0" reg_code="7939716439"/>
+    <player chips="92,380" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="97,478" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="24,649" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="158,219" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="48,635" seat="9" addon="0" win="0" name="OLOBONgro88" dealer="1" bet="48,505" rebuy="0" reg_code=""/>
+    <player chips="99,540" seat="10" addon="0" win="98,950" name="emirali01" dealer="0" bet="48,635" rebuy="0" reg_code="">
+     <knockout tobounty="€4.55" kicked="OLOBONgro88" tobalance="€4.55"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action player="emirali01" sum="130" type="15" no="1"/>
+   <action player="Frasse12" sum="130" type="15" no="2"/>
+   <action player="tropeiro123" sum="130" type="15" no="3"/>
+   <action player="CountDzNuts" sum="130" type="15" no="4"/>
+   <action player="DontShove" sum="130" type="15" no="5"/>
+   <action player="Subarik88" sum="130" type="15" no="6"/>
+   <action player="nevermind70" sum="130" type="15" no="7"/>
+   <action player="OLOBONgro88" sum="130" type="15" no="8"/>
+   <action player="emirali01" sum="450" type="1" no="9"/>
+   <action player="Frasse12" sum="900" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 DK</cards>
+   <action player="tropeiro123" sum="0" type="0" no="11"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="12"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="13"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="14"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="15"/>
+   <cards player="OLOBONgro88" type="Pocket">S10 D10</cards>
+   <action player="OLOBONgro88" sum="2,070" type="23" no="16"/>
+   <cards player="emirali01" type="Pocket">DJ HJ</cards>
+   <action player="emirali01" sum="8,640" type="23" no="17"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="18"/>
+   <action player="OLOBONgro88" sum="48,505" type="23" no="19"/>
+   <action player="emirali01" sum="39,865" type="3" no="20"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA CJ H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+  </round>
+ </game>
+</session>

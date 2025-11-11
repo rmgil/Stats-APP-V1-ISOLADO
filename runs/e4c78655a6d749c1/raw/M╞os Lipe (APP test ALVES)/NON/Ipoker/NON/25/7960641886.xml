@@ -1,0 +1,2295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960641886">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>12,000|Session Starter, 1082028765</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:52:21</duration>
+  <gamecount>40</gamecount>
+  <startdate>2024-02-25 14:19:12</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>287,808</bets>
+  <wins>173,208</wins>
+  <chipsin>99,725</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP36</statuspoints>
+  <awardpoints>RP108</awardpoints>
+  <ipoints>RP36</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081406103</tournamentcode>
+  <tournamentname>12,000|Session Starter</tournamentname>
+  <place>209</place>
+  <buyin>€18.20 + €18.20 + €3.60</buyin>
+  <totalbuyin>€40</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10583640783">
+  <general>
+   <startdate>2024-02-25 14:19:12</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="81,566" seat="1" name="Henrikim" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="470,103" seat="2" name="lightquiet526" reg_code="" dealer="1"/>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="373,036" seat="4" name="francescototti95" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="3,725" chips="89,384" seat="5" name="neverbet3bet" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="88,483" seat="6" name="SonyOCachorro" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="25,776" seat="7" name="LetsHaveFun3" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="179,127" seat="10" name="Nasvai20" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="francescototti95" sum="275" type="15"/>
+   <action no="2" player="neverbet3bet" sum="275" type="15"/>
+   <action no="3" player="SonyOCachorro" sum="275" type="15"/>
+   <action no="4" player="LetsHaveFun3" sum="275" type="15"/>
+   <action no="5" player="Nasvai20" sum="275" type="15"/>
+   <action no="6" player="Henrikim" sum="275" type="15"/>
+   <action no="7" player="lightquiet526" sum="275" type="15"/>
+   <action no="8" player="francescototti95" sum="900" type="1"/>
+   <action no="9" player="neverbet3bet" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="neverbet3bet" type="Pocket">X X</cards>
+   <cards player="SonyOCachorro" type="Pocket">X X</cards>
+   <action no="10" player="SonyOCachorro" sum="0" type="0"/>
+   <cards player="LetsHaveFun3" type="Pocket">X X</cards>
+   <action no="11" player="LetsHaveFun3" sum="0" type="0"/>
+   <cards player="Nasvai20" type="Pocket">X X</cards>
+   <action no="12" player="Nasvai20" sum="0" type="0"/>
+   <cards player="Henrikim" type="Pocket">X X</cards>
+   <action no="13" player="Henrikim" sum="0" type="0"/>
+   <cards player="lightquiet526" type="Pocket">X X</cards>
+   <action no="14" player="lightquiet526" sum="0" type="0"/>
+   <cards player="francescototti95" type="Pocket">X X</cards>
+   <action no="15" player="francescototti95" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583667585">
+  <general>
+   <startdate>2024-02-25 14:19:52</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="81,291" seat="1" name="Henrikim" reg_code="" dealer="0"/>
+    <player bet="469,553" addon="0" rebuy="0" win="55,352" chips="469,828" seat="2" name="lightquiet526" reg_code="" dealer="0">
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="LetsHaveFun3"/>
+    </player>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="371,861" seat="4" name="francescototti95" reg_code="" dealer="1"/>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="91,934" seat="5" name="neverbet3bet" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="0" chips="88,208" seat="6" name="SonyOCachorro" reg_code="" dealer="0"/>
+    <player bet="25,226" addon="0" rebuy="0" win="0" chips="25,501" seat="7" name="LetsHaveFun3" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="100,000" seat="9" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="178,852" seat="10" name="Nasvai20" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="neverbet3bet" sum="275" type="15"/>
+   <action no="2" player="SonyOCachorro" sum="275" type="15"/>
+   <action no="3" player="LetsHaveFun3" sum="275" type="15"/>
+   <action no="4" player="tropeiro123" sum="275" type="15"/>
+   <action no="5" player="Nasvai20" sum="275" type="15"/>
+   <action no="6" player="Henrikim" sum="275" type="15"/>
+   <action no="7" player="lightquiet526" sum="275" type="15"/>
+   <action no="8" player="francescototti95" sum="275" type="15"/>
+   <action no="9" player="neverbet3bet" sum="900" type="1"/>
+   <action no="10" player="SonyOCachorro" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LetsHaveFun3" type="Pocket">S7 D7</cards>
+   <action no="11" player="LetsHaveFun3" sum="25,226" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 HJ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Nasvai20" type="Pocket">X X</cards>
+   <action no="13" player="Nasvai20" sum="0" type="0"/>
+   <cards player="Henrikim" type="Pocket">X X</cards>
+   <action no="14" player="Henrikim" sum="0" type="0"/>
+   <cards player="lightquiet526" type="Pocket">HQ S10</cards>
+   <action no="15" player="lightquiet526" sum="469,553" type="23"/>
+   <cards player="francescototti95" type="Pocket">X X</cards>
+   <action no="16" player="francescototti95" sum="0" type="0"/>
+   <cards player="neverbet3bet" type="Pocket">X X</cards>
+   <action no="17" player="neverbet3bet" sum="0" type="0"/>
+   <cards player="SonyOCachorro" type="Pocket">X X</cards>
+   <action no="18" player="SonyOCachorro" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ SA DQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10583667680">
+  <general>
+   <startdate>2024-02-25 14:20:38</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="231,552" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="0" chips="63,604" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="0" chips="254,220" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="81,674" addon="0" rebuy="0" win="10,025" chips="81,949" seat="6" name="flushkappa" reg_code="" dealer="1"/>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="138,492" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="0" chips="35,661" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="183,044" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="iwantbeapoor" sum="275" type="15"/>
+   <action no="2" player="nikkisni" sum="275" type="15"/>
+   <action no="3" player="easygoing3" sum="275" type="15"/>
+   <action no="4" player="Arrivee" sum="275" type="15"/>
+   <action no="5" player="FausSatan" sum="275" type="15"/>
+   <action no="6" player="Mandark" sum="275" type="15"/>
+   <action no="7" player="flushkappa" sum="275" type="15"/>
+   <action no="8" player="iwantbeapoor" sum="900" type="1"/>
+   <action no="9" player="nikkisni" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="10" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="11" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" player="FausSatan" sum="1,800" type="3"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="13" player="Mandark" sum="1,800" type="3"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" player="flushkappa" sum="81,674" type="23"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="15" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="16" player="nikkisni" sum="0" type="0"/>
+   <action no="17" player="FausSatan" sum="0" type="0"/>
+   <action no="18" player="Mandark" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583667734">
+  <general>
+   <startdate>2024-02-25 14:21:09</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="231,277" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="61,529" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="31,271" addon="0" rebuy="0" win="81,652" chips="252,145" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="31,271" addon="0" rebuy="0" win="0" chips="99,725" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="89,899" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="15,035" addon="0" rebuy="0" win="0" chips="137,317" seat="7" name="iwantbeapoor" reg_code="" dealer="1"/>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="33,586" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="2,075" addon="0" rebuy="0" win="0" chips="182,769" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="nikkisni" sum="275" type="15"/>
+   <action no="2" player="easygoing3" sum="275" type="15"/>
+   <action no="3" player="Arrivee" sum="275" type="15"/>
+   <action no="4" player="FausSatan" sum="275" type="15"/>
+   <action no="5" player="Mandark" sum="275" type="15"/>
+   <action no="6" player="tropeiro123" sum="275" type="15"/>
+   <action no="7" player="flushkappa" sum="275" type="15"/>
+   <action no="8" player="iwantbeapoor" sum="275" type="15"/>
+   <action no="9" player="nikkisni" sum="900" type="1"/>
+   <action no="10" player="easygoing3" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="11" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">S7 D7</cards>
+   <action no="13" player="Mandark" sum="3,780" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HQ HK</cards>
+   <action no="14" player="tropeiro123" sum="3,780" type="3"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="16" player="iwantbeapoor" sum="14,760" type="23"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="17" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="18" player="easygoing3" sum="0" type="0"/>
+   <action no="19" player="Mandark" sum="10,980" type="3"/>
+   <action no="20" player="tropeiro123" sum="10,980" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 S9 C10</cards>
+   <action no="21" player="Mandark" sum="0" type="4"/>
+   <action no="22" player="tropeiro123" sum="0" type="4"/>
+   <action no="23" player="iwantbeapoor" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="24" player="Mandark" sum="0" type="4"/>
+   <action no="25" player="tropeiro123" sum="16,236" type="5"/>
+   <action no="26" player="iwantbeapoor" sum="0" type="0"/>
+   <action no="27" player="Mandark" sum="16,236" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action no="28" player="Mandark" sum="0" type="4"/>
+   <action no="29" player="tropeiro123" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10583667983">
+  <general>
+   <startdate>2024-02-25 14:23:04</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="9,000" addon="0" rebuy="0" win="10,300" chips="231,002" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="61,254" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="302,526" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="68,454" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="89,624" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="122,282" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="3,875" addon="0" rebuy="0" win="0" chips="32,411" seat="9" name="nikkisni" reg_code="" dealer="1"/>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="180,694" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="easygoing3" sum="275" type="15"/>
+   <action no="2" player="Arrivee" sum="275" type="15"/>
+   <action no="3" player="FausSatan" sum="275" type="15"/>
+   <action no="4" player="Mandark" sum="275" type="15"/>
+   <action no="5" player="tropeiro123" sum="275" type="15"/>
+   <action no="6" player="flushkappa" sum="275" type="15"/>
+   <action no="7" player="iwantbeapoor" sum="275" type="15"/>
+   <action no="8" player="nikkisni" sum="275" type="15"/>
+   <action no="9" player="easygoing3" sum="900" type="1"/>
+   <action no="10" player="Arrivee" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ H4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="15" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="16" player="nikkisni" sum="3,600" type="23"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="17" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="18" player="Arrivee" sum="9,000" type="23"/>
+   <action no="19" player="nikkisni" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668152">
+  <general>
+   <startdate>2024-02-25 14:24:18</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="1,175" addon="0" rebuy="0" win="0" chips="237,427" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="14,715" addon="0" rebuy="0" win="31,980" chips="60,979" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="14,715" addon="0" rebuy="0" win="0" chips="302,251" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="68,179" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="89,349" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="122,007" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="28,536" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="275" addon="0" rebuy="0" win="0" chips="179,519" seat="10" name="easygoing3" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Arrivee" sum="275" type="15"/>
+   <action no="2" player="FausSatan" sum="275" type="15"/>
+   <action no="3" player="Mandark" sum="275" type="15"/>
+   <action no="4" player="tropeiro123" sum="275" type="15"/>
+   <action no="5" player="flushkappa" sum="275" type="15"/>
+   <action no="6" player="iwantbeapoor" sum="275" type="15"/>
+   <action no="7" player="nikkisni" sum="275" type="15"/>
+   <action no="8" player="easygoing3" sum="275" type="15"/>
+   <action no="9" player="Arrivee" sum="900" type="1"/>
+   <action no="10" player="FausSatan" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">SA CQ</cards>
+   <action no="11" player="Mandark" sum="3,780" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DQ H8</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="13" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="14" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="15" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="16" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="17" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">D4 S5</cards>
+   <action no="18" player="FausSatan" sum="1,980" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H5 D2</cards>
+   <action no="19" player="FausSatan" sum="0" type="4"/>
+   <action no="20" player="Mandark" sum="2,665" type="5"/>
+   <action no="21" player="FausSatan" sum="2,665" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" player="FausSatan" sum="0" type="4"/>
+   <action no="23" player="Mandark" sum="7,995" type="5"/>
+   <action no="24" player="FausSatan" sum="7,995" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="25" player="FausSatan" sum="0" type="4"/>
+   <action no="26" player="Mandark" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10583668365">
+  <general>
+   <startdate>2024-02-25 14:25:57</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="8,150" addon="0" rebuy="0" win="0" chips="236,252" seat="1" name="Arrivee" reg_code="" dealer="1"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="78,244" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="8,150" addon="0" rebuy="0" win="0" chips="287,536" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="67,904" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="89,074" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="121,732" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="28,261" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="17,043" addon="0" rebuy="0" win="26,950" chips="179,244" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FausSatan" sum="300" type="15"/>
+   <action no="2" player="Mandark" sum="300" type="15"/>
+   <action no="3" player="tropeiro123" sum="300" type="15"/>
+   <action no="4" player="flushkappa" sum="300" type="15"/>
+   <action no="5" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="6" player="nikkisni" sum="300" type="15"/>
+   <action no="7" player="easygoing3" sum="300" type="15"/>
+   <action no="8" player="Arrivee" sum="300" type="15"/>
+   <action no="9" player="FausSatan" sum="1,000" type="1"/>
+   <action no="10" player="Mandark" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DK H6</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="13" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="14" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="15" player="easygoing3" sum="4,000" type="23"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="16" player="Arrivee" sum="4,000" type="3"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="18" player="Mandark" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 CA DQ</cards>
+   <action no="19" player="Mandark" sum="0" type="4"/>
+   <action no="20" player="easygoing3" sum="0" type="4"/>
+   <action no="21" player="Arrivee" sum="3,850" type="5"/>
+   <action no="22" player="Mandark" sum="3,850" type="3"/>
+   <action no="23" player="easygoing3" sum="3,850" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="24" player="Mandark" sum="0" type="4"/>
+   <action no="25" player="easygoing3" sum="8,893" type="5"/>
+   <action no="26" player="Arrivee" sum="0" type="0"/>
+   <action no="27" player="Mandark" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668647">
+  <general>
+   <startdate>2024-02-25 14:28:13</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="228,102" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="76,944" seat="2" name="FausSatan" reg_code="" dealer="1"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="279,386" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="2,300" addon="0" rebuy="0" win="0" chips="67,604" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="88,774" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="4,000" addon="0" rebuy="0" win="7,400" chips="121,432" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="27,961" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="198,044" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="300" type="15"/>
+   <action no="2" player="tropeiro123" sum="300" type="15"/>
+   <action no="3" player="flushkappa" sum="300" type="15"/>
+   <action no="4" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="5" player="nikkisni" sum="300" type="15"/>
+   <action no="6" player="easygoing3" sum="300" type="15"/>
+   <action no="7" player="Arrivee" sum="300" type="15"/>
+   <action no="8" player="FausSatan" sum="300" type="15"/>
+   <action no="9" player="Mandark" sum="1,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="11" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="12" player="iwantbeapoor" sum="4,000" type="23"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="13" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="14" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="15" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="17" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 D3</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668732">
+  <general>
+   <startdate>2024-02-25 14:28:46</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="4,000" addon="0" rebuy="0" win="7,400" chips="227,802" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="76,644" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="278,086" seat="4" name="Mandark" reg_code="" dealer="1"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="65,304" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="2,300" addon="0" rebuy="0" win="0" chips="88,474" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="126,532" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="27,661" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="197,744" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="300" type="15"/>
+   <action no="2" player="flushkappa" sum="300" type="15"/>
+   <action no="3" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="4" player="nikkisni" sum="300" type="15"/>
+   <action no="5" player="easygoing3" sum="300" type="15"/>
+   <action no="6" player="Arrivee" sum="300" type="15"/>
+   <action no="7" player="FausSatan" sum="300" type="15"/>
+   <action no="8" player="Mandark" sum="300" type="15"/>
+   <action no="9" player="tropeiro123" sum="1,000" type="1"/>
+   <action no="10" player="flushkappa" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="11" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="12" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="13" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="14" player="Arrivee" sum="4,000" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="16" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 HQ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="18" player="flushkappa" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583688758">
+  <general>
+   <startdate>2024-02-25 14:29:51</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="232,902" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="22,160" addon="0" rebuy="0" win="48,120" chips="76,344" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="277,786" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="64,004" seat="5" name="tropeiro123" reg_code="7960641886" dealer="1"/>
+    <player bet="22,160" addon="0" rebuy="0" win="0" chips="86,174" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="2,300" addon="0" rebuy="0" win="0" chips="126,232" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="27,361" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="197,444" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="flushkappa" sum="300" type="15"/>
+   <action no="2" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="3" player="nikkisni" sum="300" type="15"/>
+   <action no="4" player="easygoing3" sum="300" type="15"/>
+   <action no="5" player="Arrivee" sum="300" type="15"/>
+   <action no="6" player="FausSatan" sum="300" type="15"/>
+   <action no="7" player="Mandark" sum="300" type="15"/>
+   <action no="8" player="tropeiro123" sum="300" type="15"/>
+   <action no="9" player="flushkappa" sum="1,000" type="1"/>
+   <action no="10" player="iwantbeapoor" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="11" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="12" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="13" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">HJ H10</cards>
+   <action no="14" player="FausSatan" sum="4,000" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 D7</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">CK HQ</cards>
+   <action no="17" player="flushkappa" sum="3,000" type="3"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="18" player="iwantbeapoor" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S8 DQ</cards>
+   <action no="19" player="flushkappa" sum="0" type="4"/>
+   <action no="20" player="FausSatan" sum="3,860" type="5"/>
+   <action no="21" player="flushkappa" sum="3,860" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action no="22" player="flushkappa" sum="0" type="4"/>
+   <action no="23" player="FausSatan" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action no="24" player="flushkappa" sum="14,000" type="5"/>
+   <action no="25" player="FausSatan" sum="14,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10583689018">
+  <general>
+   <startdate>2024-02-25 14:31:45</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="232,602" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="8,700" addon="0" rebuy="0" win="12,200" chips="102,304" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="277,486" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="63,704" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="64,014" seat="6" name="flushkappa" reg_code="" dealer="1"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="123,932" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="4,700" addon="0" rebuy="0" win="0" chips="27,061" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="197,144" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="2" player="nikkisni" sum="300" type="15"/>
+   <action no="3" player="easygoing3" sum="300" type="15"/>
+   <action no="4" player="Arrivee" sum="300" type="15"/>
+   <action no="5" player="FausSatan" sum="300" type="15"/>
+   <action no="6" player="Mandark" sum="300" type="15"/>
+   <action no="7" player="tropeiro123" sum="300" type="15"/>
+   <action no="8" player="flushkappa" sum="300" type="15"/>
+   <action no="9" player="iwantbeapoor" sum="1,000" type="1"/>
+   <action no="10" player="nikkisni" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="11" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="12" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" player="FausSatan" sum="4,400" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="14" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 SK</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="16" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="17" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="18" player="nikkisni" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S10 DA</cards>
+   <action no="19" player="nikkisni" sum="0" type="4"/>
+   <action no="20" player="FausSatan" sum="4,000" type="5"/>
+   <action no="21" player="nikkisni" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583689136">
+  <general>
+   <startdate>2024-02-25 14:32:39</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="232,302" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="4,700" addon="0" rebuy="0" win="0" chips="109,804" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="8,775" addon="0" rebuy="0" win="16,300" chips="277,186" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="63,404" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="63,714" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="22,361" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="4,700" addon="0" rebuy="0" win="0" chips="196,844" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="nikkisni" sum="300" type="15"/>
+   <action no="2" player="easygoing3" sum="300" type="15"/>
+   <action no="3" player="Arrivee" sum="300" type="15"/>
+   <action no="4" player="FausSatan" sum="300" type="15"/>
+   <action no="5" player="Mandark" sum="300" type="15"/>
+   <action no="6" player="tropeiro123" sum="300" type="15"/>
+   <action no="7" player="flushkappa" sum="300" type="15"/>
+   <action no="8" player="nikkisni" sum="1,000" type="1"/>
+   <action no="9" player="easygoing3" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="10" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" player="FausSatan" sum="4,400" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="4,400" type="3"/>
+   <cards player="tropeiro123" type="Pocket">CQ H8</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" player="flushkappa" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="15" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="16" player="easygoing3" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 SJ C3</cards>
+   <action no="17" player="easygoing3" sum="0" type="4"/>
+   <action no="18" player="FausSatan" sum="0" type="4"/>
+   <action no="19" player="Mandark" sum="4,075" type="5"/>
+   <action no="20" player="easygoing3" sum="0" type="0"/>
+   <action no="21" player="FausSatan" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583689278">
+  <general>
+   <startdate>2024-02-25 14:33:40</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="2,300" addon="0" rebuy="0" win="0" chips="232,002" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="104,804" addon="0" rebuy="0" win="0" chips="105,104" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="288,786" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="63,104" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="63,414" addon="0" rebuy="0" win="131,628" chips="63,414" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="122,632" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="300" addon="0" rebuy="0" win="0" chips="21,061" seat="9" name="nikkisni" reg_code="" dealer="1"/>
+    <player bet="1,300" addon="0" rebuy="0" win="0" chips="192,144" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="easygoing3" sum="300" type="15"/>
+   <action no="2" player="Arrivee" sum="300" type="15"/>
+   <action no="3" player="FausSatan" sum="300" type="15"/>
+   <action no="4" player="Mandark" sum="300" type="15"/>
+   <action no="5" player="tropeiro123" sum="300" type="15"/>
+   <action no="6" player="flushkappa" sum="300" type="15"/>
+   <action no="7" player="iwantbeapoor" sum="300" type="15"/>
+   <action no="8" player="nikkisni" sum="300" type="15"/>
+   <action no="9" player="easygoing3" sum="1,000" type="1"/>
+   <action no="10" player="Arrivee" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">HQ SQ</cards>
+   <action no="11" player="FausSatan" sum="4,400" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 CK</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">C10 H10</cards>
+   <action no="14" player="flushkappa" sum="12,800" type="23"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="15" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="16" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="17" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="18" player="Arrivee" sum="0" type="0"/>
+   <action no="19" player="FausSatan" sum="104,804" type="23"/>
+   <action no="20" player="flushkappa" sum="50,314" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 D3 D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10583689411">
+  <general>
+   <startdate>2024-02-25 14:34:39</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="41,690" addon="0" rebuy="0" win="0" chips="229,702" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="41,290" addon="0" rebuy="0" win="91,780" chips="41,690" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="288,486" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="62,804" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="131,628" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="122,332" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="20,761" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="190,844" seat="10" name="easygoing3" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Arrivee" sum="400" type="15"/>
+   <action no="2" player="FausSatan" sum="400" type="15"/>
+   <action no="3" player="Mandark" sum="400" type="15"/>
+   <action no="4" player="tropeiro123" sum="400" type="15"/>
+   <action no="5" player="flushkappa" sum="400" type="15"/>
+   <action no="6" player="iwantbeapoor" sum="400" type="15"/>
+   <action no="7" player="nikkisni" sum="400" type="15"/>
+   <action no="8" player="easygoing3" sum="400" type="15"/>
+   <action no="9" player="Arrivee" sum="1,500" type="1"/>
+   <action no="10" player="FausSatan" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="11" player="Mandark" sum="6,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S6 C2</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="13" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="14" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="15" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="16" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">SK CJ</cards>
+   <action no="17" player="Arrivee" sum="4,500" type="3"/>
+   <cards player="FausSatan" type="Pocket">H10 HA</cards>
+   <action no="18" player="FausSatan" sum="41,290" type="23"/>
+   <action no="19" player="Mandark" sum="0" type="0"/>
+   <action no="20" player="Arrivee" sum="35,290" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 H2 DJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10583689612">
+  <general>
+   <startdate>2024-02-25 14:36:08</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="188,012" seat="1" name="Arrivee" reg_code="" dealer="1"/>
+    <player bet="91,380" addon="0" rebuy="0" win="18,200" chips="91,780" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="282,086" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="62,404" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="131,228" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="121,932" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="20,361" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="190,444" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FausSatan" sum="400" type="15"/>
+   <action no="2" player="Mandark" sum="400" type="15"/>
+   <action no="3" player="tropeiro123" sum="400" type="15"/>
+   <action no="4" player="flushkappa" sum="400" type="15"/>
+   <action no="5" player="iwantbeapoor" sum="400" type="15"/>
+   <action no="6" player="nikkisni" sum="400" type="15"/>
+   <action no="7" player="easygoing3" sum="400" type="15"/>
+   <action no="8" player="Arrivee" sum="400" type="15"/>
+   <action no="9" player="FausSatan" sum="1,500" type="1"/>
+   <action no="10" player="Mandark" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D9 C6</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" player="flushkappa" sum="0" type="0"/>
+   <cards player="iwantbeapoor" type="Pocket">X X</cards>
+   <action no="13" player="iwantbeapoor" sum="0" type="0"/>
+   <cards player="nikkisni" type="Pocket">X X</cards>
+   <action no="14" player="nikkisni" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="15" player="easygoing3" sum="6,000" type="23"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="16" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" player="FausSatan" sum="91,380" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="18" player="Mandark" sum="0" type="0"/>
+   <action no="19" player="easygoing3" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583689781">
+  <general>
+   <startdate>2024-02-25 14:37:24</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="187,612" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="103,580" seat="2" name="FausSatan" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="278,686" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="62,004" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="130,428" addon="0" rebuy="0" win="269,525" chips="130,828" seat="6" name="flushkappa" reg_code="" dealer="0">
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="iwantbeapoor"/>
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="nikkisni"/>
+    </player>
+    <player bet="121,532" addon="0" rebuy="0" win="0" chips="121,532" seat="7" name="iwantbeapoor" reg_code="" dealer="0"/>
+    <player bet="19,561" addon="0" rebuy="0" win="0" chips="19,961" seat="9" name="nikkisni" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="184,044" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="400" type="15"/>
+   <action no="2" player="tropeiro123" sum="400" type="15"/>
+   <action no="3" player="flushkappa" sum="400" type="15"/>
+   <action no="4" player="iwantbeapoor" sum="400" type="15"/>
+   <action no="5" player="nikkisni" sum="400" type="15"/>
+   <action no="6" player="easygoing3" sum="400" type="15"/>
+   <action no="7" player="Arrivee" sum="400" type="15"/>
+   <action no="8" player="FausSatan" sum="400" type="15"/>
+   <action no="9" player="Mandark" sum="1,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">C10 H10</cards>
+   <action no="11" player="flushkappa" sum="6,300" type="23"/>
+   <cards player="iwantbeapoor" type="Pocket">S8 H8</cards>
+   <action no="12" player="iwantbeapoor" sum="6,300" type="3"/>
+   <cards player="nikkisni" type="Pocket">S9 H9</cards>
+   <action no="13" player="nikkisni" sum="19,561" type="23"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="14" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="15" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="17" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK SJ</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+   <action no="19" player="flushkappa" sum="130,428" type="23"/>
+   <action no="20" player="iwantbeapoor" sum="114,832" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 HQ S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10583689948">
+  <general>
+   <startdate>2024-02-25 14:38:32</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="187,212" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="103,180" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="32,800" addon="0" rebuy="0" win="79,200" chips="276,786" seat="4" name="Mandark" reg_code="" dealer="1"/>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="58,604" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="32,800" addon="0" rebuy="0" win="0" chips="278,821" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="183,644" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="400" type="15"/>
+   <action no="2" player="flushkappa" sum="400" type="15"/>
+   <action no="3" player="easygoing3" sum="400" type="15"/>
+   <action no="4" player="Arrivee" sum="400" type="15"/>
+   <action no="5" player="FausSatan" sum="400" type="15"/>
+   <action no="6" player="Mandark" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="1,500" type="1"/>
+   <action no="8" player="flushkappa" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="9" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="10" player="Arrivee" sum="6,000" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">CA C6</cards>
+   <action no="12" player="Mandark" sum="6,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">DJ SK</cards>
+   <action no="13" player="tropeiro123" sum="4,500" type="3"/>
+   <cards player="flushkappa" type="Pocket">D10 D3</cards>
+   <action no="14" player="flushkappa" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA D8 D5</cards>
+   <action no="15" player="tropeiro123" sum="0" type="4"/>
+   <action no="16" player="flushkappa" sum="0" type="4"/>
+   <action no="17" player="Arrivee" sum="0" type="4"/>
+   <action no="18" player="Mandark" sum="6,600" type="5"/>
+   <action no="19" player="tropeiro123" sum="0" type="0"/>
+   <action no="20" player="flushkappa" sum="6,600" type="3"/>
+   <action no="21" player="Arrivee" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action no="22" player="flushkappa" sum="0" type="4"/>
+   <action no="23" player="Mandark" sum="19,800" type="5"/>
+   <action no="24" player="flushkappa" sum="19,800" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="25" player="flushkappa" sum="0" type="4"/>
+   <action no="26" player="Mandark" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10583710026">
+  <general>
+   <startdate>2024-02-25 14:40:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="180,812" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="102,780" addon="0" rebuy="0" win="0" chips="102,780" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="323,186" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="52,204" seat="5" name="tropeiro123" reg_code="7960641886" dealer="1"/>
+    <player bet="7,000" addon="0" rebuy="0" win="0" chips="246,021" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="99,600" addon="0" rebuy="0" win="209,000" chips="100,000" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="100,000" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="183,244" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="flushkappa" sum="400" type="15"/>
+   <action no="2" player="87b0c1a5168cb" sum="400" type="15"/>
+   <action no="3" player="Vadik151" sum="400" type="15"/>
+   <action no="4" player="easygoing3" sum="400" type="15"/>
+   <action no="5" player="Arrivee" sum="400" type="15"/>
+   <action no="6" player="FausSatan" sum="400" type="15"/>
+   <action no="7" player="Mandark" sum="400" type="15"/>
+   <action no="8" player="tropeiro123" sum="400" type="15"/>
+   <action no="9" player="flushkappa" sum="1,500" type="1"/>
+   <action no="10" player="87b0c1a5168cb" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="11" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="12" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="13" player="Arrivee" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">CA DQ</cards>
+   <action no="14" player="FausSatan" sum="6,600" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 CQ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="17" player="flushkappa" sum="5,100" type="3"/>
+   <cards player="87b0c1a5168cb" type="Pocket">DJ SJ</cards>
+   <action no="18" player="87b0c1a5168cb" sum="99,600" type="23"/>
+   <action no="19" player="FausSatan" sum="95,780" type="7"/>
+   <action no="20" player="flushkappa" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D8 HQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10583710186">
+  <general>
+   <startdate>2024-02-25 14:41:41</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="180,412" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="2,780" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="322,786" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="51,804" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="16,250" addon="0" rebuy="0" win="19,700" chips="239,021" seat="6" name="flushkappa" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="209,000" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="99,600" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="182,844" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="87b0c1a5168cb" sum="400" type="15"/>
+   <action no="2" player="Vadik151" sum="400" type="15"/>
+   <action no="3" player="easygoing3" sum="400" type="15"/>
+   <action no="4" player="Arrivee" sum="400" type="15"/>
+   <action no="5" player="FausSatan" sum="400" type="15"/>
+   <action no="6" player="Mandark" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="flushkappa" sum="400" type="15"/>
+   <action no="9" player="87b0c1a5168cb" sum="1,500" type="1"/>
+   <action no="10" player="Vadik151" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="11" player="easygoing3" sum="0" type="0"/>
+   <cards player="Arrivee" type="Pocket">X X</cards>
+   <action no="12" player="Arrivee" sum="6,000" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="14" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 H2</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="16" player="flushkappa" sum="6,000" type="3"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="17" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="18" player="Vadik151" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 CJ S5</cards>
+   <action no="19" player="Arrivee" sum="0" type="4"/>
+   <action no="20" player="flushkappa" sum="9,850" type="5"/>
+   <action no="21" player="Arrivee" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583710290">
+  <general>
+   <startdate>2024-02-25 14:42:28</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="174,012" addon="0" rebuy="0" win="0" chips="174,012" seat="1" name="Arrivee" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="2,380" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="322,386" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="51,404" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="252,321" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="207,100" seat="7" name="87b0c1a5168cb" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="96,200" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="174,012" addon="0" rebuy="0" win="351,924" chips="182,444" seat="10" name="easygoing3" reg_code="" dealer="0">
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="Arrivee"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Vadik151" sum="400" type="15"/>
+   <action no="2" player="easygoing3" sum="400" type="15"/>
+   <action no="3" player="Arrivee" sum="400" type="15"/>
+   <action no="4" player="FausSatan" sum="400" type="15"/>
+   <action no="5" player="Mandark" sum="400" type="15"/>
+   <action no="6" player="tropeiro123" sum="400" type="15"/>
+   <action no="7" player="flushkappa" sum="400" type="15"/>
+   <action no="8" player="87b0c1a5168cb" sum="400" type="15"/>
+   <action no="9" player="Vadik151" sum="1,500" type="1"/>
+   <action no="10" player="easygoing3" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Arrivee" type="Pocket">S5 H5</cards>
+   <action no="11" player="Arrivee" sum="6,000" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" player="FausSatan" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="13" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 C5</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="16" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="17" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">HK SA</cards>
+   <action no="18" player="easygoing3" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK DQ DA</cards>
+   <action no="19" player="easygoing3" sum="0" type="4"/>
+   <action no="20" player="Arrivee" sum="12,525" type="5"/>
+   <action no="21" player="easygoing3" sum="12,525" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="22" player="easygoing3" sum="0" type="4"/>
+   <action no="23" player="Arrivee" sum="31,312" type="5"/>
+   <action no="24" player="easygoing3" sum="31,312" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action no="25" player="easygoing3" sum="0" type="4"/>
+   <action no="26" player="Arrivee" sum="123,775" type="5"/>
+   <action no="27" player="easygoing3" sum="123,775" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10583710648">
+  <general>
+   <startdate>2024-02-25 14:45:03</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="1,980" addon="0" rebuy="0" win="7,740" chips="1,980" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="321,986" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="51,004" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="251,921" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="206,250" addon="0" rebuy="0" win="940" chips="206,700" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="94,300" seat="9" name="Vadik151" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="360,356" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="easygoing3" sum="450" type="15"/>
+   <action no="2" player="FausSatan" sum="450" type="15"/>
+   <action no="3" player="Mandark" sum="450" type="15"/>
+   <action no="4" player="tropeiro123" sum="450" type="15"/>
+   <action no="5" player="flushkappa" sum="450" type="15"/>
+   <action no="6" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="7" player="Vadik151" sum="450" type="15"/>
+   <action no="8" player="easygoing3" sum="2,000" type="1"/>
+   <action no="9" player="FausSatan" sum="1,530" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">H9 H10</cards>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="10" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 DQ</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">HA S5</cards>
+   <action no="13" player="87b0c1a5168cb" sum="206,250" type="23"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="14" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="15" player="easygoing3" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 H6 D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10583710738">
+  <general>
+   <startdate>2024-02-25 14:45:46</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="7,740" addon="0" rebuy="0" win="0" chips="7,740" seat="2" name="FausSatan" reg_code="" dealer="0"/>
+    <player bet="48,070" addon="0" rebuy="0" win="0" chips="321,536" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="50,554" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="48,070" addon="0" rebuy="0" win="105,680" chips="251,471" seat="6" name="flushkappa" reg_code="" dealer="0">
+     <knockout tobounty="€13.65" tobalance="€13.65" kicked="FausSatan"/>
+    </player>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="205,190" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="93,850" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="357,906" seat="10" name="easygoing3" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FausSatan" sum="450" type="15"/>
+   <action no="2" player="Mandark" sum="450" type="15"/>
+   <action no="3" player="tropeiro123" sum="450" type="15"/>
+   <action no="4" player="flushkappa" sum="450" type="15"/>
+   <action no="5" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="6" player="Vadik151" sum="450" type="15"/>
+   <action no="7" player="easygoing3" sum="450" type="15"/>
+   <action no="8" player="FausSatan" sum="2,000" type="1"/>
+   <action no="9" player="Mandark" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S4 S10</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">H7 H8</cards>
+   <action no="11" player="flushkappa" sum="9,200" type="23"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="12" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="13" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="14" player="easygoing3" sum="0" type="0"/>
+   <cards player="FausSatan" type="Pocket">CK SQ</cards>
+   <action no="15" player="FausSatan" sum="5,290" type="7"/>
+   <cards player="Mandark" type="Pocket">CQ D9</cards>
+   <action no="16" player="Mandark" sum="5,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 C8 H5</cards>
+   <action no="17" player="Mandark" sum="0" type="4"/>
+   <action no="18" player="flushkappa" sum="12,000" type="5"/>
+   <action no="19" player="Mandark" sum="12,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action no="20" player="Mandark" sum="0" type="4"/>
+   <action no="21" player="flushkappa" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action no="22" player="Mandark" sum="26,420" type="5"/>
+   <action no="23" player="flushkappa" sum="26,420" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10583711017">
+  <general>
+   <startdate>2024-02-25 14:47:46</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="178,306" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="273,466" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="49,654" addon="0" rebuy="0" win="112,458" chips="50,104" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="309,081" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="204,740" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="93,400" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="357,006" addon="0" rebuy="0" win="0" chips="357,456" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="450" type="15"/>
+   <action no="2" player="tropeiro123" sum="450" type="15"/>
+   <action no="3" player="flushkappa" sum="450" type="15"/>
+   <action no="4" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="5" player="Vadik151" sum="450" type="15"/>
+   <action no="6" player="easygoing3" sum="450" type="15"/>
+   <action no="7" player="MentalWarrior" sum="450" type="15"/>
+   <action no="8" player="Mandark" sum="2,000" type="1"/>
+   <action no="9" player="tropeiro123" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="10" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="11" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="12" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">DA D5</cards>
+   <action no="13" player="easygoing3" sum="8,000" type="23"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="14" player="MentalWarrior" sum="8,000" type="3"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK SK</cards>
+   <action no="16" player="tropeiro123" sum="49,654" type="23"/>
+   <action no="17" player="easygoing3" sum="357,006" type="23"/>
+   <action no="18" player="MentalWarrior" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HK H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10583711165">
+  <general>
+   <startdate>2024-02-25 14:48:48</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="169,856" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="87,377" addon="0" rebuy="0" win="98,177" chips="87,827" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="271,016" seat="4" name="Mandark" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="112,458" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="308,181" addon="0" rebuy="0" win="98,177" chips="308,631" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="204,290" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="92,950" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="307,352" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="450" type="15"/>
+   <action no="2" player="flushkappa" sum="450" type="15"/>
+   <action no="3" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="4" player="Vadik151" sum="450" type="15"/>
+   <action no="5" player="easygoing3" sum="450" type="15"/>
+   <action no="6" player="MentalWarrior" sum="450" type="15"/>
+   <action no="7" player="romaLG13" sum="450" type="15"/>
+   <action no="8" player="Mandark" sum="450" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,000" type="1"/>
+   <action no="10" player="flushkappa" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="11" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="12" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="13" player="easygoing3" sum="8,000" type="23"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="14" player="MentalWarrior" sum="8,000" type="3"/>
+   <cards player="romaLG13" type="Pocket">CA C5</cards>
+   <action no="15" player="romaLG13" sum="87,377" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="16" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 D3</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">DA DK</cards>
+   <action no="18" player="flushkappa" sum="308,181" type="23"/>
+   <action no="19" player="easygoing3" sum="0" type="0"/>
+   <action no="20" player="MentalWarrior" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ S5 H9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10583711341">
+  <general>
+   <startdate>2024-02-25 14:49:57</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="161,406" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="98,177" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="270,566" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="110,008" seat="5" name="tropeiro123" reg_code="7960641886" dealer="1"/>
+    <player bet="24,450" addon="0" rebuy="0" win="27,600" chips="318,981" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="203,840" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="92,500" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="298,902" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="flushkappa" sum="450" type="15"/>
+   <action no="2" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="3" player="Vadik151" sum="450" type="15"/>
+   <action no="4" player="easygoing3" sum="450" type="15"/>
+   <action no="5" player="MentalWarrior" sum="450" type="15"/>
+   <action no="6" player="romaLG13" sum="450" type="15"/>
+   <action no="7" player="Mandark" sum="450" type="15"/>
+   <action no="8" player="tropeiro123" sum="450" type="15"/>
+   <action no="9" player="flushkappa" sum="2,000" type="1"/>
+   <action no="10" player="87b0c1a5168cb" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="11" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="12" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="13" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="14" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 DA</cards>
+   <action no="16" player="tropeiro123" sum="8,000" type="23"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="17" player="flushkappa" sum="6,000" type="3"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="18" player="87b0c1a5168cb" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 CJ S10</cards>
+   <action no="19" player="flushkappa" sum="0" type="4"/>
+   <action no="20" player="87b0c1a5168cb" sum="0" type="4"/>
+   <action no="21" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="22" player="flushkappa" sum="16,000" type="5"/>
+   <action no="23" player="87b0c1a5168cb" sum="0" type="0"/>
+   <action no="24" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583734278">
+  <general>
+   <startdate>2024-02-25 14:51:36</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="160,956" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="97,727" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="270,116" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="101,558" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="8,850" addon="0" rebuy="0" win="0" chips="338,131" seat="6" name="flushkappa" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="195,390" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="91,600" addon="0" rebuy="0" win="22,400" chips="92,050" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="298,452" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="2" player="Vadik151" sum="450" type="15"/>
+   <action no="3" player="easygoing3" sum="450" type="15"/>
+   <action no="4" player="MentalWarrior" sum="450" type="15"/>
+   <action no="5" player="romaLG13" sum="450" type="15"/>
+   <action no="6" player="Mandark" sum="450" type="15"/>
+   <action no="7" player="tropeiro123" sum="450" type="15"/>
+   <action no="8" player="flushkappa" sum="450" type="15"/>
+   <action no="9" player="87b0c1a5168cb" sum="2,000" type="1"/>
+   <action no="10" player="Vadik151" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="11" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="12" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="13" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="14" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 D3</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="16" player="flushkappa" sum="8,400" type="23"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="17" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="18" player="Vadik151" sum="91,600" type="23"/>
+   <action no="19" player="flushkappa" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583734384">
+  <general>
+   <startdate>2024-02-25 14:52:13</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="160,506" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="97,277" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="269,666" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="101,108" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="329,281" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="192,940" seat="7" name="87b0c1a5168cb" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="105,600" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="34,370" addon="0" rebuy="0" win="21,600" chips="298,002" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Vadik151" sum="450" type="15"/>
+   <action no="2" player="easygoing3" sum="450" type="15"/>
+   <action no="3" player="MentalWarrior" sum="450" type="15"/>
+   <action no="4" player="romaLG13" sum="450" type="15"/>
+   <action no="5" player="Mandark" sum="450" type="15"/>
+   <action no="6" player="tropeiro123" sum="450" type="15"/>
+   <action no="7" player="flushkappa" sum="450" type="15"/>
+   <action no="8" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="9" player="Vadik151" sum="2,000" type="1"/>
+   <action no="10" player="easygoing3" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="11" player="MentalWarrior" sum="8,000" type="23"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="12" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="13" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 DJ</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="16" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="17" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="18" player="easygoing3" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 D6 H8</cards>
+   <action no="19" player="easygoing3" sum="0" type="4"/>
+   <action no="20" player="MentalWarrior" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="21" player="easygoing3" sum="25,920" type="5"/>
+   <action no="22" player="MentalWarrior" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583734531">
+  <general>
+   <startdate>2024-02-25 14:53:20</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="4,450" addon="0" rebuy="0" win="0" chips="152,056" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="96,827" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="269,216" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="100,658" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="328,831" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="192,490" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="103,150" seat="9" name="Vadik151" reg_code="" dealer="1"/>
+    <player bet="14,000" addon="0" rebuy="0" win="11,600" chips="311,152" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="easygoing3" sum="450" type="15"/>
+   <action no="2" player="MentalWarrior" sum="450" type="15"/>
+   <action no="3" player="romaLG13" sum="450" type="15"/>
+   <action no="4" player="Mandark" sum="450" type="15"/>
+   <action no="5" player="tropeiro123" sum="450" type="15"/>
+   <action no="6" player="flushkappa" sum="450" type="15"/>
+   <action no="7" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="8" player="Vadik151" sum="450" type="15"/>
+   <action no="9" player="easygoing3" sum="2,000" type="1"/>
+   <action no="10" player="MentalWarrior" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="11" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H5</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="15" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="16" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="17" player="easygoing3" sum="14,000" type="23"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="18" player="MentalWarrior" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583734598">
+  <general>
+   <startdate>2024-02-25 14:53:50</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="147,606" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="21,626" addon="0" rebuy="0" win="32,400" chips="96,377" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="268,766" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="100,208" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="328,381" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="13,850" addon="0" rebuy="0" win="0" chips="192,040" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="102,700" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="318,302" seat="10" name="easygoing3" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MentalWarrior" sum="450" type="15"/>
+   <action no="2" player="romaLG13" sum="450" type="15"/>
+   <action no="3" player="Mandark" sum="450" type="15"/>
+   <action no="4" player="tropeiro123" sum="450" type="15"/>
+   <action no="5" player="flushkappa" sum="450" type="15"/>
+   <action no="6" player="87b0c1a5168cb" sum="450" type="15"/>
+   <action no="7" player="Vadik151" sum="450" type="15"/>
+   <action no="8" player="easygoing3" sum="450" type="15"/>
+   <action no="9" player="MentalWarrior" sum="2,000" type="1"/>
+   <action no="10" player="romaLG13" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="11" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 DK</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="13" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="14" player="87b0c1a5168cb" sum="8,000" type="23"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="15" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="16" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="17" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="18" player="romaLG13" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 HQ H6</cards>
+   <action no="19" player="romaLG13" sum="0" type="4"/>
+   <action no="20" player="87b0c1a5168cb" sum="5,400" type="5"/>
+   <action no="21" player="romaLG13" sum="5,400" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action no="22" player="romaLG13" sum="0" type="4"/>
+   <action no="23" player="87b0c1a5168cb" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="24" player="romaLG13" sum="7,776" type="5"/>
+   <action no="25" player="87b0c1a5168cb" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583734734">
+  <general>
+   <startdate>2024-02-25 14:54:48</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="145,156" seat="1" name="MentalWarrior" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="114,927" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="37,125" addon="0" rebuy="0" win="0" chips="268,316" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="99,758" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="327,931" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="37,125" addon="0" rebuy="0" win="99,750" chips="178,190" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="102,250" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="20,500" addon="0" rebuy="0" win="0" chips="317,852" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="romaLG13" sum="500" type="15"/>
+   <action no="2" player="Mandark" sum="500" type="15"/>
+   <action no="3" player="tropeiro123" sum="500" type="15"/>
+   <action no="4" player="flushkappa" sum="500" type="15"/>
+   <action no="5" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="6" player="Vadik151" sum="500" type="15"/>
+   <action no="7" player="easygoing3" sum="500" type="15"/>
+   <action no="8" player="MentalWarrior" sum="500" type="15"/>
+   <action no="9" player="romaLG13" sum="2,500" type="1"/>
+   <action no="10" player="Mandark" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CK S5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">DJ HA</cards>
+   <action no="13" player="87b0c1a5168cb" sum="10,000" type="23"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="14" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="15" player="easygoing3" sum="10,000" type="3"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="16" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="17" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">H10 C9</cards>
+   <action no="18" player="Mandark" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 SA C6</cards>
+   <action no="19" player="Mandark" sum="0" type="4"/>
+   <action no="20" player="87b0c1a5168cb" sum="0" type="4"/>
+   <action no="21" player="easygoing3" sum="10,000" type="5"/>
+   <action no="22" player="Mandark" sum="10,000" type="3"/>
+   <action no="23" player="87b0c1a5168cb" sum="10,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="24" player="Mandark" sum="0" type="4"/>
+   <action no="25" player="87b0c1a5168cb" sum="0" type="4"/>
+   <action no="26" player="easygoing3" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action no="27" player="Mandark" sum="0" type="4"/>
+   <action no="28" player="87b0c1a5168cb" sum="16,625" type="5"/>
+   <action no="29" player="easygoing3" sum="0" type="0"/>
+   <action no="30" player="Mandark" sum="16,625" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10583734874">
+  <general>
+   <startdate>2024-02-25 15:01:27</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="144,656" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="111,927" seat="2" name="romaLG13" reg_code="" dealer="1"/>
+    <player bet="26,000" addon="0" rebuy="0" win="60,000" chips="231,191" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="99,258" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="26,000" addon="0" rebuy="0" win="0" chips="327,431" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="240,815" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="101,750" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="297,352" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="500" type="15"/>
+   <action no="2" player="tropeiro123" sum="500" type="15"/>
+   <action no="3" player="flushkappa" sum="500" type="15"/>
+   <action no="4" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="5" player="Vadik151" sum="500" type="15"/>
+   <action no="6" player="easygoing3" sum="500" type="15"/>
+   <action no="7" player="MentalWarrior" sum="500" type="15"/>
+   <action no="8" player="romaLG13" sum="500" type="15"/>
+   <action no="9" player="Mandark" sum="2,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">CJ SK</cards>
+   <action no="11" player="flushkappa" sum="10,500" type="23"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="12" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="13" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="14" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="15" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="16" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">CK HQ</cards>
+   <action no="17" player="Mandark" sum="8,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C6 D2</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H10 H6</cards>
+   <action no="19" player="Mandark" sum="0" type="4"/>
+   <action no="20" player="flushkappa" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="21" player="Mandark" sum="15,000" type="5"/>
+   <action no="22" player="flushkappa" sum="15,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action no="23" player="Mandark" sum="0" type="4"/>
+   <action no="24" player="flushkappa" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10583734997">
+  <general>
+   <startdate>2024-02-25 15:02:28</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="144,156" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="111,427" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="11,000" addon="0" rebuy="0" win="0" chips="265,191" seat="4" name="Mandark" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="93,758" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="41,000" addon="0" rebuy="0" win="27,500" chips="301,431" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="240,315" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="101,250" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="296,852" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="500" type="15"/>
+   <action no="2" player="flushkappa" sum="500" type="15"/>
+   <action no="3" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="4" player="Vadik151" sum="500" type="15"/>
+   <action no="5" player="easygoing3" sum="500" type="15"/>
+   <action no="6" player="MentalWarrior" sum="500" type="15"/>
+   <action no="7" player="romaLG13" sum="500" type="15"/>
+   <action no="8" player="Mandark" sum="500" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,500" type="1"/>
+   <action no="10" player="flushkappa" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="11" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="12" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="13" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="14" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="15" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="16" player="Mandark" sum="10,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 D6</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="18" player="flushkappa" sum="41,000" type="23"/>
+   <action no="19" player="Mandark" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583735114">
+  <general>
+   <startdate>2024-02-25 15:03:17</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="143,656" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="110,927" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="38,500" addon="0" rebuy="0" win="0" chips="254,191" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="90,758" seat="5" name="tropeiro123" reg_code="7960641886" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="317,931" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="69,125" addon="0" rebuy="0" win="82,500" chips="239,815" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="100,750" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="296,352" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="flushkappa" sum="500" type="15"/>
+   <action no="2" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="3" player="Vadik151" sum="500" type="15"/>
+   <action no="4" player="easygoing3" sum="500" type="15"/>
+   <action no="5" player="MentalWarrior" sum="500" type="15"/>
+   <action no="6" player="romaLG13" sum="500" type="15"/>
+   <action no="7" player="Mandark" sum="500" type="15"/>
+   <action no="8" player="tropeiro123" sum="500" type="15"/>
+   <action no="9" player="flushkappa" sum="2,500" type="1"/>
+   <action no="10" player="87b0c1a5168cb" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="11" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="12" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="13" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="14" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="10,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 DJ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="17" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="18" player="87b0c1a5168cb" sum="5,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 C4 HJ</cards>
+   <action no="19" player="87b0c1a5168cb" sum="0" type="4"/>
+   <action no="20" player="Mandark" sum="6,875" type="5"/>
+   <action no="21" player="87b0c1a5168cb" sum="6,875" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="22" player="87b0c1a5168cb" sum="0" type="4"/>
+   <action no="23" player="Mandark" sum="20,625" type="5"/>
+   <action no="24" player="87b0c1a5168cb" sum="51,250" type="23"/>
+   <action no="25" player="Mandark" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583735283">
+  <general>
+   <startdate>2024-02-25 15:04:17</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="10,000" addon="0" rebuy="0" win="16,500" chips="143,156" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="110,427" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="215,691" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="90,258" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="314,931" seat="6" name="flushkappa" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="283,815" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="100,250" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="295,852" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="2" player="Vadik151" sum="500" type="15"/>
+   <action no="3" player="easygoing3" sum="500" type="15"/>
+   <action no="4" player="MentalWarrior" sum="500" type="15"/>
+   <action no="5" player="romaLG13" sum="500" type="15"/>
+   <action no="6" player="Mandark" sum="500" type="15"/>
+   <action no="7" player="tropeiro123" sum="500" type="15"/>
+   <action no="8" player="flushkappa" sum="500" type="15"/>
+   <action no="9" player="87b0c1a5168cb" sum="2,500" type="1"/>
+   <action no="10" player="Vadik151" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="11" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="12" player="MentalWarrior" sum="10,000" type="23"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="13" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="14" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ H8</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="16" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="17" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="18" player="Vadik151" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583735383">
+  <general>
+   <startdate>2024-02-25 15:04:57</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="154,156" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="109,927" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="215,191" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="89,758" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="314,431" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="106,750" addon="0" rebuy="0" win="73,000" chips="280,815" seat="7" name="87b0c1a5168cb" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="94,750" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="33,750" addon="0" rebuy="0" win="0" chips="295,352" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Vadik151" sum="500" type="15"/>
+   <action no="2" player="easygoing3" sum="500" type="15"/>
+   <action no="3" player="MentalWarrior" sum="500" type="15"/>
+   <action no="4" player="romaLG13" sum="500" type="15"/>
+   <action no="5" player="Mandark" sum="500" type="15"/>
+   <action no="6" player="tropeiro123" sum="500" type="15"/>
+   <action no="7" player="flushkappa" sum="500" type="15"/>
+   <action no="8" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="9" player="Vadik151" sum="2,500" type="1"/>
+   <action no="10" player="easygoing3" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="11" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="12" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="13" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 H2</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="16" player="87b0c1a5168cb" sum="10,000" type="23"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="17" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="18" player="easygoing3" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 S10 S6</cards>
+   <action no="19" player="easygoing3" sum="0" type="4"/>
+   <action no="20" player="87b0c1a5168cb" sum="6,625" type="5"/>
+   <action no="21" player="easygoing3" sum="23,250" type="23"/>
+   <action no="22" player="87b0c1a5168cb" sum="16,625" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="23" player="easygoing3" sum="0" type="4"/>
+   <action no="24" player="87b0c1a5168cb" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action no="25" player="easygoing3" sum="0" type="4"/>
+   <action no="26" player="87b0c1a5168cb" sum="73,000" type="5"/>
+   <action no="27" player="easygoing3" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583753807">
+  <general>
+   <startdate>2024-02-25 15:07:09</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="153,656" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="109,427" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="214,691" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="10,000" addon="0" rebuy="0" win="16,500" chips="89,258" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="313,931" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="320,065" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="91,750" seat="9" name="Vadik151" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="261,602" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="easygoing3" sum="500" type="15"/>
+   <action no="2" player="MentalWarrior" sum="500" type="15"/>
+   <action no="3" player="romaLG13" sum="500" type="15"/>
+   <action no="4" player="Mandark" sum="500" type="15"/>
+   <action no="5" player="tropeiro123" sum="500" type="15"/>
+   <action no="6" player="flushkappa" sum="500" type="15"/>
+   <action no="7" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="8" player="Vadik151" sum="500" type="15"/>
+   <action no="9" player="easygoing3" sum="2,500" type="1"/>
+   <action no="10" player="MentalWarrior" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="11" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ SK</cards>
+   <action no="13" player="tropeiro123" sum="10,000" type="23"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="15" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="16" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="17" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="18" player="MentalWarrior" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583753899">
+  <general>
+   <startdate>2024-02-25 15:07:41</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="26,340" addon="0" rebuy="0" win="24,000" chips="148,156" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="10,500" addon="0" rebuy="0" win="0" chips="108,927" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="214,191" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="100,258" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="313,431" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="319,565" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="91,250" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="258,602" seat="10" name="easygoing3" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MentalWarrior" sum="500" type="15"/>
+   <action no="2" player="romaLG13" sum="500" type="15"/>
+   <action no="3" player="Mandark" sum="500" type="15"/>
+   <action no="4" player="tropeiro123" sum="500" type="15"/>
+   <action no="5" player="flushkappa" sum="500" type="15"/>
+   <action no="6" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="7" player="Vadik151" sum="500" type="15"/>
+   <action no="8" player="easygoing3" sum="500" type="15"/>
+   <action no="9" player="MentalWarrior" sum="2,500" type="1"/>
+   <action no="10" player="romaLG13" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="11" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 C9</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="13" player="flushkappa" sum="0" type="0"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="14" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="15" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="16" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="17" player="MentalWarrior" sum="2,500" type="3"/>
+   <cards player="romaLG13" type="Pocket">X D7</cards>
+   <action no="18" player="romaLG13" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA DA S7</cards>
+   <action no="19" player="MentalWarrior" sum="5,000" type="5"/>
+   <action no="20" player="romaLG13" sum="5,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="21" player="MentalWarrior" sum="15,840" type="5"/>
+   <action no="22" player="romaLG13" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583754094">
+  <general>
+   <startdate>2024-02-25 15:08:48</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="161,656" seat="1" name="MentalWarrior" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="98,427" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="213,691" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="99,758" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="11,500" addon="0" rebuy="0" win="16,500" chips="312,931" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="319,065" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="90,750" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="258,102" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="romaLG13" sum="500" type="15"/>
+   <action no="2" player="Mandark" sum="500" type="15"/>
+   <action no="3" player="tropeiro123" sum="500" type="15"/>
+   <action no="4" player="flushkappa" sum="500" type="15"/>
+   <action no="5" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="6" player="Vadik151" sum="500" type="15"/>
+   <action no="7" player="easygoing3" sum="500" type="15"/>
+   <action no="8" player="MentalWarrior" sum="500" type="15"/>
+   <action no="9" player="romaLG13" sum="2,500" type="1"/>
+   <action no="10" player="Mandark" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C4 HA</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" player="flushkappa" sum="11,500" type="23"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="13" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="14" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="15" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="16" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="17" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="18" player="Mandark" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583754197">
+  <general>
+   <startdate>2024-02-25 15:09:26</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="161,156" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="95,427" seat="2" name="romaLG13" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="208,191" seat="4" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="30,425" addon="0" rebuy="0" win="44,250" chips="99,258" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="19,375" addon="0" rebuy="0" win="0" chips="323,931" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="318,565" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="90,250" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="257,602" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="500" type="15"/>
+   <action no="2" player="tropeiro123" sum="500" type="15"/>
+   <action no="3" player="flushkappa" sum="500" type="15"/>
+   <action no="4" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="5" player="Vadik151" sum="500" type="15"/>
+   <action no="6" player="easygoing3" sum="500" type="15"/>
+   <action no="7" player="MentalWarrior" sum="500" type="15"/>
+   <action no="8" player="romaLG13" sum="500" type="15"/>
+   <action no="9" player="Mandark" sum="2,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="11" player="flushkappa" sum="11,500" type="23"/>
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="12" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="13" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="14" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="15" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="16" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="17" player="Mandark" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK D6</cards>
+   <action no="18" player="tropeiro123" sum="6,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D2 SA</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="flushkappa" sum="7,375" type="5"/>
+   <action no="21" player="tropeiro123" sum="7,375" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action no="22" player="tropeiro123" sum="11,050" type="5"/>
+   <action no="23" player="flushkappa" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583754419">
+  <general>
+   <startdate>2024-02-25 15:10:46</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="160,656" seat="1" name="MentalWarrior" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="94,927" seat="2" name="romaLG13" reg_code="" dealer="0"/>
+    <player bet="124,133" addon="0" rebuy="0" win="256,266" chips="205,191" seat="4" name="Mandark" reg_code="" dealer="1">
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="tropeiro123"/>
+    </player>
+    <player bet="123,633" addon="0" rebuy="0" win="0" chips="124,133" seat="5" name="tropeiro123" reg_code="7960641886" dealer="0"/>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="304,556" seat="6" name="flushkappa" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="318,065" seat="7" name="87b0c1a5168cb" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="89,750" seat="9" name="Vadik151" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="257,102" seat="10" name="easygoing3" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="500" type="15"/>
+   <action no="2" player="flushkappa" sum="500" type="15"/>
+   <action no="3" player="87b0c1a5168cb" sum="500" type="15"/>
+   <action no="4" player="Vadik151" sum="500" type="15"/>
+   <action no="5" player="easygoing3" sum="500" type="15"/>
+   <action no="6" player="MentalWarrior" sum="500" type="15"/>
+   <action no="7" player="romaLG13" sum="500" type="15"/>
+   <action no="8" player="Mandark" sum="500" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,500" type="1"/>
+   <action no="10" player="flushkappa" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="87b0c1a5168cb" type="Pocket">X X</cards>
+   <action no="11" player="87b0c1a5168cb" sum="0" type="0"/>
+   <cards player="Vadik151" type="Pocket">X X</cards>
+   <action no="12" player="Vadik151" sum="0" type="0"/>
+   <cards player="easygoing3" type="Pocket">X X</cards>
+   <action no="13" player="easygoing3" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="14" player="MentalWarrior" sum="0" type="0"/>
+   <cards player="romaLG13" type="Pocket">X X</cards>
+   <action no="15" player="romaLG13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">S7 H7</cards>
+   <action no="16" player="Mandark" sum="10,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HJ SA</cards>
+   <action no="17" player="tropeiro123" sum="123,633" type="23"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="18" player="flushkappa" sum="0" type="0"/>
+   <action no="19" player="Mandark" sum="113,133" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 S5 CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+</session>

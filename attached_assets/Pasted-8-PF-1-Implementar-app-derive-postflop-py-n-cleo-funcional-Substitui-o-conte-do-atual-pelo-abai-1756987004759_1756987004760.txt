@@ -1,0 +1,309 @@
+8.PF‑1 — Implementar app/derive/postflop.py (núcleo funcional)
+
+Substitui o conteúdo atual pelo abaixo.
+
+# app/derive/postflop.py
+from typing import Dict, Any, List, Optional
+
+AGGR = {"BET", "RAISE", "ALLIN"}      # ações agressivas
+PASS = {"CHECK"}                      # passivas sem meter fichas
+CALL = {"CALL"}                       # call
+FOLD = {"FOLD"}                       # fold
+
+def _street_actions(hand: Dict[str, Any], street: str) -> List[Dict[str, Any]]:
+    s = (hand.get("streets") or {}).get(street) or {}
+    return s.get("actions") or []
+
+def _first_action_idx_by(hand_actions: List[Dict[str, Any]], player: str) -> Optional[int]:
+    for i, a in enumerate(hand_actions):
+        if a.get("actor") == player:
+            return i
+    return None
+
+def _first_aggr_idx(actions: List[Dict[str, Any]]) -> Optional[int]:
+    for i, a in enumerate(actions):
+        if (a.get("type") or "").upper() in AGGR:
+            return i
+    return None
+
+def _is_aggr(action: Dict[str, Any]) -> bool:
+    return (action.get("type") or "").upper() in AGGR
+
+def _is_fold(action: Dict[str, Any]) -> bool:
+    return (action.get("type") or "").upper() in FOLD
+
+def _is_call(action: Dict[str, Any]) -> bool:
+    return (action.get("type") or "").upper() in CALL
+
+def _is_check(action: Dict[str, Any]) -> bool:
+    return (action.get("type") or "").upper() in PASS
+
+def _actor_first_action(actions: List[Dict[str, Any]], actor: str) -> Optional[Dict[str, Any]]:
+    idx = _first_action_idx_by(actions, actor)
+    return actions[idx] if idx is not None else None
+
+def _someone_bet_before(actions: List[Dict[str, Any]], idx_limit: int) -> bool:
+    # Há BET/RAISE/ALLIN antes do índice idx_limit?
+    if idx_limit is None:
+        return False
+    for i in range(idx_limit):
+        if _is_aggr(actions[i]):
+            return True
+    return False
+
+def _pfr_from_preflop_derived(hand: Dict[str, Any]) -> Optional[str]:
+    dpf = (hand.get("derived") or {}).get("preflop") or {}
+    # prioridade: 4bet > 3bet > open_raiser
+    for k in ("four_bettor", "three_bettor", "open_raiser"):
+        v = dpf.get(k)
+        if v:
+            return v
+    # fallback: varrer preflop e apanhar último agressor
+    pre = _street_actions(hand, "preflop")
+    last_agg = None
+    for a in pre:
+        if _is_aggr(a):
+            last_agg = a.get("actor")
+    return last_agg
+
+def _hero_is_ip_on(hand: Dict[str, Any], street: str) -> Optional[bool]:
+    dip = (hand.get("derived") or {}).get("ip") or {}
+    return dip.get(f"hero_ip_{street}")
+
+def _saw_street(hand: Dict[str, Any], street: str) -> bool:
+    return len(_street_actions(hand, street)) > 0
+
+def _hero(hand: Dict[str, Any]) -> Optional[str]:
+    return hand.get("hero")
+
+def _players_to_flop(hand: Dict[str, Any]) -> int:
+    dip = (hand.get("derived") or {}).get("ip") or {}
+    return int(dip.get("players_to_flop") or 0)
+
+def _pot_type(hand: Dict[str, Any]) -> str:
+    dpf = (hand.get("derived") or {}).get("preflop") or {}
+    return (dpf.get("pot_type") or "none").upper()
+
+def _hero_faced_cbet_on_flop(hand: Dict[str, Any], pfr: str) -> bool:
+    """Hero NÃO é PFR, primeiro bet no flop vem do PFR, antes do herói atuar."""
+    hero = _hero(hand)
+    flop = _street_actions(hand, "flop")
+    if not flop or not hero or not pfr or hero == pfr:
+        return False
+    first_aggr_i = _first_aggr_idx(flop)
+    if first_aggr_i is None:
+        return False
+    first_aggr = flop[first_aggr_i].get("actor")
+    # tem de ser o PFR a apostar primeiro
+    if first_aggr != pfr:
+        return False
+    hero_first_i = _first_action_idx_by(flop, hero)
+    return hero_first_i is not None and first_aggr_i < hero_first_i
+
+def _hero_response_after(actions: List[Dict[str, Any]], hero: str, after_idx: int) -> Optional[Dict[str, Any]]:
+    for i in range(after_idx + 1, len(actions)):
+        a = actions[i]
+        if a.get("actor") == hero:
+            return a
+    return None
+
+def _river_agg_pct(hand: Dict[str, Any]) -> Optional[float]:
+    hero = _hero(hand)
+    if not hero:
+        return None
+    river = _street_actions(hand, "river")
+    if not river:
+        return None
+    hero_actions = [a for a in river if a.get("actor") == hero]
+    if not hero_actions:
+        return 0.0
+    aggr = sum(1 for a in hero_actions if _is_aggr(a))
+    return round(100.0 * aggr / max(1, len(hero_actions)), 2)
+
+def _saw_showdown(hand: Dict[str, Any]) -> bool:
+    # Heurística robusta: existe street 'showdown' OU alguma ação "SHOW"/"MUCK"
+    streets = hand.get("streets") or {}
+    if streets.get("showdown"):
+        acts = (streets["showdown"] or {}).get("actions") or []
+        if acts:
+            return True
+    # varre todas as streets à procura de SHOW/MUCK
+    for st in ("river","turn","flop","preflop","showdown"):
+        for a in _street_actions(hand, st):
+            t = (a.get("type") or "").upper()
+            if t in {"SHOW", "MUCK"}:
+                return True
+    return False
+
+def _won_showdown(hand: Dict[str, Any]) -> Optional[bool]:
+    # Se houver lista de vencedores, usa; caso contrário, devolve None (desconhecido)
+    hero = _hero(hand)
+    winners = hand.get("winners")
+    if hero and isinstance(winners, list):
+        return hero in winners
+    return None
+
+def _won_when_saw_flop(hand: Dict[str, Any]) -> Optional[bool]:
+    # Melhor esforço: se winners existir, usa. Se não, não inferimos (None).
+    if not _saw_street(hand, "flop"):
+        return None
+    hero = _hero(hand)
+    winners = hand.get("winners")
+    if hero and isinstance(winners, list):
+        return hero in winners
+    return None
+
+def derive_postflop(hand: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Núcleo mínimo viável para ativar as stats de pós‑flop da DSL:
+      - PFR (preflop raiser)
+      - Flop CBet (IP/OOP) opportunity & attempt
+      - vs CBet (fold/raise) IP/OOP
+      - Donk flop
+      - Bet vs missed CBet (SRP)
+      - WTSD, W$SD?, W$WSF?, River Agg %
+    """
+    hero = _hero(hand)
+    flop = _street_actions(hand, "flop")
+    saw_flop = _saw_street(hand, "flop")
+    hero_ip_flop = _hero_is_ip_on(hand, "flop")
+    pfr = _pfr_from_preflop_derived(hand)
+    pot_type = _pot_type(hand)  # "SRP", "3BET", ...
+
+    d: Dict[str, Any] = {
+        "pfr_player": pfr,
+
+        # CBet flop (opp/att) IP/OOP
+        "cbet_flop_opp_ip": False,
+        "cbet_flop_att_ip": False,
+        "cbet_flop_opp_oop": False,
+        "cbet_flop_att_oop": False,
+
+        # Turn placeholders (a implementar depois)
+        "cbet_turn_opp_ip": False,
+        "cbet_turn_att_ip": False,
+        "cbet_turn_opp_oop": False,
+        "cbet_turn_att_oop": False,
+
+        # Donk
+        "donk_flop": False,
+        "donk_turn": False,
+
+        # vs CBet flop (fold/raise) IP/OOP
+        "vs_cbet_flop_fold_ip": False,
+        "vs_cbet_flop_raise_ip": False,
+        "vs_cbet_flop_fold_oop": False,
+        "vs_cbet_flop_raise_oop": False,
+
+        # Missed cbet SRP linhas
+        "flop_bet_vs_missed_cbet_srp": False,
+        "turn_bet_vs_missed_cbet_srp_oop": False,  # placeholder
+
+        # Showdown / W$WSF
+        "saw_flop": bool(saw_flop),
+        "saw_showdown": _saw_showdown(hand),
+        "won_showdown": _won_showdown(hand),
+        "won_when_saw_flop": _won_when_saw_flop(hand),
+
+        # River Agg %
+        "river_agg_pct": _river_agg_pct(hand),
+    }
+
+    if not hero or not saw_flop or not flop:
+        return d
+
+    # ---------- FLOP CBET (Hero como PFR) ----------
+    if pfr and hero == pfr:
+        # Índice da 1ª ação do HERO no flop
+        h_i = _first_action_idx_by(flop, hero)
+        if h_i is not None:
+            nobody_bet_before_hero = not _someone_bet_before(flop, h_i)
+            if nobody_bet_before_hero:
+                # Opportunity: herói (PFR) chega à sua 1ª ação sem apostar prévia de terceiros
+                if hero_ip_flop is True:
+                    d["cbet_flop_opp_ip"] = True
+                elif hero_ip_flop is False:
+                    d["cbet_flop_opp_oop"] = True
+                # Attempt: se a 1ª ação do HERO no flop é agressiva
+                first = flop[h_i]
+                if _is_aggr(first):
+                    if hero_ip_flop is True:
+                        d["cbet_flop_att_ip"] = True
+                    elif hero_ip_flop is False:
+                        d["cbet_flop_att_oop"] = True
+
+    # ---------- VS CBET (Hero NÃO é PFR) ----------
+    if pfr and hero != pfr:
+        first_aggr_i = _first_aggr_idx(flop)
+        if first_aggr_i is not None:
+            first_bettor = flop[first_aggr_i].get("actor")
+            # Consideramos "cbet contra" se o primeiro agressor for o PFR
+            if first_bettor == pfr:
+                # Índice da 1ª ação do HERO no flop (resposta)
+                h_i = _first_action_idx_by(flop, hero)
+                if h_i is not None and first_aggr_i < h_i:
+                    # Opportunity: faced cbet
+                    resp = flop[h_i]
+                    if hero_ip_flop is True:
+                        # attempts: fold/raise
+                        if _is_fold(resp):
+                            d["vs_cbet_flop_fold_ip"] = True
+                        elif _is_aggr(resp):
+                            d["vs_cbet_flop_raise_ip"] = True
+                        # (call fica de fora destas stats)
+                    elif hero_ip_flop is False:
+                        if _is_fold(resp):
+                            d["vs_cbet_flop_fold_oop"] = True
+                        elif _is_aggr(resp):
+                            d["vs_cbet_flop_raise_oop"] = True
+
+    # ---------- DONK FLOP (Hero não é PFR, OOP, e aposta antes do PFR agir) ----------
+    if pfr and hero != pfr and hero_ip_flop is False:
+        h_i = _first_action_idx_by(flop, hero)
+        pfr_i = _first_action_idx_by(flop, pfr)
+        if h_i is not None and (pfr_i is None or h_i < pfr_i):
+            first = flop[h_i]
+            if _is_aggr(first):
+                d["donk_flop"] = True
+
+    # ---------- FLOP BET VS MISSED CBET (SRP) ----------
+    # Definição: pot SRP, PFR não aposta no flop e hero (IP) aposta quando chega a ação (após checks).
+    if pot_type == "SRP" and pfr:
+        # O PFR não pode ter feito a 1ª aposta no flop.
+        first_aggr_i = _first_aggr_idx(flop)
+        pfr_first_i = _first_action_idx_by(flop, pfr)
+        if hero_ip_flop is True and pfr_first_i is not None:
+            # Ninguém apostou até à ação do HERO, e a ação chega ao HERO (índice do HERO > pfr_i)
+            h_i = _first_action_idx_by(flop, hero)
+            if h_i is not None:
+                nobody_bet_before_hero = not _someone_bet_before(flop, h_i)
+                # PFR não apostou até o HERO agir
+                pfr_bet_before_hero = False
+                if pfr_first_i is not None:
+                    for i in range(pfr_first_i, min(h_i, len(flop))):
+                        if flop[i].get("actor") == pfr and _is_aggr(flop[i]):
+                            pfr_bet_before_hero = True
+                            break
+                if nobody_bet_before_hero and not pfr_bet_before_hero:
+                    # Attempt se o HERO aposta
+                    if _is_aggr(flop[h_i]):
+                        d["flop_bet_vs_missed_cbet_srp"] = True
+
+    return d
+
+
+O que isto cobre agora (já ativando a DSL existente):
+
+POST_CBET_FLOP_IP, POST_CBET_FLOP_OOP
+
+POST_VS_CBET_FLOP_FOLD_IP/OOP, POST_VS_CBET_FLOP_RAISE_IP/OOP
+
+POST_BET_VS_MISSED_CBET_SRP_FLOP
+
+POST_DONK_FLOP
+
+POST_WTSD (via saw_showdown)
+
+POST_RIVER_AGG_PCT (valor numérico %)
+
+Turn e linhas de river bet single raised pot, W$SD, W$WSF podem entrar numa 8.2; com o acima já tens o core de pós‑flop a produzir oportunidades.

@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	sshCommand = replit-git-ssh
+[remote "repl-c39d6f39-a1f7-479c-b810-4043071fd126"]
+	url = c39d6f39-a1f7-479c-b810-4043071fd126@ssh.v1.replit.dev:.
+	fetch = +refs/heads/*:refs/remotes/repl-c39d6f39-a1f7-479c-b810-4043071fd126/*

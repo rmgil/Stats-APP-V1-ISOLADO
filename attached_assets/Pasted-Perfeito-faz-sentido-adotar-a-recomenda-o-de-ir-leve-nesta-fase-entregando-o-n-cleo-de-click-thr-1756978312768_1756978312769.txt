@@ -1,0 +1,390 @@
+Perfeito — faz sentido adotar a recomendação de ir leve nesta fase, entregando o núcleo de click‑through no backend e deixando a UI “grande” para quando (e se) for mesmo necessária. Assim, mantemos o teu sistema estável e production‑ready após a Fase 6 e desbloqueamos a verificação manual das mãos sem introduzir muita superfície de bugs.
+
+Abaixo tens os PROMPTS FINAIS PARA A FASE 7 (versão mínima viável) — prontos para colar no agent.
+Incluo ainda uma mini‑UI de debug (/debug-hands) só para poderes experimentar de imediato, sem desenvolver o dashboard completo agora.
+
+✅ Objetivo da Fase 7 (mínimo viável)
+
+Back‑end de Click‑through:
+
+/api/hh?id=… → devolve a mão (subset seguro).
+
+/api/hh/excerpt?id=… → devolve excerto de HH via raw_offsets com highlight do HERO.
+
+/api/hh/reindex (POST) → (re)constrói índice rápido de mãos.
+
+Sem alterar Fases 1–6.
+
+Mini‑UI de debug em /debug-hands para testar as APIs rapidamente.
+
+Nota: Para listar hand_ids de um bucket (e.g., opportunities / attempts), usas o endpoint já existente da Fase 5 (/api/stats/hands), e depois chamas /api/hh e /api/hh/excerpt para cada id de interesse.
+
+PROMPTS (cola no agent por ordem)
+7.A – Criar o módulo app/hands/ (index + serviço)
+
+Cria os ficheiros:
+
+app/hands/__init__.py
+app/hands/indexer.py
+app/hands/service.py
+app/hands/api.py
+
+
+app/hands/indexer.py
+
+# app/hands/indexer.py
+import os, json, logging
+from typing import Dict
+
+logger = logging.getLogger("hands.indexer")
+
+def build_index(hands_jsonl: str, out_path: str) -> Dict:
+    """
+    Lê parsed/hands_enriched.jsonl e gera um índice:
+      hand_id -> { offset, file_id, tournament_id, site }
+    """
+    index = {"meta": {"input": hands_jsonl, "count": 0}, "map": {}}
+    with open(hands_jsonl, "rb") as f:
+        while True:
+            pos = f.tell()
+            line = f.readline()
+            if not line:
+                break
+            try:
+                obj = json.loads(line.decode("utf-8"))
+                hid = obj.get("hand_id") or obj.get("id")
+                if not hid:
+                    continue
+                index["map"][hid] = {
+                    "offset": pos,
+                    "file_id": obj.get("file_id"),
+                    "tournament_id": obj.get("tournament_id"),
+                    "site": obj.get("site"),
+                }
+                index["meta"]["count"] += 1
+            except Exception as e:
+                logger.warning(f"Erro a indexar @ {pos}: {e}")
+
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as fo:
+        json.dump(index, fo, ensure_ascii=False, indent=2)
+    return index
+
+def fetch_by_id(hands_jsonl: str, index: Dict, hand_id: str) -> dict:
+    entry = (index or {}).get("map", {}).get(hand_id)
+    if not entry:
+        return {}
+    with open(hands_jsonl, "rb") as f:
+        f.seek(entry["offset"])
+        line = f.readline()
+    return json.loads(line.decode("utf-8"))
+
+
+app/hands/service.py
+
+# app/hands/service.py
+import os, json, logging, chardet
+from typing import Optional
+
+logger = logging.getLogger("hands.service")
+
+# Ajusta se necessário conforme a tua árvore de deploy
+SAFE_ROOTS = [
+    "CLASSIFIED",
+    "parsed",
+    "/tmp",
+]
+
+def is_safe_path(p: str) -> bool:
+    p = os.path.abspath(p)
+    for root in SAFE_ROOTS:
+        if os.path.exists(root) and os.path.abspath(p).startswith(os.path.abspath(root)):
+            return True
+    return False
+
+def _read_bytes(path: str) -> bytes:
+    with open(path, "rb") as f:
+        return f.read()
+
+def read_text_auto(path: str) -> str:
+    raw = _read_bytes(path)
+    det = chardet.detect(raw) or {}
+    enc = det.get("encoding") or "utf-8"
+    try:
+        return raw.decode(enc, errors="replace")
+    except Exception:
+        return raw.decode("utf-8", errors="replace")
+
+def slice_by_offsets(text: str, start: int, end: int, context: int = 200) -> str:
+    s = max(0, start - context)
+    e = min(len(text), end + context)
+    return text[s:e]
+
+def find_source_path(file_id: Optional[str]) -> Optional[str]:
+    if not file_id:
+        return None
+    if os.path.isabs(file_id) and os.path.exists(file_id):
+        return file_id
+    # tenta combinar com roots seguras
+    for root in SAFE_ROOTS:
+        guess = os.path.join(root, file_id)
+        if os.path.exists(guess):
+            return guess
+    # fallback por nome
+    fname = os.path.basename(file_id)
+    for root in SAFE_ROOTS:
+        for base, _, files in os.walk(root):
+            if fname in files:
+                return os.path.join(base, fname)
+    return None
+
+def build_excerpt(hand: dict, context_chars: int = 200) -> dict:
+    file_id = hand.get("file_id")
+    raw_off = (hand.get("raw_offsets") or {})
+    hstart = int(raw_off.get("hand_start", -1))
+    hend   = int(raw_off.get("hand_end", -1))
+
+    if hstart < 0 or hend < 0:
+        return {"error": "Offsets indisponíveis"}
+
+    src = find_source_path(file_id)
+    if not src or not is_safe_path(src):
+        return {"error": "Ficheiro original não encontrado/fora de raiz segura"}
+
+    text = read_text_auto(src)
+    snippet = slice_by_offsets(text, hstart, hend, context=context_chars)
+
+    hero = hand.get("hero")
+    if hero:
+        snippet = snippet.replace(hero, f"[HERO:{hero}]")
+
+    return {
+        "file": src,
+        "from": hstart, "to": hend,
+        "length": max(0, hend - hstart),
+        "snippet": snippet
+    }
+
+
+app/hands/api.py
+
+# app/hands/api.py
+import os, json
+from flask import Blueprint, request, jsonify
+from app.hands.indexer import build_index, fetch_by_id
+
+bp = Blueprint("hands_api", __name__)
+
+INDEX_PATH   = "parsed/hands_index.json"
+HANDS_JSONL  = "parsed/hands_enriched.jsonl"
+
+_INDEX_CACHE = None
+
+def _ensure_index():
+    global _INDEX_CACHE
+    if _INDEX_CACHE is None:
+        if not os.path.exists(INDEX_PATH):
+            build_index(HANDS_JSONL, INDEX_PATH)
+        _INDEX_CACHE = json.load(open(INDEX_PATH, "r", encoding="utf-8"))
+    return _INDEX_CACHE
+
+@bp.route("/api/hh/reindex", methods=["POST"])
+def api_reindex():
+    data = request.get_json(silent=True) or {}
+    in_jsonl = data.get("in_jsonl", HANDS_JSONL)
+    out_idx  = data.get("out_index", INDEX_PATH)
+    res = build_index(in_jsonl, out_idx)
+    global _INDEX_CACHE
+    _INDEX_CACHE = res
+    return jsonify({"success": True, "indexed": res["meta"]["count"], "index": out_idx})
+
+@bp.route("/api/hh", methods=["GET"])
+def api_get_hand():
+    hand_id = request.args.get("id")
+    if not hand_id:
+        return jsonify({"error": "id em falta"}), 400
+    idx = _ensure_index()
+    if hand_id not in idx.get("map", {}):
+        return jsonify({"error": "hand_id desconhecido"}), 404
+    obj = fetch_by_id(HANDS_JSONL, idx, hand_id)
+    keep = {k: obj.get(k) for k in [
+        "hand_id","site","tournament_id","file_id","hero",
+        "button_seat","table_max","blinds","derived","timestamp_utc","raw_offsets"
+    ]}
+    return jsonify(keep)
+
+@bp.route("/api/hh/excerpt", methods=["GET"])
+def api_get_excerpt():
+    from app.hands.indexer import fetch_by_id
+    from app.hands.service import build_excerpt
+
+    hand_id = request.args.get("id")
+    ctx = int(request.args.get("context", "200"))
+    if not hand_id:
+        return jsonify({"error": "id em falta"}), 400
+    idx = _ensure_index()
+    if hand_id not in idx.get("map", {}):
+        return jsonify({"error": "hand_id desconhecido"}), 404
+    obj = fetch_by_id(HANDS_JSONL, idx, hand_id)
+    ex = build_excerpt(obj, context_chars=ctx)
+    if "error" in ex:
+        return jsonify(ex), 404
+    return jsonify(ex)
+
+7.B – Integrar o Blueprint no Flask e criar uma mini‑UI de debug
+
+No teu ficheiro principal Flask (onde registaste os outros endpoints), adiciona:
+
+# no topo
+from app.hands.api import bp as hands_bp
+app.register_blueprint(hands_bp)
+
+
+Cria um pequeno template para testar manualmente:
+
+templates/debug_hands.html
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Debug Hands</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    input, button { padding: 6px 10px; margin-right: 6px; }
+    pre { background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; white-space:pre-wrap; }
+    .muted { color:#666; font-size:12px; }
+  </style>
+</head>
+<body>
+  <h2>Debug Hands</h2>
+  <div>
+    <button id="reindex">Reindex</button>
+    <span class="muted">Usa parsed/hands_enriched.jsonl → parsed/hands_index.json</span>
+  </div>
+  <hr/>
+  <div>
+    <input id="handid" placeholder="hand_id" size="40"/>
+    <button id="get">/api/hh</button>
+    <button id="excerpt">/api/hh/excerpt</button>
+  </div>
+  <pre id="out"></pre>
+
+<script>
+async function j(u, opt){ const r = await fetch(u, opt||{}); return r.json(); }
+
+document.getElementById('reindex').onclick = async ()=>{
+  const res = await j('/api/hh/reindex', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'});
+  document.getElementById('out').textContent = JSON.stringify(res,null,2);
+};
+
+document.getElementById('get').onclick = async ()=>{
+  const id = document.getElementById('handid').value.trim();
+  const res = await j('/api/hh?id='+encodeURIComponent(id));
+  document.getElementById('out').textContent = JSON.stringify(res,null,2);
+};
+
+document.getElementById('excerpt').onclick = async ()=>{
+  const id = document.getElementById('handid').value.trim();
+  const res = await j('/api/hh/excerpt?id='+encodeURIComponent(id));
+  document.getElementById('out').textContent = res.snippet || JSON.stringify(res,null,2);
+};
+</script>
+</body>
+</html>
+
+
+Adiciona a rota no Flask:
+
+@app.route('/debug-hands')
+def debug_hands_page():
+    return render_template('debug_hands.html')
+
+
+(Opcional) adiciona um link discreto para /debug-hands no teu index.html.
+
+7.C – Testes mínimos (unitários)
+
+Cria estes testes base. Ajusta caminhos conforme precise.
+
+tests/test_hands_indexer.py
+
+import json, tempfile, os
+from app.hands.indexer import build_index, fetch_by_id
+
+def test_build_and_fetch_index(tmp_path):
+    # JSONL sintético
+    p = tmp_path/"hands.jsonl"
+    items = [
+        {"hand_id":"H1","file_id":"A.txt","site":"ps","tournament_id":"T1"},
+        {"hand_id":"H2","file_id":"B.txt","site":"gg","tournament_id":"T2"},
+    ]
+    with open(p,"w",encoding="utf-8") as f:
+        for it in items:
+            f.write(json.dumps(it)+"\n")
+
+    idx_path = tmp_path/"idx.json"
+    idx = build_index(str(p), str(idx_path))
+    assert idx["meta"]["count"] == 2
+
+    got = fetch_by_id(str(p), idx, "H2")
+    assert got["site"] == "gg"
+
+
+tests/test_hands_excerpt.py
+
+import os, json, tempfile
+from app.hands.service import build_excerpt, SAFE_ROOTS
+
+def test_excerpt_basic(tmp_path, monkeypatch):
+    # cria HH fake
+    hh = "line0\nHAND START\nHero raises to 2bb\nVillain folds\nHAND END\n"
+    src = tmp_path/"NON-KO"/"file1.txt"
+    src.parent.mkdir(parents=True, exist_ok=True)
+    src.write_text(hh, encoding="utf-8")
+
+    # força root seguro para o tmp
+    monkeypatch.setitem(globals(),"SAFE_ROOTS",[str(tmp_path)])
+
+    # offsets: "HAND START" começa no índice após "line0\n" (6)
+    hand = {
+        "file_id": os.path.relpath(str(src), start=str(tmp_path)),
+        "hero": "Hero",
+        "raw_offsets": {"hand_start": 6, "hand_end": len(hh)-1}
+    }
+    ex = build_excerpt(hand, context_chars=10)
+    assert "HERO:Hero" in ex["snippet"] or "[HERO:Hero]" in ex["snippet"]
+
+Considerações importantes
+
+Acesso aos TXT originais: Para o excerto funcionar, file_id deve apontar para um ficheiro existente nas raízes seguras. Se os TXT forem apagados após o ZIP de saída, considera persisti‑los (ex.: manter uma cópia em CLASSIFIED/ ou similar) quando ENABLE_PARSER=true.
+
+hand_id: Usamos o hand_id que já é gerado no teu pipeline (Fases 3–5).
+
+Performance: O índice usa byte offsets e é leve; o cache em memória _INDEX_CACHE evita I/O desnecessário.
+
+Segurança: SAFE_ROOTS impede path traversal. Ajusta a lista à tua infra.
+
+Paginação: Para já, reutiliza /api/stats/hands (Fase 5) para obter a lista completa e pagina do lado do cliente (ou cria depois /api/stats/hands/page se precisares).
+
+Definition of Done — Fase 7 (mínima)
+
+ app/hands/ criado e registado no Flask.
+
+ Endpoints /api/hh, /api/hh/excerpt, /api/hh/reindex funcionais.
+
+ parsed/hands_index.json gerado automaticamente (ou via POST /api/hh/reindex).
+
+ Página /debug-hands a devolver excertos reais.
+
+ Testes unitários de index + excerpt a passar.
+
+ Zero breaking changes nas Fases 1–6.
+
+E depois?
+
+Se precisares mesmo do dashboard completo (tabelas + navegação por bucket + excerto lado a lado), evoluímos para Fase 7.2 reaproveitando tudo o que fizemos aqui.
+
+Caso contrário, saltamos para a Fase 8 (expansão da DSL: BvB, CC/3Bet IP/OOP, vs 3bet, Squeeze, defesas BB/SB, e o Post‑flop completo). Essa expansão traz valor direto ao scoring.
+
+Se quiseres, já te deixo o esqueleto dos YAMLs da Fase 8 para as próximas famílias — é só dizer.

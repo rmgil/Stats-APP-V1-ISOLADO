@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7938906014">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 |Saturday Special, 1080055132</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:11:10</duration>
+  <gamecount>9</gamecount>
+  <startdate>2024-02-03 18:41:52</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>100,000</bets>
+  <wins>0</wins>
+  <chipsin>99,200</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP67.50</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079416340</tournamentcode>
+  <tournamentname>€10,000 |Saturday Special</tournamentname>
+  <place>68</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10543626603">
+  <general>
+   <startdate>2024-02-03 18:41:52</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="141,052" bet="11,300" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="214,620" bet="31,800" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="169,240" bet="800" dealer="0"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="95,246" bet="800" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="287,151" bet="800" dealer="1"/>
+    <player name="roboticy64" reg_code="" win="83,100" rebuy="0" addon="0" seat="9" chips="246,893" bet="71,500" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="236,443" bet="5,800" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="roboticy64" no="1" sum="800" type="15"/>
+   <action player="NandosFund" no="2" sum="800" type="15"/>
+   <action player="Krojjje" no="3" sum="800" type="15"/>
+   <action player="Vidok112" no="4" sum="800" type="15"/>
+   <action player="Kobe24Lebron23" no="5" sum="800" type="15"/>
+   <action player="gophil80" no="6" sum="800" type="15"/>
+   <action player="straighthard72" no="7" sum="800" type="15"/>
+   <action player="roboticy64" no="8" sum="2,500" type="1"/>
+   <action player="NandosFund" no="9" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="10" sum="10,500" type="23"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="11" sum="31,000" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="12" sum="0" type="0"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="13" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="14" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="15" sum="71,500" type="23"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="16" sum="0" type="0"/>
+   <action player="Krojjje" no="17" sum="0" type="0"/>
+   <action player="Vidok112" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543626760">
+  <general>
+   <startdate>2024-02-03 18:42:59</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="129,752" bet="15,800" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="182,820" bet="800" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="100,000" bet="800" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="168,440" bet="800" dealer="0"/>
+    <player name="gophil80" reg_code="" win="38,900" rebuy="0" addon="0" seat="6" chips="94,446" bet="54,700" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="286,351" bet="800" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="298,193" bet="800" dealer="1"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="230,643" bet="3,300" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="NandosFund" no="1" sum="800" type="15"/>
+   <action player="Krojjje" no="2" sum="800" type="15"/>
+   <action player="Vidok112" no="3" sum="800" type="15"/>
+   <action player="tropeiro123" no="4" sum="800" type="15"/>
+   <action player="Kobe24Lebron23" no="5" sum="800" type="15"/>
+   <action player="gophil80" no="6" sum="800" type="15"/>
+   <action player="straighthard72" no="7" sum="800" type="15"/>
+   <action player="roboticy64" no="8" sum="800" type="15"/>
+   <action player="NandosFund" no="9" sum="2,500" type="1"/>
+   <action player="Krojjje" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA H6</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="13" sum="0" type="0"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="14" sum="15,000" type="23"/>
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="15" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="16" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="17" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="18" sum="10,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK DQ D8</cards>
+   <action player="Krojjje" no="19" sum="0" type="4"/>
+   <action player="gophil80" no="20" sum="38,900" type="5"/>
+   <action player="Krojjje" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543626920">
+  <general>
+   <startdate>2024-02-03 18:44:07</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="113,952" bet="3,300" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="182,020" bet="5,800" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="99,200" bet="800" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="18,900" rebuy="0" addon="0" seat="5" chips="167,640" bet="10,000" dealer="0"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="117,546" bet="800" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="285,551" bet="800" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="297,393" bet="800" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="227,343" bet="800" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Krojjje" no="1" sum="800" type="15"/>
+   <action player="Vidok112" no="2" sum="800" type="15"/>
+   <action player="tropeiro123" no="3" sum="800" type="15"/>
+   <action player="Kobe24Lebron23" no="4" sum="800" type="15"/>
+   <action player="gophil80" no="5" sum="800" type="15"/>
+   <action player="straighthard72" no="6" sum="800" type="15"/>
+   <action player="roboticy64" no="7" sum="800" type="15"/>
+   <action player="NandosFund" no="8" sum="800" type="15"/>
+   <action player="Krojjje" no="9" sum="2,500" type="1"/>
+   <action player="Vidok112" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D7 C3</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="12" sum="10,000" type="23"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="13" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="14" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="15" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="16" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="17" sum="0" type="0"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543627065">
+  <general>
+   <startdate>2024-02-03 18:45:11</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="110,652" bet="900" dealer="1"/>
+    <player name="Vidok112" reg_code="" win="49,200" rebuy="0" addon="0" seat="2" chips="176,220" bet="175,320" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="98,400" bet="6,900" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="180,740" bet="900" dealer="0"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="116,746" bet="900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="284,751" bet="900" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="296,593" bet="12,900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="226,543" bet="12,900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Vidok112" no="1" sum="900" type="15"/>
+   <action player="tropeiro123" no="2" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="3" sum="900" type="15"/>
+   <action player="gophil80" no="4" sum="900" type="15"/>
+   <action player="straighthard72" no="5" sum="900" type="15"/>
+   <action player="roboticy64" no="6" sum="900" type="15"/>
+   <action player="NandosFund" no="7" sum="900" type="15"/>
+   <action player="Krojjje" no="8" sum="900" type="15"/>
+   <action player="Vidok112" no="9" sum="3,000" type="1"/>
+   <action player="tropeiro123" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="11" sum="0" type="0"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="12" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="13" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="14" sum="12,000" type="23"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="15" sum="12,000" type="3"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="16" sum="0" type="0"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="17" sum="175,320" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D10 C8</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="roboticy64" no="19" sum="0" type="0"/>
+   <action player="NandosFund" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543627185">
+  <general>
+   <startdate>2024-02-03 18:46:04</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="109,752" bet="900" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="58,200" rebuy="0" addon="0" seat="2" chips="212,520" bet="65,058" dealer="1"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="91,500" bet="3,900" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="179,840" bet="24,900" dealer="0"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="115,846" bet="900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="283,851" bet="900" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="283,693" bet="900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="213,643" bet="900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="2" sum="900" type="15"/>
+   <action player="gophil80" no="3" sum="900" type="15"/>
+   <action player="straighthard72" no="4" sum="900" type="15"/>
+   <action player="roboticy64" no="5" sum="900" type="15"/>
+   <action player="NandosFund" no="6" sum="900" type="15"/>
+   <action player="Krojjje" no="7" sum="900" type="15"/>
+   <action player="Vidok112" no="8" sum="900" type="15"/>
+   <action player="tropeiro123" no="9" sum="3,000" type="1"/>
+   <action player="Kobe24Lebron23" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="11" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="12" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="13" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="14" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="15" sum="0" type="0"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="16" sum="12,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C9 H6</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="18" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK D8 CA</cards>
+   <action player="Kobe24Lebron23" no="19" sum="0" type="4"/>
+   <action player="Vidok112" no="20" sum="12,000" type="5"/>
+   <action player="Kobe24Lebron23" no="21" sum="12,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action player="Kobe24Lebron23" no="22" sum="0" type="4"/>
+   <action player="Vidok112" no="23" sum="40,158" type="5"/>
+   <action player="Kobe24Lebron23" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543627414">
+  <general>
+   <startdate>2024-02-03 18:47:45</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="34,200" rebuy="0" addon="0" seat="1" chips="108,852" bet="21,450" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="245,820" bet="900" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="87,600" bet="900" dealer="1"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="154,940" bet="3,900" dealer="0"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="114,946" bet="12,900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="0" rebuy="0" addon="0" seat="7" chips="282,951" bet="900" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="282,793" bet="900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="212,743" bet="900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Kobe24Lebron23" no="1" sum="900" type="15"/>
+   <action player="gophil80" no="2" sum="900" type="15"/>
+   <action player="straighthard72" no="3" sum="900" type="15"/>
+   <action player="roboticy64" no="4" sum="900" type="15"/>
+   <action player="NandosFund" no="5" sum="900" type="15"/>
+   <action player="Krojjje" no="6" sum="900" type="15"/>
+   <action player="Vidok112" no="7" sum="900" type="15"/>
+   <action player="tropeiro123" no="8" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="9" sum="3,000" type="1"/>
+   <action player="gophil80" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="straighthard72" type="Pocket">X X</cards>
+   <action player="straighthard72" no="11" sum="0" type="0"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="12" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="13" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="14" sum="12,000" type="23"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 D5</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="17" sum="0" type="0"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="18" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 D2 C6</cards>
+   <action player="gophil80" no="19" sum="0" type="4"/>
+   <action player="Krojjje" no="20" sum="8,550" type="5"/>
+   <action player="gophil80" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10543652513">
+  <general>
+   <startdate>2024-02-03 18:48:48</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="130,152" bet="54,795" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="244,920" bet="900" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="86,700" bet="900" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="151,040" bet="900" dealer="1"/>
+    <player name="gophil80" reg_code="" win="0" rebuy="0" addon="0" seat="6" chips="102,046" bet="3,900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="117,990" rebuy="0" addon="0" seat="7" chips="282,051" bet="54,795" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="281,893" bet="900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="211,843" bet="900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="gophil80" no="1" sum="900" type="15"/>
+   <action player="straighthard72" no="2" sum="900" type="15"/>
+   <action player="roboticy64" no="3" sum="900" type="15"/>
+   <action player="NandosFund" no="4" sum="900" type="15"/>
+   <action player="Krojjje" no="5" sum="900" type="15"/>
+   <action player="Vidok112" no="6" sum="900" type="15"/>
+   <action player="tropeiro123" no="7" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="8" sum="900" type="15"/>
+   <action player="gophil80" no="9" sum="3,000" type="1"/>
+   <action player="straighthard72" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="11" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="12" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">DQ SK</cards>
+   <action player="Krojjje" no="13" sum="12,000" type="23"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 H6</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="16" sum="0" type="0"/>
+   <cards player="gophil80" type="Pocket">X X</cards>
+   <action player="gophil80" no="17" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">S8 DJ</cards>
+   <action player="straighthard72" no="18" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 H9 H10</cards>
+   <action player="straighthard72" no="19" sum="0" type="4"/>
+   <action player="Krojjje" no="20" sum="8,550" type="5"/>
+   <action player="straighthard72" no="21" sum="8,550" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action player="straighthard72" no="22" sum="0" type="4"/>
+   <action player="Krojjje" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action player="straighthard72" no="24" sum="33,345" type="5"/>
+   <action player="Krojjje" no="25" sum="33,345" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10543652957">
+  <general>
+   <startdate>2024-02-03 18:50:02</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="75,357" bet="900" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="244,020" bet="900" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="85,800" bet="84,175" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="150,140" bet="900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="184,850" rebuy="0" addon="0" seat="7" chips="345,246" bet="84,175" dealer="0"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="280,993" bet="12,900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="210,943" bet="900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="straighthard72" no="1" sum="900" type="15"/>
+   <action player="roboticy64" no="2" sum="900" type="15"/>
+   <action player="NandosFund" no="3" sum="900" type="15"/>
+   <action player="Krojjje" no="4" sum="900" type="15"/>
+   <action player="Vidok112" no="5" sum="900" type="15"/>
+   <action player="tropeiro123" no="6" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="7" sum="900" type="15"/>
+   <action player="straighthard72" no="8" sum="3,000" type="1"/>
+   <action player="roboticy64" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="10" sum="0" type="0"/>
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="11" sum="0" type="0"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA D9</cards>
+   <action player="tropeiro123" no="13" sum="12,000" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="14" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">S10 D8</cards>
+   <action player="straighthard72" no="15" sum="9,000" type="3"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="16" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 S8 D6</cards>
+   <action player="straighthard72" no="17" sum="0" type="4"/>
+   <action player="roboticy64" no="18" sum="0" type="4"/>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action player="straighthard72" no="20" sum="19,035" type="5"/>
+   <action player="roboticy64" no="21" sum="0" type="0"/>
+   <action player="tropeiro123" no="22" sum="19,035" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action player="straighthard72" no="23" sum="52,240" type="5"/>
+   <action player="tropeiro123" no="24" sum="52,240" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10543653593">
+  <general>
+   <startdate>2024-02-03 18:52:20</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player name="Krojjje" reg_code="" win="0" rebuy="0" addon="0" seat="1" chips="74,457" bet="900" dealer="0"/>
+    <player name="Vidok112" reg_code="" win="0" rebuy="0" addon="0" seat="2" chips="243,120" bet="900" dealer="0"/>
+    <player name="tropeiro123" reg_code="7938906014" win="0" rebuy="0" addon="0" seat="4" chips="1,625" bet="1,625" dealer="0"/>
+    <player name="Kobe24Lebron23" reg_code="" win="0" rebuy="0" addon="0" seat="5" chips="149,240" bet="900" dealer="0"/>
+    <player name="straighthard72" reg_code="" win="22,025" rebuy="0" addon="0" seat="7" chips="445,921" bet="13,200" dealer="1"/>
+    <player name="roboticy64" reg_code="" win="0" rebuy="0" addon="0" seat="9" chips="268,093" bet="3,900" dealer="0"/>
+    <player name="NandosFund" reg_code="" win="0" rebuy="0" addon="0" seat="10" chips="210,043" bet="6,900" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="roboticy64" no="1" sum="900" type="15"/>
+   <action player="NandosFund" no="2" sum="900" type="15"/>
+   <action player="Krojjje" no="3" sum="900" type="15"/>
+   <action player="Vidok112" no="4" sum="900" type="15"/>
+   <action player="tropeiro123" no="5" sum="900" type="15"/>
+   <action player="Kobe24Lebron23" no="6" sum="900" type="15"/>
+   <action player="straighthard72" no="7" sum="900" type="15"/>
+   <action player="roboticy64" no="8" sum="3,000" type="1"/>
+   <action player="NandosFund" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Krojjje" type="Pocket">X X</cards>
+   <action player="Krojjje" no="10" sum="0" type="0"/>
+   <cards player="Vidok112" type="Pocket">X X</cards>
+   <action player="Vidok112" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 HK</cards>
+   <action player="tropeiro123" no="12" sum="725" type="7"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action player="Kobe24Lebron23" no="13" sum="0" type="0"/>
+   <cards player="straighthard72" type="Pocket">C3 C5</cards>
+   <action player="straighthard72" no="14" sum="13,200" type="23"/>
+   <cards player="roboticy64" type="Pocket">X X</cards>
+   <action player="roboticy64" no="15" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ S5 CA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+</session>

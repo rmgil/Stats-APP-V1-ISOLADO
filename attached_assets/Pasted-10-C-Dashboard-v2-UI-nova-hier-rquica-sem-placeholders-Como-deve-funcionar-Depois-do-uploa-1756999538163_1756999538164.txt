@@ -1,0 +1,176 @@
+10.C — Dashboard v2 (UI nova, hierárquica, sem “placeholders”)
+
+Como deve funcionar
+
+Depois do upload → run pipeline, vamos diretamente a /dashboard?token=….
+
+O dashboard lê scorecard.json + stat_counts.json do token e renderiza cards com:
+
+Percentagem real (ex.: RFI EARLY 19,23%).
+
+Amostra (opportunities/attempts).
+
+Nota (A–F) + frase (“Dentro do ideal”, “Abaixo”, “Acima”).
+
+Click: abre modal com timeseries + “Ver mãos” (via /api/hh/*).
+
+Prompts (HTML + JS):
+
+1) templates/dashboard.html (nova)
+
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="container-xl py-4">
+  <div class="d-flex align-items-center mb-3">
+    <h2 class="me-3">Dashboard</h2>
+    <div class="ms-auto">
+      <a class="btn btn-outline-light btn-sm" href="/pipeline">Voltar ao Pipeline</a>
+    </div>
+  </div>
+
+  <!-- Filtros -->
+  <div class="row g-3 mb-3">
+    <div class="col-auto">
+      <select id="groupSel" class="form-select form-select-sm"></select>
+    </div>
+    <div class="col-auto">
+      <select id="familySel" class="form-select form-select-sm"></select>
+    </div>
+    <div class="col-auto">
+      <select id="monthsSel" class="form-select form-select-sm">
+        <option value="3">Últimos 3 meses</option>
+        <option value="2">Últimos 2 meses</option>
+        <option value="1">Último mês</option>
+        <option value="all">Tudo</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Hierarquia: Grupo -> Subgrupos -> Stats -->
+  <div id="cards"></div>
+</div>
+
+<!-- Modal para detalhes / timeseries -->
+<div class="modal fade" id="statModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="statTitle"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <canvas id="trendChart" height="120"></canvas>
+        <hr>
+        <div id="handsArea" class="small"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+const token = new URLSearchParams(location.search).get("token");
+const statCountsURL = `/files/${token}/out/stats/stat_counts.json`;   // servir ficheiros estáticos do token
+const scorecardURL  = `/files/${token}/out/scores/scorecard.json`;
+
+function pct(x){ return (x==null||isNaN(x)) ? "-" : (x.toFixed(2).replace(".", ",") + "%"); }
+function gradeBadge(g){
+  const colors = {A:"success",B:"primary",C:"warning",D:"danger",E:"danger",F:"dark"};
+  return `<span class="badge bg-${colors[g]||"secondary"}">${g||"-"}</span>`;
+}
+
+async function loadJSON(url){
+  const r = await fetch(url);
+  if(!r.ok) throw new Error("Fetch fail "+url);
+  return r.json();
+}
+
+function renderCards(score){
+  const root = document.getElementById("cards");
+  root.innerHTML = "";
+  const groups = Object.entries(score.group_level || {}).sort();
+
+  // preencher selects
+  const groupSel = document.getElementById("groupSel");
+  groupSel.innerHTML = groups.map(([k])=>`<option value="${k}">${k}</option>`).join("");
+  const families = new Set();
+  for(const [, g] of groups){ Object.keys(g.subgroups||{}).forEach(f=>families.add(f)); }
+  const familySel = document.getElementById("familySel");
+  familySel.innerHTML = ["ALL", ...Array.from(families).sort()].map(f=>`<option>${f}</option>`).join("");
+
+  function matchFilters(groupKey, famKey){
+    const currGroup = groupSel.value || groupKey;
+    const currFam   = familySel.value || famKey;
+    return (groupKey===currGroup) && (currFam==="ALL" || currFam===famKey);
+  }
+
+  for(const [groupKey, g] of groups){
+    const sg = g.subgroups || {};
+    for(const [famKey, fam] of Object.entries(sg)){
+      if(!matchFilters(groupKey, famKey)) continue;
+      const stats = fam.stats || {};
+      const card = document.createElement("div");
+      card.className = "card bg-dark border-secondary mb-3";
+      let html = `<div class="card-header d-flex align-items-center">
+        <strong>${groupKey}</strong><span class="text-muted mx-2">/</span>
+        <span>${famKey}</span>
+        <span class="ms-auto small text-muted">peso ${Math.round((fam.weight||0)*100)}%</span>
+      </div><div class="card-body"><div class="row g-3">`;
+
+      for(const [statKey, s] of Object.entries(stats)){
+        const v = s.percentage; // já vem time-decayed do score
+        html += `<div class="col-sm-6 col-lg-4">
+          <div class="p-3 rounded border border-secondary h-100">
+            <div class="d-flex align-items-center mb-2">
+              <div class="me-2">${gradeBadge(s.grade)}</div>
+              <div class="fw-semibold">${statKey}</div>
+            </div>
+            <div class="display-6">${pct(v)}</div>
+            <div class="text-muted small">opps ${s.opportunities ?? "-"} · atts ${s.attempts ?? "-"}</div>
+            <div class="small mt-1">${s.note||""}</div>
+            <button class="btn btn-outline-light btn-sm mt-2" data-stat="${statKey}" data-group="${groupKey}" data-fam="${famKey}">Detalhes</button>
+          </div>
+        </div>`;
+      }
+
+      html += `</div></div>`;
+      card.innerHTML = html;
+      root.appendChild(card);
+    }
+  }
+
+  // delegação de evento p/ modal
+  root.addEventListener("click", async (ev)=>{
+    const btn = ev.target.closest("button[data-stat]");
+    if(!btn) return;
+    const stat = btn.dataset.stat, group = btn.dataset.group, fam = btn.dataset.fam;
+    document.getElementById("statTitle").textContent = `${group} / ${fam} / ${stat}`;
+    // trend real
+    const trend = await (await fetch(`/api/stats/trend?token=${token}&group=${group}&family=${fam}&stat=${stat}`)).json();
+    renderTrend(trend);
+    // hands
+    const hands = await (await fetch(`/api/stats/hands?token=${token}&group=${group}&family=${fam}&stat=${stat}`)).json();
+    document.getElementById("handsArea").innerHTML = (hands.ids||[]).slice(0,50).map(h=>`<code class="me-2">${h}</code>`).join("");
+    new bootstrap.Modal(document.getElementById("statModal")).show();
+  }, {once:true});
+}
+
+let trendChart;
+function renderTrend(data){
+  if(trendChart){ trendChart.destroy(); }
+  const ctx = document.getElementById("trendChart").getContext("2d");
+  trendChart = new Chart(ctx, {
+    type: "line",
+    data: { labels: data.labels, datasets: [{ label: "Percent", data: data.values }] },
+    options: { responsive: true, plugins:{legend:{display:false}}, scales:{y:{ticks:{callback:(v)=>v+"%"}}} }
+  });
+}
+
+(async ()=>{
+  const score = await loadJSON(scorecardURL);
+  renderCards(score);
+})();
+</script>
+{% endblock %}

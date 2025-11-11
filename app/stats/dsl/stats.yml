@@ -1,0 +1,1597 @@
+version: 1
+defaults:
+  metric:
+    type: percent
+    decimals: 2
+stats:
+- id: RFI_EARLY
+  label: Early RFI
+  family: RFI
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - EP
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - avg_stacks_after_hero_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: RFI_MIDDLE
+  label: Middle RFI
+  family: RFI
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - MP
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - avg_stacks_after_hero_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: RFI_CO_STEAL
+  label: CO Steal
+  family: RFI
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - CO
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - avg_stacks_after_hero_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: RFI_BTN_STEAL
+  label: BTN Steal
+  family: RFI
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BTN
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - avg_stacks_after_hero_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: SB_UO_VPIP
+  label: SB UO VPIP
+  family: BvB
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - SB
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - bvb_villain_stack_bb
+      - 16
+  attempt:
+    is_true: hero_vpip
+- id: BB_FOLD_TO_SB_STEAL
+  label: BB Fold vs SB Steal
+  family: BvB
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - eq:
+      - open_raiser
+      - SB
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - bvb_villain_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: BB_RAISE_VS_SB_LIMP_UOP
+  label: BB Raise vs SB Limp
+  family: BvB
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - is_true: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - bvb_villain_stack_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: SB_STEAL
+  label: SB Steal
+  family: BvB
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - SB
+    - is_true: unopened_pot
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - bvb_villain_stack_bb
+      - 16
+  attempt:
+    is_true: hero_raised_first_in
+- id: EP_3BET
+  label: EP 3-Bet
+  family: 3BET_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - EP
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: EP_COLD_CALL
+  label: EP Cold Call
+  family: CC_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - EP
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    all:
+    - is_true: hero_vpip
+    - not: hero_raised_first_in
+- id: EP_VPIP
+  label: EP VPIP
+  family: VPIP
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - EP
+    - gte:
+      - hero_stack_bb
+      - 16
+  attempt:
+    is_true: hero_vpip
+- id: MP_3BET
+  label: MP 3-Bet
+  family: 3BET_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - MP
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: MP_COLD_CALL
+  label: MP Cold Call
+  family: CC_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - MP
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    all:
+    - is_true: hero_vpip
+    - not: hero_raised_first_in
+- id: MP_VPIP
+  label: MP VPIP
+  family: VPIP
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_pos_group
+      - MP
+    - gte:
+      - hero_stack_bb
+      - 16
+  attempt:
+    is_true: hero_vpip
+- id: CO_3BET
+  label: CO 3-Bet
+  family: 3BET_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - CO
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: CO_COLD_CALL
+  label: CO Cold Call
+  family: CC_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - CO
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    all:
+    - is_true: hero_vpip
+    - not: hero_raised_first_in
+- id: CO_VPIP
+  label: CO VPIP
+  family: VPIP
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - CO
+    - gte:
+      - hero_stack_bb
+      - 16
+  attempt:
+    is_true: hero_vpip
+- id: BTN_3BET
+  label: BTN 3-Bet
+  family: 3BET_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BTN
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: BTN_COLD_CALL
+  label: BTN Cold Call
+  family: CC_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BTN
+    - not: unopened_pot
+    - not: has_limper_before_hero
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    all:
+    - is_true: hero_vpip
+    - not: hero_raised_first_in
+- id: BTN_VPIP
+  label: BTN VPIP
+  family: VPIP
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BTN
+    - gte:
+      - hero_stack_bb
+      - 16
+  attempt:
+    is_true: hero_vpip
+- id: BTN_FOLD_TO_CO_STEAL
+  label: BTN Fold vs CO Steal
+  family: FOLD_RANGE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BTN
+    - eq:
+      - open_raiser
+      - CO
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: FOLD_TO_3BET_IP
+  label: Fold to 3-Bet IP
+  family: VS_3BET
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: faced_3bet
+    - is_true: hero_ip_flop
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - three_bettor_stack_bb
+      - 16
+  attempt:
+    is_true: folded_to_3bet
+- id: FOLD_TO_3BET_OOP
+  label: Fold to 3-Bet OOP
+  family: VS_3BET
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: faced_3bet
+    - is_false: hero_ip_flop
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - three_bettor_stack_bb
+      - 16
+  attempt:
+    is_true: folded_to_3bet
+- id: FOLD_TO_3BET
+  label: Fold to 3-Bet
+  family: VS_3BET
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: faced_3bet
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - three_bettor_stack_bb
+      - 16
+  attempt:
+    is_true: folded_to_3bet
+- id: SQUEEZE
+  label: Squeeze
+  family: SQUEEZE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: is_squeeze
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - squeeze_avg_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: SQUEEZE_VS_BTN_RAISER
+  label: Squeeze vs BTN Raiser
+  family: SQUEEZE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: is_squeeze
+    - eq:
+      - open_raiser
+      - BTN
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - squeeze_avg_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: BB_FOLD_VS_CO_STEAL
+  label: BB Fold vs CO Steal
+  family: BB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - eq:
+      - open_raiser
+      - CO
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: BB_FOLD_VS_BTN_STEAL
+  label: BB Fold vs BTN Steal
+  family: BB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - eq:
+      - open_raiser
+      - BTN
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: BB_FOLD_VS_SB_STEAL
+  label: BB Fold vs SB Steal
+  family: BB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - eq:
+      - open_raiser
+      - SB
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - bvb_villain_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: BB_RESTEAL_VS_BTN_STEAL
+  label: BB Resteal vs BTN
+  family: BB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - BB
+    - is_true: is_resteal_vs_btn
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: SB_FOLD_TO_CO_STEAL
+  label: SB Fold vs CO Steal
+  family: SB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - SB
+    - eq:
+      - open_raiser
+      - CO
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: SB_FOLD_TO_BTN_STEAL
+  label: SB Fold vs BTN Steal
+  family: SB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - SB
+    - eq:
+      - open_raiser
+      - BTN
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    not: hero_vpip
+- id: SB_RESTEAL_VS_BTN
+  label: SB Resteal vs BTN
+  family: SB_DEFENSE
+  scope: preflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    eff_stack_min_bb: 16
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - hero_position
+      - SB
+    - eq:
+      - open_raiser
+      - BTN
+    - gte:
+      - hero_stack_bb
+      - 16
+    - gte:
+      - raiser_stack_bb
+      - 16
+  attempt:
+    eq:
+    - three_bettor
+    - hero
+- id: POST_CBET_FLOP_IP
+  label: Flop CBet IP
+  family: POSTFLOP_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: cbet_flop_opp_ip
+  attempt:
+    is_true: cbet_flop_att_ip
+- id: POST_CBET_FLOP_3BETPOT_IP
+  label: Flop CBet 3Bet Pot IP
+  family: POSTFLOP_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: cbet_flop_opp_ip
+  attempt:
+    is_true: cbet_flop_att_ip
+- id: POST_CBET_FLOP_OOP
+  label: Flop CBet OOP
+  family: POSTFLOP_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: cbet_flop_opp_oop
+  attempt:
+    is_true: cbet_flop_att_oop
+- id: POST_VS_CBET_FLOP_FOLD_IP
+  label: Fold vs Flop CBet IP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: hero_ip_flop
+    - not: cbet_flop_opp_ip
+  attempt:
+    is_true: vs_cbet_flop_fold_ip
+- id: POST_VS_CBET_FLOP_RAISE_IP
+  label: Raise vs Flop CBet IP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: hero_ip_flop
+    - not: cbet_flop_opp_ip
+  attempt:
+    is_true: vs_cbet_flop_raise_ip
+- id: POST_VS_CBET_FLOP_RAISE_OOP
+  label: Raise vs Flop CBet OOP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_false: hero_ip_flop
+    - not: cbet_flop_opp_oop
+  attempt:
+    is_true: vs_cbet_flop_raise_oop
+- id: POST_BET_VS_MISSED_CBET_SRP_FLOP
+  label: Bet vs Missed CBet Flop
+  family: POSTFLOP_MISSED_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: flop_bet_vs_missed_cbet_srp
+  attempt:
+    is_true: flop_bet_vs_missed_cbet_srp
+- id: POST_CBET_TURN_IP
+  label: Turn CBet IP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: cbet_turn_opp_ip
+  attempt:
+    is_true: cbet_turn_att_ip
+- id: POST_CBET_TURN_OOP
+  label: Turn CBet OOP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: cbet_turn_opp_oop
+  attempt:
+    is_true: cbet_turn_att_oop
+- id: POST_DONK_TURN
+  label: Donk Turn
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: donk_turn
+  attempt:
+    is_true: donk_turn
+- id: POST_DONK_TURN_SRP_VS_PFR
+  label: Donk Turn SRP vs PFR
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: donk_turn
+    - eq:
+      - pot_type
+      - SRP
+  attempt:
+    is_true: donk_turn
+- id: POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP
+  label: Turn Bet vs Missed Flop CBet OOP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: turn_bet_vs_missed_cbet_srp_oop
+  attempt:
+    is_true: turn_bet_vs_missed_cbet_srp_oop
+- id: POST_TURN_FOLD_VS_CBET_OOP
+  label: Turn Fold vs CBet OOP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_false: hero_ip_turn
+    - not: cbet_turn_opp_oop
+  attempt:
+    is_true: vs_cbet_turn_fold_oop
+- id: POST_WTSD
+  label: Went to Showdown
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: saw_flop
+  attempt:
+    is_true: saw_showdown
+- id: POST_W$SD
+  label: Won at Showdown
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: saw_showdown
+  attempt:
+    is_true: won_showdown
+- id: POST_W$WSF
+  label: Won When Saw Flop
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: saw_flop
+  attempt:
+    is_true: won_when_saw_flop
+- id: POST_RIVER_AGG_PCT
+  label: River Aggression %
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    gt:
+    - river_agg_pct
+    - 0
+  attempt:
+    gte:
+    - river_agg_pct
+    - 0.5
+- id: POST_RIVER_BET_SINGLE_RAISED_POT
+  label: River Bet SRP
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - eq:
+      - pot_type
+      - SRP
+    - is_true: hero_ip_river
+  attempt:
+    gt:
+    - river_agg_pct
+    - 0
+- id: POST_W$SD_B_RIVER
+  label: Won at SD After River Bet
+  family: POSTFLOP_RIVER
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    all:
+    - is_true: saw_showdown
+    - gt:
+      - river_agg_pct
+      - 0
+  attempt:
+    is_true: won_showdown
+- id: POST_DONK_FLOP
+  label: Donk bet Flop
+  family: POSTFLOP_DONK
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: donk_flop
+  attempt:
+    is_true: donk_flop
+- id: POST_VS_CBET_FLOP_FOLD_OOP
+  label: Fold vs Flop CBet OOP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: &id001
+    heads_up_only: true
+    pot_type:
+    - SRP
+    - 3bet
+    exclude_allin_preflop: true
+  opportunity:
+    is_true: vs_cbet_flop_fold_oop
+  attempt:
+    is_true: vs_cbet_flop_fold_oop
+- id: POST_VS_CBET_FLOP_CALL_IP
+  label: Call vs Flop CBet IP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    any:
+    - is_true: vs_cbet_flop_fold_ip
+    - is_true: vs_cbet_flop_call_ip
+    - is_true: vs_cbet_flop_raise_ip
+  attempt:
+    is_true: vs_cbet_flop_call_ip
+- id: POST_VS_CBET_FLOP_CALL_OOP
+  label: Call vs Flop CBet OOP
+  family: POSTFLOP_VS_CBET
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    any:
+    - is_true: vs_cbet_flop_fold_oop
+    - is_true: vs_cbet_flop_call_oop
+    - is_true: vs_cbet_flop_raise_oop
+  attempt:
+    is_true: vs_cbet_flop_call_oop
+- id: POST_PROBE_TURN_ATT_IP
+  label: Probe Turn IP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: probe_turn_opp_ip
+  attempt:
+    is_true: probe_turn_att_ip
+- id: POST_PROBE_TURN_ATT_OOP
+  label: Probe Turn OOP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: probe_turn_opp_oop
+  attempt:
+    is_true: probe_turn_att_oop
+- id: POST_DELAYED_CBET_TURN_ATT_IP
+  label: Delayed CBet Turn IP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: delayed_cbet_turn_opp_ip
+  attempt:
+    is_true: delayed_cbet_turn_att_ip
+- id: POST_DELAYED_CBET_TURN_ATT_OOP
+  label: Delayed CBet Turn OOP
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: delayed_cbet_turn_opp_oop
+  attempt:
+    is_true: delayed_cbet_turn_att_oop
+- id: POST_XR_FLOP
+  label: Check-Raise Flop
+  family: POSTFLOP_XR
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: xr_flop_opp
+  attempt:
+    is_true: xr_flop_att
+- id: POST_BET_VS_MISS_TURN
+  label: Bet vs Missed CBet Turn
+  family: POSTFLOP_TURN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters:
+    heads_up_only: true
+    pot_type:
+    - SRP
+    exclude_allin_preflop: true
+  opportunity:
+    any:
+    - is_true: bet_vs_missed_turn_opp_ip
+    - is_true: bet_vs_missed_turn_opp_oop
+  attempt:
+    any:
+    - is_true: bet_vs_missed_turn_att_ip
+    - is_true: bet_vs_missed_turn_att_oop
+- id: POST_WWSF
+  label: Won When Saw Flop
+  family: POSTFLOP_SHOWDOWN
+  scope: postflop
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: saw_flop
+  attempt:
+    is_true: won_when_saw_flop
+- id: POST_AGG_PCT_FLOP
+  label: Aggression % Flop
+  family: POSTFLOP_AGGRESSION
+  scope: postflop
+  type: ratio
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: saw_flop
+  attempt:
+    gte:
+    - agg_pct_flop
+    - 0
+- id: POST_AGG_PCT_TURN
+  label: Aggression % Turn
+  family: POSTFLOP_AGGRESSION
+  scope: postflop
+  type: ratio
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: saw_turn
+  attempt:
+    gte:
+    - agg_pct_turn
+    - 0
+- id: POST_AGG_PCT_RIVER
+  label: Aggression % River
+  family: POSTFLOP_AGGRESSION
+  scope: postflop
+  type: ratio
+  applies_to_groups:
+  - nonko_9max_pref
+  - nonko_6max_pref
+  - pko_pref
+  - postflop
+  - postflop_all
+  filters: *id001
+  opportunity:
+    is_true: saw_river
+  attempt:
+    gte:
+    - agg_pct_river
+    - 0

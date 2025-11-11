@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Email Pendente - Stat Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .confirmation-container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+            width: 100%;
+            max-width: 500px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .email-icon {
+            font-size: 72px;
+            margin-bottom: 20px;
+        }
+        
+        .email-address {
+            background: #f8f9fa;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        
+        .instructions {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .instructions li {
+            margin: 10px 0;
+        }
+        
+        .btn-group-vertical {
+            width: 100%;
+        }
+        
+        .btn {
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .alert {
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="confirmation-container">
+        <div class="email-icon">📧</div>
+        
+        <h2>Confirme o seu Email</h2>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <p>A sua conta foi criada com sucesso!</p>
+        
+        {% if email %}
+        <p>Enviamos um email de confirmação para:</p>
+        <div class="email-address">{{ email }}</div>
+        {% else %}
+        <p>Enviámos um email de confirmação para o seu endereço.</p>
+        {% endif %}
+        
+        <div class="warning-box">
+            <strong>⚠️ Importante:</strong><br>
+            Precisa confirmar o seu email antes de aceder ao Stat Manager.
+        </div>
+        
+        <div class="instructions">
+            <h5>Próximos passos:</h5>
+            <ol>
+                <li>Verifique a sua caixa de entrada</li>
+                <li>Procure o email do <strong>Stat Manager</strong></li>
+                <li>Clique no link de confirmação no email</li>
+                <li>Após confirmar, poderá fazer login</li>
+            </ol>
+        </div>
+        
+        <div class="btn-group-vertical">
+            <a href="{{ url_for('auth.login') }}" class="btn btn-primary">
+                Ir para Login
+            </a>
+            
+            <form method="POST" action="{{ url_for('auth.resend_confirmation') }}" style="display: inline;">
+                <button type="submit" class="btn btn-outline-secondary w-100">
+                    Reenviar Email de Confirmação
+                </button>
+            </form>
+        </div>
+        
+        <div style="margin-top: 30px; color: #666; font-size: 14px;">
+            <p>Não recebeu o email?</p>
+            <ul style="text-align: left;">
+                <li>Verifique a sua pasta de spam</li>
+                <li>Aguarde alguns minutos</li>
+                <li>Certifique-se de que o email está correto</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

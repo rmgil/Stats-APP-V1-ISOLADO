@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947854862">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€12,000 GTD, 1080880313</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:01:38</duration>
+  <gamecount>1</gamecount>
+  <startdate>2024-02-12 16:09:08</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>0</bets>
+  <wins>0</wins>
+  <chipsin>0</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080854681</tournamentcode>
+  <tournamentname>E3|€12,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560416969">
+  <general>
+   <startdate>2024-02-12 16:09:08</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="245,739" addon="0" bet="23,030" reg_code="" name="G0cmaN" win="22,648" rebuy="0"/>
+    <player dealer="0" seat="2" chips="244,960" addon="0" bet="180" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="123,793" addon="0" bet="180" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="112,078" addon="0" bet="180" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="57,454" addon="0" bet="180" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="91,070" addon="0" bet="10,574" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="28,893" addon="0" bet="780" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="slickwizard111" type="15"/>
+   <action no="2" sum="180" player="G0cmaN" type="15"/>
+   <action no="3" sum="180" player="ClareBradburn" type="15"/>
+   <action no="4" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="5" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="6" sum="180" player="FreelancerV" type="15"/>
+   <action no="7" sum="180" player="LeBron841" type="15"/>
+   <action no="8" sum="600" player="slickwizard111" type="1"/>
+   <action no="9" sum="1,200" player="G0cmaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="14" sum="2,400" player="LeBron841" type="23"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="16" sum="1,200" player="G0cmaN" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA HJ CK</cards>
+   <action no="17" sum="0" player="G0cmaN" type="4"/>
+   <action no="18" sum="2,197" player="LeBron841" type="5"/>
+   <action no="19" sum="7,994" player="G0cmaN" type="23"/>
+   <action no="20" sum="5,797" player="LeBron841" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="21" sum="12,456" player="G0cmaN" type="5"/>
+   <action no="22" sum="0" player="LeBron841" type="0"/>
+  </round>
+ </game>
+</session>

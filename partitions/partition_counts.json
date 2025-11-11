@@ -1,0 +1,19 @@
+{
+  "input": "parsed/hands_enriched.jsonl",
+  "totals": {
+    "nonko_6max_pref": 1,
+    "nonko_9max_pref": 0,
+    "pko_pref": 0,
+    "postflop_all": 6
+  },
+  "counts": {
+    "2024-07": {
+      "postflop_all": {
+        "hands": 6
+      },
+      "nonko_6max_pref": {
+        "hands": 1
+      }
+    }
+  }
+}

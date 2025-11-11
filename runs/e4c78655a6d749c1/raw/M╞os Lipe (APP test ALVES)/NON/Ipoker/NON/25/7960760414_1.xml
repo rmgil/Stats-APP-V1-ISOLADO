@@ -1,0 +1,3591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960760414">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€6,000 |Sunday Early Special, 1082037322</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>02:42:36</duration>
+  <gamecount>204</gamecount>
+  <startdate>2024-02-25 17:47:07</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>76,961,919</bets>
+  <wins>52,529,274</wins>
+  <chipsin>98,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP135</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081409834</tournamentcode>
+  <tournamentname>€6,000 |Sunday Early Special</tournamentname>
+  <place>2</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>€1,353.62</win>
+ </general>
+ <game gamecode="10584139653">
+  <general>
+   <startdate>2024-02-25 17:47:07</startdate>
+   <smallblind>40,000</smallblind>
+   <bigblind>80,000</bigblind>
+   <ante>12,000</ante>
+   <players>
+    <player bet="12,000" addon="0" rebuy="0" win="0" chips="3,315,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="52,000" addon="0" rebuy="0" win="0" chips="1,447,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="412,000" addon="0" rebuy="0" win="888,000" chips="2,097,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="412,000" addon="0" rebuy="0" win="0" chips="4,458,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jrwedde99" sum="12,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="12,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="12,000" type="15"/>
+   <action no="4" player="bigbangok" sum="12,000" type="15"/>
+   <action no="5" player="jrwedde99" sum="40,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="80,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D8 D7</cards>
+   <action no="7" player="tropeiro123" sum="160,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="9" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">H9 HJ</cards>
+   <action no="10" player="BushDoctor04" sum="80,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 D6 C8</cards>
+   <action no="11" player="BushDoctor04" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action no="13" player="BushDoctor04" sum="240,000" type="5"/>
+   <action no="14" player="tropeiro123" sum="240,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action no="15" player="BushDoctor04" sum="0" type="4"/>
+   <action no="16" player="tropeiro123" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584139753">
+  <general>
+   <startdate>2024-02-25 17:47:56</startdate>
+   <smallblind>40,000</smallblind>
+   <bigblind>80,000</bigblind>
+   <ante>12,000</ante>
+   <players>
+    <player bet="3,303,743" addon="0" rebuy="0" win="1,808,000" chips="3,303,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="12,000" addon="0" rebuy="0" win="0" chips="1,395,513" seat="7" name="jrwedde99" reg_code="" dealer="1"/>
+    <player bet="852,000" addon="0" rebuy="0" win="0" chips="2,573,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="92,000" addon="0" rebuy="0" win="0" chips="4,046,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="12,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="12,000" type="15"/>
+   <action no="3" player="bigbangok" sum="12,000" type="15"/>
+   <action no="4" player="jrwedde99" sum="12,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="40,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="80,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="80,000" type="3"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="8" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="440,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C6 SQ</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <action no="11" player="bigbangok" sum="360,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C8 D5</cards>
+   <action no="12" player="BushDoctor04" sum="400,000" type="5"/>
+   <action no="13" player="bigbangok" sum="2,851,743" type="23"/>
+   <action no="14" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159363">
+  <general>
+   <startdate>2024-02-25 17:48:29</startdate>
+   <smallblind>40,000</smallblind>
+   <bigblind>80,000</bigblind>
+   <ante>12,000</ante>
+   <players>
+    <player bet="92,000" addon="0" rebuy="0" win="0" chips="4,259,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="12,000" addon="0" rebuy="0" win="0" chips="1,383,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="12,000" addon="0" rebuy="0" win="0" chips="1,721,352" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="172,000" addon="0" rebuy="0" win="208,000" chips="3,954,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="12,000" type="15"/>
+   <action no="2" player="bigbangok" sum="12,000" type="15"/>
+   <action no="3" player="jrwedde99" sum="12,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="12,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="40,000" type="1"/>
+   <action no="6" player="bigbangok" sum="80,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="7" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 S10</cards>
+   <action no="9" player="tropeiro123" sum="40,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 SJ HJ</cards>
+   <action no="11" player="tropeiro123" sum="80,000" type="5"/>
+   <action no="12" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159479">
+  <general>
+   <startdate>2024-02-25 17:49:21</startdate>
+   <smallblind>40,000</smallblind>
+   <bigblind>80,000</bigblind>
+   <ante>12,000</ante>
+   <players>
+    <player bet="572,000" addon="0" rebuy="0" win="848,000" chips="4,167,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="172,000" addon="0" rebuy="0" win="0" chips="1,371,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="12,000" addon="0" rebuy="0" win="0" chips="1,709,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="332,000" addon="0" rebuy="0" win="0" chips="4,070,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="12,000" type="15"/>
+   <action no="2" player="jrwedde99" sum="12,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="12,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="12,000" type="15"/>
+   <action no="5" player="bigbangok" sum="40,000" type="1"/>
+   <action no="6" player="jrwedde99" sum="80,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 SA</cards>
+   <action no="8" player="tropeiro123" sum="160,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="120,000" type="3"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="10" player="jrwedde99" sum="80,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 D10 SQ</cards>
+   <action no="11" player="bigbangok" sum="0" type="4"/>
+   <action no="12" player="jrwedde99" sum="0" type="4"/>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action no="14" player="bigbangok" sum="160,000" type="5"/>
+   <action no="15" player="jrwedde99" sum="0" type="0"/>
+   <action no="16" player="tropeiro123" sum="160,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action no="17" player="bigbangok" sum="240,000" type="5"/>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159685">
+  <general>
+   <startdate>2024-02-25 17:51:03</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,683,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="284,000" addon="0" rebuy="0" win="236,000" chips="1,199,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="1,697,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="3,738,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="4" player="bigbangok" sum="14,000" type="15"/>
+   <action no="5" player="jrwedde99" sum="45,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H8 C2</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="9" player="jrwedde99" sum="45,000" type="3"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 DQ S3</cards>
+   <action no="11" player="jrwedde99" sum="0" type="4"/>
+   <action no="12" player="BushDoctor04" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="13" player="jrwedde99" sum="0" type="4"/>
+   <action no="14" player="BushDoctor04" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action no="15" player="jrwedde99" sum="180,000" type="5"/>
+   <action no="16" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159750">
+  <general>
+   <startdate>2024-02-25 17:51:31</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,669,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,331,513" seat="7" name="jrwedde99" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="1,593,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="146,000" chips="3,724,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="3" player="bigbangok" sum="14,000" type="15"/>
+   <action no="4" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="45,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S5 H9</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="8" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159784">
+  <general>
+   <startdate>2024-02-25 17:51:45</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="4,655,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,317,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="189,000" addon="0" rebuy="0" win="281,000" chips="1,534,352" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="3,811,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="2" player="bigbangok" sum="14,000" type="15"/>
+   <action no="3" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="45,000" type="1"/>
+   <action no="6" player="bigbangok" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="7" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="189,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SA H7</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159844">
+  <general>
+   <startdate>2024-02-25 17:52:16</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="4,551,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="146,000" chips="1,303,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,711,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="3,752,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="14,000" type="15"/>
+   <action no="2" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="5" player="bigbangok" sum="45,000" type="1"/>
+   <action no="6" player="jrwedde99" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK C4</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159881">
+  <general>
+   <startdate>2024-02-25 17:52:33</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,492,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="1,390,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="1,697,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="180,000" addon="0" rebuy="0" win="281,000" chips="3,738,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="4" player="bigbangok" sum="14,000" type="15"/>
+   <action no="5" player="jrwedde99" sum="45,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 DA</cards>
+   <action no="7" player="tropeiro123" sum="180,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="9" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584159927">
+  <general>
+   <startdate>2024-02-25 17:52:53</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="194,000" addon="0" rebuy="0" win="0" chips="4,478,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,331,513" seat="7" name="jrwedde99" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="1,593,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="194,000" addon="0" rebuy="0" win="461,000" chips="3,915,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="3" player="bigbangok" sum="14,000" type="15"/>
+   <action no="4" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="45,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">CA D10</cards>
+   <action no="7" player="bigbangok" sum="90,000" type="3"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="8" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 SQ</cards>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 HJ C3</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+   <action no="14" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+   <action no="15" player="tropeiro123" sum="90,000" type="5"/>
+   <action no="16" player="bigbangok" sum="90,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10584160075">
+  <general>
+   <startdate>2024-02-25 17:54:11</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="194,000" addon="0" rebuy="0" win="236,000" chips="4,284,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,317,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,534,352" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="4,182,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="2" player="bigbangok" sum="14,000" type="15"/>
+   <action no="3" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="45,000" type="1"/>
+   <action no="6" player="bigbangok" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="7" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ D4</cards>
+   <action no="9" player="tropeiro123" sum="45,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 HQ S9</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="90,000" type="5"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160169">
+  <general>
+   <startdate>2024-02-25 17:54:57</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="4,416,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="146,000" chips="1,303,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,520,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,078,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="14,000" type="15"/>
+   <action no="2" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="5" player="bigbangok" sum="45,000" type="1"/>
+   <action no="6" player="jrwedde99" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 C8</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160182">
+  <general>
+   <startdate>2024-02-25 18:00:30</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,357,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="1,390,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="1,506,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="180,000" addon="0" rebuy="0" win="281,000" chips="4,064,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="4" player="bigbangok" sum="14,000" type="15"/>
+   <action no="5" player="jrwedde99" sum="45,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DQ D4</cards>
+   <action no="7" player="tropeiro123" sum="180,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="9" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160189">
+  <general>
+   <startdate>2024-02-25 18:00:42</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,343,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,331,513" seat="7" name="jrwedde99" reg_code="" dealer="1"/>
+    <player bet="1,388,352" addon="0" rebuy="0" win="236,000" chips="1,402,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="4,241,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="3" player="bigbangok" sum="14,000" type="15"/>
+   <action no="4" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="45,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="8" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="1,388,352" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 D7</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160214">
+  <general>
+   <startdate>2024-02-25 18:01:11</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="4,329,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="630,000" addon="0" rebuy="0" win="281,000" chips="1,317,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="1,534,352" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="4,137,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="2" player="bigbangok" sum="14,000" type="15"/>
+   <action no="3" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="45,000" type="1"/>
+   <action no="6" player="bigbangok" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="7" player="jrwedde99" sum="630,000" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C8</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160258">
+  <general>
+   <startdate>2024-02-25 18:01:47</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="4,225,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="1,494,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="1,440,000" addon="0" rebuy="0" win="281,000" chips="1,520,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,078,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="14,000" type="15"/>
+   <action no="2" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="5" player="bigbangok" sum="45,000" type="1"/>
+   <action no="6" player="jrwedde99" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="1,440,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S8 C10</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">C5 S5</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="10" player="jrwedde99" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160286">
+  <general>
+   <startdate>2024-02-25 18:02:12</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="360,000" addon="0" rebuy="0" win="281,000" chips="4,166,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="1,390,513" seat="7" name="jrwedde99" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="1,697,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,064,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="4" player="bigbangok" sum="14,000" type="15"/>
+   <action no="5" player="jrwedde99" sum="45,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DA S3</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="360,000" type="23"/>
+   <cards player="jrwedde99" type="Pocket">X X</cards>
+   <action no="9" player="jrwedde99" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584160373">
+  <general>
+   <startdate>2024-02-25 18:02:32</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="4,343,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="826,488" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="2,564,160" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="2,484,924" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="304,916" seat="6" name="ProBeers" reg_code="" dealer="0"/>
+    <player bet="1,317,513" addon="0" rebuy="0" win="0" chips="1,331,513" seat="7" name="jrwedde99" reg_code="" dealer="1"/>
+    <player bet="1,593,352" addon="0" rebuy="0" win="2,837,026" chips="1,593,352" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="4,050,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="3" player="bigbangok" sum="14,000" type="15"/>
+   <action no="4" player="glhaveff" sum="14,000" type="15"/>
+   <action no="5" player="SantosTP" sum="14,000" type="15"/>
+   <action no="6" player="futurechamp" sum="14,000" type="15"/>
+   <action no="7" player="ProBeers" sum="14,000" type="15"/>
+   <action no="8" player="jrwedde99" sum="14,000" type="15"/>
+   <action no="9" player="BushDoctor04" sum="45,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="11" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="12" player="glhaveff" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="13" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="14" player="futurechamp" sum="0" type="0"/>
+   <cards player="ProBeers" type="Pocket">X X</cards>
+   <action no="15" player="ProBeers" sum="0" type="0"/>
+   <cards player="jrwedde99" type="Pocket">C2 S2</cards>
+   <action no="16" player="jrwedde99" sum="1,317,513" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">SQ CQ</cards>
+   <action no="17" player="BushDoctor04" sum="1,534,352" type="7"/>
+   <cards player="tropeiro123" type="Pocket">D8 S3</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 S4 SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10584180811">
+  <general>
+   <startdate>2024-02-25 18:03:11</startdate>
+   <smallblind>45,000</smallblind>
+   <bigblind>90,000</bigblind>
+   <ante>14,000</ante>
+   <players>
+    <player bet="812,488" addon="0" rebuy="0" win="869,988" chips="4,329,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="798,488" addon="0" rebuy="0" win="869,988" chips="812,488" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="2,550,160" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="2,470,924" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="290,916" seat="6" name="ProBeers" reg_code="" dealer="0"/>
+    <player bet="14,000" addon="0" rebuy="0" win="0" chips="3,098,865" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="59,000" addon="0" rebuy="0" win="0" chips="3,946,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="14,000" type="15"/>
+   <action no="2" player="bigbangok" sum="14,000" type="15"/>
+   <action no="3" player="glhaveff" sum="14,000" type="15"/>
+   <action no="4" player="SantosTP" sum="14,000" type="15"/>
+   <action no="5" player="futurechamp" sum="14,000" type="15"/>
+   <action no="6" player="ProBeers" sum="14,000" type="15"/>
+   <action no="7" player="BushDoctor04" sum="14,000" type="15"/>
+   <action no="8" player="tropeiro123" sum="45,000" type="1"/>
+   <action no="9" player="bigbangok" sum="90,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="glhaveff" type="Pocket">HA DQ</cards>
+   <action no="10" player="glhaveff" sum="798,488" type="23"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="11" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="12" player="futurechamp" sum="0" type="0"/>
+   <cards player="ProBeers" type="Pocket">X X</cards>
+   <action no="13" player="ProBeers" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 H6</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">HQ SA</cards>
+   <action no="16" player="bigbangok" sum="708,488" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK C9 CJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10584180891">
+  <general>
+   <startdate>2024-02-25 18:03:51</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="65,000" addon="0" rebuy="0" win="0" chips="4,387,243" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="115,000" addon="0" rebuy="0" win="0" chips="869,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,536,160" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,456,924" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="276,916" seat="6" name="ProBeers" reg_code="" dealer="0"/>
+    <player bet="225,000" addon="0" rebuy="0" win="0" chips="3,084,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="567,000" addon="0" rebuy="0" win="675,000" chips="3,887,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="15,000" type="15"/>
+   <action no="2" player="glhaveff" sum="15,000" type="15"/>
+   <action no="3" player="SantosTP" sum="15,000" type="15"/>
+   <action no="4" player="futurechamp" sum="15,000" type="15"/>
+   <action no="5" player="ProBeers" sum="15,000" type="15"/>
+   <action no="6" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="7" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="8" player="bigbangok" sum="50,000" type="1"/>
+   <action no="9" player="glhaveff" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="10" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="11" player="futurechamp" sum="0" type="0"/>
+   <cards player="ProBeers" type="Pocket">X X</cards>
+   <action no="12" player="ProBeers" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" player="BushDoctor04" sum="210,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C3 CA</cards>
+   <action no="14" player="tropeiro123" sum="567,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="15" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="16" player="glhaveff" sum="0" type="0"/>
+   <action no="17" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584180982">
+  <general>
+   <startdate>2024-02-25 18:04:28</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="398,500" addon="0" rebuy="0" win="0" chips="4,322,243" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="115,000" addon="0" rebuy="0" win="0" chips="754,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="1,127,500" addon="0" rebuy="0" win="972,000" chips="2,521,160" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,441,924" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="261,916" seat="6" name="ProBeers" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,859,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="4,337,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="glhaveff" sum="15,000" type="15"/>
+   <action no="2" player="SantosTP" sum="15,000" type="15"/>
+   <action no="3" player="futurechamp" sum="15,000" type="15"/>
+   <action no="4" player="ProBeers" sum="15,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="6" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="7" player="bigbangok" sum="15,000" type="15"/>
+   <action no="8" player="glhaveff" sum="50,000" type="1"/>
+   <action no="9" player="SantosTP" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="10" player="futurechamp" sum="0" type="0"/>
+   <cards player="ProBeers" type="Pocket">X X</cards>
+   <action no="11" player="ProBeers" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 D9</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="14" player="bigbangok" sum="100,000" type="3"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="15" player="glhaveff" sum="50,000" type="3"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="16" player="SantosTP" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 SA S7</cards>
+   <action no="17" player="glhaveff" sum="0" type="4"/>
+   <action no="18" player="SantosTP" sum="0" type="4"/>
+   <action no="19" player="bigbangok" sum="283,500" type="5"/>
+   <action no="20" player="glhaveff" sum="0" type="0"/>
+   <action no="21" player="SantosTP" sum="283,500" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action no="22" player="SantosTP" sum="0" type="4"/>
+   <action no="23" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="24" player="SantosTP" sum="729,000" type="5"/>
+   <action no="25" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584181126">
+  <general>
+   <startdate>2024-02-25 18:05:34</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,923,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="639,988" seat="2" name="glhaveff" reg_code="" dealer="1"/>
+    <player bet="65,000" addon="0" rebuy="0" win="0" chips="3,094,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="2,411,924" addon="0" rebuy="0" win="1,114,580" chips="2,426,924" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="231,916" addon="0" rebuy="0" win="0" chips="246,916" seat="6" name="ProBeers" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,844,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="378,832" addon="0" rebuy="0" win="0" chips="4,322,904" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SantosTP" sum="15,000" type="15"/>
+   <action no="2" player="futurechamp" sum="15,000" type="15"/>
+   <action no="3" player="ProBeers" sum="15,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="6" player="bigbangok" sum="15,000" type="15"/>
+   <action no="7" player="glhaveff" sum="15,000" type="15"/>
+   <action no="8" player="SantosTP" sum="50,000" type="1"/>
+   <action no="9" player="futurechamp" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ProBeers" type="Pocket">SJ HJ</cards>
+   <action no="10" player="ProBeers" sum="231,916" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 S3</cards>
+   <action no="12" player="tropeiro123" sum="363,832" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="13" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="14" player="glhaveff" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="15" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">SA CK</cards>
+   <action no="16" player="futurechamp" sum="2,411,924" type="23"/>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK DA S6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10584181256">
+  <general>
+   <startdate>2024-02-25 18:06:30</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,908,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="624,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="200,000" addon="0" rebuy="0" win="340,000" chips="3,029,660" seat="4" name="SantosTP" reg_code="" dealer="1"/>
+    <player bet="65,000" addon="0" rebuy="0" win="0" chips="3,162,672" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="115,000" addon="0" rebuy="0" win="0" chips="2,829,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,944,072" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="15,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="4" player="bigbangok" sum="15,000" type="15"/>
+   <action no="5" player="glhaveff" sum="15,000" type="15"/>
+   <action no="6" player="SantosTP" sum="15,000" type="15"/>
+   <action no="7" player="futurechamp" sum="50,000" type="1"/>
+   <action no="8" player="BushDoctor04" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C3 HJ</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="11" player="glhaveff" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="12" player="SantosTP" sum="200,000" type="23"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="13" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584181329">
+  <general>
+   <startdate>2024-02-25 18:07:04</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,893,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="594,988" addon="0" rebuy="0" win="340,000" chips="609,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,254,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,097,672" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="65,000" addon="0" rebuy="0" win="0" chips="2,714,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="115,000" addon="0" rebuy="0" win="0" chips="3,929,072" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="3" player="bigbangok" sum="15,000" type="15"/>
+   <action no="4" player="glhaveff" sum="15,000" type="15"/>
+   <action no="5" player="SantosTP" sum="15,000" type="15"/>
+   <action no="6" player="futurechamp" sum="15,000" type="15"/>
+   <action no="7" player="BushDoctor04" sum="50,000" type="1"/>
+   <action no="8" player="tropeiro123" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="10" player="glhaveff" sum="594,988" type="23"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="11" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="12" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 C3</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584181407">
+  <general>
+   <startdate>2024-02-25 18:07:41</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="840,000" addon="0" rebuy="0" win="870,000" chips="3,878,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="834,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,239,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,082,672" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,649,865" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="840,000" addon="0" rebuy="0" win="870,000" chips="3,814,072" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="2" player="bigbangok" sum="15,000" type="15"/>
+   <action no="3" player="glhaveff" sum="15,000" type="15"/>
+   <action no="4" player="SantosTP" sum="15,000" type="15"/>
+   <action no="5" player="futurechamp" sum="15,000" type="15"/>
+   <action no="6" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="7" player="tropeiro123" sum="50,000" type="1"/>
+   <action no="8" player="bigbangok" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="glhaveff" type="Pocket">X X</cards>
+   <action no="9" player="glhaveff" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="10" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="11" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 SQ</cards>
+   <action no="13" player="tropeiro123" sum="50,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">H2 C4</cards>
+   <action no="14" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ SK H9</cards>
+   <action no="15" player="tropeiro123" sum="0" type="4"/>
+   <action no="16" player="bigbangok" sum="145,000" type="5"/>
+   <action no="17" player="tropeiro123" sum="145,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+   <action no="19" player="bigbangok" sum="580,000" type="5"/>
+   <action no="20" player="tropeiro123" sum="580,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="21" player="tropeiro123" sum="0" type="4"/>
+   <action no="22" player="bigbangok" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584181712">
+  <general>
+   <startdate>2024-02-25 18:09:52</startdate>
+   <smallblind>50,000</smallblind>
+   <bigblind>100,000</bigblind>
+   <ante>15,000</ante>
+   <players>
+    <player bet="65,000" addon="0" rebuy="0" win="0" chips="3,908,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="804,988" addon="0" rebuy="0" win="0" chips="819,988" seat="2" name="glhaveff" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,224,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="3,067,672" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="15,000" addon="0" rebuy="0" win="0" chips="2,634,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="819,988" addon="0" rebuy="0" win="1,749,976" chips="3,844,072" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="15,000" type="15"/>
+   <action no="2" player="glhaveff" sum="15,000" type="15"/>
+   <action no="3" player="SantosTP" sum="15,000" type="15"/>
+   <action no="4" player="futurechamp" sum="15,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="15,000" type="15"/>
+   <action no="6" player="tropeiro123" sum="15,000" type="15"/>
+   <action no="7" player="bigbangok" sum="50,000" type="1"/>
+   <action no="8" player="glhaveff" sum="100,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="9" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="10" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="12" player="tropeiro123" sum="200,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="13" player="bigbangok" sum="0" type="0"/>
+   <cards player="glhaveff" type="Pocket">D10 C10</cards>
+   <action no="14" player="glhaveff" sum="804,988" type="23"/>
+   <action no="15" player="tropeiro123" sum="604,988" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ D3 D4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10584218250">
+  <general>
+   <startdate>2024-02-25 18:10:34</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,843,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="3,209,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="240,000" addon="0" rebuy="0" win="330,000" chips="3,052,672" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,619,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="4,774,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SantosTP" sum="18,000" type="15"/>
+   <action no="2" player="futurechamp" sum="18,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="5" player="bigbangok" sum="18,000" type="15"/>
+   <action no="6" player="SantosTP" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="240,000" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK D7</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="11" player="SantosTP" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218297">
+  <general>
+   <startdate>2024-02-25 18:10:53</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,825,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="614,250" addon="0" rebuy="0" win="0" chips="3,071,660" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="614,250" addon="0" rebuy="0" win="1,282,500" chips="3,244,672" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,601,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="4,756,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SantosTP" sum="18,000" type="15"/>
+   <action no="2" player="futurechamp" sum="18,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="5" player="bigbangok" sum="18,000" type="15"/>
+   <action no="6" player="SantosTP" sum="60,000" type="1"/>
+   <action no="7" player="futurechamp" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 C10</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">D2 S6</cards>
+   <action no="11" player="SantosTP" sum="60,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">H3 S7</cards>
+   <action no="12" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 S5 SQ</cards>
+   <action no="13" player="SantosTP" sum="120,000" type="5"/>
+   <action no="14" player="futurechamp" sum="120,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="15" player="SantosTP" sum="142,500" type="5"/>
+   <action no="16" player="futurechamp" sum="142,500" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action no="17" player="SantosTP" sum="213,750" type="5"/>
+   <action no="18" player="futurechamp" sum="213,750" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10584218468">
+  <general>
+   <startdate>2024-02-25 18:12:12</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,807,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,457,410" seat="4" name="SantosTP" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="3,912,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="2,583,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="240,000" addon="0" rebuy="0" win="390,000" chips="4,738,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="18,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="4" player="bigbangok" sum="18,000" type="15"/>
+   <action no="5" player="SantosTP" sum="18,000" type="15"/>
+   <action no="6" player="futurechamp" sum="60,000" type="1"/>
+   <action no="7" player="BushDoctor04" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D10 CQ</cards>
+   <action no="8" player="tropeiro123" sum="240,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="10" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="11" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218536">
+  <general>
+   <startdate>2024-02-25 18:12:45</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="378,000" addon="0" rebuy="0" win="0" chips="3,789,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,439,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,834,922" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="2,427,865" addon="0" rebuy="0" win="930,000" chips="2,445,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="4,990,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="3" player="bigbangok" sum="18,000" type="15"/>
+   <action no="4" player="SantosTP" sum="18,000" type="15"/>
+   <action no="5" player="futurechamp" sum="18,000" type="15"/>
+   <action no="6" player="BushDoctor04" sum="60,000" type="1"/>
+   <action no="7" player="tropeiro123" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="360,000" type="23"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="9" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="10" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" player="BushDoctor04" sum="2,427,865" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C3 H5</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <action no="13" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218667">
+  <general>
+   <startdate>2024-02-25 18:13:44</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="3,411,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="240,000" addon="0" rebuy="0" win="390,000" chips="2,421,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,816,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,997,865" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="4,852,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="2" player="bigbangok" sum="18,000" type="15"/>
+   <action no="3" player="SantosTP" sum="18,000" type="15"/>
+   <action no="4" player="futurechamp" sum="18,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="6" player="tropeiro123" sum="60,000" type="1"/>
+   <action no="7" player="bigbangok" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="8" player="SantosTP" sum="240,000" type="23"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="9" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK C8</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="12" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218707">
+  <general>
+   <startdate>2024-02-25 18:14:05</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="3,273,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="2,673,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="258,000" addon="0" rebuy="0" win="0" chips="3,798,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="600,000" addon="0" rebuy="0" win="750,000" chips="2,979,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="4,774,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="18,000" type="15"/>
+   <action no="2" player="SantosTP" sum="18,000" type="15"/>
+   <action no="3" player="futurechamp" sum="18,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="6" player="bigbangok" sum="60,000" type="1"/>
+   <action no="7" player="SantosTP" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="240,000" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="600,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S3 C9</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="11" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="12" player="SantosTP" sum="0" type="0"/>
+   <action no="13" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218804">
+  <general>
+   <startdate>2024-02-25 18:14:49</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,195,743" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="2,535,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="3,540,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,471,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="240,000" addon="0" rebuy="0" win="390,000" chips="4,756,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SantosTP" sum="18,000" type="15"/>
+   <action no="2" player="futurechamp" sum="18,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="5" player="bigbangok" sum="18,000" type="15"/>
+   <action no="6" player="SantosTP" sum="60,000" type="1"/>
+   <action no="7" player="futurechamp" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK CK</cards>
+   <action no="9" player="tropeiro123" sum="240,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="11" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="12" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218848">
+  <general>
+   <startdate>2024-02-25 18:15:12</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="480,000" addon="0" rebuy="0" win="390,000" chips="3,177,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,457,410" seat="4" name="SantosTP" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="3,402,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="138,000" addon="0" rebuy="0" win="0" chips="3,453,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="5,008,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="18,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="4" player="bigbangok" sum="18,000" type="15"/>
+   <action no="5" player="SantosTP" sum="18,000" type="15"/>
+   <action no="6" player="futurechamp" sum="60,000" type="1"/>
+   <action no="7" player="BushDoctor04" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ D6</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="480,000" type="23"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="10" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="11" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218884">
+  <general>
+   <startdate>2024-02-25 18:15:29</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,429,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="2,439,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="384,000" addon="0" rebuy="0" win="630,000" chips="3,324,922" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="3,315,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="258,000" addon="0" rebuy="0" win="0" chips="4,990,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="3" player="bigbangok" sum="18,000" type="15"/>
+   <action no="4" player="SantosTP" sum="18,000" type="15"/>
+   <action no="5" player="futurechamp" sum="18,000" type="15"/>
+   <action no="6" player="BushDoctor04" sum="60,000" type="1"/>
+   <action no="7" player="tropeiro123" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="SantosTP" type="Pocket">X X</cards>
+   <action no="9" player="SantosTP" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="10" player="futurechamp" sum="240,000" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HJ C7</cards>
+   <action no="12" player="tropeiro123" sum="120,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ DQ D5</cards>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+   <action no="14" player="futurechamp" sum="126,000" type="5"/>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584218973">
+  <general>
+   <startdate>2024-02-25 18:16:17</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="2,421,410" addon="0" rebuy="0" win="4,956,820" chips="3,411,743" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="2,403,410" addon="0" rebuy="0" win="0" chips="2,421,410" seat="4" name="SantosTP" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,696,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,237,865" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="4,732,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="2" player="bigbangok" sum="18,000" type="15"/>
+   <action no="3" player="SantosTP" sum="18,000" type="15"/>
+   <action no="4" player="futurechamp" sum="18,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="6" player="tropeiro123" sum="60,000" type="1"/>
+   <action no="7" player="bigbangok" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SantosTP" type="Pocket">S7 D7</cards>
+   <action no="8" player="SantosTP" sum="240,000" type="23"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="9" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK D3</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">DQ D10</cards>
+   <action no="12" player="bigbangok" sum="600,000" type="23"/>
+   <action no="13" player="SantosTP" sum="2,403,410" type="23"/>
+   <action no="14" player="bigbangok" sum="1,803,410" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK C8 H5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10584219103">
+  <general>
+   <startdate>2024-02-25 18:17:24</startdate>
+   <smallblind>60,000</smallblind>
+   <bigblind>120,000</bigblind>
+   <ante>18,000</ante>
+   <players>
+    <player bet="78,000" addon="0" rebuy="0" win="0" chips="5,947,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="687,360" addon="0" rebuy="0" win="0" chips="3,678,922" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="18,000" addon="0" rebuy="0" win="0" chips="3,219,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="687,360" addon="0" rebuy="0" win="1,470,720" chips="4,654,060" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="18,000" type="15"/>
+   <action no="2" player="futurechamp" sum="18,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="18,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="18,000" type="15"/>
+   <action no="5" player="bigbangok" sum="60,000" type="1"/>
+   <action no="6" player="futurechamp" sum="120,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 CA</cards>
+   <action no="8" player="tropeiro123" sum="240,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">C4 H4</cards>
+   <action no="10" player="futurechamp" sum="120,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 C3 DA</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="153,600" type="5"/>
+   <action no="13" player="futurechamp" sum="153,600" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action no="14" player="futurechamp" sum="275,760" type="5"/>
+   <action no="15" player="tropeiro123" sum="275,760" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+   <action no="16" player="futurechamp" sum="0" type="4"/>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584219258">
+  <general>
+   <startdate>2024-02-25 18:18:51</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="5,869,153" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="301,000" addon="0" rebuy="0" win="0" chips="2,991,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="721,000" addon="0" rebuy="0" win="644,000" chips="3,201,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="5,437,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="21,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="4" player="bigbangok" sum="21,000" type="15"/>
+   <action no="5" player="futurechamp" sum="70,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D9 D6</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="9" player="futurechamp" sum="70,000" type="3"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 C7 S9</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="BushDoctor04" sum="140,000" type="5"/>
+   <action no="13" player="futurechamp" sum="140,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="14" player="futurechamp" sum="0" type="4"/>
+   <action no="15" player="BushDoctor04" sum="420,000" type="5"/>
+   <action no="16" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241398">
+  <general>
+   <startdate>2024-02-25 18:19:31</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="448,000" addon="0" rebuy="0" win="574,000" chips="5,848,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="161,000" addon="0" rebuy="0" win="0" chips="2,690,562" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="91,000" addon="0" rebuy="0" win="0" chips="3,544,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="161,000" addon="0" rebuy="0" win="0" chips="5,416,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="3" player="bigbangok" sum="21,000" type="15"/>
+   <action no="4" player="futurechamp" sum="21,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="70,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="140,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="140,000" type="3"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 D6</cards>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 DQ D5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="0" type="4"/>
+   <action no="13" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="14" player="tropeiro123" sum="0" type="4"/>
+   <action no="15" player="bigbangok" sum="0" type="4"/>
+   <action no="16" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="bigbangok" sum="287,000" type="5"/>
+   <action no="19" player="futurechamp" sum="0" type="0"/>
+   <action no="20" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241559">
+  <general>
+   <startdate>2024-02-25 18:21:04</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="161,000" addon="0" rebuy="0" win="0" chips="6,261,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="2,529,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="294,000" addon="0" rebuy="0" win="434,000" chips="3,453,865" seat="9" name="BushDoctor04" reg_code="" dealer="1"/>
+    <player bet="91,000" addon="0" rebuy="0" win="0" chips="5,255,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="2" player="bigbangok" sum="21,000" type="15"/>
+   <action no="3" player="futurechamp" sum="21,000" type="15"/>
+   <action no="4" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="70,000" type="1"/>
+   <action no="6" player="bigbangok" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="8" player="BushDoctor04" sum="294,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C10 H5</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241595">
+  <general>
+   <startdate>2024-02-25 18:21:20</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="91,000" addon="0" rebuy="0" win="0" chips="6,100,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="161,000" addon="0" rebuy="0" win="0" chips="2,508,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="3,726,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="280,000" addon="0" rebuy="0" win="434,000" chips="5,164,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="21,000" type="15"/>
+   <action no="2" player="futurechamp" sum="21,000" type="15"/>
+   <action no="3" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="5" player="bigbangok" sum="70,000" type="1"/>
+   <action no="6" player="futurechamp" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="7" player="BushDoctor04" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA D5</cards>
+   <action no="8" player="tropeiro123" sum="280,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="10" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241621">
+  <general>
+   <startdate>2024-02-25 18:21:35</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="301,000" addon="0" rebuy="0" win="434,000" chips="6,009,153" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="91,000" addon="0" rebuy="0" win="0" chips="2,347,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="161,000" addon="0" rebuy="0" win="0" chips="3,705,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="5,437,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="21,000" type="15"/>
+   <action no="2" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="4" player="bigbangok" sum="21,000" type="15"/>
+   <action no="5" player="futurechamp" sum="70,000" type="1"/>
+   <action no="6" player="BushDoctor04" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H10 D8</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="140,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="9" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="10" player="BushDoctor04" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 CQ S2</cards>
+   <action no="11" player="BushDoctor04" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action no="13" player="BushDoctor04" sum="0" type="4"/>
+   <action no="14" player="bigbangok" sum="140,000" type="5"/>
+   <action no="15" player="BushDoctor04" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241661">
+  <general>
+   <startdate>2024-02-25 18:22:00</startdate>
+   <smallblind>70,000</smallblind>
+   <bigblind>140,000</bigblind>
+   <ante>21,000</ante>
+   <players>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="6,282,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="21,000" addon="0" rebuy="0" win="0" chips="2,256,562" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="3,544,865" addon="0" rebuy="0" win="0" chips="3,544,865" seat="9" name="BushDoctor04" reg_code="" dealer="0"/>
+    <player bet="5,416,040" addon="0" rebuy="0" win="7,131,730" chips="5,416,420" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BushDoctor04" sum="21,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="21,000" type="15"/>
+   <action no="3" player="bigbangok" sum="21,000" type="15"/>
+   <action no="4" player="futurechamp" sum="21,000" type="15"/>
+   <action no="5" player="BushDoctor04" sum="70,000" type="1"/>
+   <action no="6" player="tropeiro123" sum="140,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="0" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">D5 SA</cards>
+   <action no="9" player="BushDoctor04" sum="70,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C9 D3</cards>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C3 D7</cards>
+   <action no="11" player="BushDoctor04" sum="140,000" type="5"/>
+   <action no="12" player="tropeiro123" sum="140,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="13" player="BushDoctor04" sum="425,040" type="5"/>
+   <action no="14" player="tropeiro123" sum="425,040" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action no="15" player="BushDoctor04" sum="840,000" type="5"/>
+   <action no="16" player="tropeiro123" sum="4,690,000" type="23"/>
+   <action no="17" player="BushDoctor04" sum="1,978,825" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10584241933">
+  <general>
+   <startdate>2024-02-25 18:24:29</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="184,000" addon="0" rebuy="0" win="232,000" chips="6,261,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="2,235,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="9,003,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="2" player="bigbangok" sum="24,000" type="15"/>
+   <action no="3" player="futurechamp" sum="24,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="80,000" type="1"/>
+   <action no="5" player="bigbangok" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 S7</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241958">
+  <general>
+   <startdate>2024-02-25 18:24:42</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="6,389,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="184,000" addon="0" rebuy="0" win="232,000" chips="2,211,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="8,899,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="24,000" type="15"/>
+   <action no="2" player="futurechamp" sum="24,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="4" player="bigbangok" sum="80,000" type="1"/>
+   <action no="5" player="futurechamp" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">C6 S3</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241973">
+  <general>
+   <startdate>2024-02-25 18:24:49</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="6,285,153" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="2,339,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="184,000" addon="0" rebuy="0" win="232,000" chips="8,875,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="24,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="3" player="bigbangok" sum="24,000" type="15"/>
+   <action no="4" player="futurechamp" sum="80,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HK D5</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584241987">
+  <general>
+   <startdate>2024-02-25 18:24:59</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="458,400" addon="0" rebuy="0" win="392,000" chips="6,261,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="2,235,562" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="184,000" addon="0" rebuy="0" win="0" chips="9,003,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="2" player="bigbangok" sum="24,000" type="15"/>
+   <action no="3" player="futurechamp" sum="24,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="80,000" type="1"/>
+   <action no="5" player="bigbangok" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 D3</cards>
+   <action no="7" player="tropeiro123" sum="80,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 S6 C5</cards>
+   <action no="9" player="tropeiro123" sum="0" type="4"/>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="274,400" type="5"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584242060">
+  <general>
+   <startdate>2024-02-25 18:25:43</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="2,976,000" addon="0" rebuy="0" win="1,176,000" chips="6,469,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="576,000" addon="0" rebuy="0" win="0" chips="2,211,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="8,819,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="24,000" type="15"/>
+   <action no="2" player="futurechamp" sum="24,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="4" player="bigbangok" sum="80,000" type="1"/>
+   <action no="5" player="futurechamp" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C3 H4</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="80,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H10 HK</cards>
+   <action no="9" player="bigbangok" sum="392,000" type="5"/>
+   <action no="10" player="futurechamp" sum="392,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+   <action no="11" player="bigbangok" sum="2,400,000" type="5"/>
+   <action no="12" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584242152">
+  <general>
+   <startdate>2024-02-25 18:26:36</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="7,069,153" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="1,611,562" addon="0" rebuy="0" win="3,295,124" chips="1,635,562" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="1,635,562" addon="0" rebuy="0" win="0" chips="8,795,285" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="24,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="3" player="bigbangok" sum="24,000" type="15"/>
+   <action no="4" player="futurechamp" sum="80,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">H6 C6</cards>
+   <action no="7" player="futurechamp" sum="1,611,562" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CK D7</cards>
+   <action no="8" player="tropeiro123" sum="1,451,562" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H9 HA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+ <game gamecode="10584242208">
+  <general>
+   <startdate>2024-02-25 18:27:09</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="7,021,153" addon="0" rebuy="0" win="792,000" chips="7,045,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="344,000" addon="0" rebuy="0" win="0" chips="3,295,124" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="7,159,723" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="2" player="bigbangok" sum="24,000" type="15"/>
+   <action no="3" player="futurechamp" sum="24,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="80,000" type="1"/>
+   <action no="5" player="bigbangok" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="320,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S9 D5</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="7,021,153" type="23"/>
+   <action no="9" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584242237">
+  <general>
+   <startdate>2024-02-25 18:27:24</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="7,493,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="184,000" addon="0" rebuy="0" win="232,000" chips="2,951,124" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="7,055,723" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="24,000" type="15"/>
+   <action no="2" player="futurechamp" sum="24,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="4" player="bigbangok" sum="80,000" type="1"/>
+   <action no="5" player="futurechamp" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">S4 HK</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584242272">
+  <general>
+   <startdate>2024-02-25 18:27:46</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="7,389,153" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="104,000" addon="0" rebuy="0" win="0" chips="3,079,124" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="184,000" addon="0" rebuy="0" win="232,000" chips="7,031,723" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="24,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="3" player="bigbangok" sum="24,000" type="15"/>
+   <action no="4" player="futurechamp" sum="80,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S5 CJ</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584242283">
+  <general>
+   <startdate>2024-02-25 18:27:55</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="2,870,400" addon="0" rebuy="0" win="1,921,600" chips="7,365,153" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="2,975,124" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="948,800" addon="0" rebuy="0" win="0" chips="7,159,723" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="2" player="bigbangok" sum="24,000" type="15"/>
+   <action no="3" player="futurechamp" sum="24,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="80,000" type="1"/>
+   <action no="5" player="bigbangok" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 DJ</cards>
+   <action no="7" player="tropeiro123" sum="80,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA D7 S8</cards>
+   <action no="9" player="tropeiro123" sum="160,000" type="5"/>
+   <action no="10" player="bigbangok" sum="160,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="11" player="tropeiro123" sum="604,800" type="5"/>
+   <action no="12" player="bigbangok" sum="604,800" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+   <action no="14" player="bigbangok" sum="1,921,600" type="5"/>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260671">
+  <general>
+   <startdate>2024-02-25 18:28:58</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="8,337,953" addon="0" rebuy="0" win="0" chips="8,337,953" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="2,951,124" addon="0" rebuy="0" win="5,926,248" chips="2,951,124" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="6,210,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="24,000" type="15"/>
+   <action no="2" player="futurechamp" sum="24,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="4" player="bigbangok" sum="80,000" type="1"/>
+   <action no="5" player="futurechamp" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C8 SQ</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">D8 CK</cards>
+   <action no="7" player="bigbangok" sum="320,000" type="23"/>
+   <cards player="futurechamp" type="Pocket">C7 D6</cards>
+   <action no="8" player="futurechamp" sum="160,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 H8 C6</cards>
+   <action no="9" player="bigbangok" sum="7,993,953" type="5"/>
+   <action no="10" player="futurechamp" sum="2,607,124" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+  </round>
+ </game>
+ <game gamecode="10584260736">
+  <general>
+   <startdate>2024-02-25 18:29:39</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="5,386,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="504,000" addon="0" rebuy="0" win="0" chips="5,926,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="1,072,000" addon="0" rebuy="0" win="1,032,000" chips="6,186,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="24,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="3" player="bigbangok" sum="24,000" type="15"/>
+   <action no="4" player="futurechamp" sum="80,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="480,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ DJ</cards>
+   <action no="8" player="tropeiro123" sum="320,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ H8 D7</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="568,000" type="5"/>
+   <action no="13" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260821">
+  <general>
+   <startdate>2024-02-25 18:30:43</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="640,000" addon="0" rebuy="0" win="392,000" chips="5,362,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="5,422,248" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="184,000" addon="0" rebuy="0" win="0" chips="6,714,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="2" player="bigbangok" sum="24,000" type="15"/>
+   <action no="3" player="futurechamp" sum="24,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="80,000" type="1"/>
+   <action no="5" player="bigbangok" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 HQ</cards>
+   <action no="7" player="tropeiro123" sum="80,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="640,000" type="23"/>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260855">
+  <general>
+   <startdate>2024-02-25 18:31:07</startdate>
+   <smallblind>80,000</smallblind>
+   <bigblind>160,000</bigblind>
+   <ante>24,000</ante>
+   <players>
+    <player bet="184,000" addon="0" rebuy="0" win="0" chips="5,570,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="344,000" addon="0" rebuy="0" win="392,000" chips="5,398,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="24,000" addon="0" rebuy="0" win="0" chips="6,530,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="24,000" type="15"/>
+   <action no="2" player="futurechamp" sum="24,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="24,000" type="15"/>
+   <action no="4" player="bigbangok" sum="80,000" type="1"/>
+   <action no="5" player="futurechamp" sum="160,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S6 D9</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="80,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 CQ S2</cards>
+   <action no="9" player="bigbangok" sum="0" type="4"/>
+   <action no="10" player="futurechamp" sum="160,000" type="5"/>
+   <action no="11" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260895">
+  <general>
+   <startdate>2024-02-25 18:31:35</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="5,386,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="117,000" addon="0" rebuy="0" win="0" chips="5,606,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="261,000" chips="6,506,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="27,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="3" player="bigbangok" sum="27,000" type="15"/>
+   <action no="4" player="futurechamp" sum="90,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H10 SJ</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260907">
+  <general>
+   <startdate>2024-02-25 18:31:44</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="5,359,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="5,489,248" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="387,000" addon="0" rebuy="0" win="441,000" chips="6,650,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="2" player="bigbangok" sum="27,000" type="15"/>
+   <action no="3" player="futurechamp" sum="27,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="90,000" type="1"/>
+   <action no="5" player="bigbangok" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 C9</cards>
+   <action no="7" player="tropeiro123" sum="90,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 H3 HK</cards>
+   <action no="9" player="tropeiro123" sum="180,000" type="5"/>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584260955">
+  <general>
+   <startdate>2024-02-25 18:32:18</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="648,000" addon="0" rebuy="0" win="441,000" chips="5,152,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="5,462,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="6,884,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="27,000" type="15"/>
+   <action no="2" player="futurechamp" sum="27,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="4" player="bigbangok" sum="90,000" type="1"/>
+   <action no="5" player="futurechamp" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C4 C7</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="90,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 SJ SA</cards>
+   <action no="9" player="bigbangok" sum="441,000" type="5"/>
+   <action no="10" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261008">
+  <general>
+   <startdate>2024-02-25 18:32:57</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="5,386,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="207,000" addon="0" rebuy="0" win="441,000" chips="5,255,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="6,857,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="27,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="3" player="bigbangok" sum="27,000" type="15"/>
+   <action no="4" player="futurechamp" sum="90,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">DA S5</cards>
+   <action no="7" player="futurechamp" sum="90,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D8 HK</cards>
+   <action no="8" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 CJ S3</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action no="13" player="futurechamp" sum="0" type="4"/>
+   <action no="14" player="tropeiro123" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584261080">
+  <general>
+   <startdate>2024-02-25 18:33:49</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="5,359,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="5,489,248" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="387,000" addon="0" rebuy="0" win="441,000" chips="6,650,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="2" player="bigbangok" sum="27,000" type="15"/>
+   <action no="3" player="futurechamp" sum="27,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="90,000" type="1"/>
+   <action no="5" player="bigbangok" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 C6</cards>
+   <action no="7" player="tropeiro123" sum="90,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK D10 D4</cards>
+   <action no="9" player="tropeiro123" sum="180,000" type="5"/>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261108">
+  <general>
+   <startdate>2024-02-25 18:34:11</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="117,000" addon="0" rebuy="0" win="0" chips="5,152,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="610,200" addon="0" rebuy="0" win="0" chips="5,462,248" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="1,346,400" addon="0" rebuy="0" win="1,337,400" chips="6,884,923" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="27,000" type="15"/>
+   <action no="2" player="futurechamp" sum="27,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="4" player="bigbangok" sum="90,000" type="1"/>
+   <action no="5" player="futurechamp" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D10 CQ</cards>
+   <action no="6" player="tropeiro123" sum="360,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="8" player="futurechamp" sum="180,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ H4 D9</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="223,200" type="5"/>
+   <action no="11" player="futurechamp" sum="223,200" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action no="12" player="futurechamp" sum="0" type="4"/>
+   <action no="13" player="tropeiro123" sum="736,200" type="5"/>
+   <action no="14" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261182">
+  <general>
+   <startdate>2024-02-25 18:35:12</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="738,000" addon="0" rebuy="0" win="531,000" chips="5,035,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="117,000" addon="0" rebuy="0" win="0" chips="4,852,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="7,612,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="27,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="3" player="bigbangok" sum="27,000" type="15"/>
+   <action no="4" player="futurechamp" sum="90,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="180,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 S8</cards>
+   <action no="8" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ D5 H7</cards>
+   <action no="9" player="tropeiro123" sum="0" type="4"/>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="531,000" type="5"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261235">
+  <general>
+   <startdate>2024-02-25 18:35:52</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="5,332,829" addon="0" rebuy="0" win="1,341,000" chips="5,359,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="4,735,048" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="657,000" addon="0" rebuy="0" win="0" chips="7,405,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="2" player="bigbangok" sum="27,000" type="15"/>
+   <action no="3" player="futurechamp" sum="27,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="90,000" type="1"/>
+   <action no="5" player="bigbangok" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 CK</cards>
+   <action no="7" player="tropeiro123" sum="630,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="5,332,829" type="23"/>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261267">
+  <general>
+   <startdate>2024-02-25 18:36:19</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="117,000" addon="0" rebuy="0" win="0" chips="6,043,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="261,000" chips="4,708,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="6,748,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="27,000" type="15"/>
+   <action no="2" player="futurechamp" sum="27,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="4" player="bigbangok" sum="90,000" type="1"/>
+   <action no="5" player="futurechamp" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">D2 S3</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261279">
+  <general>
+   <startdate>2024-02-25 18:36:29</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="1,908,000" addon="0" rebuy="0" win="1,341,000" chips="5,926,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="567,000" addon="0" rebuy="0" win="0" chips="4,852,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="207,000" addon="0" rebuy="0" win="0" chips="6,721,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="27,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="3" player="bigbangok" sum="27,000" type="15"/>
+   <action no="4" player="futurechamp" sum="90,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="180,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="90,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C2 C8</cards>
+   <action no="8" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ SA H9</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+   <action no="11" player="bigbangok" sum="180,000" type="5"/>
+   <action no="12" player="futurechamp" sum="180,000" type="3"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+   <action no="14" player="futurechamp" sum="0" type="4"/>
+   <action no="15" player="bigbangok" sum="180,000" type="5"/>
+   <action no="16" player="futurechamp" sum="180,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action no="17" player="futurechamp" sum="0" type="4"/>
+   <action no="18" player="bigbangok" sum="1,341,000" type="5"/>
+   <action no="19" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261357">
+  <general>
+   <startdate>2024-02-25 18:37:32</startdate>
+   <smallblind>90,000</smallblind>
+   <bigblind>180,000</bigblind>
+   <ante>27,000</ante>
+   <players>
+    <player bet="1,811,700" addon="0" rebuy="0" win="1,521,000" chips="6,700,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="27,000" addon="0" rebuy="0" win="0" chips="4,285,048" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="747,000" addon="0" rebuy="0" win="0" chips="6,514,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="27,000" type="15"/>
+   <action no="2" player="bigbangok" sum="27,000" type="15"/>
+   <action no="3" player="futurechamp" sum="27,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="90,000" type="1"/>
+   <action no="5" player="bigbangok" sum="180,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA C3</cards>
+   <action no="7" player="tropeiro123" sum="90,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="720,000" type="23"/>
+   <action no="9" player="tropeiro123" sum="540,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 C6 H8</cards>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+   <action no="11" player="bigbangok" sum="1,064,700" type="5"/>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584261441">
+  <general>
+   <startdate>2024-02-25 18:38:38</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="130,000" addon="0" rebuy="0" win="0" chips="7,474,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="1,230,000" addon="0" rebuy="0" win="2,590,000" chips="4,258,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="1,230,000" addon="0" rebuy="0" win="0" chips="5,767,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="30,000" type="15"/>
+   <action no="2" player="futurechamp" sum="30,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="4" player="bigbangok" sum="100,000" type="1"/>
+   <action no="5" player="futurechamp" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HQ HA</cards>
+   <action no="6" player="tropeiro123" sum="400,000" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="7" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">S9 DK</cards>
+   <action no="8" player="futurechamp" sum="200,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 C5 C10</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+   <action no="13" player="futurechamp" sum="0" type="4"/>
+   <action no="14" player="tropeiro123" sum="800,000" type="5"/>
+   <action no="15" player="futurechamp" sum="800,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10584285786">
+  <general>
+   <startdate>2024-02-25 18:40:28</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="30,000" addon="0" rebuy="0" win="0" chips="7,344,829" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="630,000" addon="0" rebuy="0" win="0" chips="5,618,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="1,340,000" addon="0" rebuy="0" win="1,290,000" chips="4,537,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="futurechamp" sum="30,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="3" player="bigbangok" sum="30,000" type="15"/>
+   <action no="4" player="futurechamp" sum="100,000" type="1"/>
+   <action no="5" player="tropeiro123" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="7" player="futurechamp" sum="600,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HQ D10</cards>
+   <action no="8" player="tropeiro123" sum="400,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 D3 S6</cards>
+   <action no="9" player="futurechamp" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="11" player="futurechamp" sum="0" type="4"/>
+   <action no="12" player="tropeiro123" sum="710,000" type="5"/>
+   <action no="13" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584285861">
+  <general>
+   <startdate>2024-02-25 18:41:24</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="2,311,000" addon="0" rebuy="0" win="1,584,000" chips="7,314,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="727,000" addon="0" rebuy="0" win="0" chips="4,988,048" seat="5" name="futurechamp" reg_code="" dealer="1"/>
+    <player bet="130,000" addon="0" rebuy="0" win="0" chips="5,197,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="2" player="bigbangok" sum="30,000" type="15"/>
+   <action no="3" player="futurechamp" sum="30,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="100,000" type="1"/>
+   <action no="5" player="bigbangok" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="futurechamp" type="Pocket">X X</cards>
+   <action no="6" player="futurechamp" sum="400,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 H6</cards>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="8" player="bigbangok" sum="200,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 DJ C9</cards>
+   <action no="9" player="bigbangok" sum="0" type="4"/>
+   <action no="10" player="futurechamp" sum="297,000" type="5"/>
+   <action no="11" player="bigbangok" sum="297,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="12" player="bigbangok" sum="1,584,000" type="5"/>
+   <action no="13" player="futurechamp" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584285900">
+  <general>
+   <startdate>2024-02-25 18:41:53</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="4,261,048" addon="0" rebuy="0" win="8,552,096" chips="8,171,829" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="4,231,048" addon="0" rebuy="0" win="0" chips="4,261,048" seat="5" name="futurechamp" reg_code="" dealer="0"/>
+    <player bet="30,000" addon="0" rebuy="0" win="0" chips="5,067,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="30,000" type="15"/>
+   <action no="2" player="futurechamp" sum="30,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="4" player="bigbangok" sum="100,000" type="1"/>
+   <action no="5" player="futurechamp" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C4 DJ</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+   <cards player="bigbangok" type="Pocket">S6 DA</cards>
+   <action no="7" player="bigbangok" sum="100,000" type="3"/>
+   <cards player="futurechamp" type="Pocket">HA C10</cards>
+   <action no="8" player="futurechamp" sum="4,231,048" type="23"/>
+   <action no="9" player="bigbangok" sum="4,031,048" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 DK D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+  </round>
+ </game>
+ <game gamecode="10584285937">
+  <general>
+   <startdate>2024-02-25 18:42:27</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="230,000" addon="0" rebuy="0" win="230,000" chips="12,462,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="230,000" addon="0" rebuy="0" win="230,000" chips="5,037,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="30,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="3" player="bigbangok" sum="100,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">DJ H10</cards>
+   <action no="5" player="bigbangok" sum="100,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C10 HJ</cards>
+   <action no="6" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA D7 S6</cards>
+   <action no="7" player="tropeiro123" sum="0" type="4"/>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="9" player="tropeiro123" sum="0" type="4"/>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584285994">
+  <general>
+   <startdate>2024-02-25 18:43:21</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="7,262,000" addon="0" rebuy="0" win="3,324,000" chips="12,462,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="1,662,000" addon="0" rebuy="0" win="0" chips="5,037,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="2" player="bigbangok" sum="30,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="100,000" type="1"/>
+   <action no="4" player="bigbangok" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C7 S3</cards>
+   <action no="5" player="tropeiro123" sum="100,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA C2 S5</cards>
+   <action no="7" player="bigbangok" sum="200,000" type="5"/>
+   <action no="8" player="tropeiro123" sum="200,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action no="9" player="bigbangok" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="216,000" type="5"/>
+   <action no="11" player="bigbangok" sum="1,232,000" type="23"/>
+   <action no="12" player="tropeiro123" sum="1,016,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="13" player="bigbangok" sum="5,600,000" type="5"/>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286056">
+  <general>
+   <startdate>2024-02-25 18:44:12</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="14,094,877" addon="0" rebuy="0" win="460,000" chips="14,124,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="230,000" addon="0" rebuy="0" win="0" chips="3,375,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="30,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="3" player="bigbangok" sum="100,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="14,094,877" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C10 S6</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286063">
+  <general>
+   <startdate>2024-02-25 18:44:20</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="14,324,877" addon="0" rebuy="0" win="460,000" chips="14,354,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="230,000" addon="0" rebuy="0" win="0" chips="3,145,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="2" player="bigbangok" sum="30,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="100,000" type="1"/>
+   <action no="4" player="bigbangok" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D5 H6</cards>
+   <action no="5" player="tropeiro123" sum="100,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="14,324,877" type="23"/>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286075">
+  <general>
+   <startdate>2024-02-25 18:44:32</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="230,000" addon="0" rebuy="0" win="0" chips="14,584,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="690,000" addon="0" rebuy="0" win="460,000" chips="2,915,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="30,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="3" player="bigbangok" sum="100,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="100,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HK C8</cards>
+   <action no="6" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 HA H8</cards>
+   <action no="7" player="tropeiro123" sum="0" type="4"/>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="9" player="tropeiro123" sum="460,000" type="5"/>
+   <action no="10" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286128">
+  <general>
+   <startdate>2024-02-25 18:45:11</startdate>
+   <smallblind>100,000</smallblind>
+   <bigblind>200,000</bigblind>
+   <ante>30,000</ante>
+   <players>
+    <player bet="1,030,000" addon="0" rebuy="0" win="860,000" chips="14,354,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="430,000" addon="0" rebuy="0" win="0" chips="3,145,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="30,000" type="15"/>
+   <action no="2" player="bigbangok" sum="30,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="100,000" type="1"/>
+   <action no="4" player="bigbangok" sum="200,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HQ DJ</cards>
+   <action no="5" player="tropeiro123" sum="100,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 C8 DA</cards>
+   <action no="7" player="bigbangok" sum="0" type="4"/>
+   <action no="8" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+   <action no="9" player="bigbangok" sum="200,000" type="5"/>
+   <action no="10" player="tropeiro123" sum="200,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action no="11" player="bigbangok" sum="600,000" type="5"/>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286189">
+  <general>
+   <startdate>2024-02-25 18:46:04</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="1,038,000" addon="0" rebuy="0" win="576,000" chips="14,784,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="2,715,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="125,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C8 H4</cards>
+   <action no="6" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S9 SA</cards>
+   <action no="7" player="tropeiro123" sum="0" type="4"/>
+   <action no="8" player="bigbangok" sum="750,000" type="5"/>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286219">
+  <general>
+   <startdate>2024-02-25 18:46:32</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="15,034,877" addon="0" rebuy="0" win="576,000" chips="15,072,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="2,427,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D10 H8</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="15,034,877" type="23"/>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286240">
+  <general>
+   <startdate>2024-02-25 18:46:49</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="163,000" addon="0" rebuy="0" win="0" chips="15,360,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="326,000" chips="2,139,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ SJ</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286249">
+  <general>
+   <startdate>2024-02-25 18:46:55</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="15,197,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="538,000" addon="0" rebuy="0" win="576,000" chips="2,302,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SJ D7</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 D3 D9</cards>
+   <action no="7" player="bigbangok" sum="0" type="4"/>
+   <action no="8" player="tropeiro123" sum="250,000" type="5"/>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286269">
+  <general>
+   <startdate>2024-02-25 18:47:12</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="14,909,877" addon="0" rebuy="0" win="2,590,123" chips="14,909,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="2,590,123" addon="0" rebuy="0" win="2,590,123" chips="2,590,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">D10 DJ</cards>
+   <action no="5" player="bigbangok" sum="125,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HJ D9</cards>
+   <action no="6" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ H7 S7</cards>
+   <action no="7" player="tropeiro123" sum="0" type="4"/>
+   <action no="8" player="bigbangok" sum="576,000" type="5"/>
+   <action no="9" player="tropeiro123" sum="576,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="10" player="tropeiro123" sum="0" type="4"/>
+   <action no="11" player="bigbangok" sum="14,045,877" type="5"/>
+   <action no="12" player="tropeiro123" sum="1,726,123" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10584286316">
+  <general>
+   <startdate>2024-02-25 18:47:55</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="14,909,877" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="2,552,123" addon="0" rebuy="0" win="576,000" chips="2,590,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H6 H7</cards>
+   <action no="5" player="tropeiro123" sum="2,552,123" type="23"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286327">
+  <general>
+   <startdate>2024-02-25 18:48:04</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="2,878,123" addon="0" rebuy="0" win="0" chips="14,621,877" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="2,840,123" addon="0" rebuy="0" win="5,756,246" chips="2,878,123" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">DA H4</cards>
+   <action no="5" player="bigbangok" sum="125,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C5 CA</cards>
+   <action no="6" player="tropeiro123" sum="2,840,123" type="23"/>
+   <action no="7" player="bigbangok" sum="2,590,123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ C4 HA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+  </round>
+ </game>
+ <game gamecode="10584286350">
+  <general>
+   <startdate>2024-02-25 18:48:23</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="326,000" chips="11,743,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="163,000" addon="0" rebuy="0" win="0" chips="5,756,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">C7 D2</cards>
+   <action no="5" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286355">
+  <general>
+   <startdate>2024-02-25 18:48:31</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="163,000" addon="0" rebuy="0" win="0" chips="11,906,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="326,000" chips="5,593,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 C10</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286361">
+  <general>
+   <startdate>2024-02-25 18:48:38</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="1,000,000" addon="0" rebuy="0" win="576,000" chips="11,743,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="5,756,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D3 C5</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="1,000,000" type="23"/>
+   <action no="7" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286383">
+  <general>
+   <startdate>2024-02-25 18:48:55</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="864,000" addon="0" rebuy="0" win="576,000" chips="12,031,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="5,468,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="125,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H6 H7</cards>
+   <action no="6" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ S10 DJ</cards>
+   <action no="7" player="tropeiro123" sum="0" type="4"/>
+   <action no="8" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action no="9" player="tropeiro123" sum="0" type="4"/>
+   <action no="10" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="4"/>
+   <action no="12" player="bigbangok" sum="576,000" type="5"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286418">
+  <general>
+   <startdate>2024-02-25 18:49:27</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="12,319,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="538,000" addon="0" rebuy="0" win="576,000" chips="5,180,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 S8</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA S7 H2</cards>
+   <action no="7" player="bigbangok" sum="0" type="4"/>
+   <action no="8" player="tropeiro123" sum="250,000" type="5"/>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286452">
+  <general>
+   <startdate>2024-02-25 18:49:56</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="500,000" addon="0" rebuy="0" win="576,000" chips="12,031,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="5,468,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="500,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C3 S10</cards>
+   <action no="6" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286461">
+  <general>
+   <startdate>2024-02-25 18:50:05</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="12,319,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="538,000" addon="0" rebuy="0" win="576,000" chips="5,180,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C10 DJ</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 HQ HK</cards>
+   <action no="7" player="bigbangok" sum="0" type="4"/>
+   <action no="8" player="tropeiro123" sum="250,000" type="5"/>
+   <action no="9" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286477">
+  <general>
+   <startdate>2024-02-25 18:50:20</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="163,000" addon="0" rebuy="0" win="0" chips="12,031,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="288,000" addon="0" rebuy="0" win="326,000" chips="5,468,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D2 C4</cards>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286483">
+  <general>
+   <startdate>2024-02-25 18:50:25</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="538,000" addon="0" rebuy="0" win="576,000" chips="11,868,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="5,631,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D3 CK</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 S4 C9</cards>
+   <action no="7" player="bigbangok" sum="250,000" type="5"/>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286499">
+  <general>
+   <startdate>2024-02-25 18:50:45</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="12,118,754" addon="0" rebuy="0" win="1,576,000" chips="12,156,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="788,000" addon="0" rebuy="0" win="0" chips="5,343,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="5" player="bigbangok" sum="125,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H10 DK</cards>
+   <action no="6" player="tropeiro123" sum="750,000" type="23"/>
+   <action no="7" player="bigbangok" sum="12,118,754" type="23"/>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286530">
+  <general>
+   <startdate>2024-02-25 18:51:16</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="288,000" addon="0" rebuy="0" win="0" chips="12,944,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="778,000" addon="0" rebuy="0" win="576,000" chips="4,555,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C7 S6</cards>
+   <action no="5" player="tropeiro123" sum="125,000" type="3"/>
+   <cards player="bigbangok" type="Pocket">X X</cards>
+   <action no="6" player="bigbangok" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ D8 S3</cards>
+   <action no="7" player="bigbangok" sum="0" type="4"/>
+   <action no="8" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="9" player="bigbangok" sum="0" type="4"/>
+   <action no="10" player="tropeiro123" sum="490,000" type="5"/>
+   <action no="11" player="bigbangok" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584311790">
+  <general>
+   <startdate>2024-02-25 18:51:41</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="4,843,246" addon="0" rebuy="0" win="4,843,246" chips="12,656,754" seat="1" name="bigbangok" reg_code="" dealer="1"/>
+    <player bet="4,805,246" addon="0" rebuy="0" win="4,843,246" chips="4,843,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="bigbangok" sum="38,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="3" player="bigbangok" sum="125,000" type="1"/>
+   <action no="4" player="tropeiro123" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbangok" type="Pocket">H4 SA</cards>
+   <action no="5" player="bigbangok" sum="500,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DA D3</cards>
+   <action no="6" player="tropeiro123" sum="4,805,246" type="23"/>
+   <action no="7" player="bigbangok" sum="4,305,246" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 C9 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584311809">
+  <general>
+   <startdate>2024-02-25 18:52:03</startdate>
+   <smallblind>125,000</smallblind>
+   <bigblind>250,000</bigblind>
+   <ante>38,000</ante>
+   <players>
+    <player bet="4,843,246" addon="0" rebuy="0" win="9,686,492" chips="12,656,754" seat="1" name="bigbangok" reg_code="" dealer="0"/>
+    <player bet="4,805,246" addon="0" rebuy="0" win="0" chips="4,843,246" seat="10" name="tropeiro123" reg_code="7960760414" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="38,000" type="15"/>
+   <action no="2" player="bigbangok" sum="38,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="125,000" type="1"/>
+   <action no="4" player="bigbangok" sum="250,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 D4</cards>
+   <action no="5" player="tropeiro123" sum="4,805,246" type="23"/>
+   <cards player="bigbangok" type="Pocket">DA H8</cards>
+   <action no="6" player="bigbangok" sum="4,555,246" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ CA C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-10-01T15:08:48.496808",
+  "environment": "development",
+  "checks": {
+    "Environment Variables": true,
+    "Database Connection": true,
+    "Required Tables": true,
+    "Primary Admin": true,
+    "Data Integrity": true,
+    "Migration Status": true
+  },
+  "all_passed": true
+}

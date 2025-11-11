@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7956979012">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€25,000|Morning Mystery|D1, 1081687503</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:48:48</duration>
+  <gamecount>39</gamecount>
+  <startdate>2024-02-21 17:32:05</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>187,636</bets>
+  <wins>104,356</wins>
+  <chipsin>49,820</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP13.50</statuspoints>
+  <awardpoints>RP40.50</awardpoints>
+  <ipoints>RP13.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080308142</tournamentcode>
+  <tournamentname>E3|€25,000|Morning Mystery|D1</tournamentname>
+  <place>16</place>
+  <buyin>€6.83 + €6.82 + €1.35</buyin>
+  <totalbuyin>€15</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10576827029">
+  <general>
+   <startdate>2024-02-21 17:32:05</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="1" chips="84,129" addon="0" name="Yumbara1991" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="2" chips="46,270" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="1" win="0" bet="180" reg_code="" seat="4" chips="29,741" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="5" chips="128,654" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="9,360" bet="6,088" reg_code="" seat="9" chips="81,645" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="GoldKiller1"/>
+   <action sum="180" type="15" no="2" player="iluminAA"/>
+   <action sum="180" type="15" no="3" player="Yumbara1991"/>
+   <action sum="180" type="15" no="4" player="CovasRN"/>
+   <action sum="180" type="15" no="5" player="Spaydiki1"/>
+   <action sum="600" type="1" no="6" player="GoldKiller1"/>
+   <action sum="1,200" type="2" no="7" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Yumbara1991">X X</cards>
+   <action sum="0" type="0" no="8" player="Yumbara1991"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="2,820" type="23" no="9" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="2,220" type="3" no="11" player="GoldKiller1"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="1,620" type="3" no="12" player="iluminAA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 CK D3</cards>
+   <action sum="0" type="4" no="13" player="GoldKiller1"/>
+   <action sum="0" type="4" no="14" player="iluminAA"/>
+   <action sum="0" type="4" no="15" player="CovasRN"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action sum="0" type="4" no="16" player="GoldKiller1"/>
+   <action sum="3,088" type="5" no="17" player="iluminAA"/>
+   <action sum="0" type="0" no="18" player="CovasRN"/>
+   <action sum="0" type="0" no="19" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576827164">
+  <general>
+   <startdate>2024-02-21 17:34:03</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,380" reg_code="" seat="1" chips="83,949" addon="0" name="Yumbara1991" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="2" chips="43,270" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="4" chips="29,561" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="1" win="3,900" bet="2,400" reg_code="" seat="5" chips="125,654" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="780" reg_code="" seat="9" chips="88,005" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="iluminAA"/>
+   <action sum="180" type="15" no="2" player="Yumbara1991"/>
+   <action sum="180" type="15" no="3" player="CovasRN"/>
+   <action sum="180" type="15" no="4" player="Spaydiki1"/>
+   <action sum="180" type="15" no="5" player="GoldKiller1"/>
+   <action sum="600" type="1" no="6" player="iluminAA"/>
+   <action sum="1,200" type="2" no="7" player="Yumbara1991"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="8" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="9" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="2,400" type="23" no="10" player="GoldKiller1"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="Yumbara1991">X X</cards>
+   <action sum="0" type="0" no="12" player="Yumbara1991"/>
+  </round>
+ </game>
+ <game gamecode="10576827215">
+  <general>
+   <startdate>2024-02-21 17:34:48</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="1" chips="82,569" addon="0" name="Yumbara1991" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,380" reg_code="" seat="2" chips="43,090" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="7,260" bet="4,758" reg_code="" seat="4" chips="29,381" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="5" chips="128,174" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="6" chips="50,000" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="7956979012" seat="7" chips="50,000" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="180" reg_code="" seat="9" chips="87,225" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="Yumbara1991"/>
+   <action sum="180" type="15" no="2" player="CovasRN"/>
+   <action sum="180" type="15" no="3" player="Spaydiki1"/>
+   <action sum="180" type="15" no="4" player="GoldKiller1"/>
+   <action sum="180" type="15" no="5" player="veryinv0lved"/>
+   <action sum="180" type="15" no="6" player="tropeiro123"/>
+   <action sum="180" type="15" no="7" player="iluminAA"/>
+   <action sum="600" type="1" no="8" player="Yumbara1991"/>
+   <action sum="1,200" type="2" no="9" player="CovasRN"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="2,400" type="23" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="11" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="12" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C5 SQ</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="14" player="iluminAA"/>
+   <cards type="Pocket" player="Yumbara1991">X X</cards>
+   <action sum="1,800" type="3" no="15" player="Yumbara1991"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="16" player="CovasRN"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ D10 D2</cards>
+   <action sum="0" type="4" no="17" player="Yumbara1991"/>
+   <action sum="2,178" type="5" no="18" player="Spaydiki1"/>
+   <action sum="0" type="0" no="19" player="Yumbara1991"/>
+  </round>
+ </game>
+ <game gamecode="10576847392">
+  <general>
+   <startdate>2024-02-21 17:35:47</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="780" reg_code="" seat="2" chips="41,710" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,380" reg_code="" seat="4" chips="34,061" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="22,080" bet="27,000" reg_code="" seat="5" chips="127,994" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="6" chips="49,820" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="7956979012" seat="7" chips="49,820" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="9,780" reg_code="" seat="9" chips="87,045" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="CovasRN"/>
+   <action sum="180" type="15" no="2" player="Spaydiki1"/>
+   <action sum="180" type="15" no="3" player="GoldKiller1"/>
+   <action sum="180" type="15" no="4" player="veryinv0lved"/>
+   <action sum="180" type="15" no="5" player="tropeiro123"/>
+   <action sum="180" type="15" no="6" player="iluminAA"/>
+   <action sum="600" type="1" no="7" player="CovasRN"/>
+   <action sum="1,200" type="2" no="8" player="Spaydiki1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="3,000" type="23" no="9" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S6 CA</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="9,600" type="23" no="12" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="13" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="14" player="Spaydiki1"/>
+   <action sum="27,000" type="23" no="15" player="GoldKiller1"/>
+   <action sum="0" type="0" no="16" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576847445">
+  <general>
+   <startdate>2024-02-21 17:36:25</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="2" chips="40,930" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="" seat="4" chips="32,681" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="5" chips="140,294" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="6" chips="49,640" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="4,700" bet="2,800" reg_code="7956979012" seat="7" chips="49,640" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="77,265" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="Spaydiki1"/>
+   <action sum="200" type="15" no="2" player="GoldKiller1"/>
+   <action sum="200" type="15" no="3" player="veryinv0lved"/>
+   <action sum="200" type="15" no="4" player="tropeiro123"/>
+   <action sum="200" type="15" no="5" player="iluminAA"/>
+   <action sum="200" type="15" no="6" player="CovasRN"/>
+   <action sum="700" type="1" no="7" player="Spaydiki1"/>
+   <action sum="1,400" type="2" no="8" player="GoldKiller1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S4 SA</cards>
+   <action sum="2,800" type="23" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="12" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="13" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="14" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576847487">
+  <general>
+   <startdate>2024-02-21 17:36:56</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="40,730" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="4" chips="31,781" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="7,760" reg_code="" seat="5" chips="138,694" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="16,320" bet="15,250" reg_code="" seat="6" chips="49,440" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956979012" seat="7" chips="52,740" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="77,065" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="GoldKiller1"/>
+   <action sum="200" type="15" no="2" player="veryinv0lved"/>
+   <action sum="200" type="15" no="3" player="tropeiro123"/>
+   <action sum="200" type="15" no="4" player="iluminAA"/>
+   <action sum="200" type="15" no="5" player="CovasRN"/>
+   <action sum="200" type="15" no="6" player="Spaydiki1"/>
+   <action sum="700" type="1" no="7" player="GoldKiller1"/>
+   <action sum="1,400" type="2" no="8" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SJ H10</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="10" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="11" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="700" type="3" no="13" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="4" no="14" player="veryinv0lved"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 HK S3</cards>
+   <action sum="1,400" type="5" no="15" player="GoldKiller1"/>
+   <action sum="1,400" type="3" no="16" player="veryinv0lved"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action sum="4,760" type="5" no="17" player="GoldKiller1"/>
+   <action sum="12,250" type="23" no="18" player="veryinv0lved"/>
+   <action sum="0" type="0" no="19" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576847583">
+  <general>
+   <startdate>2024-02-21 17:38:16</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="40,530" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="4" chips="31,581" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="1" win="0" bet="70,342" reg_code="" seat="5" chips="130,934" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="118,200" bet="58,000" reg_code="" seat="6" chips="58,000" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="7956979012" seat="7" chips="52,540" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="76,865" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="veryinv0lved"/>
+   <action sum="200" type="15" no="2" player="tropeiro123"/>
+   <action sum="200" type="15" no="3" player="iluminAA"/>
+   <action sum="200" type="15" no="4" player="CovasRN"/>
+   <action sum="200" type="15" no="5" player="Spaydiki1"/>
+   <action sum="200" type="15" no="6" player="GoldKiller1"/>
+   <action sum="700" type="1" no="7" player="veryinv0lved"/>
+   <action sum="1,400" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="9" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="10" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">DA D7</cards>
+   <action sum="2,800" type="23" no="12" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">HQ SQ</cards>
+   <action sum="12,180" type="23" no="13" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">H4 CJ</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <action sum="9,380" type="3" no="15" player="GoldKiller1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 DQ S6</cards>
+   <action sum="6,470" type="5" no="16" player="veryinv0lved"/>
+   <action sum="57,962" type="23" no="17" player="GoldKiller1"/>
+   <action sum="39,150" type="7" no="18" player="veryinv0lved"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10576847701">
+  <general>
+   <startdate>2024-02-21 17:40:01</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="40,330" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="4" chips="31,381" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="23,880" bet="72,734" reg_code="" seat="5" chips="72,934" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="6" chips="118,200" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="10,840" reg_code="7956979012" seat="7" chips="50,940" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="9" chips="76,665" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="tropeiro123"/>
+   <action sum="200" type="15" no="2" player="iluminAA"/>
+   <action sum="200" type="15" no="3" player="CovasRN"/>
+   <action sum="200" type="15" no="4" player="Spaydiki1"/>
+   <action sum="200" type="15" no="5" player="GoldKiller1"/>
+   <action sum="200" type="15" no="6" player="veryinv0lved"/>
+   <action sum="700" type="1" no="7" player="tropeiro123"/>
+   <action sum="1,400" type="2" no="8" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="9" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="2,800" type="23" no="11" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="12" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">CA S5</cards>
+   <action sum="10,640" type="23" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="14" player="iluminAA"/>
+   <action sum="72,734" type="23" no="15" player="GoldKiller1"/>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576847806">
+  <general>
+   <startdate>2024-02-21 17:41:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="2" chips="40,130" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="4" chips="31,181" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="5" chips="85,974" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="6" chips="118,000" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="7956979012" seat="7" chips="40,100" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="4,000" bet="4,680" reg_code="" seat="9" chips="75,065" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="iluminAA"/>
+   <action sum="200" type="15" no="2" player="CovasRN"/>
+   <action sum="200" type="15" no="3" player="Spaydiki1"/>
+   <action sum="200" type="15" no="4" player="GoldKiller1"/>
+   <action sum="200" type="15" no="5" player="veryinv0lved"/>
+   <action sum="200" type="15" no="6" player="tropeiro123"/>
+   <action sum="700" type="1" no="7" player="iluminAA"/>
+   <action sum="1,400" type="2" no="8" player="CovasRN"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="9" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="10" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="11" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S5 D8</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="700" type="3" no="13" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="4" no="14" player="CovasRN"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C7 D6</cards>
+   <action sum="0" type="4" no="15" player="iluminAA"/>
+   <action sum="0" type="4" no="16" player="CovasRN"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action sum="3,080" type="5" no="17" player="iluminAA"/>
+   <action sum="0" type="0" no="18" player="CovasRN"/>
+  </round>
+ </game>
+ <game gamecode="10576847883">
+  <general>
+   <startdate>2024-02-21 17:42:25</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="2" chips="38,530" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="4" chips="30,981" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="8,200" bet="7,100" reg_code="" seat="5" chips="85,774" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="6" chips="117,800" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956979012" seat="7" chips="39,900" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="9" chips="77,465" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="CovasRN"/>
+   <action sum="200" type="15" no="2" player="Spaydiki1"/>
+   <action sum="200" type="15" no="3" player="GoldKiller1"/>
+   <action sum="200" type="15" no="4" player="veryinv0lved"/>
+   <action sum="200" type="15" no="5" player="tropeiro123"/>
+   <action sum="200" type="15" no="6" player="iluminAA"/>
+   <action sum="700" type="1" no="7" player="CovasRN"/>
+   <action sum="1,400" type="2" no="8" player="Spaydiki1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="2,800" type="23" no="9" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S8 D5</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="12" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="2,100" type="3" no="13" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="14" player="Spaydiki1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 D3 H7</cards>
+   <action sum="0" type="4" no="15" player="CovasRN"/>
+   <action sum="4,100" type="5" no="16" player="GoldKiller1"/>
+   <action sum="0" type="0" no="17" player="CovasRN"/>
+  </round>
+ </game>
+ <game gamecode="10576847935">
+  <general>
+   <startdate>2024-02-21 17:43:09</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="2" chips="35,530" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="" seat="4" chips="29,381" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="5" chips="90,974" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="6" chips="117,600" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="7956979012" seat="7" chips="39,700" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="8,900" bet="3,000" reg_code="" seat="9" chips="77,265" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="Spaydiki1"/>
+   <action sum="200" type="15" no="2" player="GoldKiller1"/>
+   <action sum="200" type="15" no="3" player="veryinv0lved"/>
+   <action sum="200" type="15" no="4" player="tropeiro123"/>
+   <action sum="200" type="15" no="5" player="iluminAA"/>
+   <action sum="200" type="15" no="6" player="CovasRN"/>
+   <action sum="700" type="1" no="7" player="Spaydiki1"/>
+   <action sum="1,400" type="2" no="8" player="GoldKiller1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">HA HK</cards>
+   <action sum="2,800" type="23" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">H9 S9</cards>
+   <action sum="2,800" type="3" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="12" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="13" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="14" player="GoldKiller1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 H6 D2</cards>
+   <action sum="0" type="4" no="15" player="tropeiro123"/>
+   <action sum="0" type="4" no="16" player="iluminAA"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action sum="0" type="4" no="17" player="tropeiro123"/>
+   <action sum="0" type="4" no="18" player="iluminAA"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+   <action sum="0" type="4" no="19" player="tropeiro123"/>
+   <action sum="0" type="4" no="20" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576868030">
+  <general>
+   <startdate>2024-02-21 17:44:37</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="35,330" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="4" chips="28,481" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="" seat="5" chips="89,374" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="6" chips="117,400" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956979012" seat="7" chips="36,700" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="4,700" bet="2,800" reg_code="" seat="9" chips="83,165" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="GoldKiller1"/>
+   <action sum="200" type="15" no="2" player="veryinv0lved"/>
+   <action sum="200" type="15" no="3" player="tropeiro123"/>
+   <action sum="200" type="15" no="4" player="iluminAA"/>
+   <action sum="200" type="15" no="5" player="CovasRN"/>
+   <action sum="200" type="15" no="6" player="Spaydiki1"/>
+   <action sum="700" type="1" no="7" player="GoldKiller1"/>
+   <action sum="1,400" type="2" no="8" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S5 DK</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="2,800" type="23" no="10" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="11" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="13" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="14" player="veryinv0lved"/>
+  </round>
+ </game>
+ <game gamecode="10576868060">
+  <general>
+   <startdate>2024-02-21 17:45:06</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="35,130" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="4" chips="28,281" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="5" chips="88,474" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="7,568" reg_code="" seat="6" chips="115,800" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="15,936" bet="7,568" reg_code="7956979012" seat="7" chips="36,500" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="86,265" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="veryinv0lved"/>
+   <action sum="200" type="15" no="2" player="tropeiro123"/>
+   <action sum="200" type="15" no="3" player="iluminAA"/>
+   <action sum="200" type="15" no="4" player="CovasRN"/>
+   <action sum="200" type="15" no="5" player="Spaydiki1"/>
+   <action sum="200" type="15" no="6" player="GoldKiller1"/>
+   <action sum="700" type="1" no="7" player="veryinv0lved"/>
+   <action sum="1,400" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="9" player="iluminAA"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="10" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="12" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">D9 C8</cards>
+   <action sum="4,200" type="23" no="13" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C4 HJ</cards>
+   <action sum="2,800" type="3" no="14" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 DJ HA</cards>
+   <action sum="3,168" type="5" no="15" player="veryinv0lved"/>
+   <action sum="3,168" type="3" no="16" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action sum="0" type="4" no="17" player="veryinv0lved"/>
+   <action sum="0" type="4" no="18" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action sum="0" type="4" no="19" player="veryinv0lved"/>
+   <action sum="0" type="4" no="20" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576868177">
+  <general>
+   <startdate>2024-02-21 17:46:43</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="6,550" bet="5,125" reg_code="" seat="1" chips="50,000" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="34,930" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="4" chips="28,081" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="88,274" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="6" chips="108,232" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="7956979012" seat="7" chips="44,868" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="9" chips="86,065" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="tropeiro123"/>
+   <action sum="250" type="15" no="2" player="iluminAA"/>
+   <action sum="250" type="15" no="3" player="savantmind592"/>
+   <action sum="250" type="15" no="4" player="CovasRN"/>
+   <action sum="250" type="15" no="5" player="Spaydiki1"/>
+   <action sum="250" type="15" no="6" player="GoldKiller1"/>
+   <action sum="250" type="15" no="7" player="veryinv0lved"/>
+   <action sum="800" type="1" no="8" player="tropeiro123"/>
+   <action sum="1,600" type="2" no="9" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="1,600" type="3" no="10" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="11" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="13" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X C6</cards>
+   <action sum="0" type="0" no="14" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C4 C7</cards>
+   <action sum="800" type="3" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="4" no="16" player="iluminAA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 D2 C8</cards>
+   <action sum="0" type="4" no="17" player="tropeiro123"/>
+   <action sum="0" type="4" no="18" player="iluminAA"/>
+   <action sum="3,275" type="5" no="19" player="savantmind592"/>
+   <action sum="0" type="0" no="20" player="tropeiro123"/>
+   <action sum="0" type="0" no="21" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576868270">
+  <general>
+   <startdate>2024-02-21 17:47:54</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="3,450" reg_code="" seat="1" chips="54,700" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="34,680" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="4" chips="27,831" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="88,024" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="6" chips="107,982" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="7956979012" seat="7" chips="43,018" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="8,150" bet="5,050" reg_code="" seat="9" chips="84,215" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="iluminAA"/>
+   <action sum="250" type="15" no="2" player="savantmind592"/>
+   <action sum="250" type="15" no="3" player="CovasRN"/>
+   <action sum="250" type="15" no="4" player="Spaydiki1"/>
+   <action sum="250" type="15" no="5" player="GoldKiller1"/>
+   <action sum="250" type="15" no="6" player="veryinv0lved"/>
+   <action sum="250" type="15" no="7" player="tropeiro123"/>
+   <action sum="800" type="1" no="8" player="iluminAA"/>
+   <action sum="1,600" type="2" no="9" player="savantmind592"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="10" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="12" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="13" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S8 D2</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,200" type="23" no="15" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="1,600" type="3" no="16" player="savantmind592"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 SQ C5</cards>
+   <action sum="0" type="4" no="17" player="iluminAA"/>
+   <action sum="0" type="4" no="18" player="savantmind592"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action sum="0" type="4" no="19" player="iluminAA"/>
+   <action sum="0" type="4" no="20" player="savantmind592"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action sum="1,600" type="5" no="21" player="iluminAA"/>
+   <action sum="0" type="0" no="22" player="savantmind592"/>
+  </round>
+ </game>
+ <game gamecode="10576868345">
+  <general>
+   <startdate>2024-02-21 17:48:55</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="1" chips="51,250" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="2" chips="34,430" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="4" chips="27,581" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="5,750" bet="3,200" reg_code="" seat="5" chips="87,774" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="6" chips="107,732" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956979012" seat="7" chips="42,768" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="9" chips="88,915" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="savantmind592"/>
+   <action sum="250" type="15" no="2" player="CovasRN"/>
+   <action sum="250" type="15" no="3" player="Spaydiki1"/>
+   <action sum="250" type="15" no="4" player="GoldKiller1"/>
+   <action sum="250" type="15" no="5" player="veryinv0lved"/>
+   <action sum="250" type="15" no="6" player="tropeiro123"/>
+   <action sum="250" type="15" no="7" player="iluminAA"/>
+   <action sum="800" type="1" no="8" player="savantmind592"/>
+   <action sum="1,600" type="2" no="9" player="CovasRN"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="3,200" type="23" no="11" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="12" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S6 H9</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="14" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="0" type="0" no="15" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="16" player="CovasRN"/>
+  </round>
+ </game>
+ <game gamecode="10576868388">
+  <general>
+   <startdate>2024-02-21 17:49:31</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="1" chips="50,200" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="2" chips="32,580" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="4" chips="27,331" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,450" reg_code="" seat="5" chips="91,674" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="10,550" bet="9,120" reg_code="" seat="6" chips="107,482" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956979012" seat="7" chips="42,518" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="88,665" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="CovasRN"/>
+   <action sum="250" type="15" no="2" player="Spaydiki1"/>
+   <action sum="250" type="15" no="3" player="GoldKiller1"/>
+   <action sum="250" type="15" no="4" player="veryinv0lved"/>
+   <action sum="250" type="15" no="5" player="tropeiro123"/>
+   <action sum="250" type="15" no="6" player="iluminAA"/>
+   <action sum="250" type="15" no="7" player="savantmind592"/>
+   <action sum="800" type="1" no="8" player="CovasRN"/>
+   <action sum="1,600" type="2" no="9" player="Spaydiki1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="3,200" type="23" no="10" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="9,120" type="23" no="11" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C5 H4</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="13" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="0" type="0" no="14" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="15" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="16" player="Spaydiki1"/>
+   <action sum="0" type="0" no="17" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576868448">
+  <general>
+   <startdate>2024-02-21 17:50:16</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="1" chips="49,950" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="2" chips="31,530" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,450" reg_code="" seat="4" chips="25,481" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="8,150" bet="3,450" reg_code="" seat="5" chips="88,224" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="6" chips="114,582" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956979012" seat="7" chips="42,268" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="88,415" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="Spaydiki1"/>
+   <action sum="250" type="15" no="2" player="GoldKiller1"/>
+   <action sum="250" type="15" no="3" player="veryinv0lved"/>
+   <action sum="250" type="15" no="4" player="tropeiro123"/>
+   <action sum="250" type="15" no="5" player="iluminAA"/>
+   <action sum="250" type="15" no="6" player="savantmind592"/>
+   <action sum="250" type="15" no="7" player="CovasRN"/>
+   <action sum="800" type="1" no="8" player="Spaydiki1"/>
+   <action sum="1,600" type="2" no="9" player="GoldKiller1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">H5 D2</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="12" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="0" type="0" no="13" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="14" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">DK H9</cards>
+   <action sum="800" type="3" no="15" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">H7 HQ</cards>
+   <action sum="0" type="4" no="16" player="GoldKiller1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 CA D8</cards>
+   <action sum="0" type="4" no="17" player="Spaydiki1"/>
+   <action sum="1,600" type="5" no="18" player="GoldKiller1"/>
+   <action sum="1,600" type="3" no="19" player="Spaydiki1"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action sum="0" type="4" no="20" player="Spaydiki1"/>
+   <action sum="0" type="4" no="21" player="GoldKiller1"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action sum="0" type="4" no="22" player="Spaydiki1"/>
+   <action sum="0" type="4" no="23" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576868531">
+  <general>
+   <startdate>2024-02-21 17:51:22</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="22,031" reg_code="" seat="1" chips="49,700" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="31,280" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="1" win="0" bet="22,031" reg_code="" seat="4" chips="22,031" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="5" chips="92,924" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="6" chips="114,332" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="69,493" bet="42,015" reg_code="7956979012" seat="7" chips="42,018" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="88,165" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="GoldKiller1"/>
+   <action sum="250" type="15" no="2" player="veryinv0lved"/>
+   <action sum="250" type="15" no="3" player="tropeiro123"/>
+   <action sum="250" type="15" no="4" player="iluminAA"/>
+   <action sum="250" type="15" no="5" player="savantmind592"/>
+   <action sum="250" type="15" no="6" player="CovasRN"/>
+   <action sum="250" type="15" no="7" player="Spaydiki1"/>
+   <action sum="800" type="1" no="8" player="GoldKiller1"/>
+   <action sum="1,600" type="2" no="9" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HA HQ</cards>
+   <action sum="3,200" type="23" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="3,200" type="3" no="12" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="13" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">HK SQ</cards>
+   <action sum="3,200" type="3" no="14" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="15" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="16" player="veryinv0lved"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 D3 CQ</cards>
+   <action sum="3,440" type="5" no="17" player="tropeiro123"/>
+   <action sum="3,440" type="3" no="18" player="savantmind592"/>
+   <action sum="18,581" type="23" no="19" player="Spaydiki1"/>
+   <action sum="15,141" type="3" no="20" player="tropeiro123"/>
+   <action sum="15,141" type="3" no="21" player="savantmind592"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action sum="19,984" type="5" no="22" player="tropeiro123"/>
+   <action sum="0" type="0" no="23" player="savantmind592"/>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10576868639">
+  <general>
+   <startdate>2024-02-21 17:52:58</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="19,900" bet="18,200" reg_code="" seat="1" chips="27,669" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="31,030" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="5" chips="91,874" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="6" chips="112,482" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="7956979012" seat="7" chips="89,480" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,250" reg_code="" seat="9" chips="87,915" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="veryinv0lved"/>
+   <action sum="250" type="15" no="2" player="tropeiro123"/>
+   <action sum="250" type="15" no="3" player="iluminAA"/>
+   <action sum="250" type="15" no="4" player="savantmind592"/>
+   <action sum="250" type="15" no="5" player="CovasRN"/>
+   <action sum="250" type="15" no="6" player="GoldKiller1"/>
+   <action sum="800" type="1" no="7" player="veryinv0lved"/>
+   <action sum="1,600" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,200" type="23" no="9" player="iluminAA"/>
+   <cards type="Pocket" player="savantmind592">X X</cards>
+   <action sum="3,200" type="3" no="10" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="11" player="CovasRN"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="12" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="13" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S2 DQ</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S7 D5</cards>
+   <action sum="0" type="4" no="15" player="iluminAA"/>
+   <action sum="0" type="4" no="16" player="savantmind592"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action sum="4,800" type="5" no="17" player="iluminAA"/>
+   <action sum="4,800" type="3" no="18" player="savantmind592"/>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+   <action sum="0" type="4" no="19" player="iluminAA"/>
+   <action sum="9,950" type="5" no="20" player="savantmind592"/>
+   <action sum="0" type="0" no="21" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576887770">
+  <general>
+   <startdate>2024-02-21 17:54:05</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="39,319" reg_code="" seat="1" chips="39,319" addon="0" name="savantmind592" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="30,780" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="87,888" bet="50,000" reg_code="" seat="4" chips="50,000" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="91,624" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="6" chips="111,432" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,650" reg_code="7956979012" seat="7" chips="87,630" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="9" chips="79,665" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="tropeiro123"/>
+   <action sum="250" type="15" no="2" player="iluminAA"/>
+   <action sum="250" type="15" no="3" player="savantmind592"/>
+   <action sum="250" type="15" no="4" player="CovasRN"/>
+   <action sum="250" type="15" no="5" player="Spaydiki1"/>
+   <action sum="250" type="15" no="6" player="GoldKiller1"/>
+   <action sum="250" type="15" no="7" player="veryinv0lved"/>
+   <action sum="800" type="1" no="8" player="tropeiro123"/>
+   <action sum="1,600" type="2" no="9" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="savantmind592">DQ C2</cards>
+   <action sum="1,600" type="3" no="10" player="savantmind592"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="11" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">DK DA</cards>
+   <action sum="6,400" type="23" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="0" type="0" no="13" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="14" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C6 H6</cards>
+   <action sum="5,600" type="3" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="16" player="iluminAA"/>
+   <action sum="4,800" type="3" no="17" player="savantmind592"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 D9 D2</cards>
+   <action sum="0" type="4" no="18" player="tropeiro123"/>
+   <action sum="22,550" type="5" no="19" player="savantmind592"/>
+   <action sum="43,350" type="7" no="20" player="Spaydiki1"/>
+   <action sum="0" type="0" no="21" player="tropeiro123"/>
+   <action sum="10,119" type="7" no="22" player="savantmind592"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+  </round>
+ </game>
+ <game gamecode="10576887849">
+  <general>
+   <startdate>2024-02-21 18:01:20</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="1" chips="50,000" addon="0" name="ninjafeather8" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="30,530" addon="0" name="CovasRN" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="4" chips="98,569" addon="0" name="Spaydiki1" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,450" reg_code="" seat="5" chips="91,374" addon="0" name="GoldKiller1" rebuy="0"/>
+    <player dealer="0" win="10,800" bet="9,920" reg_code="" seat="6" chips="111,182" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="7956979012" seat="7" chips="80,980" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="9" chips="77,815" addon="0" name="iluminAA" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="10" chips="50,000" addon="0" name="FangdaFisch" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="iluminAA"/>
+   <action sum="250" type="15" no="2" player="FangdaFisch"/>
+   <action sum="250" type="15" no="3" player="ninjafeather8"/>
+   <action sum="250" type="15" no="4" player="CovasRN"/>
+   <action sum="250" type="15" no="5" player="Spaydiki1"/>
+   <action sum="250" type="15" no="6" player="GoldKiller1"/>
+   <action sum="250" type="15" no="7" player="veryinv0lved"/>
+   <action sum="250" type="15" no="8" player="tropeiro123"/>
+   <action sum="800" type="1" no="9" player="iluminAA"/>
+   <action sum="1,600" type="2" no="10" player="FangdaFisch"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ninjafeather8">X X</cards>
+   <action sum="0" type="0" no="11" player="ninjafeather8"/>
+   <cards type="Pocket" player="CovasRN">X X</cards>
+   <action sum="0" type="0" no="12" player="CovasRN"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action sum="0" type="0" no="13" player="Spaydiki1"/>
+   <cards type="Pocket" player="GoldKiller1">X X</cards>
+   <action sum="3,200" type="23" no="14" player="GoldKiller1"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="9,920" type="23" no="15" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S3 H6</cards>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="17" player="iluminAA"/>
+   <cards type="Pocket" player="FangdaFisch">X X</cards>
+   <action sum="0" type="0" no="18" player="FangdaFisch"/>
+   <action sum="0" type="0" no="19" player="GoldKiller1"/>
+  </round>
+ </game>
+ <game gamecode="10576887999">
+  <general>
+   <startdate>2024-02-21 18:03:04</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="1" chips="50,000" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="7" chips="118,532" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,911" reg_code="7956979012" seat="9" chips="80,730" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="15,272" bet="11,950" reg_code="" seat="10" chips="76,765" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="veryinv0lved"/>
+   <action sum="275" type="15" no="2" player="tropeiro123"/>
+   <action sum="275" type="15" no="3" player="iluminAA"/>
+   <action sum="275" type="15" no="4" player="AzerZiggy"/>
+   <action sum="900" type="1" no="5" player="veryinv0lved"/>
+   <action sum="1,800" type="2" no="6" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,600" type="23" no="7" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="8" player="AzerZiggy"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">CQ S6</cards>
+   <action sum="1,800" type="3" no="10" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 DJ H2</cards>
+   <action sum="0" type="4" no="11" player="tropeiro123"/>
+   <action sum="3,036" type="5" no="12" player="iluminAA"/>
+   <action sum="3,036" type="3" no="13" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action sum="0" type="4" no="14" player="tropeiro123"/>
+   <action sum="5,039" type="5" no="15" player="iluminAA"/>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576888105">
+  <general>
+   <startdate>2024-02-21 18:04:24</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="49,725" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="6" chips="46,600" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="1" win="14,023" bet="16,946" reg_code="" seat="7" chips="117,357" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="7956979012" seat="9" chips="73,819" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,149" reg_code="" seat="10" chips="85,126" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="tropeiro123"/>
+   <action sum="275" type="15" no="2" player="iluminAA"/>
+   <action sum="275" type="15" no="3" player="AzerZiggy"/>
+   <action sum="275" type="15" no="4" player="MarlonBT01"/>
+   <action sum="275" type="15" no="5" player="veryinv0lved"/>
+   <action sum="900" type="1" no="6" player="tropeiro123"/>
+   <action sum="1,800" type="2" no="7" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="8" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="9" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="3,600" type="23" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C5 C9</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="1,800" type="3" no="12" player="iluminAA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 DJ CK</cards>
+   <action sum="0" type="4" no="13" player="iluminAA"/>
+   <action sum="2,274" type="5" no="14" player="veryinv0lved"/>
+   <action sum="2,274" type="3" no="15" player="iluminAA"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action sum="0" type="4" no="16" player="iluminAA"/>
+   <action sum="10,797" type="5" no="17" player="veryinv0lved"/>
+   <action sum="0" type="0" no="18" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576888202">
+  <general>
+   <startdate>2024-02-21 18:05:30</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="3,175" bet="2,075" reg_code="" seat="1" chips="49,450" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="6" chips="46,325" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="125,231" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="7956979012" seat="9" chips="72,644" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="10" chips="78,977" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="iluminAA"/>
+   <action sum="275" type="15" no="2" player="AzerZiggy"/>
+   <action sum="275" type="15" no="3" player="MarlonBT01"/>
+   <action sum="275" type="15" no="4" player="veryinv0lved"/>
+   <action sum="275" type="15" no="5" player="tropeiro123"/>
+   <action sum="900" type="1" no="6" player="iluminAA"/>
+   <action sum="1,800" type="2" no="7" player="AzerZiggy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="8" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S5 D4</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576888243">
+  <general>
+   <startdate>2024-02-21 18:06:02</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="1" chips="51,450" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="6" chips="46,050" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="124,956" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956979012" seat="9" chips="72,369" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="5,875" bet="3,600" reg_code="" seat="10" chips="77,802" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="AzerZiggy"/>
+   <action sum="275" type="15" no="2" player="MarlonBT01"/>
+   <action sum="275" type="15" no="3" player="veryinv0lved"/>
+   <action sum="275" type="15" no="4" player="tropeiro123"/>
+   <action sum="275" type="15" no="5" player="iluminAA"/>
+   <action sum="900" type="1" no="6" player="AzerZiggy"/>
+   <action sum="1,800" type="2" no="7" player="MarlonBT01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="8" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">H2 H4</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,600" type="23" no="10" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="11" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="12" player="MarlonBT01"/>
+  </round>
+ </game>
+ <game gamecode="10576888286">
+  <general>
+   <startdate>2024-02-21 18:06:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="1" chips="50,275" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="6" chips="43,975" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="9,475" bet="14,400" reg_code="" seat="7" chips="124,681" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956979012" seat="9" chips="72,094" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="" seat="10" chips="81,602" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="MarlonBT01"/>
+   <action sum="275" type="15" no="2" player="veryinv0lved"/>
+   <action sum="275" type="15" no="3" player="tropeiro123"/>
+   <action sum="275" type="15" no="4" player="iluminAA"/>
+   <action sum="275" type="15" no="5" player="AzerZiggy"/>
+   <action sum="900" type="1" no="6" player="MarlonBT01"/>
+   <action sum="1,800" type="2" no="7" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H7 D3</cards>
+   <action sum="0" type="0" no="8" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,600" type="23" no="9" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="10" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="11" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="14,400" type="23" no="12" player="veryinv0lved"/>
+   <action sum="0" type="0" no="13" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576888331">
+  <general>
+   <startdate>2024-02-21 18:07:03</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="50,000" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="6" chips="42,800" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="33,775" bet="22,271" reg_code="" seat="7" chips="130,281" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,075" reg_code="7956979012" seat="9" chips="71,819" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="15,575" reg_code="" seat="10" chips="77,727" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="veryinv0lved"/>
+   <action sum="275" type="15" no="2" player="tropeiro123"/>
+   <action sum="275" type="15" no="3" player="iluminAA"/>
+   <action sum="275" type="15" no="4" player="AzerZiggy"/>
+   <action sum="275" type="15" no="5" player="MarlonBT01"/>
+   <action sum="900" type="1" no="6" player="veryinv0lved"/>
+   <action sum="1,800" type="2" no="7" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,600" type="23" no="8" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="9" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="10" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="2,700" type="3" no="11" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C6 S3</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 H4 H5</cards>
+   <action sum="0" type="4" no="13" player="veryinv0lved"/>
+   <action sum="2,593" type="5" no="14" player="iluminAA"/>
+   <action sum="11,700" type="23" no="15" player="veryinv0lved"/>
+   <action sum="9,107" type="3" no="16" player="iluminAA"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action sum="6,696" type="5" no="17" player="veryinv0lved"/>
+   <action sum="0" type="0" no="18" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576908577">
+  <general>
+   <startdate>2024-02-21 18:08:56</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="49,725" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="6" chips="42,525" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="7" chips="148,481" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="7956979012" seat="9" chips="69,744" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="8,575" bet="3,875" reg_code="" seat="10" chips="62,152" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="tropeiro123"/>
+   <action sum="275" type="15" no="2" player="iluminAA"/>
+   <action sum="275" type="15" no="3" player="AzerZiggy"/>
+   <action sum="275" type="15" no="4" player="MarlonBT01"/>
+   <action sum="275" type="15" no="5" player="veryinv0lved"/>
+   <action sum="900" type="1" no="6" player="tropeiro123"/>
+   <action sum="1,800" type="2" no="7" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="8" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="9" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">DK S7</cards>
+   <action sum="900" type="3" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">S9 H10</cards>
+   <action sum="0" type="4" no="12" player="iluminAA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 S5 S10</cards>
+   <action sum="1,800" type="5" no="13" player="tropeiro123"/>
+   <action sum="1,800" type="3" no="14" player="iluminAA"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action sum="0" type="4" no="15" player="tropeiro123"/>
+   <action sum="0" type="4" no="16" player="iluminAA"/>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+   <action sum="0" type="4" no="17" player="tropeiro123"/>
+   <action sum="0" type="4" no="18" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576908738">
+  <general>
+   <startdate>2024-02-21 18:10:51</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="1" chips="49,450" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="5,875" bet="3,600" reg_code="" seat="6" chips="42,250" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="148,206" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="7956979012" seat="9" chips="65,869" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="10" chips="66,852" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="iluminAA"/>
+   <action sum="275" type="15" no="2" player="AzerZiggy"/>
+   <action sum="275" type="15" no="3" player="MarlonBT01"/>
+   <action sum="275" type="15" no="4" player="veryinv0lved"/>
+   <action sum="275" type="15" no="5" player="tropeiro123"/>
+   <action sum="900" type="1" no="6" player="iluminAA"/>
+   <action sum="1,800" type="2" no="7" player="AzerZiggy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="3,600" type="23" no="8" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">D6 C9</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="12" player="AzerZiggy"/>
+  </round>
+ </game>
+ <game gamecode="10576908767">
+  <general>
+   <startdate>2024-02-21 18:11:13</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="1" chips="47,375" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,251" reg_code="" seat="6" chips="46,050" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="147,931" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="14,227" bet="18,347" reg_code="7956979012" seat="9" chips="65,594" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="10" chips="65,677" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="AzerZiggy"/>
+   <action sum="275" type="15" no="2" player="MarlonBT01"/>
+   <action sum="275" type="15" no="3" player="veryinv0lved"/>
+   <action sum="275" type="15" no="4" player="tropeiro123"/>
+   <action sum="275" type="15" no="5" player="iluminAA"/>
+   <action sum="900" type="1" no="6" player="AzerZiggy"/>
+   <action sum="1,800" type="2" no="7" player="MarlonBT01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="8" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">SJ S8</cards>
+   <action sum="3,600" type="23" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="10" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="11" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="1,800" type="3" no="12" player="MarlonBT01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK DQ S6</cards>
+   <action sum="0" type="4" no="13" player="MarlonBT01"/>
+   <action sum="2,376" type="5" no="14" player="tropeiro123"/>
+   <action sum="2,376" type="3" no="15" player="MarlonBT01"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action sum="0" type="4" no="16" player="MarlonBT01"/>
+   <action sum="12,096" type="5" no="17" player="tropeiro123"/>
+   <action sum="0" type="0" no="18" player="MarlonBT01"/>
+  </round>
+ </game>
+ <game gamecode="10576908865">
+  <general>
+   <startdate>2024-02-21 18:12:28</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="1" chips="46,200" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="6" chips="39,799" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="9,475" bet="10,800" reg_code="" seat="7" chips="147,656" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956979012" seat="9" chips="73,570" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="" seat="10" chips="65,402" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="MarlonBT01"/>
+   <action sum="275" type="15" no="2" player="veryinv0lved"/>
+   <action sum="275" type="15" no="3" player="tropeiro123"/>
+   <action sum="275" type="15" no="4" player="iluminAA"/>
+   <action sum="275" type="15" no="5" player="AzerZiggy"/>
+   <action sum="900" type="1" no="6" player="MarlonBT01"/>
+   <action sum="1,800" type="2" no="7" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SQ S3</cards>
+   <action sum="0" type="0" no="8" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="3,600" type="23" no="9" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="10" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="11" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="10,800" type="23" no="12" player="veryinv0lved"/>
+   <action sum="0" type="0" no="13" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576908911">
+  <general>
+   <startdate>2024-02-21 18:13:01</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="1" chips="45,925" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="50,000" reg_code="" seat="2" chips="50,000" addon="0" name="Raekwon" rebuy="0"/>
+    <player dealer="0" win="0" bet="9,943" reg_code="" seat="4" chips="50,000" addon="0" name="playerblank15" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="6" chips="38,624" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="7" chips="153,256" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,300" reg_code="7956979012" seat="9" chips="73,295" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="114,143" bet="50,000" reg_code="" seat="10" chips="61,527" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="veryinv0lved"/>
+   <action sum="300" type="15" no="2" player="tropeiro123"/>
+   <action sum="300" type="15" no="3" player="iluminAA"/>
+   <action sum="300" type="15" no="4" player="AzerZiggy"/>
+   <action sum="300" type="15" no="5" player="Raekwon"/>
+   <action sum="300" type="15" no="6" player="playerblank15"/>
+   <action sum="300" type="15" no="7" player="MarlonBT01"/>
+   <action sum="1,000" type="1" no="8" player="veryinv0lved"/>
+   <action sum="2,000" type="2" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">SA HJ</cards>
+   <action sum="4,000" type="23" no="10" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="11" player="AzerZiggy"/>
+   <cards type="Pocket" player="Raekwon">C8 H6</cards>
+   <action sum="4,000" type="3" no="12" player="Raekwon"/>
+   <cards type="Pocket" player="playerblank15">X X</cards>
+   <action sum="4,000" type="3" no="13" player="playerblank15"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="14" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="15" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">S6 C2</cards>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA S10 S8</cards>
+   <action sum="5,643" type="5" no="17" player="iluminAA"/>
+   <action sum="5,643" type="3" no="18" player="Raekwon"/>
+   <action sum="5,643" type="3" no="19" player="playerblank15"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action sum="0" type="4" no="20" player="iluminAA"/>
+   <action sum="40,057" type="5" no="21" player="Raekwon"/>
+   <action sum="0" type="0" no="22" player="playerblank15"/>
+   <action sum="40,057" type="3" no="23" player="iluminAA"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10576909047">
+  <general>
+   <startdate>2024-02-21 18:14:49</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="1" chips="45,625" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="6,800" bet="6,000" reg_code="" seat="4" chips="40,057" addon="0" name="playerblank15" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="6" chips="38,324" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="7" chips="151,956" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="7956979012" seat="9" chips="70,995" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,300" reg_code="" seat="10" chips="125,670" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="tropeiro123"/>
+   <action sum="300" type="15" no="2" player="iluminAA"/>
+   <action sum="300" type="15" no="3" player="AzerZiggy"/>
+   <action sum="300" type="15" no="4" player="playerblank15"/>
+   <action sum="300" type="15" no="5" player="MarlonBT01"/>
+   <action sum="300" type="15" no="6" player="veryinv0lved"/>
+   <action sum="1,000" type="1" no="7" player="tropeiro123"/>
+   <action sum="2,000" type="2" no="8" player="iluminAA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="9" player="AzerZiggy"/>
+   <cards type="Pocket" player="playerblank15">X X</cards>
+   <action sum="6,000" type="23" no="10" player="playerblank15"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="11" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="12" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">DJ C2</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="14" player="iluminAA"/>
+  </round>
+ </game>
+ <game gamecode="10576909094">
+  <general>
+   <startdate>2024-02-21 18:15:17</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,300" reg_code="" seat="1" chips="45,325" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,200" reg_code="" seat="4" chips="44,557" addon="0" name="playerblank15" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="6" chips="38,024" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="151,656" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="7956979012" seat="9" chips="69,695" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="15,600" bet="11,348" reg_code="" seat="10" chips="123,370" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="iluminAA"/>
+   <action sum="300" type="15" no="2" player="AzerZiggy"/>
+   <action sum="300" type="15" no="3" player="playerblank15"/>
+   <action sum="300" type="15" no="4" player="MarlonBT01"/>
+   <action sum="300" type="15" no="5" player="veryinv0lved"/>
+   <action sum="300" type="15" no="6" player="tropeiro123"/>
+   <action sum="1,000" type="1" no="7" player="iluminAA"/>
+   <action sum="2,000" type="2" no="8" player="AzerZiggy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="playerblank15">X X</cards>
+   <action sum="2,000" type="3" no="9" player="playerblank15"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="10" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="11" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C10 D2</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="1,000" type="3" no="13" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="4" no="14" player="AzerZiggy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D10 S4</cards>
+   <action sum="0" type="4" no="15" player="iluminAA"/>
+   <action sum="0" type="4" no="16" player="AzerZiggy"/>
+   <action sum="3,900" type="5" no="17" player="playerblank15"/>
+   <action sum="3,900" type="3" no="18" player="iluminAA"/>
+   <action sum="0" type="0" no="19" player="AzerZiggy"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action sum="0" type="4" no="20" player="iluminAA"/>
+   <action sum="0" type="4" no="21" player="playerblank15"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action sum="5,148" type="5" no="22" player="iluminAA"/>
+   <action sum="0" type="0" no="23" player="playerblank15"/>
+  </round>
+ </game>
+ <game gamecode="10576909179">
+  <general>
+   <startdate>2024-02-21 18:16:28</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="1" chips="43,025" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="37,724" reg_code="" seat="4" chips="38,357" addon="0" name="playerblank15" rebuy="0"/>
+    <player dealer="0" win="87,648" bet="37,724" reg_code="" seat="6" chips="37,724" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="151,356" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956979012" seat="9" chips="69,395" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="10,300" reg_code="" seat="10" chips="132,770" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="AzerZiggy"/>
+   <action sum="300" type="15" no="2" player="playerblank15"/>
+   <action sum="300" type="15" no="3" player="MarlonBT01"/>
+   <action sum="300" type="15" no="4" player="veryinv0lved"/>
+   <action sum="300" type="15" no="5" player="tropeiro123"/>
+   <action sum="300" type="15" no="6" player="iluminAA"/>
+   <action sum="1,000" type="1" no="7" player="AzerZiggy"/>
+   <action sum="2,000" type="2" no="8" player="playerblank15"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MarlonBT01">SJ S10</cards>
+   <action sum="4,000" type="23" no="9" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="10" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">C8 C2</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="10,000" type="23" no="12" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">X X</cards>
+   <action sum="0" type="0" no="13" player="AzerZiggy"/>
+   <cards type="Pocket" player="playerblank15">D7 HA</cards>
+   <action sum="8,000" type="3" no="14" player="playerblank15"/>
+   <action sum="6,000" type="3" no="15" player="MarlonBT01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 H8 DJ</cards>
+   <action sum="0" type="4" no="16" player="playerblank15"/>
+   <action sum="27,424" type="5" no="17" player="MarlonBT01"/>
+   <action sum="0" type="0" no="18" player="iluminAA"/>
+   <action sum="27,424" type="3" no="19" player="playerblank15"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10576939617">
+  <general>
+   <startdate>2024-02-21 18:18:21</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="1" win="0" bet="41,725" reg_code="" seat="1" chips="41,725" addon="0" name="AzerZiggy" rebuy="0"/>
+    <player dealer="0" win="0" bet="633" reg_code="" seat="4" chips="633" addon="0" name="playerblank15" rebuy="0"/>
+    <player dealer="0" win="84,983" bet="87,348" reg_code="" seat="6" chips="87,648" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="151,056" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956979012" seat="9" chips="69,095" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="122,470" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="playerblank15"/>
+   <action sum="300" type="15" no="2" player="MarlonBT01"/>
+   <action sum="300" type="15" no="3" player="veryinv0lved"/>
+   <action sum="300" type="15" no="4" player="tropeiro123"/>
+   <action sum="300" type="15" no="5" player="iluminAA"/>
+   <action sum="300" type="15" no="6" player="AzerZiggy"/>
+   <action sum="333" type="1" no="7" player="playerblank15"/>
+   <action sum="2,000" type="2" no="8" player="MarlonBT01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="playerblank15">H9 S8</cards>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action sum="0" type="0" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">H2 DA</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="11" player="iluminAA"/>
+   <cards type="Pocket" player="AzerZiggy">HK C10</cards>
+   <action sum="5,000" type="23" no="12" player="AzerZiggy"/>
+   <cards type="Pocket" player="MarlonBT01">DJ HJ</cards>
+   <action sum="87,348" type="23" no="13" player="MarlonBT01"/>
+   <action sum="36,425" type="7" no="14" player="AzerZiggy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 D3 C7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10576939652">
+  <general>
+   <startdate>2024-02-21 18:18:49</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="6" chips="130,906" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="3,200" bet="2,300" reg_code="" seat="7" chips="150,756" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956979012" seat="9" chips="68,795" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="122,170" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="MarlonBT01"/>
+   <action sum="300" type="15" no="2" player="veryinv0lved"/>
+   <action sum="300" type="15" no="3" player="tropeiro123"/>
+   <action sum="300" type="15" no="4" player="iluminAA"/>
+   <action sum="1,000" type="1" no="5" player="MarlonBT01"/>
+   <action sum="2,000" type="2" no="6" player="veryinv0lved"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <cards type="Pocket" player="tropeiro123">H9 D7</cards>
+   <action sum="0" type="0" no="7" player="tropeiro123"/>
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="8" player="iluminAA"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="9" player="MarlonBT01"/>
+  </round>
+ </game>
+ <game gamecode="10576939674">
+  <general>
+   <startdate>2024-02-21 18:19:02</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="6" chips="129,606" addon="0" name="MarlonBT01" rebuy="0"/>
+    <player dealer="0" win="137,590" bet="68,495" reg_code="" seat="7" chips="152,656" addon="0" name="veryinv0lved" rebuy="0"/>
+    <player dealer="0" win="0" bet="68,495" reg_code="7956979012" seat="9" chips="68,495" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="121,870" addon="0" name="iluminAA" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="veryinv0lved"/>
+   <action sum="300" type="15" no="2" player="tropeiro123"/>
+   <action sum="300" type="15" no="3" player="iluminAA"/>
+   <action sum="300" type="15" no="4" player="MarlonBT01"/>
+   <action sum="1,000" type="1" no="5" player="veryinv0lved"/>
+   <action sum="2,000" type="2" no="6" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iluminAA">X X</cards>
+   <action sum="0" type="0" no="7" player="iluminAA"/>
+   <cards type="Pocket" player="MarlonBT01">X X</cards>
+   <action sum="0" type="0" no="8" player="MarlonBT01"/>
+   <cards type="Pocket" player="veryinv0lved">HJ D10</cards>
+   <action sum="1,000" type="3" no="9" player="veryinv0lved"/>
+   <cards type="Pocket" player="tropeiro123">D4 HQ</cards>
+   <action sum="7,000" type="23" no="10" player="tropeiro123"/>
+   <action sum="5,000" type="3" no="11" player="veryinv0lved"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S6 H10</cards>
+   <action sum="0" type="4" no="12" player="veryinv0lved"/>
+   <action sum="3,800" type="5" no="13" player="tropeiro123"/>
+   <action sum="3,800" type="3" no="14" player="veryinv0lved"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action sum="0" type="4" no="15" player="veryinv0lved"/>
+   <action sum="15,040" type="5" no="16" player="tropeiro123"/>
+   <action sum="15,040" type="3" no="17" player="veryinv0lved"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action sum="2,000" type="5" no="18" player="veryinv0lved"/>
+   <action sum="42,355" type="23" no="19" player="tropeiro123"/>
+   <action sum="40,355" type="3" no="20" player="veryinv0lved"/>
+  </round>
+ </game>
+</session>

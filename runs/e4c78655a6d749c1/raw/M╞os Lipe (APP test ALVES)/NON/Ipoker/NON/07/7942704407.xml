@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7942704407">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€5,000 |Midweek Early Special, 1080415426</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:10:33</duration>
+  <gamecount>9</gamecount>
+  <startdate>2024-02-07 16:24:56</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>545,500</bets>
+  <wins>274,000</wins>
+  <chipsin>98,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP90</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079749867</tournamentcode>
+  <tournamentname>€5,000 |Midweek Early Special</tournamentname>
+  <place>39</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10550919392">
+  <general>
+   <startdate>2024-02-07 16:24:56</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="0" bet="1,500" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="100,100" name="DontTilt28"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="179,000" name="5betlitgh"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="184,600" name="Lauriston72"/>
+    <player dealer="0" bet="11,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="173,270" name="Bskrsk"/>
+    <player dealer="0" bet="548,427" rebuy="0" seat="9" win="29,000" reg_code="" addon="0" chips="549,927" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="381,075" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="Bskrsk"/>
+   <action type="15" sum="1,500" no="2" player="Versatileleaf95"/>
+   <action type="15" sum="1,500" no="3" player="eternoaprendiz"/>
+   <action type="15" sum="1,500" no="4" player="DontTilt28"/>
+   <action type="15" sum="1,500" no="5" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="6" player="Lauriston72"/>
+   <action type="1" sum="5,000" no="7" player="Bskrsk"/>
+   <action type="2" sum="10,000" no="8" player="Versatileleaf95"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="9" player="eternoaprendiz"/>
+   <cards type="Pocket" player="DontTilt28">X X</cards>
+   <action type="0" sum="0" no="10" player="DontTilt28"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="11" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="12" player="Lauriston72"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="3" sum="5,000" no="13" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="23" sum="548,427" no="14" player="Versatileleaf95"/>
+   <action type="0" sum="0" no="15" player="Bskrsk"/>
+  </round>
+ </game>
+ <game gamecode="10550919401">
+  <general>
+   <startdate>2024-02-07 16:25:41</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="0" bet="1,500" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="100,000" name="tropeiro123"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="98,600" name="DontTilt28"/>
+    <player dealer="0" bet="21,500" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="177,500" name="5betlitgh"/>
+    <player dealer="0" bet="183,100" rebuy="0" seat="5" win="398,700" reg_code="" addon="0" chips="183,100" name="Lauriston72"/>
+    <player dealer="1" bet="1,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="161,770" name="Bskrsk"/>
+    <player dealer="0" bet="6,500" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="567,427" name="Versatileleaf95"/>
+    <player dealer="0" bet="379,575" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="379,575" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="Versatileleaf95"/>
+   <action type="15" sum="1,500" no="2" player="eternoaprendiz"/>
+   <action type="15" sum="1,500" no="3" player="tropeiro123"/>
+   <action type="15" sum="1,500" no="4" player="DontTilt28"/>
+   <action type="15" sum="1,500" no="5" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="6" player="Lauriston72"/>
+   <action type="15" sum="1,500" no="7" player="Bskrsk"/>
+   <action type="1" sum="5,000" no="8" player="Versatileleaf95"/>
+   <action type="2" sum="10,000" no="9" player="eternoaprendiz"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S8 C9</cards>
+   <action type="0" sum="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="DontTilt28">X X</cards>
+   <action type="0" sum="0" no="11" player="DontTilt28"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="23" sum="20,000" no="12" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">CK DA</cards>
+   <action type="3" sum="20,000" no="13" player="Lauriston72"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="14" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="0" sum="0" no="15" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">D3 D8</cards>
+   <action type="3" sum="10,000" no="16" player="eternoaprendiz"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D9 DJ</cards>
+   <action type="4" sum="0" no="17" player="eternoaprendiz"/>
+   <action type="4" sum="0" no="18" player="5betlitgh"/>
+   <action type="5" sum="37,750" no="19" player="Lauriston72"/>
+   <action type="23" sum="358,075" no="20" player="eternoaprendiz"/>
+   <action type="0" sum="0" no="21" player="5betlitgh"/>
+   <action type="7" sum="123,850" no="22" player="Lauriston72"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+  </round>
+ </game>
+ <game gamecode="10550942444">
+  <general>
+   <startdate>2024-02-07 16:26:53</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="0" bet="98,500" rebuy="0" seat="1" win="204,500" reg_code="7942704407" addon="0" chips="98,500" name="tropeiro123"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="97,100" name="DontTilt28"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="156,000" name="5betlitgh"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="398,700" name="Lauriston72"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="160,270" name="Bskrsk"/>
+    <player dealer="1" bet="1,500" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="560,927" name="Versatileleaf95"/>
+    <player dealer="0" bet="194,975" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="196,475" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="eternoaprendiz"/>
+   <action type="15" sum="1,500" no="2" player="tropeiro123"/>
+   <action type="15" sum="1,500" no="3" player="DontTilt28"/>
+   <action type="15" sum="1,500" no="4" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="5" player="Lauriston72"/>
+   <action type="15" sum="1,500" no="6" player="Bskrsk"/>
+   <action type="15" sum="1,500" no="7" player="Versatileleaf95"/>
+   <action type="1" sum="5,000" no="8" player="eternoaprendiz"/>
+   <action type="2" sum="10,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="DontTilt28">X X</cards>
+   <action type="0" sum="0" no="10" player="DontTilt28"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="11" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="12" player="Lauriston72"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="13" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="0" sum="0" no="14" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">D2 CQ</cards>
+   <action type="23" sum="194,975" no="15" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">SK C3</cards>
+   <action type="7" sum="87,000" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 CA C4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10550942461">
+  <general>
+   <startdate>2024-02-07 16:27:47</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="0" bet="6,500" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="204,500" name="tropeiro123"/>
+    <player dealer="0" bet="11,500" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="95,600" name="DontTilt28"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="154,500" name="5betlitgh"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="397,200" name="Lauriston72"/>
+    <player dealer="0" bet="98,500" rebuy="0" seat="6" win="37,000" reg_code="" addon="0" chips="100,000" name="Tunamarr"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="158,770" name="Bskrsk"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="559,427" name="Versatileleaf95"/>
+    <player dealer="1" bet="1,500" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="97,975" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="tropeiro123"/>
+   <action type="15" sum="1,500" no="2" player="DontTilt28"/>
+   <action type="15" sum="1,500" no="3" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="4" player="Lauriston72"/>
+   <action type="15" sum="1,500" no="5" player="Tunamarr"/>
+   <action type="15" sum="1,500" no="6" player="Bskrsk"/>
+   <action type="15" sum="1,500" no="7" player="Versatileleaf95"/>
+   <action type="15" sum="1,500" no="8" player="eternoaprendiz"/>
+   <action type="1" sum="5,000" no="9" player="tropeiro123"/>
+   <action type="2" sum="10,000" no="10" player="DontTilt28"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="11" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="12" player="Lauriston72"/>
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="23" sum="98,500" no="13" player="Tunamarr"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="14" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="0" sum="0" no="15" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="16" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">C10 S2</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="DontTilt28">X X</cards>
+   <action type="0" sum="0" no="18" player="DontTilt28"/>
+  </round>
+ </game>
+ <game gamecode="10550942471">
+  <general>
+   <startdate>2024-02-07 16:28:33</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="1" bet="1,500" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="198,000" name="tropeiro123"/>
+    <player dealer="0" bet="11,500" rebuy="0" seat="4" win="10,500" reg_code="" addon="0" chips="153,000" name="5betlitgh"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="395,700" name="Lauriston72"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="125,500" name="Tunamarr"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="157,270" name="Bskrsk"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="557,927" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="96,475" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="2" player="Lauriston72"/>
+   <action type="15" sum="1,500" no="3" player="Tunamarr"/>
+   <action type="15" sum="1,500" no="4" player="Bskrsk"/>
+   <action type="15" sum="1,500" no="5" player="Versatileleaf95"/>
+   <action type="15" sum="1,500" no="6" player="eternoaprendiz"/>
+   <action type="15" sum="1,500" no="7" player="tropeiro123"/>
+   <action type="2" sum="10,000" no="8" player="5betlitgh"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="9" player="Lauriston72"/>
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="0" sum="0" no="10" player="Tunamarr"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="11" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="0" sum="0" no="12" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="13" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">S6 C10</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10550942480">
+  <general>
+   <startdate>2024-02-07 16:29:09</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player dealer="0" bet="195,000" rebuy="0" seat="1" win="69,500" reg_code="7942704407" addon="0" chips="196,500" name="tropeiro123"/>
+    <player dealer="0" bet="6,500" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="162,000" name="5betlitgh"/>
+    <player dealer="0" bet="11,500" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="394,200" name="Lauriston72"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="124,000" name="Tunamarr"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="155,770" name="Bskrsk"/>
+    <player dealer="0" bet="23,500" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="556,427" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,500" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="94,975" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,500" no="1" player="5betlitgh"/>
+   <action type="15" sum="1,500" no="2" player="Lauriston72"/>
+   <action type="15" sum="1,500" no="3" player="Tunamarr"/>
+   <action type="15" sum="1,500" no="4" player="Bskrsk"/>
+   <action type="15" sum="1,500" no="5" player="Versatileleaf95"/>
+   <action type="15" sum="1,500" no="6" player="eternoaprendiz"/>
+   <action type="15" sum="1,500" no="7" player="tropeiro123"/>
+   <action type="1" sum="5,000" no="8" player="5betlitgh"/>
+   <action type="2" sum="10,000" no="9" player="Lauriston72"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="0" sum="0" no="10" player="Tunamarr"/>
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="11" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="23" sum="22,000" no="12" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="13" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">S5 D5</cards>
+   <action type="23" sum="195,000" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="15" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="16" player="Lauriston72"/>
+   <action type="0" sum="0" no="17" player="Versatileleaf95"/>
+  </round>
+ </game>
+ <game gamecode="10550942493">
+  <general>
+   <startdate>2024-02-07 16:30:20</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player dealer="0" bet="1,800" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="242,500" name="tropeiro123"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="95,500" name="IGotDatDawgInMe"/>
+    <player dealer="1" bet="1,800" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="155,500" name="5betlitgh"/>
+    <player dealer="0" bet="7,800" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="382,700" name="Lauriston72"/>
+    <player dealer="0" bet="13,800" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="122,500" name="Tunamarr"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="154,270" name="Bskrsk"/>
+    <player dealer="0" bet="26,400" rebuy="0" seat="9" win="44,400" reg_code="" addon="0" chips="532,927" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="93,475" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,800" no="1" player="Lauriston72"/>
+   <action type="15" sum="1,800" no="2" player="Tunamarr"/>
+   <action type="15" sum="1,800" no="3" player="Bskrsk"/>
+   <action type="15" sum="1,800" no="4" player="Versatileleaf95"/>
+   <action type="15" sum="1,800" no="5" player="eternoaprendiz"/>
+   <action type="15" sum="1,800" no="6" player="tropeiro123"/>
+   <action type="15" sum="1,800" no="7" player="IGotDatDawgInMe"/>
+   <action type="15" sum="1,800" no="8" player="5betlitgh"/>
+   <action type="1" sum="6,000" no="9" player="Lauriston72"/>
+   <action type="2" sum="12,000" no="10" player="Tunamarr"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bskrsk">X X</cards>
+   <action type="0" sum="0" no="11" player="Bskrsk"/>
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="23" sum="26,400" no="12" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="13" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">S8 SQ</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action type="0" sum="0" no="15" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="16" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="17" player="Lauriston72"/>
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="0" sum="0" no="18" player="Tunamarr"/>
+  </round>
+ </game>
+ <game gamecode="10550942505">
+  <general>
+   <startdate>2024-02-07 16:30:55</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player dealer="0" bet="1,800" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="240,700" name="tropeiro123"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="93,700" name="IGotDatDawgInMe"/>
+    <player dealer="0" bet="153,700" rebuy="0" seat="4" win="345,740" reg_code="" addon="0" chips="153,700" name="5betlitgh"/>
+    <player dealer="1" bet="25,800" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="374,900" name="Lauriston72"/>
+    <player dealer="0" bet="7,800" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="108,700" name="Tunamarr"/>
+    <player dealer="0" bet="152,470" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="152,470" name="Bskrsk"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="563,527" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="91,675" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,800" no="1" player="Tunamarr"/>
+   <action type="15" sum="1,800" no="2" player="Bskrsk"/>
+   <action type="15" sum="1,800" no="3" player="Versatileleaf95"/>
+   <action type="15" sum="1,800" no="4" player="eternoaprendiz"/>
+   <action type="15" sum="1,800" no="5" player="tropeiro123"/>
+   <action type="15" sum="1,800" no="6" player="IGotDatDawgInMe"/>
+   <action type="15" sum="1,800" no="7" player="5betlitgh"/>
+   <action type="15" sum="1,800" no="8" player="Lauriston72"/>
+   <action type="1" sum="6,000" no="9" player="Tunamarr"/>
+   <action type="2" sum="12,000" no="10" player="Bskrsk"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Versatileleaf95">X X</cards>
+   <action type="0" sum="0" no="11" player="Versatileleaf95"/>
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="12" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">D3 CK</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action type="0" sum="0" no="14" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="5betlitgh">S8 S9</cards>
+   <action type="23" sum="24,000" no="15" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="3" sum="24,000" no="16" player="Lauriston72"/>
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="0" sum="0" no="17" player="Tunamarr"/>
+   <cards type="Pocket" player="Bskrsk">S10 S6</cards>
+   <action type="3" sum="12,000" no="18" player="Bskrsk"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H10 C4</cards>
+   <action type="4" sum="0" no="19" player="Bskrsk"/>
+   <action type="4" sum="0" no="20" player="5betlitgh"/>
+   <action type="4" sum="0" no="21" player="Lauriston72"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action type="5" sum="23,100" no="22" player="Bskrsk"/>
+   <action type="3" sum="23,100" no="23" player="5betlitgh"/>
+   <action type="0" sum="0" no="24" player="Lauriston72"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action type="4" sum="0" no="25" player="Bskrsk"/>
+   <action type="5" sum="104,800" no="26" player="5betlitgh"/>
+   <action type="7" sum="103,570" no="27" player="Bskrsk"/>
+  </round>
+ </game>
+ <game gamecode="10550942558">
+  <general>
+   <startdate>2024-02-07 16:33:52</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player dealer="0" bet="238,900" rebuy="0" seat="1" win="0" reg_code="7942704407" addon="0" chips="238,900" name="tropeiro123"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="91,900" name="IGotDatDawgInMe"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="346,970" name="5betlitgh"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="349,100" name="Lauriston72"/>
+    <player dealer="1" bet="1,800" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="100,900" name="Tunamarr"/>
+    <player dealer="0" bet="561,727" rebuy="0" seat="9" win="486,800" reg_code="" addon="0" chips="561,727" name="Versatileleaf95"/>
+    <player dealer="0" bet="1,800" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="89,875" name="eternoaprendiz"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="1,800" no="1" player="Versatileleaf95"/>
+   <action type="15" sum="1,800" no="2" player="eternoaprendiz"/>
+   <action type="15" sum="1,800" no="3" player="tropeiro123"/>
+   <action type="15" sum="1,800" no="4" player="IGotDatDawgInMe"/>
+   <action type="15" sum="1,800" no="5" player="5betlitgh"/>
+   <action type="15" sum="1,800" no="6" player="Lauriston72"/>
+   <action type="15" sum="1,800" no="7" player="Tunamarr"/>
+   <action type="2" sum="12,000" no="8" player="Versatileleaf95"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="eternoaprendiz">X X</cards>
+   <action type="0" sum="0" no="9" player="eternoaprendiz"/>
+   <cards type="Pocket" player="tropeiro123">HK DJ</cards>
+   <action type="23" sum="25,200" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action type="0" sum="0" no="11" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="5betlitgh">X X</cards>
+   <action type="0" sum="0" no="12" player="5betlitgh"/>
+   <cards type="Pocket" player="Lauriston72">X X</cards>
+   <action type="0" sum="0" no="13" player="Lauriston72"/>
+   <cards type="Pocket" player="Tunamarr">X X</cards>
+   <action type="0" sum="0" no="14" player="Tunamarr"/>
+   <cards type="Pocket" player="Versatileleaf95">D5 C6</cards>
+   <action type="3" sum="13,200" no="15" player="Versatileleaf95"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 C5 S4</cards>
+   <action type="5" sum="20,790" no="16" player="Versatileleaf95"/>
+   <action type="3" sum="20,790" no="17" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action type="4" sum="0" no="18" player="Versatileleaf95"/>
+   <action type="5" sum="57,519" no="19" player="tropeiro123"/>
+   <action type="23" sum="513,937" no="20" player="Versatileleaf95"/>
+   <action type="7" sum="133,591" no="21" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+  </round>
+ </game>
+</session>

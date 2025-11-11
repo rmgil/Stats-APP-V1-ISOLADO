@@ -1,0 +1,494 @@
+Fase 10 — “Import + Dashboard v2” (2 tracks em paralelo)
+Objetivos
+
+Upload único (drag&drop ZIP) → descompactar, normalizar encodings e classificar automaticamente cada TXT em NON‑KO, PKO e Mystery.
+
+Pipeline automático (classify → derive → partitions → stats → score).
+
+Dashboard novo com cards hierárquicos (Grupo → Subgrupo → Stat), percentagens reais e nota (A–F / texto).
+
+UX dark, minimal, rápida, e click‑through para mãos.
+
+10.A — Correção do processamento e classificação (server)
+
+Porque falhava: encodings/normalização, heurísticas fracas para PKO/Mystery, e upload que não re‑enriquecia automaticamente antes de mostrar o dashboard.
+
+Prompts (patches):
+
+1) app/upload/ingest.py — novo serviço de ingestão
+
+# app/upload/ingest.py
+import io, zipfile, shutil, re, uuid
+from pathlib import Path
+
+SAFE_UPLOAD = Path("/tmp/uploads")
+SAFE_UPLOAD.mkdir(parents=True, exist_ok=True)
+
+ENCODINGS = ["utf-8", "utf-8-sig", "cp1252", "latin-1"]
+
+MYSTERY_PATTERNS = [
+    r"(?i)\bmystery\s*bounty\b",           # “Mystery Bounty”
+]
+PKO_PATTERNS = [
+    r"(?i)\bbounty\s*hunters\b",           # GGPoker: “Bounty Hunters”  :contentReference[oaicite:2]{index=2}
+    r"(?i)\b(progressive|knock.?out|KO)\b",
+    r"(?i)\bBounty\b",                      # genérico (com filtros a seguir)
+]
+# PokerStars: buy-in “A+B+fee” tipicamente KO
+STARS_KO_PATTERN = r"(?i)Tournament\s+#\d+.*?Hold'em.*?(\d+[.,]\d+)\s*\+\s*(\d+[.,]\d+)\s*\+\s*(\d+[.,]\d+)"
+# ex.: “€3.37+€3.38+€0.75”  :contentReference[oaicite:3]{index=3}
+
+def smart_read_text(path: Path) -> str:
+    data = path.read_bytes()
+    for enc in ENCODINGS:
+        try:
+            return data.decode(enc).replace("\r\n", "\n").replace("\r", "\n")
+        except UnicodeDecodeError:
+            continue
+    return data.decode("latin-1", errors="ignore")
+
+def detect_bucket(text: str) -> str:
+    # Ordem: Mystery > PKO > NON-KO
+    for pat in MYSTERY_PATTERNS:
+        if re.search(pat, text):
+            return "MYSTERY"
+    if re.search(STARS_KO_PATTERN, text):
+        return "PKO"
+    for pat in PKO_PATTERNS:
+        if re.search(pat, text):
+            return "PKO"
+    return "NON_KO"
+
+def ingest_zip(file_bytes: bytes) -> dict:
+    token = uuid.uuid4().hex
+    root = SAFE_UPLOAD / token
+    raw_dir = root / "raw"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+
+    with zipfile.ZipFile(io.BytesIO(file_bytes)) as zf:
+        for zi in zf.infolist():
+            if zi.is_dir(): 
+                continue
+            name = Path(zi.filename).name
+            if not name.lower().endswith(".txt"): 
+                continue
+            out = raw_dir / name
+            out.write_bytes(zf.read(zi))
+
+    # flatten, normalize and classify
+    classified = {"NON_KO": [], "PKO": [], "MYSTERY": []}
+    for path in raw_dir.glob("*.txt"):
+        text = smart_read_text(path)
+        bucket = detect_bucket(text)
+        # re‑write normalizado (UTF‑8 LF)
+        path.write_text(text, encoding="utf-8")
+        classified[bucket].append(str(path))
+
+    manifest = {
+        "token": token,
+        "counts": {k: len(v) for k, v in classified.items()},
+        "files": classified,
+        "root": str(root),
+    }
+    (root / "manifest.json").write_text(__import__("json").dumps(manifest, ensure_ascii=False, indent=2))
+    return manifest
+
+
+2) main.py — novos endpoints de upload e pipeline run
+
+# main.py (adicionar imports e endpoints)
+from flask import request, jsonify
+from app.upload.ingest import ingest_zip
+from app.pipeline.run import run_full_pipeline  # criar no 10.B
+
+@app.post("/api/upload/zip")
+def api_upload_zip():
+    f = request.files.get("file")
+    if not f:
+        return jsonify({"error":"missing file"}), 400
+    manifest = ingest_zip(f.read())
+    return jsonify({"ok": True, "manifest": manifest})
+
+@app.post("/api/pipeline/run")
+def api_pipeline_run():
+    payload = request.get_json(silent=True) or {}
+    token = payload.get("token")
+    # run_full_pipeline devolve paths dos artefactos
+    artefacts = run_full_pipeline(token)
+    return jsonify({"ok": True, **artefacts})
+
+
+3) Heurísticas de classificação — coberturas:
+
+Mystery: “Mystery Bounty” (GGPoker, 888, Stars).
+
+PKO: “Bounty Hunters”, “KO”, “Progressive” (GGPoker e genéricos) e o padrão A+B+fee típico do PokerStars (ex.: “€3.37+€3.38+€0.75”).
+
+NON‑KO: fallback quando nenhum padrão dispara.
+
+Isto resolve os falsos negativos que estavas a ver na separação e padroniza encodings/line‑endings antes do parse.
+
+10.B — Orquestração do pipeline após upload
+
+Prompt (novo orquestrador simples):
+
+# app/pipeline/run.py
+from pathlib import Path
+import json, subprocess
+
+BASE = Path("/tmp/uploads")
+
+def run(cmd: list[str]) -> None:
+    ok = subprocess.run(cmd, check=False)
+    if ok.returncode != 0:
+        raise RuntimeError(f"Command failed: {' '.join(cmd)}")
+
+def run_full_pipeline(token: str) -> dict:
+    root = BASE / token
+    if not root.exists():
+        raise FileNotFoundError("invalid token")
+
+    # 1) Derive (re-enrich com postflop)
+    run(["python", "-m", "app.derive.runner", "--input-root", str(root), "--out", str(root / "out")])
+
+    # 2) Partitions
+    run(["python", "-m", "app.partitions.runner", "--input", str(root / "out" / "parsed" / "hands_enriched.jsonl"), "--out", str(root / "out")])
+
+    # 3) Stats
+    run(["python", "-m", "app.stats.runner", "--input", str(root / "out" / "parsed" / "hands_enriched.jsonl"), "--out", str(root / "out")])
+
+    # 4) Score
+    run(["python", "-m", "app.score.runner_cli", str(root / "out" / "stats" / "stat_counts.json"), "-o", str(root / "out" / "scores"), "--force"])
+
+    # retornos p/ UI
+    return {
+        "token": token,
+        "paths": {
+            "enriched": str(root / "out" / "parsed" / "hands_enriched.jsonl"),
+            "stat_counts": str(root / "out" / "stats" / "stat_counts.json"),
+            "scorecard": str(root / "out" / "scores" / "scorecard.json"),
+        }
+    }
+
+10.C — Dashboard v2 (UI nova, hierárquica, sem “placeholders”)
+
+Como deve funcionar
+
+Depois do upload → run pipeline, vamos diretamente a /dashboard?token=….
+
+O dashboard lê scorecard.json + stat_counts.json do token e renderiza cards com:
+
+Percentagem real (ex.: RFI EARLY 19,23%).
+
+Amostra (opportunities/attempts).
+
+Nota (A–F) + frase (“Dentro do ideal”, “Abaixo”, “Acima”).
+
+Click: abre modal com timeseries + “Ver mãos” (via /api/hh/*).
+
+Prompts (HTML + JS):
+
+1) templates/dashboard.html (nova)
+
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="container-xl py-4">
+  <div class="d-flex align-items-center mb-3">
+    <h2 class="me-3">Dashboard</h2>
+    <div class="ms-auto">
+      <a class="btn btn-outline-light btn-sm" href="/pipeline">Voltar ao Pipeline</a>
+    </div>
+  </div>
+
+  <!-- Filtros -->
+  <div class="row g-3 mb-3">
+    <div class="col-auto">
+      <select id="groupSel" class="form-select form-select-sm"></select>
+    </div>
+    <div class="col-auto">
+      <select id="familySel" class="form-select form-select-sm"></select>
+    </div>
+    <div class="col-auto">
+      <select id="monthsSel" class="form-select form-select-sm">
+        <option value="3">Últimos 3 meses</option>
+        <option value="2">Últimos 2 meses</option>
+        <option value="1">Último mês</option>
+        <option value="all">Tudo</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Hierarquia: Grupo -> Subgrupos -> Stats -->
+  <div id="cards"></div>
+</div>
+
+<!-- Modal para detalhes / timeseries -->
+<div class="modal fade" id="statModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content bg-dark">
+      <div class="modal-header">
+        <h5 class="modal-title" id="statTitle"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <canvas id="trendChart" height="120"></canvas>
+        <hr>
+        <div id="handsArea" class="small"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block scripts %}
+<script>
+const token = new URLSearchParams(location.search).get("token");
+const statCountsURL = `/files/${token}/out/stats/stat_counts.json`;   // servir ficheiros estáticos do token
+const scorecardURL  = `/files/${token}/out/scores/scorecard.json`;
+
+function pct(x){ return (x==null||isNaN(x)) ? "-" : (x.toFixed(2).replace(".", ",") + "%"); }
+function gradeBadge(g){
+  const colors = {A:"success",B:"primary",C:"warning",D:"danger",E:"danger",F:"dark"};
+  return `<span class="badge bg-${colors[g]||"secondary"}">${g||"-"}</span>`;
+}
+
+async function loadJSON(url){
+  const r = await fetch(url);
+  if(!r.ok) throw new Error("Fetch fail "+url);
+  return r.json();
+}
+
+function renderCards(score){
+  const root = document.getElementById("cards");
+  root.innerHTML = "";
+  const groups = Object.entries(score.group_level || {}).sort();
+
+  // preencher selects
+  const groupSel = document.getElementById("groupSel");
+  groupSel.innerHTML = groups.map(([k])=>`<option value="${k}">${k}</option>`).join("");
+  const families = new Set();
+  for(const [, g] of groups){ Object.keys(g.subgroups||{}).forEach(f=>families.add(f)); }
+  const familySel = document.getElementById("familySel");
+  familySel.innerHTML = ["ALL", ...Array.from(families).sort()].map(f=>`<option>${f}</option>`).join("");
+
+  function matchFilters(groupKey, famKey){
+    const currGroup = groupSel.value || groupKey;
+    const currFam   = familySel.value || famKey;
+    return (groupKey===currGroup) && (currFam==="ALL" || currFam===famKey);
+  }
+
+  for(const [groupKey, g] of groups){
+    const sg = g.subgroups || {};
+    for(const [famKey, fam] of Object.entries(sg)){
+      if(!matchFilters(groupKey, famKey)) continue;
+      const stats = fam.stats || {};
+      const card = document.createElement("div");
+      card.className = "card bg-dark border-secondary mb-3";
+      let html = `<div class="card-header d-flex align-items-center">
+        <strong>${groupKey}</strong><span class="text-muted mx-2">/</span>
+        <span>${famKey}</span>
+        <span class="ms-auto small text-muted">peso ${Math.round((fam.weight||0)*100)}%</span>
+      </div><div class="card-body"><div class="row g-3">`;
+
+      for(const [statKey, s] of Object.entries(stats)){
+        const v = s.percentage; // já vem time-decayed do score
+        html += `<div class="col-sm-6 col-lg-4">
+          <div class="p-3 rounded border border-secondary h-100">
+            <div class="d-flex align-items-center mb-2">
+              <div class="me-2">${gradeBadge(s.grade)}</div>
+              <div class="fw-semibold">${statKey}</div>
+            </div>
+            <div class="display-6">${pct(v)}</div>
+            <div class="text-muted small">opps ${s.opportunities ?? "-"} · atts ${s.attempts ?? "-"}</div>
+            <div class="small mt-1">${s.note||""}</div>
+            <button class="btn btn-outline-light btn-sm mt-2" data-stat="${statKey}" data-group="${groupKey}" data-fam="${famKey}">Detalhes</button>
+          </div>
+        </div>`;
+      }
+
+      html += `</div></div>`;
+      card.innerHTML = html;
+      root.appendChild(card);
+    }
+  }
+
+  // delegação de evento p/ modal
+  root.addEventListener("click", async (ev)=>{
+    const btn = ev.target.closest("button[data-stat]");
+    if(!btn) return;
+    const stat = btn.dataset.stat, group = btn.dataset.group, fam = btn.dataset.fam;
+    document.getElementById("statTitle").textContent = `${group} / ${fam} / ${stat}`;
+    // trend real
+    const trend = await (await fetch(`/api/stats/trend?token=${token}&group=${group}&family=${fam}&stat=${stat}`)).json();
+    renderTrend(trend);
+    // hands
+    const hands = await (await fetch(`/api/stats/hands?token=${token}&group=${group}&family=${fam}&stat=${stat}`)).json();
+    document.getElementById("handsArea").innerHTML = (hands.ids||[]).slice(0,50).map(h=>`<code class="me-2">${h}</code>`).join("");
+    new bootstrap.Modal(document.getElementById("statModal")).show();
+  }, {once:true});
+}
+
+let trendChart;
+function renderTrend(data){
+  if(trendChart){ trendChart.destroy(); }
+  const ctx = document.getElementById("trendChart").getContext("2d");
+  trendChart = new Chart(ctx, {
+    type: "line",
+    data: { labels: data.labels, datasets: [{ label: "Percent", data: data.values }] },
+    options: { responsive: true, plugins:{legend:{display:false}}, scales:{y:{ticks:{callback:(v)=>v+"%"}}} }
+  });
+}
+
+(async ()=>{
+  const score = await loadJSON(scorecardURL);
+  renderCards(score);
+})();
+</script>
+{% endblock %}
+
+
+2) Servir os artefactos do token
+Adicionar em main.py um handler estático simples:
+
+@app.get("/files/<token>/<path:rest>")
+def serve_token_files(token, rest):
+    base = Path("/tmp/uploads") / token
+    target = base / rest
+    if not str(target.resolve()).startswith(str(base.resolve())) or not target.exists():
+        return "Not found", 404
+    return app.send_static_file(str(target))
+
+
+Resultado: Dashboard sem placeholders, com percentagens reais (vêm do scorecard.json) e notas.
+
+10.D — “Notas” (explicações do score) no scorecard
+
+Para cada stat já calculamos score; agora expõe nota + grade no resumo.
+
+Prompt (extensão do app/score/scoring.py):
+
+# scoring.explain_stat(stat_key, pct, cfg) -> (grade, note)
+def explain_stat(stat_key: str, pct: float, cfg: dict) -> tuple[str, str]:
+    ideal = cfg.get("ideals", {}).get(stat_key)
+    if not ideal or pct is None: return ("-", "")
+    lo, hi = ideal.get("lo"), ideal.get("hi")
+    if lo is None or hi is None: return ("-", "")
+    if pct < lo: 
+        d = round(lo - pct, 2)
+        return ("C" if d < 3 else "D", f"Abaixo do ideal ({lo:.2f}–{hi:.2f}); falta {d:.2f} pp.")
+    if pct > hi:
+        d = round(pct - hi, 2)
+        return ("C" if d < 3 else "D", f"Acima do ideal ({lo:.2f}–{hi:.2f}); excede {d:.2f} pp.")
+    return ("A", f"Dentro do ideal ({lo:.2f}–{hi:.2f}).")
+
+
+No runner.py do score (ou no summary builder), preenche grade e note em cada stat exportada.
+
+10.E — Frontend “Ferramentas de Ficheiros” (home) com Drag&Drop → Dashboard
+
+Substitui a aba “Filtro TXT” para fazer o upload ZIP e disparar o pipeline.
+
+Prompt (templates/pipeline.html – secção de upload reescrita)
+
+<div id="drop" class="border border-secondary rounded p-5 text-center bg-dark">
+  <div class="mb-2 display-6">Largue o ZIP aqui</div>
+  <input id="file" type="file" accept=".zip" class="form-control form-control-lg mb-3">
+  <button id="go" class="btn btn-primary btn-lg" disabled>Processar</button>
+  <div id="msg" class="mt-3 small text-muted"></div>
+</div>
+<script>
+let token=null, fileBlob=null;
+const file = document.getElementById("file");
+const go   = document.getElementById("go");
+file.addEventListener("change", ()=>{ fileBlob=file.files[0]; go.disabled=!fileBlob; });
+go.addEventListener("click", async ()=>{
+  const fd = new FormData(); fd.append("file", fileBlob);
+  document.getElementById("msg").textContent = "A carregar ZIP…";
+  const up = await fetch("/api/upload/zip", {method:"POST", body:fd}).then(r=>r.json());
+  token = up.manifest.token;
+  document.getElementById("msg").textContent = "A executar pipeline…";
+  await fetch("/api/pipeline/run", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({token})});
+  location.href = `/dashboard?token=${token}`;
+});
+</script>
+
+10.F — Correções de dados (robustez)
+
+Encoding & line endings normalizados (10.A).
+
+Deduplicação opcional: hash da primeira linha “Hand #…” + timestamp; ignora duplicados.
+
+Segurança: servir ficheiros do token via “/files/{token}/…”, com path‑traversal guard (10.C).
+
+Re‑enriquecer sempre que entra ZIP novo (10.B) — evita o problema “stats vazios após novos campos postflop”.
+
+PKO/Mystery: heurísticas cobrem GGPoker (“Bounty Hunters”/“Mystery Bounty”) e PokerStars (padrão A+B+fee).
+
+10.G — Testes “end‑to‑end” focados nesta fase
+
+tests/test_import_classify.py
+
+carrega samples (GG “Bounty Hunters”, Stars KO) → espera PKO; sample “Mystery Bounty” → Mystery; sample regular → NON‑KO.
+
+tests/test_pipeline_token.py
+
+POST /api/upload/zip → POST /api/pipeline/run → verifica scorecard.json existe e tem percentage > 0 para RFI_*.
+
+tests/test_dashboard_render.py
+
+GET /dashboard?token=… retorna 200 e contém cards das famílias configuradas.
+
+10.H — Como fica a experiência do utilizador
+
+Abrir “Ferramentas → Filtro TXT” (renomeia para “Importar MTT”).
+
+Arrastar ZIP com os .TXT.
+
+A app classifica (NON‑KO/PKO/Mystery), executa o pipeline e redireciona para /dashboard?token=….
+
+Dashboard mostra:
+
+Grupos (nonko_9max_pref, nonko_6max_pref, pko_pref, …)
+
+Subgrupos (RFI, STEAL, 3BET, CBET, vsCBET, …)
+
+Stats com percentagem real + amostra + nota (A–F com texto).
+
+Click para trend e hands (modal).
+
+10.I — Visual (rápido e sóbrio)
+
+Mantém Bootstrap + tema escuro.
+
+Cards com tipografia grande para o número (como no mock acima).
+
+Sem gauges/gráficos pesados por defeito; abre gráfico só no modal “Detalhes”.
+
+Ponto de situação (onde estamos vs objetivo)
+
+Fases 1–8: pipeline sólido (incl. postflop core) ✅
+
+Fase 9: dashboard inicial funcional, mas UI fraca e com placeholders (corrigida agora na F10) ⚙️
+
+Fase 10 (esta): Import + Dashboard v2 com drag&drop de ZIP, classificação correta, percentagens reais e nota.
+
+Depois (opcional):
+
+F11 – UX refinements (favoritos, presets de filtros, export PDF).
+
+F12 – Mais famílias (4‑Bet, limp/iso, SRP vs 3BP postflop) e “coach notes” automáticas.
+
+F13 – Persistência multi‑token / multi‑jogador (histórico por sessão).
+
+Checklist de DoD (Definition of Done) para considerarmos a fase concluída
+
+ Upload ZIP → /api/upload/zip devolve manifest com contagens por tipo (NON‑KO/PKO/Mystery).
+
+ /api/pipeline/run com token gera hands_enriched.jsonl, stat_counts.json, scorecard.json sob /tmp/uploads/{token}/out/....
+
+ /dashboard?token=… renderiza cards hierárquicos sem placeholders, com percentagens reais e notas.
+
+ Clicar num stat → modal com trend real e lista de mãos (ids).
+
+ Testes de classificação aprovados em samples GG/Stars.

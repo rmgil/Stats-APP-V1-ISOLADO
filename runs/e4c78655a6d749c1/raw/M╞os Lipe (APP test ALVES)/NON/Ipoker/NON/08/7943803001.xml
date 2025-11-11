@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7943803001">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€7,500 GTD|Fists of Fury, 1080520365</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:16:15</duration>
+  <gamecount>11</gamecount>
+  <startdate>2024-02-08 17:30:03</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>19,904</bets>
+  <wins>0</wins>
+  <chipsin>9,920</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP36</statuspoints>
+  <awardpoints>RP72</awardpoints>
+  <ipoints>RP36</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079844817</tournamentcode>
+  <tournamentname>€7,500 GTD|Fists of Fury</tournamentname>
+  <place>175</place>
+  <buyin>€18.20 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10552976477">
+  <general>
+   <startdate>2024-02-08 17:30:03</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="80" reg_code="7943803001" seat="1" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="Switchsyde" dealer="0" bet="580" reg_code="" seat="2" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="JayKava1" dealer="0" bet="1,080" reg_code="" seat="6" chips="16,078"/>
+    <player win="0" rebuy="0" addon="0" name="flashesflash" dealer="0" bet="80" reg_code="" seat="7" chips="16,268"/>
+    <player win="0" rebuy="0" addon="0" name="spillechung" dealer="0" bet="80" reg_code="" seat="9" chips="9,890"/>
+    <player win="2,980" rebuy="0" addon="0" name="Artero10" dealer="0" bet="12,820" reg_code="" seat="10" chips="12,900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Switchsyde" no="1" sum="80" type="15"/>
+   <action player="JayKava1" no="2" sum="80" type="15"/>
+   <action player="flashesflash" no="3" sum="80" type="15"/>
+   <action player="spillechung" no="4" sum="80" type="15"/>
+   <action player="Artero10" no="5" sum="80" type="15"/>
+   <action player="tropeiro123" no="6" sum="80" type="15"/>
+   <action player="Switchsyde" no="7" sum="500" type="1"/>
+   <action player="JayKava1" no="8" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flashesflash" type="Pocket">X X</cards>
+   <action player="flashesflash" no="9" sum="0" type="0"/>
+   <cards player="spillechung" type="Pocket">X X</cards>
+   <action player="spillechung" no="10" sum="0" type="0"/>
+   <cards player="Artero10" type="Pocket">X X</cards>
+   <action player="Artero10" no="11" sum="12,820" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H6 S9</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Switchsyde" type="Pocket">X X</cards>
+   <action player="Switchsyde" no="13" sum="0" type="0"/>
+   <cards player="JayKava1" type="Pocket">X X</cards>
+   <action player="JayKava1" no="14" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552976500">
+  <general>
+   <startdate>2024-02-08 17:30:45</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="80" reg_code="7943803001" seat="1" chips="9,920"/>
+    <player win="0" rebuy="0" addon="0" name="Switchsyde" dealer="1" bet="80" reg_code="" seat="2" chips="9,420"/>
+    <player win="0" rebuy="0" addon="0" name="JayKava1" dealer="0" bet="580" reg_code="" seat="6" chips="14,998"/>
+    <player win="0" rebuy="0" addon="0" name="flashesflash" dealer="0" bet="1,080" reg_code="" seat="7" chips="16,188"/>
+    <player win="2,980" rebuy="0" addon="0" name="spillechung" dealer="0" bet="9,000" reg_code="" seat="9" chips="9,810"/>
+    <player win="0" rebuy="0" addon="0" name="Artero10" dealer="0" bet="80" reg_code="" seat="10" chips="14,800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="JayKava1" no="1" sum="80" type="15"/>
+   <action player="flashesflash" no="2" sum="80" type="15"/>
+   <action player="spillechung" no="3" sum="80" type="15"/>
+   <action player="Artero10" no="4" sum="80" type="15"/>
+   <action player="tropeiro123" no="5" sum="80" type="15"/>
+   <action player="Switchsyde" no="6" sum="80" type="15"/>
+   <action player="JayKava1" no="7" sum="500" type="1"/>
+   <action player="flashesflash" no="8" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="spillechung" type="Pocket">X X</cards>
+   <action player="spillechung" no="9" sum="9,000" type="23"/>
+   <cards player="Artero10" type="Pocket">X X</cards>
+   <action player="Artero10" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ H6</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Switchsyde" type="Pocket">X X</cards>
+   <action player="Switchsyde" no="12" sum="0" type="0"/>
+   <cards player="JayKava1" type="Pocket">X X</cards>
+   <action player="JayKava1" no="13" sum="0" type="0"/>
+   <cards player="flashesflash" type="Pocket">X X</cards>
+   <action player="flashesflash" no="14" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552976521">
+  <general>
+   <startdate>2024-02-08 17:31:20</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="80" reg_code="7943803001" seat="1" chips="9,840"/>
+    <player win="0" rebuy="0" addon="0" name="Switchsyde" dealer="0" bet="80" reg_code="" seat="2" chips="9,340"/>
+    <player win="0" rebuy="0" addon="0" name="fighterwillow86" dealer="0" bet="80" reg_code="" seat="4" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="taff491" dealer="0" bet="80" reg_code="" seat="5" chips="26,669"/>
+    <player win="0" rebuy="0" addon="0" name="JayKava1" dealer="1" bet="80" reg_code="" seat="6" chips="14,418"/>
+    <player win="0" rebuy="0" addon="0" name="flashesflash" dealer="0" bet="580" reg_code="" seat="7" chips="15,108"/>
+    <player win="1,640" rebuy="0" addon="0" name="spillechung" dealer="0" bet="1,080" reg_code="" seat="9" chips="11,710"/>
+    <player win="0" rebuy="0" addon="0" name="Artero10" dealer="0" bet="80" reg_code="" seat="10" chips="14,720"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="flashesflash" no="1" sum="80" type="15"/>
+   <action player="spillechung" no="2" sum="80" type="15"/>
+   <action player="Artero10" no="3" sum="80" type="15"/>
+   <action player="tropeiro123" no="4" sum="80" type="15"/>
+   <action player="Switchsyde" no="5" sum="80" type="15"/>
+   <action player="fighterwillow86" no="6" sum="80" type="15"/>
+   <action player="taff491" no="7" sum="80" type="15"/>
+   <action player="JayKava1" no="8" sum="80" type="15"/>
+   <action player="flashesflash" no="9" sum="500" type="1"/>
+   <action player="spillechung" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="spillechung" type="Pocket">X X</cards>
+   <cards player="Artero10" type="Pocket">X X</cards>
+   <action player="Artero10" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Switchsyde" type="Pocket">X X</cards>
+   <action player="Switchsyde" no="13" sum="0" type="0"/>
+   <cards player="fighterwillow86" type="Pocket">X X</cards>
+   <action player="fighterwillow86" no="14" sum="0" type="0"/>
+   <cards player="taff491" type="Pocket">X X</cards>
+   <action player="taff491" no="15" sum="0" type="0"/>
+   <cards player="JayKava1" type="Pocket">X X</cards>
+   <action player="JayKava1" no="16" sum="0" type="0"/>
+   <cards player="flashesflash" type="Pocket">X X</cards>
+   <action player="flashesflash" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552976535">
+  <general>
+   <startdate>2024-02-08 17:31:44</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="80" reg_code="7943803001" seat="1" chips="9,760"/>
+    <player win="0" rebuy="0" addon="0" name="Switchsyde" dealer="0" bet="80" reg_code="" seat="2" chips="9,260"/>
+    <player win="0" rebuy="0" addon="0" name="fighterwillow86" dealer="0" bet="3,867" reg_code="" seat="4" chips="9,920"/>
+    <player win="0" rebuy="0" addon="0" name="taff491" dealer="0" bet="80" reg_code="" seat="5" chips="26,589"/>
+    <player win="0" rebuy="0" addon="0" name="JayKava1" dealer="0" bet="80" reg_code="" seat="6" chips="14,338"/>
+    <player win="0" rebuy="0" addon="0" name="flashesflash" dealer="1" bet="80" reg_code="" seat="7" chips="14,528"/>
+    <player win="0" rebuy="0" addon="0" name="spillechung" dealer="0" bet="580" reg_code="" seat="9" chips="12,770"/>
+    <player win="8,714" rebuy="0" addon="0" name="Artero10" dealer="0" bet="3,867" reg_code="" seat="10" chips="14,640"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="spillechung" no="1" sum="80" type="15"/>
+   <action player="Artero10" no="2" sum="80" type="15"/>
+   <action player="tropeiro123" no="3" sum="80" type="15"/>
+   <action player="Switchsyde" no="4" sum="80" type="15"/>
+   <action player="fighterwillow86" no="5" sum="80" type="15"/>
+   <action player="taff491" no="6" sum="80" type="15"/>
+   <action player="JayKava1" no="7" sum="80" type="15"/>
+   <action player="flashesflash" no="8" sum="80" type="15"/>
+   <action player="spillechung" no="9" sum="500" type="1"/>
+   <action player="Artero10" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D4 C6</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Switchsyde" type="Pocket">X X</cards>
+   <action player="Switchsyde" no="12" sum="0" type="0"/>
+   <cards player="fighterwillow86" type="Pocket">DJ C10</cards>
+   <action player="fighterwillow86" no="13" sum="2,000" type="23"/>
+   <cards player="taff491" type="Pocket">X X</cards>
+   <action player="taff491" no="14" sum="0" type="0"/>
+   <cards player="JayKava1" type="Pocket">X X</cards>
+   <action player="JayKava1" no="15" sum="0" type="0"/>
+   <cards player="flashesflash" type="Pocket">X X</cards>
+   <action player="flashesflash" no="16" sum="0" type="0"/>
+   <cards player="spillechung" type="Pocket">X X</cards>
+   <action player="spillechung" no="17" sum="0" type="0"/>
+   <cards player="Artero10" type="Pocket">H2 H10</cards>
+   <action player="Artero10" no="18" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 HA S3</cards>
+   <action player="Artero10" no="19" sum="0" type="4"/>
+   <action player="fighterwillow86" no="20" sum="1,787" type="5"/>
+   <action player="Artero10" no="21" sum="1,787" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action player="Artero10" no="22" sum="0" type="4"/>
+   <action player="fighterwillow86" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action player="Artero10" no="24" sum="0" type="4"/>
+   <action player="fighterwillow86" no="25" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10553001990">
+  <general>
+   <startdate>2024-02-08 17:33:06</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,080" reg_code="7943803001" seat="1" chips="9,680"/>
+    <player win="3,140" rebuy="0" addon="0" name="Switchsyde" dealer="0" bet="9,100" reg_code="" seat="2" chips="9,180"/>
+    <player win="0" rebuy="0" addon="0" name="fighterwillow86" dealer="0" bet="80" reg_code="" seat="4" chips="6,053"/>
+    <player win="0" rebuy="0" addon="0" name="taff491" dealer="0" bet="80" reg_code="" seat="5" chips="26,509"/>
+    <player win="0" rebuy="0" addon="0" name="JayKava1" dealer="0" bet="80" reg_code="" seat="6" chips="14,258"/>
+    <player win="0" rebuy="0" addon="0" name="flashesflash" dealer="0" bet="80" reg_code="" seat="7" chips="14,448"/>
+    <player win="0" rebuy="0" addon="0" name="spillechung" dealer="1" bet="80" reg_code="" seat="9" chips="12,190"/>
+    <player win="0" rebuy="0" addon="0" name="Artero10" dealer="0" bet="580" reg_code="" seat="10" chips="19,487"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Artero10" no="1" sum="80" type="15"/>
+   <action player="tropeiro123" no="2" sum="80" type="15"/>
+   <action player="Switchsyde" no="3" sum="80" type="15"/>
+   <action player="fighterwillow86" no="4" sum="80" type="15"/>
+   <action player="taff491" no="5" sum="80" type="15"/>
+   <action player="JayKava1" no="6" sum="80" type="15"/>
+   <action player="flashesflash" no="7" sum="80" type="15"/>
+   <action player="spillechung" no="8" sum="80" type="15"/>
+   <action player="Artero10" no="9" sum="500" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Switchsyde" type="Pocket">X X</cards>
+   <action player="Switchsyde" no="11" sum="9,100" type="23"/>
+   <cards player="fighterwillow86" type="Pocket">X X</cards>
+   <action player="fighterwillow86" no="12" sum="0" type="0"/>
+   <cards player="taff491" type="Pocket">X X</cards>
+   <action player="taff491" no="13" sum="0" type="0"/>
+   <cards player="JayKava1" type="Pocket">X X</cards>
+   <action player="JayKava1" no="14" sum="0" type="0"/>
+   <cards player="flashesflash" type="Pocket">X X</cards>
+   <action player="flashesflash" no="15" sum="0" type="0"/>
+   <cards player="spillechung" type="Pocket">X X</cards>
+   <action player="spillechung" no="16" sum="0" type="0"/>
+   <cards player="Artero10" type="Pocket">X X</cards>
+   <action player="Artero10" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 SQ</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553002012">
+  <general>
+   <startdate>2024-02-08 17:33:48</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="IMMINENCE1" dealer="1" bet="80" reg_code="" seat="1" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="T4T3nsO" dealer="0" bet="10,000" reg_code="" seat="2" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="0" bet="1,080" reg_code="" seat="4" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="Justinuts" dealer="0" bet="80" reg_code="" seat="5" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="Haard" dealer="0" bet="19,500" reg_code="" seat="7" chips="21,740"/>
+    <player win="50,320" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="19,420" reg_code="" seat="9" chips="19,500"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="80" reg_code="7943803001" seat="10" chips="8,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="T4T3nsO" no="1" sum="80" type="15"/>
+   <action player="NandosFund" no="2" sum="80" type="15"/>
+   <action player="Justinuts" no="3" sum="80" type="15"/>
+   <action player="Haard" no="4" sum="80" type="15"/>
+   <action player="cloudevil8199" no="5" sum="80" type="15"/>
+   <action player="tropeiro123" no="6" sum="80" type="15"/>
+   <action player="IMMINENCE1" no="7" sum="80" type="15"/>
+   <action player="T4T3nsO" no="8" sum="500" type="1"/>
+   <action player="NandosFund" no="9" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Justinuts" type="Pocket">X X</cards>
+   <action player="Justinuts" no="10" sum="0" type="0"/>
+   <cards player="Haard" type="Pocket">CA HQ</cards>
+   <action player="Haard" no="11" sum="2,210" type="23"/>
+   <cards player="cloudevil8199" type="Pocket">HA DA</cards>
+   <action player="cloudevil8199" no="12" sum="19,420" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D2 HJ</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="IMMINENCE1" type="Pocket">X X</cards>
+   <action player="IMMINENCE1" no="14" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">DQ SQ</cards>
+   <action player="T4T3nsO" no="15" sum="9,420" type="7"/>
+   <cards player="NandosFund" type="Pocket">DK X</cards>
+   <action player="NandosFund" no="16" sum="0" type="0"/>
+   <action player="Haard" no="17" sum="17,210" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ C7 C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10553002065">
+  <general>
+   <startdate>2024-02-08 17:35:07</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="T4T3nsO" dealer="1" bet="80" reg_code="" seat="2" chips="10,000"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="0" bet="580" reg_code="" seat="4" chips="8,920"/>
+    <player win="0" rebuy="0" addon="0" name="Justinuts" dealer="0" bet="9,840" reg_code="" seat="5" chips="9,920"/>
+    <player win="0" rebuy="1" addon="0" name="gamblerevil144" dealer="0" bet="1,080" reg_code="" seat="6" chips="20,000"/>
+    <player win="0" rebuy="0" addon="0" name="Haard" dealer="0" bet="80" reg_code="" seat="7" chips="12,240"/>
+    <player win="21,740" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="9,920" reg_code="" seat="9" chips="50,320"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="80" reg_code="7943803001" seat="10" chips="8,520"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="NandosFund" no="1" sum="80" type="15"/>
+   <action player="Justinuts" no="2" sum="80" type="15"/>
+   <action player="gamblerevil144" no="3" sum="80" type="15"/>
+   <action player="Haard" no="4" sum="80" type="15"/>
+   <action player="cloudevil8199" no="5" sum="80" type="15"/>
+   <action player="tropeiro123" no="6" sum="80" type="15"/>
+   <action player="T4T3nsO" no="7" sum="80" type="15"/>
+   <action player="NandosFund" no="8" sum="500" type="1"/>
+   <action player="Justinuts" no="9" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="gamblerevil144" type="Pocket">X X</cards>
+   <action player="gamblerevil144" no="10" sum="1,000" type="3"/>
+   <cards player="Haard" type="Pocket">X X</cards>
+   <action player="Haard" no="11" sum="0" type="0"/>
+   <cards player="cloudevil8199" type="Pocket">CK HK</cards>
+   <action player="cloudevil8199" no="12" sum="5,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C3 SA</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">X X</cards>
+   <action player="T4T3nsO" no="14" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="15" sum="0" type="0"/>
+   <cards player="Justinuts" type="Pocket">HA DK</cards>
+   <action player="Justinuts" no="16" sum="9,840" type="23"/>
+   <action player="gamblerevil144" no="17" sum="0" type="0"/>
+   <action player="cloudevil8199" no="18" sum="4,840" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S10 D9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+  </round>
+ </game>
+ <game gamecode="10553002244">
+  <general>
+   <startdate>2024-02-08 17:40:54</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tigergreat952" dealer="0" bet="96" reg_code="" seat="1" chips="10,000"/>
+    <player win="9,868" rebuy="0" addon="0" name="T4T3nsO" dealer="0" bet="11,253" reg_code="" seat="2" chips="39,920"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="1" bet="96" reg_code="" seat="4" chips="38,340"/>
+    <player win="0" rebuy="0" addon="0" name="Justinuts" dealer="0" bet="696" reg_code="" seat="5" chips="40,000"/>
+    <player win="0" rebuy="0" addon="0" name="gamblerevil144" dealer="0" bet="4,346" reg_code="" seat="6" chips="48,920"/>
+    <player win="0" rebuy="1" addon="0" name="Haard" dealer="0" bet="96" reg_code="" seat="7" chips="42,160"/>
+    <player win="0" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="96" reg_code="" seat="9" chips="92,140"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="96" reg_code="7943803001" seat="10" chips="18,440"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Justinuts" no="1" sum="96" type="15"/>
+   <action player="gamblerevil144" no="2" sum="96" type="15"/>
+   <action player="Haard" no="3" sum="96" type="15"/>
+   <action player="cloudevil8199" no="4" sum="96" type="15"/>
+   <action player="tropeiro123" no="5" sum="96" type="15"/>
+   <action player="tigergreat952" no="6" sum="96" type="15"/>
+   <action player="T4T3nsO" no="7" sum="96" type="15"/>
+   <action player="NandosFund" no="8" sum="96" type="15"/>
+   <action player="Justinuts" no="9" sum="600" type="1"/>
+   <action player="gamblerevil144" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Haard" type="Pocket">X X</cards>
+   <action player="Haard" no="11" sum="0" type="0"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action player="cloudevil8199" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 S3</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="tigergreat952" type="Pocket">X X</cards>
+   <action player="tigergreat952" no="14" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">X X</cards>
+   <action player="T4T3nsO" no="15" sum="2,400" type="23"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="16" sum="0" type="0"/>
+   <cards player="Justinuts" type="Pocket">X X</cards>
+   <action player="Justinuts" no="17" sum="0" type="0"/>
+   <cards player="gamblerevil144" type="Pocket">X X</cards>
+   <action player="gamblerevil144" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 D10 S8</cards>
+   <action player="gamblerevil144" no="19" sum="0" type="4"/>
+   <action player="T4T3nsO" no="20" sum="1,850" type="5"/>
+   <action player="gamblerevil144" no="21" sum="1,850" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action player="gamblerevil144" no="22" sum="0" type="4"/>
+   <action player="T4T3nsO" no="23" sum="6,907" type="5"/>
+   <action player="gamblerevil144" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553002302">
+  <general>
+   <startdate>2024-02-08 17:42:20</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tigergreat952" dealer="0" bet="96" reg_code="" seat="1" chips="9,904"/>
+    <player win="0" rebuy="1" addon="0" name="T4T3nsO" dealer="0" bet="2,496" reg_code="" seat="2" chips="45,442"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="0" bet="96" reg_code="" seat="4" chips="38,244"/>
+    <player win="9,768" rebuy="0" addon="0" name="Justinuts" dealer="1" bet="10,800" reg_code="" seat="5" chips="39,304"/>
+    <player win="0" rebuy="0" addon="0" name="gamblerevil144" dealer="0" bet="696" reg_code="" seat="6" chips="44,574"/>
+    <player win="0" rebuy="0" addon="0" name="Haard" dealer="0" bet="1,296" reg_code="" seat="7" chips="42,064"/>
+    <player win="0" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="96" reg_code="" seat="9" chips="92,044"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="2,496" reg_code="7943803001" seat="10" chips="18,344"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="gamblerevil144" no="1" sum="96" type="15"/>
+   <action player="Haard" no="2" sum="96" type="15"/>
+   <action player="cloudevil8199" no="3" sum="96" type="15"/>
+   <action player="tropeiro123" no="4" sum="96" type="15"/>
+   <action player="tigergreat952" no="5" sum="96" type="15"/>
+   <action player="T4T3nsO" no="6" sum="96" type="15"/>
+   <action player="NandosFund" no="7" sum="96" type="15"/>
+   <action player="Justinuts" no="8" sum="96" type="15"/>
+   <action player="gamblerevil144" no="9" sum="600" type="1"/>
+   <action player="Haard" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action player="cloudevil8199" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ D9</cards>
+   <action player="tropeiro123" no="12" sum="2,400" type="23"/>
+   <cards player="tigergreat952" type="Pocket">X X</cards>
+   <action player="tigergreat952" no="13" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">X X</cards>
+   <action player="T4T3nsO" no="14" sum="2,400" type="3"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="15" sum="0" type="0"/>
+   <cards player="Justinuts" type="Pocket">X X</cards>
+   <action player="Justinuts" no="16" sum="10,800" type="23"/>
+   <cards player="gamblerevil144" type="Pocket">X X</cards>
+   <action player="gamblerevil144" no="17" sum="0" type="0"/>
+   <cards player="Haard" type="Pocket">X X</cards>
+   <action player="Haard" no="18" sum="0" type="0"/>
+   <action player="tropeiro123" no="19" sum="0" type="0"/>
+   <action player="T4T3nsO" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553024387">
+  <general>
+   <startdate>2024-02-08 17:44:01</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tigergreat952" dealer="0" bet="96" reg_code="" seat="1" chips="9,808"/>
+    <player win="0" rebuy="0" addon="0" name="T4T3nsO" dealer="0" bet="96" reg_code="" seat="2" chips="42,946"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="0" bet="2,496" reg_code="" seat="4" chips="38,148"/>
+    <player win="0" rebuy="1" addon="0" name="Justinuts" dealer="0" bet="96" reg_code="" seat="5" chips="46,576"/>
+    <player win="0" rebuy="0" addon="0" name="gamblerevil144" dealer="1" bet="96" reg_code="" seat="6" chips="43,878"/>
+    <player win="6,768" rebuy="0" addon="0" name="Haard" dealer="0" bet="40,672" reg_code="" seat="7" chips="40,768"/>
+    <player win="0" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="1,296" reg_code="" seat="9" chips="91,948"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="96" reg_code="7943803001" seat="10" chips="15,848"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Haard" no="1" sum="96" type="15"/>
+   <action player="cloudevil8199" no="2" sum="96" type="15"/>
+   <action player="tropeiro123" no="3" sum="96" type="15"/>
+   <action player="tigergreat952" no="4" sum="96" type="15"/>
+   <action player="T4T3nsO" no="5" sum="96" type="15"/>
+   <action player="NandosFund" no="6" sum="96" type="15"/>
+   <action player="Justinuts" no="7" sum="96" type="15"/>
+   <action player="gamblerevil144" no="8" sum="96" type="15"/>
+   <action player="Haard" no="9" sum="600" type="1"/>
+   <action player="cloudevil8199" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C7 CQ</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="tigergreat952" type="Pocket">X X</cards>
+   <action player="tigergreat952" no="12" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">X X</cards>
+   <action player="T4T3nsO" no="13" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="14" sum="2,400" type="23"/>
+   <cards player="Justinuts" type="Pocket">X X</cards>
+   <action player="Justinuts" no="15" sum="0" type="0"/>
+   <cards player="gamblerevil144" type="Pocket">X X</cards>
+   <action player="gamblerevil144" no="16" sum="0" type="0"/>
+   <cards player="Haard" type="Pocket">X X</cards>
+   <action player="Haard" no="17" sum="40,672" type="23"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action player="cloudevil8199" no="18" sum="0" type="0"/>
+   <action player="NandosFund" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553024442">
+  <general>
+   <startdate>2024-02-08 17:45:12</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tigergreat952" dealer="0" bet="96" reg_code="" seat="1" chips="9,712"/>
+    <player win="0" rebuy="0" addon="0" name="T4T3nsO" dealer="0" bet="96" reg_code="" seat="2" chips="42,850"/>
+    <player win="0" rebuy="0" addon="0" name="NandosFund" dealer="0" bet="96" reg_code="" seat="4" chips="35,652"/>
+    <player win="35,080" rebuy="0" addon="0" name="Justinuts" dealer="0" bet="28,912" reg_code="" seat="5" chips="46,480"/>
+    <player win="0" rebuy="0" addon="0" name="gamblerevil144" dealer="0" bet="2,496" reg_code="" seat="6" chips="43,782"/>
+    <player win="0" rebuy="0" addon="0" name="Haard" dealer="1" bet="96" reg_code="" seat="7" chips="45,040"/>
+    <player win="0" rebuy="0" addon="0" name="cloudevil8199" dealer="0" bet="696" reg_code="" seat="9" chips="90,652"/>
+    <player win="0" rebuy="1" addon="0" name="tropeiro123" dealer="0" bet="15,656" reg_code="7943803001" seat="10" chips="15,752"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="cloudevil8199" no="1" sum="96" type="15"/>
+   <action player="tropeiro123" no="2" sum="96" type="15"/>
+   <action player="tigergreat952" no="3" sum="96" type="15"/>
+   <action player="T4T3nsO" no="4" sum="96" type="15"/>
+   <action player="NandosFund" no="5" sum="96" type="15"/>
+   <action player="Justinuts" no="6" sum="96" type="15"/>
+   <action player="gamblerevil144" no="7" sum="96" type="15"/>
+   <action player="Haard" no="8" sum="96" type="15"/>
+   <action player="cloudevil8199" no="9" sum="600" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigergreat952" type="Pocket">X X</cards>
+   <action player="tigergreat952" no="11" sum="0" type="0"/>
+   <cards player="T4T3nsO" type="Pocket">X X</cards>
+   <action player="T4T3nsO" no="12" sum="0" type="0"/>
+   <cards player="NandosFund" type="Pocket">X X</cards>
+   <action player="NandosFund" no="13" sum="0" type="0"/>
+   <cards player="Justinuts" type="Pocket">HJ SJ</cards>
+   <action player="Justinuts" no="14" sum="2,400" type="23"/>
+   <cards player="gamblerevil144" type="Pocket">X X</cards>
+   <action player="gamblerevil144" no="15" sum="2,400" type="3"/>
+   <cards player="Haard" type="Pocket">X X</cards>
+   <action player="Haard" no="16" sum="0" type="0"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action player="cloudevil8199" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 S8</cards>
+   <action player="tropeiro123" no="18" sum="15,656" type="23"/>
+   <action player="Justinuts" no="19" sum="28,912" type="23"/>
+   <action player="gamblerevil144" no="20" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 DK S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+</session>

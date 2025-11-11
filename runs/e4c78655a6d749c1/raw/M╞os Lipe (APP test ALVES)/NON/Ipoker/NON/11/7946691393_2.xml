@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946691393">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,000|The Classic, 1080787980</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:04:51</duration>
+  <gamecount>50</gamecount>
+  <startdate>2024-02-11 14:02:54</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>502,565</bets>
+  <wins>232,377</wins>
+  <chipsin>64,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080681494</tournamentcode>
+  <tournamentname>€2,000|The Classic</tournamentname>
+  <place>36</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10558343216">
+  <general>
+   <startdate>2024-02-11 14:02:54</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player reg_code="" bet="350" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="69,482" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="2" rebuy="0" dealer="0" name="matekl" chips="135,691" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="34,500" win="0" addon="0"/>
+    <player reg_code="" bet="8,638" seat="5" rebuy="0" dealer="1" name="BFBikeNSE" chips="31,354" win="20,276" addon="0"/>
+    <player reg_code="7946691393" bet="1,600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="88,607" win="0" addon="0"/>
+    <player reg_code="" bet="8,638" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="134,972" win="0" addon="0"/>
+    <player reg_code="" bet="350" seat="10" rebuy="0" dealer="0" name="YoooC" chips="125,940" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="350"/>
+   <action type="15" no="2" player="tratratratatatta" sum="350"/>
+   <action type="15" no="3" player="YoooC" sum="350"/>
+   <action type="15" no="4" player="dovedale88" sum="350"/>
+   <action type="15" no="5" player="matekl" sum="350"/>
+   <action type="15" no="6" player="rehuperuna" sum="350"/>
+   <action type="15" no="7" player="BFBikeNSE" sum="350"/>
+   <action type="1" no="8" player="tropeiro123" sum="1,250"/>
+   <action type="2" no="9" player="tratratratatatta" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="10" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="11" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="12" player="matekl" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="13" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">SQ CQ</cards>
+   <action type="23" no="14" player="BFBikeNSE" sum="5,000"/>
+   <cards type="Pocket" player="tropeiro123">S9 HK</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">H5 H9</cards>
+   <action type="3" no="16" player="tratratratatatta" sum="2,500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 C8 S10</cards>
+   <action type="4" no="17" player="tratratratatatta" sum="0"/>
+   <action type="4" no="18" player="BFBikeNSE" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action type="4" no="19" player="tratratratatatta" sum="0"/>
+   <action type="4" no="20" player="BFBikeNSE" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+   <action type="5" no="21" player="tratratratatatta" sum="3,288"/>
+   <action type="3" no="22" player="BFBikeNSE" sum="3,288"/>
+  </round>
+ </game>
+ <game gamecode="10558343270">
+  <general>
+   <startdate>2024-02-11 14:04:23</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="69,132" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="0" name="matekl" chips="135,341" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="34,150" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="42,992" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="450" seat="6" rebuy="0" dealer="1" name="tropeiro123" chips="87,007" win="0" addon="0"/>
+    <player reg_code="" bet="12,450" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="126,334" win="27,150" addon="0"/>
+    <player reg_code="" bet="12,450" seat="10" rebuy="0" dealer="0" name="YoooC" chips="125,590" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tratratratatatta" sum="450"/>
+   <action type="15" no="2" player="YoooC" sum="450"/>
+   <action type="15" no="3" player="dovedale88" sum="450"/>
+   <action type="15" no="4" player="matekl" sum="450"/>
+   <action type="15" no="5" player="rehuperuna" sum="450"/>
+   <action type="15" no="6" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="7" player="tropeiro123" sum="450"/>
+   <action type="1" no="8" player="tratratratatatta" sum="1,500"/>
+   <action type="2" no="9" player="YoooC" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="10" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="11" player="matekl" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="12" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="13" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S9 H2</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">DA H4</cards>
+   <action type="3" no="15" player="tratratratatatta" sum="1,500"/>
+   <cards type="Pocket" player="YoooC">SA CQ</cards>
+   <action type="23" no="16" player="YoooC" sum="12,000"/>
+   <action type="3" no="17" player="tratratratatatta" sum="9,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D9 C4</cards>
+   <action type="4" no="18" player="tratratratatatta" sum="0"/>
+   <action type="4" no="19" player="YoooC" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action type="4" no="20" player="tratratratatatta" sum="0"/>
+   <action type="4" no="21" player="YoooC" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+   <action type="4" no="22" player="tratratratatatta" sum="0"/>
+   <action type="4" no="23" player="YoooC" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558343323">
+  <general>
+   <startdate>2024-02-11 14:06:04</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="13,776" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="68,682" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="0" name="matekl" chips="134,891" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="33,700" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="42,542" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="450" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="86,557" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="7" rebuy="0" dealer="0" name="heartable45" chips="53,225" win="0" addon="0"/>
+    <player reg_code="" bet="32,766" seat="9" rebuy="0" dealer="1" name="tratratratatatta" chips="141,034" win="31,752" addon="0"/>
+    <player reg_code="" bet="1,950" seat="10" rebuy="0" dealer="0" name="YoooC" chips="113,140" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="YoooC" sum="450"/>
+   <action type="15" no="2" player="dovedale88" sum="450"/>
+   <action type="15" no="3" player="matekl" sum="450"/>
+   <action type="15" no="4" player="rehuperuna" sum="450"/>
+   <action type="15" no="5" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="6" player="tropeiro123" sum="450"/>
+   <action type="15" no="7" player="heartable45" sum="450"/>
+   <action type="15" no="8" player="tratratratatatta" sum="450"/>
+   <action type="1" no="9" player="YoooC" sum="1,500"/>
+   <action type="2" no="10" player="dovedale88" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="11" player="matekl" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="12" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="13" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S9 D6</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="15" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="23" no="16" player="tratratratatatta" sum="6,900"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="17" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="3" no="18" player="dovedale88" sum="3,900"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK S7 C4</cards>
+   <action type="4" no="19" player="dovedale88" sum="0"/>
+   <action type="5" no="20" player="tratratratatatta" sum="6,426"/>
+   <action type="3" no="21" player="dovedale88" sum="6,426"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action type="4" no="22" player="dovedale88" sum="0"/>
+   <action type="5" no="23" player="tratratratatatta" sum="18,990"/>
+   <action type="0" no="24" player="dovedale88" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558360409">
+  <general>
+   <startdate>2024-02-11 14:07:21</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="39,750" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="54,906" win="85,200" addon="0"/>
+    <player reg_code="" bet="3,450" seat="2" rebuy="0" dealer="0" name="matekl" chips="134,441" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="33,250" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="42,092" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="450" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="86,107" win="0" addon="0"/>
+    <player reg_code="" bet="39,750" seat="7" rebuy="0" dealer="0" name="heartable45" chips="52,775" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="159,010" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="1" name="YoooC" chips="111,190" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="dovedale88" sum="450"/>
+   <action type="15" no="2" player="matekl" sum="450"/>
+   <action type="15" no="3" player="rehuperuna" sum="450"/>
+   <action type="15" no="4" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="5" player="tropeiro123" sum="450"/>
+   <action type="15" no="6" player="heartable45" sum="450"/>
+   <action type="15" no="7" player="tratratratatatta" sum="450"/>
+   <action type="15" no="8" player="YoooC" sum="450"/>
+   <action type="1" no="9" player="dovedale88" sum="1,500"/>
+   <action type="2" no="10" player="matekl" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="11" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="12" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D6 D7</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="heartable45">H10 HA</cards>
+   <action type="3" no="14" player="heartable45" sum="3,000"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="15" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="16" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">D9 HJ</cards>
+   <action type="3" no="17" player="dovedale88" sum="1,500"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="4" no="18" player="matekl" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D10 S5</cards>
+   <action type="4" no="19" player="dovedale88" sum="0"/>
+   <action type="4" no="20" player="matekl" sum="0"/>
+   <action type="5" no="21" player="heartable45" sum="6,000"/>
+   <action type="3" no="22" player="dovedale88" sum="6,000"/>
+   <action type="0" no="23" player="matekl" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action type="4" no="24" player="dovedale88" sum="0"/>
+   <action type="5" no="25" player="heartable45" sum="9,000"/>
+   <action type="3" no="26" player="dovedale88" sum="9,000"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action type="4" no="27" player="dovedale88" sum="0"/>
+   <action type="5" no="28" player="heartable45" sum="21,300"/>
+   <action type="3" no="29" player="dovedale88" sum="21,300"/>
+  </round>
+ </game>
+ <game gamecode="10558360547">
+  <general>
+   <startdate>2024-02-11 14:09:04</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="3,450" seat="1" rebuy="0" dealer="1" name="dovedale88" chips="100,356" win="0" addon="0"/>
+    <player reg_code="" bet="1,950" seat="2" rebuy="0" dealer="0" name="matekl" chips="130,991" win="0" addon="0"/>
+    <player reg_code="" bet="32,350" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="32,800" win="11,100" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="41,642" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="450" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="85,657" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="7" rebuy="0" dealer="0" name="heartable45" chips="13,025" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="158,560" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="0" name="YoooC" chips="110,740" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="matekl" sum="450"/>
+   <action type="15" no="2" player="rehuperuna" sum="450"/>
+   <action type="15" no="3" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="4" player="tropeiro123" sum="450"/>
+   <action type="15" no="5" player="heartable45" sum="450"/>
+   <action type="15" no="6" player="tratratratatatta" sum="450"/>
+   <action type="15" no="7" player="YoooC" sum="450"/>
+   <action type="15" no="8" player="dovedale88" sum="450"/>
+   <action type="1" no="9" player="matekl" sum="1,500"/>
+   <action type="2" no="10" player="rehuperuna" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="11" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D3 S7</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="13" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="14" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="15" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="3" no="16" player="dovedale88" sum="3,000"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="17" player="matekl" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="23" no="18" player="rehuperuna" sum="32,350"/>
+   <action type="0" no="19" player="dovedale88" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558360638">
+  <general>
+   <startdate>2024-02-11 14:09:55</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="96,906" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="1" name="matekl" chips="129,041" win="0" addon="0"/>
+    <player reg_code="" bet="1,950" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="40,450" win="0" addon="0"/>
+    <player reg_code="" bet="3,450" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="41,192" win="6,600" addon="0"/>
+    <player reg_code="7946691393" bet="450" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="85,207" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="7" rebuy="0" dealer="0" name="heartable45" chips="12,575" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="158,110" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="0" name="YoooC" chips="110,290" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="rehuperuna" sum="450"/>
+   <action type="15" no="2" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="3" player="tropeiro123" sum="450"/>
+   <action type="15" no="4" player="heartable45" sum="450"/>
+   <action type="15" no="5" player="tratratratatatta" sum="450"/>
+   <action type="15" no="6" player="YoooC" sum="450"/>
+   <action type="15" no="7" player="dovedale88" sum="450"/>
+   <action type="15" no="8" player="matekl" sum="450"/>
+   <action type="1" no="9" player="rehuperuna" sum="1,500"/>
+   <action type="2" no="10" player="BFBikeNSE" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <cards type="Pocket" player="tropeiro123">H8 S10</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="heartable45">X X</cards>
+   <action type="0" no="12" player="heartable45" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="13" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="14" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="15" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="matekl">X X</cards>
+   <action type="0" no="16" player="matekl" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="17" player="rehuperuna" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558360696">
+  <general>
+   <startdate>2024-02-11 14:10:24</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="96,456" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="4" rebuy="0" dealer="1" name="rehuperuna" chips="38,500" win="0" addon="0"/>
+    <player reg_code="" bet="45,392" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="45,842" win="29,500" addon="0"/>
+    <player reg_code="7946691393" bet="3,450" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="84,757" win="0" addon="0"/>
+    <player reg_code="" bet="11,675" seat="7" rebuy="0" dealer="0" name="heartable45" chips="12,125" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="157,660" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="0" name="YoooC" chips="109,840" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="BFBikeNSE" sum="450"/>
+   <action type="15" no="2" player="tropeiro123" sum="450"/>
+   <action type="15" no="3" player="heartable45" sum="450"/>
+   <action type="15" no="4" player="tratratratatatta" sum="450"/>
+   <action type="15" no="5" player="YoooC" sum="450"/>
+   <action type="15" no="6" player="dovedale88" sum="450"/>
+   <action type="15" no="7" player="rehuperuna" sum="450"/>
+   <action type="1" no="8" player="BFBikeNSE" sum="1,500"/>
+   <action type="2" no="9" player="tropeiro123" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="heartable45">SJ H10</cards>
+   <action type="23" no="10" player="heartable45" sum="11,675"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="0" no="11" player="tratratratatatta" sum="0"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="12" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="13" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="14" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">CK C7</cards>
+   <action type="23" no="15" player="BFBikeNSE" sum="45,392"/>
+   <cards type="Pocket" player="tropeiro123">D9 SQ</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 D3 DA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+  </round>
+ </game>
+ <game gamecode="10558360828">
+  <general>
+   <startdate>2024-02-11 14:11:24</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="96,006" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="0" name="onepasttwo" chips="92,018" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="38,050" win="0" addon="0"/>
+    <player reg_code="" bet="18,930" seat="5" rebuy="0" dealer="1" name="BFBikeNSE" chips="63,217" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="1,950" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="81,307" win="0" addon="0"/>
+    <player reg_code="" bet="18,930" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="157,210" win="41,610" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="0" name="YoooC" chips="109,390" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="450"/>
+   <action type="15" no="2" player="tratratratatatta" sum="450"/>
+   <action type="15" no="3" player="YoooC" sum="450"/>
+   <action type="15" no="4" player="dovedale88" sum="450"/>
+   <action type="15" no="5" player="onepasttwo" sum="450"/>
+   <action type="15" no="6" player="rehuperuna" sum="450"/>
+   <action type="15" no="7" player="BFBikeNSE" sum="450"/>
+   <action type="1" no="8" player="tropeiro123" sum="1,500"/>
+   <action type="2" no="9" player="tratratratatatta" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="10" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="11" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" no="12" player="onepasttwo" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="13" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">HA DJ</cards>
+   <action type="23" no="14" player="BFBikeNSE" sum="7,200"/>
+   <cards type="Pocket" player="tropeiro123">C9 HJ</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">S7 SK</cards>
+   <action type="3" no="16" player="tratratratatatta" sum="4,200"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 CQ CK</cards>
+   <action type="4" no="17" player="tratratratatatta" sum="0"/>
+   <action type="5" no="18" player="BFBikeNSE" sum="3,000"/>
+   <action type="3" no="19" player="tratratratatatta" sum="3,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action type="4" no="20" player="tratratratatatta" sum="0"/>
+   <action type="5" no="21" player="BFBikeNSE" sum="8,280"/>
+   <action type="3" no="22" player="tratratratatatta" sum="8,280"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+   <action type="4" no="23" player="tratratratatatta" sum="0"/>
+   <action type="4" no="24" player="BFBikeNSE" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558361105">
+  <general>
+   <startdate>2024-02-11 14:12:52</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>500</ante>
+   <players>
+    <player reg_code="" bet="33,260" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="95,556" win="72,520" addon="0"/>
+    <player reg_code="" bet="500" seat="2" rebuy="0" dealer="0" name="onepasttwo" chips="91,568" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="37,600" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="44,287" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="500" seat="6" rebuy="0" dealer="1" name="tropeiro123" chips="79,357" win="0" addon="0"/>
+    <player reg_code="" bet="33,260" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="179,890" win="0" addon="0"/>
+    <player reg_code="" bet="4,000" seat="10" rebuy="0" dealer="0" name="YoooC" chips="108,940" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tratratratatatta" sum="500"/>
+   <action type="15" no="2" player="YoooC" sum="500"/>
+   <action type="15" no="3" player="dovedale88" sum="500"/>
+   <action type="15" no="4" player="onepasttwo" sum="500"/>
+   <action type="15" no="5" player="rehuperuna" sum="500"/>
+   <action type="15" no="6" player="BFBikeNSE" sum="500"/>
+   <action type="15" no="7" player="tropeiro123" sum="500"/>
+   <action type="1" no="8" player="tratratratatatta" sum="1,750"/>
+   <action type="2" no="9" player="YoooC" sum="3,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dovedale88">HQ SQ</cards>
+   <action type="3" no="10" player="dovedale88" sum="3,500"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" no="11" player="onepasttwo" sum="0"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="12" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="13" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H7 DK</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">HJ DJ</cards>
+   <action type="23" no="15" player="tratratratatatta" sum="14,000"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="16" player="YoooC" sum="0"/>
+   <action type="3" no="17" player="dovedale88" sum="10,500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA SA C8</cards>
+   <action type="5" no="18" player="tratratratatatta" sum="7,000"/>
+   <action type="3" no="19" player="dovedale88" sum="7,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action type="5" no="20" player="tratratratatatta" sum="11,760"/>
+   <action type="3" no="21" player="dovedale88" sum="11,760"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action type="4" no="22" player="tratratratatatta" sum="0"/>
+   <action type="4" no="23" player="dovedale88" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558361359">
+  <general>
+   <startdate>2024-02-11 14:14:40</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>500</ante>
+   <players>
+    <player reg_code="" bet="4,000" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="134,816" win="0" addon="0"/>
+    <player reg_code="" bet="7,500" seat="2" rebuy="0" dealer="0" name="onepasttwo" chips="91,068" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="37,100" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="43,787" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="500" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="78,857" win="0" addon="0"/>
+    <player reg_code="" bet="19,250" seat="9" rebuy="0" dealer="1" name="tratratratatatta" chips="146,630" win="22,750" addon="0"/>
+    <player reg_code="" bet="2,250" seat="10" rebuy="0" dealer="0" name="YoooC" chips="104,940" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="YoooC" sum="500"/>
+   <action type="15" no="2" player="dovedale88" sum="500"/>
+   <action type="15" no="3" player="onepasttwo" sum="500"/>
+   <action type="15" no="4" player="rehuperuna" sum="500"/>
+   <action type="15" no="5" player="BFBikeNSE" sum="500"/>
+   <action type="15" no="6" player="tropeiro123" sum="500"/>
+   <action type="15" no="7" player="tratratratatatta" sum="500"/>
+   <action type="1" no="8" player="YoooC" sum="1,750"/>
+   <action type="2" no="9" player="dovedale88" sum="3,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="23" no="10" player="onepasttwo" sum="7,000"/>
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="11" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="12" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C10 S2</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="tratratratatatta">X X</cards>
+   <action type="23" no="14" player="tratratratatatta" sum="19,250"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="0" no="15" player="YoooC" sum="0"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="16" player="dovedale88" sum="0"/>
+   <action type="0" no="17" player="onepasttwo" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558361487">
+  <general>
+   <startdate>2024-02-11 14:15:39</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>500</ante>
+   <players>
+    <player reg_code="" bet="2,250" seat="1" rebuy="0" dealer="0" name="dovedale88" chips="130,816" win="0" addon="0"/>
+    <player reg_code="" bet="7,850" seat="2" rebuy="0" dealer="0" name="onepasttwo" chips="83,568" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="4" rebuy="0" dealer="0" name="rehuperuna" chips="36,600" win="0" addon="0"/>
+    <player reg_code="" bet="500" seat="5" rebuy="0" dealer="0" name="BFBikeNSE" chips="43,287" win="0" addon="0"/>
+    <player reg_code="7946691393" bet="78,357" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="78,357" win="0" addon="0"/>
+    <player reg_code="" bet="161,880" seat="9" rebuy="0" dealer="0" name="tratratratatatta" chips="161,880" win="175,664" addon="0"/>
+    <player reg_code="" bet="7,850" seat="10" rebuy="0" dealer="1" name="YoooC" chips="102,690" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="dovedale88" sum="500"/>
+   <action type="15" no="2" player="onepasttwo" sum="500"/>
+   <action type="15" no="3" player="rehuperuna" sum="500"/>
+   <action type="15" no="4" player="BFBikeNSE" sum="500"/>
+   <action type="15" no="5" player="tropeiro123" sum="500"/>
+   <action type="15" no="6" player="tratratratatatta" sum="500"/>
+   <action type="15" no="7" player="YoooC" sum="500"/>
+   <action type="1" no="8" player="dovedale88" sum="1,750"/>
+   <action type="2" no="9" player="onepasttwo" sum="3,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rehuperuna">X X</cards>
+   <action type="0" no="10" player="rehuperuna" sum="0"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" no="11" player="BFBikeNSE" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DK D8</cards>
+   <action type="23" no="12" player="tropeiro123" sum="7,350"/>
+   <cards type="Pocket" player="tratratratatatta">H9 H7</cards>
+   <action type="3" no="13" player="tratratratatatta" sum="7,350"/>
+   <cards type="Pocket" player="YoooC">X X</cards>
+   <action type="3" no="14" player="YoooC" sum="7,350"/>
+   <cards type="Pocket" player="dovedale88">X X</cards>
+   <action type="0" no="15" player="dovedale88" sum="0"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="3" no="16" player="onepasttwo" sum="3,850"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 D6 S9</cards>
+   <action type="4" no="17" player="onepasttwo" sum="0"/>
+   <action type="4" no="18" player="tropeiro123" sum="0"/>
+   <action type="4" no="19" player="tratratratatatta" sum="0"/>
+   <action type="4" no="20" player="YoooC" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action type="4" no="21" player="onepasttwo" sum="0"/>
+   <action type="5" no="22" player="tropeiro123" sum="21,000"/>
+   <action type="23" no="23" player="tratratratatatta" sum="55,650"/>
+   <action type="0" no="24" player="YoooC" sum="0"/>
+   <action type="0" no="25" player="onepasttwo" sum="0"/>
+   <action type="3" no="26" player="tropeiro123" sum="34,650"/>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+   <action type="4" no="27" player="tropeiro123" sum="0"/>
+   <action type="5" no="28" player="tratratratatatta" sum="98,380"/>
+   <action type="7" no="29" player="tropeiro123" sum="14,857"/>
+  </round>
+ </game>
+</session>

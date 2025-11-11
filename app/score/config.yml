@@ -1,0 +1,369 @@
+---
+# Phase 6 & 8.2.D: Scoring Configuration
+# Time-decay based player scoring (0-100) with postflop emphasis
+
+version: 1
+
+# Time decay weights based on number of months available
+time_decay:
+  # Últimos 3 meses: 50/30/20. Com 2 meses: 50/50. Com 1 mês: 100%.
+  weights_3: [0.5, 0.3, 0.2]
+  weights_2: [0.5, 0.5]
+  weights_1: [1.0]
+
+# How to combine nonko groups (9max + 6max)
+nonko_combine:
+  by: opportunities   # opportunities | hands (hands requires future integration with partitions)
+
+# Scoring configuration
+scoring:
+  mode: step          # step | linear
+  default:
+    step_down_pct: 2.0             # % below ideal per step
+    step_up_pct: 4.0               # % above ideal per step
+    points_per_step_down: 10
+    points_per_step_up: 10
+    min_opportunities_total: 50    # minimum sample per stat×group
+    min_opportunities_month: 10    # minimum sample per month (to enter time-decay)
+
+# Weight configuration with validation
+weights:
+  validate: auto      # auto | strict | off  (auto: normalize with warning; strict: throw error)
+  groups:
+    nonko_pref: 0.5
+    pko_pref: 0.25
+    postflop_all: 0.25
+  subgroups:
+    # Preflop
+    RFI: 0.2
+    BvB: 0.15
+    3BET_RANGE: 0.1
+    CC_RANGE: 0.05
+    VPIP: 0.05
+    FOLD_RANGE: 0.05
+    VS_3BET: 0.1
+    SQUEEZE: 0.05
+    BB_DEFENSE: 0.1
+    SB_DEFENSE: 0.05
+    # Postflop - Updated for Phase 8.2.D
+    POSTFLOP_CBET: 0.20
+    POSTFLOP_VS_CBET: 0.20
+    POSTFLOP_PROBE_DELAYED: 0.10
+    POSTFLOP_DONK: 0.05
+    POSTFLOP_XR: 0.05
+    POSTFLOP_MISSED_CBET: 0.05
+    POSTFLOP_SHOWDOWN: 0.20
+    POSTFLOP_AGGRESSION: 0.15
+  stats:
+    # RFI
+    RFI_EARLY: 0.25
+    RFI_MIDDLE: 0.25
+    RFI_CO_STEAL: 0.25
+    RFI_BTN_STEAL: 0.25
+    # BvB
+    SB_UO_VPIP: 0.25
+    BB_FOLD_TO_SB_STEAL: 0.25
+    BB_RAISE_VS_SB_LIMP_UOP: 0.25
+    SB_STEAL: 0.25
+    # 3BET_RANGE
+    EP_3BET: 0.25
+    MP_3BET: 0.25
+    CO_3BET: 0.25
+    BTN_3BET: 0.25
+    # CC_RANGE
+    EP_COLD_CALL: 0.25
+    MP_COLD_CALL: 0.25
+    CO_COLD_CALL: 0.25
+    BTN_COLD_CALL: 0.25
+    # VPIP
+    EP_VPIP: 0.25
+    MP_VPIP: 0.25
+    CO_VPIP: 0.25
+    BTN_VPIP: 0.25
+    # FOLD_RANGE
+    BTN_FOLD_TO_CO_STEAL: 1.0
+    # VS_3BET
+    FOLD_TO_3BET_IP: 0.33
+    FOLD_TO_3BET_OOP: 0.33
+    FOLD_TO_3BET: 0.34
+    # SQUEEZE
+    SQUEEZE: 0.5
+    SQUEEZE_VS_BTN_RAISER: 0.5
+    # BB_DEFENSE
+    BB_FOLD_VS_CO_STEAL: 0.25
+    BB_FOLD_VS_BTN_STEAL: 0.25
+    BB_FOLD_VS_SB_STEAL: 0.25
+    BB_RESTEAL_VS_BTN_STEAL: 0.25
+    # SB_DEFENSE
+    SB_FOLD_TO_CO_STEAL: 0.33
+    SB_FOLD_TO_BTN_STEAL: 0.33
+    SB_RESTEAL_VS_BTN: 0.34
+    # POSTFLOP_CBET - Updated for Phase 8.2.D
+    POST_CBET_FLOP_IP: 0.30
+    POST_CBET_FLOP_3BETPOT_IP: 0.20
+    POST_CBET_FLOP_OOP: 0.25
+    POST_CBET_TURN_IP: 0.15
+    POST_CBET_TURN_OOP: 0.10
+    # POSTFLOP_VS_CBET - Updated for Phase 8.2.D
+    POST_VS_CBET_FLOP_FOLD_IP: 0.20
+    POST_VS_CBET_FLOP_FOLD_OOP: 0.15
+    POST_VS_CBET_FLOP_CALL_IP: 0.15
+    POST_VS_CBET_FLOP_CALL_OOP: 0.15
+    POST_VS_CBET_FLOP_RAISE_IP: 0.20
+    POST_VS_CBET_FLOP_RAISE_OOP: 0.15
+    # POSTFLOP_PROBE_DELAYED - New for Phase 8.2.D
+    POST_PROBE_TURN_ATT_IP: 0.30
+    POST_PROBE_TURN_ATT_OOP: 0.20
+    POST_DELAYED_CBET_TURN_ATT_IP: 0.25
+    POST_DELAYED_CBET_TURN_ATT_OOP: 0.25
+    # POSTFLOP_DONK - Updated for Phase 8.2.D
+    POST_DONK_FLOP: 0.50
+    POST_DONK_TURN: 0.30
+    POST_DONK_TURN_SRP_VS_PFR: 0.20
+    # POSTFLOP_XR - New for Phase 8.2.D
+    POST_XR_FLOP: 1.0
+    # POSTFLOP_MISSED_CBET - Updated for Phase 8.2.D
+    POST_BET_VS_MISSED_CBET_SRP_FLOP: 0.50
+    POST_BET_VS_MISS_TURN: 0.50
+    # POSTFLOP_SHOWDOWN - Updated for Phase 8.2.D
+    POST_WTSD: 0.25
+    POST_W$SD: 0.30
+    POST_WWSF: 0.25
+    POST_W$SD_B_RIVER: 0.20
+    # POSTFLOP_AGGRESSION - Updated for Phase 8.2.D
+    POST_AGG_PCT_FLOP: 0.30
+    POST_AGG_PCT_TURN: 0.30
+    POST_AGG_PCT_RIVER: 0.30
+    POST_RIVER_AGG_PCT: 0.10
+
+# Ideal percentages for each stat by group - Phase 8.2.D updates
+ideals:
+  # RFI
+  RFI_EARLY:
+    nonko_9max_pref: 19.0
+    nonko_6max_pref: 21.0
+    pko_pref: 20.0
+  RFI_MIDDLE:
+    nonko_9max_pref: 19.0
+    nonko_6max_pref: 21.0
+    pko_pref: 20.0
+  RFI_CO_STEAL:
+    nonko_9max_pref: 35.0
+    nonko_6max_pref: 37.0
+    pko_pref: 36.0
+  RFI_BTN_STEAL:
+    nonko_9max_pref: 45.0
+    nonko_6max_pref: 47.0
+    pko_pref: 46.0
+  # BvB
+  SB_UO_VPIP:
+    nonko_9max_pref: 50.0
+    nonko_6max_pref: 52.0
+    pko_pref: 51.0
+  BB_FOLD_TO_SB_STEAL:
+    nonko_9max_pref: 40.0
+    nonko_6max_pref: 38.0
+    pko_pref: 39.0
+  BB_RAISE_VS_SB_LIMP_UOP:
+    nonko_9max_pref: 25.0
+    nonko_6max_pref: 27.0
+    pko_pref: 26.0
+  SB_STEAL:
+    nonko_9max_pref: 40.0
+    nonko_6max_pref: 42.0
+    pko_pref: 41.0
+  # 3BET_RANGE
+  EP_3BET:
+    nonko_9max_pref: 8.0
+    nonko_6max_pref: 9.0
+    pko_pref: 8.5
+  MP_3BET:
+    nonko_9max_pref: 9.0
+    nonko_6max_pref: 10.0
+    pko_pref: 9.5
+  CO_3BET:
+    nonko_9max_pref: 10.0
+    nonko_6max_pref: 11.0
+    pko_pref: 10.5
+  BTN_3BET:
+    nonko_9max_pref: 12.0
+    nonko_6max_pref: 13.0
+    pko_pref: 12.5
+  # CC_RANGE
+  EP_COLD_CALL:
+    nonko_9max_pref: 5.0
+    nonko_6max_pref: 6.0
+    pko_pref: 5.5
+  MP_COLD_CALL:
+    nonko_9max_pref: 6.0
+    nonko_6max_pref: 7.0
+    pko_pref: 6.5
+  CO_COLD_CALL:
+    nonko_9max_pref: 8.0
+    nonko_6max_pref: 9.0
+    pko_pref: 8.5
+  BTN_COLD_CALL:
+    nonko_9max_pref: 10.0
+    nonko_6max_pref: 11.0
+    pko_pref: 10.5
+  # VPIP
+  EP_VPIP:
+    nonko_9max_pref: 14.0
+    nonko_6max_pref: 16.0
+    pko_pref: 15.0
+  MP_VPIP:
+    nonko_9max_pref: 16.0
+    nonko_6max_pref: 18.0
+    pko_pref: 17.0
+  CO_VPIP:
+    nonko_9max_pref: 25.0
+    nonko_6max_pref: 27.0
+    pko_pref: 26.0
+  BTN_VPIP:
+    nonko_9max_pref: 35.0
+    nonko_6max_pref: 37.0
+    pko_pref: 36.0
+  # FOLD_RANGE
+  BTN_FOLD_TO_CO_STEAL:
+    nonko_9max_pref: 60.0
+    nonko_6max_pref: 58.0
+    pko_pref: 59.0
+  # VS_3BET
+  FOLD_TO_3BET_IP:
+    nonko_9max_pref: 55.0
+    nonko_6max_pref: 53.0
+    pko_pref: 54.0
+  FOLD_TO_3BET_OOP:
+    nonko_9max_pref: 60.0
+    nonko_6max_pref: 58.0
+    pko_pref: 59.0
+  FOLD_TO_3BET:
+    nonko_9max_pref: 57.0
+    nonko_6max_pref: 55.0
+    pko_pref: 56.0
+  # SQUEEZE
+  SQUEEZE:
+    nonko_9max_pref: 8.0
+    nonko_6max_pref: 10.0
+    pko_pref: 9.0
+  SQUEEZE_VS_BTN_RAISER:
+    nonko_9max_pref: 10.0
+    nonko_6max_pref: 12.0
+    pko_pref: 11.0
+  # BB_DEFENSE
+  BB_FOLD_VS_CO_STEAL:
+    nonko_9max_pref: 50.0
+    nonko_6max_pref: 48.0
+    pko_pref: 49.0
+  BB_FOLD_VS_BTN_STEAL:
+    nonko_9max_pref: 40.0
+    nonko_6max_pref: 38.0
+    pko_pref: 39.0
+  BB_FOLD_VS_SB_STEAL:
+    nonko_9max_pref: 30.0
+    nonko_6max_pref: 28.0
+    pko_pref: 29.0
+  BB_RESTEAL_VS_BTN_STEAL:
+    nonko_9max_pref: 15.0
+    nonko_6max_pref: 17.0
+    pko_pref: 16.0
+  # SB_DEFENSE
+  SB_FOLD_TO_CO_STEAL:
+    nonko_9max_pref: 75.0
+    nonko_6max_pref: 73.0
+    pko_pref: 74.0
+  SB_FOLD_TO_BTN_STEAL:
+    nonko_9max_pref: 65.0
+    nonko_6max_pref: 63.0
+    pko_pref: 64.0
+  SB_RESTEAL_VS_BTN:
+    nonko_9max_pref: 12.0
+    nonko_6max_pref: 14.0
+    pko_pref: 13.0
+  
+  # ========== POSTFLOP - Phase 8.2.D Updated Ideals ==========
+  
+  # POSTFLOP_CBET
+  POST_CBET_FLOP_IP:
+    postflop_all: 60.0    # 55-65% ideal range
+  POST_CBET_FLOP_3BETPOT_IP:
+    postflop_all: 55.0
+  POST_CBET_FLOP_OOP:
+    postflop_all: 50.0    # Conservative OOP
+  POST_CBET_TURN_IP:
+    postflop_all: 55.0
+  POST_CBET_TURN_OOP:
+    postflop_all: 45.0
+  
+  # POSTFLOP_VS_CBET
+  POST_VS_CBET_FLOP_FOLD_IP:
+    postflop_all: 40.0    # 35-45% ideal range
+  POST_VS_CBET_FLOP_FOLD_OOP:
+    postflop_all: 45.0
+  POST_VS_CBET_FLOP_CALL_IP:
+    postflop_all: 45.0
+  POST_VS_CBET_FLOP_CALL_OOP:
+    postflop_all: 40.0
+  POST_VS_CBET_FLOP_RAISE_IP:
+    postflop_all: 12.0
+  POST_VS_CBET_FLOP_RAISE_OOP:
+    postflop_all: 15.0
+  
+  # POSTFLOP_PROBE_DELAYED
+  POST_PROBE_TURN_ATT_IP:
+    postflop_all: 50.0    # 45-55% ideal range
+  POST_PROBE_TURN_ATT_OOP:
+    postflop_all: 40.0
+  POST_DELAYED_CBET_TURN_ATT_IP:
+    postflop_all: 45.0
+  POST_DELAYED_CBET_TURN_ATT_OOP:
+    postflop_all: 40.0
+  
+  # POSTFLOP_DONK
+  POST_DONK_FLOP:
+    postflop_all: 5.0     # Should be rare
+  POST_DONK_TURN:
+    postflop_all: 8.0
+  POST_DONK_TURN_SRP_VS_PFR:
+    postflop_all: 10.0
+  
+  # POSTFLOP_XR
+  POST_XR_FLOP:
+    postflop_all: 12.0
+  
+  # POSTFLOP_MISSED_CBET
+  POST_BET_VS_MISSED_CBET_SRP_FLOP:
+    postflop_all: 50.0
+  POST_BET_VS_MISS_TURN:
+    postflop_all: 50.0
+  POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP:
+    postflop_all: 45.0
+  POST_TURN_FOLD_VS_CBET_OOP:
+    postflop_all: 35.0
+  
+  # POSTFLOP_SHOWDOWN
+  POST_WTSD:
+    postflop_all: 28.5    # 25-32% ideal range
+  POST_W$SD:
+    postflop_all: 52.5    # 49-56% ideal range
+  POST_WWSF:
+    postflop_all: 46.0    # 42-50% ideal range
+  POST_W$SD_B_RIVER:
+    postflop_all: 60.0
+  
+  # POSTFLOP_AGGRESSION
+  POST_AGG_PCT_FLOP:
+    postflop_all: 32.0    # 32% ideal
+  POST_AGG_PCT_TURN:
+    postflop_all: 28.0    # 28% ideal
+  POST_AGG_PCT_RIVER:
+    postflop_all: 22.0    # 22% ideal
+  POST_RIVER_AGG_PCT:
+    postflop_all: 22.0
+  POST_RIVER_BET_SINGLE_RAISED_POT:
+    postflop_all: 25.0
+
+# Cache configuration
+cache:
+  enabled: true
+  path: scores/.cache.json

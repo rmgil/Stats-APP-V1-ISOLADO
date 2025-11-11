@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7961780666">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€4,000 GTD|Monday Mayhem, 1082149564</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:09:39</duration>
+  <gamecount>12</gamecount>
+  <startdate>2024-02-26 19:01:54</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>125,200</bets>
+  <wins>205,000</wins>
+  <chipsin>99,200</chipsin>
+  <chipsout>179,000</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081508775</tournamentcode>
+  <tournamentname>€4,000 GTD|Monday Mayhem</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €0.90</buyin>
+  <totalbuyin>€10</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10586030598">
+  <general>
+   <startdate>2024-02-26 19:01:54</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="tropeiro123" chips="100,000" win="0" addon="0" reg_code="7961780666" bet="800" rebuy="0" dealer="1" seat="1"/>
+    <player name="BigHead86" chips="100,000" win="0" addon="0" reg_code="" bet="5,800" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="100,000" win="0" addon="0" reg_code="" bet="10,800" rebuy="0" dealer="0" seat="4"/>
+    <player name="TEISKO86" chips="100,000" win="0" addon="0" reg_code="" bet="100,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="100,000" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="6"/>
+    <player name="CANOeJK" chips="100,000" win="218,200" addon="0" reg_code="" bet="99,200" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="BigHead86" type="15"/>
+   <action no="2" sum="800" player="UnfazedFace" type="15"/>
+   <action no="3" sum="800" player="TEISKO86" type="15"/>
+   <action no="4" sum="800" player="DebsThDestroyer" type="15"/>
+   <action no="5" sum="800" player="CANOeJK" type="15"/>
+   <action no="6" sum="800" player="tropeiro123" type="15"/>
+   <action no="7" sum="5,000" player="BigHead86" type="1"/>
+   <action no="8" sum="10,000" player="UnfazedFace" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TEISKO86" type="Pocket">DA DJ</cards>
+   <action no="9" sum="20,000" player="TEISKO86" type="23"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="CANOeJK" type="Pocket">HK HA</cards>
+   <action no="11" sum="99,200" player="CANOeJK" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SQ CK</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="UnfazedFace" type="0"/>
+   <action no="15" sum="79,200" player="TEISKO86" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 SK SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10586056192">
+  <general>
+   <startdate>2024-02-26 19:03:14</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="tropeiro123" chips="99,200" win="0" addon="0" reg_code="7961780666" bet="800" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="94,200" win="30,600" addon="0" reg_code="" bet="93,400" rebuy="0" dealer="1" seat="2"/>
+    <player name="UnfazedFace" chips="89,200" win="0" addon="0" reg_code="" bet="5,800" rebuy="0" dealer="0" seat="4"/>
+    <player name="DebsThDestroyer" chips="99,200" win="0" addon="0" reg_code="" bet="10,800" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="100,000" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="7"/>
+    <player name="MentalWarrior" chips="100,000" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="218,200" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="UnfazedFace" type="15"/>
+   <action no="2" sum="800" player="DebsThDestroyer" type="15"/>
+   <action no="3" sum="800" player="Hofstadter" type="15"/>
+   <action no="4" sum="800" player="MentalWarrior" type="15"/>
+   <action no="5" sum="800" player="CANOeJK" type="15"/>
+   <action no="6" sum="800" player="tropeiro123" type="15"/>
+   <action no="7" sum="800" player="BigHead86" type="15"/>
+   <action no="8" sum="5,000" player="UnfazedFace" type="1"/>
+   <action no="9" sum="10,000" player="DebsThDestroyer" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Hofstadter" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MentalWarrior" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 H5</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="14" sum="93,400" player="BigHead86" type="23"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="DebsThDestroyer" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586056208">
+  <general>
+   <startdate>2024-02-26 19:03:57</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="tropeiro123" chips="98,400" win="0" addon="0" reg_code="7961780666" bet="800" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="114,000" win="60,600" addon="0" reg_code="" bet="113,200" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="83,400" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="1" seat="4"/>
+    <player name="DebsThDestroyer" chips="88,400" win="0" addon="0" reg_code="" bet="5,800" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="99,200" win="0" addon="0" reg_code="" bet="10,800" rebuy="0" dealer="0" seat="7"/>
+    <player name="MentalWarrior" chips="99,200" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="217,400" win="0" addon="0" reg_code="" bet="20,800" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="DebsThDestroyer" type="15"/>
+   <action no="2" sum="800" player="Hofstadter" type="15"/>
+   <action no="3" sum="800" player="MentalWarrior" type="15"/>
+   <action no="4" sum="800" player="CANOeJK" type="15"/>
+   <action no="5" sum="800" player="tropeiro123" type="15"/>
+   <action no="6" sum="800" player="BigHead86" type="15"/>
+   <action no="7" sum="800" player="UnfazedFace" type="15"/>
+   <action no="8" sum="5,000" player="DebsThDestroyer" type="1"/>
+   <action no="9" sum="10,000" player="Hofstadter" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="MentalWarrior" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="11" sum="20,000" player="CANOeJK" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SQ D7</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="13" sum="113,200" player="BigHead86" type="23"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Hofstadter" type="0"/>
+   <action no="17" sum="0" player="CANOeJK" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586056235">
+  <general>
+   <startdate>2024-02-26 19:04:53</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player name="tropeiro123" chips="97,600" win="205,000" addon="0" reg_code="7961780666" bet="96,800" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="153,800" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="82,600" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="100,000" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="82,600" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="1" seat="6"/>
+    <player name="Hofstadter" chips="88,400" win="0" addon="0" reg_code="" bet="5,800" rebuy="0" dealer="0" seat="7"/>
+    <player name="MentalWarrior" chips="98,400" win="0" addon="0" reg_code="" bet="97,600" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="196,600" win="0" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="Hofstadter" type="15"/>
+   <action no="2" sum="800" player="MentalWarrior" type="15"/>
+   <action no="3" sum="800" player="CANOeJK" type="15"/>
+   <action no="4" sum="800" player="tropeiro123" type="15"/>
+   <action no="5" sum="800" player="BigHead86" type="15"/>
+   <action no="6" sum="800" player="UnfazedFace" type="15"/>
+   <action no="7" sum="800" player="veverka7" type="15"/>
+   <action no="8" sum="800" player="DebsThDestroyer" type="15"/>
+   <action no="9" sum="5,000" player="Hofstadter" type="1"/>
+   <action no="10" sum="10,000" player="MentalWarrior" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA CQ</cards>
+   <action no="12" sum="96,800" player="tropeiro123" type="23"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="veverka7" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Hofstadter" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">D7 C7</cards>
+   <action no="18" sum="86,800" player="MentalWarrior" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 C8 S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+ <game gamecode="10586056266">
+  <general>
+   <startdate>2024-02-26 19:06:15</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="205,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="153,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="81,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="99,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="81,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="82,600" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="1" seat="7"/>
+    <player name="MentalWarrior" chips="800" win="6,400" addon="0" reg_code="" bet="800" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="195,800" win="1,400" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="MentalWarrior" type="15"/>
+   <action no="2" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="3" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="4" sum="1,000" player="BigHead86" type="15"/>
+   <action no="5" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="6" sum="1,000" player="veverka7" type="15"/>
+   <action no="7" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="8" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="9" sum="12,000" player="CANOeJK" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MentalWarrior" type="Pocket">C3 SJ</cards>
+   <cards player="CANOeJK" type="Pocket">S2 H5</cards>
+   <cards player="tropeiro123" type="Pocket">S7 S8</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="veverka7" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Hofstadter" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ DK CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10586056287">
+  <general>
+   <startdate>2024-02-26 19:07:08</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="204,000" win="0" addon="0" reg_code="7961780666" bet="13,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="152,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="80,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="98,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="80,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="81,600" win="43,400" addon="0" reg_code="" bet="80,600" rebuy="0" dealer="0" seat="7"/>
+    <player name="MentalWarrior" chips="6,400" win="0" addon="0" reg_code="" bet="6,400" rebuy="0" dealer="1" seat="9"/>
+    <player name="CANOeJK" chips="196,200" win="0" addon="0" reg_code="" bet="7,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="2" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="3" sum="1,000" player="BigHead86" type="15"/>
+   <action no="4" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="5" sum="1,000" player="veverka7" type="15"/>
+   <action no="6" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="7" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="8" sum="1,000" player="MentalWarrior" type="15"/>
+   <action no="9" sum="6,000" player="CANOeJK" type="1"/>
+   <action no="10" sum="12,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="veverka7" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">CK C8</cards>
+   <action no="15" sum="80,600" player="Hofstadter" type="23"/>
+   <cards player="MentalWarrior" type="Pocket">SQ DJ</cards>
+   <action no="16" sum="5,400" player="MentalWarrior" type="7"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK D2</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 C2 SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10586056315">
+  <general>
+   <startdate>2024-02-26 19:07:50</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="191,000" win="0" addon="0" reg_code="7961780666" bet="7,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="151,000" win="0" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="79,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="97,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="79,800" win="37,000" addon="0" reg_code="" bet="78,800" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="112,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="CANOeJK" chips="189,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="1" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="2" sum="1,000" player="BigHead86" type="15"/>
+   <action no="3" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="4" sum="1,000" player="veverka7" type="15"/>
+   <action no="5" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="6" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="7" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="8" sum="6,000" player="tropeiro123" type="1"/>
+   <action no="9" sum="12,000" player="BigHead86" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="veverka7" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="12" sum="78,800" player="DebsThDestroyer" type="23"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Hofstadter" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ DQ</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BigHead86" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586056329">
+  <general>
+   <startdate>2024-02-26 19:08:32</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="184,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="1" seat="1"/>
+    <player name="BigHead86" chips="138,000" win="0" addon="0" reg_code="" bet="7,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="78,800" win="0" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="96,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="103,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="111,000" win="0" addon="0" reg_code="" bet="25,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="Blondie69" chips="76,400" win="0" addon="0" reg_code="" bet="75,400" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="188,200" win="200,800" addon="0" reg_code="" bet="187,200" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="BigHead86" type="15"/>
+   <action no="2" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="3" sum="1,000" player="veverka7" type="15"/>
+   <action no="4" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="5" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="6" sum="1,000" player="Blondie69" type="15"/>
+   <action no="7" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="8" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="9" sum="6,000" player="BigHead86" type="1"/>
+   <action no="10" sum="12,000" player="UnfazedFace" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="veverka7" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="13" sum="24,000" player="Hofstadter" type="23"/>
+   <cards player="Blondie69" type="Pocket">H9 HA</cards>
+   <action no="14" sum="75,400" player="Blondie69" type="23"/>
+   <cards player="CANOeJK" type="Pocket">DA CK</cards>
+   <action no="15" sum="187,200" player="CANOeJK" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S7 C3</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="UnfazedFace" type="0"/>
+   <action no="19" sum="0" player="Hofstadter" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 SQ H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10586056348">
+  <general>
+   <startdate>2024-02-26 19:09:12</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="183,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="131,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="1" seat="2"/>
+    <player name="UnfazedFace" chips="65,800" win="31,000" addon="0" reg_code="" bet="64,800" rebuy="0" dealer="0" seat="4"/>
+    <player name="veverka7" chips="95,200" win="0" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="102,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="86,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="CANOeJK" chips="312,600" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="2" sum="1,000" player="veverka7" type="15"/>
+   <action no="3" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="4" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="5" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="6" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="7" sum="1,000" player="BigHead86" type="15"/>
+   <action no="8" sum="6,000" player="UnfazedFace" type="1"/>
+   <action no="9" sum="12,000" player="veverka7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="DebsThDestroyer" type="0"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Hofstadter" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 D8</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="15" sum="64,800" player="UnfazedFace" type="23"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="veverka7" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586056359">
+  <general>
+   <startdate>2024-02-26 19:09:44</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="182,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="130,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="83,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="1" seat="4"/>
+    <player name="veverka7" chips="82,200" win="0" addon="0" reg_code="" bet="81,200" rebuy="0" dealer="0" seat="5"/>
+    <player name="DebsThDestroyer" chips="101,800" win="170,400" addon="0" reg_code="" bet="82,200" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="85,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="DirtyGrinder85" chips="122,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="311,600" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="veverka7" type="15"/>
+   <action no="2" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="3" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="4" sum="1,000" player="DirtyGrinder85" type="15"/>
+   <action no="5" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="6" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="7" sum="1,000" player="BigHead86" type="15"/>
+   <action no="8" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="9" sum="6,000" player="veverka7" type="1"/>
+   <action no="10" sum="12,000" player="DebsThDestroyer" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Hofstadter" type="0"/>
+   <cards player="DirtyGrinder85" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="DirtyGrinder85" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 C4</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="veverka7" type="Pocket">SK SQ</cards>
+   <action no="17" sum="81,200" player="veverka7" type="23"/>
+   <cards player="DebsThDestroyer" type="Pocket">S10 D10</cards>
+   <action no="18" sum="69,200" player="DebsThDestroyer" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 S4 C9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+  </round>
+ </game>
+ <game gamecode="10586056377">
+  <general>
+   <startdate>2024-02-26 19:10:28</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="181,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="129,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="82,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="DebsThDestroyer" chips="190,000" win="0" addon="0" reg_code="" bet="7,000" rebuy="0" dealer="0" seat="6"/>
+    <player name="Hofstadter" chips="84,000" win="19,000" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="DirtyGrinder85" chips="121,200" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="310,600" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="2" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="3" sum="1,000" player="DirtyGrinder85" type="15"/>
+   <action no="4" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="5" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="6" sum="1,000" player="BigHead86" type="15"/>
+   <action no="7" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="8" sum="6,000" player="DebsThDestroyer" type="1"/>
+   <action no="9" sum="12,000" player="Hofstadter" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <cards player="DirtyGrinder85" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="DirtyGrinder85" type="0"/>
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 S6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="DebsThDestroyer" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10586056388">
+  <general>
+   <startdate>2024-02-26 19:11:00</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player name="tropeiro123" chips="180,000" win="0" addon="0" reg_code="7961780666" bet="1,000" rebuy="0" dealer="0" seat="1"/>
+    <player name="BigHead86" chips="128,000" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="2"/>
+    <player name="UnfazedFace" chips="81,800" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="4"/>
+    <player name="DebsThDestroyer" chips="183,000" win="37,000" addon="0" reg_code="" bet="182,000" rebuy="0" dealer="1" seat="6"/>
+    <player name="Hofstadter" chips="96,000" win="0" addon="0" reg_code="" bet="7,000" rebuy="0" dealer="0" seat="7"/>
+    <player name="DirtyGrinder85" chips="120,200" win="0" addon="0" reg_code="" bet="13,000" rebuy="0" dealer="0" seat="9"/>
+    <player name="CANOeJK" chips="309,600" win="0" addon="0" reg_code="" bet="1,000" rebuy="0" dealer="0" seat="10"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="Hofstadter" type="15"/>
+   <action no="2" sum="1,000" player="DirtyGrinder85" type="15"/>
+   <action no="3" sum="1,000" player="CANOeJK" type="15"/>
+   <action no="4" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="5" sum="1,000" player="BigHead86" type="15"/>
+   <action no="6" sum="1,000" player="UnfazedFace" type="15"/>
+   <action no="7" sum="1,000" player="DebsThDestroyer" type="15"/>
+   <action no="8" sum="6,000" player="Hofstadter" type="1"/>
+   <action no="9" sum="12,000" player="DirtyGrinder85" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CANOeJK" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="CANOeJK" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 C10</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BigHead86" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BigHead86" type="0"/>
+   <cards player="UnfazedFace" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="UnfazedFace" type="0"/>
+   <cards player="DebsThDestroyer" type="Pocket">X X</cards>
+   <action no="14" sum="182,000" player="DebsThDestroyer" type="23"/>
+   <cards player="Hofstadter" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Hofstadter" type="0"/>
+   <cards player="DirtyGrinder85" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="DirtyGrinder85" type="0"/>
+  </round>
+ </game>
+</session>

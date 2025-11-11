@@ -1,0 +1,77 @@
+app/upload/ingest.py — novo serviço de ingestão
+
+# app/upload/ingest.py
+import io, zipfile, shutil, re, uuid
+from pathlib import Path
+
+SAFE_UPLOAD = Path("/tmp/uploads")
+SAFE_UPLOAD.mkdir(parents=True, exist_ok=True)
+
+ENCODINGS = ["utf-8", "utf-8-sig", "cp1252", "latin-1"]
+
+MYSTERY_PATTERNS = [
+    r"(?i)\bmystery\s*bounty\b",           # “Mystery Bounty”
+]
+PKO_PATTERNS = [
+    r"(?i)\bbounty\s*hunters\b",           # GGPoker: “Bounty Hunters”  :contentReference[oaicite:2]{index=2}
+    r"(?i)\b(progressive|knock.?out|KO)\b",
+    r"(?i)\bBounty\b",                      # genérico (com filtros a seguir)
+]
+# PokerStars: buy-in “A+B+fee” tipicamente KO
+STARS_KO_PATTERN = r"(?i)Tournament\s+#\d+.*?Hold'em.*?(\d+[.,]\d+)\s*\+\s*(\d+[.,]\d+)\s*\+\s*(\d+[.,]\d+)"
+# ex.: “€3.37+€3.38+€0.75”  :contentReference[oaicite:3]{index=3}
+
+def smart_read_text(path: Path) -> str:
+    data = path.read_bytes()
+    for enc in ENCODINGS:
+        try:
+            return data.decode(enc).replace("\r\n", "\n").replace("\r", "\n")
+        except UnicodeDecodeError:
+            continue
+    return data.decode("latin-1", errors="ignore")
+
+def detect_bucket(text: str) -> str:
+    # Ordem: Mystery > PKO > NON-KO
+    for pat in MYSTERY_PATTERNS:
+        if re.search(pat, text):
+            return "MYSTERY"
+    if re.search(STARS_KO_PATTERN, text):
+        return "PKO"
+    for pat in PKO_PATTERNS:
+        if re.search(pat, text):
+            return "PKO"
+    return "NON_KO"
+
+def ingest_zip(file_bytes: bytes) -> dict:
+    token = uuid.uuid4().hex
+    root = SAFE_UPLOAD / token
+    raw_dir = root / "raw"
+    raw_dir.mkdir(parents=True, exist_ok=True)
+
+    with zipfile.ZipFile(io.BytesIO(file_bytes)) as zf:
+        for zi in zf.infolist():
+            if zi.is_dir(): 
+                continue
+            name = Path(zi.filename).name
+            if not name.lower().endswith(".txt"): 
+                continue
+            out = raw_dir / name
+            out.write_bytes(zf.read(zi))
+
+    # flatten, normalize and classify
+    classified = {"NON_KO": [], "PKO": [], "MYSTERY": []}
+    for path in raw_dir.glob("*.txt"):
+        text = smart_read_text(path)
+        bucket = detect_bucket(text)
+        # re‑write normalizado (UTF‑8 LF)
+        path.write_text(text, encoding="utf-8")
+        classified[bucket].append(str(path))
+
+    manifest = {
+        "token": token,
+        "counts": {k: len(v) for k, v in classified.items()},
+        "files": classified,
+        "root": str(root),
+    }
+    (root / "manifest.json").write_text(__import__("json").dumps(manifest, ensure_ascii=False, indent=2))
+    return manifest

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954841948">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3,000|7-Max Classic, 1081498594</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:16:06</duration>
+  <gamecount>12</gamecount>
+  <startdate>2024-02-19 14:52:17</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>114,929</bets>
+  <wins>0</wins>
+  <chipsin>99,400</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP9</statuspoints>
+  <awardpoints>RP27</awardpoints>
+  <ipoints>RP9</ipoints>
+  <tablesize>7</tablesize>
+  <tournamentcode>1080870246</tournamentcode>
+  <tournamentname>€3,000|7-Max Classic</tournamentname>
+  <place>137</place>
+  <buyin>€9.10 + €0.90</buyin>
+  <totalbuyin>€10</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10572991942">
+  <general>
+   <startdate>2024-02-19 14:52:17</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="163,330" dealer="0" seat="1" name="PCO1992" bet="156,130" addon="0" rebuy="0" chips="385,137"/>
+    <player reg_code="" win="0" dealer="0" seat="3" name="paw1979" bet="600" addon="0" rebuy="0" chips="93,501"/>
+    <player reg_code="7954841948" win="0" dealer="1" seat="4" name="tropeiro123" bet="600" addon="0" rebuy="0" chips="15,529"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="biscoitinho11" bet="3,600" addon="0" rebuy="0" chips="155,142"/>
+    <player reg_code="" win="0" dealer="0" seat="8" name="MrAnubiSS1" bet="6,600" addon="0" rebuy="0" chips="107,723"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Djebila" bet="75,065" addon="0" rebuy="0" chips="75,665"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="AlfNobell" bet="600" addon="0" rebuy="0" chips="180,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="biscoitinho11" sum="600" type="15"/>
+   <action no="2" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="3" player="Djebila" sum="600" type="15"/>
+   <action no="4" player="AlfNobell" sum="600" type="15"/>
+   <action no="5" player="PCO1992" sum="600" type="15"/>
+   <action no="6" player="paw1979" sum="600" type="15"/>
+   <action no="7" player="tropeiro123" sum="600" type="15"/>
+   <action no="8" player="biscoitinho11" sum="3,000" type="1"/>
+   <action no="9" player="MrAnubiSS1" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Djebila" type="Pocket">CA C10</cards>
+   <action no="10" player="Djebila" sum="75,065" type="23"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="11" player="AlfNobell" sum="0" type="0"/>
+   <cards player="PCO1992" type="Pocket">S10 D10</cards>
+   <action no="12" player="PCO1992" sum="156,130" type="23"/>
+   <cards player="paw1979" type="Pocket">X X</cards>
+   <action no="13" player="paw1979" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 DQ</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <action no="15" player="biscoitinho11" sum="0" type="0"/>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="16" player="MrAnubiSS1" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 D3 D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+ <game gamecode="10573008710">
+  <general>
+   <startdate>2024-02-19 14:53:26</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="18,600" dealer="0" seat="1" name="PCO1992" bet="12,000" addon="0" rebuy="0" chips="472,802"/>
+    <player reg_code="" win="0" dealer="0" seat="3" name="paw1979" bet="600" addon="0" rebuy="0" chips="92,901"/>
+    <player reg_code="7954841948" win="0" dealer="0" seat="4" name="tropeiro123" bet="600" addon="0" rebuy="0" chips="14,929"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="biscoitinho11" bet="600" addon="0" rebuy="0" chips="151,542"/>
+    <player reg_code="" win="0" dealer="0" seat="8" name="MrAnubiSS1" bet="3,600" addon="0" rebuy="0" chips="101,123"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="AlfNobell" bet="6,600" addon="0" rebuy="0" chips="179,800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="2" player="AlfNobell" sum="600" type="15"/>
+   <action no="3" player="PCO1992" sum="600" type="15"/>
+   <action no="4" player="paw1979" sum="600" type="15"/>
+   <action no="5" player="tropeiro123" sum="600" type="15"/>
+   <action no="6" player="biscoitinho11" sum="600" type="15"/>
+   <action no="7" player="MrAnubiSS1" sum="3,000" type="1"/>
+   <action no="8" player="AlfNobell" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PCO1992" type="Pocket">X X</cards>
+   <action no="9" player="PCO1992" sum="12,000" type="23"/>
+   <cards player="paw1979" type="Pocket">X X</cards>
+   <action no="10" player="paw1979" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 C8</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <action no="12" player="biscoitinho11" sum="0" type="0"/>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="13" player="MrAnubiSS1" sum="0" type="0"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="14" player="AlfNobell" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573008751">
+  <general>
+   <startdate>2024-02-19 14:53:50</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="9,600" dealer="0" seat="1" name="PCO1992" bet="6,600" addon="0" rebuy="0" chips="484,802"/>
+    <player reg_code="" win="0" dealer="0" seat="3" name="paw1979" bet="600" addon="0" rebuy="0" chips="92,301"/>
+    <player reg_code="7954841948" win="0" dealer="0" seat="4" name="tropeiro123" bet="600" addon="0" rebuy="0" chips="14,329"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="biscoitinho11" bet="600" addon="0" rebuy="0" chips="150,942"/>
+    <player reg_code="" win="0" dealer="1" seat="8" name="MrAnubiSS1" bet="600" addon="0" rebuy="0" chips="97,523"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="AlfNobell" bet="3,600" addon="0" rebuy="0" chips="173,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="AlfNobell" sum="600" type="15"/>
+   <action no="2" player="PCO1992" sum="600" type="15"/>
+   <action no="3" player="paw1979" sum="600" type="15"/>
+   <action no="4" player="tropeiro123" sum="600" type="15"/>
+   <action no="5" player="biscoitinho11" sum="600" type="15"/>
+   <action no="6" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="7" player="AlfNobell" sum="3,000" type="1"/>
+   <action no="8" player="PCO1992" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PCO1992" type="Pocket">X X</cards>
+   <cards player="paw1979" type="Pocket">X X</cards>
+   <action no="9" player="paw1979" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 S2</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <action no="11" player="biscoitinho11" sum="0" type="0"/>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="12" player="MrAnubiSS1" sum="0" type="0"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="13" player="AlfNobell" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573008795">
+  <general>
+   <startdate>2024-02-19 14:54:23</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="27,600" dealer="0" seat="3" name="paw1979" bet="91,101" addon="0" rebuy="0" chips="91,701"/>
+    <player reg_code="7954841948" win="0" dealer="0" seat="4" name="tropeiro123" bet="600" addon="0" rebuy="0" chips="13,729"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="biscoitinho11" bet="600" addon="0" rebuy="0" chips="150,342"/>
+    <player reg_code="" win="0" dealer="0" seat="8" name="MrAnubiSS1" bet="600" addon="0" rebuy="0" chips="96,923"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chee1eee" bet="12,600" addon="0" rebuy="0" chips="176,411"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="AlfNobell" bet="600" addon="0" rebuy="0" chips="169,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="paw1979" sum="600" type="15"/>
+   <action no="2" player="tropeiro123" sum="600" type="15"/>
+   <action no="3" player="biscoitinho11" sum="600" type="15"/>
+   <action no="4" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="5" player="Chee1eee" sum="600" type="15"/>
+   <action no="6" player="AlfNobell" sum="600" type="15"/>
+   <action no="7" player="paw1979" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 H9</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <action no="9" player="biscoitinho11" sum="0" type="0"/>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="10" player="MrAnubiSS1" sum="0" type="0"/>
+   <cards player="Chee1eee" type="Pocket">X X</cards>
+   <action no="11" player="Chee1eee" sum="12,000" type="23"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="12" player="AlfNobell" sum="0" type="0"/>
+   <cards player="paw1979" type="Pocket">X X</cards>
+   <action no="13" player="paw1979" sum="91,101" type="23"/>
+   <action no="14" player="Chee1eee" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573008845">
+  <general>
+   <startdate>2024-02-19 14:54:53</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Patucha55" bet="600" addon="0" rebuy="0" chips="142,920"/>
+    <player reg_code="" win="0" dealer="1" seat="3" name="paw1979" bet="600" addon="0" rebuy="0" chips="106,701"/>
+    <player reg_code="7954841948" win="0" dealer="0" seat="4" name="tropeiro123" bet="3,600" addon="0" rebuy="0" chips="13,129"/>
+    <player reg_code="" win="10,200" dealer="0" seat="6" name="biscoitinho11" bet="6,600" addon="0" rebuy="0" chips="149,742"/>
+    <player reg_code="" win="0" dealer="0" seat="8" name="MrAnubiSS1" bet="600" addon="0" rebuy="0" chips="96,323"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chee1eee" bet="600" addon="0" rebuy="0" chips="163,811"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="AlfNobell" bet="600" addon="0" rebuy="0" chips="169,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="600" type="15"/>
+   <action no="2" player="biscoitinho11" sum="600" type="15"/>
+   <action no="3" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="4" player="Chee1eee" sum="600" type="15"/>
+   <action no="5" player="AlfNobell" sum="600" type="15"/>
+   <action no="6" player="Patucha55" sum="600" type="15"/>
+   <action no="7" player="paw1979" sum="600" type="15"/>
+   <action no="8" player="tropeiro123" sum="3,000" type="1"/>
+   <action no="9" player="biscoitinho11" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="10" player="MrAnubiSS1" sum="0" type="0"/>
+   <cards player="Chee1eee" type="Pocket">X X</cards>
+   <action no="11" player="Chee1eee" sum="0" type="0"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="12" player="AlfNobell" sum="0" type="0"/>
+   <cards player="Patucha55" type="Pocket">X X</cards>
+   <action no="13" player="Patucha55" sum="0" type="0"/>
+   <cards player="paw1979" type="Pocket">X X</cards>
+   <action no="14" player="paw1979" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 H4</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573008881">
+  <general>
+   <startdate>2024-02-19 15:01:24</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Patucha55" bet="600" addon="0" rebuy="0" chips="142,320"/>
+    <player reg_code="" win="233,131" dealer="0" seat="3" name="paw1979" bet="106,101" addon="0" rebuy="0" chips="106,101"/>
+    <player reg_code="7954841948" win="0" dealer="1" seat="4" name="tropeiro123" bet="9,529" addon="0" rebuy="0" chips="9,529"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="biscoitinho11" bet="3,600" addon="0" rebuy="0" chips="156,342"/>
+    <player reg_code="" win="0" dealer="0" seat="8" name="MrAnubiSS1" bet="6,600" addon="0" rebuy="0" chips="95,723"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chee1eee" bet="106,101" addon="0" rebuy="0" chips="163,211"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="AlfNobell" bet="600" addon="0" rebuy="0" chips="168,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="biscoitinho11" sum="600" type="15"/>
+   <action no="2" player="MrAnubiSS1" sum="600" type="15"/>
+   <action no="3" player="Chee1eee" sum="600" type="15"/>
+   <action no="4" player="AlfNobell" sum="600" type="15"/>
+   <action no="5" player="Patucha55" sum="600" type="15"/>
+   <action no="6" player="paw1979" sum="600" type="15"/>
+   <action no="7" player="tropeiro123" sum="600" type="15"/>
+   <action no="8" player="biscoitinho11" sum="3,000" type="1"/>
+   <action no="9" player="MrAnubiSS1" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Chee1eee" type="Pocket">SJ HJ</cards>
+   <action no="10" player="Chee1eee" sum="12,000" type="23"/>
+   <cards player="AlfNobell" type="Pocket">X X</cards>
+   <action no="11" player="AlfNobell" sum="0" type="0"/>
+   <cards player="Patucha55" type="Pocket">X X</cards>
+   <action no="12" player="Patucha55" sum="0" type="0"/>
+   <cards player="paw1979" type="Pocket">D10 DK</cards>
+   <action no="13" player="paw1979" sum="12,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">DA H4</cards>
+   <action no="14" player="tropeiro123" sum="8,929" type="7"/>
+   <cards player="biscoitinho11" type="Pocket">X X</cards>
+   <action no="15" player="biscoitinho11" sum="0" type="0"/>
+   <cards player="MrAnubiSS1" type="Pocket">X X</cards>
+   <action no="16" player="MrAnubiSS1" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 S6 C4</cards>
+   <action no="17" player="Chee1eee" sum="18,000" type="5"/>
+   <action no="18" player="paw1979" sum="93,501" type="23"/>
+   <action no="19" player="Chee1eee" sum="75,501" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+</session>

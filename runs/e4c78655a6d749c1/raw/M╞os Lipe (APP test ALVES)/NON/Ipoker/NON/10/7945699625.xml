@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7945699625">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,000|The Classic, 1080686811</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:15:29</duration>
+  <gamecount>16</gamecount>
+  <startdate>2024-02-10 13:28:43</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>37,685</bets>
+  <wins>32,160</wins>
+  <chipsin>49,710</chipsin>
+  <chipsout>24,475</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080576455</tournamentcode>
+  <tournamentname>€2,000|The Classic</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10556361378">
+  <general>
+   <startdate>2024-02-10 13:28:43</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player bet="16,900" chips="16,900" rebuy="0" seat="1" addon="0" dealer="1" win="37,200" reg_code="" name="massimo12345"/>
+    <player bet="1,050" chips="36,024" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="vnrookie1"/>
+    <player bet="1,850" chips="110,660" rebuy="0" seat="4" addon="0" dealer="0" win="0" reg_code="" name="Salazaar63"/>
+    <player bet="21,733" chips="21,983" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="Iustus"/>
+    <player bet="250" chips="115,180" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Sleeepc"/>
+    <player bet="250" chips="109,315" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="MtRiscoPoucoEgo"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="vnrookie1" sum="250" no="1"/>
+   <action type="15" player="Salazaar63" sum="250" no="2"/>
+   <action type="15" player="Iustus" sum="250" no="3"/>
+   <action type="15" player="Sleeepc" sum="250" no="4"/>
+   <action type="15" player="MtRiscoPoucoEgo" sum="250" no="5"/>
+   <action type="15" player="massimo12345" sum="250" no="6"/>
+   <action type="1" player="vnrookie1" sum="800" no="7"/>
+   <action type="2" player="Salazaar63" sum="1,600" no="8"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Iustus">SK CQ</cards>
+   <action type="23" player="Iustus" sum="21,733" no="9"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" player="Sleeepc" sum="0" no="10"/>
+   <cards type="Pocket" player="MtRiscoPoucoEgo">X X</cards>
+   <action type="0" player="MtRiscoPoucoEgo" sum="0" no="11"/>
+   <cards type="Pocket" player="massimo12345">H10 DA</cards>
+   <action type="7" player="massimo12345" sum="16,650" no="12"/>
+   <cards type="Pocket" player="vnrookie1">X X</cards>
+   <action type="0" player="vnrookie1" sum="0" no="13"/>
+   <cards type="Pocket" player="Salazaar63">X X</cards>
+   <action type="0" player="Salazaar63" sum="0" no="14"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D3 H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10556361394">
+  <general>
+   <startdate>2024-02-10 13:29:32</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player bet="250" chips="37,200" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="massimo12345"/>
+    <player bet="250" chips="34,974" rebuy="0" seat="2" addon="0" dealer="1" win="0" reg_code="" name="vnrookie1"/>
+    <player bet="1,050" chips="108,810" rebuy="0" seat="4" addon="0" dealer="0" win="0" reg_code="" name="Salazaar63"/>
+    <player bet="1,850" chips="5,083" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="Iustus"/>
+    <player bet="250" chips="114,930" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Sleeepc"/>
+    <player bet="12,450" chips="30,000" rebuy="0" seat="7" addon="0" dealer="0" win="32,160" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="3,610" chips="30,000" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="" name="Hochloffpower"/>
+    <player bet="12,450" chips="109,065" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="MtRiscoPoucoEgo"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Salazaar63" sum="250" no="1"/>
+   <action type="15" player="Iustus" sum="250" no="2"/>
+   <action type="15" player="Sleeepc" sum="250" no="3"/>
+   <action type="15" player="tropeiro123" sum="250" no="4"/>
+   <action type="15" player="Hochloffpower" sum="250" no="5"/>
+   <action type="15" player="MtRiscoPoucoEgo" sum="250" no="6"/>
+   <action type="15" player="massimo12345" sum="250" no="7"/>
+   <action type="15" player="vnrookie1" sum="250" no="8"/>
+   <action type="1" player="Salazaar63" sum="800" no="9"/>
+   <action type="2" player="Iustus" sum="1,600" no="10"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" player="Sleeepc" sum="0" no="11"/>
+   <cards type="Pocket" player="tropeiro123">C10 CJ</cards>
+   <action type="23" player="tropeiro123" sum="3,360" no="12"/>
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="3" player="Hochloffpower" sum="3,360" no="13"/>
+   <cards type="Pocket" player="MtRiscoPoucoEgo">DJ DQ</cards>
+   <action type="3" player="MtRiscoPoucoEgo" sum="3,360" no="14"/>
+   <cards type="Pocket" player="massimo12345">X X</cards>
+   <action type="0" player="massimo12345" sum="0" no="15"/>
+   <cards type="Pocket" player="vnrookie1">X X</cards>
+   <action type="0" player="vnrookie1" sum="0" no="16"/>
+   <cards type="Pocket" player="Salazaar63">X X</cards>
+   <action type="0" player="Salazaar63" sum="0" no="17"/>
+   <cards type="Pocket" player="Iustus">X X</cards>
+   <action type="0" player="Iustus" sum="0" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 DK C7</cards>
+   <action type="4" player="tropeiro123" sum="0" no="19"/>
+   <action type="4" player="Hochloffpower" sum="0" no="20"/>
+   <action type="5" player="MtRiscoPoucoEgo" sum="3,620" no="21"/>
+   <action type="23" player="tropeiro123" sum="8,840" no="22"/>
+   <action type="0" player="Hochloffpower" sum="0" no="23"/>
+   <action type="3" player="MtRiscoPoucoEgo" sum="5,220" no="24"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action type="4" player="tropeiro123" sum="0" no="25"/>
+   <action type="4" player="MtRiscoPoucoEgo" sum="0" no="26"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action type="4" player="tropeiro123" sum="0" no="27"/>
+   <action type="4" player="MtRiscoPoucoEgo" sum="0" no="28"/>
+  </round>
+ </game>
+ <game gamecode="10556361426">
+  <general>
+   <startdate>2024-02-10 13:31:46</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player bet="3,200" chips="36,950" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="massimo12345"/>
+    <player bet="250" chips="34,724" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="vnrookie1"/>
+    <player bet="250" chips="107,760" rebuy="0" seat="4" addon="0" dealer="1" win="0" reg_code="" name="Salazaar63"/>
+    <player bet="3,233" chips="3,233" rebuy="0" seat="5" addon="0" dealer="0" win="9,566" reg_code="" name="Iustus"/>
+    <player bet="1,850" chips="114,680" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Sleeepc"/>
+    <player bet="250" chips="49,710" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="250" chips="26,390" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="" name="Hochloffpower"/>
+    <player bet="250" chips="96,615" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="MtRiscoPoucoEgo"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Iustus" sum="250" no="1"/>
+   <action type="15" player="Sleeepc" sum="250" no="2"/>
+   <action type="15" player="tropeiro123" sum="250" no="3"/>
+   <action type="15" player="Hochloffpower" sum="250" no="4"/>
+   <action type="15" player="MtRiscoPoucoEgo" sum="250" no="5"/>
+   <action type="15" player="massimo12345" sum="250" no="6"/>
+   <action type="15" player="vnrookie1" sum="250" no="7"/>
+   <action type="15" player="Salazaar63" sum="250" no="8"/>
+   <action type="1" player="Iustus" sum="800" no="9"/>
+   <action type="2" player="Sleeepc" sum="1,600" no="10"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">D4 C9</cards>
+   <action type="0" player="tropeiro123" sum="0" no="11"/>
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="0" player="Hochloffpower" sum="0" no="12"/>
+   <cards type="Pocket" player="MtRiscoPoucoEgo">X X</cards>
+   <action type="0" player="MtRiscoPoucoEgo" sum="0" no="13"/>
+   <cards type="Pocket" player="massimo12345">C10 CQ</cards>
+   <action type="23" player="massimo12345" sum="3,200" no="14"/>
+   <cards type="Pocket" player="vnrookie1">X X</cards>
+   <action type="0" player="vnrookie1" sum="0" no="15"/>
+   <cards type="Pocket" player="Salazaar63">X X</cards>
+   <action type="0" player="Salazaar63" sum="0" no="16"/>
+   <cards type="Pocket" player="Iustus">HK H3</cards>
+   <action type="7" player="Iustus" sum="2,183" no="17"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" player="Sleeepc" sum="0" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H5 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10556361433">
+  <general>
+   <startdate>2024-02-10 13:32:28</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="33,717" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="massimo12345"/>
+    <player bet="275" chips="34,474" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="vnrookie1"/>
+    <player bet="275" chips="107,510" rebuy="0" seat="4" addon="0" dealer="0" win="0" reg_code="" name="Salazaar63"/>
+    <player bet="275" chips="9,566" rebuy="0" seat="5" addon="0" dealer="1" win="0" reg_code="" name="Iustus"/>
+    <player bet="1,175" chips="112,830" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Sleeepc"/>
+    <player bet="3,875" chips="49,460" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="275" chips="26,140" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="" name="Hochloffpower"/>
+    <player bet="8,819" chips="96,365" rebuy="0" seat="10" addon="0" dealer="0" win="10,300" reg_code="" name="MtRiscoPoucoEgo"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Sleeepc" sum="275" no="1"/>
+   <action type="15" player="tropeiro123" sum="275" no="2"/>
+   <action type="15" player="Hochloffpower" sum="275" no="3"/>
+   <action type="15" player="MtRiscoPoucoEgo" sum="275" no="4"/>
+   <action type="15" player="massimo12345" sum="275" no="5"/>
+   <action type="15" player="vnrookie1" sum="275" no="6"/>
+   <action type="15" player="Salazaar63" sum="275" no="7"/>
+   <action type="15" player="Iustus" sum="275" no="8"/>
+   <action type="1" player="Sleeepc" sum="900" no="9"/>
+   <action type="2" player="tropeiro123" sum="1,800" no="10"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="0" player="Hochloffpower" sum="0" no="11"/>
+   <cards type="Pocket" player="MtRiscoPoucoEgo">X X</cards>
+   <action type="23" player="MtRiscoPoucoEgo" sum="3,600" no="12"/>
+   <cards type="Pocket" player="massimo12345">X X</cards>
+   <action type="0" player="massimo12345" sum="0" no="13"/>
+   <cards type="Pocket" player="vnrookie1">X X</cards>
+   <action type="0" player="vnrookie1" sum="0" no="14"/>
+   <cards type="Pocket" player="Salazaar63">X X</cards>
+   <action type="0" player="Salazaar63" sum="0" no="15"/>
+   <cards type="Pocket" player="Iustus">X X</cards>
+   <action type="0" player="Iustus" sum="0" no="16"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" player="Sleeepc" sum="0" no="17"/>
+   <cards type="Pocket" player="tropeiro123">SQ S4</cards>
+   <action type="3" player="tropeiro123" sum="1,800" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 CA H5</cards>
+   <action type="4" player="tropeiro123" sum="0" no="19"/>
+   <action type="5" player="MtRiscoPoucoEgo" sum="4,944" no="20"/>
+   <action type="0" player="tropeiro123" sum="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10556361447">
+  <general>
+   <startdate>2024-02-10 13:33:27</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="33,442" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="massimo12345"/>
+    <player bet="9,025" chips="34,199" rebuy="0" seat="2" addon="0" dealer="0" win="10,300" reg_code="" name="vnrookie1"/>
+    <player bet="275" chips="107,235" rebuy="0" seat="4" addon="0" dealer="0" win="0" reg_code="" name="Salazaar63"/>
+    <player bet="275" chips="9,291" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="Iustus"/>
+    <player bet="275" chips="111,655" rebuy="0" seat="6" addon="0" dealer="1" win="0" reg_code="" name="Sleeepc"/>
+    <player bet="1,175" chips="45,585" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="3,875" chips="25,865" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="" name="Hochloffpower"/>
+    <player bet="275" chips="102,790" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="MtRiscoPoucoEgo"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="tropeiro123" sum="275" no="1"/>
+   <action type="15" player="Hochloffpower" sum="275" no="2"/>
+   <action type="15" player="MtRiscoPoucoEgo" sum="275" no="3"/>
+   <action type="15" player="massimo12345" sum="275" no="4"/>
+   <action type="15" player="vnrookie1" sum="275" no="5"/>
+   <action type="15" player="Salazaar63" sum="275" no="6"/>
+   <action type="15" player="Iustus" sum="275" no="7"/>
+   <action type="15" player="Sleeepc" sum="275" no="8"/>
+   <action type="1" player="tropeiro123" sum="900" no="9"/>
+   <action type="2" player="Hochloffpower" sum="1,800" no="10"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MtRiscoPoucoEgo">X X</cards>
+   <action type="0" player="MtRiscoPoucoEgo" sum="0" no="11"/>
+   <cards type="Pocket" player="massimo12345">X X</cards>
+   <action type="0" player="massimo12345" sum="0" no="12"/>
+   <cards type="Pocket" player="vnrookie1">X X</cards>
+   <action type="23" player="vnrookie1" sum="3,600" no="13"/>
+   <cards type="Pocket" player="Salazaar63">X X</cards>
+   <action type="0" player="Salazaar63" sum="0" no="14"/>
+   <cards type="Pocket" player="Iustus">X X</cards>
+   <action type="0" player="Iustus" sum="0" no="15"/>
+   <cards type="Pocket" player="Sleeepc">X X</cards>
+   <action type="0" player="Sleeepc" sum="0" no="16"/>
+   <cards type="Pocket" player="tropeiro123">D4 C5</cards>
+   <action type="0" player="tropeiro123" sum="0" no="17"/>
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="3" player="Hochloffpower" sum="1,800" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ DJ DK</cards>
+   <action type="4" player="Hochloffpower" sum="0" no="19"/>
+   <action type="5" player="vnrookie1" sum="5,150" no="20"/>
+   <action type="0" player="Hochloffpower" sum="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10556361452">
+  <general>
+   <startdate>2024-02-10 13:33:59</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="52,833" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="275" chips="199,077" rebuy="0" seat="2" addon="0" dealer="1" win="0" reg_code="" name="Kyrix"/>
+    <player bet="2,075" chips="25,550" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="5,487" chips="5,762" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Razavezatrantana"/>
+    <player bet="275" chips="157,087" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="" name="romanslv19871"/>
+    <player bet="5,762" chips="51,712" rebuy="0" seat="10" addon="0" dealer="0" win="14,424" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="BrazHell" sum="275" no="1"/>
+   <action type="15" player="Razavezatrantana" sum="275" no="2"/>
+   <action type="15" player="romanslv19871" sum="275" no="3"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="4"/>
+   <action type="15" player="Cem1994" sum="275" no="5"/>
+   <action type="15" player="Kyrix" sum="275" no="6"/>
+   <action type="2" player="BrazHell" sum="1,800" no="7"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Razavezatrantana">CA D6</cards>
+   <action type="23" player="Razavezatrantana" sum="5,487" no="8"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="0" player="romanslv19871" sum="0" no="9"/>
+   <cards type="Pocket" player="BFBikeNSE">S9 DA</cards>
+   <action type="3" player="BFBikeNSE" sum="5,487" no="10"/>
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="0" player="Cem1994" sum="0" no="11"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="12"/>
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="13"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK H9 H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10556361462">
+  <general>
+   <startdate>2024-02-10 13:34:33</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="52,558" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="275" chips="198,802" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="3,875" chips="23,475" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="3,875" chips="156,812" rebuy="0" seat="7" addon="0" dealer="0" win="8,850" reg_code="" name="romanslv19871"/>
+    <player bet="275" chips="44,410" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="275" chips="60,374" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="BrazHell" sum="275" no="1"/>
+   <action type="15" player="romanslv19871" sum="275" no="2"/>
+   <action type="15" player="tropeiro123" sum="275" no="3"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="4"/>
+   <action type="15" player="Cem1994" sum="275" no="5"/>
+   <action type="15" player="Kyrix" sum="275" no="6"/>
+   <action type="1" player="BrazHell" sum="900" no="7"/>
+   <action type="2" player="romanslv19871" sum="1,800" no="8"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SQ H10</cards>
+   <action type="0" player="tropeiro123" sum="0" no="9"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="10"/>
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="0" player="Cem1994" sum="0" no="11"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="12"/>
+   <cards type="Pocket" player="BrazHell">DQ S7</cards>
+   <action type="3" player="BrazHell" sum="900" no="13"/>
+   <cards type="Pocket" player="romanslv19871">D6 D7</cards>
+   <action type="4" player="romanslv19871" sum="0" no="14"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H3 H6</cards>
+   <action type="4" player="BrazHell" sum="0" no="15"/>
+   <action type="5" player="romanslv19871" sum="1,800" no="16"/>
+   <action type="3" player="BrazHell" sum="1,800" no="17"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action type="4" player="BrazHell" sum="0" no="18"/>
+   <action type="4" player="romanslv19871" sum="0" no="19"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action type="4" player="BrazHell" sum="0" no="20"/>
+   <action type="4" player="romanslv19871" sum="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10556361468">
+  <general>
+   <startdate>2024-02-10 13:35:11</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="15,420" chips="52,283" rebuy="0" seat="1" addon="0" dealer="0" win="34,640" reg_code="" name="Cem1994"/>
+    <player bet="15,420" chips="198,527" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="275" chips="19,600" rebuy="0" seat="5" addon="0" dealer="1" win="0" reg_code="" name="BrazHell"/>
+    <player bet="1,175" chips="161,787" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="" name="romanslv19871"/>
+    <player bet="2,075" chips="44,135" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="275" chips="60,099" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="romanslv19871" sum="275" no="1"/>
+   <action type="15" player="tropeiro123" sum="275" no="2"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="3"/>
+   <action type="15" player="Cem1994" sum="275" no="4"/>
+   <action type="15" player="Kyrix" sum="275" no="5"/>
+   <action type="15" player="BrazHell" sum="275" no="6"/>
+   <action type="1" player="romanslv19871" sum="900" no="7"/>
+   <action type="2" player="tropeiro123" sum="1,800" no="8"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="9"/>
+   <cards type="Pocket" player="Cem1994">CQ DJ</cards>
+   <action type="23" player="Cem1994" sum="3,600" no="10"/>
+   <cards type="Pocket" player="Kyrix">SA CA</cards>
+   <action type="3" player="Kyrix" sum="3,600" no="11"/>
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="12"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="0" player="romanslv19871" sum="0" no="13"/>
+   <cards type="Pocket" player="tropeiro123">D9 S3</cards>
+   <action type="0" player="tropeiro123" sum="0" no="14"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK SQ S2</cards>
+   <action type="4" player="Cem1994" sum="0" no="15"/>
+   <action type="4" player="Kyrix" sum="0" no="16"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action type="5" player="Cem1994" sum="2,885" no="17"/>
+   <action type="3" player="Kyrix" sum="2,885" no="18"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action type="5" player="Cem1994" sum="8,660" no="19"/>
+   <action type="3" player="Kyrix" sum="8,660" no="20"/>
+  </round>
+ </game>
+ <game gamecode="10556361482">
+  <general>
+   <startdate>2024-02-10 13:36:12</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="71,503" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="275" chips="183,107" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="275" chips="19,325" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="275" chips="67,750" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="5,400" chips="160,612" rebuy="0" seat="7" addon="0" dealer="1" win="6,425" reg_code="" name="romanslv19871"/>
+    <player bet="1,175" chips="42,060" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="2,075" chips="59,824" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="tropeiro123" sum="275" no="1"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="2"/>
+   <action type="15" player="Cem1994" sum="275" no="3"/>
+   <action type="15" player="Kyrix" sum="275" no="4"/>
+   <action type="15" player="BrazHell" sum="275" no="5"/>
+   <action type="15" player="Stoic" sum="275" no="6"/>
+   <action type="15" player="romanslv19871" sum="275" no="7"/>
+   <action type="1" player="tropeiro123" sum="900" no="8"/>
+   <action type="2" player="BFBikeNSE" sum="1,800" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="0" player="Cem1994" sum="0" no="10"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="11"/>
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="12"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="13"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="23" player="romanslv19871" sum="5,400" no="14"/>
+   <cards type="Pocket" player="tropeiro123">HQ D10</cards>
+   <action type="0" player="tropeiro123" sum="0" no="15"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="16"/>
+  </round>
+ </game>
+ <game gamecode="10556361493">
+  <general>
+   <startdate>2024-02-10 13:36:54</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="4,235" chips="71,228" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="4,235" chips="182,832" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="275" chips="19,050" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="275" chips="67,475" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="9,834" chips="164,962" rebuy="0" seat="7" addon="0" dealer="0" win="18,665" reg_code="" name="romanslv19871"/>
+    <player bet="4,235" chips="40,885" rebuy="0" seat="9" addon="0" dealer="1" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="1,175" chips="57,749" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="BFBikeNSE" sum="275" no="1"/>
+   <action type="15" player="Cem1994" sum="275" no="2"/>
+   <action type="15" player="Kyrix" sum="275" no="3"/>
+   <action type="15" player="BrazHell" sum="275" no="4"/>
+   <action type="15" player="Stoic" sum="275" no="5"/>
+   <action type="15" player="romanslv19871" sum="275" no="6"/>
+   <action type="15" player="tropeiro123" sum="275" no="7"/>
+   <action type="1" player="BFBikeNSE" sum="900" no="8"/>
+   <action type="2" player="Cem1994" sum="1,800" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="23" player="Kyrix" sum="3,960" no="10"/>
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="11"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="12"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="3" player="romanslv19871" sum="3,960" no="13"/>
+   <cards type="Pocket" player="tropeiro123">H10 H9</cards>
+   <action type="3" player="tropeiro123" sum="3,960" no="14"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="15"/>
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="3" player="Cem1994" sum="2,160" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 C2 SA</cards>
+   <action type="4" player="Cem1994" sum="0" no="17"/>
+   <action type="4" player="Kyrix" sum="0" no="18"/>
+   <action type="5" player="romanslv19871" sum="5,599" no="19"/>
+   <action type="0" player="tropeiro123" sum="0" no="20"/>
+   <action type="0" player="Cem1994" sum="0" no="21"/>
+   <action type="0" player="Kyrix" sum="0" no="22"/>
+  </round>
+ </game>
+ <game gamecode="10556361507">
+  <general>
+   <startdate>2024-02-10 13:37:48</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="5,675" chips="66,993" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="5,675" chips="178,597" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="275" chips="18,775" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="275" chips="67,200" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="11,112" chips="179,392" rebuy="0" seat="7" addon="0" dealer="0" win="18,125" reg_code="" name="romanslv19871"/>
+    <player bet="275" chips="36,650" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="275" chips="56,574" rebuy="0" seat="10" addon="0" dealer="1" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Cem1994" sum="275" no="1"/>
+   <action type="15" player="Kyrix" sum="275" no="2"/>
+   <action type="15" player="BrazHell" sum="275" no="3"/>
+   <action type="15" player="Stoic" sum="275" no="4"/>
+   <action type="15" player="romanslv19871" sum="275" no="5"/>
+   <action type="15" player="tropeiro123" sum="275" no="6"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="7"/>
+   <action type="1" player="Cem1994" sum="900" no="8"/>
+   <action type="2" player="Kyrix" sum="1,800" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="10"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="11"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="23" player="romanslv19871" sum="5,400" no="12"/>
+   <cards type="Pocket" player="tropeiro123">CJ S4</cards>
+   <action type="0" player="tropeiro123" sum="0" no="13"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="14"/>
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="3" player="Cem1994" sum="4,500" no="15"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="3" player="Kyrix" sum="3,600" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ H6 SQ</cards>
+   <action type="4" player="Cem1994" sum="0" no="17"/>
+   <action type="4" player="Kyrix" sum="0" no="18"/>
+   <action type="4" player="romanslv19871" sum="0" no="19"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action type="4" player="Cem1994" sum="0" no="20"/>
+   <action type="4" player="Kyrix" sum="0" no="21"/>
+   <action type="5" player="romanslv19871" sum="5,437" no="22"/>
+   <action type="0" player="Cem1994" sum="0" no="23"/>
+   <action type="0" player="Kyrix" sum="0" no="24"/>
+  </round>
+ </game>
+ <game gamecode="10556380156">
+  <general>
+   <startdate>2024-02-10 13:39:05</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="275" chips="61,318" rebuy="0" seat="1" addon="0" dealer="1" win="0" reg_code="" name="Cem1994"/>
+    <player bet="1,175" chips="172,922" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="2,075" chips="18,500" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="275" chips="66,925" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="5,400" chips="191,842" rebuy="0" seat="7" addon="0" dealer="0" win="6,425" reg_code="" name="romanslv19871"/>
+    <player bet="275" chips="36,375" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="275" chips="56,299" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Kyrix" sum="275" no="1"/>
+   <action type="15" player="BrazHell" sum="275" no="2"/>
+   <action type="15" player="Stoic" sum="275" no="3"/>
+   <action type="15" player="romanslv19871" sum="275" no="4"/>
+   <action type="15" player="tropeiro123" sum="275" no="5"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="6"/>
+   <action type="15" player="Cem1994" sum="275" no="7"/>
+   <action type="1" player="Kyrix" sum="900" no="8"/>
+   <action type="2" player="BrazHell" sum="1,800" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="10"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="23" player="romanslv19871" sum="5,400" no="11"/>
+   <cards type="Pocket" player="tropeiro123">SK DJ</cards>
+   <action type="0" player="tropeiro123" sum="0" no="12"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="13"/>
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="0" player="Cem1994" sum="0" no="14"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="15"/>
+   <cards type="Pocket" player="BrazHell">X X</cards>
+   <action type="0" player="BrazHell" sum="0" no="16"/>
+  </round>
+ </game>
+ <game gamecode="10556380166">
+  <general>
+   <startdate>2024-02-10 13:39:45</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player bet="61,043" chips="61,043" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="4,955" chips="171,747" rebuy="0" seat="2" addon="0" dealer="1" win="0" reg_code="" name="Kyrix"/>
+    <player bet="16,150" chips="16,425" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="BrazHell"/>
+    <player bet="2,075" chips="66,650" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="275" chips="196,192" rebuy="0" seat="7" addon="0" dealer="0" win="0" reg_code="" name="romanslv19871"/>
+    <player bet="275" chips="36,100" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="55,749" chips="56,024" rebuy="0" seat="10" addon="0" dealer="0" win="136,053" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="BrazHell" sum="275" no="1"/>
+   <action type="15" player="Stoic" sum="275" no="2"/>
+   <action type="15" player="romanslv19871" sum="275" no="3"/>
+   <action type="15" player="tropeiro123" sum="275" no="4"/>
+   <action type="15" player="BFBikeNSE" sum="275" no="5"/>
+   <action type="15" player="Cem1994" sum="275" no="6"/>
+   <action type="15" player="Kyrix" sum="275" no="7"/>
+   <action type="1" player="BrazHell" sum="900" no="8"/>
+   <action type="2" player="Stoic" sum="1,800" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="0" player="romanslv19871" sum="0" no="10"/>
+   <cards type="Pocket" player="tropeiro123">SJ S2</cards>
+   <action type="0" player="tropeiro123" sum="0" no="11"/>
+   <cards type="Pocket" player="BFBikeNSE">S6 H6</cards>
+   <action type="23" player="BFBikeNSE" sum="4,680" no="12"/>
+   <cards type="Pocket" player="Cem1994">DQ HA</cards>
+   <action type="3" player="Cem1994" sum="4,680" no="13"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="3" player="Kyrix" sum="4,680" no="14"/>
+   <cards type="Pocket" player="BrazHell">D2 H2</cards>
+   <action type="23" player="BrazHell" sum="16,150" no="15"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="16"/>
+   <action type="23" player="BFBikeNSE" sum="55,749" no="17"/>
+   <action type="7" player="Cem1994" sum="56,088" no="18"/>
+   <action type="0" player="Kyrix" sum="0" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 S7 HK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10556380196">
+  <general>
+   <startdate>2024-02-10 13:41:42</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="4,719" chips="5,019" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="300" chips="166,792" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="1,300" chips="64,575" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="5,019" chips="195,917" rebuy="0" seat="7" addon="0" dealer="0" win="12,238" reg_code="" name="romanslv19871"/>
+    <player bet="300" chips="35,825" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="300" chips="136,053" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="Stoic" sum="300" no="1"/>
+   <action type="15" player="romanslv19871" sum="300" no="2"/>
+   <action type="15" player="tropeiro123" sum="300" no="3"/>
+   <action type="15" player="BFBikeNSE" sum="300" no="4"/>
+   <action type="15" player="Cem1994" sum="300" no="5"/>
+   <action type="15" player="Kyrix" sum="300" no="6"/>
+   <action type="1" player="Stoic" sum="1,000" no="7"/>
+   <action type="2" player="romanslv19871" sum="2,000" no="8"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C4 CQ</cards>
+   <action type="0" player="tropeiro123" sum="0" no="9"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="10"/>
+   <cards type="Pocket" player="Cem1994">D4 SA</cards>
+   <action type="23" player="Cem1994" sum="4,719" no="11"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="12"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="13"/>
+   <cards type="Pocket" player="romanslv19871">C2 SK</cards>
+   <action type="3" player="romanslv19871" sum="2,719" no="14"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 S9 D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+  </round>
+ </game>
+ <game gamecode="10556380204">
+  <general>
+   <startdate>2024-02-10 13:42:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="300" chips="166,492" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="300" chips="26,050" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="kirebet"/>
+    <player bet="300" chips="63,275" rebuy="0" seat="6" addon="0" dealer="1" win="0" reg_code="" name="Stoic"/>
+    <player bet="9,750" chips="203,136" rebuy="0" seat="7" addon="0" dealer="0" win="20,700" reg_code="" name="romanslv19871"/>
+    <player bet="9,750" chips="35,525" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="300" chips="135,753" rebuy="0" seat="10" addon="0" dealer="0" win="0" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="romanslv19871" sum="300" no="1"/>
+   <action type="15" player="tropeiro123" sum="300" no="2"/>
+   <action type="15" player="BFBikeNSE" sum="300" no="3"/>
+   <action type="15" player="Kyrix" sum="300" no="4"/>
+   <action type="15" player="kirebet" sum="300" no="5"/>
+   <action type="15" player="Stoic" sum="300" no="6"/>
+   <action type="1" player="romanslv19871" sum="1,000" no="7"/>
+   <action type="2" player="tropeiro123" sum="2,000" no="8"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="0" player="BFBikeNSE" sum="0" no="9"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="10"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" player="kirebet" sum="0" no="11"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="12"/>
+   <cards type="Pocket" player="romanslv19871">S10 H9</cards>
+   <action type="3" player="romanslv19871" sum="1,000" no="13"/>
+   <cards type="Pocket" player="tropeiro123">S4 H8</cards>
+   <action type="23" player="tropeiro123" sum="6,000" no="14"/>
+   <action type="3" player="romanslv19871" sum="4,000" no="15"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 C2 DQ</cards>
+   <action type="4" player="romanslv19871" sum="0" no="16"/>
+   <action type="5" player="tropeiro123" sum="3,450" no="17"/>
+   <action type="3" player="romanslv19871" sum="3,450" no="18"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+   <action type="4" player="romanslv19871" sum="0" no="19"/>
+   <action type="4" player="tropeiro123" sum="0" no="20"/>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+   <action type="4" player="romanslv19871" sum="0" no="21"/>
+   <action type="4" player="tropeiro123" sum="0" no="22"/>
+  </round>
+ </game>
+ <game gamecode="10556380222">
+  <general>
+   <startdate>2024-02-10 13:43:18</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player bet="7,075" chips="30,000" rebuy="0" seat="1" addon="0" dealer="0" win="0" reg_code="" name="Cem1994"/>
+    <player bet="300" chips="166,192" rebuy="0" seat="2" addon="0" dealer="0" win="0" reg_code="" name="Kyrix"/>
+    <player bet="300" chips="25,750" rebuy="0" seat="5" addon="0" dealer="0" win="0" reg_code="" name="kirebet"/>
+    <player bet="300" chips="62,975" rebuy="0" seat="6" addon="0" dealer="0" win="0" reg_code="" name="Stoic"/>
+    <player bet="300" chips="214,086" rebuy="0" seat="7" addon="0" dealer="1" win="0" reg_code="" name="romanslv19871"/>
+    <player bet="1,300" chips="25,775" rebuy="0" seat="9" addon="0" dealer="0" win="0" reg_code="7945699625" name="tropeiro123"/>
+    <player bet="9,575" chips="135,453" rebuy="0" seat="10" addon="0" dealer="0" win="16,650" reg_code="" name="BFBikeNSE"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" player="tropeiro123" sum="300" no="1"/>
+   <action type="15" player="BFBikeNSE" sum="300" no="2"/>
+   <action type="15" player="Cem1994" sum="300" no="3"/>
+   <action type="15" player="Kyrix" sum="300" no="4"/>
+   <action type="15" player="kirebet" sum="300" no="5"/>
+   <action type="15" player="Stoic" sum="300" no="6"/>
+   <action type="15" player="romanslv19871" sum="300" no="7"/>
+   <action type="1" player="tropeiro123" sum="1,000" no="8"/>
+   <action type="2" player="BFBikeNSE" sum="2,000" no="9"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Cem1994">X X</cards>
+   <action type="23" player="Cem1994" sum="4,000" no="10"/>
+   <cards type="Pocket" player="Kyrix">X X</cards>
+   <action type="0" player="Kyrix" sum="0" no="11"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" player="kirebet" sum="0" no="12"/>
+   <cards type="Pocket" player="Stoic">X X</cards>
+   <action type="0" player="Stoic" sum="0" no="13"/>
+   <cards type="Pocket" player="romanslv19871">X X</cards>
+   <action type="0" player="romanslv19871" sum="0" no="14"/>
+   <cards type="Pocket" player="tropeiro123">SA D4</cards>
+   <action type="0" player="tropeiro123" sum="0" no="15"/>
+   <cards type="Pocket" player="BFBikeNSE">X X</cards>
+   <action type="3" player="BFBikeNSE" sum="2,000" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 H10 D6</cards>
+   <action type="4" player="BFBikeNSE" sum="0" no="17"/>
+   <action type="5" player="Cem1994" sum="2,775" no="18"/>
+   <action type="3" player="BFBikeNSE" sum="2,775" no="19"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action type="4" player="BFBikeNSE" sum="0" no="20"/>
+   <action type="4" player="Cem1994" sum="0" no="21"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action type="5" player="BFBikeNSE" sum="2,500" no="22"/>
+   <action type="0" player="Cem1994" sum="0" no="23"/>
+  </round>
+ </game>
+</session>

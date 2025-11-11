@@ -1,0 +1,41 @@
+{
+  "run": {
+    "token": "e4c78655a6d749c1",
+    "base": "runs/e4c78655a6d749c1"
+  },
+  "overall": null,
+  "group_level": {},
+  "samples": {},
+  "months": [
+    "generated_at",
+    "input",
+    "dsl",
+    "metric",
+    "hands_processed",
+    "errors",
+    "stats_computed",
+    "counts"
+  ],
+  "counts": {
+    "generated_at": "2025-09-05T12:56:32.913271Z",
+    "input": "/tmp/jobs/e4c78655a6d749c1/out/parsed/hands_enriched.jsonl",
+    "dsl": "app/stats/dsl/stats.yml",
+    "metric": {
+      "type": "percent",
+      "decimals": 2
+    },
+    "hands_processed": 6482,
+    "errors": 0,
+    "stats_computed": 66,
+    "counts": {}
+  },
+  "groups": {},
+  "ingest": {
+    "files_total": 639,
+    "files_pko": 230,
+    "files_mystery": 7,
+    "files_nonko": 402,
+    "timestamp": "2025-09-05T12:56:20.082843",
+    "source_zip": "M\u00e3os Lipe (APP test ALVES).zip"
+  }
+}

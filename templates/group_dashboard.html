@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Análise de Mãos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .header {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        
+        .summary {
+            display: flex;
+            gap: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+        
+        .summary-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .summary-label {
+            font-weight: 600;
+        }
+        
+        .groups-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+        
+        .group-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .group-header {
+            padding: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .group-header.nonko-9max {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        
+        .group-header.nonko-6max {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+        }
+        
+        .group-header.pko {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+        }
+        
+        .group-info {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e0e0e0;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        .stats-section {
+            padding: 20px;
+        }
+        
+        .stat-category {
+            margin-bottom: 25px;
+        }
+        
+        .stat-category-title {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-name {
+            color: #555;
+            font-size: 14px;
+        }
+        
+        .stat-value {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .stat-percentage {
+            font-weight: 600;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .stat-count {
+            color: #999;
+            font-size: 12px;
+        }
+        
+        .stat-bar {
+            width: 60px;
+            height: 6px;
+            background: #e0e0e0;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        
+        .stat-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            border-radius: 3px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #666;
+        }
+        
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .error {
+            background: #fee;
+            color: #c00;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .btn-new-analysis {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        
+        .btn-new-analysis:hover {
+            background: #5a67d8;
+        }
+        
+        .score-badge {
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+            color: white;
+            margin-left: 5px;
+            min-width: 30px;
+            text-align: center;
+            display: inline-block;
+        }
+        
+        .score-excellent { background: #22c55e; }
+        .score-good { background: #84cc16; }
+        .score-average { background: #eab308; }
+        .score-below { background: #f97316; }
+        .score-poor { background: #ef4444; }
+        
+        .ideal-value {
+            font-size: 10px;
+            color: #888;
+            margin-left: 5px;
+        }
+        
+        .overall-score {
+            background: #1a1a1a;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+        
+        .overall-grade {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 5px;
+        }
+        
+        .score-detail {
+            font-size: 11px;
+            color: #666;
+            margin-left: 5px;
+        }
+        
+        .subgroup-score {
+            background: rgba(100, 90, 200, 0.1);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 12px 0;
+            border: 1px solid rgba(100, 90, 200, 0.3);
+        }
+        
+        .subgroup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .subgroup-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #6b63d8;
+            letter-spacing: 0.5px;
+        }
+        
+        .subgroup-score-value {
+            display: flex;
+            align-items: baseline;
+            gap: 6px;
+        }
+        
+        .score-number {
+            font-size: 28px;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 6px;
+            color: white;
+        }
+        
+        .score-max {
+            font-size: 14px;
+            color: #888;
+            font-weight: 500;
+        }
+        
+        .consolidated-nonko .group-header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        
+        .volume-distribution {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background: #1a1a1a;
+            border-radius: 6px;
+            margin: 10px 0;
+            gap: 15px;
+        }
+        
+        .volume-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .volume-label {
+            font-size: 13px;
+            color: #999;
+            font-weight: 600;
+        }
+        
+        .volume-value {
+            font-size: 14px;
+            color: #ddd;
+        }
+        
+        .volume-separator {
+            color: #444;
+            font-size: 18px;
+        }
+        
+        .group-header.nonko {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .group-header.pko {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Dashboard de Análise</h1>
+        <div class="summary" id="summary">
+            <div class="summary-item">
+                <span class="summary-label">Total de ficheiros:</span>
+                <span id="totalFiles">-</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Mãos analisadas:</span>
+                <span id="totalHands">-</span>
+            </div>
+            <div class="summary-item">
+                <span class="summary-label">Token:</span>
+                <span id="tokenDisplay" style="font-family: monospace;">-</span>
+            </div>
+            <button class="btn-new-analysis" onclick="window.location.href='/upload'">
+                Nova Análise
+            </button>
+        </div>
+    </div>
+    
+    <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+        <div>Carregando dados...</div>
+    </div>
+    
+    <div id="error" class="error" style="display: none;"></div>
+    
+    <div id="groupsContainer" class="groups-container" style="display: none;"></div>
+    
+    <script>
+        // Get token from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+        
+        if (!token) {
+            showError('Token não fornecido');
+        } else {
+            document.getElementById('tokenDisplay').textContent = token;
+            loadDashboard(token);
+        }
+        
+        async function loadDashboard(token) {
+            try {
+                const response = await fetch(`/api/dashboard/${token}`);
+                const data = await response.json();
+                
+                if (!data.ok) {
+                    showError(data.error || 'Erro ao carregar dados');
+                    return;
+                }
+                
+                displayDashboard(data.data);
+                
+            } catch (error) {
+                showError('Erro de conexão');
+            }
+        }
+        
+        function displayDashboard(data) {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('groupsContainer').style.display = 'grid';
+            
+            // Update summary
+            document.getElementById('totalFiles').textContent = data.total_files || 0;
+            document.getElementById('totalHands').textContent = data.total_hands || 0;
+            
+            const container = document.getElementById('groupsContainer');
+            container.innerHTML = '';
+            
+            // Consolidate NON-KO data
+            const nonko9max = data.groups.nonko_9max || {};
+            const nonko6max = data.groups.nonko_6max || {};
+            
+            if ((nonko9max.file_count || 0) > 0 || (nonko6max.file_count || 0) > 0) {
+                const nonkoCard = createConsolidatedNonKoCard(nonko9max, nonko6max);
+                container.appendChild(nonkoCard);
+            }
+            
+            // Create PKO card
+            const pkoData = data.groups.pko;
+            if (pkoData && pkoData.file_count > 0) {
+                const pkoCard = createGroupCard(
+                    { key: 'pko', label: 'PKO', class: 'pko' },
+                    pkoData
+                );
+                container.appendChild(pkoCard);
+            }
+        }
+        
+        function createConsolidatedNonKoCard(data9max, data6max) {
+            const card = document.createElement('div');
+            card.className = 'group-card consolidated-nonko';
+            
+            const hands9max = data9max.hands_count || 0;
+            const hands6max = data6max.hands_count || 0;
+            const totalHands = hands9max + hands6max;
+            
+            // Calculate volume weights
+            const weight9max = totalHands > 0 ? hands9max / totalHands : 0;
+            const weight6max = totalHands > 0 ? hands6max / totalHands : 0;
+            
+            // Consolidate stats with weighted scores
+            const consolidatedStats = {};
+            const allKeys = new Set([
+                ...Object.keys(data9max.stats || {}),
+                ...Object.keys(data6max.stats || {})
+            ]);
+            
+            allKeys.forEach(key => {
+                const stat9max = data9max.stats?.[key] || { attempts: 0, opportunities: 0, score: 0 };
+                const stat6max = data6max.stats?.[key] || { attempts: 0, opportunities: 0, score: 0 };
+                
+                consolidatedStats[key] = {
+                    attempts: stat9max.attempts + stat6max.attempts,
+                    opportunities: stat9max.opportunities + stat6max.opportunities,
+                    score: (stat9max.score || 0) * weight9max + (stat6max.score || 0) * weight6max,
+                    ideal: stat9max.ideal || stat6max.ideal
+                };
+            });
+            
+            // Calculate weighted RFI score
+            const rfiScore = (data9max.overall_score || 0) * weight9max + 
+                            (data6max.overall_score || 0) * weight6max;
+            
+            const weight9maxPercent = (weight9max * 100).toFixed(1);
+            const weight6maxPercent = (weight6max * 100).toFixed(1);
+            
+            card.innerHTML = `
+                <div class="group-header nonko">
+                    NON-KO
+                </div>
+                <div class="group-info">
+                    <strong>${totalHands}</strong> mãos totais
+                </div>
+                <div class="volume-distribution">
+                    <div class="volume-item">
+                        <span class="volume-label">9-max:</span>
+                        <span class="volume-value">${hands9max} mãos (${weight9maxPercent}%)</span>
+                    </div>
+                    <div class="volume-separator">|</div>
+                    <div class="volume-item">
+                        <span class="volume-label">6-max:</span>
+                        <span class="volume-value">${hands6max} mãos (${weight6maxPercent}%)</span>
+                    </div>
+                </div>
+                <div class="stats-section">
+                    ${createStatsHTML(consolidatedStats, rfiScore)}
+                </div>
+            `;
+            
+            return card;
+        }
+        
+        function createGroupCard(group, data) {
+            const card = document.createElement('div');
+            card.className = 'group-card';
+            
+            card.innerHTML = `
+                <div class="group-header ${group.class}">
+                    ${group.label}
+                </div>
+                <div class="group-info">
+                    <strong>${data.hands_count || 0}</strong> mãos
+                </div>
+                <div class="stats-section">
+                    ${createStatsHTML(data.stats || {}, data.overall_score)}
+                </div>
+            `;
+            
+            return card;
+        }
+        
+        function createStatsHTML(stats, rfiScore) {
+            if (Object.keys(stats).length === 0) {
+                return '<div style="text-align: center; color: #999;">Calculando estatísticas...</div>';
+            }
+            
+            // Definir a ordem exata das estatísticas
+            const statsOrder = [
+                // RFI
+                'Early RFI',
+                'Middle RFI',
+                'CO Steal',
+                'BTN Steal',
+                // BvB
+                'SB UO VPIP',
+                'BB fold vs SB steal',  // Aparece aqui e na Defesa da BB
+                'BB raise vs SB limp UOP',
+                'SB Steal',
+                // Ranges CC/3Bet IP
+                'EP 3bet',
+                'EP Cold Call',
+                'EP VPIP',
+                'MP 3bet',
+                'MP Cold Call',
+                'MP VPIP',
+                'CO 3bet',
+                'CO Cold Call',
+                'CO VPIP',
+                'BTN 3bet',
+                'BTN Cold Call',
+                'BTN VPIP',
+                'BTN fold to CO steal',
+                // vs 3bet IP/OOP
+                'Fold to 3bet IP',
+                'Fold to 3bet OOP',
+                'Fold to 3bet',
+                // Squeeze
+                'Squeeze',
+                'Squeeze vs BTN Raiser',
+                // Defesa da BB
+                'BB fold vs CO steal',
+                'BB fold vs BTN steal',
+                'BB fold vs SB steal',  // Aparece aqui também (espelho do BvB)
+                'BB resteal vs BTN steal',
+                // Defesa da SB
+                'SB fold to CO Steal',
+                'SB fold to BTN Steal',
+                'SB resteal vs BTN'
+            ];
+            
+            // Definir categorias específicas para cada stat
+            const categoryMap = {
+                // RFI
+                'Early RFI': 'RFI',
+                'Middle RFI': 'RFI',
+                'CO Steal': 'RFI',
+                'BTN Steal': 'RFI',
+                // BvB
+                'SB UO VPIP': 'BvB',
+                'BB fold vs SB steal': 'BvB',  // Aparece aqui e na Defesa da BB
+                'BB raise vs SB limp UOP': 'BvB',
+                'SB Steal': 'BvB',
+                // Ranges CC/3Bet IP
+                'EP 3bet': 'Ranges CC/3Bet IP',
+                'EP Cold Call': 'Ranges CC/3Bet IP',
+                'EP VPIP': 'Ranges CC/3Bet IP',
+                'MP 3bet': 'Ranges CC/3Bet IP',
+                'MP Cold Call': 'Ranges CC/3Bet IP',
+                'MP VPIP': 'Ranges CC/3Bet IP',
+                'CO 3bet': 'Ranges CC/3Bet IP',
+                'CO Cold Call': 'Ranges CC/3Bet IP',
+                'CO VPIP': 'Ranges CC/3Bet IP',
+                'BTN 3bet': 'Ranges CC/3Bet IP',
+                'BTN Cold Call': 'Ranges CC/3Bet IP',
+                'BTN VPIP': 'Ranges CC/3Bet IP',
+                'BTN fold to CO steal': 'Ranges CC/3Bet IP',
+                // vs 3bet IP/OOP
+                'Fold to 3bet IP': 'vs 3bet IP/OOP',
+                'Fold to 3bet OOP': 'vs 3bet IP/OOP',
+                'Fold to 3bet': 'vs 3bet IP/OOP',
+                // Squeeze
+                'Squeeze': 'Squeeze',
+                'Squeeze vs BTN Raiser': 'Squeeze',
+                // Defesa da BB
+                'BB fold vs CO steal': 'Defesa da BB',
+                'BB fold vs BTN steal': 'Defesa da BB',
+                'BB fold vs SB steal': 'Defesa da BB',  // Aparece nos dois subgrupos
+                'BB resteal vs BTN steal': 'Defesa da BB',
+                // Defesa da SB
+                'SB fold to CO Steal': 'Defesa da SB',
+                'SB fold to BTN Steal': 'Defesa da SB',
+                'SB resteal vs BTN': 'Defesa da SB'
+            };
+            
+            // Group stats by category mantendo ordem exata
+            const categories = {
+                'RFI': [],
+                'BvB': [],
+                'Ranges CC/3Bet IP': [],
+                'vs 3bet IP/OOP': [],
+                'Squeeze': [],
+                'Defesa da BB': [],
+                'Defesa da SB': []
+            };
+            
+            // Processa as stats na ordem definida com tratamento especial para duplicadas
+            let bbFoldVsSbProcessed = false;
+            statsOrder.forEach(statKey => {
+                if (stats[statKey]) {
+                    // Tratamento especial para BB fold vs SB steal (aparece em 2 grupos)
+                    if (statKey === 'BB fold vs SB steal') {
+                        if (!bbFoldVsSbProcessed) {
+                            // Primeira ocorrência vai para BvB
+                            categories['BvB'].push({ key: statKey, ...stats[statKey] });
+                            bbFoldVsSbProcessed = true;
+                        } else {
+                            // Segunda ocorrência vai para Defesa da BB
+                            categories['Defesa da BB'].push({ key: statKey, ...stats[statKey] });
+                        }
+                    } else {
+                        // Outras stats seguem o mapeamento normal
+                        const category = categoryMap[statKey];
+                        if (category && categories[category]) {
+                            categories[category].push({ key: statKey, ...stats[statKey] });
+                        }
+                    }
+                }
+            });
+            
+            let html = '';
+            
+            Object.entries(categories).forEach(([category, items]) => {
+                if (items.length === 0) return;
+                
+                // Add score next to category title for RFI
+                let categoryTitleHTML = category;
+                if (category === 'RFI' && rfiScore !== undefined && rfiScore > 0) {
+                    const scoreClass = getScoreClass(rfiScore);
+                    categoryTitleHTML = `
+                        <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                            <span>${category}</span>
+                            <div style="display: flex; align-items: baseline; gap: 6px;">
+                                <span class="score-badge ${scoreClass}" style="font-size: 18px; padding: 4px 10px;">${rfiScore.toFixed(0)}</span>
+                                <span style="font-size: 12px; color: #888;">/ 100</span>
+                            </div>
+                        </div>
+                    `;
+                }
+                
+                html += `<div class="stat-category">
+                    <div class="stat-category-title">${categoryTitleHTML}</div>`;
+                
+                items.forEach(stat => {
+                    const percentage = stat.opportunities > 0 
+                        ? ((stat.attempts / stat.opportunities) * 100).toFixed(1)
+                        : '0.0';
+                    
+                    // Add score elements if available
+                    let scoreHTML = '';
+                    let idealHTML = '';
+                    let barColor = '';
+                    
+                    if (stat.score !== undefined) {
+                        const scoreClass = getScoreClass(stat.score);
+                        const scoreValue = stat.score.toFixed(0);
+                        scoreHTML = `<span class="score-badge ${scoreClass}">${scoreValue}</span>`;
+                        
+                        if (stat.ideal !== undefined) {
+                            idealHTML = `<span class="ideal-value">(ideal: ${stat.ideal}%)</span>`;
+                        }
+                        
+                        // Color bar based on score
+                        if (stat.score >= 90) {
+                            barColor = 'background: linear-gradient(90deg, #22c55e, #16a34a);';
+                        } else if (stat.score >= 75) {
+                            barColor = 'background: linear-gradient(90deg, #84cc16, #65a30d);';
+                        } else if (stat.score >= 60) {
+                            barColor = 'background: linear-gradient(90deg, #eab308, #ca8a04);';
+                        } else if (stat.score >= 40) {
+                            barColor = 'background: linear-gradient(90deg, #f97316, #ea580c);';
+                        } else {
+                            barColor = 'background: linear-gradient(90deg, #ef4444, #dc2626);';
+                        }
+                    }
+                    
+                    html += `
+                        <div class="stat-row">
+                            <div class="stat-name">${formatStatName(stat.key)}${idealHTML}</div>
+                            <div class="stat-value">
+                                <div class="stat-bar">
+                                    <div class="stat-bar-fill" style="width: ${percentage}%; ${barColor}"></div>
+                                </div>
+                                <div class="stat-percentage">${percentage}%</div>
+                                ${scoreHTML}
+                                <div class="stat-count">${stat.attempts}/${stat.opportunities}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+            });
+            
+            return html || '<div style="text-align: center; color: #999;">Sem estatísticas disponíveis</div>';
+        }
+        
+        function formatStatName(key) {
+            // Format stat names for display
+            return key
+                .replace(/_/g, ' ')
+                .replace(/RFI/g, 'RFI')
+                .replace(/EP/g, 'Early')
+                .replace(/MP/g, 'Middle')
+                .replace(/CO/g, 'Cutoff')
+                .replace(/BTN/g, 'Button')
+                .replace(/SB/g, 'Small Blind')
+                .replace(/BB/g, 'Big Blind');
+        }
+        
+        function showError(message) {
+            document.getElementById('loading').style.display = 'none';
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+        
+        function getScoreClass(score) {
+            if (score >= 90) return 'score-excellent';
+            if (score >= 75) return 'score-good';
+            if (score >= 60) return 'score-average';
+            if (score >= 40) return 'score-below';
+            return 'score-poor';
+        }
+        
+        function getGradeClass(score) {
+            if (score >= 90) return 'score-excellent';
+            if (score >= 75) return 'score-good';
+            if (score >= 60) return 'score-average';
+            if (score >= 40) return 'score-below';
+            return 'score-poor';
+        }
+    </script>
+</body>
+</html>

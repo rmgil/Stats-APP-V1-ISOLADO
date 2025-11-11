@@ -1,0 +1,1979 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947752252">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3,000 GTD - Bounty Hunter, 1080874105</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:21:39</duration>
+  <gamecount>62</gamecount>
+  <startdate>2024-02-12 15:22:59</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>296,887</bets>
+  <wins>112,354</wins>
+  <chipsin>9,980</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080219303</tournamentcode>
+  <tournamentname>€3,000 GTD - Bounty Hunter</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560312916">
+  <general>
+   <startdate>2024-02-12 15:22:59</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="1" seat="2" chips="20,467" addon="0" bet="20,435" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="3,967" addon="0" bet="3,967" reg_code="" name="Vallaton" win="8,494" rebuy="0"/>
+    <player dealer="0" seat="5" chips="6,278" addon="0" bet="432" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="20,648" addon="0" bet="32" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,942" addon="0" bet="32" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="17,316" addon="0" bet="32" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,893" addon="0" bet="32" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="Vallaton" type="15"/>
+   <action no="2" sum="32" player="WhosWhoo" type="15"/>
+   <action no="3" sum="32" player="lukepokerNL" type="15"/>
+   <action no="4" sum="32" player="ViniCorreia" type="15"/>
+   <action no="5" sum="32" player="Diedfunler" type="15"/>
+   <action no="6" sum="32" player="Bulochka2022" type="15"/>
+   <action no="7" sum="32" player="MrNonsense11" type="15"/>
+   <action no="8" sum="200" player="Vallaton" type="1"/>
+   <action no="9" sum="400" player="WhosWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">SQ CJ</cards>
+   <action no="14" sum="20,435" player="MrNonsense11" type="23"/>
+   <cards player="Vallaton" type="Pocket">S4 C4</cards>
+   <action no="15" sum="3,735" player="Vallaton" type="7"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WhosWhoo" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 C2 D5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+  </round>
+ </game>
+ <game gamecode="10560312934">
+  <general>
+   <startdate>2024-02-12 15:23:45</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="42,798" addon="0" bet="1,050" reg_code="7947752252" name="tropeiro123" win="1,570" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,500" addon="0" bet="40" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="8,494" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,846" addon="0" bet="290" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="20,616" addon="0" bet="540" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,910" addon="0" bet="40" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="17,284" addon="0" bet="40" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,861" addon="0" bet="40" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="WhosWhoo" type="15"/>
+   <action no="2" sum="40" player="lukepokerNL" type="15"/>
+   <action no="3" sum="40" player="ViniCorreia" type="15"/>
+   <action no="4" sum="40" player="Diedfunler" type="15"/>
+   <action no="5" sum="40" player="Bulochka2022" type="15"/>
+   <action no="6" sum="40" player="tropeiro123" type="15"/>
+   <action no="7" sum="40" player="MrNonsense11" type="15"/>
+   <action no="8" sum="40" player="Vallaton" type="15"/>
+   <action no="9" sum="250" player="WhosWhoo" type="1"/>
+   <action no="10" sum="500" player="lukepokerNL" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA CK</cards>
+   <action no="14" sum="1,050" player="tropeiro123" type="23"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="lukepokerNL" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560312943">
+  <general>
+   <startdate>2024-02-12 15:24:12</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="43,828" addon="0" bet="3,959" reg_code="7947752252" name="tropeiro123" win="4,004" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,460" addon="0" bet="40" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,454" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="5,556" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="20,076" addon="0" bet="290" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,870" addon="0" bet="1,757" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="17,244" addon="0" bet="40" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,821" addon="0" bet="40" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="lukepokerNL" type="15"/>
+   <action no="2" sum="40" player="ViniCorreia" type="15"/>
+   <action no="3" sum="40" player="Diedfunler" type="15"/>
+   <action no="4" sum="40" player="Bulochka2022" type="15"/>
+   <action no="5" sum="40" player="tropeiro123" type="15"/>
+   <action no="6" sum="40" player="MrNonsense11" type="15"/>
+   <action no="7" sum="40" player="Vallaton" type="15"/>
+   <action no="8" sum="40" player="WhosWhoo" type="15"/>
+   <action no="9" sum="250" player="lukepokerNL" type="1"/>
+   <action no="10" sum="500" player="ViniCorreia" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK H8</cards>
+   <action no="13" sum="1,050" player="tropeiro123" type="23"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="18" sum="550" player="ViniCorreia" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S9 CQ</cards>
+   <action no="19" sum="0" player="ViniCorreia" type="4"/>
+   <action no="20" sum="667" player="tropeiro123" type="5"/>
+   <action no="21" sum="667" player="ViniCorreia" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="22" sum="0" player="ViniCorreia" type="4"/>
+   <action no="23" sum="2,202" player="tropeiro123" type="5"/>
+   <action no="24" sum="0" player="ViniCorreia" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560312980">
+  <general>
+   <startdate>2024-02-12 15:25:46</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="46,075" addon="0" bet="40" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,420" addon="0" bet="40" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,414" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,516" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="19,786" addon="0" bet="3,540" reg_code="" name="lukepokerNL" win="3,570" rebuy="0"/>
+    <player dealer="0" seat="7" chips="11,113" addon="0" bet="290" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="17,204" addon="0" bet="1,540" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,781" addon="0" bet="40" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="ViniCorreia" type="15"/>
+   <action no="2" sum="40" player="Diedfunler" type="15"/>
+   <action no="3" sum="40" player="Bulochka2022" type="15"/>
+   <action no="4" sum="40" player="tropeiro123" type="15"/>
+   <action no="5" sum="40" player="MrNonsense11" type="15"/>
+   <action no="6" sum="40" player="Vallaton" type="15"/>
+   <action no="7" sum="40" player="WhosWhoo" type="15"/>
+   <action no="8" sum="40" player="lukepokerNL" type="15"/>
+   <action no="9" sum="250" player="ViniCorreia" type="1"/>
+   <action no="10" sum="500" player="Diedfunler" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 HK</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="16" sum="1,000" player="lukepokerNL" type="23"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="18" sum="500" player="Diedfunler" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 S5 D8</cards>
+   <action no="19" sum="0" player="Diedfunler" type="4"/>
+   <action no="20" sum="500" player="lukepokerNL" type="5"/>
+   <action no="21" sum="500" player="Diedfunler" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="22" sum="0" player="Diedfunler" type="4"/>
+   <action no="23" sum="2,000" player="lukepokerNL" type="5"/>
+   <action no="24" sum="0" player="Diedfunler" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560313007">
+  <general>
+   <startdate>2024-02-12 15:27:27</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="46,035" addon="0" bet="40" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,380" addon="0" bet="40" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,374" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,476" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="21,816" addon="0" bet="2,290" reg_code="" name="lukepokerNL" win="2,570" rebuy="0"/>
+    <player dealer="1" seat="7" chips="10,823" addon="0" bet="40" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,664" addon="0" bet="290" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,741" addon="0" bet="1,040" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="Diedfunler" type="15"/>
+   <action no="2" sum="40" player="Bulochka2022" type="15"/>
+   <action no="3" sum="40" player="tropeiro123" type="15"/>
+   <action no="4" sum="40" player="MrNonsense11" type="15"/>
+   <action no="5" sum="40" player="Vallaton" type="15"/>
+   <action no="6" sum="40" player="WhosWhoo" type="15"/>
+   <action no="7" sum="40" player="lukepokerNL" type="15"/>
+   <action no="8" sum="40" player="ViniCorreia" type="15"/>
+   <action no="9" sum="250" player="Diedfunler" type="1"/>
+   <action no="10" sum="500" player="Bulochka2022" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CA S2</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="15" sum="1,000" player="lukepokerNL" type="23"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="18" sum="500" player="Bulochka2022" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 CK DJ</cards>
+   <action no="19" sum="0" player="Bulochka2022" type="4"/>
+   <action no="20" sum="1,250" player="lukepokerNL" type="5"/>
+   <action no="21" sum="0" player="Bulochka2022" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560313030">
+  <general>
+   <startdate>2024-02-12 15:28:28</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="45,995" addon="0" bet="1,140" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,340" addon="0" bet="1,140" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,334" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,436" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,346" addon="0" bet="40" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="10,783" addon="0" bet="40" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="15,374" addon="0" bet="3,140" reg_code="" name="Diedfunler" win="3,870" rebuy="0"/>
+    <player dealer="0" seat="10" chips="20,701" addon="0" bet="290" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="Bulochka2022" type="15"/>
+   <action no="2" sum="40" player="tropeiro123" type="15"/>
+   <action no="3" sum="40" player="MrNonsense11" type="15"/>
+   <action no="4" sum="40" player="Vallaton" type="15"/>
+   <action no="5" sum="40" player="WhosWhoo" type="15"/>
+   <action no="6" sum="40" player="lukepokerNL" type="15"/>
+   <action no="7" sum="40" player="ViniCorreia" type="15"/>
+   <action no="8" sum="40" player="Diedfunler" type="15"/>
+   <action no="9" sum="250" player="Bulochka2022" type="1"/>
+   <action no="10" sum="500" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="11" sum="1,100" player="MrNonsense11" type="23"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="16" sum="1,100" player="Diedfunler" type="3"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 C2</cards>
+   <action no="18" sum="600" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 H6 D5</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="0" player="MrNonsense11" type="4"/>
+   <action no="21" sum="2,000" player="Diedfunler" type="5"/>
+   <action no="22" sum="0" player="tropeiro123" type="0"/>
+   <action no="23" sum="0" player="MrNonsense11" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560313052">
+  <general>
+   <startdate>2024-02-12 15:29:40</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,855" addon="0" bet="290" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="15,200" addon="0" bet="1,682" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,294" addon="0" bet="40" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,396" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,306" addon="0" bet="40" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="10,743" addon="0" bet="40" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="18,104" addon="0" bet="40" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="20,411" addon="0" bet="6,682" reg_code="" name="Bulochka2022" win="3,854" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="tropeiro123" type="15"/>
+   <action no="2" sum="40" player="MrNonsense11" type="15"/>
+   <action no="3" sum="40" player="Vallaton" type="15"/>
+   <action no="4" sum="40" player="WhosWhoo" type="15"/>
+   <action no="5" sum="40" player="lukepokerNL" type="15"/>
+   <action no="6" sum="40" player="ViniCorreia" type="15"/>
+   <action no="7" sum="40" player="Diedfunler" type="15"/>
+   <action no="8" sum="40" player="Bulochka2022" type="15"/>
+   <action no="9" sum="250" player="tropeiro123" type="1"/>
+   <action no="10" sum="500" player="MrNonsense11" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="16" sum="1,000" player="Bulochka2022" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CJ D7</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="18" sum="500" player="MrNonsense11" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 SA S4</cards>
+   <action no="19" sum="0" player="MrNonsense11" type="4"/>
+   <action no="20" sum="642" player="Bulochka2022" type="5"/>
+   <action no="21" sum="642" player="MrNonsense11" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action no="22" sum="0" player="MrNonsense11" type="4"/>
+   <action no="23" sum="5,000" player="Bulochka2022" type="5"/>
+   <action no="24" sum="0" player="MrNonsense11" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343496">
+  <general>
+   <startdate>2024-02-12 15:31:37</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="1" seat="1" chips="44,565" addon="0" bet="40" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="13,518" addon="0" bet="290" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="8,254" addon="0" bet="1,040" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,356" addon="0" bet="40" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,266" addon="0" bet="40" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="10,703" addon="0" bet="1,888" reg_code="" name="ViniCorreia" win="2,570" rebuy="0"/>
+    <player dealer="0" seat="9" chips="18,064" addon="0" bet="40" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,583" addon="0" bet="40" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="MrNonsense11" type="15"/>
+   <action no="2" sum="40" player="Vallaton" type="15"/>
+   <action no="3" sum="40" player="WhosWhoo" type="15"/>
+   <action no="4" sum="40" player="lukepokerNL" type="15"/>
+   <action no="5" sum="40" player="ViniCorreia" type="15"/>
+   <action no="6" sum="40" player="Diedfunler" type="15"/>
+   <action no="7" sum="40" player="Bulochka2022" type="15"/>
+   <action no="8" sum="40" player="tropeiro123" type="15"/>
+   <action no="9" sum="250" player="MrNonsense11" type="1"/>
+   <action no="10" sum="500" player="Vallaton" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WhosWhoo" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="13" sum="1,000" player="ViniCorreia" type="23"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C7</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="18" sum="500" player="Vallaton" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ C2 CK</cards>
+   <action no="19" sum="0" player="Vallaton" type="4"/>
+   <action no="20" sum="848" player="ViniCorreia" type="5"/>
+   <action no="21" sum="0" player="Vallaton" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343516">
+  <general>
+   <startdate>2024-02-12 15:32:32</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>40</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,525" addon="0" bet="40" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="13,228" addon="0" bet="5,316" reg_code="" name="MrNonsense11" win="12,122" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="WhosWhoo"/>
+    </player>
+    <player dealer="0" seat="4" chips="7,214" addon="0" bet="290" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="5,316" addon="0" bet="5,276" reg_code="" name="WhosWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,226" addon="0" bet="40" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,233" addon="0" bet="40" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="18,024" addon="0" bet="1,040" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,543" addon="0" bet="40" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="40" player="Vallaton" type="15"/>
+   <action no="2" sum="40" player="WhosWhoo" type="15"/>
+   <action no="3" sum="40" player="lukepokerNL" type="15"/>
+   <action no="4" sum="40" player="ViniCorreia" type="15"/>
+   <action no="5" sum="40" player="Diedfunler" type="15"/>
+   <action no="6" sum="40" player="Bulochka2022" type="15"/>
+   <action no="7" sum="40" player="tropeiro123" type="15"/>
+   <action no="8" sum="40" player="MrNonsense11" type="15"/>
+   <action no="9" sum="250" player="Vallaton" type="1"/>
+   <action no="10" sum="500" player="WhosWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="13" sum="1,000" player="Diedfunler" type="23"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 SA</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">SK SQ</cards>
+   <action no="16" sum="1,000" player="MrNonsense11" type="3"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Vallaton" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">S5 H5</cards>
+   <action no="18" sum="5,276" player="WhosWhoo" type="23"/>
+   <action no="19" sum="0" player="Diedfunler" type="0"/>
+   <action no="20" sum="4,276" player="MrNonsense11" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 S6 CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10560343549">
+  <general>
+   <startdate>2024-02-12 15:33:58</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,485" addon="0" bet="48" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="20,034" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="6,924" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,186" addon="0" bet="648" reg_code="" name="lukepokerNL" win="336" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,193" addon="0" bet="48" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="16,984" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,503" addon="0" bet="48" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="lukepokerNL" type="15"/>
+   <action no="2" sum="48" player="ViniCorreia" type="15"/>
+   <action no="3" sum="48" player="Diedfunler" type="15"/>
+   <action no="4" sum="48" player="Bulochka2022" type="15"/>
+   <action no="5" sum="48" player="tropeiro123" type="15"/>
+   <action no="6" sum="48" player="MrNonsense11" type="15"/>
+   <action no="7" sum="48" player="Vallaton" type="15"/>
+   <action no="8" sum="600" player="lukepokerNL" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 C6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Vallaton" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343562">
+  <general>
+   <startdate>2024-02-12 15:34:30</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,437" addon="0" bet="48" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,986" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,876" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,474" addon="0" bet="648" reg_code="" name="lukepokerNL" win="1,536" rebuy="0"/>
+    <player dealer="0" seat="7" chips="12,145" addon="0" bet="648" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="16,936" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,455" addon="0" bet="48" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="lukepokerNL" type="15"/>
+   <action no="2" sum="48" player="ViniCorreia" type="15"/>
+   <action no="3" sum="48" player="Diedfunler" type="15"/>
+   <action no="4" sum="48" player="Bulochka2022" type="15"/>
+   <action no="5" sum="48" player="tropeiro123" type="15"/>
+   <action no="6" sum="48" player="MrNonsense11" type="15"/>
+   <action no="7" sum="48" player="Vallaton" type="15"/>
+   <action no="8" sum="300" player="lukepokerNL" type="1"/>
+   <action no="9" sum="600" player="ViniCorreia" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 S8</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Vallaton" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">DJ D6</cards>
+   <action no="15" sum="300" player="lukepokerNL" type="3"/>
+   <cards player="ViniCorreia" type="Pocket">H7 C5</cards>
+   <action no="16" sum="0" player="ViniCorreia" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 HA CA</cards>
+   <action no="17" sum="0" player="lukepokerNL" type="4"/>
+   <action no="18" sum="0" player="ViniCorreia" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="19" sum="0" player="lukepokerNL" type="4"/>
+   <action no="20" sum="0" player="ViniCorreia" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="21" sum="0" player="lukepokerNL" type="4"/>
+   <action no="22" sum="0" player="ViniCorreia" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560343594">
+  <general>
+   <startdate>2024-02-12 15:36:10</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,389" addon="0" bet="48" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,938" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,828" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="14,490" addon="0" bet="1,200" reg_code="" name="Dala17" win="1,884" rebuy="0"/>
+    <player dealer="1" seat="6" chips="24,362" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="11,497" addon="0" bet="348" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="16,888" addon="0" bet="648" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,407" addon="0" bet="48" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="ViniCorreia" type="15"/>
+   <action no="2" sum="48" player="Diedfunler" type="15"/>
+   <action no="3" sum="48" player="Bulochka2022" type="15"/>
+   <action no="4" sum="48" player="tropeiro123" type="15"/>
+   <action no="5" sum="48" player="MrNonsense11" type="15"/>
+   <action no="6" sum="48" player="Vallaton" type="15"/>
+   <action no="7" sum="48" player="Dala17" type="15"/>
+   <action no="8" sum="48" player="lukepokerNL" type="15"/>
+   <action no="9" sum="300" player="ViniCorreia" type="1"/>
+   <action no="10" sum="600" player="Diedfunler" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK H4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Vallaton" type="0"/>
+   <cards player="Dala17" type="Pocket">HA X</cards>
+   <action no="15" sum="1,200" player="Dala17" type="23"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Diedfunler" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343615">
+  <general>
+   <startdate>2024-02-12 15:37:06</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="44,341" addon="0" bet="1,260" reg_code="7947752252" name="tropeiro123" win="1,884" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,890" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,780" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="15,726" addon="0" bet="48" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,314" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="11,149" addon="0" bet="48" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="16,240" addon="0" bet="348" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="22,359" addon="0" bet="648" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="Diedfunler" type="15"/>
+   <action no="2" sum="48" player="Bulochka2022" type="15"/>
+   <action no="3" sum="48" player="tropeiro123" type="15"/>
+   <action no="4" sum="48" player="MrNonsense11" type="15"/>
+   <action no="5" sum="48" player="Vallaton" type="15"/>
+   <action no="6" sum="48" player="Dala17" type="15"/>
+   <action no="7" sum="48" player="lukepokerNL" type="15"/>
+   <action no="8" sum="48" player="ViniCorreia" type="15"/>
+   <action no="9" sum="300" player="Diedfunler" type="1"/>
+   <action no="10" sum="600" player="Bulochka2022" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CA C8</cards>
+   <action no="11" sum="1,260" player="tropeiro123" type="23"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Vallaton" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Bulochka2022" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343630">
+  <general>
+   <startdate>2024-02-12 15:37:51</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="45,577" addon="0" bet="5,631" reg_code="7947752252" name="tropeiro123" win="11,550" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,842" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,732" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="15,678" addon="0" bet="48" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,266" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="11,101" addon="0" bet="48" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="15,892" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="21,711" addon="0" bet="5,631" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="Bulochka2022" type="15"/>
+   <action no="2" sum="48" player="tropeiro123" type="15"/>
+   <action no="3" sum="48" player="MrNonsense11" type="15"/>
+   <action no="4" sum="48" player="Vallaton" type="15"/>
+   <action no="5" sum="48" player="Dala17" type="15"/>
+   <action no="6" sum="48" player="lukepokerNL" type="15"/>
+   <action no="7" sum="48" player="ViniCorreia" type="15"/>
+   <action no="8" sum="48" player="Diedfunler" type="15"/>
+   <action no="9" sum="300" player="Bulochka2022" type="1"/>
+   <action no="10" sum="600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Vallaton" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">S7 CQ</cards>
+   <action no="17" sum="2,100" player="Bulochka2022" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HA H3</cards>
+   <action no="18" sum="1,500" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ DJ DA</cards>
+   <action no="19" sum="0" player="Bulochka2022" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="21" sum="3,483" player="Bulochka2022" type="5"/>
+   <action no="22" sum="3,483" player="tropeiro123" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action no="23" sum="0" player="Bulochka2022" type="4"/>
+   <action no="24" sum="0" player="tropeiro123" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560343669">
+  <general>
+   <startdate>2024-02-12 15:40:22</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="51,496" addon="0" bet="348" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,794" addon="0" bet="648" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,684" addon="0" bet="48" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="15,630" addon="0" bet="48" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,218" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="11,053" addon="0" bet="48" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,844" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="16,080" addon="0" bet="1,200" reg_code="" name="Bulochka2022" win="1,884" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="tropeiro123" type="15"/>
+   <action no="2" sum="48" player="MrNonsense11" type="15"/>
+   <action no="3" sum="48" player="Vallaton" type="15"/>
+   <action no="4" sum="48" player="Dala17" type="15"/>
+   <action no="5" sum="48" player="lukepokerNL" type="15"/>
+   <action no="6" sum="48" player="ViniCorreia" type="15"/>
+   <action no="7" sum="48" player="Diedfunler" type="15"/>
+   <action no="8" sum="48" player="Bulochka2022" type="15"/>
+   <action no="9" sum="300" player="tropeiro123" type="1"/>
+   <action no="10" sum="600" player="MrNonsense11" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vallaton" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Vallaton" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="16" sum="1,200" player="Bulochka2022" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S7 D2</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="MrNonsense11" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343687">
+  <general>
+   <startdate>2024-02-12 15:41:25</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="1" seat="1" chips="51,148" addon="0" bet="51,100" reg_code="7947752252" name="tropeiro123" win="15,960" rebuy="0">
+     <knockout tobalance="€6.83" tobounty="€6.82" kicked="Vallaton"/>
+    </player>
+    <player dealer="0" seat="2" chips="19,146" addon="0" bet="1,248" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="6,636" addon="0" bet="6,588" reg_code="" name="Vallaton" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="15,582" addon="0" bet="48" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,170" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="11,005" addon="0" bet="1,248" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,796" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="17,316" addon="0" bet="48" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="MrNonsense11" type="15"/>
+   <action no="2" sum="48" player="Vallaton" type="15"/>
+   <action no="3" sum="48" player="Dala17" type="15"/>
+   <action no="4" sum="48" player="lukepokerNL" type="15"/>
+   <action no="5" sum="48" player="ViniCorreia" type="15"/>
+   <action no="6" sum="48" player="Diedfunler" type="15"/>
+   <action no="7" sum="48" player="Bulochka2022" type="15"/>
+   <action no="8" sum="48" player="tropeiro123" type="15"/>
+   <action no="9" sum="300" player="MrNonsense11" type="1"/>
+   <action no="10" sum="600" player="Vallaton" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="13" sum="1,200" player="ViniCorreia" type="23"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA HA</cards>
+   <action no="16" sum="1,200" player="tropeiro123" type="3"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="17" sum="900" player="MrNonsense11" type="3"/>
+   <cards player="Vallaton" type="Pocket">CA HJ</cards>
+   <action no="18" sum="6,588" player="Vallaton" type="23"/>
+   <action no="19" sum="0" player="ViniCorreia" type="0"/>
+   <action no="20" sum="51,100" player="tropeiro123" type="23"/>
+   <action no="21" sum="0" player="MrNonsense11" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 CJ H5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+  </round>
+ </game>
+ <game gamecode="10560343704">
+  <general>
+   <startdate>2024-02-12 15:42:46</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>48</ante>
+   <players>
+    <player dealer="0" seat="1" chips="60,472" addon="0" bet="48" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="17,898" addon="0" bet="48" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="15,534" addon="0" bet="2,448" reg_code="" name="Dala17" win="2,736" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,122" addon="0" bet="48" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,757" addon="0" bet="48" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,748" addon="0" bet="48" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="17,268" addon="0" bet="1,248" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="48" player="Dala17" type="15"/>
+   <action no="2" sum="48" player="lukepokerNL" type="15"/>
+   <action no="3" sum="48" player="ViniCorreia" type="15"/>
+   <action no="4" sum="48" player="Diedfunler" type="15"/>
+   <action no="5" sum="48" player="Bulochka2022" type="15"/>
+   <action no="6" sum="48" player="tropeiro123" type="15"/>
+   <action no="7" sum="48" player="MrNonsense11" type="15"/>
+   <action no="8" sum="600" player="Dala17" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="12" sum="1,200" player="Bulochka2022" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SJ H4</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="15" sum="600" player="Dala17" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ DQ C8</cards>
+   <action no="16" sum="0" player="Dala17" type="4"/>
+   <action no="17" sum="0" player="Bulochka2022" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="18" sum="1,200" player="Dala17" type="5"/>
+   <action no="19" sum="0" player="Bulochka2022" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378394">
+  <general>
+   <startdate>2024-02-12 15:44:08</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="60,424" addon="0" bet="60,360" reg_code="7947752252" name="tropeiro123" win="2,448" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,850" addon="0" bet="64" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="17,022" addon="0" bet="464" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,074" addon="0" bet="864" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,709" addon="0" bet="64" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,700" addon="0" bet="64" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="16,020" addon="0" bet="64" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Dala17" type="15"/>
+   <action no="2" sum="64" player="lukepokerNL" type="15"/>
+   <action no="3" sum="64" player="ViniCorreia" type="15"/>
+   <action no="4" sum="64" player="Diedfunler" type="15"/>
+   <action no="5" sum="64" player="Bulochka2022" type="15"/>
+   <action no="6" sum="64" player="tropeiro123" type="15"/>
+   <action no="7" sum="64" player="MrNonsense11" type="15"/>
+   <action no="8" sum="400" player="Dala17" type="1"/>
+   <action no="9" sum="800" player="lukepokerNL" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 H2</cards>
+   <action no="13" sum="60,360" player="tropeiro123" type="23"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lukepokerNL" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378409">
+  <general>
+   <startdate>2024-02-12 15:44:47</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="62,008" addon="0" bet="1,744" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,786" addon="0" bet="64" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="16,558" addon="0" bet="1,744" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="23,210" addon="0" bet="464" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,645" addon="0" bet="9,581" reg_code="" name="ViniCorreia" win="5,888" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,636" addon="0" bet="64" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="15,956" addon="0" bet="64" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="lukepokerNL" type="15"/>
+   <action no="2" sum="64" player="ViniCorreia" type="15"/>
+   <action no="3" sum="64" player="Diedfunler" type="15"/>
+   <action no="4" sum="64" player="Bulochka2022" type="15"/>
+   <action no="5" sum="64" player="tropeiro123" type="15"/>
+   <action no="6" sum="64" player="MrNonsense11" type="15"/>
+   <action no="7" sum="64" player="Dala17" type="15"/>
+   <action no="8" sum="400" player="lukepokerNL" type="1"/>
+   <action no="9" sum="800" player="ViniCorreia" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Diedfunler" type="0"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ SK</cards>
+   <action no="12" sum="1,680" player="tropeiro123" type="23"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="14" sum="1,680" player="Dala17" type="3"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="16" sum="9,581" player="ViniCorreia" type="23"/>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <action no="18" sum="0" player="Dala17" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378430">
+  <general>
+   <startdate>2024-02-12 15:46:04</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="60,264" addon="0" bet="64" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,722" addon="0" bet="64" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="14,814" addon="0" bet="64" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="22,746" addon="0" bet="1,664" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="13,789" addon="0" bet="13,725" reg_code="" name="ViniCorreia" win="4,448" rebuy="0"/>
+    <player dealer="0" seat="9" chips="15,572" addon="0" bet="864" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="15,892" addon="0" bet="64" reg_code="" name="Bulochka2022" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="ViniCorreia" type="15"/>
+   <action no="2" sum="64" player="Diedfunler" type="15"/>
+   <action no="3" sum="64" player="Bulochka2022" type="15"/>
+   <action no="4" sum="64" player="tropeiro123" type="15"/>
+   <action no="5" sum="64" player="MrNonsense11" type="15"/>
+   <action no="6" sum="64" player="Dala17" type="15"/>
+   <action no="7" sum="64" player="lukepokerNL" type="15"/>
+   <action no="8" sum="400" player="ViniCorreia" type="1"/>
+   <action no="9" sum="800" player="Diedfunler" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Bulochka2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 H3</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="14" sum="1,600" player="lukepokerNL" type="23"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="15" sum="13,725" player="ViniCorreia" type="23"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Diedfunler" type="0"/>
+   <action no="17" sum="0" player="lukepokerNL" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378444">
+  <general>
+   <startdate>2024-02-12 15:46:41</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="60,200" addon="0" bet="64" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,658" addon="0" bet="64" reg_code="" name="MrNonsense11" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="14,750" addon="0" bet="64" reg_code="" name="Dala17" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="21,082" addon="0" bet="64" reg_code="" name="lukepokerNL" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="16,573" addon="0" bet="64" reg_code="" name="ViniCorreia" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="14,708" addon="0" bet="864" reg_code="" name="Diedfunler" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="15,828" addon="0" bet="15,764" reg_code="" name="Bulochka2022" win="2,048" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Diedfunler" type="15"/>
+   <action no="2" sum="64" player="Bulochka2022" type="15"/>
+   <action no="3" sum="64" player="tropeiro123" type="15"/>
+   <action no="4" sum="64" player="MrNonsense11" type="15"/>
+   <action no="5" sum="64" player="Dala17" type="15"/>
+   <action no="6" sum="64" player="lukepokerNL" type="15"/>
+   <action no="7" sum="64" player="ViniCorreia" type="15"/>
+   <action no="8" sum="400" player="Diedfunler" type="1"/>
+   <action no="9" sum="800" player="Bulochka2022" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S7 S4</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MrNonsense11" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MrNonsense11" type="0"/>
+   <cards player="Dala17" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Dala17" type="0"/>
+   <cards player="lukepokerNL" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lukepokerNL" type="0"/>
+   <cards player="ViniCorreia" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniCorreia" type="0"/>
+   <cards player="Diedfunler" type="Pocket">X X</cards>
+   <action no="15" sum="400" player="Diedfunler" type="3"/>
+   <cards player="Bulochka2022" type="Pocket">X X</cards>
+   <action no="16" sum="15,764" player="Bulochka2022" type="23"/>
+   <action no="17" sum="0" player="Diedfunler" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378448">
+  <general>
+   <startdate>2024-02-12 15:46:59</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="2" chips="15,708" addon="0" bet="64" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,544" addon="0" bet="64" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="18,784" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="15,330" addon="0" bet="1,824" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="23,480" addon="0" bet="864" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="25,151" addon="0" bet="2,872" reg_code="" name="Finite" win="4,768" rebuy="0"/>
+    <player dealer="0" seat="10" chips="13,230" addon="0" bet="64" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Sanom1s" type="15"/>
+   <action no="2" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="3" sum="64" player="Finite" type="15"/>
+   <action no="4" sum="64" player="Ieech" type="15"/>
+   <action no="5" sum="64" player="npogymaH" type="15"/>
+   <action no="6" sum="64" player="Larcher" type="15"/>
+   <action no="7" sum="64" player="LacustaMe" type="15"/>
+   <action no="8" sum="400" player="Sanom1s" type="1"/>
+   <action no="9" sum="800" player="IngvarHirdwall" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="10" sum="1,760" player="Finite" type="23"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Ieech" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="15" sum="1,360" player="Sanom1s" type="3"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="IngvarHirdwall" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 C2 DK</cards>
+   <action no="17" sum="0" player="Sanom1s" type="4"/>
+   <action no="18" sum="1,048" player="Finite" type="5"/>
+   <action no="19" sum="0" player="Sanom1s" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378459">
+  <general>
+   <startdate>2024-02-12 15:47:41</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="60,136" addon="0" bet="1,744" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="15,644" addon="0" bet="64" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,480" addon="0" bet="64" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,720" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="13,506" addon="0" bet="13,442" reg_code="" name="Sanom1s" win="5,072" rebuy="0"/>
+    <player dealer="0" seat="7" chips="22,616" addon="0" bet="464" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="28,095" addon="0" bet="864" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="13,166" addon="0" bet="64" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="2" sum="64" player="Finite" type="15"/>
+   <action no="3" sum="64" player="Ieech" type="15"/>
+   <action no="4" sum="64" player="tropeiro123" type="15"/>
+   <action no="5" sum="64" player="npogymaH" type="15"/>
+   <action no="6" sum="64" player="Larcher" type="15"/>
+   <action no="7" sum="64" player="LacustaMe" type="15"/>
+   <action no="8" sum="64" player="Sanom1s" type="15"/>
+   <action no="9" sum="400" player="IngvarHirdwall" type="1"/>
+   <action no="10" sum="800" player="Finite" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 S7</cards>
+   <action no="12" sum="1,680" player="tropeiro123" type="23"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="16" sum="13,442" player="Sanom1s" type="23"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Finite" type="0"/>
+   <action no="19" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378477">
+  <general>
+   <startdate>2024-02-12 15:48:56</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="58,392" addon="0" bet="64" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="15,580" addon="0" bet="10,220" reg_code="" name="npogymaH" win="10,812" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,416" addon="0" bet="64" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,656" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="16,834" addon="0" bet="64" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="22,152" addon="0" bet="64" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,231" addon="0" bet="10,220" reg_code="" name="Finite" win="10,812" rebuy="0"/>
+    <player dealer="0" seat="10" chips="13,102" addon="0" bet="864" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Finite" type="15"/>
+   <action no="2" sum="64" player="Ieech" type="15"/>
+   <action no="3" sum="64" player="tropeiro123" type="15"/>
+   <action no="4" sum="64" player="npogymaH" type="15"/>
+   <action no="5" sum="64" player="Larcher" type="15"/>
+   <action no="6" sum="64" player="LacustaMe" type="15"/>
+   <action no="7" sum="64" player="Sanom1s" type="15"/>
+   <action no="8" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="9" sum="400" player="Finite" type="1"/>
+   <action no="10" sum="800" player="Ieech" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C3 DQ</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">CA HJ</cards>
+   <action no="12" sum="1,600" player="npogymaH" type="23"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">SA S7</cards>
+   <action no="17" sum="1,200" player="Finite" type="3"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Ieech" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK C2 D2</cards>
+   <action no="19" sum="0" player="Finite" type="4"/>
+   <action no="20" sum="800" player="npogymaH" type="5"/>
+   <action no="21" sum="800" player="Finite" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action no="22" sum="0" player="Finite" type="4"/>
+   <action no="23" sum="3,304" player="npogymaH" type="5"/>
+   <action no="24" sum="3,304" player="Finite" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+   <action no="25" sum="0" player="Finite" type="4"/>
+   <action no="26" sum="4,452" player="npogymaH" type="5"/>
+   <action no="27" sum="4,452" player="Finite" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560378502">
+  <general>
+   <startdate>2024-02-12 15:50:28</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="58,328" addon="0" bet="864" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="16,172" addon="0" bet="4,955" reg_code="" name="npogymaH" win="4,912" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,352" addon="0" bet="64" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,592" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="16,770" addon="0" bet="64" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="22,088" addon="0" bet="64" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="27,823" addon="0" bet="1,664" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="12,238" addon="0" bet="464" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Ieech" type="15"/>
+   <action no="2" sum="64" player="tropeiro123" type="15"/>
+   <action no="3" sum="64" player="npogymaH" type="15"/>
+   <action no="4" sum="64" player="Larcher" type="15"/>
+   <action no="5" sum="64" player="LacustaMe" type="15"/>
+   <action no="6" sum="64" player="Sanom1s" type="15"/>
+   <action no="7" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="8" sum="64" player="Finite" type="15"/>
+   <action no="9" sum="400" player="Ieech" type="1"/>
+   <action no="10" sum="800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="11" sum="1,600" player="npogymaH" type="23"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="16" sum="1,600" player="Finite" type="3"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 DJ</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H10 D7</cards>
+   <action no="19" sum="3,291" player="npogymaH" type="5"/>
+   <action no="20" sum="0" player="Finite" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378514">
+  <general>
+   <startdate>2024-02-12 15:51:32</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="57,464" addon="0" bet="464" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="19,420" addon="0" bet="864" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,288" addon="0" bet="64" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,528" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="16,706" addon="0" bet="11,774" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="22,024" addon="0" bet="64" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="26,159" addon="0" bet="64" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="11,774" addon="0" bet="11,710" reg_code="" name="Ieech" win="25,132" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="tropeiro123" type="15"/>
+   <action no="2" sum="64" player="npogymaH" type="15"/>
+   <action no="3" sum="64" player="Larcher" type="15"/>
+   <action no="4" sum="64" player="LacustaMe" type="15"/>
+   <action no="5" sum="64" player="Sanom1s" type="15"/>
+   <action no="6" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="7" sum="64" player="Finite" type="15"/>
+   <action no="8" sum="64" player="Ieech" type="15"/>
+   <action no="9" sum="400" player="tropeiro123" type="1"/>
+   <action no="10" sum="800" player="npogymaH" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">SK SQ</cards>
+   <action no="13" sum="1,600" player="Sanom1s" type="23"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">SA DK</cards>
+   <action no="16" sum="11,710" player="Ieech" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C10 D9</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="npogymaH" type="0"/>
+   <action no="19" sum="10,110" player="Sanom1s" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 CA C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+ <game gamecode="10560378529">
+  <general>
+   <startdate>2024-02-12 15:52:14</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="1" seat="1" chips="57,000" addon="0" bet="64" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="18,556" addon="0" bet="464" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="40,224" addon="0" bet="1,824" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,464" addon="0" bet="64" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="4,932" addon="0" bet="64" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="21,960" addon="0" bet="64" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="26,095" addon="0" bet="64" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="25,132" addon="0" bet="3,286" reg_code="" name="Ieech" win="4,432" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="npogymaH" type="15"/>
+   <action no="2" sum="64" player="Larcher" type="15"/>
+   <action no="3" sum="64" player="LacustaMe" type="15"/>
+   <action no="4" sum="64" player="Sanom1s" type="15"/>
+   <action no="5" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="6" sum="64" player="Finite" type="15"/>
+   <action no="7" sum="64" player="Ieech" type="15"/>
+   <action no="8" sum="64" player="tropeiro123" type="15"/>
+   <action no="9" sum="400" player="npogymaH" type="1"/>
+   <action no="10" sum="800" player="Larcher" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="15" sum="1,760" player="Ieech" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D2 H5</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="18" sum="960" player="Larcher" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA DJ SK</cards>
+   <action no="19" sum="0" player="Larcher" type="4"/>
+   <action no="20" sum="1,462" player="Ieech" type="5"/>
+   <action no="21" sum="0" player="Larcher" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378546">
+  <general>
+   <startdate>2024-02-12 15:53:19</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player dealer="0" seat="1" chips="56,936" addon="0" bet="64" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="18,092" addon="0" bet="64" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="38,400" addon="0" bet="464" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="18,400" addon="0" bet="864" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="4,868" addon="0" bet="64" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="21,896" addon="0" bet="64" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="26,031" addon="0" bet="1,760" reg_code="" name="Finite" win="2,512" rebuy="0"/>
+    <player dealer="0" seat="10" chips="27,740" addon="0" bet="64" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="64" player="Larcher" type="15"/>
+   <action no="2" sum="64" player="LacustaMe" type="15"/>
+   <action no="3" sum="64" player="Sanom1s" type="15"/>
+   <action no="4" sum="64" player="IngvarHirdwall" type="15"/>
+   <action no="5" sum="64" player="Finite" type="15"/>
+   <action no="6" sum="64" player="Ieech" type="15"/>
+   <action no="7" sum="64" player="tropeiro123" type="15"/>
+   <action no="8" sum="64" player="npogymaH" type="15"/>
+   <action no="9" sum="400" player="Larcher" type="1"/>
+   <action no="10" sum="800" player="LacustaMe" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="13" sum="1,760" player="Finite" type="23"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 C4</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LacustaMe" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560378552">
+  <general>
+   <startdate>2024-02-12 15:53:43</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="56,872" addon="0" bet="80" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="18,028" addon="0" bet="80" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="37,936" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="17,536" addon="0" bet="580" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="4,804" addon="0" bet="4,804" reg_code="" name="Sanom1s" win="10,588" rebuy="0"/>
+    <player dealer="0" seat="7" chips="21,832" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,679" addon="0" bet="4,804" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="27,676" addon="0" bet="80" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="LacustaMe" type="15"/>
+   <action no="2" sum="80" player="Sanom1s" type="15"/>
+   <action no="3" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="4" sum="80" player="Finite" type="15"/>
+   <action no="5" sum="80" player="Ieech" type="15"/>
+   <action no="6" sum="80" player="tropeiro123" type="15"/>
+   <action no="7" sum="80" player="npogymaH" type="15"/>
+   <action no="8" sum="80" player="Larcher" type="15"/>
+   <action no="9" sum="500" player="LacustaMe" type="1"/>
+   <action no="10" sum="1,000" player="Sanom1s" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">CQ SA</cards>
+   <action no="12" sum="2,000" player="Finite" type="23"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 HQ</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">H3 D5</cards>
+   <action no="18" sum="1,000" player="Sanom1s" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 D8 C3</cards>
+   <action no="19" sum="2,724" player="Sanom1s" type="5"/>
+   <action no="20" sum="2,724" player="Finite" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+  </round>
+ </game>
+ <game gamecode="10560378563">
+  <general>
+   <startdate>2024-02-12 15:54:18</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="56,792" addon="0" bet="80" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,948" addon="0" bet="80" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,856" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="16,956" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="10,588" addon="0" bet="580" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="21,752" addon="0" bet="21,672" reg_code="" name="IngvarHirdwall" win="44,484" rebuy="0"/>
+    <player dealer="0" seat="9" chips="22,875" addon="0" bet="80" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="27,596" addon="0" bet="21,752" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="Sanom1s" type="15"/>
+   <action no="2" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="3" sum="80" player="Finite" type="15"/>
+   <action no="4" sum="80" player="Ieech" type="15"/>
+   <action no="5" sum="80" player="tropeiro123" type="15"/>
+   <action no="6" sum="80" player="npogymaH" type="15"/>
+   <action no="7" sum="80" player="Larcher" type="15"/>
+   <action no="8" sum="80" player="LacustaMe" type="15"/>
+   <action no="9" sum="500" player="Sanom1s" type="1"/>
+   <action no="10" sum="1,000" player="IngvarHirdwall" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">H9 C9</cards>
+   <action no="12" sum="2,000" player="Ieech" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D3 HQ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">CJ DJ</cards>
+   <action no="18" sum="21,672" player="IngvarHirdwall" type="23"/>
+   <action no="19" sum="19,672" player="Ieech" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 H8 SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10560378587">
+  <general>
+   <startdate>2024-02-12 16:01:21</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="56,712" addon="0" bet="7,920" reg_code="7947752252" name="tropeiro123" win="8,010" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,868" addon="0" bet="80" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,776" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="16,876" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="10,008" addon="0" bet="80" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,484" addon="0" bet="580" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="22,795" addon="0" bet="3,515" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,844" addon="0" bet="80" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="2" sum="80" player="Finite" type="15"/>
+   <action no="3" sum="80" player="Ieech" type="15"/>
+   <action no="4" sum="80" player="tropeiro123" type="15"/>
+   <action no="5" sum="80" player="npogymaH" type="15"/>
+   <action no="6" sum="80" player="Larcher" type="15"/>
+   <action no="7" sum="80" player="LacustaMe" type="15"/>
+   <action no="8" sum="80" player="Sanom1s" type="15"/>
+   <action no="9" sum="500" player="IngvarHirdwall" type="1"/>
+   <action no="10" sum="1,000" player="Finite" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA DQ</cards>
+   <action no="12" sum="2,100" player="tropeiro123" type="23"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="18" sum="1,100" player="Finite" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 D5 DK</cards>
+   <action no="19" sum="0" player="Finite" type="4"/>
+   <action no="20" sum="1,335" player="tropeiro123" type="5"/>
+   <action no="21" sum="1,335" player="Finite" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="22" sum="0" player="Finite" type="4"/>
+   <action no="23" sum="4,405" player="tropeiro123" type="5"/>
+   <action no="24" sum="0" player="Finite" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560409776">
+  <general>
+   <startdate>2024-02-12 16:02:59</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="61,207" addon="0" bet="80" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="17,788" addon="0" bet="3,080" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,696" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="16,796" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="9,928" addon="0" bet="5,080" reg_code="" name="Sanom1s" win="8,140" rebuy="0"/>
+    <player dealer="1" seat="7" chips="43,904" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="19,280" addon="0" bet="580" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,764" addon="0" bet="1,080" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="Finite" type="15"/>
+   <action no="2" sum="80" player="Ieech" type="15"/>
+   <action no="3" sum="80" player="tropeiro123" type="15"/>
+   <action no="4" sum="80" player="npogymaH" type="15"/>
+   <action no="5" sum="80" player="Larcher" type="15"/>
+   <action no="6" sum="80" player="LacustaMe" type="15"/>
+   <action no="7" sum="80" player="Sanom1s" type="15"/>
+   <action no="8" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="9" sum="500" player="Finite" type="1"/>
+   <action no="10" sum="1,000" player="Ieech" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S3 C6</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="12" sum="2,000" player="npogymaH" type="23"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="15" sum="2,000" player="Sanom1s" type="3"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Ieech" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 C2 D5</cards>
+   <action no="19" sum="1,000" player="npogymaH" type="5"/>
+   <action no="20" sum="3,000" player="Sanom1s" type="23"/>
+   <action no="21" sum="0" player="npogymaH" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560409793">
+  <general>
+   <startdate>2024-02-12 16:03:52</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="61,127" addon="0" bet="61,047" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="14,708" addon="0" bet="80" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,616" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="16,716" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="14,988" addon="0" bet="80" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,824" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="18,700" addon="0" bet="18,700" reg_code="" name="Finite" win="38,380" rebuy="0"/>
+    <player dealer="0" seat="10" chips="4,684" addon="0" bet="580" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="Ieech" type="15"/>
+   <action no="2" sum="80" player="tropeiro123" type="15"/>
+   <action no="3" sum="80" player="npogymaH" type="15"/>
+   <action no="4" sum="80" player="Larcher" type="15"/>
+   <action no="5" sum="80" player="LacustaMe" type="15"/>
+   <action no="6" sum="80" player="Sanom1s" type="15"/>
+   <action no="7" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="8" sum="80" player="Finite" type="15"/>
+   <action no="9" sum="500" player="Ieech" type="1"/>
+   <action no="10" sum="1,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">HK SK</cards>
+   <action no="16" sum="2,000" player="Finite" type="23"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 S5</cards>
+   <action no="18" sum="61,047" player="tropeiro123" type="23"/>
+   <action no="19" sum="16,620" player="Finite" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D3 H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+  </round>
+ </game>
+ <game gamecode="10560409810">
+  <general>
+   <startdate>2024-02-12 16:04:51</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="42,427" addon="0" bet="580" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="14,628" addon="0" bet="2,280" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,536" addon="0" bet="80" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="16,636" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="14,908" addon="0" bet="80" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,744" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="38,380" addon="0" bet="3,498" reg_code="" name="Finite" win="5,540" rebuy="0"/>
+    <player dealer="1" seat="10" chips="4,104" addon="0" bet="80" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="tropeiro123" type="15"/>
+   <action no="2" sum="80" player="npogymaH" type="15"/>
+   <action no="3" sum="80" player="Larcher" type="15"/>
+   <action no="4" sum="80" player="LacustaMe" type="15"/>
+   <action no="5" sum="80" player="Sanom1s" type="15"/>
+   <action no="6" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="7" sum="80" player="Finite" type="15"/>
+   <action no="8" sum="80" player="Ieech" type="15"/>
+   <action no="9" sum="500" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,000" player="npogymaH" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Larcher" type="0"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="15" sum="2,200" player="Finite" type="23"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 C3</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="18" sum="1,200" player="npogymaH" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 HA C5</cards>
+   <action no="19" sum="0" player="npogymaH" type="4"/>
+   <action no="20" sum="1,218" player="Finite" type="5"/>
+   <action no="21" sum="0" player="npogymaH" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560409829">
+  <general>
+   <startdate>2024-02-12 16:06:13</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="1" seat="1" chips="41,847" addon="0" bet="37,456" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="12,348" addon="0" bet="580" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="37,456" addon="0" bet="37,456" reg_code="" name="Larcher" win="75,892" rebuy="0"/>
+    <player dealer="0" seat="5" chips="16,556" addon="0" bet="80" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="14,828" addon="0" bet="80" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,664" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="41,640" addon="0" bet="80" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="4,024" addon="0" bet="80" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="npogymaH" type="15"/>
+   <action no="2" sum="80" player="Larcher" type="15"/>
+   <action no="3" sum="80" player="LacustaMe" type="15"/>
+   <action no="4" sum="80" player="Sanom1s" type="15"/>
+   <action no="5" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="6" sum="80" player="Finite" type="15"/>
+   <action no="7" sum="80" player="Ieech" type="15"/>
+   <action no="8" sum="80" player="tropeiro123" type="15"/>
+   <action no="9" sum="500" player="npogymaH" type="1"/>
+   <action no="10" sum="1,000" player="Larcher" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LacustaMe" type="0"/>
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 CK</cards>
+   <action no="16" sum="2,100" player="tropeiro123" type="23"/>
+   <cards player="npogymaH" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="npogymaH" type="0"/>
+   <cards player="Larcher" type="Pocket">SK D10</cards>
+   <action no="18" sum="6,300" player="Larcher" type="23"/>
+   <action no="19" sum="4,200" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 C10 H8</cards>
+   <action no="20" sum="31,076" player="Larcher" type="5"/>
+   <action no="21" sum="31,076" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10560409847">
+  <general>
+   <startdate>2024-02-12 16:07:26</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" seat="1" chips="4,391" addon="0" bet="4,311" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="11,768" addon="0" bet="11,688" reg_code="" name="npogymaH" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="75,892" addon="0" bet="75,812" reg_code="" name="Larcher" win="29,327" rebuy="0">
+     <knockout tobalance="€10.24" tobounty="€10.23" kicked="tropeiro123"/>
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="npogymaH"/>
+    </player>
+    <player dealer="0" seat="5" chips="16,476" addon="0" bet="1,080" reg_code="" name="LacustaMe" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="14,748" addon="0" bet="80" reg_code="" name="Sanom1s" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,584" addon="0" bet="80" reg_code="" name="IngvarHirdwall" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="41,560" addon="0" bet="80" reg_code="" name="Finite" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="3,944" addon="0" bet="80" reg_code="" name="Ieech" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="80" player="Larcher" type="15"/>
+   <action no="2" sum="80" player="LacustaMe" type="15"/>
+   <action no="3" sum="80" player="Sanom1s" type="15"/>
+   <action no="4" sum="80" player="IngvarHirdwall" type="15"/>
+   <action no="5" sum="80" player="Finite" type="15"/>
+   <action no="6" sum="80" player="Ieech" type="15"/>
+   <action no="7" sum="80" player="tropeiro123" type="15"/>
+   <action no="8" sum="80" player="npogymaH" type="15"/>
+   <action no="9" sum="500" player="Larcher" type="1"/>
+   <action no="10" sum="1,000" player="LacustaMe" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sanom1s" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Sanom1s" type="0"/>
+   <cards player="IngvarHirdwall" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="IngvarHirdwall" type="0"/>
+   <cards player="Finite" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Finite" type="0"/>
+   <cards player="Ieech" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Ieech" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK S9</cards>
+   <action no="15" sum="4,311" player="tropeiro123" type="23"/>
+   <cards player="npogymaH" type="Pocket">DA HK</cards>
+   <action no="16" sum="11,688" player="npogymaH" type="23"/>
+   <cards player="Larcher" type="Pocket">SK C4</cards>
+   <action no="17" sum="75,812" player="Larcher" type="23"/>
+   <cards player="LacustaMe" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LacustaMe" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 H4 S2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+</session>

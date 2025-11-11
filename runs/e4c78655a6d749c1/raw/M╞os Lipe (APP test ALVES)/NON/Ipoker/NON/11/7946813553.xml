@@ -1,0 +1,1921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946813553">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|The Eliminator|€55,000 GTD, 1080788608</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:42:42</duration>
+  <gamecount>33</gamecount>
+  <startdate>2024-02-11 15:12:55</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>38,744</bets>
+  <wins>33,389</wins>
+  <chipsin>42,120</chipsin>
+  <chipsout>41,500</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294041</tournamentcode>
+  <tournamentname>E3|The Eliminator|€55,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558481729">
+  <general>
+   <startdate>2024-02-11 15:12:55</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="65" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="45,128" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="46,240" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="27,258" win="0" addon="0"/>
+    <player reg_code="" bet="39,150" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="75,920" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="7" rebuy="0" dealer="1" name="AQUARIUMMM" chips="42,967" win="0" addon="0"/>
+    <player reg_code="" bet="1,032" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="70,495" win="0" addon="0"/>
+    <player reg_code="" bet="39,150" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="39,150" win="79,592" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="cashbilder27" sum="65"/>
+   <action type="15" no="2" player="NaoEstudeioSpot" sum="65"/>
+   <action type="15" no="3" player="xxKakiMakixx" sum="65"/>
+   <action type="15" no="4" player="SirTwoJabs" sum="65"/>
+   <action type="15" no="5" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="6" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="65"/>
+   <action type="1" no="8" player="cashbilder27" sum="225"/>
+   <action type="2" no="9" player="NaoEstudeioSpot" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="10" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="12" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="GoofyGlenn">HK CA</cards>
+   <action type="23" no="13" player="GoofyGlenn" sum="967"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="15" player="cashbilder27" sum="742"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">D9 C9</cards>
+   <action type="23" no="16" player="NaoEstudeioSpot" sum="5,850"/>
+   <action type="23" no="17" player="GoofyGlenn" sum="13,883"/>
+   <action type="0" no="18" player="cashbilder27" sum="0"/>
+   <action type="3" no="19" player="NaoEstudeioSpot" sum="8,033"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 D3 C7</cards>
+   <action type="4" no="20" player="NaoEstudeioSpot" sum="0"/>
+   <action type="5" no="21" player="GoofyGlenn" sum="25,200"/>
+   <action type="7" no="22" player="NaoEstudeioSpot" sum="25,202"/>
+   <action type="3" no="23" player="GoofyGlenn" sum="2"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10558481925">
+  <general>
+   <startdate>2024-02-11 15:14:33</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="515" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="45,063" win="0" addon="0"/>
+    <player reg_code="" bet="1,055" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="46,175" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="3,330" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="40,000" win="3,175" addon="0"/>
+    <player reg_code="" bet="65" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="27,193" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="36,770" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="42,902" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="9" rebuy="0" dealer="1" name="cashbilder27" chips="69,463" win="0" addon="0"/>
+    <player reg_code="" bet="290" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="79,592" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NaoEstudeioSpot" sum="65"/>
+   <action type="15" no="2" player="xxKakiMakixx" sum="65"/>
+   <action type="15" no="3" player="SirTwoJabs" sum="65"/>
+   <action type="15" no="4" player="tropeiro123" sum="65"/>
+   <action type="15" no="5" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="6" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="65"/>
+   <action type="15" no="8" player="cashbilder27" sum="65"/>
+   <action type="1" no="9" player="NaoEstudeioSpot" sum="225"/>
+   <action type="2" no="10" player="xxKakiMakixx" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="23" no="11" player="SirTwoJabs" sum="990"/>
+   <cards type="Pocket" player="tropeiro123">SA HQ</cards>
+   <action type="23" no="12" player="tropeiro123" sum="3,330"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="13" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="0" no="14" player="GoofyGlenn" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="15" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="16" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="17" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="18" player="xxKakiMakixx" sum="0"/>
+   <action type="0" no="19" player="SirTwoJabs" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558482014">
+  <general>
+   <startdate>2024-02-11 15:15:11</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="290" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="44,548" win="0" addon="0"/>
+    <player reg_code="" bet="515" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="45,120" win="970" addon="0"/>
+    <player reg_code="7946813553" bet="65" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,120" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="27,128" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="36,705" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="42,837" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="69,398" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="10" rebuy="0" dealer="1" name="NaoEstudeioSpot" chips="79,302" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="xxKakiMakixx" sum="65"/>
+   <action type="15" no="2" player="SirTwoJabs" sum="65"/>
+   <action type="15" no="3" player="tropeiro123" sum="65"/>
+   <action type="15" no="4" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="5" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="6" player="AQUARIUMMM" sum="65"/>
+   <action type="15" no="7" player="cashbilder27" sum="65"/>
+   <action type="15" no="8" player="NaoEstudeioSpot" sum="65"/>
+   <action type="1" no="9" player="xxKakiMakixx" sum="225"/>
+   <action type="2" no="10" player="SirTwoJabs" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <cards type="Pocket" player="tropeiro123">H4 DA</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="12" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="0" no="13" player="GoofyGlenn" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="15" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="16" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="17" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558482125">
+  <general>
+   <startdate>2024-02-11 15:16:03</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="65" seat="1" rebuy="0" dealer="1" name="xxKakiMakixx" chips="44,258" win="0" addon="0"/>
+    <player reg_code="" bet="290" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="45,800" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="515" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,055" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="27,063" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="36,640" win="0" addon="0"/>
+    <player reg_code="" bet="4,618" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="42,772" win="4,570" addon="0"/>
+    <player reg_code="" bet="1,190" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="69,333" win="0" addon="0"/>
+    <player reg_code="" bet="1,190" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="79,237" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="SirTwoJabs" sum="65"/>
+   <action type="15" no="2" player="tropeiro123" sum="65"/>
+   <action type="15" no="3" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="4" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="5" player="AQUARIUMMM" sum="65"/>
+   <action type="15" no="6" player="cashbilder27" sum="65"/>
+   <action type="15" no="7" player="NaoEstudeioSpot" sum="65"/>
+   <action type="15" no="8" player="xxKakiMakixx" sum="65"/>
+   <action type="1" no="9" player="SirTwoJabs" sum="225"/>
+   <action type="2" no="10" player="tropeiro123" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="11" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="0" no="12" player="GoofyGlenn" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="23" no="13" player="AQUARIUMMM" sum="1,125"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="14" player="cashbilder27" sum="1,125"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="3" no="15" player="NaoEstudeioSpot" sum="1,125"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="16" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="17" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C10 D4</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 D8 SJ</cards>
+   <action type="4" no="19" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="20" player="cashbilder27" sum="0"/>
+   <action type="4" no="21" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action type="5" no="22" player="AQUARIUMMM" sum="3,428"/>
+   <action type="0" no="23" player="cashbilder27" sum="0"/>
+   <action type="0" no="24" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558508357">
+  <general>
+   <startdate>2024-02-11 15:17:00</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="965" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="44,193" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="2" rebuy="0" dealer="1" name="SirTwoJabs" chips="45,510" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="4,185" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,540" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="26,998" win="9,660" addon="0"/>
+    <player reg_code="" bet="65" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="36,575" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,152" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="68,143" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="78,047" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="65"/>
+   <action type="15" no="2" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="3" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="4" player="AQUARIUMMM" sum="65"/>
+   <action type="15" no="5" player="cashbilder27" sum="65"/>
+   <action type="15" no="6" player="NaoEstudeioSpot" sum="65"/>
+   <action type="15" no="7" player="xxKakiMakixx" sum="65"/>
+   <action type="15" no="8" player="SirTwoJabs" sum="65"/>
+   <action type="1" no="9" player="tropeiro123" sum="225"/>
+   <action type="2" no="10" player="WednesdayAddams" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="0" no="11" player="GoofyGlenn" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="12" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="13" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="14" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="23" no="15" player="xxKakiMakixx" sum="900"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="16" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S3 S5</cards>
+   <action type="3" no="17" player="tropeiro123" sum="675"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="18" player="WednesdayAddams" sum="4,120"/>
+   <action type="0" no="19" player="xxKakiMakixx" sum="0"/>
+   <action type="3" no="20" player="tropeiro123" sum="3,220"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S7 DJ</cards>
+   <action type="4" no="21" player="tropeiro123" sum="0"/>
+   <action type="5" no="22" player="WednesdayAddams" sum="2,415"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558508576">
+  <general>
+   <startdate>2024-02-11 15:18:38</startdate>
+   <smallblind>225</smallblind>
+   <bigblind>450</bigblind>
+   <ante>65</ante>
+   <players>
+    <player reg_code="" bet="65" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="43,228" win="0" addon="0"/>
+    <player reg_code="" bet="1,055" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="45,445" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="65" seat="4" rebuy="0" dealer="1" name="tropeiro123" chips="37,355" win="0" addon="0"/>
+    <player reg_code="" bet="3,672" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="32,473" win="3,490" addon="0"/>
+    <player reg_code="" bet="1,055" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="36,510" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,087" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="68,078" win="0" addon="0"/>
+    <player reg_code="" bet="65" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,982" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WednesdayAddams" sum="65"/>
+   <action type="15" no="2" player="GoofyGlenn" sum="65"/>
+   <action type="15" no="3" player="AQUARIUMMM" sum="65"/>
+   <action type="15" no="4" player="cashbilder27" sum="65"/>
+   <action type="15" no="5" player="NaoEstudeioSpot" sum="65"/>
+   <action type="15" no="6" player="xxKakiMakixx" sum="65"/>
+   <action type="15" no="7" player="SirTwoJabs" sum="65"/>
+   <action type="15" no="8" player="tropeiro123" sum="65"/>
+   <action type="1" no="9" player="WednesdayAddams" sum="225"/>
+   <action type="2" no="10" player="GoofyGlenn" sum="450"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="11" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="12" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="13" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="14" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="23" no="15" player="SirTwoJabs" sum="990"/>
+   <cards type="Pocket" player="tropeiro123">S9 D6</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="3" no="17" player="WednesdayAddams" sum="765"/>
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="3" no="18" player="GoofyGlenn" sum="540"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 D8 C9</cards>
+   <action type="4" no="19" player="WednesdayAddams" sum="0"/>
+   <action type="4" no="20" player="GoofyGlenn" sum="0"/>
+   <action type="4" no="21" player="SirTwoJabs" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action type="5" no="22" player="WednesdayAddams" sum="2,617"/>
+   <action type="0" no="23" player="GoofyGlenn" sum="0"/>
+   <action type="0" no="24" player="SirTwoJabs" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558508769">
+  <general>
+   <startdate>2024-02-11 15:20:10</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="43,163" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="44,390" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="2,625" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="37,290" win="7,250" addon="0"/>
+    <player reg_code="" bet="2,625" seat="5" rebuy="0" dealer="1" name="WednesdayAddams" chips="34,908" win="0" addon="0"/>
+    <player reg_code="" bet="1,125" seat="6" rebuy="0" dealer="0" name="GoofyGlenn" chips="35,455" win="0" addon="0"/>
+    <player reg_code="" bet="575" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,022" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="68,013" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,917" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="GoofyGlenn" sum="75"/>
+   <action type="15" no="2" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="3" player="cashbilder27" sum="75"/>
+   <action type="15" no="4" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="5" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="6" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="7" player="tropeiro123" sum="75"/>
+   <action type="15" no="8" player="WednesdayAddams" sum="75"/>
+   <action type="1" no="9" player="GoofyGlenn" sum="250"/>
+   <action type="2" no="10" player="AQUARIUMMM" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="11" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="12" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="13" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="14" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 D9</cards>
+   <action type="23" no="15" player="tropeiro123" sum="1,050"/>
+   <cards type="Pocket" player="WednesdayAddams">SJ HA</cards>
+   <action type="3" no="16" player="WednesdayAddams" sum="1,050"/>
+   <cards type="Pocket" player="GoofyGlenn">X X</cards>
+   <action type="3" no="17" player="GoofyGlenn" sum="800"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="18" player="AQUARIUMMM" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK H7 S9</cards>
+   <action type="4" no="19" player="GoofyGlenn" sum="0"/>
+   <action type="4" no="20" player="tropeiro123" sum="0"/>
+   <action type="5" no="21" player="WednesdayAddams" sum="1,000"/>
+   <action type="0" no="22" player="GoofyGlenn" sum="0"/>
+   <action type="3" no="23" player="tropeiro123" sum="1,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action type="4" no="24" player="tropeiro123" sum="0"/>
+   <action type="4" no="25" player="WednesdayAddams" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+   <action type="5" no="26" player="tropeiro123" sum="500"/>
+   <action type="3" no="27" player="WednesdayAddams" sum="500"/>
+  </round>
+ </game>
+ <game gamecode="10558509148">
+  <general>
+   <startdate>2024-02-11 15:22:56</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="43,088" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="44,315" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,915" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="32,283" win="0" addon="0"/>
+    <player reg_code="" bet="34,330" seat="6" rebuy="0" dealer="1" name="GoofyGlenn" chips="34,330" win="0" addon="0"/>
+    <player reg_code="" bet="325" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="45,447" win="0" addon="0"/>
+    <player reg_code="" bet="34,330" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="67,938" win="70,360" addon="0">
+     <knockout tobounty="€19.90" tobalance="€19.91" kicked="GoofyGlenn"/>
+    </player>
+    <player reg_code="" bet="1,075" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,842" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="2" player="cashbilder27" sum="75"/>
+   <action type="15" no="3" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="4" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="5" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="6" player="tropeiro123" sum="75"/>
+   <action type="15" no="7" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="8" player="GoofyGlenn" sum="75"/>
+   <action type="1" no="9" player="AQUARIUMMM" sum="250"/>
+   <action type="2" no="10" player="cashbilder27" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="23" no="11" player="NaoEstudeioSpot" sum="1,000"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="12" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="13" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S4 CK</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="15" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="GoofyGlenn">SK S5</cards>
+   <action type="3" no="16" player="GoofyGlenn" sum="1,000"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="17" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">C3 C2</cards>
+   <action type="3" no="18" player="cashbilder27" sum="500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 C4 C7</cards>
+   <action type="4" no="19" player="cashbilder27" sum="0"/>
+   <action type="4" no="20" player="NaoEstudeioSpot" sum="0"/>
+   <action type="5" no="21" player="GoofyGlenn" sum="1,000"/>
+   <action type="3" no="22" player="cashbilder27" sum="1,000"/>
+   <action type="0" no="23" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action type="4" no="24" player="cashbilder27" sum="0"/>
+   <action type="5" no="25" player="GoofyGlenn" sum="2,000"/>
+   <action type="23" no="26" player="cashbilder27" sum="5,500"/>
+   <action type="3" no="27" player="GoofyGlenn" sum="3,500"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action type="5" no="28" player="cashbilder27" sum="5,560"/>
+   <action type="23" no="29" player="GoofyGlenn" sum="26,755"/>
+   <action type="3" no="30" player="cashbilder27" sum="21,195"/>
+  </round>
+ </game>
+ <game gamecode="10558509404">
+  <general>
+   <startdate>2024-02-11 15:24:51</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="43,013" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="44,240" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,840" win="0" addon="0"/>
+    <player reg_code="" bet="2,225" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="32,208" win="3,325" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="1" name="AQUARIUMMM" chips="45,122" win="0" addon="0"/>
+    <player reg_code="" bet="1,225" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="103,968" win="0" addon="0"/>
+    <player reg_code="" bet="575" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="76,767" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="cashbilder27" sum="75"/>
+   <action type="15" no="2" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="3" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="4" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="5" player="tropeiro123" sum="75"/>
+   <action type="15" no="6" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="75"/>
+   <action type="1" no="8" player="cashbilder27" sum="250"/>
+   <action type="2" no="9" player="NaoEstudeioSpot" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="10" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ D3</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="13" player="WednesdayAddams" sum="1,150"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="15" player="cashbilder27" sum="900"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="16" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 CQ H7</cards>
+   <action type="4" no="17" player="cashbilder27" sum="0"/>
+   <action type="5" no="18" player="WednesdayAddams" sum="1,000"/>
+   <action type="0" no="19" player="cashbilder27" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558509517">
+  <general>
+   <startdate>2024-02-11 15:25:36</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="1,325" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="42,938" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="44,165" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,765" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="34,308" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="40,000" win="0" addon="0"/>
+    <player reg_code="" bet="2,430" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="45,047" win="3,350" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="1" name="cashbilder27" chips="102,743" win="0" addon="0"/>
+    <player reg_code="" bet="325" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="76,192" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="2" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="3" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="4" player="tropeiro123" sum="75"/>
+   <action type="15" no="5" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="6" player="Vanillo" sum="75"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="8" player="cashbilder27" sum="75"/>
+   <action type="1" no="9" player="NaoEstudeioSpot" sum="250"/>
+   <action type="2" no="10" player="xxKakiMakixx" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ S4</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="13" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="14" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="23" no="15" player="AQUARIUMMM" sum="1,250"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="16" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="17" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="3" no="18" player="xxKakiMakixx" sum="750"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ DQ S5</cards>
+   <action type="4" no="19" player="xxKakiMakixx" sum="0"/>
+   <action type="5" no="20" player="AQUARIUMMM" sum="1,105"/>
+   <action type="0" no="21" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558509633">
+  <general>
+   <startdate>2024-02-11 15:26:24</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="325" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="41,613" win="0" addon="0"/>
+    <player reg_code="" bet="3,787" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="44,090" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,690" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="34,233" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="39,925" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="47,072" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="102,668" win="0" addon="0"/>
+    <player reg_code="" bet="3,787" seat="10" rebuy="0" dealer="1" name="NaoEstudeioSpot" chips="75,867" win="8,274" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="2" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="3" player="tropeiro123" sum="75"/>
+   <action type="15" no="4" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="5" player="Vanillo" sum="75"/>
+   <action type="15" no="6" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="7" player="cashbilder27" sum="75"/>
+   <action type="15" no="8" player="NaoEstudeioSpot" sum="75"/>
+   <action type="1" no="9" player="xxKakiMakixx" sum="250"/>
+   <action type="2" no="10" player="SirTwoJabs" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">CJ H5</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="12" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="13" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="15" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">DQ DK</cards>
+   <action type="23" no="16" player="NaoEstudeioSpot" sum="1,000"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="17" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">D3 HA</cards>
+   <action type="3" no="18" player="SirTwoJabs" sum="500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 D6 SA</cards>
+   <action type="4" no="19" player="SirTwoJabs" sum="0"/>
+   <action type="5" no="20" player="NaoEstudeioSpot" sum="712"/>
+   <action type="3" no="21" player="SirTwoJabs" sum="712"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action type="4" no="22" player="SirTwoJabs" sum="0"/>
+   <action type="4" no="23" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action type="5" no="24" player="SirTwoJabs" sum="2,000"/>
+   <action type="3" no="25" player="NaoEstudeioSpot" sum="2,000"/>
+  </round>
+ </game>
+ <game gamecode="10558533314">
+  <general>
+   <startdate>2024-02-11 15:27:50</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="1" name="xxKakiMakixx" chips="41,288" win="0" addon="0"/>
+    <player reg_code="" bet="325" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="40,303" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="575" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,615" win="0" addon="0"/>
+    <player reg_code="" bet="34,158" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="34,158" win="69,516" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="39,850" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,997" win="0" addon="0"/>
+    <player reg_code="" bet="102,518" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="102,593" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="80,354" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="2" player="tropeiro123" sum="75"/>
+   <action type="15" no="3" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="4" player="Vanillo" sum="75"/>
+   <action type="15" no="5" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="6" player="cashbilder27" sum="75"/>
+   <action type="15" no="7" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="8" player="xxKakiMakixx" sum="75"/>
+   <action type="1" no="9" player="SirTwoJabs" sum="250"/>
+   <action type="2" no="10" player="tropeiro123" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WednesdayAddams">SJ DJ</cards>
+   <action type="23" no="11" player="WednesdayAddams" sum="1,150"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="12" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="13" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">D10 H10</cards>
+   <action type="23" no="14" player="cashbilder27" sum="2,800"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="15" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="16" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="17" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DA H8</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+   <action type="23" no="19" player="WednesdayAddams" sum="11,950"/>
+   <action type="23" no="20" player="cashbilder27" sum="102,518"/>
+   <action type="7" no="21" player="WednesdayAddams" sum="22,133"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK CQ D5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+ <game gamecode="10558533620">
+  <general>
+   <startdate>2024-02-11 15:28:53</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="1,075" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="41,213" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="1" name="SirTwoJabs" chips="39,978" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="4,500" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,040" win="3,100" addon="0"/>
+    <player reg_code="" bet="575" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="69,516" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="39,775" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,922" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="68,435" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="80,279" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="75"/>
+   <action type="15" no="2" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="3" player="Vanillo" sum="75"/>
+   <action type="15" no="4" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="5" player="cashbilder27" sum="75"/>
+   <action type="15" no="6" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="7" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="8" player="SirTwoJabs" sum="75"/>
+   <action type="1" no="9" player="tropeiro123" sum="250"/>
+   <action type="2" no="10" player="WednesdayAddams" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="11" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="12" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="13" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="14" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="23" no="15" player="xxKakiMakixx" sum="1,000"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="16" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DA DK</cards>
+   <action type="23" no="17" player="tropeiro123" sum="4,500"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="18" player="WednesdayAddams" sum="0"/>
+   <action type="0" no="19" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558533857">
+  <general>
+   <startdate>2024-02-11 15:29:43</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="1,075" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="40,138" win="0" addon="0"/>
+    <player reg_code="" bet="1,075" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="39,903" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="1" name="tropeiro123" chips="43,065" win="0" addon="0"/>
+    <player reg_code="" bet="8,500" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="68,941" win="5,100" addon="0"/>
+    <player reg_code="" bet="575" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="39,700" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,847" win="0" addon="0"/>
+    <player reg_code="" bet="1,075" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="68,360" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="80,204" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WednesdayAddams" sum="75"/>
+   <action type="15" no="2" player="Vanillo" sum="75"/>
+   <action type="15" no="3" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="4" player="cashbilder27" sum="75"/>
+   <action type="15" no="5" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="6" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="7" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="8" player="tropeiro123" sum="75"/>
+   <action type="1" no="9" player="WednesdayAddams" sum="250"/>
+   <action type="2" no="10" player="Vanillo" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="11" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="23" no="12" player="cashbilder27" sum="1,000"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="13" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="3" no="14" player="xxKakiMakixx" sum="1,000"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="3" no="15" player="SirTwoJabs" sum="1,000"/>
+   <cards type="Pocket" player="tropeiro123">CJ S7</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="17" player="WednesdayAddams" sum="8,500"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="18" player="Vanillo" sum="0"/>
+   <action type="0" no="19" player="cashbilder27" sum="0"/>
+   <action type="0" no="20" player="xxKakiMakixx" sum="0"/>
+   <action type="0" no="21" player="SirTwoJabs" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558534166">
+  <general>
+   <startdate>2024-02-11 15:31:14</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="8,975" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="39,063" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="38,828" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="75" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,990" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="5" rebuy="0" dealer="1" name="WednesdayAddams" chips="72,966" win="0" addon="0"/>
+    <player reg_code="" bet="325" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="39,125" win="0" addon="0"/>
+    <player reg_code="" bet="8,975" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="46,772" win="19,650" addon="0"/>
+    <player reg_code="" bet="1,075" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="67,285" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="80,129" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vanillo" sum="75"/>
+   <action type="15" no="2" player="AQUARIUMMM" sum="75"/>
+   <action type="15" no="3" player="cashbilder27" sum="75"/>
+   <action type="15" no="4" player="NaoEstudeioSpot" sum="75"/>
+   <action type="15" no="5" player="xxKakiMakixx" sum="75"/>
+   <action type="15" no="6" player="SirTwoJabs" sum="75"/>
+   <action type="15" no="7" player="tropeiro123" sum="75"/>
+   <action type="15" no="8" player="WednesdayAddams" sum="75"/>
+   <action type="1" no="9" player="Vanillo" sum="250"/>
+   <action type="2" no="10" player="AQUARIUMMM" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="23" no="11" player="cashbilder27" sum="1,000"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="12" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">S7 S9</cards>
+   <action type="3" no="13" player="xxKakiMakixx" sum="1,000"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="14" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D7 H8</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="16" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="17" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">H10 C10</cards>
+   <action type="3" no="18" player="AQUARIUMMM" sum="500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 H4 C7</cards>
+   <action type="4" no="19" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="20" player="cashbilder27" sum="0"/>
+   <action type="5" no="21" player="xxKakiMakixx" sum="2,310"/>
+   <action type="3" no="22" player="AQUARIUMMM" sum="2,310"/>
+   <action type="0" no="23" player="cashbilder27" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action type="4" no="24" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="25" player="xxKakiMakixx" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action type="5" no="26" player="AQUARIUMMM" sum="5,590"/>
+   <action type="3" no="27" player="xxKakiMakixx" sum="5,590"/>
+  </round>
+ </game>
+ <game gamecode="10558534409">
+  <general>
+   <startdate>2024-02-11 15:33:00</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="30,088" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="38,753" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,915" win="0" addon="0"/>
+    <player reg_code="" bet="3,832" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="72,891" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="1" name="Vanillo" chips="38,800" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="57,447" win="0" addon="0"/>
+    <player reg_code="" bet="3,832" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="66,210" win="8,504" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="80,054" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="2" player="cashbilder27" sum="90"/>
+   <action type="15" no="3" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="4" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="5" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="6" player="tropeiro123" sum="90"/>
+   <action type="15" no="7" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="8" player="Vanillo" sum="90"/>
+   <action type="1" no="9" player="AQUARIUMMM" sum="300"/>
+   <action type="2" no="10" player="cashbilder27" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="11" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="12" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="13" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CK D3</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">DA DQ</cards>
+   <action type="23" no="15" player="WednesdayAddams" sum="1,380"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="16" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="17" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">HK C5</cards>
+   <action type="3" no="18" player="cashbilder27" sum="780"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 H8 H10</cards>
+   <action type="4" no="19" player="cashbilder27" sum="0"/>
+   <action type="5" no="20" player="WednesdayAddams" sum="945"/>
+   <action type="3" no="21" player="cashbilder27" sum="945"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action type="4" no="22" player="cashbilder27" sum="0"/>
+   <action type="5" no="23" player="WednesdayAddams" sum="1,417"/>
+   <action type="3" no="24" player="cashbilder27" sum="1,417"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action type="4" no="25" player="cashbilder27" sum="0"/>
+   <action type="4" no="26" player="WednesdayAddams" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558534579">
+  <general>
+   <startdate>2024-02-11 15:34:10</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="29,998" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="38,663" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,825" win="0" addon="0"/>
+    <player reg_code="" bet="2,490" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="69,059" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="38,710" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="1" name="AQUARIUMMM" chips="57,057" win="0" addon="0"/>
+    <player reg_code="" bet="4,710" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="70,882" win="6,120" addon="0"/>
+    <player reg_code="" bet="690" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="79,964" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="cashbilder27" sum="90"/>
+   <action type="15" no="2" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="3" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="4" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="5" player="tropeiro123" sum="90"/>
+   <action type="15" no="6" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="7" player="Vanillo" sum="90"/>
+   <action type="15" no="8" player="AQUARIUMMM" sum="90"/>
+   <action type="1" no="9" player="cashbilder27" sum="300"/>
+   <action type="2" no="10" player="NaoEstudeioSpot" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="11" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="12" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H4 C6</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="14" player="WednesdayAddams" sum="1,380"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="15" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="16" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="17" player="cashbilder27" sum="1,080"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="18" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 D6 S9</cards>
+   <action type="4" no="19" player="cashbilder27" sum="0"/>
+   <action type="5" no="20" player="WednesdayAddams" sum="1,020"/>
+   <action type="23" no="21" player="cashbilder27" sum="3,240"/>
+   <action type="0" no="22" player="WednesdayAddams" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558534705">
+  <general>
+   <startdate>2024-02-11 15:35:05</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="690" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="29,908" win="1,320" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="38,573" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,735" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,569" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="38,620" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="56,967" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="1" name="cashbilder27" chips="74,512" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="79,274" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="2" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="3" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="4" player="tropeiro123" sum="90"/>
+   <action type="15" no="5" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="6" player="Vanillo" sum="90"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="8" player="cashbilder27" sum="90"/>
+   <action type="1" no="9" player="NaoEstudeioSpot" sum="300"/>
+   <action type="2" no="10" player="xxKakiMakixx" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S8 C4</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="13" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="14" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="15" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="16" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="17" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558534760">
+  <general>
+   <startdate>2024-02-11 15:35:26</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="390" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="30,838" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="38,483" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,645" win="0" addon="0"/>
+    <player reg_code="" bet="4,290" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,479" win="0" addon="0"/>
+    <player reg_code="" bet="6,795" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="38,530" win="10,020" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="56,877" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="74,422" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="1" name="NaoEstudeioSpot" chips="78,884" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="2" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="3" player="tropeiro123" sum="90"/>
+   <action type="15" no="4" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="5" player="Vanillo" sum="90"/>
+   <action type="15" no="6" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="7" player="cashbilder27" sum="90"/>
+   <action type="15" no="8" player="NaoEstudeioSpot" sum="90"/>
+   <action type="1" no="9" player="xxKakiMakixx" sum="300"/>
+   <action type="2" no="10" player="SirTwoJabs" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S4 S7</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="12" player="WednesdayAddams" sum="1,380"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="23" no="13" player="Vanillo" sum="4,200"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="15" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="16" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="17" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="18" player="SirTwoJabs" sum="0"/>
+   <action type="3" no="19" player="WednesdayAddams" sum="2,820"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 H3 CK</cards>
+   <action type="4" no="20" player="WednesdayAddams" sum="0"/>
+   <action type="5" no="21" player="Vanillo" sum="2,505"/>
+   <action type="0" no="22" player="WednesdayAddams" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558534961">
+  <general>
+   <startdate>2024-02-11 15:36:54</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="1" name="xxKakiMakixx" chips="30,448" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="37,793" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="690" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="42,555" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="62,189" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="44,260" win="0" addon="0"/>
+    <player reg_code="" bet="2,616" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="56,787" win="4,020" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="74,332" win="0" addon="0"/>
+    <player reg_code="" bet="1,290" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="78,794" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="2" player="tropeiro123" sum="90"/>
+   <action type="15" no="3" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="4" player="Vanillo" sum="90"/>
+   <action type="15" no="5" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="6" player="cashbilder27" sum="90"/>
+   <action type="15" no="7" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="8" player="xxKakiMakixx" sum="90"/>
+   <action type="1" no="9" player="SirTwoJabs" sum="300"/>
+   <action type="2" no="10" player="tropeiro123" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="11" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="12" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="23" no="13" player="AQUARIUMMM" sum="1,200"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="14" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="3" no="15" player="NaoEstudeioSpot" sum="1,200"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="16" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="17" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H5 DJ</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S2 C2</cards>
+   <action type="5" no="19" player="AQUARIUMMM" sum="1,326"/>
+   <action type="0" no="20" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558535147">
+  <general>
+   <startdate>2024-02-11 15:38:08</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="2,145" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="30,358" win="2,565" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="1" name="SirTwoJabs" chips="37,403" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="390" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,865" win="0" addon="0"/>
+    <player reg_code="" bet="2,145" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="62,099" win="2,565" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="44,170" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="59,517" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="74,242" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,504" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="90"/>
+   <action type="15" no="2" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="3" player="Vanillo" sum="90"/>
+   <action type="15" no="4" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="5" player="cashbilder27" sum="90"/>
+   <action type="15" no="6" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="7" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="8" player="SirTwoJabs" sum="90"/>
+   <action type="1" no="9" player="tropeiro123" sum="300"/>
+   <action type="2" no="10" player="WednesdayAddams" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="11" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="12" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="13" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="14" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">H7 HA</cards>
+   <action type="23" no="15" player="xxKakiMakixx" sum="1,200"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="16" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ C3</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">S8 SA</cards>
+   <action type="3" no="18" player="WednesdayAddams" sum="600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ SJ H10</cards>
+   <action type="4" no="19" player="WednesdayAddams" sum="0"/>
+   <action type="4" no="20" player="xxKakiMakixx" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action type="5" no="21" player="WednesdayAddams" sum="855"/>
+   <action type="3" no="22" player="xxKakiMakixx" sum="855"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action type="4" no="23" player="WednesdayAddams" sum="0"/>
+   <action type="4" no="24" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558558902">
+  <general>
+   <startdate>2024-02-11 15:39:42</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="1,290" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="30,778" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="37,313" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="2,445" seat="4" rebuy="0" dealer="1" name="tropeiro123" chips="41,475" win="4,620" addon="0"/>
+    <player reg_code="" bet="390" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="62,519" win="0" addon="0"/>
+    <player reg_code="" bet="1,290" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="44,080" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="59,427" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="74,152" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,414" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="2" player="Vanillo" sum="90"/>
+   <action type="15" no="3" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="4" player="cashbilder27" sum="90"/>
+   <action type="15" no="5" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="6" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="7" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="8" player="tropeiro123" sum="90"/>
+   <action type="1" no="9" player="WednesdayAddams" sum="300"/>
+   <action type="2" no="10" player="Vanillo" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="11" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="12" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="13" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="23" no="14" player="xxKakiMakixx" sum="1,200"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="15" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CJ C10</cards>
+   <action type="3" no="16" player="tropeiro123" sum="1,200"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="17" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="3" no="18" player="Vanillo" sum="600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 CA HA</cards>
+   <action type="4" no="19" player="Vanillo" sum="0"/>
+   <action type="4" no="20" player="xxKakiMakixx" sum="0"/>
+   <action type="5" no="21" player="tropeiro123" sum="1,155"/>
+   <action type="0" no="22" player="Vanillo" sum="0"/>
+   <action type="0" no="23" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559044">
+  <general>
+   <startdate>2024-02-11 15:40:44</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="29,488" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="37,223" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="44,805" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="1" name="WednesdayAddams" chips="62,129" win="0" addon="0"/>
+    <player reg_code="" bet="5,400" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="42,790" win="3,720" addon="0"/>
+    <player reg_code="" bet="690" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="59,337" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="74,062" win="0" addon="0"/>
+    <player reg_code="" bet="1,290" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="77,324" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vanillo" sum="90"/>
+   <action type="15" no="2" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="3" player="cashbilder27" sum="90"/>
+   <action type="15" no="4" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="5" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="6" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="7" player="tropeiro123" sum="90"/>
+   <action type="15" no="8" player="WednesdayAddams" sum="90"/>
+   <action type="1" no="9" player="Vanillo" sum="300"/>
+   <action type="2" no="10" player="AQUARIUMMM" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="11" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="23" no="12" player="NaoEstudeioSpot" sum="1,200"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="13" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="14" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H8 C8</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="16" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="23" no="17" player="Vanillo" sum="5,400"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="18" player="AQUARIUMMM" sum="0"/>
+   <action type="0" no="19" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559192">
+  <general>
+   <startdate>2024-02-11 15:41:41</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="29,398" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="37,133" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="1,350" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="44,715" win="0" addon="0"/>
+    <player reg_code="" bet="2,790" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="62,039" win="5,760" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="1" name="Vanillo" chips="45,220" win="0" addon="0"/>
+    <player reg_code="" bet="1,350" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="58,647" win="0" addon="0"/>
+    <player reg_code="" bet="1,350" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="73,972" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="76,034" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="AQUARIUMMM" sum="90"/>
+   <action type="15" no="2" player="cashbilder27" sum="90"/>
+   <action type="15" no="3" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="4" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="5" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="6" player="tropeiro123" sum="90"/>
+   <action type="15" no="7" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="8" player="Vanillo" sum="90"/>
+   <action type="1" no="9" player="AQUARIUMMM" sum="300"/>
+   <action type="2" no="10" player="cashbilder27" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="11" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="12" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="13" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SK CQ</cards>
+   <action type="23" no="14" player="tropeiro123" sum="1,260"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="3" no="15" player="WednesdayAddams" sum="1,260"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="16" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="3" no="17" player="AQUARIUMMM" sum="960"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="18" player="cashbilder27" sum="660"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H3 H4</cards>
+   <action type="4" no="19" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="20" player="cashbilder27" sum="0"/>
+   <action type="4" no="21" player="tropeiro123" sum="0"/>
+   <action type="5" no="22" player="WednesdayAddams" sum="1,440"/>
+   <action type="0" no="23" player="AQUARIUMMM" sum="0"/>
+   <action type="0" no="24" player="cashbilder27" sum="0"/>
+   <action type="0" no="25" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559385">
+  <general>
+   <startdate>2024-02-11 15:43:07</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="3,090" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="29,308" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="37,043" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="90" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="43,365" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,449" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="45,130" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="1" name="AQUARIUMMM" chips="57,297" win="0" addon="0"/>
+    <player reg_code="" bet="3,090" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="72,622" win="7,320" addon="0"/>
+    <player reg_code="" bet="690" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="75,944" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="cashbilder27" sum="90"/>
+   <action type="15" no="2" player="NaoEstudeioSpot" sum="90"/>
+   <action type="15" no="3" player="xxKakiMakixx" sum="90"/>
+   <action type="15" no="4" player="SirTwoJabs" sum="90"/>
+   <action type="15" no="5" player="tropeiro123" sum="90"/>
+   <action type="15" no="6" player="WednesdayAddams" sum="90"/>
+   <action type="15" no="7" player="Vanillo" sum="90"/>
+   <action type="15" no="8" player="AQUARIUMMM" sum="90"/>
+   <action type="1" no="9" player="cashbilder27" sum="300"/>
+   <action type="2" no="10" player="NaoEstudeioSpot" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">C9 H9</cards>
+   <action type="23" no="11" player="xxKakiMakixx" sum="1,200"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="12" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C4 C6</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="14" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="15" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="16" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">D10 DJ</cards>
+   <action type="3" no="17" player="cashbilder27" sum="900"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="18" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ S10 D4</cards>
+   <action type="4" no="19" player="cashbilder27" sum="0"/>
+   <action type="5" no="20" player="xxKakiMakixx" sum="1,800"/>
+   <action type="3" no="21" player="cashbilder27" sum="1,800"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action type="4" no="22" player="cashbilder27" sum="0"/>
+   <action type="4" no="23" player="xxKakiMakixx" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action type="4" no="24" player="cashbilder27" sum="0"/>
+   <action type="4" no="25" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559553">
+  <general>
+   <startdate>2024-02-11 15:44:13</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="800" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="26,218" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="36,953" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="100" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="43,275" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,359" win="0" addon="0"/>
+    <player reg_code="" bet="1,960" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="45,040" win="2,550" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="57,207" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="1" name="cashbilder27" chips="76,852" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="75,254" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="2" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="3" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="4" player="tropeiro123" sum="100"/>
+   <action type="15" no="5" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="6" player="Vanillo" sum="100"/>
+   <action type="15" no="7" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="8" player="cashbilder27" sum="100"/>
+   <action type="1" no="9" player="NaoEstudeioSpot" sum="350"/>
+   <action type="2" no="10" player="xxKakiMakixx" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C7 HK</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="13" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="23" no="14" player="Vanillo" sum="1,960"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="15" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="16" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="17" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="18" player="xxKakiMakixx" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559628">
+  <general>
+   <startdate>2024-02-11 15:44:43</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="25,418" win="0" addon="0"/>
+    <player reg_code="" bet="800" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="36,853" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="7,522" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="43,175" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,259" win="0" addon="0"/>
+    <player reg_code="" bet="19,422" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="46,790" win="16,694" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="57,107" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="76,752" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="10" rebuy="0" dealer="1" name="NaoEstudeioSpot" chips="74,804" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="2" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="3" player="tropeiro123" sum="100"/>
+   <action type="15" no="4" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="5" player="Vanillo" sum="100"/>
+   <action type="15" no="6" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="7" player="cashbilder27" sum="100"/>
+   <action type="15" no="8" player="NaoEstudeioSpot" sum="100"/>
+   <action type="1" no="9" player="xxKakiMakixx" sum="350"/>
+   <action type="2" no="10" player="SirTwoJabs" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S9 S8</cards>
+   <action type="23" no="11" player="tropeiro123" sum="1,470"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="12" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="3" no="13" player="Vanillo" sum="1,470"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="14" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="15" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="16" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="17" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="18" player="SirTwoJabs" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ SQ S6</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="5" no="20" player="Vanillo" sum="1,580"/>
+   <action type="3" no="21" player="tropeiro123" sum="1,580"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action type="4" no="22" player="tropeiro123" sum="0"/>
+   <action type="5" no="23" player="Vanillo" sum="4,372"/>
+   <action type="3" no="24" player="tropeiro123" sum="4,372"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action type="4" no="25" player="tropeiro123" sum="0"/>
+   <action type="5" no="26" player="Vanillo" sum="11,900"/>
+   <action type="0" no="27" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559876">
+  <general>
+   <startdate>2024-02-11 15:46:36</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="1" name="xxKakiMakixx" chips="24,968" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="36,053" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="800" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="35,653" win="0" addon="0"/>
+    <player reg_code="" bet="1,610" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,159" win="2,550" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="55,962" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="57,007" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="76,652" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="74,704" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="2" player="tropeiro123" sum="100"/>
+   <action type="15" no="3" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="4" player="Vanillo" sum="100"/>
+   <action type="15" no="5" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="6" player="cashbilder27" sum="100"/>
+   <action type="15" no="7" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="8" player="xxKakiMakixx" sum="100"/>
+   <action type="1" no="9" player="SirTwoJabs" sum="350"/>
+   <action type="2" no="10" player="tropeiro123" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="23" no="11" player="WednesdayAddams" sum="1,610"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="12" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="13" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="14" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="15" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="16" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="17" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HJ C5</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558559968">
+  <general>
+   <startdate>2024-02-11 15:47:12</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="24,868" win="0" addon="0"/>
+    <player reg_code="" bet="35,603" seat="2" rebuy="0" dealer="1" name="SirTwoJabs" chips="35,603" win="23,030" addon="0"/>
+    <player reg_code="7946813553" bet="450" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="34,853" win="0" addon="0"/>
+    <player reg_code="" bet="800" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="67,909" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="55,862" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="56,907" win="0" addon="0"/>
+    <player reg_code="" bet="8,992" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="76,552" win="0" addon="0"/>
+    <player reg_code="" bet="3,496" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="74,604" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="100"/>
+   <action type="15" no="2" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="3" player="Vanillo" sum="100"/>
+   <action type="15" no="4" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="5" player="cashbilder27" sum="100"/>
+   <action type="15" no="6" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="7" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="8" player="SirTwoJabs" sum="100"/>
+   <action type="1" no="9" player="tropeiro123" sum="350"/>
+   <action type="2" no="10" player="WednesdayAddams" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="11" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="0" no="12" player="AQUARIUMMM" sum="0"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="23" no="13" player="cashbilder27" sum="1,400"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="3" no="14" player="NaoEstudeioSpot" sum="1,400"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="15" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="3" no="16" player="SirTwoJabs" sum="1,400"/>
+   <cards type="Pocket" player="tropeiro123">SJ C6</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="18" player="WednesdayAddams" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK D4 S9</cards>
+   <action type="5" no="19" player="cashbilder27" sum="1,996"/>
+   <action type="3" no="20" player="NaoEstudeioSpot" sum="1,996"/>
+   <action type="23" no="21" player="SirTwoJabs" sum="7,492"/>
+   <action type="3" no="22" player="cashbilder27" sum="5,496"/>
+   <action type="0" no="23" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action type="4" no="24" player="cashbilder27" sum="0"/>
+   <action type="5" no="25" player="SirTwoJabs" sum="26,611"/>
+   <action type="0" no="26" player="cashbilder27" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558560236">
+  <general>
+   <startdate>2024-02-11 15:48:55</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="24,768" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="49,641" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="1,500" seat="4" rebuy="0" dealer="1" name="tropeiro123" chips="34,403" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="67,109" win="0" addon="0"/>
+    <player reg_code="" bet="5,484" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="55,762" win="8,024" addon="0"/>
+    <player reg_code="" bet="2,837" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="56,807" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="67,560" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="71,108" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="2" player="Vanillo" sum="100"/>
+   <action type="15" no="3" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="4" player="cashbilder27" sum="100"/>
+   <action type="15" no="5" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="6" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="7" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="8" player="tropeiro123" sum="100"/>
+   <action type="1" no="9" player="WednesdayAddams" sum="350"/>
+   <action type="2" no="10" player="Vanillo" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="23" no="11" player="AQUARIUMMM" sum="1,400"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="12" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="13" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="14" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="15" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SA H10</cards>
+   <action type="3" no="16" player="tropeiro123" sum="1,400"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="17" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="3" no="18" player="Vanillo" sum="700"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 D4 CQ</cards>
+   <action type="4" no="19" player="Vanillo" sum="0"/>
+   <action type="5" no="20" player="AQUARIUMMM" sum="1,337"/>
+   <action type="0" no="21" player="tropeiro123" sum="0"/>
+   <action type="3" no="22" player="Vanillo" sum="1,337"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action type="4" no="23" player="Vanillo" sum="0"/>
+   <action type="4" no="24" player="AQUARIUMMM" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action type="5" no="25" player="Vanillo" sum="2,647"/>
+   <action type="0" no="26" player="AQUARIUMMM" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558582950">
+  <general>
+   <startdate>2024-02-11 15:50:59</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="24,668" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="49,541" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="6,447" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="32,903" win="15,244" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="1" name="WednesdayAddams" chips="66,659" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="60,949" win="0" addon="0"/>
+    <player reg_code="" bet="1,500" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="53,970" win="0" addon="0"/>
+    <player reg_code="" bet="6,447" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="67,460" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="71,008" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vanillo" sum="100"/>
+   <action type="15" no="2" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="3" player="cashbilder27" sum="100"/>
+   <action type="15" no="4" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="5" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="6" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="7" player="tropeiro123" sum="100"/>
+   <action type="15" no="8" player="WednesdayAddams" sum="100"/>
+   <action type="1" no="9" player="Vanillo" sum="350"/>
+   <action type="2" no="10" player="AQUARIUMMM" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashbilder27">HQ CJ</cards>
+   <action type="23" no="11" player="cashbilder27" sum="1,400"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="12" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="13" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="14" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H4 S4</cards>
+   <action type="3" no="15" player="tropeiro123" sum="1,400"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="16" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="17" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="3" no="18" player="AQUARIUMMM" sum="700"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK S9 D2</cards>
+   <action type="4" no="19" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="20" player="cashbilder27" sum="0"/>
+   <action type="5" no="21" player="tropeiro123" sum="1,337"/>
+   <action type="0" no="22" player="AQUARIUMMM" sum="0"/>
+   <action type="3" no="23" player="cashbilder27" sum="1,337"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action type="4" no="24" player="cashbilder27" sum="0"/>
+   <action type="4" no="25" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action type="5" no="26" player="cashbilder27" sum="3,610"/>
+   <action type="3" no="27" player="tropeiro123" sum="3,610"/>
+  </round>
+ </game>
+ <game gamecode="10558583200">
+  <general>
+   <startdate>2024-02-11 15:52:47</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="24,568" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="49,441" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="100" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,700" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,559" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="1" name="Vanillo" chips="60,499" win="0" addon="0"/>
+    <player reg_code="" bet="6,300" seat="7" rebuy="0" dealer="0" name="AQUARIUMMM" chips="52,470" win="0" addon="0"/>
+    <player reg_code="" bet="11,800" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="61,013" win="13,200" addon="0"/>
+    <player reg_code="" bet="100" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="70,908" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="AQUARIUMMM" sum="100"/>
+   <action type="15" no="2" player="cashbilder27" sum="100"/>
+   <action type="15" no="3" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="4" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="5" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="6" player="tropeiro123" sum="100"/>
+   <action type="15" no="7" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="8" player="Vanillo" sum="100"/>
+   <action type="1" no="9" player="AQUARIUMMM" sum="350"/>
+   <action type="2" no="10" player="cashbilder27" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="0" no="11" player="NaoEstudeioSpot" sum="0"/>
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="12" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="13" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C7 D6</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="15" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="0" no="16" player="Vanillo" sum="0"/>
+   <cards type="Pocket" player="AQUARIUMMM">X X</cards>
+   <action type="23" no="17" player="AQUARIUMMM" sum="2,800"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="3" no="18" player="cashbilder27" sum="2,100"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA C5 H10</cards>
+   <action type="4" no="19" player="AQUARIUMMM" sum="0"/>
+   <action type="4" no="20" player="cashbilder27" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action type="5" no="21" player="AQUARIUMMM" sum="3,400"/>
+   <action type="23" no="22" player="cashbilder27" sum="8,900"/>
+   <action type="0" no="23" player="AQUARIUMMM" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558583439">
+  <general>
+   <startdate>2024-02-11 15:54:21</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="xxKakiMakixx" chips="24,468" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="SirTwoJabs" chips="49,341" win="0" addon="0"/>
+    <player reg_code="7946813553" bet="100" seat="4" rebuy="0" dealer="0" name="tropeiro123" chips="41,600" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="WednesdayAddams" chips="66,459" win="0" addon="0"/>
+    <player reg_code="" bet="3,700" seat="6" rebuy="0" dealer="0" name="Vanillo" chips="60,399" win="4,970" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="cashbilder27" chips="67,913" win="0" addon="0"/>
+    <player reg_code="" bet="2,060" seat="10" rebuy="0" dealer="0" name="NaoEstudeioSpot" chips="70,808" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="cashbilder27" sum="100"/>
+   <action type="15" no="2" player="NaoEstudeioSpot" sum="100"/>
+   <action type="15" no="3" player="xxKakiMakixx" sum="100"/>
+   <action type="15" no="4" player="SirTwoJabs" sum="100"/>
+   <action type="15" no="5" player="tropeiro123" sum="100"/>
+   <action type="15" no="6" player="WednesdayAddams" sum="100"/>
+   <action type="15" no="7" player="Vanillo" sum="100"/>
+   <action type="1" no="8" player="cashbilder27" sum="350"/>
+   <action type="2" no="9" player="NaoEstudeioSpot" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxKakiMakixx">X X</cards>
+   <action type="0" no="10" player="xxKakiMakixx" sum="0"/>
+   <cards type="Pocket" player="SirTwoJabs">X X</cards>
+   <action type="0" no="11" player="SirTwoJabs" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H2 CQ</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WednesdayAddams">X X</cards>
+   <action type="0" no="13" player="WednesdayAddams" sum="0"/>
+   <cards type="Pocket" player="Vanillo">X X</cards>
+   <action type="23" no="14" player="Vanillo" sum="1,960"/>
+   <cards type="Pocket" player="cashbilder27">X X</cards>
+   <action type="0" no="15" player="cashbilder27" sum="0"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action type="3" no="16" player="NaoEstudeioSpot" sum="1,260"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 DK DQ</cards>
+   <action type="4" no="17" player="NaoEstudeioSpot" sum="0"/>
+   <action type="5" no="18" player="Vanillo" sum="1,640"/>
+   <action type="0" no="19" player="NaoEstudeioSpot" sum="0"/>
+  </round>
+ </game>
+</session>

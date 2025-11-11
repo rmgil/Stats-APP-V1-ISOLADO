@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947096214">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€15,000|Sunday Special, 1080821871</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:09:28</duration>
+  <gamecount>16</gamecount>
+  <startdate>2024-02-11 19:27:24</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>109,894</bets>
+  <wins>0</wins>
+  <chipsin>88,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP90</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080144208</tournamentcode>
+  <tournamentname>€15,000|Sunday Special</tournamentname>
+  <place>121</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10559121299">
+  <general>
+   <startdate>2024-02-11 19:27:24</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,500" reg_code="" rebuy="0" seat="1" chips="100,000" dealer="1" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="6,500" reg_code="" rebuy="0" seat="2" chips="100,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="11,500" reg_code="7947096214" rebuy="0" seat="4" chips="100,000" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="98,500" reg_code="" rebuy="0" seat="5" chips="100,000" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,500" reg_code="" rebuy="0" seat="6" chips="100,000" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="100,000" reg_code="" rebuy="0" seat="7" chips="100,000" dealer="0" addon="0" win="224,000"/>
+    <player name="MeisterVogel" bet="1,500" reg_code="" rebuy="0" seat="9" chips="169,700" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,500" reg_code="" rebuy="0" seat="10" chips="146,628" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="NaoEstudeioSpot"/>
+   <action no="2" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="3" type="15" sum="1,500" player="Lukavii"/>
+   <action no="4" type="15" sum="1,500" player="FredWillyKiwi"/>
+   <action no="5" type="15" sum="1,500" player="ZereiCalculo3"/>
+   <action no="6" type="15" sum="1,500" player="MeisterVogel"/>
+   <action no="7" type="15" sum="1,500" player="traumfanger"/>
+   <action no="8" type="15" sum="1,500" player="gizcomcoca"/>
+   <action no="9" type="1" sum="5,000" player="NaoEstudeioSpot"/>
+   <action no="10" type="2" sum="10,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lukavii">DA S10</cards>
+   <action no="11" type="23" sum="98,500" player="Lukavii"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="12" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">SA SK</cards>
+   <action no="13" type="7" sum="98,500" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action no="14" type="0" sum="0" player="MeisterVogel"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="15" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="16" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="17" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">H10 C6</cards>
+   <action no="18" type="0" sum="0" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D7 H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10559121322">
+  <general>
+   <startdate>2024-02-11 19:28:02</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player name="gizcomcoca" bet="97,000" reg_code="" rebuy="0" seat="1" chips="98,500" dealer="0" addon="0" win="35,500"/>
+    <player name="NaoEstudeioSpot" bet="1,500" reg_code="" rebuy="0" seat="2" chips="93,500" dealer="1" addon="0" win="0"/>
+    <player name="tropeiro123" bet="6,500" reg_code="7947096214" rebuy="0" seat="4" chips="88,500" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="11,500" reg_code="" rebuy="0" seat="6" chips="98,500" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,500" reg_code="" rebuy="0" seat="7" chips="224,000" dealer="0" addon="0" win="0"/>
+    <player name="MeisterVogel" bet="1,500" reg_code="" rebuy="0" seat="9" chips="168,200" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,500" reg_code="" rebuy="0" seat="10" chips="145,128" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="2" type="15" sum="1,500" player="FredWillyKiwi"/>
+   <action no="3" type="15" sum="1,500" player="ZereiCalculo3"/>
+   <action no="4" type="15" sum="1,500" player="MeisterVogel"/>
+   <action no="5" type="15" sum="1,500" player="traumfanger"/>
+   <action no="6" type="15" sum="1,500" player="gizcomcoca"/>
+   <action no="7" type="15" sum="1,500" player="NaoEstudeioSpot"/>
+   <action no="8" type="1" sum="5,000" player="tropeiro123"/>
+   <action no="9" type="2" sum="10,000" player="FredWillyKiwi"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="10" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action no="11" type="0" sum="0" player="MeisterVogel"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="12" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="13" type="23" sum="97,000" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="14" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">C10 S6</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="16" type="0" sum="0" player="FredWillyKiwi"/>
+  </round>
+ </game>
+ <game gamecode="10559121344">
+  <general>
+   <startdate>2024-02-11 19:28:34</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,500" reg_code="" rebuy="0" seat="1" chips="122,500" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,500" reg_code="" rebuy="0" seat="2" chips="92,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,500" reg_code="7947096214" rebuy="0" seat="4" chips="82,000" dealer="1" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="6,500" reg_code="" rebuy="0" seat="6" chips="87,000" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="75,375" reg_code="" rebuy="0" seat="7" chips="222,500" dealer="0" addon="0" win="83,250"/>
+    <player name="MeisterVogel" bet="1,500" reg_code="" rebuy="0" seat="9" chips="166,700" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="35,375" reg_code="" rebuy="0" seat="10" chips="143,628" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="FredWillyKiwi"/>
+   <action no="2" type="15" sum="1,500" player="ZereiCalculo3"/>
+   <action no="3" type="15" sum="1,500" player="MeisterVogel"/>
+   <action no="4" type="15" sum="1,500" player="traumfanger"/>
+   <action no="5" type="15" sum="1,500" player="gizcomcoca"/>
+   <action no="6" type="15" sum="1,500" player="NaoEstudeioSpot"/>
+   <action no="7" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="8" type="1" sum="5,000" player="FredWillyKiwi"/>
+   <action no="9" type="2" sum="10,000" player="ZereiCalculo3"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action no="10" type="0" sum="0" player="MeisterVogel"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="11" type="23" sum="20,000" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="12" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="13" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">H8 DA</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="15" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="16" type="3" sum="10,000" player="ZereiCalculo3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 C2 S9</cards>
+   <action no="17" type="4" sum="0" player="ZereiCalculo3"/>
+   <action no="18" type="5" sum="13,875" player="traumfanger"/>
+   <action no="19" type="3" sum="13,875" player="ZereiCalculo3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action no="20" type="5" sum="40,000" player="ZereiCalculo3"/>
+   <action no="21" type="0" sum="0" player="traumfanger"/>
+  </round>
+ </game>
+ <game gamecode="10559121390">
+  <general>
+   <startdate>2024-02-11 19:29:36</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,500" reg_code="" rebuy="0" seat="1" chips="121,000" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,500" reg_code="" rebuy="0" seat="2" chips="90,500" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,500" reg_code="7947096214" rebuy="0" seat="4" chips="80,500" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,500" reg_code="" rebuy="0" seat="5" chips="100,000" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="79,000" reg_code="" rebuy="0" seat="6" chips="80,500" dealer="1" addon="0" win="90,000"/>
+    <player name="ZereiCalculo3" bet="80,500" reg_code="" rebuy="0" seat="7" chips="270,375" dealer="0" addon="0" win="90,000"/>
+    <player name="MeisterVogel" bet="11,500" reg_code="" rebuy="0" seat="9" chips="165,200" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,500" reg_code="" rebuy="0" seat="10" chips="108,253" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="ZereiCalculo3"/>
+   <action no="2" type="15" sum="1,500" player="MeisterVogel"/>
+   <action no="3" type="15" sum="1,500" player="traumfanger"/>
+   <action no="4" type="15" sum="1,500" player="gizcomcoca"/>
+   <action no="5" type="15" sum="1,500" player="NaoEstudeioSpot"/>
+   <action no="6" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="7" type="15" sum="1,500" player="Lebronen"/>
+   <action no="8" type="15" sum="1,500" player="FredWillyKiwi"/>
+   <action no="9" type="1" sum="5,000" player="ZereiCalculo3"/>
+   <action no="10" type="2" sum="10,000" player="MeisterVogel"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="11" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="12" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="13" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">C6 HK</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="15" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">CA S9</cards>
+   <action no="16" type="23" sum="79,000" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">SA S6</cards>
+   <action no="17" type="3" sum="74,000" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action no="18" type="0" sum="0" player="MeisterVogel"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 D3 H5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10559121431">
+  <general>
+   <startdate>2024-02-11 19:30:29</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="119,500" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="89,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="79,000" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="98,500" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="90,000" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="279,875" dealer="1" addon="0" win="0"/>
+    <player name="MeisterVogel" bet="151,900" reg_code="" rebuy="0" seat="9" chips="153,700" dealer="0" addon="0" win="38,400"/>
+    <player name="traumfanger" bet="13,800" reg_code="" rebuy="0" seat="10" chips="106,753" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="MeisterVogel"/>
+   <action no="2" type="15" sum="1,800" player="traumfanger"/>
+   <action no="3" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="4" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="5" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="6" type="15" sum="1,800" player="Lebronen"/>
+   <action no="7" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="8" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="9" type="1" sum="6,000" player="MeisterVogel"/>
+   <action no="10" type="2" sum="12,000" player="traumfanger"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="12" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">S5 HJ</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="14" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="15" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="16" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="MeisterVogel">X X</cards>
+   <action no="17" type="23" sum="151,900" player="MeisterVogel"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="18" type="0" sum="0" player="traumfanger"/>
+  </round>
+ </game>
+ <game gamecode="10559121447">
+  <general>
+   <startdate>2024-02-11 19:30:56</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="92,953" reg_code="" rebuy="0" seat="1" chips="117,700" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="87,200" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="77,200" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="96,700" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="88,200" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="278,075" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="91,153" reg_code="" rebuy="0" seat="10" chips="92,953" dealer="0" addon="0" win="194,906"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="traumfanger"/>
+   <action no="2" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="3" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="4" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="5" type="15" sum="1,800" player="Lebronen"/>
+   <action no="6" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="7" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="8" type="1" sum="6,000" player="traumfanger"/>
+   <action no="9" type="2" sum="12,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="10" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">H5 S3</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="12" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="13" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="14" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="traumfanger">DA D9</cards>
+   <action no="15" type="23" sum="91,153" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">S6 SK</cards>
+   <action no="16" type="3" sum="79,153" player="gizcomcoca"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H7 DJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10559121467">
+  <general>
+   <startdate>2024-02-11 19:31:35</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="7,800" reg_code="" rebuy="0" seat="1" chips="24,747" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="25,800" reg_code="" rebuy="0" seat="2" chips="85,400" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="75,400" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="94,900" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="86,400" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="37,800" reg_code="" rebuy="0" seat="7" chips="276,275" dealer="0" addon="0" win="68,400"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="193,584" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="194,906" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="2" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="3" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="4" type="15" sum="1,800" player="Lebronen"/>
+   <action no="5" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="6" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="7" type="15" sum="1,800" player="decMac09"/>
+   <action no="8" type="15" sum="1,800" player="traumfanger"/>
+   <action no="9" type="1" sum="6,000" player="gizcomcoca"/>
+   <action no="10" type="2" sum="12,000" player="NaoEstudeioSpot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C9 HJ</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="12" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="13" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="14" type="23" sum="24,000" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="15" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="16" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="17" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="18" type="3" sum="12,000" player="NaoEstudeioSpot"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 SA SQ</cards>
+   <action no="19" type="4" sum="0" player="NaoEstudeioSpot"/>
+   <action no="20" type="5" sum="12,000" player="ZereiCalculo3"/>
+   <action no="21" type="0" sum="0" player="NaoEstudeioSpot"/>
+  </round>
+ </game>
+ <game gamecode="10559121495">
+  <general>
+   <startdate>2024-02-11 19:32:15</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="16,947" reg_code="" rebuy="0" seat="1" chips="16,947" dealer="1" addon="0" win="50,694"/>
+    <player name="NaoEstudeioSpot" bet="7,800" reg_code="" rebuy="0" seat="2" chips="59,600" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="16,947" reg_code="7947096214" rebuy="0" seat="4" chips="73,600" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="93,100" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="84,600" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="318,875" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="191,784" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="193,106" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="2" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="3" type="15" sum="1,800" player="Lebronen"/>
+   <action no="4" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="5" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="6" type="15" sum="1,800" player="decMac09"/>
+   <action no="7" type="15" sum="1,800" player="traumfanger"/>
+   <action no="8" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="9" type="1" sum="6,000" player="NaoEstudeioSpot"/>
+   <action no="10" type="2" sum="12,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="11" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="12" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="13" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="14" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="15" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">SA DJ</cards>
+   <action no="16" type="7" sum="15,147" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="17" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">D5 CA</cards>
+   <action no="18" type="3" sum="3,147" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ D3 CQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+ <game gamecode="10559121513">
+  <general>
+   <startdate>2024-02-11 19:32:44</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="50,694" reg_code="" rebuy="0" seat="1" chips="50,694" dealer="0" addon="0" win="130,188"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="51,800" dealer="1" addon="0" win="0"/>
+    <player name="tropeiro123" bet="7,800" reg_code="7947096214" rebuy="0" seat="4" chips="56,653" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="13,800" reg_code="" rebuy="0" seat="5" chips="91,300" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="81,000" reg_code="" rebuy="0" seat="6" chips="82,800" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="317,075" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="189,984" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="191,306" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="2" type="15" sum="1,800" player="Lebronen"/>
+   <action no="3" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="4" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="5" type="15" sum="1,800" player="decMac09"/>
+   <action no="6" type="15" sum="1,800" player="traumfanger"/>
+   <action no="7" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="8" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="9" type="1" sum="6,000" player="tropeiro123"/>
+   <action no="10" type="2" sum="12,000" player="Lebronen"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="FredWillyKiwi">D10 SK</cards>
+   <action no="11" type="23" sum="81,000" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="12" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="13" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="14" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">SA S10</cards>
+   <action no="15" type="7" sum="48,894" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="16" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">D8 H10</cards>
+   <action no="17" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="18" type="0" sum="0" player="Lebronen"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 D3 H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+ <game gamecode="10559121554">
+  <general>
+   <startdate>2024-02-11 19:33:47</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="130,188" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="50,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="42,000" reg_code="7947096214" rebuy="0" seat="4" chips="48,853" dealer="1" addon="0" win="0"/>
+    <player name="Lebronen" bet="7,800" reg_code="" rebuy="0" seat="5" chips="77,500" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="32,106" reg_code="" rebuy="0" seat="6" chips="32,106" dealer="0" addon="0" win="81,012"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="315,275" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="188,184" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="189,506" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="Lebronen"/>
+   <action no="2" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="3" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="4" type="15" sum="1,800" player="decMac09"/>
+   <action no="5" type="15" sum="1,800" player="traumfanger"/>
+   <action no="6" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="7" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="8" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="9" type="1" sum="6,000" player="Lebronen"/>
+   <action no="10" type="2" sum="12,000" player="FredWillyKiwi"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="11" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="12" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="13" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="15" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">HJ S10</cards>
+   <action no="16" type="23" sum="42,000" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="17" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">SK DK</cards>
+   <action no="18" type="7" sum="18,306" player="FredWillyKiwi"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 D5 SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10559121568">
+  <general>
+   <startdate>2024-02-11 19:34:13</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="128,388" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="48,200" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="16,747" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="69,700" dealer="1" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="7,800" reg_code="" rebuy="0" seat="6" chips="81,012" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="13,800" reg_code="" rebuy="0" seat="7" chips="313,475" dealer="0" addon="0" win="26,400"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="186,384" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="187,706" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="2" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="3" type="15" sum="1,800" player="decMac09"/>
+   <action no="4" type="15" sum="1,800" player="traumfanger"/>
+   <action no="5" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="6" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="7" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="8" type="15" sum="1,800" player="Lebronen"/>
+   <action no="9" type="1" sum="6,000" player="FredWillyKiwi"/>
+   <action no="10" type="2" sum="12,000" player="ZereiCalculo3"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="11" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="12" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="13" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="14" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">H9 C2</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="16" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="17" type="0" sum="0" player="FredWillyKiwi"/>
+  </round>
+ </game>
+ <game gamecode="10559121577">
+  <general>
+   <startdate>2024-02-11 19:34:27</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="126,588" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="46,400" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="14,947" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="67,900" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="71,412" reg_code="" rebuy="0" seat="6" chips="73,212" dealer="1" addon="0" win="44,400"/>
+    <player name="ZereiCalculo3" bet="7,800" reg_code="" rebuy="0" seat="7" chips="332,075" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="13,800" reg_code="" rebuy="0" seat="9" chips="184,584" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="185,906" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="2" type="15" sum="1,800" player="decMac09"/>
+   <action no="3" type="15" sum="1,800" player="traumfanger"/>
+   <action no="4" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="5" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="6" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="7" type="15" sum="1,800" player="Lebronen"/>
+   <action no="8" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="9" type="1" sum="6,000" player="ZereiCalculo3"/>
+   <action no="10" type="2" sum="12,000" player="decMac09"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="11" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="12" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="13" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">H3 C2</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="15" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="16" type="23" sum="71,412" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="17" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="18" type="0" sum="0" player="decMac09"/>
+  </round>
+ </game>
+ <game gamecode="10559121590">
+  <general>
+   <startdate>2024-02-11 19:34:48</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="124,788" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="42,800" reg_code="" rebuy="0" seat="2" chips="44,600" dealer="0" addon="0" win="148,800"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="13,147" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="66,100" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="103,812" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="44,600" reg_code="" rebuy="0" seat="7" chips="324,275" dealer="1" addon="0" win="0"/>
+    <player name="decMac09" bet="7,800" reg_code="" rebuy="0" seat="9" chips="170,784" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="182,306" reg_code="" rebuy="0" seat="10" chips="184,106" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="decMac09"/>
+   <action no="2" type="15" sum="1,800" player="traumfanger"/>
+   <action no="3" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="4" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="5" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="6" type="15" sum="1,800" player="Lebronen"/>
+   <action no="7" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="8" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="9" type="1" sum="6,000" player="decMac09"/>
+   <action no="10" type="2" sum="12,000" player="traumfanger"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">CA H9</cards>
+   <action no="12" type="23" sum="42,800" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">HJ C8</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="14" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="15" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="16" type="3" sum="42,800" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="17" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">D10 C10</cards>
+   <action no="18" type="23" sum="182,306" player="traumfanger"/>
+   <action no="19" type="0" sum="0" player="ZereiCalculo3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 HA H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10559121624">
+  <general>
+   <startdate>2024-02-11 19:35:38</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="13,800" reg_code="" rebuy="0" seat="1" chips="122,988" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="1,800" reg_code="" rebuy="0" seat="2" chips="148,800" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="11,347" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="62,500" reg_code="" rebuy="0" seat="5" chips="64,300" dealer="0" addon="0" win="44,400"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="102,012" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="279,675" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="162,984" dealer="1" addon="0" win="0"/>
+    <player name="traumfanger" bet="7,800" reg_code="" rebuy="0" seat="10" chips="139,506" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="traumfanger"/>
+   <action no="2" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="3" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="4" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="5" type="15" sum="1,800" player="Lebronen"/>
+   <action no="6" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="7" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="8" type="15" sum="1,800" player="decMac09"/>
+   <action no="9" type="1" sum="6,000" player="traumfanger"/>
+   <action no="10" type="2" sum="12,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <action no="11" type="0" sum="0" player="NaoEstudeioSpot"/>
+   <cards type="Pocket" player="tropeiro123">C7 S10</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="13" type="23" sum="62,500" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="14" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="15" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="16" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="17" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="18" type="0" sum="0" player="gizcomcoca"/>
+  </round>
+ </game>
+ <game gamecode="10559121640">
+  <general>
+   <startdate>2024-02-11 19:36:05</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="7,800" reg_code="" rebuy="0" seat="1" chips="109,188" dealer="0" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="13,800" reg_code="" rebuy="0" seat="2" chips="147,000" dealer="0" addon="0" win="26,400"/>
+    <player name="tropeiro123" bet="1,800" reg_code="7947096214" rebuy="0" seat="4" chips="9,547" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="1,800" reg_code="" rebuy="0" seat="5" chips="94,900" dealer="0" addon="0" win="0"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="100,212" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="277,875" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="161,184" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="131,706" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="2" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="3" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="4" type="15" sum="1,800" player="Lebronen"/>
+   <action no="5" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="6" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="7" type="15" sum="1,800" player="decMac09"/>
+   <action no="8" type="15" sum="1,800" player="traumfanger"/>
+   <action no="9" type="1" sum="6,000" player="gizcomcoca"/>
+   <action no="10" type="2" sum="12,000" player="NaoEstudeioSpot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NaoEstudeioSpot">X X</cards>
+   <cards type="Pocket" player="tropeiro123">C8 H3</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="12" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="13" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="14" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="15" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="16" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="17" type="0" sum="0" player="gizcomcoca"/>
+  </round>
+ </game>
+ <game gamecode="10559141141">
+  <general>
+   <startdate>2024-02-11 19:36:26</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player name="gizcomcoca" bet="1,800" reg_code="" rebuy="0" seat="1" chips="101,388" dealer="1" addon="0" win="0"/>
+    <player name="NaoEstudeioSpot" bet="93,100" reg_code="" rebuy="0" seat="2" chips="165,600" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="7,747" reg_code="7947096214" rebuy="0" seat="4" chips="7,747" dealer="0" addon="0" win="0"/>
+    <player name="Lebronen" bet="91,300" reg_code="" rebuy="0" seat="5" chips="93,100" dealer="0" addon="0" win="202,947"/>
+    <player name="FredWillyKiwi" bet="1,800" reg_code="" rebuy="0" seat="6" chips="98,412" dealer="0" addon="0" win="0"/>
+    <player name="ZereiCalculo3" bet="1,800" reg_code="" rebuy="0" seat="7" chips="276,075" dealer="0" addon="0" win="0"/>
+    <player name="decMac09" bet="1,800" reg_code="" rebuy="0" seat="9" chips="159,384" dealer="0" addon="0" win="0"/>
+    <player name="traumfanger" bet="1,800" reg_code="" rebuy="0" seat="10" chips="129,906" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="NaoEstudeioSpot"/>
+   <action no="2" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="3" type="15" sum="1,800" player="Lebronen"/>
+   <action no="4" type="15" sum="1,800" player="FredWillyKiwi"/>
+   <action no="5" type="15" sum="1,800" player="ZereiCalculo3"/>
+   <action no="6" type="15" sum="1,800" player="decMac09"/>
+   <action no="7" type="15" sum="1,800" player="traumfanger"/>
+   <action no="8" type="15" sum="1,800" player="gizcomcoca"/>
+   <action no="9" type="1" sum="6,000" player="NaoEstudeioSpot"/>
+   <action no="10" type="2" sum="5,947" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SJ C5</cards>
+   <cards type="Pocket" player="Lebronen">S9 C9</cards>
+   <action no="11" type="23" sum="91,300" player="Lebronen"/>
+   <cards type="Pocket" player="FredWillyKiwi">X X</cards>
+   <action no="12" type="0" sum="0" player="FredWillyKiwi"/>
+   <cards type="Pocket" player="ZereiCalculo3">X X</cards>
+   <action no="13" type="0" sum="0" player="ZereiCalculo3"/>
+   <cards type="Pocket" player="decMac09">X X</cards>
+   <action no="14" type="0" sum="0" player="decMac09"/>
+   <cards type="Pocket" player="traumfanger">X X</cards>
+   <action no="15" type="0" sum="0" player="traumfanger"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="16" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="NaoEstudeioSpot">C4 CA</cards>
+   <action no="17" type="3" sum="85,300" player="NaoEstudeioSpot"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 S10 D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+  </round>
+ </game>
+</session>

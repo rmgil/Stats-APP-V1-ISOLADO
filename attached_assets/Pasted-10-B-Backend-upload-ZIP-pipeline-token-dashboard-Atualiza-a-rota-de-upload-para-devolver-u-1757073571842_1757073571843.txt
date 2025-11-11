@@ -1,0 +1,55 @@
+10.B — Backend: upload ZIP → pipeline → token → dashboard
+
+Atualiza a rota de upload para devolver um token e lançar o pipeline; guarda o token para a Dashboard ler:
+
+# main.py (trecho de upload/pipeline unificado)
+import uuid, shutil, zipfile, os, traceback
+from flask import request
+
+UPLOAD_ROOT = "/tmp/mtt_uploads"
+
+def _safe_mkdir(p): os.makedirs(p, exist_ok=True)
+
+@app.post("/api/import/upload_mtt")
+def upload_mtt():
+    try:
+        f = request.files.get("file")
+        if not f or not f.filename.lower().endswith(".zip"):
+            return jsonify({"ok": False, "error": "Envie um .zip com .txt"}), 400
+
+        token = uuid.uuid4().hex[:16]
+        base = os.path.join(UPLOAD_ROOT, token)
+        _safe_mkdir(base)
+        zip_path = os.path.join(base, "source.zip")
+        f.save(zip_path)
+
+        # unzip
+        extract = os.path.join(base, "unzipped")
+        _safe_mkdir(extract)
+        with zipfile.ZipFile(zip_path) as z:
+            z.extractall(extract)
+
+        # chama o pipeline existente (classify → derive → partitions → stats → score)
+        # Se já tens endpoints /api/derive/build etc., sequencia aqui em Python
+        # ou reutiliza o runner interno (melhor: função python para evitar HTTP interno).
+        # Exemplo minimalista – substitui pelo teu orquestrador real:
+        from app.pipeline.runner import run_pipeline  # cria este helper se ainda não existir
+        result = run_pipeline(input_dir=extract, work_dir=base)
+
+        # guarda manifest
+        with open(os.path.join(base, "manifest.json"), "w", encoding="utf-8") as out:
+            json.dump(result, out, ensure_ascii=False, indent=2)
+
+        return jsonify({"ok": True, "token": token, "result": result})
+    except Exception as e:
+        traceback.print_exc()
+        return jsonify({"ok": False, "error": str(e)}), 500
+
+@app.get("/dashboard_v2")
+def dashboard_v2():
+    # simples: passa token para o template para os botões “Voltar ao pipeline”
+    token = request.args.get("token", "")
+    return render_template("dashboard_v2.html", token=token)
+
+
+Nota: se preferires manter /pipeline, redireciona para /dashboard_v2?token=… após sucesso.

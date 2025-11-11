@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947854862">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€12,000 GTD, 1080880313</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:36:38</duration>
+  <gamecount>31</gamecount>
+  <startdate>2024-02-12 16:10:48</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>99,725</bets>
+  <wins>0</wins>
+  <chipsin>99,820</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080854681</tournamentcode>
+  <tournamentname>E3|€12,000 GTD</tournamentname>
+  <place>213</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10560417153">
+  <general>
+   <startdate>2024-02-12 16:10:48</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="257,813" addon="0" bet="780" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="244,780" addon="0" bet="1,380" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="123,613" addon="0" bet="45,496" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="100,000" addon="0" bet="180" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="111,898" addon="0" bet="180" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="57,274" addon="0" bet="180" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="80,496" addon="0" bet="15,577" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="28,113" addon="0" bet="28,113" reg_code="" name="slickwizard111" win="74,503" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="G0cmaN" type="15"/>
+   <action no="2" sum="180" player="ClareBradburn" type="15"/>
+   <action no="3" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="4" sum="180" player="tropeiro123" type="15"/>
+   <action no="5" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="6" sum="180" player="FreelancerV" type="15"/>
+   <action no="7" sum="180" player="LeBron841" type="15"/>
+   <action no="8" sum="180" player="slickwizard111" type="15"/>
+   <action no="9" sum="600" player="G0cmaN" type="1"/>
+   <action no="10" sum="1,200" player="ClareBradburn" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="b0rnew0lf" type="Pocket">CA C8</cards>
+   <action no="11" sum="2,400" player="b0rnew0lf" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C4 C9</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="15" sum="7,200" player="LeBron841" type="23"/>
+   <cards player="slickwizard111" type="Pocket">D9 DK</cards>
+   <action no="16" sum="7,200" player="slickwizard111" type="3"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ClareBradburn" type="0"/>
+   <action no="19" sum="4,800" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 CK S4</cards>
+   <action no="20" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="21" sum="8,197" player="LeBron841" type="5"/>
+   <action no="22" sum="16,394" player="slickwizard111" type="23"/>
+   <action no="23" sum="16,394" player="b0rnew0lf" type="3"/>
+   <action no="24" sum="0" player="LeBron841" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action no="25" sum="21,722" player="b0rnew0lf" type="5"/>
+   <action no="26" sum="4,339" player="slickwizard111" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10560417298">
+  <general>
+   <startdate>2024-02-12 16:12:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="1" seat="1" chips="257,033" addon="0" bet="180" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="243,400" addon="0" bet="780" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="95,500" addon="0" bet="2,580" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="99,820" addon="0" bet="180" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="111,718" addon="0" bet="4,837" reg_code="" name="LL1nUsLOvee" win="6,840" rebuy="0"/>
+    <player dealer="0" seat="7" chips="57,094" addon="0" bet="180" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,919" addon="0" bet="180" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,503" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="ClareBradburn" type="15"/>
+   <action no="2" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="3" sum="180" player="tropeiro123" type="15"/>
+   <action no="4" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="5" sum="180" player="FreelancerV" type="15"/>
+   <action no="6" sum="180" player="LeBron841" type="15"/>
+   <action no="7" sum="180" player="slickwizard111" type="15"/>
+   <action no="8" sum="180" player="G0cmaN" type="15"/>
+   <action no="9" sum="600" player="ClareBradburn" type="1"/>
+   <action no="10" sum="1,200" player="b0rnew0lf" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 HK</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="12" sum="2,400" player="LL1nUsLOvee" type="23"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="18" sum="1,200" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ D2 D3</cards>
+   <action no="19" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="20" sum="2,257" player="LL1nUsLOvee" type="5"/>
+   <action no="21" sum="0" player="b0rnew0lf" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560417402">
+  <general>
+   <startdate>2024-02-12 16:13:09</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,853" addon="0" bet="180" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="242,620" addon="0" bet="180" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="92,920" addon="0" bet="780" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="99,640" addon="0" bet="1,380" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="115,978" addon="0" bet="2,400" reg_code="" name="LL1nUsLOvee" win="4,440" rebuy="0"/>
+    <player dealer="0" seat="7" chips="56,914" addon="0" bet="180" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,739" addon="0" bet="180" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,323" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="2" sum="180" player="tropeiro123" type="15"/>
+   <action no="3" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="4" sum="180" player="FreelancerV" type="15"/>
+   <action no="5" sum="180" player="LeBron841" type="15"/>
+   <action no="6" sum="180" player="slickwizard111" type="15"/>
+   <action no="7" sum="180" player="G0cmaN" type="15"/>
+   <action no="8" sum="180" player="ClareBradburn" type="15"/>
+   <action no="9" sum="600" player="b0rnew0lf" type="1"/>
+   <action no="10" sum="1,200" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="11" sum="2,400" player="LL1nUsLOvee" type="23"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 D7</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560448644">
+  <general>
+   <startdate>2024-02-12 16:13:51</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,673" addon="0" bet="180" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="242,440" addon="0" bet="180" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="92,140" addon="0" bet="180" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="98,260" addon="0" bet="4,980" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="119,038" addon="0" bet="8,623" reg_code="" name="LL1nUsLOvee" win="11,040" rebuy="0"/>
+    <player dealer="0" seat="7" chips="56,734" addon="0" bet="180" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,559" addon="0" bet="180" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,143" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="tropeiro123" type="15"/>
+   <action no="2" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="3" sum="180" player="FreelancerV" type="15"/>
+   <action no="4" sum="180" player="LeBron841" type="15"/>
+   <action no="5" sum="180" player="slickwizard111" type="15"/>
+   <action no="6" sum="180" player="G0cmaN" type="15"/>
+   <action no="7" sum="180" player="ClareBradburn" type="15"/>
+   <action no="8" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="9" sum="600" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,200" player="LL1nUsLOvee" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ C5</cards>
+   <action no="17" sum="600" player="tropeiro123" type="3"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="18" sum="4,800" player="LL1nUsLOvee" type="23"/>
+   <action no="19" sum="3,600" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S2 SK</cards>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="3,643" player="LL1nUsLOvee" type="5"/>
+   <action no="22" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560448752">
+  <general>
+   <startdate>2024-02-12 16:14:53</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,493" addon="0" bet="180" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="242,260" addon="0" bet="2,580" reg_code="" name="ClareBradburn" win="8,040" rebuy="0"/>
+    <player dealer="0" seat="4" chips="91,960" addon="0" bet="2,580" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="93,280" addon="0" bet="180" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,098" addon="0" bet="780" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="56,554" addon="0" bet="1,380" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,379" addon="0" bet="180" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,963" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="2" sum="180" player="FreelancerV" type="15"/>
+   <action no="3" sum="180" player="LeBron841" type="15"/>
+   <action no="4" sum="180" player="slickwizard111" type="15"/>
+   <action no="5" sum="180" player="G0cmaN" type="15"/>
+   <action no="6" sum="180" player="ClareBradburn" type="15"/>
+   <action no="7" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="8" sum="180" player="tropeiro123" type="15"/>
+   <action no="9" sum="600" player="LL1nUsLOvee" type="1"/>
+   <action no="10" sum="1,200" player="FreelancerV" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">SJ SK</cards>
+   <action no="14" sum="2,400" player="ClareBradburn" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">S7 S8</cards>
+   <action no="15" sum="2,400" player="b0rnew0lf" type="3"/>
+   <cards player="tropeiro123" type="Pocket">DA C9</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="FreelancerV" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 H4 C5</cards>
+   <action no="19" sum="0" player="ClareBradburn" type="4"/>
+   <action no="20" sum="0" player="b0rnew0lf" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="21" sum="0" player="ClareBradburn" type="4"/>
+   <action no="22" sum="0" player="b0rnew0lf" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action no="23" sum="0" player="ClareBradburn" type="4"/>
+   <action no="24" sum="0" player="b0rnew0lf" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560448886">
+  <general>
+   <startdate>2024-02-12 16:16:10</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,313" addon="0" bet="180" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="247,720" addon="0" bet="180" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,380" addon="0" bet="180" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="93,100" addon="0" bet="180" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="124,318" addon="0" bet="180" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="55,174" addon="0" bet="7,380" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,199" addon="0" bet="18,180" reg_code="" name="LeBron841" win="15,840" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,783" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="FreelancerV" type="15"/>
+   <action no="2" sum="180" player="LeBron841" type="15"/>
+   <action no="3" sum="180" player="slickwizard111" type="15"/>
+   <action no="4" sum="180" player="G0cmaN" type="15"/>
+   <action no="5" sum="180" player="ClareBradburn" type="15"/>
+   <action no="6" sum="180" player="b0rnew0lf" type="15"/>
+   <action no="7" sum="180" player="tropeiro123" type="15"/>
+   <action no="8" sum="180" player="LL1nUsLOvee" type="15"/>
+   <action no="9" sum="600" player="FreelancerV" type="1"/>
+   <action no="10" sum="1,200" player="LeBron841" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 S10</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="17" sum="600" player="FreelancerV" type="3"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LeBron841" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 SJ HJ</cards>
+   <action no="19" sum="0" player="FreelancerV" type="4"/>
+   <action no="20" sum="0" player="LeBron841" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="21" sum="0" player="FreelancerV" type="4"/>
+   <action no="22" sum="0" player="LeBron841" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+   <action no="23" sum="6,000" player="FreelancerV" type="5"/>
+   <action no="24" sum="16,800" player="LeBron841" type="23"/>
+   <action no="25" sum="0" player="FreelancerV" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560449060">
+  <general>
+   <startdate>2024-02-12 16:17:48</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,133" addon="0" bet="200" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="247,540" addon="0" bet="200" reg_code="" name="ClareBradburn" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,200" addon="0" bet="200" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="92,920" addon="0" bet="200" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="124,138" addon="0" bet="200" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="47,794" addon="0" bet="200" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="72,659" addon="0" bet="1,600" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,603" addon="0" bet="4,400" reg_code="" name="slickwizard111" win="4,400" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="LeBron841" type="15"/>
+   <action no="2" sum="200" player="slickwizard111" type="15"/>
+   <action no="3" sum="200" player="G0cmaN" type="15"/>
+   <action no="4" sum="200" player="ClareBradburn" type="15"/>
+   <action no="5" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="8" sum="200" player="FreelancerV" type="15"/>
+   <action no="9" sum="700" player="LeBron841" type="1"/>
+   <action no="10" sum="1,400" player="slickwizard111" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="G0cmaN" type="0"/>
+   <cards player="ClareBradburn" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ClareBradburn" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 D6</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="17" sum="700" player="LeBron841" type="3"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="slickwizard111" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H4 H3</cards>
+   <action no="19" sum="0" player="LeBron841" type="4"/>
+   <action no="20" sum="2,800" player="slickwizard111" type="5"/>
+   <action no="21" sum="0" player="LeBron841" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560449191">
+  <general>
+   <startdate>2024-02-12 16:19:02</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="255,933" addon="0" bet="1,600" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="247,340" addon="0" bet="44,475" reg_code="" name="ClareBradburn" win="92,250" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,000" addon="0" bet="200" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="92,720" addon="0" bet="44,475" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,938" addon="0" bet="200" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,594" addon="0" bet="200" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="71,059" addon="0" bet="200" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="76,403" addon="0" bet="900" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="slickwizard111" type="15"/>
+   <action no="2" sum="200" player="G0cmaN" type="15"/>
+   <action no="3" sum="200" player="ClareBradburn" type="15"/>
+   <action no="4" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="5" sum="200" player="tropeiro123" type="15"/>
+   <action no="6" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="7" sum="200" player="FreelancerV" type="15"/>
+   <action no="8" sum="200" player="LeBron841" type="15"/>
+   <action no="9" sum="700" player="slickwizard111" type="1"/>
+   <action no="10" sum="1,400" player="G0cmaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ClareBradburn" type="Pocket">C8 H8</cards>
+   <action no="11" sum="2,800" player="ClareBradburn" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK CK</cards>
+   <action no="13" sum="8,400" player="tropeiro123" type="23"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="G0cmaN" type="0"/>
+   <action no="19" sum="5,600" player="ClareBradburn" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 C10 DJ</cards>
+   <action no="20" sum="0" player="ClareBradburn" type="4"/>
+   <action no="21" sum="5,125" player="tropeiro123" type="5"/>
+   <action no="22" sum="5,125" player="ClareBradburn" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="23" sum="0" player="ClareBradburn" type="4"/>
+   <action no="24" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action no="25" sum="30,750" player="ClareBradburn" type="5"/>
+   <action no="26" sum="30,750" player="tropeiro123" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560449388">
+  <general>
+   <startdate>2024-02-12 16:20:48</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="254,333" addon="0" bet="7,900" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="295,115" addon="0" bet="20,250" reg_code="" name="ClareBradburn" win="49,400" rebuy="0"/>
+    <player dealer="0" seat="4" chips="88,800" addon="0" bet="20,250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="48,245" addon="0" bet="200" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,738" addon="0" bet="200" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,394" addon="0" bet="200" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="70,859" addon="0" bet="200" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="75,503" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="G0cmaN" type="15"/>
+   <action no="2" sum="200" player="ClareBradburn" type="15"/>
+   <action no="3" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="4" sum="200" player="tropeiro123" type="15"/>
+   <action no="5" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="6" sum="200" player="FreelancerV" type="15"/>
+   <action no="7" sum="200" player="LeBron841" type="15"/>
+   <action no="8" sum="200" player="slickwizard111" type="15"/>
+   <action no="9" sum="700" player="G0cmaN" type="1"/>
+   <action no="10" sum="1,400" player="ClareBradburn" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="b0rnew0lf" type="Pocket">SA HA</cards>
+   <action no="11" sum="3,500" player="b0rnew0lf" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C6 H2</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="17" sum="2,800" player="G0cmaN" type="3"/>
+   <cards player="ClareBradburn" type="Pocket">D10 DK</cards>
+   <action no="18" sum="2,100" player="ClareBradburn" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK SK H5</cards>
+   <action no="19" sum="0" player="G0cmaN" type="4"/>
+   <action no="20" sum="0" player="ClareBradburn" type="4"/>
+   <action no="21" sum="0" player="b0rnew0lf" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="22" sum="4,200" player="G0cmaN" type="5"/>
+   <action no="23" sum="4,200" player="ClareBradburn" type="3"/>
+   <action no="24" sum="4,200" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+   <action no="25" sum="0" player="G0cmaN" type="4"/>
+   <action no="26" sum="12,350" player="ClareBradburn" type="5"/>
+   <action no="27" sum="12,350" player="b0rnew0lf" type="3"/>
+   <action no="28" sum="0" player="G0cmaN" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560449565">
+  <general>
+   <startdate>2024-02-12 16:22:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="246,433" addon="0" bet="200" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="68,550" addon="0" bet="5,800" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="48,045" addon="0" bet="200" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,538" addon="0" bet="200" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,194" addon="0" bet="200" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="70,659" addon="0" bet="200" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="75,303" addon="0" bet="14,620" reg_code="" name="slickwizard111" win="12,600" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="2" sum="200" player="tropeiro123" type="15"/>
+   <action no="3" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="4" sum="200" player="FreelancerV" type="15"/>
+   <action no="5" sum="200" player="LeBron841" type="15"/>
+   <action no="6" sum="200" player="slickwizard111" type="15"/>
+   <action no="7" sum="200" player="G0cmaN" type="15"/>
+   <action no="8" sum="1,400" player="b0rnew0lf" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ C6</cards>
+   <action no="9" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="13" sum="2,800" player="slickwizard111" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="G0cmaN" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="15" sum="1,400" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S3 S7</cards>
+   <action no="16" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="17" sum="2,800" player="slickwizard111" type="5"/>
+   <action no="18" sum="2,800" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action no="19" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="20" sum="8,820" player="slickwizard111" type="5"/>
+   <action no="21" sum="0" player="b0rnew0lf" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560471722">
+  <general>
+   <startdate>2024-02-12 16:23:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="246,233" addon="0" bet="200" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="7,000" reg_code="" name="XS1MONAX" win="9,300" rebuy="0"/>
+    <player dealer="1" seat="4" chips="62,750" addon="0" bet="200" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="47,845" addon="0" bet="900" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,338" addon="0" bet="1,600" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="46,994" addon="0" bet="3,000" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="70,459" addon="0" bet="200" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="82,103" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="tropeiro123" type="15"/>
+   <action no="2" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="3" sum="200" player="FreelancerV" type="15"/>
+   <action no="4" sum="200" player="LeBron841" type="15"/>
+   <action no="5" sum="200" player="slickwizard111" type="15"/>
+   <action no="6" sum="200" player="G0cmaN" type="15"/>
+   <action no="7" sum="200" player="XS1MONAX" type="15"/>
+   <action no="8" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="9" sum="700" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,400" player="LL1nUsLOvee" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="11" sum="2,800" player="FreelancerV" type="23"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="15" sum="7,000" player="XS1MONAX" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 D5</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LL1nUsLOvee" type="0"/>
+   <action no="19" sum="0" player="FreelancerV" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560471806">
+  <general>
+   <startdate>2024-02-12 16:24:22</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="246,033" addon="0" bet="200" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="106,300" addon="0" bet="7,000" reg_code="" name="XS1MONAX" win="9,300" rebuy="0"/>
+    <player dealer="0" seat="4" chips="62,550" addon="0" bet="200" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="46,945" addon="0" bet="200" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="121,738" addon="0" bet="900" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,994" addon="0" bet="1,600" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="70,259" addon="0" bet="3,000" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="81,903" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="2" sum="200" player="FreelancerV" type="15"/>
+   <action no="3" sum="200" player="LeBron841" type="15"/>
+   <action no="4" sum="200" player="slickwizard111" type="15"/>
+   <action no="5" sum="200" player="G0cmaN" type="15"/>
+   <action no="6" sum="200" player="XS1MONAX" type="15"/>
+   <action no="7" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="8" sum="200" player="tropeiro123" type="15"/>
+   <action no="9" sum="700" player="LL1nUsLOvee" type="1"/>
+   <action no="10" sum="1,400" player="FreelancerV" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="11" sum="2,800" player="LeBron841" type="23"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="14" sum="7,000" player="XS1MONAX" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 D8</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="FreelancerV" type="0"/>
+   <action no="19" sum="0" player="LeBron841" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560471949">
+  <general>
+   <startdate>2024-02-12 16:25:42</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="245,833" addon="0" bet="200" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="112,600" addon="0" bet="200" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="62,350" addon="0" bet="3,700" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="46,745" addon="0" bet="3,700" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="120,838" addon="0" bet="3,700" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="42,394" addon="0" bet="900" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="67,259" addon="0" bet="11,850" reg_code="" name="LeBron841" win="16,300" rebuy="0"/>
+    <player dealer="0" seat="10" chips="81,703" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="FreelancerV" type="15"/>
+   <action no="2" sum="200" player="LeBron841" type="15"/>
+   <action no="3" sum="200" player="slickwizard111" type="15"/>
+   <action no="4" sum="200" player="G0cmaN" type="15"/>
+   <action no="5" sum="200" player="XS1MONAX" type="15"/>
+   <action no="6" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="7" sum="200" player="tropeiro123" type="15"/>
+   <action no="8" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="9" sum="700" player="FreelancerV" type="1"/>
+   <action no="10" sum="1,400" player="LeBron841" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="14" sum="3,500" player="b0rnew0lf" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="15" sum="3,500" player="tropeiro123" type="3"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="16" sum="3,500" player="LL1nUsLOvee" type="3"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="18" sum="2,100" player="LeBron841" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S3 C5</cards>
+   <action no="19" sum="0" player="LeBron841" type="4"/>
+   <action no="20" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="21" sum="0" player="tropeiro123" type="4"/>
+   <action no="22" sum="0" player="LL1nUsLOvee" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="23" sum="8,150" player="LeBron841" type="5"/>
+   <action no="24" sum="0" player="b0rnew0lf" type="0"/>
+   <action no="25" sum="0" player="tropeiro123" type="0"/>
+   <action no="26" sum="0" player="LL1nUsLOvee" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560472073">
+  <general>
+   <startdate>2024-02-12 16:26:51</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="245,633" addon="0" bet="6,581" reg_code="" name="G0cmaN" win="10,420" rebuy="0"/>
+    <player dealer="0" seat="2" chips="112,400" addon="0" bet="200" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="58,650" addon="0" bet="200" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="43,045" addon="0" bet="200" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="117,138" addon="0" bet="200" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="41,494" addon="0" bet="3,560" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,859" addon="0" bet="900" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="81,503" addon="0" bet="1,600" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="LeBron841" type="15"/>
+   <action no="2" sum="200" player="slickwizard111" type="15"/>
+   <action no="3" sum="200" player="G0cmaN" type="15"/>
+   <action no="4" sum="200" player="XS1MONAX" type="15"/>
+   <action no="5" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="200" player="LL1nUsLOvee" type="15"/>
+   <action no="8" sum="200" player="FreelancerV" type="15"/>
+   <action no="9" sum="700" player="LeBron841" type="1"/>
+   <action no="10" sum="1,400" player="slickwizard111" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="11" sum="3,360" player="G0cmaN" type="23"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 H6</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="16" sum="3,360" player="FreelancerV" type="3"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="slickwizard111" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 C9 S7</cards>
+   <action no="19" sum="0" player="G0cmaN" type="4"/>
+   <action no="20" sum="0" player="FreelancerV" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="21" sum="3,021" player="G0cmaN" type="5"/>
+   <action no="22" sum="0" player="FreelancerV" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560472234">
+  <general>
+   <startdate>2024-02-12 16:28:14</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="252,493" addon="0" bet="1,850" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="112,200" addon="0" bet="250" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="58,450" addon="0" bet="250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="42,845" addon="0" bet="250" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="116,938" addon="0" bet="250" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="37,934" addon="0" bet="250" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="78,959" addon="0" bet="3,200" reg_code="" name="LeBron841" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="10" chips="79,903" addon="0" bet="1,050" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="slickwizard111" type="15"/>
+   <action no="2" sum="250" player="G0cmaN" type="15"/>
+   <action no="3" sum="250" player="XS1MONAX" type="15"/>
+   <action no="4" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="7" sum="250" player="FreelancerV" type="15"/>
+   <action no="8" sum="250" player="LeBron841" type="15"/>
+   <action no="9" sum="800" player="slickwizard111" type="1"/>
+   <action no="10" sum="1,600" player="G0cmaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 DA</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="16" sum="3,200" player="LeBron841" type="23"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="G0cmaN" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560472276">
+  <general>
+   <startdate>2024-02-12 16:28:45</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="250,643" addon="0" bet="1,050" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="111,950" addon="0" bet="1,850" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="58,200" addon="0" bet="250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="42,595" addon="0" bet="3,610" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="116,688" addon="0" bet="250" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="37,684" addon="0" bet="250" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="83,109" addon="0" bet="3,610" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="78,853" addon="0" bet="13,120" reg_code="" name="slickwizard111" win="14,480" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="G0cmaN" type="15"/>
+   <action no="2" sum="250" player="XS1MONAX" type="15"/>
+   <action no="3" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="4" sum="250" player="tropeiro123" type="15"/>
+   <action no="5" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="6" sum="250" player="FreelancerV" type="15"/>
+   <action no="7" sum="250" player="LeBron841" type="15"/>
+   <action no="8" sum="250" player="slickwizard111" type="15"/>
+   <action no="9" sum="800" player="G0cmaN" type="1"/>
+   <action no="10" sum="1,600" player="XS1MONAX" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 C5</cards>
+   <action no="12" sum="3,360" player="tropeiro123" type="23"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="15" sum="3,360" player="LeBron841" type="3"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="16" sum="13,120" player="slickwizard111" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="XS1MONAX" type="0"/>
+   <action no="19" sum="0" player="tropeiro123" type="0"/>
+   <action no="20" sum="0" player="LeBron841" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560472347">
+  <general>
+   <startdate>2024-02-12 16:29:55</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" seat="1" chips="249,593" addon="0" bet="250" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="110,100" addon="0" bet="24,890" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="57,950" addon="0" bet="24,890" reg_code="" name="b0rnew0lf" win="54,640" rebuy="0"/>
+    <player dealer="0" seat="5" chips="38,985" addon="0" bet="3,610" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="116,438" addon="0" bet="250" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="37,434" addon="0" bet="250" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,499" addon="0" bet="250" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="89,723" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="XS1MONAX" type="15"/>
+   <action no="2" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="3" sum="250" player="tropeiro123" type="15"/>
+   <action no="4" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="5" sum="250" player="FreelancerV" type="15"/>
+   <action no="6" sum="250" player="LeBron841" type="15"/>
+   <action no="7" sum="250" player="slickwizard111" type="15"/>
+   <action no="8" sum="250" player="G0cmaN" type="15"/>
+   <action no="9" sum="800" player="XS1MONAX" type="1"/>
+   <action no="10" sum="1,600" player="b0rnew0lf" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CJ C9</cards>
+   <action no="11" sum="3,360" player="tropeiro123" type="23"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">CK C2</cards>
+   <action no="17" sum="2,560" player="XS1MONAX" type="3"/>
+   <cards player="b0rnew0lf" type="Pocket">S3 SQ</cards>
+   <action no="18" sum="1,760" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 SA D8</cards>
+   <action no="19" sum="0" player="XS1MONAX" type="4"/>
+   <action no="20" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="21" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action no="22" sum="12,080" player="XS1MONAX" type="5"/>
+   <action no="23" sum="12,080" player="b0rnew0lf" type="3"/>
+   <action no="24" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="25" sum="9,200" player="XS1MONAX" type="5"/>
+   <action no="26" sum="9,200" player="b0rnew0lf" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560472434">
+  <general>
+   <startdate>2024-02-12 16:31:07</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="249,343" addon="0" bet="250" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="85,210" addon="0" bet="50,830" reg_code="" name="XS1MONAX" win="41,592" rebuy="0"/>
+    <player dealer="0" seat="4" chips="87,700" addon="0" bet="1,050" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="35,375" addon="0" bet="1,850" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="116,188" addon="0" bet="18,846" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="37,184" addon="0" bet="250" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,249" addon="0" bet="250" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="89,473" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="2" sum="250" player="tropeiro123" type="15"/>
+   <action no="3" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="4" sum="250" player="FreelancerV" type="15"/>
+   <action no="5" sum="250" player="LeBron841" type="15"/>
+   <action no="6" sum="250" player="slickwizard111" type="15"/>
+   <action no="7" sum="250" player="G0cmaN" type="15"/>
+   <action no="8" sum="250" player="XS1MONAX" type="15"/>
+   <action no="9" sum="800" player="b0rnew0lf" type="1"/>
+   <action no="10" sum="1,600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="11" sum="3,200" player="LL1nUsLOvee" type="23"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="16" sum="3,200" player="XS1MONAX" type="3"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ S3</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK D9 D6</cards>
+   <action no="19" sum="3,564" player="LL1nUsLOvee" type="5"/>
+   <action no="20" sum="3,564" player="XS1MONAX" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="21" sum="11,832" player="LL1nUsLOvee" type="5"/>
+   <action no="22" sum="11,832" player="XS1MONAX" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="23" sum="0" player="LL1nUsLOvee" type="4"/>
+   <action no="24" sum="31,984" player="XS1MONAX" type="5"/>
+   <action no="25" sum="0" player="LL1nUsLOvee" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560472548">
+  <general>
+   <startdate>2024-02-12 16:32:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="249,093" addon="0" bet="250" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="107,956" addon="0" bet="89,223" reg_code="" name="XS1MONAX" win="183,946" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€0.00" kicked="slickwizard111"/>
+    </player>
+    <player dealer="1" seat="4" chips="86,650" addon="0" bet="250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="33,525" addon="0" bet="1,050" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,342" addon="0" bet="3,450" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="36,934" addon="0" bet="250" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="78,999" addon="0" bet="250" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="89,223" addon="0" bet="89,223" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tropeiro123" type="15"/>
+   <action no="2" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="3" sum="250" player="FreelancerV" type="15"/>
+   <action no="4" sum="250" player="LeBron841" type="15"/>
+   <action no="5" sum="250" player="slickwizard111" type="15"/>
+   <action no="6" sum="250" player="G0cmaN" type="15"/>
+   <action no="7" sum="250" player="XS1MONAX" type="15"/>
+   <action no="8" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="9" sum="800" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,600" player="LL1nUsLOvee" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FreelancerV" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LeBron841" type="0"/>
+   <cards player="slickwizard111" type="Pocket">SQ CA</cards>
+   <action no="13" sum="3,200" player="slickwizard111" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">HQ C9</cards>
+   <action no="15" sum="3,200" player="XS1MONAX" type="3"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 C2</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="18" sum="1,600" player="LL1nUsLOvee" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ S5 S9</cards>
+   <action no="19" sum="0" player="LL1nUsLOvee" type="4"/>
+   <action no="20" sum="6,200" player="slickwizard111" type="5"/>
+   <action no="21" sum="17,200" player="XS1MONAX" type="23"/>
+   <action no="22" sum="0" player="LL1nUsLOvee" type="0"/>
+   <action no="23" sum="85,773" player="slickwizard111" type="23"/>
+   <action no="24" sum="68,573" player="XS1MONAX" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560472712">
+  <general>
+   <startdate>2024-02-12 16:34:24</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="248,843" addon="0" bet="12,909" reg_code="" name="G0cmaN" win="16,668" rebuy="0"/>
+    <player dealer="0" seat="2" chips="202,679" addon="0" bet="250" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="86,400" addon="0" bet="6,509" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="32,475" addon="0" bet="250" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,892" addon="0" bet="1,050" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="36,684" addon="0" bet="1,850" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="78,749" addon="0" bet="250" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="2" sum="250" player="FreelancerV" type="15"/>
+   <action no="3" sum="250" player="LeBron841" type="15"/>
+   <action no="4" sum="250" player="G0cmaN" type="15"/>
+   <action no="5" sum="250" player="XS1MONAX" type="15"/>
+   <action no="6" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="800" player="LL1nUsLOvee" type="1"/>
+   <action no="9" sum="1,600" player="FreelancerV" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="LeBron841" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="11" sum="3,200" player="G0cmaN" type="23"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="13" sum="3,200" player="b0rnew0lf" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C10 D7</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="FreelancerV" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FreelancerV" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA SJ C4</cards>
+   <action no="17" sum="3,059" player="G0cmaN" type="5"/>
+   <action no="18" sum="3,059" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="19" sum="0" player="G0cmaN" type="4"/>
+   <action no="20" sum="0" player="b0rnew0lf" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+   <action no="21" sum="6,400" player="G0cmaN" type="5"/>
+   <action no="22" sum="0" player="b0rnew0lf" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560496535">
+  <general>
+   <startdate>2024-02-12 16:35:17</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="259,002" addon="0" bet="250" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="202,429" addon="0" bet="250" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="79,891" addon="0" bet="250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="32,225" addon="0" bet="250" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="92,842" addon="0" bet="34,834" reg_code="" name="LL1nUsLOvee" win="72,768" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€0.00" kicked="FreelancerV"/>
+    </player>
+    <player dealer="0" seat="7" chips="34,834" addon="0" bet="34,584" reg_code="" name="FreelancerV" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="78,499" addon="0" bet="1,850" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,000" addon="0" bet="250" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="FreelancerV" type="15"/>
+   <action no="2" sum="250" player="LeBron841" type="15"/>
+   <action no="3" sum="250" player="bigbebis6" type="15"/>
+   <action no="4" sum="250" player="G0cmaN" type="15"/>
+   <action no="5" sum="250" player="XS1MONAX" type="15"/>
+   <action no="6" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="9" sum="800" player="FreelancerV" type="1"/>
+   <action no="10" sum="1,600" player="LeBron841" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="bigbebis6" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 CK</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">DJ D9</cards>
+   <action no="16" sum="3,200" player="LL1nUsLOvee" type="23"/>
+   <cards player="FreelancerV" type="Pocket">C2 CA</cards>
+   <action no="17" sum="34,584" player="FreelancerV" type="23"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LeBron841" type="0"/>
+   <action no="19" sum="31,384" player="LL1nUsLOvee" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 DQ HJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+  </round>
+ </game>
+ <game gamecode="10560496636">
+  <general>
+   <startdate>2024-02-12 16:36:12</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="258,752" addon="0" bet="250" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="202,179" addon="0" bet="250" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="79,641" addon="0" bet="4,000" reg_code="" name="b0rnew0lf" win="5,750" rebuy="0"/>
+    <player dealer="0" seat="5" chips="31,975" addon="0" bet="250" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="130,776" addon="0" bet="250" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="76,649" addon="0" bet="1,050" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,750" addon="0" bet="1,850" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="LeBron841" type="15"/>
+   <action no="2" sum="250" player="bigbebis6" type="15"/>
+   <action no="3" sum="250" player="G0cmaN" type="15"/>
+   <action no="4" sum="250" player="XS1MONAX" type="15"/>
+   <action no="5" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="6" sum="250" player="tropeiro123" type="15"/>
+   <action no="7" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="8" sum="800" player="LeBron841" type="1"/>
+   <action no="9" sum="1,600" player="bigbebis6" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="12" sum="4,000" player="b0rnew0lf" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D5 H10</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LeBron841" type="0"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="bigbebis6" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560496671">
+  <general>
+   <startdate>2024-02-12 16:36:34</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="258,502" addon="0" bet="1,850" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="201,929" addon="0" bet="25,730" reg_code="" name="XS1MONAX" win="24,800" rebuy="0"/>
+    <player dealer="0" seat="4" chips="83,541" addon="0" bet="250" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="31,725" addon="0" bet="250" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="130,526" addon="0" bet="250" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="35,804" addon="0" bet="250" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="75,599" addon="0" bet="10,450" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="97,900" addon="0" bet="1,050" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="bigbebis6" type="15"/>
+   <action no="2" sum="250" player="G0cmaN" type="15"/>
+   <action no="3" sum="250" player="XS1MONAX" type="15"/>
+   <action no="4" sum="250" player="b0rnew0lf" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="LL1nUsLOvee" type="15"/>
+   <action no="7" sum="250" player="Dalia122" type="15"/>
+   <action no="8" sum="250" player="LeBron841" type="15"/>
+   <action no="9" sum="800" player="bigbebis6" type="1"/>
+   <action no="10" sum="1,600" player="G0cmaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="11" sum="4,000" player="XS1MONAX" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Dalia122" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="16" sum="4,000" player="LeBron841" type="3"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="bigbebis6" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="G0cmaN" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 DK S2</cards>
+   <action no="19" sum="6,200" player="XS1MONAX" type="5"/>
+   <action no="20" sum="6,200" player="LeBron841" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action no="21" sum="15,280" player="XS1MONAX" type="5"/>
+   <action no="22" sum="0" player="LeBron841" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560496799">
+  <general>
+   <startdate>2024-02-12 16:37:44</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="256,652" addon="0" bet="3,875" reg_code="" name="G0cmaN" win="5,800" rebuy="0"/>
+    <player dealer="0" seat="2" chips="216,279" addon="0" bet="2,075" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="83,291" addon="0" bet="275" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="31,475" addon="0" bet="275" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="130,276" addon="0" bet="275" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="35,554" addon="0" bet="275" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="65,149" addon="0" bet="275" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="96,850" addon="0" bet="275" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="G0cmaN" type="15"/>
+   <action no="2" sum="275" player="XS1MONAX" type="15"/>
+   <action no="3" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="4" sum="275" player="tropeiro123" type="15"/>
+   <action no="5" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="6" sum="275" player="Dalia122" type="15"/>
+   <action no="7" sum="275" player="LeBron841" type="15"/>
+   <action no="8" sum="275" player="bigbebis6" type="15"/>
+   <action no="9" sum="900" player="G0cmaN" type="1"/>
+   <action no="10" sum="1,800" player="XS1MONAX" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 S9</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Dalia122" type="0"/>
+   <cards player="LeBron841" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LeBron841" type="0"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="bigbebis6" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="17" sum="900" player="G0cmaN" type="3"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="XS1MONAX" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK D6 S5</cards>
+   <action no="19" sum="1,800" player="G0cmaN" type="5"/>
+   <action no="20" sum="0" player="XS1MONAX" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560496885">
+  <general>
+   <startdate>2024-02-12 16:38:29</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" seat="1" chips="260,377" addon="0" bet="275" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="214,204" addon="0" bet="1,175" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="83,016" addon="0" bet="2,075" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="31,200" addon="0" bet="275" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="130,001" addon="0" bet="275" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="35,279" addon="0" bet="35,279" reg_code="" name="Dalia122" win="109,912" rebuy="0"/>
+    <player dealer="0" seat="9" chips="64,874" addon="0" bet="64,874" reg_code="" name="LeBron841" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="96,575" addon="0" bet="96,300" reg_code="" name="bigbebis6" win="59,190" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€0.00" kicked="LeBron841"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="XS1MONAX" type="15"/>
+   <action no="2" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="3" sum="275" player="tropeiro123" type="15"/>
+   <action no="4" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="5" sum="275" player="Dalia122" type="15"/>
+   <action no="6" sum="275" player="LeBron841" type="15"/>
+   <action no="7" sum="275" player="bigbebis6" type="15"/>
+   <action no="8" sum="275" player="G0cmaN" type="15"/>
+   <action no="9" sum="900" player="XS1MONAX" type="1"/>
+   <action no="10" sum="1,800" player="b0rnew0lf" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H3 SA</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">HA DA</cards>
+   <action no="13" sum="1,800" player="Dalia122" type="3"/>
+   <cards player="LeBron841" type="Pocket">C10 D10</cards>
+   <action no="14" sum="7,200" player="LeBron841" type="23"/>
+   <cards player="bigbebis6" type="Pocket">HJ DJ</cards>
+   <action no="15" sum="96,300" player="bigbebis6" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="b0rnew0lf" type="0"/>
+   <action no="19" sum="33,204" player="Dalia122" type="7"/>
+   <action no="20" sum="57,399" player="LeBron841" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 C8 D5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10560497032">
+  <general>
+   <startdate>2024-02-12 16:39:53</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="260,102" addon="0" bet="43,475" reg_code="" name="G0cmaN" win="47,825" rebuy="0"/>
+    <player dealer="1" seat="2" chips="213,029" addon="0" bet="275" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="80,941" addon="0" bet="1,175" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="30,925" addon="0" bet="2,075" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="129,726" addon="0" bet="275" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="109,912" addon="0" bet="275" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="90,891" addon="0" bet="21,875" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="2" sum="275" player="tropeiro123" type="15"/>
+   <action no="3" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="4" sum="275" player="Dalia122" type="15"/>
+   <action no="5" sum="275" player="bigbebis6" type="15"/>
+   <action no="6" sum="275" player="G0cmaN" type="15"/>
+   <action no="7" sum="275" player="XS1MONAX" type="15"/>
+   <action no="8" sum="900" player="b0rnew0lf" type="1"/>
+   <action no="9" sum="1,800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Dalia122" type="0"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="12" sum="3,600" player="bigbebis6" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="13" sum="10,800" player="G0cmaN" type="23"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 H9</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <action no="17" sum="7,200" player="bigbebis6" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 DQ S3</cards>
+   <action no="18" sum="0" player="bigbebis6" type="4"/>
+   <action no="19" sum="10,800" player="G0cmaN" type="5"/>
+   <action no="20" sum="10,800" player="bigbebis6" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="21" sum="0" player="bigbebis6" type="4"/>
+   <action no="22" sum="21,600" player="G0cmaN" type="5"/>
+   <action no="23" sum="0" player="bigbebis6" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560497177">
+  <general>
+   <startdate>2024-02-12 16:41:09</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="286,052" addon="0" bet="3,875" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="212,754" addon="0" bet="275" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="79,766" addon="0" bet="8,462" reg_code="" name="b0rnew0lf" win="13,900" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,850" addon="0" bet="1,175" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="129,451" addon="0" bet="3,875" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="109,637" addon="0" bet="275" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="200,802" addon="0" bet="275" reg_code="" name="f1gura" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="69,016" addon="0" bet="275" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="tropeiro123" type="15"/>
+   <action no="2" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="3" sum="275" player="Dalia122" type="15"/>
+   <action no="4" sum="275" player="f1gura" type="15"/>
+   <action no="5" sum="275" player="bigbebis6" type="15"/>
+   <action no="6" sum="275" player="G0cmaN" type="15"/>
+   <action no="7" sum="275" player="XS1MONAX" type="15"/>
+   <action no="8" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="9" sum="900" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,800" player="LL1nUsLOvee" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Dalia122" type="0"/>
+   <cards player="f1gura" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="f1gura" type="0"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="bigbebis6" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="14" sum="3,600" player="G0cmaN" type="23"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="16" sum="3,600" player="b0rnew0lf" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D10 HJ</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="18" sum="1,800" player="LL1nUsLOvee" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 S5 DA</cards>
+   <action no="19" sum="0" player="LL1nUsLOvee" type="4"/>
+   <action no="20" sum="0" player="G0cmaN" type="4"/>
+   <action no="21" sum="4,587" player="b0rnew0lf" type="5"/>
+   <action no="22" sum="0" player="LL1nUsLOvee" type="0"/>
+   <action no="23" sum="0" player="G0cmaN" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560497359">
+  <general>
+   <startdate>2024-02-12 16:42:51</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="282,177" addon="0" bet="275" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="212,479" addon="0" bet="275" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,791" addon="0" bet="275" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="27,675" addon="0" bet="275" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,576" addon="0" bet="1,175" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="109,362" addon="0" bet="7,871" reg_code="" name="Dalia122" win="18,292" rebuy="0"/>
+    <player dealer="0" seat="9" chips="200,527" addon="0" bet="275" reg_code="" name="f1gura" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="68,741" addon="0" bet="7,871" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="2" sum="275" player="Dalia122" type="15"/>
+   <action no="3" sum="275" player="f1gura" type="15"/>
+   <action no="4" sum="275" player="bigbebis6" type="15"/>
+   <action no="5" sum="275" player="G0cmaN" type="15"/>
+   <action no="6" sum="275" player="XS1MONAX" type="15"/>
+   <action no="7" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="8" sum="275" player="tropeiro123" type="15"/>
+   <action no="9" sum="900" player="LL1nUsLOvee" type="1"/>
+   <action no="10" sum="1,800" player="Dalia122" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="f1gura" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="f1gura" type="0"/>
+   <cards player="bigbebis6" type="Pocket">H10 SA</cards>
+   <action no="12" sum="3,960" player="bigbebis6" type="23"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ C9</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">D4 S4</cards>
+   <action no="18" sum="2,160" player="Dalia122" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 SJ C3</cards>
+   <action no="19" sum="0" player="Dalia122" type="4"/>
+   <action no="20" sum="3,636" player="bigbebis6" type="5"/>
+   <action no="21" sum="3,636" player="Dalia122" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action no="22" sum="0" player="Dalia122" type="4"/>
+   <action no="23" sum="0" player="bigbebis6" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+   <action no="24" sum="0" player="Dalia122" type="4"/>
+   <action no="25" sum="0" player="bigbebis6" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560497459">
+  <general>
+   <startdate>2024-02-12 16:43:51</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="281,902" addon="0" bet="275" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="212,204" addon="0" bet="275" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,516" addon="0" bet="275" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,400" addon="0" bet="275" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="124,401" addon="0" bet="275" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="119,783" addon="0" bet="1,175" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="200,252" addon="0" bet="2,075" reg_code="" name="f1gura" win="4,000" rebuy="0"/>
+    <player dealer="0" seat="10" chips="60,870" addon="0" bet="275" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="Dalia122" type="15"/>
+   <action no="2" sum="275" player="f1gura" type="15"/>
+   <action no="3" sum="275" player="bigbebis6" type="15"/>
+   <action no="4" sum="275" player="G0cmaN" type="15"/>
+   <action no="5" sum="275" player="XS1MONAX" type="15"/>
+   <action no="6" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="7" sum="275" player="tropeiro123" type="15"/>
+   <action no="8" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="9" sum="900" player="Dalia122" type="1"/>
+   <action no="10" sum="1,800" player="f1gura" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="f1gura" type="Pocket">X X</cards>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="bigbebis6" type="0"/>
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="XS1MONAX" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 H9</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Dalia122" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560497529">
+  <general>
+   <startdate>2024-02-12 16:44:31</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="281,627" addon="0" bet="275" reg_code="" name="G0cmaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="211,929" addon="0" bet="4,775" reg_code="" name="XS1MONAX" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,241" addon="0" bet="275" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,125" addon="0" bet="26,850" reg_code="7947854862" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="124,126" addon="0" bet="275" reg_code="" name="LL1nUsLOvee" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="118,608" addon="0" bet="275" reg_code="" name="Dalia122" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="203,077" addon="0" bet="202,802" reg_code="" name="f1gura" win="62,200" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€0.00" kicked="tropeiro123"/>
+    </player>
+    <player dealer="0" seat="10" chips="60,595" addon="0" bet="2,075" reg_code="" name="bigbebis6" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="f1gura" type="15"/>
+   <action no="2" sum="275" player="bigbebis6" type="15"/>
+   <action no="3" sum="275" player="G0cmaN" type="15"/>
+   <action no="4" sum="275" player="XS1MONAX" type="15"/>
+   <action no="5" sum="275" player="b0rnew0lf" type="15"/>
+   <action no="6" sum="275" player="tropeiro123" type="15"/>
+   <action no="7" sum="275" player="LL1nUsLOvee" type="15"/>
+   <action no="8" sum="275" player="Dalia122" type="15"/>
+   <action no="9" sum="900" player="f1gura" type="1"/>
+   <action no="10" sum="1,800" player="bigbebis6" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="G0cmaN" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="G0cmaN" type="0"/>
+   <cards player="XS1MONAX" type="Pocket">X X</cards>
+   <action no="12" sum="4,500" player="XS1MONAX" type="23"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA DJ</cards>
+   <action no="14" sum="26,850" player="tropeiro123" type="23"/>
+   <cards player="LL1nUsLOvee" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LL1nUsLOvee" type="0"/>
+   <cards player="Dalia122" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Dalia122" type="0"/>
+   <cards player="f1gura" type="Pocket">H9 D9</cards>
+   <action no="17" sum="202,802" player="f1gura" type="23"/>
+   <cards player="bigbebis6" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="bigbebis6" type="0"/>
+   <action no="19" sum="0" player="XS1MONAX" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 S3 S8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+  </round>
+ </game>
+</session>

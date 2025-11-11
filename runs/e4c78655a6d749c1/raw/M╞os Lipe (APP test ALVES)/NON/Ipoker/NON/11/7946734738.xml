@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946734738">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>Sunday Warm-Up - €8,000 GTD, 1080788914</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:12:54</duration>
+  <gamecount>10</gamecount>
+  <startdate>2024-02-11 14:01:35</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>42,750</bets>
+  <wins>10,100</wins>
+  <chipsin>29,925</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP36</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079474412</tournamentcode>
+  <tournamentname>Sunday Warm-Up - €8,000 GTD</tournamentname>
+  <place>328</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10558337899">
+  <general>
+   <startdate>2024-02-11 14:01:35</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="12,395" seat="1" rebuy="0" dealer="1" name="Nasvai20" chips="30,000" win="15,870" addon="0"/>
+    <player reg_code="" bet="325" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="575" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="30,000" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="75" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="Tho919" chips="30,000" win="0" addon="0"/>
+    <player reg_code="" bet="7,335" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="22,410" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="30,000" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KingJamesI86" sum="75"/>
+   <action type="15" no="2" player="DuoSacapuntos" sum="75"/>
+   <action type="15" no="3" player="tropeiro123" sum="75"/>
+   <action type="15" no="4" player="777queenhappy777" sum="75"/>
+   <action type="15" no="5" player="Tho919" sum="75"/>
+   <action type="15" no="6" player="MaestroPifador" sum="75"/>
+   <action type="15" no="7" player="MrRight68" sum="75"/>
+   <action type="15" no="8" player="Nasvai20" sum="75"/>
+   <action type="1" no="9" player="KingJamesI86" sum="250"/>
+   <action type="2" no="10" player="DuoSacapuntos" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">D9 H6</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="12" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="13" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="23" no="14" player="MaestroPifador" sum="1,100"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="15" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="3" no="16" player="Nasvai20" sum="1,100"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="17" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="18" player="DuoSacapuntos" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 D2 HQ</cards>
+   <action type="5" no="19" player="MaestroPifador" sum="1,100"/>
+   <action type="3" no="20" player="Nasvai20" sum="1,100"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action type="5" no="21" player="MaestroPifador" sum="5,060"/>
+   <action type="23" no="22" player="Nasvai20" sum="10,120"/>
+   <action type="0" no="23" player="MaestroPifador" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558338004">
+  <general>
+   <startdate>2024-02-11 14:03:39</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,535" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="1" name="KingJamesI86" chips="29,675" win="0" addon="0"/>
+    <player reg_code="" bet="9,225" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="29,425" win="6,300" addon="0"/>
+    <player reg_code="7946734738" bet="2,925" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="29,925" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="29,925" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="7" rebuy="0" dealer="0" name="Tho919" chips="29,925" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="15,075" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="29,925" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="DuoSacapuntos" sum="75"/>
+   <action type="15" no="2" player="tropeiro123" sum="75"/>
+   <action type="15" no="3" player="777queenhappy777" sum="75"/>
+   <action type="15" no="4" player="Tho919" sum="75"/>
+   <action type="15" no="5" player="MaestroPifador" sum="75"/>
+   <action type="15" no="6" player="MrRight68" sum="75"/>
+   <action type="15" no="7" player="Nasvai20" sum="75"/>
+   <action type="15" no="8" player="KingJamesI86" sum="75"/>
+   <action type="1" no="9" player="DuoSacapuntos" sum="250"/>
+   <action type="2" no="10" player="tropeiro123" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="11" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="12" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="13" player="MaestroPifador" sum="0"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="14" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="15" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="16" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="23" no="17" player="DuoSacapuntos" sum="1,750"/>
+   <cards type="Pocket" player="tropeiro123">D2 H2</cards>
+   <action type="3" no="18" player="tropeiro123" sum="1,250"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D9 H3</cards>
+   <action type="5" no="19" player="DuoSacapuntos" sum="1,100"/>
+   <action type="3" no="20" player="tropeiro123" sum="1,100"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action type="5" no="21" player="DuoSacapuntos" sum="6,300"/>
+   <action type="0" no="22" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558338129">
+  <general>
+   <startdate>2024-02-11 14:05:35</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,460" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,600" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="4" rebuy="0" dealer="1" name="DuoSacapuntos" chips="32,800" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="325" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="27,000" win="0" addon="0"/>
+    <player reg_code="" bet="575" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="29,850" win="0" addon="0"/>
+    <player reg_code="" bet="15,000" seat="7" rebuy="0" dealer="0" name="Tho919" chips="29,850" win="0" addon="0"/>
+    <player reg_code="" bet="15,000" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="15,000" win="31,200" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="29,850" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="75"/>
+   <action type="15" no="2" player="777queenhappy777" sum="75"/>
+   <action type="15" no="3" player="Tho919" sum="75"/>
+   <action type="15" no="4" player="MaestroPifador" sum="75"/>
+   <action type="15" no="5" player="MrRight68" sum="75"/>
+   <action type="15" no="6" player="Nasvai20" sum="75"/>
+   <action type="15" no="7" player="KingJamesI86" sum="75"/>
+   <action type="15" no="8" player="DuoSacapuntos" sum="75"/>
+   <action type="1" no="9" player="tropeiro123" sum="250"/>
+   <action type="2" no="10" player="777queenhappy777" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Tho919">H2 HA</cards>
+   <action type="23" no="11" player="Tho919" sum="1,000"/>
+   <cards type="Pocket" player="MaestroPifador">SQ DQ</cards>
+   <action type="23" no="12" player="MaestroPifador" sum="3,000"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="13" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="14" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="15" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="16" player="DuoSacapuntos" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D6 S4</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="18" player="777queenhappy777" sum="0"/>
+   <action type="3" no="19" player="Tho919" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D2 C5</cards>
+   <action type="4" no="20" player="Tho919" sum="0"/>
+   <action type="5" no="21" player="MaestroPifador" sum="2,278"/>
+   <action type="3" no="22" player="Tho919" sum="2,278"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action type="4" no="23" player="Tho919" sum="0"/>
+   <action type="5" no="24" player="MaestroPifador" sum="9,647"/>
+   <action type="3" no="25" player="Tho919" sum="9,647"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10558338216">
+  <general>
+   <startdate>2024-02-11 14:06:52</startdate>
+   <smallblind>250</smallblind>
+   <bigblind>500</bigblind>
+   <ante>75</ante>
+   <players>
+    <player reg_code="" bet="75" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,385" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,525" win="0" addon="0"/>
+    <player reg_code="" bet="1,050" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="32,725" win="1,850" addon="0"/>
+    <player reg_code="7946734738" bet="75" seat="5" rebuy="0" dealer="1" name="tropeiro123" chips="26,675" win="0" addon="0"/>
+    <player reg_code="" bet="325" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="29,275" win="0" addon="0"/>
+    <player reg_code="" bet="575" seat="7" rebuy="0" dealer="0" name="Tho919" chips="14,850" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="31,200" win="0" addon="0"/>
+    <player reg_code="" bet="75" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="29,775" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="777queenhappy777" sum="75"/>
+   <action type="15" no="2" player="Tho919" sum="75"/>
+   <action type="15" no="3" player="MaestroPifador" sum="75"/>
+   <action type="15" no="4" player="MrRight68" sum="75"/>
+   <action type="15" no="5" player="Nasvai20" sum="75"/>
+   <action type="15" no="6" player="KingJamesI86" sum="75"/>
+   <action type="15" no="7" player="DuoSacapuntos" sum="75"/>
+   <action type="15" no="8" player="tropeiro123" sum="75"/>
+   <action type="1" no="9" player="777queenhappy777" sum="250"/>
+   <action type="2" no="10" player="Tho919" sum="500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="11" player="MaestroPifador" sum="0"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="12" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="13" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="14" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="23" no="15" player="DuoSacapuntos" sum="1,050"/>
+   <cards type="Pocket" player="tropeiro123">HQ C8</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="17" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="18" player="Tho919" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558338266">
+  <general>
+   <startdate>2024-02-11 14:07:34</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,310" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,450" win="0" addon="0"/>
+    <player reg_code="" bet="1,350" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="34,000" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="14,275" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="26,600" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="1" name="777queenhappy777" chips="28,950" win="0" addon="0"/>
+    <player reg_code="" bet="14,185" seat="7" rebuy="0" dealer="0" name="Tho919" chips="14,275" win="30,950" addon="0"/>
+    <player reg_code="" bet="690" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="31,125" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="29,700" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Tho919" sum="90"/>
+   <action type="15" no="2" player="MaestroPifador" sum="90"/>
+   <action type="15" no="3" player="MrRight68" sum="90"/>
+   <action type="15" no="4" player="Nasvai20" sum="90"/>
+   <action type="15" no="5" player="KingJamesI86" sum="90"/>
+   <action type="15" no="6" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="7" player="tropeiro123" sum="90"/>
+   <action type="15" no="8" player="777queenhappy777" sum="90"/>
+   <action type="1" no="9" player="Tho919" sum="300"/>
+   <action type="2" no="10" player="MaestroPifador" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="11" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="12" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="13" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="23" no="14" player="DuoSacapuntos" sum="1,260"/>
+   <cards type="Pocket" player="tropeiro123">H10 D10</cards>
+   <action type="23" no="15" player="tropeiro123" sum="3,720"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="16" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">SK CA</cards>
+   <action type="23" no="17" player="Tho919" sum="14,185"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="18" player="MaestroPifador" sum="0"/>
+   <action type="0" no="19" player="DuoSacapuntos" sum="0"/>
+   <action type="3" no="20" player="tropeiro123" sum="10,465"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 SJ S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+ <game gamecode="10558338352">
+  <general>
+   <startdate>2024-02-11 14:08:50</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,220" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,360" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="32,650" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="90" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="12,325" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="28,860" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="1" name="Tho919" chips="30,950" win="0" addon="0"/>
+    <player reg_code="" bet="8,045" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="30,435" win="6,026" addon="0"/>
+    <player reg_code="" bet="2,743" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="29,610" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MaestroPifador" sum="90"/>
+   <action type="15" no="2" player="MrRight68" sum="90"/>
+   <action type="15" no="3" player="Nasvai20" sum="90"/>
+   <action type="15" no="4" player="KingJamesI86" sum="90"/>
+   <action type="15" no="5" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="6" player="tropeiro123" sum="90"/>
+   <action type="15" no="7" player="777queenhappy777" sum="90"/>
+   <action type="15" no="8" player="Tho919" sum="90"/>
+   <action type="1" no="9" player="MaestroPifador" sum="300"/>
+   <action type="2" no="10" player="MrRight68" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="11" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="12" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="13" player="DuoSacapuntos" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S8 H10</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="15" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="16" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="23" no="17" player="MaestroPifador" sum="1,500"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="3" no="18" player="MrRight68" sum="900"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 S4 D5</cards>
+   <action type="5" no="19" player="MaestroPifador" sum="1,153"/>
+   <action type="3" no="20" player="MrRight68" sum="1,153"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action type="5" no="21" player="MaestroPifador" sum="5,302"/>
+   <action type="0" no="22" player="MrRight68" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558356838">
+  <general>
+   <startdate>2024-02-11 14:10:12</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="1,350" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="38,130" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,270" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="32,560" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="2,235" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="12,235" win="3,540" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="28,770" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="Tho919" chips="30,860" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="1" name="MaestroPifador" chips="33,718" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="10" rebuy="0" dealer="0" name="MrRight68" chips="26,867" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MrRight68" sum="90"/>
+   <action type="15" no="2" player="Nasvai20" sum="90"/>
+   <action type="15" no="3" player="KingJamesI86" sum="90"/>
+   <action type="15" no="4" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="5" player="tropeiro123" sum="90"/>
+   <action type="15" no="6" player="777queenhappy777" sum="90"/>
+   <action type="15" no="7" player="Tho919" sum="90"/>
+   <action type="15" no="8" player="MaestroPifador" sum="90"/>
+   <action type="1" no="9" player="MrRight68" sum="300"/>
+   <action type="2" no="10" player="Nasvai20" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="11" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="12" player="DuoSacapuntos" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DQ HQ</cards>
+   <action type="23" no="13" player="tropeiro123" sum="1,260"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="14" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="15" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="16" player="MaestroPifador" sum="0"/>
+   <cards type="Pocket" player="MrRight68">X X</cards>
+   <action type="0" no="17" player="MrRight68" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="3" no="18" player="Nasvai20" sum="660"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK CJ H5</cards>
+   <action type="4" no="19" player="Nasvai20" sum="0"/>
+   <action type="5" no="20" player="tropeiro123" sum="885"/>
+   <action type="0" no="21" player="Nasvai20" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558356894">
+  <general>
+   <startdate>2024-02-11 14:11:02</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="36,690" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="36,780" win="0" addon="0"/>
+    <player reg_code="" bet="29,180" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="29,180" win="86,547" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="MrRight68"/>
+    </player>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="32,470" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="1,350" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="14,425" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="28,680" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="Tho919" chips="30,770" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="33,628" win="0" addon="0"/>
+    <player reg_code="" bet="26,477" seat="10" rebuy="0" dealer="1" name="MrRight68" chips="26,477" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Nasvai20" sum="90"/>
+   <action type="15" no="2" player="KingJamesI86" sum="90"/>
+   <action type="15" no="3" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="4" player="tropeiro123" sum="90"/>
+   <action type="15" no="5" player="777queenhappy777" sum="90"/>
+   <action type="15" no="6" player="Tho919" sum="90"/>
+   <action type="15" no="7" player="MaestroPifador" sum="90"/>
+   <action type="15" no="8" player="MrRight68" sum="90"/>
+   <action type="1" no="9" player="Nasvai20" sum="300"/>
+   <action type="2" no="10" player="KingJamesI86" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="11" player="DuoSacapuntos" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CQ DA</cards>
+   <action type="23" no="12" player="tropeiro123" sum="1,260"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="13" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="14" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="15" player="MaestroPifador" sum="0"/>
+   <cards type="Pocket" player="MrRight68">CA DQ</cards>
+   <action type="3" no="16" player="MrRight68" sum="1,260"/>
+   <cards type="Pocket" player="Nasvai20">CJ DJ</cards>
+   <action type="23" no="17" player="Nasvai20" sum="36,690"/>
+   <cards type="Pocket" player="KingJamesI86">SA SK</cards>
+   <action type="7" no="18" player="KingJamesI86" sum="28,490"/>
+   <action type="0" no="19" player="tropeiro123" sum="0"/>
+   <action type="7" no="20" player="MrRight68" sum="25,127"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 H9 C7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10558356969">
+  <general>
+   <startdate>2024-02-11 14:12:12</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="1" name="Nasvai20" chips="7,600" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="2" rebuy="0" dealer="0" name="KingJamesI86" chips="86,547" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="32,380" win="0" addon="0"/>
+    <player reg_code="7946734738" bet="4,460" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="13,075" win="6,560" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="28,590" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="Tho919" chips="30,680" win="0" addon="0"/>
+    <player reg_code="" bet="2,605" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="33,538" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KingJamesI86" sum="90"/>
+   <action type="15" no="2" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="3" player="tropeiro123" sum="90"/>
+   <action type="15" no="4" player="777queenhappy777" sum="90"/>
+   <action type="15" no="5" player="Tho919" sum="90"/>
+   <action type="15" no="6" player="MaestroPifador" sum="90"/>
+   <action type="15" no="7" player="Nasvai20" sum="90"/>
+   <action type="1" no="8" player="KingJamesI86" sum="300"/>
+   <action type="2" no="9" player="DuoSacapuntos" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SA DA</cards>
+   <action type="23" no="10" player="tropeiro123" sum="1,260"/>
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="11" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="12" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="3" no="13" player="MaestroPifador" sum="1,260"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="14" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="15" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">X X</cards>
+   <action type="0" no="16" player="DuoSacapuntos" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 CK C9</cards>
+   <action type="4" no="17" player="tropeiro123" sum="0"/>
+   <action type="5" no="18" player="MaestroPifador" sum="1,255"/>
+   <action type="23" no="19" player="tropeiro123" sum="3,110"/>
+   <action type="0" no="20" player="MaestroPifador" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558357057">
+  <general>
+   <startdate>2024-02-11 14:13:35</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="Nasvai20" chips="7,510" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="1" name="KingJamesI86" chips="86,157" win="0" addon="0"/>
+    <player reg_code="" bet="17,030" seat="4" rebuy="0" dealer="0" name="DuoSacapuntos" chips="31,690" win="34,510" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+    <player reg_code="7946734738" bet="16,940" seat="5" rebuy="0" dealer="0" name="tropeiro123" chips="17,030" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="777queenhappy777" chips="28,500" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="Tho919" chips="30,590" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="MaestroPifador" chips="30,933" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="DuoSacapuntos" sum="90"/>
+   <action type="15" no="2" player="tropeiro123" sum="90"/>
+   <action type="15" no="3" player="777queenhappy777" sum="90"/>
+   <action type="15" no="4" player="Tho919" sum="90"/>
+   <action type="15" no="5" player="MaestroPifador" sum="90"/>
+   <action type="15" no="6" player="Nasvai20" sum="90"/>
+   <action type="15" no="7" player="KingJamesI86" sum="90"/>
+   <action type="1" no="8" player="DuoSacapuntos" sum="300"/>
+   <action type="2" no="9" player="tropeiro123" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="777queenhappy777">X X</cards>
+   <action type="0" no="10" player="777queenhappy777" sum="0"/>
+   <cards type="Pocket" player="Tho919">X X</cards>
+   <action type="0" no="11" player="Tho919" sum="0"/>
+   <cards type="Pocket" player="MaestroPifador">X X</cards>
+   <action type="0" no="12" player="MaestroPifador" sum="0"/>
+   <cards type="Pocket" player="Nasvai20">X X</cards>
+   <action type="0" no="13" player="Nasvai20" sum="0"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action type="0" no="14" player="KingJamesI86" sum="0"/>
+   <cards type="Pocket" player="DuoSacapuntos">HK H10</cards>
+   <action type="23" no="15" player="DuoSacapuntos" sum="1,980"/>
+   <cards type="Pocket" player="tropeiro123">CQ SA</cards>
+   <action type="23" no="16" player="tropeiro123" sum="16,940"/>
+   <action type="3" no="17" player="DuoSacapuntos" sum="14,960"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 S5 C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+</session>

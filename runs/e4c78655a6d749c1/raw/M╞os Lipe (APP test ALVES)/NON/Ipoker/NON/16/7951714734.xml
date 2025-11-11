@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7951714734">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,000|The Classic, 1081219978</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:31:42</duration>
+  <gamecount>38</gamecount>
+  <startdate>2024-02-16 13:13:11</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>75,210</bets>
+  <wins>68,345</wins>
+  <chipsin>29,820</chipsin>
+  <chipsout>39,495</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081123154</tournamentcode>
+  <tournamentname>€2,000|The Classic</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10567172432">
+  <general>
+   <startdate>2024-02-16 13:13:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="fishdouble86" rebuy="0" win="0" chips="76,578" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="3,180" name="slami" rebuy="0" win="7,860" chips="36,782" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="780" name="Bowrot" rebuy="0" win="0" chips="58,735" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="3,180" name="gaui" rebuy="0" win="0" chips="68,122" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="180" name="gustavobeloti" rebuy="0" win="0" chips="41,721" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Merseyboy" rebuy="0" win="0" chips="29,820" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="Hulkaku" rebuy="0" win="0" chips="44,573" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="Bowrot"/>
+   <action type="15" sum="180" no="2" player="gaui"/>
+   <action type="15" sum="180" no="3" player="gustavobeloti"/>
+   <action type="15" sum="180" no="4" player="Merseyboy"/>
+   <action type="15" sum="180" no="5" player="Hulkaku"/>
+   <action type="15" sum="180" no="6" player="fishdouble86"/>
+   <action type="15" sum="180" no="7" player="slami"/>
+   <action type="1" sum="600" no="8" player="Bowrot"/>
+   <action type="2" sum="1,200" no="9" player="gaui"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="10" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="12" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">H3 D3</cards>
+   <action type="23" sum="3,000" no="14" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">C3 CQ</cards>
+   <action type="3" sum="1,800" no="16" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 SA S4</cards>
+   <action type="4" sum="0" no="17" player="gaui"/>
+   <action type="4" sum="0" no="18" player="slami"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action type="4" sum="0" no="19" player="gaui"/>
+   <action type="4" sum="0" no="20" player="slami"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action type="4" sum="0" no="21" player="gaui"/>
+   <action type="4" sum="0" no="22" player="slami"/>
+  </round>
+ </game>
+ <game gamecode="10567172439">
+  <general>
+   <startdate>2024-02-16 13:13:58</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="fishdouble86" rebuy="0" win="0" chips="76,398" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="slami" rebuy="0" win="0" chips="41,462" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="180" name="Bowrot" rebuy="0" win="0" chips="57,955" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="16,020" name="gaui" rebuy="0" win="11,040" chips="64,942" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="4,980" name="gustavobeloti" rebuy="0" win="0" chips="41,541" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Merseyboy" rebuy="0" win="0" chips="29,640" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="tropeiro123" rebuy="0" win="0" chips="30,000" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="180" name="Hulkaku" rebuy="0" win="0" chips="44,393" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="gaui"/>
+   <action type="15" sum="180" no="2" player="gustavobeloti"/>
+   <action type="15" sum="180" no="3" player="Merseyboy"/>
+   <action type="15" sum="180" no="4" player="tropeiro123"/>
+   <action type="15" sum="180" no="5" player="Hulkaku"/>
+   <action type="15" sum="180" no="6" player="fishdouble86"/>
+   <action type="15" sum="180" no="7" player="slami"/>
+   <action type="15" sum="180" no="8" player="Bowrot"/>
+   <action type="1" sum="600" no="9" player="gaui"/>
+   <action type="2" sum="1,200" no="10" player="gustavobeloti"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D5 H6</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="13" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="15" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="16" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="600" no="17" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="4,800" no="18" player="gustavobeloti"/>
+   <action type="3" sum="3,600" no="19" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 H9 SJ</cards>
+   <action type="5" sum="11,040" no="20" player="gaui"/>
+   <action type="0" sum="0" no="21" player="gustavobeloti"/>
+  </round>
+ </game>
+ <game gamecode="10567193699">
+  <general>
+   <startdate>2024-02-16 13:14:58</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="76,218" name="fishdouble86" rebuy="0" win="29,040" chips="76,218" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="slami" rebuy="0" win="0" chips="41,282" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="180" name="Bowrot" rebuy="0" win="0" chips="57,775" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="2,700" name="gaui" rebuy="0" win="0" chips="71,002" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="780" name="gustavobeloti" rebuy="0" win="0" chips="36,561" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,700" name="Merseyboy" rebuy="0" win="0" chips="29,460" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="11,160" name="tropeiro123" rebuy="0" win="0" chips="29,820" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="180" name="Hulkaku" rebuy="0" win="0" chips="44,213" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="gustavobeloti"/>
+   <action type="15" sum="180" no="2" player="Merseyboy"/>
+   <action type="15" sum="180" no="3" player="tropeiro123"/>
+   <action type="15" sum="180" no="4" player="Hulkaku"/>
+   <action type="15" sum="180" no="5" player="fishdouble86"/>
+   <action type="15" sum="180" no="6" player="slami"/>
+   <action type="15" sum="180" no="7" player="Bowrot"/>
+   <action type="15" sum="180" no="8" player="gaui"/>
+   <action type="1" sum="600" no="9" player="gustavobeloti"/>
+   <action type="2" sum="1,200" no="10" player="Merseyboy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SQ HJ</cards>
+   <action type="23" sum="2,520" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="12" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="3" sum="2,520" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="14" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="2,520" no="16" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="17" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="3" sum="1,320" no="18" player="Merseyboy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 CQ D8</cards>
+   <action type="4" sum="0" no="19" player="Merseyboy"/>
+   <action type="4" sum="0" no="20" player="tropeiro123"/>
+   <action type="5" sum="6,060" no="21" player="fishdouble86"/>
+   <action type="0" sum="0" no="22" player="gaui"/>
+   <action type="0" sum="0" no="23" player="Merseyboy"/>
+   <action type="3" sum="6,060" no="24" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action type="4" sum="0" no="25" player="tropeiro123"/>
+   <action type="4" sum="0" no="26" player="fishdouble86"/>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+   <action type="5" sum="2,400" no="27" player="tropeiro123"/>
+   <action type="23" sum="67,458" no="28" player="fishdouble86"/>
+   <action type="0" sum="0" no="29" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567193715">
+  <general>
+   <startdate>2024-02-16 13:17:03</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="3,000" name="fishdouble86" rebuy="0" win="0" chips="94,098" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="3,000" name="slami" rebuy="0" win="0" chips="41,102" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="Bowrot" rebuy="0" win="0" chips="57,595" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="200" name="gaui" rebuy="0" win="0" chips="68,302" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="35,781" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="900" name="Merseyboy" rebuy="0" win="0" chips="26,760" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="18,460" name="tropeiro123" rebuy="0" win="10,700" chips="18,660" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="200" name="Hulkaku" rebuy="0" win="0" chips="44,033" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="Merseyboy"/>
+   <action type="15" sum="200" no="2" player="tropeiro123"/>
+   <action type="15" sum="200" no="3" player="Hulkaku"/>
+   <action type="15" sum="200" no="4" player="fishdouble86"/>
+   <action type="15" sum="200" no="5" player="slami"/>
+   <action type="15" sum="200" no="6" player="Bowrot"/>
+   <action type="15" sum="200" no="7" player="gaui"/>
+   <action type="15" sum="200" no="8" player="gustavobeloti"/>
+   <action type="1" sum="700" no="9" player="Merseyboy"/>
+   <action type="2" sum="1,400" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="11" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="2,800" no="12" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="3" sum="2,800" no="13" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="14" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="15" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="16" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="17" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D10 C10</cards>
+   <action type="23" sum="18,460" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="fishdouble86"/>
+   <action type="0" sum="0" no="20" player="slami"/>
+  </round>
+ </game>
+ <game gamecode="10567193720">
+  <general>
+   <startdate>2024-02-16 13:17:36</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="fishdouble86" rebuy="0" win="0" chips="91,098" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="200" name="slami" rebuy="0" win="0" chips="38,102" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="Bowrot" rebuy="0" win="0" chips="57,395" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="200" name="gaui" rebuy="0" win="0" chips="68,102" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="35,581" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="200" name="Merseyboy" rebuy="0" win="0" chips="25,860" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="26,360" name="tropeiro123" rebuy="0" win="53,920" chips="26,360" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="43,833" name="Hulkaku" rebuy="0" win="0" chips="43,833" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="tropeiro123"/>
+   <action type="15" sum="200" no="2" player="Hulkaku"/>
+   <action type="15" sum="200" no="3" player="fishdouble86"/>
+   <action type="15" sum="200" no="4" player="slami"/>
+   <action type="15" sum="200" no="5" player="Bowrot"/>
+   <action type="15" sum="200" no="6" player="gaui"/>
+   <action type="15" sum="200" no="7" player="gustavobeloti"/>
+   <action type="15" sum="200" no="8" player="Merseyboy"/>
+   <action type="1" sum="700" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,400" no="10" player="Hulkaku"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="11" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="12" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="13" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X S7</cards>
+   <action type="0" sum="0" no="14" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="15" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="16" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">CQ HQ</cards>
+   <action type="3" sum="700" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">S9 S6</cards>
+   <action type="23" sum="4,200" no="18" player="Hulkaku"/>
+   <action type="3" sum="2,800" no="19" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 S2 SJ</cards>
+   <action type="4" sum="0" no="20" player="tropeiro123"/>
+   <action type="5" sum="3,300" no="21" player="Hulkaku"/>
+   <action type="23" sum="6,720" no="22" player="tropeiro123"/>
+   <action type="23" sum="39,433" no="23" player="Hulkaku"/>
+   <action type="7" sum="15,240" no="24" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10567193734">
+  <general>
+   <startdate>2024-02-16 13:18:55</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="10,100" name="fishdouble86" rebuy="0" win="25,600" chips="90,898" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="10,100" name="slami" rebuy="0" win="0" chips="37,902" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="Bowrot" rebuy="0" win="0" chips="57,195" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="3,700" name="gaui" rebuy="0" win="0" chips="67,902" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="35,381" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Merseyboy" rebuy="0" win="0" chips="25,660" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="200" name="tropeiro123" rebuy="0" win="0" chips="53,920" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="900" name="Hulkaku" rebuy="0" win="0" chips="17,473" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="Hulkaku"/>
+   <action type="15" sum="200" no="2" player="fishdouble86"/>
+   <action type="15" sum="200" no="3" player="slami"/>
+   <action type="15" sum="200" no="4" player="Bowrot"/>
+   <action type="15" sum="200" no="5" player="gaui"/>
+   <action type="15" sum="200" no="6" player="gustavobeloti"/>
+   <action type="15" sum="200" no="7" player="Merseyboy"/>
+   <action type="15" sum="200" no="8" player="tropeiro123"/>
+   <action type="1" sum="700" no="9" player="Hulkaku"/>
+   <action type="2" sum="1,400" no="10" player="fishdouble86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="slami">HK SA</cards>
+   <action type="23" sum="3,500" no="11" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="12" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="3,500" no="13" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="14" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="15" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">H6 C5</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="17" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">H5 H4</cards>
+   <action type="3" sum="2,100" no="18" player="fishdouble86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ H10 D5</cards>
+   <action type="4" sum="0" no="19" player="fishdouble86"/>
+   <action type="4" sum="0" no="20" player="slami"/>
+   <action type="4" sum="0" no="21" player="gaui"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action type="4" sum="0" no="22" player="fishdouble86"/>
+   <action type="4" sum="0" no="23" player="slami"/>
+   <action type="4" sum="0" no="24" player="gaui"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action type="4" sum="0" no="25" player="fishdouble86"/>
+   <action type="5" sum="6,400" no="26" player="slami"/>
+   <action type="0" sum="0" no="27" player="gaui"/>
+   <action type="3" sum="6,400" no="28" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567193744">
+  <general>
+   <startdate>2024-02-16 13:19:39</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="900" name="fishdouble86" rebuy="0" win="0" chips="106,398" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="27,802" name="slami" rebuy="0" win="10,700" chips="27,802" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="Bowrot" rebuy="0" win="0" chips="56,995" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="4,400" name="gaui" rebuy="0" win="0" chips="64,202" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="35,181" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Merseyboy" rebuy="0" win="0" chips="25,460" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="53,720" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="1" bet="200" name="Hulkaku" rebuy="0" win="0" chips="16,573" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="fishdouble86"/>
+   <action type="15" sum="200" no="2" player="slami"/>
+   <action type="15" sum="200" no="3" player="Bowrot"/>
+   <action type="15" sum="200" no="4" player="gaui"/>
+   <action type="15" sum="200" no="5" player="gustavobeloti"/>
+   <action type="15" sum="200" no="6" player="Merseyboy"/>
+   <action type="15" sum="200" no="7" player="tropeiro123"/>
+   <action type="15" sum="200" no="8" player="Hulkaku"/>
+   <action type="1" sum="700" no="9" player="fishdouble86"/>
+   <action type="2" sum="1,400" no="10" player="slami"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="11" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="1,400" no="12" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="13" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="14" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C5 DJ</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="16" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="17" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="4" sum="0" no="18" player="slami"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S2 D3</cards>
+   <action type="4" sum="0" no="19" player="slami"/>
+   <action type="5" sum="2,800" no="20" player="gaui"/>
+   <action type="3" sum="2,800" no="21" player="slami"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action type="5" sum="23,402" no="22" player="slami"/>
+   <action type="0" sum="0" no="23" player="gaui"/>
+  </round>
+ </game>
+ <game gamecode="10567193750">
+  <general>
+   <startdate>2024-02-16 13:20:14</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="1" bet="200" name="fishdouble86" rebuy="0" win="0" chips="105,498" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="900" name="slami" rebuy="0" win="0" chips="34,102" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,600" name="Bowrot" rebuy="0" win="0" chips="56,795" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="6,300" name="gaui" rebuy="0" win="5,100" chips="59,802" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="34,981" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Merseyboy" rebuy="0" win="0" chips="25,260" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="53,520" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="200" name="Hulkaku" rebuy="0" win="0" chips="16,373" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="slami"/>
+   <action type="15" sum="200" no="2" player="Bowrot"/>
+   <action type="15" sum="200" no="3" player="gaui"/>
+   <action type="15" sum="200" no="4" player="gustavobeloti"/>
+   <action type="15" sum="200" no="5" player="Merseyboy"/>
+   <action type="15" sum="200" no="6" player="tropeiro123"/>
+   <action type="15" sum="200" no="7" player="Hulkaku"/>
+   <action type="15" sum="200" no="8" player="fishdouble86"/>
+   <action type="1" sum="700" no="9" player="slami"/>
+   <action type="2" sum="1,400" no="10" player="Bowrot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="23" sum="6,300" no="11" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="12" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="13" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C7 HK</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="15" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="16" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="17" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="18" player="Bowrot"/>
+  </round>
+ </game>
+ <game gamecode="10567193756">
+  <general>
+   <startdate>2024-02-16 13:20:45</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="fishdouble86" rebuy="0" win="0" chips="105,298" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="200" name="slami" rebuy="0" win="0" chips="33,202" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="900" name="Bowrot" rebuy="0" win="0" chips="55,195" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="1,600" name="gaui" rebuy="0" win="3,000" chips="63,302" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="gustavobeloti" rebuy="0" win="0" chips="34,781" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Merseyboy" rebuy="0" win="0" chips="25,060" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="53,320" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="200" name="Hulkaku" rebuy="0" win="0" chips="16,173" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="Bowrot"/>
+   <action type="15" sum="200" no="2" player="gaui"/>
+   <action type="15" sum="200" no="3" player="gustavobeloti"/>
+   <action type="15" sum="200" no="4" player="Merseyboy"/>
+   <action type="15" sum="200" no="5" player="tropeiro123"/>
+   <action type="15" sum="200" no="6" player="Hulkaku"/>
+   <action type="15" sum="200" no="7" player="fishdouble86"/>
+   <action type="15" sum="200" no="8" player="slami"/>
+   <action type="1" sum="700" no="9" player="Bowrot"/>
+   <action type="2" sum="1,400" no="10" player="gaui"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gaui">X X</cards>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="11" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="12" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D3 C4</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="14" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="15" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="16" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="17" player="Bowrot"/>
+  </round>
+ </game>
+ <game gamecode="10567193757">
+  <general>
+   <startdate>2024-02-16 13:21:02</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="fishdouble86" rebuy="0" win="0" chips="105,098" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="200" name="slami" rebuy="0" win="0" chips="33,002" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="25,800" name="Bowrot" rebuy="0" win="0" chips="54,295" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="25,800" name="gaui" rebuy="0" win="55,600" chips="65,402" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="3,000" name="gustavobeloti" rebuy="0" win="0" chips="34,581" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Merseyboy" rebuy="0" win="0" chips="24,860" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="53,120" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="200" name="Hulkaku" rebuy="0" win="0" chips="15,973" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="gaui"/>
+   <action type="15" sum="200" no="2" player="gustavobeloti"/>
+   <action type="15" sum="200" no="3" player="Merseyboy"/>
+   <action type="15" sum="200" no="4" player="tropeiro123"/>
+   <action type="15" sum="200" no="5" player="Hulkaku"/>
+   <action type="15" sum="200" no="6" player="fishdouble86"/>
+   <action type="15" sum="200" no="7" player="slami"/>
+   <action type="15" sum="200" no="8" player="Bowrot"/>
+   <action type="1" sum="700" no="9" player="gaui"/>
+   <action type="2" sum="1,400" no="10" player="gustavobeloti"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">SQ S3</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="13" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="15" player="slami"/>
+   <cards type="Pocket" player="Bowrot">S10 C10</cards>
+   <action type="23" sum="2,800" no="16" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">HA SA</cards>
+   <action type="3" sum="2,100" no="17" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="3" sum="1,400" no="18" player="gustavobeloti"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 H5 HJ</cards>
+   <action type="4" sum="0" no="19" player="gaui"/>
+   <action type="4" sum="0" no="20" player="gustavobeloti"/>
+   <action type="5" sum="3,300" no="21" player="Bowrot"/>
+   <action type="3" sum="3,300" no="22" player="gaui"/>
+   <action type="0" sum="0" no="23" player="gustavobeloti"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action type="5" sum="5,600" no="24" player="gaui"/>
+   <action type="3" sum="5,600" no="25" player="Bowrot"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action type="5" sum="13,900" no="26" player="gaui"/>
+   <action type="3" sum="13,900" no="27" player="Bowrot"/>
+  </round>
+ </game>
+ <game gamecode="10567193769">
+  <general>
+   <startdate>2024-02-16 13:22:40</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="fishdouble86" rebuy="0" win="0" chips="104,898" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="200" name="slami" rebuy="0" win="0" chips="32,802" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="4,975" name="Bowrot" rebuy="0" win="7,900" chips="28,495" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="200" name="gaui" rebuy="0" win="0" chips="95,202" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="900" name="gustavobeloti" rebuy="0" win="0" chips="31,581" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="3,000" name="Merseyboy" rebuy="0" win="0" chips="24,660" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="52,920" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="200" name="Hulkaku" rebuy="0" win="0" chips="15,773" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="gustavobeloti"/>
+   <action type="15" sum="200" no="2" player="Merseyboy"/>
+   <action type="15" sum="200" no="3" player="tropeiro123"/>
+   <action type="15" sum="200" no="4" player="Hulkaku"/>
+   <action type="15" sum="200" no="5" player="fishdouble86"/>
+   <action type="15" sum="200" no="6" player="slami"/>
+   <action type="15" sum="200" no="7" player="Bowrot"/>
+   <action type="15" sum="200" no="8" player="gaui"/>
+   <action type="1" sum="700" no="9" player="gustavobeloti"/>
+   <action type="2" sum="1,400" no="10" player="Merseyboy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C9 S4</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="12" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="14" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="23" sum="2,800" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="16" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="17" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="3" sum="1,400" no="18" player="Merseyboy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA S7 H2</cards>
+   <action type="4" sum="0" no="19" player="Merseyboy"/>
+   <action type="5" sum="1,975" no="20" player="Bowrot"/>
+   <action type="0" sum="0" no="21" player="Merseyboy"/>
+  </round>
+ </game>
+ <game gamecode="10567193776">
+  <general>
+   <startdate>2024-02-16 13:23:36</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="250" name="fishdouble86" rebuy="0" win="0" chips="104,698" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="32,602" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="250" name="Bowrot" rebuy="0" win="0" chips="33,395" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="1,850" name="gaui" rebuy="0" win="0" chips="95,002" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="30,681" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="21,410" name="Merseyboy" rebuy="0" win="6,800" chips="21,660" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,850" name="tropeiro123" rebuy="0" win="0" chips="52,720" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="250" name="Hulkaku" rebuy="0" win="0" chips="15,573" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="Merseyboy"/>
+   <action type="15" sum="250" no="2" player="tropeiro123"/>
+   <action type="15" sum="250" no="3" player="Hulkaku"/>
+   <action type="15" sum="250" no="4" player="fishdouble86"/>
+   <action type="15" sum="250" no="5" player="slami"/>
+   <action type="15" sum="250" no="6" player="Bowrot"/>
+   <action type="15" sum="250" no="7" player="gaui"/>
+   <action type="15" sum="250" no="8" player="gustavobeloti"/>
+   <action type="1" sum="800" no="9" player="Merseyboy"/>
+   <action type="2" sum="1,600" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="11" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="12" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="13" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="14" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="1,600" no="15" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="16" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="23" sum="21,410" no="17" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">HQ C8</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="gaui"/>
+  </round>
+ </game>
+ <game gamecode="10567193781">
+  <general>
+   <startdate>2024-02-16 13:24:10</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="104,448" name="fishdouble86" rebuy="0" win="24,496" chips="104,448" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="32,352" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="250" name="Bowrot" rebuy="0" win="0" chips="33,145" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="250" name="gaui" rebuy="0" win="0" chips="93,152" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="10,298" name="gustavobeloti" rebuy="0" win="0" chips="30,431" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="250" name="Merseyboy" rebuy="0" win="0" chips="26,610" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,050" name="tropeiro123" rebuy="0" win="0" chips="50,870" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="1,850" name="Hulkaku" rebuy="0" win="0" chips="15,323" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="tropeiro123"/>
+   <action type="15" sum="250" no="2" player="Hulkaku"/>
+   <action type="15" sum="250" no="3" player="fishdouble86"/>
+   <action type="15" sum="250" no="4" player="slami"/>
+   <action type="15" sum="250" no="5" player="Bowrot"/>
+   <action type="15" sum="250" no="6" player="gaui"/>
+   <action type="15" sum="250" no="7" player="gustavobeloti"/>
+   <action type="15" sum="250" no="8" player="Merseyboy"/>
+   <action type="1" sum="800" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,600" no="10" player="Hulkaku"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="3,200" no="11" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="12" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="13" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="14" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="8,000" no="15" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="16" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">CA HQ</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">X X</cards>
+   <action type="0" sum="0" no="18" player="Hulkaku"/>
+   <action type="3" sum="4,800" no="19" player="fishdouble86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H2 HJ</cards>
+   <action type="4" sum="0" no="20" player="fishdouble86"/>
+   <action type="5" sum="2,048" no="21" player="gustavobeloti"/>
+   <action type="3" sum="2,048" no="22" player="fishdouble86"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action type="4" sum="0" no="23" player="fishdouble86"/>
+   <action type="4" sum="0" no="24" player="gustavobeloti"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action type="5" sum="94,150" no="25" player="fishdouble86"/>
+   <action type="0" sum="0" no="26" player="gustavobeloti"/>
+  </round>
+ </game>
+ <game gamecode="10567193791">
+  <general>
+   <startdate>2024-02-16 13:25:20</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,850" name="fishdouble86" rebuy="0" win="0" chips="118,646" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="32,102" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="250" name="Bowrot" rebuy="0" win="0" chips="32,895" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="26,360" name="gaui" rebuy="0" win="0" chips="92,902" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="20,133" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="26,110" name="Merseyboy" rebuy="0" win="69,043" chips="26,360" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="250" name="tropeiro123" rebuy="0" win="0" chips="49,820" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="13,223" name="Hulkaku" rebuy="0" win="0" chips="13,473" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="Hulkaku"/>
+   <action type="15" sum="250" no="2" player="fishdouble86"/>
+   <action type="15" sum="250" no="3" player="slami"/>
+   <action type="15" sum="250" no="4" player="Bowrot"/>
+   <action type="15" sum="250" no="5" player="gaui"/>
+   <action type="15" sum="250" no="6" player="gustavobeloti"/>
+   <action type="15" sum="250" no="7" player="Merseyboy"/>
+   <action type="15" sum="250" no="8" player="tropeiro123"/>
+   <action type="1" sum="800" no="9" player="Hulkaku"/>
+   <action type="2" sum="1,600" no="10" player="fishdouble86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="11" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="12" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">D9 D10</cards>
+   <action type="3" sum="1,600" no="13" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="14" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">DJ CJ</cards>
+   <action type="23" sum="4,000" no="15" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C7 C10</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Hulkaku">C4 H4</cards>
+   <action type="23" sum="13,223" no="17" player="Hulkaku"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="18" player="fishdouble86"/>
+   <action type="3" sum="11,623" no="19" player="gaui"/>
+   <action type="23" sum="26,110" no="20" player="Merseyboy"/>
+   <action type="3" sum="12,887" no="21" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H9 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+ <game gamecode="10567213180">
+  <general>
+   <startdate>2024-02-16 13:26:41</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,050" name="fishdouble86" rebuy="0" win="0" chips="116,796" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,850" name="slami" rebuy="0" win="0" chips="31,852" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="3,200" name="Bowrot" rebuy="0" win="5,750" chips="32,645" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="250" name="gaui" rebuy="0" win="0" chips="66,542" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="19,883" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="250" name="Merseyboy" rebuy="0" win="0" chips="69,043" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="250" name="tropeiro123" rebuy="0" win="0" chips="49,570" addon="0" reg_code="7951714734"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="fishdouble86"/>
+   <action type="15" sum="250" no="2" player="slami"/>
+   <action type="15" sum="250" no="3" player="Bowrot"/>
+   <action type="15" sum="250" no="4" player="gaui"/>
+   <action type="15" sum="250" no="5" player="gustavobeloti"/>
+   <action type="15" sum="250" no="6" player="Merseyboy"/>
+   <action type="15" sum="250" no="7" player="tropeiro123"/>
+   <action type="1" sum="800" no="8" player="fishdouble86"/>
+   <action type="2" sum="1,600" no="9" player="slami"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="23" sum="3,200" no="10" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="11" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="12" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="13" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C2 H9</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="15" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="16" player="slami"/>
+  </round>
+ </game>
+ <game gamecode="10567213182">
+  <general>
+   <startdate>2024-02-16 13:26:57</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="1" bet="10,325" name="fishdouble86" rebuy="0" win="0" chips="115,746" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,050" name="slami" rebuy="0" win="0" chips="30,002" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,850" name="Bowrot" rebuy="0" win="0" chips="36,545" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="16,725" name="gaui" rebuy="0" win="24,300" chips="66,292" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="19,633" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="250" name="Merseyboy" rebuy="0" win="0" chips="68,793" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="250" name="tropeiro123" rebuy="0" win="0" chips="49,320" addon="0" reg_code="7951714734"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="slami"/>
+   <action type="15" sum="250" no="2" player="Bowrot"/>
+   <action type="15" sum="250" no="3" player="gaui"/>
+   <action type="15" sum="250" no="4" player="gustavobeloti"/>
+   <action type="15" sum="250" no="5" player="Merseyboy"/>
+   <action type="15" sum="250" no="6" player="tropeiro123"/>
+   <action type="15" sum="250" no="7" player="fishdouble86"/>
+   <action type="1" sum="800" no="8" player="slami"/>
+   <action type="2" sum="1,600" no="9" player="Bowrot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gaui">X S4</cards>
+   <action type="3" sum="1,600" no="10" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="11" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="12" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">H7 S5</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="4,000" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="15" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="16" player="Bowrot"/>
+   <action type="3" sum="2,400" no="17" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 C4 HA</cards>
+   <action type="4" sum="0" no="18" player="gaui"/>
+   <action type="5" sum="6,075" no="19" player="fishdouble86"/>
+   <action type="3" sum="6,075" no="20" player="gaui"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action type="4" sum="0" no="21" player="gaui"/>
+   <action type="4" sum="0" no="22" player="fishdouble86"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action type="5" sum="6,400" no="23" player="gaui"/>
+   <action type="0" sum="0" no="24" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567213189">
+  <general>
+   <startdate>2024-02-16 13:27:39</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="250" name="fishdouble86" rebuy="0" win="0" chips="105,421" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="250" name="slami" rebuy="0" win="0" chips="28,952" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,050" name="Bowrot" rebuy="0" win="0" chips="34,695" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="8,000" name="gaui" rebuy="0" win="8,950" chips="80,267" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="3,450" name="gustavobeloti" rebuy="0" win="0" chips="19,383" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="250" name="Merseyboy" rebuy="0" win="0" chips="68,543" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="250" name="tropeiro123" rebuy="0" win="0" chips="49,070" addon="0" reg_code="7951714734"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="Bowrot"/>
+   <action type="15" sum="250" no="2" player="gaui"/>
+   <action type="15" sum="250" no="3" player="gustavobeloti"/>
+   <action type="15" sum="250" no="4" player="Merseyboy"/>
+   <action type="15" sum="250" no="5" player="tropeiro123"/>
+   <action type="15" sum="250" no="6" player="fishdouble86"/>
+   <action type="15" sum="250" no="7" player="slami"/>
+   <action type="1" sum="800" no="8" player="Bowrot"/>
+   <action type="2" sum="1,600" no="9" player="gaui"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="3,200" no="10" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">DA D6</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="14" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="23" sum="8,000" no="16" player="gaui"/>
+   <action type="0" sum="0" no="17" player="gustavobeloti"/>
+  </round>
+ </game>
+ <game gamecode="10567213193">
+  <general>
+   <startdate>2024-02-16 13:28:11</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="250" name="fishdouble86" rebuy="0" win="0" chips="105,171" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="28,702" name="slami" rebuy="0" win="11,350" chips="28,702" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="250" name="Bowrot" rebuy="0" win="0" chips="33,645" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="4,250" name="gaui" rebuy="0" win="0" chips="85,767" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,850" name="gustavobeloti" rebuy="0" win="0" chips="15,933" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="250" name="Merseyboy" rebuy="0" win="0" chips="68,293" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="250" name="tropeiro123" rebuy="0" win="0" chips="48,820" addon="0" reg_code="7951714734"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="gaui"/>
+   <action type="15" sum="250" no="2" player="gustavobeloti"/>
+   <action type="15" sum="250" no="3" player="Merseyboy"/>
+   <action type="15" sum="250" no="4" player="tropeiro123"/>
+   <action type="15" sum="250" no="5" player="fishdouble86"/>
+   <action type="15" sum="250" no="6" player="slami"/>
+   <action type="15" sum="250" no="7" player="Bowrot"/>
+   <action type="1" sum="800" no="8" player="gaui"/>
+   <action type="2" sum="1,600" no="9" player="gustavobeloti"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="10" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">SK S2</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="12" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="23" sum="4,000" no="13" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="14" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="3,200" no="15" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="16" player="gustavobeloti"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK D3 HJ</cards>
+   <action type="4" sum="0" no="17" player="gaui"/>
+   <action type="5" sum="24,452" no="18" player="slami"/>
+   <action type="0" sum="0" no="19" player="gaui"/>
+  </round>
+ </game>
+ <game gamecode="10567213198">
+  <general>
+   <startdate>2024-02-16 13:28:42</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="11,650" name="fishdouble86" rebuy="0" win="14,800" chips="104,921" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="35,802" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="250" name="Bowrot" rebuy="0" win="0" chips="33,395" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="4,250" name="gaui" rebuy="0" win="0" chips="81,517" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,050" name="gustavobeloti" rebuy="0" win="0" chips="14,083" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="4,250" name="Merseyboy" rebuy="0" win="0" chips="68,043" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="250" name="tropeiro123" rebuy="0" win="0" chips="48,570" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="250" name="TonyParker" rebuy="0" win="0" chips="30,000" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="gustavobeloti"/>
+   <action type="15" sum="250" no="2" player="Merseyboy"/>
+   <action type="15" sum="250" no="3" player="tropeiro123"/>
+   <action type="15" sum="250" no="4" player="TonyParker"/>
+   <action type="15" sum="250" no="5" player="fishdouble86"/>
+   <action type="15" sum="250" no="6" player="slami"/>
+   <action type="15" sum="250" no="7" player="Bowrot"/>
+   <action type="15" sum="250" no="8" player="gaui"/>
+   <action type="1" sum="800" no="9" player="gustavobeloti"/>
+   <action type="2" sum="1,600" no="10" player="Merseyboy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S3 C5</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="12" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="4,000" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="14" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X D3</cards>
+   <action type="3" sum="4,000" no="16" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="17" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="3" sum="2,400" no="18" player="Merseyboy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 H10 C8</cards>
+   <action type="4" sum="0" no="19" player="Merseyboy"/>
+   <action type="5" sum="7,400" no="20" player="fishdouble86"/>
+   <action type="0" sum="0" no="21" player="gaui"/>
+   <action type="0" sum="0" no="22" player="Merseyboy"/>
+  </round>
+ </game>
+ <game gamecode="10567213203">
+  <general>
+   <startdate>2024-02-16 13:29:27</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="250" name="fishdouble86" rebuy="0" win="0" chips="115,471" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="35,552" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="250" name="Bowrot" rebuy="0" win="0" chips="33,145" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="4,800" name="gaui" rebuy="0" win="6,000" chips="77,267" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="13,033" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,050" name="Merseyboy" rebuy="0" win="0" chips="63,793" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,850" name="tropeiro123" rebuy="0" win="0" chips="48,320" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="250" name="TonyParker" rebuy="0" win="0" chips="29,750" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="Merseyboy"/>
+   <action type="15" sum="250" no="2" player="tropeiro123"/>
+   <action type="15" sum="250" no="3" player="TonyParker"/>
+   <action type="15" sum="250" no="4" player="fishdouble86"/>
+   <action type="15" sum="250" no="5" player="slami"/>
+   <action type="15" sum="250" no="6" player="Bowrot"/>
+   <action type="15" sum="250" no="7" player="gaui"/>
+   <action type="15" sum="250" no="8" player="gustavobeloti"/>
+   <action type="1" sum="800" no="9" player="Merseyboy"/>
+   <action type="2" sum="1,600" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="11" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="12" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="13" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="14" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="23" sum="4,800" no="15" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="16" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="17" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">H10 S8</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567213205">
+  <general>
+   <startdate>2024-02-16 13:29:59</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player seat="1" dealer="0" bet="250" name="fishdouble86" rebuy="0" win="0" chips="115,221" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="250" name="slami" rebuy="0" win="0" chips="35,302" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="8,250" name="Bowrot" rebuy="0" win="20,400" chips="32,895" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="8,250" name="gaui" rebuy="0" win="0" chips="81,417" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="250" name="gustavobeloti" rebuy="0" win="0" chips="12,783" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="250" name="Merseyboy" rebuy="0" win="0" chips="62,743" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,050" name="tropeiro123" rebuy="0" win="0" chips="46,470" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="1,850" name="TonyParker" rebuy="0" win="0" chips="29,500" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="tropeiro123"/>
+   <action type="15" sum="250" no="2" player="TonyParker"/>
+   <action type="15" sum="250" no="3" player="fishdouble86"/>
+   <action type="15" sum="250" no="4" player="slami"/>
+   <action type="15" sum="250" no="5" player="Bowrot"/>
+   <action type="15" sum="250" no="6" player="gaui"/>
+   <action type="15" sum="250" no="7" player="gustavobeloti"/>
+   <action type="15" sum="250" no="8" player="Merseyboy"/>
+   <action type="1" sum="800" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,600" no="10" player="TonyParker"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="11" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="12" player="slami"/>
+   <cards type="Pocket" player="Bowrot">SJ S9</cards>
+   <action type="23" sum="3,200" no="13" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">S6 C10</cards>
+   <action type="3" sum="3,200" no="14" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="15" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="16" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D8 D5</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="18" player="TonyParker"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 D9 SA</cards>
+   <action type="4" sum="0" no="19" player="Bowrot"/>
+   <action type="4" sum="0" no="20" player="gaui"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action type="4" sum="0" no="21" player="Bowrot"/>
+   <action type="5" sum="4,800" no="22" player="gaui"/>
+   <action type="3" sum="4,800" no="23" player="Bowrot"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action type="4" sum="0" no="24" player="Bowrot"/>
+   <action type="4" sum="0" no="25" player="gaui"/>
+  </round>
+ </game>
+ <game gamecode="10567213215">
+  <general>
+   <startdate>2024-02-16 13:31:46</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,075" name="fishdouble86" rebuy="0" win="0" chips="114,971" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="275" name="slami" rebuy="0" win="0" chips="35,052" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="11,075" name="Bowrot" rebuy="0" win="0" chips="45,045" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="45,275" name="gaui" rebuy="0" win="26,500" chips="73,167" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="12,533" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="275" name="Merseyboy" rebuy="0" win="0" chips="62,493" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="275" name="tropeiro123" rebuy="0" win="0" chips="45,420" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="1,175" name="TonyParker" rebuy="0" win="0" chips="27,650" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="TonyParker"/>
+   <action type="15" sum="275" no="2" player="fishdouble86"/>
+   <action type="15" sum="275" no="3" player="slami"/>
+   <action type="15" sum="275" no="4" player="Bowrot"/>
+   <action type="15" sum="275" no="5" player="gaui"/>
+   <action type="15" sum="275" no="6" player="gustavobeloti"/>
+   <action type="15" sum="275" no="7" player="Merseyboy"/>
+   <action type="15" sum="275" no="8" player="tropeiro123"/>
+   <action type="1" sum="900" no="9" player="TonyParker"/>
+   <action type="2" sum="1,800" no="10" player="fishdouble86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="11" player="slami"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="23" sum="3,600" no="12" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="3,600" no="13" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="14" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="15" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C3 C6</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="17" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="18" player="fishdouble86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 C9 C2</cards>
+   <action type="4" sum="0" no="19" player="Bowrot"/>
+   <action type="5" sum="7,200" no="20" player="gaui"/>
+   <action type="3" sum="7,200" no="21" player="Bowrot"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action type="4" sum="0" no="22" player="Bowrot"/>
+   <action type="5" sum="34,200" no="23" player="gaui"/>
+   <action type="0" sum="0" no="24" player="Bowrot"/>
+  </round>
+ </game>
+ <game gamecode="10567213222">
+  <general>
+   <startdate>2024-02-16 13:32:51</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,175" name="fishdouble86" rebuy="0" win="0" chips="112,896" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="2,075" name="slami" rebuy="0" win="0" chips="34,777" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="275" name="Bowrot" rebuy="0" win="0" chips="33,970" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="12,258" name="gaui" rebuy="0" win="0" chips="88,592" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="11,983" name="gustavobeloti" rebuy="0" win="28,866" chips="12,258" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="275" name="Merseyboy" rebuy="0" win="0" chips="62,218" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="45,145" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="1" bet="275" name="TonyParker" rebuy="0" win="0" chips="26,475" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="fishdouble86"/>
+   <action type="15" sum="275" no="2" player="slami"/>
+   <action type="15" sum="275" no="3" player="Bowrot"/>
+   <action type="15" sum="275" no="4" player="gaui"/>
+   <action type="15" sum="275" no="5" player="gustavobeloti"/>
+   <action type="15" sum="275" no="6" player="Merseyboy"/>
+   <action type="15" sum="275" no="7" player="tropeiro123"/>
+   <action type="15" sum="275" no="8" player="TonyParker"/>
+   <action type="1" sum="900" no="9" player="fishdouble86"/>
+   <action type="2" sum="1,800" no="10" player="slami"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="11" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">S6 S4</cards>
+   <action type="3" sum="1,800" no="12" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">DJ CK</cards>
+   <action type="23" sum="11,983" no="13" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="14" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">S9 S5</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="16" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="17" player="fishdouble86"/>
+   <cards type="Pocket" player="slami">X X</cards>
+   <action type="0" sum="0" no="18" player="slami"/>
+   <action type="3" sum="10,183" no="19" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H3 HQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10567213227">
+  <general>
+   <startdate>2024-02-16 13:33:35</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="1" bet="8,437" name="fishdouble86" rebuy="0" win="9,125" chips="111,721" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="3,875" name="Bowrot" rebuy="0" win="0" chips="33,695" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="275" name="gaui" rebuy="0" win="0" chips="76,334" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="28,866" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="275" name="Merseyboy" rebuy="0" win="0" chips="61,943" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="44,870" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="275" name="TonyParker" rebuy="0" win="0" chips="26,200" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="Bowrot"/>
+   <action type="15" sum="275" no="2" player="gaui"/>
+   <action type="15" sum="275" no="3" player="gustavobeloti"/>
+   <action type="15" sum="275" no="4" player="Merseyboy"/>
+   <action type="15" sum="275" no="5" player="tropeiro123"/>
+   <action type="15" sum="275" no="6" player="TonyParker"/>
+   <action type="15" sum="275" no="7" player="fishdouble86"/>
+   <action type="2" sum="1,800" no="8" player="Bowrot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gaui">H2 X</cards>
+   <action type="0" sum="0" no="9" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="10" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">H10 S5</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="13" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="3,600" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="3" sum="1,800" no="15" player="Bowrot"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA C5 S2</cards>
+   <action type="4" sum="0" no="16" player="Bowrot"/>
+   <action type="5" sum="4,562" no="17" player="fishdouble86"/>
+   <action type="0" sum="0" no="18" player="Bowrot"/>
+  </round>
+ </game>
+ <game gamecode="10567213234">
+  <general>
+   <startdate>2024-02-16 13:34:13</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="275" name="fishdouble86" rebuy="0" win="0" chips="116,971" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,175" name="Bowrot" rebuy="0" win="0" chips="29,820" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="20,515" name="gaui" rebuy="0" win="43,305" chips="76,059" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="28,591" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="20,515" name="Merseyboy" rebuy="0" win="0" chips="61,668" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="44,595" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="275" name="TonyParker" rebuy="0" win="0" chips="25,925" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="Bowrot"/>
+   <action type="15" sum="275" no="2" player="gaui"/>
+   <action type="15" sum="275" no="3" player="gustavobeloti"/>
+   <action type="15" sum="275" no="4" player="Merseyboy"/>
+   <action type="15" sum="275" no="5" player="tropeiro123"/>
+   <action type="15" sum="275" no="6" player="TonyParker"/>
+   <action type="15" sum="275" no="7" player="fishdouble86"/>
+   <action type="1" sum="900" no="8" player="Bowrot"/>
+   <action type="2" sum="1,800" no="9" player="gaui"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="10" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">S10 HK</cards>
+   <action type="23" sum="3,600" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">SJ S4</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="13" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">C5 S6</cards>
+   <action type="3" sum="1,800" no="16" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H2 S3</cards>
+   <action type="4" sum="0" no="17" player="gaui"/>
+   <action type="5" sum="2,205" no="18" player="Merseyboy"/>
+   <action type="3" sum="2,205" no="19" player="gaui"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action type="4" sum="0" no="20" player="gaui"/>
+   <action type="4" sum="0" no="21" player="Merseyboy"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action type="5" sum="14,435" no="22" player="gaui"/>
+   <action type="3" sum="14,435" no="23" player="Merseyboy"/>
+  </round>
+ </game>
+ <game gamecode="10567213241">
+  <general>
+   <startdate>2024-02-16 13:35:25</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="275" name="fishdouble86" rebuy="0" win="0" chips="116,696" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="275" name="Bowrot" rebuy="0" win="0" chips="28,645" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="28,316" name="gaui" rebuy="0" win="0" chips="98,849" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="28,041" name="gustavobeloti" rebuy="0" win="61,607" chips="28,316" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="3,875" name="Merseyboy" rebuy="0" win="0" chips="41,153" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="44,320" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="275" name="TonyParker" rebuy="0" win="0" chips="25,650" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="gaui"/>
+   <action type="15" sum="275" no="2" player="gustavobeloti"/>
+   <action type="15" sum="275" no="3" player="Merseyboy"/>
+   <action type="15" sum="275" no="4" player="tropeiro123"/>
+   <action type="15" sum="275" no="5" player="TonyParker"/>
+   <action type="15" sum="275" no="6" player="fishdouble86"/>
+   <action type="15" sum="275" no="7" player="Bowrot"/>
+   <action type="1" sum="900" no="8" player="gaui"/>
+   <action type="2" sum="1,800" no="9" player="gustavobeloti"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="23" sum="3,600" no="10" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">S9 HQ</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="12" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="14" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">DJ H10</cards>
+   <action type="23" sum="5,400" no="15" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">SK DK</cards>
+   <action type="23" sum="28,041" no="16" player="gustavobeloti"/>
+   <action type="0" sum="0" no="17" player="Merseyboy"/>
+   <action type="3" sum="22,641" no="18" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 SQ D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+ <game gamecode="10567213249">
+  <general>
+   <startdate>2024-02-16 13:36:21</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="3,875" name="fishdouble86" rebuy="0" win="0" chips="116,421" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="275" name="Bowrot" rebuy="0" win="0" chips="28,370" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="9,275" name="gaui" rebuy="0" win="11,825" chips="70,533" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,175" name="gustavobeloti" rebuy="0" win="0" chips="61,607" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,075" name="Merseyboy" rebuy="0" win="0" chips="37,278" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="44,045" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="275" name="TonyParker" rebuy="0" win="0" chips="25,375" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="gustavobeloti"/>
+   <action type="15" sum="275" no="2" player="Merseyboy"/>
+   <action type="15" sum="275" no="3" player="tropeiro123"/>
+   <action type="15" sum="275" no="4" player="TonyParker"/>
+   <action type="15" sum="275" no="5" player="fishdouble86"/>
+   <action type="15" sum="275" no="6" player="Bowrot"/>
+   <action type="15" sum="275" no="7" player="gaui"/>
+   <action type="1" sum="900" no="8" player="gustavobeloti"/>
+   <action type="2" sum="1,800" no="9" player="Merseyboy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S8 C6</cards>
+   <action type="0" sum="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="11" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="3,600" no="12" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="13" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="3,600" no="14" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="15" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="16" player="Merseyboy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ DQ H3</cards>
+   <action type="4" sum="0" no="17" player="fishdouble86"/>
+   <action type="5" sum="5,400" no="18" player="gaui"/>
+   <action type="0" sum="0" no="19" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567213252">
+  <general>
+   <startdate>2024-02-16 13:36:45</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="275" name="fishdouble86" rebuy="0" win="0" chips="112,546" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="275" name="Bowrot" rebuy="0" win="0" chips="28,095" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="275" name="gaui" rebuy="0" win="0" chips="78,483" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="60,432" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,175" name="Merseyboy" rebuy="0" win="0" chips="35,203" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="2,075" name="tropeiro123" rebuy="0" win="3,725" chips="43,770" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="275" name="TonyParker" rebuy="0" win="0" chips="25,100" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="Merseyboy"/>
+   <action type="15" sum="275" no="2" player="tropeiro123"/>
+   <action type="15" sum="275" no="3" player="TonyParker"/>
+   <action type="15" sum="275" no="4" player="fishdouble86"/>
+   <action type="15" sum="275" no="5" player="Bowrot"/>
+   <action type="15" sum="275" no="6" player="gaui"/>
+   <action type="15" sum="275" no="7" player="gustavobeloti"/>
+   <action type="1" sum="900" no="8" player="Merseyboy"/>
+   <action type="2" sum="1,800" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H10 H5</cards>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="10" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="11" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="12" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="13" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="14" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="15" player="Merseyboy"/>
+  </round>
+ </game>
+ <game gamecode="10567213256">
+  <general>
+   <startdate>2024-02-16 13:37:15</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="8,887" name="fishdouble86" rebuy="0" win="0" chips="112,271" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="275" name="Bowrot" rebuy="0" win="0" chips="27,820" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="275" name="gaui" rebuy="0" win="0" chips="78,208" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="60,157" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="275" name="Merseyboy" rebuy="0" win="0" chips="34,028" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,175" name="tropeiro123" rebuy="0" win="0" chips="46,320" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="24,825" name="TonyParker" rebuy="0" win="20,049" chips="24,825" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="tropeiro123"/>
+   <action type="15" sum="275" no="2" player="TonyParker"/>
+   <action type="15" sum="275" no="3" player="fishdouble86"/>
+   <action type="15" sum="275" no="4" player="Bowrot"/>
+   <action type="15" sum="275" no="5" player="gaui"/>
+   <action type="15" sum="275" no="6" player="gustavobeloti"/>
+   <action type="15" sum="275" no="7" player="Merseyboy"/>
+   <action type="1" sum="900" no="8" player="tropeiro123"/>
+   <action type="2" sum="1,800" no="9" player="TonyParker"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="3,600" no="10" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="11" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="0" sum="0" no="12" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="13" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="14" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C8 H4</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="3" sum="1,800" no="16" player="TonyParker"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HJ D7</cards>
+   <action type="4" sum="0" no="17" player="TonyParker"/>
+   <action type="5" sum="5,012" no="18" player="fishdouble86"/>
+   <action type="23" sum="20,950" no="19" player="TonyParker"/>
+   <action type="0" sum="0" no="20" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567213262">
+  <general>
+   <startdate>2024-02-16 13:38:04</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,075" name="fishdouble86" rebuy="0" win="0" chips="103,384" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="275" name="Bowrot" rebuy="0" win="0" chips="27,545" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="5,400" name="gaui" rebuy="0" win="6,425" chips="77,933" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="59,882" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="275" name="Merseyboy" rebuy="0" win="0" chips="33,753" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="275" name="tropeiro123" rebuy="0" win="0" chips="45,145" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="1,175" name="TonyParker" rebuy="0" win="0" chips="35,987" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="TonyParker"/>
+   <action type="15" sum="275" no="2" player="fishdouble86"/>
+   <action type="15" sum="275" no="3" player="Bowrot"/>
+   <action type="15" sum="275" no="4" player="gaui"/>
+   <action type="15" sum="275" no="5" player="gustavobeloti"/>
+   <action type="15" sum="275" no="6" player="Merseyboy"/>
+   <action type="15" sum="275" no="7" player="tropeiro123"/>
+   <action type="1" sum="900" no="8" player="TonyParker"/>
+   <action type="2" sum="1,800" no="9" player="fishdouble86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="10" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="23" sum="5,400" no="11" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="12" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="13" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">H7 D9</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="15" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="16" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567213265">
+  <general>
+   <startdate>2024-02-16 13:38:29</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player seat="1" dealer="0" bet="14,675" name="fishdouble86" rebuy="0" win="0" chips="101,309" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,075" name="Bowrot" rebuy="0" win="0" chips="27,270" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="82,283" name="gaui" rebuy="0" win="32,525" chips="82,283" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="275" name="gustavobeloti" rebuy="0" win="0" chips="59,607" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="275" name="Merseyboy" rebuy="0" win="0" chips="33,478" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="275" name="tropeiro123" rebuy="0" win="0" chips="44,870" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="1" bet="275" name="TonyParker" rebuy="0" win="0" chips="34,812" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="fishdouble86"/>
+   <action type="15" sum="275" no="2" player="Bowrot"/>
+   <action type="15" sum="275" no="3" player="gaui"/>
+   <action type="15" sum="275" no="4" player="gustavobeloti"/>
+   <action type="15" sum="275" no="5" player="Merseyboy"/>
+   <action type="15" sum="275" no="6" player="tropeiro123"/>
+   <action type="15" sum="275" no="7" player="TonyParker"/>
+   <action type="1" sum="900" no="8" player="fishdouble86"/>
+   <action type="2" sum="1,800" no="9" player="Bowrot"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="1,800" no="10" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="11" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="12" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D2 H6</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="14" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="3" sum="900" no="15" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="4" sum="0" no="16" player="Bowrot"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 C9 S9</cards>
+   <action type="4" sum="0" no="17" player="fishdouble86"/>
+   <action type="4" sum="0" no="18" player="Bowrot"/>
+   <action type="5" sum="5,400" no="19" player="gaui"/>
+   <action type="3" sum="5,400" no="20" player="fishdouble86"/>
+   <action type="0" sum="0" no="21" player="Bowrot"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action type="4" sum="0" no="22" player="fishdouble86"/>
+   <action type="5" sum="7,200" no="23" player="gaui"/>
+   <action type="3" sum="7,200" no="24" player="fishdouble86"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action type="4" sum="0" no="25" player="fishdouble86"/>
+   <action type="5" sum="67,608" no="26" player="gaui"/>
+   <action type="0" sum="0" no="27" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567213275">
+  <general>
+   <startdate>2024-02-16 13:39:44</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="1" bet="300" name="fishdouble86" rebuy="0" win="0" chips="86,634" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,300" name="Bowrot" rebuy="0" win="0" chips="25,195" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="33,203" name="gaui" rebuy="0" win="0" chips="100,133" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="300" name="gustavobeloti" rebuy="0" win="0" chips="59,332" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="33,203" name="Merseyboy" rebuy="0" win="68,906" chips="33,203" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="tropeiro123" rebuy="0" win="0" chips="44,595" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="300" name="TonyParker" rebuy="0" win="0" chips="34,537" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="Bowrot"/>
+   <action type="15" sum="300" no="2" player="gaui"/>
+   <action type="15" sum="300" no="3" player="gustavobeloti"/>
+   <action type="15" sum="300" no="4" player="Merseyboy"/>
+   <action type="15" sum="300" no="5" player="tropeiro123"/>
+   <action type="15" sum="300" no="6" player="TonyParker"/>
+   <action type="15" sum="300" no="7" player="fishdouble86"/>
+   <action type="1" sum="1,000" no="8" player="Bowrot"/>
+   <action type="2" sum="2,000" no="9" player="gaui"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="10" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">CQ HQ</cards>
+   <action type="23" sum="4,000" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">C6 C3</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="13" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">H7 C8</cards>
+   <action type="3" sum="2,000" no="16" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 SQ S7</cards>
+   <action type="5" sum="6,000" no="17" player="gaui"/>
+   <action type="3" sum="6,000" no="18" player="Merseyboy"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action type="5" sum="10,000" no="19" player="gaui"/>
+   <action type="23" sum="22,903" no="20" player="Merseyboy"/>
+   <action type="3" sum="12,903" no="21" player="gaui"/>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+  </round>
+ </game>
+ <game gamecode="10567213284">
+  <general>
+   <startdate>2024-02-16 13:41:03</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="300" name="fishdouble86" rebuy="0" win="0" chips="86,334" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="Zhgdhgeggt" rebuy="0" win="0" chips="30,000" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="300" name="Bowrot" rebuy="0" win="0" chips="23,895" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="13,900" name="gaui" rebuy="0" win="0" chips="66,930" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="17,260" name="gustavobeloti" rebuy="0" win="33,600" chips="59,032" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="4,300" name="Merseyboy" rebuy="0" win="0" chips="68,906" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="tropeiro123" rebuy="0" win="0" chips="44,295" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="300" name="TonyParker" rebuy="0" win="0" chips="34,237" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="gaui"/>
+   <action type="15" sum="300" no="2" player="gustavobeloti"/>
+   <action type="15" sum="300" no="3" player="Merseyboy"/>
+   <action type="15" sum="300" no="4" player="tropeiro123"/>
+   <action type="15" sum="300" no="5" player="TonyParker"/>
+   <action type="15" sum="300" no="6" player="fishdouble86"/>
+   <action type="15" sum="300" no="7" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="8" player="Bowrot"/>
+   <action type="1" sum="1,000" no="9" player="gaui"/>
+   <action type="2" sum="2,000" no="10" player="gustavobeloti"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="23" sum="4,000" no="11" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">CJ H3</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="13" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="14" player="fishdouble86"/>
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="0" sum="0" no="15" player="Zhgdhgeggt"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="16" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">X X</cards>
+   <action type="3" sum="3,000" no="17" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="13,600" no="18" player="gustavobeloti"/>
+   <action type="0" sum="0" no="19" player="Merseyboy"/>
+   <action type="3" sum="9,600" no="20" player="gaui"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK HA H6</cards>
+   <action type="4" sum="0" no="21" player="gaui"/>
+   <action type="5" sum="3,360" no="22" player="gustavobeloti"/>
+   <action type="0" sum="0" no="23" player="gaui"/>
+  </round>
+ </game>
+ <game gamecode="10567213290">
+  <general>
+   <startdate>2024-02-16 13:41:54</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="53,030" name="fishdouble86" rebuy="0" win="110,860" chips="86,034" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="Zhgdhgeggt" rebuy="0" win="0" chips="29,700" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Bowrot" rebuy="0" win="0" chips="23,595" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="53,030" name="gaui" rebuy="0" win="0" chips="53,030" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,300" name="gustavobeloti" rebuy="0" win="0" chips="78,732" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,300" name="Merseyboy" rebuy="0" win="0" chips="64,606" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="tropeiro123" rebuy="0" win="0" chips="43,995" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="300" name="TonyParker" rebuy="0" win="0" chips="33,937" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="gustavobeloti"/>
+   <action type="15" sum="300" no="2" player="Merseyboy"/>
+   <action type="15" sum="300" no="3" player="tropeiro123"/>
+   <action type="15" sum="300" no="4" player="TonyParker"/>
+   <action type="15" sum="300" no="5" player="fishdouble86"/>
+   <action type="15" sum="300" no="6" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="7" player="Bowrot"/>
+   <action type="15" sum="300" no="8" player="gaui"/>
+   <action type="1" sum="1,000" no="9" player="gustavobeloti"/>
+   <action type="2" sum="2,000" no="10" player="Merseyboy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C8 D9</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="12" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">CJ S10</cards>
+   <action type="23" sum="5,000" no="13" player="fishdouble86"/>
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="0" sum="0" no="14" player="Zhgdhgeggt"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="15" player="Bowrot"/>
+   <cards type="Pocket" player="gaui">SJ HA</cards>
+   <action type="23" sum="12,000" no="16" player="gaui"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="17" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="18" player="Merseyboy"/>
+   <action type="3" sum="7,000" no="19" player="fishdouble86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 D10 D6</cards>
+   <action type="4" sum="0" no="20" player="fishdouble86"/>
+   <action type="5" sum="40,730" no="21" player="gaui"/>
+   <action type="3" sum="40,730" no="22" player="fishdouble86"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+ <game gamecode="10567237732">
+  <general>
+   <startdate>2024-02-16 13:42:36</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="4,300" name="fishdouble86" rebuy="0" win="0" chips="143,864" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="29,100" name="Zhgdhgeggt" rebuy="0" win="13,100" chips="29,400" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Bowrot" rebuy="0" win="0" chips="23,295" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="300" name="gustavobeloti" rebuy="0" win="0" chips="77,432" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,300" name="Merseyboy" rebuy="0" win="0" chips="62,306" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="2,300" name="tropeiro123" rebuy="0" win="0" chips="43,695" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="300" name="TonyParker" rebuy="0" win="0" chips="33,637" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="Merseyboy"/>
+   <action type="15" sum="300" no="2" player="tropeiro123"/>
+   <action type="15" sum="300" no="3" player="TonyParker"/>
+   <action type="15" sum="300" no="4" player="fishdouble86"/>
+   <action type="15" sum="300" no="5" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="6" player="Bowrot"/>
+   <action type="15" sum="300" no="7" player="gustavobeloti"/>
+   <action type="1" sum="1,000" no="8" player="Merseyboy"/>
+   <action type="2" sum="2,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="10" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="23" sum="4,000" no="11" player="fishdouble86"/>
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="23" sum="29,100" no="12" player="Zhgdhgeggt"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="13" player="Bowrot"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="14" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="15" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D5 H10</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <action type="0" sum="0" no="17" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567237736">
+  <general>
+   <startdate>2024-02-16 13:43:00</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="300" name="fishdouble86" rebuy="0" win="0" chips="139,564" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="Zhgdhgeggt" rebuy="0" win="0" chips="38,200" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Bowrot" rebuy="0" win="0" chips="22,995" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="4,000" name="gustavobeloti" rebuy="0" win="7,100" chips="77,132" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="300" name="Merseyboy" rebuy="0" win="0" chips="61,006" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,300" name="tropeiro123" rebuy="0" win="0" chips="41,395" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="2,300" name="TonyParker" rebuy="0" win="0" chips="33,337" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="tropeiro123"/>
+   <action type="15" sum="300" no="2" player="TonyParker"/>
+   <action type="15" sum="300" no="3" player="fishdouble86"/>
+   <action type="15" sum="300" no="4" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="5" player="Bowrot"/>
+   <action type="15" sum="300" no="6" player="gustavobeloti"/>
+   <action type="15" sum="300" no="7" player="Merseyboy"/>
+   <action type="1" sum="1,000" no="8" player="tropeiro123"/>
+   <action type="2" sum="2,000" no="9" player="TonyParker"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="10" player="fishdouble86"/>
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="0" sum="0" no="11" player="Zhgdhgeggt"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="12" player="Bowrot"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="4,000" no="13" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="14" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">HK C4</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="16" player="TonyParker"/>
+  </round>
+ </game>
+ <game gamecode="10567237740">
+  <general>
+   <startdate>2024-02-16 13:43:30</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="7,960" name="fishdouble86" rebuy="0" win="0" chips="139,264" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="Zhgdhgeggt" rebuy="0" win="0" chips="37,900" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Bowrot" rebuy="0" win="0" chips="22,695" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="23,248" name="gustavobeloti" rebuy="0" win="18,420" chips="81,932" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="300" name="Merseyboy" rebuy="0" win="0" chips="60,706" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="300" name="tropeiro123" rebuy="0" win="0" chips="40,095" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="0" bet="1,300" name="TonyParker" rebuy="0" win="0" chips="31,037" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="TonyParker"/>
+   <action type="15" sum="300" no="2" player="fishdouble86"/>
+   <action type="15" sum="300" no="3" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="4" player="Bowrot"/>
+   <action type="15" sum="300" no="5" player="gustavobeloti"/>
+   <action type="15" sum="300" no="6" player="Merseyboy"/>
+   <action type="15" sum="300" no="7" player="tropeiro123"/>
+   <action type="1" sum="1,000" no="8" player="TonyParker"/>
+   <action type="2" sum="2,000" no="9" player="fishdouble86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="0" sum="0" no="10" player="Zhgdhgeggt"/>
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="11" player="Bowrot"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="23" sum="4,000" no="12" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="13" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D6 S4</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" sum="0" no="15" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="3" sum="2,000" no="16" player="fishdouble86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ CQ H8</cards>
+   <action type="4" sum="0" no="17" player="fishdouble86"/>
+   <action type="5" sum="3,660" no="18" player="gustavobeloti"/>
+   <action type="3" sum="3,660" no="19" player="fishdouble86"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action type="4" sum="0" no="20" player="fishdouble86"/>
+   <action type="5" sum="15,288" no="21" player="gustavobeloti"/>
+   <action type="0" sum="0" no="22" player="fishdouble86"/>
+  </round>
+ </game>
+ <game gamecode="10567237748">
+  <general>
+   <startdate>2024-02-16 13:44:27</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,300" name="fishdouble86" rebuy="0" win="0" chips="131,304" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="2,300" name="Zhgdhgeggt" rebuy="0" win="0" chips="37,600" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Bowrot" rebuy="0" win="0" chips="22,395" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="300" name="gustavobeloti" rebuy="0" win="0" chips="92,392" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="300" name="Merseyboy" rebuy="0" win="0" chips="60,406" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="tropeiro123" rebuy="0" win="0" chips="39,795" addon="0" reg_code="7951714734"/>
+    <player seat="10" dealer="1" bet="29,437" name="TonyParker" rebuy="0" win="7,100" chips="29,737" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="fishdouble86"/>
+   <action type="15" sum="300" no="2" player="Zhgdhgeggt"/>
+   <action type="15" sum="300" no="3" player="Bowrot"/>
+   <action type="15" sum="300" no="4" player="gustavobeloti"/>
+   <action type="15" sum="300" no="5" player="Merseyboy"/>
+   <action type="15" sum="300" no="6" player="tropeiro123"/>
+   <action type="15" sum="300" no="7" player="TonyParker"/>
+   <action type="1" sum="1,000" no="8" player="fishdouble86"/>
+   <action type="2" sum="2,000" no="9" player="Zhgdhgeggt"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Bowrot">X X</cards>
+   <action type="0" sum="0" no="10" player="Bowrot"/>
+   <cards type="Pocket" player="gustavobeloti">X X</cards>
+   <action type="0" sum="0" no="11" player="gustavobeloti"/>
+   <cards type="Pocket" player="Merseyboy">X X</cards>
+   <action type="0" sum="0" no="12" player="Merseyboy"/>
+   <cards type="Pocket" player="tropeiro123">D7 C8</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="23" sum="29,437" no="14" player="TonyParker"/>
+   <cards type="Pocket" player="fishdouble86">X X</cards>
+   <action type="0" sum="0" no="15" player="fishdouble86"/>
+   <cards type="Pocket" player="Zhgdhgeggt">X X</cards>
+   <action type="0" sum="0" no="16" player="Zhgdhgeggt"/>
+  </round>
+ </game>
+</session>

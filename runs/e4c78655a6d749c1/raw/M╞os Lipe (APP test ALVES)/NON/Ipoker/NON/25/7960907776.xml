@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960907776">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 GTD | Fists of Fury, 1082048686</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:29:30</duration>
+  <gamecount>22</gamecount>
+  <startdate>2024-02-25 18:18:52</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>77,510</bets>
+  <wins>32,062</wins>
+  <chipsin>9,936</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP27</statuspoints>
+  <awardpoints>RP81</awardpoints>
+  <ipoints>RP27</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081424998</tournamentcode>
+  <tournamentname>€10,000 GTD | Fists of Fury</tournamentname>
+  <place>332</place>
+  <buyin>€9.10 + €0.90</buyin>
+  <totalbuyin>€10</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10584226036">
+  <general>
+   <startdate>2024-02-25 18:18:52</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="8,400" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="35,982" seat="4" name="Galile0Galilei" reg_code="" dealer="1"/>
+    <player bet="464" addon="0" rebuy="0" win="0" chips="113,839" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="3,170" addon="0" rebuy="0" win="0" chips="59,947" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="14,517" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="17,244" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="3,106" addon="0" rebuy="0" win="7,060" chips="3,170" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="2" player="vasilixxx" sum="64" type="15"/>
+   <action no="3" player="sedejas" sum="64" type="15"/>
+   <action no="4" player="WhosWhoo" sum="64" type="15"/>
+   <action no="5" player="xraisefold" sum="64" type="15"/>
+   <action no="6" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="7" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="8" player="BlackLotus1981" sum="400" type="1"/>
+   <action no="9" player="vasilixxx" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="10" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="11" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">H3 DA</cards>
+   <action no="12" player="xraisefold" sum="3,106" type="23"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="13" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="14" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="15" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">C3 S8</cards>
+   <action no="16" player="vasilixxx" sum="2,306" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 HK DK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584226050">
+  <general>
+   <startdate>2024-02-25 18:19:40</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="10,000" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="3,720" addon="0" rebuy="0" win="4,112" chips="8,336" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="35,918" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,375" seat="5" name="BlackLotus1981" reg_code="" dealer="1"/>
+    <player bet="464" addon="0" rebuy="0" win="0" chips="56,777" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="1,664" addon="0" rebuy="0" win="0" chips="14,453" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="17,180" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="1" win="0" chips="17,060" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="vasilixxx" sum="64" type="15"/>
+   <action no="2" player="sedejas" sum="64" type="15"/>
+   <action no="3" player="WhosWhoo" sum="64" type="15"/>
+   <action no="4" player="xraisefold" sum="64" type="15"/>
+   <action no="5" player="tropeiro123" sum="64" type="15"/>
+   <action no="6" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="7" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="8" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="9" player="vasilixxx" sum="400" type="1"/>
+   <action no="10" player="sedejas" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="11" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="12" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA H4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="14" player="Resilientgutsy5" sum="1,600" type="23"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="15" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="16" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="17" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="18" player="sedejas" sum="800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D5 D4</cards>
+   <action no="19" player="sedejas" sum="0" type="4"/>
+   <action no="20" player="Resilientgutsy5" sum="2,056" type="5"/>
+   <action no="21" player="sedejas" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584226065">
+  <general>
+   <startdate>2024-02-25 18:20:29</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="9,936" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="10,784" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="1,664" addon="0" rebuy="0" win="0" chips="35,854" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,311" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="56,313" seat="6" name="vasilixxx" reg_code="" dealer="1"/>
+    <player bet="4,064" addon="0" rebuy="0" win="10,112" chips="12,789" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="4,064" addon="0" rebuy="0" win="0" chips="17,116" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="16,996" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sedejas" sum="64" type="15"/>
+   <action no="2" player="WhosWhoo" sum="64" type="15"/>
+   <action no="3" player="xraisefold" sum="64" type="15"/>
+   <action no="4" player="tropeiro123" sum="64" type="15"/>
+   <action no="5" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="6" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="7" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="8" player="vasilixxx" sum="64" type="15"/>
+   <action no="9" player="sedejas" sum="400" type="1"/>
+   <action no="10" player="WhosWhoo" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="11" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 SK</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="13" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="14" player="Galile0Galilei" sum="1,600" type="23"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="15" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="16" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">D9 HA</cards>
+   <action no="17" player="sedejas" sum="1,200" type="3"/>
+   <cards player="WhosWhoo" type="Pocket">C5 C9</cards>
+   <action no="18" player="WhosWhoo" sum="800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 S9 C7</cards>
+   <action no="19" player="sedejas" sum="0" type="4"/>
+   <action no="20" player="WhosWhoo" sum="0" type="4"/>
+   <action no="21" player="Galile0Galilei" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action no="22" player="sedejas" sum="0" type="4"/>
+   <action no="23" player="WhosWhoo" sum="2,400" type="5"/>
+   <action no="24" player="Galile0Galilei" sum="0" type="0"/>
+   <action no="25" player="sedejas" sum="2,400" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action no="26" player="sedejas" sum="0" type="4"/>
+   <action no="27" player="WhosWhoo" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584226088">
+  <general>
+   <startdate>2024-02-25 18:21:50</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="9,872" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="864" addon="0" rebuy="0" win="0" chips="10,720" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="34,190" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,247" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="2,464" addon="0" rebuy="0" win="3,712" chips="56,249" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="18,837" seat="7" name="sedejas" reg_code="" dealer="1"/>
+    <player bet="864" addon="0" rebuy="0" win="0" chips="13,052" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="864" addon="0" rebuy="0" win="0" chips="16,932" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WhosWhoo" sum="64" type="15"/>
+   <action no="2" player="xraisefold" sum="64" type="15"/>
+   <action no="3" player="tropeiro123" sum="64" type="15"/>
+   <action no="4" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="5" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="6" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="7" player="vasilixxx" sum="64" type="15"/>
+   <action no="8" player="sedejas" sum="64" type="15"/>
+   <action no="9" player="WhosWhoo" sum="400" type="1"/>
+   <action no="10" player="xraisefold" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D3 SK</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="12" player="Resilientgutsy5" sum="800" type="3"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="13" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="14" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="15" player="vasilixxx" sum="800" type="3"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="16" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="17" player="WhosWhoo" sum="400" type="3"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="18" player="xraisefold" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ D4 CK</cards>
+   <action no="19" player="WhosWhoo" sum="0" type="4"/>
+   <action no="20" player="xraisefold" sum="0" type="4"/>
+   <action no="21" player="Resilientgutsy5" sum="0" type="4"/>
+   <action no="22" player="vasilixxx" sum="1,600" type="5"/>
+   <action no="23" player="WhosWhoo" sum="0" type="0"/>
+   <action no="24" player="xraisefold" sum="0" type="0"/>
+   <action no="25" player="Resilientgutsy5" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584226116">
+  <general>
+   <startdate>2024-02-25 18:23:12</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="9,808" addon="0" rebuy="0" win="20,000" chips="9,808" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="9,856" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="34,126" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,183" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="59,097" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="18,773" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="12,188" seat="9" name="WhosWhoo" reg_code="" dealer="1"/>
+    <player bet="16,004" addon="0" rebuy="0" win="0" chips="16,068" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="xraisefold" sum="64" type="15"/>
+   <action no="2" player="tropeiro123" sum="64" type="15"/>
+   <action no="3" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="4" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="5" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="6" player="vasilixxx" sum="64" type="15"/>
+   <action no="7" player="sedejas" sum="64" type="15"/>
+   <action no="8" player="WhosWhoo" sum="64" type="15"/>
+   <action no="9" player="xraisefold" sum="400" type="1"/>
+   <action no="10" player="tropeiro123" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="11" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="12" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="13" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="14" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="15" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="16" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">C8 S6</cards>
+   <action no="17" player="xraisefold" sum="16,004" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HK DA</cards>
+   <action no="18" player="tropeiro123" sum="8,944" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H9 D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10584226129">
+  <general>
+   <startdate>2024-02-25 18:24:04</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="19,936" addon="0" rebuy="0" win="0" chips="20,000" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="864" addon="0" rebuy="0" win="0" chips="9,792" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="34,062" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,119" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="20,000" addon="0" rebuy="0" win="41,184" chips="59,033" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="18,709" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="12,124" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="1" win="0" chips="16,260" seat="10" name="xraisefold" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="64" type="15"/>
+   <action no="2" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="3" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="4" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="5" player="vasilixxx" sum="64" type="15"/>
+   <action no="6" player="sedejas" sum="64" type="15"/>
+   <action no="7" player="WhosWhoo" sum="64" type="15"/>
+   <action no="8" player="xraisefold" sum="64" type="15"/>
+   <action no="9" player="tropeiro123" sum="400" type="1"/>
+   <action no="10" player="Resilientgutsy5" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="11" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="12" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">SJ DJ</cards>
+   <action no="13" player="vasilixxx" sum="1,600" type="23"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="14" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="15" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="16" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 C8</cards>
+   <action no="17" player="tropeiro123" sum="19,936" type="23"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="18" player="Resilientgutsy5" sum="0" type="0"/>
+   <action no="19" player="vasilixxx" sum="18,336" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK H9 S9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10584226154">
+  <general>
+   <startdate>2024-02-25 18:25:21</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>64</ante>
+   <players>
+    <player bet="64" addon="0" rebuy="1" win="0" chips="10,000" seat="1" name="tropeiro123" reg_code="7960907776" dealer="1"/>
+    <player bet="464" addon="0" rebuy="0" win="0" chips="8,928" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="864" addon="0" rebuy="0" win="0" chips="33,998" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="113,055" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="1,664" addon="0" rebuy="0" win="0" chips="80,217" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="18,645" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="64" addon="0" rebuy="0" win="0" chips="12,060" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="16,132" addon="0" rebuy="0" win="4,912" chips="16,196" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Resilientgutsy5" sum="64" type="15"/>
+   <action no="2" player="Galile0Galilei" sum="64" type="15"/>
+   <action no="3" player="BlackLotus1981" sum="64" type="15"/>
+   <action no="4" player="vasilixxx" sum="64" type="15"/>
+   <action no="5" player="sedejas" sum="64" type="15"/>
+   <action no="6" player="WhosWhoo" sum="64" type="15"/>
+   <action no="7" player="xraisefold" sum="64" type="15"/>
+   <action no="8" player="tropeiro123" sum="64" type="15"/>
+   <action no="9" player="Resilientgutsy5" sum="400" type="1"/>
+   <action no="10" player="Galile0Galilei" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="11" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="12" player="vasilixxx" sum="1,600" type="23"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="13" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="14" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="15" player="xraisefold" sum="16,132" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C4 S7</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="17" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="18" player="Galile0Galilei" sum="0" type="0"/>
+   <action no="19" player="vasilixxx" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584226164">
+  <general>
+   <startdate>2024-02-25 18:25:55</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,936" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,464" seat="2" name="Resilientgutsy5" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="33,134" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="7,220" addon="0" rebuy="0" win="5,140" chips="112,991" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="78,553" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,581" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,996" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="2,080" addon="0" rebuy="0" win="0" chips="19,444" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="2" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="3" player="vasilixxx" sum="80" type="15"/>
+   <action no="4" player="sedejas" sum="80" type="15"/>
+   <action no="5" player="WhosWhoo" sum="80" type="15"/>
+   <action no="6" player="xraisefold" sum="80" type="15"/>
+   <action no="7" player="tropeiro123" sum="80" type="15"/>
+   <action no="8" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="9" player="Galile0Galilei" sum="500" type="1"/>
+   <action no="10" player="BlackLotus1981" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="11" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="12" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="13" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="14" player="xraisefold" sum="2,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H4 C5</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="16" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="17" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="18" player="BlackLotus1981" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H2 D9</cards>
+   <action no="19" player="BlackLotus1981" sum="0" type="4"/>
+   <action no="20" player="xraisefold" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="21" player="BlackLotus1981" sum="5,140" type="5"/>
+   <action no="22" player="xraisefold" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584226185">
+  <general>
+   <startdate>2024-02-25 18:26:55</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="9,776" addon="0" rebuy="0" win="3,140" chips="9,856" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,384" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,554" seat="4" name="Galile0Galilei" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="116,051" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="78,473" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,501" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,916" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="17,364" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="2" player="vasilixxx" sum="80" type="15"/>
+   <action no="3" player="sedejas" sum="80" type="15"/>
+   <action no="4" player="WhosWhoo" sum="80" type="15"/>
+   <action no="5" player="xraisefold" sum="80" type="15"/>
+   <action no="6" player="tropeiro123" sum="80" type="15"/>
+   <action no="7" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="8" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="9" player="BlackLotus1981" sum="500" type="1"/>
+   <action no="10" player="vasilixxx" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="11" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="12" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="13" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 HA</cards>
+   <action no="14" player="tropeiro123" sum="9,776" type="23"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="15" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="16" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="17" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="18" player="vasilixxx" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584226199">
+  <general>
+   <startdate>2024-02-25 18:27:49</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="11,916" addon="0" rebuy="0" win="0" chips="11,916" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,304" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,474" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="115,471" seat="5" name="BlackLotus1981" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="77,393" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="18,421" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="11,836" addon="0" rebuy="0" win="25,652" chips="11,836" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="17,284" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="vasilixxx" sum="80" type="15"/>
+   <action no="2" player="sedejas" sum="80" type="15"/>
+   <action no="3" player="WhosWhoo" sum="80" type="15"/>
+   <action no="4" player="xraisefold" sum="80" type="15"/>
+   <action no="5" player="tropeiro123" sum="80" type="15"/>
+   <action no="6" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="7" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="8" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="9" player="vasilixxx" sum="500" type="1"/>
+   <action no="10" player="sedejas" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WhosWhoo" type="Pocket">D9 S9</cards>
+   <action no="11" player="WhosWhoo" sum="8,000" type="23"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="12" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA CK</cards>
+   <action no="13" player="tropeiro123" sum="11,836" type="7"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="14" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="15" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="16" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="17" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="18" player="sedejas" sum="0" type="0"/>
+   <action no="19" player="WhosWhoo" sum="3,756" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S3 SQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+  </round>
+ </game>
+ <game gamecode="10584226214">
+  <general>
+   <startdate>2024-02-25 18:28:36</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="640" chips="80" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,224" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,394" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="115,391" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="76,813" seat="6" name="vasilixxx" reg_code="" dealer="1"/>
+    <player bet="17,261" addon="0" rebuy="0" win="2,000" chips="17,341" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="25,652" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="17,204" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sedejas" sum="80" type="15"/>
+   <action no="2" player="WhosWhoo" sum="80" type="15"/>
+   <action no="3" player="xraisefold" sum="80" type="15"/>
+   <action no="4" player="tropeiro123" sum="80" type="15"/>
+   <action no="5" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="6" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="7" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="8" player="vasilixxx" sum="80" type="15"/>
+   <action no="9" player="sedejas" sum="500" type="1"/>
+   <action no="10" player="WhosWhoo" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 C6</cards>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="11" player="xraisefold" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="12" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="13" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="14" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="15" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">HA SQ</cards>
+   <action no="16" player="sedejas" sum="17,261" type="23"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="17" player="WhosWhoo" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D10 CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10584226235">
+  <general>
+   <startdate>2024-02-25 18:29:29</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="640" addon="0" rebuy="0" win="1,410" chips="640" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,144" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,314" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="4,000" addon="0" rebuy="0" win="2,290" chips="115,311" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="76,733" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,261" seat="7" name="sedejas" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="24,572" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="17,124" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WhosWhoo" sum="80" type="15"/>
+   <action no="2" player="xraisefold" sum="80" type="15"/>
+   <action no="3" player="tropeiro123" sum="80" type="15"/>
+   <action no="4" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="5" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="6" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="7" player="vasilixxx" sum="80" type="15"/>
+   <action no="8" player="sedejas" sum="80" type="15"/>
+   <action no="9" player="WhosWhoo" sum="500" type="1"/>
+   <action no="10" player="xraisefold" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C8 CJ</cards>
+   <action no="11" player="tropeiro123" sum="560" type="7"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="12" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="13" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">D3 H3</cards>
+   <action no="14" player="BlackLotus1981" sum="4,000" type="23"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="15" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="16" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="17" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="18" player="xraisefold" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA DA CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10584226245">
+  <general>
+   <startdate>2024-02-25 18:30:10</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="1,410" addon="0" rebuy="0" win="3,800" chips="1,410" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="8,064" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,234" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="116,521" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="2,000" addon="0" rebuy="0" win="0" chips="76,653" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,181" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="23,992" seat="9" name="WhosWhoo" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="16,044" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="xraisefold" sum="80" type="15"/>
+   <action no="2" player="tropeiro123" sum="80" type="15"/>
+   <action no="3" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="4" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="5" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="6" player="vasilixxx" sum="80" type="15"/>
+   <action no="7" player="sedejas" sum="80" type="15"/>
+   <action no="8" player="WhosWhoo" sum="80" type="15"/>
+   <action no="9" player="xraisefold" sum="500" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="11" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="12" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="13" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">D8 HA</cards>
+   <action no="14" player="vasilixxx" sum="2,000" type="23"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="15" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="16" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="17" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 S7</cards>
+   <action no="18" player="tropeiro123" sum="330" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D10 C9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10584259768">
+  <general>
+   <startdate>2024-02-25 18:30:51</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="3,720" addon="0" rebuy="0" win="0" chips="3,800" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="3,800" addon="0" rebuy="0" win="8,080" chips="7,984" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="32,154" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="116,441" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="75,243" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,101" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="23,912" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="15,464" seat="10" name="xraisefold" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="80" type="15"/>
+   <action no="2" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="3" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="4" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="5" player="vasilixxx" sum="80" type="15"/>
+   <action no="6" player="sedejas" sum="80" type="15"/>
+   <action no="7" player="WhosWhoo" sum="80" type="15"/>
+   <action no="8" player="xraisefold" sum="80" type="15"/>
+   <action no="9" player="tropeiro123" sum="500" type="1"/>
+   <action no="10" player="Resilientgutsy5" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="11" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="12" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="13" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="14" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="15" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="16" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 S6</cards>
+   <action no="17" player="tropeiro123" sum="3,720" type="23"/>
+   <cards player="Resilientgutsy5" type="Pocket">CJ H9</cards>
+   <action no="18" player="Resilientgutsy5" sum="2,720" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA CQ S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+  </round>
+ </game>
+ <game gamecode="10584259781">
+  <general>
+   <startdate>2024-02-25 18:31:37</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="1" win="0" chips="10,000" seat="1" name="tropeiro123" reg_code="7960907776" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="12,264" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="32,074" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="116,361" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="75,163" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="18,021" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="23,832" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="15,304" addon="0" rebuy="0" win="3,140" chips="15,384" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="2" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="3" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="4" player="vasilixxx" sum="80" type="15"/>
+   <action no="5" player="sedejas" sum="80" type="15"/>
+   <action no="6" player="WhosWhoo" sum="80" type="15"/>
+   <action no="7" player="xraisefold" sum="80" type="15"/>
+   <action no="8" player="tropeiro123" sum="80" type="15"/>
+   <action no="9" player="Resilientgutsy5" sum="500" type="1"/>
+   <action no="10" player="Galile0Galilei" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="11" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="12" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="13" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="14" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="15" player="xraisefold" sum="15,304" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D3 D9</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="17" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="18" player="Galile0Galilei" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584259789">
+  <general>
+   <startdate>2024-02-25 18:32:01</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,920" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,684" seat="2" name="Resilientgutsy5" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="30,994" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="116,281" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="75,083" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="6,080" addon="0" rebuy="0" win="0" chips="17,941" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="10,746" addon="0" rebuy="0" win="14,140" chips="23,752" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="17,444" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="2" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="3" player="vasilixxx" sum="80" type="15"/>
+   <action no="4" player="sedejas" sum="80" type="15"/>
+   <action no="5" player="WhosWhoo" sum="80" type="15"/>
+   <action no="6" player="xraisefold" sum="80" type="15"/>
+   <action no="7" player="tropeiro123" sum="80" type="15"/>
+   <action no="8" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="9" player="Galile0Galilei" sum="500" type="1"/>
+   <action no="10" player="BlackLotus1981" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="11" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="12" player="sedejas" sum="2,000" type="23"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="13" player="WhosWhoo" sum="5,000" type="23"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="14" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 CK</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="16" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="17" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="18" player="BlackLotus1981" sum="0" type="0"/>
+   <action no="19" player="sedejas" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA DK SA</cards>
+   <action no="20" player="sedejas" sum="0" type="4"/>
+   <action no="21" player="WhosWhoo" sum="1,000" type="5"/>
+   <action no="22" player="sedejas" sum="1,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action no="23" player="sedejas" sum="0" type="4"/>
+   <action no="24" player="WhosWhoo" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="25" player="sedejas" sum="0" type="4"/>
+   <action no="26" player="WhosWhoo" sum="4,666" type="5"/>
+   <action no="27" player="sedejas" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584259815">
+  <general>
+   <startdate>2024-02-25 18:33:23</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,840" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,604" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="11,115" addon="0" rebuy="0" win="16,140" chips="30,414" seat="4" name="Galile0Galilei" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="115,201" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="75,003" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,861" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="7,080" addon="0" rebuy="0" win="0" chips="31,812" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="17,364" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="2" player="vasilixxx" sum="80" type="15"/>
+   <action no="3" player="sedejas" sum="80" type="15"/>
+   <action no="4" player="WhosWhoo" sum="80" type="15"/>
+   <action no="5" player="xraisefold" sum="80" type="15"/>
+   <action no="6" player="tropeiro123" sum="80" type="15"/>
+   <action no="7" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="8" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="9" player="BlackLotus1981" sum="500" type="1"/>
+   <action no="10" player="vasilixxx" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="11" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="12" player="WhosWhoo" sum="2,000" type="23"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="13" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H8</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="15" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="16" player="Galile0Galilei" sum="2,000" type="3"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="17" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="18" player="vasilixxx" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 HJ D8</cards>
+   <action no="19" player="WhosWhoo" sum="0" type="4"/>
+   <action no="20" player="Galile0Galilei" sum="1,535" type="5"/>
+   <action no="21" player="WhosWhoo" sum="5,000" type="23"/>
+   <action no="22" player="Galile0Galilei" sum="3,465" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="23" player="WhosWhoo" sum="0" type="4"/>
+   <action no="24" player="Galile0Galilei" sum="4,035" type="5"/>
+   <action no="25" player="WhosWhoo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584259848">
+  <general>
+   <startdate>2024-02-25 18:35:03</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,760" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,524" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="39,474" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="2,080" addon="0" rebuy="0" win="0" chips="114,621" seat="5" name="BlackLotus1981" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="73,923" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="2,080" addon="0" rebuy="0" win="0" chips="11,781" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="24,732" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="4,436" addon="0" rebuy="0" win="7,140" chips="17,284" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="vasilixxx" sum="80" type="15"/>
+   <action no="2" player="sedejas" sum="80" type="15"/>
+   <action no="3" player="WhosWhoo" sum="80" type="15"/>
+   <action no="4" player="xraisefold" sum="80" type="15"/>
+   <action no="5" player="tropeiro123" sum="80" type="15"/>
+   <action no="6" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="7" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="8" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="9" player="vasilixxx" sum="500" type="1"/>
+   <action no="10" player="sedejas" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="11" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="12" player="xraisefold" sum="2,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D6 H4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="14" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="15" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="16" player="BlackLotus1981" sum="2,000" type="3"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="17" player="vasilixxx" sum="0" type="0"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="18" player="sedejas" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 C7 S4</cards>
+   <action no="19" player="sedejas" sum="0" type="4"/>
+   <action no="20" player="xraisefold" sum="0" type="4"/>
+   <action no="21" player="BlackLotus1981" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action no="22" player="sedejas" sum="0" type="4"/>
+   <action no="23" player="xraisefold" sum="2,356" type="5"/>
+   <action no="24" player="BlackLotus1981" sum="0" type="0"/>
+   <action no="25" player="sedejas" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584259872">
+  <general>
+   <startdate>2024-02-25 18:36:23</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,680" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="11,444" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="39,394" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="112,541" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="73,343" addon="0" rebuy="0" win="14,140" chips="73,343" seat="6" name="vasilixxx" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="9,701" seat="7" name="sedejas" reg_code="" dealer="0"/>
+    <player bet="6,580" addon="0" rebuy="0" win="0" chips="24,652" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="22,344" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sedejas" sum="80" type="15"/>
+   <action no="2" player="WhosWhoo" sum="80" type="15"/>
+   <action no="3" player="xraisefold" sum="80" type="15"/>
+   <action no="4" player="tropeiro123" sum="80" type="15"/>
+   <action no="5" player="Resilientgutsy5" sum="80" type="15"/>
+   <action no="6" player="Galile0Galilei" sum="80" type="15"/>
+   <action no="7" player="BlackLotus1981" sum="80" type="15"/>
+   <action no="8" player="vasilixxx" sum="80" type="15"/>
+   <action no="9" player="sedejas" sum="500" type="1"/>
+   <action no="10" player="WhosWhoo" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="11" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 CQ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Resilientgutsy5" type="Pocket">X X</cards>
+   <action no="13" player="Resilientgutsy5" sum="0" type="0"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="14" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="15" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="16" player="vasilixxx" sum="2,000" type="23"/>
+   <cards player="sedejas" type="Pocket">X X</cards>
+   <action no="17" player="sedejas" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="18" player="WhosWhoo" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA S3 H3</cards>
+   <action no="19" player="WhosWhoo" sum="0" type="4"/>
+   <action no="20" player="vasilixxx" sum="1,542" type="5"/>
+   <action no="21" player="WhosWhoo" sum="4,500" type="23"/>
+   <action no="22" player="vasilixxx" sum="71,263" type="23"/>
+   <action no="23" player="WhosWhoo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584259897">
+  <general>
+   <startdate>2024-02-25 18:45:52</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="1,296" addon="0" rebuy="0" win="0" chips="9,600" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="11,364" addon="0" rebuy="0" win="0" chips="11,364" seat="2" name="Resilientgutsy5" reg_code="" dealer="0"/>
+    <player bet="56,496" addon="0" rebuy="0" win="25,104" chips="59,314" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="132,461" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="80,903" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="30,000" seat="7" name="Rigodad" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="38,072" seat="9" name="WhosWhoo" reg_code="" dealer="1"/>
+    <player bet="696" addon="0" rebuy="0" win="0" chips="42,264" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="xraisefold" sum="96" type="15"/>
+   <action no="2" player="tropeiro123" sum="96" type="15"/>
+   <action no="3" player="Resilientgutsy5" sum="96" type="15"/>
+   <action no="4" player="Galile0Galilei" sum="96" type="15"/>
+   <action no="5" player="BlackLotus1981" sum="96" type="15"/>
+   <action no="6" player="vasilixxx" sum="96" type="15"/>
+   <action no="7" player="Rigodad" sum="96" type="15"/>
+   <action no="8" player="WhosWhoo" sum="96" type="15"/>
+   <action no="9" player="xraisefold" sum="600" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Resilientgutsy5" type="Pocket">CA S10</cards>
+   <action no="11" player="Resilientgutsy5" sum="1,200" type="3"/>
+   <cards player="Galile0Galilei" type="Pocket">DA HQ</cards>
+   <action no="12" player="Galile0Galilei" sum="3,600" type="23"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="13" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="14" player="vasilixxx" sum="0" type="0"/>
+   <cards player="Rigodad" type="Pocket">X X</cards>
+   <action no="15" player="Rigodad" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="16" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="17" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 CK</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+   <action no="19" player="Resilientgutsy5" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 H5 S6</cards>
+   <action no="20" player="Resilientgutsy5" sum="0" type="4"/>
+   <action no="21" player="Galile0Galilei" sum="52,800" type="5"/>
+   <action no="22" player="Resilientgutsy5" sum="7,668" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+  </round>
+ </game>
+ <game gamecode="10584259953">
+  <general>
+   <startdate>2024-02-25 18:47:05</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="8,208" addon="0" rebuy="0" win="3,072" chips="8,304" seat="1" name="tropeiro123" reg_code="7960907776" dealer="0"/>
+    <player bet="1,296" addon="0" rebuy="0" win="0" chips="73,054" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="132,365" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="80,807" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="29,904" seat="7" name="Rigodad" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="37,976" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="41,568" seat="10" name="xraisefold" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="96" type="15"/>
+   <action no="2" player="Galile0Galilei" sum="96" type="15"/>
+   <action no="3" player="BlackLotus1981" sum="96" type="15"/>
+   <action no="4" player="vasilixxx" sum="96" type="15"/>
+   <action no="5" player="Rigodad" sum="96" type="15"/>
+   <action no="6" player="WhosWhoo" sum="96" type="15"/>
+   <action no="7" player="xraisefold" sum="96" type="15"/>
+   <action no="8" player="tropeiro123" sum="600" type="1"/>
+   <action no="9" player="Galile0Galilei" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="10" player="BlackLotus1981" sum="0" type="0"/>
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="11" player="vasilixxx" sum="0" type="0"/>
+   <cards player="Rigodad" type="Pocket">X X</cards>
+   <action no="12" player="Rigodad" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">X X</cards>
+   <action no="13" player="WhosWhoo" sum="0" type="0"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="14" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA D3</cards>
+   <action no="15" player="tropeiro123" sum="8,208" type="23"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="16" player="Galile0Galilei" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584286643">
+  <general>
+   <startdate>2024-02-25 18:47:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="9,984" addon="0" rebuy="0" win="0" chips="10,080" seat="1" name="tropeiro123" reg_code="7960907776" dealer="1"/>
+    <player bet="696" addon="0" rebuy="0" win="0" chips="71,758" seat="4" name="Galile0Galilei" reg_code="" dealer="0"/>
+    <player bet="1,296" addon="0" rebuy="0" win="0" chips="132,269" seat="5" name="BlackLotus1981" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="80,711" seat="6" name="vasilixxx" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="29,808" seat="7" name="Rigodad" reg_code="" dealer="0"/>
+    <player bet="10,080" addon="0" rebuy="0" win="22,440" chips="37,880" seat="9" name="WhosWhoo" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="41,472" seat="10" name="xraisefold" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Galile0Galilei" sum="96" type="15"/>
+   <action no="2" player="BlackLotus1981" sum="96" type="15"/>
+   <action no="3" player="vasilixxx" sum="96" type="15"/>
+   <action no="4" player="Rigodad" sum="96" type="15"/>
+   <action no="5" player="WhosWhoo" sum="96" type="15"/>
+   <action no="6" player="xraisefold" sum="96" type="15"/>
+   <action no="7" player="tropeiro123" sum="96" type="15"/>
+   <action no="8" player="Galile0Galilei" sum="600" type="1"/>
+   <action no="9" player="BlackLotus1981" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="vasilixxx" type="Pocket">X X</cards>
+   <action no="10" player="vasilixxx" sum="0" type="0"/>
+   <cards player="Rigodad" type="Pocket">X X</cards>
+   <action no="11" player="Rigodad" sum="0" type="0"/>
+   <cards player="WhosWhoo" type="Pocket">SJ DJ</cards>
+   <action no="12" player="WhosWhoo" sum="2,400" type="23"/>
+   <cards player="xraisefold" type="Pocket">X X</cards>
+   <action no="13" player="xraisefold" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 S8</cards>
+   <action no="14" player="tropeiro123" sum="9,984" type="23"/>
+   <cards player="Galile0Galilei" type="Pocket">X X</cards>
+   <action no="15" player="Galile0Galilei" sum="0" type="0"/>
+   <cards player="BlackLotus1981" type="Pocket">X X</cards>
+   <action no="16" player="BlackLotus1981" sum="0" type="0"/>
+   <action no="17" player="WhosWhoo" sum="7,584" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA D7 CQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+  </round>
+ </game>
+</session>

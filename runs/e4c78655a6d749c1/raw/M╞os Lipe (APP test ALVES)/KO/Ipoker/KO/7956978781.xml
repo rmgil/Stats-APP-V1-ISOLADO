@@ -1,0 +1,3256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7956978781">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€100,000|Mystery Bounty|D1, 1081693203</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:15:48</duration>
+  <gamecount>63</gamecount>
+  <startdate>2024-02-21 17:30:53</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>222,670</bets>
+  <wins>193,488</wins>
+  <chipsin>49,820</chipsin>
+  <chipsout>76,504</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080307568</tournamentcode>
+  <tournamentname>E3|€100,000|Mystery Bounty|D1</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10576820434">
+  <general>
+   <startdate>2024-02-21 17:30:53</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="8,100" bet="9,384" reg_code="" seat="1" chips="49,640" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="2" chips="49,040" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="180" reg_code="" seat="7" chips="49,231" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="9" chips="51,551" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="10" chips="65,510" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="POPIOPO"/>
+   <action sum="180" type="15" no="2" player="xxdbxx"/>
+   <action sum="180" type="15" no="3" player="6eOnibus"/>
+   <action sum="180" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="180" type="15" no="5" player="preTuras"/>
+   <action sum="600" type="1" no="6" player="POPIOPO"/>
+   <action sum="1,200" type="2" no="7" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="2,400" type="23" no="8" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="9" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="1,800" type="3" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="1,200" type="3" no="12" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C8 S6</cards>
+   <action sum="0" type="4" no="13" player="POPIOPO"/>
+   <action sum="0" type="4" no="14" player="xxdbxx"/>
+   <action sum="0" type="4" no="15" player="6eOnibus"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action sum="0" type="4" no="16" player="POPIOPO"/>
+   <action sum="0" type="4" no="17" player="xxdbxx"/>
+   <action sum="6,804" type="5" no="18" player="6eOnibus"/>
+   <action sum="0" type="0" no="19" player="POPIOPO"/>
+   <action sum="0" type="0" no="20" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576820506">
+  <general>
+   <startdate>2024-02-21 17:32:18</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,380" reg_code="" seat="1" chips="55,160" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="21,909" reg_code="" seat="2" chips="48,860" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="7956978781" seat="4" chips="50,000" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="7" chips="49,051" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="48,138" bet="21,909" reg_code="" seat="9" chips="48,971" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="10" chips="62,930" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="xxdbxx"/>
+   <action sum="180" type="15" no="2" player="6eOnibus"/>
+   <action sum="180" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="180" type="15" no="4" player="tropeiro123"/>
+   <action sum="180" type="15" no="5" player="preTuras"/>
+   <action sum="180" type="15" no="6" player="POPIOPO"/>
+   <action sum="600" type="1" no="7" player="xxdbxx"/>
+   <action sum="1,200" type="2" no="8" player="6eOnibus"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">CJ SA</cards>
+   <action sum="2,400" type="23" no="9" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HJ S2</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">CA SQ</cards>
+   <action sum="2,400" type="3" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="1,800" type="3" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="14" player="6eOnibus"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D10 H4</cards>
+   <action sum="0" type="4" no="15" player="xxdbxx"/>
+   <action sum="0" type="4" no="16" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="4" no="17" player="POPIOPO"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action sum="0" type="4" no="18" player="xxdbxx"/>
+   <action sum="4,929" type="5" no="19" player="KaccyLLIaTaJI"/>
+   <action sum="4,929" type="3" no="20" player="POPIOPO"/>
+   <action sum="0" type="0" no="21" player="xxdbxx"/>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+   <action sum="14,400" type="5" no="22" player="KaccyLLIaTaJI"/>
+   <action sum="14,400" type="3" no="23" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576820598">
+  <general>
+   <startdate>2024-02-21 17:34:09</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" win="0" bet="780" reg_code="" seat="1" chips="53,780" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,380" reg_code="" seat="2" chips="26,951" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="7956978781" seat="4" chips="49,820" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="7" chips="48,871" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="7,680" bet="7,200" reg_code="" seat="9" chips="75,200" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="180" reg_code="" seat="10" chips="60,350" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="6eOnibus"/>
+   <action sum="180" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="180" type="15" no="3" player="tropeiro123"/>
+   <action sum="180" type="15" no="4" player="preTuras"/>
+   <action sum="180" type="15" no="5" player="POPIOPO"/>
+   <action sum="180" type="15" no="6" player="xxdbxx"/>
+   <action sum="600" type="1" no="7" player="6eOnibus"/>
+   <action sum="1,200" type="2" no="8" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">CQ C2</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="2,400" type="23" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="7,200" type="23" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="13" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576841701">
+  <general>
+   <startdate>2024-02-21 17:34:56</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="1" win="0" bet="180" reg_code="" seat="1" chips="53,000" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="780" reg_code="" seat="2" chips="25,571" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="6,480" bet="4,200" reg_code="7956978781" seat="4" chips="49,640" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,580" reg_code="" seat="7" chips="46,291" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="9" chips="80,300" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="180" reg_code="" seat="10" chips="60,170" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="180" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="180" type="15" no="2" player="tropeiro123"/>
+   <action sum="180" type="15" no="3" player="preTuras"/>
+   <action sum="180" type="15" no="4" player="POPIOPO"/>
+   <action sum="180" type="15" no="5" player="xxdbxx"/>
+   <action sum="180" type="15" no="6" player="6eOnibus"/>
+   <action sum="600" type="1" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="1,200" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="2,400" type="23" no="9" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="10" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="12" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H10 H6</cards>
+   <action sum="1,200" type="3" no="14" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 S4 S7</cards>
+   <action sum="0" type="4" no="15" player="tropeiro123"/>
+   <action sum="0" type="4" no="16" player="preTuras"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+   <action sum="1,620" type="5" no="17" player="tropeiro123"/>
+   <action sum="0" type="0" no="18" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576841771">
+  <general>
+   <startdate>2024-02-21 17:36:21</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="1" chips="52,820" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="2" chips="24,791" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="7956978781" seat="4" chips="53,540" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="7" chips="43,711" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="7,500" bet="5,475" reg_code="" seat="9" chips="80,120" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="10" chips="59,990" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="tropeiro123"/>
+   <action sum="200" type="15" no="2" player="preTuras"/>
+   <action sum="200" type="15" no="3" player="POPIOPO"/>
+   <action sum="200" type="15" no="4" player="xxdbxx"/>
+   <action sum="200" type="15" no="5" player="6eOnibus"/>
+   <action sum="200" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="700" type="1" no="7" player="tropeiro123"/>
+   <action sum="1,400" type="2" no="8" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="2,800" type="23" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="11" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D3 DQ</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="1,400" type="3" no="14" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 HK H7</cards>
+   <action sum="0" type="4" no="15" player="preTuras"/>
+   <action sum="2,475" type="5" no="16" player="POPIOPO"/>
+   <action sum="0" type="0" no="17" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576841843">
+  <general>
+   <startdate>2024-02-21 17:37:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="1" chips="52,620" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="24,591" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="52,640" reg_code="7956978781" seat="4" chips="52,640" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="85,022" bet="40,711" reg_code="" seat="7" chips="40,711" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="9" chips="84,620" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="10" chips="59,790" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="preTuras"/>
+   <action sum="200" type="15" no="2" player="POPIOPO"/>
+   <action sum="200" type="15" no="3" player="xxdbxx"/>
+   <action sum="200" type="15" no="4" player="6eOnibus"/>
+   <action sum="200" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="6" player="tropeiro123"/>
+   <action sum="700" type="1" no="7" player="preTuras"/>
+   <action sum="1,400" type="2" no="8" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="9" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="10" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">DA CQ</cards>
+   <action sum="2,800" type="23" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">HK D10</cards>
+   <action sum="2,100" type="3" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="1,400" type="3" no="14" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK C3 D6</cards>
+   <action sum="0" type="4" no="15" player="preTuras"/>
+   <action sum="0" type="4" no="16" player="POPIOPO"/>
+   <action sum="2,400" type="5" no="17" player="tropeiro123"/>
+   <action sum="2,400" type="3" no="18" player="preTuras"/>
+   <action sum="0" type="0" no="19" player="POPIOPO"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action sum="0" type="4" no="20" player="preTuras"/>
+   <action sum="0" type="4" no="21" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+   <action sum="4,326" type="5" no="22" player="preTuras"/>
+   <action sum="47,240" type="23" no="23" player="tropeiro123"/>
+   <action sum="30,985" type="7" no="24" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576841961">
+  <general>
+   <startdate>2024-02-21 17:39:56</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="1" chips="52,420" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="4,700" bet="24,191" reg_code="" seat="2" chips="24,391" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956978781" seat="4" chips="11,929" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="7" chips="85,022" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="" seat="9" chips="81,620" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="10" chips="59,590" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="POPIOPO"/>
+   <action sum="200" type="15" no="2" player="xxdbxx"/>
+   <action sum="200" type="15" no="3" player="6eOnibus"/>
+   <action sum="200" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="5" player="tropeiro123"/>
+   <action sum="200" type="15" no="6" player="preTuras"/>
+   <action sum="700" type="1" no="7" player="POPIOPO"/>
+   <action sum="1,400" type="2" no="8" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="6eOnibus">X X</cards>
+   <action sum="0" type="0" no="9" player="6eOnibus"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="24,191" type="23" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D10 C2</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="14" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576841986">
+  <general>
+   <startdate>2024-02-21 17:40:26</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="52,220" reg_code="" seat="1" chips="52,220" addon="0" name="6eOnibus" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="27,491" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956978781" seat="4" chips="11,729" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="7" chips="84,822" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="9" chips="80,720" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="105,240" bet="57,990" reg_code="" seat="10" chips="57,990" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="xxdbxx"/>
+   <action sum="200" type="15" no="2" player="6eOnibus"/>
+   <action sum="200" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="4" player="tropeiro123"/>
+   <action sum="200" type="15" no="5" player="preTuras"/>
+   <action sum="200" type="15" no="6" player="POPIOPO"/>
+   <action sum="700" type="1" no="7" player="xxdbxx"/>
+   <action sum="1,400" type="2" no="8" player="6eOnibus"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="9" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C3 C7</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">DA D4</cards>
+   <action sum="700" type="3" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="6eOnibus">C5 H9</cards>
+   <action sum="0" type="4" no="14" player="6eOnibus"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 C4 HJ</cards>
+   <action sum="0" type="4" no="15" player="xxdbxx"/>
+   <action sum="0" type="4" no="16" player="6eOnibus"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action sum="0" type="4" no="17" player="xxdbxx"/>
+   <action sum="2,720" type="5" no="18" player="6eOnibus"/>
+   <action sum="2,720" type="3" no="19" player="xxdbxx"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action sum="0" type="4" no="20" player="xxdbxx"/>
+   <action sum="7,929" type="5" no="21" player="6eOnibus"/>
+   <action sum="53,670" type="23" no="22" player="xxdbxx"/>
+   <action sum="39,971" type="7" no="23" player="6eOnibus"/>
+  </round>
+ </game>
+ <game gamecode="10576842126">
+  <general>
+   <startdate>2024-02-21 17:43:08</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="1,000" bet="1,600" reg_code="" seat="2" chips="27,291" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956978781" seat="4" chips="11,529" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="7" chips="84,622" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="80,520" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="10" chips="111,010" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="2" player="tropeiro123"/>
+   <action sum="200" type="15" no="3" player="preTuras"/>
+   <action sum="200" type="15" no="4" player="POPIOPO"/>
+   <action sum="200" type="15" no="5" player="xxdbxx"/>
+   <action sum="1,400" type="2" no="6" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <cards type="Pocket" player="tropeiro123">H9 D7</cards>
+   <action sum="0" type="0" no="7" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="8" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576842147">
+  <general>
+   <startdate>2024-02-21 17:43:37</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="1" chips="96,084" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="" seat="2" chips="28,091" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="7956978781" seat="4" chips="11,329" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="7,500" bet="12,600" reg_code="" seat="7" chips="84,422" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="9" chips="80,320" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="10" chips="110,810" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="tropeiro123"/>
+   <action sum="200" type="15" no="2" player="preTuras"/>
+   <action sum="200" type="15" no="3" player="POPIOPO"/>
+   <action sum="200" type="15" no="4" player="xxdbxx"/>
+   <action sum="200" type="15" no="5" player="LairOfDarkness"/>
+   <action sum="200" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="700" type="1" no="7" player="tropeiro123"/>
+   <action sum="1,400" type="2" no="8" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="2,800" type="23" no="11" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C5 D4</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="12,600" type="23" no="14" player="preTuras"/>
+   <action sum="0" type="0" no="15" player="LairOfDarkness"/>
+  </round>
+ </game>
+ <game gamecode="10576842178">
+  <general>
+   <startdate>2024-02-21 17:44:17</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="4,700" bet="2,800" reg_code="" seat="1" chips="93,084" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="27,891" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="200" reg_code="7956978781" seat="4" chips="10,429" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="900" reg_code="" seat="7" chips="88,922" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,600" reg_code="" seat="9" chips="80,120" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="10" chips="110,610" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="preTuras"/>
+   <action sum="200" type="15" no="2" player="POPIOPO"/>
+   <action sum="200" type="15" no="3" player="xxdbxx"/>
+   <action sum="200" type="15" no="4" player="LairOfDarkness"/>
+   <action sum="200" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="6" player="tropeiro123"/>
+   <action sum="700" type="1" no="7" player="preTuras"/>
+   <action sum="1,400" type="2" no="8" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="9" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="2,800" type="23" no="10" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S2 SK</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="14" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576867239">
+  <general>
+   <startdate>2024-02-21 17:44:53</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="1" chips="96,184" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="" seat="2" chips="27,691" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="200" reg_code="7956978781" seat="4" chips="10,229" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="3,280" reg_code="" seat="7" chips="88,022" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,280" reg_code="" seat="9" chips="78,520" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="10,440" bet="11,110" reg_code="" seat="10" chips="110,410" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="200" type="15" no="1" player="POPIOPO"/>
+   <action sum="200" type="15" no="2" player="xxdbxx"/>
+   <action sum="200" type="15" no="3" player="LairOfDarkness"/>
+   <action sum="200" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="200" type="15" no="5" player="tropeiro123"/>
+   <action sum="200" type="15" no="6" player="preTuras"/>
+   <action sum="700" type="1" no="7" player="POPIOPO"/>
+   <action sum="1,400" type="2" no="8" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="9" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D4 S7</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,080" type="23" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="2,380" type="3" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="1,680" type="3" no="14" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H10 CJ</cards>
+   <action sum="0" type="4" no="15" player="POPIOPO"/>
+   <action sum="0" type="4" no="16" player="xxdbxx"/>
+   <action sum="0" type="4" no="17" player="preTuras"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action sum="0" type="4" no="18" player="POPIOPO"/>
+   <action sum="7,830" type="5" no="19" player="xxdbxx"/>
+   <action sum="0" type="0" no="20" player="preTuras"/>
+   <action sum="0" type="0" no="21" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576867324">
+  <general>
+   <startdate>2024-02-21 17:46:58</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="8,700" bet="13,616" reg_code="" seat="1" chips="95,984" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="27,491" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956978781" seat="4" chips="10,029" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="7" chips="84,742" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="3,450" reg_code="" seat="9" chips="75,240" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="10" chips="117,570" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="xxdbxx"/>
+   <action sum="250" type="15" no="2" player="LairOfDarkness"/>
+   <action sum="250" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="4" player="tropeiro123"/>
+   <action sum="250" type="15" no="5" player="preTuras"/>
+   <action sum="250" type="15" no="6" player="POPIOPO"/>
+   <action sum="800" type="1" no="7" player="xxdbxx"/>
+   <action sum="1,600" type="2" no="8" player="LairOfDarkness"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="9" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C5 H3</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,200" type="23" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="13,616" type="23" no="14" player="LairOfDarkness"/>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576867362">
+  <general>
+   <startdate>2024-02-21 17:47:39</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="27,241" reg_code="" seat="1" chips="101,234" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="59,002" bet="26,991" reg_code="" seat="2" chips="27,241" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956978781" seat="4" chips="9,779" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,770" reg_code="" seat="7" chips="84,492" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="71,790" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="10" chips="116,520" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="LairOfDarkness"/>
+   <action sum="250" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="3" player="tropeiro123"/>
+   <action sum="250" type="15" no="4" player="preTuras"/>
+   <action sum="250" type="15" no="5" player="POPIOPO"/>
+   <action sum="250" type="15" no="6" player="xxdbxx"/>
+   <action sum="800" type="1" no="7" player="LairOfDarkness"/>
+   <action sum="1,600" type="2" no="8" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">CJ H3</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,520" type="23" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">HJ SQ</cards>
+   <action sum="2,720" type="3" no="13" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">C5 D5</cards>
+   <action sum="26,991" type="23" no="14" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+   <action sum="23,471" type="3" no="16" player="LairOfDarkness"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 S8 C8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10576867422">
+  <general>
+   <startdate>2024-02-21 17:49:02</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="1" chips="73,993" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="2" chips="59,002" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="7956978781" seat="4" chips="9,529" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="5,500" bet="3,520" reg_code="" seat="7" chips="80,722" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="71,540" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="10" chips="116,270" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="2" player="tropeiro123"/>
+   <action sum="250" type="15" no="3" player="preTuras"/>
+   <action sum="250" type="15" no="4" player="POPIOPO"/>
+   <action sum="250" type="15" no="5" player="xxdbxx"/>
+   <action sum="250" type="15" no="6" player="LairOfDarkness"/>
+   <action sum="800" type="1" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="1,600" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,520" type="23" no="9" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="10" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="12" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">SJ D5</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576867444">
+  <general>
+   <startdate>2024-02-21 17:49:34</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="4,342" bet="25,606" reg_code="" seat="1" chips="73,743" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="2" chips="57,952" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="25,387" bet="7,679" reg_code="7956978781" seat="4" chips="7,679" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,850" reg_code="" seat="7" chips="84,372" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="71,290" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="9,850" reg_code="" seat="10" chips="116,020" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="tropeiro123"/>
+   <action sum="250" type="15" no="2" player="preTuras"/>
+   <action sum="250" type="15" no="3" player="POPIOPO"/>
+   <action sum="250" type="15" no="4" player="xxdbxx"/>
+   <action sum="250" type="15" no="5" player="LairOfDarkness"/>
+   <action sum="250" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="800" type="1" no="7" player="tropeiro123"/>
+   <action sum="1,600" type="2" no="8" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="3,200" type="23" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">SK S7</cards>
+   <action sum="9,600" type="23" no="11" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HK H10</cards>
+   <action sum="6,629" type="7" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <action sum="6,400" type="3" no="15" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 S10 D8</cards>
+   <action sum="0" type="4" no="16" player="xxdbxx"/>
+   <action sum="0" type="4" no="17" player="LairOfDarkness"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action sum="0" type="4" no="18" player="xxdbxx"/>
+   <action sum="0" type="4" no="19" player="LairOfDarkness"/>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+   <action sum="0" type="4" no="20" player="xxdbxx"/>
+   <action sum="15,756" type="5" no="21" player="LairOfDarkness"/>
+   <action sum="0" type="0" no="22" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576867521">
+  <general>
+   <startdate>2024-02-21 17:51:17</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="68,235" reg_code="" seat="1" chips="68,235" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="57,702" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="7956978781" seat="4" chips="25,387" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="146,553" bet="68,235" reg_code="" seat="7" chips="82,522" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="9,333" reg_code="" seat="9" chips="71,040" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="10" chips="106,170" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="preTuras"/>
+   <action sum="250" type="15" no="2" player="POPIOPO"/>
+   <action sum="250" type="15" no="3" player="xxdbxx"/>
+   <action sum="250" type="15" no="4" player="LairOfDarkness"/>
+   <action sum="250" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="6" player="tropeiro123"/>
+   <action sum="800" type="1" no="7" player="preTuras"/>
+   <action sum="1,600" type="2" no="8" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="9" player="xxdbxx"/>
+   <cards type="Pocket" player="LairOfDarkness">D10 SK</cards>
+   <action sum="3,200" type="23" no="10" player="LairOfDarkness"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S5 CQ</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="preTuras">HK H7</cards>
+   <action sum="2,400" type="3" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="1,600" type="3" no="14" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 D7 S2</cards>
+   <action sum="0" type="4" no="15" player="preTuras"/>
+   <action sum="0" type="4" no="16" player="POPIOPO"/>
+   <action sum="5,883" type="5" no="17" player="LairOfDarkness"/>
+   <action sum="5,883" type="3" no="18" player="preTuras"/>
+   <action sum="5,883" type="3" no="19" player="POPIOPO"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action sum="0" type="4" no="20" player="preTuras"/>
+   <action sum="0" type="4" no="21" player="POPIOPO"/>
+   <action sum="15,236" type="5" no="22" player="LairOfDarkness"/>
+   <action sum="15,236" type="3" no="23" player="preTuras"/>
+   <action sum="0" type="0" no="24" player="POPIOPO"/>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+   <action sum="0" type="4" no="25" player="preTuras"/>
+   <action sum="43,666" type="5" no="26" player="LairOfDarkness"/>
+   <action sum="43,666" type="3" no="27" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576867633">
+  <general>
+   <startdate>2024-02-21 17:53:53</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="2" chips="57,452" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="8,700" bet="5,625" reg_code="7956978781" seat="4" chips="25,137" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="50,000" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="7" chips="160,840" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="9" chips="61,707" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,450" reg_code="" seat="10" chips="105,920" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="POPIOPO"/>
+   <action sum="250" type="15" no="2" player="xxdbxx"/>
+   <action sum="250" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="4" player="tropeiro123"/>
+   <action sum="250" type="15" no="5" player="Vialio"/>
+   <action sum="250" type="15" no="6" player="preTuras"/>
+   <action sum="800" type="1" no="7" player="POPIOPO"/>
+   <action sum="1,600" type="2" no="8" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="9" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">DA DK</cards>
+   <action sum="3,200" type="23" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="11" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="1,600" type="3" no="14" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ CK SA</cards>
+   <action sum="0" type="4" no="15" player="xxdbxx"/>
+   <action sum="2,175" type="5" no="16" player="tropeiro123"/>
+   <action sum="0" type="0" no="17" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576867659">
+  <general>
+   <startdate>2024-02-21 17:54:45</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="7,800" reg_code="" seat="2" chips="57,202" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="7956978781" seat="4" chips="30,387" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="49,750" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="7" chips="160,590" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="17,400" bet="13,542" reg_code="" seat="9" chips="60,657" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="10" chips="102,470" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="xxdbxx"/>
+   <action sum="250" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="3" player="tropeiro123"/>
+   <action sum="250" type="15" no="4" player="Vialio"/>
+   <action sum="250" type="15" no="5" player="preTuras"/>
+   <action sum="250" type="15" no="6" player="POPIOPO"/>
+   <action sum="800" type="1" no="7" player="xxdbxx"/>
+   <action sum="1,600" type="2" no="8" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H4 DQ</cards>
+   <action sum="0" type="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="10" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,200" type="23" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="1,600" type="3" no="14" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 C9 H9</cards>
+   <action sum="0" type="4" no="15" player="KaccyLLIaTaJI"/>
+   <action sum="4,350" type="5" no="16" player="POPIOPO"/>
+   <action sum="4,350" type="3" no="17" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action sum="0" type="4" no="18" player="KaccyLLIaTaJI"/>
+   <action sum="5,742" type="5" no="19" player="POPIOPO"/>
+   <action sum="0" type="0" no="20" player="KaccyLLIaTaJI"/>
+  </round>
+ </game>
+ <game gamecode="10576867712">
+  <general>
+   <startdate>2024-02-21 18:01:33</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,050" reg_code="" seat="2" chips="49,402" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="9,340" bet="29,887" reg_code="7956978781" seat="4" chips="30,137" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="5" chips="49,500" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,770" reg_code="" seat="7" chips="160,340" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="250" reg_code="" seat="9" chips="70,257" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="250" reg_code="" seat="10" chips="101,420" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="250" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="250" type="15" no="2" player="tropeiro123"/>
+   <action sum="250" type="15" no="3" player="Vialio"/>
+   <action sum="250" type="15" no="4" player="preTuras"/>
+   <action sum="250" type="15" no="5" player="POPIOPO"/>
+   <action sum="250" type="15" no="6" player="xxdbxx"/>
+   <action sum="800" type="1" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="1,600" type="2" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="9" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,520" type="23" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">SJ HA</cards>
+   <action sum="29,887" type="23" no="14" player="tropeiro123"/>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576891386">
+  <general>
+   <startdate>2024-02-21 18:02:35</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" win="0" bet="8,038" reg_code="" seat="2" chips="48,352" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="7956978781" seat="4" chips="35,707" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="5" chips="49,250" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="19,876" bet="15,441" reg_code="" seat="7" chips="156,570" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="9" chips="70,007" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="101,170" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="tropeiro123"/>
+   <action sum="275" type="15" no="2" player="Vialio"/>
+   <action sum="275" type="15" no="3" player="preTuras"/>
+   <action sum="275" type="15" no="4" player="POPIOPO"/>
+   <action sum="275" type="15" no="5" player="xxdbxx"/>
+   <action sum="275" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="900" type="1" no="7" player="tropeiro123"/>
+   <action sum="1,800" type="2" no="8" player="Vialio"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,960" type="23" no="9" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="10" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="3,960" type="3" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C2 C10</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="14" player="Vialio"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 S7 S4</cards>
+   <action sum="0" type="4" no="15" player="preTuras"/>
+   <action sum="3,803" type="5" no="16" player="KaccyLLIaTaJI"/>
+   <action sum="11,206" type="23" no="17" player="preTuras"/>
+   <action sum="0" type="0" no="18" player="KaccyLLIaTaJI"/>
+  </round>
+ </game>
+ <game gamecode="10576891439">
+  <general>
+   <startdate>2024-02-21 18:03:49</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="2" chips="40,314" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="11,550" bet="9,720" reg_code="7956978781" seat="4" chips="34,532" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="5" chips="47,175" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="7" chips="168,408" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="" seat="9" chips="69,732" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="100,895" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="Vialio"/>
+   <action sum="275" type="15" no="2" player="preTuras"/>
+   <action sum="275" type="15" no="3" player="POPIOPO"/>
+   <action sum="275" type="15" no="4" player="xxdbxx"/>
+   <action sum="275" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="6" player="tropeiro123"/>
+   <action sum="900" type="1" no="7" player="Vialio"/>
+   <action sum="1,800" type="2" no="8" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,600" type="23" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">CA D9</cards>
+   <action sum="9,720" type="23" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="13" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576891467">
+  <general>
+   <startdate>2024-02-21 18:04:29</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="50,000" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="2" chips="40,039" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956978781" seat="4" chips="42,207" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="5" chips="46,000" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="14,525" bet="10,931" reg_code="" seat="7" chips="166,333" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,575" reg_code="" seat="9" chips="65,857" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="100,620" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="preTuras"/>
+   <action sum="275" type="15" no="2" player="POPIOPO"/>
+   <action sum="275" type="15" no="3" player="xxdbxx"/>
+   <action sum="275" type="15" no="4" player="JackDawson01"/>
+   <action sum="275" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="6" player="tropeiro123"/>
+   <action sum="275" type="15" no="7" player="Vialio"/>
+   <action sum="900" type="1" no="8" player="preTuras"/>
+   <action sum="1,800" type="2" no="9" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="11" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H3 C7</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="14" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="900" type="3" no="15" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="6,300" type="23" no="16" player="POPIOPO"/>
+   <action sum="4,500" type="3" no="17" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D2 S5</cards>
+   <action sum="0" type="4" no="18" player="preTuras"/>
+   <action sum="0" type="4" no="19" player="POPIOPO"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action sum="4,356" type="5" no="20" player="preTuras"/>
+   <action sum="0" type="0" no="21" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576891519">
+  <general>
+   <startdate>2024-02-21 18:05:35</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="49,725" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="2" chips="39,764" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956978781" seat="4" chips="41,932" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="5" chips="45,725" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="1" win="10,745" bet="6,921" reg_code="" seat="7" chips="174,283" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="9" chips="59,282" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,235" reg_code="" seat="10" chips="100,345" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="POPIOPO"/>
+   <action sum="275" type="15" no="2" player="xxdbxx"/>
+   <action sum="275" type="15" no="3" player="JackDawson01"/>
+   <action sum="275" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="5" player="tropeiro123"/>
+   <action sum="275" type="15" no="6" player="Vialio"/>
+   <action sum="275" type="15" no="7" player="preTuras"/>
+   <action sum="900" type="1" no="8" player="POPIOPO"/>
+   <action sum="1,800" type="2" no="9" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="10" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D2 D7</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="13" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="3,960" type="23" no="14" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="2,160" type="3" no="16" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK C4 HQ</cards>
+   <action sum="0" type="4" no="17" player="xxdbxx"/>
+   <action sum="2,686" type="5" no="18" player="preTuras"/>
+   <action sum="0" type="0" no="19" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576891573">
+  <general>
+   <startdate>2024-02-21 18:06:54</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="1" chips="49,450" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="2" chips="39,489" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="7956978781" seat="4" chips="41,657" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="5" chips="45,450" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="180,793" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="3,875" reg_code="" seat="9" chips="58,107" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="14,525" bet="11,137" reg_code="" seat="10" chips="96,110" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="xxdbxx"/>
+   <action sum="275" type="15" no="2" player="JackDawson01"/>
+   <action sum="275" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="4" player="tropeiro123"/>
+   <action sum="275" type="15" no="5" player="Vialio"/>
+   <action sum="275" type="15" no="6" player="preTuras"/>
+   <action sum="275" type="15" no="7" player="POPIOPO"/>
+   <action sum="900" type="1" no="8" player="xxdbxx"/>
+   <action sum="1,800" type="2" no="9" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HK H8</cards>
+   <action sum="3,600" type="23" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="12" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,600" type="3" no="14" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="2,700" type="3" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="16" player="JackDawson01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 CA HQ</cards>
+   <action sum="7,262" type="5" no="17" player="xxdbxx"/>
+   <action sum="0" type="0" no="18" player="tropeiro123"/>
+   <action sum="0" type="0" no="19" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576891605">
+  <general>
+   <startdate>2024-02-21 18:07:37</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="1" chips="47,375" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,875" reg_code="" seat="2" chips="39,214" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="7956978781" seat="4" chips="37,782" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="5" chips="45,175" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="180,518" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="9" chips="54,232" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="10,025" bet="8,887" reg_code="" seat="10" chips="106,760" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="JackDawson01"/>
+   <action sum="275" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="3" player="tropeiro123"/>
+   <action sum="275" type="15" no="4" player="Vialio"/>
+   <action sum="275" type="15" no="5" player="preTuras"/>
+   <action sum="275" type="15" no="6" player="POPIOPO"/>
+   <action sum="275" type="15" no="7" player="xxdbxx"/>
+   <action sum="900" type="1" no="8" player="JackDawson01"/>
+   <action sum="1,800" type="2" no="9" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C9 D5</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="11" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="3,600" type="23" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="1,800" type="3" no="16" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 D4 C7</cards>
+   <action sum="0" type="4" no="17" player="KaccyLLIaTaJI"/>
+   <action sum="5,012" type="5" no="18" player="xxdbxx"/>
+   <action sum="0" type="0" no="19" player="KaccyLLIaTaJI"/>
+  </round>
+ </game>
+ <game gamecode="10576891646">
+  <general>
+   <startdate>2024-02-21 18:08:31</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="1" chips="46,200" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="2" chips="35,339" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,881" reg_code="7956978781" seat="4" chips="37,507" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="16,037" bet="12,623" reg_code="" seat="5" chips="44,900" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="180,243" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="9" chips="53,957" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="112,910" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="2" player="tropeiro123"/>
+   <action sum="275" type="15" no="3" player="Vialio"/>
+   <action sum="275" type="15" no="4" player="preTuras"/>
+   <action sum="275" type="15" no="5" player="POPIOPO"/>
+   <action sum="275" type="15" no="6" player="xxdbxx"/>
+   <action sum="275" type="15" no="7" player="JackDawson01"/>
+   <action sum="900" type="1" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="1,800" type="2" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="3,960" type="23" no="10" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H4 HQ</cards>
+   <action sum="2,160" type="3" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ CK DA</cards>
+   <action sum="0" type="4" no="17" player="tropeiro123"/>
+   <action sum="2,646" type="5" no="18" player="Vialio"/>
+   <action sum="2,646" type="3" no="19" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action sum="0" type="4" no="20" player="tropeiro123"/>
+   <action sum="5,742" type="5" no="21" player="Vialio"/>
+   <action sum="0" type="0" no="22" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576891706">
+  <general>
+   <startdate>2024-02-21 18:10:06</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="45,925" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="" seat="2" chips="34,164" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="5,525" bet="3,875" reg_code="7956978781" seat="4" chips="30,626" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,075" reg_code="" seat="5" chips="54,056" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="7" chips="179,968" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="9" chips="53,682" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="112,635" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="tropeiro123"/>
+   <action sum="275" type="15" no="2" player="Vialio"/>
+   <action sum="275" type="15" no="3" player="preTuras"/>
+   <action sum="275" type="15" no="4" player="POPIOPO"/>
+   <action sum="275" type="15" no="5" player="xxdbxx"/>
+   <action sum="275" type="15" no="6" player="JackDawson01"/>
+   <action sum="275" type="15" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="900" type="1" no="8" player="tropeiro123"/>
+   <action sum="1,800" type="2" no="9" player="Vialio"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="13" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HQ D2</cards>
+   <action sum="900" type="3" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="4" no="16" player="Vialio"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ CK S2</cards>
+   <action sum="1,800" type="5" no="17" player="tropeiro123"/>
+   <action sum="0" type="0" no="18" player="Vialio"/>
+  </round>
+ </game>
+ <game gamecode="10576891740">
+  <general>
+   <startdate>2024-02-21 18:11:10</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="1" chips="45,650" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="2" chips="33,889" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="275" reg_code="7956978781" seat="4" chips="34,076" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,175" reg_code="" seat="5" chips="51,981" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,887" reg_code="" seat="7" chips="179,693" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="20,049" bet="18,911" reg_code="" seat="9" chips="53,407" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="275" reg_code="" seat="10" chips="112,360" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="275" type="15" no="1" player="Vialio"/>
+   <action sum="275" type="15" no="2" player="preTuras"/>
+   <action sum="275" type="15" no="3" player="POPIOPO"/>
+   <action sum="275" type="15" no="4" player="xxdbxx"/>
+   <action sum="275" type="15" no="5" player="JackDawson01"/>
+   <action sum="275" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="275" type="15" no="7" player="tropeiro123"/>
+   <action sum="900" type="1" no="8" player="Vialio"/>
+   <action sum="1,800" type="2" no="9" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,600" type="23" no="10" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="12" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C9 DK</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="15" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="1,800" type="3" no="16" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H7 H3</cards>
+   <action sum="0" type="4" no="17" player="preTuras"/>
+   <action sum="5,012" type="5" no="18" player="POPIOPO"/>
+   <action sum="5,012" type="3" no="19" player="preTuras"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action sum="0" type="4" no="20" player="preTuras"/>
+   <action sum="0" type="4" no="21" player="POPIOPO"/>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+   <action sum="0" type="4" no="22" player="preTuras"/>
+   <action sum="10,024" type="5" no="23" player="POPIOPO"/>
+   <action sum="0" type="0" no="24" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576891789">
+  <general>
+   <startdate>2024-02-21 18:12:21</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="11,100" bet="6,300" reg_code="" seat="1" chips="45,375" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="33,614" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="33,801" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="5" chips="50,806" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="7" chips="170,806" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,300" reg_code="" seat="9" chips="64,569" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="112,085" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="preTuras"/>
+   <action sum="300" type="15" no="2" player="POPIOPO"/>
+   <action sum="300" type="15" no="3" player="xxdbxx"/>
+   <action sum="300" type="15" no="4" player="JackDawson01"/>
+   <action sum="300" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="6" player="tropeiro123"/>
+   <action sum="300" type="15" no="7" player="Vialio"/>
+   <action sum="1,000" type="1" no="8" player="preTuras"/>
+   <action sum="2,000" type="2" no="9" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="4,000" type="23" no="11" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C9 D10</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="14" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="2,000" type="3" no="16" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA HQ CQ</cards>
+   <action sum="0" type="4" no="17" player="POPIOPO"/>
+   <action sum="2,000" type="5" no="18" player="JackDawson01"/>
+   <action sum="0" type="0" no="19" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576891808">
+  <general>
+   <startdate>2024-02-21 18:12:54</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="9,283" reg_code="" seat="1" chips="52,175" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="33,314" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="33,501" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,300" reg_code="" seat="5" chips="50,506" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="7" chips="169,506" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="9" chips="60,269" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="25,066" bet="9,283" reg_code="" seat="10" chips="111,785" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="POPIOPO"/>
+   <action sum="300" type="15" no="2" player="xxdbxx"/>
+   <action sum="300" type="15" no="3" player="JackDawson01"/>
+   <action sum="300" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="5" player="tropeiro123"/>
+   <action sum="300" type="15" no="6" player="Vialio"/>
+   <action sum="300" type="15" no="7" player="preTuras"/>
+   <action sum="1,000" type="1" no="8" player="POPIOPO"/>
+   <action sum="2,000" type="2" no="9" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">C9 C10</cards>
+   <action sum="4,000" type="23" no="10" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H9 D7</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="4,000" type="3" no="13" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">H3 C5</cards>
+   <action sum="2,000" type="3" no="16" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H5 H6</cards>
+   <action sum="0" type="4" no="17" player="xxdbxx"/>
+   <action sum="4,983" type="5" no="18" player="JackDawson01"/>
+   <action sum="0" type="0" no="19" player="Vialio"/>
+   <action sum="4,983" type="3" no="20" player="xxdbxx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action sum="0" type="4" no="21" player="xxdbxx"/>
+   <action sum="0" type="4" no="22" player="JackDawson01"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action sum="0" type="4" no="23" player="xxdbxx"/>
+   <action sum="0" type="4" no="24" player="JackDawson01"/>
+  </round>
+ </game>
+ <game gamecode="10576891860">
+  <general>
+   <startdate>2024-02-21 18:14:19</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="18,980" bet="20,240" reg_code="" seat="1" chips="42,892" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="33,014" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="33,201" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,240" reg_code="" seat="5" chips="46,206" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="169,206" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="9" chips="58,969" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="10" chips="127,568" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="xxdbxx"/>
+   <action sum="300" type="15" no="2" player="JackDawson01"/>
+   <action sum="300" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="4" player="tropeiro123"/>
+   <action sum="300" type="15" no="5" player="Vialio"/>
+   <action sum="300" type="15" no="6" player="preTuras"/>
+   <action sum="300" type="15" no="7" player="POPIOPO"/>
+   <action sum="1,000" type="1" no="8" player="xxdbxx"/>
+   <action sum="2,000" type="2" no="9" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D4 H5</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="4,400" type="23" no="12" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="14" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="2,400" type="3" no="16" player="JackDawson01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 D8 HA</cards>
+   <action sum="0" type="4" no="17" player="JackDawson01"/>
+   <action sum="3,540" type="5" no="18" player="Vialio"/>
+   <action sum="3,540" type="3" no="19" player="JackDawson01"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action sum="0" type="4" no="20" player="JackDawson01"/>
+   <action sum="0" type="4" no="21" player="Vialio"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action sum="12,000" type="5" no="22" player="JackDawson01"/>
+   <action sum="0" type="0" no="23" player="Vialio"/>
+  </round>
+ </game>
+ <game gamecode="10576931259">
+  <general>
+   <startdate>2024-02-21 18:16:09</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="1" chips="53,632" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,300" reg_code="" seat="2" chips="32,714" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="32,901" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="5" chips="37,966" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="168,906" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="9" chips="58,669" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="11,100" bet="9,850" reg_code="" seat="10" chips="126,268" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="JackDawson01"/>
+   <action sum="300" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="3" player="tropeiro123"/>
+   <action sum="300" type="15" no="4" player="Vialio"/>
+   <action sum="300" type="15" no="5" player="preTuras"/>
+   <action sum="300" type="15" no="6" player="POPIOPO"/>
+   <action sum="300" type="15" no="7" player="xxdbxx"/>
+   <action sum="1,000" type="1" no="8" player="JackDawson01"/>
+   <action sum="2,000" type="2" no="9" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C7 S5</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="11" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="4,000" type="23" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="2,000" type="3" no="16" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H2 CQ</cards>
+   <action sum="0" type="4" no="17" player="KaccyLLIaTaJI"/>
+   <action sum="5,550" type="5" no="18" player="xxdbxx"/>
+   <action sum="0" type="0" no="19" player="KaccyLLIaTaJI"/>
+  </round>
+ </game>
+ <game gamecode="10576931291">
+  <general>
+   <startdate>2024-02-21 18:17:02</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="1" chips="52,332" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="2" chips="28,414" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,700" reg_code="7956978781" seat="4" chips="32,601" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="5" chips="37,666" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="11,900" bet="7,675" reg_code="" seat="7" chips="168,606" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="9" chips="58,369" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="133,068" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="2" player="tropeiro123"/>
+   <action sum="300" type="15" no="3" player="Vialio"/>
+   <action sum="300" type="15" no="4" player="preTuras"/>
+   <action sum="300" type="15" no="5" player="POPIOPO"/>
+   <action sum="300" type="15" no="6" player="xxdbxx"/>
+   <action sum="300" type="15" no="7" player="JackDawson01"/>
+   <action sum="1,000" type="1" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="2,000" type="2" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="10" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="4,400" type="23" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HK S10</cards>
+   <action sum="2,400" type="3" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S3 H4</cards>
+   <action sum="0" type="4" no="17" player="tropeiro123"/>
+   <action sum="2,975" type="5" no="18" player="preTuras"/>
+   <action sum="0" type="0" no="19" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10576931318">
+  <general>
+   <startdate>2024-02-21 18:17:48</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="51,732" reg_code="" seat="1" chips="52,032" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="2" chips="27,114" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="7956978781" seat="4" chips="27,901" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,300" reg_code="" seat="5" chips="37,366" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="175,806" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="9" chips="58,069" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="108,564" bet="52,032" reg_code="" seat="10" chips="132,768" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="tropeiro123"/>
+   <action sum="300" type="15" no="2" player="Vialio"/>
+   <action sum="300" type="15" no="3" player="preTuras"/>
+   <action sum="300" type="15" no="4" player="POPIOPO"/>
+   <action sum="300" type="15" no="5" player="xxdbxx"/>
+   <action sum="300" type="15" no="6" player="JackDawson01"/>
+   <action sum="300" type="15" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="1,000" type="1" no="8" player="tropeiro123"/>
+   <action sum="2,000" type="2" no="9" player="Vialio"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="10" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">S9 C9</cards>
+   <action sum="4,000" type="23" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">C3 H3</cards>
+   <action sum="51,732" type="23" no="13" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H5 HQ</cards>
+   <action sum="0" type="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="16" player="Vialio"/>
+   <action sum="47,732" type="3" no="17" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK CK C6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+ <game gamecode="10576931343">
+  <general>
+   <startdate>2024-02-21 18:18:26</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="55,828" bet="26,514" reg_code="" seat="2" chips="26,814" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="7956978781" seat="4" chips="26,601" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="5" chips="35,066" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="26,814" reg_code="" seat="7" chips="175,506" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="9" chips="57,769" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="189,300" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="Vialio"/>
+   <action sum="300" type="15" no="2" player="preTuras"/>
+   <action sum="300" type="15" no="3" player="POPIOPO"/>
+   <action sum="300" type="15" no="4" player="xxdbxx"/>
+   <action sum="300" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="6" player="tropeiro123"/>
+   <action sum="1,000" type="1" no="7" player="Vialio"/>
+   <action sum="2,000" type="2" no="8" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="9" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="10" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">SQ HA</cards>
+   <action sum="26,514" type="23" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C2 C9</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="13" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">HQ H10</cards>
+   <action sum="24,514" type="3" no="14" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 SA DJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+ <game gamecode="10576931363">
+  <general>
+   <startdate>2024-02-21 18:19:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="55,828" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="26,301" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="5" chips="33,766" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="10,300" reg_code="" seat="7" chips="148,692" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="21,800" bet="21,200" reg_code="" seat="9" chips="57,469" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="10" chips="189,000" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="preTuras"/>
+   <action sum="300" type="15" no="2" player="POPIOPO"/>
+   <action sum="300" type="15" no="3" player="xxdbxx"/>
+   <action sum="300" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="5" player="tropeiro123"/>
+   <action sum="300" type="15" no="6" player="Vialio"/>
+   <action sum="1,000" type="1" no="7" player="preTuras"/>
+   <action sum="2,000" type="2" no="8" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="9" player="xxdbxx"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HQ C2</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="12" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="1,000" type="3" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="10,000" type="23" no="14" player="POPIOPO"/>
+   <action sum="8,000" type="3" no="15" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S2 S6</cards>
+   <action sum="0" type="4" no="16" player="preTuras"/>
+   <action sum="10,900" type="5" no="17" player="POPIOPO"/>
+   <action sum="0" type="0" no="18" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576931405">
+  <general>
+   <startdate>2024-02-21 18:20:13</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="11,100" bet="7,963" reg_code="" seat="1" chips="50,000" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="55,528" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="26,001" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="5" chips="33,466" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="7" chips="138,392" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="9" chips="68,969" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,300" reg_code="" seat="10" chips="188,700" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="POPIOPO"/>
+   <action sum="300" type="15" no="2" player="xxdbxx"/>
+   <action sum="300" type="15" no="3" player="JackDawson01"/>
+   <action sum="300" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="5" player="tropeiro123"/>
+   <action sum="300" type="15" no="6" player="Vialio"/>
+   <action sum="300" type="15" no="7" player="preTuras"/>
+   <action sum="1,000" type="1" no="8" player="POPIOPO"/>
+   <action sum="2,000" type="2" no="9" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="4,000" type="23" no="10" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S9 HK</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="13" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="2,000" type="3" no="16" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 CJ SQ</cards>
+   <action sum="0" type="4" no="17" player="xxdbxx"/>
+   <action sum="3,663" type="5" no="18" player="JackDawson01"/>
+   <action sum="0" type="0" no="19" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576931425">
+  <general>
+   <startdate>2024-02-21 18:20:49</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,300" reg_code="" seat="1" chips="56,800" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="2" chips="55,228" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="25,701" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="13,100" bet="9,520" reg_code="" seat="5" chips="33,166" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,300" reg_code="" seat="7" chips="138,092" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="9" chips="67,669" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="10" chips="184,400" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="xxdbxx"/>
+   <action sum="300" type="15" no="2" player="JackDawson01"/>
+   <action sum="300" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="4" player="tropeiro123"/>
+   <action sum="300" type="15" no="5" player="Vialio"/>
+   <action sum="300" type="15" no="6" player="preTuras"/>
+   <action sum="300" type="15" no="7" player="POPIOPO"/>
+   <action sum="1,000" type="1" no="8" player="xxdbxx"/>
+   <action sum="2,000" type="2" no="9" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D7 H4</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="4,000" type="23" no="12" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="4,000" type="3" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="14" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="16" player="JackDawson01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 D4 H3</cards>
+   <action sum="5,220" type="5" no="17" player="Vialio"/>
+   <action sum="0" type="0" no="18" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576931468">
+  <general>
+   <startdate>2024-02-21 18:21:59</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,300" reg_code="" seat="1" chips="54,500" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="22,200" bet="16,732" reg_code="" seat="2" chips="54,928" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="7956978781" seat="4" chips="25,401" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="5" chips="41,966" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="300" reg_code="" seat="7" chips="133,792" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="9,850" reg_code="" seat="9" chips="67,369" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="300" reg_code="" seat="10" chips="183,100" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="300" type="15" no="1" player="JackDawson01"/>
+   <action sum="300" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="300" type="15" no="3" player="tropeiro123"/>
+   <action sum="300" type="15" no="4" player="Vialio"/>
+   <action sum="300" type="15" no="5" player="preTuras"/>
+   <action sum="300" type="15" no="6" player="POPIOPO"/>
+   <action sum="300" type="15" no="7" player="xxdbxx"/>
+   <action sum="1,000" type="1" no="8" player="JackDawson01"/>
+   <action sum="2,000" type="2" no="9" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H10 S3</cards>
+   <action sum="0" type="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="11" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="4,000" type="23" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="2,000" type="3" no="16" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK D4 C8</cards>
+   <action sum="0" type="4" no="17" player="KaccyLLIaTaJI"/>
+   <action sum="5,550" type="5" no="18" player="POPIOPO"/>
+   <action sum="5,550" type="3" no="19" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action sum="0" type="4" no="20" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="4" no="21" player="POPIOPO"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action sum="6,882" type="5" no="22" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="0" no="23" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576931538">
+  <general>
+   <startdate>2024-02-21 18:23:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="1" chips="53,200" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="17,800" bet="66,878" reg_code="" seat="2" chips="67,278" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,400" reg_code="7956978781" seat="4" chips="25,101" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,400" reg_code="" seat="5" chips="41,666" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="7" chips="133,492" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="9" chips="57,519" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="10" chips="182,800" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="2" player="tropeiro123"/>
+   <action sum="400" type="15" no="3" player="Vialio"/>
+   <action sum="400" type="15" no="4" player="preTuras"/>
+   <action sum="400" type="15" no="5" player="POPIOPO"/>
+   <action sum="400" type="15" no="6" player="xxdbxx"/>
+   <action sum="400" type="15" no="7" player="JackDawson01"/>
+   <action sum="1,500" type="1" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="3,000" type="2" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="6,000" type="23" no="10" player="Vialio"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="66,878" type="23" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H8 C6</cards>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+   <action sum="0" type="0" no="17" player="Vialio"/>
+  </round>
+ </game>
+ <game gamecode="10576931562">
+  <general>
+   <startdate>2024-02-21 18:24:07</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="1" chips="52,800" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="2" chips="78,678" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,900" reg_code="7956978781" seat="4" chips="21,701" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,400" reg_code="" seat="5" chips="35,266" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="6" chips="50,000" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="36,320" bet="37,540" reg_code="" seat="7" chips="133,092" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="9" chips="57,119" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="13,210" reg_code="" seat="10" chips="182,400" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="tropeiro123"/>
+   <action sum="400" type="15" no="2" player="Vialio"/>
+   <action sum="400" type="15" no="3" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="4" player="preTuras"/>
+   <action sum="400" type="15" no="5" player="POPIOPO"/>
+   <action sum="400" type="15" no="6" player="xxdbxx"/>
+   <action sum="400" type="15" no="7" player="JackDawson01"/>
+   <action sum="400" type="15" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="1,500" type="1" no="9" player="tropeiro123"/>
+   <action sum="3,000" type="2" no="10" player="Vialio"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="11" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="6,000" type="23" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="6,000" type="3" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="16" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H6 D8</cards>
+   <action sum="0" type="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="3,000" type="3" no="18" player="Vialio"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 D9 CA</cards>
+   <action sum="0" type="4" no="19" player="Vialio"/>
+   <action sum="0" type="4" no="20" player="preTuras"/>
+   <action sum="0" type="4" no="21" player="xxdbxx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action sum="0" type="4" no="22" player="Vialio"/>
+   <action sum="6,810" type="5" no="23" player="preTuras"/>
+   <action sum="6,810" type="3" no="24" player="xxdbxx"/>
+   <action sum="0" type="0" no="25" player="Vialio"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action sum="24,330" type="5" no="26" player="preTuras"/>
+   <action sum="0" type="0" no="27" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576955629">
+  <general>
+   <startdate>2024-02-21 18:26:09</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="1" chips="52,400" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="10,700" bet="77,878" reg_code="" seat="2" chips="78,278" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="7956978781" seat="4" chips="19,801" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,900" reg_code="" seat="5" chips="28,866" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,400" reg_code="" seat="6" chips="49,600" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="7" chips="156,202" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="9" chips="56,719" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="10" chips="169,190" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="Vialio"/>
+   <action sum="400" type="15" no="2" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="3" player="preTuras"/>
+   <action sum="400" type="15" no="4" player="POPIOPO"/>
+   <action sum="400" type="15" no="5" player="xxdbxx"/>
+   <action sum="400" type="15" no="6" player="JackDawson01"/>
+   <action sum="400" type="15" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="8" player="tropeiro123"/>
+   <action sum="1,500" type="1" no="9" player="Vialio"/>
+   <action sum="3,000" type="2" no="10" player="LairOfDarkness"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="77,878" type="23" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C9 S3</cards>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="17" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="18" player="LairOfDarkness"/>
+  </round>
+ </game>
+ <game gamecode="10576955656">
+  <general>
+   <startdate>2024-02-21 18:27:04</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="1" chips="52,000" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="2" chips="85,578" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="7956978781" seat="4" chips="19,401" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="5" chips="26,966" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,400" reg_code="" seat="6" chips="46,200" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="15,200" bet="16,584" reg_code="" seat="7" chips="155,802" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="9" chips="56,319" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="10" chips="168,790" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="2" player="preTuras"/>
+   <action sum="400" type="15" no="3" player="POPIOPO"/>
+   <action sum="400" type="15" no="4" player="xxdbxx"/>
+   <action sum="400" type="15" no="5" player="JackDawson01"/>
+   <action sum="400" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="7" player="tropeiro123"/>
+   <action sum="400" type="15" no="8" player="Vialio"/>
+   <action sum="1,500" type="1" no="9" player="LairOfDarkness"/>
+   <action sum="3,000" type="2" no="10" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="13" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D3 SQ</cards>
+   <action sum="0" type="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="16" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="1,500" type="3" no="17" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="4" no="18" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 CA C5</cards>
+   <action sum="0" type="4" no="19" player="LairOfDarkness"/>
+   <action sum="3,000" type="5" no="20" player="preTuras"/>
+   <action sum="3,000" type="3" no="21" player="LairOfDarkness"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action sum="0" type="4" no="22" player="LairOfDarkness"/>
+   <action sum="0" type="4" no="23" player="preTuras"/>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+   <action sum="0" type="4" no="24" player="LairOfDarkness"/>
+   <action sum="10,184" type="5" no="25" player="preTuras"/>
+   <action sum="0" type="0" no="26" player="LairOfDarkness"/>
+  </round>
+ </game>
+ <game gamecode="10576955741">
+  <general>
+   <startdate>2024-02-21 18:29:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="1" chips="51,600" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="2" chips="85,178" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="7956978781" seat="4" chips="19,001" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="5" chips="26,566" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="6" chips="39,800" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,900" reg_code="" seat="7" chips="164,602" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="6,400" reg_code="" seat="9" chips="55,919" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="16,700" bet="14,750" reg_code="" seat="10" chips="168,390" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="preTuras"/>
+   <action sum="400" type="15" no="2" player="POPIOPO"/>
+   <action sum="400" type="15" no="3" player="xxdbxx"/>
+   <action sum="400" type="15" no="4" player="JackDawson01"/>
+   <action sum="400" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="6" player="tropeiro123"/>
+   <action sum="400" type="15" no="7" player="Vialio"/>
+   <action sum="400" type="15" no="8" player="LairOfDarkness"/>
+   <action sum="1,500" type="1" no="9" player="preTuras"/>
+   <action sum="3,000" type="2" no="10" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="6,000" type="23" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="12" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S8 C6</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="0" type="0" no="15" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="16" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="17" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="3,000" type="3" no="18" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 SA SK</cards>
+   <action sum="0" type="4" no="19" player="POPIOPO"/>
+   <action sum="8,350" type="5" no="20" player="xxdbxx"/>
+   <action sum="0" type="0" no="21" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576955759">
+  <general>
+   <startdate>2024-02-21 18:30:02</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="1" chips="51,200" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="2" chips="84,778" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="7956978781" seat="4" chips="18,601" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="10,700" bet="25,766" reg_code="" seat="5" chips="26,166" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="6" chips="39,400" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="7" chips="162,702" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,900" reg_code="" seat="9" chips="49,519" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,400" reg_code="" seat="10" chips="178,690" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="POPIOPO"/>
+   <action sum="400" type="15" no="2" player="xxdbxx"/>
+   <action sum="400" type="15" no="3" player="JackDawson01"/>
+   <action sum="400" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="5" player="tropeiro123"/>
+   <action sum="400" type="15" no="6" player="Vialio"/>
+   <action sum="400" type="15" no="7" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="8" player="preTuras"/>
+   <action sum="1,500" type="1" no="9" player="POPIOPO"/>
+   <action sum="3,000" type="2" no="10" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="11" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">CJ S9</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="25,766" type="23" no="14" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="15" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="16" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="17" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="18" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576955788">
+  <general>
+   <startdate>2024-02-21 18:30:51</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="3,400" reg_code="" seat="1" chips="50,800" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="2" chips="84,378" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="7956978781" seat="4" chips="18,201" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="10,700" bet="6,000" reg_code="" seat="5" chips="33,466" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="6" chips="39,000" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="7" chips="162,302" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="9" chips="47,619" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="1,900" reg_code="" seat="10" chips="175,290" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="xxdbxx"/>
+   <action sum="400" type="15" no="2" player="JackDawson01"/>
+   <action sum="400" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="4" player="tropeiro123"/>
+   <action sum="400" type="15" no="5" player="Vialio"/>
+   <action sum="400" type="15" no="6" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="7" player="preTuras"/>
+   <action sum="400" type="15" no="8" player="POPIOPO"/>
+   <action sum="1,500" type="1" no="9" player="xxdbxx"/>
+   <action sum="3,000" type="2" no="10" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">DK C7</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">X X</cards>
+   <action sum="6,000" type="23" no="13" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="14" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="16" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="17" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="18" player="JackDawson01"/>
+  </round>
+ </game>
+ <game gamecode="10576955820">
+  <general>
+   <startdate>2024-02-21 18:31:44</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" win="0" bet="1,900" reg_code="" seat="1" chips="47,400" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,400" reg_code="" seat="2" chips="83,978" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="7956978781" seat="4" chips="17,801" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="40,366" reg_code="" seat="5" chips="40,766" addon="0" name="Vialio" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="6" chips="38,600" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="400" reg_code="" seat="7" chips="161,902" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="88,432" bet="47,219" reg_code="" seat="9" chips="47,219" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="400" reg_code="" seat="10" chips="173,390" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="400" type="15" no="1" player="JackDawson01"/>
+   <action sum="400" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="400" type="15" no="3" player="tropeiro123"/>
+   <action sum="400" type="15" no="4" player="Vialio"/>
+   <action sum="400" type="15" no="5" player="LairOfDarkness"/>
+   <action sum="400" type="15" no="6" player="preTuras"/>
+   <action sum="400" type="15" no="7" player="POPIOPO"/>
+   <action sum="400" type="15" no="8" player="xxdbxx"/>
+   <action sum="1,500" type="1" no="9" player="JackDawson01"/>
+   <action sum="3,000" type="2" no="10" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C6 SJ</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Vialio">CJ CQ</cards>
+   <action sum="40,366" type="23" no="12" player="Vialio"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="13" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">CA C10</cards>
+   <action sum="46,819" type="7" no="15" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="16" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="17" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="18" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA D5 H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+ <game gamecode="10576955850">
+  <general>
+   <startdate>2024-02-21 18:32:35</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="1" chips="45,500" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="28,000" reg_code="" seat="2" chips="80,578" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="37,502" bet="17,401" reg_code="7956978781" seat="4" chips="17,401" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="5" chips="50,000" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="6" chips="38,200" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="7" chips="161,502" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="94,885" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="10" chips="172,990" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="2" player="tropeiro123"/>
+   <action sum="450" type="15" no="3" player="pacanchuvak"/>
+   <action sum="450" type="15" no="4" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="5" player="preTuras"/>
+   <action sum="450" type="15" no="6" player="POPIOPO"/>
+   <action sum="450" type="15" no="7" player="xxdbxx"/>
+   <action sum="450" type="15" no="8" player="JackDawson01"/>
+   <action sum="2,000" type="1" no="9" player="KaccyLLIaTaJI"/>
+   <action sum="4,000" type="2" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="11" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="12" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="14" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="16" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">HQ D8</cards>
+   <action sum="28,000" type="23" no="17" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S6 DA</cards>
+   <action sum="12,951" type="7" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 H4 H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+  </round>
+ </game>
+ <game gamecode="10576955878">
+  <general>
+   <startdate>2024-02-21 18:33:29</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="25,600" bet="44,600" reg_code="" seat="1" chips="45,050" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="2" chips="63,177" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="7956978781" seat="4" chips="37,502" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="" seat="5" chips="49,550" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="6" chips="37,750" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,450" reg_code="" seat="7" chips="161,052" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="94,435" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="10" chips="172,540" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="tropeiro123"/>
+   <action sum="450" type="15" no="2" player="pacanchuvak"/>
+   <action sum="450" type="15" no="3" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="4" player="preTuras"/>
+   <action sum="450" type="15" no="5" player="POPIOPO"/>
+   <action sum="450" type="15" no="6" player="xxdbxx"/>
+   <action sum="450" type="15" no="7" player="JackDawson01"/>
+   <action sum="450" type="15" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="2,000" type="1" no="9" player="tropeiro123"/>
+   <action sum="4,000" type="2" no="10" player="pacanchuvak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="11" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="8,000" type="23" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="44,600" type="23" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="16" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">HK HJ</cards>
+   <action sum="0" type="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="18" player="pacanchuvak"/>
+   <action sum="0" type="0" no="19" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576955929">
+  <general>
+   <startdate>2024-02-21 18:34:54</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="25,600" bet="61,750" reg_code="" seat="1" chips="62,200" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="2" chips="62,727" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="7956978781" seat="4" chips="35,052" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="5" chips="45,100" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="" seat="6" chips="37,300" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="7" chips="152,602" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="93,985" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,450" reg_code="" seat="10" chips="172,090" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="pacanchuvak"/>
+   <action sum="450" type="15" no="2" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="3" player="preTuras"/>
+   <action sum="450" type="15" no="4" player="POPIOPO"/>
+   <action sum="450" type="15" no="5" player="xxdbxx"/>
+   <action sum="450" type="15" no="6" player="JackDawson01"/>
+   <action sum="450" type="15" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="8" player="tropeiro123"/>
+   <action sum="2,000" type="1" no="9" player="pacanchuvak"/>
+   <action sum="4,000" type="2" no="10" player="LairOfDarkness"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="8,000" type="23" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="61,750" type="23" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H2 C8</cards>
+   <action sum="0" type="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="17" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="18" player="LairOfDarkness"/>
+   <action sum="0" type="0" no="19" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576955952">
+  <general>
+   <startdate>2024-02-21 18:35:26</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="25,600" bet="78,900" reg_code="" seat="1" chips="79,350" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="2" chips="62,277" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="7956978781" seat="4" chips="34,602" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="5" chips="42,650" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="6" chips="32,850" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="" seat="7" chips="152,152" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,450" reg_code="" seat="9" chips="93,535" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="10" chips="163,640" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="2" player="preTuras"/>
+   <action sum="450" type="15" no="3" player="POPIOPO"/>
+   <action sum="450" type="15" no="4" player="xxdbxx"/>
+   <action sum="450" type="15" no="5" player="JackDawson01"/>
+   <action sum="450" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="7" player="tropeiro123"/>
+   <action sum="450" type="15" no="8" player="pacanchuvak"/>
+   <action sum="2,000" type="1" no="9" player="LairOfDarkness"/>
+   <action sum="4,000" type="2" no="10" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="8,000" type="23" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="78,900" type="23" no="13" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C3 DA</cards>
+   <action sum="0" type="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="16" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="17" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="18" player="preTuras"/>
+   <action sum="0" type="0" no="19" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576955988">
+  <general>
+   <startdate>2024-02-21 18:36:42</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="1" chips="96,500" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="2" chips="61,827" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="7956978781" seat="4" chips="34,152" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="5" chips="42,200" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="6" chips="30,400" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="94,989" bet="147,702" reg_code="" seat="7" chips="147,702" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="94,989" bet="85,085" reg_code="" seat="9" chips="85,085" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="17,558" reg_code="" seat="10" chips="163,190" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="preTuras"/>
+   <action sum="450" type="15" no="2" player="POPIOPO"/>
+   <action sum="450" type="15" no="3" player="xxdbxx"/>
+   <action sum="450" type="15" no="4" player="JackDawson01"/>
+   <action sum="450" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="6" player="tropeiro123"/>
+   <action sum="450" type="15" no="7" player="pacanchuvak"/>
+   <action sum="450" type="15" no="8" player="LairOfDarkness"/>
+   <action sum="2,000" type="1" no="9" player="preTuras"/>
+   <action sum="4,000" type="2" no="10" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="8,000" type="23" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="12" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C6 H8</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="15" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="16" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">CA C7</cards>
+   <action sum="6,000" type="3" no="17" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">H7 S6</cards>
+   <action sum="4,000" type="3" no="18" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 S8 H6</cards>
+   <action sum="0" type="4" no="19" player="preTuras"/>
+   <action sum="0" type="4" no="20" player="POPIOPO"/>
+   <action sum="9,108" type="5" no="21" player="xxdbxx"/>
+   <action sum="9,108" type="3" no="22" player="preTuras"/>
+   <action sum="9,108" type="3" no="23" player="POPIOPO"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action sum="0" type="4" no="24" player="preTuras"/>
+   <action sum="0" type="4" no="25" player="POPIOPO"/>
+   <action sum="0" type="4" no="26" player="xxdbxx"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+   <action sum="0" type="4" no="27" player="preTuras"/>
+   <action sum="27,462" type="5" no="28" player="POPIOPO"/>
+   <action sum="0" type="0" no="29" player="xxdbxx"/>
+   <action sum="130,144" type="23" no="30" player="preTuras"/>
+   <action sum="40,065" type="7" no="31" player="POPIOPO"/>
+  </round>
+ </game>
+ <game gamecode="10576982477">
+  <general>
+   <startdate>2024-02-21 18:39:20</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="1" chips="96,050" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="13,600" bet="8,000" reg_code="" seat="2" chips="61,377" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="7956978781" seat="4" chips="33,702" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="5" chips="41,750" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="6" chips="29,950" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="7" chips="157,606" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="9" chips="94,989" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="" seat="10" chips="145,632" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="POPIOPO"/>
+   <action sum="450" type="15" no="2" player="xxdbxx"/>
+   <action sum="450" type="15" no="3" player="JackDawson01"/>
+   <action sum="450" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="5" player="tropeiro123"/>
+   <action sum="450" type="15" no="6" player="pacanchuvak"/>
+   <action sum="450" type="15" no="7" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="8" player="preTuras"/>
+   <action sum="2,000" type="1" no="9" player="POPIOPO"/>
+   <action sum="4,000" type="2" no="10" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="11" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="8,000" type="23" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S4 C5</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="14" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="15" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="16" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="17" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="18" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576982488">
+  <general>
+   <startdate>2024-02-21 18:39:52</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="0" bet="29,500" reg_code="" seat="1" chips="95,600" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="2" chips="70,527" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="7956978781" seat="4" chips="33,252" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="5" chips="41,300" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="63,700" bet="29,050" reg_code="" seat="6" chips="29,500" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="7" chips="157,156" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="9" chips="92,539" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="10" chips="141,182" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="xxdbxx"/>
+   <action sum="450" type="15" no="2" player="JackDawson01"/>
+   <action sum="450" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="4" player="tropeiro123"/>
+   <action sum="450" type="15" no="5" player="pacanchuvak"/>
+   <action sum="450" type="15" no="6" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="7" player="preTuras"/>
+   <action sum="450" type="15" no="8" player="POPIOPO"/>
+   <action sum="2,000" type="1" no="9" player="xxdbxx"/>
+   <action sum="4,000" type="2" no="10" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="11" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">DQ D7</cards>
+   <action sum="0" type="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="13" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">D2 S2</cards>
+   <action sum="29,050" type="23" no="14" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="15" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="16" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="17" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">CK HJ</cards>
+   <action sum="25,050" type="3" no="18" player="JackDawson01"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 C9 S6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10576982517">
+  <general>
+   <startdate>2024-02-21 18:40:37</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="1" chips="66,100" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="21,600" bet="69,627" reg_code="" seat="2" chips="70,077" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="7956978781" seat="4" chips="32,802" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="5" chips="40,850" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="6" chips="63,700" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="8,450" reg_code="" seat="7" chips="156,706" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="92,089" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="10" chips="138,732" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="JackDawson01"/>
+   <action sum="450" type="15" no="2" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="3" player="tropeiro123"/>
+   <action sum="450" type="15" no="4" player="pacanchuvak"/>
+   <action sum="450" type="15" no="5" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="6" player="preTuras"/>
+   <action sum="450" type="15" no="7" player="POPIOPO"/>
+   <action sum="450" type="15" no="8" player="xxdbxx"/>
+   <action sum="2,000" type="1" no="9" player="JackDawson01"/>
+   <action sum="4,000" type="2" no="10" player="KaccyLLIaTaJI"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H4 D5</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="12" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="13" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="8,000" type="23" no="14" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="15" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="16" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="17" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="69,627" type="23" no="18" player="KaccyLLIaTaJI"/>
+   <action sum="0" type="0" no="19" player="preTuras"/>
+  </round>
+ </game>
+ <game gamecode="10576982535">
+  <general>
+   <startdate>2024-02-21 18:41:23</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="1" chips="63,650" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="2,450" reg_code="" seat="2" chips="83,227" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="7956978781" seat="4" chips="32,352" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="10,450" reg_code="" seat="5" chips="40,400" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="29,600" bet="62,800" reg_code="" seat="6" chips="63,250" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="7" chips="148,256" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="91,639" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="10" chips="138,282" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="KaccyLLIaTaJI"/>
+   <action sum="450" type="15" no="2" player="tropeiro123"/>
+   <action sum="450" type="15" no="3" player="pacanchuvak"/>
+   <action sum="450" type="15" no="4" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="5" player="preTuras"/>
+   <action sum="450" type="15" no="6" player="POPIOPO"/>
+   <action sum="450" type="15" no="7" player="xxdbxx"/>
+   <action sum="450" type="15" no="8" player="JackDawson01"/>
+   <action sum="2,000" type="1" no="9" player="KaccyLLIaTaJI"/>
+   <action sum="4,000" type="2" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="10,000" type="23" no="11" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="62,800" type="23" no="12" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="13" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="14" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="16" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="17" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">H2 H9</cards>
+   <action sum="0" type="0" no="18" player="tropeiro123"/>
+   <action sum="0" type="0" no="19" player="pacanchuvak"/>
+  </round>
+ </game>
+ <game gamecode="10576982559">
+  <general>
+   <startdate>2024-02-21 18:42:07</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="1" chips="63,200" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="1" win="0" bet="450" reg_code="" seat="2" chips="80,777" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="62,504" bet="27,452" reg_code="7956978781" seat="4" chips="27,902" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="4,450" reg_code="" seat="5" chips="29,950" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="6" chips="82,400" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="27,902" reg_code="" seat="7" chips="147,806" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="9" chips="91,189" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="450" reg_code="" seat="10" chips="137,832" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="450" type="15" no="1" player="tropeiro123"/>
+   <action sum="450" type="15" no="2" player="pacanchuvak"/>
+   <action sum="450" type="15" no="3" player="LairOfDarkness"/>
+   <action sum="450" type="15" no="4" player="preTuras"/>
+   <action sum="450" type="15" no="5" player="POPIOPO"/>
+   <action sum="450" type="15" no="6" player="xxdbxx"/>
+   <action sum="450" type="15" no="7" player="JackDawson01"/>
+   <action sum="450" type="15" no="8" player="KaccyLLIaTaJI"/>
+   <action sum="2,000" type="1" no="9" player="tropeiro123"/>
+   <action sum="4,000" type="2" no="10" player="pacanchuvak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="11" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">SJ HK</cards>
+   <action sum="8,000" type="23" no="12" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="13" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="14" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="15" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="16" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S9 C9</cards>
+   <action sum="27,452" type="23" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="18" player="pacanchuvak"/>
+   <action sum="19,452" type="3" no="19" player="preTuras"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 C4 S10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10576982591">
+  <general>
+   <startdate>2024-02-21 18:42:51</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="1" chips="62,750" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="2" chips="80,327" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="1" win="26,500" bet="17,150" reg_code="7956978781" seat="4" chips="62,504" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="5" chips="25,500" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="10,500" reg_code="" seat="6" chips="81,950" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="7" chips="119,904" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="9" chips="90,739" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="10" chips="137,382" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="500" type="15" no="1" player="pacanchuvak"/>
+   <action sum="500" type="15" no="2" player="LairOfDarkness"/>
+   <action sum="500" type="15" no="3" player="preTuras"/>
+   <action sum="500" type="15" no="4" player="POPIOPO"/>
+   <action sum="500" type="15" no="5" player="xxdbxx"/>
+   <action sum="500" type="15" no="6" player="JackDawson01"/>
+   <action sum="500" type="15" no="7" player="KaccyLLIaTaJI"/>
+   <action sum="500" type="15" no="8" player="tropeiro123"/>
+   <action sum="2,500" type="1" no="9" player="pacanchuvak"/>
+   <action sum="5,000" type="2" no="10" player="LairOfDarkness"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="11" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="12" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="13" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="14" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="15" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C9 HJ</cards>
+   <action sum="10,000" type="23" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="17" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="5,000" type="3" no="18" player="LairOfDarkness"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 S6 S3</cards>
+   <action sum="0" type="4" no="19" player="LairOfDarkness"/>
+   <action sum="6,650" type="5" no="20" player="tropeiro123"/>
+   <action sum="0" type="0" no="21" player="LairOfDarkness"/>
+  </round>
+ </game>
+ <game gamecode="10576982621">
+  <general>
+   <startdate>2024-02-21 18:43:56</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="1" chips="62,250" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="2" chips="79,827" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="7956978781" seat="4" chips="78,504" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="1" win="0" bet="500" reg_code="" seat="5" chips="22,500" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="6" chips="71,450" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="118,904" reg_code="" seat="7" chips="119,404" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="185,978" bet="90,239" reg_code="" seat="9" chips="90,239" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="10" chips="136,882" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="500" type="15" no="1" player="LairOfDarkness"/>
+   <action sum="500" type="15" no="2" player="preTuras"/>
+   <action sum="500" type="15" no="3" player="POPIOPO"/>
+   <action sum="500" type="15" no="4" player="xxdbxx"/>
+   <action sum="500" type="15" no="5" player="JackDawson01"/>
+   <action sum="500" type="15" no="6" player="KaccyLLIaTaJI"/>
+   <action sum="500" type="15" no="7" player="tropeiro123"/>
+   <action sum="500" type="15" no="8" player="pacanchuvak"/>
+   <action sum="2,500" type="1" no="9" player="LairOfDarkness"/>
+   <action sum="5,000" type="2" no="10" player="preTuras"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POPIOPO">CJ SJ</cards>
+   <action sum="10,000" type="23" no="11" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="12" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="13" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="14" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">DJ C7</cards>
+   <action sum="0" type="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="16" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="17" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">C10 CQ</cards>
+   <action sum="118,904" type="23" no="18" player="preTuras"/>
+   <action sum="79,739" type="7" no="19" player="POPIOPO"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H6 S7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+  </round>
+ </game>
+ <game gamecode="10576982648">
+  <general>
+   <startdate>2024-02-21 18:44:39</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="1" chips="61,750" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="2" chips="79,327" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="7956978781" seat="4" chips="78,004" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="54,500" bet="21,500" reg_code="" seat="5" chips="22,000" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="1" win="0" bet="500" reg_code="" seat="6" chips="68,450" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="7" chips="29,165" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="5,500" reg_code="" seat="9" chips="185,978" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="22,000" reg_code="" seat="10" chips="136,382" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="500" type="15" no="1" player="preTuras"/>
+   <action sum="500" type="15" no="2" player="POPIOPO"/>
+   <action sum="500" type="15" no="3" player="xxdbxx"/>
+   <action sum="500" type="15" no="4" player="JackDawson01"/>
+   <action sum="500" type="15" no="5" player="KaccyLLIaTaJI"/>
+   <action sum="500" type="15" no="6" player="tropeiro123"/>
+   <action sum="500" type="15" no="7" player="pacanchuvak"/>
+   <action sum="500" type="15" no="8" player="LairOfDarkness"/>
+   <action sum="2,500" type="1" no="9" player="preTuras"/>
+   <action sum="5,000" type="2" no="10" player="POPIOPO"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxdbxx">DK DA</cards>
+   <action sum="10,000" type="23" no="11" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="12" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="13" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">S7 SJ</cards>
+   <action sum="0" type="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">S3 H3</cards>
+   <action sum="21,500" type="23" no="15" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="16" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="17" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="18" player="POPIOPO"/>
+   <action sum="11,500" type="3" no="19" player="xxdbxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 DJ C8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+  </round>
+ </game>
+ <game gamecode="10576982672">
+  <general>
+   <startdate>2024-02-21 18:45:22</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="1" chips="61,250" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="2" chips="78,827" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="7956978781" seat="4" chips="77,504" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="16,500" bet="54,000" reg_code="" seat="5" chips="54,500" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="6" chips="67,950" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="1" win="0" bet="500" reg_code="" seat="7" chips="26,165" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="9" chips="180,478" addon="0" name="POPIOPO" rebuy="0"/>
+    <player dealer="0" win="0" bet="5,500" reg_code="" seat="10" chips="114,382" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="500" type="15" no="1" player="POPIOPO"/>
+   <action sum="500" type="15" no="2" player="xxdbxx"/>
+   <action sum="500" type="15" no="3" player="JackDawson01"/>
+   <action sum="500" type="15" no="4" player="KaccyLLIaTaJI"/>
+   <action sum="500" type="15" no="5" player="tropeiro123"/>
+   <action sum="500" type="15" no="6" player="pacanchuvak"/>
+   <action sum="500" type="15" no="7" player="LairOfDarkness"/>
+   <action sum="500" type="15" no="8" player="preTuras"/>
+   <action sum="2,500" type="1" no="9" player="POPIOPO"/>
+   <action sum="5,000" type="2" no="10" player="xxdbxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="11" player="JackDawson01"/>
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="12" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">D2 C5</cards>
+   <action sum="0" type="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="54,000" type="23" no="14" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="0" type="0" no="15" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="16" player="preTuras"/>
+   <cards type="Pocket" player="POPIOPO">X X</cards>
+   <action sum="0" type="0" no="17" player="POPIOPO"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="18" player="xxdbxx"/>
+  </round>
+ </game>
+ <game gamecode="10576982692">
+  <general>
+   <startdate>2024-02-21 18:46:04</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player dealer="0" win="0" bet="5,500" reg_code="" seat="1" chips="60,750" addon="0" name="JackDawson01" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="2" chips="78,327" addon="0" name="KaccyLLIaTaJI" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="7956978781" seat="4" chips="77,004" addon="0" name="tropeiro123" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="5" chips="65,500" addon="0" name="pacanchuvak" rebuy="0"/>
+    <player dealer="0" win="16,000" bet="66,950" reg_code="" seat="6" chips="67,450" addon="0" name="LairOfDarkness" rebuy="0"/>
+    <player dealer="0" win="0" bet="500" reg_code="" seat="7" chips="25,665" addon="0" name="preTuras" rebuy="0"/>
+    <player dealer="0" win="0" bet="3,000" reg_code="" seat="10" chips="108,882" addon="0" name="xxdbxx" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action sum="500" type="15" no="1" player="xxdbxx"/>
+   <action sum="500" type="15" no="2" player="JackDawson01"/>
+   <action sum="500" type="15" no="3" player="KaccyLLIaTaJI"/>
+   <action sum="500" type="15" no="4" player="tropeiro123"/>
+   <action sum="500" type="15" no="5" player="pacanchuvak"/>
+   <action sum="500" type="15" no="6" player="LairOfDarkness"/>
+   <action sum="500" type="15" no="7" player="preTuras"/>
+   <action sum="2,500" type="1" no="8" player="xxdbxx"/>
+   <action sum="5,000" type="2" no="9" player="JackDawson01"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KaccyLLIaTaJI">X X</cards>
+   <action sum="0" type="0" no="10" player="KaccyLLIaTaJI"/>
+   <cards type="Pocket" player="tropeiro123">C4 C3</cards>
+   <action sum="0" type="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="pacanchuvak">X X</cards>
+   <action sum="0" type="0" no="12" player="pacanchuvak"/>
+   <cards type="Pocket" player="LairOfDarkness">X X</cards>
+   <action sum="66,950" type="23" no="13" player="LairOfDarkness"/>
+   <cards type="Pocket" player="preTuras">X X</cards>
+   <action sum="0" type="0" no="14" player="preTuras"/>
+   <cards type="Pocket" player="xxdbxx">X X</cards>
+   <action sum="0" type="0" no="15" player="xxdbxx"/>
+   <cards type="Pocket" player="JackDawson01">X X</cards>
+   <action sum="0" type="0" no="16" player="JackDawson01"/>
+  </round>
+ </game>
+</session>

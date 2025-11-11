@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946813553">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|The Eliminator|€55,000 GTD, 1080788520</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:06:42</duration>
+  <gamecount>6</gamecount>
+  <startdate>2024-02-11 17:03:27</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>27,235</bets>
+  <wins>85,105</wins>
+  <chipsin>85,105</chipsin>
+  <chipsout>84,305</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294041</tournamentcode>
+  <tournamentname>E3|The Eliminator|€55,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558736689">
+  <general>
+   <startdate>2024-02-11 17:03:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="POSITIVETHOUGHT" bet="200" reg_code="" rebuy="0" seat="1" chips="184,764" dealer="0" addon="0" win="0"/>
+    <player name="EesofBees" bet="200" reg_code="" rebuy="0" seat="2" chips="93,398" dealer="0" addon="0" win="0"/>
+    <player name="zk1ttlez" bet="200" reg_code="" rebuy="0" seat="4" chips="60,595" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="200" reg_code="7946813553" rebuy="0" seat="5" chips="85,105" dealer="0" addon="0" win="0"/>
+    <player name="KADUFATDET" bet="200" reg_code="" rebuy="0" seat="6" chips="43,250" dealer="1" addon="0" win="0"/>
+    <player name="shorTcircuit1" bet="3,000" reg_code="" rebuy="0" seat="7" chips="61,365" dealer="0" addon="0" win="7,200"/>
+    <player name="izinchenko" bet="3,000" reg_code="" rebuy="0" seat="9" chips="59,679" dealer="0" addon="0" win="0"/>
+    <player name="arkuuun" bet="200" reg_code="" rebuy="0" seat="10" chips="140,792" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="shorTcircuit1"/>
+   <action no="2" type="15" sum="200" player="izinchenko"/>
+   <action no="3" type="15" sum="200" player="arkuuun"/>
+   <action no="4" type="15" sum="200" player="POSITIVETHOUGHT"/>
+   <action no="5" type="15" sum="200" player="EesofBees"/>
+   <action no="6" type="15" sum="200" player="zk1ttlez"/>
+   <action no="7" type="15" sum="200" player="tropeiro123"/>
+   <action no="8" type="15" sum="200" player="KADUFATDET"/>
+   <action no="9" type="1" sum="700" player="shorTcircuit1"/>
+   <action no="10" type="2" sum="1,400" player="izinchenko"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="arkuuun">X X</cards>
+   <action no="11" type="0" sum="0" player="arkuuun"/>
+   <cards type="Pocket" player="POSITIVETHOUGHT">X X</cards>
+   <action no="12" type="0" sum="0" player="POSITIVETHOUGHT"/>
+   <cards type="Pocket" player="EesofBees">X X</cards>
+   <action no="13" type="0" sum="0" player="EesofBees"/>
+   <cards type="Pocket" player="zk1ttlez">X X</cards>
+   <action no="14" type="0" sum="0" player="zk1ttlez"/>
+   <cards type="Pocket" player="tropeiro123">CQ H2</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KADUFATDET">X X</cards>
+   <action no="16" type="0" sum="0" player="KADUFATDET"/>
+   <cards type="Pocket" player="shorTcircuit1">DQ D4</cards>
+   <action no="17" type="3" sum="700" player="shorTcircuit1"/>
+   <cards type="Pocket" player="izinchenko">CA H8</cards>
+   <action no="18" type="4" sum="0" player="izinchenko"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 H6 HK</cards>
+   <action no="19" type="4" sum="0" player="shorTcircuit1"/>
+   <action no="20" type="5" sum="1,400" player="izinchenko"/>
+   <action no="21" type="3" sum="1,400" player="shorTcircuit1"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" type="4" sum="0" player="shorTcircuit1"/>
+   <action no="23" type="4" sum="0" player="izinchenko"/>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+   <action no="24" type="4" sum="0" player="shorTcircuit1"/>
+   <action no="25" type="4" sum="0" player="izinchenko"/>
+  </round>
+ </game>
+ <game gamecode="10558736910">
+  <general>
+   <startdate>2024-02-11 17:05:06</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="POSITIVETHOUGHT" bet="5,607" reg_code="" rebuy="0" seat="1" chips="184,564" dealer="0" addon="0" win="0"/>
+    <player name="EesofBees" bet="200" reg_code="" rebuy="0" seat="2" chips="93,198" dealer="0" addon="0" win="0"/>
+    <player name="zk1ttlez" bet="200" reg_code="" rebuy="0" seat="4" chips="60,395" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="200" reg_code="7946813553" rebuy="0" seat="5" chips="84,905" dealer="0" addon="0" win="0"/>
+    <player name="KADUFATDET" bet="200" reg_code="" rebuy="0" seat="6" chips="43,050" dealer="0" addon="0" win="0"/>
+    <player name="shorTcircuit1" bet="200" reg_code="" rebuy="0" seat="7" chips="65,565" dealer="1" addon="0" win="0"/>
+    <player name="izinchenko" bet="900" reg_code="" rebuy="0" seat="9" chips="56,679" dealer="0" addon="0" win="0"/>
+    <player name="arkuuun" bet="14,786" reg_code="" rebuy="0" seat="10" chips="140,592" dealer="0" addon="0" win="13,114"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="izinchenko"/>
+   <action no="2" type="15" sum="200" player="arkuuun"/>
+   <action no="3" type="15" sum="200" player="POSITIVETHOUGHT"/>
+   <action no="4" type="15" sum="200" player="EesofBees"/>
+   <action no="5" type="15" sum="200" player="zk1ttlez"/>
+   <action no="6" type="15" sum="200" player="tropeiro123"/>
+   <action no="7" type="15" sum="200" player="KADUFATDET"/>
+   <action no="8" type="15" sum="200" player="shorTcircuit1"/>
+   <action no="9" type="1" sum="700" player="izinchenko"/>
+   <action no="10" type="2" sum="1,400" player="arkuuun"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="POSITIVETHOUGHT">X X</cards>
+   <action no="11" type="23" sum="2,800" player="POSITIVETHOUGHT"/>
+   <cards type="Pocket" player="EesofBees">X X</cards>
+   <action no="12" type="0" sum="0" player="EesofBees"/>
+   <cards type="Pocket" player="zk1ttlez">X X</cards>
+   <action no="13" type="0" sum="0" player="zk1ttlez"/>
+   <cards type="Pocket" player="tropeiro123">H4 DJ</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KADUFATDET">X X</cards>
+   <action no="15" type="0" sum="0" player="KADUFATDET"/>
+   <cards type="Pocket" player="shorTcircuit1">X X</cards>
+   <action no="16" type="0" sum="0" player="shorTcircuit1"/>
+   <cards type="Pocket" player="izinchenko">X X</cards>
+   <action no="17" type="0" sum="0" player="izinchenko"/>
+   <cards type="Pocket" player="arkuuun">X X</cards>
+   <action no="18" type="3" sum="1,400" player="arkuuun"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ HK H9</cards>
+   <action no="19" type="4" sum="0" player="arkuuun"/>
+   <action no="20" type="5" sum="2,607" player="POSITIVETHOUGHT"/>
+   <action no="21" type="3" sum="2,607" player="arkuuun"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="22" type="4" sum="0" player="arkuuun"/>
+   <action no="23" type="4" sum="0" player="POSITIVETHOUGHT"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action no="24" type="5" sum="9,179" player="arkuuun"/>
+   <action no="25" type="0" sum="0" player="POSITIVETHOUGHT"/>
+  </round>
+ </game>
+ <game gamecode="10558737091">
+  <general>
+   <startdate>2024-02-11 17:06:38</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="POSITIVETHOUGHT" bet="1,600" reg_code="" rebuy="0" seat="1" chips="178,957" dealer="0" addon="0" win="0"/>
+    <player name="EesofBees" bet="3,000" reg_code="" rebuy="0" seat="2" chips="92,998" dealer="0" addon="0" win="0"/>
+    <player name="zk1ttlez" bet="8,400" reg_code="" rebuy="0" seat="4" chips="60,195" dealer="0" addon="0" win="9,300"/>
+    <player name="tropeiro123" bet="200" reg_code="7946813553" rebuy="0" seat="5" chips="84,705" dealer="0" addon="0" win="0"/>
+    <player name="KADUFATDET" bet="200" reg_code="" rebuy="0" seat="6" chips="42,850" dealer="0" addon="0" win="0"/>
+    <player name="shorTcircuit1" bet="200" reg_code="" rebuy="0" seat="7" chips="65,365" dealer="0" addon="0" win="0"/>
+    <player name="izinchenko" bet="200" reg_code="" rebuy="0" seat="9" chips="55,779" dealer="1" addon="0" win="0"/>
+    <player name="arkuuun" bet="900" reg_code="" rebuy="0" seat="10" chips="148,099" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="arkuuun"/>
+   <action no="2" type="15" sum="200" player="POSITIVETHOUGHT"/>
+   <action no="3" type="15" sum="200" player="EesofBees"/>
+   <action no="4" type="15" sum="200" player="zk1ttlez"/>
+   <action no="5" type="15" sum="200" player="tropeiro123"/>
+   <action no="6" type="15" sum="200" player="KADUFATDET"/>
+   <action no="7" type="15" sum="200" player="shorTcircuit1"/>
+   <action no="8" type="15" sum="200" player="izinchenko"/>
+   <action no="9" type="1" sum="700" player="arkuuun"/>
+   <action no="10" type="2" sum="1,400" player="POSITIVETHOUGHT"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="EesofBees">X X</cards>
+   <action no="11" type="23" sum="2,800" player="EesofBees"/>
+   <cards type="Pocket" player="zk1ttlez">X X</cards>
+   <action no="12" type="23" sum="8,400" player="zk1ttlez"/>
+   <cards type="Pocket" player="tropeiro123">C8 HK</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KADUFATDET">X X</cards>
+   <action no="14" type="0" sum="0" player="KADUFATDET"/>
+   <cards type="Pocket" player="shorTcircuit1">X X</cards>
+   <action no="15" type="0" sum="0" player="shorTcircuit1"/>
+   <cards type="Pocket" player="izinchenko">X X</cards>
+   <action no="16" type="0" sum="0" player="izinchenko"/>
+   <cards type="Pocket" player="arkuuun">X X</cards>
+   <action no="17" type="0" sum="0" player="arkuuun"/>
+   <cards type="Pocket" player="POSITIVETHOUGHT">X X</cards>
+   <action no="18" type="0" sum="0" player="POSITIVETHOUGHT"/>
+   <action no="19" type="0" sum="0" player="EesofBees"/>
+  </round>
+ </game>
+ <game gamecode="10558737193">
+  <general>
+   <startdate>2024-02-11 17:07:23</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="POSITIVETHOUGHT" bet="44,914" reg_code="" rebuy="0" seat="1" chips="177,357" dealer="0" addon="0" win="0"/>
+    <player name="EesofBees" bet="1,600" reg_code="" rebuy="0" seat="2" chips="89,998" dealer="0" addon="0" win="0"/>
+    <player name="zk1ttlez" bet="200" reg_code="" rebuy="0" seat="4" chips="66,495" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="200" reg_code="7946813553" rebuy="0" seat="5" chips="84,505" dealer="0" addon="0" win="0"/>
+    <player name="KADUFATDET" bet="42,650" reg_code="" rebuy="0" seat="6" chips="42,650" dealer="0" addon="0" win="87,900"/>
+    <player name="shorTcircuit1" bet="200" reg_code="" rebuy="0" seat="7" chips="65,165" dealer="0" addon="0" win="0"/>
+    <player name="izinchenko" bet="200" reg_code="" rebuy="0" seat="9" chips="55,579" dealer="0" addon="0" win="0"/>
+    <player name="arkuuun" bet="200" reg_code="" rebuy="0" seat="10" chips="147,199" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="POSITIVETHOUGHT"/>
+   <action no="2" type="15" sum="200" player="EesofBees"/>
+   <action no="3" type="15" sum="200" player="zk1ttlez"/>
+   <action no="4" type="15" sum="200" player="tropeiro123"/>
+   <action no="5" type="15" sum="200" player="KADUFATDET"/>
+   <action no="6" type="15" sum="200" player="shorTcircuit1"/>
+   <action no="7" type="15" sum="200" player="izinchenko"/>
+   <action no="8" type="15" sum="200" player="arkuuun"/>
+   <action no="9" type="1" sum="700" player="POSITIVETHOUGHT"/>
+   <action no="10" type="2" sum="1,400" player="EesofBees"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="zk1ttlez">X X</cards>
+   <action no="11" type="0" sum="0" player="zk1ttlez"/>
+   <cards type="Pocket" player="tropeiro123">H8 H3</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KADUFATDET">CA DA</cards>
+   <action no="13" type="23" sum="2,950" player="KADUFATDET"/>
+   <cards type="Pocket" player="shorTcircuit1">X X</cards>
+   <action no="14" type="0" sum="0" player="shorTcircuit1"/>
+   <cards type="Pocket" player="izinchenko">X X</cards>
+   <action no="15" type="0" sum="0" player="izinchenko"/>
+   <cards type="Pocket" player="arkuuun">X X</cards>
+   <action no="16" type="0" sum="0" player="arkuuun"/>
+   <cards type="Pocket" player="POSITIVETHOUGHT">CK DK</cards>
+   <action no="17" type="23" sum="10,100" player="POSITIVETHOUGHT"/>
+   <cards type="Pocket" player="EesofBees">X X</cards>
+   <action no="18" type="0" sum="0" player="EesofBees"/>
+   <action no="19" type="3" sum="7,150" player="KADUFATDET"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ C10 SA</cards>
+   <action no="20" type="5" sum="7,656" player="POSITIVETHOUGHT"/>
+   <action no="21" type="3" sum="7,656" player="KADUFATDET"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" type="5" sum="26,958" player="POSITIVETHOUGHT"/>
+   <action no="23" type="7" sum="24,694" player="KADUFATDET"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+  </round>
+ </game>
+</session>

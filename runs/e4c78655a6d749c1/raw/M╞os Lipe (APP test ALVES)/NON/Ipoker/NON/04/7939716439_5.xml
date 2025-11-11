@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7939716439">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1080140085</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:18:03</duration>
+  <gamecount>18</gamecount>
+  <startdate>2024-02-04 17:08:41</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>90,585</bets>
+  <wins>129,480</wins>
+  <chipsin>94,655</chipsin>
+  <chipsout>138,300</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080047722</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10545351070">
+  <general>
+   <startdate>2024-02-04 17:08:41</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="66,340" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="0" bet="1,850"/>
+    <player chips="209,045" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="250"/>
+    <player chips="93,000" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="250"/>
+    <player chips="223,293" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="250"/>
+    <player chips="74,336" win="6,000" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="3,200"/>
+    <player chips="31,926" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="250"/>
+    <player chips="151,055" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="1" bet="250"/>
+    <player chips="97,320" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="1,050"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="PuraVidaU"/>
+   <action type="15" sum="250" no="2" player="Gisele92o"/>
+   <action type="15" sum="250" no="3" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="4" player="tightcamel"/>
+   <action type="15" sum="250" no="5" player="RunningGood"/>
+   <action type="15" sum="250" no="6" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="7" player="7isgood"/>
+   <action type="15" sum="250" no="8" player="tropeiro123"/>
+   <action type="1" sum="800" no="9" player="PuraVidaU"/>
+   <action type="2" sum="1,600" no="10" player="Gisele92o"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="11" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="12" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="13" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="23" sum="3,200" no="14" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="15" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">C10 C5</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="17" player="PuraVidaU"/>
+   <cards type="Pocket" player="Gisele92o">X X</cards>
+   <action type="0" sum="0" no="18" player="Gisele92o"/>
+  </round>
+ </game>
+ <game gamecode="10545351243">
+  <general>
+   <startdate>2024-02-04 17:10:00</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="64,490" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="0" bet="1,050"/>
+    <player chips="208,795" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="1,850"/>
+    <player chips="92,750" win="33,626" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="31,676"/>
+    <player chips="223,043" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="250"/>
+    <player chips="78,486" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="250"/>
+    <player chips="31,676" win="33,626" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="31,426"/>
+    <player chips="150,805" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="250"/>
+    <player chips="96,270" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="1" bet="250"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="Gisele92o"/>
+   <action type="15" sum="250" no="2" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="3" player="tightcamel"/>
+   <action type="15" sum="250" no="4" player="RunningGood"/>
+   <action type="15" sum="250" no="5" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="6" player="7isgood"/>
+   <action type="15" sum="250" no="7" player="tropeiro123"/>
+   <action type="15" sum="250" no="8" player="PuraVidaU"/>
+   <action type="1" sum="800" no="9" player="Gisele92o"/>
+   <action type="2" sum="1,600" no="10" player="zosteRRRRR"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tightcamel">CA C10</cards>
+   <action type="23" sum="3,200" no="11" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="12" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="13" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">DJ DA</cards>
+   <action type="23" sum="31,426" no="14" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">HK HJ</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="16" player="PuraVidaU"/>
+   <cards type="Pocket" player="Gisele92o">X X</cards>
+   <action type="0" sum="0" no="17" player="Gisele92o"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="18" player="zosteRRRRR"/>
+   <action type="3" sum="28,226" no="19" player="tightcamel"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK HA C5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10545351325">
+  <general>
+   <startdate>2024-02-04 17:10:39</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="63,440" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="1" bet="250"/>
+    <player chips="206,945" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="1,050"/>
+    <player chips="94,700" win="9,200" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="9,850"/>
+    <player chips="222,793" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="250"/>
+    <player chips="78,236" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="250"/>
+    <player chips="33,626" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="250"/>
+    <player chips="150,555" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="250"/>
+    <player chips="96,020" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="3,450"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="2" player="tightcamel"/>
+   <action type="15" sum="250" no="3" player="RunningGood"/>
+   <action type="15" sum="250" no="4" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="5" player="7isgood"/>
+   <action type="15" sum="250" no="6" player="tropeiro123"/>
+   <action type="15" sum="250" no="7" player="PuraVidaU"/>
+   <action type="15" sum="250" no="8" player="Gisele92o"/>
+   <action type="1" sum="800" no="9" player="zosteRRRRR"/>
+   <action type="2" sum="1,600" no="10" player="tightcamel"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="11" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="12" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="13" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">H2 S8</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="23" sum="3,200" no="15" player="PuraVidaU"/>
+   <cards type="Pocket" player="Gisele92o">X X</cards>
+   <action type="0" sum="0" no="16" player="Gisele92o"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="17" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="3" sum="1,600" no="18" player="tightcamel"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ D10 D9</cards>
+   <action type="4" sum="0" no="19" player="tightcamel"/>
+   <action type="4" sum="0" no="20" player="PuraVidaU"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action type="4" sum="0" no="21" player="tightcamel"/>
+   <action type="4" sum="0" no="22" player="PuraVidaU"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action type="5" sum="6,400" no="23" player="tightcamel"/>
+   <action type="0" sum="0" no="24" player="PuraVidaU"/>
+  </round>
+ </game>
+ <game gamecode="10545351459">
+  <general>
+   <startdate>2024-02-04 17:11:36</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="63,190" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="0" bet="250"/>
+    <player chips="205,895" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="1" bet="250"/>
+    <player chips="100,450" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="1,050"/>
+    <player chips="222,543" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="1,850"/>
+    <player chips="77,986" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="250"/>
+    <player chips="33,376" win="6,000" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="33,126"/>
+    <player chips="150,305" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="250"/>
+    <player chips="92,570" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="250"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="tightcamel"/>
+   <action type="15" sum="250" no="2" player="RunningGood"/>
+   <action type="15" sum="250" no="3" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="4" player="7isgood"/>
+   <action type="15" sum="250" no="5" player="tropeiro123"/>
+   <action type="15" sum="250" no="6" player="PuraVidaU"/>
+   <action type="15" sum="250" no="7" player="Gisele92o"/>
+   <action type="15" sum="250" no="8" player="zosteRRRRR"/>
+   <action type="1" sum="800" no="9" player="tightcamel"/>
+   <action type="2" sum="1,600" no="10" player="RunningGood"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="11" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="23" sum="33,126" no="12" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">D5 C2</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="14" player="PuraVidaU"/>
+   <cards type="Pocket" player="Gisele92o">X X</cards>
+   <action type="0" sum="0" no="15" player="Gisele92o"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="16" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="17" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="18" player="RunningGood"/>
+  </round>
+ </game>
+ <game gamecode="10545379850">
+  <general>
+   <startdate>2024-02-04 17:12:14</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="62,940" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="0" bet="62,940"/>
+    <player chips="205,645" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="250"/>
+    <player chips="99,400" win="129,780" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="1" bet="67,330">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="Gisele92o"/>
+    </player>
+    <player chips="220,693" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="1,050"/>
+    <player chips="77,736" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="1,850"/>
+    <player chips="37,526" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="250"/>
+    <player chips="150,055" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="250"/>
+    <player chips="92,320" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="250"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="RunningGood"/>
+   <action type="15" sum="250" no="2" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="3" player="7isgood"/>
+   <action type="15" sum="250" no="4" player="tropeiro123"/>
+   <action type="15" sum="250" no="5" player="PuraVidaU"/>
+   <action type="15" sum="250" no="6" player="Gisele92o"/>
+   <action type="15" sum="250" no="7" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="8" player="tightcamel"/>
+   <action type="1" sum="800" no="9" player="RunningGood"/>
+   <action type="2" sum="1,600" no="10" player="cashmeoutsidee"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="11" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">D5 H4</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="13" player="PuraVidaU"/>
+   <cards type="Pocket" player="Gisele92o">D7 D6</cards>
+   <action type="23" sum="3,360" no="14" player="Gisele92o"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="15" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">DK SA</cards>
+   <action type="23" sum="9,920" no="16" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="17" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="18" player="cashmeoutsidee"/>
+   <action type="3" sum="6,560" no="19" player="Gisele92o"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 H6 D8</cards>
+   <action type="4" sum="0" no="20" player="Gisele92o"/>
+   <action type="5" sum="12,120" no="21" player="tightcamel"/>
+   <action type="23" sum="29,040" no="22" player="Gisele92o"/>
+   <action type="23" sum="57,160" no="23" player="tightcamel"/>
+   <action type="7" sum="23,730" no="24" player="Gisele92o"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10545380037">
+  <general>
+   <startdate>2024-02-04 17:13:37</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="205,395" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="250"/>
+    <player chips="166,240" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="250"/>
+    <player chips="219,643" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="1" bet="250"/>
+    <player chips="75,886" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="1,050"/>
+    <player chips="37,276" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="16,875"/>
+    <player chips="149,805" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="250"/>
+    <player chips="92,070" win="35,800" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="16,875"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="2" player="7isgood"/>
+   <action type="15" sum="250" no="3" player="tropeiro123"/>
+   <action type="15" sum="250" no="4" player="PuraVidaU"/>
+   <action type="15" sum="250" no="5" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="6" player="tightcamel"/>
+   <action type="15" sum="250" no="7" player="RunningGood"/>
+   <action type="1" sum="800" no="8" player="cashmeoutsidee"/>
+   <action type="2" sum="1,600" no="9" player="7isgood"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C4 HA</cards>
+   <action type="0" sum="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">CK DQ</cards>
+   <action type="23" sum="3,200" no="11" player="PuraVidaU"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="12" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="13" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="14" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="15" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">C10 DK</cards>
+   <action type="3" sum="1,600" no="16" player="7isgood"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S2 HK</cards>
+   <action type="4" sum="0" no="17" player="7isgood"/>
+   <action type="5" sum="4,475" no="18" player="PuraVidaU"/>
+   <action type="3" sum="4,475" no="19" player="7isgood"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action type="4" sum="0" no="20" player="7isgood"/>
+   <action type="5" sum="8,950" no="21" player="PuraVidaU"/>
+   <action type="3" sum="8,950" no="22" player="7isgood"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+   <action type="4" sum="0" no="23" player="7isgood"/>
+   <action type="4" sum="0" no="24" player="PuraVidaU"/>
+  </round>
+ </game>
+ <game gamecode="10545380205">
+  <general>
+   <startdate>2024-02-04 17:14:48</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="205,145" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="250"/>
+    <player chips="165,990" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="250"/>
+    <player chips="219,393" win="10,550" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="11,200"/>
+    <player chips="74,836" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="1" bet="250"/>
+    <player chips="20,401" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="1,050"/>
+    <player chips="149,555" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="1,850"/>
+    <player chips="110,995" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="3,450"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="7isgood"/>
+   <action type="15" sum="250" no="2" player="tropeiro123"/>
+   <action type="15" sum="250" no="3" player="PuraVidaU"/>
+   <action type="15" sum="250" no="4" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="5" player="tightcamel"/>
+   <action type="15" sum="250" no="6" player="RunningGood"/>
+   <action type="15" sum="250" no="7" player="cashmeoutsidee"/>
+   <action type="1" sum="800" no="8" player="7isgood"/>
+   <action type="2" sum="1,600" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="23" sum="3,200" no="10" player="PuraVidaU"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="11" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="12" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="23" sum="11,200" no="13" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="14" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="15" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">S6 CA</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <action type="0" sum="0" no="17" player="PuraVidaU"/>
+  </round>
+ </game>
+ <game gamecode="10545380332">
+  <general>
+   <startdate>2024-02-04 17:15:45</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player chips="204,895" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="14,675"/>
+    <player chips="165,740" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="275"/>
+    <player chips="226,493" win="33,425" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="27,275"/>
+    <player chips="74,586" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="275"/>
+    <player chips="19,351" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="1" bet="275"/>
+    <player chips="147,705" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="1,175"/>
+    <player chips="107,545" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="2,075"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="tropeiro123"/>
+   <action type="15" sum="275" no="2" player="PuraVidaU"/>
+   <action type="15" sum="275" no="3" player="zosteRRRRR"/>
+   <action type="15" sum="275" no="4" player="tightcamel"/>
+   <action type="15" sum="275" no="5" player="RunningGood"/>
+   <action type="15" sum="275" no="6" player="cashmeoutsidee"/>
+   <action type="15" sum="275" no="7" player="7isgood"/>
+   <action type="1" sum="900" no="8" player="tropeiro123"/>
+   <action type="2" sum="1,800" no="9" player="PuraVidaU"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="23" sum="4,500" no="10" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="11" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="23" sum="14,400" no="12" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="13" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="14" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">SA H9</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="16" player="PuraVidaU"/>
+   <action type="3" sum="9,900" no="17" player="zosteRRRRR"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H6 D3</cards>
+   <action type="4" sum="0" no="18" player="zosteRRRRR"/>
+   <action type="5" sum="12,600" no="19" player="RunningGood"/>
+   <action type="0" sum="0" no="20" player="zosteRRRRR"/>
+  </round>
+ </game>
+ <game gamecode="10545380501">
+  <general>
+   <startdate>2024-02-04 17:16:59</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player chips="100,000" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="wewhereonabreak" dealer="0" bet="4,415"/>
+    <player chips="190,220" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="275"/>
+    <player chips="165,465" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="275"/>
+    <player chips="245,243" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="275"/>
+    <player chips="74,311" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="275"/>
+    <player chips="19,076" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="275"/>
+    <player chips="146,530" win="11,380" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="1" bet="7,260"/>
+    <player chips="105,470" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="1,175"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="PuraVidaU"/>
+   <action type="15" sum="275" no="2" player="wewhereonabreak"/>
+   <action type="15" sum="275" no="3" player="zosteRRRRR"/>
+   <action type="15" sum="275" no="4" player="tightcamel"/>
+   <action type="15" sum="275" no="5" player="RunningGood"/>
+   <action type="15" sum="275" no="6" player="cashmeoutsidee"/>
+   <action type="15" sum="275" no="7" player="7isgood"/>
+   <action type="15" sum="275" no="8" player="tropeiro123"/>
+   <action type="1" sum="900" no="9" player="PuraVidaU"/>
+   <action type="2" sum="1,800" no="10" player="wewhereonabreak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="11" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="12" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="13" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="14" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="15" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">SA H2</cards>
+   <action type="23" sum="4,140" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="17" player="PuraVidaU"/>
+   <cards type="Pocket" player="wewhereonabreak">X X</cards>
+   <action type="3" sum="2,340" no="18" player="wewhereonabreak"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 S3 C4</cards>
+   <action type="4" sum="0" no="19" player="wewhereonabreak"/>
+   <action type="5" sum="2,845" no="20" player="tropeiro123"/>
+   <action type="0" sum="0" no="21" player="wewhereonabreak"/>
+  </round>
+ </game>
+ <game gamecode="10545380592">
+  <general>
+   <startdate>2024-02-04 17:17:40</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player chips="95,585" win="42,540" reg_code="" rebuy="0" addon="0" seat="1" name="wewhereonabreak" dealer="0" bet="19,545"/>
+    <player chips="189,945" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="2,075"/>
+    <player chips="165,190" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="275"/>
+    <player chips="244,968" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="275"/>
+    <player chips="74,036" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="275"/>
+    <player chips="18,801" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="275"/>
+    <player chips="153,495" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="19,545"/>
+    <player chips="104,295" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="1" bet="275"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="wewhereonabreak"/>
+   <action type="15" sum="275" no="2" player="zosteRRRRR"/>
+   <action type="15" sum="275" no="3" player="tightcamel"/>
+   <action type="15" sum="275" no="4" player="RunningGood"/>
+   <action type="15" sum="275" no="5" player="cashmeoutsidee"/>
+   <action type="15" sum="275" no="6" player="7isgood"/>
+   <action type="15" sum="275" no="7" player="tropeiro123"/>
+   <action type="15" sum="275" no="8" player="PuraVidaU"/>
+   <action type="1" sum="900" no="9" player="wewhereonabreak"/>
+   <action type="2" sum="1,800" no="10" player="zosteRRRRR"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="11" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="12" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="13" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="14" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">H8 SK</cards>
+   <action type="23" sum="3,780" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="16" player="PuraVidaU"/>
+   <cards type="Pocket" player="wewhereonabreak">S10 HJ</cards>
+   <action type="3" sum="2,880" no="17" player="wewhereonabreak"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="18" player="zosteRRRRR"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D2 D6</cards>
+   <action type="4" sum="0" no="19" player="wewhereonabreak"/>
+   <action type="5" sum="2,890" no="20" player="tropeiro123"/>
+   <action type="3" sum="2,890" no="21" player="wewhereonabreak"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action type="4" sum="0" no="22" player="wewhereonabreak"/>
+   <action type="5" sum="12,600" no="23" player="tropeiro123"/>
+   <action type="3" sum="12,600" no="24" player="wewhereonabreak"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action type="4" sum="0" no="25" player="wewhereonabreak"/>
+   <action type="4" sum="0" no="26" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10545380758">
+  <general>
+   <startdate>2024-02-04 17:18:55</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player chips="118,580" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="wewhereonabreak" dealer="1" bet="275"/>
+    <player chips="187,870" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="1,175"/>
+    <player chips="164,915" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="2,075"/>
+    <player chips="244,693" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="3,875"/>
+    <player chips="73,761" win="12,100" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="12,600"/>
+    <player chips="18,526" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="275"/>
+    <player chips="133,950" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="275"/>
+    <player chips="104,020" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="275"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="zosteRRRRR"/>
+   <action type="15" sum="275" no="2" player="tightcamel"/>
+   <action type="15" sum="275" no="3" player="RunningGood"/>
+   <action type="15" sum="275" no="4" player="cashmeoutsidee"/>
+   <action type="15" sum="275" no="5" player="7isgood"/>
+   <action type="15" sum="275" no="6" player="tropeiro123"/>
+   <action type="15" sum="275" no="7" player="PuraVidaU"/>
+   <action type="15" sum="275" no="8" player="wewhereonabreak"/>
+   <action type="1" sum="900" no="9" player="zosteRRRRR"/>
+   <action type="2" sum="1,800" no="10" player="tightcamel"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="23" sum="3,600" no="11" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="23" sum="12,600" no="12" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="13" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">H5 H7</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="15" player="PuraVidaU"/>
+   <cards type="Pocket" player="wewhereonabreak">X X</cards>
+   <action type="0" sum="0" no="16" player="wewhereonabreak"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="17" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="18" player="tightcamel"/>
+   <action type="0" sum="0" no="19" player="RunningGood"/>
+  </round>
+ </game>
+ <game gamecode="10545380843">
+  <general>
+   <startdate>2024-02-04 17:19:34</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player chips="118,305" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="wewhereonabreak" dealer="0" bet="275"/>
+    <player chips="186,695" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="1" bet="275"/>
+    <player chips="162,840" win="0" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="1,175"/>
+    <player chips="240,818" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="2,075"/>
+    <player chips="81,986" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="275"/>
+    <player chips="18,251" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="0" bet="275"/>
+    <player chips="133,675" win="6,700" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="3,780"/>
+    <player chips="103,745" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="275"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="275" no="1" player="tightcamel"/>
+   <action type="15" sum="275" no="2" player="RunningGood"/>
+   <action type="15" sum="275" no="3" player="cashmeoutsidee"/>
+   <action type="15" sum="275" no="4" player="7isgood"/>
+   <action type="15" sum="275" no="5" player="tropeiro123"/>
+   <action type="15" sum="275" no="6" player="PuraVidaU"/>
+   <action type="15" sum="275" no="7" player="wewhereonabreak"/>
+   <action type="15" sum="275" no="8" player="zosteRRRRR"/>
+   <action type="1" sum="900" no="9" player="tightcamel"/>
+   <action type="2" sum="1,800" no="10" player="RunningGood"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="11" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="12" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">H10 S10</cards>
+   <action type="23" sum="3,780" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="0" sum="0" no="14" player="PuraVidaU"/>
+   <cards type="Pocket" player="wewhereonabreak">X X</cards>
+   <action type="0" sum="0" no="15" player="wewhereonabreak"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="16" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="0" sum="0" no="17" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="18" player="RunningGood"/>
+  </round>
+ </game>
+</session>

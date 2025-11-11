@@ -1,0 +1,2873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7959862319">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€10,000 GTD, 1081953742</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:04:16</duration>
+  <gamecount>52</gamecount>
+  <startdate>2024-02-24 16:50:33</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>187,170</bets>
+  <wins>63,196</wins>
+  <chipsin>99,850</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081926601</tournamentcode>
+  <tournamentname>E3|€10,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10582121244">
+  <general>
+   <startdate>2024-02-24 16:50:33</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="Lavraaa" reg_code="" chips="99,422" dealer="1" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="96,140" dealer="0" bet="650" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="88,353" dealer="0" bet="2,150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="118,246" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="117,348" dealer="0" bet="4,450" win="5,550" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="180,974" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="107,647" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="fortunefavour" no="1" sum="150" type="15"/>
+   <action player="Parmigiano11" no="2" sum="150" type="15"/>
+   <action player="BigLeader" no="3" sum="150" type="15"/>
+   <action player="ChuckNorris3110" no="4" sum="150" type="15"/>
+   <action player="mztskopje22" no="5" sum="150" type="15"/>
+   <action player="Halv0rnald0" no="6" sum="150" type="15"/>
+   <action player="Lavraaa" no="7" sum="150" type="15"/>
+   <action player="fortunefavour" no="8" sum="500" type="1"/>
+   <action player="Parmigiano11" no="9" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="10" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="11" sum="2,000" type="23"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="12" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="13" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="14" sum="0" type="0"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="15" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="16" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA DQ H6</cards>
+   <action player="Parmigiano11" no="17" sum="0" type="4"/>
+   <action player="ChuckNorris3110" no="18" sum="2,300" type="5"/>
+   <action player="Parmigiano11" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582121329">
+  <general>
+   <startdate>2024-02-24 16:51:45</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="100,000" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="99,272" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="95,490" dealer="1" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="86,203" dealer="0" bet="650" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="118,096" dealer="0" bet="17,498" win="16,396" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="120,748" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="180,824" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="107,497" dealer="0" bet="7,498" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Parmigiano11" no="1" sum="150" type="15"/>
+   <action player="BigLeader" no="2" sum="150" type="15"/>
+   <action player="ChuckNorris3110" no="3" sum="150" type="15"/>
+   <action player="mztskopje22" no="4" sum="150" type="15"/>
+   <action player="Halv0rnald0" no="5" sum="150" type="15"/>
+   <action player="tropeiro123" no="6" sum="150" type="15"/>
+   <action player="Lavraaa" no="7" sum="150" type="15"/>
+   <action player="fortunefavour" no="8" sum="150" type="15"/>
+   <action player="Parmigiano11" no="9" sum="500" type="1"/>
+   <action player="BigLeader" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="11" sum="0" type="0"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="12" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="13" sum="2,130" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H2 S9</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="15" sum="0" type="0"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="16" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="17" sum="0" type="0"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="18" sum="1,130" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HK H6</cards>
+   <action player="BigLeader" no="19" sum="0" type="4"/>
+   <action player="Halv0rnald0" no="20" sum="1,609" type="5"/>
+   <action player="BigLeader" no="21" sum="5,218" type="23"/>
+   <action player="Halv0rnald0" no="22" sum="3,609" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action player="BigLeader" no="23" sum="10,000" type="5"/>
+   <action player="Halv0rnald0" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582142991">
+  <general>
+   <startdate>2024-02-24 16:52:36</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="99,850" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="99,122" dealer="0" bet="2,200" win="3,700" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="95,340" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="85,553" dealer="1" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="126,994" dealer="0" bet="650" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="120,598" dealer="0" bet="1,150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="180,674" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="99,999" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="BigLeader" no="1" sum="150" type="15"/>
+   <action player="ChuckNorris3110" no="2" sum="150" type="15"/>
+   <action player="mztskopje22" no="3" sum="150" type="15"/>
+   <action player="Halv0rnald0" no="4" sum="150" type="15"/>
+   <action player="tropeiro123" no="5" sum="150" type="15"/>
+   <action player="Lavraaa" no="6" sum="150" type="15"/>
+   <action player="fortunefavour" no="7" sum="150" type="15"/>
+   <action player="Parmigiano11" no="8" sum="150" type="15"/>
+   <action player="BigLeader" no="9" sum="500" type="1"/>
+   <action player="ChuckNorris3110" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="11" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 C9</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="14" sum="2,200" type="23"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="15" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="16" sum="0" type="0"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="17" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143022">
+  <general>
+   <startdate>2024-02-24 16:53:01</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="99,700" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="101,672" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="95,190" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="85,403" dealer="0" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="126,344" dealer="1" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="119,448" dealer="0" bet="650" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="180,524" dealer="0" bet="1,150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="99,849" dealer="0" bet="2,130" win="3,700" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ChuckNorris3110" no="1" sum="150" type="15"/>
+   <action player="mztskopje22" no="2" sum="150" type="15"/>
+   <action player="Halv0rnald0" no="3" sum="150" type="15"/>
+   <action player="tropeiro123" no="4" sum="150" type="15"/>
+   <action player="Lavraaa" no="5" sum="150" type="15"/>
+   <action player="fortunefavour" no="6" sum="150" type="15"/>
+   <action player="Parmigiano11" no="7" sum="150" type="15"/>
+   <action player="BigLeader" no="8" sum="150" type="15"/>
+   <action player="ChuckNorris3110" no="9" sum="500" type="1"/>
+   <action player="mztskopje22" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="11" sum="2,130" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ H4</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="13" sum="0" type="0"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="14" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="15" sum="0" type="0"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="16" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="17" sum="0" type="0"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143049">
+  <general>
+   <startdate>2024-02-24 16:53:33</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="99,550" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="101,522" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="95,040" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="85,253" dealer="0" bet="4,363" win="6,100" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="126,194" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="118,798" dealer="1" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="179,374" dealer="0" bet="650" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="102,399" dealer="0" bet="2,350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mztskopje22" no="1" sum="150" type="15"/>
+   <action player="Halv0rnald0" no="2" sum="150" type="15"/>
+   <action player="tropeiro123" no="3" sum="150" type="15"/>
+   <action player="Lavraaa" no="4" sum="150" type="15"/>
+   <action player="fortunefavour" no="5" sum="150" type="15"/>
+   <action player="Parmigiano11" no="6" sum="150" type="15"/>
+   <action player="BigLeader" no="7" sum="150" type="15"/>
+   <action player="ChuckNorris3110" no="8" sum="150" type="15"/>
+   <action player="mztskopje22" no="9" sum="500" type="1"/>
+   <action player="Halv0rnald0" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H3 H9</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="12" sum="0" type="0"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="13" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="14" sum="2,200" type="23"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="15" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="16" sum="0" type="0"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="17" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 C10 H10</cards>
+   <action player="Halv0rnald0" no="19" sum="0" type="4"/>
+   <action player="Parmigiano11" no="20" sum="2,013" type="5"/>
+   <action player="Halv0rnald0" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143120">
+  <general>
+   <startdate>2024-02-24 16:54:28</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="99,400" dealer="0" bet="1,380" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="101,372" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="94,890" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="89,003" dealer="0" bet="2,820" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="126,044" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="118,648" dealer="0" bet="8,520" win="8,520" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="178,724" dealer="1" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="100,049" dealer="0" bet="780" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Halv0rnald0" no="1" sum="180" type="15"/>
+   <action player="tropeiro123" no="2" sum="180" type="15"/>
+   <action player="Lavraaa" no="3" sum="180" type="15"/>
+   <action player="fortunefavour" no="4" sum="180" type="15"/>
+   <action player="Parmigiano11" no="5" sum="180" type="15"/>
+   <action player="BigLeader" no="6" sum="180" type="15"/>
+   <action player="ChuckNorris3110" no="7" sum="180" type="15"/>
+   <action player="mztskopje22" no="8" sum="180" type="15"/>
+   <action player="Halv0rnald0" no="9" sum="600" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="11" sum="0" type="0"/>
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="12" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="13" sum="2,640" type="23"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="14" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="15" sum="8,520" type="23"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="16" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 DK</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="Parmigiano11" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143162">
+  <general>
+   <startdate>2024-02-24 16:54:59</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="98,020" dealer="0" bet="780" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="101,192" dealer="0" bet="2,580" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="94,710" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="86,183" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="125,864" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="124,348" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="178,544" dealer="0" bet="4,837" win="6,840" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="99,269" dealer="1" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="180" type="15"/>
+   <action player="Lavraaa" no="2" sum="180" type="15"/>
+   <action player="fortunefavour" no="3" sum="180" type="15"/>
+   <action player="Parmigiano11" no="4" sum="180" type="15"/>
+   <action player="BigLeader" no="5" sum="180" type="15"/>
+   <action player="ChuckNorris3110" no="6" sum="180" type="15"/>
+   <action player="mztskopje22" no="7" sum="180" type="15"/>
+   <action player="Halv0rnald0" no="8" sum="180" type="15"/>
+   <action player="tropeiro123" no="9" sum="600" type="1"/>
+   <action player="Lavraaa" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <action player="fortunefavour" no="11" sum="0" type="0"/>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="12" sum="0" type="0"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="13" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="14" sum="0" type="0"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="15" sum="2,400" type="23"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 D10</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 SQ DA</cards>
+   <action player="Lavraaa" no="19" sum="0" type="4"/>
+   <action player="mztskopje22" no="20" sum="2,257" type="5"/>
+   <action player="Lavraaa" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143195">
+  <general>
+   <startdate>2024-02-24 17:01:33</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959862319" chips="97,240" dealer="1" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Lavraaa" reg_code="" chips="98,612" dealer="0" bet="780" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="fortunefavour" reg_code="" chips="94,530" dealer="0" bet="1,380" win="2,640" rebuy="0" seat="4" addon="0"/>
+    <player name="Parmigiano11" reg_code="" chips="86,003" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="BigLeader" reg_code="" chips="125,684" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="ChuckNorris3110" reg_code="" chips="124,168" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="mztskopje22" reg_code="" chips="182,804" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Halv0rnald0" reg_code="" chips="99,089" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Lavraaa" no="1" sum="180" type="15"/>
+   <action player="fortunefavour" no="2" sum="180" type="15"/>
+   <action player="Parmigiano11" no="3" sum="180" type="15"/>
+   <action player="BigLeader" no="4" sum="180" type="15"/>
+   <action player="ChuckNorris3110" no="5" sum="180" type="15"/>
+   <action player="mztskopje22" no="6" sum="180" type="15"/>
+   <action player="Halv0rnald0" no="7" sum="180" type="15"/>
+   <action player="tropeiro123" no="8" sum="180" type="15"/>
+   <action player="Lavraaa" no="9" sum="600" type="1"/>
+   <action player="fortunefavour" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="fortunefavour" type="Pocket">X X</cards>
+   <cards player="Parmigiano11" type="Pocket">X X</cards>
+   <action player="Parmigiano11" no="11" sum="0" type="0"/>
+   <cards player="BigLeader" type="Pocket">X X</cards>
+   <action player="BigLeader" no="12" sum="0" type="0"/>
+   <cards player="ChuckNorris3110" type="Pocket">X X</cards>
+   <action player="ChuckNorris3110" no="13" sum="0" type="0"/>
+   <cards player="mztskopje22" type="Pocket">X X</cards>
+   <action player="mztskopje22" no="14" sum="0" type="0"/>
+   <cards player="Halv0rnald0" type="Pocket">X X</cards>
+   <action player="Halv0rnald0" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 C2</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="Lavraaa" type="Pocket">X X</cards>
+   <action player="Lavraaa" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143202">
+  <general>
+   <startdate>2024-02-24 17:01:35</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="100,000" dealer="1" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="100,000" dealer="0" bet="780" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="100,000" dealer="0" bet="3,780" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="100,000" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="100,000" dealer="0" bet="8,580" win="8,880" rebuy="0" seat="6" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,970" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Wang2169420" no="1" sum="180" type="15"/>
+   <action player="shipit7" no="2" sum="180" type="15"/>
+   <action player="knapp1" no="3" sum="180" type="15"/>
+   <action player="Dixflop" no="4" sum="180" type="15"/>
+   <action player="ZitFluit" no="5" sum="180" type="15"/>
+   <action player="cucaracha885" no="6" sum="180" type="15"/>
+   <action player="Wang2169420" no="7" sum="600" type="1"/>
+   <action player="shipit7" no="8" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="9" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="10" sum="3,600" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="12" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 D3 DK</cards>
+   <action player="shipit7" no="15" sum="0" type="4"/>
+   <action player="Dixflop" no="16" sum="4,800" type="5"/>
+   <action player="shipit7" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143231">
+  <general>
+   <startdate>2024-02-24 17:02:34</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="99,820" dealer="0" bet="6,126" win="8,100" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="99,220" dealer="1" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="96,220" dealer="0" bet="780" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="99,820" dealer="0" bet="1,380" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="105,100" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="97,060" dealer="0" bet="2,700" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,790" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="180" type="15"/>
+   <action player="knapp1" no="2" sum="180" type="15"/>
+   <action player="Dixflop" no="3" sum="180" type="15"/>
+   <action player="tropeiro123" no="4" sum="180" type="15"/>
+   <action player="ZitFluit" no="5" sum="180" type="15"/>
+   <action player="cucaracha885" no="6" sum="180" type="15"/>
+   <action player="Wang2169420" no="7" sum="180" type="15"/>
+   <action player="shipit7" no="8" sum="600" type="1"/>
+   <action player="knapp1" no="9" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 DJ</cards>
+   <action player="tropeiro123" no="11" sum="2,520" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="13" sum="6,126" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="15" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="16" sum="0" type="0"/>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143313">
+  <general>
+   <startdate>2024-02-24 17:03:37</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="105,220" dealer="0" bet="16,552" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="99,040" dealer="0" bet="16,552" win="35,984" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="95,440" dealer="1" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="98,440" dealer="0" bet="780" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="104,920" dealer="0" bet="1,380" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="100,000" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="94,360" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,610" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="knapp1" no="1" sum="180" type="15"/>
+   <action player="Dixflop" no="2" sum="180" type="15"/>
+   <action player="TheScouseAA" no="3" sum="180" type="15"/>
+   <action player="tropeiro123" no="4" sum="180" type="15"/>
+   <action player="ZitFluit" no="5" sum="180" type="15"/>
+   <action player="cucaracha885" no="6" sum="180" type="15"/>
+   <action player="Wang2169420" no="7" sum="180" type="15"/>
+   <action player="shipit7" no="8" sum="180" type="15"/>
+   <action player="knapp1" no="9" sum="600" type="1"/>
+   <action player="Dixflop" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">CA S10</cards>
+   <action player="cucaracha885" no="14" sum="2,400" type="23"/>
+   <cards player="Wang2169420" type="Pocket">SQ DA</cards>
+   <action player="Wang2169420" no="15" sum="7,200" type="23"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="17" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="18" sum="0" type="0"/>
+   <action player="cucaracha885" no="19" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 D4 CQ</cards>
+   <action player="cucaracha885" no="20" sum="0" type="4"/>
+   <action player="Wang2169420" no="21" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action player="cucaracha885" no="22" sum="0" type="4"/>
+   <action player="Wang2169420" no="23" sum="9,172" type="5"/>
+   <action player="cucaracha885" no="24" sum="9,172" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action player="cucaracha885" no="25" sum="0" type="4"/>
+   <action player="Wang2169420" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582143418">
+  <general>
+   <startdate>2024-02-24 17:05:18</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="88,668" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,472" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="95,260" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="97,660" dealer="1" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="103,540" dealer="0" bet="1,380" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="99,820" dealer="0" bet="4,200" win="3,840" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="94,180" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,430" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Dixflop" no="1" sum="180" type="15"/>
+   <action player="TheScouseAA" no="2" sum="180" type="15"/>
+   <action player="tropeiro123" no="3" sum="180" type="15"/>
+   <action player="ZitFluit" no="4" sum="180" type="15"/>
+   <action player="cucaracha885" no="5" sum="180" type="15"/>
+   <action player="Wang2169420" no="6" sum="180" type="15"/>
+   <action player="shipit7" no="7" sum="180" type="15"/>
+   <action player="knapp1" no="8" sum="180" type="15"/>
+   <action player="Dixflop" no="9" sum="600" type="1"/>
+   <action player="TheScouseAA" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HJ S7</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="13" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="15" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="16" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="17" sum="600" type="3"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="18" sum="4,200" type="23"/>
+   <action player="Dixflop" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143455">
+  <general>
+   <startdate>2024-02-24 17:05:47</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="88,488" dealer="0" bet="5,765" win="9,240" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,292" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="95,080" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="97,480" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="102,160" dealer="1" bet="2,580" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="102,280" dealer="0" bet="780" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="94,000" dealer="0" bet="2,580" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,250" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TheScouseAA" no="1" sum="180" type="15"/>
+   <action player="tropeiro123" no="2" sum="180" type="15"/>
+   <action player="ZitFluit" no="3" sum="180" type="15"/>
+   <action player="cucaracha885" no="4" sum="180" type="15"/>
+   <action player="Wang2169420" no="5" sum="180" type="15"/>
+   <action player="shipit7" no="6" sum="180" type="15"/>
+   <action player="knapp1" no="7" sum="180" type="15"/>
+   <action player="Dixflop" no="8" sum="180" type="15"/>
+   <action player="TheScouseAA" no="9" sum="600" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="12" sum="2,400" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="15" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="16" sum="2,400" type="3"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK C9</cards>
+   <action player="tropeiro123" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ DJ H3</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="cucaracha885" no="20" sum="3,185" type="5"/>
+   <action player="Dixflop" no="21" sum="0" type="0"/>
+   <action player="tropeiro123" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143525">
+  <general>
+   <startdate>2024-02-24 17:06:44</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="95,148" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,112" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="94,900" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="97,300" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="99,580" dealer="0" bet="7,380" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="101,500" dealer="1" bet="13,201" win="17,640" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="91,420" dealer="0" bet="780" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="102,070" dealer="0" bet="1,380" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="180" type="15"/>
+   <action player="ZitFluit" no="2" sum="180" type="15"/>
+   <action player="cucaracha885" no="3" sum="180" type="15"/>
+   <action player="Wang2169420" no="4" sum="180" type="15"/>
+   <action player="shipit7" no="5" sum="180" type="15"/>
+   <action player="knapp1" no="6" sum="180" type="15"/>
+   <action player="Dixflop" no="7" sum="180" type="15"/>
+   <action player="TheScouseAA" no="8" sum="180" type="15"/>
+   <action player="tropeiro123" no="9" sum="600" type="1"/>
+   <action player="ZitFluit" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="11" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="12" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="13" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="14" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="15" sum="2,400" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="16" sum="7,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DK C2</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="18" sum="0" type="0"/>
+   <action player="Dixflop" no="19" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ SA D8</cards>
+   <action player="Dixflop" no="20" sum="0" type="4"/>
+   <action player="TheScouseAA" no="21" sum="5,821" type="5"/>
+   <action player="Dixflop" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143624">
+  <general>
+   <startdate>2024-02-24 17:07:56</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="94,968" dealer="0" bet="1,380" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="117,932" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="94,720" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="97,120" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="92,200" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,760" dealer="0" bet="2,640" win="4,440" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="90,640" dealer="1" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="100,690" dealer="0" bet="780" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ZitFluit" no="1" sum="180" type="15"/>
+   <action player="cucaracha885" no="2" sum="180" type="15"/>
+   <action player="Wang2169420" no="3" sum="180" type="15"/>
+   <action player="shipit7" no="4" sum="180" type="15"/>
+   <action player="knapp1" no="5" sum="180" type="15"/>
+   <action player="Dixflop" no="6" sum="180" type="15"/>
+   <action player="TheScouseAA" no="7" sum="180" type="15"/>
+   <action player="tropeiro123" no="8" sum="180" type="15"/>
+   <action player="ZitFluit" no="9" sum="600" type="1"/>
+   <action player="cucaracha885" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="11" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="13" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="14" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="15" sum="2,640" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D4 S2</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="17" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143685">
+  <general>
+   <startdate>2024-02-24 17:08:49</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="93,588" dealer="0" bet="780" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="117,752" dealer="0" bet="1,380" win="2,640" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="94,540" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="96,940" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="92,020" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="114,820" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="90,460" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,910" dealer="1" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="cucaracha885" no="1" sum="180" type="15"/>
+   <action player="Wang2169420" no="2" sum="180" type="15"/>
+   <action player="shipit7" no="3" sum="180" type="15"/>
+   <action player="knapp1" no="4" sum="180" type="15"/>
+   <action player="Dixflop" no="5" sum="180" type="15"/>
+   <action player="TheScouseAA" no="6" sum="180" type="15"/>
+   <action player="tropeiro123" no="7" sum="180" type="15"/>
+   <action player="ZitFluit" no="8" sum="180" type="15"/>
+   <action player="cucaracha885" no="9" sum="600" type="1"/>
+   <action player="Wang2169420" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ D4</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582143724">
+  <general>
+   <startdate>2024-02-24 17:09:25</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="92,808" dealer="1" bet="42,510" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="119,612" dealer="0" bet="780" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="94,360" dealer="0" bet="42,510" win="86,700" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="96,760" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="91,840" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="114,640" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="90,280" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,730" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Wang2169420" no="1" sum="180" type="15"/>
+   <action player="shipit7" no="2" sum="180" type="15"/>
+   <action player="knapp1" no="3" sum="180" type="15"/>
+   <action player="Dixflop" no="4" sum="180" type="15"/>
+   <action player="TheScouseAA" no="5" sum="180" type="15"/>
+   <action player="tropeiro123" no="6" sum="180" type="15"/>
+   <action player="ZitFluit" no="7" sum="180" type="15"/>
+   <action player="cucaracha885" no="8" sum="180" type="15"/>
+   <action player="Wang2169420" no="9" sum="600" type="1"/>
+   <action player="shipit7" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="11" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="12" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 S6</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="15" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">DK D7</cards>
+   <action player="cucaracha885" no="16" sum="2,665" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="17" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">DA CQ</cards>
+   <action player="shipit7" no="18" sum="11,330" type="23"/>
+   <action player="cucaracha885" no="19" sum="8,665" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H8 C9</cards>
+   <action player="shipit7" no="20" sum="0" type="4"/>
+   <action player="cucaracha885" no="21" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action player="shipit7" no="22" sum="12,597" type="5"/>
+   <action player="cucaracha885" no="23" sum="31,000" type="23"/>
+   <action player="shipit7" no="24" sum="18,403" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action player="shipit7" no="25" sum="0" type="4"/>
+   <action player="cucaracha885" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582169991">
+  <general>
+   <startdate>2024-02-24 17:11:20</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="50,298" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,832" dealer="1" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="138,550" dealer="0" bet="780" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="96,580" dealer="0" bet="1,380" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="91,660" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="114,460" dealer="0" bet="2,640" win="4,440" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="90,100" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,550" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="180" type="15"/>
+   <action player="knapp1" no="2" sum="180" type="15"/>
+   <action player="Dixflop" no="3" sum="180" type="15"/>
+   <action player="TheScouseAA" no="4" sum="180" type="15"/>
+   <action player="tropeiro123" no="5" sum="180" type="15"/>
+   <action player="ZitFluit" no="6" sum="180" type="15"/>
+   <action player="cucaracha885" no="7" sum="180" type="15"/>
+   <action player="Wang2169420" no="8" sum="180" type="15"/>
+   <action player="shipit7" no="9" sum="600" type="1"/>
+   <action player="knapp1" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="11" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="12" sum="2,640" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CJ HK</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="14" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="15" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="16" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="17" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170024">
+  <general>
+   <startdate>2024-02-24 17:11:48</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="50,118" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,652" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="137,770" dealer="1" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="knapp1" reg_code="" chips="95,200" dealer="0" bet="900" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="91,480" dealer="0" bet="3,700" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="117,520" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="89,920" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,370" dealer="0" bet="10,582" win="9,300" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="knapp1" no="1" sum="200" type="15"/>
+   <action player="Dixflop" no="2" sum="200" type="15"/>
+   <action player="TheScouseAA" no="3" sum="200" type="15"/>
+   <action player="tropeiro123" no="4" sum="200" type="15"/>
+   <action player="ZitFluit" no="5" sum="200" type="15"/>
+   <action player="cucaracha885" no="6" sum="200" type="15"/>
+   <action player="Wang2169420" no="7" sum="200" type="15"/>
+   <action player="shipit7" no="8" sum="200" type="15"/>
+   <action player="knapp1" no="9" sum="700" type="1"/>
+   <action player="Dixflop" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 SK</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="3,500" type="23"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="14" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="15" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action player="knapp1" no="17" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="18" sum="2,100" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 H4 S9</cards>
+   <action player="Dixflop" no="19" sum="0" type="4"/>
+   <action player="ZitFluit" no="20" sum="6,882" type="5"/>
+   <action player="Dixflop" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170113">
+  <general>
+   <startdate>2024-02-24 17:12:59</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="49,918" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="118,452" dealer="0" bet="3,140" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="137,570" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="87,780" dealer="0" bet="900" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="117,320" dealer="0" bet="1,600" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="89,720" dealer="0" bet="11,120" win="9,380" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="104,970" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Dixflop" no="1" sum="200" type="15"/>
+   <action player="TheScouseAA" no="2" sum="200" type="15"/>
+   <action player="tropeiro123" no="3" sum="200" type="15"/>
+   <action player="ZitFluit" no="4" sum="200" type="15"/>
+   <action player="cucaracha885" no="5" sum="200" type="15"/>
+   <action player="Wang2169420" no="6" sum="200" type="15"/>
+   <action player="shipit7" no="7" sum="200" type="15"/>
+   <action player="Dixflop" no="8" sum="700" type="1"/>
+   <action player="TheScouseAA" no="9" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CJ SQ</cards>
+   <action player="tropeiro123" no="10" sum="2,940" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="12" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="2,940" type="3"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="15" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA C4 H8</cards>
+   <action player="tropeiro123" no="17" sum="0" type="4"/>
+   <action player="Wang2169420" no="18" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action player="tropeiro123" no="19" sum="7,980" type="5"/>
+   <action player="Wang2169420" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170203">
+  <general>
+   <startdate>2024-02-24 17:14:10</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="49,718" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="115,312" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="137,370" dealer="0" bet="5,818" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="274,446" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="86,880" dealer="1" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="115,720" dealer="0" bet="900" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="95,960" dealer="0" bet="7,218" win="13,536" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="104,770" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TheScouseAA" no="1" sum="200" type="15"/>
+   <action player="tropeiro123" no="2" sum="200" type="15"/>
+   <action player="ZitFluit" no="3" sum="200" type="15"/>
+   <action player="cucaracha885" no="4" sum="200" type="15"/>
+   <action player="Wang2169420" no="5" sum="200" type="15"/>
+   <action player="shipit7" no="6" sum="200" type="15"/>
+   <action player="SanFocus" no="7" sum="200" type="15"/>
+   <action player="Dixflop" no="8" sum="200" type="15"/>
+   <action player="TheScouseAA" no="9" sum="700" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="12" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="3,080" type="23"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="15" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="16" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 HA</cards>
+   <action player="tropeiro123" no="18" sum="1,680" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D7 C10</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="shipit7" no="20" sum="2,538" type="5"/>
+   <action player="tropeiro123" no="21" sum="2,538" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action player="tropeiro123" no="22" sum="0" type="4"/>
+   <action player="shipit7" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action player="tropeiro123" no="24" sum="1,400" type="5"/>
+   <action player="shipit7" no="25" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170354">
+  <general>
+   <startdate>2024-02-24 17:16:04</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="49,518" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="115,112" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="131,552" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="274,246" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="86,680" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="114,820" dealer="1" bet="3,000" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="103,678" dealer="0" bet="900" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="104,570" dealer="0" bet="11,200" win="7,900" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="200" type="15"/>
+   <action player="ZitFluit" no="2" sum="200" type="15"/>
+   <action player="cucaracha885" no="3" sum="200" type="15"/>
+   <action player="Wang2169420" no="4" sum="200" type="15"/>
+   <action player="shipit7" no="5" sum="200" type="15"/>
+   <action player="SanFocus" no="6" sum="200" type="15"/>
+   <action player="Dixflop" no="7" sum="200" type="15"/>
+   <action player="TheScouseAA" no="8" sum="200" type="15"/>
+   <action player="tropeiro123" no="9" sum="700" type="1"/>
+   <action player="ZitFluit" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="11" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="12" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="13" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="14" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="15" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="16" sum="2,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D3 S6</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="18" sum="11,200" type="23"/>
+   <action player="TheScouseAA" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170412">
+  <general>
+   <startdate>2024-02-24 17:16:51</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="49,318" dealer="0" bet="1,600" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="114,912" dealer="0" bet="14,046" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="131,352" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="274,046" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="86,480" dealer="0" bet="86,480" win="45,238" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,820" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="102,778" dealer="1" bet="14,046" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="109,470" dealer="0" bet="900" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ZitFluit" no="1" sum="200" type="15"/>
+   <action player="cucaracha885" no="2" sum="200" type="15"/>
+   <action player="Wang2169420" no="3" sum="200" type="15"/>
+   <action player="shipit7" no="4" sum="200" type="15"/>
+   <action player="SanFocus" no="5" sum="200" type="15"/>
+   <action player="Dixflop" no="6" sum="200" type="15"/>
+   <action player="TheScouseAA" no="7" sum="200" type="15"/>
+   <action player="tropeiro123" no="8" sum="200" type="15"/>
+   <action player="ZitFluit" no="9" sum="700" type="1"/>
+   <action player="cucaracha885" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="11" sum="3,220" type="23"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="13" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="14" sum="3,220" type="3"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA CJ</cards>
+   <action player="tropeiro123" no="16" sum="13,846" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="17" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="18" sum="0" type="0"/>
+   <action player="Wang2169420" no="19" sum="10,626" type="3"/>
+   <action player="Dixflop" no="20" sum="10,626" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H4 H3</cards>
+   <action player="Wang2169420" no="21" sum="0" type="4"/>
+   <action player="Dixflop" no="22" sum="0" type="4"/>
+   <action player="tropeiro123" no="23" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+   <action player="Wang2169420" no="24" sum="0" type="4"/>
+   <action player="Dixflop" no="25" sum="0" type="4"/>
+   <action player="tropeiro123" no="26" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+   <action player="Wang2169420" no="27" sum="0" type="4"/>
+   <action player="Dixflop" no="28" sum="72,434" type="5"/>
+   <action player="tropeiro123" no="29" sum="0" type="0"/>
+   <action player="Wang2169420" no="30" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170578">
+  <general>
+   <startdate>2024-02-24 17:18:58</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="47,718" dealer="0" bet="4,200" win="4,400" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="100,866" dealer="0" bet="1,600" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="131,152" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="273,846" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="117,672" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,620" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="88,732" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="108,570" dealer="1" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="cucaracha885" no="1" sum="200" type="15"/>
+   <action player="Wang2169420" no="2" sum="200" type="15"/>
+   <action player="shipit7" no="3" sum="200" type="15"/>
+   <action player="SanFocus" no="4" sum="200" type="15"/>
+   <action player="Dixflop" no="5" sum="200" type="15"/>
+   <action player="TheScouseAA" no="6" sum="200" type="15"/>
+   <action player="tropeiro123" no="7" sum="200" type="15"/>
+   <action player="ZitFluit" no="8" sum="200" type="15"/>
+   <action player="cucaracha885" no="9" sum="700" type="1"/>
+   <action player="Wang2169420" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 CJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="17" sum="4,200" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582170627">
+  <general>
+   <startdate>2024-02-24 17:19:43</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="50,518" dealer="1" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="99,266" dealer="0" bet="900" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="130,952" dealer="0" bet="3,140" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="273,646" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="117,472" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,420" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="88,532" dealer="0" bet="5,184" win="8,180" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="108,370" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Wang2169420" no="1" sum="200" type="15"/>
+   <action player="shipit7" no="2" sum="200" type="15"/>
+   <action player="SanFocus" no="3" sum="200" type="15"/>
+   <action player="Dixflop" no="4" sum="200" type="15"/>
+   <action player="TheScouseAA" no="5" sum="200" type="15"/>
+   <action player="tropeiro123" no="6" sum="200" type="15"/>
+   <action player="ZitFluit" no="7" sum="200" type="15"/>
+   <action player="cucaracha885" no="8" sum="200" type="15"/>
+   <action player="Wang2169420" no="9" sum="700" type="1"/>
+   <action player="shipit7" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="11" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="12" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 HQ</cards>
+   <action player="tropeiro123" no="14" sum="2,940" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="15" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="16" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="17" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="18" sum="1,540" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 D6 S8</cards>
+   <action player="shipit7" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="2,044" type="5"/>
+   <action player="shipit7" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582203824">
+  <general>
+   <startdate>2024-02-24 17:20:46</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="50,318" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="98,366" dealer="1" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="127,812" dealer="0" bet="900" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="273,446" dealer="0" bet="1,600" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="117,272" dealer="0" bet="21,900" win="25,400" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,220" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="93,572" dealer="0" bet="11,050" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="108,170" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="200" type="15"/>
+   <action player="SanFocus" no="2" sum="200" type="15"/>
+   <action player="Dixflop" no="3" sum="200" type="15"/>
+   <action player="TheScouseAA" no="4" sum="200" type="15"/>
+   <action player="tropeiro123" no="5" sum="200" type="15"/>
+   <action player="ZitFluit" no="6" sum="200" type="15"/>
+   <action player="cucaracha885" no="7" sum="200" type="15"/>
+   <action player="Wang2169420" no="8" sum="200" type="15"/>
+   <action player="shipit7" no="9" sum="700" type="1"/>
+   <action player="SanFocus" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="11" sum="4,200" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA HK</cards>
+   <action player="tropeiro123" no="13" sum="4,200" type="3"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="14" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="15" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="16" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="17" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 S5 H3</cards>
+   <action player="Dixflop" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="6,650" type="5"/>
+   <action player="Dixflop" no="21" sum="17,500" type="23"/>
+   <action player="tropeiro123" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582203941">
+  <general>
+   <startdate>2024-02-24 17:22:21</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="50,118" dealer="0" bet="8,700" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="98,166" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="126,912" dealer="1" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="271,846" dealer="0" bet="900" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="131,622" dealer="0" bet="8,700" win="22,240" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="111,020" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="82,522" dealer="0" bet="3,140" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="107,970" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="SanFocus" no="1" sum="200" type="15"/>
+   <action player="Dixflop" no="2" sum="200" type="15"/>
+   <action player="TheScouseAA" no="3" sum="200" type="15"/>
+   <action player="tropeiro123" no="4" sum="200" type="15"/>
+   <action player="ZitFluit" no="5" sum="200" type="15"/>
+   <action player="cucaracha885" no="6" sum="200" type="15"/>
+   <action player="Wang2169420" no="7" sum="200" type="15"/>
+   <action player="shipit7" no="8" sum="200" type="15"/>
+   <action player="SanFocus" no="9" sum="700" type="1"/>
+   <action player="Dixflop" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA DJ</cards>
+   <action player="tropeiro123" no="12" sum="2,940" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">D3 HA</cards>
+   <action player="cucaracha885" no="14" sum="2,940" type="3"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="15" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="17" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">D4 C6</cards>
+   <action player="Dixflop" no="18" sum="1,540" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 H3 C5</cards>
+   <action player="Dixflop" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="0" type="4"/>
+   <action player="cucaracha885" no="21" sum="5,560" type="5"/>
+   <action player="Dixflop" no="22" sum="5,560" type="3"/>
+   <action player="tropeiro123" no="23" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action player="Dixflop" no="24" sum="0" type="4"/>
+   <action player="cucaracha885" no="25" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+   <action player="Dixflop" no="26" sum="0" type="4"/>
+   <action player="cucaracha885" no="27" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582204040">
+  <general>
+   <startdate>2024-02-24 17:23:50</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="41,418" dealer="0" bet="8,650" win="10,800" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="97,966" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="126,712" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="270,946" dealer="1" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="145,162" dealer="0" bet="1,050" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="110,820" dealer="0" bet="4,250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,382" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="107,770" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Dixflop" no="1" sum="250" type="15"/>
+   <action player="TheScouseAA" no="2" sum="250" type="15"/>
+   <action player="tropeiro123" no="3" sum="250" type="15"/>
+   <action player="ZitFluit" no="4" sum="250" type="15"/>
+   <action player="cucaracha885" no="5" sum="250" type="15"/>
+   <action player="Wang2169420" no="6" sum="250" type="15"/>
+   <action player="shipit7" no="7" sum="250" type="15"/>
+   <action player="SanFocus" no="8" sum="250" type="15"/>
+   <action player="Dixflop" no="9" sum="800" type="1"/>
+   <action player="TheScouseAA" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DJ C5</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">X X</cards>
+   <action player="cucaracha885" no="13" sum="4,000" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="15" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="16" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="17" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="18" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 HJ CA</cards>
+   <action player="TheScouseAA" no="19" sum="0" type="4"/>
+   <action player="cucaracha885" no="20" sum="4,400" type="5"/>
+   <action player="TheScouseAA" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582204127">
+  <general>
+   <startdate>2024-02-24 17:24:50</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="cucaracha885" reg_code="" chips="47,968" dealer="0" bet="47,718" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="97,716" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="126,462" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="270,696" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="144,112" dealer="1" bet="47,968" win="99,836" rebuy="0" seat="6" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="cucaracha885"/>
+    </player>
+    <player name="TheScouseAA" reg_code="" chips="106,570" dealer="0" bet="1,050" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,132" dealer="0" bet="1,850" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="107,520" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TheScouseAA" no="1" sum="250" type="15"/>
+   <action player="tropeiro123" no="2" sum="250" type="15"/>
+   <action player="ZitFluit" no="3" sum="250" type="15"/>
+   <action player="cucaracha885" no="4" sum="250" type="15"/>
+   <action player="Wang2169420" no="5" sum="250" type="15"/>
+   <action player="shipit7" no="6" sum="250" type="15"/>
+   <action player="SanFocus" no="7" sum="250" type="15"/>
+   <action player="Dixflop" no="8" sum="250" type="15"/>
+   <action player="TheScouseAA" no="9" sum="800" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="cucaracha885" type="Pocket">S10 SA</cards>
+   <action player="cucaracha885" no="12" sum="4,000" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="15" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">CA DA</cards>
+   <action player="Dixflop" no="16" sum="9,600" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 HA</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="cucaracha885" no="19" sum="47,718" type="23"/>
+   <action player="Dixflop" no="20" sum="38,118" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 SJ H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10582204222">
+  <general>
+   <startdate>2024-02-24 17:26:12</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="Wang2169420" reg_code="" chips="97,466" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="126,212" dealer="0" bet="19,149" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="270,446" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="195,980" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="105,520" dealer="1" bet="33,549" win="41,948" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="77,282" dealer="0" bet="1,050" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="107,270" dealer="0" bet="1,850" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="250" type="15"/>
+   <action player="ZitFluit" no="2" sum="250" type="15"/>
+   <action player="Wang2169420" no="3" sum="250" type="15"/>
+   <action player="shipit7" no="4" sum="250" type="15"/>
+   <action player="SanFocus" no="5" sum="250" type="15"/>
+   <action player="Dixflop" no="6" sum="250" type="15"/>
+   <action player="TheScouseAA" no="7" sum="250" type="15"/>
+   <action player="tropeiro123" no="8" sum="800" type="1"/>
+   <action player="ZitFluit" no="9" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="10" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="3,520" type="23"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="10,560" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S8 D8</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <action player="shipit7" no="17" sum="7,040" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S5 C5</cards>
+   <action player="shipit7" no="18" sum="0" type="4"/>
+   <action player="TheScouseAA" no="19" sum="8,339" type="5"/>
+   <action player="shipit7" no="20" sum="8,339" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action player="shipit7" no="21" sum="0" type="4"/>
+   <action player="TheScouseAA" no="22" sum="14,400" type="5"/>
+   <action player="shipit7" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582204335">
+  <general>
+   <startdate>2024-02-24 17:27:54</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="276,297" dealer="0" bet="1,850" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="97,216" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="107,063" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="270,196" dealer="0" bet="3,450" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="195,730" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="128,319" dealer="0" bet="128,069" win="58,000" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="76,232" dealer="1" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="105,420" dealer="0" bet="25,850" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ZitFluit" no="1" sum="250" type="15"/>
+   <action player="zikaferal" no="2" sum="250" type="15"/>
+   <action player="Wang2169420" no="3" sum="250" type="15"/>
+   <action player="shipit7" no="4" sum="250" type="15"/>
+   <action player="SanFocus" no="5" sum="250" type="15"/>
+   <action player="Dixflop" no="6" sum="250" type="15"/>
+   <action player="TheScouseAA" no="7" sum="250" type="15"/>
+   <action player="tropeiro123" no="8" sum="250" type="15"/>
+   <action player="ZitFluit" no="9" sum="800" type="1"/>
+   <action player="zikaferal" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="11" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="13" sum="3,200" type="23"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="14" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="15" sum="9,600" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D5 H5</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="17" sum="25,600" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="18" sum="0" type="0"/>
+   <action player="SanFocus" no="19" sum="0" type="0"/>
+   <action player="TheScouseAA" no="20" sum="128,069" type="23"/>
+   <action player="ZitFluit" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582204470">
+  <general>
+   <startdate>2024-02-24 17:29:58</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="274,447" dealer="0" bet="1,050" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="96,966" dealer="0" bet="1,850" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="106,813" dealer="0" bet="10,490" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="266,746" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="195,480" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="160,469" dealer="0" bet="18,700" win="24,880" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="75,982" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="79,570" dealer="1" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="zikaferal" no="1" sum="250" type="15"/>
+   <action player="Wang2169420" no="2" sum="250" type="15"/>
+   <action player="shipit7" no="3" sum="250" type="15"/>
+   <action player="SanFocus" no="4" sum="250" type="15"/>
+   <action player="Dixflop" no="5" sum="250" type="15"/>
+   <action player="TheScouseAA" no="6" sum="250" type="15"/>
+   <action player="tropeiro123" no="7" sum="250" type="15"/>
+   <action player="ZitFluit" no="8" sum="250" type="15"/>
+   <action player="zikaferal" no="9" sum="800" type="1"/>
+   <action player="Wang2169420" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="3,520" type="23"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="10,240" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C4 HJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="17" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="18" sum="0" type="0"/>
+   <action player="shipit7" no="19" sum="6,720" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 H6 D6</cards>
+   <action player="shipit7" no="20" sum="0" type="4"/>
+   <action player="TheScouseAA" no="21" sum="8,210" type="5"/>
+   <action player="shipit7" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582204561">
+  <general>
+   <startdate>2024-02-24 17:31:13</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="273,397" dealer="1" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="95,116" dealer="0" bet="1,050" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="96,323" dealer="0" bet="1,850" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="266,496" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="195,230" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="174,859" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="75,732" dealer="0" bet="3,360" win="6,000" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="79,320" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Wang2169420" no="1" sum="250" type="15"/>
+   <action player="shipit7" no="2" sum="250" type="15"/>
+   <action player="SanFocus" no="3" sum="250" type="15"/>
+   <action player="Dixflop" no="4" sum="250" type="15"/>
+   <action player="TheScouseAA" no="5" sum="250" type="15"/>
+   <action player="tropeiro123" no="6" sum="250" type="15"/>
+   <action player="ZitFluit" no="7" sum="250" type="15"/>
+   <action player="zikaferal" no="8" sum="250" type="15"/>
+   <action player="Wang2169420" no="9" sum="800" type="1"/>
+   <action player="shipit7" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="11" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="12" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ D9</cards>
+   <action player="tropeiro123" no="14" sum="3,360" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="15" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="16" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="17" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582204611">
+  <general>
+   <startdate>2024-02-24 17:31:54</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="273,147" dealer="0" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="94,066" dealer="1" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="94,473" dealer="0" bet="1,050" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="266,246" dealer="0" bet="1,850" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="194,980" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="174,609" dealer="0" bet="10,490" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,882" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="79,070" dealer="0" bet="28,901" win="24,880" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="250" type="15"/>
+   <action player="SanFocus" no="2" sum="250" type="15"/>
+   <action player="Dixflop" no="3" sum="250" type="15"/>
+   <action player="TheScouseAA" no="4" sum="250" type="15"/>
+   <action player="tropeiro123" no="5" sum="250" type="15"/>
+   <action player="ZitFluit" no="6" sum="250" type="15"/>
+   <action player="zikaferal" no="7" sum="250" type="15"/>
+   <action player="Wang2169420" no="8" sum="250" type="15"/>
+   <action player="shipit7" no="9" sum="800" type="1"/>
+   <action player="SanFocus" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="11" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="12" sum="3,520" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SJ D2</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="14" sum="10,240" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="15" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="16" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="17" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="18" sum="0" type="0"/>
+   <action player="TheScouseAA" no="19" sum="6,720" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 C5 S6</cards>
+   <action player="TheScouseAA" no="20" sum="0" type="4"/>
+   <action player="ZitFluit" no="21" sum="18,411" type="5"/>
+   <action player="TheScouseAA" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229157">
+  <general>
+   <startdate>2024-02-24 17:33:07</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="272,897" dealer="0" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="93,816" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="93,423" dealer="1" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="SanFocus" reg_code="" chips="264,396" dealer="0" bet="1,050" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="194,730" dealer="0" bet="3,930" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="164,119" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,632" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="93,460" dealer="0" bet="11,448" win="10,160" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="SanFocus" no="1" sum="250" type="15"/>
+   <action player="Dixflop" no="2" sum="250" type="15"/>
+   <action player="TheScouseAA" no="3" sum="250" type="15"/>
+   <action player="tropeiro123" no="4" sum="250" type="15"/>
+   <action player="ZitFluit" no="5" sum="250" type="15"/>
+   <action player="zikaferal" no="6" sum="250" type="15"/>
+   <action player="Wang2169420" no="7" sum="250" type="15"/>
+   <action player="shipit7" no="8" sum="250" type="15"/>
+   <action player="SanFocus" no="9" sum="800" type="1"/>
+   <action player="Dixflop" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 C3</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="3,680" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="14" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="15" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="0" type="0"/>
+   <cards player="SanFocus" type="Pocket">X X</cards>
+   <action player="SanFocus" no="17" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="18" sum="2,080" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ C5 D6</cards>
+   <action player="Dixflop" no="19" sum="0" type="4"/>
+   <action player="ZitFluit" no="20" sum="7,518" type="5"/>
+   <action player="Dixflop" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229235">
+  <general>
+   <startdate>2024-02-24 17:34:12</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="272,647" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="93,566" dealer="0" bet="21,155" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="93,173" dealer="0" bet="39,155" win="46,385" rebuy="0" seat="4" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="190,800" dealer="0" bet="1,175" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="163,869" dealer="0" bet="2,075" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,382" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,690" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Dixflop" no="1" sum="275" type="15"/>
+   <action player="TheScouseAA" no="2" sum="275" type="15"/>
+   <action player="tropeiro123" no="3" sum="275" type="15"/>
+   <action player="ZitFluit" no="4" sum="275" type="15"/>
+   <action player="zikaferal" no="5" sum="275" type="15"/>
+   <action player="Wang2169420" no="6" sum="275" type="15"/>
+   <action player="shipit7" no="7" sum="275" type="15"/>
+   <action player="Dixflop" no="8" sum="900" type="1"/>
+   <action player="TheScouseAA" no="9" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C10 SJ</cards>
+   <action player="tropeiro123" no="10" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="12" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="4,140" type="23"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="11,880" type="23"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="15" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="16" sum="0" type="0"/>
+   <action player="Wang2169420" no="17" sum="7,740" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 H4 C3</cards>
+   <action player="Wang2169420" no="18" sum="0" type="4"/>
+   <action player="shipit7" no="19" sum="9,000" type="5"/>
+   <action player="Wang2169420" no="20" sum="9,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action player="Wang2169420" no="21" sum="0" type="4"/>
+   <action player="shipit7" no="22" sum="18,000" type="5"/>
+   <action player="Wang2169420" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229369">
+  <general>
+   <startdate>2024-02-24 17:35:54</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="272,372" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="72,411" dealer="0" bet="10,130" win="17,320" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="118,403" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="65,560" dealer="0" bet="4,415" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="189,625" dealer="1" bet="4,415" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="161,794" dealer="0" bet="1,175" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="79,107" dealer="0" bet="2,075" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,415" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TheScouseAA" no="1" sum="275" type="15"/>
+   <action player="tropeiro123" no="2" sum="275" type="15"/>
+   <action player="ZitFluit" no="3" sum="275" type="15"/>
+   <action player="zikaferal" no="4" sum="275" type="15"/>
+   <action player="Wang2169420" no="5" sum="275" type="15"/>
+   <action player="shipit7" no="6" sum="275" type="15"/>
+   <action player="dealerzenith23" no="7" sum="275" type="15"/>
+   <action player="Dixflop" no="8" sum="275" type="15"/>
+   <action player="TheScouseAA" no="9" sum="900" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="12" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="13" sum="4,140" type="23"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="15" sum="4,140" type="3"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="16" sum="4,140" type="3"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 D9</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 SA DA</cards>
+   <action player="Wang2169420" no="19" sum="5,715" type="5"/>
+   <action player="dealerzenith23" no="20" sum="0" type="0"/>
+   <action player="Dixflop" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229452">
+  <general>
+   <startdate>2024-02-24 17:37:06</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="272,097" dealer="0" bet="7,761" win="11,020" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="85,316" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="118,128" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="61,145" dealer="0" bet="275" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="185,210" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="160,619" dealer="1" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="77,032" dealer="0" bet="1,175" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="99,140" dealer="0" bet="4,235" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="275" type="15"/>
+   <action player="ZitFluit" no="2" sum="275" type="15"/>
+   <action player="zikaferal" no="3" sum="275" type="15"/>
+   <action player="Wang2169420" no="4" sum="275" type="15"/>
+   <action player="shipit7" no="5" sum="275" type="15"/>
+   <action player="dealerzenith23" no="6" sum="275" type="15"/>
+   <action player="Dixflop" no="7" sum="275" type="15"/>
+   <action player="TheScouseAA" no="8" sum="275" type="15"/>
+   <action player="tropeiro123" no="9" sum="900" type="1"/>
+   <action player="ZitFluit" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="11" sum="3,960" type="23"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="12" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="13" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="14" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="15" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 S2</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="18" sum="2,160" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S9 C9</cards>
+   <action player="ZitFluit" no="19" sum="0" type="4"/>
+   <action player="zikaferal" no="20" sum="3,526" type="5"/>
+   <action player="ZitFluit" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229526">
+  <general>
+   <startdate>2024-02-24 17:37:58</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="278,882" dealer="0" bet="2,075" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="85,041" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="117,853" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="60,870" dealer="0" bet="9,925" win="12,100" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="184,935" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="160,344" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="75,857" dealer="1" bet="3,875" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="94,905" dealer="0" bet="1,175" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ZitFluit" no="1" sum="275" type="15"/>
+   <action player="zikaferal" no="2" sum="275" type="15"/>
+   <action player="Wang2169420" no="3" sum="275" type="15"/>
+   <action player="shipit7" no="4" sum="275" type="15"/>
+   <action player="dealerzenith23" no="5" sum="275" type="15"/>
+   <action player="Dixflop" no="6" sum="275" type="15"/>
+   <action player="TheScouseAA" no="7" sum="275" type="15"/>
+   <action player="tropeiro123" no="8" sum="275" type="15"/>
+   <action player="ZitFluit" no="9" sum="900" type="1"/>
+   <action player="zikaferal" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="11" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="13" sum="3,600" type="23"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="14" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA CJ</cards>
+   <action player="tropeiro123" no="16" sum="3,600" type="3"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="17" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 HK H6</cards>
+   <action player="dealerzenith23" no="19" sum="6,050" type="5"/>
+   <action player="tropeiro123" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229643">
+  <general>
+   <startdate>2024-02-24 17:39:34</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="276,807" dealer="0" bet="1,175" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="84,766" dealer="0" bet="2,075" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="117,578" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="69,095" dealer="0" bet="7,475" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="184,660" dealer="0" bet="12,875" win="19,300" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="160,069" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="71,982" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="93,730" dealer="1" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="zikaferal" no="1" sum="275" type="15"/>
+   <action player="Wang2169420" no="2" sum="275" type="15"/>
+   <action player="shipit7" no="3" sum="275" type="15"/>
+   <action player="dealerzenith23" no="4" sum="275" type="15"/>
+   <action player="Dixflop" no="5" sum="275" type="15"/>
+   <action player="TheScouseAA" no="6" sum="275" type="15"/>
+   <action player="tropeiro123" no="7" sum="275" type="15"/>
+   <action player="ZitFluit" no="8" sum="275" type="15"/>
+   <action player="zikaferal" no="9" sum="900" type="1"/>
+   <action player="Wang2169420" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="12" sum="1,800" type="3"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="3,600" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK C2</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="17" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="18" sum="0" type="0"/>
+   <action player="dealerzenith23" no="19" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ C3 H3</cards>
+   <action player="dealerzenith23" no="20" sum="0" type="4"/>
+   <action player="Dixflop" no="21" sum="3,600" type="5"/>
+   <action player="dealerzenith23" no="22" sum="3,600" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action player="dealerzenith23" no="23" sum="0" type="4"/>
+   <action player="Dixflop" no="24" sum="5,400" type="5"/>
+   <action player="dealerzenith23" no="25" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229707">
+  <general>
+   <startdate>2024-02-24 17:40:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="275,632" dealer="1" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="82,691" dealer="0" bet="1,175" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="117,303" dealer="0" bet="2,075" win="4,000" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="61,620" dealer="0" bet="275" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="196,485" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="159,794" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="71,707" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="93,455" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Wang2169420" no="1" sum="275" type="15"/>
+   <action player="shipit7" no="2" sum="275" type="15"/>
+   <action player="dealerzenith23" no="3" sum="275" type="15"/>
+   <action player="Dixflop" no="4" sum="275" type="15"/>
+   <action player="TheScouseAA" no="5" sum="275" type="15"/>
+   <action player="tropeiro123" no="6" sum="275" type="15"/>
+   <action player="ZitFluit" no="7" sum="275" type="15"/>
+   <action player="zikaferal" no="8" sum="275" type="15"/>
+   <action player="Wang2169420" no="9" sum="900" type="1"/>
+   <action player="shipit7" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="11" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="12" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK D6</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="15" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="16" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229736">
+  <general>
+   <startdate>2024-02-24 17:40:57</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="275,357" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="Wang2169420" reg_code="" chips="81,516" dealer="1" bet="3,875" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="120,128" dealer="0" bet="1,175" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="61,345" dealer="0" bet="11,075" win="28,300" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="196,210" dealer="0" bet="11,075" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="159,519" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="71,432" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="93,180" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="275" type="15"/>
+   <action player="dealerzenith23" no="2" sum="275" type="15"/>
+   <action player="Dixflop" no="3" sum="275" type="15"/>
+   <action player="TheScouseAA" no="4" sum="275" type="15"/>
+   <action player="tropeiro123" no="5" sum="275" type="15"/>
+   <action player="ZitFluit" no="6" sum="275" type="15"/>
+   <action player="zikaferal" no="7" sum="275" type="15"/>
+   <action player="Wang2169420" no="8" sum="275" type="15"/>
+   <action player="shipit7" no="9" sum="900" type="1"/>
+   <action player="dealerzenith23" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dixflop" type="Pocket">CQ HK</cards>
+   <action player="Dixflop" no="11" sum="3,600" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 S8</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="14" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="15" sum="0" type="0"/>
+   <cards player="Wang2169420" type="Pocket">X X</cards>
+   <action player="Wang2169420" no="16" sum="3,600" type="3"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="17" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">H2 C3</cards>
+   <action player="dealerzenith23" no="18" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 SQ S3</cards>
+   <action player="dealerzenith23" no="19" sum="0" type="4"/>
+   <action player="Dixflop" no="20" sum="7,200" type="5"/>
+   <action player="Wang2169420" no="21" sum="0" type="0"/>
+   <action player="dealerzenith23" no="22" sum="7,200" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action player="dealerzenith23" no="23" sum="0" type="4"/>
+   <action player="Dixflop" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+   <action player="dealerzenith23" no="25" sum="0" type="4"/>
+   <action player="Dixflop" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582229819">
+  <general>
+   <startdate>2024-02-24 17:42:03</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="275,082" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="shipit7" reg_code="" chips="118,953" dealer="1" bet="29,435" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="78,570" dealer="0" bet="29,435" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="185,135" dealer="0" bet="2,075" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="159,244" dealer="0" bet="159,244" win="91,205" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="71,157" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="92,905" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="dealerzenith23" no="1" sum="275" type="15"/>
+   <action player="Dixflop" no="2" sum="275" type="15"/>
+   <action player="TheScouseAA" no="3" sum="275" type="15"/>
+   <action player="tropeiro123" no="4" sum="275" type="15"/>
+   <action player="ZitFluit" no="5" sum="275" type="15"/>
+   <action player="zikaferal" no="6" sum="275" type="15"/>
+   <action player="shipit7" no="7" sum="275" type="15"/>
+   <action player="dealerzenith23" no="8" sum="900" type="1"/>
+   <action player="Dixflop" no="9" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="10" sum="3,960" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DA S4</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="12,060" type="23"/>
+   <cards player="dealerzenith23" type="Pocket">X X</cards>
+   <action player="dealerzenith23" no="15" sum="11,160" type="3"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="16" sum="0" type="0"/>
+   <action player="TheScouseAA" no="17" sum="29,160" type="23"/>
+   <action player="shipit7" no="18" sum="17,100" type="3"/>
+   <action player="dealerzenith23" no="19" sum="17,100" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 D4 D2</cards>
+   <action player="dealerzenith23" no="20" sum="0" type="4"/>
+   <action player="TheScouseAA" no="21" sum="129,809" type="5"/>
+   <action player="shipit7" no="22" sum="0" type="0"/>
+   <action player="dealerzenith23" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582229919">
+  <general>
+   <startdate>2024-02-24 17:43:21</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="274,807" dealer="0" bet="49,135" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="100,000" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="89,518" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="49,135" dealer="1" bet="48,860" win="102,620" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="183,060" dealer="0" bet="1,175" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="221,014" dealer="0" bet="2,075" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="70,882" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="92,630" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Dixflop" no="1" sum="275" type="15"/>
+   <action player="TheScouseAA" no="2" sum="275" type="15"/>
+   <action player="tropeiro123" no="3" sum="275" type="15"/>
+   <action player="ZitFluit" no="4" sum="275" type="15"/>
+   <action player="zikaferal" no="5" sum="275" type="15"/>
+   <action player="TonyGambl" no="6" sum="275" type="15"/>
+   <action player="shipit7" no="7" sum="275" type="15"/>
+   <action player="dealerzenith23" no="8" sum="275" type="15"/>
+   <action player="Dixflop" no="9" sum="900" type="1"/>
+   <action player="TheScouseAA" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H2 S3</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">D7 D6</cards>
+   <action player="zikaferal" no="13" sum="3,960" type="23"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="15" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">C8 S8</cards>
+   <action player="dealerzenith23" no="16" sum="48,860" type="23"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="17" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="18" sum="0" type="0"/>
+   <action player="zikaferal" no="19" sum="44,900" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 HK SJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10582257765">
+  <general>
+   <startdate>2024-02-24 17:44:12</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="225,672" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="99,725" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="89,243" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dealerzenith23" reg_code="" chips="102,620" dealer="0" bet="102,620" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="181,885" dealer="1" bet="2,075" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="218,939" dealer="0" bet="218,939" win="210,490" rebuy="0" seat="7" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="dealerzenith23"/>
+    </player>
+    <player name="tropeiro123" reg_code="7959862319" chips="70,607" dealer="0" bet="2,075" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="92,355" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TheScouseAA" no="1" sum="275" type="15"/>
+   <action player="tropeiro123" no="2" sum="275" type="15"/>
+   <action player="ZitFluit" no="3" sum="275" type="15"/>
+   <action player="zikaferal" no="4" sum="275" type="15"/>
+   <action player="TonyGambl" no="5" sum="275" type="15"/>
+   <action player="shipit7" no="6" sum="275" type="15"/>
+   <action player="dealerzenith23" no="7" sum="275" type="15"/>
+   <action player="Dixflop" no="8" sum="275" type="15"/>
+   <action player="TheScouseAA" no="9" sum="900" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="11" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="12" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="13" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="14" sum="0" type="0"/>
+   <cards player="dealerzenith23" type="Pocket">SK D4</cards>
+   <action player="dealerzenith23" no="15" sum="1,800" type="3"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="16" sum="1,800" type="3"/>
+   <cards player="TheScouseAA" type="Pocket">CK DJ</cards>
+   <action player="TheScouseAA" no="17" sum="10,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SJ H6</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="dealerzenith23" no="19" sum="9,000" type="3"/>
+   <action player="Dixflop" no="20" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 HK C2</cards>
+   <action player="TheScouseAA" no="21" sum="9,042" type="5"/>
+   <action player="dealerzenith23" no="22" sum="27,263" type="23"/>
+   <action player="TheScouseAA" no="23" sum="207,864" type="23"/>
+   <action player="dealerzenith23" no="24" sum="64,282" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10582257873">
+  <general>
+   <startdate>2024-02-24 17:45:41</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="225,397" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="99,450" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="88,968" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="179,810" dealer="0" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="326,809" dealer="1" bet="4,400" win="7,100" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="68,532" dealer="0" bet="1,300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="92,080" dealer="0" bet="2,300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="300" type="15"/>
+   <action player="ZitFluit" no="2" sum="300" type="15"/>
+   <action player="zikaferal" no="3" sum="300" type="15"/>
+   <action player="TonyGambl" no="4" sum="300" type="15"/>
+   <action player="shipit7" no="5" sum="300" type="15"/>
+   <action player="Dixflop" no="6" sum="300" type="15"/>
+   <action player="TheScouseAA" no="7" sum="300" type="15"/>
+   <action player="tropeiro123" no="8" sum="1,000" type="1"/>
+   <action player="ZitFluit" no="9" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="10" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="11" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="13" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="4,400" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 DA</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582257916">
+  <general>
+   <startdate>2024-02-24 17:46:16</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="225,097" dealer="0" bet="4,500" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="99,150" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="88,668" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="JamaicanPumpk1n" reg_code="" chips="100,000" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="179,510" dealer="0" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="331,609" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="67,232" dealer="1" bet="12,760" win="15,000" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="89,780" dealer="0" bet="4,500" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ZitFluit" no="1" sum="300" type="15"/>
+   <action player="zikaferal" no="2" sum="300" type="15"/>
+   <action player="TonyGambl" no="3" sum="300" type="15"/>
+   <action player="shipit7" no="4" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="5" sum="300" type="15"/>
+   <action player="Dixflop" no="6" sum="300" type="15"/>
+   <action player="TheScouseAA" no="7" sum="300" type="15"/>
+   <action player="tropeiro123" no="8" sum="300" type="15"/>
+   <action player="ZitFluit" no="9" sum="1,000" type="1"/>
+   <action player="zikaferal" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="11" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="12" sum="0" type="0"/>
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="13" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">X X</cards>
+   <action player="Dixflop" no="14" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HJ CJ</cards>
+   <action player="tropeiro123" no="16" sum="4,200" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="17" sum="3,200" type="3"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="18" sum="2,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 S8 C8</cards>
+   <action player="ZitFluit" no="19" sum="0" type="4"/>
+   <action player="zikaferal" no="20" sum="0" type="4"/>
+   <action player="tropeiro123" no="21" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action player="ZitFluit" no="22" sum="0" type="4"/>
+   <action player="zikaferal" no="23" sum="0" type="4"/>
+   <action player="tropeiro123" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+   <action player="ZitFluit" no="25" sum="0" type="4"/>
+   <action player="zikaferal" no="26" sum="0" type="4"/>
+   <action player="tropeiro123" no="27" sum="8,260" type="5"/>
+   <action player="ZitFluit" no="28" sum="0" type="0"/>
+   <action player="zikaferal" no="29" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582258074">
+  <general>
+   <startdate>2024-02-24 17:48:27</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="220,597" dealer="0" bet="179,210" win="362,220" rebuy="0" seat="1" addon="0">
+     <knockout tobounty="€6.82" tobalance="€6.83" kicked="Dixflop"/>
+    </player>
+    <player name="TonyGambl" reg_code="" chips="98,850" dealer="0" bet="2,300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="88,368" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="JamaicanPumpk1n" reg_code="" chips="99,700" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Dixflop" reg_code="" chips="179,210" dealer="0" bet="179,210" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="331,309" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="77,732" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="85,280" dealer="1" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="zikaferal" no="1" sum="300" type="15"/>
+   <action player="TonyGambl" no="2" sum="300" type="15"/>
+   <action player="shipit7" no="3" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="4" sum="300" type="15"/>
+   <action player="Dixflop" no="5" sum="300" type="15"/>
+   <action player="TheScouseAA" no="6" sum="300" type="15"/>
+   <action player="tropeiro123" no="7" sum="300" type="15"/>
+   <action player="ZitFluit" no="8" sum="300" type="15"/>
+   <action player="zikaferal" no="9" sum="1,000" type="1"/>
+   <action player="TonyGambl" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="11" sum="0" type="0"/>
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="12" sum="0" type="0"/>
+   <cards player="Dixflop" type="Pocket">H8 HA</cards>
+   <action player="Dixflop" no="13" sum="4,000" type="23"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 CJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="16" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">C2 S2</cards>
+   <action player="zikaferal" no="17" sum="3,000" type="3"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 D8 H4</cards>
+   <action player="zikaferal" no="19" sum="0" type="4"/>
+   <action player="Dixflop" no="20" sum="8,680" type="5"/>
+   <action player="zikaferal" no="21" sum="8,680" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action player="zikaferal" no="22" sum="0" type="4"/>
+   <action player="Dixflop" no="23" sum="20,832" type="5"/>
+   <action player="zikaferal" no="24" sum="20,832" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action player="zikaferal" no="25" sum="0" type="4"/>
+   <action player="Dixflop" no="26" sum="145,398" type="5"/>
+   <action player="zikaferal" no="27" sum="145,398" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10582258197">
+  <general>
+   <startdate>2024-02-24 17:50:08</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="403,607" dealer="1" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="96,550" dealer="0" bet="1,300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="88,068" dealer="0" bet="16,400" win="11,500" rebuy="0" seat="4" addon="0"/>
+    <player name="JamaicanPumpk1n" reg_code="" chips="99,400" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="331,009" dealer="0" bet="4,500" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="77,432" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="84,980" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TonyGambl" no="1" sum="300" type="15"/>
+   <action player="shipit7" no="2" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="3" sum="300" type="15"/>
+   <action player="TheScouseAA" no="4" sum="300" type="15"/>
+   <action player="tropeiro123" no="5" sum="300" type="15"/>
+   <action player="ZitFluit" no="6" sum="300" type="15"/>
+   <action player="zikaferal" no="7" sum="300" type="15"/>
+   <action player="TonyGambl" no="8" sum="1,000" type="1"/>
+   <action player="shipit7" no="9" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="10" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="4,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H5 DJ</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="14" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="15" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="16,400" type="23"/>
+   <action player="TheScouseAA" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582258268">
+  <general>
+   <startdate>2024-02-24 17:50:57</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="403,307" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="95,250" dealer="1" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="95,068" dealer="0" bet="1,300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="JamaicanPumpk1n" reg_code="" chips="99,100" dealer="0" bet="4,300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="326,509" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="77,132" dealer="0" bet="7,080" win="11,100" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="84,680" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="shipit7" no="1" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="2" sum="300" type="15"/>
+   <action player="TheScouseAA" no="3" sum="300" type="15"/>
+   <action player="tropeiro123" no="4" sum="300" type="15"/>
+   <action player="ZitFluit" no="5" sum="300" type="15"/>
+   <action player="zikaferal" no="6" sum="300" type="15"/>
+   <action player="TonyGambl" no="7" sum="300" type="15"/>
+   <action player="shipit7" no="8" sum="1,000" type="1"/>
+   <action player="JamaicanPumpk1n" no="9" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 HK</cards>
+   <action player="tropeiro123" no="11" sum="4,000" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="13" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="15" sum="0" type="0"/>
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="16" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 HJ H9</cards>
+   <action player="JamaicanPumpk1n" no="17" sum="0" type="4"/>
+   <action player="tropeiro123" no="18" sum="2,780" type="5"/>
+   <action player="JamaicanPumpk1n" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582258323">
+  <general>
+   <startdate>2024-02-24 17:51:45</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="403,007" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="94,950" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="93,768" dealer="1" bet="8,360" win="12,200" rebuy="0" seat="4" addon="0"/>
+    <player name="JamaicanPumpk1n" reg_code="" chips="94,800" dealer="0" bet="1,300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Shad0w87" reg_code="" chips="100,000" dealer="0" bet="4,700" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="326,209" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="83,932" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="84,380" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="JamaicanPumpk1n" no="1" sum="300" type="15"/>
+   <action player="Shad0w87" no="2" sum="300" type="15"/>
+   <action player="TheScouseAA" no="3" sum="300" type="15"/>
+   <action player="tropeiro123" no="4" sum="300" type="15"/>
+   <action player="ZitFluit" no="5" sum="300" type="15"/>
+   <action player="zikaferal" no="6" sum="300" type="15"/>
+   <action player="TonyGambl" no="7" sum="300" type="15"/>
+   <action player="shipit7" no="8" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="9" sum="1,000" type="1"/>
+   <action player="Shad0w87" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 H3</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="13" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="14" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="15" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">X X</cards>
+   <action player="shipit7" no="16" sum="4,400" type="23"/>
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="17" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action player="Shad0w87" no="18" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 H9 C5</cards>
+   <action player="Shad0w87" no="19" sum="0" type="4"/>
+   <action player="shipit7" no="20" sum="3,660" type="5"/>
+   <action player="Shad0w87" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582258403">
+  <general>
+   <startdate>2024-02-24 17:52:51</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="zikaferal" reg_code="" chips="402,707" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TonyGambl" reg_code="" chips="94,650" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="shipit7" reg_code="" chips="101,268" dealer="0" bet="101,268" win="172,064" rebuy="0" seat="4" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+    <player name="JamaicanPumpk1n" reg_code="" chips="93,500" dealer="1" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Shad0w87" reg_code="" chips="95,300" dealer="0" bet="1,300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="TheScouseAA" reg_code="" chips="325,909" dealer="0" bet="2,300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="tropeiro123" reg_code="7959862319" chips="83,632" dealer="0" bet="83,632" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="ZitFluit" reg_code="" chips="84,080" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Shad0w87" no="1" sum="300" type="15"/>
+   <action player="TheScouseAA" no="2" sum="300" type="15"/>
+   <action player="tropeiro123" no="3" sum="300" type="15"/>
+   <action player="ZitFluit" no="4" sum="300" type="15"/>
+   <action player="zikaferal" no="5" sum="300" type="15"/>
+   <action player="TonyGambl" no="6" sum="300" type="15"/>
+   <action player="shipit7" no="7" sum="300" type="15"/>
+   <action player="JamaicanPumpk1n" no="8" sum="300" type="15"/>
+   <action player="Shad0w87" no="9" sum="1,000" type="1"/>
+   <action player="TheScouseAA" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H8 H9</cards>
+   <action player="tropeiro123" no="11" sum="4,000" type="23"/>
+   <cards player="ZitFluit" type="Pocket">X X</cards>
+   <action player="ZitFluit" no="12" sum="0" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action player="zikaferal" no="13" sum="0" type="0"/>
+   <cards player="TonyGambl" type="Pocket">X X</cards>
+   <action player="TonyGambl" no="14" sum="0" type="0"/>
+   <cards player="shipit7" type="Pocket">HK DK</cards>
+   <action player="shipit7" no="15" sum="12,000" type="23"/>
+   <cards player="JamaicanPumpk1n" type="Pocket">X X</cards>
+   <action player="JamaicanPumpk1n" no="16" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action player="Shad0w87" no="17" sum="0" type="0"/>
+   <cards player="TheScouseAA" type="Pocket">X X</cards>
+   <action player="TheScouseAA" no="18" sum="0" type="0"/>
+   <action player="tropeiro123" no="19" sum="8,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 S7 S8</cards>
+   <action player="tropeiro123" no="20" sum="0" type="4"/>
+   <action player="shipit7" no="21" sum="18,000" type="5"/>
+   <action player="tropeiro123" no="22" sum="18,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action player="tropeiro123" no="23" sum="0" type="4"/>
+   <action player="shipit7" no="24" sum="70,968" type="5"/>
+   <action player="tropeiro123" no="25" sum="53,332" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+</session>

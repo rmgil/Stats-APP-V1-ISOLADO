@@ -1,0 +1,337 @@
+FASE 0 — Contrato de dados + Convenções (base do projeto) 
+Objetivo
+Fechar um modelo único para todas as salas e fixar convenções ambíguas uma vez só.
+ 
+Entradas/Saídas
+ 
+Entrada: TXT (cada ficheiro = 1 torneio; várias mãos dentro).
+Saída: JSONL canónico (1 linha = 1 mão) com:
+Identidade: site, tournament_id, tournament_name, file_id
+Flags: is_mystery, is_pko, is_nonko
+Mesa: table_max, button_seat, players[] (seat, name, stack_ini, is_hero), players_dealt_in
+Posições: positions[player] (absolutas) e pos_group[player] (EP/MP/LP)
+Blinds/antes (e BB‑ante se existir)
+Streets: preflop|flop|turn|river (ações normalizadas)
+Derivadas: open_raiser, is_iso, is_3bet/4bet, pot_type(SRP/3bet/4bet), multiway, hero_ip_oop_by_street, eff_stack_bb, was_freeplay_bb, any_allin_preflop
+Tempo: timestamp_utc
+raw_offsets para click‑through
+ 
+Tarefas‑chave
+ 
+Definir enums (ações, posições, pot types).
+Fixar convenções:
+All‑in pré‑flop: qualquer ação onde allin=true antes do flop → any_allin_preflop=true.
+Heads‑Up vs Multiway: players_to_flop==2 → HU; >=3 → multiway (avaliado por street).
+Freeplay BB: pote não aberto, SB completa/limpa e BB tem opção e dá check (sem raise).
+Stack efetiva (eff_stack_bb): min(stack_hero_pre, stack_vilao_pre)/BB no momento pré‑flop contra o oponente relevante (no SRP: vs blind/abridor; no 3bet pot: vs 3bettor, etc.).
+Filtros globais (configuráveis por stat também): excluir mãos com all‑in pré‑flop, multiway e/ou eff_stack_bb < X.
+ 
+Regras críticas
+ 
+is_nonko = !is_pko && !is_mystery (por coesão).
+Timezone de referência: Europe/Lisbon para bucket mensal (guardamos UTC e projetamos em PT).
+ 
+Entregáveis
+ 
+DATA_CONTRACT.md + schema.json com todos os campos e exemplos.
+ 
+DoD
+ 
+Schema aprovado; 5 mãos sintéticas validadas contra as convenções.
+ 
+ FASE 1 — Classificação base (PKO / Mystery / non‑KO) 
+Objetivo
+Replicar/robustecer a tua separação; adicionar is_nonko.
+ 
+Entradas/Saídas
+ 
+Entrada: pasta com TXT misturados.
+Saída:
+A) ZIP PKO/, mystery/, non-KO/ (compatível com o que já tens), ou
+B) stream para parsing da Fase 2 (pipeline contínuo).
+ 
+Tarefas‑chave
+ 
+Heurística por palavras‑chave do header (inclui Mystery Bounty, Bounty/PKO).
+Atribuir is_mystery, is_pko, is_nonko.
+ 
+Regras críticas
+ 
+Se contiver “mystery”, prevalece is_mystery=true.
+Senão, se contiver bounty/ko, is_pko=true.
+Caso contrário, is_nonko=true.
+ 
+Entregáveis
+ 
+Função classifyTournament(file) + relatório de totais por classe.
+ 
+DoD
+ 
+100% dos ficheiros classificados; relatório com totais OK.
+ 
+ FASE 2 — Parsing multi‑sala + delimitação de mãos 
+Objetivo
+Transformar cada TXT (torneio) em mãos normalizadas.
+ 
+Entradas/Saídas
+ 
+Entrada: ficheiros classificados (ou stream da Fase 1).
+Saída: hands.jsonl (por torneio).
+ 
+Tarefas‑chave
+ 
+Detetar HERO por sala:
+Preferência “Dealt to <nick> [..]”.
+Fallback por alias configurados + participação (posts/ações).
+Manter alias global (todos os nicks do jogador) e alias por sala (para filtragens futuras).
+Delimitar mãos: marcadores de início/fim e de street (HOLE CARDS/FLOP/TURN/RIVER/SHOWDOWN/SUMMARY).
+Extrair button, seats, players_dealt_in, ações por street.
+ 
+Regras críticas
+ 
+“Cada TXT é um torneio”: guardar tournament_id|name.
+Deduplicação de torneios (ver Fase 3) pode acontecer aqui ou logo após.
+ 
+Entregáveis
+ 
+Adaptadores para: 888, PokerStars, GG, WPN, Winamax.
+hands.jsonl demonstrativo.
+ 
+DoD
+ 
+Para cada sala: ≥20 mãos bem mapeadas (HERO, BTN, streets).
+ 
+ FASE 3 — Deduplicação (torneios e mãos) 
+Objetivo
+Evitar duplicados quando existirem ficheiros iguais/semelhantes.
+ 
+Entradas/Saídas
+ 
+Entrada: hands.jsonl por torneio.
+Saída: hands_dedup.jsonl (com índice).
+ 
+Tarefas‑chave
+ 
+Chave de torneio: (site, tournament_id) quando existir; fallback (file_name_normalized, first_hand_timestamp).
+Chave de mão: (site, tournament_id, hand_id); fallback (site, hand_start_timestamp, button_seat, hash_do_trecho).
+Eliminar entradas repetidas; logar o que foi ignorado.
+ 
+Entregáveis
+ 
+Índice de dedup + relatório de colisões.
+ 
+DoD
+ 
+Duplicados reais removidos; nada legítimo perdido (amostra auditada).
+ 
+ FASE 4 — Posições & short‑handed (6‑max/9‑max) 
+Objetivo
+Atribuir posições absolutas e grupos EP/MP/LP coerentes, incluindo short‑handed.
+ 
+Entradas/Saídas
+ 
+Entrada: hands_dedup.jsonl.
+Saída: hands_pos.jsonl (com positions e pos_group).
+ 
+Tarefas‑chave
+ 
+Determinar table_max:
+Preferir header (“6‑max/9‑max/8‑max”); fallback maior seat observável.
+Ordenar lugares desde o BTN (BTN→SB→BB→UTG→…) e atribuir posições absolutas:
+6‑max (baseline): EP, MP, CO, BTN, SB, BB.
+5‑handed: remove‑se EP → MP, CO, BTN, SB, BB.
+9‑max (baseline com 9): EP(UTG), EP2(UTG+1), MP1, MP2(LJ), MP3(HJ), CO, BTN, SB, BB.
+8‑handed: remove‑se a primeira posição da esquerda (EP2) → EP, MP1, MP2(LJ), MP3(HJ), CO, BTN, SB, BB.
+7‑handed: volta a remover a próxima mais “à esquerda” (MP1), e assim sucessivamente.
+Mapear EP/MP/LP:
+6‑max: EP={EP}; MP={MP}; LP={CO,BTN}.
+9‑max (9 jogadores): EP={EP,EP2}; MP={MP1,MP2(LJ),MP3(HJ)}; LP={CO,BTN}.
+Short‑handed em 9‑max: ao remover “da esquerda para a direita”, as buckets EP/MP ajustam‑se mantendo CO/BTN/SB/BB.
+ 
+Entregáveis
+ 
+Função assignPositions(hand) com testes para 5h/6h/7h/8h/9h.
+ 
+DoD
+ 
+Casos de 5‑handed (6‑max) e 8‑handed (9‑max) batem com as regras acima.
+ 
+ FASE 5 — Derivadas pré‑flop (RFI, ISO, 3bet/4bet, squeeze, resteal) 
+Objetivo
+Marcar eventos pré‑flop necessários às stats.
+ 
+Entradas/Saídas
+ 
+Entrada: hands_pos.jsonl.
+Saída: hands_preflop.jsonl (com derived.preflop.*).
+ 
+Tarefas‑chave
+ 
+unopened_pot_to(actor), has_limper_before(actor), first_raiser, is_isoraiser, is_3bet/4bet, is_squeeze, is_resteal_vs_BTN, faced_3bet, folded_to_3bet.
+eff_stack_bb (por mão) e também por confronto relevante (SRP vs 3bet).
+any_allin_preflop (marcação booleana para filtros).
+ 
+Regras críticas
+ 
+ISO ≠ RFI: se existe limper antes do raise, é ISO (RFI fica a 0).
+Squeeze: 3bet com (raise + ≥1 call) entre abridor e 3bettor.
+Filtros: suporte a excluir (all‑in pré‑flop, multiway, eff_stack_bb<X) por stat e globalmente.
+ 
+Entregáveis
+ 
+Módulo derivePreflop() + testes sintéticos (casos edge).
+ 
+DoD
+ 
+95% dos casos planeados passam nos testes (RFI/ISO/3bet/4bet/squeeze).
+ 
+ FASE 6 — Derivadas pós‑flop (CBet, vs CBet, donk, check‑raise, IP/OOP por street) 
+Objetivo
+Marcar eventos de flop/turn/river para as stats de post‑flop.
+ 
+Entradas/Saídas
+ 
+Entrada: hands_preflop.jsonl.
+Saída: hands_postflop.jsonl.
+ 
+Tarefas‑chave
+ 
+Agressor pré‑flop (último raiser válido).
+first_aggressor_on_street, is_cbet (agressor pré‑flop aposta primeiro), faced_cbet, fold_vs_cbet, raise_vs_cbet, check_raise, donk_bet.
+hero_ip_oop_by_street (HU apenas; multiway assinalado/filtrado).
+ 
+Entregáveis
+ 
+derivePostflop() + testes.
+ 
+DoD
+ 
+Casos de CBet/skip/fold/raise, donk e check‑raise validados.
+ 
+ FASE 7 — Partições operacionais & contagens 
+Objetivo
+Formar os grupos necessários e calcular contagens (mãos e amostras).
+ 
+Grupos
+ 
+non‑KO 9‑max pre‑flop
+non‑KO 6‑max pre‑flop
+PKO pre‑flop (6+9 juntos)
+Post‑flop (tudo junto)
+ 
+Tarefas‑chave
+ 
+Atribuir a cada mão os grupos pertinentes.
+Contar nº de mãos por grupo (independente de stats).
+Contar nº de oportunidades por stat (denominador por grupo) → sample por stat.
+Contar por mês (YYYY‑MM, tz Europe/Lisbon).
+ 
+Entregáveis
+ 
+group_counts.json e stat_denominators.json (por grupo, por mês).
+ 
+DoD
+ 
+Totais conferem com amostras manuais; samples por stat expostas.
+ 
+ FASE 8 — Catálogo de stats & executor (mini‑DSL) 
+Objetivo
+Descrever todas as stats de forma declarativa e executá‑las.
+ 
+Entradas/Saídas
+ 
+Entrada: hands_postflop.jsonl + stats.yml.
+Saída: eventos {opportunity, attempt, hand_ids} por stat × mão.
+ 
+Tarefas‑chave
+ 
+DSL com: scope, filters (grupos, pot_type, HU/MW, IP/OOP, eff_stack_min, exclude_allin_preflop, etc.), opportunity, attempt, precedence, examples.
+Executor com logs (porque contou / não contou).
+ 
+Entregáveis
+ 
+stats.yml (todas as pre‑flop da tua lista + bloco post‑flop que definiste).
+Executor + testes (2 exemplos “conta/não conta” por stat).
+ 
+DoD
+ 
+% de 10–15 stats auditadas bate com contagens manuais.
+ 
+ FASE 9 — Agregação mensal, combinação 6‑max/9‑max e ponderações 
+Objetivo
+Gerar resultados mensais, combinar 6‑max e 9‑max dentro de NON‑KO, e aplicar ponderações temporais.
+ 
+Entradas/Saídas
+ 
+Entrada: eventos por stat.
+Saída: aggregates.json com {opp, att, pct} por mês × grupo × stat.
+ 
+Tarefas‑chave
+ 
+Linha por mês (pivot opcional onde cada stat é coluna).
+NON‑KO = combinação ponderada de 9‑max e 6‑max por amostra (mãos/opportunities):
+Ex.: score_NONKO_RFI = (score_9max * opp_9max + score_6max * opp_6max) / (opp_9max + opp_6max)
+(podes escolher ponderar por mãos ou por oportunidades — recomendo oportunidades da própria stat).
+Temporal 50/30/20 (mês atual, −1, −2). Se faltarem meses, reescala: 100% (1 mês) / 50‑50 (2 meses).
+ 
+Entregáveis
+ 
+Agregador + função de combinação NON‑KO.
+ 
+DoD
+ 
+Caso do teu exemplo (5k vs 2.5k) reproduz exatamente a ponderação esperada.
+ 
+ FASE 10 — UI + Click‑through 
+Objetivo
+Tabela de stats com drill‑down para as mãos que compõem cada número.
+ 
+Entradas/Saídas
+ 
+Entrada: aggregates.json + índices de hand_ids.
+Saída: UI (tabela, filtros, click‑through).
+ 
+Tarefas‑chave
+ 
+Click numa % → lista de hand_ids e excerto da HH com highlight.
+Filtros de exclusão (all‑in pré‑flop, multiway, eff_stack_min) globais e por stat.
+ 
+Entregáveis
+ 
+Página “Resultados” + endpoint /api/hands?....
+ 
+DoD
+ 
+3 amostras auditadas: lista devolve exatamente as mãos contadas.
+ 
+ FASE 11 — Scoring final (pesos & ideais) 
+Objetivo
+Converter % em notas 0–100 com pesos por stat → sub‑grupo → grupo → final.
+ 
+Tarefas‑chave
+ 
+UI de config: por stat (ideal, step_down%, step_up%, peso), por sub‑grupo (peso), por grupo (peso).
+Cálculo hierárquico + 50/30/20 temporal (sobre o score da stat por mês).
+ 
+Entregáveis
+ 
+Engine de scoring + UI/JSON de configuração.
+ 
+DoD
+ 
+Três cenários (abaixo/igual/acima do ideal) batem com tabela esperada.
+ 
+ FASE 12 — QA, performance e export 
+Objetivo
+Confiabilidade e escala.
+ 
+Tarefas‑chave
+ 
+Testes por sala e por categoria de stat.
+Métricas (HH/s, memória, I/O).
+Export CSV/JSON para Excel/BI.
+Relatórios de samples por stat e contagens por grupo.
+ 
+DoD
+ 
+Processa ≥100k mãos com estabilidade; sem regressões.

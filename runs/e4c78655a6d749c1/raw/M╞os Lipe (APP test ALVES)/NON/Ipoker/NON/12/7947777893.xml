@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947777893">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€30,000 GTD, 1080881135</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:14:02</duration>
+  <gamecount>12</gamecount>
+  <startdate>2024-02-12 15:08:38</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>22,955</bets>
+  <wins>19,000</wins>
+  <chipsin>99,870</chipsin>
+  <chipsout>100,795</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294205</tournamentcode>
+  <tournamentname>E3|€30,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560289333">
+  <general>
+   <startdate>2024-02-12 15:08:38</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player dealer="1" seat="1" chips="100,000" addon="0" bet="130" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="230,396" addon="0" bet="580" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="68,189" addon="0" bet="1,030" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,770" addon="0" bet="130" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="87,130" addon="0" bet="130" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="94,283" addon="0" bet="1,890" reg_code="" name="Lipstift" win="3,160" rebuy="0"/>
+    <player dealer="0" seat="10" chips="141,209" addon="0" bet="130" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="130" player="Barigu" type="15"/>
+   <action no="2" sum="130" player="Vad1kTheGr8t" type="15"/>
+   <action no="3" sum="130" player="ChopSuey" type="15"/>
+   <action no="4" sum="130" player="Veqeqoby" type="15"/>
+   <action no="5" sum="130" player="Lipstift" type="15"/>
+   <action no="6" sum="130" player="lynx707" type="15"/>
+   <action no="7" sum="130" player="tropeiro123" type="15"/>
+   <action no="8" sum="450" player="Barigu" type="1"/>
+   <action no="9" sum="900" player="Vad1kTheGr8t" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ChopSuey" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="12" sum="1,890" player="Lipstift" type="23"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 SK</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Vad1kTheGr8t" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289418">
+  <general>
+   <startdate>2024-02-12 15:09:20</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,870" addon="0" bet="130" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="4,475" reg_code="" name="Wantraisewin" win="5,090" rebuy="0"/>
+    <player dealer="1" seat="4" chips="229,816" addon="0" bet="130" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="67,159" addon="0" bet="580" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,640" addon="0" bet="1,930" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="87,000" addon="0" bet="130" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="96,413" addon="0" bet="130" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="141,079" addon="0" bet="130" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="130" player="Vad1kTheGr8t" type="15"/>
+   <action no="2" sum="130" player="ChopSuey" type="15"/>
+   <action no="3" sum="130" player="Veqeqoby" type="15"/>
+   <action no="4" sum="130" player="Lipstift" type="15"/>
+   <action no="5" sum="130" player="lynx707" type="15"/>
+   <action no="6" sum="130" player="tropeiro123" type="15"/>
+   <action no="7" sum="130" player="Wantraisewin" type="15"/>
+   <action no="8" sum="130" player="Barigu" type="15"/>
+   <action no="9" sum="450" player="Vad1kTheGr8t" type="1"/>
+   <action no="10" sum="900" player="ChopSuey" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK D5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="15" sum="1,800" player="Wantraisewin" type="23"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="18" sum="900" player="ChopSuey" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 DQ C10</cards>
+   <action no="19" sum="0" player="ChopSuey" type="4"/>
+   <action no="20" sum="2,545" player="Wantraisewin" type="5"/>
+   <action no="21" sum="0" player="ChopSuey" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289499">
+  <general>
+   <startdate>2024-02-12 15:10:04</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,740" addon="0" bet="130" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="103,160" addon="0" bet="130" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,686" addon="0" bet="130" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="66,579" addon="0" bet="4,810" reg_code="" name="Vad1kTheGr8t" win="5,450" rebuy="0"/>
+    <player dealer="0" seat="6" chips="95,710" addon="0" bet="580" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,870" addon="0" bet="2,110" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="96,283" addon="0" bet="130" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="140,949" addon="0" bet="130" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="130" player="ChopSuey" type="15"/>
+   <action no="2" sum="130" player="Veqeqoby" type="15"/>
+   <action no="3" sum="130" player="Lipstift" type="15"/>
+   <action no="4" sum="130" player="lynx707" type="15"/>
+   <action no="5" sum="130" player="tropeiro123" type="15"/>
+   <action no="6" sum="130" player="Wantraisewin" type="15"/>
+   <action no="7" sum="130" player="Barigu" type="15"/>
+   <action no="8" sum="130" player="Vad1kTheGr8t" type="15"/>
+   <action no="9" sum="450" player="ChopSuey" type="1"/>
+   <action no="10" sum="900" player="Veqeqoby" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 DJ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="16" sum="1,980" player="Vad1kTheGr8t" type="23"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ChopSuey" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="18" sum="1,080" player="Veqeqoby" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ HA S9</cards>
+   <action no="19" sum="0" player="Veqeqoby" type="4"/>
+   <action no="20" sum="2,700" player="Vad1kTheGr8t" type="5"/>
+   <action no="21" sum="0" player="Veqeqoby" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289630">
+  <general>
+   <startdate>2024-02-12 15:11:07</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,610" addon="0" bet="130" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="103,030" addon="0" bet="130" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,556" addon="0" bet="1,890" reg_code="" name="Barigu" win="3,290" rebuy="0"/>
+    <player dealer="0" seat="5" chips="69,919" addon="0" bet="130" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="95,130" addon="0" bet="130" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="84,760" addon="0" bet="580" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="96,153" addon="0" bet="1,030" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="140,819" addon="0" bet="130" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="130" player="Veqeqoby" type="15"/>
+   <action no="2" sum="130" player="Lipstift" type="15"/>
+   <action no="3" sum="130" player="lynx707" type="15"/>
+   <action no="4" sum="130" player="tropeiro123" type="15"/>
+   <action no="5" sum="130" player="Wantraisewin" type="15"/>
+   <action no="6" sum="130" player="Barigu" type="15"/>
+   <action no="7" sum="130" player="Vad1kTheGr8t" type="15"/>
+   <action no="8" sum="130" player="ChopSuey" type="15"/>
+   <action no="9" sum="450" player="Veqeqoby" type="1"/>
+   <action no="10" sum="900" player="Lipstift" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 D6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="14" sum="1,890" player="Barigu" type="23"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ChopSuey" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Lipstift" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289721">
+  <general>
+   <startdate>2024-02-12 15:11:58</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,480" addon="0" bet="4,035" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="102,900" addon="0" bet="130" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,816" addon="0" bet="130" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="69,789" addon="0" bet="2,020" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="95,000" addon="0" bet="130" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="84,180" addon="0" bet="8,024" reg_code="" name="Veqeqoby" win="12,090" rebuy="0"/>
+    <player dealer="0" seat="9" chips="95,123" addon="0" bet="580" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="140,689" addon="0" bet="1,030" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="130" player="Lipstift" type="15"/>
+   <action no="2" sum="130" player="lynx707" type="15"/>
+   <action no="3" sum="130" player="tropeiro123" type="15"/>
+   <action no="4" sum="130" player="Wantraisewin" type="15"/>
+   <action no="5" sum="130" player="Barigu" type="15"/>
+   <action no="6" sum="130" player="Vad1kTheGr8t" type="15"/>
+   <action no="7" sum="130" player="ChopSuey" type="15"/>
+   <action no="8" sum="130" player="Veqeqoby" type="15"/>
+   <action no="9" sum="450" player="Lipstift" type="1"/>
+   <action no="10" sum="900" player="lynx707" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D4 S4</cards>
+   <action no="11" sum="1,890" player="tropeiro123" type="23"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="14" sum="1,890" player="Vad1kTheGr8t" type="3"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ChopSuey" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="16" sum="1,890" player="Veqeqoby" type="3"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="lynx707" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA D3 D5</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="0" player="Vad1kTheGr8t" type="4"/>
+   <action no="21" sum="0" player="Veqeqoby" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" sum="2,015" player="tropeiro123" type="5"/>
+   <action no="23" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <action no="24" sum="2,015" player="Veqeqoby" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+   <action no="25" sum="0" player="tropeiro123" type="4"/>
+   <action no="26" sum="3,989" player="Veqeqoby" type="5"/>
+   <action no="27" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289963">
+  <general>
+   <startdate>2024-02-12 15:14:01</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,445" addon="0" bet="2,150" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="102,770" addon="0" bet="150" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,686" addon="0" bet="150" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="67,769" addon="0" bet="2,150" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="94,870" addon="0" bet="20,090" reg_code="" name="ChopSuey" win="18,400" rebuy="0"/>
+    <player dealer="0" seat="7" chips="92,235" addon="0" bet="150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="94,543" addon="0" bet="150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="139,659" addon="0" bet="6,750" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="lynx707" type="15"/>
+   <action no="2" sum="150" player="tropeiro123" type="15"/>
+   <action no="3" sum="150" player="Wantraisewin" type="15"/>
+   <action no="4" sum="150" player="Barigu" type="15"/>
+   <action no="5" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="6" sum="150" player="ChopSuey" type="15"/>
+   <action no="7" sum="150" player="Veqeqoby" type="15"/>
+   <action no="8" sum="150" player="Lipstift" type="15"/>
+   <action no="9" sum="500" player="lynx707" type="1"/>
+   <action no="10" sum="1,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="13" sum="2,000" player="Vad1kTheGr8t" type="23"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="14" sum="2,000" player="ChopSuey" type="3"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="17" sum="1,500" player="lynx707" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D4 HA</cards>
+   <action no="18" sum="1,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 H3 S7</cards>
+   <action no="19" sum="4,600" player="lynx707" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <action no="22" sum="17,940" player="ChopSuey" type="23"/>
+   <action no="23" sum="0" player="lynx707" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290120">
+  <general>
+   <startdate>2024-02-12 15:15:17</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="93,295" addon="0" bet="13,300" reg_code="7947777893" name="tropeiro123" win="19,000" rebuy="0"/>
+    <player dealer="0" seat="2" chips="102,620" addon="0" bet="1,150" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,536" addon="0" bet="150" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="65,619" addon="0" bet="150" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="106,520" addon="0" bet="8,550" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="92,085" addon="0" bet="150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="94,393" addon="0" bet="150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="132,909" addon="0" bet="150" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="tropeiro123" type="15"/>
+   <action no="2" sum="150" player="Wantraisewin" type="15"/>
+   <action no="3" sum="150" player="Barigu" type="15"/>
+   <action no="4" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="5" sum="150" player="ChopSuey" type="15"/>
+   <action no="6" sum="150" player="Veqeqoby" type="15"/>
+   <action no="7" sum="150" player="Lipstift" type="15"/>
+   <action no="8" sum="150" player="lynx707" type="15"/>
+   <action no="9" sum="500" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,000" player="Wantraisewin" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="13" sum="2,200" player="ChopSuey" type="23"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA DQ</cards>
+   <action no="17" sum="8,400" player="tropeiro123" type="23"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Wantraisewin" type="0"/>
+   <action no="19" sum="6,200" player="ChopSuey" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 C10 H10</cards>
+   <action no="20" sum="4,750" player="tropeiro123" type="5"/>
+   <action no="21" sum="0" player="ChopSuey" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290254">
+  <general>
+   <startdate>2024-02-12 15:16:28</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="1" seat="1" chips="103,745" addon="0" bet="150" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="101,470" addon="0" bet="650" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,386" addon="0" bet="1,150" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="65,469" addon="0" bet="65,319" reg_code="" name="Vad1kTheGr8t" win="66,669" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,970" addon="0" bet="150" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="91,935" addon="0" bet="150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="94,243" addon="0" bet="150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="132,759" addon="0" bet="65,469" reg_code="" name="lynx707" win="66,669" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Wantraisewin" type="15"/>
+   <action no="2" sum="150" player="Barigu" type="15"/>
+   <action no="3" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="4" sum="150" player="ChopSuey" type="15"/>
+   <action no="5" sum="150" player="Veqeqoby" type="15"/>
+   <action no="6" sum="150" player="Lipstift" type="15"/>
+   <action no="7" sum="150" player="lynx707" type="15"/>
+   <action no="8" sum="150" player="tropeiro123" type="15"/>
+   <action no="9" sum="500" player="Wantraisewin" type="1"/>
+   <action no="10" sum="1,000" player="Barigu" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vad1kTheGr8t" type="Pocket">HK HA</cards>
+   <action no="11" sum="2,200" player="Vad1kTheGr8t" type="23"/>
+   <cards player="ChopSuey" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ChopSuey" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">CK SA</cards>
+   <action no="15" sum="10,400" player="lynx707" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C3 CJ</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Barigu" type="0"/>
+   <action no="19" sum="65,319" player="Vad1kTheGr8t" type="23"/>
+   <action no="20" sum="54,919" player="lynx707" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 C6 S8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10560290389">
+  <general>
+   <startdate>2024-02-12 15:17:37</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="103,595" addon="0" bet="2,350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="100,820" addon="0" bet="100,820" reg_code="" name="Wantraisewin" win="200,240" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€11.37" kicked="ChopSuey"/>
+    </player>
+    <player dealer="0" seat="4" chips="230,236" addon="0" bet="650" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="66,669" addon="0" bet="1,150" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,820" addon="0" bet="97,820" reg_code="" name="ChopSuey" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="91,785" addon="0" bet="150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="94,093" addon="0" bet="150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="133,959" addon="0" bet="150" reg_code="" name="lynx707" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Barigu" type="15"/>
+   <action no="2" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="3" sum="150" player="ChopSuey" type="15"/>
+   <action no="4" sum="150" player="Veqeqoby" type="15"/>
+   <action no="5" sum="150" player="Lipstift" type="15"/>
+   <action no="6" sum="150" player="lynx707" type="15"/>
+   <action no="7" sum="150" player="tropeiro123" type="15"/>
+   <action no="8" sum="150" player="Wantraisewin" type="15"/>
+   <action no="9" sum="500" player="Barigu" type="1"/>
+   <action no="10" sum="1,000" player="Vad1kTheGr8t" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ChopSuey" type="Pocket">SA C10</cards>
+   <action no="11" sum="2,200" player="ChopSuey" type="23"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lynx707" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ SK</cards>
+   <action no="15" sum="2,200" player="tropeiro123" type="3"/>
+   <cards player="Wantraisewin" type="Pocket">S10 S8</cards>
+   <action no="16" sum="2,200" player="Wantraisewin" type="3"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Vad1kTheGr8t" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C2 D10</cards>
+   <action no="19" sum="4,650" player="ChopSuey" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="4,650" player="Wantraisewin" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+   <action no="22" sum="0" player="ChopSuey" type="4"/>
+   <action no="23" sum="9,300" player="Wantraisewin" type="5"/>
+   <action no="24" sum="9,300" player="ChopSuey" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action no="25" sum="0" player="ChopSuey" type="4"/>
+   <action no="26" sum="84,520" player="Wantraisewin" type="5"/>
+   <action no="27" sum="81,520" player="ChopSuey" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10560319013">
+  <general>
+   <startdate>2024-02-12 15:19:57</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="101,245" addon="0" bet="150" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="203,240" addon="0" bet="150" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="229,586" addon="0" bet="2,150" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="65,519" addon="0" bet="650" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="91,635" addon="0" bet="1,150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="93,943" addon="0" bet="150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="133,809" addon="0" bet="8,700" reg_code="" name="lynx707" win="6,550" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="2" sum="150" player="Veqeqoby" type="15"/>
+   <action no="3" sum="150" player="Lipstift" type="15"/>
+   <action no="4" sum="150" player="lynx707" type="15"/>
+   <action no="5" sum="150" player="tropeiro123" type="15"/>
+   <action no="6" sum="150" player="Wantraisewin" type="15"/>
+   <action no="7" sum="150" player="Barigu" type="15"/>
+   <action no="8" sum="500" player="Vad1kTheGr8t" type="1"/>
+   <action no="9" sum="1,000" player="Veqeqoby" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Lipstift" type="0"/>
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="11" sum="2,000" player="lynx707" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 C10</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="14" sum="2,000" player="Barigu" type="3"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Veqeqoby" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 HA H10</cards>
+   <action no="17" sum="6,550" player="lynx707" type="5"/>
+   <action no="18" sum="0" player="Barigu" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319092">
+  <general>
+   <startdate>2024-02-12 15:20:31</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="101,095" addon="0" bet="150" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="203,090" addon="0" bet="150" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="227,436" addon="0" bet="7,350" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="64,869" addon="0" bet="7,350" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="90,485" addon="0" bet="650" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="93,793" addon="0" bet="1,150" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="138,209" addon="0" bet="31,500" reg_code="" name="lynx707" win="24,150" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Veqeqoby" type="15"/>
+   <action no="2" sum="150" player="Lipstift" type="15"/>
+   <action no="3" sum="150" player="lynx707" type="15"/>
+   <action no="4" sum="150" player="tropeiro123" type="15"/>
+   <action no="5" sum="150" player="Wantraisewin" type="15"/>
+   <action no="6" sum="150" player="Barigu" type="15"/>
+   <action no="7" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="8" sum="500" player="Veqeqoby" type="1"/>
+   <action no="9" sum="1,000" player="Lipstift" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <action no="10" sum="1,000" player="lynx707" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HA S5</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="13" sum="2,100" player="Barigu" type="23"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="14" sum="7,200" player="Vad1kTheGr8t" type="23"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Lipstift" type="0"/>
+   <action no="17" sum="6,200" player="lynx707" type="3"/>
+   <action no="18" sum="5,100" player="Barigu" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 CJ CQ</cards>
+   <action no="19" sum="0" player="lynx707" type="4"/>
+   <action no="20" sum="0" player="Barigu" type="4"/>
+   <action no="21" sum="0" player="Vad1kTheGr8t" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="22" sum="24,150" player="lynx707" type="5"/>
+   <action no="23" sum="0" player="Barigu" type="0"/>
+   <action no="24" sum="0" player="Vad1kTheGr8t" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319292">
+  <general>
+   <startdate>2024-02-12 15:22:12</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,945" addon="0" bet="150" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="202,940" addon="0" bet="150" reg_code="" name="Wantraisewin" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="220,086" addon="0" bet="150" reg_code="" name="Barigu" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="57,519" addon="0" bet="150" reg_code="" name="Vad1kTheGr8t" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="89,835" addon="0" bet="150" reg_code="" name="Veqeqoby" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="92,643" addon="0" bet="650" reg_code="" name="Lipstift" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="155,009" addon="0" bet="1,150" reg_code="" name="lynx707" win="2,050" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Lipstift" type="15"/>
+   <action no="2" sum="150" player="lynx707" type="15"/>
+   <action no="3" sum="150" player="tropeiro123" type="15"/>
+   <action no="4" sum="150" player="Wantraisewin" type="15"/>
+   <action no="5" sum="150" player="Barigu" type="15"/>
+   <action no="6" sum="150" player="Vad1kTheGr8t" type="15"/>
+   <action no="7" sum="150" player="Veqeqoby" type="15"/>
+   <action no="8" sum="500" player="Lipstift" type="1"/>
+   <action no="9" sum="1,000" player="lynx707" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lynx707" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">CA D7</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Wantraisewin" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Wantraisewin" type="0"/>
+   <cards player="Barigu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Barigu" type="0"/>
+   <cards player="Vad1kTheGr8t" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Vad1kTheGr8t" type="0"/>
+   <cards player="Veqeqoby" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Veqeqoby" type="0"/>
+   <cards player="Lipstift" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Lipstift" type="0"/>
+  </round>
+ </game>
+</session>

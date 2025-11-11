@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946925067">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1080796712</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:01:41</duration>
+  <gamecount>2</gamecount>
+  <startdate>2024-02-11 16:49:18</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,800</bets>
+  <wins>0</wins>
+  <chipsin>96,260</chipsin>
+  <chipsout>94,660</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080703918</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558722219">
+  <general>
+   <startdate>2024-02-11 16:49:18</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player bet="5,800" name="zartovKA" reg_code="" rebuy="0" seat="1" dealer="0" chips="120,790" addon="0" win="0"/>
+    <player bet="200" name="Dumason" reg_code="" rebuy="0" seat="4" dealer="1" chips="54,755" addon="0" win="0"/>
+    <player bet="900" name="Zaytsev111" reg_code="" rebuy="0" seat="5" dealer="0" chips="127,633" addon="0" win="0"/>
+    <player bet="3,000" name="callyouruber" reg_code="" rebuy="0" seat="6" dealer="0" chips="98,445" addon="0" win="0"/>
+    <player bet="200" name="matrixhappy968" reg_code="" rebuy="0" seat="7" dealer="0" chips="211,406" addon="0" win="0"/>
+    <player bet="13,850" name="Erxomaste" reg_code="" rebuy="0" seat="9" dealer="0" chips="209,856" addon="0" win="16,100"/>
+    <player bet="200" name="cashmeoutsidee" reg_code="" rebuy="0" seat="10" dealer="0" chips="83,217" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="Zaytsev111"/>
+   <action no="2" type="15" sum="200" player="callyouruber"/>
+   <action no="3" type="15" sum="200" player="matrixhappy968"/>
+   <action no="4" type="15" sum="200" player="Erxomaste"/>
+   <action no="5" type="15" sum="200" player="cashmeoutsidee"/>
+   <action no="6" type="15" sum="200" player="zartovKA"/>
+   <action no="7" type="15" sum="200" player="Dumason"/>
+   <action no="8" type="1" sum="700" player="Zaytsev111"/>
+   <action no="9" type="2" sum="1,400" player="callyouruber"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="matrixhappy968">X X</cards>
+   <action no="10" type="0" sum="0" player="matrixhappy968"/>
+   <cards type="Pocket" player="Erxomaste">X X</cards>
+   <action no="11" type="23" sum="2,800" player="Erxomaste"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action no="12" type="0" sum="0" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="zartovKA">X X</cards>
+   <action no="13" type="3" sum="2,800" player="zartovKA"/>
+   <cards type="Pocket" player="Dumason">X X</cards>
+   <action no="14" type="0" sum="0" player="Dumason"/>
+   <cards type="Pocket" player="Zaytsev111">X X</cards>
+   <action no="15" type="0" sum="0" player="Zaytsev111"/>
+   <cards type="Pocket" player="callyouruber">X X</cards>
+   <action no="16" type="3" sum="1,400" player="callyouruber"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 HA C6</cards>
+   <action no="17" type="4" sum="0" player="callyouruber"/>
+   <action no="18" type="4" sum="0" player="Erxomaste"/>
+   <action no="19" type="5" sum="2,800" player="zartovKA"/>
+   <action no="20" type="0" sum="0" player="callyouruber"/>
+   <action no="21" type="3" sum="2,800" player="Erxomaste"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action no="22" type="4" sum="0" player="Erxomaste"/>
+   <action no="23" type="4" sum="0" player="zartovKA"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action no="24" type="5" sum="8,050" player="Erxomaste"/>
+   <action no="25" type="0" sum="0" player="zartovKA"/>
+  </round>
+ </game>
+ <game gamecode="10558722323">
+  <general>
+   <startdate>2024-02-11 16:51:17</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player bet="5,800" name="zartovKA" reg_code="" rebuy="0" seat="1" dealer="0" chips="114,990" addon="0" win="0"/>
+    <player bet="200" name="tropeiro123" reg_code="7946925067" rebuy="0" seat="2" dealer="0" chips="100,000" addon="0" win="0"/>
+    <player bet="200" name="Dumason" reg_code="" rebuy="0" seat="4" dealer="0" chips="54,555" addon="0" win="0"/>
+    <player bet="200" name="Zaytsev111" reg_code="" rebuy="0" seat="5" dealer="1" chips="126,733" addon="0" win="0"/>
+    <player bet="900" name="callyouruber" reg_code="" rebuy="0" seat="6" dealer="0" chips="95,445" addon="0" win="0"/>
+    <player bet="21,206" name="matrixhappy968" reg_code="" rebuy="0" seat="7" dealer="0" chips="211,206" addon="0" win="13,500"/>
+    <player bet="200" name="Erxomaste" reg_code="" rebuy="0" seat="9" dealer="0" chips="220,156" addon="0" win="0"/>
+    <player bet="200" name="cashmeoutsidee" reg_code="" rebuy="0" seat="10" dealer="0" chips="83,017" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="callyouruber"/>
+   <action no="2" type="15" sum="200" player="matrixhappy968"/>
+   <action no="3" type="15" sum="200" player="Erxomaste"/>
+   <action no="4" type="15" sum="200" player="cashmeoutsidee"/>
+   <action no="5" type="15" sum="200" player="zartovKA"/>
+   <action no="6" type="15" sum="200" player="tropeiro123"/>
+   <action no="7" type="15" sum="200" player="Dumason"/>
+   <action no="8" type="15" sum="200" player="Zaytsev111"/>
+   <action no="9" type="1" sum="700" player="callyouruber"/>
+   <action no="10" type="2" sum="1,400" player="matrixhappy968"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Erxomaste">X X</cards>
+   <action no="11" type="0" sum="0" player="Erxomaste"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action no="12" type="0" sum="0" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="zartovKA">X X</cards>
+   <action no="13" type="23" sum="2,800" player="zartovKA"/>
+   <cards type="Pocket" player="tropeiro123">SK DJ</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Dumason">X X</cards>
+   <action no="15" type="0" sum="0" player="Dumason"/>
+   <cards type="Pocket" player="Zaytsev111">X X</cards>
+   <action no="16" type="0" sum="0" player="Zaytsev111"/>
+   <cards type="Pocket" player="callyouruber">X X</cards>
+   <action no="17" type="0" sum="0" player="callyouruber"/>
+   <cards type="Pocket" player="matrixhappy968">X DK</cards>
+   <action no="18" type="3" sum="1,400" player="matrixhappy968"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 S7 H3</cards>
+   <action no="19" type="4" sum="0" player="matrixhappy968"/>
+   <action no="20" type="5" sum="2,800" player="zartovKA"/>
+   <action no="21" type="3" sum="2,800" player="matrixhappy968"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+   <action no="22" type="4" sum="0" player="matrixhappy968"/>
+   <action no="23" type="4" sum="0" player="zartovKA"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action no="24" type="5" sum="15,406" player="matrixhappy968"/>
+   <action no="25" type="0" sum="0" player="zartovKA"/>
+  </round>
+ </game>
+ <game gamecode="10558722374">
+  <general>
+   <startdate>2024-02-11 16:52:16</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player bet="200" name="zartovKA" reg_code="" rebuy="0" seat="1" dealer="0" chips="109,190" addon="0" win="0"/>
+    <player bet="200" name="tropeiro123" reg_code="7946925067" rebuy="0" seat="2" dealer="0" chips="99,800" addon="0" win="0"/>
+    <player bet="200" name="Dumason" reg_code="" rebuy="0" seat="4" dealer="0" chips="54,355" addon="0" win="0"/>
+    <player bet="200" name="Zaytsev111" reg_code="" rebuy="0" seat="5" dealer="0" chips="126,533" addon="0" win="0"/>
+    <player bet="20,060" name="callyouruber" reg_code="" rebuy="0" seat="6" dealer="1" chips="94,545" addon="0" win="17,344"/>
+    <player bet="6,532" name="matrixhappy968" reg_code="" rebuy="0" seat="7" dealer="0" chips="218,906" addon="0" win="0"/>
+    <player bet="3,280" name="Erxomaste" reg_code="" rebuy="0" seat="9" dealer="0" chips="219,956" addon="0" win="0"/>
+    <player bet="200" name="cashmeoutsidee" reg_code="" rebuy="0" seat="10" dealer="0" chips="82,817" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="matrixhappy968"/>
+   <action no="2" type="15" sum="200" player="Erxomaste"/>
+   <action no="3" type="15" sum="200" player="cashmeoutsidee"/>
+   <action no="4" type="15" sum="200" player="zartovKA"/>
+   <action no="5" type="15" sum="200" player="tropeiro123"/>
+   <action no="6" type="15" sum="200" player="Dumason"/>
+   <action no="7" type="15" sum="200" player="Zaytsev111"/>
+   <action no="8" type="15" sum="200" player="callyouruber"/>
+   <action no="9" type="1" sum="700" player="matrixhappy968"/>
+   <action no="10" type="2" sum="1,400" player="Erxomaste"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action no="11" type="0" sum="0" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="zartovKA">X X</cards>
+   <action no="12" type="0" sum="0" player="zartovKA"/>
+   <cards type="Pocket" player="tropeiro123">S8 C3</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Dumason">X X</cards>
+   <action no="14" type="0" sum="0" player="Dumason"/>
+   <cards type="Pocket" player="Zaytsev111">X X</cards>
+   <action no="15" type="0" sum="0" player="Zaytsev111"/>
+   <cards type="Pocket" player="callyouruber">X X</cards>
+   <action no="16" type="23" sum="3,080" player="callyouruber"/>
+   <cards type="Pocket" player="matrixhappy968">X X</cards>
+   <action no="17" type="3" sum="2,380" player="matrixhappy968"/>
+   <cards type="Pocket" player="Erxomaste">X X</cards>
+   <action no="18" type="3" sum="1,680" player="Erxomaste"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 D4 HK</cards>
+   <action no="19" type="4" sum="0" player="matrixhappy968"/>
+   <action no="20" type="4" sum="0" player="Erxomaste"/>
+   <action no="21" type="5" sum="3,252" player="callyouruber"/>
+   <action no="22" type="3" sum="3,252" player="matrixhappy968"/>
+   <action no="23" type="0" sum="0" player="Erxomaste"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action no="24" type="4" sum="0" player="matrixhappy968"/>
+   <action no="25" type="5" sum="13,528" player="callyouruber"/>
+   <action no="26" type="0" sum="0" player="matrixhappy968"/>
+  </round>
+ </game>
+ <game gamecode="10558722599">
+  <general>
+   <startdate>2024-02-11 17:02:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="zartovKA" bet="1,600" reg_code="" rebuy="0" seat="1" chips="108,790" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="200" reg_code="7946925067" rebuy="0" seat="2" chips="96,460" dealer="0" addon="0" win="0"/>
+    <player name="Dumason" bet="200" reg_code="" rebuy="0" seat="4" chips="53,955" dealer="0" addon="0" win="0"/>
+    <player name="Zaytsev111" bet="200" reg_code="" rebuy="0" seat="5" chips="132,773" dealer="0" addon="0" win="0"/>
+    <player name="callyouruber" bet="6,238" reg_code="" rebuy="0" seat="6" chips="105,157" dealer="0" addon="0" win="9,860"/>
+    <player name="matrixhappy968" bet="3,280" reg_code="" rebuy="0" seat="7" chips="212,174" dealer="0" addon="0" win="0"/>
+    <player name="Erxomaste" bet="200" reg_code="" rebuy="0" seat="9" chips="215,776" dealer="1" addon="0" win="0"/>
+    <player name="cashmeoutsidee" bet="900" reg_code="" rebuy="0" seat="10" chips="81,017" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="cashmeoutsidee"/>
+   <action no="2" type="15" sum="200" player="zartovKA"/>
+   <action no="3" type="15" sum="200" player="tropeiro123"/>
+   <action no="4" type="15" sum="200" player="Dumason"/>
+   <action no="5" type="15" sum="200" player="Zaytsev111"/>
+   <action no="6" type="15" sum="200" player="callyouruber"/>
+   <action no="7" type="15" sum="200" player="matrixhappy968"/>
+   <action no="8" type="15" sum="200" player="Erxomaste"/>
+   <action no="9" type="1" sum="700" player="cashmeoutsidee"/>
+   <action no="10" type="2" sum="1,400" player="zartovKA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C9 D6</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Dumason">X X</cards>
+   <action no="12" type="0" sum="0" player="Dumason"/>
+   <cards type="Pocket" player="Zaytsev111">X X</cards>
+   <action no="13" type="0" sum="0" player="Zaytsev111"/>
+   <cards type="Pocket" player="callyouruber">X X</cards>
+   <action no="14" type="23" sum="3,080" player="callyouruber"/>
+   <cards type="Pocket" player="matrixhappy968">X X</cards>
+   <action no="15" type="3" sum="3,080" player="matrixhappy968"/>
+   <cards type="Pocket" player="Erxomaste">X X</cards>
+   <action no="16" type="0" sum="0" player="Erxomaste"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action no="17" type="0" sum="0" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="zartovKA">X X</cards>
+   <action no="18" type="0" sum="0" player="zartovKA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK HJ CK</cards>
+   <action no="19" type="5" sum="2,958" player="callyouruber"/>
+   <action no="20" type="0" sum="0" player="matrixhappy968"/>
+  </round>
+ </game>
+ <game gamecode="10558748757">
+  <general>
+   <startdate>2024-02-11 17:03:37</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="zartovKA" bet="900" reg_code="" rebuy="0" seat="1" chips="107,190" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,600" reg_code="7946925067" rebuy="0" seat="2" chips="96,260" dealer="0" addon="0" win="0"/>
+    <player name="Dumason" bet="200" reg_code="" rebuy="0" seat="4" chips="53,755" dealer="0" addon="0" win="0"/>
+    <player name="Zaytsev111" bet="200" reg_code="" rebuy="0" seat="5" chips="132,573" dealer="0" addon="0" win="0"/>
+    <player name="callyouruber" bet="3,280" reg_code="" rebuy="0" seat="6" chips="111,737" dealer="0" addon="0" win="0"/>
+    <player name="matrixhappy968" bet="8,694" reg_code="" rebuy="0" seat="7" chips="208,894" dealer="0" addon="0" win="9,860"/>
+    <player name="Erxomaste" bet="200" reg_code="" rebuy="0" seat="9" chips="215,576" dealer="0" addon="0" win="0"/>
+    <player name="cashmeoutsidee" bet="200" reg_code="" rebuy="0" seat="10" chips="80,117" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="200" player="zartovKA"/>
+   <action no="2" type="15" sum="200" player="tropeiro123"/>
+   <action no="3" type="15" sum="200" player="Dumason"/>
+   <action no="4" type="15" sum="200" player="Zaytsev111"/>
+   <action no="5" type="15" sum="200" player="callyouruber"/>
+   <action no="6" type="15" sum="200" player="matrixhappy968"/>
+   <action no="7" type="15" sum="200" player="Erxomaste"/>
+   <action no="8" type="15" sum="200" player="cashmeoutsidee"/>
+   <action no="9" type="1" sum="700" player="zartovKA"/>
+   <action no="10" type="2" sum="1,400" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Dumason">X X</cards>
+   <action no="11" type="0" sum="0" player="Dumason"/>
+   <cards type="Pocket" player="Zaytsev111">X X</cards>
+   <action no="12" type="0" sum="0" player="Zaytsev111"/>
+   <cards type="Pocket" player="callyouruber">X X</cards>
+   <action no="13" type="23" sum="3,080" player="callyouruber"/>
+   <cards type="Pocket" player="matrixhappy968">X X</cards>
+   <action no="14" type="23" sum="8,694" player="matrixhappy968"/>
+   <cards type="Pocket" player="Erxomaste">X X</cards>
+   <action no="15" type="0" sum="0" player="Erxomaste"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action no="16" type="0" sum="0" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="zartovKA">X X</cards>
+   <action no="17" type="0" sum="0" player="zartovKA"/>
+   <cards type="Pocket" player="tropeiro123">H3 C10</cards>
+   <action no="18" type="0" sum="0" player="tropeiro123"/>
+   <action no="19" type="0" sum="0" player="callyouruber"/>
+  </round>
+ </game>
+</session>

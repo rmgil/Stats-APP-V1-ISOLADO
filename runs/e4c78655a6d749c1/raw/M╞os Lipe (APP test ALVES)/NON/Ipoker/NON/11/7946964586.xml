@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946964586">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€4000 GTD|Fists of Fury, 1080795106</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:23:04</duration>
+  <gamecount>17</gamecount>
+  <startdate>2024-02-11 17:25:11</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>51,500</bets>
+  <wins>11,028</wins>
+  <chipsin>11,980</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP36</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080135091</tournamentcode>
+  <tournamentname>€4000 GTD|Fists of Fury</tournamentname>
+  <place>153</place>
+  <buyin>€18.20 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10558798472">
+  <general>
+   <startdate>2024-02-11 17:25:11</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="bigstaker" bet="16,626" reg_code="" rebuy="0" seat="1" chips="16,626" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="7,238" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="80" reg_code="" rebuy="0" seat="5" chips="40,756" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,861" dealer="1" addon="0" win="0"/>
+    <player name="Mandark" bet="580" reg_code="" rebuy="0" seat="7" chips="37,140" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="1,080" reg_code="" rebuy="0" seat="9" chips="47,734" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="35,266" reg_code="" rebuy="0" seat="10" chips="41,821" dealer="0" addon="0" win="35,152"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="Mandark"/>
+   <action no="2" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="3" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="4" type="15" sum="80" player="bigstaker"/>
+   <action no="5" type="15" sum="80" player="MAJORJAM"/>
+   <action no="6" type="15" sum="80" player="Lukavii"/>
+   <action no="7" type="15" sum="80" player="Tical"/>
+   <action no="8" type="1" sum="500" player="Mandark"/>
+   <action no="9" type="2" sum="1,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="DonLetMeACEYOU">HJ SA</cards>
+   <action no="10" type="23" sum="2,500" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="bigstaker">D10 DA</cards>
+   <action no="11" type="23" sum="4,000" player="bigstaker"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="12" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="13" type="0" sum="0" player="Lukavii"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="14" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="15" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="16" type="0" sum="0" player="InTrussWeTrust"/>
+   <action no="17" type="3" sum="1,500" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 S3 D6</cards>
+   <action no="18" type="4" sum="0" player="DonLetMeACEYOU"/>
+   <action no="19" type="4" sum="0" player="bigstaker"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action no="20" type="4" sum="0" player="DonLetMeACEYOU"/>
+   <action no="21" type="5" sum="7,042" player="bigstaker"/>
+   <action no="22" type="23" sum="31,186" player="DonLetMeACEYOU"/>
+   <action no="23" type="7" sum="5,504" player="bigstaker"/>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10558822623">
+  <general>
+   <startdate>2024-02-11 17:26:32</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="9,920" reg_code="7946964586" rebuy="0" seat="2" chips="10,000" dealer="0" addon="0" win="3,060"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="7,158" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="80" reg_code="" rebuy="0" seat="5" chips="40,676" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,781" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="36,560" dealer="1" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="580" reg_code="" rebuy="0" seat="9" chips="46,654" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="1,080" reg_code="" rebuy="0" seat="10" chips="60,347" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="3" type="15" sum="80" player="tropeiro123"/>
+   <action no="4" type="15" sum="80" player="MAJORJAM"/>
+   <action no="5" type="15" sum="80" player="Lukavii"/>
+   <action no="6" type="15" sum="80" player="Tical"/>
+   <action no="7" type="15" sum="80" player="Mandark"/>
+   <action no="8" type="1" sum="500" player="InTrussWeTrust"/>
+   <action no="9" type="2" sum="1,000" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H5 S5</cards>
+   <action no="10" type="23" sum="9,920" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="11" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="12" type="0" sum="0" player="Lukavii"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="13" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="14" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="15" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="16" type="0" sum="0" player="DonLetMeACEYOU"/>
+  </round>
+ </game>
+ <game gamecode="10558822661">
+  <general>
+   <startdate>2024-02-11 17:27:13</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="1,080" reg_code="7946964586" rebuy="0" seat="2" chips="11,980" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="6,998" reg_code="" rebuy="0" seat="4" chips="7,078" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="7,078" reg_code="" rebuy="0" seat="5" chips="40,596" dealer="0" addon="0" win="16,056"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,701" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="36,480" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="80" reg_code="" rebuy="0" seat="9" chips="46,074" dealer="1" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="580" reg_code="" rebuy="0" seat="10" chips="59,267" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="2" type="15" sum="80" player="tropeiro123"/>
+   <action no="3" type="15" sum="80" player="MAJORJAM"/>
+   <action no="4" type="15" sum="80" player="Lukavii"/>
+   <action no="5" type="15" sum="80" player="Tical"/>
+   <action no="6" type="15" sum="80" player="Mandark"/>
+   <action no="7" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="500" player="DonLetMeACEYOU"/>
+   <action no="9" type="2" sum="1,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MAJORJAM">H8 C8</cards>
+   <action no="10" type="23" sum="6,998" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">DA HQ</cards>
+   <action no="11" type="3" sum="6,998" player="Lukavii"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="12" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="13" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="15" type="0" sum="0" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="tropeiro123">D6 S10</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ HJ SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+  </round>
+ </game>
+ <game gamecode="10558822707">
+  <general>
+   <startdate>2024-02-11 17:28:09</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="10,820" reg_code="7946964586" rebuy="0" seat="2" chips="10,900" dealer="0" addon="0" win="2,560"/>
+    <player name="MAJORJAM" bet="1,080" reg_code="" rebuy="1" seat="4" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="80" reg_code="" rebuy="0" seat="5" chips="49,574" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,621" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="36,400" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="80" reg_code="" rebuy="0" seat="9" chips="45,994" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="80" reg_code="" rebuy="0" seat="10" chips="58,687" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="tropeiro123"/>
+   <action no="2" type="15" sum="80" player="MAJORJAM"/>
+   <action no="3" type="15" sum="80" player="Lukavii"/>
+   <action no="4" type="15" sum="80" player="Tical"/>
+   <action no="5" type="15" sum="80" player="Mandark"/>
+   <action no="6" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="8" type="1" sum="500" player="tropeiro123"/>
+   <action no="9" type="2" sum="1,000" player="MAJORJAM"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="10" type="0" sum="0" player="Lukavii"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="11" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="12" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="14" type="0" sum="0" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="tropeiro123">C7 S9</cards>
+   <action no="15" type="23" sum="10,820" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="16" type="0" sum="0" player="MAJORJAM"/>
+  </round>
+ </game>
+ <game gamecode="10558822735">
+  <general>
+   <startdate>2024-02-11 17:28:43</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="2" chips="12,380" dealer="1" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="580" reg_code="" rebuy="0" seat="4" chips="8,920" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="2,580" reg_code="" rebuy="0" seat="5" chips="49,494" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,541" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="36,320" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="80" reg_code="" rebuy="0" seat="9" chips="45,914" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="5,307" reg_code="" rebuy="0" seat="10" chips="58,607" dealer="0" addon="0" win="6,060"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="MAJORJAM"/>
+   <action no="2" type="15" sum="80" player="Lukavii"/>
+   <action no="3" type="15" sum="80" player="Tical"/>
+   <action no="4" type="15" sum="80" player="Mandark"/>
+   <action no="5" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="6" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="7" type="15" sum="80" player="tropeiro123"/>
+   <action no="8" type="1" sum="500" player="MAJORJAM"/>
+   <action no="9" type="2" sum="1,000" player="Lukavii"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="10" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="11" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="12" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="13" type="23" sum="2,500" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="tropeiro123">H10 SQ</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="15" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="16" type="3" sum="1,500" player="Lukavii"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ C8 C4</cards>
+   <action no="17" type="4" sum="0" player="Lukavii"/>
+   <action no="18" type="4" sum="0" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action no="19" type="4" sum="0" player="Lukavii"/>
+   <action no="20" type="5" sum="2,727" player="DonLetMeACEYOU"/>
+   <action no="21" type="0" sum="0" player="Lukavii"/>
+  </round>
+ </game>
+ <game gamecode="10558822799">
+  <general>
+   <startdate>2024-02-11 17:29:56</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="2" chips="12,300" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="8,340" dealer="1" addon="0" win="0"/>
+    <player name="Lukavii" bet="580" reg_code="" rebuy="0" seat="5" chips="46,914" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="1,080" reg_code="" rebuy="0" seat="6" chips="35,461" dealer="0" addon="0" win="1,560"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="36,240" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="80" reg_code="" rebuy="0" seat="9" chips="45,834" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="80" reg_code="" rebuy="0" seat="10" chips="62,087" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="Lukavii"/>
+   <action no="2" type="15" sum="80" player="Tical"/>
+   <action no="3" type="15" sum="80" player="Mandark"/>
+   <action no="4" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="5" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="6" type="15" sum="80" player="tropeiro123"/>
+   <action no="7" type="15" sum="80" player="MAJORJAM"/>
+   <action no="8" type="1" sum="500" player="Lukavii"/>
+   <action no="9" type="2" sum="1,000" player="Tical"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Tical">X X</cards>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="10" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="11" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="12" type="0" sum="0" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="tropeiro123">S3 D9</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="14" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="15" type="0" sum="0" player="Lukavii"/>
+  </round>
+ </game>
+ <game gamecode="10558822816">
+  <general>
+   <startdate>2024-02-11 17:30:21</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="2" chips="12,220" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="8,260" dealer="0" addon="0" win="0"/>
+    <player name="Lukavii" bet="80" reg_code="" rebuy="0" seat="5" chips="46,334" dealer="1" addon="0" win="0"/>
+    <player name="Tical" bet="580" reg_code="" rebuy="0" seat="6" chips="36,441" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="1,080" reg_code="" rebuy="0" seat="7" chips="36,160" dealer="0" addon="0" win="1,560"/>
+    <player name="InTrussWeTrust" bet="80" reg_code="" rebuy="0" seat="9" chips="45,754" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="80" reg_code="" rebuy="0" seat="10" chips="62,007" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="Tical"/>
+   <action no="2" type="15" sum="80" player="Mandark"/>
+   <action no="3" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="4" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="5" type="15" sum="80" player="tropeiro123"/>
+   <action no="6" type="15" sum="80" player="MAJORJAM"/>
+   <action no="7" type="15" sum="80" player="Lukavii"/>
+   <action no="8" type="1" sum="500" player="Tical"/>
+   <action no="9" type="2" sum="1,000" player="Mandark"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="10" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="11" type="0" sum="0" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="tropeiro123">H5 HJ</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="13" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="Lukavii">X X</cards>
+   <action no="14" type="0" sum="0" player="Lukavii"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="15" type="0" sum="0" player="Tical"/>
+  </round>
+ </game>
+ <game gamecode="10558822863">
+  <general>
+   <startdate>2024-02-11 17:31:08</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="Augusto1010" bet="80" reg_code="" rebuy="0" seat="1" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="2" chips="12,140" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="8,180" dealer="0" addon="0" win="0"/>
+    <player name="SpulaeMulae" bet="80" reg_code="" rebuy="0" seat="5" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,861" dealer="0" addon="0" win="0"/>
+    <player name="Mandark" bet="80" reg_code="" rebuy="0" seat="7" chips="37,140" dealer="1" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="2,080" reg_code="" rebuy="0" seat="9" chips="45,674" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="4,080" reg_code="" rebuy="0" seat="10" chips="61,927" dealer="0" addon="0" win="4,640"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="3" type="15" sum="80" player="Augusto1010"/>
+   <action no="4" type="15" sum="80" player="tropeiro123"/>
+   <action no="5" type="15" sum="80" player="MAJORJAM"/>
+   <action no="6" type="15" sum="80" player="SpulaeMulae"/>
+   <action no="7" type="15" sum="80" player="Tical"/>
+   <action no="8" type="15" sum="80" player="Mandark"/>
+   <action no="9" type="1" sum="500" player="InTrussWeTrust"/>
+   <action no="10" type="2" sum="1,000" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action no="11" type="0" sum="0" player="Augusto1010"/>
+   <cards type="Pocket" player="tropeiro123">C6 C4</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="13" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="SpulaeMulae">X X</cards>
+   <action no="14" type="0" sum="0" player="SpulaeMulae"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="15" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="Mandark">X X</cards>
+   <action no="16" type="0" sum="0" player="Mandark"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="17" type="3" sum="500" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="18" type="4" sum="0" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 H7 SQ</cards>
+   <action no="19" type="5" sum="1,000" player="InTrussWeTrust"/>
+   <action no="20" type="3" sum="1,000" player="DonLetMeACEYOU"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="21" type="4" sum="0" player="InTrussWeTrust"/>
+   <action no="22" type="5" sum="2,000" player="DonLetMeACEYOU"/>
+   <action no="23" type="0" sum="0" player="InTrussWeTrust"/>
+  </round>
+ </game>
+ <game gamecode="10558822922">
+  <general>
+   <startdate>2024-02-11 17:32:11</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="Augusto1010" bet="1,080" reg_code="" rebuy="0" seat="1" chips="9,920" dealer="0" addon="0" win="1,480"/>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="2" chips="12,060" dealer="0" addon="0" win="0"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="8,100" dealer="0" addon="0" win="0"/>
+    <player name="SpulaeMulae" bet="80" reg_code="" rebuy="0" seat="5" chips="9,920" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,781" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="580" reg_code="" rebuy="0" seat="10" chips="64,487" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="2" type="15" sum="80" player="Augusto1010"/>
+   <action no="3" type="15" sum="80" player="tropeiro123"/>
+   <action no="4" type="15" sum="80" player="MAJORJAM"/>
+   <action no="5" type="15" sum="80" player="SpulaeMulae"/>
+   <action no="6" type="15" sum="80" player="Tical"/>
+   <action no="7" type="1" sum="500" player="DonLetMeACEYOU"/>
+   <action no="8" type="2" sum="1,000" player="Augusto1010"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <cards type="Pocket" player="tropeiro123">HJ C5</cards>
+   <action no="9" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="10" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="SpulaeMulae">X X</cards>
+   <action no="11" type="0" sum="0" player="SpulaeMulae"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="12" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="13" type="0" sum="0" player="DonLetMeACEYOU"/>
+  </round>
+ </game>
+ <game gamecode="10558822963">
+  <general>
+   <startdate>2024-02-11 17:32:52</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="Augusto1010" bet="580" reg_code="" rebuy="0" seat="1" chips="10,820" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="1,080" reg_code="7946964586" rebuy="0" seat="2" chips="11,980" dealer="0" addon="0" win="1,640"/>
+    <player name="MAJORJAM" bet="80" reg_code="" rebuy="0" seat="4" chips="8,020" dealer="0" addon="0" win="0"/>
+    <player name="SpulaeMulae" bet="80" reg_code="" rebuy="0" seat="5" chips="9,840" dealer="0" addon="0" win="0"/>
+    <player name="Tical" bet="80" reg_code="" rebuy="0" seat="6" chips="35,701" dealer="0" addon="0" win="0"/>
+    <player name="IMMINENCE1" bet="80" reg_code="" rebuy="0" seat="7" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="spreadd99" bet="80" reg_code="" rebuy="0" seat="9" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="DonLetMeACEYOU" bet="80" reg_code="" rebuy="0" seat="10" chips="63,907" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="Augusto1010"/>
+   <action no="2" type="15" sum="80" player="tropeiro123"/>
+   <action no="3" type="15" sum="80" player="MAJORJAM"/>
+   <action no="4" type="15" sum="80" player="SpulaeMulae"/>
+   <action no="5" type="15" sum="80" player="Tical"/>
+   <action no="6" type="15" sum="80" player="IMMINENCE1"/>
+   <action no="7" type="15" sum="80" player="spreadd99"/>
+   <action no="8" type="15" sum="80" player="DonLetMeACEYOU"/>
+   <action no="9" type="1" sum="500" player="Augusto1010"/>
+   <action no="10" type="2" sum="1,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SQ C10</cards>
+   <cards type="Pocket" player="MAJORJAM">X X</cards>
+   <action no="11" type="0" sum="0" player="MAJORJAM"/>
+   <cards type="Pocket" player="SpulaeMulae">X X</cards>
+   <action no="12" type="0" sum="0" player="SpulaeMulae"/>
+   <cards type="Pocket" player="Tical">X X</cards>
+   <action no="13" type="0" sum="0" player="Tical"/>
+   <cards type="Pocket" player="IMMINENCE1">X X</cards>
+   <action no="14" type="0" sum="0" player="IMMINENCE1"/>
+   <cards type="Pocket" player="spreadd99">X X</cards>
+   <action no="15" type="0" sum="0" player="spreadd99"/>
+   <cards type="Pocket" player="DonLetMeACEYOU">X X</cards>
+   <action no="16" type="0" sum="0" player="DonLetMeACEYOU"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action no="17" type="0" sum="0" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10558823002">
+  <general>
+   <startdate>2024-02-11 17:33:24</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="xraisefold" bet="80" reg_code="" rebuy="0" seat="1" chips="20,000" dealer="1" addon="0" win="0"/>
+    <player name="Lipstift" bet="9,920" reg_code="" rebuy="0" seat="2" chips="10,000" dealer="0" addon="0" win="2,400"/>
+    <player name="MJSmithpoker1970" bet="1,080" reg_code="" rebuy="0" seat="4" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="9" chips="13,040" dealer="0" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="80" reg_code="" rebuy="0" seat="10" chips="9,920" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="Lipstift"/>
+   <action no="2" type="15" sum="80" player="MJSmithpoker1970"/>
+   <action no="3" type="15" sum="80" player="tropeiro123"/>
+   <action no="4" type="15" sum="80" player="CesarRupestre"/>
+   <action no="5" type="15" sum="80" player="xraisefold"/>
+   <action no="6" type="1" sum="500" player="Lipstift"/>
+   <action no="7" type="2" sum="1,000" player="MJSmithpoker1970"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S5 C2</cards>
+   <action no="8" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="9" type="0" sum="0" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="10" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action no="11" type="23" sum="9,920" player="Lipstift"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="12" type="0" sum="0" player="MJSmithpoker1970"/>
+  </round>
+ </game>
+ <game gamecode="10558823048">
+  <general>
+   <startdate>2024-02-11 17:34:08</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player name="xraisefold" bet="80" reg_code="" rebuy="0" seat="1" chips="19,920" dealer="0" addon="0" win="0"/>
+    <player name="Lipstift" bet="80" reg_code="" rebuy="0" seat="2" chips="11,320" dealer="1" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="580" reg_code="" rebuy="0" seat="4" chips="8,920" dealer="0" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="1,080" reg_code="" rebuy="0" seat="5" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="HisBrilliancy" bet="9,920" reg_code="" rebuy="0" seat="6" chips="10,000" dealer="0" addon="0" win="0"/>
+    <player name="Hunts145" bet="80" reg_code="" rebuy="0" seat="7" chips="17,100" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="80" reg_code="7946964586" rebuy="0" seat="9" chips="12,960" dealer="0" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="9,840" reg_code="" rebuy="0" seat="10" chips="9,840" dealer="0" addon="0" win="21,660"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="80" player="MJSmithpoker1970"/>
+   <action no="2" type="15" sum="80" player="AltoPolicia"/>
+   <action no="3" type="15" sum="80" player="HisBrilliancy"/>
+   <action no="4" type="15" sum="80" player="Hunts145"/>
+   <action no="5" type="15" sum="80" player="tropeiro123"/>
+   <action no="6" type="15" sum="80" player="CesarRupestre"/>
+   <action no="7" type="15" sum="80" player="xraisefold"/>
+   <action no="8" type="15" sum="80" player="Lipstift"/>
+   <action no="9" type="1" sum="500" player="MJSmithpoker1970"/>
+   <action no="10" type="2" sum="1,000" player="AltoPolicia"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="HisBrilliancy">HA HQ</cards>
+   <action no="11" type="23" sum="9,920" player="HisBrilliancy"/>
+   <cards type="Pocket" player="Hunts145">X X</cards>
+   <action no="12" type="0" sum="0" player="Hunts145"/>
+   <cards type="Pocket" player="tropeiro123">H4 S10</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">CA SK</cards>
+   <action no="14" type="7" sum="9,760" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="15" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action no="16" type="0" sum="0" player="Lipstift"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="17" type="0" sum="0" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">X X</cards>
+   <action no="18" type="0" sum="0" player="AltoPolicia"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ H2 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+ <game gamecode="10558848755">
+  <general>
+   <startdate>2024-02-11 17:42:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player name="xraisefold" bet="96" reg_code="" rebuy="0" seat="1" chips="49,840" dealer="0" addon="0" win="0"/>
+    <player name="puntercold292" bet="96" reg_code="" rebuy="0" seat="2" chips="40,000" dealer="0" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="96" reg_code="" rebuy="0" seat="4" chips="48,340" dealer="1" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="696" reg_code="" rebuy="0" seat="5" chips="38,920" dealer="0" addon="0" win="0"/>
+    <player name="HisBrilliancy" bet="1,296" reg_code="" rebuy="0" seat="6" chips="30,160" dealer="0" addon="0" win="0"/>
+    <player name="Hunts145" bet="96" reg_code="" rebuy="0" seat="7" chips="47,020" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="12,784" reg_code="7946964586" rebuy="0" seat="9" chips="12,880" dealer="0" addon="0" win="3,768"/>
+    <player name="CesarRupestre" bet="96" reg_code="" rebuy="0" seat="10" chips="51,660" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="96" player="AltoPolicia"/>
+   <action no="2" type="15" sum="96" player="HisBrilliancy"/>
+   <action no="3" type="15" sum="96" player="Hunts145"/>
+   <action no="4" type="15" sum="96" player="tropeiro123"/>
+   <action no="5" type="15" sum="96" player="CesarRupestre"/>
+   <action no="6" type="15" sum="96" player="xraisefold"/>
+   <action no="7" type="15" sum="96" player="puntercold292"/>
+   <action no="8" type="15" sum="96" player="MJSmithpoker1970"/>
+   <action no="9" type="1" sum="600" player="AltoPolicia"/>
+   <action no="10" type="2" sum="1,200" player="HisBrilliancy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Hunts145">X X</cards>
+   <action no="11" type="0" sum="0" player="Hunts145"/>
+   <cards type="Pocket" player="tropeiro123">SA HJ</cards>
+   <action no="12" type="23" sum="12,784" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="13" type="0" sum="0" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="14" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="puntercold292">X X</cards>
+   <action no="15" type="0" sum="0" player="puntercold292"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="16" type="0" sum="0" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">X X</cards>
+   <action no="17" type="0" sum="0" player="AltoPolicia"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action no="18" type="0" sum="0" player="HisBrilliancy"/>
+  </round>
+ </game>
+ <game gamecode="10558848791">
+  <general>
+   <startdate>2024-02-11 17:43:14</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player name="xraisefold" bet="96" reg_code="" rebuy="0" seat="1" chips="49,744" dealer="0" addon="0" win="0"/>
+    <player name="puntercold292" bet="96" reg_code="" rebuy="0" seat="2" chips="39,904" dealer="0" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="96" reg_code="" rebuy="1" seat="4" chips="48,244" dealer="0" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="18,561" reg_code="" rebuy="0" seat="5" chips="38,224" dealer="1" addon="0" win="38,298"/>
+    <player name="HisBrilliancy" bet="696" reg_code="" rebuy="0" seat="6" chips="28,864" dealer="0" addon="0" win="0"/>
+    <player name="Hunts145" bet="18,561" reg_code="" rebuy="0" seat="7" chips="46,924" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="96" reg_code="7946964586" rebuy="0" seat="9" chips="15,352" dealer="0" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="96" reg_code="" rebuy="0" seat="10" chips="51,564" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="96" player="HisBrilliancy"/>
+   <action no="2" type="15" sum="96" player="Hunts145"/>
+   <action no="3" type="15" sum="96" player="tropeiro123"/>
+   <action no="4" type="15" sum="96" player="CesarRupestre"/>
+   <action no="5" type="15" sum="96" player="xraisefold"/>
+   <action no="6" type="15" sum="96" player="puntercold292"/>
+   <action no="7" type="15" sum="96" player="MJSmithpoker1970"/>
+   <action no="8" type="15" sum="96" player="AltoPolicia"/>
+   <action no="9" type="1" sum="600" player="HisBrilliancy"/>
+   <action no="10" type="2" sum="1,200" player="Hunts145"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S3 DK</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="12" type="0" sum="0" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="13" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="puntercold292">X X</cards>
+   <action no="14" type="0" sum="0" player="puntercold292"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="15" type="0" sum="0" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">DJ SQ</cards>
+   <action no="16" type="23" sum="2,400" player="AltoPolicia"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action no="17" type="0" sum="0" player="HisBrilliancy"/>
+   <cards type="Pocket" player="Hunts145">C10 D7</cards>
+   <action no="18" type="3" sum="1,200" player="Hunts145"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 CQ D6</cards>
+   <action no="19" type="4" sum="0" player="Hunts145"/>
+   <action no="20" type="5" sum="2,035" player="AltoPolicia"/>
+   <action no="21" type="3" sum="2,035" player="Hunts145"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="22" type="4" sum="0" player="Hunts145"/>
+   <action no="23" type="5" sum="5,630" player="AltoPolicia"/>
+   <action no="24" type="3" sum="5,630" player="Hunts145"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+   <action no="25" type="5" sum="8,400" player="Hunts145"/>
+   <action no="26" type="3" sum="8,400" player="AltoPolicia"/>
+  </round>
+ </game>
+ <game gamecode="10558848935">
+  <general>
+   <startdate>2024-02-11 17:45:10</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player name="xraisefold" bet="96" reg_code="" rebuy="0" seat="1" chips="49,648" dealer="0" addon="0" win="0"/>
+    <player name="puntercold292" bet="96" reg_code="" rebuy="0" seat="2" chips="39,808" dealer="0" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="4,896" reg_code="" rebuy="0" seat="4" chips="48,148" dealer="0" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="96" reg_code="" rebuy="0" seat="5" chips="57,961" dealer="0" addon="0" win="0"/>
+    <player name="HisBrilliancy" bet="96" reg_code="" rebuy="0" seat="6" chips="28,168" dealer="1" addon="0" win="0"/>
+    <player name="Hunts145" bet="4,896" reg_code="" rebuy="0" seat="7" chips="28,363" dealer="0" addon="0" win="12,768"/>
+    <player name="tropeiro123" bet="2,496" reg_code="7946964586" rebuy="0" seat="9" chips="15,256" dealer="0" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="96" reg_code="" rebuy="0" seat="10" chips="51,468" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="96" player="Hunts145"/>
+   <action no="2" type="15" sum="96" player="tropeiro123"/>
+   <action no="3" type="15" sum="96" player="CesarRupestre"/>
+   <action no="4" type="15" sum="96" player="xraisefold"/>
+   <action no="5" type="15" sum="96" player="puntercold292"/>
+   <action no="6" type="15" sum="96" player="MJSmithpoker1970"/>
+   <action no="7" type="15" sum="96" player="AltoPolicia"/>
+   <action no="8" type="15" sum="96" player="HisBrilliancy"/>
+   <action no="9" type="1" sum="600" player="Hunts145"/>
+   <action no="10" type="2" sum="1,200" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="11" type="0" sum="0" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="12" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="puntercold292">X X</cards>
+   <action no="13" type="0" sum="0" player="puntercold292"/>
+   <cards type="Pocket" player="MJSmithpoker1970">H7 H8</cards>
+   <action no="14" type="23" sum="2,400" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">X X</cards>
+   <action no="15" type="0" sum="0" player="AltoPolicia"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action no="16" type="0" sum="0" player="HisBrilliancy"/>
+   <cards type="Pocket" player="Hunts145">S10 S8</cards>
+   <action no="17" type="3" sum="1,800" player="Hunts145"/>
+   <cards type="Pocket" player="tropeiro123">D8 S9</cards>
+   <action no="18" type="3" sum="1,200" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA D10 D5</cards>
+   <action no="19" type="4" sum="0" player="Hunts145"/>
+   <action no="20" type="4" sum="0" player="tropeiro123"/>
+   <action no="21" type="4" sum="0" player="MJSmithpoker1970"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+   <action no="22" type="5" sum="2,400" player="Hunts145"/>
+   <action no="23" type="0" sum="0" player="tropeiro123"/>
+   <action no="24" type="3" sum="2,400" player="MJSmithpoker1970"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action no="25" type="4" sum="0" player="Hunts145"/>
+   <action no="26" type="4" sum="0" player="MJSmithpoker1970"/>
+  </round>
+ </game>
+ <game gamecode="10558872119">
+  <general>
+   <startdate>2024-02-11 17:46:30</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player name="xraisefold" bet="96" reg_code="" rebuy="0" seat="1" chips="49,552" dealer="0" addon="0" win="0"/>
+    <player name="puntercold292" bet="96" reg_code="" rebuy="0" seat="2" chips="39,712" dealer="0" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="96" reg_code="" rebuy="0" seat="4" chips="43,252" dealer="0" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="4,531" reg_code="" rebuy="0" seat="5" chips="57,865" dealer="0" addon="0" win="6,168"/>
+    <player name="HisBrilliancy" bet="96" reg_code="" rebuy="0" seat="6" chips="28,072" dealer="0" addon="0" win="0"/>
+    <player name="Hunts145" bet="96" reg_code="" rebuy="0" seat="7" chips="36,235" dealer="1" addon="0" win="0"/>
+    <player name="tropeiro123" bet="696" reg_code="7946964586" rebuy="0" seat="9" chips="12,760" dealer="0" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="2,496" reg_code="" rebuy="0" seat="10" chips="51,372" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="96" player="tropeiro123"/>
+   <action no="2" type="15" sum="96" player="CesarRupestre"/>
+   <action no="3" type="15" sum="96" player="xraisefold"/>
+   <action no="4" type="15" sum="96" player="puntercold292"/>
+   <action no="5" type="15" sum="96" player="MJSmithpoker1970"/>
+   <action no="6" type="15" sum="96" player="AltoPolicia"/>
+   <action no="7" type="15" sum="96" player="HisBrilliancy"/>
+   <action no="8" type="15" sum="96" player="Hunts145"/>
+   <action no="9" type="1" sum="600" player="tropeiro123"/>
+   <action no="10" type="2" sum="1,200" player="CesarRupestre"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="11" type="0" sum="0" player="xraisefold"/>
+   <cards type="Pocket" player="puntercold292">X X</cards>
+   <action no="12" type="0" sum="0" player="puntercold292"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="13" type="0" sum="0" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">X X</cards>
+   <action no="14" type="23" sum="2,400" player="AltoPolicia"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action no="15" type="0" sum="0" player="HisBrilliancy"/>
+   <cards type="Pocket" player="Hunts145">X X</cards>
+   <action no="16" type="0" sum="0" player="Hunts145"/>
+   <cards type="Pocket" player="tropeiro123">C2 C8</cards>
+   <action no="17" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="18" type="3" sum="1,200" player="CesarRupestre"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA SK H3</cards>
+   <action no="19" type="4" sum="0" player="CesarRupestre"/>
+   <action no="20" type="5" sum="2,035" player="AltoPolicia"/>
+   <action no="21" type="0" sum="0" player="CesarRupestre"/>
+  </round>
+ </game>
+ <game gamecode="10558872212">
+  <general>
+   <startdate>2024-02-11 17:47:37</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player name="xraisefold" bet="1,296" reg_code="" rebuy="0" seat="1" chips="49,456" dealer="0" addon="0" win="0"/>
+    <player name="puntercold292" bet="96" reg_code="" rebuy="0" seat="2" chips="39,616" dealer="0" addon="0" win="0"/>
+    <player name="MJSmithpoker1970" bet="96" reg_code="" rebuy="0" seat="4" chips="43,156" dealer="0" addon="0" win="0"/>
+    <player name="AltoPolicia" bet="96" reg_code="" rebuy="0" seat="5" chips="61,537" dealer="0" addon="0" win="0"/>
+    <player name="HisBrilliancy" bet="96" reg_code="" rebuy="0" seat="6" chips="27,976" dealer="0" addon="0" win="0"/>
+    <player name="Hunts145" bet="12,064" reg_code="" rebuy="0" seat="7" chips="36,139" dealer="0" addon="0" win="26,504"/>
+    <player name="tropeiro123" bet="11,968" reg_code="7946964586" rebuy="0" seat="9" chips="12,064" dealer="1" addon="0" win="0"/>
+    <player name="CesarRupestre" bet="696" reg_code="" rebuy="0" seat="10" chips="48,876" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="96" player="CesarRupestre"/>
+   <action no="2" type="15" sum="96" player="xraisefold"/>
+   <action no="3" type="15" sum="96" player="puntercold292"/>
+   <action no="4" type="15" sum="96" player="MJSmithpoker1970"/>
+   <action no="5" type="15" sum="96" player="AltoPolicia"/>
+   <action no="6" type="15" sum="96" player="HisBrilliancy"/>
+   <action no="7" type="15" sum="96" player="Hunts145"/>
+   <action no="8" type="15" sum="96" player="tropeiro123"/>
+   <action no="9" type="1" sum="600" player="CesarRupestre"/>
+   <action no="10" type="2" sum="1,200" player="xraisefold"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="puntercold292">X X</cards>
+   <action no="11" type="0" sum="0" player="puntercold292"/>
+   <cards type="Pocket" player="MJSmithpoker1970">X X</cards>
+   <action no="12" type="0" sum="0" player="MJSmithpoker1970"/>
+   <cards type="Pocket" player="AltoPolicia">X X</cards>
+   <action no="13" type="0" sum="0" player="AltoPolicia"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action no="14" type="0" sum="0" player="HisBrilliancy"/>
+   <cards type="Pocket" player="Hunts145">HK SK</cards>
+   <action no="15" type="23" sum="2,400" player="Hunts145"/>
+   <cards type="Pocket" player="tropeiro123">DA S8</cards>
+   <action no="16" type="23" sum="11,968" player="tropeiro123"/>
+   <cards type="Pocket" player="CesarRupestre">X X</cards>
+   <action no="17" type="0" sum="0" player="CesarRupestre"/>
+   <cards type="Pocket" player="xraisefold">X X</cards>
+   <action no="18" type="0" sum="0" player="xraisefold"/>
+   <action no="19" type="3" sum="9,568" player="Hunts145"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 SA CA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+  </round>
+ </game>
+</session>

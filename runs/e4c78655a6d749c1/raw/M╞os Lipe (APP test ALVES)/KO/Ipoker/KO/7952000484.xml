@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7952000484">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€100,000|Mystery Bounty|D1, 1081236272</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:14:51</duration>
+  <gamecount>17</gamecount>
+  <startdate>2024-02-16 17:16:46</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>132,350</bets>
+  <wins>33,400</wins>
+  <chipsin>49,700</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP135</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080307525</tournamentcode>
+  <tournamentname>E3|€100,000|Mystery Bounty|D1</tournamentname>
+  <place>12</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10567672976">
+  <general>
+   <startdate>2024-02-16 17:16:46</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,300" name="HisBrilliancy" rebuy="0" win="0" chips="97,655" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="ttchak" rebuy="0" win="0" chips="42,442" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="12,300" name="Spaydiki1" rebuy="0" win="29,100" chips="29,185" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="300" name="tropeiro123" rebuy="0" win="0" chips="50,000" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="12,300" name="STEFANOS1289" rebuy="0" win="0" chips="121,954" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="300" name="OxXum" rebuy="0" win="0" chips="13,469" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,300" name="MalaysianAir" rebuy="0" win="0" chips="72,416" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="MalaysianAir"/>
+   <action type="15" sum="300" no="2" player="HisBrilliancy"/>
+   <action type="15" sum="300" no="3" player="ttchak"/>
+   <action type="15" sum="300" no="4" player="Spaydiki1"/>
+   <action type="15" sum="300" no="5" player="tropeiro123"/>
+   <action type="15" sum="300" no="6" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="7" player="OxXum"/>
+   <action type="1" sum="1,000" no="8" player="MalaysianAir"/>
+   <action type="2" sum="2,000" no="9" player="HisBrilliancy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="10" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">DK SK</cards>
+   <action type="23" sum="4,000" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">D10 C4</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">H9 CJ</cards>
+   <action type="3" sum="4,000" no="13" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="14" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="15" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="16" player="HisBrilliancy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 S2 DA</cards>
+   <action type="4" sum="0" no="17" player="Spaydiki1"/>
+   <action type="4" sum="0" no="18" player="STEFANOS1289"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action type="4" sum="0" no="19" player="Spaydiki1"/>
+   <action type="5" sum="4,000" no="20" player="STEFANOS1289"/>
+   <action type="3" sum="4,000" no="21" player="Spaydiki1"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action type="4" sum="0" no="22" player="Spaydiki1"/>
+   <action type="5" sum="4,000" no="23" player="STEFANOS1289"/>
+   <action type="3" sum="4,000" no="24" player="Spaydiki1"/>
+  </round>
+ </game>
+ <game gamecode="10567713713">
+  <general>
+   <startdate>2024-02-16 17:18:07</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,300" name="HisBrilliancy" rebuy="0" win="0" chips="95,355" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="2,300" name="ttchak" rebuy="0" win="0" chips="42,142" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Spaydiki1" rebuy="0" win="0" chips="45,985" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="4,200" name="tropeiro123" rebuy="0" win="7,100" chips="49,700" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="300" name="STEFANOS1289" rebuy="0" win="0" chips="109,654" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="300" name="OxXum" rebuy="0" win="0" chips="13,169" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="300" name="MalaysianAir" rebuy="0" win="0" chips="71,116" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="HisBrilliancy"/>
+   <action type="15" sum="300" no="2" player="ttchak"/>
+   <action type="15" sum="300" no="3" player="Spaydiki1"/>
+   <action type="15" sum="300" no="4" player="tropeiro123"/>
+   <action type="15" sum="300" no="5" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="6" player="OxXum"/>
+   <action type="15" sum="300" no="7" player="MalaysianAir"/>
+   <action type="1" sum="1,000" no="8" player="HisBrilliancy"/>
+   <action type="2" sum="2,000" no="9" player="ttchak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">H8 HK</cards>
+   <action type="23" sum="4,200" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="12" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="13" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="14" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="15" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="16" player="ttchak"/>
+  </round>
+ </game>
+ <game gamecode="10567713766">
+  <general>
+   <startdate>2024-02-16 17:18:50</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="1" bet="300" name="HisBrilliancy" rebuy="0" win="0" chips="94,055" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,300" name="ttchak" rebuy="0" win="0" chips="39,842" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="4,500" name="Spaydiki1" rebuy="0" win="0" chips="45,685" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="4,500" name="tropeiro123" rebuy="0" win="0" chips="54,500" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="8,500" name="STEFANOS1289" rebuy="0" win="15,700" chips="109,354" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="300" name="OxXum" rebuy="0" win="0" chips="12,869" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="MalaysianAir" rebuy="0" win="0" chips="70,816" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="ttchak"/>
+   <action type="15" sum="300" no="2" player="Spaydiki1"/>
+   <action type="15" sum="300" no="3" player="tropeiro123"/>
+   <action type="15" sum="300" no="4" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="5" player="OxXum"/>
+   <action type="15" sum="300" no="6" player="MalaysianAir"/>
+   <action type="15" sum="300" no="7" player="HisBrilliancy"/>
+   <action type="1" sum="1,000" no="8" player="ttchak"/>
+   <action type="2" sum="2,000" no="9" player="Spaydiki1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SA S9</cards>
+   <action type="23" sum="4,200" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="3" sum="4,200" no="11" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="12" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="13" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="14" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="15" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="3" sum="2,200" no="16" player="Spaydiki1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 D8 HK</cards>
+   <action type="4" sum="0" no="17" player="Spaydiki1"/>
+   <action type="4" sum="0" no="18" player="tropeiro123"/>
+   <action type="5" sum="4,000" no="19" player="STEFANOS1289"/>
+   <action type="0" sum="0" no="20" player="Spaydiki1"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567713885">
+  <general>
+   <startdate>2024-02-16 17:20:28</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="300" name="HisBrilliancy" rebuy="0" win="0" chips="93,755" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="300" name="ttchak" rebuy="0" win="0" chips="38,542" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,300" name="Spaydiki1" rebuy="0" win="0" chips="41,185" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="2,300" name="tropeiro123" rebuy="0" win="0" chips="50,000" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="300" name="STEFANOS1289" rebuy="0" win="0" chips="120,554" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="12,269" name="OxXum" rebuy="0" win="7,100" chips="12,569" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="MalaysianAir" rebuy="0" win="0" chips="70,516" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="Spaydiki1"/>
+   <action type="15" sum="300" no="2" player="tropeiro123"/>
+   <action type="15" sum="300" no="3" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="4" player="OxXum"/>
+   <action type="15" sum="300" no="5" player="MalaysianAir"/>
+   <action type="15" sum="300" no="6" player="HisBrilliancy"/>
+   <action type="15" sum="300" no="7" player="ttchak"/>
+   <action type="1" sum="1,000" no="8" player="Spaydiki1"/>
+   <action type="2" sum="2,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="10" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="23" sum="12,269" no="11" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="12" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="13" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="14" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="15" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">C8 D2</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567713921">
+  <general>
+   <startdate>2024-02-16 17:21:00</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="4,000" name="HisBrilliancy" rebuy="0" win="7,100" chips="93,455" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="ttchak" rebuy="0" win="0" chips="38,242" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="300" name="Spaydiki1" rebuy="0" win="0" chips="39,885" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="1,300" name="tropeiro123" rebuy="0" win="0" chips="47,700" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="2,300" name="STEFANOS1289" rebuy="0" win="0" chips="120,254" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="300" name="OxXum" rebuy="0" win="0" chips="17,369" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="MalaysianAir" rebuy="0" win="0" chips="70,216" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="tropeiro123"/>
+   <action type="15" sum="300" no="2" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="3" player="OxXum"/>
+   <action type="15" sum="300" no="4" player="MalaysianAir"/>
+   <action type="15" sum="300" no="5" player="HisBrilliancy"/>
+   <action type="15" sum="300" no="6" player="ttchak"/>
+   <action type="15" sum="300" no="7" player="Spaydiki1"/>
+   <action type="1" sum="1,000" no="8" player="tropeiro123"/>
+   <action type="2" sum="2,000" no="9" player="STEFANOS1289"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="10" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="11" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="23" sum="4,000" no="12" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="13" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="14" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">DJ S6</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="16" player="STEFANOS1289"/>
+  </round>
+ </game>
+ <game gamecode="10567713959">
+  <general>
+   <startdate>2024-02-16 17:21:32</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player seat="1" dealer="0" bet="300" name="HisBrilliancy" rebuy="0" win="0" chips="98,255" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="300" name="ttchak" rebuy="0" win="0" chips="37,942" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="300" name="Spaydiki1" rebuy="0" win="0" chips="39,585" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="7,625" name="tropeiro123" rebuy="0" win="12,500" chips="46,400" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="4,500" name="STEFANOS1289" rebuy="0" win="0" chips="117,954" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,300" name="OxXum" rebuy="0" win="0" chips="17,069" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="300" name="MalaysianAir" rebuy="0" win="0" chips="69,916" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="300" no="1" player="STEFANOS1289"/>
+   <action type="15" sum="300" no="2" player="OxXum"/>
+   <action type="15" sum="300" no="3" player="MalaysianAir"/>
+   <action type="15" sum="300" no="4" player="HisBrilliancy"/>
+   <action type="15" sum="300" no="5" player="ttchak"/>
+   <action type="15" sum="300" no="6" player="Spaydiki1"/>
+   <action type="15" sum="300" no="7" player="tropeiro123"/>
+   <action type="1" sum="1,000" no="8" player="STEFANOS1289"/>
+   <action type="2" sum="2,000" no="9" player="OxXum"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="10" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="11" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="12" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="13" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">HQ H6</cards>
+   <action type="23" sum="4,200" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="3" sum="3,200" no="15" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="16" player="OxXum"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S7 S4</cards>
+   <action type="4" sum="0" no="17" player="STEFANOS1289"/>
+   <action type="5" sum="3,125" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="STEFANOS1289"/>
+  </round>
+ </game>
+ <game gamecode="10567714030">
+  <general>
+   <startdate>2024-02-16 17:22:26</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="97,955" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="400" name="ttchak" rebuy="0" win="0" chips="37,642" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="400" name="Spaydiki1" rebuy="0" win="0" chips="39,285" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="10,475" name="tropeiro123" rebuy="0" win="0" chips="54,400" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="1" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="113,454" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,900" name="OxXum" rebuy="0" win="0" chips="14,769" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="16,475" name="MalaysianAir" rebuy="0" win="24,450" chips="69,616" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="OxXum"/>
+   <action type="15" sum="400" no="2" player="MalaysianAir"/>
+   <action type="15" sum="400" no="3" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="4" player="ttchak"/>
+   <action type="15" sum="400" no="5" player="Spaydiki1"/>
+   <action type="15" sum="400" no="6" player="tropeiro123"/>
+   <action type="15" sum="400" no="7" player="STEFANOS1289"/>
+   <action type="1" sum="1,500" no="8" player="OxXum"/>
+   <action type="2" sum="3,000" no="9" player="MalaysianAir"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="10" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="11" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">SJ H10</cards>
+   <action type="23" sum="6,000" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="14" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="15" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" sum="3,000" no="16" player="MalaysianAir"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 D7 HK</cards>
+   <action type="4" sum="0" no="17" player="MalaysianAir"/>
+   <action type="5" sum="4,075" no="18" player="tropeiro123"/>
+   <action type="3" sum="4,075" no="19" player="MalaysianAir"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action type="5" sum="6,000" no="20" player="MalaysianAir"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567714138">
+  <general>
+   <startdate>2024-02-16 17:23:57</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="3,400" name="HisBrilliancy" rebuy="0" win="0" chips="97,555" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="400" name="ttchak" rebuy="0" win="0" chips="37,242" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="38,485" name="Spaydiki1" rebuy="0" win="10,300" chips="38,885" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="400" name="tropeiro123" rebuy="0" win="0" chips="43,925" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="113,054" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="400" name="OxXum" rebuy="0" win="0" chips="12,869" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,900" name="MalaysianAir" rebuy="0" win="0" chips="83,591" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="MalaysianAir"/>
+   <action type="15" sum="400" no="2" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="3" player="ttchak"/>
+   <action type="15" sum="400" no="4" player="Spaydiki1"/>
+   <action type="15" sum="400" no="5" player="tropeiro123"/>
+   <action type="15" sum="400" no="6" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="7" player="OxXum"/>
+   <action type="1" sum="1,500" no="8" player="MalaysianAir"/>
+   <action type="2" sum="3,000" no="9" player="HisBrilliancy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="10" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="23" sum="38,485" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">S2 S9</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="13" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="14" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="15" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="16" player="HisBrilliancy"/>
+  </round>
+ </game>
+ <game gamecode="10567714180">
+  <general>
+   <startdate>2024-02-16 17:24:34</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,900" name="HisBrilliancy" rebuy="0" win="0" chips="94,155" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="3,400" name="ttchak" rebuy="0" win="0" chips="36,842" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="6,000" name="Spaydiki1" rebuy="0" win="10,300" chips="45,785" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="400" name="tropeiro123" rebuy="0" win="0" chips="43,525" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="112,654" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="400" name="OxXum" rebuy="0" win="0" chips="12,469" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="81,691" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="2" player="ttchak"/>
+   <action type="15" sum="400" no="3" player="Spaydiki1"/>
+   <action type="15" sum="400" no="4" player="tropeiro123"/>
+   <action type="15" sum="400" no="5" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="6" player="OxXum"/>
+   <action type="15" sum="400" no="7" player="MalaysianAir"/>
+   <action type="1" sum="1,500" no="8" player="HisBrilliancy"/>
+   <action type="2" sum="3,000" no="9" player="ttchak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="23" sum="6,000" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">HK H3</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="12" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">X X</cards>
+   <action type="0" sum="0" no="13" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="14" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="15" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="16" player="ttchak"/>
+  </round>
+ </game>
+ <game gamecode="10567714219">
+  <general>
+   <startdate>2024-02-16 17:25:03</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="1" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="92,255" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,900" name="ttchak" rebuy="0" win="0" chips="33,442" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="3,400" name="Spaydiki1" rebuy="0" win="0" chips="52,685" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="400" name="tropeiro123" rebuy="0" win="0" chips="43,125" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="12,069" name="STEFANOS1289" rebuy="0" win="30,638" chips="112,254" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="11,669" name="OxXum" rebuy="0" win="0" chips="12,069" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="81,291" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="ttchak"/>
+   <action type="15" sum="400" no="2" player="Spaydiki1"/>
+   <action type="15" sum="400" no="3" player="tropeiro123"/>
+   <action type="15" sum="400" no="4" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="5" player="OxXum"/>
+   <action type="15" sum="400" no="6" player="MalaysianAir"/>
+   <action type="15" sum="400" no="7" player="HisBrilliancy"/>
+   <action type="1" sum="1,500" no="8" player="ttchak"/>
+   <action type="2" sum="3,000" no="9" player="Spaydiki1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H4 CA</cards>
+   <action type="0" sum="0" no="10" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">HQ C9</cards>
+   <action type="3" sum="3,000" no="11" player="STEFANOS1289"/>
+   <cards type="Pocket" player="OxXum">CK DJ</cards>
+   <action type="23" sum="11,669" no="12" player="OxXum"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="13" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="14" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="15" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="16" player="Spaydiki1"/>
+   <action type="3" sum="8,669" no="17" player="STEFANOS1289"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 H9 S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+  </round>
+ </game>
+ <game gamecode="10567714276">
+  <general>
+   <startdate>2024-02-16 17:25:57</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="91,855" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="400" name="ttchak" rebuy="0" win="0" chips="31,542" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,900" name="Spaydiki1" rebuy="0" win="0" chips="49,285" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="3,400" name="tropeiro123" rebuy="0" win="5,400" chips="42,725" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="130,823" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="80,891" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="Spaydiki1"/>
+   <action type="15" sum="400" no="2" player="tropeiro123"/>
+   <action type="15" sum="400" no="3" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="4" player="MalaysianAir"/>
+   <action type="15" sum="400" no="5" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="6" player="ttchak"/>
+   <action type="1" sum="1,500" no="7" player="Spaydiki1"/>
+   <action type="2" sum="3,000" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H5 D3</cards>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="9" player="STEFANOS1289"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="10" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="11" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="12" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="13" player="Spaydiki1"/>
+  </round>
+ </game>
+ <game gamecode="10567714318">
+  <general>
+   <startdate>2024-02-16 17:26:23</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="91,455" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="400" name="ttchak" rebuy="0" win="0" chips="31,142" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="400" name="Spaydiki1" rebuy="0" win="0" chips="47,385" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="45,825" name="tropeiro123" rebuy="0" win="8,400" chips="46,225" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="3,400" name="STEFANOS1289" rebuy="0" win="0" chips="130,423" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="80,491" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="tropeiro123"/>
+   <action type="15" sum="400" no="2" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="3" player="MalaysianAir"/>
+   <action type="15" sum="400" no="4" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="5" player="ttchak"/>
+   <action type="15" sum="400" no="6" player="Spaydiki1"/>
+   <action type="1" sum="1,500" no="7" player="tropeiro123"/>
+   <action type="2" sum="3,000" no="8" player="STEFANOS1289"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="9" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="10" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="11" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="12" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">DJ DQ</cards>
+   <action type="23" sum="45,825" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="14" player="STEFANOS1289"/>
+  </round>
+ </game>
+ <game gamecode="10567714377">
+  <general>
+   <startdate>2024-02-16 17:27:19</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="91,055" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="400" name="ttchak" rebuy="0" win="0" chips="30,742" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="400" name="Spaydiki1" rebuy="0" win="0" chips="46,985" addon="0" reg_code=""/>
+    <player seat="5" dealer="1" bet="400" name="tropeiro123" rebuy="0" win="0" chips="51,225" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="3,400" name="STEFANOS1289" rebuy="0" win="0" chips="127,023" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="10,288" name="MalaysianAir" rebuy="0" win="8,400" chips="80,091" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="2" player="MalaysianAir"/>
+   <action type="15" sum="400" no="3" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="4" player="ttchak"/>
+   <action type="15" sum="400" no="5" player="Spaydiki1"/>
+   <action type="15" sum="400" no="6" player="tropeiro123"/>
+   <action type="1" sum="1,500" no="7" player="STEFANOS1289"/>
+   <action type="2" sum="3,000" no="8" player="MalaysianAir"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="9" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="10" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">X X</cards>
+   <action type="0" sum="0" no="11" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">C6 SQ</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="3" sum="1,500" no="13" player="STEFANOS1289"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="4" sum="0" no="14" player="MalaysianAir"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 S2 CA</cards>
+   <action type="4" sum="0" no="15" player="STEFANOS1289"/>
+   <action type="4" sum="0" no="16" player="MalaysianAir"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action type="4" sum="0" no="17" player="STEFANOS1289"/>
+   <action type="5" sum="6,888" no="18" player="MalaysianAir"/>
+   <action type="0" sum="0" no="19" player="STEFANOS1289"/>
+  </round>
+ </game>
+ <game gamecode="10567714434">
+  <general>
+   <startdate>2024-02-16 17:28:11</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="3,400" name="HisBrilliancy" rebuy="0" win="0" chips="90,655" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="29,942" name="ttchak" rebuy="0" win="66,784" chips="30,342" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="46,585" name="Spaydiki1" rebuy="0" win="0" chips="46,585" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="400" name="tropeiro123" rebuy="0" win="0" chips="50,825" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="1" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="123,623" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,900" name="MalaysianAir" rebuy="0" win="0" chips="85,091" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="MalaysianAir"/>
+   <action type="15" sum="400" no="2" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="3" player="ttchak"/>
+   <action type="15" sum="400" no="4" player="Spaydiki1"/>
+   <action type="15" sum="400" no="5" player="tropeiro123"/>
+   <action type="15" sum="400" no="6" player="STEFANOS1289"/>
+   <action type="1" sum="1,500" no="7" player="MalaysianAir"/>
+   <action type="2" sum="3,000" no="8" player="HisBrilliancy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ttchak">DA DQ</cards>
+   <action type="23" sum="29,942" no="9" player="ttchak"/>
+   <cards type="Pocket" player="Spaydiki1">C10 HA</cards>
+   <action type="7" sum="46,185" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">H9 S8</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="12" player="STEFANOS1289"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="13" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="14" player="HisBrilliancy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 DK C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10567714476">
+  <general>
+   <startdate>2024-02-16 17:28:55</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="16,243" name="HisBrilliancy" rebuy="0" win="37,486" chips="87,255" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="3,400" name="ttchak" rebuy="0" win="0" chips="66,784" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="15,843" name="Spaydiki1" rebuy="0" win="0" chips="16,243" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="400" name="tropeiro123" rebuy="0" win="0" chips="50,425" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="400" name="STEFANOS1289" rebuy="0" win="0" chips="123,223" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="400" name="narcoticpimp" rebuy="0" win="0" chips="50,000" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="83,191" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="2" player="ttchak"/>
+   <action type="15" sum="400" no="3" player="Spaydiki1"/>
+   <action type="15" sum="400" no="4" player="tropeiro123"/>
+   <action type="15" sum="400" no="5" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="6" player="narcoticpimp"/>
+   <action type="15" sum="400" no="7" player="MalaysianAir"/>
+   <action type="1" sum="1,500" no="8" player="HisBrilliancy"/>
+   <action type="2" sum="3,000" no="9" player="ttchak"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Spaydiki1">SA S6</cards>
+   <action type="23" sum="15,843" no="10" player="Spaydiki1"/>
+   <cards type="Pocket" player="tropeiro123">C10 D9</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="0" sum="0" no="12" player="STEFANOS1289"/>
+   <cards type="Pocket" player="narcoticpimp">X X</cards>
+   <action type="0" sum="0" no="13" player="narcoticpimp"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="14" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">S7 DA</cards>
+   <action type="3" sum="14,343" no="15" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="16" player="ttchak"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D4 SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+  </round>
+ </game>
+ <game gamecode="10567714539">
+  <general>
+   <startdate>2024-02-16 17:29:37</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="1" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="108,498" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="62,984" name="ttchak" rebuy="0" win="14,400" chips="63,384" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="3,400" name="tropeiro123" rebuy="0" win="0" chips="50,025" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="3,400" name="STEFANOS1289" rebuy="0" win="0" chips="122,823" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="3,400" name="narcoticpimp" rebuy="0" win="0" chips="49,600" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="82,791" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="ttchak"/>
+   <action type="15" sum="400" no="2" player="tropeiro123"/>
+   <action type="15" sum="400" no="3" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="4" player="narcoticpimp"/>
+   <action type="15" sum="400" no="5" player="MalaysianAir"/>
+   <action type="15" sum="400" no="6" player="HisBrilliancy"/>
+   <action type="1" sum="1,500" no="7" player="ttchak"/>
+   <action type="2" sum="3,000" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="STEFANOS1289">X X</cards>
+   <action type="3" sum="3,000" no="9" player="STEFANOS1289"/>
+   <cards type="Pocket" player="narcoticpimp">X X</cards>
+   <action type="3" sum="3,000" no="10" player="narcoticpimp"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="11" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="12" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="23" sum="62,984" no="13" player="ttchak"/>
+   <cards type="Pocket" player="tropeiro123">H2 H7</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <action type="0" sum="0" no="15" player="STEFANOS1289"/>
+   <action type="0" sum="0" no="16" player="narcoticpimp"/>
+  </round>
+ </game>
+ <game gamecode="10567748564">
+  <general>
+   <startdate>2024-02-16 17:30:11</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player seat="1" dealer="0" bet="400" name="HisBrilliancy" rebuy="0" win="0" chips="108,098" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="400" name="ttchak" rebuy="0" win="0" chips="74,384" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="46,625" name="tropeiro123" rebuy="0" win="0" chips="46,625" addon="0" reg_code="7952000484"/>
+    <player seat="6" dealer="0" bet="46,625" name="STEFANOS1289" rebuy="0" win="94,850" chips="119,423" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="400" name="narcoticpimp" rebuy="0" win="0" chips="46,200" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="400" name="MalaysianAir" rebuy="0" win="0" chips="82,391" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="400" no="1" player="tropeiro123"/>
+   <action type="15" sum="400" no="2" player="STEFANOS1289"/>
+   <action type="15" sum="400" no="3" player="narcoticpimp"/>
+   <action type="15" sum="400" no="4" player="MalaysianAir"/>
+   <action type="15" sum="400" no="5" player="HisBrilliancy"/>
+   <action type="15" sum="400" no="6" player="ttchak"/>
+   <action type="1" sum="1,500" no="7" player="tropeiro123"/>
+   <action type="2" sum="3,000" no="8" player="STEFANOS1289"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="narcoticpimp">X X</cards>
+   <action type="0" sum="0" no="9" player="narcoticpimp"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" sum="0" no="10" player="MalaysianAir"/>
+   <cards type="Pocket" player="HisBrilliancy">X X</cards>
+   <action type="0" sum="0" no="11" player="HisBrilliancy"/>
+   <cards type="Pocket" player="ttchak">X X</cards>
+   <action type="0" sum="0" no="12" player="ttchak"/>
+   <cards type="Pocket" player="tropeiro123">DJ DQ</cards>
+   <action type="3" sum="1,500" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="STEFANOS1289">SJ CJ</cards>
+   <action type="23" sum="6,000" no="14" player="STEFANOS1289"/>
+   <action type="3" sum="3,000" no="15" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 HJ H7</cards>
+   <action type="4" sum="0" no="16" player="tropeiro123"/>
+   <action type="4" sum="0" no="17" player="STEFANOS1289"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action type="5" sum="12,240" no="18" player="tropeiro123"/>
+   <action type="3" sum="12,240" no="19" player="STEFANOS1289"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action type="5" sum="27,985" no="20" player="tropeiro123"/>
+   <action type="3" sum="27,985" no="21" player="STEFANOS1289"/>
+  </round>
+ </game>
+</session>

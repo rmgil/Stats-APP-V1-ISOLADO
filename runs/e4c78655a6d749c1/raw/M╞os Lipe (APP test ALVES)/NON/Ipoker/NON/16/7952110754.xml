@@ -1,0 +1,1689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7952110754">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>3,500€|Friday Mayhem, 1081252001</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:33:18</duration>
+  <gamecount>30</gamecount>
+  <startdate>2024-02-16 18:43:52</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>308,060</bets>
+  <wins>113,140</wins>
+  <chipsin>99,520</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP9</statuspoints>
+  <awardpoints>RP27</awardpoints>
+  <ipoints>RP9</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080604334</tournamentcode>
+  <tournamentname>3,500€|Friday Mayhem</tournamentname>
+  <place>139</place>
+  <buyin>€9.10 + €0.90</buyin>
+  <totalbuyin>€10</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10567915636">
+  <general>
+   <startdate>2024-02-16 18:43:52</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>480</ante>
+   <players>
+    <player seat="1" dealer="0" bet="480" name="stiflerpk" rebuy="0" win="0" chips="73,220" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="202,692" name="Storsjon" rebuy="0" win="411,264" chips="435,352" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="480" name="tropeiro123" rebuy="0" win="0" chips="100,000" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="480" name="Pyromaniakje434" rebuy="0" win="0" chips="154,898" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="480" name="dukepurple27" rebuy="0" win="0" chips="317,320" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="480" name="catablao034" rebuy="0" win="0" chips="84,568" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="3,480" name="IPshnik1" rebuy="0" win="0" chips="488,770" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="202,692" name="deadlift300" rebuy="0" win="0" chips="404,007" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="480" no="1" player="IPshnik1"/>
+   <action type="15" sum="480" no="2" player="deadlift300"/>
+   <action type="15" sum="480" no="3" player="stiflerpk"/>
+   <action type="15" sum="480" no="4" player="Storsjon"/>
+   <action type="15" sum="480" no="5" player="tropeiro123"/>
+   <action type="15" sum="480" no="6" player="Pyromaniakje434"/>
+   <action type="15" sum="480" no="7" player="dukepurple27"/>
+   <action type="15" sum="480" no="8" player="catablao034"/>
+   <action type="1" sum="3,000" no="9" player="IPshnik1"/>
+   <action type="2" sum="6,000" no="10" player="deadlift300"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="stiflerpk">X X</cards>
+   <action type="0" sum="0" no="11" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">S10 HK</cards>
+   <action type="23" sum="18,000" no="12" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">DQ SK</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="14" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="15" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="16" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="17" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">HJ H8</cards>
+   <action type="3" sum="12,000" no="18" player="deadlift300"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 D8 C10</cards>
+   <action type="4" sum="0" no="19" player="deadlift300"/>
+   <action type="5" sum="29,988" no="20" player="Storsjon"/>
+   <action type="3" sum="29,988" no="21" player="deadlift300"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action type="4" sum="0" no="22" player="deadlift300"/>
+   <action type="5" sum="51,408" no="23" player="Storsjon"/>
+   <action type="3" sum="51,408" no="24" player="deadlift300"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+   <action type="5" sum="102,816" no="25" player="deadlift300"/>
+   <action type="3" sum="102,816" no="26" player="Storsjon"/>
+  </round>
+ </game>
+ <game gamecode="10567915666">
+  <general>
+   <startdate>2024-02-16 18:44:55</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="72,740" name="stiflerpk" rebuy="0" win="148,840" chips="72,740" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="560" name="Storsjon" rebuy="0" win="0" chips="643,924" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="99,520" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="154,418" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="560" name="dukepurple27" rebuy="0" win="0" chips="316,840" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="84,088" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="560" name="IPshnik1" rebuy="0" win="0" chips="485,290" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="168,000" name="deadlift300" rebuy="0" win="0" chips="201,315" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="deadlift300"/>
+   <action type="15" sum="560" no="2" player="stiflerpk"/>
+   <action type="15" sum="560" no="3" player="Storsjon"/>
+   <action type="15" sum="560" no="4" player="tropeiro123"/>
+   <action type="15" sum="560" no="5" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="6" player="dukepurple27"/>
+   <action type="15" sum="560" no="7" player="catablao034"/>
+   <action type="15" sum="560" no="8" player="IPshnik1"/>
+   <action type="1" sum="3,500" no="9" player="deadlift300"/>
+   <action type="2" sum="7,000" no="10" player="stiflerpk"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="11" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H7 SK</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="13" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="14" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="15" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="16" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">CA H9</cards>
+   <action type="23" sum="14,000" no="17" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">SA HA</cards>
+   <action type="23" sum="21,000" no="18" player="stiflerpk"/>
+   <action type="23" sum="168,000" no="19" player="deadlift300"/>
+   <action type="7" sum="51,180" no="20" player="stiflerpk"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S9 HJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10567915687">
+  <general>
+   <startdate>2024-02-16 18:45:40</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="4,060" name="stiflerpk" rebuy="0" win="0" chips="148,840" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="75,020" name="Storsjon" rebuy="0" win="0" chips="643,364" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="98,960" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="153,858" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="182,257" name="dukepurple27" rebuy="0" win="156,900" chips="316,280" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="83,528" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="560" name="IPshnik1" rebuy="0" win="0" chips="484,730" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="560" name="deadlift300" rebuy="0" win="0" chips="128,575" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="stiflerpk"/>
+   <action type="15" sum="560" no="2" player="Storsjon"/>
+   <action type="15" sum="560" no="3" player="tropeiro123"/>
+   <action type="15" sum="560" no="4" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="5" player="dukepurple27"/>
+   <action type="15" sum="560" no="6" player="catablao034"/>
+   <action type="15" sum="560" no="7" player="IPshnik1"/>
+   <action type="15" sum="560" no="8" player="deadlift300"/>
+   <action type="1" sum="3,500" no="9" player="stiflerpk"/>
+   <action type="2" sum="7,000" no="10" player="Storsjon"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">D5 D9</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="12" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="14,000" no="13" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="14" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="15" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="16" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">X X</cards>
+   <action type="0" sum="0" no="17" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="7,000" no="18" player="Storsjon"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 D10 D8</cards>
+   <action type="4" sum="0" no="19" player="Storsjon"/>
+   <action type="5" sum="10,434" no="20" player="dukepurple27"/>
+   <action type="3" sum="10,434" no="21" player="Storsjon"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action type="4" sum="0" no="22" player="Storsjon"/>
+   <action type="5" sum="25,013" no="23" player="dukepurple27"/>
+   <action type="23" sum="50,026" no="24" player="Storsjon"/>
+   <action type="23" sum="157,263" no="25" player="dukepurple27"/>
+   <action type="0" sum="0" no="26" player="Storsjon"/>
+  </round>
+ </game>
+ <game gamecode="10567915723">
+  <general>
+   <startdate>2024-02-16 18:46:45</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="1" bet="560" name="stiflerpk" rebuy="0" win="0" chips="144,780" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="4,060" name="Storsjon" rebuy="0" win="0" chips="568,344" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="7,560" name="tropeiro123" rebuy="0" win="0" chips="98,400" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="153,298" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="14,560" name="dukepurple27" rebuy="0" win="0" chips="398,160" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="82,968" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="14,560" name="IPshnik1" rebuy="0" win="0" chips="484,170" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="127,455" name="deadlift300" rebuy="0" win="56,980" chips="128,015" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="Storsjon"/>
+   <action type="15" sum="560" no="2" player="tropeiro123"/>
+   <action type="15" sum="560" no="3" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="4" player="dukepurple27"/>
+   <action type="15" sum="560" no="5" player="catablao034"/>
+   <action type="15" sum="560" no="6" player="IPshnik1"/>
+   <action type="15" sum="560" no="7" player="deadlift300"/>
+   <action type="15" sum="560" no="8" player="stiflerpk"/>
+   <action type="1" sum="3,500" no="9" player="Storsjon"/>
+   <action type="2" sum="7,000" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="11" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="14,000" no="12" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="13" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="3" sum="14,000" no="14" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="23" sum="127,455" no="15" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">X X</cards>
+   <action type="0" sum="0" no="16" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="17" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">D4 HA</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="dukepurple27"/>
+   <action type="0" sum="0" no="20" player="IPshnik1"/>
+  </round>
+ </game>
+ <game gamecode="10567915743">
+  <general>
+   <startdate>2024-02-16 18:47:35</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="560" name="stiflerpk" rebuy="0" win="0" chips="144,220" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="560" name="Storsjon" rebuy="0" win="0" chips="564,284" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="4,060" name="tropeiro123" rebuy="0" win="0" chips="90,840" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="7,560" name="Pyromaniakje434" rebuy="0" win="0" chips="152,738" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="14,000" name="dukepurple27" rebuy="0" win="21,980" chips="383,600" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="82,408" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="560" name="IPshnik1" rebuy="0" win="0" chips="469,610" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="560" name="deadlift300" rebuy="0" win="0" chips="170,435" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="tropeiro123"/>
+   <action type="15" sum="560" no="2" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="3" player="dukepurple27"/>
+   <action type="15" sum="560" no="4" player="catablao034"/>
+   <action type="15" sum="560" no="5" player="IPshnik1"/>
+   <action type="15" sum="560" no="6" player="deadlift300"/>
+   <action type="15" sum="560" no="7" player="stiflerpk"/>
+   <action type="15" sum="560" no="8" player="Storsjon"/>
+   <action type="1" sum="3,500" no="9" player="tropeiro123"/>
+   <action type="2" sum="7,000" no="10" player="Pyromaniakje434"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="14,000" no="11" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="12" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="13" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="14" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">X X</cards>
+   <action type="0" sum="0" no="15" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="16" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H4 SK</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="18" player="Pyromaniakje434"/>
+  </round>
+ </game>
+ <game gamecode="10567915759">
+  <general>
+   <startdate>2024-02-16 18:48:01</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="14,560" name="stiflerpk" rebuy="0" win="0" chips="143,660" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="14,560" name="Storsjon" rebuy="0" win="0" chips="563,724" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="560" name="tropeiro123" rebuy="0" win="0" chips="86,780" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="144,618" name="Pyromaniakje434" rebuy="0" win="53,480" chips="145,178" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="7,560" name="dukepurple27" rebuy="0" win="0" chips="398,020" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="81,848" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="560" name="IPshnik1" rebuy="0" win="0" chips="469,050" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="560" name="deadlift300" rebuy="0" win="0" chips="169,875" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="2" player="dukepurple27"/>
+   <action type="15" sum="560" no="3" player="catablao034"/>
+   <action type="15" sum="560" no="4" player="IPshnik1"/>
+   <action type="15" sum="560" no="5" player="deadlift300"/>
+   <action type="15" sum="560" no="6" player="stiflerpk"/>
+   <action type="15" sum="560" no="7" player="Storsjon"/>
+   <action type="15" sum="560" no="8" player="tropeiro123"/>
+   <action type="1" sum="3,500" no="9" player="Pyromaniakje434"/>
+   <action type="2" sum="7,000" no="10" player="dukepurple27"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="11" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="12" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="13" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">X X</cards>
+   <action type="23" sum="14,000" no="14" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="14,000" no="15" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">CK D5</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="23" sum="144,618" no="17" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="18" player="dukepurple27"/>
+   <action type="0" sum="0" no="19" player="stiflerpk"/>
+   <action type="0" sum="0" no="20" player="Storsjon"/>
+  </round>
+ </game>
+ <game gamecode="10567915783">
+  <general>
+   <startdate>2024-02-16 18:48:48</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="129,100" name="stiflerpk" rebuy="0" win="272,060" chips="129,100" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="281,715" name="Storsjon" rebuy="0" win="0" chips="549,164" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="86,220" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="1" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="184,098" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="4,060" name="dukepurple27" rebuy="0" win="0" chips="390,460" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="7,560" name="catablao034" rebuy="0" win="0" chips="81,288" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="560" name="IPshnik1" rebuy="0" win="0" chips="468,490" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="560" name="deadlift300" rebuy="0" win="0" chips="169,315" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="dukepurple27"/>
+   <action type="15" sum="560" no="2" player="catablao034"/>
+   <action type="15" sum="560" no="3" player="IPshnik1"/>
+   <action type="15" sum="560" no="4" player="deadlift300"/>
+   <action type="15" sum="560" no="5" player="stiflerpk"/>
+   <action type="15" sum="560" no="6" player="Storsjon"/>
+   <action type="15" sum="560" no="7" player="tropeiro123"/>
+   <action type="15" sum="560" no="8" player="Pyromaniakje434"/>
+   <action type="1" sum="3,500" no="9" player="dukepurple27"/>
+   <action type="2" sum="7,000" no="10" player="catablao034"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="11" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="12" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">SA CK</cards>
+   <action type="23" sum="14,000" no="13" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">H6 HK</cards>
+   <action type="3" sum="14,000" no="14" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">D6 S9</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="16" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="17" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="18" player="catablao034"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H8 S8</cards>
+   <action type="5" sum="53,725" no="19" player="stiflerpk"/>
+   <action type="3" sum="53,725" no="20" player="Storsjon"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action type="5" sum="21,000" no="21" player="stiflerpk"/>
+   <action type="23" sum="213,430" no="22" player="Storsjon"/>
+   <action type="7" sum="39,815" no="23" player="stiflerpk"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+  </round>
+ </game>
+ <game gamecode="10567915813">
+  <general>
+   <startdate>2024-02-16 18:49:53</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="272,060" name="stiflerpk" rebuy="0" win="0" chips="272,060" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="47,829" name="Storsjon" rebuy="0" win="0" chips="420,064" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="85,660" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="14,560" name="Pyromaniakje434" rebuy="0" win="0" chips="183,538" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="560" name="dukepurple27" rebuy="0" win="0" chips="386,400" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="4,060" name="catablao034" rebuy="0" win="0" chips="73,728" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="320,829" name="IPshnik1" rebuy="0" win="612,249" chips="467,930" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="560" name="deadlift300" rebuy="0" win="0" chips="168,755" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="catablao034"/>
+   <action type="15" sum="560" no="2" player="IPshnik1"/>
+   <action type="15" sum="560" no="3" player="deadlift300"/>
+   <action type="15" sum="560" no="4" player="stiflerpk"/>
+   <action type="15" sum="560" no="5" player="Storsjon"/>
+   <action type="15" sum="560" no="6" player="tropeiro123"/>
+   <action type="15" sum="560" no="7" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="8" player="dukepurple27"/>
+   <action type="1" sum="3,500" no="9" player="catablao034"/>
+   <action type="2" sum="7,000" no="10" player="IPshnik1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="11" player="deadlift300"/>
+   <cards type="Pocket" player="stiflerpk">D6 DA</cards>
+   <action type="23" sum="14,000" no="12" player="stiflerpk"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="14,000" no="13" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">S9 DK</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="3" sum="14,000" no="15" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="16" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="17" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">S6 H9</cards>
+   <action type="3" sum="7,000" no="18" player="IPshnik1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H3 D4</cards>
+   <action type="4" sum="0" no="19" player="IPshnik1"/>
+   <action type="4" sum="0" no="20" player="stiflerpk"/>
+   <action type="4" sum="0" no="21" player="Storsjon"/>
+   <action type="4" sum="0" no="22" player="Pyromaniakje434"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action type="5" sum="33,269" no="23" player="IPshnik1"/>
+   <action type="3" sum="33,269" no="24" player="stiflerpk"/>
+   <action type="3" sum="33,269" no="25" player="Storsjon"/>
+   <action type="0" sum="0" no="26" player="Pyromaniakje434"/>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+   <action type="5" sum="91,000" no="27" player="IPshnik1"/>
+   <action type="23" sum="182,000" no="28" player="stiflerpk"/>
+   <action type="0" sum="0" no="29" player="Storsjon"/>
+   <action type="23" sum="273,000" no="30" player="IPshnik1"/>
+   <action type="7" sum="42,231" no="31" player="stiflerpk"/>
+  </round>
+ </game>
+ <game gamecode="10567952765">
+  <general>
+   <startdate>2024-02-16 18:51:37</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="560" name="onepasttwo" rebuy="0" win="0" chips="100,000" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="560" name="Storsjon" rebuy="0" win="0" chips="372,235" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="85,100" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="28,560" name="Pyromaniakje434" rebuy="0" win="0" chips="168,978" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="560" name="dukepurple27" rebuy="0" win="0" chips="385,840" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="560" name="catablao034" rebuy="0" win="0" chips="69,668" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="4,060" name="IPshnik1" rebuy="0" win="0" chips="808,119" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="60,550" name="deadlift300" rebuy="0" win="63,980" chips="168,195" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="IPshnik1"/>
+   <action type="15" sum="560" no="2" player="deadlift300"/>
+   <action type="15" sum="560" no="3" player="onepasttwo"/>
+   <action type="15" sum="560" no="4" player="Storsjon"/>
+   <action type="15" sum="560" no="5" player="tropeiro123"/>
+   <action type="15" sum="560" no="6" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="7" player="dukepurple27"/>
+   <action type="15" sum="560" no="8" player="catablao034"/>
+   <action type="1" sum="3,500" no="9" player="IPshnik1"/>
+   <action type="2" sum="7,000" no="10" player="deadlift300"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="11" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="12" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">D5 S8</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="23" sum="14,000" no="14" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="15" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="16" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="17" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="3" sum="7,000" no="18" player="deadlift300"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK H6 H5</cards>
+   <action type="4" sum="0" no="19" player="deadlift300"/>
+   <action type="5" sum="14,000" no="20" player="Pyromaniakje434"/>
+   <action type="3" sum="14,000" no="21" player="deadlift300"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action type="5" sum="31,990" no="22" player="deadlift300"/>
+   <action type="0" sum="0" no="23" player="Pyromaniakje434"/>
+  </round>
+ </game>
+ <game gamecode="10567952792">
+  <general>
+   <startdate>2024-02-16 18:52:35</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="7,560" name="onepasttwo" rebuy="0" win="0" chips="99,440" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="21,000" name="Storsjon" rebuy="0" win="21,980" chips="371,675" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="84,540" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="140,418" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="560" name="dukepurple27" rebuy="0" win="0" chips="385,280" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="69,108" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="560" name="IPshnik1" rebuy="0" win="0" chips="804,059" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="4,060" name="deadlift300" rebuy="0" win="0" chips="203,615" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="deadlift300"/>
+   <action type="15" sum="560" no="2" player="onepasttwo"/>
+   <action type="15" sum="560" no="3" player="Storsjon"/>
+   <action type="15" sum="560" no="4" player="tropeiro123"/>
+   <action type="15" sum="560" no="5" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="6" player="dukepurple27"/>
+   <action type="15" sum="560" no="7" player="catablao034"/>
+   <action type="15" sum="560" no="8" player="IPshnik1"/>
+   <action type="1" sum="3,500" no="9" player="deadlift300"/>
+   <action type="2" sum="7,000" no="10" player="onepasttwo"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="23" sum="21,000" no="11" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">C10 S2</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="13" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="14" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="15" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="16" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="17" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="18" player="onepasttwo"/>
+  </round>
+ </game>
+ <game gamecode="10567952816">
+  <general>
+   <startdate>2024-02-16 18:53:36</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>560</ante>
+   <players>
+    <player seat="1" dealer="0" bet="91,320" name="onepasttwo" rebuy="0" win="222,120" chips="91,880" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="7,560" name="Storsjon" rebuy="0" win="0" chips="386,095" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="560" name="tropeiro123" rebuy="0" win="0" chips="83,980" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="560" name="Pyromaniakje434" rebuy="0" win="0" chips="139,858" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="14,560" name="dukepurple27" rebuy="0" win="0" chips="384,720" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="560" name="catablao034" rebuy="0" win="0" chips="68,548" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="14,560" name="IPshnik1" rebuy="0" win="0" chips="803,499" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="91,880" name="deadlift300" rebuy="0" win="0" chips="199,555" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="560" no="1" player="onepasttwo"/>
+   <action type="15" sum="560" no="2" player="Storsjon"/>
+   <action type="15" sum="560" no="3" player="tropeiro123"/>
+   <action type="15" sum="560" no="4" player="Pyromaniakje434"/>
+   <action type="15" sum="560" no="5" player="dukepurple27"/>
+   <action type="15" sum="560" no="6" player="catablao034"/>
+   <action type="15" sum="560" no="7" player="IPshnik1"/>
+   <action type="15" sum="560" no="8" player="deadlift300"/>
+   <action type="1" sum="3,500" no="9" player="onepasttwo"/>
+   <action type="2" sum="7,000" no="10" player="Storsjon"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HK S4</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="12" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="14,000" no="13" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="14" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="3" sum="14,000" no="15" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">HJ DQ</cards>
+   <action type="3" sum="14,000" no="16" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">C4 D4</cards>
+   <action type="23" sum="91,320" no="17" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="18" player="Storsjon"/>
+   <action type="0" sum="0" no="19" player="dukepurple27"/>
+   <action type="0" sum="0" no="20" player="IPshnik1"/>
+   <action type="3" sum="77,320" no="21" player="deadlift300"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 HA C7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10567952840">
+  <general>
+   <startdate>2024-02-16 18:54:21</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="1" bet="16,640" name="onepasttwo" rebuy="0" win="0" chips="222,120" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="108,320" name="Storsjon" rebuy="0" win="122,240" chips="378,535" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="8,640" name="tropeiro123" rebuy="0" win="0" chips="83,420" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="640" name="Pyromaniakje434" rebuy="0" win="0" chips="139,298" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="640" name="dukepurple27" rebuy="0" win="0" chips="370,160" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="67,988" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="47,200" name="IPshnik1" rebuy="0" win="0" chips="788,939" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="107,675" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="Storsjon"/>
+   <action type="15" sum="640" no="2" player="tropeiro123"/>
+   <action type="15" sum="640" no="3" player="Pyromaniakje434"/>
+   <action type="15" sum="640" no="4" player="dukepurple27"/>
+   <action type="15" sum="640" no="5" player="catablao034"/>
+   <action type="15" sum="640" no="6" player="IPshnik1"/>
+   <action type="15" sum="640" no="7" player="deadlift300"/>
+   <action type="15" sum="640" no="8" player="onepasttwo"/>
+   <action type="1" sum="4,000" no="9" player="Storsjon"/>
+   <action type="2" sum="8,000" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Pyromaniakje434">X X</cards>
+   <action type="0" sum="0" no="11" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="12" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="13" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="23" sum="16,000" no="14" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X C10</cards>
+   <action type="0" sum="0" no="15" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="3" sum="16,000" no="16" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="12,000" no="17" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H8 D2</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ CJ C8</cards>
+   <action type="4" sum="0" no="19" player="Storsjon"/>
+   <action type="4" sum="0" no="20" player="IPshnik1"/>
+   <action type="4" sum="0" no="21" player="onepasttwo"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action type="5" sum="30,560" no="22" player="Storsjon"/>
+   <action type="3" sum="30,560" no="23" player="IPshnik1"/>
+   <action type="0" sum="0" no="24" player="onepasttwo"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action type="5" sum="61,120" no="25" player="Storsjon"/>
+   <action type="0" sum="0" no="26" player="IPshnik1"/>
+  </round>
+ </game>
+ <game gamecode="10567952891">
+  <general>
+   <startdate>2024-02-16 19:01:39</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="onepasttwo" rebuy="0" win="0" chips="205,480" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="640" name="Storsjon" rebuy="0" win="0" chips="453,575" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="4,640" name="tropeiro123" rebuy="0" win="0" chips="74,780" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="138,018" name="Pyromaniakje434" rebuy="0" win="0" chips="138,658" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="16,640" name="dukepurple27" rebuy="0" win="0" chips="369,520" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="67,348" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="741,739" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="107,035" name="deadlift300" rebuy="0" win="237,910" chips="107,035" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="tropeiro123"/>
+   <action type="15" sum="640" no="2" player="Pyromaniakje434"/>
+   <action type="15" sum="640" no="3" player="dukepurple27"/>
+   <action type="15" sum="640" no="4" player="catablao034"/>
+   <action type="15" sum="640" no="5" player="IPshnik1"/>
+   <action type="15" sum="640" no="6" player="deadlift300"/>
+   <action type="15" sum="640" no="7" player="onepasttwo"/>
+   <action type="15" sum="640" no="8" player="Storsjon"/>
+   <action type="1" sum="4,000" no="9" player="tropeiro123"/>
+   <action type="2" sum="8,000" no="10" player="Pyromaniakje434"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="16,000" no="11" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="12" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="13" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">C10 S10</cards>
+   <action type="23" sum="24,000" no="14" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="15" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="16" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H7 S2</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">SQ DQ</cards>
+   <action type="23" sum="138,018" no="18" player="Pyromaniakje434"/>
+   <action type="0" sum="0" no="19" player="dukepurple27"/>
+   <action type="7" sum="82,395" no="20" player="deadlift300"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 S8 H10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10567952909">
+  <general>
+   <startdate>2024-02-16 19:02:50</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="onepasttwo" rebuy="0" win="0" chips="204,840" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="640" name="Storsjon" rebuy="0" win="0" chips="452,935" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="640" name="tropeiro123" rebuy="0" win="0" chips="70,140" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="31,623" name="Pyromaniakje434" rebuy="0" win="0" chips="31,623" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="8,640" name="dukepurple27" rebuy="0" win="0" chips="352,880" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="66,068" name="catablao034" rebuy="0" win="75,086" chips="66,708" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="741,099" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="237,910" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="Pyromaniakje434"/>
+   <action type="15" sum="640" no="2" player="dukepurple27"/>
+   <action type="15" sum="640" no="3" player="catablao034"/>
+   <action type="15" sum="640" no="4" player="IPshnik1"/>
+   <action type="15" sum="640" no="5" player="deadlift300"/>
+   <action type="15" sum="640" no="6" player="onepasttwo"/>
+   <action type="15" sum="640" no="7" player="Storsjon"/>
+   <action type="15" sum="640" no="8" player="tropeiro123"/>
+   <action type="1" sum="4,000" no="9" player="Pyromaniakje434"/>
+   <action type="2" sum="8,000" no="10" player="dukepurple27"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="catablao034">CK CJ</cards>
+   <action type="23" sum="66,068" no="11" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="12" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="13" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="14" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="15" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H2 S10</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Pyromaniakje434">D8 S5</cards>
+   <action type="7" sum="26,983" no="17" player="Pyromaniakje434"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="18" player="dukepurple27"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA SJ CA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+  </round>
+ </game>
+ <game gamecode="10567952926">
+  <general>
+   <startdate>2024-02-16 19:03:24</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="onepasttwo" rebuy="0" win="0" chips="204,200" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="640" name="Storsjon" rebuy="0" win="0" chips="452,295" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="16,000" name="tropeiro123" rebuy="0" win="24,480" chips="69,500" addon="0" reg_code="7952110754"/>
+    <player seat="6" dealer="0" bet="4,640" name="dukepurple27" rebuy="0" win="0" chips="344,240" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="8,640" name="catablao034" rebuy="0" win="0" chips="110,171" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="740,459" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="237,270" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="dukepurple27"/>
+   <action type="15" sum="640" no="2" player="catablao034"/>
+   <action type="15" sum="640" no="3" player="IPshnik1"/>
+   <action type="15" sum="640" no="4" player="deadlift300"/>
+   <action type="15" sum="640" no="5" player="onepasttwo"/>
+   <action type="15" sum="640" no="6" player="Storsjon"/>
+   <action type="15" sum="640" no="7" player="tropeiro123"/>
+   <action type="1" sum="4,000" no="8" player="dukepurple27"/>
+   <action type="2" sum="8,000" no="9" player="catablao034"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="10" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="11" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="12" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="13" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">HK DK</cards>
+   <action type="23" sum="16,000" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="15" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="16" player="catablao034"/>
+  </round>
+ </game>
+ <game gamecode="10567952946">
+  <general>
+   <startdate>2024-02-16 19:04:09</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="onepasttwo" rebuy="0" win="0" chips="203,560" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="52,880" name="Storsjon" rebuy="0" win="0" chips="451,655" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="640" name="tropeiro123" rebuy="0" win="0" chips="85,340" addon="0" reg_code="7952110754"/>
+    <player seat="6" dealer="1" bet="640" name="dukepurple27" rebuy="0" win="0" chips="339,600" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="4,640" name="catablao034" rebuy="0" win="0" chips="101,531" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="148,880" name="IPshnik1" rebuy="0" win="112,960" chips="739,819" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="236,630" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="catablao034"/>
+   <action type="15" sum="640" no="2" player="IPshnik1"/>
+   <action type="15" sum="640" no="3" player="deadlift300"/>
+   <action type="15" sum="640" no="4" player="onepasttwo"/>
+   <action type="15" sum="640" no="5" player="Storsjon"/>
+   <action type="15" sum="640" no="6" player="tropeiro123"/>
+   <action type="15" sum="640" no="7" player="dukepurple27"/>
+   <action type="1" sum="4,000" no="8" player="catablao034"/>
+   <action type="2" sum="8,000" no="9" player="IPshnik1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="10" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="11" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="23" sum="24,000" no="12" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">DK H7</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="14" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="15" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="3" sum="16,000" no="16" player="IPshnik1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 CQ CJ</cards>
+   <action type="4" sum="0" no="17" player="IPshnik1"/>
+   <action type="5" sum="28,240" no="18" player="Storsjon"/>
+   <action type="3" sum="28,240" no="19" player="IPshnik1"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action type="5" sum="96,000" no="20" player="IPshnik1"/>
+   <action type="0" sum="0" no="21" player="Storsjon"/>
+  </round>
+ </game>
+ <game gamecode="10567952968">
+  <general>
+   <startdate>2024-02-16 19:04:56</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="onepasttwo" rebuy="0" win="0" chips="202,920" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="640" name="Storsjon" rebuy="0" win="0" chips="398,775" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="640" name="tropeiro123" rebuy="0" win="0" chips="84,700" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="640" name="Rationalunicorn2" rebuy="0" win="0" chips="131,175" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="16,640" name="dukepurple27" rebuy="0" win="0" chips="338,960" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="96,251" name="catablao034" rebuy="0" win="49,120" chips="96,891" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="4,640" name="IPshnik1" rebuy="0" win="0" chips="799,899" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="8,640" name="deadlift300" rebuy="0" win="0" chips="235,990" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="IPshnik1"/>
+   <action type="15" sum="640" no="2" player="deadlift300"/>
+   <action type="15" sum="640" no="3" player="onepasttwo"/>
+   <action type="15" sum="640" no="4" player="Storsjon"/>
+   <action type="15" sum="640" no="5" player="tropeiro123"/>
+   <action type="15" sum="640" no="6" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="7" player="dukepurple27"/>
+   <action type="15" sum="640" no="8" player="catablao034"/>
+   <action type="1" sum="4,000" no="9" player="IPshnik1"/>
+   <action type="2" sum="8,000" no="10" player="deadlift300"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="11" player="onepasttwo"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="12" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">S7 D5</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="14" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="23" sum="16,000" no="15" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="23" sum="96,251" no="16" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="17" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="18" player="deadlift300"/>
+   <action type="0" sum="0" no="19" player="dukepurple27"/>
+  </round>
+ </game>
+ <game gamecode="10567952982">
+  <general>
+   <startdate>2024-02-16 19:05:21</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="8,640" name="onepasttwo" rebuy="0" win="0" chips="202,280" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="640" name="Storsjon" rebuy="0" win="0" chips="398,135" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="83,420" name="tropeiro123" rebuy="0" win="25,120" chips="84,060" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="640" name="Rationalunicorn2" rebuy="0" win="0" chips="130,535" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="640" name="dukepurple27" rebuy="0" win="0" chips="322,320" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="129,371" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="640" name="IPshnik1" rebuy="0" win="0" chips="795,259" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="4,640" name="deadlift300" rebuy="0" win="0" chips="227,350" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="deadlift300"/>
+   <action type="15" sum="640" no="2" player="onepasttwo"/>
+   <action type="15" sum="640" no="3" player="Storsjon"/>
+   <action type="15" sum="640" no="4" player="tropeiro123"/>
+   <action type="15" sum="640" no="5" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="6" player="dukepurple27"/>
+   <action type="15" sum="640" no="7" player="catablao034"/>
+   <action type="15" sum="640" no="8" player="IPshnik1"/>
+   <action type="1" sum="4,000" no="9" player="deadlift300"/>
+   <action type="2" sum="8,000" no="10" player="onepasttwo"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="11" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H6 C6</cards>
+   <action type="23" sum="83,420" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="13" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="14" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="15" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="16" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="17" player="deadlift300"/>
+   <cards type="Pocket" player="onepasttwo">X X</cards>
+   <action type="0" sum="0" no="18" player="onepasttwo"/>
+  </round>
+ </game>
+ <game gamecode="10567953000">
+  <general>
+   <startdate>2024-02-16 19:05:55</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="2" dealer="0" bet="71,360" name="Storsjon" rebuy="0" win="72,960" chips="397,495" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="640" name="tropeiro123" rebuy="0" win="0" chips="100,540" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="640" name="Rationalunicorn2" rebuy="0" win="0" chips="129,895" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="71,360" name="dukepurple27" rebuy="0" win="72,960" chips="321,680" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="128,731" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="794,619" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="640" name="deadlift300" rebuy="0" win="0" chips="222,710" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="Storsjon"/>
+   <action type="15" sum="640" no="2" player="tropeiro123"/>
+   <action type="15" sum="640" no="3" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="4" player="dukepurple27"/>
+   <action type="15" sum="640" no="5" player="catablao034"/>
+   <action type="15" sum="640" no="6" player="IPshnik1"/>
+   <action type="15" sum="640" no="7" player="deadlift300"/>
+   <action type="2" sum="8,000" no="8" player="Storsjon"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DA S3</cards>
+   <action type="0" sum="0" no="9" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="10" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">SA CJ</cards>
+   <action type="23" sum="16,000" no="11" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="12" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="13" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="14" player="deadlift300"/>
+   <cards type="Pocket" player="Storsjon">CA C6</cards>
+   <action type="3" sum="8,000" no="15" player="Storsjon"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C10 SK</cards>
+   <action type="4" sum="0" no="16" player="Storsjon"/>
+   <action type="4" sum="0" no="17" player="dukepurple27"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action type="5" sum="18,240" no="18" player="Storsjon"/>
+   <action type="3" sum="18,240" no="19" player="dukepurple27"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action type="5" sum="36,480" no="20" player="Storsjon"/>
+   <action type="3" sum="36,480" no="21" player="dukepurple27"/>
+  </round>
+ </game>
+ <game gamecode="10567953015">
+  <general>
+   <startdate>2024-02-16 19:06:33</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="2" dealer="0" bet="86,560" name="Storsjon" rebuy="0" win="92,160" chips="399,095" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="8,640" name="tropeiro123" rebuy="0" win="0" chips="99,900" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="40,480" name="Rationalunicorn2" rebuy="0" win="0" chips="129,255" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="640" name="dukepurple27" rebuy="0" win="0" chips="323,280" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="128,091" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="793,979" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="222,070" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="Storsjon"/>
+   <action type="15" sum="640" no="2" player="tropeiro123"/>
+   <action type="15" sum="640" no="3" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="4" player="dukepurple27"/>
+   <action type="15" sum="640" no="5" player="catablao034"/>
+   <action type="15" sum="640" no="6" player="IPshnik1"/>
+   <action type="15" sum="640" no="7" player="deadlift300"/>
+   <action type="1" sum="4,000" no="8" player="Storsjon"/>
+   <action type="2" sum="8,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="23" sum="16,800" no="10" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="11" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="12" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="13" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="14" player="deadlift300"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="12,800" no="15" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">D3 C7</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK DA C10</cards>
+   <action type="4" sum="0" no="17" player="Storsjon"/>
+   <action type="5" sum="23,040" no="18" player="Rationalunicorn2"/>
+   <action type="3" sum="23,040" no="19" player="Storsjon"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action type="4" sum="0" no="20" player="Storsjon"/>
+   <action type="4" sum="0" no="21" player="Rationalunicorn2"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action type="5" sum="46,080" no="22" player="Storsjon"/>
+   <action type="0" sum="0" no="23" player="Rationalunicorn2"/>
+  </round>
+ </game>
+ <game gamecode="10567953059">
+  <general>
+   <startdate>2024-02-16 19:08:13</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="2" dealer="1" bet="16,640" name="Storsjon" rebuy="0" win="0" chips="450,775" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="4,640" name="tropeiro123" rebuy="0" win="0" chips="91,260" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="8,640" name="Rationalunicorn2" rebuy="0" win="0" chips="88,775" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="640" name="dukepurple27" rebuy="0" win="0" chips="322,640" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="640" name="catablao034" rebuy="0" win="0" chips="127,451" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="50,169" name="IPshnik1" rebuy="0" win="64,480" chips="793,339" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="16,640" name="deadlift300" rebuy="0" win="0" chips="221,430" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="tropeiro123"/>
+   <action type="15" sum="640" no="2" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="3" player="dukepurple27"/>
+   <action type="15" sum="640" no="4" player="catablao034"/>
+   <action type="15" sum="640" no="5" player="IPshnik1"/>
+   <action type="15" sum="640" no="6" player="deadlift300"/>
+   <action type="15" sum="640" no="7" player="Storsjon"/>
+   <action type="1" sum="4,000" no="8" player="tropeiro123"/>
+   <action type="2" sum="8,000" no="9" player="Rationalunicorn2"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="10" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="11" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="23" sum="16,000" no="12" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="3" sum="16,000" no="13" player="deadlift300"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="3" sum="16,000" no="14" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">SK H5</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="16" player="Rationalunicorn2"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D8 D10</cards>
+   <action type="5" sum="33,529" no="17" player="IPshnik1"/>
+   <action type="0" sum="0" no="18" player="deadlift300"/>
+   <action type="0" sum="0" no="19" player="Storsjon"/>
+  </round>
+ </game>
+ <game gamecode="10567953098">
+  <general>
+   <startdate>2024-02-16 19:09:23</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="kietss" rebuy="0" win="0" chips="123,526" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="640" name="Storsjon" rebuy="0" win="0" chips="434,135" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="640" name="tropeiro123" rebuy="0" win="0" chips="86,620" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="4,640" name="Rationalunicorn2" rebuy="0" win="0" chips="80,135" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="8,640" name="dukepurple27" rebuy="0" win="0" chips="322,000" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="126,171" name="catablao034" rebuy="0" win="269,462" chips="126,811" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="126,811" name="IPshnik1" rebuy="0" win="0" chips="841,179" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="204,790" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="Rationalunicorn2"/>
+   <action type="15" sum="640" no="2" player="dukepurple27"/>
+   <action type="15" sum="640" no="3" player="catablao034"/>
+   <action type="15" sum="640" no="4" player="IPshnik1"/>
+   <action type="15" sum="640" no="5" player="deadlift300"/>
+   <action type="15" sum="640" no="6" player="kietss"/>
+   <action type="15" sum="640" no="7" player="Storsjon"/>
+   <action type="15" sum="640" no="8" player="tropeiro123"/>
+   <action type="1" sum="4,000" no="9" player="Rationalunicorn2"/>
+   <action type="2" sum="8,000" no="10" player="dukepurple27"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="catablao034">S10 H10</cards>
+   <action type="23" sum="126,171" no="11" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">HA HQ</cards>
+   <action type="3" sum="126,171" no="12" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="13" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="14" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="15" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">C3 SK</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="17" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="18" player="dukepurple27"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 D6 D5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+  </round>
+ </game>
+ <game gamecode="10567989248">
+  <general>
+   <startdate>2024-02-16 19:09:54</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>640</ante>
+   <players>
+    <player seat="1" dealer="0" bet="640" name="kietss" rebuy="0" win="0" chips="122,886" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="313,360" name="Storsjon" rebuy="0" win="0" chips="433,495" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="640" name="tropeiro123" rebuy="0" win="0" chips="85,980" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="1" bet="640" name="Rationalunicorn2" rebuy="0" win="0" chips="75,495" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="313,360" name="dukepurple27" rebuy="0" win="638,560" chips="313,360" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="8,640" name="catablao034" rebuy="0" win="0" chips="269,462" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="640" name="IPshnik1" rebuy="0" win="0" chips="714,368" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="640" name="deadlift300" rebuy="0" win="0" chips="204,150" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="640" no="1" player="dukepurple27"/>
+   <action type="15" sum="640" no="2" player="catablao034"/>
+   <action type="15" sum="640" no="3" player="IPshnik1"/>
+   <action type="15" sum="640" no="4" player="deadlift300"/>
+   <action type="15" sum="640" no="5" player="kietss"/>
+   <action type="15" sum="640" no="6" player="Storsjon"/>
+   <action type="15" sum="640" no="7" player="tropeiro123"/>
+   <action type="15" sum="640" no="8" player="Rationalunicorn2"/>
+   <action type="1" sum="4,000" no="9" player="dukepurple27"/>
+   <action type="2" sum="8,000" no="10" player="catablao034"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="11" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="12" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="13" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">CK C9</cards>
+   <action type="23" sum="16,000" no="14" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">C6 SA</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="16" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">H4 HA</cards>
+   <action type="23" sum="64,000" no="17" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="18" player="catablao034"/>
+   <action type="3" sum="48,000" no="19" player="Storsjon"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 HK D9</cards>
+   <action type="5" sum="62,092" no="20" player="dukepurple27"/>
+   <action type="23" sum="124,184" no="21" player="Storsjon"/>
+   <action type="23" sum="248,720" no="22" player="dukepurple27"/>
+   <action type="3" sum="124,536" no="23" player="Storsjon"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10567989278">
+  <general>
+   <startdate>2024-02-16 19:11:06</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="720" name="kietss" rebuy="0" win="0" chips="122,246" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="18,000" name="Storsjon" rebuy="0" win="28,260" chips="120,135" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="720" name="tropeiro123" rebuy="0" win="0" chips="85,340" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="720" name="Rationalunicorn2" rebuy="0" win="0" chips="74,855" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="720" name="dukepurple27" rebuy="0" win="0" chips="638,560" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="5,220" name="catablao034" rebuy="0" win="0" chips="260,822" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="9,720" name="IPshnik1" rebuy="0" win="0" chips="713,728" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="720" name="deadlift300" rebuy="0" win="0" chips="203,510" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="catablao034"/>
+   <action type="15" sum="720" no="2" player="IPshnik1"/>
+   <action type="15" sum="720" no="3" player="deadlift300"/>
+   <action type="15" sum="720" no="4" player="kietss"/>
+   <action type="15" sum="720" no="5" player="Storsjon"/>
+   <action type="15" sum="720" no="6" player="tropeiro123"/>
+   <action type="15" sum="720" no="7" player="Rationalunicorn2"/>
+   <action type="15" sum="720" no="8" player="dukepurple27"/>
+   <action type="1" sum="4,500" no="9" player="catablao034"/>
+   <action type="2" sum="9,000" no="10" player="IPshnik1"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="11" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="12" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="23" sum="18,000" no="13" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H10 H2</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="15" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="16" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="17" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="18" player="IPshnik1"/>
+  </round>
+ </game>
+ <game gamecode="10567989296">
+  <general>
+   <startdate>2024-02-16 19:11:50</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="720" name="kietss" rebuy="0" win="0" chips="121,526" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="40,500" name="Storsjon" rebuy="0" win="28,260" chips="138,675" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="720" name="tropeiro123" rebuy="0" win="0" chips="84,620" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="720" name="Rationalunicorn2" rebuy="0" win="0" chips="74,135" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="720" name="dukepurple27" rebuy="0" win="0" chips="637,840" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="720" name="catablao034" rebuy="0" win="0" chips="255,602" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="5,220" name="IPshnik1" rebuy="0" win="0" chips="704,008" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="9,720" name="deadlift300" rebuy="0" win="0" chips="202,790" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="IPshnik1"/>
+   <action type="15" sum="720" no="2" player="deadlift300"/>
+   <action type="15" sum="720" no="3" player="kietss"/>
+   <action type="15" sum="720" no="4" player="Storsjon"/>
+   <action type="15" sum="720" no="5" player="tropeiro123"/>
+   <action type="15" sum="720" no="6" player="Rationalunicorn2"/>
+   <action type="15" sum="720" no="7" player="dukepurple27"/>
+   <action type="15" sum="720" no="8" player="catablao034"/>
+   <action type="1" sum="4,500" no="9" player="IPshnik1"/>
+   <action type="2" sum="9,000" no="10" player="deadlift300"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="11" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="23" sum="40,500" no="12" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">C10 DA</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="14" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="15" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="16" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="17" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="18" player="deadlift300"/>
+  </round>
+ </game>
+ <game gamecode="10567989315">
+  <general>
+   <startdate>2024-02-16 19:12:30</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="9,720" name="kietss" rebuy="0" win="0" chips="120,806" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="40,500" name="Storsjon" rebuy="0" win="28,260" chips="157,215" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="720" name="tropeiro123" rebuy="0" win="0" chips="83,900" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="720" name="Rationalunicorn2" rebuy="0" win="0" chips="73,415" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="720" name="dukepurple27" rebuy="0" win="0" chips="637,120" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="720" name="catablao034" rebuy="0" win="0" chips="254,882" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="720" name="IPshnik1" rebuy="0" win="0" chips="698,788" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="5,220" name="deadlift300" rebuy="0" win="0" chips="193,070" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="deadlift300"/>
+   <action type="15" sum="720" no="2" player="kietss"/>
+   <action type="15" sum="720" no="3" player="Storsjon"/>
+   <action type="15" sum="720" no="4" player="tropeiro123"/>
+   <action type="15" sum="720" no="5" player="Rationalunicorn2"/>
+   <action type="15" sum="720" no="6" player="dukepurple27"/>
+   <action type="15" sum="720" no="7" player="catablao034"/>
+   <action type="15" sum="720" no="8" player="IPshnik1"/>
+   <action type="1" sum="4,500" no="9" player="deadlift300"/>
+   <action type="2" sum="9,000" no="10" player="kietss"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="23" sum="40,500" no="11" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">S7 D5</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">X X</cards>
+   <action type="0" sum="0" no="13" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="14" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="15" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="16" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="17" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="18" player="kietss"/>
+  </round>
+ </game>
+ <game gamecode="10567989337">
+  <general>
+   <startdate>2024-02-16 19:13:22</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="5,220" name="kietss" rebuy="0" win="0" chips="111,086" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="175,755" name="Storsjon" rebuy="0" win="432,305" chips="175,755" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="720" name="tropeiro123" rebuy="0" win="0" chips="83,180" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="71,975" name="Rationalunicorn2" rebuy="0" win="0" chips="72,695" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="720" name="dukepurple27" rebuy="0" win="0" chips="636,400" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="253,442" name="catablao034" rebuy="0" win="0" chips="254,162" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="720" name="IPshnik1" rebuy="0" win="0" chips="698,068" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="720" name="deadlift300" rebuy="0" win="0" chips="187,850" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="kietss"/>
+   <action type="15" sum="720" no="2" player="Storsjon"/>
+   <action type="15" sum="720" no="3" player="tropeiro123"/>
+   <action type="15" sum="720" no="4" player="Rationalunicorn2"/>
+   <action type="15" sum="720" no="5" player="dukepurple27"/>
+   <action type="15" sum="720" no="6" player="catablao034"/>
+   <action type="15" sum="720" no="7" player="IPshnik1"/>
+   <action type="15" sum="720" no="8" player="deadlift300"/>
+   <action type="1" sum="4,500" no="9" player="kietss"/>
+   <action type="2" sum="9,000" no="10" player="Storsjon"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SK C9</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Rationalunicorn2">DA SA</cards>
+   <action type="23" sum="71,975" no="12" player="Rationalunicorn2"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="13" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">DK CQ</cards>
+   <action type="23" sum="253,442" no="14" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="15" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="16" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="17" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">HA H8</cards>
+   <action type="7" sum="166,035" no="18" player="Storsjon"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H10 C5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+  </round>
+ </game>
+ <game gamecode="10567989358">
+  <general>
+   <startdate>2024-02-16 19:14:02</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="1" bet="720" name="kietss" rebuy="0" win="0" chips="105,866" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="5,220" name="Storsjon" rebuy="0" win="0" chips="432,305" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="41,220" name="tropeiro123" rebuy="0" win="63,540" chips="82,460" addon="0" reg_code="7952110754"/>
+    <player seat="6" dealer="0" bet="720" name="dukepurple27" rebuy="0" win="0" chips="635,680" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="720" name="catablao034" rebuy="0" win="0" chips="78,407" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="27,720" name="IPshnik1" rebuy="0" win="0" chips="697,348" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="720" name="deadlift300" rebuy="0" win="0" chips="187,130" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="Storsjon"/>
+   <action type="15" sum="720" no="2" player="tropeiro123"/>
+   <action type="15" sum="720" no="3" player="dukepurple27"/>
+   <action type="15" sum="720" no="4" player="catablao034"/>
+   <action type="15" sum="720" no="5" player="IPshnik1"/>
+   <action type="15" sum="720" no="6" player="deadlift300"/>
+   <action type="15" sum="720" no="7" player="kietss"/>
+   <action type="1" sum="4,500" no="8" player="Storsjon"/>
+   <action type="2" sum="9,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="10" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">X X</cards>
+   <action type="0" sum="0" no="11" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="23" sum="18,000" no="12" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="13" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="14" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">X X</cards>
+   <action type="0" sum="0" no="15" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">D7 SQ</cards>
+   <action type="3" sum="9,000" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ D5 D3</cards>
+   <action type="4" sum="0" no="17" player="tropeiro123"/>
+   <action type="5" sum="9,000" no="18" player="IPshnik1"/>
+   <action type="23" sum="22,500" no="19" player="tropeiro123"/>
+   <action type="0" sum="0" no="20" player="IPshnik1"/>
+  </round>
+ </game>
+ <game gamecode="10567989386">
+  <general>
+   <startdate>2024-02-16 19:15:03</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="105,146" name="kietss" rebuy="0" win="305,079" chips="105,146" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="172,393" name="Storsjon" rebuy="0" win="0" chips="427,085" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="5,220" name="tropeiro123" rebuy="0" win="0" chips="118,280" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="9,720" name="Randomizei" rebuy="0" win="0" chips="100,000" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="720" name="dukepurple27" rebuy="0" win="0" chips="634,960" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="76,967" name="catablao034" rebuy="0" win="0" chips="77,687" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="720" name="IPshnik1" rebuy="0" win="0" chips="669,628" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="720" name="deadlift300" rebuy="0" win="0" chips="186,410" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="tropeiro123"/>
+   <action type="15" sum="720" no="2" player="Randomizei"/>
+   <action type="15" sum="720" no="3" player="dukepurple27"/>
+   <action type="15" sum="720" no="4" player="catablao034"/>
+   <action type="15" sum="720" no="5" player="IPshnik1"/>
+   <action type="15" sum="720" no="6" player="deadlift300"/>
+   <action type="15" sum="720" no="7" player="kietss"/>
+   <action type="15" sum="720" no="8" player="Storsjon"/>
+   <action type="1" sum="4,500" no="9" player="tropeiro123"/>
+   <action type="2" sum="9,000" no="10" player="Randomizei"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="11" player="dukepurple27"/>
+   <cards type="Pocket" player="catablao034">C2 D2</cards>
+   <action type="23" sum="76,967" no="12" player="catablao034"/>
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="13" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="14" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">HJ SA</cards>
+   <action type="7" sum="104,426" no="15" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">DA D10</cards>
+   <action type="23" sum="172,393" no="16" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">H2 H7</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Randomizei">X X</cards>
+   <action type="0" sum="0" no="18" player="Randomizei"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 S6 S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10567989410">
+  <general>
+   <startdate>2024-02-16 19:16:08</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player seat="1" dealer="0" bet="720" name="kietss" rebuy="0" win="0" chips="305,079" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="113,060" name="Storsjon" rebuy="0" win="243,220" chips="321,939" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="112,340" name="tropeiro123" rebuy="0" win="0" chips="113,060" addon="0" reg_code="7952110754"/>
+    <player seat="5" dealer="0" bet="5,220" name="Randomizei" rebuy="0" win="0" chips="90,280" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="9,720" name="dukepurple27" rebuy="0" win="0" chips="634,240" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="720" name="IPshnik1" rebuy="0" win="0" chips="668,908" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="720" name="deadlift300" rebuy="0" win="0" chips="185,690" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="720" no="1" player="Randomizei"/>
+   <action type="15" sum="720" no="2" player="dukepurple27"/>
+   <action type="15" sum="720" no="3" player="IPshnik1"/>
+   <action type="15" sum="720" no="4" player="deadlift300"/>
+   <action type="15" sum="720" no="5" player="kietss"/>
+   <action type="15" sum="720" no="6" player="Storsjon"/>
+   <action type="15" sum="720" no="7" player="tropeiro123"/>
+   <action type="1" sum="4,500" no="8" player="Randomizei"/>
+   <action type="2" sum="9,000" no="9" player="dukepurple27"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IPshnik1">X X</cards>
+   <action type="0" sum="0" no="10" player="IPshnik1"/>
+   <cards type="Pocket" player="deadlift300">X X</cards>
+   <action type="0" sum="0" no="11" player="deadlift300"/>
+   <cards type="Pocket" player="kietss">X X</cards>
+   <action type="0" sum="0" no="12" player="kietss"/>
+   <cards type="Pocket" player="Storsjon">D9 D6</cards>
+   <action type="23" sum="27,000" no="13" player="Storsjon"/>
+   <cards type="Pocket" player="tropeiro123">CA C7</cards>
+   <action type="23" sum="112,340" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Randomizei">X X</cards>
+   <action type="0" sum="0" no="15" player="Randomizei"/>
+   <cards type="Pocket" player="dukepurple27">X X</cards>
+   <action type="0" sum="0" no="16" player="dukepurple27"/>
+   <action type="3" sum="85,340" no="17" player="Storsjon"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 SJ H9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+</session>

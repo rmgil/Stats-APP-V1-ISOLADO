@@ -1,0 +1,204 @@
+Boa — isso confirma que o core de pós‑flop está implementado (os testes de unit conseguem ver os sinais: CBet IP, vs CBet fold, WTSD, etc.), mas o engine de stats correu sobre um ficheiro “enriquecido” antigo (sem os novos campos de post‑flop) ou as mãos não estão a cair no grupo postflop_all. Daí o counts: {} no stat_counts.json: nenhuma stat encontrou oportunidades/aplicações.
+
+Abaixo tens um pacote de correções + verificação para pôr os números de pós‑flop a sair já.
+
+1) Correção garantida de grupos: assegurar postflop_all
+
+Objetivo: garantir que toda mão que vê flop/turn/river entra em postflop_all, para que as stats de pós‑flop (cuja DSL usa applies_to_groups: ["postflop_all"]) sejam consideradas.
+
+Edita app/partition/groups.py e coloca (ou ajusta) a função:
+
+def groups_for_hand(hand: dict) -> list:
+    groups = []
+
+    d = hand.get("derived") or {}
+    pre = d.get("preflop") or {}
+    pos = d.get("positions") or {}
+    ip  = d.get("ip") or {}
+
+    # --- grupos preflop (já existentes) ---
+    # (mantém exatamente a tua lógica que decide nonko_9max_pref / nonko_6max_pref / pko_pref)
+    # groups.extend([...])  # <- NÃO alterar o que já tens aqui
+
+    # --- SEMPRE adicionar postflop_all se a mão tem flop/turn/river ---
+    streets = hand.get("streets") or {}
+    saw_post = any((streets.get(st) or {}).get("actions") for st in ("flop", "turn", "river"))
+    if saw_post:
+        groups.append("postflop_all")
+
+    return groups
+
+
+Isto evita que app/stats/engine.py descarte as stats de pós‑flop por falta de grupo aplicável.
+
+2) Re‑enriquecer de verdade (cache bust) e refazer stats
+
+Mesmo com a derivação nova, se o hands_enriched.jsonl foi gerado antes do derive_postflop, todos os campos como cbet_flop_opp_ip ficam False/None, e o engine não conta nada.
+
+Faz o rebuild completo (podes usar o /pipeline, mas deixo também as chamadas diretas):
+
+Derive (forçar overwrite do enriched):
+
+curl -s -X POST http://127.0.0.1:5000/api/derive/build \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "in_jsonl": "parsed/hands.jsonl",
+    "out_jsonl": "parsed/hands_enriched.jsonl"
+  }'
+
+
+Se o teu pipeline usa caminhos temporários (ex.: /tmp/txt_filter_xxx/out/parsed/...), usa o caminho mostrado no passo 2 do /pipeline (“Derive OK → …”). O importante é reescrever o hands_enriched.jsonl depois de adicionarmos o pós‑flop.
+
+Partitions (recalcula com o enriched novo):
+
+curl -s -X POST http://127.0.0.1:5000/api/partition \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "in_jsonl": "parsed/hands_enriched.jsonl",
+    "out_dir": "partitions",
+    "validate": true
+  }'
+
+
+Stats (DSL):
+
+curl -s -X POST http://127.0.0.1:5000/api/stats/build \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "in_jsonl": "parsed/hands_enriched.jsonl",
+    "dsl_path": "app/stats/dsl/stats.yml",
+    "out_dir": "stats"
+  }'
+
+
+Score:
+
+curl -s -X POST http://127.0.0.1:5000/api/score/build \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "stat_counts": "stats/stat_counts.json",
+    "cfg_path": "app/score/config.yml",
+    "out_dir": "scores",
+    "force": true
+  }'
+
+
+Se preferires via UI, basta re‑correr /pipeline (ele já chama estes passos na ordem certa). O essencial é que ocorra uma nova passagem pelo /api/derive/build após termos o derive_postflop.py implementado.
+
+3) Verificação rápida (para detectar o problema em 10s)
+3.1 Endpoint de diagnóstico (opcional, mas recomendo)
+
+Adiciona no Flask principal:
+
+@app.route('/api/debug/derived-postflop', methods=['GET'])
+def debug_derived_postflop():
+    """Conta quantas mãos têm flags pós-flop ativas (amostra)."""
+    import json, os
+    path = request.args.get('path', 'parsed/hands_enriched.jsonl')
+    if not os.path.exists(path):
+        return {"error":"hands_enriched.jsonl not found", "path": path}, 404
+
+    keys = [
+        "cbet_flop_opp_ip","cbet_flop_att_ip",
+        "cbet_flop_opp_oop","cbet_flop_att_oop",
+        "vs_cbet_flop_fold_ip","vs_cbet_flop_raise_ip",
+        "vs_cbet_flop_fold_oop","vs_cbet_flop_raise_oop",
+        "donk_flop","flop_bet_vs_missed_cbet_srp",
+        "saw_flop","saw_showdown"
+    ]
+    counts = {k:0 for k in keys}
+    total = 0
+    with open(path, 'r', encoding='utf-8') as f:
+        for line in f:
+            total += 1
+            h = json.loads(line)
+            post = (h.get("derived") or {}).get("postflop") or {}
+            for k in keys:
+                if post.get(k):
+                    counts[k] += 1
+    return {"total_hands": total, "flags_true": counts}
+
+
+Antes de re‑enriquecer, quase tudo vai a zero.
+
+Depois de re‑enriquecer, já deves ver contagens > 0 para cbet_flop_opp_ip, cbet_flop_att_ip, etc.
+
+3.2 Confirmar o postflop_all de facto está a sair
+
+Pede um hand_id de uma mão que viste flop (podes buscar em stats/index/... depois do run) e verifica as groups do contexto:
+
+# Examina o contexto que o engine construiria (método não-HTTP, só exemplo mental):
+# ctx = build_context(hand); print(ctx["groups"])
+
+
+Ou, mais fácil, faz GET aos IDs:
+
+curl -s "http://127.0.0.1:5000/api/stats/hands?index_dir=stats/index&month=YYYY-MM&group=postflop_all&stat=POST_CBET_FLOP_IP&type=opps"
+
+
+Assim confirmas que existem mãos num bucket de pós‑flop específico.
+
+4) Ajuste de UX no /pipeline (qualidade de vida, opcional)
+
+Para evitar runs com enriched “antigo”, podes alterar o botão do /pipeline para executar sempre este “caminho feliz”:
+
+se existir parsed/hands_enriched.jsonl, reescrever sem perguntar;
+
+(ou) adicionar um toggle “Forçar re‑enriquecimento” → envia um force=true para /api/derive/build (e o endpoint simplesmente ignora caches e reescreve o ficheiro).
+
+Simplesmente acrescenta no JS do pipeline.html:
+
+await postJSON('/api/derive/build', { in_jsonl: handsJsonl, out_jsonl: handsEnriched, force: true });
+
+
+e no endpoint:
+
+force = bool(data.get("force"))
+# ... se force for True, ignora/reescreve sempre o out_jsonl
+
+5) Resultado esperado
+
+Depois destes 3 passos (correção do grupo + re‑derive + rebuild de stats), o stats/stat_counts.json deixará de ter counts: {} e passará a ter entradas tipo:
+
+{
+  "counts": {
+    "2025-07": {
+      "postflop_all": {
+        "POST_CBET_FLOP_IP": {
+          "opportunities": 123,
+          "attempts": 78,
+          "percentage": 63.41,
+          "index_files": {
+            "opps": "index/2025-07__postflop_all__POST_CBET_FLOP_IP__opps.ids",
+            "attempts": "index/2025-07__postflop_all__POST_CBET_FLOP_IP__attempts.ids"
+          }
+        },
+        "POST_VS_CBET_FLOP_FOLD_IP": { "...": "..." }
+      }
+    }
+  }
+}
+
+
+E o /pipeline vai mostrar no “Resumo” valores reais para postflop_all.
+Se ainda aparecer vazio, o endpoint de diagnóstico de #3.1 diz‑te de imediato se o problema é falta de flags derivadas (re‑derive) ou falta de grupo (ajuste em groups_for_hand).
+
+Definition of Done (para encerrares Fase 8)
+
+ groups_for_hand() inclui sempre postflop_all para mãos com flop/turn/river.
+
+ parsed/hands_enriched.jsonl regerado após derive_postflop.
+
+ stats/stat_counts.json com entradas > 0 para, pelo menos, POST_CBET_FLOP_IP.
+
+ /pipeline mostra percentagens em postflop_all.
+
+ (Opcional) /api/debug/derived-postflop com contagens > 0.
+
+Quando estes 4 checks estiverem ok, fechamos Fase 8 como concluída e podemos saltar para:
+
+Fase 8.2 (Turn/River avançado + W$SD/W$WSF completos), ou
+
+Fase 9 (UI “pro” com gráficos, filtros e click‑through integrado).
+
+Se preferires, já te preparo o prompt pack da Fase 9 (UI dashboard com tabelas e gráficos) imediatamente após confirmares que as stats de pós‑flop estão a sair.

@@ -1,0 +1,106 @@
+10.D — Front‑end: Dashboard V2 (tabelas com valores reais, ideais, pesos e notas)
+
+Cria/atualiza templates/dashboard_v2.html:
+
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<div class="container py-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="mb-0">Dashboard</h1>
+    <a class="btn btn-outline-secondary" href="/pipeline">Voltar ao Pipeline</a>
+  </div>
+
+  <div id="meta" class="mb-3 text-muted"></div>
+
+  <div id="groups"></div>
+</div>
+
+<script>
+async function loadFlat(){
+  const res = await fetch('/api/stats/flat');
+  const js = await res.json();
+  if (js.error) throw new Error(js.error);
+
+  // meta
+  const meta = js.meta || {};
+  document.getElementById('meta').textContent =
+    `Mês: ${meta.month || '-'} · Overall: ${meta.overall ?? '-'} · Amostras: ${JSON.stringify(meta.sample || {})}`;
+
+  // group → subgroup → stats
+  const rows = js.rows || [];
+  const byGroup = {};
+  for (const r of rows){
+    (byGroup[r.group] ||= []).push(r);
+  }
+
+  const root = document.getElementById('groups'); root.innerHTML = '';
+
+  Object.entries(byGroup).forEach(([group, arr]) => {
+    // ordenar: subgroup, label
+    arr.sort((a,b)=> (a.subgroup||'').localeCompare(b.subgroup||'') || (a.label||'').localeCompare(b.label||''));
+
+    const card = document.createElement('div');
+    card.className = 'card bg-dark border-0 shadow mb-3';
+
+    const body = document.createElement('div');
+    body.className = 'card-body';
+
+    const h = document.createElement('h5');
+    h.className = 'card-title';
+    h.textContent = group;
+    body.appendChild(h);
+
+    const tbl = document.createElement('table');
+    tbl.className = 'table table-sm table-dark align-middle mb-0';
+
+    tbl.innerHTML = `
+      <thead>
+        <tr>
+          <th style="width:18%">Subgrupo</th>
+          <th style="width:28%">Stat</th>
+          <th class="text-end" style="width:10%">Freq</th>
+          <th class="text-end" style="width:12%">Opportunities</th>
+          <th class="text-end" style="width:10%">Attempts</th>
+          <th class="text-end" style="width:12%">Ideal</th>
+          <th class="text-end" style="width:10%">Score</th>
+          <th style="width:10%">Nota</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    `;
+    const tb = tbl.querySelector('tbody');
+
+    arr.forEach(r => {
+      const pct = (r.pct ?? null) === null ? '-' : `${r.pct.toFixed ? r.pct.toFixed(2) : r.pct}%`;
+      const ideal = (r.ideal_low != null || r.ideal_high != null)
+        ? `${r.ideal_low ?? '-'}–${r.ideal_high ?? '-'}%` : '-';
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${r.subgroup ?? '-'}</td>
+        <td>${r.label}</td>
+        <td class="text-end">${pct}</td>
+        <td class="text-end">${r.opportunities ?? 0}</td>
+        <td class="text-end">${r.attempts ?? 0}</td>
+        <td class="text-end">${ideal}</td>
+        <td class="text-end">${r.score == null ? '-' : Math.round(r.score)}</td>
+        <td><span class="badge bg-${(r.score??0)>=75 ? 'success' : (r.score??0)>=60 ? 'warning' : 'danger'}">${r.note ?? '-'}</span></td>
+      `;
+      tb.appendChild(tr);
+    });
+
+    body.appendChild(tbl);
+    card.appendChild(body);
+    root.appendChild(card);
+  });
+}
+
+loadFlat().catch(e=>{
+  const root = document.getElementById('groups');
+  root.innerHTML = `<div class="alert alert-danger">Erro a carregar dados: ${e.message}</div>`;
+});
+</script>
+{% endblock %}
+
+
+Esta UI sempre mostra as tabelas porque lê tudo de /api/stats/flat (sem valores “placeholder”). Cada linha apresenta frequência real (%, calculada de opp/att), ideal, score e nota.

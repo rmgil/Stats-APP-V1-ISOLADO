@@ -1,0 +1,3031 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7943862846">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 |Thursday Special, 1080525901</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:01:35</duration>
+  <gamecount>57</gamecount>
+  <startdate>2024-02-08 18:19:38</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>798,909</bets>
+  <wins>474,648</wins>
+  <chipsin>97,700</chipsin>
+  <chipsout>272,374</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079854128</tournamentcode>
+  <tournamentname>€10,000 |Thursday Special</tournamentname>
+  <place>N/A</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10553103074">
+  <general>
+   <startdate>2024-02-08 18:19:38</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="1" bet="12,312" reg_code="" seat="1" chips="100,000"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="2,300" reg_code="7943862846" seat="2" chips="100,000"/>
+    <player win="28,574" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="20,574" reg_code="" seat="6" chips="152,322"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="550" reg_code="" seat="7" chips="222,253"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="550" reg_code="" seat="9" chips="42,838"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="550" reg_code="" seat="10" chips="101,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="550" type="15"/>
+   <action player="doctorjolly556" no="2" sum="550" type="15"/>
+   <action player="CassaBluff" no="3" sum="550" type="15"/>
+   <action player="Lucas2023" no="4" sum="550" type="15"/>
+   <action player="Batcar" no="5" sum="550" type="15"/>
+   <action player="Aguabrial" no="6" sum="550" type="15"/>
+   <action player="tropeiro123" no="7" sum="1,750" type="1"/>
+   <action player="doctorjolly556" no="8" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="9" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="10" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="11" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="12" sum="7,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CK S8</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="14" sum="3,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 S3 SQ</cards>
+   <action player="doctorjolly556" no="15" sum="0" type="4"/>
+   <action player="Aguabrial" no="16" sum="4,762" type="5"/>
+   <action player="doctorjolly556" no="17" sum="13,024" type="23"/>
+   <action player="Aguabrial" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553103097">
+  <general>
+   <startdate>2024-02-08 18:20:35</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="550" reg_code="" seat="1" chips="87,688"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="8,600" reg_code="7943862846" seat="2" chips="97,700"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="2,300" reg_code="" seat="6" chips="168,584"/>
+    <player win="21,150" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="26,600" reg_code="" seat="7" chips="221,703"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="550" reg_code="" seat="9" chips="42,288"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="550" reg_code="" seat="10" chips="101,004"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorjolly556" no="1" sum="550" type="15"/>
+   <action player="CassaBluff" no="2" sum="550" type="15"/>
+   <action player="Lucas2023" no="3" sum="550" type="15"/>
+   <action player="Batcar" no="4" sum="550" type="15"/>
+   <action player="Aguabrial" no="5" sum="550" type="15"/>
+   <action player="tropeiro123" no="6" sum="550" type="15"/>
+   <action player="doctorjolly556" no="7" sum="1,750" type="1"/>
+   <action player="CassaBluff" no="8" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="9" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="10" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S8</cards>
+   <action player="tropeiro123" no="12" sum="8,050" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="26,600" type="23"/>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553103112">
+  <general>
+   <startdate>2024-02-08 18:21:18</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="550" reg_code="" seat="1" chips="87,138"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="550" reg_code="7943862846" seat="2" chips="89,100"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="550" reg_code="" seat="4" chips="100,000"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="550" reg_code="" seat="5" chips="108,026"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="1" bet="21,550" reg_code="" seat="6" chips="166,284"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="2,300" reg_code="" seat="7" chips="234,253"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="4,050" reg_code="" seat="9" chips="41,738"/>
+    <player win="51,650" rebuy="0" addon="0" name="Batcar" dealer="0" bet="21,550" reg_code="" seat="10" chips="100,454"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="550" type="15"/>
+   <action player="Lucas2023" no="2" sum="550" type="15"/>
+   <action player="Batcar" no="3" sum="550" type="15"/>
+   <action player="Aguabrial" no="4" sum="550" type="15"/>
+   <action player="tropeiro123" no="5" sum="550" type="15"/>
+   <action player="Bskrsk" no="6" sum="550" type="15"/>
+   <action player="ArneSlot" no="7" sum="550" type="15"/>
+   <action player="doctorjolly556" no="8" sum="550" type="15"/>
+   <action player="CassaBluff" no="9" sum="1,750" type="1"/>
+   <action player="Lucas2023" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Batcar" type="Pocket">D10 C10</cards>
+   <action player="Batcar" no="11" sum="7,000" type="23"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 C8</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="14" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="15" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">DK CK</cards>
+   <action player="doctorjolly556" no="16" sum="7,000" type="3"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="17" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 H10 SA</cards>
+   <action player="Batcar" no="19" sum="0" type="4"/>
+   <action player="doctorjolly556" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action player="Batcar" no="21" sum="7,000" type="5"/>
+   <action player="doctorjolly556" no="22" sum="14,000" type="23"/>
+   <action player="Batcar" no="23" sum="7,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action player="Batcar" no="24" sum="0" type="4"/>
+   <action player="doctorjolly556" no="25" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10553103149">
+  <general>
+   <startdate>2024-02-08 18:22:51</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="61,300" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="26,375" reg_code="" seat="1" chips="86,588"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="550" reg_code="7943862846" seat="2" chips="88,550"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="550" reg_code="" seat="4" chips="99,450"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="550" reg_code="" seat="5" chips="107,476"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="26,375" reg_code="" seat="6" chips="144,734"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="550" reg_code="" seat="7" chips="231,953"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="2,300" reg_code="" seat="9" chips="37,688"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="4,050" reg_code="" seat="10" chips="130,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Lucas2023" no="1" sum="550" type="15"/>
+   <action player="Batcar" no="2" sum="550" type="15"/>
+   <action player="Aguabrial" no="3" sum="550" type="15"/>
+   <action player="tropeiro123" no="4" sum="550" type="15"/>
+   <action player="Bskrsk" no="5" sum="550" type="15"/>
+   <action player="ArneSlot" no="6" sum="550" type="15"/>
+   <action player="doctorjolly556" no="7" sum="550" type="15"/>
+   <action player="CassaBluff" no="8" sum="550" type="15"/>
+   <action player="Lucas2023" no="9" sum="1,750" type="1"/>
+   <action player="Batcar" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Aguabrial" type="Pocket">S8 H8</cards>
+   <action player="Aguabrial" no="11" sum="7,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S10 DJ</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="13" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="14" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">DA C9</cards>
+   <action player="doctorjolly556" no="15" sum="10,500" type="23"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="16" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="17" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="18" sum="0" type="0"/>
+   <action player="Aguabrial" no="19" sum="3,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H10 D2</cards>
+   <action player="Aguabrial" no="20" sum="0" type="4"/>
+   <action player="doctorjolly556" no="21" sum="15,325" type="5"/>
+   <action player="Aguabrial" no="22" sum="15,325" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action player="Aguabrial" no="23" sum="0" type="4"/>
+   <action player="doctorjolly556" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action player="Aguabrial" no="25" sum="0" type="4"/>
+   <action player="doctorjolly556" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10553103185">
+  <general>
+   <startdate>2024-02-08 18:24:17</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="4,050" reg_code="" seat="1" chips="121,513"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="550" reg_code="7943862846" seat="2" chips="88,000"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="7,900" reg_code="" seat="4" chips="98,900"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="550" reg_code="" seat="5" chips="106,926"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="550" reg_code="" seat="6" chips="118,359"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="550" reg_code="" seat="7" chips="231,403"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="1" bet="550" reg_code="" seat="9" chips="35,388"/>
+    <player win="22,600" rebuy="0" addon="0" name="Batcar" dealer="0" bet="28,000" reg_code="" seat="10" chips="126,504"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Batcar" no="1" sum="550" type="15"/>
+   <action player="Aguabrial" no="2" sum="550" type="15"/>
+   <action player="tropeiro123" no="3" sum="550" type="15"/>
+   <action player="Bskrsk" no="4" sum="550" type="15"/>
+   <action player="ArneSlot" no="5" sum="550" type="15"/>
+   <action player="doctorjolly556" no="6" sum="550" type="15"/>
+   <action player="CassaBluff" no="7" sum="550" type="15"/>
+   <action player="Lucas2023" no="8" sum="550" type="15"/>
+   <action player="Batcar" no="9" sum="1,750" type="1"/>
+   <action player="Aguabrial" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S4 D6</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="12" sum="7,350" type="23"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="13" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="14" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="15" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="16" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="17" sum="28,000" type="23"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="18" sum="0" type="0"/>
+   <action player="Bskrsk" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553103202">
+  <general>
+   <startdate>2024-02-08 18:25:00</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="12,800" reg_code="" seat="1" chips="117,463"/>
+    <player win="28,900" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="28,000" reg_code="7943862846" seat="2" chips="87,450"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="550" reg_code="" seat="4" chips="91,000"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="550" reg_code="" seat="5" chips="106,376"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="550" reg_code="" seat="6" chips="117,809"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="550" reg_code="" seat="7" chips="230,853"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="550" reg_code="" seat="9" chips="34,838"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="1" bet="550" reg_code="" seat="10" chips="141,204"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Aguabrial" no="1" sum="550" type="15"/>
+   <action player="tropeiro123" no="2" sum="550" type="15"/>
+   <action player="Bskrsk" no="3" sum="550" type="15"/>
+   <action player="ArneSlot" no="4" sum="550" type="15"/>
+   <action player="doctorjolly556" no="5" sum="550" type="15"/>
+   <action player="CassaBluff" no="6" sum="550" type="15"/>
+   <action player="Lucas2023" no="7" sum="550" type="15"/>
+   <action player="Batcar" no="8" sum="550" type="15"/>
+   <action player="Aguabrial" no="9" sum="1,750" type="1"/>
+   <action player="tropeiro123" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="11" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="12" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="15" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="16" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="17" sum="12,250" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S10 H10</cards>
+   <action player="tropeiro123" no="18" sum="28,000" type="23"/>
+   <action player="Aguabrial" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553103248">
+  <general>
+   <startdate>2024-02-08 18:27:21</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="1" bet="550" reg_code="" seat="1" chips="104,663"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="2,300" reg_code="7943862846" seat="2" chips="103,550"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="18,750" reg_code="" seat="4" chips="90,450"/>
+    <player win="42,550" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="35,770" reg_code="" seat="5" chips="105,826"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="550" reg_code="" seat="6" chips="117,259"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="550" reg_code="" seat="7" chips="230,303"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="550" reg_code="" seat="9" chips="34,288"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="550" reg_code="" seat="10" chips="140,654"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="550" type="15"/>
+   <action player="Bskrsk" no="2" sum="550" type="15"/>
+   <action player="ArneSlot" no="3" sum="550" type="15"/>
+   <action player="doctorjolly556" no="4" sum="550" type="15"/>
+   <action player="CassaBluff" no="5" sum="550" type="15"/>
+   <action player="Lucas2023" no="6" sum="550" type="15"/>
+   <action player="Batcar" no="7" sum="550" type="15"/>
+   <action player="Aguabrial" no="8" sum="550" type="15"/>
+   <action player="tropeiro123" no="9" sum="1,750" type="1"/>
+   <action player="Bskrsk" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="11" sum="7,700" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="12" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="13" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="14" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="15" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 S4</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="18" sum="4,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 D9 H4</cards>
+   <action player="Bskrsk" no="19" sum="0" type="4"/>
+   <action player="ArneSlot" no="20" sum="10,500" type="5"/>
+   <action player="Bskrsk" no="21" sum="10,500" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action player="Bskrsk" no="22" sum="0" type="4"/>
+   <action player="ArneSlot" no="23" sum="17,020" type="5"/>
+   <action player="Bskrsk" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553127904">
+  <general>
+   <startdate>2024-02-08 18:28:28</startdate>
+   <smallblind>1,750</smallblind>
+   <bigblind>3,500</bigblind>
+   <ante>550</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="550" reg_code="" seat="1" chips="104,113"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="550" reg_code="7943862846" seat="2" chips="101,250"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="2,300" reg_code="" seat="4" chips="71,700"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="4,050" reg_code="" seat="5" chips="129,626"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="550" reg_code="" seat="6" chips="116,709"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="550" reg_code="" seat="7" chips="229,753"/>
+    <player win="13,150" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="33,188" reg_code="" seat="9" chips="33,738"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="550" reg_code="" seat="10" chips="140,104"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Bskrsk" no="1" sum="550" type="15"/>
+   <action player="ArneSlot" no="2" sum="550" type="15"/>
+   <action player="doctorjolly556" no="3" sum="550" type="15"/>
+   <action player="CassaBluff" no="4" sum="550" type="15"/>
+   <action player="Lucas2023" no="5" sum="550" type="15"/>
+   <action player="Batcar" no="6" sum="550" type="15"/>
+   <action player="Aguabrial" no="7" sum="550" type="15"/>
+   <action player="tropeiro123" no="8" sum="550" type="15"/>
+   <action player="Bskrsk" no="9" sum="1,750" type="1"/>
+   <action player="ArneSlot" no="10" sum="3,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="11" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="12" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="13" sum="33,188" type="23"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="14" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 CA</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="17" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553127917">
+  <general>
+   <startdate>2024-02-08 18:29:11</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="8,600" reg_code="" seat="1" chips="103,563"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="100,700"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="1" bet="600" reg_code="" seat="4" chips="69,400"/>
+    <player win="24,800" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="124,976" reg_code="" seat="5" chips="125,576"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="4,600" reg_code="" seat="6" chips="116,159"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="229,203"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="42,838"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="139,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ArneSlot" no="1" sum="600" type="15"/>
+   <action player="doctorjolly556" no="2" sum="600" type="15"/>
+   <action player="CassaBluff" no="3" sum="600" type="15"/>
+   <action player="Lucas2023" no="4" sum="600" type="15"/>
+   <action player="Batcar" no="5" sum="600" type="15"/>
+   <action player="Aguabrial" no="6" sum="600" type="15"/>
+   <action player="tropeiro123" no="7" sum="600" type="15"/>
+   <action player="Bskrsk" no="8" sum="600" type="15"/>
+   <action player="ArneSlot" no="9" sum="2,000" type="1"/>
+   <action player="doctorjolly556" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="12" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="13" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="14" sum="8,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HK D5</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="16" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="17" sum="124,976" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="18" sum="0" type="0"/>
+   <action player="Aguabrial" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553127941">
+  <general>
+   <startdate>2024-02-08 18:30:00</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="600" reg_code="" seat="1" chips="94,963"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="100,100"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="68,800"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="1" bet="28,600" reg_code="" seat="5" chips="141,776"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="2,600" reg_code="" seat="6" chips="111,559"/>
+    <player win="62,800" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="28,600" reg_code="" seat="7" chips="228,603"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="42,238"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="138,954"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorjolly556" no="1" sum="600" type="15"/>
+   <action player="CassaBluff" no="2" sum="600" type="15"/>
+   <action player="Lucas2023" no="3" sum="600" type="15"/>
+   <action player="Batcar" no="4" sum="600" type="15"/>
+   <action player="Aguabrial" no="5" sum="600" type="15"/>
+   <action player="tropeiro123" no="6" sum="600" type="15"/>
+   <action player="Bskrsk" no="7" sum="600" type="15"/>
+   <action player="ArneSlot" no="8" sum="600" type="15"/>
+   <action player="doctorjolly556" no="9" sum="2,000" type="1"/>
+   <action player="CassaBluff" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="11" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="12" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 S7</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="15" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">C4 D7</cards>
+   <action player="ArneSlot" no="16" sum="8,000" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="17" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">HJ HK</cards>
+   <action player="CassaBluff" no="18" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 C3 SQ</cards>
+   <action player="CassaBluff" no="19" sum="0" type="4"/>
+   <action player="ArneSlot" no="20" sum="4,000" type="5"/>
+   <action player="CassaBluff" no="21" sum="4,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action player="CassaBluff" no="22" sum="0" type="4"/>
+   <action player="ArneSlot" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+   <action player="CassaBluff" no="24" sum="16,000" type="5"/>
+   <action player="ArneSlot" no="25" sum="16,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10553127970">
+  <general>
+   <startdate>2024-02-08 18:31:25</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="600" reg_code="" seat="1" chips="94,363"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="99,500"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="68,200"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="113,176"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="1" bet="600" reg_code="" seat="6" chips="108,959"/>
+    <player win="12,800" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="262,203" reg_code="" seat="7" chips="262,803"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="4,600" reg_code="" seat="9" chips="41,638"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="138,354"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="600" type="15"/>
+   <action player="Lucas2023" no="2" sum="600" type="15"/>
+   <action player="Batcar" no="3" sum="600" type="15"/>
+   <action player="Aguabrial" no="4" sum="600" type="15"/>
+   <action player="tropeiro123" no="5" sum="600" type="15"/>
+   <action player="Bskrsk" no="6" sum="600" type="15"/>
+   <action player="ArneSlot" no="7" sum="600" type="15"/>
+   <action player="doctorjolly556" no="8" sum="600" type="15"/>
+   <action player="CassaBluff" no="9" sum="2,000" type="1"/>
+   <action player="Lucas2023" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="11" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 S3</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="14" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="15" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="16" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="17" sum="262,203" type="23"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553127985">
+  <general>
+   <startdate>2024-02-08 18:32:09</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="600" reg_code="" seat="1" chips="93,763"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="98,900"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="67,600"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="112,576"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="600" reg_code="" seat="6" chips="108,359"/>
+    <player win="14,800" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="8,000" reg_code="" seat="7" chips="271,003"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="2,600" reg_code="" seat="9" chips="37,038"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="4,600" reg_code="" seat="10" chips="137,754"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Lucas2023" no="1" sum="600" type="15"/>
+   <action player="Batcar" no="2" sum="600" type="15"/>
+   <action player="Aguabrial" no="3" sum="600" type="15"/>
+   <action player="tropeiro123" no="4" sum="600" type="15"/>
+   <action player="Bskrsk" no="5" sum="600" type="15"/>
+   <action player="ArneSlot" no="6" sum="600" type="15"/>
+   <action player="doctorjolly556" no="7" sum="600" type="15"/>
+   <action player="CassaBluff" no="8" sum="600" type="15"/>
+   <action player="Lucas2023" no="9" sum="2,000" type="1"/>
+   <action player="Batcar" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 H10</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="13" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="14" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="15" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="16" sum="8,000" type="23"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="17" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128004">
+  <general>
+   <startdate>2024-02-08 18:32:46</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="12,000" reg_code="" seat="1" chips="93,163"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="98,300"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="67,000"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="111,976"/>
+    <player win="29,600" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="30,500" reg_code="" seat="6" chips="107,759"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="281,203"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="1" bet="600" reg_code="" seat="9" chips="34,438"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="2,600" reg_code="" seat="10" chips="133,154"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Batcar" no="1" sum="600" type="15"/>
+   <action player="Aguabrial" no="2" sum="600" type="15"/>
+   <action player="tropeiro123" no="3" sum="600" type="15"/>
+   <action player="Bskrsk" no="4" sum="600" type="15"/>
+   <action player="ArneSlot" no="5" sum="600" type="15"/>
+   <action player="doctorjolly556" no="6" sum="600" type="15"/>
+   <action player="CassaBluff" no="7" sum="600" type="15"/>
+   <action player="Lucas2023" no="8" sum="600" type="15"/>
+   <action player="Batcar" no="9" sum="2,000" type="1"/>
+   <action player="Aguabrial" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H6 CK</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="12" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="13" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="14" sum="4,000" type="3"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="15" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="16" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="17" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="18" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 SJ D9</cards>
+   <action player="Aguabrial" no="19" sum="0" type="4"/>
+   <action player="doctorjolly556" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action player="Aguabrial" no="21" sum="0" type="4"/>
+   <action player="doctorjolly556" no="22" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action player="Aguabrial" no="23" sum="7,400" type="5"/>
+   <action player="doctorjolly556" no="24" sum="25,900" type="23"/>
+   <action player="Aguabrial" no="25" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128027">
+  <general>
+   <startdate>2024-02-08 18:33:49</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="Aguabrial" dealer="0" bet="2,600" reg_code="" seat="1" chips="81,163"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="4,600" reg_code="7943862846" seat="2" chips="97,700"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="66,400"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="111,376"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="33,838" reg_code="" seat="6" chips="125,359"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="280,603"/>
+    <player win="77,276" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="33,238" reg_code="" seat="9" chips="33,838"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="1" bet="600" reg_code="" seat="10" chips="130,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Aguabrial" no="1" sum="600" type="15"/>
+   <action player="tropeiro123" no="2" sum="600" type="15"/>
+   <action player="Bskrsk" no="3" sum="600" type="15"/>
+   <action player="ArneSlot" no="4" sum="600" type="15"/>
+   <action player="doctorjolly556" no="5" sum="600" type="15"/>
+   <action player="CassaBluff" no="6" sum="600" type="15"/>
+   <action player="Lucas2023" no="7" sum="600" type="15"/>
+   <action player="Batcar" no="8" sum="600" type="15"/>
+   <action player="Aguabrial" no="9" sum="2,000" type="1"/>
+   <action player="tropeiro123" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="11" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="12" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">CA C2</cards>
+   <action player="doctorjolly556" no="13" sum="8,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">SQ DQ</cards>
+   <action player="Lucas2023" no="15" sum="33,238" type="23"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="16" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 CK</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="doctorjolly556" no="19" sum="25,238" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ H8 H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10553128045">
+  <general>
+   <startdate>2024-02-08 18:34:35</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="18,800" rebuy="0" addon="0" name="Aguabrial" dealer="1" bet="9,300" reg_code="" seat="1" chips="78,563"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="2,600" reg_code="7943862846" seat="2" chips="93,100"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="4,600" reg_code="" seat="4" chips="65,800"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="110,776"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="4,600" reg_code="" seat="6" chips="91,521"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="280,003"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="77,276"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="129,954"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="600" type="15"/>
+   <action player="Bskrsk" no="2" sum="600" type="15"/>
+   <action player="ArneSlot" no="3" sum="600" type="15"/>
+   <action player="doctorjolly556" no="4" sum="600" type="15"/>
+   <action player="CassaBluff" no="5" sum="600" type="15"/>
+   <action player="Lucas2023" no="6" sum="600" type="15"/>
+   <action player="Batcar" no="7" sum="600" type="15"/>
+   <action player="Aguabrial" no="8" sum="600" type="15"/>
+   <action player="tropeiro123" no="9" sum="2,000" type="1"/>
+   <action player="Bskrsk" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="11" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="12" sum="4,000" type="3"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="13" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="14" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="15" sum="0" type="0"/>
+   <cards player="Aguabrial" type="Pocket">X X</cards>
+   <action player="Aguabrial" no="16" sum="4,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">DJ D4</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="18" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D3 S3</cards>
+   <action player="Bskrsk" no="19" sum="0" type="4"/>
+   <action player="doctorjolly556" no="20" sum="0" type="4"/>
+   <action player="Aguabrial" no="21" sum="4,700" type="5"/>
+   <action player="Bskrsk" no="22" sum="0" type="0"/>
+   <action player="doctorjolly556" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128080">
+  <general>
+   <startdate>2024-02-08 18:36:04</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="600" reg_code="7943862846" seat="2" chips="90,500"/>
+    <player win="12,200" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="10,000" reg_code="" seat="4" chips="61,200"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="4,600" reg_code="" seat="5" chips="110,176"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="600" reg_code="" seat="6" chips="86,921"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="279,403"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="76,676"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="129,354"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Bskrsk" no="1" sum="600" type="15"/>
+   <action player="ArneSlot" no="2" sum="600" type="15"/>
+   <action player="doctorjolly556" no="3" sum="600" type="15"/>
+   <action player="CassaBluff" no="4" sum="600" type="15"/>
+   <action player="Lucas2023" no="5" sum="600" type="15"/>
+   <action player="Batcar" no="6" sum="600" type="15"/>
+   <action player="tropeiro123" no="7" sum="600" type="15"/>
+   <action player="Bskrsk" no="8" sum="2,000" type="1"/>
+   <action player="ArneSlot" no="9" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="10" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="12" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 D6</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="15" sum="10,000" type="23"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128096">
+  <general>
+   <startdate>2024-02-08 18:36:43</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="89,900"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="1" bet="9,000" reg_code="" seat="4" chips="68,800"/>
+    <player win="25,000" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="104,976" reg_code="" seat="5" chips="105,576"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="4,600" reg_code="" seat="6" chips="86,321"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="600" reg_code="" seat="7" chips="278,803"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="76,076"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="128,754"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ArneSlot" no="1" sum="600" type="15"/>
+   <action player="doctorjolly556" no="2" sum="600" type="15"/>
+   <action player="CassaBluff" no="3" sum="600" type="15"/>
+   <action player="Lucas2023" no="4" sum="600" type="15"/>
+   <action player="Batcar" no="5" sum="600" type="15"/>
+   <action player="tropeiro123" no="6" sum="600" type="15"/>
+   <action player="Bskrsk" no="7" sum="600" type="15"/>
+   <action player="ArneSlot" no="8" sum="2,000" type="1"/>
+   <action player="doctorjolly556" no="9" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="10" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="11" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C2</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="14" sum="8,400" type="23"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="15" sum="104,976" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="16" sum="0" type="0"/>
+   <action player="Bskrsk" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128127">
+  <general>
+   <startdate>2024-02-08 18:37:54</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="600" reg_code="" seat="1" chips="323,444"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="89,300"/>
+    <player win="14,800" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="59,200" reg_code="" seat="4" chips="59,800"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="1" bet="600" reg_code="" seat="5" chips="121,576"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="2,600" reg_code="" seat="6" chips="81,721"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="4,600" reg_code="" seat="7" chips="278,203"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="600" reg_code="" seat="9" chips="75,476"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="600" reg_code="" seat="10" chips="128,154"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorjolly556" no="1" sum="600" type="15"/>
+   <action player="CassaBluff" no="2" sum="600" type="15"/>
+   <action player="Lucas2023" no="3" sum="600" type="15"/>
+   <action player="Batcar" no="4" sum="600" type="15"/>
+   <action player="patricisch" no="5" sum="600" type="15"/>
+   <action player="tropeiro123" no="6" sum="600" type="15"/>
+   <action player="Bskrsk" no="7" sum="600" type="15"/>
+   <action player="ArneSlot" no="8" sum="600" type="15"/>
+   <action player="doctorjolly556" no="9" sum="2,000" type="1"/>
+   <action player="CassaBluff" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="11" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="12" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 CJ</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="15" sum="59,200" type="23"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="16" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="17" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553128143">
+  <general>
+   <startdate>2024-02-08 18:38:29</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="600" reg_code="" seat="1" chips="322,844"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="600" reg_code="7943862846" seat="2" chips="88,700"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="600" reg_code="" seat="4" chips="70,000"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="600" reg_code="" seat="5" chips="120,976"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="1" bet="600" reg_code="" seat="6" chips="79,121"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="2,600" reg_code="" seat="7" chips="273,603"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="4,600" reg_code="" seat="9" chips="74,876"/>
+    <player win="14,800" rebuy="0" addon="0" name="Batcar" dealer="0" bet="8,000" reg_code="" seat="10" chips="127,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="600" type="15"/>
+   <action player="Lucas2023" no="2" sum="600" type="15"/>
+   <action player="Batcar" no="3" sum="600" type="15"/>
+   <action player="patricisch" no="4" sum="600" type="15"/>
+   <action player="tropeiro123" no="5" sum="600" type="15"/>
+   <action player="Bskrsk" no="6" sum="600" type="15"/>
+   <action player="ArneSlot" no="7" sum="600" type="15"/>
+   <action player="doctorjolly556" no="8" sum="600" type="15"/>
+   <action player="CassaBluff" no="9" sum="2,000" type="1"/>
+   <action player="Lucas2023" no="10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="11" sum="8,000" type="23"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 H5</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="14" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="15" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="16" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="17" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">X X</cards>
+   <action player="Lucas2023" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155083">
+  <general>
+   <startdate>2024-02-08 18:39:20</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="150,352" rebuy="0" addon="0" name="patricisch" dealer="0" bet="70,276" reg_code="" seat="1" chips="322,244"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="88,100"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="69,400"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="800" reg_code="" seat="5" chips="120,376"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="800" reg_code="" seat="6" chips="78,521"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="800" reg_code="" seat="7" chips="271,003"/>
+    <player win="0" rebuy="0" addon="0" name="Lucas2023" dealer="0" bet="69,476" reg_code="" seat="9" chips="70,276"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="5,800" reg_code="" seat="10" chips="137,754"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Lucas2023" no="1" sum="800" type="15"/>
+   <action player="Batcar" no="2" sum="800" type="15"/>
+   <action player="patricisch" no="3" sum="800" type="15"/>
+   <action player="tropeiro123" no="4" sum="800" type="15"/>
+   <action player="Bskrsk" no="5" sum="800" type="15"/>
+   <action player="ArneSlot" no="6" sum="800" type="15"/>
+   <action player="doctorjolly556" no="7" sum="800" type="15"/>
+   <action player="CassaBluff" no="8" sum="800" type="15"/>
+   <action player="Lucas2023" no="9" sum="2,500" type="1"/>
+   <action player="Batcar" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="patricisch" type="Pocket">DJ CJ</cards>
+   <action player="patricisch" no="11" sum="10,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S3 HJ</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="13" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="14" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="15" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="16" sum="0" type="0"/>
+   <cards player="Lucas2023" type="Pocket">DA HQ</cards>
+   <action player="Lucas2023" no="17" sum="69,476" type="23"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="18" sum="0" type="0"/>
+   <action player="patricisch" no="19" sum="59,476" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK DK H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+ <game gamecode="10553155106">
+  <general>
+   <startdate>2024-02-08 18:40:18</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="5,800" reg_code="" seat="1" chips="402,320"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="87,300"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="68,600"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="11,800" reg_code="" seat="5" chips="119,576"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="800" reg_code="" seat="6" chips="77,721"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="800" reg_code="" seat="7" chips="270,203"/>
+    <player win="32,600" rebuy="0" addon="0" name="Batcar" dealer="0" bet="131,154" reg_code="" seat="10" chips="131,954"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Batcar" no="1" sum="800" type="15"/>
+   <action player="patricisch" no="2" sum="800" type="15"/>
+   <action player="tropeiro123" no="3" sum="800" type="15"/>
+   <action player="Bskrsk" no="4" sum="800" type="15"/>
+   <action player="ArneSlot" no="5" sum="800" type="15"/>
+   <action player="doctorjolly556" no="6" sum="800" type="15"/>
+   <action player="CassaBluff" no="7" sum="800" type="15"/>
+   <action player="Batcar" no="8" sum="2,500" type="1"/>
+   <action player="patricisch" no="9" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C4 SQ</cards>
+   <action player="tropeiro123" no="10" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="11" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="12" sum="11,000" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="15" sum="131,154" type="23"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="16" sum="0" type="0"/>
+   <action player="ArneSlot" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155124">
+  <general>
+   <startdate>2024-02-08 18:41:05</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="3,300" reg_code="" seat="1" chips="396,520"/>
+    <player win="28,100" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="85,700" reg_code="7943862846" seat="2" chips="86,500"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="67,800"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="10,800" reg_code="" seat="5" chips="107,776"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="800" reg_code="" seat="6" chips="76,921"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="800" reg_code="" seat="7" chips="269,403"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="1" bet="800" reg_code="" seat="10" chips="152,754"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="patricisch" no="1" sum="800" type="15"/>
+   <action player="tropeiro123" no="2" sum="800" type="15"/>
+   <action player="Bskrsk" no="3" sum="800" type="15"/>
+   <action player="ArneSlot" no="4" sum="800" type="15"/>
+   <action player="doctorjolly556" no="5" sum="800" type="15"/>
+   <action player="CassaBluff" no="6" sum="800" type="15"/>
+   <action player="Batcar" no="7" sum="800" type="15"/>
+   <action player="patricisch" no="8" sum="2,500" type="1"/>
+   <action player="tropeiro123" no="9" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="10" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="11" sum="10,000" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="12" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="13" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="14" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA DK</cards>
+   <action player="tropeiro123" no="16" sum="85,700" type="23"/>
+   <action player="ArneSlot" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155145">
+  <general>
+   <startdate>2024-02-08 18:41:59</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="1" bet="800" reg_code="" seat="1" chips="393,220"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="3,300" reg_code="7943862846" seat="2" chips="103,800"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="10,800" reg_code="" seat="4" chips="67,000"/>
+    <player win="28,100" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="22,040" reg_code="" seat="5" chips="96,976"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="800" reg_code="" seat="6" chips="76,121"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="800" reg_code="" seat="7" chips="268,603"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="800" reg_code="" seat="10" chips="151,954"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="800" type="15"/>
+   <action player="Bskrsk" no="2" sum="800" type="15"/>
+   <action player="ArneSlot" no="3" sum="800" type="15"/>
+   <action player="doctorjolly556" no="4" sum="800" type="15"/>
+   <action player="CassaBluff" no="5" sum="800" type="15"/>
+   <action player="Batcar" no="6" sum="800" type="15"/>
+   <action player="patricisch" no="7" sum="800" type="15"/>
+   <action player="tropeiro123" no="8" sum="2,500" type="1"/>
+   <action player="Bskrsk" no="9" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="10" sum="10,000" type="23"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="11" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="12" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="13" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK H2</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="16" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ HA DK</cards>
+   <action player="Bskrsk" no="17" sum="0" type="4"/>
+   <action player="ArneSlot" no="18" sum="11,240" type="5"/>
+   <action player="Bskrsk" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155176">
+  <general>
+   <startdate>2024-02-08 18:43:17</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="800" reg_code="" seat="1" chips="392,420"/>
+    <player win="44,850" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="29,987" reg_code="7943862846" seat="2" chips="100,500"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="3,300" reg_code="" seat="4" chips="56,200"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="18,775" reg_code="" seat="5" chips="114,276"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="800" reg_code="" seat="6" chips="75,321"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="800" reg_code="" seat="7" chips="267,803"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="800" reg_code="" seat="9" chips="100,000"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="800" reg_code="" seat="10" chips="151,154"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Bskrsk" no="1" sum="800" type="15"/>
+   <action player="ArneSlot" no="2" sum="800" type="15"/>
+   <action player="doctorjolly556" no="3" sum="800" type="15"/>
+   <action player="CassaBluff" no="4" sum="800" type="15"/>
+   <action player="YoooC" no="5" sum="800" type="15"/>
+   <action player="Batcar" no="6" sum="800" type="15"/>
+   <action player="patricisch" no="7" sum="800" type="15"/>
+   <action player="tropeiro123" no="8" sum="800" type="15"/>
+   <action player="Bskrsk" no="9" sum="2,500" type="1"/>
+   <action player="ArneSlot" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="11" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="12" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="13" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="14" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 SQ</cards>
+   <action player="tropeiro123" no="16" sum="10,500" type="23"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="17" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="18" sum="5,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 S10 HQ</cards>
+   <action player="ArneSlot" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="7,475" type="5"/>
+   <action player="ArneSlot" no="21" sum="7,475" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action player="ArneSlot" no="22" sum="0" type="4"/>
+   <action player="tropeiro123" no="23" sum="11,212" type="5"/>
+   <action player="ArneSlot" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155205">
+  <general>
+   <startdate>2024-02-08 18:44:23</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="800" reg_code="" seat="1" chips="391,620"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="126,575"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="1" bet="800" reg_code="" seat="4" chips="52,900"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="3,300" reg_code="" seat="5" chips="95,501"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="10,800" reg_code="" seat="6" chips="74,521"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="800" reg_code="" seat="7" chips="267,003"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="800" reg_code="" seat="9" chips="99,200"/>
+    <player win="28,900" rebuy="0" addon="0" name="Batcar" dealer="0" bet="19,300" reg_code="" seat="10" chips="150,354"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="ArneSlot" no="1" sum="800" type="15"/>
+   <action player="doctorjolly556" no="2" sum="800" type="15"/>
+   <action player="CassaBluff" no="3" sum="800" type="15"/>
+   <action player="YoooC" no="4" sum="800" type="15"/>
+   <action player="Batcar" no="5" sum="800" type="15"/>
+   <action player="patricisch" no="6" sum="800" type="15"/>
+   <action player="tropeiro123" no="7" sum="800" type="15"/>
+   <action player="Bskrsk" no="8" sum="800" type="15"/>
+   <action player="ArneSlot" no="9" sum="2,500" type="1"/>
+   <action player="doctorjolly556" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="12" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="13" sum="10,000" type="23"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 HJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="16" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="17" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="18" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 C2 HK</cards>
+   <action player="doctorjolly556" no="19" sum="0" type="4"/>
+   <action player="Batcar" no="20" sum="8,500" type="5"/>
+   <action player="doctorjolly556" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155242">
+  <general>
+   <startdate>2024-02-08 18:45:43</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="18,900" rebuy="0" addon="0" name="patricisch" dealer="0" bet="10,000" reg_code="" seat="1" chips="390,820"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="125,775"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="52,100"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="1" bet="800" reg_code="" seat="5" chips="92,201"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="0" bet="3,300" reg_code="" seat="6" chips="63,721"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="5,800" reg_code="" seat="7" chips="266,203"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="800" reg_code="" seat="9" chips="98,400"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="800" reg_code="" seat="10" chips="168,454"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorjolly556" no="1" sum="800" type="15"/>
+   <action player="CassaBluff" no="2" sum="800" type="15"/>
+   <action player="YoooC" no="3" sum="800" type="15"/>
+   <action player="Batcar" no="4" sum="800" type="15"/>
+   <action player="patricisch" no="5" sum="800" type="15"/>
+   <action player="tropeiro123" no="6" sum="800" type="15"/>
+   <action player="Bskrsk" no="7" sum="800" type="15"/>
+   <action player="ArneSlot" no="8" sum="800" type="15"/>
+   <action player="doctorjolly556" no="9" sum="2,500" type="1"/>
+   <action player="CassaBluff" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="11" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="12" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="13" sum="10,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SQ D5</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="15" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="16" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">X X</cards>
+   <action player="doctorjolly556" no="17" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553155255">
+  <general>
+   <startdate>2024-02-08 18:46:15</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="800" reg_code="" seat="1" chips="403,920"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="124,975"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="51,300"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="800" reg_code="" seat="5" chips="91,401"/>
+    <player win="0" rebuy="0" addon="0" name="doctorjolly556" dealer="1" bet="60,421" reg_code="" seat="6" chips="60,421"/>
+    <player win="130,642" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="259,603" reg_code="" seat="7" chips="260,403"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="5,800" reg_code="" seat="9" chips="97,600"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="800" reg_code="" seat="10" chips="167,654"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="800" type="15"/>
+   <action player="YoooC" no="2" sum="800" type="15"/>
+   <action player="Batcar" no="3" sum="800" type="15"/>
+   <action player="patricisch" no="4" sum="800" type="15"/>
+   <action player="tropeiro123" no="5" sum="800" type="15"/>
+   <action player="Bskrsk" no="6" sum="800" type="15"/>
+   <action player="ArneSlot" no="7" sum="800" type="15"/>
+   <action player="doctorjolly556" no="8" sum="800" type="15"/>
+   <action player="CassaBluff" no="9" sum="2,500" type="1"/>
+   <action player="YoooC" no="10" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="11" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 S7</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="14" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">X X</cards>
+   <action player="ArneSlot" no="15" sum="0" type="0"/>
+   <cards player="doctorjolly556" type="Pocket">CK HK</cards>
+   <action player="doctorjolly556" no="16" sum="10,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">SA C9</cards>
+   <action player="CassaBluff" no="17" sum="259,603" type="23"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="18" sum="0" type="0"/>
+   <action player="doctorjolly556" no="19" sum="49,621" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D5 S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10553155271">
+  <general>
+   <startdate>2024-02-08 18:46:55</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="800" reg_code="" seat="1" chips="403,120"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="800" reg_code="7943862846" seat="2" chips="124,175"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="800" reg_code="" seat="4" chips="50,500"/>
+    <player win="0" rebuy="0" addon="0" name="ArneSlot" dealer="0" bet="90,601" reg_code="" seat="5" chips="90,601"/>
+    <player win="192,702" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="90,601" reg_code="" seat="7" chips="330,624"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="3,300" reg_code="" seat="9" chips="91,800"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="5,800" reg_code="" seat="10" chips="166,854"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="YoooC" no="1" sum="800" type="15"/>
+   <action player="Batcar" no="2" sum="800" type="15"/>
+   <action player="patricisch" no="3" sum="800" type="15"/>
+   <action player="tropeiro123" no="4" sum="800" type="15"/>
+   <action player="Bskrsk" no="5" sum="800" type="15"/>
+   <action player="ArneSlot" no="6" sum="800" type="15"/>
+   <action player="CassaBluff" no="7" sum="800" type="15"/>
+   <action player="YoooC" no="8" sum="2,500" type="1"/>
+   <action player="Batcar" no="9" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 D6</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="12" sum="0" type="0"/>
+   <cards player="ArneSlot" type="Pocket">C10 HJ</cards>
+   <action player="ArneSlot" no="13" sum="10,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">SQ HK</cards>
+   <action player="CassaBluff" no="14" sum="10,000" type="3"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="15" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 H9 DJ</cards>
+   <action player="ArneSlot" no="17" sum="0" type="4"/>
+   <action player="CassaBluff" no="18" sum="10,000" type="5"/>
+   <action player="ArneSlot" no="19" sum="10,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action player="ArneSlot" no="20" sum="0" type="4"/>
+   <action player="CassaBluff" no="21" sum="15,000" type="5"/>
+   <action player="ArneSlot" no="22" sum="69,801" type="23"/>
+   <action player="CassaBluff" no="23" sum="54,801" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10553155312">
+  <general>
+   <startdate>2024-02-08 18:48:50</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="6,900" reg_code="" seat="1" chips="402,320"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="123,375"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="900" reg_code="" seat="4" chips="49,700"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="432,725"/>
+    <player win="186,600" rebuy="0" addon="0" name="YoooC" dealer="1" bet="88,500" reg_code="" seat="9" chips="88,500"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="160,154" reg_code="" seat="10" chips="161,054"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Batcar" no="1" sum="900" type="15"/>
+   <action player="patricisch" no="2" sum="900" type="15"/>
+   <action player="tropeiro123" no="3" sum="900" type="15"/>
+   <action player="Bskrsk" no="4" sum="900" type="15"/>
+   <action player="CassaBluff" no="5" sum="900" type="15"/>
+   <action player="YoooC" no="6" sum="900" type="15"/>
+   <action player="Batcar" no="7" sum="3,000" type="1"/>
+   <action player="patricisch" no="8" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H2 CQ</cards>
+   <action player="tropeiro123" no="9" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="10" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">H10 S10</cards>
+   <action player="YoooC" no="12" sum="12,000" type="23"/>
+   <cards player="Batcar" type="Pocket">HA H6</cards>
+   <action player="Batcar" no="13" sum="160,154" type="23"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="14" sum="0" type="0"/>
+   <action player="YoooC" no="15" sum="75,600" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C7 C6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+  </round>
+ </game>
+ <game gamecode="10553180239">
+  <general>
+   <startdate>2024-02-08 18:49:41</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="3,900" reg_code="" seat="1" chips="395,420"/>
+    <player win="34,200" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="121,575" reg_code="7943862846" seat="2" chips="122,475"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="900" reg_code="" seat="4" chips="48,800"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="100,000"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="127,450"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="431,825"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="12,900" reg_code="" seat="9" chips="186,600"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="1" bet="900" reg_code="" seat="10" chips="72,554"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="patricisch" no="1" sum="900" type="15"/>
+   <action player="tropeiro123" no="2" sum="900" type="15"/>
+   <action player="Bskrsk" no="3" sum="900" type="15"/>
+   <action player="doctorfifth916" no="4" sum="900" type="15"/>
+   <action player="Cem1994" no="5" sum="900" type="15"/>
+   <action player="CassaBluff" no="6" sum="900" type="15"/>
+   <action player="YoooC" no="7" sum="900" type="15"/>
+   <action player="Batcar" no="8" sum="900" type="15"/>
+   <action player="patricisch" no="9" sum="3,000" type="1"/>
+   <action player="tropeiro123" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="11" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="12" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="15" sum="12,000" type="23"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="16" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ DA</cards>
+   <action player="tropeiro123" no="18" sum="121,575" type="23"/>
+   <action player="YoooC" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180256">
+  <general>
+   <startdate>2024-02-08 18:50:26</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="1" bet="900" reg_code="" seat="1" chips="391,520"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="3,900" reg_code="7943862846" seat="2" chips="143,775"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="12,900" reg_code="" seat="4" chips="47,900"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="99,100"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="126,550"/>
+    <player win="34,200" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="22,500" reg_code="" seat="7" chips="430,925"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="900" reg_code="" seat="9" chips="173,700"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="900" reg_code="" seat="10" chips="71,654"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="900" type="15"/>
+   <action player="Bskrsk" no="2" sum="900" type="15"/>
+   <action player="doctorfifth916" no="3" sum="900" type="15"/>
+   <action player="Cem1994" no="4" sum="900" type="15"/>
+   <action player="CassaBluff" no="5" sum="900" type="15"/>
+   <action player="YoooC" no="6" sum="900" type="15"/>
+   <action player="Batcar" no="7" sum="900" type="15"/>
+   <action player="patricisch" no="8" sum="900" type="15"/>
+   <action player="tropeiro123" no="9" sum="3,000" type="1"/>
+   <action player="Bskrsk" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="11" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="12" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="13" sum="12,000" type="23"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="14" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="15" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 H9</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="18" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 CK C7</cards>
+   <action player="Bskrsk" no="19" sum="0" type="4"/>
+   <action player="CassaBluff" no="20" sum="9,600" type="5"/>
+   <action player="Bskrsk" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180271">
+  <general>
+   <startdate>2024-02-08 18:51:10</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="900" reg_code="" seat="1" chips="390,620"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="900" reg_code="7943862846" seat="2" chips="139,875"/>
+    <player win="19,200" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="34,080" reg_code="" seat="4" chips="35,000"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="6,900" reg_code="" seat="5" chips="98,200"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="125,650"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="452,225"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="900" reg_code="" seat="9" chips="172,800"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="900" reg_code="" seat="10" chips="70,754"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Bskrsk" no="1" sum="900" type="15"/>
+   <action player="doctorfifth916" no="2" sum="900" type="15"/>
+   <action player="Cem1994" no="3" sum="900" type="15"/>
+   <action player="CassaBluff" no="4" sum="900" type="15"/>
+   <action player="YoooC" no="5" sum="900" type="15"/>
+   <action player="Batcar" no="6" sum="900" type="15"/>
+   <action player="patricisch" no="7" sum="900" type="15"/>
+   <action player="tropeiro123" no="8" sum="900" type="15"/>
+   <action player="Bskrsk" no="9" sum="3,000" type="1"/>
+   <action player="doctorfifth916" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="11" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="12" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="13" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="14" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 H9</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="17" sum="34,080" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180280">
+  <general>
+   <startdate>2024-02-08 18:51:37</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="149,700" reg_code="" seat="1" chips="389,720"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="138,975"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="1" bet="900" reg_code="" seat="4" chips="47,300"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="3,900" reg_code="" seat="5" chips="91,300"/>
+    <player win="257,900" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="124,750" reg_code="" seat="6" chips="124,750"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="451,325"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="900" reg_code="" seat="9" chips="171,900"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="900" reg_code="" seat="10" chips="69,854"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorfifth916" no="1" sum="900" type="15"/>
+   <action player="Cem1994" no="2" sum="900" type="15"/>
+   <action player="CassaBluff" no="3" sum="900" type="15"/>
+   <action player="YoooC" no="4" sum="900" type="15"/>
+   <action player="Batcar" no="5" sum="900" type="15"/>
+   <action player="patricisch" no="6" sum="900" type="15"/>
+   <action player="tropeiro123" no="7" sum="900" type="15"/>
+   <action player="Bskrsk" no="8" sum="900" type="15"/>
+   <action player="doctorfifth916" no="9" sum="3,000" type="1"/>
+   <action player="Cem1994" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="12" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="13" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">S3 H3</cards>
+   <action player="patricisch" no="14" sum="12,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 DA</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">X X</cards>
+   <action player="Bskrsk" no="16" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="17" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">C3 C5</cards>
+   <action player="Cem1994" no="18" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 H6 C10</cards>
+   <action player="Cem1994" no="19" sum="0" type="4"/>
+   <action player="patricisch" no="20" sum="17,100" type="5"/>
+   <action player="Cem1994" no="21" sum="34,200" type="23"/>
+   <action player="patricisch" no="22" sum="17,100" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action player="Cem1994" no="23" sum="0" type="4"/>
+   <action player="patricisch" no="24" sum="102,600" type="5"/>
+   <action player="Cem1994" no="25" sum="77,650" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10553180305">
+  <general>
+   <startdate>2024-02-08 18:53:04</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="900" reg_code="" seat="1" chips="264,970"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="138,075"/>
+    <player win="0" rebuy="0" addon="0" name="Bskrsk" dealer="0" bet="46,400" reg_code="" seat="4" chips="46,400"/>
+    <player win="107,200" rebuy="0" addon="0" name="doctorfifth916" dealer="1" bet="84,960" reg_code="" seat="5" chips="87,400"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="3,900" reg_code="" seat="6" chips="257,900"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="6,900" reg_code="" seat="7" chips="450,425"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="900" reg_code="" seat="9" chips="171,000"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="900" reg_code="" seat="10" chips="68,954"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Cem1994" no="1" sum="900" type="15"/>
+   <action player="CassaBluff" no="2" sum="900" type="15"/>
+   <action player="YoooC" no="3" sum="900" type="15"/>
+   <action player="Batcar" no="4" sum="900" type="15"/>
+   <action player="patricisch" no="5" sum="900" type="15"/>
+   <action player="tropeiro123" no="6" sum="900" type="15"/>
+   <action player="Bskrsk" no="7" sum="900" type="15"/>
+   <action player="doctorfifth916" no="8" sum="900" type="15"/>
+   <action player="Cem1994" no="9" sum="3,000" type="1"/>
+   <action player="CassaBluff" no="10" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="11" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="12" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 C5</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Bskrsk" type="Pocket">D2 DA</cards>
+   <action player="Bskrsk" no="15" sum="45,480" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">CJ HJ</cards>
+   <action player="doctorfifth916" no="16" sum="84,960" type="23"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="17" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="18" sum="0" type="0"/>
+   <action player="Bskrsk" no="19" sum="20" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK H8 DK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+  </round>
+ </game>
+ <game gamecode="10553180324">
+  <general>
+   <startdate>2024-02-08 18:53:54</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="900" reg_code="" seat="1" chips="264,070"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="137,175"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="148,200"/>
+    <player win="33,300" rebuy="0" addon="0" name="Cem1994" dealer="1" bet="23,889" reg_code="" seat="6" chips="254,000"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="3,900" reg_code="" seat="7" chips="443,525"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="12,900" reg_code="" seat="9" chips="170,100"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="900" reg_code="" seat="10" chips="68,054"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="900" type="15"/>
+   <action player="YoooC" no="2" sum="900" type="15"/>
+   <action player="Batcar" no="3" sum="900" type="15"/>
+   <action player="patricisch" no="4" sum="900" type="15"/>
+   <action player="tropeiro123" no="5" sum="900" type="15"/>
+   <action player="doctorfifth916" no="6" sum="900" type="15"/>
+   <action player="Cem1994" no="7" sum="900" type="15"/>
+   <action player="CassaBluff" no="8" sum="3,000" type="1"/>
+   <action player="YoooC" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Batcar" type="Pocket">X X</cards>
+   <action player="Batcar" no="10" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 H5</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="13" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="14" sum="12,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="15" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="16" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ CQ C7</cards>
+   <action player="YoooC" no="17" sum="0" type="4"/>
+   <action player="Cem1994" no="18" sum="10,989" type="5"/>
+   <action player="YoooC" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180339">
+  <general>
+   <startdate>2024-02-08 18:54:36</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="900" reg_code="" seat="1" chips="263,170"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="136,275"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="147,300"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="274,400"/>
+    <player win="141,808" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="67,154" reg_code="" seat="7" chips="439,625"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="3,900" reg_code="" seat="9" chips="157,200"/>
+    <player win="0" rebuy="0" addon="0" name="Batcar" dealer="0" bet="66,254" reg_code="" seat="10" chips="67,154"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="YoooC" no="1" sum="900" type="15"/>
+   <action player="Batcar" no="2" sum="900" type="15"/>
+   <action player="patricisch" no="3" sum="900" type="15"/>
+   <action player="tropeiro123" no="4" sum="900" type="15"/>
+   <action player="doctorfifth916" no="5" sum="900" type="15"/>
+   <action player="Cem1994" no="6" sum="900" type="15"/>
+   <action player="CassaBluff" no="7" sum="900" type="15"/>
+   <action player="YoooC" no="8" sum="3,000" type="1"/>
+   <action player="Batcar" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA D3</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="12" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">DA HJ</cards>
+   <action player="CassaBluff" no="14" sum="12,000" type="23"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="15" sum="0" type="0"/>
+   <cards player="Batcar" type="Pocket">D5 S5</cards>
+   <action player="Batcar" no="16" sum="66,254" type="23"/>
+   <action player="CassaBluff" no="17" sum="54,254" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ D10 H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+ <game gamecode="10553180365">
+  <general>
+   <startdate>2024-02-08 19:00:54</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="3,900" reg_code="" seat="1" chips="262,270"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="12,900" reg_code="7943862846" seat="2" chips="135,375"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="900" reg_code="" seat="4" chips="331,903"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="146,400"/>
+    <player win="33,300" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="29,550" reg_code="" seat="6" chips="273,500"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="514,279"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="1" bet="900" reg_code="" seat="9" chips="153,300"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="patricisch" no="1" sum="900" type="15"/>
+   <action player="tropeiro123" no="2" sum="900" type="15"/>
+   <action player="Mandark" no="3" sum="900" type="15"/>
+   <action player="doctorfifth916" no="4" sum="900" type="15"/>
+   <action player="Cem1994" no="5" sum="900" type="15"/>
+   <action player="CassaBluff" no="6" sum="900" type="15"/>
+   <action player="YoooC" no="7" sum="900" type="15"/>
+   <action player="patricisch" no="8" sum="3,000" type="1"/>
+   <action player="tropeiro123" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="10" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="11" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="12" sum="12,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="13" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="14" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA H8</cards>
+   <action player="tropeiro123" no="16" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 D7 C6</cards>
+   <action player="tropeiro123" no="17" sum="0" type="4"/>
+   <action player="Cem1994" no="18" sum="16,650" type="5"/>
+   <action player="tropeiro123" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180399">
+  <general>
+   <startdate>2024-02-08 19:02:29</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="3,900" reg_code="7943862846" seat="2" chips="122,475"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="12,900" reg_code="" seat="4" chips="331,003"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="900" reg_code="" seat="5" chips="145,500"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="293,900"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="513,379"/>
+    <player win="33,300" rebuy="0" addon="0" name="YoooC" dealer="0" bet="12,900" reg_code="" seat="9" chips="152,400"/>
+    <player win="0" rebuy="0" addon="0" name="MeisterVogel" dealer="0" bet="900" reg_code="" seat="10" chips="100,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="900" type="15"/>
+   <action player="Mandark" no="2" sum="900" type="15"/>
+   <action player="doctorfifth916" no="3" sum="900" type="15"/>
+   <action player="Cem1994" no="4" sum="900" type="15"/>
+   <action player="CassaBluff" no="5" sum="900" type="15"/>
+   <action player="YoooC" no="6" sum="900" type="15"/>
+   <action player="MeisterVogel" no="7" sum="900" type="15"/>
+   <action player="tropeiro123" no="8" sum="3,000" type="1"/>
+   <action player="Mandark" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="10" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="11" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="12" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">C8 CJ</cards>
+   <action player="YoooC" no="13" sum="12,000" type="23"/>
+   <cards player="MeisterVogel" type="Pocket">X X</cards>
+   <action player="MeisterVogel" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK S8</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">C3 CQ</cards>
+   <action player="Mandark" no="16" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK S4 H7</cards>
+   <action player="Mandark" no="17" sum="0" type="4"/>
+   <action player="YoooC" no="18" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action player="Mandark" no="19" sum="0" type="4"/>
+   <action player="YoooC" no="20" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+   <action player="Mandark" no="21" sum="0" type="4"/>
+   <action player="YoooC" no="22" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10553180421">
+  <general>
+   <startdate>2024-02-08 19:03:42</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="900" reg_code="7943862846" seat="2" chips="118,575"/>
+    <player win="36,300" rebuy="0" addon="0" name="Mandark" dealer="0" bet="49,200" reg_code="" seat="4" chips="318,103"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="6,900" reg_code="" seat="5" chips="144,600"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="900" reg_code="" seat="6" chips="293,000"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="512,479"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="12,900" reg_code="" seat="9" chips="172,800"/>
+    <player win="0" rebuy="0" addon="0" name="MeisterVogel" dealer="0" bet="900" reg_code="" seat="10" chips="99,100"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Mandark" no="1" sum="900" type="15"/>
+   <action player="doctorfifth916" no="2" sum="900" type="15"/>
+   <action player="Cem1994" no="3" sum="900" type="15"/>
+   <action player="CassaBluff" no="4" sum="900" type="15"/>
+   <action player="YoooC" no="5" sum="900" type="15"/>
+   <action player="MeisterVogel" no="6" sum="900" type="15"/>
+   <action player="tropeiro123" no="7" sum="900" type="15"/>
+   <action player="Mandark" no="8" sum="3,000" type="1"/>
+   <action player="doctorfifth916" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="10" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="11" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="12" sum="12,000" type="23"/>
+   <cards player="MeisterVogel" type="Pocket">X X</cards>
+   <action player="MeisterVogel" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ C4</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="15" sum="9,000" type="3"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 D2 C7</cards>
+   <action player="Mandark" no="17" sum="0" type="4"/>
+   <action player="YoooC" no="18" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action player="Mandark" no="19" sum="36,300" type="5"/>
+   <action player="YoooC" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553180436">
+  <general>
+   <startdate>2024-02-08 19:04:25</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="900" reg_code="7943862846" seat="2" chips="117,675"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="1" bet="900" reg_code="" seat="4" chips="341,503"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="3,900" reg_code="" seat="5" chips="137,700"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="12,900" reg_code="" seat="6" chips="292,100"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="900" reg_code="" seat="7" chips="511,579"/>
+    <player win="33,300" rebuy="0" addon="0" name="YoooC" dealer="0" bet="30,900" reg_code="" seat="9" chips="159,900"/>
+    <player win="0" rebuy="0" addon="0" name="MeisterVogel" dealer="0" bet="900" reg_code="" seat="10" chips="98,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="doctorfifth916" no="1" sum="900" type="15"/>
+   <action player="Cem1994" no="2" sum="900" type="15"/>
+   <action player="CassaBluff" no="3" sum="900" type="15"/>
+   <action player="YoooC" no="4" sum="900" type="15"/>
+   <action player="MeisterVogel" no="5" sum="900" type="15"/>
+   <action player="tropeiro123" no="6" sum="900" type="15"/>
+   <action player="Mandark" no="7" sum="900" type="15"/>
+   <action player="doctorfifth916" no="8" sum="3,000" type="1"/>
+   <action player="Cem1994" no="9" sum="6,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="10" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="11" sum="12,000" type="23"/>
+   <cards player="MeisterVogel" type="Pocket">X X</cards>
+   <action player="MeisterVogel" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 DQ</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="14" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="15" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="16" sum="6,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H10 DA</cards>
+   <action player="Cem1994" no="17" sum="0" type="4"/>
+   <action player="YoooC" no="18" sum="18,000" type="5"/>
+   <action player="Cem1994" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553201942">
+  <general>
+   <startdate>2024-02-08 19:05:18</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="210,600" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="116,775" reg_code="7943862846" seat="2" chips="116,775"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="1,100" reg_code="" seat="4" chips="340,603"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="1" bet="1,100" reg_code="" seat="5" chips="133,800"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="4,600" reg_code="" seat="6" chips="279,200"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="8,100" reg_code="" seat="7" chips="510,679"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="1,100" reg_code="" seat="9" chips="180,300"/>
+    <player win="0" rebuy="0" addon="0" name="MeisterVogel" dealer="0" bet="96,200" reg_code="" seat="10" chips="97,300"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Cem1994" no="1" sum="1,100" type="15"/>
+   <action player="CassaBluff" no="2" sum="1,100" type="15"/>
+   <action player="YoooC" no="3" sum="1,100" type="15"/>
+   <action player="MeisterVogel" no="4" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="5" sum="1,100" type="15"/>
+   <action player="Mandark" no="6" sum="1,100" type="15"/>
+   <action player="doctorfifth916" no="7" sum="1,100" type="15"/>
+   <action player="Cem1994" no="8" sum="3,500" type="1"/>
+   <action player="CassaBluff" no="9" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="10" sum="0" type="0"/>
+   <cards player="MeisterVogel" type="Pocket">H10 C10</cards>
+   <action player="MeisterVogel" no="11" sum="96,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HK DK</cards>
+   <action player="tropeiro123" no="12" sum="115,675" type="7"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="13" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="14" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="15" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 DA S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10553201952">
+  <general>
+   <startdate>2024-02-08 19:05:47</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="2" chips="230,075"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="1,100" reg_code="" seat="4" chips="339,503"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="1,100" reg_code="" seat="5" chips="132,700"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="1" bet="1,100" reg_code="" seat="6" chips="274,600"/>
+    <player win="190,000" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="92,800" reg_code="" seat="7" chips="502,579"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="92,800" reg_code="" seat="9" chips="179,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CassaBluff" no="1" sum="1,100" type="15"/>
+   <action player="YoooC" no="2" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="3" sum="1,100" type="15"/>
+   <action player="Mandark" no="4" sum="1,100" type="15"/>
+   <action player="doctorfifth916" no="5" sum="1,100" type="15"/>
+   <action player="Cem1994" no="6" sum="1,100" type="15"/>
+   <action player="CassaBluff" no="7" sum="3,500" type="1"/>
+   <action player="YoooC" no="8" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H2 S3</cards>
+   <action player="tropeiro123" no="9" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="10" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="11" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="12" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">C8 DJ</cards>
+   <action player="CassaBluff" no="13" sum="21,700" type="23"/>
+   <cards player="YoooC" type="Pocket">DQ D10</cards>
+   <action player="YoooC" no="14" sum="14,700" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 H3 D7</cards>
+   <action player="CassaBluff" no="15" sum="0" type="4"/>
+   <action player="YoooC" no="16" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+   <action player="CassaBluff" no="17" sum="14,000" type="5"/>
+   <action player="YoooC" no="18" sum="14,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+   <action player="CassaBluff" no="19" sum="56,000" type="5"/>
+   <action player="YoooC" no="20" sum="56,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10553201979">
+  <general>
+   <startdate>2024-02-08 19:06:56</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="1,100" reg_code="" seat="1" chips="245,070"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="2" chips="228,975"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="1,100" reg_code="" seat="4" chips="338,403"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="1,100" reg_code="" seat="5" chips="131,600"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="1,100" reg_code="" seat="6" chips="273,500"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="1" bet="1,100" reg_code="" seat="7" chips="599,779"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="4,600" reg_code="" seat="9" chips="86,400"/>
+    <player win="15,800" rebuy="0" addon="0" name="feeelthelove" dealer="0" bet="8,100" reg_code="" seat="10" chips="454,348"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="YoooC" no="1" sum="1,100" type="15"/>
+   <action player="feeelthelove" no="2" sum="1,100" type="15"/>
+   <action player="patricisch" no="3" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="4" sum="1,100" type="15"/>
+   <action player="Mandark" no="5" sum="1,100" type="15"/>
+   <action player="doctorfifth916" no="6" sum="1,100" type="15"/>
+   <action player="Cem1994" no="7" sum="1,100" type="15"/>
+   <action player="CassaBluff" no="8" sum="1,100" type="15"/>
+   <action player="YoooC" no="9" sum="3,500" type="1"/>
+   <action player="feeelthelove" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="feeelthelove" type="Pocket">X X</cards>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 S6</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="13" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="14" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="15" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="16" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553201992">
+  <general>
+   <startdate>2024-02-08 19:07:21</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="65,900" reg_code="" seat="1" chips="243,970"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="2" chips="227,875"/>
+    <player win="0" rebuy="0" addon="0" name="Mandark" dealer="0" bet="1,100" reg_code="" seat="4" chips="337,303"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="1,100" reg_code="" seat="5" chips="130,500"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="15,100" reg_code="" seat="6" chips="272,400"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="1,100" reg_code="" seat="7" chips="598,679"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="1" bet="1,100" reg_code="" seat="9" chips="81,800"/>
+    <player win="152,400" rebuy="0" addon="0" name="feeelthelove" dealer="0" bet="282,900" reg_code="" seat="10" chips="465,548"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="feeelthelove" no="1" sum="1,100" type="15"/>
+   <action player="patricisch" no="2" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="3" sum="1,100" type="15"/>
+   <action player="Mandark" no="4" sum="1,100" type="15"/>
+   <action player="doctorfifth916" no="5" sum="1,100" type="15"/>
+   <action player="Cem1994" no="6" sum="1,100" type="15"/>
+   <action player="CassaBluff" no="7" sum="1,100" type="15"/>
+   <action player="YoooC" no="8" sum="1,100" type="15"/>
+   <action player="feeelthelove" no="9" sum="3,500" type="1"/>
+   <action player="patricisch" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ C5</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="12" sum="0" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="13" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="14" sum="14,000" type="23"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="15" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="16" sum="0" type="0"/>
+   <cards player="feeelthelove" type="Pocket">X X</cards>
+   <action player="feeelthelove" no="17" sum="10,500" type="3"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="18" sum="7,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 HA D9</cards>
+   <action player="feeelthelove" no="19" sum="0" type="4"/>
+   <action player="patricisch" no="20" sum="0" type="4"/>
+   <action player="Cem1994" no="21" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action player="feeelthelove" no="22" sum="50,800" type="5"/>
+   <action player="patricisch" no="23" sum="50,800" type="3"/>
+   <action player="Cem1994" no="24" sum="0" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action player="feeelthelove" no="25" sum="217,000" type="5"/>
+   <action player="patricisch" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202014">
+  <general>
+   <startdate>2024-02-08 19:08:40</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="patricisch" dealer="0" bet="4,600" reg_code="" seat="1" chips="178,070"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="15,800" reg_code="7943862846" seat="2" chips="226,775"/>
+    <player win="41,700" rebuy="0" addon="0" name="Mandark" dealer="0" bet="26,225" reg_code="" seat="4" chips="336,203"/>
+    <player win="0" rebuy="0" addon="0" name="doctorfifth916" dealer="0" bet="1,100" reg_code="" seat="5" chips="129,400"/>
+    <player win="0" rebuy="0" addon="0" name="Cem1994" dealer="0" bet="1,100" reg_code="" seat="6" chips="257,300"/>
+    <player win="0" rebuy="0" addon="0" name="CassaBluff" dealer="0" bet="1,100" reg_code="" seat="7" chips="597,579"/>
+    <player win="0" rebuy="0" addon="0" name="YoooC" dealer="0" bet="1,100" reg_code="" seat="9" chips="80,700"/>
+    <player win="0" rebuy="0" addon="0" name="feeelthelove" dealer="1" bet="1,100" reg_code="" seat="10" chips="552,048"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="patricisch" no="1" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="2" sum="1,100" type="15"/>
+   <action player="Mandark" no="3" sum="1,100" type="15"/>
+   <action player="doctorfifth916" no="4" sum="1,100" type="15"/>
+   <action player="Cem1994" no="5" sum="1,100" type="15"/>
+   <action player="CassaBluff" no="6" sum="1,100" type="15"/>
+   <action player="YoooC" no="7" sum="1,100" type="15"/>
+   <action player="feeelthelove" no="8" sum="1,100" type="15"/>
+   <action player="patricisch" no="9" sum="3,500" type="1"/>
+   <action player="tropeiro123" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action player="Mandark" no="11" sum="14,700" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action player="doctorfifth916" no="12" sum="0" type="0"/>
+   <cards player="Cem1994" type="Pocket">X X</cards>
+   <action player="Cem1994" no="13" sum="0" type="0"/>
+   <cards player="CassaBluff" type="Pocket">X X</cards>
+   <action player="CassaBluff" no="14" sum="0" type="0"/>
+   <cards player="YoooC" type="Pocket">X X</cards>
+   <action player="YoooC" no="15" sum="0" type="0"/>
+   <cards player="feeelthelove" type="Pocket">X X</cards>
+   <action player="feeelthelove" no="16" sum="0" type="0"/>
+   <cards player="patricisch" type="Pocket">X X</cards>
+   <action player="patricisch" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 CQ</cards>
+   <action player="tropeiro123" no="18" sum="7,700" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S8 SK</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="Mandark" no="20" sum="10,425" type="5"/>
+   <action player="tropeiro123" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202037">
+  <general>
+   <startdate>2024-02-08 19:09:42</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="seldomwrong" dealer="1" bet="1,100" reg_code="" seat="1" chips="100,000"/>
+    <player win="21,700" rebuy="0" addon="0" name="AntonMagnus" dealer="0" bet="99,858" reg_code="" seat="4" chips="100,958"/>
+    <player win="0" rebuy="0" addon="0" name="chrs108" dealer="0" bet="8,100" reg_code="" seat="5" chips="89,165"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="6" chips="210,975"/>
+    <player win="0" rebuy="0" addon="0" name="SweetDaddy" dealer="0" bet="1,100" reg_code="" seat="7" chips="133,674"/>
+    <player win="0" rebuy="0" addon="0" name="thatCriss" dealer="0" bet="1,100" reg_code="" seat="9" chips="288,204"/>
+    <player win="0" rebuy="0" addon="0" name="Salgari8" dealer="0" bet="1,100" reg_code="" seat="10" chips="307,700"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AntonMagnus" no="1" sum="1,100" type="15"/>
+   <action player="chrs108" no="2" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="3" sum="1,100" type="15"/>
+   <action player="SweetDaddy" no="4" sum="1,100" type="15"/>
+   <action player="thatCriss" no="5" sum="1,100" type="15"/>
+   <action player="Salgari8" no="6" sum="1,100" type="15"/>
+   <action player="seldomwrong" no="7" sum="1,100" type="15"/>
+   <action player="AntonMagnus" no="8" sum="3,500" type="1"/>
+   <action player="chrs108" no="9" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H5 S2</cards>
+   <action player="tropeiro123" no="10" sum="0" type="0"/>
+   <cards player="SweetDaddy" type="Pocket">X X</cards>
+   <action player="SweetDaddy" no="11" sum="0" type="0"/>
+   <cards player="thatCriss" type="Pocket">X X</cards>
+   <action player="thatCriss" no="12" sum="0" type="0"/>
+   <cards player="Salgari8" type="Pocket">X X</cards>
+   <action player="Salgari8" no="13" sum="0" type="0"/>
+   <cards player="seldomwrong" type="Pocket">X X</cards>
+   <action player="seldomwrong" no="14" sum="0" type="0"/>
+   <cards player="AntonMagnus" type="Pocket">X X</cards>
+   <action player="AntonMagnus" no="15" sum="99,858" type="23"/>
+   <cards player="chrs108" type="Pocket">X X</cards>
+   <action player="chrs108" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202061">
+  <general>
+   <startdate>2024-02-08 19:10:51</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="seldomwrong" dealer="0" bet="98,900" reg_code="" seat="1" chips="98,900"/>
+    <player win="0" rebuy="0" addon="0" name="deise20" dealer="0" bet="1,100" reg_code="" seat="2" chips="224,523"/>
+    <player win="214,900" rebuy="0" addon="0" name="AntonMagnus" dealer="1" bet="98,900" reg_code="" seat="4" chips="114,558"/>
+    <player win="0" rebuy="0" addon="0" name="chrs108" dealer="0" bet="4,600" reg_code="" seat="5" chips="81,065"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="8,100" reg_code="7943862846" seat="6" chips="209,875"/>
+    <player win="0" rebuy="0" addon="0" name="SweetDaddy" dealer="0" bet="1,100" reg_code="" seat="7" chips="132,574"/>
+    <player win="0" rebuy="0" addon="0" name="thatCriss" dealer="0" bet="1,100" reg_code="" seat="9" chips="287,104"/>
+    <player win="0" rebuy="0" addon="0" name="Salgari8" dealer="0" bet="1,100" reg_code="" seat="10" chips="306,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="chrs108" no="1" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="2" sum="1,100" type="15"/>
+   <action player="SweetDaddy" no="3" sum="1,100" type="15"/>
+   <action player="thatCriss" no="4" sum="1,100" type="15"/>
+   <action player="Salgari8" no="5" sum="1,100" type="15"/>
+   <action player="seldomwrong" no="6" sum="1,100" type="15"/>
+   <action player="deise20" no="7" sum="1,100" type="15"/>
+   <action player="AntonMagnus" no="8" sum="1,100" type="15"/>
+   <action player="chrs108" no="9" sum="3,500" type="1"/>
+   <action player="tropeiro123" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SweetDaddy" type="Pocket">X X</cards>
+   <action player="SweetDaddy" no="11" sum="0" type="0"/>
+   <cards player="thatCriss" type="Pocket">X X</cards>
+   <action player="thatCriss" no="12" sum="0" type="0"/>
+   <cards player="Salgari8" type="Pocket">X X</cards>
+   <action player="Salgari8" no="13" sum="0" type="0"/>
+   <cards player="seldomwrong" type="Pocket">D6 D10</cards>
+   <action player="seldomwrong" no="14" sum="14,000" type="23"/>
+   <cards player="deise20" type="Pocket">X X</cards>
+   <action player="deise20" no="15" sum="0" type="0"/>
+   <cards player="AntonMagnus" type="Pocket">CK SK</cards>
+   <action player="AntonMagnus" no="16" sum="25,200" type="23"/>
+   <cards player="chrs108" type="Pocket">X X</cards>
+   <action player="chrs108" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 S9</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="seldomwrong" no="19" sum="11,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 S10 C4</cards>
+   <action player="seldomwrong" no="20" sum="0" type="4"/>
+   <action player="AntonMagnus" no="21" sum="19,516" type="5"/>
+   <action player="seldomwrong" no="22" sum="72,600" type="23"/>
+   <action player="AntonMagnus" no="23" sum="53,084" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+  </round>
+ </game>
+ <game gamecode="10553202081">
+  <general>
+   <startdate>2024-02-08 19:11:54</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="4,600" reg_code="" seat="1" chips="317,418"/>
+    <player win="0" rebuy="0" addon="0" name="donraisemeeeeee" dealer="0" bet="15,100" reg_code="" seat="2" chips="77,264"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="1,100" reg_code="" seat="4" chips="465,796"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,100" reg_code="" seat="5" chips="213,800"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,100" reg_code="" seat="6" chips="105,700"/>
+    <player win="39,200" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="32,740" reg_code="" seat="7" chips="297,895"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="1" bet="1,100" reg_code="" seat="10" chips="164,799"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="200k300k500k" no="1" sum="1,100" type="15"/>
+   <action player="donraisemeeeeee" no="2" sum="1,100" type="15"/>
+   <action player="JiggaWhoo" no="3" sum="1,100" type="15"/>
+   <action player="Boesephy" no="4" sum="1,100" type="15"/>
+   <action player="vovorun" no="5" sum="1,100" type="15"/>
+   <action player="Ill3romF" no="6" sum="1,100" type="15"/>
+   <action player="micampeao" no="7" sum="1,100" type="15"/>
+   <action player="200k300k500k" no="8" sum="3,500" type="1"/>
+   <action player="donraisemeeeeee" no="9" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="10" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="11" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="12" sum="0" type="0"/>
+   <cards player="Ill3romF" type="Pocket">X X</cards>
+   <action player="Ill3romF" no="13" sum="14,000" type="23"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="14" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="15" sum="0" type="0"/>
+   <cards player="donraisemeeeeee" type="Pocket">X X</cards>
+   <action player="donraisemeeeeee" no="16" sum="7,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 S10 SA</cards>
+   <action player="donraisemeeeeee" no="17" sum="0" type="4"/>
+   <action player="Ill3romF" no="18" sum="17,640" type="5"/>
+   <action player="donraisemeeeeee" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202098">
+  <general>
+   <startdate>2024-02-08 19:13:03</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="1" bet="1,100" reg_code="" seat="1" chips="312,818"/>
+    <player win="0" rebuy="0" addon="0" name="donraisemeeeeee" dealer="0" bet="61,064" reg_code="" seat="2" chips="62,164"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="8,100" reg_code="" seat="4" chips="464,696"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,100" reg_code="" seat="5" chips="212,700"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,100" reg_code="" seat="6" chips="104,600"/>
+    <player win="137,928" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="62,164" reg_code="" seat="7" chips="321,995"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="9" chips="201,775"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="1,100" reg_code="" seat="10" chips="163,699"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="donraisemeeeeee" no="1" sum="1,100" type="15"/>
+   <action player="JiggaWhoo" no="2" sum="1,100" type="15"/>
+   <action player="Boesephy" no="3" sum="1,100" type="15"/>
+   <action player="vovorun" no="4" sum="1,100" type="15"/>
+   <action player="Ill3romF" no="5" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="6" sum="1,100" type="15"/>
+   <action player="micampeao" no="7" sum="1,100" type="15"/>
+   <action player="200k300k500k" no="8" sum="1,100" type="15"/>
+   <action player="donraisemeeeeee" no="9" sum="3,500" type="1"/>
+   <action player="JiggaWhoo" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="11" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="12" sum="0" type="0"/>
+   <cards player="Ill3romF" type="Pocket">SA S7</cards>
+   <action player="Ill3romF" no="13" sum="14,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H6 S4</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="15" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="16" sum="0" type="0"/>
+   <cards player="donraisemeeeeee" type="Pocket">DA D4</cards>
+   <action player="donraisemeeeeee" no="17" sum="61,064" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="18" sum="0" type="0"/>
+   <action player="Ill3romF" no="19" sum="47,064" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C3 CJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10553202115">
+  <general>
+   <startdate>2024-02-08 19:13:51</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="1,100" reg_code="" seat="1" chips="311,718"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="4,600" reg_code="" seat="4" chips="456,596"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="15,100" reg_code="" seat="5" chips="211,600"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,100" reg_code="" seat="6" chips="103,500"/>
+    <player win="39,200" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="28,036" reg_code="" seat="7" chips="397,759"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943862846" seat="9" chips="200,675"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="1,100" reg_code="" seat="10" chips="162,599"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="JiggaWhoo" no="1" sum="1,100" type="15"/>
+   <action player="Boesephy" no="2" sum="1,100" type="15"/>
+   <action player="vovorun" no="3" sum="1,100" type="15"/>
+   <action player="Ill3romF" no="4" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="5" sum="1,100" type="15"/>
+   <action player="micampeao" no="6" sum="1,100" type="15"/>
+   <action player="200k300k500k" no="7" sum="1,100" type="15"/>
+   <action player="JiggaWhoo" no="8" sum="3,500" type="1"/>
+   <action player="Boesephy" no="9" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="10" sum="0" type="0"/>
+   <cards player="Ill3romF" type="Pocket">X X</cards>
+   <action player="Ill3romF" no="11" sum="14,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S3 H10</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="13" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="14" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="15" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="16" sum="7,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 C3 C10</cards>
+   <action player="Boesephy" no="17" sum="0" type="4"/>
+   <action player="Ill3romF" no="18" sum="12,936" type="5"/>
+   <action player="Boesephy" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202130">
+  <general>
+   <startdate>2024-02-08 19:14:28</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="1,200" reg_code="" seat="1" chips="310,618"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="1" bet="1,200" reg_code="" seat="4" chips="451,996"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="5,200" reg_code="" seat="5" chips="196,500"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="17,200" reg_code="" seat="6" chips="102,400"/>
+    <player win="44,400" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="31,852" reg_code="" seat="7" chips="421,859"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,200" reg_code="7943862846" seat="9" chips="199,575"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="1,200" reg_code="" seat="10" chips="161,499"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Boesephy" no="1" sum="1,200" type="15"/>
+   <action player="vovorun" no="2" sum="1,200" type="15"/>
+   <action player="Ill3romF" no="3" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="4" sum="1,200" type="15"/>
+   <action player="micampeao" no="5" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="6" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="7" sum="1,200" type="15"/>
+   <action player="Boesephy" no="8" sum="4,000" type="1"/>
+   <action player="vovorun" no="9" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ill3romF" type="Pocket">X X</cards>
+   <action player="Ill3romF" no="10" sum="16,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H6 CA</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="12" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="13" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="14" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="15" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="16" sum="8,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA D4 SK</cards>
+   <action player="vovorun" no="17" sum="0" type="4"/>
+   <action player="Ill3romF" no="18" sum="14,652" type="5"/>
+   <action player="vovorun" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553202142">
+  <general>
+   <startdate>2024-02-08 19:15:08</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="1,200" reg_code="" seat="1" chips="309,418"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="1,200" reg_code="" seat="2" chips="357,820"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="1,200" reg_code="" seat="4" chips="450,796"/>
+    <player win="201,600" rebuy="0" addon="0" name="Boesephy" dealer="1" bet="190,100" reg_code="" seat="5" chips="191,300"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="85,200" reg_code="" seat="6" chips="85,200"/>
+    <player win="0" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="9,200" reg_code="" seat="7" chips="449,059"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,200" reg_code="7943862846" seat="9" chips="198,375"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="17,200" reg_code="" seat="10" chips="160,299"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="vovorun" no="1" sum="1,200" type="15"/>
+   <action player="Ill3romF" no="2" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="3" sum="1,200" type="15"/>
+   <action player="micampeao" no="4" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="5" sum="1,200" type="15"/>
+   <action player="Bundes777" no="6" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="7" sum="1,200" type="15"/>
+   <action player="Boesephy" no="8" sum="1,200" type="15"/>
+   <action player="vovorun" no="9" sum="4,000" type="1"/>
+   <action player="Ill3romF" no="10" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H10 S2</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="12" sum="16,000" type="23"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="13" sum="0" type="0"/>
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="14" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="15" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">SJ CJ</cards>
+   <action player="Boesephy" no="16" sum="190,100" type="23"/>
+   <cards player="vovorun" type="Pocket">SA DQ</cards>
+   <action player="vovorun" no="17" sum="80,000" type="7"/>
+   <cards player="Ill3romF" type="Pocket">X X</cards>
+   <action player="Ill3romF" no="18" sum="0" type="0"/>
+   <action player="micampeao" no="19" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 S3 S8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10553233305">
+  <general>
+   <startdate>2024-02-08 19:16:09</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="1,200" reg_code="" seat="1" chips="308,218"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="31,999" reg_code="" seat="2" chips="356,620"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="1,200" reg_code="" seat="4" chips="449,596"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,200" reg_code="" seat="5" chips="307,700"/>
+    <player win="0" rebuy="0" addon="0" name="Ill3romF" dealer="0" bet="5,200" reg_code="" seat="7" chips="439,859"/>
+    <player win="73,998" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="62,798" reg_code="7943862846" seat="9" chips="197,175"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="1,200" reg_code="" seat="10" chips="143,099"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Ill3romF" no="1" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="2" sum="1,200" type="15"/>
+   <action player="micampeao" no="3" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="4" sum="1,200" type="15"/>
+   <action player="Bundes777" no="5" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="6" sum="1,200" type="15"/>
+   <action player="Boesephy" no="7" sum="1,200" type="15"/>
+   <action player="Ill3romF" no="8" sum="4,000" type="1"/>
+   <action player="tropeiro123" no="9" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="10" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="11" sum="0" type="0"/>
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="12" sum="16,000" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="13" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="14" sum="0" type="0"/>
+   <cards player="Ill3romF" type="Pocket">X X</cards>
+   <action player="Ill3romF" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ S7</cards>
+   <action player="tropeiro123" no="16" sum="8,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S3 D2</cards>
+   <action player="tropeiro123" no="17" sum="0" type="4"/>
+   <action player="Bundes777" no="18" sum="14,799" type="5"/>
+   <action player="tropeiro123" no="19" sum="45,598" type="23"/>
+   <action player="Bundes777" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553233325">
+  <general>
+   <startdate>2024-02-08 19:17:20</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="1,200" reg_code="" seat="1" chips="307,018"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="1,200" reg_code="" seat="2" chips="324,621"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="1,200" reg_code="" seat="4" chips="448,396"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,200" reg_code="" seat="5" chips="306,500"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,200" reg_code="" seat="6" chips="100,000"/>
+    <player win="24,400" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="237,974" reg_code="7943862846" seat="9" chips="239,174"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="9,200" reg_code="" seat="10" chips="141,899"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="1,200" type="15"/>
+   <action player="micampeao" no="2" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="3" sum="1,200" type="15"/>
+   <action player="Bundes777" no="4" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="5" sum="1,200" type="15"/>
+   <action player="Boesephy" no="6" sum="1,200" type="15"/>
+   <action player="vovorun" no="7" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="8" sum="4,000" type="1"/>
+   <action player="micampeao" no="9" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="10" sum="0" type="0"/>
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="11" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="12" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="13" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 CA</cards>
+   <action player="tropeiro123" no="15" sum="237,974" type="23"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553233335">
+  <general>
+   <startdate>2024-02-08 19:17:53</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="9,200" reg_code="" seat="1" chips="305,818"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="1,200" reg_code="" seat="2" chips="323,421"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="17,200" reg_code="" seat="4" chips="447,196"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,200" reg_code="" seat="5" chips="305,300"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,200" reg_code="" seat="6" chips="98,800"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="1,200" reg_code="7943862846" seat="9" chips="254,374"/>
+    <player win="48,400" rebuy="0" addon="0" name="micampeao" dealer="0" bet="131,499" reg_code="" seat="10" chips="132,699"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="micampeao" no="1" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="2" sum="1,200" type="15"/>
+   <action player="Bundes777" no="3" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="4" sum="1,200" type="15"/>
+   <action player="Boesephy" no="5" sum="1,200" type="15"/>
+   <action player="vovorun" no="6" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="7" sum="1,200" type="15"/>
+   <action player="micampeao" no="8" sum="4,000" type="1"/>
+   <action player="200k300k500k" no="9" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="10" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="11" sum="16,000" type="23"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="12" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 SQ</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="15" sum="131,499" type="23"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="16" sum="0" type="0"/>
+   <action player="JiggaWhoo" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553233350">
+  <general>
+   <startdate>2024-02-08 19:18:36</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="81,600" rebuy="0" addon="0" name="200k300k500k" dealer="0" bet="65,205" reg_code="" seat="1" chips="296,618"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="9,200" reg_code="" seat="2" chips="322,221"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="1,200" reg_code="" seat="4" chips="429,996"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="33,200" reg_code="" seat="5" chips="304,100"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,200" reg_code="" seat="6" chips="97,600"/>
+    <player win="0" rebuy="0" addon="0" name="WipeHype" dealer="0" bet="1,200" reg_code="" seat="7" chips="219,611"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,200" reg_code="7943862846" seat="9" chips="253,174"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="1" bet="1,200" reg_code="" seat="10" chips="163,899"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="200k300k500k" no="1" sum="1,200" type="15"/>
+   <action player="Bundes777" no="2" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="3" sum="1,200" type="15"/>
+   <action player="Boesephy" no="4" sum="1,200" type="15"/>
+   <action player="vovorun" no="5" sum="1,200" type="15"/>
+   <action player="WipeHype" no="6" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="7" sum="1,200" type="15"/>
+   <action player="micampeao" no="8" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="9" sum="4,000" type="1"/>
+   <action player="Bundes777" no="10" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="11" sum="0" type="0"/>
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="12" sum="16,000" type="23"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="13" sum="0" type="0"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action player="WipeHype" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 S3</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="16" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="17" sum="12,000" type="3"/>
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ C7 H6</cards>
+   <action player="200k300k500k" no="19" sum="0" type="4"/>
+   <action player="Boesephy" no="20" sum="16,000" type="5"/>
+   <action player="200k300k500k" no="21" sum="48,005" type="23"/>
+   <action player="Boesephy" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10553233385">
+  <general>
+   <startdate>2024-02-08 19:20:25</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>1,200</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="200k300k500k" dealer="1" bet="1,200" reg_code="" seat="1" chips="345,018"/>
+    <player win="0" rebuy="0" addon="0" name="Bundes777" dealer="0" bet="5,200" reg_code="" seat="2" chips="313,021"/>
+    <player win="0" rebuy="0" addon="0" name="JiggaWhoo" dealer="0" bet="9,200" reg_code="" seat="4" chips="428,796"/>
+    <player win="0" rebuy="0" addon="0" name="Boesephy" dealer="0" bet="1,200" reg_code="" seat="5" chips="270,900"/>
+    <player win="0" rebuy="0" addon="0" name="vovorun" dealer="0" bet="1,200" reg_code="" seat="6" chips="96,400"/>
+    <player win="0" rebuy="0" addon="0" name="WipeHype" dealer="0" bet="1,200" reg_code="" seat="7" chips="218,411"/>
+    <player win="29,600" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="16,800" reg_code="7943862846" seat="9" chips="251,974"/>
+    <player win="0" rebuy="0" addon="0" name="micampeao" dealer="0" bet="1,200" reg_code="" seat="10" chips="162,699"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Bundes777" no="1" sum="1,200" type="15"/>
+   <action player="JiggaWhoo" no="2" sum="1,200" type="15"/>
+   <action player="Boesephy" no="3" sum="1,200" type="15"/>
+   <action player="vovorun" no="4" sum="1,200" type="15"/>
+   <action player="WipeHype" no="5" sum="1,200" type="15"/>
+   <action player="tropeiro123" no="6" sum="1,200" type="15"/>
+   <action player="micampeao" no="7" sum="1,200" type="15"/>
+   <action player="200k300k500k" no="8" sum="1,200" type="15"/>
+   <action player="Bundes777" no="9" sum="4,000" type="1"/>
+   <action player="JiggaWhoo" no="10" sum="8,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Boesephy" type="Pocket">X X</cards>
+   <action player="Boesephy" no="11" sum="0" type="0"/>
+   <cards player="vovorun" type="Pocket">X X</cards>
+   <action player="vovorun" no="12" sum="0" type="0"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action player="WipeHype" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA C6</cards>
+   <action player="tropeiro123" no="14" sum="16,800" type="23"/>
+   <cards player="micampeao" type="Pocket">X X</cards>
+   <action player="micampeao" no="15" sum="0" type="0"/>
+   <cards player="200k300k500k" type="Pocket">X X</cards>
+   <action player="200k300k500k" no="16" sum="0" type="0"/>
+   <cards player="Bundes777" type="Pocket">X X</cards>
+   <action player="Bundes777" no="17" sum="0" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action player="JiggaWhoo" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

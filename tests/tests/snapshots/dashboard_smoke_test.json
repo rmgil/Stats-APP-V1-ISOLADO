@@ -1,0 +1,27 @@
+{
+  "page_title": true,
+  "trends_chart": true,
+  "score_gauge": true,
+  "heatmap_chart": true,
+  "street_chart": true,
+  "position_chart": true,
+  "filters": {
+    "family": true,
+    "group": true,
+    "months": true
+  },
+  "api_calls": {
+    "timeseries": true,
+    "breakdown": true,
+    "score": true
+  },
+  "javascript_libs": {
+    "chart_js": true,
+    "bootstrap": true
+  },
+  "functions": {
+    "refresh": true,
+    "load_trends": true,
+    "load_breakdown": true
+  }
+}

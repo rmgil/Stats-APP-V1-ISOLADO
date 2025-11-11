@@ -1,0 +1,200 @@
+10.C — Página única (drag‑and‑drop, progresso, cards)
+
+Substitui/renova templates/dashboard_v2.html por uma página limpa (tema escuro), com upload e dashboard no mesmo ecrã.
+
+<!-- templates/dashboard_v2.html -->
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{background:#0d1117;color:#e6edf3}
+    .card{background:#161b22;border:1px solid #30363d}
+    .badge-A{background:#198754}.badge-B{background:#20c997}
+    .badge-C{background:#ffc107;color:#111}.badge-D{background:#fd7e14}
+    .badge-E{background:#dc3545}
+    .percent{font-variant-numeric: tabular-nums}
+    .dropzone{border:2px dashed #495057;border-radius:12px;padding:32px;text-align:center;color:#adb5bd}
+    .dropzone.drag{border-color:#6ea8fe;color:#6ea8fe}
+    .muted{color:#8b949e}
+  </style>
+</head>
+<body class="p-3">
+  <div class="container-xxl">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h1 class="h3 m-0">Importar &amp; Analisar MTT</h1>
+      <a class="btn btn-outline-secondary btn-sm" href="/pipeline">Pipeline Clássico</a>
+    </div>
+
+    <!-- Upload -->
+    <div id="uploader" class="card mb-3">
+      <div class="card-body">
+        <div id="drop" class="dropzone">
+          <div class="mb-2">Largue o <b>ZIP</b> com ficheiros <b>.TXT</b> aqui</div>
+          <input id="file" type="file" accept=".zip" class="form-control" style="max-width:360px;margin:0 auto">
+          <div class="small muted mt-2">Classificação automática: NON‑KO / PKO / Mystery</div>
+        </div>
+        <div class="progress mt-3 d-none" id="progWrap">
+          <div id="prog" class="progress-bar progress-bar-striped progress-bar-animated" style="width:0%"></div>
+        </div>
+        <button id="run" class="btn btn-primary mt-3">Processar</button>
+        <span id="err" class="text-danger ms-3"></span>
+      </div>
+    </div>
+
+    <!-- Header resumido -->
+    <div id="header" class="card mb-3 d-none">
+      <div class="card-body d-flex flex-wrap gap-3 align-items-center">
+        <div><span class="muted">Job</span><div id="hJob" class="fw-bold"></div></div>
+        <div><span class="muted">Meses</span><div id="hMonths"></div></div>
+        <div><span class="muted">Time‑decay</span><div id="hWeights"></div></div>
+        <div class="ms-auto">
+          <div class="muted">Overall</div>
+          <div class="display-6" id="hOverall">–</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Groups / Subgroups / Stats -->
+    <div id="groups" class="d-none"></div>
+  </div>
+
+  <script>
+  const qs = (s,el=document)=>el.querySelector(s);
+  const ce = (t)=>document.createElement(t);
+  const progWrap = qs('#progWrap'), prog = qs('#prog'), err = qs('#err');
+
+  let ACTIVE_JOB = new URLSearchParams(location.search).get('job') || null;
+
+  function setProgress(x){ progWrap.classList.remove('d-none'); prog.style.width = x+'%'; }
+
+  function badgeGrade(g){
+    if(!g || g==='-') return '<span class="badge bg-secondary">-</span>';
+    const cls = {'A':'badge-A','B':'badge-B','C':'badge-C','D':'badge-D','E':'badge-E'}[g]||'bg-secondary';
+    return `<span class="badge ${cls}">${g}</span>`;
+  }
+
+  async function postZip(file){
+    setProgress(10);
+    const fd = new FormData(); fd.append('file', file); fd.append('ui','v2');
+    const r = await fetch('/upload_v2', {method:'POST', body:fd});
+    const j = await r.json();
+    if(!r.ok || !j.ok){ throw new Error(j.detail || j.error || 'Falha no upload'); }
+    ACTIVE_JOB = j.job_id; setProgress(35);
+    // dispara pipeline do job
+    const p = await fetch('/api/pipeline/run?job='+encodeURIComponent(ACTIVE_JOB), {method:'POST'});
+    const pj = await p.json(); if(!p.ok || !pj.ok) throw new Error(pj.detail||pj.error||'Falha no pipeline');
+    setProgress(80);
+  }
+
+  async function loadOverview(){
+    const r = await fetch('/api/dashboard/overview?job='+encodeURIComponent(ACTIVE_JOB));
+    const j = await r.json();
+    if(!r.ok || !j.ok) throw new Error(j.detail||j.error||'Falha no overview');
+    setProgress(100);
+    renderOverview(j.data);
+  }
+
+  function renderOverview(d){
+    qs('#uploader').classList.add('mb-2');
+    const header = qs('#header'); header.classList.remove('d-none');
+    qs('#hJob').textContent = ACTIVE_JOB;
+    qs('#hMonths').textContent = d.months && d.months.length? d.months.slice(0,3).join(', '): '–';
+    qs('#hWeights').textContent = (d.weights||[]).map(x=>(x*100).toFixed(0)+'%').join(' / ') || '–';
+    qs('#hOverall').textContent = (d.overall?.score ?? '–');
+
+    const container = qs('#groups'); container.classList.remove('d-none'); container.innerHTML = '';
+    Object.entries(d.groups||{}).forEach(([gName, g])=>{
+      const gCard = ce('div'); gCard.className='card mb-3';
+      gCard.innerHTML = `
+        <div class="card-body">
+          <div class="d-flex align-items-center mb-2">
+            <h5 class="m-0">${gName}</h5>
+            <span class="ms-3 badge bg-info">peso ${(g.weight*100).toFixed(0)}%</span>
+            <div class="ms-auto muted">score</div>
+            <div class="ms-2 h4 m-0">${g.score ?? '–'}</div>
+          </div>
+          <div class="row g-3" data-subgroups></div>
+        </div>`;
+      const row = qs('[data-subgroups]', gCard);
+
+      Object.entries(g.subgroups||{}).forEach(([sgName, sg])=>{
+        const col = ce('div'); col.className='col-12 col-xl-6';
+        const box = ce('div'); box.className='card';
+        const statsRows = (sg.stats||[]).map(s=>{
+          const pct = (s.pct==null)?'–':`${s.pct.toFixed(2)}%`;
+          const sample = (s.opps>0)? `${s.attempts}/${s.opps}` : '0/0';
+          const note = (s.score==null)?'–':s.score.toFixed?.(0)??s.score;
+          return `
+            <tr>
+              <td class="w-50"><code>${s.name}</code></td>
+              <td class="percent">${pct}</td>
+              <td class="text-muted">${sample}</td>
+              <td>${note}</td>
+              <td>${badgeGrade(s.grade)}</td>
+              <td class="text-end">
+                <button class="btn btn-sm btn-outline-light" data-excerpt='${JSON.stringify({ids:s.ids, name:s.name}).replaceAll("'","&apos;")}'>Ver mãos</button>
+              </td>
+            </tr>`;
+        }).join('');
+        box.innerHTML = `
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <h6 class="m-0">${sgName}</h6>
+              <div class="ms-auto muted">score</div>
+              <div class="ms-2 h5 m-0">${sg.score ?? '–'}</div>
+            </div>
+            <div class="table-responsive">
+              <table class="table table-sm align-middle">
+                <thead class="muted"><tr>
+                  <th>Stat</th><th>%</th><th>Amostra</th><th>Nota</th><th></th><th class="text-end">Hands</th>
+                </tr></thead>
+                <tbody>${statsRows}</tbody>
+              </table>
+            </div>
+          </div>`;
+        col.appendChild(box); row.appendChild(col);
+      });
+      container.appendChild(gCard);
+    });
+
+    // delegação p/ excerpts
+    container.addEventListener('click', async (ev)=>{
+      const btn = ev.target.closest('button[data-excerpt]'); if(!btn) return;
+      const payload = JSON.parse(btn.getAttribute('data-excerpt').replaceAll('&apos;',"'"));
+      // chama a tua API de hands/index -> excerpt
+      const handRes = await fetch(`/api/stats/hands?job=${encodeURIComponent(ACTIVE_JOB)}&stat=${encodeURIComponent(payload.name)}`);
+      const h = await handRes.json();
+      if(!handRes.ok || !h.ok) { alert('Sem mãos para esta stat.'); return; }
+      const first = h.hand_ids?.[0]; if(!first){ alert('Sem mãos.'); return; }
+      const ex = await fetch(`/api/hh/excerpt?id=${encodeURIComponent(first)}`);
+      const t = await ex.text();
+      alert(t.slice(0,2000)); // simples; podes trocar por modal bonito
+    });
+  }
+
+  // Upload handlers
+  const drop = qs('#drop'), inp = qs('#file'); let fsel=null;
+  drop.addEventListener('dragover', e=>{e.preventDefault();drop.classList.add('drag')});
+  drop.addEventListener('dragleave', e=>{drop.classList.remove('drag')});
+  drop.addEventListener('drop', e=>{e.preventDefault();drop.classList.remove('drag');fsel=e.dataTransfer.files[0]; inp.files = e.dataTransfer.files;});
+  inp.addEventListener('change', e=>{fsel=e.target.files[0]||null});
+  qs('#run').addEventListener('click', async ()=>{
+    try{
+      err.textContent='';
+      if(!ACTIVE_JOB && !fsel) throw new Error('Escolhe um .zip primeiro');
+      if(!ACTIVE_JOB){ await postZip(fsel); }
+      await loadOverview();
+      document.title = 'Dashboard — '+ACTIVE_JOB;
+      history.replaceState({}, '', '?job='+encodeURIComponent(ACTIVE_JOB));
+    }catch(e){ err.textContent = 'Erro: '+(e.message||e); setProgress(0); }
+  });
+
+  // Se já veio com ?job=..., só carregar
+  if(ACTIVE_JOB){ loadOverview().catch(e=>{err.textContent='Erro: '+(e.message||e)}) }
+  </script>
+</body>
+</html>

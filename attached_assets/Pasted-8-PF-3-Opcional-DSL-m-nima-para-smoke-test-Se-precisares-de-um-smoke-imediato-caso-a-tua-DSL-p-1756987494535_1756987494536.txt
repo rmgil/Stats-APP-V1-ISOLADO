@@ -1,0 +1,66 @@
+8.PF‑3 — (Opcional) DSL mínima para smoke test
+
+Se precisares de um smoke imediato (caso a tua DSL postflop ainda não esteja no stats.yml), adiciona estes blocos:
+
+# app/stats/dsl/stats.yml  (acrescentar)
+  - id: POST_CBET_FLOP_IP
+    label: "Flop CBet IP %"
+    family: "POSTFLOP_CBET"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    filters: {}
+    opportunity: { is_true: "cbet_flop_opp_ip" }
+    attempt:    { is_true: "cbet_flop_att_ip" }
+
+  - id: POST_VS_CBET_FLOP_FOLD_IP
+    label: "Flop fold vs Cbet (IP)"
+    family: "POSTFLOP_VS_CBET"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    filters: {}
+    opportunity:
+      # oportunidade implícita: faced cbet IP ⇒ detectada pelo próprio sinal de attempt/fold
+      is_true: "vs_cbet_flop_fold_ip"
+    attempt: { is_true: "vs_cbet_flop_fold_ip" }
+
+  - id: POST_DONK_FLOP
+    label: "Donk bet Flop"
+    family: "POSTFLOP_DONK"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    filters: {}
+    opportunity: { is_true: "donk_flop" }
+    attempt:    { is_true: "donk_flop" }
+
+  - id: POST_BET_VS_MISSED_CBET_SRP_FLOP
+    label: "Flop bet vs missed CBet (SRP)"
+    family: "POSTFLOP_MISSED_CBET"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    filters: { pot_type: ["SRP"] }
+    opportunity: { is_true: "flop_bet_vs_missed_cbet_srp" }
+    attempt:    { is_true: "flop_bet_vs_missed_cbet_srp" }
+
+  - id: POST_WTSD
+    label: "WTSD%"
+    family: "POSTFLOP_RIVER"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    filters: {}
+    opportunity: { is_true: "saw_flop" }
+    attempt:    { is_true: "saw_showdown" }
+
+  - id: POST_RIVER_AGG_PCT
+    label: "River Agg %"
+    family: "POSTFLOP_RIVER"
+    scope: postflop
+    applies_to_groups: ["postflop_all"]
+    # métrica direta (não é ratio). O engine vai colocar "percentage" mas podes tratá-lo como valor absoluto.
+    filters: {}
+    opportunity: { is_true: "saw_flop" }
+    attempt:
+      # considera attempt se river_agg_pct não for None (contabiliza ocorrência para média externa / leitura do valor)
+      is_true: "saw_flop"
+
+
+Se a tua DSL postflop já existe com estes IDs/sinais, não repitas — deixa como está.

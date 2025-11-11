@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960646648">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 | Sunday Bounty Hunter, 1082035586</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:08:07</duration>
+  <gamecount>7</gamecount>
+  <startdate>2024-02-25 14:24:15</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>12,053</bets>
+  <wins>1,110</wins>
+  <chipsin>9,990</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081389552</tournamentcode>
+  <tournamentname>€10,000 | Sunday Bounty Hunter</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10583668148">
+  <general>
+   <startdate>2024-02-25 14:24:15</startdate>
+   <smallblind>50</smallblind>
+   <bigblind>100</bigblind>
+   <ante>8</ante>
+   <players>
+    <player bet="9,602" addon="0" rebuy="0" win="0" chips="9,602" seat="1" name="VdmRS" reg_code="" dealer="0"/>
+    <player bet="7,385" addon="0" rebuy="0" win="14,960" chips="7,385" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="8" addon="0" rebuy="0" win="0" chips="9,333" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="8" addon="0" rebuy="0" win="0" chips="8,032" seat="6" name="FRED070" reg_code="" dealer="1"/>
+    <player bet="58" addon="0" rebuy="0" win="0" chips="12,254" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="108" addon="0" rebuy="0" win="0" chips="9,628" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="8" addon="0" rebuy="0" win="0" chips="11,611" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mandark" sum="8" type="15"/>
+   <action no="2" player="WhatApush" sum="8" type="15"/>
+   <action no="3" player="Volchara7" sum="8" type="15"/>
+   <action no="4" player="VdmRS" sum="8" type="15"/>
+   <action no="5" player="Ne0N1" sum="8" type="15"/>
+   <action no="6" player="flir1" sum="8" type="15"/>
+   <action no="7" player="FRED070" sum="8" type="15"/>
+   <action no="8" player="Mandark" sum="50" type="1"/>
+   <action no="9" player="WhatApush" sum="100" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="10" player="Volchara7" sum="0" type="0"/>
+   <cards player="VdmRS" type="Pocket">DJ HJ</cards>
+   <action no="11" player="VdmRS" sum="200" type="23"/>
+   <cards player="Ne0N1" type="Pocket">DQ CQ</cards>
+   <action no="12" player="Ne0N1" sum="700" type="23"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="13" player="flir1" sum="0" type="0"/>
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="14" player="FRED070" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="16" player="WhatApush" sum="0" type="0"/>
+   <action no="17" player="VdmRS" sum="1,600" type="23"/>
+   <action no="18" player="Ne0N1" sum="900" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 HQ S5</cards>
+   <action no="19" player="VdmRS" sum="900" type="5"/>
+   <action no="20" player="Ne0N1" sum="900" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action no="21" player="VdmRS" sum="7,094" type="5"/>
+   <action no="22" player="Ne0N1" sum="4,877" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+  </round>
+ </game>
+ <game gamecode="10583668334">
+  <general>
+   <startdate>2024-02-25 14:25:44</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="2,217" seat="1" name="VdmRS" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="10,000" seat="2" name="tropeiro123" reg_code="7960646648" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="14,960" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="436" addon="0" rebuy="0" win="620" chips="9,325" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="8,024" seat="6" name="FRED070" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,196" seat="7" name="Mandark" reg_code="" dealer="1"/>
+    <player bet="70" addon="0" rebuy="0" win="0" chips="9,520" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="250" addon="0" rebuy="0" win="0" chips="11,603" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WhatApush" sum="10" type="15"/>
+   <action no="2" player="Volchara7" sum="10" type="15"/>
+   <action no="3" player="VdmRS" sum="10" type="15"/>
+   <action no="4" player="tropeiro123" sum="10" type="15"/>
+   <action no="5" player="Ne0N1" sum="10" type="15"/>
+   <action no="6" player="flir1" sum="10" type="15"/>
+   <action no="7" player="FRED070" sum="10" type="15"/>
+   <action no="8" player="Mandark" sum="10" type="15"/>
+   <action no="9" player="WhatApush" sum="60" type="1"/>
+   <action no="10" player="Volchara7" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="VdmRS" type="Pocket">X X</cards>
+   <action no="11" player="VdmRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 H8</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Ne0N1" type="Pocket">X X</cards>
+   <action no="13" player="Ne0N1" sum="0" type="0"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="14" player="flir1" sum="240" type="23"/>
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="15" player="FRED070" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="16" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="17" player="WhatApush" sum="0" type="0"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="18" player="Volchara7" sum="120" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 SJ DA</cards>
+   <action no="19" player="Volchara7" sum="0" type="4"/>
+   <action no="20" player="flir1" sum="186" type="5"/>
+   <action no="21" player="Volchara7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668442">
+  <general>
+   <startdate>2024-02-25 14:26:29</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="310" addon="0" rebuy="0" win="0" chips="2,207" seat="1" name="VdmRS" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="9,990" seat="2" name="tropeiro123" reg_code="7960646648" dealer="0"/>
+    <player bet="495" addon="0" rebuy="0" win="740" chips="14,950" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="9,695" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="8,014" seat="6" name="FRED070" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,186" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="9,450" seat="9" name="WhatApush" reg_code="" dealer="1"/>
+    <player bet="70" addon="0" rebuy="0" win="0" chips="11,353" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Volchara7" sum="10" type="15"/>
+   <action no="2" player="VdmRS" sum="10" type="15"/>
+   <action no="3" player="tropeiro123" sum="10" type="15"/>
+   <action no="4" player="Ne0N1" sum="10" type="15"/>
+   <action no="5" player="flir1" sum="10" type="15"/>
+   <action no="6" player="FRED070" sum="10" type="15"/>
+   <action no="7" player="Mandark" sum="10" type="15"/>
+   <action no="8" player="WhatApush" sum="10" type="15"/>
+   <action no="9" player="Volchara7" sum="60" type="1"/>
+   <action no="10" player="VdmRS" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DQ H6</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Ne0N1" type="Pocket">X X</cards>
+   <action no="12" player="Ne0N1" sum="300" type="23"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="13" player="flir1" sum="0" type="0"/>
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="14" player="FRED070" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="15" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="16" player="WhatApush" sum="0" type="0"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="17" player="Volchara7" sum="0" type="0"/>
+   <cards player="VdmRS" type="Pocket">X X</cards>
+   <action no="18" player="VdmRS" sum="180" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ HJ DA</cards>
+   <action no="19" player="VdmRS" sum="0" type="4"/>
+   <action no="20" player="Ne0N1" sum="185" type="5"/>
+   <action no="21" player="VdmRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668532">
+  <general>
+   <startdate>2024-02-25 14:27:14</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="1,887" addon="0" rebuy="0" win="0" chips="1,897" seat="1" name="VdmRS" reg_code="" dealer="0"/>
+    <player bet="130" addon="0" rebuy="0" win="0" chips="9,980" seat="2" name="tropeiro123" reg_code="7960646648" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="15,380" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="9,685" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="1,897" addon="0" rebuy="0" win="4,694" chips="8,004" seat="6" name="FRED070" reg_code="" dealer="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="VdmRS"/>
+    </player>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,176" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="730" addon="0" rebuy="0" win="0" chips="9,440" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="11,283" seat="10" name="Volchara7" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="VdmRS" sum="10" type="15"/>
+   <action no="2" player="tropeiro123" sum="10" type="15"/>
+   <action no="3" player="Ne0N1" sum="10" type="15"/>
+   <action no="4" player="flir1" sum="10" type="15"/>
+   <action no="5" player="FRED070" sum="10" type="15"/>
+   <action no="6" player="Mandark" sum="10" type="15"/>
+   <action no="7" player="WhatApush" sum="10" type="15"/>
+   <action no="8" player="Volchara7" sum="10" type="15"/>
+   <action no="9" player="VdmRS" sum="60" type="1"/>
+   <action no="10" player="tropeiro123" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ne0N1" type="Pocket">X X</cards>
+   <action no="11" player="Ne0N1" sum="0" type="0"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="12" player="flir1" sum="0" type="0"/>
+   <cards player="FRED070" type="Pocket">CK C10</cards>
+   <action no="13" player="FRED070" sum="240" type="23"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="14" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="15" player="WhatApush" sum="720" type="23"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="16" player="Volchara7" sum="0" type="0"/>
+   <cards player="VdmRS" type="Pocket">H7 S8</cards>
+   <action no="17" player="VdmRS" sum="1,887" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C4 C9</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+   <action no="19" player="FRED070" sum="1,647" type="3"/>
+   <action no="20" player="WhatApush" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 D6 D3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+  </round>
+ </game>
+ <game gamecode="10583668644">
+  <general>
+   <startdate>2024-02-25 14:28:12</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="250" addon="0" rebuy="0" win="0" chips="9,850" seat="2" name="tropeiro123" reg_code="7960646648" dealer="0"/>
+    <player bet="1,200" addon="0" rebuy="0" win="790" chips="15,370" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="250" addon="0" rebuy="0" win="0" chips="9,675" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="10,801" seat="6" name="FRED070" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,166" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="8,710" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="11,273" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="10" type="15"/>
+   <action no="2" player="Ne0N1" sum="10" type="15"/>
+   <action no="3" player="flir1" sum="10" type="15"/>
+   <action no="4" player="FRED070" sum="10" type="15"/>
+   <action no="5" player="Mandark" sum="10" type="15"/>
+   <action no="6" player="WhatApush" sum="10" type="15"/>
+   <action no="7" player="Volchara7" sum="10" type="15"/>
+   <action no="8" player="tropeiro123" sum="60" type="1"/>
+   <action no="9" player="Ne0N1" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="10" player="flir1" sum="240" type="23"/>
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="11" player="FRED070" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="13" player="WhatApush" sum="0" type="0"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="14" player="Volchara7" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 HK</cards>
+   <action no="15" player="tropeiro123" sum="180" type="3"/>
+   <cards player="Ne0N1" type="Pocket">X X</cards>
+   <action no="16" player="Ne0N1" sum="1,200" type="23"/>
+   <action no="17" player="flir1" sum="0" type="0"/>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583668815">
+  <general>
+   <startdate>2024-02-25 14:29:26</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="10,000" seat="1" name="88ehnutz" reg_code="" dealer="0"/>
+    <player bet="1,378" addon="0" rebuy="0" win="1,110" chips="9,600" seat="2" name="tropeiro123" reg_code="7960646648" dealer="1"/>
+    <player bet="70" addon="0" rebuy="0" win="0" chips="15,910" seat="4" name="Ne0N1" reg_code="" dealer="0"/>
+    <player bet="130" addon="0" rebuy="0" win="0" chips="9,425" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="10,791" seat="6" name="FRED070" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,156" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="435" addon="0" rebuy="0" win="0" chips="8,700" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="11,263" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Ne0N1" sum="10" type="15"/>
+   <action no="2" player="flir1" sum="10" type="15"/>
+   <action no="3" player="FRED070" sum="10" type="15"/>
+   <action no="4" player="Mandark" sum="10" type="15"/>
+   <action no="5" player="WhatApush" sum="10" type="15"/>
+   <action no="6" player="Volchara7" sum="10" type="15"/>
+   <action no="7" player="88ehnutz" sum="10" type="15"/>
+   <action no="8" player="tropeiro123" sum="10" type="15"/>
+   <action no="9" player="Ne0N1" sum="60" type="1"/>
+   <action no="10" player="flir1" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="11" player="FRED070" sum="0" type="0"/>
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="12" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="13" player="WhatApush" sum="240" type="23"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="14" player="Volchara7" sum="0" type="0"/>
+   <cards player="88ehnutz" type="Pocket">X X</cards>
+   <action no="15" player="88ehnutz" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 HK</cards>
+   <action no="16" player="tropeiro123" sum="240" type="3"/>
+   <cards player="Ne0N1" type="Pocket">X X</cards>
+   <action no="17" player="Ne0N1" sum="0" type="0"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="18" player="flir1" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 C9 HQ</cards>
+   <action no="19" player="WhatApush" sum="0" type="4"/>
+   <action no="20" player="tropeiro123" sum="185" type="5"/>
+   <action no="21" player="WhatApush" sum="185" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="22" player="WhatApush" sum="0" type="4"/>
+   <action no="23" player="tropeiro123" sum="943" type="5"/>
+   <action no="24" player="WhatApush" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583688929">
+  <general>
+   <startdate>2024-02-25 14:31:04</startdate>
+   <smallblind>60</smallblind>
+   <bigblind>120</bigblind>
+   <ante>10</ante>
+   <players>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="9,990" seat="1" name="88ehnutz" reg_code="" dealer="0"/>
+    <player bet="10,275" addon="0" rebuy="0" win="0" chips="10,275" seat="2" name="tropeiro123" reg_code="7960646648" dealer="0"/>
+    <player bet="15,830" addon="0" rebuy="0" win="20,790" chips="15,840" seat="4" name="Ne0N1" reg_code="" dealer="1">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+    <player bet="70" addon="0" rebuy="0" win="0" chips="9,295" seat="5" name="flir1" reg_code="" dealer="0"/>
+    <player bet="130" addon="0" rebuy="0" win="0" chips="10,781" seat="6" name="FRED070" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="12,146" seat="7" name="Mandark" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="8,265" seat="9" name="WhatApush" reg_code="" dealer="0"/>
+    <player bet="10" addon="0" rebuy="0" win="0" chips="11,253" seat="10" name="Volchara7" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="flir1" sum="10" type="15"/>
+   <action no="2" player="FRED070" sum="10" type="15"/>
+   <action no="3" player="Mandark" sum="10" type="15"/>
+   <action no="4" player="WhatApush" sum="10" type="15"/>
+   <action no="5" player="Volchara7" sum="10" type="15"/>
+   <action no="6" player="88ehnutz" sum="10" type="15"/>
+   <action no="7" player="tropeiro123" sum="10" type="15"/>
+   <action no="8" player="Ne0N1" sum="10" type="15"/>
+   <action no="9" player="flir1" sum="60" type="1"/>
+   <action no="10" player="FRED070" sum="120" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Mandark" type="Pocket">X X</cards>
+   <action no="11" player="Mandark" sum="0" type="0"/>
+   <cards player="WhatApush" type="Pocket">X X</cards>
+   <action no="12" player="WhatApush" sum="0" type="0"/>
+   <cards player="Volchara7" type="Pocket">X X</cards>
+   <action no="13" player="Volchara7" sum="0" type="0"/>
+   <cards player="88ehnutz" type="Pocket">X X</cards>
+   <action no="14" player="88ehnutz" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ CQ</cards>
+   <action no="15" player="tropeiro123" sum="252" type="23"/>
+   <cards player="Ne0N1" type="Pocket">DA SK</cards>
+   <action no="16" player="Ne0N1" sum="984" type="23"/>
+   <cards player="flir1" type="Pocket">X X</cards>
+   <action no="17" player="flir1" sum="0" type="0"/>
+   <cards player="FRED070" type="Pocket">X X</cards>
+   <action no="18" player="FRED070" sum="0" type="0"/>
+   <action no="19" player="tropeiro123" sum="2,263" type="23"/>
+   <action no="20" player="Ne0N1" sum="15,830" type="23"/>
+   <action no="21" player="tropeiro123" sum="8,002" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H5 C3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+  </round>
+ </game>
+</session>

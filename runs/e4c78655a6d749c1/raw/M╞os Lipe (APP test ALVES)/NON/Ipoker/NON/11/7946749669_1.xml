@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946749669">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E2: The Big Game|€100k GTD|D1, 1080786079</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:56:34</duration>
+  <gamecount>120</gamecount>
+  <startdate>2024-02-11 16:00:50</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>728,322</bets>
+  <wins>401,375</wins>
+  <chipsin>54,600</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079640897</tournamentcode>
+  <tournamentname>E2: The Big Game|€100k GTD|D1</tournamentname>
+  <place>24</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10558593060">
+  <general>
+   <startdate>2024-02-11 16:00:50</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="66,100" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="62,300" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="1" name="TonyParker" chips="253,640" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="3,600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="40,370" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="126,232" win="0" addon="0"/>
+    <player reg_code="" bet="18,000" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="182,643" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="177,851" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="600"/>
+   <action type="15" no="2" player="pokersharksol" sum="600"/>
+   <action type="15" no="3" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="4" player="kirebet" sum="600"/>
+   <action type="15" no="5" player="Animals4" sum="600"/>
+   <action type="15" no="6" player="Rondabold" sum="600"/>
+   <action type="15" no="7" player="TonyParker" sum="600"/>
+   <action type="1" no="8" player="tropeiro123" sum="3,000"/>
+   <action type="2" no="9" player="pokersharksol" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="23" no="10" player="Decisivegiant6" sum="18,000"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="11" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="12" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="13" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="14" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ H7</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="16" player="pokersharksol" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593097">
+  <general>
+   <startdate>2024-02-11 16:01:12</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="65,500" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="61,700" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="253,040" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="36,170" seat="6" rebuy="0" dealer="1" name="tropeiro123" chips="36,770" win="19,200" addon="0"/>
+    <player reg_code="" bet="3,600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="119,632" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="195,243" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="177,251" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="pokersharksol" sum="600"/>
+   <action type="15" no="2" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="3" player="kirebet" sum="600"/>
+   <action type="15" no="4" player="Animals4" sum="600"/>
+   <action type="15" no="5" player="Rondabold" sum="600"/>
+   <action type="15" no="6" player="TonyParker" sum="600"/>
+   <action type="15" no="7" player="tropeiro123" sum="600"/>
+   <action type="1" no="8" player="pokersharksol" sum="3,000"/>
+   <action type="2" no="9" player="Decisivegiant6" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="10" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="11" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="12" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="13" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C9 SQ</cards>
+   <action type="23" no="14" player="tropeiro123" sum="36,170"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="15" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="16" player="Decisivegiant6" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593102">
+  <general>
+   <startdate>2024-02-11 16:01:33</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="64,900" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="61,100" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="252,440" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="48,770" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="49,370" win="104,740" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="1" name="pokersharksol" chips="116,032" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="188,643" win="0" addon="0"/>
+    <player reg_code="" bet="49,370" seat="10" rebuy="0" dealer="0" name="kirebet" chips="176,651" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="2" player="kirebet" sum="600"/>
+   <action type="15" no="3" player="Animals4" sum="600"/>
+   <action type="15" no="4" player="Rondabold" sum="600"/>
+   <action type="15" no="5" player="TonyParker" sum="600"/>
+   <action type="15" no="6" player="tropeiro123" sum="600"/>
+   <action type="15" no="7" player="pokersharksol" sum="600"/>
+   <action type="1" no="8" player="Decisivegiant6" sum="3,000"/>
+   <action type="2" no="9" player="kirebet" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="10" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="11" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="12" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H3 HA</cards>
+   <action type="23" no="13" player="tropeiro123" sum="48,770"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="14" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="15" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">HK SQ</cards>
+   <action type="3" no="16" player="kirebet" sum="42,770"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 C7 C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+  </round>
+ </game>
+ <game gamecode="10558593177">
+  <general>
+   <startdate>2024-02-11 16:02:02</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="6,600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="64,300" win="0" addon="0"/>
+    <player reg_code="" bet="59,900" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="60,500" win="133,000" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="251,840" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="104,740" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="115,432" win="0" addon="0"/>
+    <player reg_code="" bet="184,443" seat="9" rebuy="0" dealer="1" name="Decisivegiant6" chips="185,043" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="127,281" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="kirebet" sum="600"/>
+   <action type="15" no="2" player="Animals4" sum="600"/>
+   <action type="15" no="3" player="Rondabold" sum="600"/>
+   <action type="15" no="4" player="TonyParker" sum="600"/>
+   <action type="15" no="5" player="tropeiro123" sum="600"/>
+   <action type="15" no="6" player="pokersharksol" sum="600"/>
+   <action type="15" no="7" player="Decisivegiant6" sum="600"/>
+   <action type="1" no="8" player="kirebet" sum="3,000"/>
+   <action type="2" no="9" player="Animals4" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Rondabold">HA H9</cards>
+   <action type="23" no="10" player="Rondabold" sum="59,900"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="11" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D5 S8</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="13" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">HQ DQ</cards>
+   <action type="23" no="14" player="Decisivegiant6" sum="184,443"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="15" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="16" player="Animals4" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D9 CA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+  </round>
+ </game>
+ <game gamecode="10558593244">
+  <general>
+   <startdate>2024-02-11 16:02:43</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="3,600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="57,700" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="133,000" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="251,240" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="104,140" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="114,832" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="124,543" win="0" addon="0"/>
+    <player reg_code="" bet="12,000" seat="10" rebuy="0" dealer="1" name="kirebet" chips="123,681" win="19,200" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Animals4" sum="600"/>
+   <action type="15" no="2" player="Rondabold" sum="600"/>
+   <action type="15" no="3" player="TonyParker" sum="600"/>
+   <action type="15" no="4" player="tropeiro123" sum="600"/>
+   <action type="15" no="5" player="pokersharksol" sum="600"/>
+   <action type="15" no="6" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="7" player="kirebet" sum="600"/>
+   <action type="1" no="8" player="Animals4" sum="3,000"/>
+   <action type="2" no="9" player="Rondabold" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="10" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H4 S9</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="12" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="13" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="23" no="14" player="kirebet" sum="12,000"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="15" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="16" player="Rondabold" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593286">
+  <general>
+   <startdate>2024-02-11 16:03:07</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="1" name="Animals4" chips="54,100" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="126,400" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="250,640" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="103,540" win="0" addon="0"/>
+    <player reg_code="" bet="12,000" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="114,232" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="123,943" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="136,281" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Rondabold" sum="600"/>
+   <action type="15" no="2" player="TonyParker" sum="600"/>
+   <action type="15" no="3" player="tropeiro123" sum="600"/>
+   <action type="15" no="4" player="pokersharksol" sum="600"/>
+   <action type="15" no="5" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="6" player="kirebet" sum="600"/>
+   <action type="15" no="7" player="Animals4" sum="600"/>
+   <action type="1" no="8" player="Rondabold" sum="3,000"/>
+   <action type="2" no="9" player="TonyParker" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C7 H3</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="23" no="11" player="pokersharksol" sum="12,000"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="12" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="13" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="14" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="15" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="16" player="TonyParker" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593350">
+  <general>
+   <startdate>2024-02-11 16:03:34</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="53,500" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="1" name="Rondabold" chips="122,800" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="244,040" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="6,600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="102,940" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="126,832" win="0" addon="0"/>
+    <player reg_code="" bet="122,743" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="123,343" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="135,681" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TonyParker" sum="600"/>
+   <action type="15" no="2" player="tropeiro123" sum="600"/>
+   <action type="15" no="3" player="pokersharksol" sum="600"/>
+   <action type="15" no="4" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="5" player="kirebet" sum="600"/>
+   <action type="15" no="6" player="Animals4" sum="600"/>
+   <action type="15" no="7" player="Rondabold" sum="600"/>
+   <action type="1" no="8" player="TonyParker" sum="3,000"/>
+   <action type="2" no="9" player="tropeiro123" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="10" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="23" no="11" player="Decisivegiant6" sum="122,743"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="12" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="13" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="14" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="15" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DK H2</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593386">
+  <general>
+   <startdate>2024-02-11 16:03:57</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="52,300" seat="1" rebuy="0" dealer="0" name="Animals4" chips="52,900" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="122,200" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="1" name="TonyParker" chips="240,440" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="3,600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="96,340" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="126,232" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="135,943" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="135,081" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="600"/>
+   <action type="15" no="2" player="pokersharksol" sum="600"/>
+   <action type="15" no="3" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="4" player="kirebet" sum="600"/>
+   <action type="15" no="5" player="Animals4" sum="600"/>
+   <action type="15" no="6" player="Rondabold" sum="600"/>
+   <action type="15" no="7" player="TonyParker" sum="600"/>
+   <action type="1" no="8" player="tropeiro123" sum="3,000"/>
+   <action type="2" no="9" player="pokersharksol" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="10" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="11" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="23" no="12" player="Animals4" sum="52,300"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="13" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="14" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S8 H4</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="16" player="pokersharksol" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593460">
+  <general>
+   <startdate>2024-02-11 16:04:26</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="65,500" win="0" addon="0"/>
+    <player reg_code="" bet="12,000" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="121,600" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="239,840" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="1" name="tropeiro123" chips="92,740" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="119,632" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="135,343" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="134,481" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="pokersharksol" sum="600"/>
+   <action type="15" no="2" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="3" player="kirebet" sum="600"/>
+   <action type="15" no="4" player="Animals4" sum="600"/>
+   <action type="15" no="5" player="Rondabold" sum="600"/>
+   <action type="15" no="6" player="TonyParker" sum="600"/>
+   <action type="15" no="7" player="tropeiro123" sum="600"/>
+   <action type="1" no="8" player="pokersharksol" sum="3,000"/>
+   <action type="2" no="9" player="Decisivegiant6" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="10" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="11" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="23" no="12" player="Rondabold" sum="12,000"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="13" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DJ D2</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="15" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="16" player="Decisivegiant6" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593496">
+  <general>
+   <startdate>2024-02-11 16:04:44</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="Animals4" chips="64,900" win="0" addon="0"/>
+    <player reg_code="" bet="133,600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="134,200" win="19,200" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="239,240" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="92,140" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="1" name="pokersharksol" chips="116,032" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="128,743" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="133,881" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="2" player="kirebet" sum="600"/>
+   <action type="15" no="3" player="Animals4" sum="600"/>
+   <action type="15" no="4" player="Rondabold" sum="600"/>
+   <action type="15" no="5" player="TonyParker" sum="600"/>
+   <action type="15" no="6" player="tropeiro123" sum="600"/>
+   <action type="15" no="7" player="pokersharksol" sum="600"/>
+   <action type="1" no="8" player="Decisivegiant6" sum="3,000"/>
+   <action type="2" no="9" player="kirebet" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Animals4">X X</cards>
+   <action type="0" no="10" player="Animals4" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="23" no="11" player="Rondabold" sum="133,600"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="12" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D3 C9</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="14" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="15" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="16" player="kirebet" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593561">
+  <general>
+   <startdate>2024-02-11 16:05:17</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="64,300" seat="1" rebuy="0" dealer="0" name="Animals4" chips="64,300" win="0" addon="0"/>
+    <player reg_code="" bet="64,300" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="146,800" win="134,600" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="238,640" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="91,540" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="115,432" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="1" name="Decisivegiant6" chips="125,143" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="127,281" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="kirebet" sum="600"/>
+   <action type="15" no="2" player="Animals4" sum="600"/>
+   <action type="15" no="3" player="Rondabold" sum="600"/>
+   <action type="15" no="4" player="TonyParker" sum="600"/>
+   <action type="15" no="5" player="tropeiro123" sum="600"/>
+   <action type="15" no="6" player="pokersharksol" sum="600"/>
+   <action type="15" no="7" player="Decisivegiant6" sum="600"/>
+   <action type="1" no="8" player="kirebet" sum="3,000"/>
+   <action type="2" no="9" player="Animals4" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Rondabold">HK DK</cards>
+   <action type="23" no="10" player="Rondabold" sum="12,000"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="11" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C5 D10</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="13" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="14" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="15" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Animals4">S8 SJ</cards>
+   <action type="3" no="16" player="Animals4" sum="6,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 HJ H7</cards>
+   <action type="4" no="17" player="Animals4" sum="0"/>
+   <action type="5" no="18" player="Rondabold" sum="10,920"/>
+   <action type="23" no="19" player="Animals4" sum="51,700"/>
+   <action type="3" no="20" player="Rondabold" sum="40,780"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+  </round>
+ </game>
+ <game gamecode="10558593682">
+  <general>
+   <startdate>2024-02-11 16:06:19</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="6,600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="217,100" win="0" addon="0"/>
+    <player reg_code="" bet="12,600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="238,040" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="90,940" win="0" addon="0"/>
+    <player reg_code="" bet="29,400" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="114,832" win="33,600" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="124,543" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="1" name="kirebet" chips="123,681" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Rondabold" sum="600"/>
+   <action type="15" no="2" player="TonyParker" sum="600"/>
+   <action type="15" no="3" player="tropeiro123" sum="600"/>
+   <action type="15" no="4" player="pokersharksol" sum="600"/>
+   <action type="15" no="5" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="6" player="kirebet" sum="600"/>
+   <action type="2" no="7" player="Rondabold" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="23" no="8" player="TonyParker" sum="12,000"/>
+   <cards type="Pocket" player="tropeiro123">D5 C4</cards>
+   <action type="0" no="9" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="3" no="10" player="pokersharksol" sum="12,000"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="11" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="12" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="13" player="Rondabold" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H2 H6</cards>
+   <action type="4" no="14" player="TonyParker" sum="0"/>
+   <action type="5" no="15" player="pokersharksol" sum="16,800"/>
+   <action type="0" no="16" player="TonyParker" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593739">
+  <general>
+   <startdate>2024-02-11 16:06:45</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="3,600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="210,500" win="0" addon="0"/>
+    <player reg_code="" bet="6,600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="225,440" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="89,740" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="90,340" win="18,600" addon="0"/>
+    <player reg_code="" bet="600" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="135,832" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="123,943" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="123,081" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Rondabold" sum="600"/>
+   <action type="15" no="2" player="TonyParker" sum="600"/>
+   <action type="15" no="3" player="tropeiro123" sum="600"/>
+   <action type="15" no="4" player="pokersharksol" sum="600"/>
+   <action type="15" no="5" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="6" player="kirebet" sum="600"/>
+   <action type="1" no="7" player="Rondabold" sum="3,000"/>
+   <action type="2" no="8" player="TonyParker" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DA CK</cards>
+   <action type="23" no="9" player="tropeiro123" sum="89,740"/>
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="0" no="10" player="pokersharksol" sum="0"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="11" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="12" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="13" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="14" player="TonyParker" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593778">
+  <general>
+   <startdate>2024-02-11 16:07:04</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="1" name="Rondabold" chips="206,900" win="0" addon="0"/>
+    <player reg_code="" bet="3,600" seat="5" rebuy="0" dealer="0" name="TonyParker" chips="218,840" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="6,600" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="102,340" win="0" addon="0"/>
+    <player reg_code="" bet="30,900" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="135,232" win="36,600" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="123,343" win="0" addon="0"/>
+    <player reg_code="" bet="12,600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="122,481" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TonyParker" sum="600"/>
+   <action type="15" no="2" player="tropeiro123" sum="600"/>
+   <action type="15" no="3" player="pokersharksol" sum="600"/>
+   <action type="15" no="4" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="5" player="kirebet" sum="600"/>
+   <action type="15" no="6" player="Rondabold" sum="600"/>
+   <action type="1" no="7" player="TonyParker" sum="3,000"/>
+   <action type="2" no="8" player="tropeiro123" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="pokersharksol">X X</cards>
+   <action type="23" no="9" player="pokersharksol" sum="12,000"/>
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="10" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="3" no="11" player="kirebet" sum="12,000"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="12" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="13" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CJ H10</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 H2 DQ</cards>
+   <action type="4" no="15" player="pokersharksol" sum="0"/>
+   <action type="4" no="16" player="kirebet" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action type="5" no="17" player="pokersharksol" sum="18,300"/>
+   <action type="0" no="18" player="kirebet" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558593865">
+  <general>
+   <startdate>2024-02-11 16:07:44</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player reg_code="" bet="600" seat="1" rebuy="0" dealer="0" name="BushDoctor04" chips="515,910" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="2" rebuy="0" dealer="0" name="Lekkis" chips="448,378" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="4" rebuy="0" dealer="0" name="Rondabold" chips="206,300" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="5" rebuy="0" dealer="1" name="TonyParker" chips="215,240" win="0" addon="0"/>
+    <player reg_code="7946749669" bet="95,140" seat="6" rebuy="0" dealer="0" name="tropeiro123" chips="95,740" win="0" addon="0"/>
+    <player reg_code="" bet="95,740" seat="7" rebuy="0" dealer="0" name="pokersharksol" chips="159,232" win="195,080" addon="0"/>
+    <player reg_code="" bet="600" seat="9" rebuy="0" dealer="0" name="Decisivegiant6" chips="122,743" win="0" addon="0"/>
+    <player reg_code="" bet="600" seat="10" rebuy="0" dealer="0" name="kirebet" chips="109,881" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="600"/>
+   <action type="15" no="2" player="pokersharksol" sum="600"/>
+   <action type="15" no="3" player="Decisivegiant6" sum="600"/>
+   <action type="15" no="4" player="kirebet" sum="600"/>
+   <action type="15" no="5" player="BushDoctor04" sum="600"/>
+   <action type="15" no="6" player="Lekkis" sum="600"/>
+   <action type="15" no="7" player="Rondabold" sum="600"/>
+   <action type="15" no="8" player="TonyParker" sum="600"/>
+   <action type="1" no="9" player="tropeiro123" sum="3,000"/>
+   <action type="2" no="10" player="pokersharksol" sum="6,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Decisivegiant6">X X</cards>
+   <action type="0" no="11" player="Decisivegiant6" sum="0"/>
+   <cards type="Pocket" player="kirebet">X X</cards>
+   <action type="0" no="12" player="kirebet" sum="0"/>
+   <cards type="Pocket" player="BushDoctor04">X X</cards>
+   <action type="0" no="13" player="BushDoctor04" sum="0"/>
+   <cards type="Pocket" player="Lekkis">X X</cards>
+   <action type="0" no="14" player="Lekkis" sum="0"/>
+   <cards type="Pocket" player="Rondabold">X X</cards>
+   <action type="0" no="15" player="Rondabold" sum="0"/>
+   <cards type="Pocket" player="TonyParker">X X</cards>
+   <action type="0" no="16" player="TonyParker" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ SJ</cards>
+   <action type="23" no="17" player="tropeiro123" sum="95,140"/>
+   <cards type="Pocket" player="pokersharksol">CA HJ</cards>
+   <action type="3" no="18" player="pokersharksol" sum="89,140"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 H6 C9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+</session>

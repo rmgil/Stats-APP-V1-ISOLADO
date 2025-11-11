@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7958676174">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 | The Eliminator, 1081848985</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>03:02:50</duration>
+  <gamecount>137</gamecount>
+  <startdate>2024-02-23 16:35:35</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,753,984</bets>
+  <wins>812,699</wins>
+  <chipsin>99,900</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP27</statuspoints>
+  <awardpoints>RP81</awardpoints>
+  <ipoints>RP27</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081225855</tournamentcode>
+  <tournamentname>€10,000 | The Eliminator</tournamentname>
+  <place>144</place>
+  <buyin>€13.65 + €13.65 + €2.70</buyin>
+  <totalbuyin>€30</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10580211469">
+  <general>
+   <startdate>2024-02-23 16:35:35</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Stutleif" chips="223,160" bet="15,400"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="195,750" bet="700"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="KKKKnell" chips="326,113" bet="700"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SirMalte" chips="117,460" bet="700"/>
+    <player seat="6" win="37,800" dealer="0" addon="0" rebuy="0" reg_code="" name="REGMTS" chips="321,727" bet="24,850"/>
+    <player seat="9" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="Blufkoning33Does" chips="244,800" bet="700"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Manuelss12" chips="495,464" bet="4,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Manuelss12" sum="700" no="1" type="15"/>
+   <action player="Stutleif" sum="700" no="2" type="15"/>
+   <action player="tropeiro123" sum="700" no="3" type="15"/>
+   <action player="KKKKnell" sum="700" no="4" type="15"/>
+   <action player="SirMalte" sum="700" no="5" type="15"/>
+   <action player="REGMTS" sum="700" no="6" type="15"/>
+   <action player="Blufkoning33Does" sum="700" no="7" type="15"/>
+   <action player="Manuelss12" sum="3,500" no="8" type="1"/>
+   <action player="Stutleif" sum="7,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C6 HK</cards>
+   <action player="tropeiro123" sum="0" no="10" type="0"/>
+   <cards player="KKKKnell" type="Pocket">X X</cards>
+   <action player="KKKKnell" sum="0" no="11" type="0"/>
+   <cards player="SirMalte" type="Pocket">X X</cards>
+   <action player="SirMalte" sum="0" no="12" type="0"/>
+   <cards player="REGMTS" type="Pocket">X X</cards>
+   <action player="REGMTS" sum="14,700" no="13" type="23"/>
+   <cards player="Blufkoning33Does" type="Pocket">X X</cards>
+   <action player="Blufkoning33Does" sum="0" no="14" type="0"/>
+   <cards player="Manuelss12" type="Pocket">X X</cards>
+   <action player="Manuelss12" sum="0" no="15" type="0"/>
+   <cards player="Stutleif" type="Pocket">X X</cards>
+   <action player="Stutleif" sum="7,700" no="16" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S6 SQ</cards>
+   <action player="Stutleif" sum="0" no="17" type="4"/>
+   <action player="REGMTS" sum="9,450" no="18" type="5"/>
+   <action player="Stutleif" sum="0" no="19" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580211548">
+  <general>
+   <startdate>2024-02-23 16:36:15</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player seat="2" win="46,900" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="195,050" bet="194,350"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="KKKKnell" chips="325,413" bet="700"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SirMalte" chips="116,760" bet="14,700"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="REGMTS" chips="344,127" bet="700"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Bojana24" chips="130,971" bet="700"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Blufkoning33Does" chips="244,100" bet="700"/>
+    <player seat="10" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="Manuelss12" chips="491,264" bet="14,700"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="700" no="1" type="15"/>
+   <action player="KKKKnell" sum="700" no="2" type="15"/>
+   <action player="SirMalte" sum="700" no="3" type="15"/>
+   <action player="REGMTS" sum="700" no="4" type="15"/>
+   <action player="Bojana24" sum="700" no="5" type="15"/>
+   <action player="Blufkoning33Does" sum="700" no="6" type="15"/>
+   <action player="Manuelss12" sum="700" no="7" type="15"/>
+   <action player="tropeiro123" sum="7,000" no="8" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="KKKKnell" type="Pocket">X X</cards>
+   <action player="KKKKnell" sum="0" no="9" type="0"/>
+   <cards player="SirMalte" type="Pocket">X X</cards>
+   <action player="SirMalte" sum="14,000" no="10" type="23"/>
+   <cards player="REGMTS" type="Pocket">X X</cards>
+   <action player="REGMTS" sum="0" no="11" type="0"/>
+   <cards player="Bojana24" type="Pocket">X X</cards>
+   <action player="Bojana24" sum="0" no="12" type="0"/>
+   <cards player="Blufkoning33Does" type="Pocket">X X</cards>
+   <action player="Blufkoning33Does" sum="0" no="13" type="0"/>
+   <cards player="Manuelss12" type="Pocket">X X</cards>
+   <action player="Manuelss12" sum="14,000" no="14" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C9 S9</cards>
+   <action player="tropeiro123" sum="194,350" no="15" type="23"/>
+   <action player="SirMalte" sum="0" no="16" type="0"/>
+   <action player="Manuelss12" sum="0" no="17" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580211709">
+  <general>
+   <startdate>2024-02-23 16:37:12</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="227,250" bet="4,200"/>
+    <player seat="4" win="65,072" dealer="0" addon="0" rebuy="0" reg_code="" name="KKKKnell" chips="324,713" bet="61,572"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SirMalte" chips="102,060" bet="700"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="REGMTS" chips="343,427" bet="700"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Bojana24" chips="130,271" bet="700"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Blufkoning33Does" chips="243,400" bet="700"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Manuelss12" chips="476,564" bet="29,036"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="700" no="1" type="15"/>
+   <action player="KKKKnell" sum="700" no="2" type="15"/>
+   <action player="SirMalte" sum="700" no="3" type="15"/>
+   <action player="REGMTS" sum="700" no="4" type="15"/>
+   <action player="Bojana24" sum="700" no="5" type="15"/>
+   <action player="Blufkoning33Does" sum="700" no="6" type="15"/>
+   <action player="Manuelss12" sum="700" no="7" type="15"/>
+   <action player="tropeiro123" sum="3,500" no="8" type="1"/>
+   <action player="KKKKnell" sum="7,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SirMalte" type="Pocket">X X</cards>
+   <action player="SirMalte" sum="0" no="10" type="0"/>
+   <cards player="REGMTS" type="Pocket">X X</cards>
+   <action player="REGMTS" sum="0" no="11" type="0"/>
+   <cards player="Bojana24" type="Pocket">X X</cards>
+   <action player="Bojana24" sum="0" no="12" type="0"/>
+   <cards player="Blufkoning33Does" type="Pocket">X X</cards>
+   <action player="Blufkoning33Does" sum="0" no="13" type="0"/>
+   <cards player="Manuelss12" type="Pocket">X X</cards>
+   <action player="Manuelss12" sum="15,400" no="14" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ H4</cards>
+   <action player="tropeiro123" sum="0" no="15" type="0"/>
+   <cards player="KKKKnell" type="Pocket">X X</cards>
+   <action player="KKKKnell" sum="8,400" no="16" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C6 C3</cards>
+   <action player="KKKKnell" sum="0" no="17" type="4"/>
+   <action player="Manuelss12" sum="12,936" no="18" type="5"/>
+   <action player="KKKKnell" sum="12,936" no="19" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action player="KKKKnell" sum="0" no="20" type="4"/>
+   <action player="Manuelss12" sum="0" no="21" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action player="KKKKnell" sum="32,536" no="22" type="5"/>
+   <action player="Manuelss12" sum="0" no="23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580211991">
+  <general>
+   <startdate>2024-02-23 16:38:58</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Talentedfeather4" chips="70,050" bet="700"/>
+    <player seat="2" win="0" dealer="1" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="223,050" bet="700"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="KKKKnell" chips="360,749" bet="15,400"/>
+    <player seat="5" win="257,320" dealer="0" addon="0" rebuy="0" reg_code="" name="SirMalte" chips="101,360" bet="101,360"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="REGMTS" chips="342,727" bet="104,486"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Bojana24" chips="129,571" bet="700"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Blufkoning33Does" chips="242,700" bet="700"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Manuelss12" chips="447,528" bet="36,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="KKKKnell" sum="700" no="1" type="15"/>
+   <action player="SirMalte" sum="700" no="2" type="15"/>
+   <action player="REGMTS" sum="700" no="3" type="15"/>
+   <action player="Bojana24" sum="700" no="4" type="15"/>
+   <action player="Blufkoning33Does" sum="700" no="5" type="15"/>
+   <action player="Manuelss12" sum="700" no="6" type="15"/>
+   <action player="Talentedfeather4" sum="700" no="7" type="15"/>
+   <action player="tropeiro123" sum="700" no="8" type="15"/>
+   <action player="KKKKnell" sum="3,500" no="9" type="1"/>
+   <action player="SirMalte" sum="7,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="REGMTS" type="Pocket">S10 SJ</cards>
+   <action player="REGMTS" sum="14,700" no="11" type="23"/>
+   <cards player="Bojana24" type="Pocket">X X</cards>
+   <action player="Bojana24" sum="0" no="12" type="0"/>
+   <cards player="Blufkoning33Does" type="Pocket">X X</cards>
+   <action player="Blufkoning33Does" sum="0" no="13" type="0"/>
+   <cards player="Manuelss12" type="Pocket">X X</cards>
+   <action player="Manuelss12" sum="14,700" no="14" type="3"/>
+   <cards player="Talentedfeather4" type="Pocket">X X</cards>
+   <action player="Talentedfeather4" sum="0" no="15" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 C10</cards>
+   <action player="tropeiro123" sum="0" no="16" type="0"/>
+   <cards player="KKKKnell" type="Pocket">X X</cards>
+   <action player="KKKKnell" sum="11,200" no="17" type="3"/>
+   <cards player="SirMalte" type="Pocket">SQ HJ</cards>
+   <action player="SirMalte" sum="7,700" no="18" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ CJ S4</cards>
+   <action player="KKKKnell" sum="0" no="19" type="4"/>
+   <action player="SirMalte" sum="0" no="20" type="4"/>
+   <action player="REGMTS" sum="21,000" no="21" type="5"/>
+   <action player="Manuelss12" sum="21,000" no="22" type="3"/>
+   <action player="KKKKnell" sum="0" no="23" type="0"/>
+   <action player="SirMalte" sum="21,000" no="24" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action player="SirMalte" sum="16,543" no="25" type="5"/>
+   <action player="REGMTS" sum="68,086" no="26" type="23"/>
+   <action player="Manuelss12" sum="0" no="27" type="0"/>
+   <action player="SirMalte" sum="48,417" no="28" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+  </round>
+ </game>
+ <game gamecode="10580212342">
+  <general>
+   <startdate>2024-02-23 16:41:16</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="216,800" dealer="1" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="100,000" bet="99,200"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="266,288" bet="4,800"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="74,610" bet="8,800"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="663,827" bet="800"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="380,414" bet="800"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="222,350" bet="800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="279,701" bet="800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="304,300" bet="100,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="BuddyCheddar" sum="800" no="1" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="2" type="15"/>
+   <action player="SUPERKARL" sum="800" no="3" type="15"/>
+   <action player="TimTarnner" sum="800" no="4" type="15"/>
+   <action player="tropeiro123" sum="800" no="5" type="15"/>
+   <action player="N33DG4ME" sum="800" no="6" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="7" type="15"/>
+   <action player="bubbalis" sum="800" no="8" type="15"/>
+   <action player="BuddyCheddar" sum="4,000" no="9" type="1"/>
+   <action player="GoofyGlenn" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="11" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="12" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 S3</cards>
+   <action player="tropeiro123" sum="0" no="13" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="14" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">D3 C3</cards>
+   <action player="Hjerterdjr" sum="28,000" no="15" type="23"/>
+   <cards player="bubbalis" type="Pocket">H10 DJ</cards>
+   <action player="bubbalis" sum="99,200" no="16" type="23"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="17" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="18" type="0"/>
+   <action player="Hjerterdjr" sum="71,200" no="19" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 C6 C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10580212549">
+  <general>
+   <startdate>2024-02-23 16:42:26</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="216,800" bet="800"/>
+    <player seat="2" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="261,488" bet="800"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="65,810" bet="4,800"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="663,027" bet="8,800"/>
+    <player seat="6" win="26,400" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="379,614" bet="20,000"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="221,550" bet="800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="278,901" bet="800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="204,300" bet="800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GoofyGlenn" sum="800" no="1" type="15"/>
+   <action player="SUPERKARL" sum="800" no="2" type="15"/>
+   <action player="TimTarnner" sum="800" no="3" type="15"/>
+   <action player="tropeiro123" sum="800" no="4" type="15"/>
+   <action player="N33DG4ME" sum="800" no="5" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="6" type="15"/>
+   <action player="bubbalis" sum="800" no="7" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="8" type="15"/>
+   <action player="GoofyGlenn" sum="4,000" no="9" type="1"/>
+   <action player="SUPERKARL" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="20,000" no="11" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HA S6</cards>
+   <action player="tropeiro123" sum="0" no="12" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="13" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="14" type="0"/>
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="0" no="15" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="16" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="17" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="18" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580212701">
+  <general>
+   <startdate>2024-02-23 16:43:11</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="216,000" bet="800"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="260,688" bet="16,800"/>
+    <player seat="4" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="61,010" bet="800"/>
+    <player seat="5" win="46,400" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="654,227" bet="56,000"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="397,214" bet="8,800"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="220,750" bet="800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="278,101" bet="800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="203,500" bet="800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="SUPERKARL" sum="800" no="1" type="15"/>
+   <action player="TimTarnner" sum="800" no="2" type="15"/>
+   <action player="tropeiro123" sum="800" no="3" type="15"/>
+   <action player="N33DG4ME" sum="800" no="4" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="5" type="15"/>
+   <action player="bubbalis" sum="800" no="6" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="7" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="8" type="15"/>
+   <action player="SUPERKARL" sum="4,000" no="9" type="1"/>
+   <action player="TimTarnner" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H7 S2</cards>
+   <action player="tropeiro123" sum="0" no="11" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="12" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="13" type="0"/>
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="0" no="14" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="16,000" no="15" type="23"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="16" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="56,000" no="17" type="23"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="18" type="0"/>
+   <action player="BuddyCheddar" sum="0" no="19" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580212801">
+  <general>
+   <startdate>2024-02-23 16:43:54</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="215,200" bet="800"/>
+    <player seat="2" win="58,400" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="243,888" bet="36,072"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="60,210" bet="800"/>
+    <player seat="5" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="683,827" bet="16,800"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="388,414" bet="4,800"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="219,950" bet="16,800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="277,301" bet="800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="202,700" bet="800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TimTarnner" sum="800" no="1" type="15"/>
+   <action player="tropeiro123" sum="800" no="2" type="15"/>
+   <action player="N33DG4ME" sum="800" no="3" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="4" type="15"/>
+   <action player="bubbalis" sum="800" no="5" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="6" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="7" type="15"/>
+   <action player="SUPERKARL" sum="800" no="8" type="15"/>
+   <action player="TimTarnner" sum="4,000" no="9" type="1"/>
+   <action player="tropeiro123" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="11" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="12" type="0"/>
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="0" no="13" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="16,000" no="14" type="23"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="15" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="16,000" no="16" type="3"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="17" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 H6</cards>
+   <action player="tropeiro123" sum="8,000" no="18" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ D4 HK</cards>
+   <action player="tropeiro123" sum="0" no="19" type="4"/>
+   <action player="BuddyCheddar" sum="19,272" no="20" type="5"/>
+   <action player="SUPERKARL" sum="0" no="21" type="0"/>
+   <action player="tropeiro123" sum="0" no="22" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580236442">
+  <general>
+   <startdate>2024-02-23 16:45:37</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="214,400" bet="800"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="285,488" bet="800"/>
+    <player seat="4" win="135,620" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="59,410" bet="58,610"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="667,027" bet="666,227"/>
+    <player seat="6" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="383,614" bet="800"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="203,150" bet="4,800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="276,501" bet="8,800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="201,900" bet="800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="800" no="1" type="15"/>
+   <action player="N33DG4ME" sum="800" no="2" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="3" type="15"/>
+   <action player="bubbalis" sum="800" no="4" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="5" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="6" type="15"/>
+   <action player="SUPERKARL" sum="800" no="7" type="15"/>
+   <action player="TimTarnner" sum="800" no="8" type="15"/>
+   <action player="tropeiro123" sum="4,000" no="9" type="1"/>
+   <action player="N33DG4ME" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="11" type="0"/>
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="0" no="12" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="13" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">DJ HK</cards>
+   <action player="GoofyGlenn" sum="58,610" no="14" type="23"/>
+   <cards player="SUPERKARL" type="Pocket">D10 CK</cards>
+   <action player="SUPERKARL" sum="666,227" no="15" type="23"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="16" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 D4</cards>
+   <action player="tropeiro123" sum="0" no="17" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="18" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA S7 S9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10580236506">
+  <general>
+   <startdate>2024-02-23 16:46:24</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="213,600" bet="16,800"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="284,688" bet="800"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="135,620" bet="800"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="607,617" bet="16,800"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="382,814" bet="800"/>
+    <player seat="7" win="0" dealer="1" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="198,350" bet="800"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="267,701" bet="4,800"/>
+    <player seat="10" win="58,400" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="201,100" bet="200,300"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="N33DG4ME" sum="800" no="1" type="15"/>
+   <action player="Hjerterdjr" sum="800" no="2" type="15"/>
+   <action player="bubbalis" sum="800" no="3" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="4" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="5" type="15"/>
+   <action player="SUPERKARL" sum="800" no="6" type="15"/>
+   <action player="TimTarnner" sum="800" no="7" type="15"/>
+   <action player="tropeiro123" sum="800" no="8" type="15"/>
+   <action player="N33DG4ME" sum="4,000" no="9" type="1"/>
+   <action player="Hjerterdjr" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="16,000" no="11" type="23"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="12" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="13" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="16,000" no="14" type="3"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="15" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 D5</cards>
+   <action player="tropeiro123" sum="0" no="16" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="17" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="200,300" no="18" type="23"/>
+   <action player="bubbalis" sum="0" no="19" type="0"/>
+   <action player="SUPERKARL" sum="0" no="20" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580236595">
+  <general>
+   <startdate>2024-02-23 16:47:22</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player seat="1" win="64,512" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbalis" chips="196,800" bet="65,337"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="283,888" bet="800"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="134,820" bet="800"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="590,817" bet="800"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="382,014" bet="800"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="197,550" bet="800"/>
+    <player seat="9" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="262,901" bet="800"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="242,700" bet="29,856"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Hjerterdjr" sum="800" no="1" type="15"/>
+   <action player="bubbalis" sum="800" no="2" type="15"/>
+   <action player="BuddyCheddar" sum="800" no="3" type="15"/>
+   <action player="GoofyGlenn" sum="800" no="4" type="15"/>
+   <action player="SUPERKARL" sum="800" no="5" type="15"/>
+   <action player="TimTarnner" sum="800" no="6" type="15"/>
+   <action player="tropeiro123" sum="800" no="7" type="15"/>
+   <action player="N33DG4ME" sum="800" no="8" type="15"/>
+   <action player="Hjerterdjr" sum="4,000" no="9" type="1"/>
+   <action player="bubbalis" sum="8,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="11" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="12" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="13" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="14" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S4</cards>
+   <action player="tropeiro123" sum="0" no="15" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="16" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="16,000" no="17" type="23"/>
+   <cards player="bubbalis" type="Pocket">X X</cards>
+   <action player="bubbalis" sum="8,000" no="18" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 SK SA</cards>
+   <action player="Hjerterdjr" sum="0" no="19" type="4"/>
+   <action player="bubbalis" sum="13,056" no="20" type="5"/>
+   <action player="Hjerterdjr" sum="13,056" no="21" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action player="Hjerterdjr" sum="0" no="22" type="4"/>
+   <action player="bubbalis" sum="0" no="23" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action player="Hjerterdjr" sum="0" no="24" type="4"/>
+   <action player="bubbalis" sum="35,481" no="25" type="5"/>
+   <action player="Hjerterdjr" sum="0" no="26" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580236847">
+  <general>
+   <startdate>2024-02-23 16:50:25</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="2" win="6,300" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="283,088" bet="9,900"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="134,020" bet="900"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="590,017" bet="900"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="381,214" bet="900"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="196,750" bet="900"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="262,101" bet="900"/>
+    <player seat="10" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="212,844" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="BuddyCheddar" sum="900" no="1" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="2" type="15"/>
+   <action player="SUPERKARL" sum="900" no="3" type="15"/>
+   <action player="TimTarnner" sum="900" no="4" type="15"/>
+   <action player="tropeiro123" sum="900" no="5" type="15"/>
+   <action player="N33DG4ME" sum="900" no="6" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="7" type="15"/>
+   <action player="BuddyCheddar" sum="9,000" no="8" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="9" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="10" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="11" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 D2</cards>
+   <action player="tropeiro123" sum="0" no="12" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="13" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="14" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580236885">
+  <general>
+   <startdate>2024-02-23 16:50:49</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="288,488" bet="5,400"/>
+    <player seat="4" win="46,800" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="133,120" bet="36,900"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="589,117" bet="900"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="380,314" bet="900"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="195,850" bet="900"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="261,201" bet="18,900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="211,944" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="BuddyCheddar" sum="900" no="1" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="2" type="15"/>
+   <action player="SUPERKARL" sum="900" no="3" type="15"/>
+   <action player="TimTarnner" sum="900" no="4" type="15"/>
+   <action player="tropeiro123" sum="900" no="5" type="15"/>
+   <action player="N33DG4ME" sum="900" no="6" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="7" type="15"/>
+   <action player="BuddyCheddar" sum="4,500" no="8" type="1"/>
+   <action player="GoofyGlenn" sum="9,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="10" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="11" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 SQ</cards>
+   <action player="tropeiro123" sum="0" no="12" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="18,000" no="13" type="23"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="14" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="15" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="9,000" no="16" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 D5 H6</cards>
+   <action player="GoofyGlenn" sum="0" no="17" type="4"/>
+   <action player="N33DG4ME" sum="0" no="18" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action player="GoofyGlenn" sum="18,000" no="19" type="5"/>
+   <action player="N33DG4ME" sum="0" no="20" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580236950">
+  <general>
+   <startdate>2024-02-23 16:51:37</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="2" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="283,088" bet="900"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="161,020" bet="5,400"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="588,217" bet="9,900"/>
+    <player seat="6" win="28,800" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="379,414" bet="18,000"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="194,950" bet="900"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="242,301" bet="900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="211,044" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GoofyGlenn" sum="900" no="1" type="15"/>
+   <action player="SUPERKARL" sum="900" no="2" type="15"/>
+   <action player="TimTarnner" sum="900" no="3" type="15"/>
+   <action player="tropeiro123" sum="900" no="4" type="15"/>
+   <action player="N33DG4ME" sum="900" no="5" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="6" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="7" type="15"/>
+   <action player="GoofyGlenn" sum="4,500" no="8" type="1"/>
+   <action player="SUPERKARL" sum="9,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="18,000" no="10" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H6 C4</cards>
+   <action player="tropeiro123" sum="0" no="11" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="12" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="13" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="14" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="15" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="16" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580237015">
+  <general>
+   <startdate>2024-02-23 16:52:25</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="282,188" bet="900"/>
+    <player seat="4" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="155,620" bet="900"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="578,317" bet="5,400"/>
+    <player seat="6" win="15,300" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="398,314" bet="9,900"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="194,050" bet="900"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="241,401" bet="900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="210,144" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="SUPERKARL" sum="900" no="1" type="15"/>
+   <action player="TimTarnner" sum="900" no="2" type="15"/>
+   <action player="tropeiro123" sum="900" no="3" type="15"/>
+   <action player="N33DG4ME" sum="900" no="4" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="5" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="6" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="7" type="15"/>
+   <action player="SUPERKARL" sum="4,500" no="8" type="1"/>
+   <action player="TimTarnner" sum="9,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">C5 SJ</cards>
+   <action player="tropeiro123" sum="0" no="10" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="11" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="12" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="13" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="14" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="15" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580237081">
+  <general>
+   <startdate>2024-02-23 16:53:16</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbakush47" chips="100,000" bet="900"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="281,288" bet="900"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="154,720" bet="900"/>
+    <player seat="5" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="572,917" bet="900"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="408,214" bet="5,400"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="193,150" bet="18,900"/>
+    <player seat="9" win="47,700" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="240,501" bet="34,641"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="209,244" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TimTarnner" sum="900" no="1" type="15"/>
+   <action player="tropeiro123" sum="900" no="2" type="15"/>
+   <action player="N33DG4ME" sum="900" no="3" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="4" type="15"/>
+   <action player="bubbakush47" sum="900" no="5" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="6" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="7" type="15"/>
+   <action player="SUPERKARL" sum="900" no="8" type="15"/>
+   <action player="TimTarnner" sum="4,500" no="9" type="1"/>
+   <action player="tropeiro123" sum="9,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="18,000" no="11" type="23"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="12" type="0"/>
+   <cards player="bubbakush47" type="Pocket">X X</cards>
+   <action player="bubbakush47" sum="0" no="13" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="14" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="15" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="16" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="17" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 D10</cards>
+   <action player="tropeiro123" sum="9,000" no="18" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 C5 CK</cards>
+   <action player="tropeiro123" sum="0" no="19" type="4"/>
+   <action player="N33DG4ME" sum="15,741" no="20" type="5"/>
+   <action player="tropeiro123" sum="0" no="21" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580237178">
+  <general>
+   <startdate>2024-02-23 16:54:29</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbakush47" chips="99,100" bet="900"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="280,388" bet="900"/>
+    <player seat="4" win="322,040" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="153,820" bet="153,820"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="572,017" bet="900"/>
+    <player seat="6" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="402,814" bet="900"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="174,250" bet="173,350"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="269,301" bet="9,900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="208,344" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="900" no="1" type="15"/>
+   <action player="N33DG4ME" sum="900" no="2" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="3" type="15"/>
+   <action player="bubbakush47" sum="900" no="4" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="5" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="6" type="15"/>
+   <action player="SUPERKARL" sum="900" no="7" type="15"/>
+   <action player="TimTarnner" sum="900" no="8" type="15"/>
+   <action player="tropeiro123" sum="4,500" no="9" type="1"/>
+   <action player="N33DG4ME" sum="9,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="11" type="0"/>
+   <cards player="bubbakush47" type="Pocket">X X</cards>
+   <action player="bubbakush47" sum="0" no="12" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="13" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">CK SK</cards>
+   <action player="GoofyGlenn" sum="19,350" no="14" type="23"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="15" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="16" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 D8</cards>
+   <action player="tropeiro123" sum="173,350" no="17" type="23"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="0" no="18" type="0"/>
+   <action player="GoofyGlenn" sum="133,570" no="19" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D3 S6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10580256857">
+  <general>
+   <startdate>2024-02-23 17:01:42</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbakush47" chips="98,200" bet="900"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="279,488" bet="900"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="322,040" bet="900"/>
+    <player seat="5" win="34,200" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="571,117" bet="27,000"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="401,914" bet="900"/>
+    <player seat="7" win="0" dealer="1" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="20,430" bet="900"/>
+    <player seat="9" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="N33DG4ME" chips="259,401" bet="9,900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="207,444" bet="9,900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="N33DG4ME" sum="900" no="1" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="2" type="15"/>
+   <action player="bubbakush47" sum="900" no="3" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="4" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="5" type="15"/>
+   <action player="SUPERKARL" sum="900" no="6" type="15"/>
+   <action player="TimTarnner" sum="900" no="7" type="15"/>
+   <action player="tropeiro123" sum="900" no="8" type="15"/>
+   <action player="N33DG4ME" sum="4,500" no="9" type="1"/>
+   <action player="Hjerterdjr" sum="9,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bubbakush47" type="Pocket">X X</cards>
+   <action player="bubbakush47" sum="0" no="11" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="12" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="13" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="9,000" no="14" type="3"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="15" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 SJ</cards>
+   <action player="tropeiro123" sum="0" no="16" type="0"/>
+   <cards player="N33DG4ME" type="Pocket">X X</cards>
+   <action player="N33DG4ME" sum="4,500" no="17" type="3"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="18" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 D5 S9</cards>
+   <action player="N33DG4ME" sum="0" no="19" type="4"/>
+   <action player="Hjerterdjr" sum="0" no="20" type="4"/>
+   <action player="SUPERKARL" sum="17,100" no="21" type="5"/>
+   <action player="N33DG4ME" sum="0" no="22" type="0"/>
+   <action player="Hjerterdjr" sum="0" no="23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580256987">
+  <general>
+   <startdate>2024-02-23 17:03:02</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbakush47" chips="97,300" bet="9,900"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="278,588" bet="900"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="321,140" bet="900"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="595,417" bet="900"/>
+    <player seat="6" win="28,800" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="401,014" bet="22,500"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="19,530" bet="900"/>
+    <player seat="10" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="197,544" bet="5,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Hjerterdjr" sum="900" no="1" type="15"/>
+   <action player="bubbakush47" sum="900" no="2" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="3" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="4" type="15"/>
+   <action player="SUPERKARL" sum="900" no="5" type="15"/>
+   <action player="TimTarnner" sum="900" no="6" type="15"/>
+   <action player="tropeiro123" sum="900" no="7" type="15"/>
+   <action player="Hjerterdjr" sum="4,500" no="8" type="1"/>
+   <action player="bubbakush47" sum="9,000" no="9" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="0" no="10" type="0"/>
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="11" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="12" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="22,500" no="13" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D6 D4</cards>
+   <action player="tropeiro123" sum="0" no="14" type="0"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="15" type="0"/>
+   <cards player="bubbakush47" type="Pocket">X X</cards>
+   <action player="bubbakush47" sum="0" no="16" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10580257048">
+  <general>
+   <startdate>2024-02-23 17:03:32</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player seat="1" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="bubbakush47" chips="87,400" bet="5,400"/>
+    <player seat="2" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="BuddyCheddar" chips="277,688" bet="18,630"/>
+    <player seat="4" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="GoofyGlenn" chips="320,240" bet="900"/>
+    <player seat="5" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="SUPERKARL" chips="594,517" bet="900"/>
+    <player seat="6" win="0" dealer="0" addon="0" rebuy="0" reg_code="" name="TimTarnner" chips="419,914" bet="900"/>
+    <player seat="7" win="0" dealer="0" addon="0" rebuy="0" reg_code="7958676174" name="tropeiro123" chips="18,630" bet="18,630"/>
+    <player seat="9" win="64,890" dealer="0" addon="0" rebuy="0" reg_code="" name="JayTrayJr" chips="304,010" bet="38,745">
+     <knockout tobalance="€17.06" kicked="tropeiro123" tobounty="€17.05"/>
+    </player>
+    <player seat="10" win="0" dealer="1" addon="0" rebuy="0" reg_code="" name="Hjerterdjr" chips="192,144" bet="900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="bubbakush47" sum="900" no="1" type="15"/>
+   <action player="BuddyCheddar" sum="900" no="2" type="15"/>
+   <action player="GoofyGlenn" sum="900" no="3" type="15"/>
+   <action player="SUPERKARL" sum="900" no="4" type="15"/>
+   <action player="TimTarnner" sum="900" no="5" type="15"/>
+   <action player="tropeiro123" sum="900" no="6" type="15"/>
+   <action player="JayTrayJr" sum="900" no="7" type="15"/>
+   <action player="Hjerterdjr" sum="900" no="8" type="15"/>
+   <action player="bubbakush47" sum="4,500" no="9" type="1"/>
+   <action player="BuddyCheddar" sum="9,000" no="10" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GoofyGlenn" type="Pocket">X X</cards>
+   <action player="GoofyGlenn" sum="0" no="11" type="0"/>
+   <cards player="SUPERKARL" type="Pocket">X X</cards>
+   <action player="SUPERKARL" sum="0" no="12" type="0"/>
+   <cards player="TimTarnner" type="Pocket">X X</cards>
+   <action player="TimTarnner" sum="0" no="13" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 CK</cards>
+   <action player="tropeiro123" sum="17,730" no="14" type="7"/>
+   <cards player="JayTrayJr" type="Pocket">S3 HQ</cards>
+   <action player="JayTrayJr" sum="17,730" no="15" type="3"/>
+   <cards player="Hjerterdjr" type="Pocket">X X</cards>
+   <action player="Hjerterdjr" sum="0" no="16" type="0"/>
+   <cards player="bubbakush47" type="Pocket">X X</cards>
+   <action player="bubbakush47" sum="0" no="17" type="0"/>
+   <cards player="BuddyCheddar" type="Pocket">X X</cards>
+   <action player="BuddyCheddar" sum="8,730" no="18" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S2 H3</cards>
+   <action player="BuddyCheddar" sum="0" no="19" type="4"/>
+   <action player="JayTrayJr" sum="20,115" no="20" type="5"/>
+   <action player="BuddyCheddar" sum="0" no="21" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,25 @@
+{
+  "phase": "9.D",
+  "test_categories": {
+    "API Snapshots": [
+      "api_timeseries_snapshot.json",
+      "api_breakdown_snapshot.json"
+    ],
+    "Dashboard Tests": [
+      "dashboard_smoke_test.json",
+      "dashboard_charts_snapshot.json"
+    ],
+    "Validate Page": [
+      "validate_page_snapshot.json"
+    ]
+  },
+  "total_snapshots": 6,
+  "snapshots_created": [
+    "dashboard_smoke.json",
+    "api_timeseries_snapshot.json",
+    "api_breakdown_snapshot.json",
+    "dashboard_smoke_test.json",
+    "dashboard_charts_snapshot.json",
+    "validate_page_snapshot.json"
+  ]
+}

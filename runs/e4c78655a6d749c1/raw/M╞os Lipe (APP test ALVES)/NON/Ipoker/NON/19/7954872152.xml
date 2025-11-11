@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954872152">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€15,000 GTD, 1081501489</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:24:03</duration>
+  <gamecount>23</gamecount>
+  <startdate>2024-02-19 15:14:07</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>40,392</bets>
+  <wins>0</wins>
+  <chipsin>99,870</chipsin>
+  <chipsout>59,608</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294125</tournamentcode>
+  <tournamentname>E3|€15,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10573044146">
+  <general>
+   <startdate>2024-02-19 15:14:07</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="93,780" dealer="1" seat="1" name="Kjellern" bet="46,405" addon="0" rebuy="0" chips="120,761"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="580" addon="0" rebuy="0" chips="146,200"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="46,405" addon="0" rebuy="0" chips="100,142"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="86,800"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="174,864"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="81,563"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="GatoMoiado" sum="130" type="15"/>
+   <action no="2" player="Skyhook" sum="130" type="15"/>
+   <action no="3" player="WDB92" sum="130" type="15"/>
+   <action no="4" player="mywifeisbest" sum="130" type="15"/>
+   <action no="5" player="Gore0IRo" sum="130" type="15"/>
+   <action no="6" player="Kjellern" sum="130" type="15"/>
+   <action no="7" player="GatoMoiado" sum="450" type="1"/>
+   <action no="8" player="Skyhook" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="9" player="WDB92" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="10" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">SQ DA</cards>
+   <action no="12" player="Kjellern" sum="3,600" type="23"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="13" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">HA H10</cards>
+   <action no="14" player="Skyhook" sum="2,700" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 CA S7</cards>
+   <action no="15" player="Skyhook" sum="0" type="4"/>
+   <action no="16" player="Kjellern" sum="3,600" type="5"/>
+   <action no="17" player="Skyhook" sum="3,600" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="18" player="Skyhook" sum="0" type="4"/>
+   <action no="19" player="Kjellern" sum="7,815" type="5"/>
+   <action no="20" player="Skyhook" sum="7,815" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+   <action no="21" player="Skyhook" sum="0" type="4"/>
+   <action no="22" player="Kjellern" sum="31,260" type="5"/>
+   <action no="23" player="Skyhook" sum="31,260" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573044209">
+  <general>
+   <startdate>2024-02-19 15:14:58</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="2" name="GatoMoiado" bet="130" addon="0" rebuy="0" chips="145,620"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="580" addon="0" rebuy="0" chips="53,737"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="1,030" addon="0" rebuy="0" chips="86,670"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="3,160" dealer="0" seat="7" name="mywifeisbest" bet="1,800" addon="0" rebuy="0" chips="174,734"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="130" addon="0" rebuy="0" chips="113,798"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="81,433"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Skyhook" sum="130" type="15"/>
+   <action no="2" player="WDB92" sum="130" type="15"/>
+   <action no="3" player="tropeiro123" sum="130" type="15"/>
+   <action no="4" player="mywifeisbest" sum="130" type="15"/>
+   <action no="5" player="MangoJoe" sum="130" type="15"/>
+   <action no="6" player="Gore0IRo" sum="130" type="15"/>
+   <action no="7" player="GatoMoiado" sum="130" type="15"/>
+   <action no="8" player="Skyhook" sum="450" type="1"/>
+   <action no="9" player="WDB92" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H6 S10</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="1,800" type="23"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="12" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="14" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044235">
+  <general>
+   <startdate>2024-02-19 15:15:19</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="5,860" dealer="0" seat="1" name="HolyMF" bet="11,700" addon="0" rebuy="0" chips="92,970"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="53,157"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="580" addon="0" rebuy="0" chips="85,640"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="1,030" addon="0" rebuy="0" chips="99,870"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="176,864"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="1,930" addon="0" rebuy="0" chips="113,668"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="81,303"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WDB92" sum="130" type="15"/>
+   <action no="2" player="tropeiro123" sum="130" type="15"/>
+   <action no="3" player="mywifeisbest" sum="130" type="15"/>
+   <action no="4" player="MangoJoe" sum="130" type="15"/>
+   <action no="5" player="Gore0IRo" sum="130" type="15"/>
+   <action no="6" player="HolyMF" sum="130" type="15"/>
+   <action no="7" player="Skyhook" sum="130" type="15"/>
+   <action no="8" player="WDB92" sum="450" type="1"/>
+   <action no="9" player="tropeiro123" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="10" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="11" player="MangoJoe" sum="1,800" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="13" player="HolyMF" sum="11,700" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="14" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 S6</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <action no="17" player="MangoJoe" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044277">
+  <general>
+   <startdate>2024-02-19 15:15:49</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="130" addon="0" rebuy="0" chips="96,900"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Imbalance77" bet="130" addon="0" rebuy="0" chips="97,250"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="53,027"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="85,060"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="580" addon="0" rebuy="0" chips="98,840"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="1,030" addon="0" rebuy="0" chips="176,734"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="130" addon="0" rebuy="0" chips="111,738"/>
+    <player reg_code="" win="3,290" dealer="0" seat="10" name="Gore0IRo" bet="1,800" addon="0" rebuy="0" chips="81,173"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="130" type="15"/>
+   <action no="2" player="mywifeisbest" sum="130" type="15"/>
+   <action no="3" player="MangoJoe" sum="130" type="15"/>
+   <action no="4" player="Gore0IRo" sum="130" type="15"/>
+   <action no="5" player="HolyMF" sum="130" type="15"/>
+   <action no="6" player="Imbalance77" sum="130" type="15"/>
+   <action no="7" player="Skyhook" sum="130" type="15"/>
+   <action no="8" player="WDB92" sum="130" type="15"/>
+   <action no="9" player="tropeiro123" sum="450" type="1"/>
+   <action no="10" player="mywifeisbest" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="11" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="1,800" type="23"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="13" player="HolyMF" sum="0" type="0"/>
+   <cards player="Imbalance77" type="Pocket">X X</cards>
+   <action no="14" player="Imbalance77" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 H5</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="18" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044317">
+  <general>
+   <startdate>2024-02-19 15:16:21</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="1,030" addon="0" rebuy="0" chips="96,770"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Imbalance77" bet="130" addon="0" rebuy="0" chips="97,120"/>
+    <player reg_code="" win="4,190" dealer="0" seat="4" name="Skyhook" bet="3,125" addon="0" rebuy="0" chips="52,897"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="84,930"/>
+    <player reg_code="7954872152" win="0" dealer="1" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="98,260"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="580" addon="0" rebuy="0" chips="175,704"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="1,030" addon="0" rebuy="0" chips="111,608"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="83,433"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="mywifeisbest" sum="130" type="15"/>
+   <action no="2" player="MangoJoe" sum="130" type="15"/>
+   <action no="3" player="Gore0IRo" sum="130" type="15"/>
+   <action no="4" player="HolyMF" sum="130" type="15"/>
+   <action no="5" player="Imbalance77" sum="130" type="15"/>
+   <action no="6" player="Skyhook" sum="130" type="15"/>
+   <action no="7" player="WDB92" sum="130" type="15"/>
+   <action no="8" player="tropeiro123" sum="130" type="15"/>
+   <action no="9" player="mywifeisbest" sum="450" type="1"/>
+   <action no="10" player="MangoJoe" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="12" player="HolyMF" sum="900" type="3"/>
+   <cards player="Imbalance77" type="Pocket">X X</cards>
+   <action no="13" player="Imbalance77" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="14" player="Skyhook" sum="900" type="3"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 DA</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="17" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="18" player="MangoJoe" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C6 DJ</cards>
+   <action no="19" player="MangoJoe" sum="0" type="4"/>
+   <action no="20" player="HolyMF" sum="0" type="4"/>
+   <action no="21" player="Skyhook" sum="2,095" type="5"/>
+   <action no="22" player="MangoJoe" sum="0" type="0"/>
+   <action no="23" player="HolyMF" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044410">
+  <general>
+   <startdate>2024-02-19 15:17:24</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="130" addon="0" rebuy="0" chips="95,740"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Imbalance77" bet="130" addon="0" rebuy="0" chips="96,990"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="56,057"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="84,800"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="98,130"/>
+    <player reg_code="" win="3,290" dealer="1" seat="7" name="mywifeisbest" bet="1,800" addon="0" rebuy="0" chips="175,124"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="580" addon="0" rebuy="0" chips="110,578"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="1,030" addon="0" rebuy="0" chips="83,303"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MangoJoe" sum="130" type="15"/>
+   <action no="2" player="Gore0IRo" sum="130" type="15"/>
+   <action no="3" player="HolyMF" sum="130" type="15"/>
+   <action no="4" player="Imbalance77" sum="130" type="15"/>
+   <action no="5" player="Skyhook" sum="130" type="15"/>
+   <action no="6" player="WDB92" sum="130" type="15"/>
+   <action no="7" player="tropeiro123" sum="130" type="15"/>
+   <action no="8" player="mywifeisbest" sum="130" type="15"/>
+   <action no="9" player="MangoJoe" sum="450" type="1"/>
+   <action no="10" player="Gore0IRo" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="11" player="HolyMF" sum="0" type="0"/>
+   <cards player="Imbalance77" type="Pocket">X X</cards>
+   <action no="12" player="Imbalance77" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="13" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="14" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 D6</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="16" player="mywifeisbest" sum="1,800" type="23"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="17" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="18" player="Gore0IRo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044458">
+  <general>
+   <startdate>2024-02-19 15:17:59</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="6,275" addon="0" rebuy="0" chips="95,610"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Imbalance77" bet="130" addon="0" rebuy="0" chips="96,860"/>
+    <player reg_code="" win="13,780" dealer="0" seat="4" name="Skyhook" bet="13,165" addon="0" rebuy="0" chips="55,927"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="84,670"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="98,000"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="177,384"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="MangoJoe" bet="130" addon="0" rebuy="0" chips="109,998"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="580" addon="0" rebuy="0" chips="82,273"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gore0IRo" sum="130" type="15"/>
+   <action no="2" player="HolyMF" sum="130" type="15"/>
+   <action no="3" player="Imbalance77" sum="130" type="15"/>
+   <action no="4" player="Skyhook" sum="130" type="15"/>
+   <action no="5" player="WDB92" sum="130" type="15"/>
+   <action no="6" player="tropeiro123" sum="130" type="15"/>
+   <action no="7" player="mywifeisbest" sum="130" type="15"/>
+   <action no="8" player="MangoJoe" sum="130" type="15"/>
+   <action no="9" player="Gore0IRo" sum="450" type="1"/>
+   <action no="10" player="HolyMF" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Imbalance77" type="Pocket">X X</cards>
+   <action no="11" player="Imbalance77" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="12" player="Skyhook" sum="2,700" type="23"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="13" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 CK</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="15" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="16" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="17" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="18" player="HolyMF" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK H6 CJ</cards>
+   <action no="19" player="HolyMF" sum="0" type="4"/>
+   <action no="20" player="Skyhook" sum="3,445" type="5"/>
+   <action no="21" player="HolyMF" sum="3,445" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" player="HolyMF" sum="0" type="4"/>
+   <action no="23" player="Skyhook" sum="6,890" type="5"/>
+   <action no="24" player="HolyMF" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044520">
+  <general>
+   <startdate>2024-02-19 15:18:49</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="33,316" dealer="0" seat="1" name="HolyMF" bet="34,008" addon="0" rebuy="0" chips="89,335"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Imbalance77" bet="15,818" addon="0" rebuy="0" chips="96,730"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="1,030" addon="0" rebuy="0" chips="63,432"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="84,540"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="97,870"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="177,254"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="130" addon="0" rebuy="0" chips="109,868"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="81,693"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HolyMF" sum="130" type="15"/>
+   <action no="2" player="Imbalance77" sum="130" type="15"/>
+   <action no="3" player="Skyhook" sum="130" type="15"/>
+   <action no="4" player="WDB92" sum="130" type="15"/>
+   <action no="5" player="tropeiro123" sum="130" type="15"/>
+   <action no="6" player="mywifeisbest" sum="130" type="15"/>
+   <action no="7" player="MangoJoe" sum="130" type="15"/>
+   <action no="8" player="Gore0IRo" sum="130" type="15"/>
+   <action no="9" player="HolyMF" sum="450" type="1"/>
+   <action no="10" player="Imbalance77" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="11" player="Skyhook" sum="900" type="3"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="12" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 H7</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="14" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="15" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="16" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="17" player="HolyMF" sum="450" type="3"/>
+   <cards player="Imbalance77" type="Pocket">X X</cards>
+   <action no="18" player="Imbalance77" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 H2 CJ</cards>
+   <action no="19" player="HolyMF" sum="900" type="5"/>
+   <action no="20" player="Imbalance77" sum="900" type="3"/>
+   <action no="21" player="Skyhook" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action no="22" player="HolyMF" sum="0" type="4"/>
+   <action no="23" player="Imbalance77" sum="3,988" type="5"/>
+   <action no="24" player="HolyMF" sum="3,988" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+   <action no="25" player="HolyMF" sum="0" type="4"/>
+   <action no="26" player="Imbalance77" sum="9,900" type="5"/>
+   <action no="27" player="HolyMF" sum="28,090" type="23"/>
+   <action no="28" player="Imbalance77" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044684">
+  <general>
+   <startdate>2024-02-19 15:20:47</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="106,833"/>
+    <player reg_code="" win="14,100" dealer="0" seat="4" name="Skyhook" bet="13,725" addon="0" rebuy="0" chips="62,402"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="84,410"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="97,740"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="177,124"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="6,675" addon="0" rebuy="0" chips="109,738"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,563"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Skyhook" sum="150" type="15"/>
+   <action no="2" player="WDB92" sum="150" type="15"/>
+   <action no="3" player="tropeiro123" sum="150" type="15"/>
+   <action no="4" player="mywifeisbest" sum="150" type="15"/>
+   <action no="5" player="MangoJoe" sum="150" type="15"/>
+   <action no="6" player="Gore0IRo" sum="150" type="15"/>
+   <action no="7" player="HolyMF" sum="150" type="15"/>
+   <action no="8" player="Skyhook" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="9" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 C2</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="12" player="MangoJoe" sum="2,000" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="14" player="HolyMF" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="3,000" type="23"/>
+   <action no="16" player="MangoJoe" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 H3 SK</cards>
+   <action no="17" player="Skyhook" sum="3,525" type="5"/>
+   <action no="18" player="MangoJoe" sum="3,525" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="19" player="Skyhook" sum="7,050" type="5"/>
+   <action no="20" player="MangoJoe" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044763">
+  <general>
+   <startdate>2024-02-19 15:21:39</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="8,550" dealer="0" seat="1" name="HolyMF" bet="4,150" addon="0" rebuy="0" chips="106,683"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="650" addon="0" rebuy="0" chips="69,827"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="1,150" addon="0" rebuy="0" chips="84,260"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="2,150" addon="0" rebuy="0" chips="97,590"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="2,150" addon="0" rebuy="0" chips="176,974"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="150" addon="0" rebuy="0" chips="103,063"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,413"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Skyhook" sum="150" type="15"/>
+   <action no="2" player="WDB92" sum="150" type="15"/>
+   <action no="3" player="tropeiro123" sum="150" type="15"/>
+   <action no="4" player="mywifeisbest" sum="150" type="15"/>
+   <action no="5" player="MangoJoe" sum="150" type="15"/>
+   <action no="6" player="Gore0IRo" sum="150" type="15"/>
+   <action no="7" player="HolyMF" sum="150" type="15"/>
+   <action no="8" player="Skyhook" sum="500" type="1"/>
+   <action no="9" player="WDB92" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DK C10</cards>
+   <action no="10" player="tropeiro123" sum="2,000" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="2,000" type="3"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="12" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="14" player="HolyMF" sum="2,000" type="3"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 SA S3</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="mywifeisbest" sum="0" type="4"/>
+   <action no="19" player="HolyMF" sum="2,000" type="5"/>
+   <action no="20" player="tropeiro123" sum="0" type="0"/>
+   <action no="21" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068114">
+  <general>
+   <startdate>2024-02-19 15:23:38</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="113,083"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="69,177"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="650" addon="0" rebuy="0" chips="83,110"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="1,150" addon="0" rebuy="0" chips="95,440"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="174,824"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="150" addon="0" rebuy="0" chips="102,913"/>
+    <player reg_code="" win="3,700" dealer="0" seat="10" name="Gore0IRo" bet="2,100" addon="0" rebuy="0" chips="81,263"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WDB92" sum="150" type="15"/>
+   <action no="2" player="tropeiro123" sum="150" type="15"/>
+   <action no="3" player="mywifeisbest" sum="150" type="15"/>
+   <action no="4" player="MangoJoe" sum="150" type="15"/>
+   <action no="5" player="Gore0IRo" sum="150" type="15"/>
+   <action no="6" player="HolyMF" sum="150" type="15"/>
+   <action no="7" player="Wleek" sum="150" type="15"/>
+   <action no="8" player="Skyhook" sum="150" type="15"/>
+   <action no="9" player="WDB92" sum="500" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="12" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="2,100" type="23"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="14" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="15" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="16" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="17" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 C9</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068191">
+  <general>
+   <startdate>2024-02-19 15:24:41</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="112,933"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="99,850"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="69,027"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="82,460"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="650" addon="0" rebuy="0" chips="94,290"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="10,465" addon="0" rebuy="0" chips="174,674"/>
+    <player reg_code="" win="22,330" dealer="0" seat="9" name="MangoJoe" bet="25,649" addon="0" rebuy="0" chips="102,763"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="83,813"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="150" type="15"/>
+   <action no="2" player="mywifeisbest" sum="150" type="15"/>
+   <action no="3" player="MangoJoe" sum="150" type="15"/>
+   <action no="4" player="Gore0IRo" sum="150" type="15"/>
+   <action no="5" player="HolyMF" sum="150" type="15"/>
+   <action no="6" player="Wleek" sum="150" type="15"/>
+   <action no="7" player="Skyhook" sum="150" type="15"/>
+   <action no="8" player="WDB92" sum="150" type="15"/>
+   <action no="9" player="tropeiro123" sum="500" type="1"/>
+   <action no="10" player="mywifeisbest" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="11" player="MangoJoe" sum="2,000" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="13" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="14" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 SQ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="18" player="mywifeisbest" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 S5 HK</cards>
+   <action no="19" player="mywifeisbest" sum="0" type="4"/>
+   <action no="20" player="MangoJoe" sum="1,881" type="5"/>
+   <action no="21" player="mywifeisbest" sum="1,881" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="22" player="mywifeisbest" sum="0" type="4"/>
+   <action no="23" player="MangoJoe" sum="6,434" type="5"/>
+   <action no="24" player="mywifeisbest" sum="6,434" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="25" player="mywifeisbest" sum="0" type="4"/>
+   <action no="26" player="MangoJoe" sum="15,184" type="5"/>
+   <action no="27" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068300">
+  <general>
+   <startdate>2024-02-19 15:25:59</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="112,783"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="99,700"/>
+    <player reg_code="" win="3,700" dealer="0" seat="4" name="Skyhook" bet="2,000" addon="0" rebuy="0" chips="68,877"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="82,310"/>
+    <player reg_code="7954872152" win="0" dealer="1" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="93,640"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="650" addon="0" rebuy="0" chips="164,209"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="1,150" addon="0" rebuy="0" chips="114,628"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="83,663"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="mywifeisbest" sum="150" type="15"/>
+   <action no="2" player="MangoJoe" sum="150" type="15"/>
+   <action no="3" player="Gore0IRo" sum="150" type="15"/>
+   <action no="4" player="HolyMF" sum="150" type="15"/>
+   <action no="5" player="Wleek" sum="150" type="15"/>
+   <action no="6" player="Skyhook" sum="150" type="15"/>
+   <action no="7" player="WDB92" sum="150" type="15"/>
+   <action no="8" player="tropeiro123" sum="150" type="15"/>
+   <action no="9" player="mywifeisbest" sum="500" type="1"/>
+   <action no="10" player="MangoJoe" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="12" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="13" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="14" player="Skyhook" sum="2,000" type="23"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 HJ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="17" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="18" player="MangoJoe" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068348">
+  <general>
+   <startdate>2024-02-19 15:26:37</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="112,633"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="99,550"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="71,427"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="82,160"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="93,490"/>
+    <player reg_code="" win="3,700" dealer="1" seat="7" name="mywifeisbest" bet="2,000" addon="0" rebuy="0" chips="163,559"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="650" addon="0" rebuy="0" chips="113,478"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="1,150" addon="0" rebuy="0" chips="83,513"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MangoJoe" sum="150" type="15"/>
+   <action no="2" player="Gore0IRo" sum="150" type="15"/>
+   <action no="3" player="HolyMF" sum="150" type="15"/>
+   <action no="4" player="Wleek" sum="150" type="15"/>
+   <action no="5" player="Skyhook" sum="150" type="15"/>
+   <action no="6" player="WDB92" sum="150" type="15"/>
+   <action no="7" player="tropeiro123" sum="150" type="15"/>
+   <action no="8" player="mywifeisbest" sum="150" type="15"/>
+   <action no="9" player="MangoJoe" sum="500" type="1"/>
+   <action no="10" player="Gore0IRo" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="11" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="12" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="13" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="14" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 C7</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="16" player="mywifeisbest" sum="2,000" type="23"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="17" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="18" player="Gore0IRo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068395">
+  <general>
+   <startdate>2024-02-19 15:27:08</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="13,475" dealer="0" seat="1" name="HolyMF" bet="12,160" addon="0" rebuy="0" chips="112,483"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="4,075" addon="0" rebuy="0" chips="99,400"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="71,277"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="82,010"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="93,340"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="166,109"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="MangoJoe" bet="4,075" addon="0" rebuy="0" chips="112,828"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="650" addon="0" rebuy="0" chips="82,363"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gore0IRo" sum="150" type="15"/>
+   <action no="2" player="HolyMF" sum="150" type="15"/>
+   <action no="3" player="Wleek" sum="150" type="15"/>
+   <action no="4" player="Skyhook" sum="150" type="15"/>
+   <action no="5" player="WDB92" sum="150" type="15"/>
+   <action no="6" player="tropeiro123" sum="150" type="15"/>
+   <action no="7" player="mywifeisbest" sum="150" type="15"/>
+   <action no="8" player="MangoJoe" sum="150" type="15"/>
+   <action no="9" player="Gore0IRo" sum="500" type="1"/>
+   <action no="10" player="HolyMF" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="11" player="Wleek" sum="2,000" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="12" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="13" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 C5</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="15" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="16" player="MangoJoe" sum="2,000" type="3"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="17" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="18" player="HolyMF" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 HJ H4</cards>
+   <action no="19" player="HolyMF" sum="0" type="4"/>
+   <action no="20" player="Wleek" sum="1,925" type="5"/>
+   <action no="21" player="MangoJoe" sum="1,925" type="3"/>
+   <action no="22" player="HolyMF" sum="10,010" type="23"/>
+   <action no="23" player="Wleek" sum="0" type="0"/>
+   <action no="24" player="MangoJoe" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068525">
+  <general>
+   <startdate>2024-02-19 15:28:37</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="3,200" dealer="0" seat="1" name="HolyMF" bet="2,000" addon="0" rebuy="0" chips="121,883"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="1,150" addon="0" rebuy="0" chips="95,325"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="71,127"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="81,860"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="93,190"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="165,959"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="150" addon="0" rebuy="0" chips="108,753"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,713"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HolyMF" sum="150" type="15"/>
+   <action no="2" player="Wleek" sum="150" type="15"/>
+   <action no="3" player="Skyhook" sum="150" type="15"/>
+   <action no="4" player="WDB92" sum="150" type="15"/>
+   <action no="5" player="tropeiro123" sum="150" type="15"/>
+   <action no="6" player="mywifeisbest" sum="150" type="15"/>
+   <action no="7" player="MangoJoe" sum="150" type="15"/>
+   <action no="8" player="Gore0IRo" sum="150" type="15"/>
+   <action no="9" player="HolyMF" sum="500" type="1"/>
+   <action no="10" player="Wleek" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="11" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="12" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 D2</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="14" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="15" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="16" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="17" player="HolyMF" sum="2,000" type="23"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="18" player="Wleek" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068568">
+  <general>
+   <startdate>2024-02-19 15:29:12</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="3,700" dealer="1" seat="1" name="HolyMF" bet="2,000" addon="0" rebuy="0" chips="123,933"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="650" addon="0" rebuy="0" chips="94,175"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="1,150" addon="0" rebuy="0" chips="70,977"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="150" addon="0" rebuy="0" chips="81,710"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="93,040"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="165,809"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="150" addon="0" rebuy="0" chips="108,603"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,563"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Wleek" sum="150" type="15"/>
+   <action no="2" player="Skyhook" sum="150" type="15"/>
+   <action no="3" player="WDB92" sum="150" type="15"/>
+   <action no="4" player="tropeiro123" sum="150" type="15"/>
+   <action no="5" player="mywifeisbest" sum="150" type="15"/>
+   <action no="6" player="MangoJoe" sum="150" type="15"/>
+   <action no="7" player="Gore0IRo" sum="150" type="15"/>
+   <action no="8" player="HolyMF" sum="150" type="15"/>
+   <action no="9" player="Wleek" sum="500" type="1"/>
+   <action no="10" player="Skyhook" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="11" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA S8</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="13" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="14" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="15" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="16" player="HolyMF" sum="2,000" type="23"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="17" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="18" player="Skyhook" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068678">
+  <general>
+   <startdate>2024-02-19 15:30:21</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="126,483"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="93,525"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="650" addon="0" rebuy="0" chips="69,827"/>
+    <player reg_code="" win="2,200" dealer="0" seat="5" name="WDB92" bet="1,150" addon="0" rebuy="0" chips="81,560"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="92,890"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="165,659"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="150" addon="0" rebuy="0" chips="108,453"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,413"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Skyhook" sum="150" type="15"/>
+   <action no="2" player="WDB92" sum="150" type="15"/>
+   <action no="3" player="tropeiro123" sum="150" type="15"/>
+   <action no="4" player="mywifeisbest" sum="150" type="15"/>
+   <action no="5" player="MangoJoe" sum="150" type="15"/>
+   <action no="6" player="Gore0IRo" sum="150" type="15"/>
+   <action no="7" player="HolyMF" sum="150" type="15"/>
+   <action no="8" player="Wleek" sum="150" type="15"/>
+   <action no="9" player="Skyhook" sum="500" type="1"/>
+   <action no="10" player="WDB92" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <cards player="tropeiro123" type="Pocket">C7 S10</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="12" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="13" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="14" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="15" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="16" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="17" player="Skyhook" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068716">
+  <general>
+   <startdate>2024-02-19 15:30:49</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="150" addon="0" rebuy="0" chips="126,333"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="150" addon="0" rebuy="0" chips="93,375"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Skyhook" bet="150" addon="0" rebuy="0" chips="69,177"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="650" addon="0" rebuy="0" chips="83,110"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="3,575" addon="0" rebuy="0" chips="92,740"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="150" addon="0" rebuy="0" chips="165,509"/>
+    <player reg_code="" win="8,550" dealer="0" seat="9" name="MangoJoe" bet="9,389" addon="0" rebuy="0" chips="108,303"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="150" addon="0" rebuy="0" chips="81,263"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WDB92" sum="150" type="15"/>
+   <action no="2" player="tropeiro123" sum="150" type="15"/>
+   <action no="3" player="mywifeisbest" sum="150" type="15"/>
+   <action no="4" player="MangoJoe" sum="150" type="15"/>
+   <action no="5" player="Gore0IRo" sum="150" type="15"/>
+   <action no="6" player="HolyMF" sum="150" type="15"/>
+   <action no="7" player="Wleek" sum="150" type="15"/>
+   <action no="8" player="Skyhook" sum="150" type="15"/>
+   <action no="9" player="WDB92" sum="500" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="12" player="MangoJoe" sum="2,000" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="14" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="15" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="16" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="17" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H9</cards>
+   <action no="18" player="tropeiro123" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 DJ HJ</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="MangoJoe" sum="1,425" type="5"/>
+   <action no="21" player="tropeiro123" sum="1,425" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="22" player="tropeiro123" sum="0" type="4"/>
+   <action no="23" player="MangoJoe" sum="5,814" type="5"/>
+   <action no="24" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573068878">
+  <general>
+   <startdate>2024-02-19 15:32:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="180" addon="0" rebuy="0" chips="126,183"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="180" addon="0" rebuy="0" chips="93,225"/>
+    <player reg_code="" win="4,440" dealer="0" seat="4" name="Skyhook" bet="3,600" addon="0" rebuy="0" chips="69,027"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="WDB92" bet="180" addon="0" rebuy="0" chips="82,460"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="780" addon="0" rebuy="0" chips="89,165"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="1,380" addon="0" rebuy="0" chips="165,359"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="180" addon="0" rebuy="0" chips="113,278"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="180" addon="0" rebuy="0" chips="81,113"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="180" type="15"/>
+   <action no="2" player="mywifeisbest" sum="180" type="15"/>
+   <action no="3" player="MangoJoe" sum="180" type="15"/>
+   <action no="4" player="Gore0IRo" sum="180" type="15"/>
+   <action no="5" player="HolyMF" sum="180" type="15"/>
+   <action no="6" player="Wleek" sum="180" type="15"/>
+   <action no="7" player="Skyhook" sum="180" type="15"/>
+   <action no="8" player="WDB92" sum="180" type="15"/>
+   <action no="9" player="tropeiro123" sum="600" type="1"/>
+   <action no="10" player="mywifeisbest" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="11" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="13" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="14" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="3,600" type="23"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ S6</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="18" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573091508">
+  <general>
+   <startdate>2024-02-19 15:33:26</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="152,874" dealer="0" seat="1" name="HolyMF" bet="126,003" addon="0" rebuy="0" chips="126,003">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="Skyhook"/>
+    </player>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="180" addon="0" rebuy="0" chips="93,045"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="72,087" addon="0" rebuy="0" chips="72,087"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="180" addon="0" rebuy="0" chips="82,280"/>
+    <player reg_code="7954872152" win="0" dealer="1" seat="6" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="88,385"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="780" addon="0" rebuy="0" chips="163,979"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="7,200" addon="0" rebuy="0" chips="113,098"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="180" addon="0" rebuy="0" chips="80,933"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="mywifeisbest" sum="180" type="15"/>
+   <action no="2" player="MangoJoe" sum="180" type="15"/>
+   <action no="3" player="Gore0IRo" sum="180" type="15"/>
+   <action no="4" player="HolyMF" sum="180" type="15"/>
+   <action no="5" player="Wleek" sum="180" type="15"/>
+   <action no="6" player="Skyhook" sum="180" type="15"/>
+   <action no="7" player="WDB92" sum="180" type="15"/>
+   <action no="8" player="tropeiro123" sum="180" type="15"/>
+   <action no="9" player="mywifeisbest" sum="600" type="1"/>
+   <action no="10" player="MangoJoe" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">S9 S8</cards>
+   <action no="12" player="HolyMF" sum="2,400" type="23"/>
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="13" player="Wleek" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">HJ HA</cards>
+   <action no="14" player="Skyhook" sum="2,400" type="3"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 C5</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="17" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="18" player="MangoJoe" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 SQ SK</cards>
+   <action no="19" player="MangoJoe" sum="0" type="4"/>
+   <action no="20" player="HolyMF" sum="0" type="4"/>
+   <action no="21" player="Skyhook" sum="4,620" type="5"/>
+   <action no="22" player="MangoJoe" sum="4,620" type="3"/>
+   <action no="23" player="HolyMF" sum="4,620" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="24" player="MangoJoe" sum="0" type="4"/>
+   <action no="25" player="HolyMF" sum="0" type="4"/>
+   <action no="26" player="Skyhook" sum="11,550" type="5"/>
+   <action no="27" player="MangoJoe" sum="0" type="0"/>
+   <action no="28" player="HolyMF" sum="118,803" type="23"/>
+   <action no="29" player="Skyhook" sum="53,337" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+ <game gamecode="10573091897">
+  <general>
+   <startdate>2024-02-19 15:35:29</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="HolyMF" bet="180" addon="0" rebuy="0" chips="206,790"/>
+    <player reg_code="" win="59,534" dealer="0" seat="2" name="Wleek" bet="28,417" addon="0" rebuy="0" chips="92,865"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="180" addon="0" rebuy="0" chips="82,100"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="28,417" addon="0" rebuy="0" chips="88,205"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="mywifeisbest" bet="180" addon="0" rebuy="0" chips="163,199"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="MangoJoe" bet="780" addon="0" rebuy="0" chips="105,898"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="1,380" addon="0" rebuy="0" chips="80,753"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MangoJoe" sum="180" type="15"/>
+   <action no="2" player="Gore0IRo" sum="180" type="15"/>
+   <action no="3" player="HolyMF" sum="180" type="15"/>
+   <action no="4" player="Wleek" sum="180" type="15"/>
+   <action no="5" player="WDB92" sum="180" type="15"/>
+   <action no="6" player="tropeiro123" sum="180" type="15"/>
+   <action no="7" player="mywifeisbest" sum="180" type="15"/>
+   <action no="8" player="MangoJoe" sum="600" type="1"/>
+   <action no="9" player="Gore0IRo" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="10" player="HolyMF" sum="0" type="0"/>
+   <cards player="Wleek" type="Pocket">S10 CA</cards>
+   <action no="11" player="Wleek" sum="2,400" type="23"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="12" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 HQ</cards>
+   <action no="13" player="tropeiro123" sum="7,920" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="14" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="15" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="16" player="Gore0IRo" sum="0" type="0"/>
+   <action no="17" player="Wleek" sum="5,520" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 C4 D10</cards>
+   <action no="18" player="Wleek" sum="0" type="4"/>
+   <action no="19" player="tropeiro123" sum="4,725" type="5"/>
+   <action no="20" player="Wleek" sum="4,725" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="21" player="Wleek" sum="0" type="4"/>
+   <action no="22" player="tropeiro123" sum="15,592" type="5"/>
+   <action no="23" player="Wleek" sum="15,592" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action no="24" player="Wleek" sum="0" type="4"/>
+   <action no="25" player="tropeiro123" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573092166">
+  <general>
+   <startdate>2024-02-19 15:37:15</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="6,840" dealer="0" seat="1" name="HolyMF" bet="8,325" addon="0" rebuy="0" chips="206,610"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Wleek" bet="180" addon="0" rebuy="0" chips="123,982"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="nedelcualexandru" bet="180" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="180" addon="0" rebuy="0" chips="81,920"/>
+    <player reg_code="7954872152" win="0" dealer="0" seat="6" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="59,788"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="2,580" addon="0" rebuy="0" chips="163,019"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="MangoJoe" bet="180" addon="0" rebuy="0" chips="105,118"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="780" addon="0" rebuy="0" chips="79,373"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gore0IRo" sum="180" type="15"/>
+   <action no="2" player="HolyMF" sum="180" type="15"/>
+   <action no="3" player="Wleek" sum="180" type="15"/>
+   <action no="4" player="nedelcualexandru" sum="180" type="15"/>
+   <action no="5" player="WDB92" sum="180" type="15"/>
+   <action no="6" player="tropeiro123" sum="180" type="15"/>
+   <action no="7" player="mywifeisbest" sum="180" type="15"/>
+   <action no="8" player="MangoJoe" sum="180" type="15"/>
+   <action no="9" player="Gore0IRo" sum="600" type="1"/>
+   <action no="10" player="HolyMF" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Wleek" type="Pocket">X X</cards>
+   <action no="11" player="Wleek" sum="0" type="0"/>
+   <cards player="nedelcualexandru" type="Pocket">X X</cards>
+   <action no="12" player="nedelcualexandru" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="13" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H9</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="15" player="mywifeisbest" sum="2,400" type="23"/>
+   <cards player="MangoJoe" type="Pocket">X X</cards>
+   <action no="16" player="MangoJoe" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="17" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="HolyMF" type="Pocket">X X</cards>
+   <action no="18" player="HolyMF" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 D8 DQ</cards>
+   <action no="19" player="HolyMF" sum="0" type="4"/>
+   <action no="20" player="mywifeisbest" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="21" player="HolyMF" sum="0" type="4"/>
+   <action no="22" player="mywifeisbest" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="23" player="HolyMF" sum="5,745" type="5"/>
+   <action no="24" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

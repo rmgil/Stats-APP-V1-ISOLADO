@@ -1,0 +1,90 @@
+Em app/derive/preflop.py:
+
+No retorno do dicionário, acrescenta:
+
+"hero_vpip": hero_vpip(acts, hero),
+"hero_position": assign_positions(hand).get(hero),
+"pot_size_bb": compute_pot_size_flop_bb(hand),
+
+
+Adiciona os helpers abaixo no fim do ficheiro:
+
+from app.derive.positions import assign_positions
+from app.parse.schemas import Action
+
+def hero_vpip(acts: list[Action], hero: str) -> bool:
+    for a in acts:
+        if a.actor != hero: 
+            continue
+        if a.type in ("CALL","RAISE","RERAISE","ALLIN","BET"): 
+            return True
+        if a.type in ("FOLD","CHECK"):
+            # Se a primeira ação do hero foi fold ou check, não VPIP
+            return False
+    return False
+
+def compute_pot_size_flop_bb(hand) -> float | None:
+    """
+    Aproxima o pote à entrada do flop simulando contribuições do pré-flop.
+    Regras:
+      - Somar POST_SB/POST_BB/POST_ANTE a partir das ações pré-flop (se montadas).
+      - Para CALL/RAISE/ALLIN, somar a contribuição incremental (não 'to_amount' bruto).
+    Fallback: se não conseguir inferir incrementalmente, retorna None.
+    """
+    bb = float(hand.blinds.get("bb") or 0)
+    if bb <= 0: 
+        return None
+    acts = hand.streets.get("preflop",{}).get("actions",[])
+    if not acts:
+        # Pelo menos blinds entram
+        base = float(hand.blinds.get("sb") or 0) + float(hand.blinds.get("bb") or 0)
+        ante = float(hand.blinds.get("ante") or 0)
+        if ante > 0:
+            base += ante * len(hand.players_dealt_in or hand.players)
+        return round(base / bb, 2) if bb > 0 else None
+
+    invested = {p.name: 0.0 for p in hand.players}
+    current_to_call = float(hand.blinds.get("bb") or 0.0)  # após posts
+    pot = 0.0
+
+    # Primeiro, tentar somar posts/antes explícitos
+    for a in acts:
+        if a.type in ("POST_SB","POST_BB","POST_ANTE") and a.amount:
+            invested[a.actor] += float(a.amount or 0)
+            pot += float(a.amount or 0)
+
+    # Atualiza current_to_call pelo BB após posts
+    if current_to_call > 0 and pot == 0.0:
+        pot = float(hand.blinds.get("sb") or 0) + float(hand.blinds.get("bb") or 0)
+        ante = float(hand.blinds.get("ante") or 0)
+        if ante > 0:
+            pot += ante * len(hand.players_dealt_in or hand.players)
+
+    # Simulação simples de contribuição incremental
+    for a in acts:
+        if a.type == "CALL":
+            need = max(0.0, current_to_call - invested.get(a.actor, 0.0))
+            invested[a.actor] = max(invested.get(a.actor, 0.0), current_to_call)
+            pot += need
+        elif a.type in ("RAISE","RERAISE","ALLIN"):
+            # ideal: usar a.to_amount; fallback: usar a.amount como incremento
+            to_amt = float(getattr(a, "to_amount", 0.0) or 0.0)
+            if to_amt > 0:
+                inc = max(0.0, to_amt - invested.get(a.actor, 0.0))
+                invested[a.actor] = to_amt
+                current_to_call = to_amt
+                pot += inc
+            elif a.amount:
+                # se só amount estiver presente, assume incremento
+                inc = float(a.amount or 0.0)
+                invested[a.actor] = invested.get(a.actor, 0.0) + inc
+                current_to_call = invested[a.actor]
+                pot += inc
+        elif a.type == "FOLD":
+            continue
+        # STOP ao encontrar "FLOP": garantido pelo runner/street offsets (pré-flop apenas)
+
+    return round(pot / bb, 2) if pot > 0 else None
+
+
+Nota: não estamos a mexer no parser; se no futuro normalizarmos sempre to_amount para raises, esta função fica exata. Por ora, serve como melhor estimativa e é Optional.

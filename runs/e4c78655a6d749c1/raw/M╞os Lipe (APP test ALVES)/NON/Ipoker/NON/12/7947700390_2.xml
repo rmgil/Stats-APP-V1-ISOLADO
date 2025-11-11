@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947700390">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E2: The Big Game|€100k GTD|D1, 1080875211</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:28:56</duration>
+  <gamecount>29</gamecount>
+  <startdate>2024-02-12 14:14:51</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>68,872</bets>
+  <wins>16,950</wins>
+  <chipsin>49,900</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079640908</tournamentcode>
+  <tournamentname>E2: The Big Game|€100k GTD|D1</tournamentname>
+  <place>46</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10560175046">
+  <general>
+   <startdate>2024-02-12 14:14:51</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,380" addon="0" bet="120" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,700" addon="0" bet="120" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="49,250" addon="0" bet="120" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,203" addon="0" bet="1,720" reg_code="" name="flushkappa" win="2,440" rebuy="0"/>
+    <player dealer="0" seat="7" chips="48,950" addon="0" bet="920" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="58,827" addon="0" bet="120" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="38,170" addon="0" bet="120" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="120" player="flushkappa" type="15"/>
+   <action no="2" sum="120" player="tropeiro123" type="15"/>
+   <action no="3" sum="120" player="TheChosenOne21" type="15"/>
+   <action no="4" sum="120" player="Makichuk" type="15"/>
+   <action no="5" sum="120" player="ioflynn" type="15"/>
+   <action no="6" sum="120" player="Gizzmo90" type="15"/>
+   <action no="7" sum="120" player="Bomj2022" type="15"/>
+   <action no="8" sum="400" player="flushkappa" type="1"/>
+   <action no="9" sum="800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Bomj2022" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" sum="400" player="flushkappa" type="3"/>
+   <cards player="tropeiro123" type="Pocket">SA C2</cards>
+   <action no="16" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 CQ DK</cards>
+   <action no="17" sum="0" player="flushkappa" type="4"/>
+   <action no="18" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action no="19" sum="0" player="flushkappa" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+   <action no="21" sum="800" player="flushkappa" type="5"/>
+   <action no="22" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175352">
+  <general>
+   <startdate>2024-02-12 14:16:39</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,260" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,580" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="49,130" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="93,723" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="48,030" addon="0" bet="650" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="58,707" addon="0" bet="1,150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="38,050" addon="0" bet="37,900" reg_code="" name="Makichuk" win="3,550" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="tropeiro123" type="15"/>
+   <action no="2" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="3" sum="150" player="Makichuk" type="15"/>
+   <action no="4" sum="150" player="ioflynn" type="15"/>
+   <action no="5" sum="150" player="Gizzmo90" type="15"/>
+   <action no="6" sum="150" player="Bomj2022" type="15"/>
+   <action no="7" sum="150" player="flushkappa" type="15"/>
+   <action no="8" sum="500" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,000" player="TheChosenOne21" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="10" sum="37,900" player="Makichuk" type="23"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Bomj2022" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ S4</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="TheChosenOne21" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175416">
+  <general>
+   <startdate>2024-02-12 14:17:12</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,110" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,430" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="48,980" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="50,000" addon="0" bet="49,850" reg_code="" name="GodOgFull" win="3,700" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,573" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="47,380" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="57,557" addon="0" bet="650" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="40,450" addon="0" bet="1,150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="2" sum="150" player="Makichuk" type="15"/>
+   <action no="3" sum="150" player="ioflynn" type="15"/>
+   <action no="4" sum="150" player="Gizzmo90" type="15"/>
+   <action no="5" sum="150" player="Bomj2022" type="15"/>
+   <action no="6" sum="150" player="GodOgFull" type="15"/>
+   <action no="7" sum="150" player="flushkappa" type="15"/>
+   <action no="8" sum="150" player="tropeiro123" type="15"/>
+   <action no="9" sum="500" player="TheChosenOne21" type="1"/>
+   <action no="10" sum="1,000" player="Makichuk" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Bomj2022" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="14" sum="49,850" player="GodOgFull" type="23"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 H7</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Makichuk" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175505">
+  <general>
+   <startdate>2024-02-12 14:17:52</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,960" addon="0" bet="1,150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,280" addon="0" bet="2,150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="48,830" addon="0" bet="4,150" reg_code="" name="Bomj2022" win="6,700" rebuy="0"/>
+    <player dealer="0" seat="5" chips="52,550" addon="0" bet="150" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,423" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,230" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="56,907" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="39,300" addon="0" bet="650" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Makichuk" type="15"/>
+   <action no="2" sum="150" player="ioflynn" type="15"/>
+   <action no="3" sum="150" player="Gizzmo90" type="15"/>
+   <action no="4" sum="150" player="Bomj2022" type="15"/>
+   <action no="5" sum="150" player="GodOgFull" type="15"/>
+   <action no="6" sum="150" player="flushkappa" type="15"/>
+   <action no="7" sum="150" player="tropeiro123" type="15"/>
+   <action no="8" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="9" sum="500" player="Makichuk" type="1"/>
+   <action no="10" sum="1,000" player="ioflynn" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="11" sum="2,000" player="Gizzmo90" type="23"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="12" sum="2,000" player="Bomj2022" type="3"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="GodOgFull" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 SJ</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ioflynn" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C9 H9</cards>
+   <action no="19" sum="0" player="Gizzmo90" type="4"/>
+   <action no="20" sum="2,000" player="Bomj2022" type="5"/>
+   <action no="21" sum="0" player="Gizzmo90" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175598">
+  <general>
+   <startdate>2024-02-12 14:18:37</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="98,810" addon="0" bet="650" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="63,130" addon="0" bet="1,150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="53,380" addon="0" bet="2,350" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="52,400" addon="0" bet="150" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,273" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,080" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,757" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="38,650" addon="0" bet="38,500" reg_code="" name="Makichuk" win="7,100" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="ioflynn" type="15"/>
+   <action no="2" sum="150" player="Gizzmo90" type="15"/>
+   <action no="3" sum="150" player="Bomj2022" type="15"/>
+   <action no="4" sum="150" player="GodOgFull" type="15"/>
+   <action no="5" sum="150" player="flushkappa" type="15"/>
+   <action no="6" sum="150" player="tropeiro123" type="15"/>
+   <action no="7" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="8" sum="150" player="Makichuk" type="15"/>
+   <action no="9" sum="500" player="ioflynn" type="1"/>
+   <action no="10" sum="1,000" player="Gizzmo90" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="11" sum="2,200" player="Bomj2022" type="23"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="GodOgFull" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 DJ</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="16" sum="38,500" player="Makichuk" type="23"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Gizzmo90" type="0"/>
+   <action no="19" sum="0" player="Bomj2022" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175659">
+  <general>
+   <startdate>2024-02-12 14:19:05</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="1" seat="1" chips="98,160" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="61,980" addon="0" bet="2,650" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="51,030" addon="0" bet="1,150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="52,250" addon="0" bet="6,250" reg_code="" name="GodOgFull" win="7,200" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,123" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="46,930" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,607" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="43,400" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Gizzmo90" type="15"/>
+   <action no="2" sum="150" player="Bomj2022" type="15"/>
+   <action no="3" sum="150" player="GodOgFull" type="15"/>
+   <action no="4" sum="150" player="flushkappa" type="15"/>
+   <action no="5" sum="150" player="tropeiro123" type="15"/>
+   <action no="6" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="7" sum="150" player="Makichuk" type="15"/>
+   <action no="8" sum="150" player="ioflynn" type="15"/>
+   <action no="9" sum="500" player="Gizzmo90" type="1"/>
+   <action no="10" sum="1,000" player="Bomj2022" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="11" sum="2,500" player="GodOgFull" type="23"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 H7</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="17" sum="2,000" player="Gizzmo90" type="3"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Bomj2022" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 DJ CQ</cards>
+   <action no="19" sum="0" player="Gizzmo90" type="4"/>
+   <action no="20" sum="3,600" player="GodOgFull" type="5"/>
+   <action no="21" sum="0" player="Gizzmo90" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175769">
+  <general>
+   <startdate>2024-02-12 14:20:04</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="98,010" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="59,330" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="49,880" addon="0" bet="650" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="56,800" addon="0" bet="1,150" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,973" addon="0" bet="150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="46,780" addon="0" bet="2,100" reg_code="7947700390" name="tropeiro123" win="3,700" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,457" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="43,250" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Bomj2022" type="15"/>
+   <action no="2" sum="150" player="GodOgFull" type="15"/>
+   <action no="3" sum="150" player="flushkappa" type="15"/>
+   <action no="4" sum="150" player="tropeiro123" type="15"/>
+   <action no="5" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="6" sum="150" player="Makichuk" type="15"/>
+   <action no="7" sum="150" player="ioflynn" type="15"/>
+   <action no="8" sum="150" player="Gizzmo90" type="15"/>
+   <action no="9" sum="500" player="Bomj2022" type="1"/>
+   <action no="10" sum="1,000" player="GodOgFull" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ DK</cards>
+   <action no="12" sum="2,100" player="tropeiro123" type="23"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Bomj2022" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="GodOgFull" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560175891">
+  <general>
+   <startdate>2024-02-12 14:20:31</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="97,860" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="59,180" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="49,230" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="55,650" addon="0" bet="650" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,823" addon="0" bet="1,150" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="49,330" addon="0" bet="43,100" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,307" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="43,100" addon="0" bet="42,950" reg_code="" name="Makichuk" win="88,600" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="GodOgFull" type="15"/>
+   <action no="2" sum="150" player="flushkappa" type="15"/>
+   <action no="3" sum="150" player="tropeiro123" type="15"/>
+   <action no="4" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="5" sum="150" player="Makichuk" type="15"/>
+   <action no="6" sum="150" player="ioflynn" type="15"/>
+   <action no="7" sum="150" player="Gizzmo90" type="15"/>
+   <action no="8" sum="150" player="Bomj2022" type="15"/>
+   <action no="9" sum="500" player="GodOgFull" type="1"/>
+   <action no="10" sum="1,000" player="flushkappa" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D10 S10</cards>
+   <action no="11" sum="2,100" player="tropeiro123" type="23"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">DJ CJ</cards>
+   <action no="13" sum="42,950" player="Makichuk" type="23"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Bomj2022" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="GodOgFull" type="0"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="flushkappa" type="0"/>
+   <action no="19" sum="40,850" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 D7 D2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10560176050">
+  <general>
+   <startdate>2024-02-12 14:21:25</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="97,710" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="59,030" addon="0" bet="5,500" reg_code="" name="Gizzmo90" win="6,700" rebuy="0"/>
+    <player dealer="0" seat="4" chips="49,080" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="55,000" addon="0" bet="2,150" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="91,673" addon="0" bet="650" reg_code="" name="flushkappa" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="6,230" addon="0" bet="1,150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,157" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,600" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="flushkappa" type="15"/>
+   <action no="2" sum="150" player="tropeiro123" type="15"/>
+   <action no="3" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="4" sum="150" player="Makichuk" type="15"/>
+   <action no="5" sum="150" player="ioflynn" type="15"/>
+   <action no="6" sum="150" player="Gizzmo90" type="15"/>
+   <action no="7" sum="150" player="Bomj2022" type="15"/>
+   <action no="8" sum="150" player="GodOgFull" type="15"/>
+   <action no="9" sum="500" player="flushkappa" type="1"/>
+   <action no="10" sum="1,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="14" sum="2,000" player="Gizzmo90" type="23"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Bomj2022" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="16" sum="2,000" player="GodOgFull" type="3"/>
+   <cards player="flushkappa" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="flushkappa" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 D5</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 S4 HQ</cards>
+   <action no="19" sum="3,350" player="Gizzmo90" type="5"/>
+   <action no="20" sum="0" player="GodOgFull" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176202">
+  <general>
+   <startdate>2024-02-12 14:22:30</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="97,560" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="63,580" addon="0" bet="2,300" reg_code="" name="Gizzmo90" win="3,400" rebuy="0"/>
+    <player dealer="0" seat="4" chips="48,930" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="5,080" addon="0" bet="650" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="56,007" addon="0" bet="1,150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,450" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="tropeiro123" type="15"/>
+   <action no="2" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="3" sum="150" player="Makichuk" type="15"/>
+   <action no="4" sum="150" player="ioflynn" type="15"/>
+   <action no="5" sum="150" player="Gizzmo90" type="15"/>
+   <action no="6" sum="150" player="Bomj2022" type="15"/>
+   <action no="7" sum="500" player="tropeiro123" type="1"/>
+   <action no="8" sum="1,000" player="TheChosenOne21" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="11" sum="2,300" player="Gizzmo90" type="23"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Bomj2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 D9</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="TheChosenOne21" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176230">
+  <general>
+   <startdate>2024-02-12 14:22:51</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="97,410" addon="0" bet="2,150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,830" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="48,780" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="4,430" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="54,857" addon="0" bet="650" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,300" addon="0" bet="7,550" reg_code="" name="Makichuk" win="5,400" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="2" sum="150" player="Makichuk" type="15"/>
+   <action no="3" sum="150" player="ioflynn" type="15"/>
+   <action no="4" sum="150" player="Gizzmo90" type="15"/>
+   <action no="5" sum="150" player="Bomj2022" type="15"/>
+   <action no="6" sum="150" player="tropeiro123" type="15"/>
+   <action no="7" sum="500" player="TheChosenOne21" type="1"/>
+   <action no="8" sum="1,000" player="Makichuk" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="9" sum="2,000" player="ioflynn" type="23"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bomj2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 DJ</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="14" sum="1,000" player="Makichuk" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 SA D6</cards>
+   <action no="15" sum="5,400" player="Makichuk" type="5"/>
+   <action no="16" sum="0" player="ioflynn" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176362">
+  <general>
+   <startdate>2024-02-12 14:23:47</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,260" addon="0" bet="1,150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,680" addon="0" bet="150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="48,630" addon="0" bet="2,200" reg_code="" name="Bomj2022" win="3,400" rebuy="0"/>
+    <player dealer="0" seat="7" chips="4,280" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="54,207" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="91,550" addon="0" bet="650" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Makichuk" type="15"/>
+   <action no="2" sum="150" player="ioflynn" type="15"/>
+   <action no="3" sum="150" player="Gizzmo90" type="15"/>
+   <action no="4" sum="150" player="Bomj2022" type="15"/>
+   <action no="5" sum="150" player="tropeiro123" type="15"/>
+   <action no="6" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="7" sum="500" player="Makichuk" type="1"/>
+   <action no="8" sum="1,000" player="ioflynn" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="10" sum="2,200" player="Bomj2022" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C9 H4</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ioflynn" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176382">
+  <general>
+   <startdate>2024-02-12 14:24:04</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="0" seat="1" chips="94,110" addon="0" bet="650" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,530" addon="0" bet="4,130" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="50,880" addon="0" bet="150" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="4,130" addon="0" bet="4,130" reg_code="7947700390" name="tropeiro123" win="9,360" rebuy="0"/>
+    <player dealer="0" seat="9" chips="54,057" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="90,900" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="ioflynn" type="15"/>
+   <action no="2" sum="150" player="Gizzmo90" type="15"/>
+   <action no="3" sum="150" player="Bomj2022" type="15"/>
+   <action no="4" sum="150" player="tropeiro123" type="15"/>
+   <action no="5" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="6" sum="150" player="Makichuk" type="15"/>
+   <action no="7" sum="500" player="ioflynn" type="1"/>
+   <action no="8" sum="1,000" player="Gizzmo90" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Bomj2022" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 HA</cards>
+   <action no="10" sum="3,500" player="tropeiro123" type="23"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">H5 S10</cards>
+   <action no="14" sum="2,500" player="Gizzmo90" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 S2 S7</cards>
+   <action no="15" sum="0" player="Gizzmo90" type="4"/>
+   <action no="16" sum="480" player="tropeiro123" type="7"/>
+   <action no="17" sum="480" player="Gizzmo90" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+  </round>
+ </game>
+ <game gamecode="10560176447">
+  <general>
+   <startdate>2024-02-12 14:24:55</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player dealer="1" seat="1" chips="93,460" addon="0" bet="150" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="61,400" addon="0" bet="4,150" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="50,730" addon="0" bet="9,670" reg_code="" name="Bomj2022" win="9,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="50,000" addon="0" bet="150" reg_code="" name="spelmanj1" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="50,000" addon="0" bet="150" reg_code="" name="Bunlingo" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,360" addon="0" bet="150" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="53,907" addon="0" bet="150" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="90,750" addon="0" bet="150" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="150" player="Gizzmo90" type="15"/>
+   <action no="2" sum="150" player="Bomj2022" type="15"/>
+   <action no="3" sum="150" player="spelmanj1" type="15"/>
+   <action no="4" sum="150" player="Bunlingo" type="15"/>
+   <action no="5" sum="150" player="tropeiro123" type="15"/>
+   <action no="6" sum="150" player="TheChosenOne21" type="15"/>
+   <action no="7" sum="150" player="Makichuk" type="15"/>
+   <action no="8" sum="150" player="ioflynn" type="15"/>
+   <action no="9" sum="500" player="Gizzmo90" type="1"/>
+   <action no="10" sum="1,000" player="Bomj2022" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="spelmanj1" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="spelmanj1" type="0"/>
+   <cards player="Bunlingo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Bunlingo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 S9</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="17" sum="500" player="Gizzmo90" type="3"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="18" sum="4,000" player="Bomj2022" type="23"/>
+   <action no="19" sum="3,000" player="Gizzmo90" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 D10 S7</cards>
+   <action no="20" sum="0" player="Gizzmo90" type="4"/>
+   <action no="21" sum="0" player="Bomj2022" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="22" sum="0" player="Gizzmo90" type="4"/>
+   <action no="23" sum="5,520" player="Bomj2022" type="5"/>
+   <action no="24" sum="0" player="Gizzmo90" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176619">
+  <general>
+   <startdate>2024-02-12 14:27:00</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="93,310" addon="0" bet="180" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="57,250" addon="0" bet="180" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="55,780" addon="0" bet="6,180" reg_code="" name="Bomj2022" win="8,640" rebuy="0"/>
+    <player dealer="0" seat="5" chips="49,850" addon="0" bet="3,780" reg_code="" name="spelmanj1" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="49,850" addon="0" bet="180" reg_code="" name="Bunlingo" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,210" addon="0" bet="180" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="53,757" addon="0" bet="180" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="90,600" addon="0" bet="180" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="Bomj2022" type="15"/>
+   <action no="2" sum="180" player="spelmanj1" type="15"/>
+   <action no="3" sum="180" player="Bunlingo" type="15"/>
+   <action no="4" sum="180" player="tropeiro123" type="15"/>
+   <action no="5" sum="180" player="TheChosenOne21" type="15"/>
+   <action no="6" sum="180" player="Makichuk" type="15"/>
+   <action no="7" sum="180" player="ioflynn" type="15"/>
+   <action no="8" sum="180" player="Gizzmo90" type="15"/>
+   <action no="9" sum="600" player="Bomj2022" type="1"/>
+   <action no="10" sum="1,200" player="spelmanj1" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bunlingo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Bunlingo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 CJ</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Gizzmo90" type="0"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="17" sum="3,600" player="Bomj2022" type="23"/>
+   <cards player="spelmanj1" type="Pocket">X X</cards>
+   <action no="18" sum="2,400" player="spelmanj1" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 C7 H3</cards>
+   <action no="19" sum="2,400" player="Bomj2022" type="5"/>
+   <action no="20" sum="0" player="spelmanj1" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176684">
+  <general>
+   <startdate>2024-02-12 14:27:44</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="93,130" addon="0" bet="180" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="57,070" addon="0" bet="3,780" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="60,640" addon="0" bet="3,780" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="46,070" addon="0" bet="46,070" reg_code="" name="spelmanj1" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="49,670" addon="0" bet="49,670" reg_code="" name="Bunlingo" win="100,420" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,030" addon="0" bet="180" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="53,577" addon="0" bet="180" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="90,420" addon="0" bet="180" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="spelmanj1" type="15"/>
+   <action no="2" sum="180" player="Bunlingo" type="15"/>
+   <action no="3" sum="180" player="tropeiro123" type="15"/>
+   <action no="4" sum="180" player="TheChosenOne21" type="15"/>
+   <action no="5" sum="180" player="Makichuk" type="15"/>
+   <action no="6" sum="180" player="ioflynn" type="15"/>
+   <action no="7" sum="180" player="Gizzmo90" type="15"/>
+   <action no="8" sum="180" player="Bomj2022" type="15"/>
+   <action no="9" sum="600" player="spelmanj1" type="1"/>
+   <action no="10" sum="1,200" player="Bunlingo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S2 D5</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">X X</cards>
+   <action no="15" sum="3,600" player="Gizzmo90" type="23"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="16" sum="3,600" player="Bomj2022" type="3"/>
+   <cards player="spelmanj1" type="Pocket">H9 H8</cards>
+   <action no="17" sum="3,000" player="spelmanj1" type="3"/>
+   <cards player="Bunlingo" type="Pocket">SA SK</cards>
+   <action no="18" sum="15,600" player="Bunlingo" type="23"/>
+   <action no="19" sum="0" player="Gizzmo90" type="0"/>
+   <action no="20" sum="0" player="Bomj2022" type="0"/>
+   <action no="21" sum="12,000" player="spelmanj1" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H7 CA</cards>
+   <action no="22" sum="0" player="spelmanj1" type="4"/>
+   <action no="23" sum="0" player="Bunlingo" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="24" sum="7,200" player="spelmanj1" type="5"/>
+   <action no="25" sum="33,890" player="Bunlingo" type="23"/>
+   <action no="26" sum="23,090" player="spelmanj1" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+ <game gamecode="10560176848">
+  <general>
+   <startdate>2024-02-12 14:29:37</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="92,950" addon="0" bet="180" reg_code="" name="ioflynn" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="53,290" addon="0" bet="53,290" reg_code="" name="Gizzmo90" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="56,860" addon="0" bet="180" reg_code="" name="Bomj2022" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="104,020" addon="0" bet="103,840" reg_code="" name="Bunlingo" win="116,150" rebuy="0"/>
+    <player dealer="0" seat="7" chips="8,850" addon="0" bet="8,850" reg_code="7947700390" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="53,397" addon="0" bet="180" reg_code="" name="TheChosenOne21" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="90,240" addon="0" bet="180" reg_code="" name="Makichuk" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="Bunlingo" type="15"/>
+   <action no="2" sum="180" player="tropeiro123" type="15"/>
+   <action no="3" sum="180" player="TheChosenOne21" type="15"/>
+   <action no="4" sum="180" player="Makichuk" type="15"/>
+   <action no="5" sum="180" player="ioflynn" type="15"/>
+   <action no="6" sum="180" player="Gizzmo90" type="15"/>
+   <action no="7" sum="180" player="Bomj2022" type="15"/>
+   <action no="8" sum="600" player="Bunlingo" type="1"/>
+   <action no="9" sum="1,200" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheChosenOne21" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="TheChosenOne21" type="0"/>
+   <cards player="Makichuk" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Makichuk" type="0"/>
+   <cards player="ioflynn" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ioflynn" type="0"/>
+   <cards player="Gizzmo90" type="Pocket">HK CA</cards>
+   <action no="13" sum="4,800" player="Gizzmo90" type="23"/>
+   <cards player="Bomj2022" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Bomj2022" type="0"/>
+   <cards player="Bunlingo" type="Pocket">CJ SJ</cards>
+   <action no="15" sum="103,840" player="Bunlingo" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DA DQ</cards>
+   <action no="16" sum="7,470" player="tropeiro123" type="7"/>
+   <action no="17" sum="48,310" player="Gizzmo90" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 D2 S9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,271 @@
+Perfeito — com a Fase 1 fechada (e mantendo o teu fluxo de drag‑and‑drop), temos condições para avançar.
+Segue um conjunto de prompts para o agent do Replit — FASE 2 (Parser multi‑sala + normalização de mãos). Estão escritos para reutilizar a tua app Flask e encaixar imediatamente a seguir à classificação que já tens.
+
+Estratégia: zero reescrita. Vamos acrescentar um módulo de parsing/normalização, expor 1 CLI e 1 endpoint novos, e deixar pronto o terreno para a Fase 3 (derivadas e stats).
+
+✅ Objetivo da Fase 2
+
+Ler cada TXT (torneio) e separar todas as mãos com delimitação de streets.
+
+Identificar HERO (com aliases por sala) e vilões.
+
+Detetar botão, seats, players dealt‑in, blinds/antes.
+
+Normalizar ações por street (pré‑flop, flop, turn, river) num modelo canónico.
+
+Calcular flags base: any_allin_preflop, players_to_flop, heads_up_flop (HU/MW), table_max.
+
+Preparar dados para: posições absolutas 6‑max/9‑max e EP/MP/LP (aplicadas na Fase 3).
+
+Emitir JSONL (1 linha por mão) + índice com offsets de texto (para click‑through).
+
+PROMPT A — Inventário e ponto de encaixe (não reescrever)
+
+Lista, em markdown, os ficheiros/rotas existentes onde:
+
+A pipeline atual grava as pastas PKO/, non-KO/, mystery/ e zippa o resultado.
+
+É possível inserir uma chamada opcional de parsing logo após a classificação (sem alterar a UI atual).
+
+Não alteres nada ainda; apenas devolve os paths e a melhor função “hook” para chamar o parser com um diretório de entrada (as 3 pastas) e um diretório de saída “/parsed”.
+
+DoD: inventário claro, com 1 função candidata para o hook pós‑classificação.
+
+PROMPT B — Estrutura mínima do parser (Python, reutilizando Flask)
+
+Cria os módulos abaixo, sem alterar rotas atuais:
+
+app/
+  parse/
+    __init__.py
+    schemas.py        # modelos Pydantic
+    interfaces.py     # contratos do parser
+    utils.py          # helpers texto/regex/offsets
+    site_generic.py   # fallback
+    site_pokerstars.py
+    site_gg.py
+    site_wpn.py
+    site_winamax.py
+    site_888.py
+    runner.py         # orquestra parsing por ficheiro
+  config/
+    hero_aliases.json # {"global":["Nick1","Nick2"], "pokerstars":["..."], "gg":["..."], ...}
+
+
+Dependências novas: pydantic, python-dateutil.
+
+schemas.py (Pydantic) — implementa:
+
+from typing import Literal, List, Optional, Dict
+from pydantic import BaseModel
+
+ActionType = Literal["POST_SB","POST_BB","POST_ANTE","FOLD","CHECK","CALL","BET","RAISE","RERAISE","ALLIN"]
+Street = Literal["preflop","flop","turn","river"]
+
+class Action(BaseModel):
+    actor: str
+    type: ActionType
+    amount: Optional[float] = None
+    to_amount: Optional[float] = None
+    allin: bool = False
+    raw_offset: Optional[int] = None   # posição no texto (click-through)
+
+class StreetInfo(BaseModel):
+    actions: List[Action] = []
+    board: Optional[List[str]] = None  # flop/turn/river
+
+class Player(BaseModel):
+    seat: int
+    name: str
+    stack_chips: Optional[float] = None
+    is_hero: bool = False
+
+class Hand(BaseModel):
+    site: Literal["pokerstars","gg","wpn","winamax","888","other"]
+    tournament_id: Optional[str] = None
+    tournament_name: Optional[str] = None
+    file_id: str
+    timestamp_utc: Optional[str] = None
+    button_seat: Optional[int] = None
+    table_max: Optional[int] = None
+    blinds: Dict[str,float] = {}       # {"sb":..., "bb":..., "ante":...}
+    players: List[Player]
+    players_dealt_in: List[str] = []
+    hero: Optional[str] = None
+    streets: Dict[Street, StreetInfo]
+    any_allin_preflop: bool = False
+    players_to_flop: int = 0
+    heads_up_flop: bool = False
+    raw_offsets: Dict[str,int] = {}    # {"hand_start":i, "hand_end":j, "flop":k, ...}
+
+
+interfaces.py — define:
+
+class SiteParser(Protocol):
+    def detect(self, text:str) -> bool: ...
+    def parse_tournament(self, text:str, file_id:str, hero_aliases:dict) -> list[Hand]: ...
+
+
+utils.py — helpers:
+
+iter_hands(text) -> iterator[(start_idx, end_idx, hand_text)] (delimita cada mão por marcadores robustos — ver PROMPT C/D).
+
+extract_offsets(hand_text) para marcar *** HOLE CARDS ***, *** FLOP ***, etc.
+
+clean_amount(s) para normalizar números (vírgulas/pontos).
+
+safe_match(pattern, line) utilidade de regex.
+
+DoD: compila, sem lógica de parsing implementada ainda.
+
+PROMPT C — Delimitação de mãos e ruas (genérico)
+
+Em site_generic.py, implementa:
+
+Delimitadores de mão por blocos usando padrões robustos encontrados em todas as salas:
+
+início: linhas que contenham algum entre *** HOLE CARDS ***, Hand #, PokerStars Hand, Winamax Poker -, Tournament #, etc.
+
+fim: imediatamente antes do início do próximo bloco ou EOF.
+
+Dentro de cada mão, localizar offsets (índices) de:
+
+*** HOLE CARDS ***, *** FLOP ***, *** TURN ***, *** RIVER ***, *** SHOW DOWN ***|*** SHOWDOWN ***, *** SUMMARY ***.
+
+Criar StreetInfo vazios para ruas que não existirem no texto (ex.: fold pré‑flop).
+
+Exporta funções utilitárias reutilizáveis para os parsers específicos; não precisas de extrair ações aqui ainda — só recorte por mão + offsets de streets.
+
+DoD: para um texto de torneio com N mãos, iter_hands devolve N blocos com offsets coerentes e ruas detectadas.
+
+PROMPT D — Parsers por sala (regras mínimas por agora)
+
+Implementa, por sala, um SiteParser com:
+
+detect(text) por tokens do header (e.g., “PokerStars”, “GGPoker”, “Winamax Poker”, “Hand #” estilo WPN/888).
+
+parse_tournament(text, file_id, hero_aliases) que:
+
+Usa iter_hands/offsets do site_generic.
+
+Para cada mão:
+
+extrai button (Seat #X is the button ou equivalente).
+
+extrai seats (Seat N: Nome (stack in chips) ou variações por sala).
+
+marca players_dealt_in (quem tem cartas / posta blinds / age pré‑flop).
+
+identifica HERO:
+
+preferir Dealt to <nick> [...];
+
+fallback por hero_aliases["global"] e por hero_aliases[site].
+
+extrai blinds/antes (sb/bb/ante/bb‑ante se existir).
+
+tokeniza ações por street (pré‑flop … river) normalizando:
+POST_SB, POST_BB, POST_ANTE, FOLD, CHECK, CALL, BET, RAISE, RERAISE, ALLIN
+(usar allin=True quando “all-in”/“is all‑in” for explícito).
+
+any_allin_preflop = True se alguma ação pré‑flop tiver allin=True.
+
+players_to_flop = nº de jogadores presentes na primeira ação do flop (ou, se não houver ações no flop, contar quem não foldou pré‑flop).
+
+heads_up_flop = (players_to_flop == 2).
+
+cria Hand preenchido e adiciona a lista.
+
+Nota: nesta fase não mapear posições absolutas nem EP/MP/LP (fica para Fase 3).
+
+DoD: para cada sala, um torneio de exemplo produz uma lista de Hand com BTN/HERO/streets/flags preenchidos.
+
+PROMPT E — Runner, CLI e endpoint (sem tocar no front)
+
+Em app/parse/runner.py, implementa:
+
+def parse_folder(in_root:str, out_jsonl:str, hero_aliases_path:str) -> dict:
+    """
+    Percorre subpastas PKO/, non-KO/, mystery/ (as que existirem em in_root),
+    autodetetando a sala por ficheiro, parseando cada torneio e
+    gravando um único JSONL (1 mão por linha) em out_jsonl.
+    Retorna um resumo {"files": X, "hands": Y, "by_site": {...}}
+    """
+
+
+CLI: python -m app.parse.runner --in ./CLASSIFIED --out ./parsed/hands.jsonl --aliases ./app/config/hero_aliases.json
+
+Endpoint Flask novo (opcional, não quebra UI atual):
+
+POST /api/parse
+body: { "classified_zip_url" | "classified_dir", "aliases": {...} }
+output: salva hands.jsonl num diretório ./parsed/<run_id>/ e retorna o caminho.
+
+DoD: CLI e endpoint funcionam com as pastas produzidas pela Fase 1.
+
+PROMPT F — Validações e logs (auditabilidade)
+
+Para cada mão, guarda em raw_offsets os índices de hand_start, flop, turn, river, summary.
+
+Loga contagens por ficheiro: nº de mãos, % com any_allin_preflop, distribuição HU/MW no flop, e média de players dealt‑in.
+
+Se uma mão falhar parsing crítico (sem BTN ou sem pré‑flop), regista em parse_errors.log com file_id + intervalo para triagem posterior (não abortar o lote).
+
+DoD: hands.jsonl tem offsets; parse_errors.log presente quando aplicável.
+
+PROMPT G — Testes (pytest) com casos sintéticos
+
+Cria tests/test_parse_basic.py com strings sintéticas (1 por sala) que cubram:
+
+Delimitação de mão e ruas.
+
+Detecção de HERO (com e sem “Dealt to”).
+
+Extração de BTN e seats.
+
+Tokenização básica de ações pré‑flop (raise/call/fold/all‑in).
+
+Cálculo de players_to_flop e heads_up_flop.
+
+Não dependas de samples reais ainda; usa fixtures mínimas e determinísticas.
+Os testes devem validar o schema (Hand.validate()) e 3–4 asserts por mão.
+
+DoD: testes passam localmente.
+
+PROMPT H — Integração “sem atrito” com a Fase 1
+
+No ponto de hook identificado no PROMPT A, adiciona uma opção ao backoffice (config interna ou flag na rota) para executar o parser automaticamente logo após a classificação e gravar parsed/hands.jsonl na mesma árvore do run.
+
+Não alteres o fluxo normal do utilizador (download do ZIP continua igual).
+
+Apenas, quando a flag estiver ativa, grava também o hands.jsonl num diretório persistente.
+
+DoD: ao correr um run com a flag ativa, além do ZIP aparece parsed/hands.jsonl.
+
+PROMPT I — Documentação curta
+
+Atualiza o README:
+
+Como criar/editar hero_aliases.json (global e por sala).
+
+Como correr a CLI e o endpoint novo.
+
+Estrutura do hands.jsonl (campos chave).
+
+Limitações atuais (posições/EP‑MP‑LP ainda na Fase 3).
+
+DoD: README atualizado.
+
+Notas de arquitetura (para o agent, já a pensar na Fase 3)
+
+Posições 6‑max/9‑max e EP/MP/LP serão derivadas depois com base em button_seat, table_max e ordem dos seats (mantendo CO/BTN/SB/BB e removendo da esquerda p/ direita quando short‑handed).
+
+Eff stack e HU/MW: nesta fase já estamos a marcar any_allin_preflop e heads_up_flop. A eff_stack_bb por confronto será introduzida na Fase 3, quando extraírmos também open_raiser, callers, etc.
+
+⚙️ O que eu preciso de ti, agora
+
+Confirma que posso avançar já com os prompts da Fase 3 (Derivadas: posições absolutas + EP/MP/LP, SRP/3bet/4bet, HU/MW detalhado por street, eff_stack_bb por confronto, etc.).
+
+Se quiseres, envio também um exemplo preenchido de hero_aliases.json e 2 fixtures sintéticas (PokerStars e GG) para colares nos testes do PROMPT G.
+
+Quando deres ok, sigo imediatamente com os prompts da Fase 3 — mantendo o encaixe no que acabou de ficar pronto.
