@@ -5,7 +5,8 @@ Handles GGPoker-specific format and variations.
 
 import re
 import logging
-from typing import List, Optional, Set
+from datetime import datetime
+from typing import List, Optional, Set, Dict
 from .schemas import Hand, Player, Action, StreetInfo
 from .site_generic import find_hand_boundaries, extract_street_boundaries, create_empty_streets
 from .utils import (
@@ -22,6 +23,40 @@ class GGParser:
     def detect(self, text: str) -> bool:
         """Detect if this is a GGPoker hand history."""
         return bool(re.search(r'Poker\s+Hand\s+#\w+:|GGPoker', text[:1000], re.IGNORECASE))
+
+    def extract_tournament_metadata(self, text: str, file_id: str = "") -> Optional[Dict[str, Optional[str]]]:
+        """Extract tournament metadata (ID and month) from the first hand."""
+
+        for _, _, hand_text in find_hand_boundaries(text):
+            lines = [line for line in hand_text.split('\n') if line.strip()]
+            if not lines:
+                continue
+
+            header = lines[0]
+
+            tournament_id = None
+            tourn_match = safe_match(r'Tournament\s*#(\w+)', header)
+            if tourn_match:
+                tournament_id = tourn_match.group(1)
+
+            timestamp = None
+            month = None
+            time_match = safe_match(r'(\d{4}/\d{2}/\d{2}\s+\d{2}:\d{2}:\d{2})', header)
+            if time_match:
+                timestamp = time_match.group(1)
+                try:
+                    month = datetime.strptime(timestamp, "%Y/%m/%d %H:%M:%S").strftime("%Y-%m")
+                except ValueError:
+                    month = None
+
+            return {
+                'site': 'gg',
+                'tournament_id': tournament_id,
+                'timestamp': timestamp,
+                'tournament_month': month,
+            }
+
+        return None
     
     def parse_tournament(
         self,

@@ -154,7 +154,8 @@ class SimpleBackgroundWorker:
                 archive_path=str(file_path),
                 work_root=str(work_base),
                 token=token,
-                progress_callback=progress_update
+                progress_callback=progress_update,
+                user_id=job.get('user_email'),
             )
             
             if not success:

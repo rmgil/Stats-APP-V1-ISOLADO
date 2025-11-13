@@ -142,6 +142,41 @@ class GenericParser:
         Should be checked last in the parser chain.
         """
         return True
+
+    def extract_tournament_metadata(self, text: str, file_id: str = "") -> Optional[Dict[str, Optional[str]]]:
+        """Extract basic tournament metadata from the first hand."""
+
+        timestamp_pattern = r'(\d{4}[-/]\d{2}[-/]\d{2}\s+\d{2}:\d{2}:\d{2})'
+
+        for _, _, hand_text in find_hand_boundaries(text):
+            lines = [line for line in hand_text.split('\n') if line.strip()]
+            if not lines:
+                continue
+
+            tournament_id = None
+            id_match = safe_match(r'Tournament\s*#([A-Za-z0-9\-]+)', hand_text)
+            if id_match:
+                tournament_id = id_match.group(1)
+
+            timestamp = None
+            month = None
+            time_match = safe_match(timestamp_pattern, hand_text)
+            if time_match:
+                timestamp = time_match.group(1)
+                normalized = timestamp.replace('/', '-').replace('\u2013', '-')
+                try:
+                    month = datetime.strptime(normalized, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m")
+                except ValueError:
+                    month = None
+
+            return {
+                'site': 'generic',
+                'tournament_id': tournament_id,
+                'timestamp': timestamp,
+                'tournament_month': month,
+            }
+
+        return None
     
     def parse_tournament(
         self, 

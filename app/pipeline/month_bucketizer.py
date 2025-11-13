@@ -6,14 +6,11 @@ Groups extracted hand history files by month before processing.
 Each month is processed independently as if it were a separate upload.
 """
 import os
+import re
+import shutil
 import logging
-from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Optional
-
-from app.parse.hand_splitter import split_into_hands
-from app.services.date_extractor import DateExtractor
-from app.services.hand_metadata import HandMetadata, extract_hand_metadata
+from typing import Callable, Dict, List, Optional, Set, Tuple
 
 logger = logging.getLogger(__name__)
 
@@ -33,46 +30,37 @@ class MonthBucket:
         self.work_dir = work_dir
         self.input_dir = os.path.join(work_dir, "in")
         self.files: List[str] = []
-        self._buffers: Dict[str, List[str]] = defaultdict(list)
-        self._hand_counters: Dict[str, int] = defaultdict(int)
+        self.tournaments: List[Dict[str, str]] = []
 
-        # Create directory structure
         os.makedirs(self.input_dir, exist_ok=True)
 
-    def add_hand(self, source_path: str, hand_text: str, metadata: Optional[HandMetadata] = None):
-        """Append a hand to this bucket."""
+    def add_tournament_file(self, source_path: str, tournament_id: str, original_name: str):
+        """Copy a tournament file into the bucket."""
 
-        filename = os.path.basename(source_path)
-        buffer_key = filename
+        safe_name = self._sanitize_filename(tournament_id, original_name)
+        dest_path = os.path.join(self.input_dir, safe_name)
+        dest_path = self._ensure_unique_filename(dest_path)
 
-        self._buffers[buffer_key].append(hand_text.strip())
-        self._hand_counters[buffer_key] += 1
-
-        if metadata and metadata.tournament_id:
-            logger.debug(
-                "Adding hand to month %s (%s) from tournament %s", self.month, filename, metadata.tournament_id
-            )
+        shutil.copy2(source_path, dest_path)
+        self.files.append(dest_path)
+        self.tournaments.append({
+            'tournament_id': tournament_id,
+            'source': original_name,
+            'path': dest_path,
+        })
 
     def finalize(self):
-        """Write buffered hands to disk."""
+        """No-op kept for backwards compatibility."""
+        return
 
-        for filename, hands in self._buffers.items():
-            if not hands:
-                continue
-
-            dest_path = os.path.join(self.input_dir, filename)
-            dest_path = self._ensure_unique_filename(dest_path)
-
-            with open(dest_path, "w", encoding="utf-8") as f:
-                f.write("\n\n".join(hands))
-
-            self.files.append(dest_path)
-
-        self._buffers.clear()
+    def _sanitize_filename(self, tournament_id: str, original_name: str) -> str:
+        base = tournament_id or Path(original_name).stem
+        safe = re.sub(r"[^a-zA-Z0-9._-]", "_", base)
+        if not safe:
+            safe = Path(original_name).stem or "tournament"
+        return f"{safe}.txt"
 
     def _ensure_unique_filename(self, dest_path: str) -> str:
-        """Ensure destination filename is unique within the bucket."""
-
         base_path = Path(dest_path)
         candidate = base_path
         counter = 1
@@ -84,17 +72,21 @@ class MonthBucket:
         return str(candidate)
 
     def get_metadata(self) -> dict:
-        """Get metadata about this bucket."""
         return {
             'month': self.month,
             'file_count': len(self.files),
             'work_dir': self.work_dir,
             'input_dir': self.input_dir,
-            'hands_per_file': dict(self._hand_counters)
+            'tournaments': self.tournaments,
         }
 
 
-def build_month_buckets(token: str, input_dir: str, work_root: str) -> List[MonthBucket]:
+def build_month_buckets(
+    token: str,
+    input_dir: str,
+    work_root: str,
+    metadata_resolver: Optional[Callable[[str, str], Optional[Dict[str, Optional[str]]]]] = None,
+) -> List[MonthBucket]:
     """
     Group files by month and create isolated work directories.
     
@@ -119,51 +111,52 @@ def build_month_buckets(token: str, input_dir: str, work_root: str) -> List[Mont
         logger.warning(f"[{token}] No .txt files found in {input_dir}")
         return []
 
-    extractor = DateExtractor()
     buckets: Dict[str, MonthBucket] = {}
-    seen_keys: set = set()
+    seen: Set[Tuple[str, str]] = set()
 
     for file_path in txt_files:
         try:
-            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                content = f.read()
+            content = Path(file_path).read_text(encoding='utf-8', errors='ignore')
         except Exception as exc:
             logger.warning(f"[{token}] Could not read {file_path}: {exc}")
             continue
 
-        hands = split_into_hands(content)
-        if not hands:
-            logger.debug(f"[{token}] No valid hands found in {file_path}")
+        metadata = metadata_resolver(content, Path(file_path).name) if metadata_resolver else None
+
+        month = (metadata or {}).get('tournament_month')
+        tournament_id = (metadata or {}).get('tournament_id')
+
+        parent_month = Path(file_path).parent.name
+        if not month and re.fullmatch(r"\d{4}-\d{2}", parent_month):
+            month = parent_month
+
+        if not month:
+            month = 'unknown'
+
+        if not tournament_id:
+            tournament_id = Path(file_path).stem
+
+        key = (month, tournament_id)
+        if key in seen:
+            logger.info(
+                f"[{token}] Skipping duplicate tournament {tournament_id} for {month}"
+            )
             continue
 
-        logger.info(f"[{token}] Processing {len(hands)} hands from {Path(file_path).name}")
+        seen.add(key)
 
-        for hand_text in hands:
-            metadata = extract_hand_metadata(hand_text, file_path)
-            month = metadata.month or extractor.extract_month_from_text(hand_text) or 'unknown'
+        month_work_dir = os.path.join(work_root, token, "months", month)
+        if month not in buckets:
+            buckets[month] = MonthBucket(month, month_work_dir)
 
-            key = metadata.dedup_key(hand_text)
-            if key in seen_keys:
-                logger.debug(f"[{token}] Skipping duplicate hand {key}")
-                continue
-
-            seen_keys.add(key)
-
-            if month not in buckets:
-                if month == 'unknown':
-                    month_work_dir = os.path.join(work_root, token, "months", "unknown")
-                else:
-                    month_work_dir = os.path.join(work_root, token, "months", month)
-
-                buckets[month] = MonthBucket(month, month_work_dir)
-
-            buckets[month].add_hand(file_path, hand_text, metadata)
+        buckets[month].add_tournament_file(file_path, tournament_id, Path(file_path).name)
+        logger.debug(f"[{token}] Added tournament {tournament_id} to bucket {month}")
 
     # Finalize bucket files
     for bucket in buckets.values():
         bucket.finalize()
         logger.info(
-            f"[{token}] Created bucket for {bucket.month}: {len(bucket.files)} file(s), {sum(bucket._hand_counters.values())} hands"
+            f"[{token}] Created bucket for {bucket.month}: {len(bucket.files)} tournament file(s)"
         )
 
     # Sort buckets: chronological order, unknown last
@@ -225,9 +218,12 @@ def generate_months_manifest(token: str, buckets: List[MonthBucket], bucket_resu
                     'total_hands': site_total_hands
                 }
         
+        bucket_meta = bucket.get_metadata()
+
         months_data.append({
             'month': month,
-            'file_count': bucket.get_metadata()['file_count'],
+            'file_count': bucket_meta['file_count'],
+            'tournament_count': bucket_meta['file_count'],
             'hand_count': hand_count,
             'total_hands': total_hands,
             'sites': sites,

@@ -92,31 +92,52 @@ class ResultStorageService:
             FileNotFoundError: If month is specified but monthly data doesn't exist
         """
         if month:
-            # Load month-specific pipeline_result
-            storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
+            # Prefer new root-level monthly result
+            storage_path = f"/results/{token}/pipeline_result_{month}.json"
             result = self._read_json_from_storage(storage_path)
 
             if result:
                 logger.info(
-                    "[RESULT STORAGE] Loaded monthly pipeline_result for %s/%s from cloud storage",
-                    token,
+                    "[RESULT STORAGE] Loaded monthly pipeline_result_%s.json for %s from cloud storage",
                     month,
+                    token,
                 )
                 return result
 
-            # Fallback to local filesystem
-            local_path = self.local_work_dir / token / "months" / month / "pipeline_result.json"
+            local_path = self.local_work_dir / token / f"pipeline_result_{month}.json"
             result = self._read_json_from_local(local_path)
 
             if result:
                 logger.info(
-                    "[RESULT STORAGE] Loaded monthly pipeline_result for %s/%s from local filesystem",
+                    "[RESULT STORAGE] Loaded monthly pipeline_result_%s.json for %s from local filesystem",
+                    month,
+                    token,
+                )
+                return result
+
+            # Fallback to legacy location
+            legacy_storage = f"/results/{token}/months/{month}/pipeline_result.json"
+            result = self._read_json_from_storage(legacy_storage)
+
+            if result:
+                logger.info(
+                    "[RESULT STORAGE] Loaded legacy monthly pipeline_result for %s/%s from cloud storage",
                     token,
                     month,
                 )
                 return result
 
-            # If month was explicitly requested but not found, raise error
+            legacy_local = self.local_work_dir / token / "months" / month / "pipeline_result.json"
+            result = self._read_json_from_local(legacy_local)
+
+            if result:
+                logger.info(
+                    "[RESULT STORAGE] Loaded legacy monthly pipeline_result for %s/%s from local filesystem",
+                    token,
+                    month,
+                )
+                return result
+
             logger.warning(
                 "[RESULT STORAGE] Monthly pipeline_result missing for %s/%s (cloud and local)",
                 token,
@@ -125,19 +146,33 @@ class ResultStorageService:
             raise FileNotFoundError(f"Pipeline result for month {month} not found")
 
         # Load aggregate pipeline_result (default behavior)
-        storage_path = f"/results/{token}/pipeline_result.json"
+        storage_path = f"/results/{token}/pipeline_result_global.json"
         result = self._read_json_from_storage(storage_path)
 
         if result:
-            logger.info("[RESULT STORAGE] Loaded aggregate pipeline_result for %s from cloud storage", token)
+            logger.info("[RESULT STORAGE] Loaded pipeline_result_global.json for %s from cloud storage", token)
             return result
 
-        # Fallback to local filesystem (dev or recently completed job)
-        local_path = self.local_work_dir / token / "pipeline_result.json"
+        local_path = self.local_work_dir / token / "pipeline_result_global.json"
         result = self._read_json_from_local(local_path)
 
         if result:
-            logger.info("[RESULT STORAGE] Loaded aggregate pipeline_result for %s from local filesystem", token)
+            logger.info("[RESULT STORAGE] Loaded pipeline_result_global.json for %s from local filesystem", token)
+            return result
+
+        # Fallback to legacy aggregate file
+        legacy_storage = f"/results/{token}/pipeline_result.json"
+        result = self._read_json_from_storage(legacy_storage)
+
+        if result:
+            logger.info("[RESULT STORAGE] Loaded legacy pipeline_result.json for %s from cloud storage", token)
+            return result
+
+        legacy_local = self.local_work_dir / token / "pipeline_result.json"
+        result = self._read_json_from_local(legacy_local)
+
+        if result:
+            logger.info("[RESULT STORAGE] Loaded legacy pipeline_result.json for %s from local filesystem", token)
             return result
 
         logger.warning("[RESULT STORAGE] Aggregate pipeline_result missing for %s (cloud and local)", token)

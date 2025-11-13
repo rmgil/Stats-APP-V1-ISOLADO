@@ -67,15 +67,34 @@ class ParserRunner:
     def detect_site(self, text: str) -> Optional[str]:
         """
         Detect which poker site format the text uses.
-        
+
         Returns:
             Site name ('pokerstars', 'gg', etc.) or 'other' for unknown
         """
         for parser in self.parsers[:-1]:  # Skip generic parser
             if parser.detect(text):
                 return parser.__class__.__name__.replace('Parser', '').lower()
-        
+
         return 'other'  # Generic/unknown format
+
+    def extract_tournament_metadata(self, text: str, file_id: str = 'unknown') -> Optional[Dict[str, Optional[str]]]:
+        """Extract tournament metadata using the first matching parser."""
+
+        for parser in self.parsers:
+            if not hasattr(parser, 'extract_tournament_metadata'):
+                continue
+
+            if parser.detect(text):
+                try:
+                    metadata = parser.extract_tournament_metadata(text, file_id=file_id)
+                except TypeError:
+                    metadata = parser.extract_tournament_metadata(text)
+
+                if metadata:
+                    metadata.setdefault('site', parser.__class__.__name__.replace('Parser', '').lower())
+                    return metadata
+
+        return None
     
     def parse_file(self, file_path: Union[str, Path]) -> List[Hand]:
         """

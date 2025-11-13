@@ -5,6 +5,7 @@ Handles PokerStars-specific format and variations.
 
 import re
 import logging
+from datetime import datetime
 from typing import List, Dict, Optional, Set
 from .schemas import Hand, Player, Action, StreetInfo, ActionType, Street
 from .site_generic import find_hand_boundaries, extract_street_boundaries, create_empty_streets
@@ -22,6 +23,40 @@ class PokerStarsParser:
     def detect(self, text: str) -> bool:
         """Detect if this is a PokerStars hand history."""
         return bool(re.search(r'PokerStars\s+(Hand|Zoom Hand|Game)', text[:1000], re.IGNORECASE))
+
+    def extract_tournament_metadata(self, text: str, file_id: str = "") -> Optional[Dict[str, Optional[str]]]:
+        """Extract tournament identifier and month from the first hand."""
+
+        for _, _, hand_text in find_hand_boundaries(text):
+            lines = [line for line in hand_text.split('\n') if line.strip()]
+            if not lines:
+                continue
+
+            header = lines[0]
+
+            tournament_id = None
+            tourn_match = safe_match(r'Tournament\s*#(\d+)', header)
+            if tourn_match:
+                tournament_id = tourn_match.group(1)
+
+            timestamp = None
+            month = None
+            time_match = safe_match(r'(\d{4}/\d{2}/\d{2}\s+\d{2}:\d{2}:\d{2})', header)
+            if time_match:
+                timestamp = time_match.group(1)
+                try:
+                    month = datetime.strptime(timestamp, "%Y/%m/%d %H:%M:%S").strftime("%Y-%m")
+                except ValueError:
+                    month = None
+
+            return {
+                'site': 'pokerstars',
+                'tournament_id': tournament_id,
+                'timestamp': timestamp,
+                'tournament_month': month,
+            }
+
+        return None
     
     def parse_tournament(
         self,

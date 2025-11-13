@@ -192,7 +192,8 @@ def upload_file():
                 archive_path=str(file_path),
                 work_root=str(work_base),
                 token=token,
-                progress_callback=progress_callback
+                progress_callback=progress_callback,
+                user_id=user_id,
             )
             
             if not success:
