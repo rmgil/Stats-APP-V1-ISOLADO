@@ -4,9 +4,11 @@ import json
 import yaml
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
+
 from app.parse.site_parsers.site_detector import detect_poker_site
 from app.score.scoring import score_step
 from app.services.result_storage import ResultStorageService
+from app.stats.stat_categories import CATEGORY_LABELS, CATEGORY_WEIGHTS
 
 
 def detect_sites_from_hands(token: str, pipeline_sites: Optional[Dict[str, Any]] = None) -> Dict[str, int]:
@@ -117,17 +119,6 @@ def calculate_weighted_scores_from_groups(pipeline_groups: Dict[str, Any], postf
     
     weighted_scores = {}
     
-    # Category weights for aggregation
-    category_weights = {
-        'rfi': 0.25,
-        'bvb': 0.15,
-        'threbet_cc': 0.20,
-        'vs_3bet': 0.10,
-        'squeeze': 0.10,
-        'bb_defense': 0.10,
-        'sb_defense': 0.10
-    }
-    
     # Aggregate NON-KO (9max + 6max weighted by hands)
     nonko_9max = pipeline_groups.get('nonko_9max', {})
     nonko_6max = pipeline_groups.get('nonko_6max', {})
@@ -149,30 +140,21 @@ def calculate_weighted_scores_from_groups(pipeline_groups: Dict[str, Any], postf
         
         # Build subgroups for display (optional, for breakdown)
         nonko_subgroups = {}
-        for category, weight in category_weights.items():
+        for category, weight in CATEGORY_WEIGHTS.items():
             category_score_9max = nonko_9max.get('scores', {}).get(category, {}).get('overall_score') or \
                                  nonko_9max.get('scores', {}).get(category, {}).get('_weighted_average') or \
                                  nonko_9max.get('scores', {}).get(category, {}).get('score') or 0
-            
+
             category_score_6max = nonko_6max.get('scores', {}).get(category, {}).get('overall_score') or \
                                  nonko_6max.get('scores', {}).get(category, {}).get('_weighted_average') or \
                                  nonko_6max.get('scores', {}).get(category, {}).get('score') or 0
-            
+
             category_score = (category_score_9max * weight_9max + category_score_6max * weight_6max) if (category_score_9max or category_score_6max) else 0
-            
-            # Map to frontend subgroup names
-            subgroup_name_map = {
-                'rfi': 'RFI',
-                'bvb': 'BvB', 
-                'threbet_cc': '3b & CC',
-                'vs_3bet': 'vs 3b IP/OOP',
-                'squeeze': 'Squeeze',
-                'bb_defense': 'Defesa da BB',
-                'sb_defense': 'Defesa da SB'
-            }
-            
-            if category in subgroup_name_map:
-                nonko_subgroups[subgroup_name_map[category]] = {
+
+            label = CATEGORY_LABELS.get(category)
+
+            if label:
+                nonko_subgroups[label] = {
                     'score': category_score,
                     'weight': weight
                 }
@@ -192,23 +174,15 @@ def calculate_weighted_scores_from_groups(pipeline_groups: Dict[str, Any], postf
         
         # Build subgroups for display (optional, for breakdown)
         pko_subgroups = {}
-        for category, weight in category_weights.items():
+        for category, weight in CATEGORY_WEIGHTS.items():
             score = pko.get('scores', {}).get(category, {}).get('overall_score') or \
                    pko.get('scores', {}).get(category, {}).get('_weighted_average') or \
                    pko.get('scores', {}).get(category, {}).get('score') or 0
-            
-            subgroup_name_map = {
-                'rfi': 'RFI',
-                'bvb': 'BvB',
-                'threbet_cc': '3b & CC',
-                'vs_3bet': 'vs 3b IP/OOP',
-                'squeeze': 'Squeeze',
-                'bb_defense': 'Defesa da BB',
-                'sb_defense': 'Defesa da SB'
-            }
-            
-            if category in subgroup_name_map:
-                pko_subgroups[subgroup_name_map[category]] = {
+
+            label = CATEGORY_LABELS.get(category)
+
+            if label:
+                pko_subgroups[label] = {
                     'score': score,
                     'weight': weight
                 }
@@ -486,30 +460,82 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     # Try to load pipeline_result.json first (new pipeline)
     # Use ResultStorage to read from cloud storage instead of local work directory
     pipeline_result = {}
+    months_manifest = None
     import logging
     logger = logging.getLogger(__name__)
-    
+
     result_storage = None
+    selected_scope = 'aggregate'
+    month_not_found = False
 
     if token:
         try:
             from app.services.result_storage import get_result_storage
             result_storage = get_result_storage()
-            pipeline_result = result_storage.get_pipeline_result(token, month=month)
-            if pipeline_result:
-                month_label = f" for month {month}" if month else " (aggregate)"
-                logger.info(f"[LOAD] ✓ Loaded pipeline_result{month_label} from storage with keys: {list(pipeline_result.keys())}")
+        except Exception as storage_error:
+            logger.error(f"[LOAD] Failed to initialise result storage: {storage_error}")
+            result_storage = None
+
+    if token and result_storage:
+        if month:
+            try:
+                pipeline_result = result_storage.get_pipeline_result(token, month=month)
+                if pipeline_result:
+                    selected_scope = 'monthly'
+                    logger.info(
+                        "[LOAD] ✓ Loaded pipeline_result for month %s with keys: %s",
+                        month,
+                        list(pipeline_result.keys()),
+                    )
+            except FileNotFoundError:
+                month_not_found = True
+                logger.warning("[LOAD] Monthly pipeline_result missing for %s/%s", token, month)
+            except Exception as load_error:
+                logger.error(f"[LOAD] Failed to load monthly pipeline_result: {load_error}")
+
+        if not pipeline_result:
+            aggregate_result = result_storage.get_pipeline_result(token)
+            if not aggregate_result:
+                logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
+                raise FileNotFoundError(f"Pipeline result not found for token {token}")
+            pipeline_result = aggregate_result
+            selected_scope = 'aggregate'
+            logger.info(
+                "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
+                list(pipeline_result.keys()),
+            )
+
+        try:
+            months_manifest = result_storage.get_months_manifest(token)
+        except Exception as manifest_error:
+            logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
+            months_manifest = None
+
+    elif token:
+        # Fallback to local filesystem (primarily used in tests/dev)
+        local_base = Path('work') / token
+        if month:
+            month_path = local_base / 'months' / month / 'pipeline_result.json'
+            if month_path.exists():
+                pipeline_result = json.loads(month_path.read_text())
+                selected_scope = 'monthly'
             else:
-                month_label = f" for month {month}" if month else ""
-                logger.warning(f"[LOAD] No pipeline_result{month_label} found in storage for token: {token}")
-        except FileNotFoundError as e:
-            # Re-raise FileNotFoundError so API layer can return proper 404
-            logger.error(f"[LOAD] Pipeline result not found: {e}")
-            raise
-        except Exception as e:
-            pipeline_result = {}
-            logger.error(f"[LOAD] Failed to load pipeline_result from storage: {e}")
-    
+                month_not_found = True
+        if not pipeline_result:
+            aggregate_path = local_base / 'pipeline_result.json'
+            if aggregate_path.exists():
+                pipeline_result = json.loads(aggregate_path.read_text())
+                selected_scope = 'aggregate'
+        if not pipeline_result:
+            raise FileNotFoundError(f"Pipeline result not found for token {token}")
+
+        manifest_path = local_base / 'months_manifest.json'
+        if manifest_path.exists():
+            try:
+                months_manifest = json.loads(manifest_path.read_text())
+            except Exception:
+                months_manifest = None
+
     # Find stats file
     stats_path = base / 'stats' / 'stat_counts.json'
     if not stats_path.exists():
@@ -538,7 +564,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                 counts = json.load(f)
         except Exception:
             counts = {}
-    
+
     score = {}
     if score_path.exists():
         try:
@@ -546,13 +572,27 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                 score = json.load(f)
         except Exception:
             score = {}
+
+    counts_for_structure = counts.get('counts', {}) if isinstance(counts, dict) else {}
+    counts_payload = counts
+    if isinstance(pipeline_result, dict):
+        pipeline_counts = pipeline_result.get('counts')
+        if isinstance(pipeline_counts, dict):
+            counts_for_structure = pipeline_counts
+            counts_payload = pipeline_counts
     
     # Normalize score keys
     overall = (
-        score.get('overall') or 
-        score.get('data', {}).get('overall') or 
+        score.get('overall') or
+        score.get('data', {}).get('overall') or
         score.get('_raw', {}).get('overall')
     )
+
+    if not isinstance(overall, dict):
+        overall_value = overall
+        overall = {}
+        if overall_value is not None:
+            overall['score'] = overall_value
     
     group_level = (
         score.get('group_level') or 
@@ -579,7 +619,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     
     # Build hierarchical groups structure
     groups = build_groups_structure(
-        counts=counts.get('counts', {}),
+        counts=counts_for_structure,
         ideals=ideals,
         stat_level=stat_level,
         subgroup_level=subgroup_level,
@@ -587,10 +627,16 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         subgroup_weights=subgroup_weights,
         stat_weights=stat_weights
     )
-    
-    # Get list of months from counts
-    months = list(counts.keys()) if counts else []
-    
+
+    # Get list of months (prefer manifest when available)
+    months: List[str] = []
+    if months_manifest and isinstance(months_manifest, dict):
+        manifest_months = [entry.get('month') for entry in months_manifest.get('months', []) if entry.get('month')]
+        months = manifest_months
+    if not months and isinstance(counts_for_structure, dict):
+        ignored = {'generated_at', 'input', 'dsl', 'metric', 'hands_processed', 'errors', 'stats_computed'}
+        months = [key for key in counts_for_structure.keys() if key not in ignored]
+
     # Load ingest manifest if exists
     ingest = {}
     manifest_path = base / "manifest.json"
@@ -627,12 +673,12 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                         }
     
     # Extract data from pipeline_result if available
-    discard_stats = {}
+    discard_stats: Dict[str, Any] = {}
     if pipeline_result and 'classification' in pipeline_result:
         import logging
         logger = logging.getLogger(__name__)
         classification = pipeline_result['classification']
-        
+
         # Extract totals from classification
         total_hands_found = classification.get('total_hands', 0)
         discarded_data = classification.get('discarded_hands', {})
@@ -661,7 +707,25 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         overall['discarded_hands'] = total_discarded
         
         logger.info(f"[CLASSIFICATION] Extracted: total={total_hands_found}, valid={valid_hands_calculated}, discarded={total_discarded}, mystery={discard_stats.get('mystery', 0)}")
-    
+
+    if pipeline_result:
+        # Fall back to aggregated discards when classification data is absent
+        aggregated_discards = pipeline_result.get('aggregated_discards')
+        if not discard_stats and isinstance(aggregated_discards, dict):
+            discard_stats = aggregated_discards
+
+        if isinstance(pipeline_result.get('discarded_hands'), dict) and not discard_stats:
+            discard_stats = pipeline_result['discarded_hands']
+
+        if pipeline_result.get('valid_hands') is not None:
+            overall['valid_hands'] = pipeline_result.get('valid_hands')
+
+        if pipeline_result.get('total_hands') is not None:
+            overall['total_hands'] = pipeline_result.get('total_hands')
+
+        if isinstance(discard_stats, dict) and 'total' in discard_stats:
+            overall['discarded_hands'] = discard_stats.get('total', overall.get('discarded_hands', 0))
+
     # Add preflop groups from pipeline_result to groups structure
     if pipeline_result and 'combined' in pipeline_result:
         import logging
@@ -717,7 +781,6 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
             )
 
             if month_weighting:
-                weighted_scores = month_weighting['weighted_scores'] or weighted_scores
                 response_month_details = month_weighting
             else:
                 response_month_details = None
@@ -740,17 +803,24 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         "weighted_scores": weighted_scores,  # Frontend compatibility
         "samples": samples,
         "months": months,
-        "counts": counts,
+        "counts": counts_payload,
         "groups": groups,  # New hierarchical structure
         "ingest": ingest,  # Classification summary
         "discard_stats": discard_stats,  # Discard breakdown for frontend
         "total_hands": overall.get('total_hands', 0) if overall else 0,  # Direct access for frontend
         "valid_hands": overall.get('valid_hands', 0) if overall else 0,  # Direct access for frontend
-        "hands_by_site": hands_by_site  # Detected poker sites with hand counts
+        "hands_by_site": hands_by_site,  # Detected poker sites with hand counts
+        "requested_month": month,
+        "selected_month": month if selected_scope == 'monthly' else None,
+        "month_scope": selected_scope,
+        "month_not_found": month_not_found,
     }
 
     if response_month_details:
         response_data['monthly_score_details'] = response_month_details
+
+    if months_manifest:
+        response_data['months_manifest'] = months_manifest
 
     # Final check on postflop_all before returning
     if 'postflop_all' in response_data.get('groups', {}):

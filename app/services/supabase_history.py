@@ -557,11 +557,38 @@ class SupabaseHistoryService:
         except Exception as e:
             logger.error(f"Error updating processing status: {e}", exc_info=True)
             return False
-    
+
+    def get_latest_successful_run(self, user_id: str) -> Optional[Dict[str, Any]]:
+        """Return the most recent successful run for ``user_id``."""
+
+        if not self.enabled:
+            return None
+
+        try:
+            response = (
+                self.client
+                .table('processing_history')
+                .select('token, completed_at, created_at, status, storage_path')
+                .eq('user_id', user_id)
+                .eq('status', 'completed')
+                .order('completed_at', desc=True)
+                .order('created_at', desc=True)
+                .limit(1)
+                .execute()
+            )
+
+            if response.data:
+                return response.data[0]
+
+        except Exception as exc:
+            logger.error(f"Failed to fetch latest run for {user_id}: {exc}")
+
+        return None
+
     def find_by_file_hash(self, file_hash: str, user_id: Optional[str] = None) -> Optional[Dict[str, Any]]:
         """
         Find a previous processing by file hash (deduplication)
-        
+
         Args:
             file_hash: SHA256 hash of the file
             user_id: Optional user_id to limit search to specific user

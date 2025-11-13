@@ -4036,18 +4036,25 @@ def download_hands_by_stat_with_format(token, format_name, stat_filename):
         from app.services.storage import get_storage
         storage = get_storage()
         
-        # Build storage path based on whether month is specified
+        # Build storage paths (month-specific first, then aggregate fallback)
+        storage_paths = []
         if month:
             # Validate month format (YYYY-MM)
             if not re.match(r'^\d{4}-\d{2}$', month):
                 return jsonify({"error": "Invalid month format"}), 400
-            storage_path = f"/results/{token}/months/{month}/hands_by_stat/{format_name}/{stat_filename}"
-        else:
-            storage_path = f"/results/{token}/hands_by_stat/{format_name}/{stat_filename}"
-        
-        # Try downloading from storage
-        file_data = storage.download_file(storage_path)
-        
+            storage_paths.append(f"/results/{token}/months/{month}/hands_by_stat/{format_name}/{stat_filename}")
+        storage_paths.append(f"/results/{token}/hands_by_stat/{format_name}/{stat_filename}")
+
+        file_data = None
+        for storage_path in storage_paths:
+            try:
+                file_data = storage.download_file(storage_path)
+            except Exception as download_error:
+                app.logger.debug(f"Download failed for {storage_path}: {download_error}")
+                file_data = None
+            if file_data:
+                break
+
         if file_data:
             # File found in cloud storage
             return send_file(
@@ -4058,15 +4065,16 @@ def download_hands_by_stat_with_format(token, format_name, stat_filename):
             )
         
         # Fallback to local filesystem (for backwards compatibility)
-        file_path = os.path.join("work", token, "hands_by_stat", format_name, stat_filename)
-        
-        # Check for nested hands_by_stat directory (old bug)
-        if not os.path.exists(file_path):
-            nested_path = os.path.join("work", token, "hands_by_stat", format_name, "hands_by_stat", stat_filename)
-            if os.path.exists(nested_path):
-                file_path = nested_path
-        
-        if os.path.exists(file_path):
+        local_paths = []
+        if month:
+            local_paths.append(os.path.join("work", token, "months", month, "hands_by_stat", format_name, stat_filename))
+            local_paths.append(os.path.join("work", token, "months", month, "hands_by_stat", format_name, "hands_by_stat", stat_filename))
+        local_paths.append(os.path.join("work", token, "hands_by_stat", format_name, stat_filename))
+        local_paths.append(os.path.join("work", token, "hands_by_stat", format_name, "hands_by_stat", stat_filename))
+
+        file_path = next((path for path in local_paths if os.path.exists(path)), None)
+
+        if file_path and os.path.exists(file_path):
             return send_file(
                 file_path,
                 as_attachment=True,
@@ -4099,303 +4107,127 @@ def list_hands_by_stat(token):
                 return jsonify({"error": "Invalid month format"}), 400
             app.logger.info(f"📅 Listing hands_by_stat for month: {month}")
         
-        # Get storage service and try cloud first, then local
         from app.services.storage import get_storage
+        from app.services.result_storage import get_result_storage
+        from app.stats.hand_collector import HandCollector
+
         storage = get_storage()
-        
-        # Build paths based on whether month is specified
+        result_storage = get_result_storage()
+
+        month_not_found = False
+        using_month_data = False
+
+        pipeline_data = None
         if month:
-            stats_dir_cloud = f"/results/{token}/months/{month}/hands_by_stat"
-            stats_dir_local = os.path.join("work", token, "months", month, "hands_by_stat")
-            pipeline_result_path = f"/results/{token}/months/{month}/pipeline_result.json"
-        else:
-            stats_dir_cloud = f"/results/{token}/hands_by_stat"
-            stats_dir_local = os.path.join("work", token, "hands_by_stat")
-            pipeline_result_path = f"/results/{token}/pipeline_result.json"
-        
-        # Determine which directory to use
-        stats_dir = None
-        use_cloud = False
-        
-        # Check if results exist in storage (cloud or local depending on env)
-        try:
-            # Check if pipeline_result.json exists (always generated for completed jobs)
-            app.logger.info(f"Testing storage path: {pipeline_result_path}")
-            test_data = storage.download_file(pipeline_result_path)
-            if test_data:
-                use_cloud = True
-                app.logger.info(f"✓ Using storage for hands_by_stat: {token}")
-            else:
-                app.logger.info(f"Storage test returned no data for {pipeline_result_path}")
-        except Exception as e:
-            app.logger.info(f"Storage test failed: {e}")
-        
-        # Fallback to local if not in cloud
-        if not use_cloud and os.path.exists(stats_dir_local):
-            stats_dir = stats_dir_local
-            app.logger.info(f"✓ Using local storage for hands_by_stat: {token}")
-        elif not use_cloud:
-            app.logger.info(f"No storage found (cloud or local) for {token}")
-            return jsonify({"formats": {}})
-        
-        # Map filename to stat name (updated to match actual filenames from aggregator)
-        filename_to_stat = {
-            # RFI
-            "Early_RFI.txt": "Early RFI",
-            "Middle_RFI.txt": "Middle RFI",
-            "CO_Steal.txt": "CO Steal",
-            "BTN_Steal.txt": "BTN Steal",
-            # BvB
-            "SB_UO_VPIP.txt": "SB UO VPIP",
-            "BB_fold_vs_SB_steal.txt": "BB fold vs SB steal",
-            "BB_raise_vs_SB_limp_UOP.txt": "BB raise vs SB limp UOP",
-            "SB_Steal.txt": "SB Steal",
-            # 3bet/CC
-            "EP_3bet.txt": "EP 3bet",
-            "EP_Cold_Call.txt": "EP Cold Call",
-            "MP_3bet.txt": "MP 3bet",
-            "MP_Cold_Call.txt": "MP Cold Call",
-            "CO_3bet.txt": "CO 3bet",
-            "CO_Cold_Call.txt": "CO Cold Call",
-            "BTN_3bet.txt": "BTN 3bet",
-            "BTN_Cold_Call.txt": "BTN Cold Call",
-            "BTN_fold_to_CO_steal.txt": "BTN fold to CO steal",
-            # vs 3bet
-            "Fold_to_3bet_IP.txt": "Fold to 3bet IP",
-            "Fold_to_3bet_OOP.txt": "Fold to 3bet OOP",
-            "Fold_to_3bet.txt": "Fold to 3bet",
-            # Squeeze
-            "Squeeze.txt": "Squeeze",
-            "Squeeze_vs_BTN_Raiser.txt": "Squeeze vs BTN Raiser",
-            # BB Defense
-            "BB_fold_vs_CO_steal.txt": "BB fold vs CO steal",
-            "BB_fold_vs_BTN_steal.txt": "BB fold vs BTN steal",
-            "BB_resteal_vs_BTN_steal.txt": "BB resteal vs BTN steal",
-            # SB Defense
-            "SB_fold_to_CO_Steal.txt": "SB fold to CO Steal",
-            "SB_fold_to_BTN_Steal.txt": "SB fold to BTN Steal",
-            "SB_resteal_vs_BTN.txt": "SB resteal vs BTN",
-            # Old format support (backward compatibility)
-            "rfi_early.txt": "Early RFI",
-            "rfi_middle.txt": "Middle RFI",
-            "rfi_co_steal.txt": "CO Steal",
-            "rfi_btn_steal.txt": "BTN Steal",
-            "bvb_sb_uo_vpip.txt": "SB UO VPIP",
-            "bvb_bb_fold_sb_steal.txt": "BB fold vs SB steal",
-            "bvb_bb_raise_sb_limp.txt": "BB raise vs SB limp UOP",
-            "bvb_sb_steal.txt": "SB Steal",
-            "3bet_ep.txt": "EP 3bet",
-            "cc_ep.txt": "EP Cold Call",
-            "3bet_mp.txt": "MP 3bet",
-            "cc_mp.txt": "MP Cold Call",
-            "3bet_co.txt": "CO 3bet",
-            "cc_co.txt": "CO Cold Call",
-            "3bet_btn.txt": "BTN 3bet",
-            "cc_btn.txt": "BTN Cold Call",
-            "btn_fold_co_steal.txt": "BTN fold to CO steal",
-            "vs_3bet_fold_ip.txt": "Fold to 3bet IP",
-            "vs_3bet_fold_oop.txt": "Fold to 3bet OOP",
-            "squeeze.txt": "Squeeze",
-            "squeeze_vs_btn.txt": "Squeeze vs BTN Raiser",
-            "bb_defense_fold_co.txt": "BB fold vs CO steal",
-            "bb_defense_fold_btn.txt": "BB fold vs BTN steal",
-            "bb_defense_resteal_btn.txt": "BB resteal vs BTN steal",
-            "sb_defense_fold_co.txt": "SB fold to CO Steal",
-            "sb_defense_fold_btn.txt": "SB fold to BTN Steal",
-            "sb_defense_resteal_btn.txt": "SB resteal vs BTN"
-        }
-        
-        # Check for format subdirectories
-        formats_data = {}
-        format_dirs = ["nonko_9max", "nonko_6max", "pko"]
-        
-        # If using cloud, build response from pipeline_result instead of listing files
-        if use_cloud:
-            from app.services.result_storage import get_result_storage
-            result_storage = get_result_storage()
-            
+            try:
+                pipeline_data = result_storage.get_pipeline_result(token, month=month)
+                if pipeline_data:
+                    using_month_data = True
+            except FileNotFoundError:
+                month_not_found = True
+            except Exception as load_error:
+                app.logger.warning(f"Failed to load monthly pipeline data: {load_error}")
+
+        if not pipeline_data:
             pipeline_data = result_storage.get_pipeline_result(token)
-            if not pipeline_data:
-                return jsonify({"formats": {}})
-            
-            # Build formats from COMBINED hands_by_stat directory (not per-site)
-            formats_from_pipeline = {}
-            
-            # List combined files for each group directly from hands_by_stat/{group}/
-            for group in ['nonko_9max', 'nonko_6max', 'pko']:
-                stats_files = []
-                group_path = f"{stats_dir_cloud}/{group}"
-                
-                # Try to list COMBINED files from hands_by_stat/{group}/
-                try:
-                    storage_base = "/tmp/storage" if not os.environ.get('REPL_DEPLOYMENT') else ""
-                    full_path = os.path.join(storage_base, group_path.lstrip('/'))
-                    
-                    if os.path.exists(full_path):
-                        for filename in os.listdir(full_path):
-                            if filename.endswith('.txt'):
-                                filepath = os.path.join(full_path, filename)
-                                
-                                # Get file stats
-                                file_size = os.path.getsize(filepath)
-                                
-                                # Read metadata if available
-                                metadata_path = os.path.join(full_path, "metadata.json")
-                                metadata = {}
-                                if os.path.exists(metadata_path):
-                                    with open(metadata_path, 'r', encoding='utf-8') as f:
-                                        metadata = json.load(f)
-                                
-                                stat_name = filename_to_stat.get(filename, filename.replace('.txt', '').replace('_', ' ').title())
-                                description = metadata.get('stat_descriptions', {}).get(stat_name, '')
-                                
-                                # Count hands from metadata (more reliable than parsing)
-                                hand_count = metadata.get('hands_per_stat', {}).get(stat_name, 0)
-                                if hand_count == 0:
-                                    # Fallback: count lines with hand identifiers
-                                    with open(filepath, 'r', encoding='utf-8') as f:
-                                        content = f.read(1024*1024)  # Read first 1MB for performance
-                                        hand_count = len([line for line in content.split('\n') if 'Poker Hand #' in line or 'PokerStars Hand #' in line or 'Game Hand #' in line or '#Game No :' in line or 'Winamax Poker' in line])
-                                
-                                # Get hand IDs from metadata
-                                hand_ids = metadata.get('hand_ids', {}).get(stat_name, [])
-                                
-                                # Build download URL with month parameter if applicable
-                                if month:
-                                    download_url = f"/api/download/hands_by_stat/{token}/{group}/{filename}?month={month}"
-                                else:
-                                    download_url = f"/api/download/hands_by_stat/{token}/{group}/{filename}"
-                                
-                                stats_files.append({
-                                    "filename": filename,
-                                    "stat_name": stat_name,
-                                    "description": description,
-                                    "hand_count": hand_count,
-                                    "file_size": file_size,
-                                    "download_url": download_url,
-                                    "hands": hand_ids
-                                })
-                        
-                        app.logger.info(f"Listed {len(stats_files)} COMBINED stats for {group} from {full_path}")
-                except Exception as list_error:
-                    app.logger.warning(f"Could not list combined files for {group}: {list_error}")
-                
-                if stats_files:
-                    stats_files.sort(key=lambda x: x.get('stat_name', ''))
-                    formats_from_pipeline[group] = {
-                        "display_name": group.replace("nonko_", "").replace("_", "-").upper(),
-                        "stats": stats_files,
-                        "total_stats": len(stats_files)
-                    }
-            
-            # Return response with COMBINED file listings
+
+        if not pipeline_data or 'combined' not in pipeline_data:
             return jsonify({
                 "token": token,
-                "formats": formats_from_pipeline,
-                "cloud_storage": True
+                "formats": {},
+                "requested_month": month,
+                "selected_month": month if using_month_data else None,
+                "month_not_found": month_not_found,
+                "cloud_storage": storage.use_cloud,
             })
-        
-        for format_name in format_dirs:
-            format_dir = os.path.join(stats_dir, format_name)
-            
-            # Check for nested hands_by_stat directory (old bug)
-            nested_dir = os.path.join(format_dir, "hands_by_stat")
-            if os.path.exists(nested_dir):
-                format_dir = nested_dir  # Use the nested directory
-            elif not os.path.exists(format_dir):
-                continue  # Skip if directory doesn't exist
-            
-            # Read metadata if available
-            metadata_path = os.path.join(format_dir, "metadata.json")
-            if os.path.exists(metadata_path):
-                with open(metadata_path, 'r', encoding='utf-8') as f:
-                    metadata = json.load(f)
-            else:
-                metadata = {}
-            
-            # List all .txt files in this format directory
-            stat_files = []
-            for filename in os.listdir(format_dir):
-                if filename.endswith('.txt'):
-                    filepath = os.path.join(format_dir, filename)
-                    file_size = os.path.getsize(filepath)
-                    
-                    stat_name = filename_to_stat.get(filename, filename.replace('.txt', '').replace('_', ' ').title())
-                    
-                    # Get description from metadata
-                    description = metadata.get('stat_descriptions', {}).get(stat_name, '')
-                    
-                    # Count hands in file (count "Poker Hand #" occurrences)
-                    with open(filepath, 'r', encoding='utf-8') as f:
-                        content = f.read()
-                        hand_count = content.count('Poker Hand #')
-                    
-                    # Get hand IDs from metadata if available
-                    hand_ids = []
-                    if 'hand_ids' in metadata and stat_name in metadata['hand_ids']:
-                        hand_ids = metadata['hand_ids'][stat_name]
-                    
-                    # Build download URL with month parameter if applicable
-                    if month:
-                        download_url = f"/api/download/hands_by_stat/{token}/{format_name}/{filename}?month={month}"
-                    else:
-                        download_url = f"/api/download/hands_by_stat/{token}/{format_name}/{filename}"
-                    
-                    stat_files.append({
-                        "filename": filename,
-                        "stat_name": stat_name,
-                        "description": description,
-                        "hand_count": hand_count,
-                        "file_size": file_size,
-                        "download_url": download_url,
-                        "hands": hand_ids  # Include hand IDs for replayer
-                    })
-                
-                # Sort by stat name
-                stat_files.sort(key=lambda x: x['stat_name'])
-                
-                if stat_files:
-                    formats_data[format_name] = {
-                        "display_name": format_name.replace("nonko_", "").replace("_", "-").upper(),
-                        "stats": stat_files,
-                        "total_stats": len(stat_files)
-                    }
-        
-        # Also check for files in root (old format)
-        old_format_files = []
-        for filename in os.listdir(stats_dir):
-            if filename.endswith('.txt'):
-                filepath = os.path.join(stats_dir, filename)
-                file_size = os.path.getsize(filepath)
-                
-                stat_name = filename_to_stat.get(filename, filename.replace('.txt', '').replace('_', ' ').title())
-                
-                # Count hands in file
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                    hand_count = content.count('Poker Hand #')
-                
-                old_format_files.append({
+
+        base_storage_prefix = f"/results/{token}/hands_by_stat"
+        base_local_dir = os.path.join("work", token, "hands_by_stat")
+        if using_month_data and month:
+            base_storage_prefix = f"/results/{token}/months/{month}/hands_by_stat"
+            base_local_dir = os.path.join("work", token, "months", month, "hands_by_stat")
+
+        def load_metadata(group_key: str) -> dict:
+            metadata = {}
+            storage_path = f"{base_storage_prefix}/{group_key}/metadata.json"
+            try:
+                data = storage.download_file(storage_path)
+                if data:
+                    metadata = json.loads(data.decode('utf-8'))
+            except Exception as metadata_error:
+                app.logger.debug(f"Metadata download failed for %s: %s", storage_path, metadata_error)
+
+            if not metadata:
+                local_path = os.path.join(base_local_dir, group_key, "metadata.json")
+                if os.path.exists(local_path):
+                    try:
+                        with open(local_path, 'r', encoding='utf-8') as meta_file:
+                            metadata = json.load(meta_file)
+                    except Exception as local_error:
+                        app.logger.debug(f"Metadata read failed for %s: %s", local_path, local_error)
+
+            return metadata or {}
+
+        formats_data = {}
+        stat_filename_map = HandCollector.stat_filenames
+
+        for group_key in ["nonko_9max", "nonko_6max", "pko"]:
+            group_stats = pipeline_data.get('combined', {}).get(group_key)
+            if not isinstance(group_stats, dict):
+                continue
+
+            metadata = load_metadata(group_key)
+            hands_per_stat = metadata.get('hands_per_stat', {})
+            descriptions = metadata.get('stat_descriptions', {})
+            hand_ids_map = metadata.get('hand_ids', {})
+
+            stats_entries = []
+            for stat_name, stat_info in (group_stats.get('stats') or {}).items():
+                filename = stat_filename_map.get(stat_name)
+                if not filename:
+                    continue
+
+                opportunities = stat_info.get('opportunities', 0)
+                attempts = stat_info.get('attempts', 0)
+                hand_count = hands_per_stat.get(stat_name, 0)
+
+                if hand_count <= 0 and opportunities <= 0 and attempts <= 0:
+                    continue
+
+                download_url = f"/api/download/hands_by_stat/{token}/{group_key}/{filename}"
+                if using_month_data and month:
+                    download_url += f"?month={month}"
+
+                stats_entries.append({
                     "filename": filename,
                     "stat_name": stat_name,
-                    "description": "",
-                    "hand_count": hand_count,
-                    "file_size": file_size,
-                    "download_url": f"/api/download/hands_by_stat/{token}/{filename}"
+                    "description": descriptions.get(stat_name, ''),
+                    "hand_count": hand_count if hand_count > 0 else attempts,
+                    "opportunities": opportunities,
+                    "attempts": attempts,
+                    "download_url": download_url,
+                    "hands": hand_ids_map.get(stat_name, []),
                 })
-        
-        if old_format_files:
-            old_format_files.sort(key=lambda x: x['stat_name'])
-            formats_data["all"] = {
-                "display_name": "Todos",
-                "stats": old_format_files,
-                "total_stats": len(old_format_files)
-            }
-        
-        return jsonify({
+
+            if stats_entries:
+                stats_entries.sort(key=lambda x: x['stat_name'])
+                formats_data[group_key] = {
+                    "display_name": group_key.replace("nonko_", "").replace("_", "-").upper(),
+                    "stats": stats_entries,
+                    "total_stats": len(stats_entries)
+                }
+
+        response_payload = {
             "token": token,
-            "formats": formats_data
-        })
+            "formats": formats_data,
+            "cloud_storage": storage.use_cloud,
+            "requested_month": month,
+            "selected_month": month if using_month_data else None,
+            "month_scope": "monthly" if using_month_data else "aggregate",
+            "month_not_found": month_not_found,
+        }
+
+        return jsonify(response_payload)
         
     except Exception as e:
         app.logger.error(f"Error listing hands by stat: {e}")

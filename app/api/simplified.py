@@ -26,7 +26,20 @@ def upload_page():
 @email_confirmation_required
 def dashboard_page():
     """Render the dashboard page - requires authentication and email confirmation"""
-    return render_template('dashboard_tabs.html')
+    from flask_login import current_user
+    from app.services.supabase_history import SupabaseHistoryService
+
+    month = request.args.get('month')
+    latest_token = None
+
+    history_service = SupabaseHistoryService()
+    if history_service.enabled:
+        user_id = current_user.email if hasattr(current_user, 'email') else str(current_user.id)
+        latest_run = history_service.get_latest_successful_run(user_id)
+        if latest_run:
+            latest_token = latest_run.get('token')
+
+    return render_template('dashboard_tabs.html', token=latest_token, month=month)
 
 @bp.route('/dashboard/<token>')
 def dashboard_with_token(token):

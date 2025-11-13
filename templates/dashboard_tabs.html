@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard - Análise de Mãos</title>
+    <script>
+        window.initialDashboardToken = "{{ token or '' }}";
+        window.initialDashboardMonth = "{{ month or '' }}";
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
         * {
@@ -1158,29 +1162,34 @@
             'BB raise vs SB limp UOP': '<strong>RULES:</strong><br>• SB limped (completed)<br>• Unopened pot before SB<br>• Hero in BB<br>• Hero ≥16bb, SB ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>SB limps (just completes), you\'re BB and raise with A8.'
         };
         
-        // Get token from URL - either from path or query params
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Resolve token from path, query string or server-provided default
         let token = null;
-        
-        // Try to get from path first (e.g., /dashboard/9202cc7ab0e0)
         const pathMatch = window.location.pathname.match(/\/dashboard\/([a-f0-9]{12})/);
         if (pathMatch) {
             token = pathMatch[1];
         } else {
-            // Fallback to query params (e.g., ?token=9202cc7ab0e0)
-            const urlParams = new URLSearchParams(window.location.search);
-            token = urlParams.get('token');
+            token = urlParams.get('token') || window.initialDashboardToken || null;
         }
-        
+
+        // Resolve month selection (query string wins over initial value)
+        let month = urlParams.get('month') || window.initialDashboardMonth || null;
+
         if (!token) {
             showError('Token não fornecido');
         } else {
             document.getElementById('tokenDisplay').textContent = token;
-            // Get month from URL params if present
-            const urlParams = new URLSearchParams(window.location.search);
-            const month = urlParams.get('month');
-            // Load download URLs first, then dashboard
+
+            const monthSelectorContainer = document.getElementById('monthSelectorContainer');
+            if (monthSelectorContainer) {
+                monthSelectorContainer.dataset.token = token;
+                monthSelectorContainer.dataset.currentMonth = month || '';
+            }
+
+            // Load download URLs first, then dashboard payload
             loadHandsByStatSection(token, month).then(() => {
-                loadDashboard(token);
+                loadDashboard(token, month);
             });
         }
         
@@ -1219,17 +1228,23 @@
         }
         
         // Load dashboard data
-        async function loadDashboard(token) {
+        async function loadDashboard(token, month = null) {
             try {
-                const response = await fetch(`/api/dashboard/${token}`);
+                const url = month ? `/api/dashboard/${token}?month=${month}` : `/api/dashboard/${token}`;
+                const response = await fetch(url);
                 const data = await response.json();
-                
+
                 if (!data.ok) {
                     showError(data.error || 'Erro ao carregar dados');
                     return;
                 }
                 
                 dashboardData = data.data;
+
+                if (month && dashboardData.month_not_found) {
+                    console.warn(`Nenhum dado encontrado para o mês ${month}. Exibindo visão agregada.`);
+                }
+
                 displayDashboard(dashboardData);
                 
             } catch (error) {
@@ -2325,11 +2340,12 @@
                 
                 const data = await response.json();
                 console.log('Hands by stat data:', data);
-                
+
                 // Store download URLs in memory for use in stat displays
+                downloadUrls = {};
                 if (data.formats && Object.keys(data.formats).length > 0) {
                     console.log('Found formats:', Object.keys(data.formats));
-                    
+
                     // Store URLs for each format
                     Object.keys(data.formats).forEach(format => {
                         downloadUrls[format] = {};

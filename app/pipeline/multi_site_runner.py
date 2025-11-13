@@ -96,6 +96,18 @@ def _process_site_for_month(
     from app.score.squeeze_scorer import SqueezeScorer
     from app.score.bb_defense_scorer import BBDefenseScorer
     from app.score.sb_defense_scorer import SBDefenseScorer
+    from app.stats.stat_categories import (
+        BB_DEFENSE_STATS,
+        BVB_STATS,
+        POSTFLOP_KEYWORDS,
+        RFI_STATS,
+        SB_DEFENSE_STATS,
+        SQUEEZE_STATS,
+        THREEBET_CC_STATS,
+        VS_3BET_STATS,
+        filter_stats,
+        filter_stats_by_keyword,
+    )
     from app.utils.progress_tracker import progress_tracker
     from app.utils.hand_streaming import stream_hands_from_combined_file, count_hands_in_file
     from app.utils.memory_monitor import log_memory_usage
@@ -337,13 +349,11 @@ def _aggregate_month_groups(month_aggregator: MultiSiteAggregator, month_work_di
         scoring_calc = ScoringCalculator()
         
         # Get RFI stats
-        rfi_stats = {k: v for k, v in aggregated_stats.items() 
-                    if "RFI" in k or k in ["CO Steal", "BTN Steal"]}
+        rfi_stats = filter_stats(aggregated_stats, RFI_STATS)
         rfi_scores = scoring_calc.calculate_group_scores(group, rfi_stats) if rfi_stats else {}
         
         # Get BvB stats  
-        bvb_stats = {k: v for k, v in aggregated_stats.items() 
-                    if k in ["SB UO VPIP", "BB fold vs SB steal", "BB raise vs SB limp UOP", "SB Steal"]}
+        bvb_stats = filter_stats(aggregated_stats, BVB_STATS)
         
         # Determine table format
         if "9max" in group:
@@ -356,35 +366,26 @@ def _aggregate_month_groups(month_aggregator: MultiSiteAggregator, month_work_di
         bvb_scores = calculate_bvb_scores(bvb_stats, table_format) if bvb_stats else {}
         
         # Get other stat categories
-        threbet_cc_stats = {k: v for k, v in aggregated_stats.items() 
-                           if "3bet" in k or "Cold Call" in k or "VPIP" in k or "BTN fold to CO steal" in k}
+        threbet_cc_stats = filter_stats(aggregated_stats, THREEBET_CC_STATS)
         threbet_cc_scores = calculate_3bet_cc_scores(threbet_cc_stats, table_format) if threbet_cc_stats else {}
         
-        vs_3bet_stats = {k: v for k, v in aggregated_stats.items() 
-                        if "Fold to 3bet" in k}
+        vs_3bet_stats = filter_stats(aggregated_stats, VS_3BET_STATS)
         vs_3bet_scores = calculate_vs_3bet_scores(vs_3bet_stats, table_format) if vs_3bet_stats else {}
         
-        squeeze_stats = {k: v for k, v in aggregated_stats.items() 
-                        if "Squeeze" in k}
+        squeeze_stats = filter_stats(aggregated_stats, SQUEEZE_STATS)
         squeeze_scorer = SqueezeScorer()
         squeeze_scores = squeeze_scorer.calculate_squeeze_scores(squeeze_stats, group) if squeeze_stats else {}
         
-        bb_defense_stats = {k: v for k, v in aggregated_stats.items() 
-                           if "BB fold vs CO steal" in k or "BB fold vs BTN steal" in k or "BB resteal vs BTN steal" in k}
+        bb_defense_stats = filter_stats(aggregated_stats, BB_DEFENSE_STATS)
         bb_defense_scorer = BBDefenseScorer()
         bb_defense_scores = bb_defense_scorer.calculate_bb_defense_scores(bb_defense_stats, bvb_stats, group) if bb_defense_stats else {}
         
-        sb_defense_stats = {k: v for k, v in aggregated_stats.items() 
-                           if "SB fold to CO Steal" in k or "SB fold to BTN Steal" in k or "SB resteal vs BTN" in k}
+        sb_defense_stats = filter_stats(aggregated_stats, SB_DEFENSE_STATS)
         sb_defense_scorer = SBDefenseScorer()
         sb_defense_scores = sb_defense_scorer.calculate_group_score(sb_defense_stats, table_format) if sb_defense_stats else {}
         
         # Get POSTFLOP stats (case-insensitive matching)
-        postflop_stats = {k: v for k, v in aggregated_stats.items() 
-                        if any(keyword.lower() in k.lower() for keyword in ["Flop CBet", "Flop fold", "Flop raise", 
-                               "Check Raise", "Flop Bet vs", "Turn CBet", "Turn Donk", 
-                               "Turn Fold", "Bet Turn", "WTSD", "w$sd", "w$wsf",
-                               "River Agg", "River Bet"])}
+        postflop_stats = filter_stats_by_keyword(aggregated_stats, POSTFLOP_KEYWORDS)
         
         combined_stats[group] = {
             'stats': aggregated_stats,
@@ -906,7 +907,27 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
         try:
             from app.services.storage import get_storage
             storage = get_storage()
-            
+
+            def _upload_directory(local_dir: str, remote_prefix: str) -> int:
+                uploaded = 0
+                if not os.path.isdir(local_dir):
+                    return uploaded
+
+                for root_dir, _, files in os.walk(local_dir):
+                    for file_name in files:
+                        local_path = os.path.join(root_dir, file_name)
+                        relative_path = os.path.relpath(local_path, local_dir)
+                        storage_key = f"{remote_prefix}/{relative_path}".replace('\\', '/')
+                        content_type = 'application/json' if file_name.endswith('.json') else 'text/plain'
+
+                        with open(local_path, 'rb') as stream:
+                            storage.upload_file_stream(stream, storage_key, content_type)
+
+                        uploaded += 1
+
+                logger.info(f"[{token}] Uploaded {uploaded} files under {remote_prefix}")
+                return uploaded
+
             # Upload aggregate pipeline_result.json
             aggregate_result_path = os.path.join(work_dir, "pipeline_result.json")
             if os.path.exists(aggregate_result_path):
@@ -914,7 +935,11 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                     storage_path = f"/results/{token}/pipeline_result.json"
                     storage.upload_file_stream(f, storage_path, 'application/json')
                     logger.info(f"[{token}] ✅ Uploaded aggregate pipeline_result.json")
-            
+
+            # Upload aggregated hands_by_stat files (global scope)
+            hands_dir = os.path.join(work_dir, "hands_by_stat")
+            _upload_directory(hands_dir, f"/results/{token}/hands_by_stat")
+
             # Upload months_manifest.json (if multi-month)
             if is_multi_month:
                 manifest_local = os.path.join(work_dir, "months_manifest.json")
@@ -936,7 +961,10 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                             storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
                             storage.upload_file_stream(f, storage_path, 'application/json')
                             logger.info(f"[{token}] ✅ Uploaded pipeline_result.json for month {month}")
-            
+
+                    month_hands_dir = os.path.join(month_work_dir, "hands_by_stat")
+                    _upload_directory(month_hands_dir, f"/results/{token}/months/{month}/hands_by_stat")
+
             logger.info(f"[{token}] ✅ All results uploaded to Supabase Storage successfully")
         except Exception as e:
             logger.error(f"[{token}] Failed to upload results to Supabase Storage: {e}")

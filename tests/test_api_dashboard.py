@@ -93,7 +93,7 @@ def test_build_dashboard_payload_with_data():
             payload = build_dashboard_payload(None)
             
             # Verify data was loaded
-            assert payload["overall"] == 85.5
+            assert payload["overall"]["score"] == 85.5
             assert payload["group_level"]["preflop"] == "Bom"
             assert payload["samples"]["6max"] == 1000
             assert payload["months"] == ["2024-01"]
@@ -138,7 +138,7 @@ def test_build_dashboard_payload_normalizes_score_keys():
             payload = build_dashboard_payload(None)
             
             # Verify normalization worked
-            assert payload["overall"] == 75.0
+            assert payload["overall"]["score"] == 75.0
             assert payload["group_level"]["postflop"] == "OK"
             assert payload["samples"]["total"] == 1500
         finally:
