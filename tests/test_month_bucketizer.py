@@ -1,5 +1,8 @@
 from pathlib import Path
 
+from pathlib import Path
+
+from app.parse.runner import ParserRunner
 from app.pipeline.month_bucketizer import build_month_buckets
 
 
@@ -20,38 +23,35 @@ Total pot 40 | Rake 0
 """
 
 
-def write_sample_file(path: Path, hands: list[str]):
-    content = "\n\n".join(hands)
-    path.write_text(content, encoding="utf-8")
-
-
-def test_build_month_buckets_groups_by_hand_dates(tmp_path):
+def test_build_month_buckets_groups_by_first_hand_date(tmp_path):
     input_dir = tmp_path / "input"
     input_dir.mkdir()
     work_root = tmp_path / "work"
 
-    hand_january = SAMPLE_HAND_TEMPLATE.format(
+    january_text = SAMPLE_HAND_TEMPLATE.format(
         hand_id="1",
         tournament_id="999",
         timestamp="2024/01/15 12:34:56"
     )
 
-    hand_february = SAMPLE_HAND_TEMPLATE.format(
+    february_text = SAMPLE_HAND_TEMPLATE.format(
         hand_id="2",
         tournament_id="888",
         timestamp="2024/02/20 18:00:00"
     )
 
-    duplicate_january = SAMPLE_HAND_TEMPLATE.format(
-        hand_id="1",
-        tournament_id="999",
-        timestamp="2024/01/15 12:34:56"
+    # Write tournament files (one per tournament)
+    (input_dir / "january.txt").write_text(january_text, encoding="utf-8")
+    (input_dir / "january_duplicate.txt").write_text(january_text, encoding="utf-8")
+    (input_dir / "february.txt").write_text(february_text, encoding="utf-8")
+
+    parser = ParserRunner()
+    buckets = build_month_buckets(
+        "token123",
+        str(input_dir),
+        str(work_root),
+        metadata_resolver=parser.extract_tournament_metadata,
     )
-
-    sample_file = input_dir / "sample.txt"
-    write_sample_file(sample_file, [hand_january, hand_february, duplicate_january])
-
-    buckets = build_month_buckets("token123", str(input_dir), str(work_root))
 
     assert len(buckets) == 2
     months = sorted(bucket.month for bucket in buckets)
@@ -60,9 +60,8 @@ def test_build_month_buckets_groups_by_hand_dates(tmp_path):
     jan_bucket = next(b for b in buckets if b.month == "2024-01")
     feb_bucket = next(b for b in buckets if b.month == "2024-02")
 
-    # Ensure files were written
-    jan_bucket.finalize()
-    feb_bucket.finalize()
+    assert len(jan_bucket.files) == 1  # duplicate tournament deduped
+    assert len(feb_bucket.files) == 1
 
     jan_contents = "\n".join(Path(file).read_text(encoding="utf-8") for file in jan_bucket.files)
     feb_contents = "\n".join(Path(file).read_text(encoding="utf-8") for file in feb_bucket.files)
@@ -70,5 +69,5 @@ def test_build_month_buckets_groups_by_hand_dates(tmp_path):
     assert "2024/01/15" in jan_contents
     assert "2024/02/20" in feb_contents
 
-    # Duplicate hand should only appear once
+    # Duplicate tournament should only be kept once
     assert jan_contents.count("PokerStars Hand #1") == 1

@@ -6,7 +6,8 @@ Supports both $ and € currencies.
 
 import re
 import logging
-from typing import List, Optional, Set
+from datetime import datetime
+from typing import List, Optional, Set, Dict
 from .schemas import Hand, Player, Action, StreetInfo
 from .site_generic import find_hand_boundaries, extract_street_boundaries, create_empty_streets
 from .utils import (
@@ -23,6 +24,42 @@ class Poker888Parser:
     def detect(self, text: str) -> bool:
         """Detect if this is an 888poker or 888.pt hand history."""
         return bool(re.search(r'888(?:poker|\.pt)|#Game\s+No', text[:1000], re.IGNORECASE))
+
+    def extract_tournament_metadata(self, text: str, file_id: str = "") -> Optional[Dict[str, Optional[str]]]:
+        """Extract tournament metadata (ID and month) from the first hand."""
+
+        for _, _, hand_text in find_hand_boundaries(text):
+            lines = [line for line in hand_text.split('\n') if line.strip()]
+            if not lines:
+                continue
+
+            tournament_id = None
+            timestamp = None
+            month = None
+
+            for line in lines[:10]:
+                tourn_match = safe_match(r'Tournament\s+#(\d+)', line)
+                if tourn_match:
+                    tournament_id = tourn_match.group(1)
+
+                time_match = safe_match(r'\*\*\*\s+(\d{2})\s+(\d{2})\s+(\d{4})\s+(\d{2}:\d{2}:\d{2})', line)
+                if time_match:
+                    day, month_str, year, clock = time_match.groups()
+                    timestamp = f"{year}-{month_str}-{day} {clock}"
+                    try:
+                        month = datetime.strptime(timestamp, "%Y-%m-%d %H:%M:%S").strftime("%Y-%m")
+                    except ValueError:
+                        month = None
+                    break
+
+            return {
+                'site': '888',
+                'tournament_id': tournament_id,
+                'timestamp': timestamp,
+                'tournament_month': month,
+            }
+
+        return None
     
     def parse_tournament(
         self,

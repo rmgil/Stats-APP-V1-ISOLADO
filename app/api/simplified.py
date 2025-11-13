@@ -123,7 +123,12 @@ def analyze_archive():
             try:
                 from app.pipeline.multi_site_runner import run_multi_site_pipeline
                 # This will update progress_tracker internally, pass the token so it doesn't generate a new one
-                success, _, result_data = run_multi_site_pipeline(archive_path, work_root="work", token=job_token)
+                success, _, result_data = run_multi_site_pipeline(
+                    archive_path,
+                    work_root="work",
+                    token=job_token,
+                    user_id=current_user.email if hasattr(current_user, 'email') else str(current_user.id),
+                )
                 
                 if not success:
                     error_msg = result_data.get('error', {}).get('error', 'Erro no processamento')

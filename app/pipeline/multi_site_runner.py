@@ -6,12 +6,15 @@ import os
 import json
 import logging
 import shutil
+import hashlib
 from pathlib import Path
 from typing import Dict, Any, Tuple, List, Optional
 from app.pipeline.new_runner import run_simplified_pipeline
 from app.stats.aggregate import MultiSiteAggregator
 from app.parse.site_parsers.site_detector import detect_poker_site
 from app.pipeline.month_bucketizer import MonthBucket, build_month_buckets, generate_months_manifest
+from app.parse.runner import ParserRunner
+from app.services.tournament_repository import TournamentRepository
 from app.stats.stat_categories import (
     BB_DEFENSE_STATS,
     BVB_STATS,
@@ -26,6 +29,85 @@ from app.stats.stat_categories import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+def _read_text_file(path: Path) -> str:
+    try:
+        return path.read_text(encoding='utf-8', errors='ignore')
+    except Exception:
+        return path.read_text(encoding='latin-1', errors='ignore')
+
+
+def _ingest_tournaments_for_user(
+    user_key: str,
+    source_dir: Path,
+    repository: TournamentRepository,
+    parser_runner: ParserRunner,
+    token: str,
+) -> Dict[str, Any]:
+    summary = {
+        'total_files': 0,
+        'stored': 0,
+        'replaced': 0,
+        'months': {},
+    }
+
+    for file_path in source_dir.rglob('*.txt'):
+        if not file_path.is_file():
+            continue
+
+        summary['total_files'] += 1
+
+        content = _read_text_file(file_path)
+        metadata = parser_runner.extract_tournament_metadata(content, file_id=file_path.name) or {}
+
+        month = metadata.get('tournament_month') or 'unknown'
+        tournament_id = metadata.get('tournament_id')
+
+        if not tournament_id:
+            digest = hashlib.sha1(content.encode('utf-8', errors='ignore')).hexdigest()[:12]
+            tournament_id = f"{file_path.stem}_{digest}"
+
+        stored_path, replaced = repository.store_tournament(
+            user_key,
+            month,
+            tournament_id,
+            content,
+            file_path.name,
+        )
+
+        if replaced:
+            summary['replaced'] += 1
+            logger.info(
+                "[%s] Replaced tournament %s for %s (stored at %s)",
+                token,
+                tournament_id,
+                month,
+                stored_path,
+            )
+        else:
+            summary['stored'] += 1
+            logger.info(
+                "[%s] Stored new tournament %s for %s (stored at %s)",
+                token,
+                tournament_id,
+                month,
+                stored_path,
+            )
+
+        summary['months'][month] = summary['months'].get(month, 0) + 1
+
+    logger.info(
+        "[%s] Tournament ingest summary for %s: total=%s, stored=%s, replaced=%s",
+        token,
+        user_key,
+        summary['total_files'],
+        summary['stored'],
+        summary['replaced'],
+    )
+
+    return summary
+
 
 def detect_sites_in_directory(directory: str) -> Dict[str, List[str]]:
     """
@@ -562,7 +644,13 @@ def _process_month_bucket(
     month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
     with open(month_result_path, 'w', encoding='utf-8') as f:
         json.dump(month_result, f, indent=2)
-    
+
+    month_work_path = Path(month_work_dir)
+    root_dir = month_work_path.parents[1] if len(month_work_path.parents) >= 2 else month_work_path
+    month_root_path = root_dir / f"pipeline_result_{bucket.month}.json"
+    month_root_path.write_text(json.dumps(month_result, indent=2), encoding='utf-8')
+    logger.info(f"[{token}] ✅ Wrote monthly pipeline_result for {bucket.month} to {month_root_path}")
+
     total_discarded = month_result['classification']['discarded_hands'].get('total', 0)
     logger.info(
         f"[{token}] Month {bucket.month}: completed with valid_hands={month_result['valid_hands']}, "
@@ -577,7 +665,13 @@ def _process_month_bucket(
     return month_result
 
 
-def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: Optional[str] = None, progress_callback=None) -> Tuple[bool, str, Dict[str, Any]]:
+def run_multi_site_pipeline(
+    archive_path: str,
+    work_root: str = "work",
+    token: Optional[str] = None,
+    progress_callback=None,
+    user_id: Optional[str] = None,
+) -> Tuple[bool, str, Dict[str, Any]]:
     """
     Run pipeline that handles multiple poker sites and aggregates results.
     Supports monthly bucketing for multi-month uploads.
@@ -639,14 +733,35 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
         if progress_callback:
             progress_callback(35, f'Extraídos {file_count} ficheiros')
         
-        # Step 2: Build month buckets
+        # Step 2: Ingest tournaments and build month buckets
+        parser_runner = ParserRunner()
+        repository = TournamentRepository()
+        user_key = user_id or token
+
+        logger.info(f"[{token}] Ingesting tournaments for user dataset {user_key}")
+        ingest_summary = _ingest_tournaments_for_user(user_key, Path(input_dir), repository, parser_runner, token)
+
+        dataset_dir = Path(work_dir) / "dataset"
+        total_tournaments = repository.export_dataset(user_key, dataset_dir)
+
+        result_data['tournament_ingest'] = ingest_summary
+
+        if total_tournaments == 0:
+            logger.error(f"[{token}] No tournaments available after ingest")
+            raise ValueError("No tournament files available for processing")
+
         logger.info(f"[{token}] Building month buckets")
-        buckets = build_month_buckets(token, input_dir, work_root)
-        
+        buckets = build_month_buckets(
+            token,
+            str(dataset_dir),
+            work_root,
+            metadata_resolver=parser_runner.extract_tournament_metadata,
+        )
+
         if not buckets:
             logger.error(f"[{token}] No files to process after bucketing")
             raise ValueError("No processable files found")
-        
+
         logger.info(f"[{token}] Created {len(buckets)} month bucket(s): {[b.month for b in buckets]}")
         
         # Check if single-month or multi-month
@@ -915,11 +1030,16 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
             with open(manifest_path, 'w', encoding='utf-8') as f:
                 json.dump(manifest, f, indent=2)
         
-        # Save final result
-        result_file = os.path.join(work_dir, "pipeline_result.json")
-        with open(result_file, 'w') as f:
+        # Save final result (new and legacy filenames)
+        global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
+        with open(global_result_path, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, indent=2)
-        
+        logger.info(f"[{token}] ✅ Wrote global pipeline_result to {global_result_path}")
+
+        legacy_result_path = os.path.join(work_dir, "pipeline_result.json")
+        with open(legacy_result_path, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, indent=2)
+
         result_data['status'] = 'completed'
         
         if is_multi_month:
@@ -957,13 +1077,21 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                 logger.info(f"[{token}] Uploaded {uploaded} files under {remote_prefix}")
                 return uploaded
 
-            # Upload aggregate pipeline_result.json
+            # Upload new global pipeline_result
+            global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
+            if os.path.exists(global_result_path):
+                with open(global_result_path, 'rb') as f:
+                    storage_path = f"/results/{token}/pipeline_result_global.json"
+                    storage.upload_file_stream(f, storage_path, 'application/json')
+                    logger.info(f"[{token}] ✅ Uploaded pipeline_result_global.json")
+
+            # Upload legacy aggregate file for backwards compatibility
             aggregate_result_path = os.path.join(work_dir, "pipeline_result.json")
             if os.path.exists(aggregate_result_path):
                 with open(aggregate_result_path, 'rb') as f:
                     storage_path = f"/results/{token}/pipeline_result.json"
                     storage.upload_file_stream(f, storage_path, 'application/json')
-                    logger.info(f"[{token}] ✅ Uploaded aggregate pipeline_result.json")
+                    logger.info(f"[{token}] ✅ Uploaded legacy pipeline_result.json")
 
             # Upload aggregated hands_by_stat files (global scope)
             hands_dir = os.path.join(work_dir, "hands_by_stat")
@@ -982,7 +1110,7 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                 for bucket in buckets:
                     month = bucket.month
                     month_work_dir = bucket.work_dir
-                    
+
                     # Upload monthly pipeline_result.json
                     month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
                     if os.path.exists(month_result_path):
@@ -990,6 +1118,13 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                             storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
                             storage.upload_file_stream(f, storage_path, 'application/json')
                             logger.info(f"[{token}] ✅ Uploaded pipeline_result.json for month {month}")
+
+                    month_root_path = os.path.join(work_dir, f"pipeline_result_{month}.json")
+                    if os.path.exists(month_root_path):
+                        with open(month_root_path, 'rb') as f:
+                            storage_path = f"/results/{token}/pipeline_result_{month}.json"
+                            storage.upload_file_stream(f, storage_path, 'application/json')
+                            logger.info(f"[{token}] ✅ Uploaded pipeline_result_{month}.json")
 
                     month_hands_dir = os.path.join(month_work_dir, "hands_by_stat")
                     _upload_directory(month_hands_dir, f"/results/{token}/months/{month}/hands_by_stat")
