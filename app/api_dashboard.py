@@ -822,6 +822,9 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     if months_manifest:
         response_data['months_manifest'] = months_manifest
 
+    if month and month_not_found:
+        logger.warning("[LOAD] Falling back to aggregate results for %s because month %s was not found", token, month)
+
     # Final check on postflop_all before returning
     if 'postflop_all' in response_data.get('groups', {}):
         pf_all = response_data['groups']['postflop_all']
