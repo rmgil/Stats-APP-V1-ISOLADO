@@ -145,3 +145,116 @@ def test_payload_with_empty_data(client, app_context):
     import shutil
     if test_dir.exists():
         shutil.rmtree(test_dir)
+
+
+def test_dashboard_payload_monthly_breakdown(client, app_context):
+    """Ensure monthly breakdown mirrors aggregate totals"""
+
+    import shutil
+
+    token = 'monthly_token'
+    runs_dir = Path('runs') / token
+    stats_dir = runs_dir / 'stats'
+    scores_dir = runs_dir / 'scores'
+    work_dir = Path('work') / token
+
+    # Prepare directory structure
+    stats_dir.mkdir(parents=True, exist_ok=True)
+    scores_dir.mkdir(parents=True, exist_ok=True)
+    work_dir.mkdir(parents=True, exist_ok=True)
+
+    # Minimal stat counts / scorecard to satisfy loader
+    with open(stats_dir / 'stat_counts.json', 'w') as f:
+        json.dump({"counts": {}}, f)
+
+    with open(scores_dir / 'scorecard.json', 'w') as f:
+        json.dump({"overall": 70, "group_level": {}, "stat_level": {}}, f)
+
+    # Pipeline result with monthly data stored under months_data (multi-site format)
+    pipeline_result = {
+        "combined": {
+            "nonko_9max": {
+                "stats": {},
+                "hand_count": 6,
+                "overall_score": 72,
+                "postflop_stats": {},
+                "postflop_hands_count": 0,
+                "scores": {},
+                "months_data": {
+                    "2024-07": {
+                        "stats": {},
+                        "hand_count": 3,
+                        "overall_score": 70,
+                        "postflop_stats": {},
+                        "postflop_hands_count": 0,
+                        "scores": {}
+                    },
+                    "2024-08": {
+                        "stats": {},
+                        "hand_count": 3,
+                        "overall_score": 74,
+                        "postflop_stats": {},
+                        "postflop_hands_count": 0,
+                        "scores": {}
+                    }
+                }
+            }
+        },
+        "sites": {
+            "pokerstars": {
+                "nonko_9max": {
+                    "hand_count": 6,
+                    "months_data": {
+                        "2024-07": {"hand_count": 3},
+                        "2024-08": {"hand_count": 3}
+                    }
+                }
+            }
+        },
+        "classification": {
+            "discarded_hands": {
+                "mystery": 1,
+                "per_month": {
+                    "2024-07": {"mystery": 1},
+                    "2024-08": {}
+                },
+                "total": 1
+            },
+            "total_hands": 7,
+            "valid_hands": 6
+        }
+    }
+
+    with open(work_dir / 'pipeline_result.json', 'w') as f:
+        json.dump(pipeline_result, f)
+
+    # Exercise API endpoint with monthly breakdown
+    response = client.get(f'/api/dashboard/{token}?include_months=true')
+    assert response.status_code == 200
+
+    payload_wrapper = response.get_json()
+    assert payload_wrapper['ok'] is True
+
+    payload = payload_wrapper['data']
+
+    # Months should surface sorted keys
+    assert payload['months'] == ['2024-07', '2024-08']
+
+    months_data = payload['months_data']
+    assert set(months_data.keys()) == {'2024-07', '2024-08'}
+
+    july = months_data['2024-07']
+    august = months_data['2024-08']
+
+    assert july['overall']['valid_hands'] == 3
+    assert july['overall']['discarded_hands'] == 1
+    assert july['overall']['total_hands'] == 4
+
+    assert august['overall']['valid_hands'] == 3
+    assert august['overall']['discarded_hands'] == 0
+    assert august['overall']['total_hands'] == 3
+
+    # Cleanup directories
+    for path in [runs_dir, work_dir]:
+        if path.exists():
+            shutil.rmtree(path)

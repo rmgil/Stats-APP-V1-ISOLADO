@@ -259,6 +259,50 @@ def calculate_weighted_scores_from_groups(pipeline_groups: Dict[str, Any], postf
     return weighted_scores
 
 
+def _get_months_map(group_data: Dict[str, Any]) -> Dict[str, Any]:
+    """Return dictionary containing monthly breakdown for a group."""
+
+    if not isinstance(group_data, dict):
+        return {}
+
+    months_map = group_data.get('months')
+    if isinstance(months_map, dict):
+        return months_map
+
+    months_map = group_data.get('months_data')
+    if isinstance(months_map, dict):
+        return months_map
+
+    return {}
+
+
+def _resolve_hand_count(raw_group: Dict[str, Any], transformed_group: Dict[str, Any]) -> int:
+    """Infer hand count for a group using raw or transformed data."""
+
+    for key in ("hand_count", "hands_count", "hands_parsed", "total_hands", "valid_hands"):
+        value = raw_group.get(key)
+        if isinstance(value, (int, float)) and value:
+            return int(value)
+
+    value = transformed_group.get('hands_count')
+    if isinstance(value, (int, float)) and value:
+        return int(value)
+
+    stats = raw_group.get('stats', {})
+    if isinstance(stats, dict):
+        for stat in stats.values():
+            if isinstance(stat, dict):
+                valid = stat.get('valid_hands')
+                if isinstance(valid, (int, float)) and valid:
+                    return int(valid)
+
+                opportunities = stat.get('opportunities')
+                if isinstance(opportunities, (int, float)) and opportunities:
+                    return int(opportunities)
+
+    return 0
+
+
 def _build_month_payload(
     month: str,
     pipeline_combined: Dict,
@@ -288,13 +332,19 @@ def _build_month_payload(
     monthly_groups_raw = {}  # For postflop aggregation
     
     for group_key, group_data in pipeline_combined.items():
-        if isinstance(group_data, dict) and 'months' in group_data:
-            if month in group_data['months']:
-                monthly_group_raw = group_data['months'][month]
-                monthly_groups_raw[group_key] = monthly_group_raw
-                
-                # Transform to frontend format
-                monthly_groups[group_key] = transform_group_for_frontend(monthly_group_raw)
+        months_map = _get_months_map(group_data)
+        if month in months_map:
+            monthly_group_raw = months_map[month]
+            monthly_groups_raw[group_key] = monthly_group_raw
+
+            # Transform to frontend format
+            transformed = transform_group_for_frontend(monthly_group_raw)
+
+            # Ensure hands_count reflects raw metadata when available
+            hand_count = _resolve_hand_count(monthly_group_raw, transformed)
+            transformed['hands_count'] = hand_count
+
+            monthly_groups[group_key] = transformed
     
     # Calculate monthly valid hands BEFORE adding postflop_all (to avoid double counting)
     monthly_valid_hands = sum(g.get('hands_count', 0) for g in monthly_groups.values())
@@ -312,8 +362,10 @@ def _build_month_payload(
     monthly_discarded_total = sum(monthly_discards.values()) if monthly_discards else 0
     
     # Calculate monthly overall totals
+    monthly_valid_hands = int(monthly_valid_hands)
+    monthly_discarded_total = int(monthly_discarded_total)
     monthly_total_hands = monthly_valid_hands + monthly_discarded_total
-    
+
     monthly_overall = {
         'total_hands': monthly_total_hands,
         'valid_hands': monthly_valid_hands,
@@ -329,14 +381,20 @@ def _build_month_payload(
     if sites_data:
         for site_name, site_groups in sites_data.items():
             for group_name, group_info in site_groups.items():
-                if isinstance(group_info, dict) and 'months' in group_info:
-                    if month in group_info['months']:
-                        month_data = group_info['months'][month]
-                        hand_count = month_data.get('hand_count', 0)
-                        if hand_count > 0:
-                            if site_name not in monthly_hands_by_site:
-                                monthly_hands_by_site[site_name] = 0
-                            monthly_hands_by_site[site_name] += hand_count
+                months_map = _get_months_map(group_info)
+                if month in months_map:
+                    month_site_data = months_map[month]
+                    hand_count = month_site_data.get('hand_count', 0)
+                    if hand_count > 0:
+                        if site_name not in monthly_hands_by_site:
+                            monthly_hands_by_site[site_name] = 0
+                        monthly_hands_by_site[site_name] += hand_count
+
+    if monthly_hands_by_site:
+        valid_from_sites = sum(monthly_hands_by_site.values())
+        if valid_from_sites:
+            monthly_overall['valid_hands'] = valid_from_sites
+            monthly_overall['total_hands'] = valid_from_sites + monthly_discarded_total
     
     # Build monthly payload
     monthly_payload = {
@@ -473,8 +531,17 @@ def build_dashboard_payload(
         stat_weights=stat_weights
     )
     
-    # Get list of months from counts
-    months = list(counts.keys()) if counts else []
+    # Gather available months from pipeline result (if any)
+    available_months = []
+    if pipeline_result and 'combined' in pipeline_result:
+        month_keys = set()
+        for group_data in pipeline_result['combined'].values():
+            if isinstance(group_data, dict):
+                months_map = _get_months_map(group_data)
+                month_keys.update(months_map.keys())
+
+        if month_keys:
+            available_months = sorted(month_keys)
     
     # Load ingest manifest if exists
     ingest = {}
@@ -616,7 +683,7 @@ def build_dashboard_payload(
         "group_level": group_level,
         "weighted_scores": weighted_scores,  # Frontend compatibility
         "samples": samples,
-        "months": months,
+        "months": available_months,
         "counts": counts,
         "groups": groups,  # New hierarchical structure
         "ingest": ingest,  # Classification summary
@@ -643,12 +710,13 @@ def build_dashboard_payload(
     # BUILD MONTHLY DATA if requested
     if include_months and pipeline_result and 'combined' in pipeline_result:
         logger.info(f"[MONTHLY] Building monthly payload (filter: {month_filter or 'all'})")
-        
+
         # Collect all available months from all groups
-        all_months = set()
-        for group_key, group_data in pipeline_result['combined'].items():
-            if isinstance(group_data, dict) and 'months' in group_data:
-                all_months.update(group_data['months'].keys())
+        all_months = set(available_months)
+        if not all_months:
+            for group_key, group_data in pipeline_result['combined'].items():
+                months_map = _get_months_map(group_data)
+                all_months.update(months_map.keys())
         
         # Filter months if requested
         if month_filter:

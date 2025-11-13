@@ -229,6 +229,7 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                 monthly_hand_collectors = {}
                 monthly_preflop_calcs = {}
                 monthly_postflop_calcs = {}
+                monthly_hand_counts = defaultdict(int)
                 months_seen = set()
                 
                 # Process hands in streaming mode - one at a time
@@ -252,10 +253,11 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                                 monthly_preflop_calcs[month] = PreflopStats(hand_collector=monthly_hand_collectors[month])
                                 monthly_postflop_calcs[month] = PostflopCalculatorV4(hand_collector=monthly_hand_collectors[month])
                                 logger.info(f"[{token}] {site}/{group_key}: Created monthly calculators for {month}")
-                            
+
                             # Route hand to its monthly calculator
                             monthly_preflop_calcs[month].analyze_hand(hand_text)
                             monthly_postflop_calcs[month].analyze_hand(hand_text)
+                            monthly_hand_counts[month] += 1
                         
                         hands_processed += 1
                         
@@ -286,11 +288,12 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                     
                     for month in sorted(monthly_preflop_calcs.keys()):
                         logger.info(f"[{token}] {site}/{group_key}: Calculating stats for {month}")
-                        
+
                         # Get monthly calculators
                         month_preflop_calc = monthly_preflop_calcs[month]
                         month_postflop_calc = monthly_postflop_calcs[month]
                         month_hand_collector = monthly_hand_collectors[month]
+                        month_hand_count = monthly_hand_counts.get(month, 0)
                         
                         # Get stats summary
                         month_all_stats = month_preflop_calc.get_stats_summary()
@@ -363,6 +366,8 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                             'overall_score': month_overall_score,
                             'postflop_stats': month_postflop_stats,
                             'postflop_hands_count': month_postflop_hands_count,
+                            'hand_count': month_hand_count,
+                            'hands_count': month_hand_count,
                             'scores': {
                                 'rfi': month_rfi_scores,
                                 'bvb': month_bvb_scores,
@@ -569,7 +574,7 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                         else:
                             # Aggregate stats from another site for same month
                             logger.info(f"[{token}] Combined/{group}: Aggregating {month} from {site_name}")
-                            
+
                             # Merge regular stats (sum opportunities and attempts)
                             for stat_name, stat_data in month_data.get('stats', {}).items():
                                 if stat_name in combined_months_data[month]['stats']:
@@ -607,13 +612,19 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                             
                             # Update postflop_hands_count
                             combined_months_data[month]['postflop_hands_count'] = combined_months_data[month].get('postflop_hands_count', 0) + month_data.get('postflop_hands_count', 0)
-                            
+
+                            # Sum monthly hand counts
+                            combined_months_data[month]['hand_count'] = combined_months_data[month].get('hand_count', 0) + month_data.get('hand_count', 0)
+                            combined_months_data[month]['hands_count'] = combined_months_data[month]['hand_count']
+
                             # NOTE: Scores will be recalculated below after aggregation
                             # NOTE: hands_by_stat will remain from first site (download files already written separately per site)
             
             # RECALCULATE SCORES for aggregated monthly data
             for month, month_data in combined_months_data.items():
                 combined_month_stats = month_data.get('stats', {})
+                month_data['hand_count'] = int(month_data.get('hand_count', 0))
+                month_data['hands_count'] = month_data['hand_count']
                 
                 # Recalculate all category scores based on aggregated stats
                 month_scoring_calc = ScoringCalculator()
@@ -706,15 +717,49 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
         
         # Aggregate discard statistics across all sites
         if 'discarded_hands' in result_data:
-            aggregated_discards = {}
+            aggregated_discards = {'per_month': {}}
+            total_segments = 0
+
             for site, discards in result_data['discarded_hands'].items():
+                if not isinstance(discards, dict):
+                    continue
+
                 for reason, count in discards.items():
-                    if reason not in ['total', 'total_segments', 'per_month']:  # Skip totals and monthly data
+                    if reason == 'per_month' and isinstance(count, dict):
+                        for month, month_reasons in count.items():
+                            if not isinstance(month_reasons, dict):
+                                continue
+
+                            month_bucket = aggregated_discards.setdefault('per_month', {}).setdefault(month, {})
+                            for month_reason, month_count in month_reasons.items():
+                                if isinstance(month_count, (int, float)):
+                                    month_bucket[month_reason] = month_bucket.get(month_reason, 0) + month_count
+
+                    elif reason == 'total_segments':
+                        if isinstance(count, (int, float)):
+                            total_segments += count
+
+                    elif reason != 'total' and isinstance(count, (int, float)):
                         aggregated_discards[reason] = aggregated_discards.get(reason, 0) + count
-            
-            # Calculate total discarded
-            aggregated_discards['total'] = sum(aggregated_discards.values())
-            
+
+            if total_segments:
+                aggregated_discards['total_segments'] = total_segments
+
+            # Calculate total discarded (exclude metadata keys)
+            discarded_total = sum(
+                value for key, value in aggregated_discards.items()
+                if isinstance(value, (int, float)) and key not in ['total', 'total_segments']
+            )
+            aggregated_discards['total'] = discarded_total
+
+            # Add per-month totals
+            for month, month_reasons in aggregated_discards.get('per_month', {}).items():
+                month_total = sum(
+                    value for key, value in month_reasons.items()
+                    if isinstance(value, (int, float)) and key != 'total'
+                )
+                month_reasons['total'] = month_total
+
             # Store aggregated discards
             result_data['aggregated_discards'] = aggregated_discards
             
@@ -737,8 +782,8 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                             total_valid_hands += group_info.get('hand_count', 0)
             
             # Calculate correct total hands: valid + ALL discarded  
-            total_hands = total_valid_hands + aggregated_discards['total']
-            
+            total_hands = total_valid_hands + aggregated_discards.get('total', 0)
+
             # Store in classification format for dashboard display
             result_data['classification'] = {
                 'discarded_hands': aggregated_discards,
