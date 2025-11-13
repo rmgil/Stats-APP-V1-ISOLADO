@@ -15,7 +15,7 @@ import os
 import logging
 import json
 import shutil
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Set, Tuple
 from pathlib import Path
 from .storage import get_storage
 
@@ -92,6 +92,11 @@ class ResultStorageService:
             FileNotFoundError: If month is specified but monthly data doesn't exist
         """
         if month:
+            logger.info(
+                "[RESULT STORAGE] Attempting to load monthly pipeline_result_%s.json for %s",
+                month,
+                token,
+            )
             # Prefer new root-level monthly result
             storage_path = f"/results/{token}/pipeline_result_{month}.json"
             result = self._read_json_from_storage(storage_path)
@@ -146,6 +151,10 @@ class ResultStorageService:
             raise FileNotFoundError(f"Pipeline result for month {month} not found")
 
         # Load aggregate pipeline_result (default behavior)
+        logger.info(
+            "[RESULT STORAGE] Attempting to load pipeline_result_global.json for %s",
+            token,
+        )
         storage_path = f"/results/{token}/pipeline_result_global.json"
         result = self._read_json_from_storage(storage_path)
 
@@ -177,6 +186,132 @@ class ResultStorageService:
 
         logger.warning("[RESULT STORAGE] Aggregate pipeline_result missing for %s (cloud and local)", token)
         return None
+
+    def _check_month_file_exists(self, token: str, month: str) -> bool:
+        """Check if a monthly pipeline result exists in storage or locally."""
+
+        storage_path = f"/results/{token}/pipeline_result_{month}.json"
+
+        try:
+            if self.storage.use_cloud:
+                if self.storage.file_exists(storage_path):
+                    return True
+                if self.storage.file_exists(storage_path + ".gz"):
+                    return True
+            else:
+                local_path = self.local_work_dir / token / f"pipeline_result_{month}.json"
+                if local_path.exists():
+                    return True
+        except Exception as exc:
+            logger.debug("[RESULT STORAGE] Error checking month file %s: %s", storage_path, exc)
+
+        # Legacy layout fallback (months/<month>/pipeline_result.json)
+        legacy_storage = f"/results/{token}/months/{month}/pipeline_result.json"
+
+        try:
+            if self.storage.use_cloud:
+                if self.storage.file_exists(legacy_storage):
+                    return True
+            else:
+                legacy_local = self.local_work_dir / token / "months" / month / "pipeline_result.json"
+                if legacy_local.exists():
+                    return True
+        except Exception as exc:
+            logger.debug("[RESULT STORAGE] Error checking legacy month file %s: %s", legacy_storage, exc)
+
+        return False
+
+    def list_available_months(self, token: str) -> List[Dict[str, Any]]:
+        """Return metadata about months that have stored pipeline results."""
+
+        months_info: List[Dict[str, Any]] = []
+        seen: Set[str] = set()
+
+        manifest = None
+        try:
+            manifest = self.get_months_manifest(token)
+        except Exception as exc:
+            logger.debug("[RESULT STORAGE] Could not load months manifest for %s: %s", token, exc)
+
+        candidate_months: List[str] = []
+        if manifest and isinstance(manifest, dict):
+            candidate_months = [
+                entry.get("month")
+                for entry in manifest.get("months", [])
+                if isinstance(entry, dict) and entry.get("month")
+            ]
+
+        # Fallback to scanning local files when manifest unavailable (dev/tests)
+        if not candidate_months:
+            local_dir = self.local_work_dir / token
+            if local_dir.exists():
+                for path in local_dir.glob("pipeline_result_*.json"):
+                    name = path.stem.replace("pipeline_result_", "")
+                    if name and name != "global":
+                        candidate_months.append(name)
+
+        def _sort_key(value: str) -> Tuple[str, str]:
+            if value == 'unknown':
+                return ('9999-99', value)
+            return (value, '')
+
+        candidate_months = sorted(dict.fromkeys(candidate_months), key=_sort_key)
+
+        for month in candidate_months:
+            if not month or month in seen:
+                continue
+
+            if not self._check_month_file_exists(token, month):
+                logger.debug(
+                    "[RESULT STORAGE] Skipping month %s for %s (no pipeline_result file)",
+                    month,
+                    token,
+                )
+                continue
+
+            total_hands = None
+            valid_hands = None
+            has_data = False
+
+            try:
+                month_result = self.get_pipeline_result(token, month=month)
+                if isinstance(month_result, dict):
+                    total_hands = month_result.get("total_hands")
+                    valid_hands = month_result.get("valid_hands")
+                    combined = month_result.get("combined")
+                    if isinstance(combined, dict):
+                        for group in combined.values():
+                            if isinstance(group, dict) and group.get("hand_count", 0) > 0:
+                                has_data = True
+                                break
+            except FileNotFoundError:
+                # Should not happen after existence check, but skip defensively
+                logger.debug(
+                    "[RESULT STORAGE] Month %s for %s disappeared during metadata load",
+                    month,
+                    token,
+                )
+                continue
+            except Exception as exc:
+                logger.debug(
+                    "[RESULT STORAGE] Failed to load metadata for %s/%s: %s",
+                    token,
+                    month,
+                    exc,
+                )
+
+            if has_data or (total_hands or valid_hands):
+                months_info.append(
+                    {
+                        "month": month,
+                        "total_hands": total_hands,
+                        "valid_hands": valid_hands,
+                        "has_data": has_data,
+                    }
+                )
+                seen.add(month)
+
+        return months_info
     
     def get_multi_site_manifest(self, token: str) -> Optional[Dict[str, Any]]:
         """
