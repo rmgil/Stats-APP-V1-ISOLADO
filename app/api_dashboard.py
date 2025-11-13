@@ -10,6 +10,72 @@ from app.score.scoring import score_step
 from app.services.result_storage import ResultStorageService
 from app.stats.stat_categories import CATEGORY_LABELS, CATEGORY_WEIGHTS
 
+EXPECTED_GROUP_KEYS = ['nonko_9max', 'nonko_6max', 'pko', 'postflop_all']
+DEFAULT_GROUP_LABELS = {
+    'nonko_9max': 'NON-KO 9-MAX',
+    'nonko_6max': 'NON-KO 6-MAX',
+    'pko': 'PKO',
+    'postflop_all': 'POSTFLOP',
+}
+
+
+def ensure_group_defaults(groups: Dict[str, Any]) -> Dict[str, Any]:
+    """Ensure expected groups exist and include has_data flags."""
+
+    if not isinstance(groups, dict):
+        groups = {}
+
+    for key in EXPECTED_GROUP_KEYS:
+        group = groups.get(key)
+        if not isinstance(group, dict):
+            group = {}
+            groups[key] = group
+
+        group.setdefault('label', DEFAULT_GROUP_LABELS.get(key, key))
+        group.setdefault('file_count', 0)
+        group.setdefault('hands_count', 0)
+        group.setdefault('postflop_hands_count', group.get('postflop_hands_count', 0))
+        group.setdefault('stats', {})
+        group.setdefault('postflop_stats', group.get('postflop_stats', {}))
+        group.setdefault('overall_score', group.get('overall_score', 0) or 0)
+        group.setdefault('subgroups', group.get('subgroups', {}))
+        group.setdefault('scores', group.get('scores', {}))
+
+        has_data = bool(group.get('hands_count'))
+        has_data = has_data or bool(group.get('stats')) or bool(group.get('postflop_stats'))
+        has_data = has_data or bool(group.get('postflop_hands_count'))
+        group['has_data'] = has_data
+
+    for key, value in groups.items():
+        if isinstance(value, dict) and 'has_data' not in value:
+            has_data = bool(value.get('hands_count'))
+            has_data = has_data or bool(value.get('stats')) or bool(value.get('postflop_stats'))
+            value['has_data'] = has_data
+
+    return groups
+
+
+def reset_groups_for_missing_data(groups: Dict[str, Any]) -> Dict[str, Any]:
+    """Reset expected groups to an empty state with has_data=False."""
+
+    groups = ensure_group_defaults(groups)
+    for key in EXPECTED_GROUP_KEYS:
+        group = groups.get(key, {})
+        if not isinstance(group, dict):
+            continue
+
+        group['file_count'] = 0
+        group['hands_count'] = 0
+        group['postflop_hands_count'] = 0
+        group['stats'] = {}
+        group['postflop_stats'] = {}
+        group['overall_score'] = 0
+        group['subgroups'] = {}
+        group['scores'] = {}
+        group['has_data'] = False
+
+    return groups
+
 
 def detect_sites_from_hands(token: str, pipeline_sites: Optional[Dict[str, Any]] = None) -> Dict[str, int]:
     """Detect poker sites from pipeline_result['sites'] structure and aggregate hand counts"""
@@ -108,9 +174,13 @@ def transform_group_for_frontend(group_data: Dict[str, Any]) -> Dict[str, Any]:
         'label': group_data.get('label', ''),
         'file_count': group_data.get('file_count', 0),
         'subgroups': {},
-        'scores': scores_data  # Preserve full scores structure
+        'scores': scores_data,  # Preserve full scores structure
     }
-    
+
+    transformed['has_data'] = bool(transformed['hands_count']) or bool(enriched_stats) or bool(
+        transformed.get('postflop_stats')
+    ) or bool(transformed.get('postflop_hands_count'))
+
     return transformed
 
 
@@ -467,6 +537,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     result_storage = None
     selected_scope = 'aggregate'
     month_not_found = False
+    months_info: List[Dict[str, Any]] = []
 
     if token:
         try:
@@ -477,18 +548,21 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
             result_storage = None
 
     if token and result_storage:
+        aggregate_result: Optional[Dict[str, Any]] = None
+
         if month:
             try:
                 pipeline_result = result_storage.get_pipeline_result(token, month=month)
                 if pipeline_result:
                     selected_scope = 'monthly'
                     logger.info(
-                        "[LOAD] ✓ Loaded pipeline_result for month %s with keys: %s",
+                        "[LOAD] ✓ Loaded monthly pipeline_result for %s (%s)",
+                        token,
                         month,
-                        list(pipeline_result.keys()),
                     )
             except FileNotFoundError:
                 month_not_found = True
+                selected_scope = 'missing'
                 logger.warning("[LOAD] Monthly pipeline_result missing for %s/%s", token, month)
             except Exception as load_error:
                 logger.error(f"[LOAD] Failed to load monthly pipeline_result: {load_error}")
@@ -499,17 +573,28 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                 logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
                 raise FileNotFoundError(f"Pipeline result not found for token {token}")
             pipeline_result = aggregate_result
-            selected_scope = 'aggregate'
+            if not month_not_found:
+                selected_scope = 'aggregate'
             logger.info(
                 "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
                 list(pipeline_result.keys()),
             )
 
-        try:
-            months_manifest = result_storage.get_months_manifest(token)
-        except Exception as manifest_error:
-            logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
-            months_manifest = None
+        if hasattr(result_storage, 'list_available_months'):
+            try:
+                months_info = result_storage.list_available_months(token)
+            except Exception as manifest_error:
+                logger.debug(f"[LOAD] Unable to list months: {manifest_error}")
+                months_info = []
+
+        if months_info:
+            months_manifest = {'months': months_info}
+        else:
+            try:
+                months_manifest = result_storage.get_months_manifest(token)
+            except Exception as manifest_error:
+                logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
+                months_manifest = None
 
     elif token:
         # Fallback to local filesystem (primarily used in tests/dev)
@@ -631,7 +716,16 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     # Get list of months (prefer manifest when available)
     months: List[str] = []
     if months_manifest and isinstance(months_manifest, dict):
-        manifest_months = [entry.get('month') for entry in months_manifest.get('months', []) if entry.get('month')]
+        manifest_months: List[str] = []
+        for entry in months_manifest.get('months', []):
+            if not isinstance(entry, dict):
+                continue
+            month_value = entry.get('month')
+            if not month_value:
+                continue
+            if entry.get('has_data') is False and not entry.get('total_hands') and not entry.get('valid_hands'):
+                continue
+            manifest_months.append(month_value)
         months = manifest_months
     if not months and isinstance(counts_for_structure, dict):
         ignored = {'generated_at', 'input', 'dsl', 'metric', 'hands_processed', 'errors', 'stats_computed'}
@@ -788,7 +882,9 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
             response_month_details = None
     else:
         response_month_details = None
-    
+
+    groups = ensure_group_defaults(groups)
+
     # Detect poker sites from hands
     hands_by_site = detect_sites_from_hands(token, pipeline_result.get('sites')) if token and pipeline_result else {}
     
@@ -816,6 +912,24 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         "month_not_found": month_not_found,
     }
 
+    if month and month_not_found:
+        response_data['groups'] = reset_groups_for_missing_data(groups)
+        response_data['valid_hands'] = 0
+        response_data['total_hands'] = 0
+        response_data['hands_by_site'] = {}
+        response_data['discard_stats'] = {}
+        response_data['overall'] = {'total_hands': 0, 'valid_hands': 0}
+        response_data['group_level'] = {}
+        response_data['samples'] = {}
+        response_data['counts'] = {}
+        response_data['weighted_scores'] = {}
+        response_data['ingest'] = {}
+        response_data.pop('monthly_score_details', None)
+        response_data['month_scope'] = 'missing'
+        response_data['selected_month'] = None
+    else:
+        response_data['groups'] = groups
+
     if response_month_details:
         response_data['monthly_score_details'] = response_month_details
 
@@ -823,7 +937,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         response_data['months_manifest'] = months_manifest
 
     if month and month_not_found:
-        logger.warning("[LOAD] Falling back to aggregate results for %s because month %s was not found", token, month)
+        logger.warning("[LOAD] Returning empty dashboard payload for %s month %s (no monthly data)", token, month)
 
     # Final check on postflop_all before returning
     if 'postflop_all' in response_data.get('groups', {}):

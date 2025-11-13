@@ -2,6 +2,8 @@
 from __future__ import annotations
 from flask import Blueprint, request, jsonify
 import os, re, tempfile
+import logging
+from typing import Any, Dict, Optional
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.result_storage import ResultStorageService
@@ -62,17 +64,34 @@ def api_dashboard_with_token(token):
 @bp_dashboard.get("/<token>/months")
 def api_months_manifest(token):
     """Get months manifest for a multi-month upload"""
+    logger = logging.getLogger(__name__)
     try:
         result_service = ResultStorageService()
-        manifest = result_service.get_months_manifest(token)
-        
-        if manifest is None:
+
+        months_list = []
+        if hasattr(result_service, "list_available_months"):
+            try:
+                months_list = result_service.list_available_months(token)
+            except Exception as exc:
+                logger.warning(
+                    "[DASHBOARD] Failed to list available months for %s: %s",
+                    token,
+                    exc,
+                )
+
+        manifest: Optional[Dict[str, Any]] = None
+        if not months_list:
+            manifest = result_service.get_months_manifest(token)
+            if manifest and isinstance(manifest, dict):
+                months_list = manifest.get("months", [])
+
+        if not months_list:
             return jsonify({
-                "ok": False, 
-                "error": "not_found", 
-                "detail": "No months manifest found for this upload. This may be a single-month upload."
+                "ok": False,
+                "error": "not_found",
+                "detail": "No month data found for this upload.",
             }), 404
-        
-        return jsonify({"ok": True, "data": manifest})
+
+        return jsonify({"ok": True, "data": {"months": months_list}})
     except Exception as e:
         return jsonify({"ok": False, "error": "unexpected", "detail": str(e)}), 500
