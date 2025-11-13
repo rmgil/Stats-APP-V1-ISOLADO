@@ -95,40 +95,52 @@ class ResultStorageService:
             # Load month-specific pipeline_result
             storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
             result = self._read_json_from_storage(storage_path)
-            
+
             if result:
-                logger.debug(f"Read monthly pipeline_result for {token}/{month} from cloud storage")
+                logger.info(
+                    "[RESULT STORAGE] Loaded monthly pipeline_result for %s/%s from cloud storage",
+                    token,
+                    month,
+                )
                 return result
-            
+
             # Fallback to local filesystem
             local_path = self.local_work_dir / token / "months" / month / "pipeline_result.json"
             result = self._read_json_from_local(local_path)
-            
+
             if result:
-                logger.debug(f"Read monthly pipeline_result for {token}/{month} from local filesystem")
+                logger.info(
+                    "[RESULT STORAGE] Loaded monthly pipeline_result for %s/%s from local filesystem",
+                    token,
+                    month,
+                )
                 return result
-            
+
             # If month was explicitly requested but not found, raise error
-            logger.error(f"Monthly pipeline result not found for {token}/{month} (checked cloud and local)")
+            logger.warning(
+                "[RESULT STORAGE] Monthly pipeline_result missing for %s/%s (cloud and local)",
+                token,
+                month,
+            )
             raise FileNotFoundError(f"Pipeline result for month {month} not found")
-        
+
         # Load aggregate pipeline_result (default behavior)
         storage_path = f"/results/{token}/pipeline_result.json"
         result = self._read_json_from_storage(storage_path)
-        
+
         if result:
-            logger.debug(f"Read aggregate pipeline_result for {token} from cloud storage")
+            logger.info("[RESULT STORAGE] Loaded aggregate pipeline_result for %s from cloud storage", token)
             return result
-        
+
         # Fallback to local filesystem (dev or recently completed job)
         local_path = self.local_work_dir / token / "pipeline_result.json"
         result = self._read_json_from_local(local_path)
-        
+
         if result:
-            logger.debug(f"Read aggregate pipeline_result for {token} from local filesystem")
+            logger.info("[RESULT STORAGE] Loaded aggregate pipeline_result for %s from local filesystem", token)
             return result
-        
-        logger.warning(f"Aggregate pipeline result not found for token {token} (checked cloud and local)")
+
+        logger.warning("[RESULT STORAGE] Aggregate pipeline_result missing for %s (cloud and local)", token)
         return None
     
     def get_multi_site_manifest(self, token: str) -> Optional[Dict[str, Any]]:

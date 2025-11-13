@@ -12,6 +12,18 @@ from app.pipeline.new_runner import run_simplified_pipeline
 from app.stats.aggregate import MultiSiteAggregator
 from app.parse.site_parsers.site_detector import detect_poker_site
 from app.pipeline.month_bucketizer import MonthBucket, build_month_buckets, generate_months_manifest
+from app.stats.stat_categories import (
+    BB_DEFENSE_STATS,
+    BVB_STATS,
+    POSTFLOP_KEYWORDS,
+    RFI_STATS,
+    SB_DEFENSE_STATS,
+    SQUEEZE_STATS,
+    THREEBET_CC_STATS,
+    VS_3BET_STATS,
+    filter_stats,
+    filter_stats_by_keyword,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -96,18 +108,6 @@ def _process_site_for_month(
     from app.score.squeeze_scorer import SqueezeScorer
     from app.score.bb_defense_scorer import BBDefenseScorer
     from app.score.sb_defense_scorer import SBDefenseScorer
-    from app.stats.stat_categories import (
-        BB_DEFENSE_STATS,
-        BVB_STATS,
-        POSTFLOP_KEYWORDS,
-        RFI_STATS,
-        SB_DEFENSE_STATS,
-        SQUEEZE_STATS,
-        THREEBET_CC_STATS,
-        VS_3BET_STATS,
-        filter_stats,
-        filter_stats_by_keyword,
-    )
     from app.utils.progress_tracker import progress_tracker
     from app.utils.hand_streaming import stream_hands_from_combined_file, count_hands_in_file
     from app.utils.memory_monitor import log_memory_usage
@@ -517,7 +517,10 @@ def _process_month_bucket(
         if isinstance(group_data, dict):
             total_hands += group_data.get('hand_count', 0)
             total_postflop_hands += group_data.get('postflop_hands_count', 0)
-    
+
+    valid_hand_count = total_hands
+    aggregated_discards = {}
+
     # Build month result
     month_result = {
         'month': bucket.month,
@@ -526,33 +529,50 @@ def _process_month_bucket(
         'sites_detected': list(site_files.keys()),
         'sites': month_sites,
         'combined': combined_stats,
-        'valid_hands': total_hands,
-        'total_hands': total_hands
+        'valid_hands': valid_hand_count,
+        'total_hands': valid_hand_count,
+        'postflop_hands_count': total_postflop_hands,
     }
-    
+
     # Add discard stats if any
     if month_discards:
         month_result['discarded_hands'] = month_discards
-        
+
         # Aggregate discards for this month
-        aggregated_discards = {}
         for site, discards in month_discards.items():
             for reason, count in discards.items():
                 if reason not in ['total', 'total_segments']:
                     aggregated_discards[reason] = aggregated_discards.get(reason, 0) + count
-        
+
         aggregated_discards['total'] = sum(aggregated_discards.values())
-        month_result['aggregated_discards'] = aggregated_discards
-        
-        # Update total hands to include discards
-        month_result['total_hands'] = total_hands + aggregated_discards['total']
+
+    if not aggregated_discards:
+        aggregated_discards = {'total': 0}
+
+    # Update total hands to include discards
+    month_result['aggregated_discards'] = aggregated_discards
+    month_result['total_hands'] = valid_hand_count + aggregated_discards.get('total', 0)
+    month_result['classification'] = {
+        'discarded_hands': aggregated_discards,
+        'total_hands': month_result['total_hands'],
+        'valid_hands': valid_hand_count,
+    }
     
     # Save month result
     month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
     with open(month_result_path, 'w', encoding='utf-8') as f:
         json.dump(month_result, f, indent=2)
     
-    logger.info(f"[{token}] Month {bucket.month}: Processing completed")
+    total_discarded = month_result['classification']['discarded_hands'].get('total', 0)
+    logger.info(
+        f"[{token}] Month {bucket.month}: completed with valid_hands={month_result['valid_hands']}, "
+        f"discarded={total_discarded}, total={month_result['total_hands']}"
+    )
+
+    logger.debug(
+        f"[{token}] Month {bucket.month}: classification={month_result['classification']}, "
+        f"aggregated_discards={month_result.get('aggregated_discards')}"
+    )
     
     return month_result
 
@@ -714,38 +734,40 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
                 progress_callback(80, 'A finalizar processamento...')
             
             # Aggregate discard statistics
+            aggregated_discards = {}
             if 'discarded_hands' in result_data:
-                aggregated_discards = {}
                 for site, discards in result_data['discarded_hands'].items():
                     for reason, count in discards.items():
                         if reason not in ['total', 'total_segments']:
                             aggregated_discards[reason] = aggregated_discards.get(reason, 0) + count
-                
-                aggregated_discards['total'] = sum(aggregated_discards.values())
-                result_data['aggregated_discards'] = aggregated_discards
-                
-                # Calculate total valid hands
-                total_valid_hands = 0
-                for group_data in combined_stats.values():
-                    if 'stats' in group_data:
-                        for stat_name, stat_data in group_data['stats'].items():
-                            if isinstance(stat_data, dict) and 'valid_hands' in stat_data:
-                                total_valid_hands += stat_data.get('valid_hands', 0)
-                                break
-                
-                if total_valid_hands == 0:
-                    for site, site_data in result_data['sites'].items():
-                        for group_key, group_info in site_data.items():
-                            if isinstance(group_info, dict):
-                                total_valid_hands += group_info.get('hand_count', 0)
-                
-                total_hands = total_valid_hands + aggregated_discards['total']
-                
-                result_data['classification'] = {
-                    'discarded_hands': aggregated_discards,
-                    'total_hands': total_hands,
-                    'valid_hands': total_valid_hands
-                }
+
+            aggregated_discards['total'] = sum(aggregated_discards.values())
+            result_data['aggregated_discards'] = aggregated_discards
+
+            # Calculate total valid hands
+            total_valid_hands = 0
+            for group_data in combined_stats.values():
+                if 'stats' in group_data:
+                    for stat_name, stat_data in group_data['stats'].items():
+                        if isinstance(stat_data, dict) and 'valid_hands' in stat_data:
+                            total_valid_hands += stat_data.get('valid_hands', 0)
+                            break
+
+            if total_valid_hands == 0:
+                for site, site_data in result_data['sites'].items():
+                    for group_key, group_info in site_data.items():
+                        if isinstance(group_info, dict):
+                            total_valid_hands += group_info.get('hand_count', 0)
+
+            total_hands = total_valid_hands + aggregated_discards['total']
+
+            result_data['valid_hands'] = total_valid_hands
+            result_data['total_hands'] = total_hands
+            result_data['classification'] = {
+                'discarded_hands': aggregated_discards,
+                'total_hands': total_hands,
+                'valid_hands': total_valid_hands
+            }
             
             # Generate manifest
             manifest = aggregator.get_combined_manifest()
@@ -850,38 +872,45 @@ def run_multi_site_pipeline(archive_path: str, work_root: str = "work", token: O
             with open(manifest_path, 'w', encoding='utf-8') as f:
                 json.dump(months_manifest, f, indent=2)
             
-            # Aggregate global discard statistics
-            global_discards = {}
+            # Aggregate global discard statistics and totals
+            global_discards: Dict[str, int] = {}
+            total_valid_hands = 0
+
             for month_result in result_data['months'].values():
-                if 'aggregated_discards' in month_result:
-                    for reason, count in month_result['aggregated_discards'].items():
-                        if reason != 'total':
-                            global_discards[reason] = global_discards.get(reason, 0) + count
-            
-            if global_discards:
-                global_discards['total'] = sum(global_discards.values())
-                
-                # Calculate global valid hands from deduplicated combined groups
-                # NOTE: Combined groups already have correct hand_count after global deduplication
-                total_valid_hands = 0
-                for group_data in global_combined.values():
-                    total_valid_hands += group_data.get('hand_count', 0)
-                
-                total_hands = total_valid_hands + global_discards['total']
-                
-                logger.info(f"[{token}] Classification totals: valid_hands={total_valid_hands}, discarded={global_discards['total']}, total={total_hands}")
-                
-                result_data['classification'] = {
-                    'discarded_hands': global_discards,
-                    'total_hands': total_hands,
-                    'valid_hands': total_valid_hands
-                }
-            
+                if month_result.get('status') != 'completed':
+                    continue
+
+                total_valid_hands += month_result.get('valid_hands', 0)
+
+                month_discards = month_result.get('aggregated_discards', {})
+                for reason, count in month_discards.items():
+                    if reason == 'total':
+                        continue
+                    global_discards[reason] = global_discards.get(reason, 0) + count
+
+            discarded_total = sum(global_discards.values())
+            global_discards['total'] = discarded_total
+
+            total_hands = total_valid_hands + discarded_total
+
+            logger.info(
+                f"[{token}] Global classification totals: valid_hands={total_valid_hands}, "
+                f"discarded={discarded_total}, total={total_hands}"
+            )
+
+            result_data['aggregated_discards'] = global_discards
+            result_data['valid_hands'] = total_valid_hands
+            result_data['total_hands'] = total_hands
+            result_data['classification'] = {
+                'discarded_hands': global_discards,
+                'total_hands': total_hands,
+                'valid_hands': total_valid_hands
+            }
+
             # Generate global manifest
             manifest = global_aggregator.get_combined_manifest()
-            if global_discards:
-                manifest['discards'] = global_discards
-            
+            manifest['discards'] = global_discards
+
             manifest_path = os.path.join(work_dir, "multi_site_manifest.json")
             with open(manifest_path, 'w', encoding='utf-8') as f:
                 json.dump(manifest, f, indent=2)
