@@ -14,6 +14,7 @@ Key Features:
 import os
 import logging
 import json
+import shutil
 from typing import Optional, Dict, Any
 from pathlib import Path
 from .storage import get_storage
@@ -194,35 +195,49 @@ class ResultStorageService:
         return self._read_json_from_local(local_path)
     
     def get_stats_json(self, token: str, group_key: str, is_multi_site: bool = True) -> Optional[Dict[str, Any]]:
-        """
-        Get statistics JSON for a group
-        
-        Args:
-            token: Job token
-            group_key: Group key (e.g., "nonko_9max", "pko")
-            is_multi_site: Whether this is a multi-site job (stats in combined/)
-        
-        Returns:
-            Stats dict or None if not found
-        """
+        """Get statistics JSON for a group."""
+
         if is_multi_site:
-            # Multi-site: combined/stats/{group_key}_stats.json
             storage_path = f"/results/{token}/combined/stats/{group_key}_stats.json"
             stats = self._read_json_from_storage(storage_path)
-            
             if stats:
                 return stats
-            
-            # Fallback to local
+
             local_path = self.local_work_dir / token / "combined" / "stats" / f"{group_key}_stats.json"
             return self._read_json_from_local(local_path)
-        else:
-            # Single-site: Load from pipeline_result
-            result = self.get_pipeline_result(token)
-            if result and 'stats' in result:
-                return result.get('stats', {}).get(group_key)
-        
+
+        # Single-site uploads store stats directly inside pipeline_result.json
+        result = self.get_pipeline_result(token)
+        if result and isinstance(result.get('stats'), dict):
+            return result['stats'].get(group_key)
+
         return None
+
+    def delete_processing_results(self, token: str) -> Dict[str, Any]:
+        """Delete stored results for a processing token from storage and local cache."""
+
+        stats = {
+            'storage_deleted': 0,
+            'local_deleted': False
+        }
+
+        storage_prefix = f"/results/{token}"
+
+        try:
+            if self.storage.use_cloud:
+                stats['storage_deleted'] = self.storage.delete_prefix(storage_prefix)
+        except Exception as exc:
+            logger.warning(f"Failed to delete storage prefix {storage_prefix}: {exc}")
+
+        local_dir = self.local_work_dir / token
+        if local_dir.exists():
+            try:
+                shutil.rmtree(local_dir)
+                stats['local_deleted'] = True
+            except Exception as exc:
+                logger.warning(f"Failed to remove local directory {local_dir}: {exc}")
+
+        return stats
     
     def job_exists(self, token: str) -> bool:
         """

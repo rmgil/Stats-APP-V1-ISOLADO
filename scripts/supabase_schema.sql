@@ -31,7 +31,8 @@ CREATE TABLE IF NOT EXISTS processing_history (
     
     -- Monthly tracking (NEW: Nov 2025)
     months_summary JSONB,  -- Monthly manifest: {"total_months": 2, "months": [{"month": "2025-05", "hand_count": 100, ...}, ...]}
-    
+    monthly_scores JSONB,  -- Stored weighted scores per month for future analytics
+
     -- Dados completos em JSON (backup)
     full_result JSONB,
     
@@ -85,6 +86,7 @@ COMMENT ON COLUMN processing_history.token IS 'Token único gerado para cada pro
 COMMENT ON COLUMN processing_history.user_id IS 'ID do utilizador que fez o upload (pode ser email ou ID do Flask-Login)';
 COMMENT ON COLUMN processing_history.sites_processed IS 'Array JSON com lista de sites processados';
 COMMENT ON COLUMN processing_history.months_summary IS 'Monthly manifest with list of months processed and metadata. NULL for single-month or legacy uploads';
+COMMENT ON COLUMN processing_history.monthly_scores IS 'Weighted score breakdown per month for historical analysis';
 COMMENT ON COLUMN processing_history.full_result IS 'Resultado completo do pipeline em JSON (backup)';
 
 COMMENT ON COLUMN poker_stats_detail.month IS 'Month in YYYY-MM format (e.g., 2025-05). NULL = aggregate data (all months combined)';

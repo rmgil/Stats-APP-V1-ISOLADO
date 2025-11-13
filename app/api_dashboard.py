@@ -3,9 +3,10 @@
 import json
 import yaml
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List, Tuple
 from app.parse.site_parsers.site_detector import detect_poker_site
 from app.score.scoring import score_step
+from app.services.result_storage import ResultStorageService
 
 
 def detect_sites_from_hands(token: str, pipeline_sites: Optional[Dict[str, Any]] = None) -> Dict[str, int]:
@@ -259,6 +260,211 @@ def calculate_weighted_scores_from_groups(pipeline_groups: Dict[str, Any], postf
     return weighted_scores
 
 
+def _sort_months(months: List[str]) -> List[str]:
+    """Sort month identifiers (YYYY-MM) in ascending order, unknown last."""
+
+    def key(month: str) -> Tuple[str, str]:
+        if month == 'unknown':
+            return ('9999-99', month)
+        return (month, '')
+
+    return sorted(months, key=key)
+
+
+def compute_weighted_scores_for_month_selection(
+    token: str,
+    selected_month: str,
+    result_storage: ResultStorageService,
+    ideals: Dict[str, Any],
+    stat_weights: Dict[str, float],
+) -> Optional[Dict[str, Any]]:
+    """Compute weighted scores blending up to 3 months for a selected month."""
+
+    try:
+        manifest = result_storage.get_months_manifest(token)
+    except Exception:
+        manifest = None
+
+    if not manifest or not manifest.get('months'):
+        return None
+
+    available_months = [m['month'] for m in manifest['months'] if m.get('month')]
+    if not available_months:
+        return None
+
+    available_months = _sort_months(available_months)
+
+    if selected_month not in available_months:
+        return None
+
+    month_index = available_months.index(selected_month)
+    months_to_use = available_months[max(0, month_index - 2): month_index + 1]
+
+    months_to_use = _sort_months(months_to_use)
+
+    if not months_to_use:
+        return None
+
+    weight_map = {}
+    if len(months_to_use) == 1:
+        weight_map[months_to_use[-1]] = 1.0
+    elif len(months_to_use) == 2:
+        # Selected month (latest) 50%, previous month 50%
+        weight_map[months_to_use[-1]] = 0.5
+        weight_map[months_to_use[-2]] = 0.5
+    else:
+        # Selected month 50%, immediate previous 30%, oldest 20%
+        weight_map[months_to_use[-1]] = 0.50
+        weight_map[months_to_use[-2]] = 0.30
+        weight_map[months_to_use[-3]] = 0.20
+
+    per_month_scores: Dict[str, Dict[str, Any]] = {}
+    months_used: List[Dict[str, Any]] = []
+
+    total_weight = 0.0
+    for month in reversed(months_to_use):
+        try:
+            month_result = result_storage.get_pipeline_result(token, month=month)
+        except FileNotFoundError:
+            continue
+
+        if not month_result or month_result.get('status') == 'failed':
+            continue
+
+        combined = month_result.get('combined', {})
+        if not combined:
+            continue
+
+        postflop_all = aggregate_postflop_stats(combined, ideals, stat_weights)
+        month_scores = calculate_weighted_scores_from_groups(combined, postflop_all)
+
+        per_month_scores[month] = month_scores
+
+        weight = weight_map.get(month, 0.0)
+        if weight <= 0:
+            continue
+
+        total_weight += weight
+
+        months_used.append({
+            'month': month,
+            'weight': weight,
+            'valid_hands': month_result.get('valid_hands', 0),
+            'total_hands': month_result.get('total_hands', 0),
+            'overall_score': month_scores.get('overall', 0)
+        })
+
+    if not months_used or total_weight == 0:
+        return None
+
+    # Normalize weights to ensure they sum to 1.0
+    for entry in months_used:
+        entry['normalized_weight'] = entry['weight'] / total_weight
+
+    normalized_weights = {m['month']: m['normalized_weight'] for m in months_used}
+
+    def weighted_average(group_key: str, attr: str = 'group_score') -> Optional[float]:
+        values = []
+        for month, weight in normalized_weights.items():
+            month_entry = per_month_scores.get(month, {}).get(group_key)
+            if month_entry and month_entry.get(attr) is not None:
+                values.append((month_entry.get(attr), weight))
+        if not values:
+            return None
+        return sum(val * wt for val, wt in values)
+
+    final_scores: Dict[str, Any] = {}
+
+    # Non-KO group
+    nonko_score = weighted_average('nonko')
+    if nonko_score is not None:
+        aggregated_subgroups = {}
+        subgroup_weights = {}
+        for month, weight in normalized_weights.items():
+            month_entry = per_month_scores.get(month, {}).get('nonko', {})
+            for subgroup, data in (month_entry.get('subgroups') or {}).items():
+                aggregated_subgroups.setdefault(subgroup, 0.0)
+                subgroup_weights.setdefault(subgroup, 0.0)
+                if data.get('score') is not None:
+                    aggregated_subgroups[subgroup] += data['score'] * weight
+                    subgroup_weights[subgroup] += weight
+
+        for subgroup, total in aggregated_subgroups.items():
+            weight = subgroup_weights.get(subgroup, 1.0)
+            if weight > 0:
+                aggregated_subgroups[subgroup] = total / weight
+
+        weight_9max = weighted_average('nonko', 'weight_9max')
+        weight_6max = weighted_average('nonko', 'weight_6max')
+
+        final_scores['nonko'] = {
+            'group_score': nonko_score,
+            'subgroups': {k: {'score': v} for k, v in aggregated_subgroups.items()},
+        }
+
+        if weight_9max is not None and weight_6max is not None:
+            final_scores['nonko']['weight_9max'] = int(round(weight_9max))
+            final_scores['nonko']['weight_6max'] = int(round(weight_6max))
+
+    # PKO group
+    pko_score = weighted_average('pko')
+    if pko_score is not None:
+        aggregated_subgroups = {}
+        subgroup_weights = {}
+        for month, weight in normalized_weights.items():
+            month_entry = per_month_scores.get(month, {}).get('pko', {})
+            for subgroup, data in (month_entry.get('subgroups') or {}).items():
+                aggregated_subgroups.setdefault(subgroup, 0.0)
+                subgroup_weights.setdefault(subgroup, 0.0)
+                if data.get('score') is not None:
+                    aggregated_subgroups[subgroup] += data['score'] * weight
+                    subgroup_weights[subgroup] += weight
+
+        for subgroup, total in aggregated_subgroups.items():
+            weight = subgroup_weights.get(subgroup, 1.0)
+            if weight > 0:
+                aggregated_subgroups[subgroup] = total / weight
+
+        final_scores['pko'] = {
+            'group_score': pko_score,
+            'subgroups': {k: {'score': v} for k, v in aggregated_subgroups.items()},
+        }
+
+    # Postflop group
+    postflop_score = weighted_average('postflop')
+    if postflop_score is not None:
+        aggregated_subgroups = {}
+        subgroup_weights = {}
+        for month, weight in normalized_weights.items():
+            month_entry = per_month_scores.get(month, {}).get('postflop', {})
+            for subgroup, data in (month_entry.get('subgroups') or {}).items():
+                aggregated_subgroups.setdefault(subgroup, 0.0)
+                subgroup_weights.setdefault(subgroup, 0.0)
+                if data.get('score') is not None:
+                    aggregated_subgroups[subgroup] += data['score'] * weight
+                    subgroup_weights[subgroup] += weight
+
+        for subgroup, total in aggregated_subgroups.items():
+            weight = subgroup_weights.get(subgroup, 1.0)
+            if weight > 0:
+                aggregated_subgroups[subgroup] = total / weight
+
+        final_scores['postflop'] = {
+            'group_score': postflop_score,
+            'subgroups': {k: {'score': v} for k, v in aggregated_subgroups.items()},
+        }
+
+    overall_score = weighted_average('overall')
+    if overall_score is not None:
+        final_scores['overall'] = overall_score
+
+    return {
+        'weighted_scores': final_scores,
+        'months_used': months_used,
+        'per_month_scores': per_month_scores
+    }
+
+
 def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -> dict:
     """Build consolidated dashboard payload from runs or current directory
     
@@ -283,6 +489,8 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     import logging
     logger = logging.getLogger(__name__)
     
+    result_storage = None
+
     if token:
         try:
             from app.services.result_storage import get_result_storage
@@ -497,6 +705,26 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         # Calculate weighted_scores from pipeline groups (including postflop)
         weighted_scores = calculate_weighted_scores_from_groups(pipeline_result['combined'], postflop_all)
         logger.info(f"[DEBUG] Calculated weighted_scores: {list(weighted_scores.keys())}")
+
+        # If a specific month is selected and we have result storage, blend scores across months
+        if token and month and result_storage:
+            month_weighting = compute_weighted_scores_for_month_selection(
+                token,
+                month,
+                result_storage,
+                ideals,
+                stat_weights,
+            )
+
+            if month_weighting:
+                weighted_scores = month_weighting['weighted_scores'] or weighted_scores
+                response_month_details = month_weighting
+            else:
+                response_month_details = None
+        else:
+            response_month_details = None
+    else:
+        response_month_details = None
     
     # Detect poker sites from hands
     hands_by_site = detect_sites_from_hands(token, pipeline_result.get('sites')) if token and pipeline_result else {}
@@ -520,7 +748,10 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         "valid_hands": overall.get('valid_hands', 0) if overall else 0,  # Direct access for frontend
         "hands_by_site": hands_by_site  # Detected poker sites with hand counts
     }
-    
+
+    if response_month_details:
+        response_data['monthly_score_details'] = response_month_details
+
     # Final check on postflop_all before returning
     if 'postflop_all' in response_data.get('groups', {}):
         pf_all = response_data['groups']['postflop_all']
