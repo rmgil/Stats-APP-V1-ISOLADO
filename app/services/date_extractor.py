@@ -59,31 +59,49 @@ class DateExtractor:
         """
         try:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                # Read only the first ~2000 characters (first hand header)
                 content = f.read(2000)
-            
-            # Detect site from content
-            site = self._detect_site(content)
-            if not site:
-                logger.warning(f"Could not detect poker site for file: {file_path}")
-                return None
-            
-            # Extract timestamp
-            timestamp_str, timezone = self._extract_timestamp(content, site)
-            if not timestamp_str:
-                logger.warning(f"Could not extract timestamp from file: {file_path}")
-                return None
-            
-            # Parse and normalize to YYYY-MM
-            month = self._normalize_to_month(timestamp_str, timezone, site)
+
+            month = self.extract_month_from_text(content)
             if month:
-                logger.debug(f"Extracted month {month} from {Path(file_path).name} (site: {site})")
-            
+                logger.debug(f"Extracted month {month} from {Path(file_path).name}")
+
             return month
-            
+
         except Exception as e:
             logger.error(f"Error extracting month from {file_path}: {e}")
             return None
+
+    def extract_month_from_text(self, content: str, filename: str = "") -> Optional[str]:
+        """Extract month directly from a hand history snippet."""
+
+        try:
+            site = self._detect_site(content)
+            if not site and filename:
+                site = self._detect_site(filename)
+
+            timestamp, timezone = self._extract_timestamp(content, site) if site else (None, None)
+            if not timestamp:
+                return None
+
+            return self._normalize_to_month(timestamp, timezone, site)
+        except Exception as e:
+            logger.error(f"Error extracting month from text: {e}")
+            return None
+
+    def extract_timestamp_from_text(self, content: str, site_hint: Optional[str] = None) -> Optional[str]:
+        """Extract the raw timestamp string from the provided content."""
+
+        site = site_hint or self._detect_site(content)
+        if not site:
+            return None
+
+        timestamp, _ = self._extract_timestamp(content, site)
+        return timestamp
+
+    def normalize_timestamp_to_month(self, timestamp_str: str) -> Optional[str]:
+        """Normalize a timestamp string to YYYY-MM."""
+
+        return self._normalize_to_month(timestamp_str, None, None)
     
     def _detect_site(self, content: str) -> Optional[str]:
         """Detect which poker site based on file content."""
@@ -169,7 +187,7 @@ class DateExtractor:
         
         return timestamp, tz
     
-    def _normalize_to_month(self, timestamp_str: str, timezone: Optional[str], site: str) -> Optional[str]:
+    def _normalize_to_month(self, timestamp_str: str, timezone: Optional[str], site: Optional[str]) -> Optional[str]:
         """
         Parse timestamp and return YYYY-MM format.
         

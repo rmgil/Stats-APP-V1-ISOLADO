@@ -2393,12 +2393,11 @@
                     
                     const months = data.data.months;
                     
-                    // Only show selector if there's more than 1 month
-                    if (months.length <= 1) {
-                        console.log('Only 1 month, hiding month selector');
+                    if (months.length === 0) {
+                        console.log('No month data available, hiding month selector');
                         return;
                     }
-                    
+
                     // Sort months descending (newest first)
                     months.sort((a, b) => b.month.localeCompare(a.month));
                     
@@ -2437,13 +2436,17 @@
                         if (currentMonth && monthData.month === currentMonth) {
                             option.selected = true;
                         }
-                        
+
                         monthSelector.appendChild(option);
                     });
-                    
+
                     // Show the selector
                     monthSelectorContainer.style.display = 'flex';
-                    
+
+                    if (!currentMonth) {
+                        monthSelector.value = '';
+                    }
+
                     console.log(`Month selector initialized with ${months.length} months`);
                 })
                 .catch(error => {

@@ -3,9 +3,17 @@ Service for storing processing history in Supabase
 """
 import os
 import logging
-from typing import Dict, Any, Optional, List, Union
 from datetime import datetime
+from pathlib import Path
+from typing import Dict, Any, Optional, List, Union
+
+import yaml
 from supabase import create_client, Client
+
+from app.api_dashboard import (
+    aggregate_postflop_stats,
+    calculate_weighted_scores_from_groups,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -52,7 +60,7 @@ class SupabaseHistoryService:
                 logger.error(f"Failed to initialize Supabase client: {e}")
     
     def save_processing(
-        self, 
+        self,
         token: str,
         filename: str,
         pipeline_result: Dict[str, Any],
@@ -147,7 +155,8 @@ class SupabaseHistoryService:
             
             # Extract months_summary if multi-month processing
             months_summary = pipeline_result.get('months_manifest')
-            
+            monthly_scores = self._compute_monthly_scores(pipeline_result)
+
             # Insert into processing_history
             history_data = {
                 'token': token,
@@ -166,6 +175,7 @@ class SupabaseHistoryService:
                 'nonko_count': nonko_count,
                 'overall_score': overall_score,
                 'months_summary': months_summary,  # NEW: Monthly manifest
+                'monthly_scores': monthly_scores if monthly_scores else None,
                 'full_result': result_summary  # Store only summary, not full data
             }
             
@@ -191,6 +201,54 @@ class SupabaseHistoryService:
         except Exception as e:
             logger.error(f"Error saving processing to Supabase: {e}", exc_info=True)
             return False
+
+    def _compute_monthly_scores(self, pipeline_result: Dict[str, Any]) -> Dict[str, Any]:
+        """Compute weighted scores per month for long-term storage."""
+
+        scores: Dict[str, Any] = {}
+
+        try:
+            config_path = Path('app/score/config.yml')
+            ideals: Dict[str, Any] = {}
+            stat_weights: Dict[str, float] = {}
+            if config_path.exists():
+                config = yaml.safe_load(config_path.read_text())
+                ideals = config.get('ideals', {})
+                stat_weights = (config.get('weights', {}) or {}).get('stats', {}) or {}
+
+            if pipeline_result.get('multi_month'):
+                for month, month_result in (pipeline_result.get('months') or {}).items():
+                    if not isinstance(month_result, dict):
+                        continue
+                    if month_result.get('status') != 'completed':
+                        continue
+
+                    combined = month_result.get('combined', {})
+                    if not combined:
+                        continue
+
+                    postflop_all = aggregate_postflop_stats(combined, ideals, stat_weights)
+                    weighted = calculate_weighted_scores_from_groups(combined, postflop_all)
+
+                    scores[month] = {
+                        'weighted_scores': weighted,
+                        'valid_hands': month_result.get('valid_hands', 0),
+                        'total_hands': month_result.get('total_hands', 0)
+                    }
+            else:
+                combined = pipeline_result.get('combined', {})
+                if combined:
+                    postflop_all = aggregate_postflop_stats(combined, ideals, stat_weights)
+                    weighted = calculate_weighted_scores_from_groups(combined, postflop_all)
+                    scores['aggregate'] = {
+                        'weighted_scores': weighted,
+                        'valid_hands': pipeline_result.get('valid_hands', 0),
+                        'total_hands': pipeline_result.get('total_hands', 0)
+                    }
+        except Exception as exc:
+            logger.warning(f"Failed to compute monthly scores: {exc}")
+
+        return scores
     
     def _save_detailed_stats(
         self,
@@ -359,6 +417,38 @@ class SupabaseHistoryService:
         except Exception as e:
             logger.error(f"Error fetching user history: {e}", exc_info=True)
             return []
+
+    def get_all_history(
+        self,
+        limit: int = 100,
+        offset: int = 0,
+        search: Optional[str] = None,
+        status: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """Retrieve processing history for all users (admin use)."""
+
+        if not self.enabled:
+            return []
+
+        try:
+            query = self.client.table('processing_history')\
+                .select('*')\
+                .order('created_at', desc=True)\
+                .limit(limit)\
+                .offset(offset)
+
+            if search:
+                like_query = f"%{search}%"
+                query = query.ilike('user_id', like_query)
+
+            if status:
+                query = query.eq('status', status)
+
+            response = query.execute()
+            return response.data or []
+        except Exception as e:
+            logger.error(f"Error fetching full history: {e}", exc_info=True)
+            return []
     
     def get_processing_details(self, token: str) -> Optional[Dict[str, Any]]:
         """
@@ -399,43 +489,24 @@ class SupabaseHistoryService:
         except Exception as e:
             logger.error(f"Error fetching processing details: {e}", exc_info=True)
             return None
-    
-    def get_all_history(
-        self,
-        limit: int = 100,
-        offset: int = 0,
-        status: Optional[str] = None
-    ) -> List[Dict[str, Any]]:
-        """
-        Get all processing history (for admin view)
-        
-        Args:
-            limit: Maximum number of records
-            offset: Number of records to skip
-            status: Filter by status (optional)
-            
-        Returns:
-            List of processing history records
-        """
+
+    def delete_processing(self, token: str) -> bool:
+        """Delete a processing record (and associated stats)."""
+
         if not self.enabled:
-            return []
-        
+            return False
+
         try:
-            query = self.client.table('processing_history')\
-                .select('*')\
-                .order('created_at', desc=True)\
-                .limit(limit)\
-                .offset(offset)
-            
-            if status:
-                query = query.eq('status', status)
-            
-            response = query.execute()
-            return response.data or []
-            
+            try:
+                self.client.table('poker_stats_detail').delete().eq('token', token).execute()
+            except Exception as exc:
+                logger.warning(f"Error deleting detailed stats for {token}: {exc}")
+
+            response = self.client.table('processing_history').delete().eq('token', token).execute()
+            return bool(response.data)
         except Exception as e:
-            logger.error(f"Error fetching all history: {e}", exc_info=True)
-            return []
+            logger.error(f"Error deleting processing {token}: {e}", exc_info=True)
+            return False
     
     def update_processing_status(
         self,

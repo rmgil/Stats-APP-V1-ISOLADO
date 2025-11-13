@@ -10,6 +10,9 @@ from datetime import datetime, timedelta
 import logging
 import json
 
+from app.services.supabase_history import SupabaseHistoryService
+from app.services.result_storage import ResultStorageService
+
 logger = logging.getLogger(__name__)
 
 def get_db_connection():
@@ -178,6 +181,7 @@ def render_admin_page(content, title="Admin Panel"):
                     <a href="/dashboard">Dashboard</a>
                     <a href="/admin/emails">Emails</a>
                     <a href="/admin/codes">Códigos</a>
+                    <a href="/admin/uploads">Uploads</a>
                     <a href="/auth/logout">Sair</a>
                 </div>
                 <div style="clear: both;"></div>
@@ -199,6 +203,173 @@ def index():
     
     # Redirect directly to emails page since that's the main admin page
     return redirect(url_for('admin.manage_emails'))
+
+@admin_bp.route('/uploads')
+@login_required
+def uploads():
+    """Admin view listing all user uploads."""
+
+    if not is_admin(current_user):
+        flash('Acesso negado. Apenas administradores.', 'danger')
+        return redirect(url_for('simplified.dashboard_page'))
+
+    history_service = SupabaseHistoryService()
+    result_storage = ResultStorageService()
+
+    messages = []
+
+    action = request.args.get('action')
+    token_to_delete = request.args.get('token')
+
+    if action == 'delete' and token_to_delete:
+        if history_service.enabled:
+            success = history_service.delete_processing(token_to_delete)
+            if success:
+                cleanup_stats = result_storage.delete_processing_results(token_to_delete)
+                msg_parts = ['Upload removido com sucesso.']
+                if cleanup_stats.get('storage_deleted'):
+                    msg_parts.append(f"{cleanup_stats['storage_deleted']} ficheiros apagados do storage")
+                if cleanup_stats.get('local_deleted'):
+                    msg_parts.append('dados locais removidos')
+                messages.append(('success', ' | '.join(msg_parts)))
+            else:
+                messages.append(('danger', 'Não foi possível remover o upload.'))
+        else:
+            messages.append(('danger', 'Serviço de histórico não está configurado.'))
+
+    try:
+        page = max(1, int(request.args.get('page', 1)))
+    except ValueError:
+        page = 1
+
+    try:
+        per_page = max(10, min(100, int(request.args.get('per_page', 25))))
+    except ValueError:
+        per_page = 25
+
+    offset = (page - 1) * per_page
+    search_term = request.args.get('search', '').strip()
+    status_filter = request.args.get('status', '').strip()
+    status_filter = status_filter if status_filter in {'completed', 'processing', 'failed', 'cancelled'} else ''
+    status_param = status_filter if status_filter else None
+
+    uploads = []
+    if history_service.enabled:
+        uploads = history_service.get_all_history(
+            limit=per_page,
+            offset=offset,
+            search=search_term or None,
+            status=status_param,
+        )
+    else:
+        messages.append(('danger', 'Serviço de histórico não está configurado.'))
+
+    alerts = ''
+    for category, text in messages:
+        class_name = 'alert-success' if category == 'success' else 'alert-danger'
+        alerts += f'<div class="alert {class_name}">{text}</div>'
+
+    status_options = ''
+    for value, label in [
+        ('', 'Todos os estados'),
+        ('completed', 'Concluído'),
+        ('processing', 'Em processamento'),
+        ('failed', 'Falhou'),
+        ('cancelled', 'Cancelado'),
+    ]:
+        selected = 'selected' if status_filter == value else ''
+        status_options += f'<option value="{value}" {selected}>{label}</option>'
+
+    search_form = f'''
+        <form method="get" style="margin-bottom: 20px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+            <input type="text" name="search" value="{search_term}" placeholder="Filtrar por email" style="flex: 1; min-width: 220px; padding: 8px;">
+            <select name="status" style="padding: 8px;">
+                {status_options}
+            </select>
+            <input type="hidden" name="per_page" value="{per_page}">
+            <button type="submit" class="btn btn-primary btn-sm">Filtrar</button>
+            <a href="/admin/uploads" class="btn btn-sm">Limpar</a>
+        </form>
+    '''
+
+    table_rows = ''
+    for item in uploads:
+        token = item.get('token', '')
+        user_id = item.get('user_id', '—')
+        filename = item.get('filename', '—')
+        status = item.get('status', '—')
+        total_hands = item.get('total_hands', 0) or 0
+        overall_score = item.get('overall_score')
+        months_summary = item.get('months_summary') or {}
+        total_months = months_summary.get('total_months', '-')
+        created_at = item.get('created_at') or ''
+
+        try:
+            if created_at:
+                created_at = datetime.fromisoformat(created_at.replace('Z', '+00:00')).strftime('%Y-%m-%d %H:%M')
+        except Exception:
+            pass
+
+        score_display = f"{overall_score:.1f}" if overall_score is not None else '—'
+        delete_link = f"/admin/uploads?action=delete&token={token}&page={page}&per_page={per_page}&search={search_term}&status={status_filter}"
+
+        table_rows += f"""
+            <tr>
+                <td>{created_at}</td>
+                <td>{user_id}</td>
+                <td>{filename}</td>
+                <td>{status}</td>
+                <td>{total_hands}</td>
+                <td>{score_display}</td>
+                <td>{total_months}</td>
+                <td>{token}</td>
+                <td><a href="{delete_link}" class="btn btn-danger btn-sm" onclick="return confirm('Remover este upload?');">Apagar</a></td>
+            </tr>
+        """
+
+    if not table_rows:
+        table_rows = '<tr><td colspan="9" style="text-align:center; color:#777;">Sem uploads encontrados.</td></tr>'
+
+    table_html = f'''
+        <table>
+            <thead>
+                <tr>
+                    <th>Criado em</th>
+                    <th>Utilizador</th>
+                    <th>Ficheiro</th>
+                    <th>Estado</th>
+                    <th>Mãos</th>
+                    <th>Score</th>
+                    <th>Meses</th>
+                    <th>Token</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>{table_rows}</tbody>
+        </table>
+    '''
+
+    pagination_html = f'''
+        <div style="margin-top: 20px; display: flex; justify-content: space-between; align-items: center;">
+            <div>Página {page}</div>
+            <div>
+                <a class="btn btn-sm" href="/admin/uploads?page={max(1, page-1)}&per_page={per_page}&search={search_term}&status={status_filter}">Anterior</a>
+                <a class="btn btn-sm" href="/admin/uploads?page={page+1}&per_page={per_page}&search={search_term}&status={status_filter}">Seguinte</a>
+            </div>
+        </div>
+    '''
+
+    content = f"""
+        <h2>📁 Uploads de Utilizadores</h2>
+        <p>Lista de todos os processamentos associados aos utilizadores. Apenas administradores podem remover uploads.</p>
+        {alerts}
+        {search_form}
+        {table_html}
+        {pagination_html}
+    """
+
+    return render_admin_page(content, title="Uploads dos Utilizadores")
+
 
 @admin_bp.route('/emails', methods=['GET', 'POST'])
 @login_required
