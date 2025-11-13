@@ -1,0 +1,382 @@
+Ótimas notícias: o pipeline correu mesmo de ponta a ponta (upload → derive → partitions → stats → score), portanto a app está operacional.
+O facto de o Resumo do /pipeline mostrar
+
+{ "overall": null, "group_level": {}, "sample": {} }
+
+
+não é o esperado — é só um mismatch de formato entre o que o endpoint /api/score/summary devolve e o que o JavaScript do pipeline.html está a ler.
+
+Na prática:
+
+O back‑end gerou o scores/scorecard.json (e o assistant confirma processamento massivo ✅).
+
+O front‑end do Playground está a ler overall, group_level, stat_level no topo do JSON, mas o teu endpoint pode estar a devolver esses campos embrulhados (ex.: { success:true, data:{ ... } } ou { scorecard:{ ... } }). Resultado: dá null/{}.
+
+A correção é simples. Abaixo deixo 2 patches mínimos (seguro e sem quebrar nada), e já a seguir os prompts da Fase 8.
+
+🔧 Patch rápido (para o resumo do /pipeline)
+S1) Normalizar /api/score/summary (resposta estável)
+
+Objetivo: o endpoint passa a detetar e devolver sempre um objeto “achatado” com overall, group_level, stat_level, etc., quer esses campos venham embrulhados ou não no ficheiro.
+
+No teu ficheiro Flask onde está /api/score/summary, substitui o handler por:
+
+@app.route('/api/score/summary', methods=['GET'])
+def api_score_summary():
+    """Devolve scorecard 'achatado' independentemente do formato em disco."""
+    try:
+        path = request.args.get('path', 'scores/scorecard.json')
+        if not os.path.exists(path):
+            return jsonify({"error": "scorecard.json not found", "path": path}), 404
+
+        import json
+        with open(path, 'r', encoding='utf-8') as f:
+            raw = json.load(f)
+
+        # Desembrulhar formatos comuns: {"data":{...}} | {"scorecard":{...}} | objeto direto
+        sc = raw.get("data") if isinstance(raw, dict) and "data" in raw else \
+             raw.get("scorecard") if isinstance(raw, dict) and "scorecard" in raw else \
+             raw
+
+        # Alguns ficheiros podem aninhar outra camada "summary"
+        sc = sc.get("summary", sc) if isinstance(sc, dict) else sc
+
+        # Garantir chaves principais: overall, group_level, stat_level (se existirem noutro nome)
+        out = {}
+        # mapeamentos prováveis
+        out["overall"]      = sc.get("overall") if isinstance(sc, dict) else None
+        out["group_level"]  = sc.get("group_level") or sc.get("groups") or {}
+        out["stat_level"]   = sc.get("stat_level")  or sc.get("stats")   or {}
+
+        # Devolver também o bruto para debugging (sem quebrar o cliente atual)
+        out["_raw"] = sc
+        return jsonify(out)
+
+    except Exception as e:
+        app.logger.error(f"Score summary failed: {e}")
+        return jsonify({"error": str(e)}), 500
+
+S2) Tornar o pipeline.html resiliente (1 linha)
+
+No templates/pipeline.html, troca o bloco que lê o summary por isto:
+
+<script>
+  // ...
+  const summaryResp = await fetch('/api/score/summary').then(r=>r.json());
+  // usa os campos achatados se existirem, senão tenta _raw/data/scorecard:
+  const sc = (summaryResp.overall !== undefined || summaryResp.group_level)
+             ? summaryResp
+             : (summaryResp.data || summaryResp.scorecard || summaryResp._raw || summaryResp);
+
+  out.textContent = JSON.stringify({
+    overall: sc.overall ?? null,
+    group_level: sc.group_level || {},
+    sample: (sc.stat_level && sc.stat_level.RFI_BTN_STEAL) ? sc.stat_level.RFI_BTN_STEAL : {}
+  }, null, 2);
+  // ...
+</script>
+
+
+Resultado esperado: o Resumo do /pipeline passa a mostrar um overall numérico (0–100), group_level com NON‑KO / PKO / Post‑flop, e um exemplo em sample para RFI_BTN_STEAL (se existir no ficheiro).
+
+🚀 FASE 8 — Expansão de Stats (Preflop completo + Post‑flop)
+
+Agora que o pipeline e o click‑through estão sólidos, vamos ampliar a cobertura das stats. A Fase 8 segue o mesmo padrão das Fases 3–5:
+
+Derivar sinais em falta (post‑flop)
+
+Expor no build_context() (engine)
+
+Escrever DSL YAML para cada stat
+
+Atualizar scoring (pesos/ideais/saltos)
+
+Abaixo tens prompts modulares para colar no agent.
+
+8.A — Derivação de Post‑flop (novo módulo)
+
+Cria app/derive/postflop.py e estende app/derive/runner.py para chamar este módulo.
+
+Objetivo dos campos derivados (exemplos):
+
+Quem foi o PFR (preflop raiser) da mão (pfr_player)
+
+C‑bet flop/turn (opportunity + attempt, IP e OOP)
+
+Donk bet flop/turn
+
+Vs Cbet: fold vs cbet (IP/OOP), raise vs cbet (IP/OOP)
+
+Missed cbet: bet vs missed cbet (SRP)
+
+HU/MW por street já temos;
+
+Resultados mínimos: saw_flop, saw_showdown, won_showdown, won_when_saw_flop (W$WSF)
+
+River Agg % (proporção de ações agressivas do Hero no river)
+
+Prompt para criar postflop.py (skeleton + TODOs bem definidos):
+
+# app/derive/postflop.py
+from typing import Dict, Any
+
+def derive_postflop(hand: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Deriva sinais de post-flop necessários para DSL:
+      - pfr_player
+      - cbet_flop/turn (opp/att) IP/OOP
+      - donk_flop/turn
+      - vs_cbet: fold/raise (IP/OOP)
+      - bet_vs_missed_cbet_srp (flop/turn)
+      - showdown flags: saw_flop, saw_showdown, won_showdown, w$wsf
+      - river_agg_pct (mínimo viável: agressões do hero / ações no river)
+    """
+    d = {
+        "pfr_player": None,
+
+        # Cbet (opportunity/attempt) por street e posição relativa
+        "cbet_flop_opp_ip": False,
+        "cbet_flop_att_ip": False,
+        "cbet_flop_opp_oop": False,
+        "cbet_flop_att_oop": False,
+
+        "cbet_turn_opp_ip": False,
+        "cbet_turn_att_ip": False,
+        "cbet_turn_opp_oop": False,
+        "cbet_turn_att_oop": False,
+
+        # Donk
+        "donk_flop": False,
+        "donk_turn": False,
+
+        # vs Cbet (fold/raise) IP/OOP
+        "vs_cbet_flop_fold_ip": False,
+        "vs_cbet_flop_raise_ip": False,
+        "vs_cbet_flop_fold_oop": False,
+        "vs_cbet_flop_raise_oop": False,
+
+        # bet vs missed cbet (SRP)
+        "flop_bet_vs_missed_cbet_srp": False,
+        "turn_bet_vs_missed_cbet_srp_oop": False,
+
+        # Showdown / W$WSF
+        "saw_flop": False,
+        "saw_showdown": False,
+        "won_showdown": False,
+        "won_when_saw_flop": False,
+
+        # River Agg %
+        "river_agg_pct": None,
+    }
+
+    # TODO: implementar leitura de actions por street a partir de hand['streets']
+    # usando o canónico já normalizado. Utilizar derived.ip p/ IP/OOP por street.
+
+    return d
+
+
+No app/derive/schemas.py, adiciona um DerivedPostflop e inclui em Derived principal.
+
+No app/derive/runner.py, após preflop/ip/stacks, chama:
+
+from app.derive.postflop import derive_postflop
+post = derive_postflop(hand)
+# adicionar a hand['derived']['postflop'] = post
+
+
+Nota: Começamos com o esqueleto e implementamos gradualmente (primeiro Flop CBet IP/OOP, depois “vs cbet”, etc.).
+
+8.B — Expor no stats.engine.build_context
+
+Amplia o contexto com os campos derived.postflop:
+
+# em app/stats/engine.py -> build_context()
+post = derived.get("postflop", {}) if derived else {}
+
+context.update({
+    # CBet Flop/Turn
+    "cbet_flop_opp_ip": post.get("cbet_flop_opp_ip", False),
+    "cbet_flop_att_ip": post.get("cbet_flop_att_ip", False),
+    "cbet_flop_opp_oop": post.get("cbet_flop_opp_oop", False),
+    "cbet_flop_att_oop": post.get("cbet_flop_att_oop", False),
+
+    "cbet_turn_opp_ip": post.get("cbet_turn_opp_ip", False),
+    "cbet_turn_att_ip": post.get("cbet_turn_att_ip", False),
+    "cbet_turn_opp_oop": post.get("cbet_turn_opp_oop", False),
+    "cbet_turn_att_oop": post.get("cbet_turn_att_oop", False),
+
+    # Donk
+    "donk_flop": post.get("donk_flop", False),
+    "donk_turn": post.get("donk_turn", False),
+
+    # vs Cbet
+    "vs_cbet_flop_fold_ip": post.get("vs_cbet_flop_fold_ip", False),
+    "vs_cbet_flop_raise_ip": post.get("vs_cbet_flop_raise_ip", False),
+    "vs_cbet_flop_fold_oop": post.get("vs_cbet_flop_fold_oop", False),
+    "vs_cbet_flop_raise_oop": post.get("vs_cbet_flop_raise_oop", False),
+
+    # Missed cbet lines
+    "flop_bet_vs_missed_cbet_srp": post.get("flop_bet_vs_missed_cbet_srp", False),
+    "turn_bet_vs_missed_cbet_srp_oop": post.get("turn_bet_vs_missed_cbet_srp_oop", False),
+
+    # Showdown / W$WSF
+    "saw_flop": post.get("saw_flop", False),
+    "saw_showdown": post.get("saw_showdown", False),
+    "won_showdown": post.get("won_showdown", False),
+    "won_when_saw_flop": post.get("won_when_saw_flop", False),
+
+    # River Agg
+    "river_agg_pct": post.get("river_agg_pct"),
+})
+
+8.C — DSL: Preflop (familias adicionais)
+
+Adicionar ao app/stats/dsl/stats.yml novas stats com a mesma estrutura das RFI. Exemplos (resumo):
+
+BvB
+
+SB_UO_VPIP: opp: SB em UOP (SB completa/raise? conforme definição), att: SB vpipa (call/raise)
+
+BB_FOLD_TO_SB_STEAL: opp: SB steal (unopened SB raise), att: BB fold
+
+BB_RAISE_VS_SB_LIMP_UOP: opp: SB limp, att: BB raise
+
+SB_STEAL: opp: SB em unopened pot, att: raise
+
+Ranges CC/3Bet IP (EP/MP/CO/BTN):
+
+EP_3BET, EP_COLD_CALL, EP_VPIP, … idem MP/CO/BTN
+
+BTN_FOLD_TO_CO_STEAL: opp: CO steal, att: BTN fold
+
+vs 3bet (IP/OOP)
+
+FOLD_TO_3BET_IP: opp: faced_3bet & hero_ip_flop True (ou preflop pos rel.), att: folded_to_3bet
+
+FOLD_TO_3BET_OOP: idem OOP
+
+FOLD_TO_3BET: geral
+
+Squeeze
+
+SQUEEZE: opp: raise + cold call antes do hero, att: hero 3bet
+
+SQUEEZE_VS_BTN_RAISER: opp: BTN open + call, att: hero 3bet
+
+Defesa da BB
+
+BB_FOLD_VS_CO_STEAL, BB_FOLD_VS_BTN_STEAL, BB_FOLD_VS_SB_STEAL, BB_RESTEAL_VS_BTN_STEAL
+
+Defesa da SB
+
+SB_FOLD_TO_CO_STEAL, SB_FOLD_TO_BTN_STEAL, SB_RESTEAL_VS_BTN
+
+Para cada stat, usa os mesmos filtros de RFI (heads_up_only, SRP, eff_stack_min_bb=16, exclude_allin_preflop), ajustando opportunity e attempt com os campos de derived.preflop e positions.
+
+Se quiseres, eu deixo já blocos DSL prontos para 10–12 destas stats (diz‑me quais priorizas primeiro).
+
+8.D — DSL: Post‑flop (primeiras 8–10 stats)
+
+Depois de implementares o derive_postflop.py, adiciona ao YAML:
+
+Flop CBet
+
+POST_CBET_FLOP_IP: filters: pot_type in [SRP, 3bet?], opp: cbet_flop_opp_ip, att: cbet_flop_att_ip
+
+POST_CBET_FLOP_3BETPOT_IP: filters: pot_type=["3bet"], opp: cbet_flop_opp_ip, att idem
+
+POST_CBET_FLOP_OOP: opp: cbet_flop_opp_oop, att: cbet_flop_att_oop
+
+Vs Cbet
+
+POST_VS_CBET_FLOP_FOLD_IP: opp: “faced cbet IP”, att: vs_cbet_flop_fold_ip
+
+POST_VS_CBET_FLOP_RAISE_IP: att: vs_cbet_flop_raise_ip
+
+POST_VS_CBET_FLOP_RAISE_OOP: att: vs_cbet_flop_raise_oop
+
+POST_FOLD_VS_CHECK_RAISE: (precisa sinal da linha de check‑raise)
+
+Skipped Cbet
+
+POST_BET_VS_MISSED_CBET_SRP_FLOP: opp: SRP, IP do PFR, PFR não cbet → att: bet do hero
+
+Turn
+
+POST_CBET_TURN_IP, POST_CBET_TURN_OOP
+
+POST_DONK_TURN e POST_DONK_TURN_SRP_VS_PFR
+
+POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP
+
+POST_TURN_FOLD_VS_CBET_OOP
+
+River (métricas)
+
+POST_WTSD, POST_W$SD, POST_W$WSF, POST_RIVER_AGG_PCT, POST_RIVER_BET_SINGLE_RAISED_POT, POST_W$SD_B_RIVER
+
+Estas métricas de showdown exigem identificar vencedor e showdown — podes começar pelas CBet/VsCbet/Donk que são mais diretas, e depois acrescentar WTSD/W$SD/W$WSF.
+
+8.E — Scoring (pesos/ideais)
+
+Atualiza app/score/config.yml:
+
+Adicionar famílias novas (BvB, Ranges CC/3Bet, vs3bet, Squeeze, Defesas) aos grupos nonko_9max_pref, nonko_6max_pref, pko_pref.
+
+Adicionar um grupo postflop_all com pesos por sub‑grupo (Flop CBet, Vs CBet, Turn Play, River).
+
+Ideais e degraus (step up/down) configuráveis — podes começar com placeholder e afinamos depois.
+
+8.F — Endpoints utilitários (rebuild rápido)
+
+Sem mudar nada do que já tens, podes criar um endpoint de rebuild all (útil na UI):
+
+@app.route('/api/pipeline/rebuild', methods=['POST'])
+def api_pipeline_rebuild():
+    """
+    Recorre do hands_enriched.jsonl → partitions → stats → score
+    """
+    try:
+        data = request.get_json(force=True) if request.is_json else {}
+        in_enriched = data.get("in_enriched", "parsed/hands_enriched.jsonl")
+
+        # partitions
+        from app.partition.runner import build_partitions
+        part = build_partitions(in_enriched, "partitions")
+
+        # stats
+        from app.stats.engine import run_stats
+        stats_res = run_stats(in_enriched, "app/stats/dsl/stats.yml", "stats")
+
+        # score
+        from app.score.runner import build_scorecard  # ou runner_cli equivalente
+        sc = build_scorecard("stats/stat_counts.json", "app/score/config.yml", "scores", force=True)
+
+        return jsonify({"success": True, "partitions": part, "stats": stats_res, "score": sc})
+    except Exception as e:
+        app.logger.error(e)
+        return jsonify({"success": False, "error": str(e)}), 500
+
+8.G — Tests mínimos
+
+tests/test_postflop_derive.py: fixtures sintéticas (uma mão com PFR → flop ip cbet; outra com vs cbet fold; donk turn…).
+
+tests/test_dsl_postflop.py: usa 3–4 mãos e verifica oportunidades/attempts gerados em 1–2 stats.
+
+tests/test_score_config_postflop.py: validações de pesos/ideais.
+
+DoD — Fase 8
+
+ derive_postflop.py com pelo menos Flop CBet IP/OOP e Vs Cbet Fold/Raise.
+
+ build_context ampliado para post‑flop.
+
+ DSL com ≥ 10 novas stats (preflop + postflop).
+
+ Scoring atualizado com pesos/ideais placeholders e funcionando end‑to‑end.
+
+ Tests mínimos a passar.
+
+ Zero breaking changes às Fases 1–7.
+
+Se quiseres, eu já te entrego blocos DSL prontos para: SB_UO_VPIP, BB_FOLD_TO_SB_STEAL, SQUEEZE, FOLD_TO_3BET_IP/OOP, POST_CBET_FLOP_IP, POST_VS_CBET_FLOP_FOLD_IP, etc. Diz-me os 8–12 que preferes começar e eu gero diretamente com as condições/opportunities/attempts conforme as tuas convenções.

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947752252">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3,000 GTD - Bounty Hunter, 1080876189</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:36:29</duration>
+  <gamecount>26</gamecount>
+  <startdate>2024-02-12 15:21:47</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>54,707</bets>
+  <wins>66,928</wins>
+  <chipsin>9,980</chipsin>
+  <chipsout>42,798</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080219303</tournamentcode>
+  <tournamentname>€3,000 GTD - Bounty Hunter</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560312890">
+  <general>
+   <startdate>2024-02-12 15:21:47</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,209" addon="0" bet="232" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,291" addon="0" bet="432" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="944" addon="0" bet="912" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,726" addon="0" bet="944" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="36,979" addon="0" bet="32" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="9,968" addon="0" bet="4,624" reg_code="" name="JIMMIERIKSEN1" win="3,592" rebuy="0">
+     <knockout tobalance="€9.10" tobounty="€9.10" kicked="Iskandar96"/>
+    </player>
+    <player dealer="0" seat="9" chips="42,830" addon="0" bet="32" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="4,608" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="muci" type="15"/>
+   <action no="2" sum="32" player="EarnThis" type="15"/>
+   <action no="3" sum="32" player="Iskandar96" type="15"/>
+   <action no="4" sum="32" player="pokermaniacu" type="15"/>
+   <action no="5" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="6" sum="32" player="JIMMIERIKSEN1" type="15"/>
+   <action no="7" sum="32" player="tropeiro123" type="15"/>
+   <action no="8" sum="32" player="super3" type="15"/>
+   <action no="9" sum="200" player="muci" type="1"/>
+   <action no="10" sum="400" player="EarnThis" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Iskandar96" type="Pocket">C5 H5</cards>
+   <action no="11" sum="912" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="12" sum="912" player="pokermaniacu" type="3"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="JIMMIERIKSEN1" type="Pocket">H10 S10</cards>
+   <action no="14" sum="4,624" player="JIMMIERIKSEN1" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HA H6</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="super3" type="0"/>
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="muci" type="0"/>
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="EarnThis" type="0"/>
+   <action no="19" sum="0" player="pokermaniacu" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 S9 DQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+  </round>
+ </game>
+</session>

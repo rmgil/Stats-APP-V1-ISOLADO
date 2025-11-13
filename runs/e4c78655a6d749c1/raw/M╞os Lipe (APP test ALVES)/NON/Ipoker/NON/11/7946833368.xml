@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946833368">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|Mini Road|€10,000 GTD, 1080794595</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:22:01</duration>
+  <gamecount>17</gamecount>
+  <startdate>2024-02-11 15:32:31</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>21,667</bets>
+  <wins>20,771</wins>
+  <chipsin>39,910</chipsin>
+  <chipsout>47,684</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294521</tournamentcode>
+  <tournamentname>E3|Mini Road|€10,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558540754">
+  <general>
+   <startdate>2024-02-11 15:32:31</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="sujirokipague" chips="69,474" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="stvolA" chips="65,540" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="37,750" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="36,198" win="0" addon="0"/>
+    <player reg_code="" bet="1,200" seat="6" rebuy="0" dealer="1" name="ontheroadpoker" chips="79,218" win="2,220" addon="0"/>
+    <player reg_code="" bet="390" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,876" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="29,014" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="90" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="40,000" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="murasB" sum="90"/>
+   <action type="15" no="2" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="3" player="tropeiro123" sum="90"/>
+   <action type="15" no="4" player="sujirokipague" sum="90"/>
+   <action type="15" no="5" player="stvolA" sum="90"/>
+   <action type="15" no="6" player="Stutleif" sum="90"/>
+   <action type="15" no="7" player="Walkanator" sum="90"/>
+   <action type="15" no="8" player="ontheroadpoker" sum="90"/>
+   <action type="1" no="9" player="murasB" sum="300"/>
+   <action type="2" no="10" player="DOWNSWINGO" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DA D4</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="sujirokipague">X X</cards>
+   <action type="0" no="12" player="sujirokipague" sum="0"/>
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="13" player="stvolA" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="14" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="15" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="23" no="16" player="ontheroadpoker" sum="1,200"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="17" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="18" player="DOWNSWINGO" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558540787">
+  <general>
+   <startdate>2024-02-11 15:32:50</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="sujirokipague" chips="69,384" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="stvolA" chips="65,450" win="0" addon="0"/>
+    <player reg_code="" bet="1,362" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="37,660" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="36,108" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,748" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="1" name="murasB" chips="40,486" win="0" addon="0"/>
+    <player reg_code="" bet="1,362" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="28,324" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="4,362" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="39,910" win="4,536" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="2" player="tropeiro123" sum="90"/>
+   <action type="15" no="3" player="sujirokipague" sum="90"/>
+   <action type="15" no="4" player="stvolA" sum="90"/>
+   <action type="15" no="5" player="Stutleif" sum="90"/>
+   <action type="15" no="6" player="Walkanator" sum="90"/>
+   <action type="15" no="7" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="8" player="murasB" sum="90"/>
+   <action type="1" no="9" player="DOWNSWINGO" sum="300"/>
+   <action type="2" no="10" player="tropeiro123" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sujirokipague">X X</cards>
+   <action type="0" no="11" player="sujirokipague" sum="0"/>
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="12" player="stvolA" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="23" no="13" player="Stutleif" sum="1,272"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="14" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="15" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="16" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="3" no="17" player="DOWNSWINGO" sum="972"/>
+   <cards type="Pocket" player="tropeiro123">H10 CJ</cards>
+   <action type="3" no="18" player="tropeiro123" sum="672"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA DK HQ</cards>
+   <action type="4" no="19" player="DOWNSWINGO" sum="0"/>
+   <action type="4" no="20" player="tropeiro123" sum="0"/>
+   <action type="4" no="21" player="Stutleif" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action type="4" no="22" player="DOWNSWINGO" sum="0"/>
+   <action type="5" no="23" player="tropeiro123" sum="3,000"/>
+   <action type="0" no="24" player="Stutleif" sum="0"/>
+   <action type="0" no="25" player="DOWNSWINGO" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558541019">
+  <general>
+   <startdate>2024-02-11 15:34:36</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="1,338" seat="1" rebuy="0" dealer="0" name="sujirokipague" chips="69,294" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="stvolA" chips="65,360" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="36,298" win="0" addon="0"/>
+    <player reg_code="" bet="3,096" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="36,018" win="3,516" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,658" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,396" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="1" name="DOWNSWINGO" chips="26,962" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="390" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="43,084" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="90"/>
+   <action type="15" no="2" player="sujirokipague" sum="90"/>
+   <action type="15" no="3" player="stvolA" sum="90"/>
+   <action type="15" no="4" player="Stutleif" sum="90"/>
+   <action type="15" no="5" player="Walkanator" sum="90"/>
+   <action type="15" no="6" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="7" player="murasB" sum="90"/>
+   <action type="15" no="8" player="DOWNSWINGO" sum="90"/>
+   <action type="1" no="9" player="tropeiro123" sum="300"/>
+   <action type="2" no="10" player="sujirokipague" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="11" player="stvolA" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="12" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="23" no="13" player="Walkanator" sum="1,248"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="14" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="15" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="16" player="DOWNSWINGO" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C2 C8</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="sujirokipague">X X</cards>
+   <action type="3" no="18" player="sujirokipague" sum="648"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D3 HJ</cards>
+   <action type="4" no="19" player="sujirokipague" sum="0"/>
+   <action type="5" no="20" player="Walkanator" sum="1,758"/>
+   <action type="0" no="21" player="sujirokipague" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558541174">
+  <general>
+   <startdate>2024-02-11 15:35:47</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="690" seat="2" rebuy="0" dealer="0" name="stvolA" chips="65,270" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="36,208" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="38,196" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,568" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,306" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="26,872" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="1,260" seat="10" rebuy="0" dealer="1" name="tropeiro123" chips="42,694" win="1,830" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="stvolA" sum="90"/>
+   <action type="15" no="2" player="Stutleif" sum="90"/>
+   <action type="15" no="3" player="Walkanator" sum="90"/>
+   <action type="15" no="4" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="5" player="murasB" sum="90"/>
+   <action type="15" no="6" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="7" player="tropeiro123" sum="90"/>
+   <action type="2" no="8" player="stvolA" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="9" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="10" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="11" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="12" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="13" player="DOWNSWINGO" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C2 DA</cards>
+   <action type="23" no="14" player="tropeiro123" sum="1,260"/>
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="15" player="stvolA" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558541252">
+  <general>
+   <startdate>2024-02-11 15:36:22</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="390" seat="2" rebuy="0" dealer="0" name="stvolA" chips="64,580" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="36,118" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="38,106" win="0" addon="0"/>
+    <player reg_code="" bet="1,200" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,478" win="2,130" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,216" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="26,782" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="90" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="43,834" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="stvolA" sum="90"/>
+   <action type="15" no="2" player="Stutleif" sum="90"/>
+   <action type="15" no="3" player="Walkanator" sum="90"/>
+   <action type="15" no="4" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="5" player="murasB" sum="90"/>
+   <action type="15" no="6" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="7" player="tropeiro123" sum="90"/>
+   <action type="1" no="8" player="stvolA" sum="300"/>
+   <action type="2" no="9" player="Stutleif" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="10" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="23" no="11" player="ontheroadpoker" sum="1,200"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="12" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="13" player="DOWNSWINGO" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SK H4</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="15" player="stvolA" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="16" player="Stutleif" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558541340">
+  <general>
+   <startdate>2024-02-11 15:37:05</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="40,000" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="1" name="stvolA" chips="64,190" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="35,428" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="38,016" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="81,918" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,126" win="0" addon="0"/>
+    <player reg_code="" bet="2,295" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="26,692" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="6,495" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="43,744" win="6,030" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Stutleif" sum="90"/>
+   <action type="15" no="2" player="Walkanator" sum="90"/>
+   <action type="15" no="3" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="4" player="murasB" sum="90"/>
+   <action type="15" no="5" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="6" player="tropeiro123" sum="90"/>
+   <action type="15" no="7" player="glo0my619" sum="90"/>
+   <action type="15" no="8" player="stvolA" sum="90"/>
+   <action type="1" no="9" player="Stutleif" sum="300"/>
+   <action type="2" no="10" player="Walkanator" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="11" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="12" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="23" no="13" player="DOWNSWINGO" sum="1,200"/>
+   <cards type="Pocket" player="tropeiro123">CA C10</cards>
+   <action type="3" no="14" player="tropeiro123" sum="1,200"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="15" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="stvolA">X X</cards>
+   <action type="0" no="16" player="stvolA" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="17" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="18" player="Walkanator" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ HA C9</cards>
+   <action type="4" no="19" player="DOWNSWINGO" sum="0"/>
+   <action type="5" no="20" player="tropeiro123" sum="1,005"/>
+   <action type="3" no="21" player="DOWNSWINGO" sum="1,005"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action type="4" no="22" player="DOWNSWINGO" sum="0"/>
+   <action type="5" no="23" player="tropeiro123" sum="4,200"/>
+   <action type="0" no="24" player="DOWNSWINGO" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558541607">
+  <general>
+   <startdate>2024-02-11 15:39:15</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="39,910" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="39,910" win="80,570" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="1" name="Stutleif" chips="35,038" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="37,326" win="0" addon="0"/>
+    <player reg_code="" bet="43,493" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="81,828" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="7" rebuy="0" dealer="0" name="murasB" chips="40,036" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="24,397" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="90" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,479" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Walkanator" sum="90"/>
+   <action type="15" no="2" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="3" player="murasB" sum="90"/>
+   <action type="15" no="4" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="5" player="tropeiro123" sum="90"/>
+   <action type="15" no="6" player="glo0my619" sum="90"/>
+   <action type="15" no="7" player="Stutleif" sum="90"/>
+   <action type="1" no="8" player="Walkanator" sum="300"/>
+   <action type="2" no="9" player="ontheroadpoker" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="10" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="11" player="DOWNSWINGO" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SQ S2</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">SA CA</cards>
+   <action type="23" no="13" player="glo0my619" sum="1,200"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="14" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="15" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">SK DA</cards>
+   <action type="23" no="16" player="ontheroadpoker" sum="5,520"/>
+   <action type="3" no="17" player="glo0my619" sum="4,320"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ S8 H2</cards>
+   <action type="5" no="18" player="ontheroadpoker" sum="3,950"/>
+   <action type="3" no="19" player="glo0my619" sum="3,950"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action type="5" no="20" player="ontheroadpoker" sum="6,557"/>
+   <action type="3" no="21" player="glo0my619" sum="6,557"/>
+  </round>
+  <round no="4">
+   <cards type="River">C9</cards>
+   <action type="5" no="22" player="ontheroadpoker" sum="27,376"/>
+   <action type="7" no="23" player="glo0my619" sum="23,793"/>
+  </round>
+ </game>
+ <game gamecode="10558541884">
+  <general>
+   <startdate>2024-02-11 15:41:30</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="90" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="80,570" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="28,586" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,948" win="0" addon="0"/>
+    <player reg_code="" bet="13,374" seat="5" rebuy="0" dealer="1" name="Walkanator" chips="36,936" win="0" addon="0"/>
+    <player reg_code="" bet="37,374" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="41,918" win="27,888" addon="0"/>
+    <player reg_code="" bet="690" seat="7" rebuy="0" dealer="0" name="murasB" chips="39,946" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="24,307" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="90" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,389" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="ontheroadpoker" sum="90"/>
+   <action type="15" no="2" player="murasB" sum="90"/>
+   <action type="15" no="3" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="4" player="tropeiro123" sum="90"/>
+   <action type="15" no="5" player="glo0my619" sum="90"/>
+   <action type="15" no="6" player="Lipstift" sum="90"/>
+   <action type="15" no="7" player="Stutleif" sum="90"/>
+   <action type="15" no="8" player="Walkanator" sum="90"/>
+   <action type="1" no="9" player="ontheroadpoker" sum="300"/>
+   <action type="2" no="10" player="murasB" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="11" player="DOWNSWINGO" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CQ S2</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="13" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="14" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="15" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="23" no="16" player="Walkanator" sum="1,248"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="23" no="17" player="ontheroadpoker" sum="5,100"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="18" player="murasB" sum="0"/>
+   <action type="3" no="19" player="Walkanator" sum="3,852"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 D8 SA</cards>
+   <action type="5" no="20" player="ontheroadpoker" sum="3,072"/>
+   <action type="3" no="21" player="Walkanator" sum="3,072"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="5" no="22" player="ontheroadpoker" sum="5,112"/>
+   <action type="3" no="23" player="Walkanator" sum="5,112"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action type="5" no="24" player="ontheroadpoker" sum="24,000"/>
+   <action type="0" no="25" player="Walkanator" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558566926">
+  <general>
+   <startdate>2024-02-11 15:43:19</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player reg_code="" bet="1,200" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="80,480" win="2,220" addon="0"/>
+    <player reg_code="" bet="90" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="28,496" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,858" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="23,562" win="0" addon="0"/>
+    <player reg_code="" bet="90" seat="6" rebuy="0" dealer="1" name="ontheroadpoker" chips="56,432" win="0" addon="0"/>
+    <player reg_code="" bet="390" seat="7" rebuy="0" dealer="0" name="murasB" chips="39,256" win="0" addon="0"/>
+    <player reg_code="" bet="690" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="24,217" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="90" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,299" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="murasB" sum="90"/>
+   <action type="15" no="2" player="DOWNSWINGO" sum="90"/>
+   <action type="15" no="3" player="tropeiro123" sum="90"/>
+   <action type="15" no="4" player="glo0my619" sum="90"/>
+   <action type="15" no="5" player="Lipstift" sum="90"/>
+   <action type="15" no="6" player="Stutleif" sum="90"/>
+   <action type="15" no="7" player="Walkanator" sum="90"/>
+   <action type="15" no="8" player="ontheroadpoker" sum="90"/>
+   <action type="1" no="9" player="murasB" sum="300"/>
+   <action type="2" no="10" player="DOWNSWINGO" sum="600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S7 D5</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="23" no="12" player="glo0my619" sum="1,200"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="13" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="14" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="15" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="16" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="murasB">X X</cards>
+   <action type="0" no="17" player="murasB" sum="0"/>
+   <cards type="Pocket" player="DOWNSWINGO">X X</cards>
+   <action type="0" no="18" player="DOWNSWINGO" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567039">
+  <general>
+   <startdate>2024-02-11 15:44:15</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="82,010" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="28,406" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,768" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="23,472" win="0" addon="0"/>
+    <player reg_code="" bet="23,527" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="56,342" win="48,254" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="DOWNSWINGO"/>
+    </player>
+    <player reg_code="" bet="23,527" seat="9" rebuy="0" dealer="0" name="DOWNSWINGO" chips="23,527" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="800" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,209" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="DOWNSWINGO" sum="100"/>
+   <action type="15" no="2" player="tropeiro123" sum="100"/>
+   <action type="15" no="3" player="glo0my619" sum="100"/>
+   <action type="15" no="4" player="Lipstift" sum="100"/>
+   <action type="15" no="5" player="Stutleif" sum="100"/>
+   <action type="15" no="6" player="Walkanator" sum="100"/>
+   <action type="15" no="7" player="ontheroadpoker" sum="100"/>
+   <action type="1" no="8" player="DOWNSWINGO" sum="350"/>
+   <action type="2" no="9" player="tropeiro123" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="10" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="11" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="12" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="13" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">SK DJ</cards>
+   <action type="23" no="14" player="ontheroadpoker" sum="1,400"/>
+   <cards type="Pocket" player="DOWNSWINGO">CQ DQ</cards>
+   <action type="23" no="15" player="DOWNSWINGO" sum="4,900"/>
+   <cards type="Pocket" player="tropeiro123">H3 D8</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <action type="3" no="17" player="ontheroadpoker" sum="3,500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 SA HQ</cards>
+   <action type="5" no="18" player="DOWNSWINGO" sum="3,500"/>
+   <action type="3" no="19" player="ontheroadpoker" sum="3,500"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action type="5" no="20" player="DOWNSWINGO" sum="15,027"/>
+   <action type="3" no="21" player="ontheroadpoker" sum="15,027"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10558567264">
+  <general>
+   <startdate>2024-02-11 15:46:01</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="1,556" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="81,910" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="28,306" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,668" win="0" addon="0"/>
+    <player reg_code="" bet="2,863" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="23,372" win="3,962" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="81,069" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="61,153" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="450" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="46,409" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="100"/>
+   <action type="15" no="2" player="glo0my619" sum="100"/>
+   <action type="15" no="3" player="Lipstift" sum="100"/>
+   <action type="15" no="4" player="Stutleif" sum="100"/>
+   <action type="15" no="5" player="Walkanator" sum="100"/>
+   <action type="15" no="6" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="7" player="Brassicc" sum="100"/>
+   <action type="1" no="8" player="tropeiro123" sum="350"/>
+   <action type="2" no="9" player="glo0my619" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="10" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="11" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="23" no="12" player="Walkanator" sum="1,456"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="13" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="14" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CJ S8</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="3" no="16" player="glo0my619" sum="756"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA S10 HJ</cards>
+   <action type="4" no="17" player="glo0my619" sum="0"/>
+   <action type="5" no="18" player="Walkanator" sum="1,307"/>
+   <action type="0" no="19" player="glo0my619" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567425">
+  <general>
+   <startdate>2024-02-11 15:47:16</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="450" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="80,354" win="0" addon="0"/>
+    <player reg_code="" bet="800" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="28,206" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,568" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="25,778" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,969" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="61,053" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="1,610" seat="10" rebuy="0" dealer="1" name="tropeiro123" chips="45,959" win="2,450" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="glo0my619" sum="100"/>
+   <action type="15" no="2" player="Lipstift" sum="100"/>
+   <action type="15" no="3" player="Stutleif" sum="100"/>
+   <action type="15" no="4" player="Walkanator" sum="100"/>
+   <action type="15" no="5" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="6" player="Brassicc" sum="100"/>
+   <action type="15" no="7" player="tropeiro123" sum="100"/>
+   <action type="1" no="8" player="glo0my619" sum="350"/>
+   <action type="2" no="9" player="Lipstift" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="10" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="11" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="12" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="13" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D7 S8</cards>
+   <action type="23" no="14" player="tropeiro123" sum="1,610"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="15" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="16" player="Lipstift" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567528">
+  <general>
+   <startdate>2024-02-11 15:48:06</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="1" name="glo0my619" chips="79,904" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="27,406" win="0" addon="0"/>
+    <player reg_code="" bet="800" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="34,468" win="1,500" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="25,678" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,869" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="60,953" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="Vidok112" chips="40,000" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="100" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,609" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Lipstift" sum="100"/>
+   <action type="15" no="2" player="Stutleif" sum="100"/>
+   <action type="15" no="3" player="Walkanator" sum="100"/>
+   <action type="15" no="4" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="5" player="Brassicc" sum="100"/>
+   <action type="15" no="6" player="Vidok112" sum="100"/>
+   <action type="15" no="7" player="tropeiro123" sum="100"/>
+   <action type="15" no="8" player="glo0my619" sum="100"/>
+   <action type="1" no="9" player="Lipstift" sum="350"/>
+   <action type="2" no="10" player="Stutleif" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="11" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="12" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="13" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action type="0" no="14" player="Vidok112" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C2 C8</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="16" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="17" player="Lipstift" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567611">
+  <general>
+   <startdate>2024-02-11 15:48:44</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="79,804" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="1" name="Lipstift" chips="26,956" win="0" addon="0"/>
+    <player reg_code="" bet="2,130" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="35,518" win="0" addon="0"/>
+    <player reg_code="" bet="6,160" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="25,578" win="4,860" addon="0"/>
+    <player reg_code="" bet="100" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,769" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="60,853" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="Vidok112" chips="39,900" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="100" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,509" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Stutleif" sum="100"/>
+   <action type="15" no="2" player="Walkanator" sum="100"/>
+   <action type="15" no="3" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="4" player="Brassicc" sum="100"/>
+   <action type="15" no="5" player="Vidok112" sum="100"/>
+   <action type="15" no="6" player="tropeiro123" sum="100"/>
+   <action type="15" no="7" player="glo0my619" sum="100"/>
+   <action type="15" no="8" player="Lipstift" sum="100"/>
+   <action type="1" no="9" player="Stutleif" sum="350"/>
+   <action type="2" no="10" player="Walkanator" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="11" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="12" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action type="0" no="13" player="Vidok112" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S3 DJ</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="15" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="16" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="23" no="17" player="Stutleif" sum="2,030"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="23" no="18" player="Walkanator" sum="6,160"/>
+   <action type="0" no="19" player="Stutleif" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567741">
+  <general>
+   <startdate>2024-02-11 15:49:47</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="79,704" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="26,856" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="1" name="Stutleif" chips="33,388" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="28,308" win="0" addon="0"/>
+    <player reg_code="" bet="800" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="80,669" win="1,500" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="60,753" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="9" rebuy="0" dealer="0" name="Vidok112" chips="39,800" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="100" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,409" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Walkanator" sum="100"/>
+   <action type="15" no="2" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="3" player="Brassicc" sum="100"/>
+   <action type="15" no="4" player="Vidok112" sum="100"/>
+   <action type="15" no="5" player="tropeiro123" sum="100"/>
+   <action type="15" no="6" player="glo0my619" sum="100"/>
+   <action type="15" no="7" player="Lipstift" sum="100"/>
+   <action type="15" no="8" player="Stutleif" sum="100"/>
+   <action type="1" no="9" player="Walkanator" sum="350"/>
+   <action type="2" no="10" player="ontheroadpoker" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="11" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action type="0" no="12" player="Vidok112" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D5 C7</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="14" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="15" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="16" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="17" player="Walkanator" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558567827">
+  <general>
+   <startdate>2024-02-11 15:50:27</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="8,500" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="79,604" win="19,350" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="26,756" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="33,288" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="1" name="Walkanator" chips="27,858" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="6" rebuy="0" dealer="0" name="ontheroadpoker" chips="81,719" win="0" addon="0"/>
+    <player reg_code="" bet="1,500" seat="7" rebuy="0" dealer="0" name="Brassicc" chips="60,653" win="0" addon="0"/>
+    <player reg_code="" bet="8,500" seat="9" rebuy="0" dealer="0" name="Vidok112" chips="39,700" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="100" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,309" win="0" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="ontheroadpoker" sum="100"/>
+   <action type="15" no="2" player="Brassicc" sum="100"/>
+   <action type="15" no="3" player="Vidok112" sum="100"/>
+   <action type="15" no="4" player="tropeiro123" sum="100"/>
+   <action type="15" no="5" player="glo0my619" sum="100"/>
+   <action type="15" no="6" player="Lipstift" sum="100"/>
+   <action type="15" no="7" player="Stutleif" sum="100"/>
+   <action type="15" no="8" player="Walkanator" sum="100"/>
+   <action type="1" no="9" player="ontheroadpoker" sum="350"/>
+   <action type="2" no="10" player="Brassicc" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vidok112">H7 S7</cards>
+   <action type="23" no="11" player="Vidok112" sum="1,400"/>
+   <cards type="Pocket" player="tropeiro123">C3 H4</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="glo0my619">S10 C10</cards>
+   <action type="3" no="13" player="glo0my619" sum="1,400"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="14" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="15" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="16" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="ontheroadpoker">X X</cards>
+   <action type="0" no="17" player="ontheroadpoker" sum="0"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="3" no="18" player="Brassicc" sum="700"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 S2 H9</cards>
+   <action type="4" no="19" player="Brassicc" sum="0"/>
+   <action type="5" no="20" player="Vidok112" sum="1,400"/>
+   <action type="3" no="21" player="glo0my619" sum="1,400"/>
+   <action type="0" no="22" player="Brassicc" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="5" no="23" player="Vidok112" sum="5,600"/>
+   <action type="3" no="24" player="glo0my619" sum="5,600"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action type="4" no="25" player="Vidok112" sum="0"/>
+   <action type="4" no="26" player="glo0my619" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10558568098">
+  <general>
+   <startdate>2024-02-11 15:52:43</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player reg_code="" bet="100" seat="1" rebuy="0" dealer="0" name="glo0my619" chips="90,454" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="2" rebuy="0" dealer="0" name="Lipstift" chips="26,656" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="4" rebuy="0" dealer="0" name="Stutleif" chips="33,188" win="0" addon="0"/>
+    <player reg_code="" bet="100" seat="5" rebuy="0" dealer="0" name="Walkanator" chips="27,758" win="0" addon="0"/>
+    <player reg_code="" bet="5,450" seat="6" rebuy="0" dealer="0" name="varvar34567Msk" chips="47,112" win="5,925" addon="0"/>
+    <player reg_code="" bet="100" seat="7" rebuy="0" dealer="1" name="Brassicc" chips="59,153" win="0" addon="0"/>
+    <player reg_code="" bet="450" seat="9" rebuy="0" dealer="0" name="Vidok112" chips="31,200" win="0" addon="0"/>
+    <player reg_code="7946833368" bet="5,450" seat="10" rebuy="0" dealer="0" name="tropeiro123" chips="47,209" win="5,925" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vidok112" sum="100"/>
+   <action type="15" no="2" player="tropeiro123" sum="100"/>
+   <action type="15" no="3" player="glo0my619" sum="100"/>
+   <action type="15" no="4" player="Lipstift" sum="100"/>
+   <action type="15" no="5" player="Stutleif" sum="100"/>
+   <action type="15" no="6" player="Walkanator" sum="100"/>
+   <action type="15" no="7" player="varvar34567Msk" sum="100"/>
+   <action type="15" no="8" player="Brassicc" sum="100"/>
+   <action type="1" no="9" player="Vidok112" sum="350"/>
+   <action type="2" no="10" player="tropeiro123" sum="700"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="glo0my619">X X</cards>
+   <action type="0" no="11" player="glo0my619" sum="0"/>
+   <cards type="Pocket" player="Lipstift">X X</cards>
+   <action type="0" no="12" player="Lipstift" sum="0"/>
+   <cards type="Pocket" player="Stutleif">X X</cards>
+   <action type="0" no="13" player="Stutleif" sum="0"/>
+   <cards type="Pocket" player="Walkanator">X X</cards>
+   <action type="0" no="14" player="Walkanator" sum="0"/>
+   <cards type="Pocket" player="varvar34567Msk">C9 H8</cards>
+   <action type="23" no="15" player="varvar34567Msk" sum="1,400"/>
+   <cards type="Pocket" player="Brassicc">X X</cards>
+   <action type="0" no="16" player="Brassicc" sum="0"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action type="0" no="17" player="Vidok112" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C8 H10</cards>
+   <action type="3" no="18" player="tropeiro123" sum="700"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C3 D8</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="5" no="20" player="varvar34567Msk" sum="1,975"/>
+   <action type="3" no="21" player="tropeiro123" sum="1,975"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action type="5" no="22" player="tropeiro123" sum="1,975"/>
+   <action type="3" no="23" player="varvar34567Msk" sum="1,975"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action type="4" no="24" player="tropeiro123" sum="0"/>
+   <action type="4" no="25" player="varvar34567Msk" sum="0"/>
+  </round>
+ </game>
+</session>

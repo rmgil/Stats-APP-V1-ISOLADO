@@ -1,0 +1,254 @@
+Ótimo — com a Fase 7 terminada, já temos tudo no backend para fazer um teste end‑to‑end a partir de uma pasta de .TXT. Falta apenas uma página “Playground do Pipeline” muito simples para orquestrar os passos (classificar → parse → derive → partitions → stats → score) com um upload.
+
+Abaixo deixo prompts prontos para o agent criar essa mini‑UI agora, sem tocar no que já está estável. Em 10–15 mins de execução (no ambiente), ficas com um front‑end funcional para testar com uma pasta de .TXT (em .zip).
+
+Nota: Para ficheiros grandes (>50 MB), hoje o upload “chunked” não dispara automaticamente o parse/derive. Este Playground usa o endpoint /upload em modo dry‑run (JSON), por isso para testar usa um .zip ≤ 50 MB. Se precisares de >50 MB, na “Fase 7.2” adicionamos pipeline “chunked”.
+
+✅ O que a página vai fazer
+
+Permite escolher um .zip (a tua pasta de .TXT comprimida).
+
+Faz POST a /upload com enable_parser=true e dry_run=true → recebe manifest JSON (sem download de ZIP).
+
+A partir do manifest, calcula o caminho de parsed/hands.jsonl.
+
+Chama /api/derive/build → cria parsed/hands_enriched.jsonl.
+
+Chama /api/partition → cria partitions/partition_counts.json.
+
+Chama /api/stats/build → gera stats/stat_counts.json.
+
+Chama /api/score/build → gera scores/scorecard.json.
+
+Mostra um resumo (overall e grupos) + links para /scoring e /debug-hands.
+
+PROMPTS (cola no agent por ordem)
+P1) Ajuste pequeno no /upload para aceitar dry_run via form
+
+Objetivo: hoje o /upload só lê DRY_RUN via env. Precisamos também de request.form['dry_run'].
+
+Procura no endpoint /upload onde define:
+
+DRY_RUN = os.environ.get('DRY_RUN', 'false').lower() == 'true'
+
+
+e substitui por:
+
+# Primeiro lê do form; se não vier, cai no env
+DRY_RUN = (request.form.get('dry_run', 'false').lower() == 'true') or \
+          (os.environ.get('DRY_RUN', 'false').lower() == 'true')
+
+
+Isto permite ao front‑end pedir JSON em vez de stream ZIP, mantendo o comportamento anterior.
+
+P2) Endpoint para DERIVE (se ainda não existe)
+
+Cria um endpoint simples para correr o derive e gerar hands_enriched.jsonl.
+
+# Adiciona ao teu ficheiro Flask principal
+@app.route('/api/derive/build', methods=['POST'])
+def api_derive_build():
+    try:
+        data = request.get_json(force=True) if request.is_json else {}
+        in_jsonl  = data.get("in_jsonl", "parsed/hands.jsonl")
+        out_jsonl = data.get("out_jsonl", "parsed/hands_enriched.jsonl")
+
+        from app.derive.runner import enrich_hands
+        stats = enrich_hands(in_jsonl, out_jsonl)
+
+        return jsonify({"success": True, "in_jsonl": in_jsonl, "out_jsonl": out_jsonl, "stats": stats})
+    except Exception as e:
+        app.logger.error(f"derive build failed: {e}")
+        return jsonify({"success": False, "error": str(e)}), 500
+
+P3) Página /pipeline (Playground do Pipeline)
+
+templates/pipeline.html
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Pipeline Playground</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    .card { border:1px solid #ddd; border-radius:8px; padding:16px; margin-bottom:16px; }
+    .row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    .muted { color:#666; font-size:12px; }
+    .ok { color:#0a7; }
+    .err { color:#c33; }
+    button, input[type=file] { padding:8px 12px; }
+    pre { background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; white-space:pre-wrap; }
+    .steps li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <h1>Pipeline Playground (TXT → Score)</h1>
+
+  <div class="card">
+    <div class="row">
+      <input type="file" id="zip" accept=".zip" />
+      <button id="run">Executar pipeline</button>
+      <span class="muted">Carrega um .zip com a tua pasta de .TXT (≤ 50 MB)</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Passos</h3>
+    <ol class="steps">
+      <li id="s1">Upload (dry‑run + parser) …</li>
+      <li id="s2">Derive (hands_enriched.jsonl) …</li>
+      <li id="s3">Partitions …</li>
+      <li id="s4">Stats (DSL) …</li>
+      <li id="s5">Scoring (0–100) …</li>
+    </ol>
+    <div id="links" class="row"></div>
+  </div>
+
+  <div class="card">
+    <h3>Resumo</h3>
+    <pre id="out"></pre>
+  </div>
+
+<script>
+async function postForm(url, formData){
+  const r = await fetch(url, { method:'POST', body: formData });
+  if(!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+async function postJSON(url, payload){
+  const r = await fetch(url, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+  if(!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+function ok(el, msg){ el.innerHTML = `<span class="ok">✅</span> ${msg}` }
+function err(el, msg){ el.innerHTML = `<span class="err">❌</span> ${msg}` }
+
+document.getElementById('run').onclick = async ()=>{
+  const out = document.getElementById('out');
+  out.textContent = '';
+  const s1 = document.getElementById('s1');
+  const s2 = document.getElementById('s2');
+  const s3 = document.getElementById('s3');
+  const s4 = document.getElementById('s4');
+  const s5 = document.getElementById('s5');
+  const links = document.getElementById('links');
+  links.innerHTML = '';
+
+  try {
+    // 1) Upload (dry-run + parser)
+    const fileEl = document.getElementById('zip');
+    if(!fileEl.files || !fileEl.files[0]) { err(s1, 'Escolhe um .zip'); return; }
+    const fd = new FormData();
+    fd.append('file', fileEl.files[0]);
+    fd.append('enable_parser', 'true');
+    fd.append('dry_run', 'true');
+
+    const up = await postForm('/upload', fd);
+    if(!up.success){ throw new Error(up.error || 'Upload falhou'); }
+    ok(s1, 'Upload OK (manifest recebido)');
+
+    // Manifest path → out_dir
+    const manifestPath = up.manifest_path || '';
+    const outDir = manifestPath.substring(0, manifestPath.lastIndexOf('/'));
+    // Path do hands.jsonl (relativo no manifest)
+    const parserInfo = up.manifest?.parser || {};
+    if(!parserInfo.output_file){ throw new Error('Parser não devolveu output_file'); }
+    const handsJsonl = outDir + '/' + parserInfo.output_file; // e.g., parsed/hands.jsonl
+    const handsEnriched = outDir + '/parsed/hands_enriched.jsonl';
+
+    // 2) Derive
+    const dv = await postJSON('/api/derive/build', { in_jsonl: handsJsonl, out_jsonl: handsEnriched });
+    if(!dv.success){ throw new Error(dv.error || 'Derive falhou'); }
+    ok(s2, `Derive OK → ${handsEnriched}`);
+
+    // 3) Partitions
+    const pv = await postJSON('/api/partition', { in_jsonl: handsEnriched, out_dir: 'partitions', validate: true });
+    if(pv.error){ throw new Error(pv.error); }
+    ok(s3, 'Partitions OK');
+
+    // 4) Stats (DSL)
+    const sv = await postJSON('/api/stats/build', { in_jsonl: handsEnriched, dsl_path: 'app/stats/dsl/stats.yml', out_dir: 'stats' });
+    if(sv.error){ throw new Error(sv.error); }
+    ok(s4, 'Stats OK');
+
+    // 5) Score
+    const sc = await postJSON('/api/score/build', { stat_counts: 'stats/stat_counts.json', cfg_path: 'app/score/config.yml', out_dir: 'scores', force: true });
+    if(sc.success === false){ throw new Error(sc.error || 'Score falhou'); }
+    ok(s5, `Score OK → ${sc.scorecard_path}`);
+
+    // Mostrar resumo (overall + grupos)
+    const summary = await fetch('/api/score/summary').then(r=>r.json());
+    out.textContent = JSON.stringify({
+      overall: summary.overall,
+      group_level: summary.group_level,
+      sample: summary.stat_level?.RFI_BTN_STEAL || {}
+    }, null, 2);
+
+    links.innerHTML = `
+      <a href="/scoring" target="_blank">Abrir /scoring</a>
+      <a href="/debug-hands" target="_blank">Abrir /debug-hands</a>
+    `;
+
+  } catch(e){
+    err(s1, 'Erro no pipeline (ver abaixo)');
+    document.getElementById('out').textContent = (e && e.message) ? e.message : String(e);
+  }
+};
+</script>
+</body>
+</html>
+
+
+Adicionar rota:
+
+@app.route('/pipeline')
+def pipeline_page():
+    return render_template('pipeline.html')
+
+P4) (Opcional) Link na Home
+
+No templates/index.html, adiciona um link discreto:
+
+<p><a href="/pipeline">▶ Pipeline Playground (TXT → Score)</a></p>
+
+P5) Teste rápido (passos do utilizador)
+
+Comprime a tua pasta de .TXT num .zip (≤ 50 MB).
+
+Abre /pipeline, escolhe o .zip e clica “Executar pipeline”.
+
+No final vês:
+
+Resumo com overall e group_level.
+
+Links para /scoring (ajuste de pesos/ideais) e /debug-hands (excertos).
+
+Se quiseres ver as mãos de um bucket específico:
+
+Vai a /scoring para identificar o grupo/stat;
+
+Usa /debug-hands com um hand_id (ou chama /api/stats/hands para obter as listas de ids).
+
+Perguntas frequentes
+
+E se o meu .zip for >50 MB?
+Funcionalmente já tens upload “chunked”, mas o pipeline automático (parse/derive) ainda não está ligado nesse caminho. Na Fase 7.2 podemos:
+a) adicionar um endpoint /api/pipeline/from-uploadId que encadeia parse→derive→partitions→stats→score a partir do uploadId, ou
+b) permitir dry_run e enable_parser também no fluxo chunked.
+
+Preciso de alterar hero_aliases?
+Se precisares, ajusta app/config/hero_aliases.json antes de correr o pipeline.
+
+Definition of Done (Playground)
+
+ /upload aceita dry_run via form.
+
+ /api/derive/build disponível.
+
+ Página /pipeline funcional (end‑to‑end).
+
+ Sem alterações destrutivas às Fases 1–7.
+
+Com isto, já tens um front‑end simples para testar com uma pasta de .TXT. Se estiveres satisfeito, avançamos para Fase 7.2 (pipeline chunked) ou Fase 8 (expandir a DSL: 3‑bet, C‑bet, vs 3‑bet, Squeeze, defesas BB/SB, Post‑flop) — tu decides a prioridade.

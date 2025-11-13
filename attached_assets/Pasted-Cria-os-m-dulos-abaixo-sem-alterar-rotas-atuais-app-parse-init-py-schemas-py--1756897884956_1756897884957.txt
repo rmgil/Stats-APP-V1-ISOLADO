@@ -1,0 +1,82 @@
+Cria os módulos abaixo, sem alterar rotas atuais:
+
+app/
+  parse/
+    __init__.py
+    schemas.py        # modelos Pydantic
+    interfaces.py     # contratos do parser
+    utils.py          # helpers texto/regex/offsets
+    site_generic.py   # fallback
+    site_pokerstars.py
+    site_gg.py
+    site_wpn.py
+    site_winamax.py
+    site_888.py
+    runner.py         # orquestra parsing por ficheiro
+  config/
+    hero_aliases.json # {"global":["Nick1","Nick2"], "pokerstars":["..."], "gg":["..."], ...}
+
+
+Dependências novas: pydantic, python-dateutil.
+
+schemas.py (Pydantic) — implementa:
+
+from typing import Literal, List, Optional, Dict
+from pydantic import BaseModel
+
+ActionType = Literal["POST_SB","POST_BB","POST_ANTE","FOLD","CHECK","CALL","BET","RAISE","RERAISE","ALLIN"]
+Street = Literal["preflop","flop","turn","river"]
+
+class Action(BaseModel):
+    actor: str
+    type: ActionType
+    amount: Optional[float] = None
+    to_amount: Optional[float] = None
+    allin: bool = False
+    raw_offset: Optional[int] = None   # posição no texto (click-through)
+
+class StreetInfo(BaseModel):
+    actions: List[Action] = []
+    board: Optional[List[str]] = None  # flop/turn/river
+
+class Player(BaseModel):
+    seat: int
+    name: str
+    stack_chips: Optional[float] = None
+    is_hero: bool = False
+
+class Hand(BaseModel):
+    site: Literal["pokerstars","gg","wpn","winamax","888","other"]
+    tournament_id: Optional[str] = None
+    tournament_name: Optional[str] = None
+    file_id: str
+    timestamp_utc: Optional[str] = None
+    button_seat: Optional[int] = None
+    table_max: Optional[int] = None
+    blinds: Dict[str,float] = {}       # {"sb":..., "bb":..., "ante":...}
+    players: List[Player]
+    players_dealt_in: List[str] = []
+    hero: Optional[str] = None
+    streets: Dict[Street, StreetInfo]
+    any_allin_preflop: bool = False
+    players_to_flop: int = 0
+    heads_up_flop: bool = False
+    raw_offsets: Dict[str,int] = {}    # {"hand_start":i, "hand_end":j, "flop":k, ...}
+
+
+interfaces.py — define:
+
+class SiteParser(Protocol):
+    def detect(self, text:str) -> bool: ...
+    def parse_tournament(self, text:str, file_id:str, hero_aliases:dict) -> list[Hand]: ...
+
+
+utils.py — helpers:
+
+iter_hands(text) -> iterator[(start_idx, end_idx, hand_text)] (delimita cada mão por marcadores robustos — ver PROMPT C/D).
+
+extract_offsets(hand_text) para marcar *** HOLE CARDS ***, *** FLOP ***, etc.
+
+clean_amount(s) para normalizar números (vírgulas/pontos).
+
+safe_match(pattern, line) utilidade de regex.

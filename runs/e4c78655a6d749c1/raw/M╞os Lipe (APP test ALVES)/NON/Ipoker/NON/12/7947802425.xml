@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947802425">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€15,000 GTD, 1080883111</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:42:11</duration>
+  <gamecount>24</gamecount>
+  <startdate>2024-02-12 15:28:45</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>177,089</bets>
+  <wins>291,455</wins>
+  <chipsin>99,820</chipsin>
+  <chipsout>216,526</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294141</tournamentcode>
+  <tournamentname>E3|€15,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560342677">
+  <general>
+   <startdate>2024-02-12 15:28:45</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="1" seat="1" chips="100,000" addon="0" bet="180" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="133,945" addon="0" bet="780" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="119,029" addon="0" bet="95,840" reg_code="" name="mrsreca" win="193,180" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="MIFFOLOS"/>
+    </player>
+    <player dealer="0" seat="6" chips="103,585" addon="0" bet="180" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,688" addon="0" bet="180" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="38,037" addon="0" bet="180" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="95,840" addon="0" bet="95,840" reg_code="" name="MIFFOLOS" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="FORTHEKIDS22" type="15"/>
+   <action no="2" sum="180" player="mrsreca" type="15"/>
+   <action no="3" sum="180" player="slickwizard111" type="15"/>
+   <action no="4" sum="180" player="sacaalperro" type="15"/>
+   <action no="5" sum="180" player="j9monster" type="15"/>
+   <action no="6" sum="180" player="MIFFOLOS" type="15"/>
+   <action no="7" sum="180" player="tropeiro123" type="15"/>
+   <action no="8" sum="600" player="FORTHEKIDS22" type="1"/>
+   <action no="9" sum="1,200" player="mrsreca" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="j9monster" type="0"/>
+   <cards player="MIFFOLOS" type="Pocket">CQ C4</cards>
+   <action no="13" sum="2,400" player="MIFFOLOS" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C7 S2</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">DA HA</cards>
+   <action no="16" sum="8,400" player="mrsreca" type="23"/>
+   <action no="17" sum="6,000" player="MIFFOLOS" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S10 S8</cards>
+   <action no="18" sum="14,928" player="mrsreca" type="5"/>
+   <action no="19" sum="14,928" player="MIFFOLOS" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="20" sum="38,812" player="mrsreca" type="5"/>
+   <action no="21" sum="72,332" player="MIFFOLOS" type="7"/>
+   <action no="22" sum="33,520" player="mrsreca" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10560342746">
+  <general>
+   <startdate>2024-02-12 15:30:16</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,820" addon="0" bet="11,745" reg_code="7947802425" name="tropeiro123" win="21,870" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="9,585" reg_code="" name="Nitac500" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="133,165" addon="0" bet="180" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="216,369" addon="0" bet="780" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="103,405" addon="0" bet="1,380" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,508" addon="0" bet="180" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="37,857" addon="0" bet="180" reg_code="" name="j9monster" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="mrsreca" type="15"/>
+   <action no="2" sum="180" player="slickwizard111" type="15"/>
+   <action no="3" sum="180" player="sacaalperro" type="15"/>
+   <action no="4" sum="180" player="j9monster" type="15"/>
+   <action no="5" sum="180" player="tropeiro123" type="15"/>
+   <action no="6" sum="180" player="Nitac500" type="15"/>
+   <action no="7" sum="180" player="FORTHEKIDS22" type="15"/>
+   <action no="8" sum="600" player="mrsreca" type="1"/>
+   <action no="9" sum="1,200" player="slickwizard111" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="j9monster" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 DK</cards>
+   <action no="12" sum="2,520" player="tropeiro123" type="23"/>
+   <cards player="Nitac500" type="Pocket">X X</cards>
+   <action no="13" sum="2,520" player="Nitac500" type="3"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="slickwizard111" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 C2 SK</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="0" player="Nitac500" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="19" sum="6,885" player="tropeiro123" type="5"/>
+   <action no="20" sum="6,885" player="Nitac500" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action no="21" sum="2,160" player="tropeiro123" type="5"/>
+   <action no="22" sum="0" player="Nitac500" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560342830">
+  <general>
+   <startdate>2024-02-12 15:31:59</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="112,105" addon="0" bet="180" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="90,415" addon="0" bet="24,840" reg_code="" name="Nitac500" win="28,080" rebuy="0"/>
+    <player dealer="0" seat="4" chips="132,985" addon="0" bet="3,780" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="215,589" addon="0" bet="10,800" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="102,025" addon="0" bet="780" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,328" addon="0" bet="1,380" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="37,677" addon="0" bet="180" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,400" addon="0" bet="180" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="slickwizard111" type="15"/>
+   <action no="2" sum="180" player="sacaalperro" type="15"/>
+   <action no="3" sum="180" player="j9monster" type="15"/>
+   <action no="4" sum="180" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="180" player="tropeiro123" type="15"/>
+   <action no="6" sum="180" player="Nitac500" type="15"/>
+   <action no="7" sum="180" player="FORTHEKIDS22" type="15"/>
+   <action no="8" sum="180" player="mrsreca" type="15"/>
+   <action no="9" sum="600" player="slickwizard111" type="1"/>
+   <action no="10" sum="1,200" player="sacaalperro" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 S6</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Nitac500" type="Pocket">X X</cards>
+   <action no="14" sum="3,600" player="Nitac500" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="15" sum="3,600" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="16" sum="3,600" player="mrsreca" type="3"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="sacaalperro" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 SQ C9</cards>
+   <action no="19" sum="7,020" player="Nitac500" type="5"/>
+   <action no="20" sum="0" player="FORTHEKIDS22" type="0"/>
+   <action no="21" sum="7,020" player="mrsreca" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" sum="0" player="Nitac500" type="4"/>
+   <action no="23" sum="0" player="mrsreca" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="24" sum="14,040" player="Nitac500" type="5"/>
+   <action no="25" sum="0" player="mrsreca" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560342927">
+  <general>
+   <startdate>2024-02-12 15:33:50</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="111,925" addon="0" bet="180" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="107,695" addon="0" bet="33,840" reg_code="" name="Nitac500" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="129,205" addon="0" bet="180" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="204,789" addon="0" bet="180" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="101,245" addon="0" bet="33,840" reg_code="" name="slickwizard111" win="70,560" rebuy="0"/>
+    <player dealer="0" seat="7" chips="45,948" addon="0" bet="780" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="37,497" addon="0" bet="1,380" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,220" addon="0" bet="180" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="sacaalperro" type="15"/>
+   <action no="2" sum="180" player="j9monster" type="15"/>
+   <action no="3" sum="180" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="180" player="tropeiro123" type="15"/>
+   <action no="5" sum="180" player="Nitac500" type="15"/>
+   <action no="6" sum="180" player="FORTHEKIDS22" type="15"/>
+   <action no="7" sum="180" player="mrsreca" type="15"/>
+   <action no="8" sum="180" player="slickwizard111" type="15"/>
+   <action no="9" sum="600" player="sacaalperro" type="1"/>
+   <action no="10" sum="1,200" player="j9monster" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 H3</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Nitac500" type="Pocket">H5 HK</cards>
+   <action no="13" sum="1,200" player="Nitac500" type="3"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">DK SQ</cards>
+   <action no="16" sum="4,800" player="slickwizard111" type="23"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="j9monster" type="0"/>
+   <action no="19" sum="3,600" player="Nitac500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK S4 CJ</cards>
+   <action no="20" sum="0" player="Nitac500" type="4"/>
+   <action no="21" sum="6,420" player="slickwizard111" type="5"/>
+   <action no="22" sum="6,420" player="Nitac500" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="23" sum="12,840" player="Nitac500" type="5"/>
+   <action no="24" sum="12,840" player="slickwizard111" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="25" sum="9,600" player="Nitac500" type="5"/>
+   <action no="26" sum="9,600" player="slickwizard111" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560343004">
+  <general>
+   <startdate>2024-02-12 15:35:42</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="111,745" addon="0" bet="180" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="73,855" addon="0" bet="69,474" reg_code="" name="Nitac500" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="129,025" addon="0" bet="180" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="204,609" addon="0" bet="2,580" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="137,965" addon="0" bet="2,580" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="45,168" addon="0" bet="180" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="36,117" addon="0" bet="35,937" reg_code="" name="j9monster" win="79,314" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,040" addon="0" bet="1,380" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="j9monster" type="15"/>
+   <action no="2" sum="180" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="180" player="tropeiro123" type="15"/>
+   <action no="4" sum="180" player="Nitac500" type="15"/>
+   <action no="5" sum="180" player="FORTHEKIDS22" type="15"/>
+   <action no="6" sum="180" player="mrsreca" type="15"/>
+   <action no="7" sum="180" player="slickwizard111" type="15"/>
+   <action no="8" sum="180" player="sacaalperro" type="15"/>
+   <action no="9" sum="600" player="j9monster" type="1"/>
+   <action no="10" sum="1,200" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C4 SJ</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Nitac500" type="Pocket">H8 HA</cards>
+   <action no="12" sum="2,400" player="Nitac500" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="14" sum="2,400" player="mrsreca" type="3"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="15" sum="2,400" player="slickwizard111" type="3"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">D6 C10</cards>
+   <action no="17" sum="35,937" player="j9monster" type="23"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="InTrussWeTrust" type="0"/>
+   <action no="19" sum="69,474" player="Nitac500" type="23"/>
+   <action no="20" sum="0" player="mrsreca" type="0"/>
+   <action no="21" sum="0" player="slickwizard111" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 S8 H5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+  </round>
+ </game>
+ <game gamecode="10560343087">
+  <general>
+   <startdate>2024-02-12 15:37:25</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="111,565" addon="0" bet="1,600" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="37,738" addon="0" bet="1,600" reg_code="" name="Nitac500" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="128,845" addon="0" bet="56,427" reg_code="" name="FORTHEKIDS22" win="36,354" rebuy="0"/>
+    <player dealer="0" seat="5" chips="202,029" addon="0" bet="15,827" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="135,385" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,988" addon="0" bet="200" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="79,314" addon="0" bet="200" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="98,660" addon="0" bet="900" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="200" player="tropeiro123" type="15"/>
+   <action no="3" sum="200" player="Nitac500" type="15"/>
+   <action no="4" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="5" sum="200" player="mrsreca" type="15"/>
+   <action no="6" sum="200" player="slickwizard111" type="15"/>
+   <action no="7" sum="200" player="sacaalperro" type="15"/>
+   <action no="8" sum="200" player="j9monster" type="15"/>
+   <action no="9" sum="700" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="1,400" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Nitac500" type="Pocket">X X</cards>
+   <action no="11" sum="1,400" player="Nitac500" type="3"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="12" sum="1,400" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="13" sum="8,400" player="mrsreca" type="23"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ CQ</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="0" player="Nitac500" type="0"/>
+   <action no="20" sum="7,000" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D9 D10</cards>
+   <action no="21" sum="0" player="FORTHEKIDS22" type="4"/>
+   <action no="22" sum="7,227" player="mrsreca" type="5"/>
+   <action no="23" sum="7,227" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action no="24" sum="0" player="FORTHEKIDS22" type="4"/>
+   <action no="25" sum="0" player="mrsreca" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action no="26" sum="40,600" player="FORTHEKIDS22" type="5"/>
+   <action no="27" sum="0" player="mrsreca" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560343167">
+  <general>
+   <startdate>2024-02-12 15:39:07</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="109,965" addon="0" bet="36,138" reg_code="7947802425" name="tropeiro123" win="78,936" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="Nitac500"/>
+    </player>
+    <player dealer="0" seat="2" chips="36,138" addon="0" bet="36,138" reg_code="" name="Nitac500" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="149,372" addon="0" bet="5,660" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="186,202" addon="0" bet="200" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="135,185" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,788" addon="0" bet="200" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,114" addon="0" bet="200" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="97,760" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="tropeiro123" type="15"/>
+   <action no="2" sum="200" player="Nitac500" type="15"/>
+   <action no="3" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="4" sum="200" player="mrsreca" type="15"/>
+   <action no="5" sum="200" player="slickwizard111" type="15"/>
+   <action no="6" sum="200" player="sacaalperro" type="15"/>
+   <action no="7" sum="200" player="j9monster" type="15"/>
+   <action no="8" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="9" sum="700" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,400" player="Nitac500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="11" sum="1,400" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK C4</cards>
+   <action no="17" sum="700" player="tropeiro123" type="3"/>
+   <cards player="Nitac500" type="Pocket">H8 S3</cards>
+   <action no="18" sum="0" player="Nitac500" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 C5 H2</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="4,060" player="Nitac500" type="5"/>
+   <action no="21" sum="4,060" player="FORTHEKIDS22" type="3"/>
+   <action no="22" sum="17,920" player="tropeiro123" type="23"/>
+   <action no="23" sum="34,538" player="Nitac500" type="23"/>
+   <action no="24" sum="0" player="FORTHEKIDS22" type="0"/>
+   <action no="25" sum="16,618" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10560367272">
+  <general>
+   <startdate>2024-02-12 15:41:07</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="152,763" addon="0" bet="200" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="143,712" addon="0" bet="1,600" reg_code="" name="FORTHEKIDS22" win="1,400" rebuy="0"/>
+    <player dealer="0" seat="5" chips="186,002" addon="0" bet="200" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="134,985" addon="0" bet="200" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,588" addon="0" bet="200" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="78,914" addon="0" bet="200" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="97,560" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="2" sum="200" player="mrsreca" type="15"/>
+   <action no="3" sum="200" player="slickwizard111" type="15"/>
+   <action no="4" sum="200" player="sacaalperro" type="15"/>
+   <action no="5" sum="200" player="j9monster" type="15"/>
+   <action no="6" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="200" player="tropeiro123" type="15"/>
+   <action no="8" sum="1,400" player="FORTHEKIDS22" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 D9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560367295">
+  <general>
+   <startdate>2024-02-12 15:41:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="152,563" addon="0" bet="200" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="144,912" addon="0" bet="31,000" reg_code="" name="FORTHEKIDS22" win="22,400" rebuy="0"/>
+    <player dealer="0" seat="5" chips="185,802" addon="0" bet="1,600" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="134,785" addon="0" bet="3,000" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,388" addon="0" bet="200" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="78,714" addon="0" bet="8,600" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="97,360" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="2" sum="200" player="mrsreca" type="15"/>
+   <action no="3" sum="200" player="slickwizard111" type="15"/>
+   <action no="4" sum="200" player="sacaalperro" type="15"/>
+   <action no="5" sum="200" player="j9monster" type="15"/>
+   <action no="6" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="200" player="tropeiro123" type="15"/>
+   <action no="8" sum="700" player="FORTHEKIDS22" type="1"/>
+   <action no="9" sum="1,400" player="mrsreca" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="10" sum="2,800" player="slickwizard111" type="23"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="12" sum="2,800" player="j9monster" type="3"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 S5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="15" sum="2,100" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="mrsreca" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ CK D6</cards>
+   <action no="17" sum="0" player="FORTHEKIDS22" type="4"/>
+   <action no="18" sum="0" player="slickwizard111" type="4"/>
+   <action no="19" sum="0" player="j9monster" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="20" sum="5,600" player="FORTHEKIDS22" type="5"/>
+   <action no="21" sum="0" player="slickwizard111" type="0"/>
+   <action no="22" sum="5,600" player="j9monster" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action no="23" sum="22,400" player="FORTHEKIDS22" type="5"/>
+   <action no="24" sum="0" player="j9monster" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560367391">
+  <general>
+   <startdate>2024-02-12 15:43:31</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="152,363" addon="0" bet="200" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="218,986" addon="0" bet="200" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="158,712" addon="0" bet="200" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="184,202" addon="0" bet="900" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="131,785" addon="0" bet="1,600" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="44,188" addon="0" bet="200" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="70,114" addon="0" bet="26,600" reg_code="" name="j9monster" win="21,620" rebuy="0"/>
+    <player dealer="0" seat="10" chips="97,160" addon="0" bet="9,160" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="mrsreca" type="15"/>
+   <action no="2" sum="200" player="slickwizard111" type="15"/>
+   <action no="3" sum="200" player="sacaalperro" type="15"/>
+   <action no="4" sum="200" player="j9monster" type="15"/>
+   <action no="5" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="200" player="alcazavr" type="15"/>
+   <action no="8" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="9" sum="700" player="mrsreca" type="1"/>
+   <action no="10" sum="1,400" player="slickwizard111" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sacaalperro" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="12" sum="3,080" player="j9monster" type="23"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="8,960" player="InTrussWeTrust" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D7 D6</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="slickwizard111" type="0"/>
+   <action no="19" sum="26,600" player="j9monster" type="23"/>
+   <action no="20" sum="0" player="InTrussWeTrust" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560367454">
+  <general>
+   <startdate>2024-02-12 15:44:49</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="152,163" addon="0" bet="200" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="218,786" addon="0" bet="9,620" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="158,512" addon="0" bet="43,988" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="183,302" addon="0" bet="200" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="130,185" addon="0" bet="900" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,988" addon="0" bet="43,988" reg_code="" name="sacaalperro" win="99,296" rebuy="0"/>
+    <player dealer="0" seat="9" chips="82,574" addon="0" bet="200" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,000" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="slickwizard111" type="15"/>
+   <action no="2" sum="200" player="sacaalperro" type="15"/>
+   <action no="3" sum="200" player="j9monster" type="15"/>
+   <action no="4" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="200" player="tropeiro123" type="15"/>
+   <action no="6" sum="200" player="alcazavr" type="15"/>
+   <action no="7" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="8" sum="200" player="mrsreca" type="15"/>
+   <action no="9" sum="700" player="slickwizard111" type="1"/>
+   <action no="10" sum="1,400" player="sacaalperro" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 H3</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="14" sum="2,800" player="alcazavr" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">CJ DA</cards>
+   <action no="15" sum="2,800" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="slickwizard111" type="0"/>
+   <cards player="sacaalperro" type="Pocket">S10 CQ</cards>
+   <action no="18" sum="1,400" player="sacaalperro" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 HA HJ</cards>
+   <action no="19" sum="0" player="sacaalperro" type="4"/>
+   <action no="20" sum="0" player="alcazavr" type="4"/>
+   <action no="21" sum="2,800" player="FORTHEKIDS22" type="5"/>
+   <action no="22" sum="2,800" player="sacaalperro" type="3"/>
+   <action no="23" sum="2,800" player="alcazavr" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="24" sum="3,820" player="sacaalperro" type="5"/>
+   <action no="25" sum="3,820" player="alcazavr" type="3"/>
+   <action no="26" sum="3,820" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action no="27" sum="34,368" player="sacaalperro" type="5"/>
+   <action no="28" sum="0" player="alcazavr" type="0"/>
+   <action no="29" sum="34,368" player="FORTHEKIDS22" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560367546">
+  <general>
+   <startdate>2024-02-12 15:46:41</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="151,963" addon="0" bet="200" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="209,166" addon="0" bet="200" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="114,524" addon="0" bet="26,400" reg_code="" name="FORTHEKIDS22" win="31,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="183,102" addon="0" bet="3,000" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="129,285" addon="0" bet="3,000" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="99,296" addon="0" bet="10,800" reg_code="" name="sacaalperro" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="82,374" addon="0" bet="3,000" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="87,800" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="sacaalperro" type="15"/>
+   <action no="2" sum="200" player="j9monster" type="15"/>
+   <action no="3" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="200" player="tropeiro123" type="15"/>
+   <action no="5" sum="200" player="alcazavr" type="15"/>
+   <action no="6" sum="200" player="FORTHEKIDS22" type="15"/>
+   <action no="7" sum="200" player="mrsreca" type="15"/>
+   <action no="8" sum="200" player="slickwizard111" type="15"/>
+   <action no="9" sum="700" player="sacaalperro" type="1"/>
+   <action no="10" sum="1,400" player="j9monster" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ C8</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">HA SA</cards>
+   <action no="14" sum="2,800" player="FORTHEKIDS22" type="23"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="15" sum="2,800" player="mrsreca" type="3"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="16" sum="2,800" player="slickwizard111" type="3"/>
+   <cards player="sacaalperro" type="Pocket">X X</cards>
+   <action no="17" sum="2,100" player="sacaalperro" type="3"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="18" sum="1,400" player="j9monster" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 D7 CQ</cards>
+   <action no="19" sum="0" player="sacaalperro" type="4"/>
+   <action no="20" sum="0" player="j9monster" type="4"/>
+   <action no="21" sum="7,800" player="FORTHEKIDS22" type="5"/>
+   <action no="22" sum="0" player="mrsreca" type="0"/>
+   <action no="23" sum="0" player="slickwizard111" type="0"/>
+   <action no="24" sum="7,800" player="sacaalperro" type="3"/>
+   <action no="25" sum="0" player="j9monster" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action no="26" sum="0" player="sacaalperro" type="4"/>
+   <action no="27" sum="15,600" player="FORTHEKIDS22" type="5"/>
+   <action no="28" sum="0" player="sacaalperro" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560367649">
+  <general>
+   <startdate>2024-02-12 15:48:46</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="151,763" addon="0" bet="11,567" reg_code="7947802425" name="tropeiro123" win="31,701" rebuy="0"/>
+    <player dealer="0" seat="2" chips="208,966" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="134,924" addon="0" bet="6,767" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="180,102" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="126,285" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,374" addon="0" bet="1,050" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="87,600" addon="0" bet="11,567" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="j9monster" type="15"/>
+   <action no="2" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="250" player="tropeiro123" type="15"/>
+   <action no="4" sum="250" player="alcazavr" type="15"/>
+   <action no="5" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="6" sum="250" player="mrsreca" type="15"/>
+   <action no="7" sum="250" player="slickwizard111" type="15"/>
+   <action no="8" sum="800" player="j9monster" type="1"/>
+   <action no="9" sum="1,600" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="10" sum="3,360" player="tropeiro123" type="23"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="12" sum="3,360" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="j9monster" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="j9monster" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">DJ D6</cards>
+   <action no="16" sum="1,760" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 SJ H8</cards>
+   <action no="17" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="18" sum="3,157" player="tropeiro123" type="5"/>
+   <action no="19" sum="3,157" player="FORTHEKIDS22" type="3"/>
+   <action no="20" sum="3,157" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="21" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="22" sum="0" player="tropeiro123" type="4"/>
+   <action no="23" sum="0" player="FORTHEKIDS22" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action no="24" sum="4,800" player="InTrussWeTrust" type="5"/>
+   <action no="25" sum="4,800" player="tropeiro123" type="3"/>
+   <action no="26" sum="0" player="FORTHEKIDS22" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560367753">
+  <general>
+   <startdate>2024-02-12 15:50:49</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="171,897" addon="0" bet="78,324" reg_code="7947802425" name="tropeiro123" win="158,948" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="j9monster"/>
+    </player>
+    <player dealer="0" seat="2" chips="208,716" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="128,157" addon="0" bet="250" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="179,852" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="126,035" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="66,700" addon="0" bet="250" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="78,324" addon="0" bet="78,074" reg_code="" name="j9monster" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="76,033" addon="0" bet="1,050" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="250" player="tropeiro123" type="15"/>
+   <action no="3" sum="250" player="alcazavr" type="15"/>
+   <action no="4" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="5" sum="250" player="mrsreca" type="15"/>
+   <action no="6" sum="250" player="slickwizard111" type="15"/>
+   <action no="7" sum="250" player="pupuszerencse" type="15"/>
+   <action no="8" sum="250" player="j9monster" type="15"/>
+   <action no="9" sum="800" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="1,600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="j9monster" type="Pocket">C3 D3</cards>
+   <action no="16" sum="3,520" player="j9monster" type="23"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ HK</cards>
+   <action no="18" sum="15,040" player="tropeiro123" type="23"/>
+   <action no="19" sum="78,074" player="j9monster" type="23"/>
+   <action no="20" sum="63,034" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 HJ H10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+  </round>
+ </game>
+ <game gamecode="10560399098">
+  <general>
+   <startdate>2024-02-12 15:52:21</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="252,521" addon="0" bet="1,850" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="208,466" addon="0" bet="5,125" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="127,907" addon="0" bet="18,225" reg_code="" name="FORTHEKIDS22" win="13,100" rebuy="0"/>
+    <player dealer="0" seat="5" chips="179,602" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,785" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="66,450" addon="0" bet="250" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="74,983" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tropeiro123" type="15"/>
+   <action no="2" sum="250" player="alcazavr" type="15"/>
+   <action no="3" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="4" sum="250" player="mrsreca" type="15"/>
+   <action no="5" sum="250" player="slickwizard111" type="15"/>
+   <action no="6" sum="250" player="pupuszerencse" type="15"/>
+   <action no="7" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="8" sum="800" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,600" player="alcazavr" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="10" sum="1,600" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 SQ</cards>
+   <action no="15" sum="800" player="tropeiro123" type="3"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="alcazavr" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 D3 C6</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="0" player="alcazavr" type="4"/>
+   <action no="19" sum="3,275" player="FORTHEKIDS22" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="3,275" player="alcazavr" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action no="22" sum="0" player="alcazavr" type="4"/>
+   <action no="23" sum="13,100" player="FORTHEKIDS22" type="5"/>
+   <action no="24" sum="0" player="alcazavr" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399162">
+  <general>
+   <startdate>2024-02-12 15:53:30</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" seat="1" chips="250,671" addon="0" bet="250" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="203,341" addon="0" bet="3,450" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="135,882" addon="0" bet="6,650" reg_code="" name="FORTHEKIDS22" win="8,150" rebuy="0"/>
+    <player dealer="0" seat="5" chips="179,352" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,535" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="66,200" addon="0" bet="250" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,733" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="alcazavr" type="15"/>
+   <action no="2" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="3" sum="250" player="mrsreca" type="15"/>
+   <action no="4" sum="250" player="slickwizard111" type="15"/>
+   <action no="5" sum="250" player="pupuszerencse" type="15"/>
+   <action no="6" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="800" player="alcazavr" type="1"/>
+   <action no="9" sum="1,600" player="FORTHEKIDS22" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 H9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="15" sum="800" player="alcazavr" type="3"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FORTHEKIDS22" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 HJ CA</cards>
+   <action no="17" sum="1,600" player="alcazavr" type="5"/>
+   <action no="18" sum="1,600" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action no="19" sum="0" player="alcazavr" type="4"/>
+   <action no="20" sum="3,200" player="FORTHEKIDS22" type="5"/>
+   <action no="21" sum="0" player="alcazavr" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399211">
+  <general>
+   <startdate>2024-02-12 15:54:28</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="250,421" addon="0" bet="250" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="199,891" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="140,582" addon="0" bet="3,200" reg_code="" name="FORTHEKIDS22" win="5,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="179,102" addon="0" bet="1,850" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,285" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="65,950" addon="0" bet="250" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="100,000" addon="0" bet="250" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,483" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="2" sum="250" player="mrsreca" type="15"/>
+   <action no="3" sum="250" player="slickwizard111" type="15"/>
+   <action no="4" sum="250" player="pupuszerencse" type="15"/>
+   <action no="5" sum="250" player="BenDover1132" type="15"/>
+   <action no="6" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="250" player="alcazavr" type="15"/>
+   <action no="9" sum="800" player="FORTHEKIDS22" type="1"/>
+   <action no="10" sum="1,600" player="mrsreca" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BenDover1132" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 H5</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="17" sum="3,200" player="FORTHEKIDS22" type="23"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="mrsreca" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399302">
+  <general>
+   <startdate>2024-02-12 16:02:18</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="250,171" addon="0" bet="250" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="199,641" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="143,932" addon="0" bet="250" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="177,252" addon="0" bet="1,050" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="125,035" addon="0" bet="1,850" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="65,700" addon="0" bet="3,200" reg_code="" name="pupuszerencse" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="9" chips="99,750" addon="0" bet="250" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="74,233" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="mrsreca" type="15"/>
+   <action no="2" sum="250" player="slickwizard111" type="15"/>
+   <action no="3" sum="250" player="pupuszerencse" type="15"/>
+   <action no="4" sum="250" player="BenDover1132" type="15"/>
+   <action no="5" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="250" player="tropeiro123" type="15"/>
+   <action no="7" sum="250" player="alcazavr" type="15"/>
+   <action no="8" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="9" sum="800" player="mrsreca" type="1"/>
+   <action no="10" sum="1,600" player="slickwizard111" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="11" sum="3,200" player="pupuszerencse" type="23"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BenDover1132" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 D2</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="slickwizard111" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399339">
+  <general>
+   <startdate>2024-02-12 16:03:02</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="249,921" addon="0" bet="250" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="199,391" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="143,682" addon="0" bet="250" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="176,202" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,185" addon="0" bet="1,050" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="69,850" addon="0" bet="1,850" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="99,500" addon="0" bet="4,800" reg_code="" name="BenDover1132" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,983" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="slickwizard111" type="15"/>
+   <action no="2" sum="250" player="pupuszerencse" type="15"/>
+   <action no="3" sum="250" player="BenDover1132" type="15"/>
+   <action no="4" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="alcazavr" type="15"/>
+   <action no="7" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="8" sum="250" player="mrsreca" type="15"/>
+   <action no="9" sum="800" player="slickwizard111" type="1"/>
+   <action no="10" sum="1,600" player="pupuszerencse" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="11" sum="4,800" player="BenDover1132" type="23"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 CQ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="pupuszerencse" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399366">
+  <general>
+   <startdate>2024-02-12 16:03:34</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="249,671" addon="0" bet="250" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="199,141" addon="0" bet="250" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="143,432" addon="0" bet="250" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="175,952" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="122,135" addon="0" bet="250" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="68,000" addon="0" bet="11,450" reg_code="" name="pupuszerencse" win="11,600" rebuy="0"/>
+    <player dealer="0" seat="9" chips="103,650" addon="0" bet="5,050" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,733" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="pupuszerencse" type="15"/>
+   <action no="2" sum="250" player="BenDover1132" type="15"/>
+   <action no="3" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="250" player="tropeiro123" type="15"/>
+   <action no="5" sum="250" player="alcazavr" type="15"/>
+   <action no="6" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="7" sum="250" player="mrsreca" type="15"/>
+   <action no="8" sum="250" player="slickwizard111" type="15"/>
+   <action no="9" sum="800" player="pupuszerencse" type="1"/>
+   <action no="10" sum="1,600" player="BenDover1132" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ H8</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="alcazavr" type="0"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="17" sum="800" player="pupuszerencse" type="3"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="BenDover1132" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 HQ C2</cards>
+   <action no="19" sum="1,600" player="pupuszerencse" type="5"/>
+   <action no="20" sum="3,200" player="BenDover1132" type="23"/>
+   <action no="21" sum="9,600" player="pupuszerencse" type="23"/>
+   <action no="22" sum="0" player="BenDover1132" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399448">
+  <general>
+   <startdate>2024-02-12 16:05:00</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="249,421" addon="0" bet="29,370" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="198,891" addon="0" bet="69,370" reg_code="" name="alcazavr" win="91,760" rebuy="0"/>
+    <player dealer="0" seat="4" chips="143,182" addon="0" bet="250" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="175,702" addon="0" bet="250" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="121,885" addon="0" bet="29,370" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="74,550" addon="0" bet="250" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="98,600" addon="0" bet="1,050" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="73,483" addon="0" bet="1,850" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="BenDover1132" type="15"/>
+   <action no="2" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="250" player="tropeiro123" type="15"/>
+   <action no="4" sum="250" player="alcazavr" type="15"/>
+   <action no="5" sum="250" player="FORTHEKIDS22" type="15"/>
+   <action no="6" sum="250" player="mrsreca" type="15"/>
+   <action no="7" sum="250" player="slickwizard111" type="15"/>
+   <action no="8" sum="250" player="pupuszerencse" type="15"/>
+   <action no="9" sum="800" player="BenDover1132" type="1"/>
+   <action no="10" sum="1,600" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D9 D7</cards>
+   <action no="11" sum="3,360" player="tropeiro123" type="23"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="12" sum="13,120" player="alcazavr" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FORTHEKIDS22" type="0"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="15" sum="13,120" player="slickwizard111" type="3"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BenDover1132" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="InTrussWeTrust" type="0"/>
+   <action no="19" sum="9,760" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 SK H5</cards>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="16,000" player="alcazavr" type="5"/>
+   <action no="22" sum="16,000" player="slickwizard111" type="3"/>
+   <action no="23" sum="16,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action no="24" sum="0" player="tropeiro123" type="4"/>
+   <action no="25" sum="0" player="alcazavr" type="4"/>
+   <action no="26" sum="0" player="slickwizard111" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+   <action no="27" sum="0" player="tropeiro123" type="4"/>
+   <action no="28" sum="40,000" player="alcazavr" type="5"/>
+   <action no="29" sum="0" player="slickwizard111" type="0"/>
+   <action no="30" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560399574">
+  <general>
+   <startdate>2024-02-12 16:07:14</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="220,051" addon="0" bet="2,075" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="261,281" addon="0" bet="261,006" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="142,932" addon="0" bet="5,675" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="175,452" addon="0" bet="275" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,515" addon="0" bet="275" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="74,300" addon="0" bet="74,300" reg_code="" name="pupuszerencse" win="158,350" rebuy="0"/>
+    <player dealer="1" seat="9" chips="97,550" addon="0" bet="275" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="71,633" addon="0" bet="1,175" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="275" player="tropeiro123" type="15"/>
+   <action no="3" sum="275" player="alcazavr" type="15"/>
+   <action no="4" sum="275" player="FORTHEKIDS22" type="15"/>
+   <action no="5" sum="275" player="mrsreca" type="15"/>
+   <action no="6" sum="275" player="slickwizard111" type="15"/>
+   <action no="7" sum="275" player="pupuszerencse" type="15"/>
+   <action no="8" sum="275" player="BenDover1132" type="15"/>
+   <action no="9" sum="900" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="1,800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazavr" type="Pocket">CK SK</cards>
+   <action no="11" sum="5,400" player="alcazavr" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="12" sum="5,400" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="mrsreca" type="0"/>
+   <cards player="slickwizard111" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="slickwizard111" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">HJ DJ</cards>
+   <action no="15" sum="25,200" player="pupuszerencse" type="23"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BenDover1132" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 S4</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="261,006" player="alcazavr" type="23"/>
+   <action no="20" sum="0" player="FORTHEKIDS22" type="0"/>
+   <action no="21" sum="48,825" player="pupuszerencse" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D4 H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+  </round>
+ </game>
+ <game gamecode="10560422575">
+  <general>
+   <startdate>2024-02-12 16:08:33</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="217,976" addon="0" bet="1,175" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="186,981" addon="0" bet="186,706" reg_code="" name="alcazavr" win="149,033" rebuy="0">
+     <knockout tobalance="€2.28" tobounty="€2.27" kicked="slickwizard111"/>
+    </player>
+    <player dealer="0" seat="4" chips="137,257" addon="0" bet="2,075" reg_code="" name="FORTHEKIDS22" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="175,177" addon="0" bet="7,475" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,240" addon="0" bet="92,240" reg_code="" name="slickwizard111" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="158,350" addon="0" bet="275" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="97,275" addon="0" bet="97,275" reg_code="" name="BenDover1132" win="149,032" rebuy="0">
+     <knockout tobalance="€2.28" tobounty="€2.27" kicked="slickwizard111"/>
+    </player>
+    <player dealer="1" seat="10" chips="70,458" addon="0" bet="275" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="tropeiro123" type="15"/>
+   <action no="2" sum="275" player="alcazavr" type="15"/>
+   <action no="3" sum="275" player="FORTHEKIDS22" type="15"/>
+   <action no="4" sum="275" player="mrsreca" type="15"/>
+   <action no="5" sum="275" player="slickwizard111" type="15"/>
+   <action no="6" sum="275" player="pupuszerencse" type="15"/>
+   <action no="7" sum="275" player="BenDover1132" type="15"/>
+   <action no="8" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="9" sum="900" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,800" player="alcazavr" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="11" sum="1,800" player="FORTHEKIDS22" type="3"/>
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="12" sum="7,200" player="mrsreca" type="23"/>
+   <cards player="slickwizard111" type="Pocket">SQ S10</cards>
+   <action no="13" sum="28,800" player="slickwizard111" type="23"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="BenDover1132" type="Pocket">HK HA</cards>
+   <action no="15" sum="28,800" player="BenDover1132" type="3"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H6</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">DK CA</cards>
+   <action no="18" sum="186,706" player="alcazavr" type="23"/>
+   <action no="19" sum="0" player="FORTHEKIDS22" type="0"/>
+   <action no="20" sum="0" player="mrsreca" type="0"/>
+   <action no="21" sum="63,165" player="slickwizard111" type="7"/>
+   <action no="22" sum="68,200" player="BenDover1132" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 SJ DA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+ <game gamecode="10560422651">
+  <general>
+   <startdate>2024-02-12 16:09:59</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" seat="1" chips="216,801" addon="0" bet="275" reg_code="7947802425" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="238,739" addon="0" bet="23,423" reg_code="" name="alcazavr" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="135,182" addon="0" bet="88,223" reg_code="" name="FORTHEKIDS22" win="48,221" rebuy="0"/>
+    <player dealer="0" seat="5" chips="167,702" addon="0" bet="275" reg_code="" name="mrsreca" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="158,075" addon="0" bet="275" reg_code="" name="pupuszerencse" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="149,032" addon="0" bet="275" reg_code="" name="BenDover1132" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="70,183" addon="0" bet="275" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="alcazavr" type="15"/>
+   <action no="2" sum="275" player="FORTHEKIDS22" type="15"/>
+   <action no="3" sum="275" player="mrsreca" type="15"/>
+   <action no="4" sum="275" player="pupuszerencse" type="15"/>
+   <action no="5" sum="275" player="BenDover1132" type="15"/>
+   <action no="6" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="275" player="tropeiro123" type="15"/>
+   <action no="8" sum="900" player="alcazavr" type="1"/>
+   <action no="9" sum="1,800" player="FORTHEKIDS22" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mrsreca" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="mrsreca" type="0"/>
+   <cards player="pupuszerencse" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pupuszerencse" type="0"/>
+   <cards player="BenDover1132" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BenDover1132" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 S5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="alcazavr" type="Pocket">X X</cards>
+   <action no="15" sum="6,300" player="alcazavr" type="23"/>
+   <cards player="FORTHEKIDS22" type="Pocket">X X</cards>
+   <action no="16" sum="4,500" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ C7 S3</cards>
+   <action no="17" sum="4,793" player="alcazavr" type="5"/>
+   <action no="18" sum="4,793" player="FORTHEKIDS22" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action no="19" sum="0" player="alcazavr" type="4"/>
+   <action no="20" sum="12,055" player="FORTHEKIDS22" type="5"/>
+   <action no="21" sum="12,055" player="alcazavr" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action no="22" sum="0" player="alcazavr" type="4"/>
+   <action no="23" sum="64,800" player="FORTHEKIDS22" type="5"/>
+   <action no="24" sum="0" player="alcazavr" type="0"/>
+  </round>
+ </game>
+</session>

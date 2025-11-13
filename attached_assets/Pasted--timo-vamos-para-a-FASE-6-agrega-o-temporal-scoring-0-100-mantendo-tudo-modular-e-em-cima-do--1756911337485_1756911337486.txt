@@ -1,0 +1,617 @@
+Ótimo — vamos para a FASE 6: agregação temporal + scoring 0–100, mantendo tudo modular e em cima do que já tens (Fases 1–5).
+E já te digo quando terás uma interface “clicável” para experimentar.
+
+🎯 Objetivos da Fase 6
+
+Time‑decay mensal 50/30/20 nos últimos 3 meses (2 meses → 50/50, 1 mês → 100%).
+
+Combinação NON‑KO (9‑max + 6‑max) ponderada por amostra (por omissão, opportunities da própria stat; configurável para “hands”).
+
+Scoring 0–100 por stat → sub‑grupo → grupo → global, com:
+
+ideal por stat (por grupo),
+
+degraus assimétricos (ex.: -2% abaixo → −10 pts, +4% acima → −10 pts),
+
+penalizações editáveis (step up/down e pontos por step),
+
+mínimos de amostra (ex.: opps < 50 ⇒ “NA/insuficiente”).
+
+Outputs: scores/scorecard.json (+ meta e pesos usados).
+
+APIs & UI: endpoints para recalcular e um painel “Playground” simples para testar pesos/ideais.
+
+Nota: Nesta fase, o scoring cobre RFI (as 4 stats). Os restantes sub‑grupos entram nas próximas fases, mas a infraestrutura já fica pronta.
+
+🧩 Estrutura nova (não reescreve nada anterior)
+app/score/
+  __init__.py
+  config.yml         # pesos, ideais, passos, time‑decay
+  loader.py          # ler/escrever config
+  time_decay.py      # 50/30/20 e 50/50 e 100%
+  combine.py         # NON‑KO 9+6 por amostra (opps|hands)
+  scoring.py         # funções de scoring (step/linear), mínimos de amostra
+  runner.py          # orquestra: lê stats/stat_counts.json → scores/scorecard.json
+templates/
+  scoring.html       # Playground simples (opcional mas recomendado já nesta fase)
+static/
+  scoring.js         # Chama /api/score/* e atualiza a UI
+
+PROMPTS (cola por ordem no agent)
+✅ PROMPT 6.A — Criar pasta e ficheiros base
+
+Criar:
+
+app/score/__init__.py
+app/score/config.yml
+app/score/loader.py
+app/score/time_decay.py
+app/score/combine.py
+app/score/scoring.py
+app/score/runner.py
+
+
+Não alterar nada das Fases 1–5.
+
+✅ PROMPT 6.B — Configuração default (editável) app/score/config.yml
+version: 1
+
+time_decay:
+  # Últimos 3 meses: 50/30/20. Com 2 meses: 50/50. Com 1 mês: 100%.
+  weights_3: [0.5, 0.3, 0.2]
+  weights_2: [0.5, 0.5]
+  weights_1: [1.0]
+  # Se um mês não tiver oportunidades, ignora-o e re-normaliza os pesos.
+
+nonko_combine:
+  by: opportunities   # opportunities | hands
+
+scoring:
+  mode: step          # step | linear (step segue o teu exemplo de “saltos”)
+  default:
+    step_down_pct: 2.0           # % abaixo do ideal por “degrau”
+    step_up_pct: 4.0             # % acima do ideal por “degrau”
+    points_per_step_down: 10     # -10 por degrau abaixo
+    points_per_step_up: 10       # -10 por degrau acima
+    min_opportunities: 50        # amostra mínima por stat para ter nota
+    min_hands: 300               # (se algum scoring usar “hands”)
+
+weights:
+  # Peso de cada grupo no score final (podes ajustar depois)
+  groups:
+    nonko_pref: 0.5
+    pko_pref: 0.25
+    postflop_all: 0.25
+
+  # Peso de cada sub‑grupo dentro do grupo (por ora, só RFI)
+  subgroups:
+    RFI: 1.0
+
+  # Peso de cada stat dentro do sub‑grupo RFI
+  stats:
+    RFI_EARLY: 0.25
+    RFI_MIDDLE: 0.25
+    RFI_CO_STEAL: 0.25
+    RFI_BTN_STEAL: 0.25
+
+# Ideais (placeholders — ajusta na UI)
+ideals:
+  RFI_EARLY:
+    nonko_9max_pref: 19.0
+    nonko_6max_pref: 21.0
+    pko_pref: 20.0
+  RFI_MIDDLE:
+    nonko_9max_pref: 19.0
+    nonko_6max_pref: 21.0
+    pko_pref: 20.0
+  RFI_CO_STEAL:
+    nonko_9max_pref: 35.0
+    nonko_6max_pref: 37.0
+    pko_pref: 36.0
+  RFI_BTN_STEAL:
+    nonko_9max_pref: 45.0
+    nonko_6max_pref: 47.0
+    pko_pref: 46.0
+
+✅ PROMPT 6.C — Loader & time‑decay
+
+app/score/loader.py
+
+import os, yaml, json
+
+DEFAULT_CFG = "app/score/config.yml"
+
+def load_config(path: str = DEFAULT_CFG) -> dict:
+    with open(path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)
+
+def save_config(cfg: dict, path: str = DEFAULT_CFG) -> None:
+    with open(path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(cfg, f, sort_keys=False, allow_unicode=True)
+
+
+app/score/time_decay.py
+
+from typing import List, Tuple
+
+def weights_for_n(n: int, w3: List[float], w2: List[float], w1: List[float]) -> List[float]:
+    if n >= 3: return w3[:3]
+    if n == 2: return w2[:2]
+    return w1[:1]
+
+def apply_time_decay(values: List[Tuple[float, float]], weights: List[float]) -> float:
+    """
+    values: lista dos últimos n valores [ (valor, peso_local) ], mais recente primeiro.
+            Ex: (score_mes, 1.0) ou (pct_mes, 1.0). O peso_local permite ignorar meses sem amostra (0).
+    weights: pesos recency (ex.: [0.5,0.3,0.2]).
+
+    Retorna média ponderada por recency (re-normaliza só nos meses com peso_local > 0).
+    """
+    usable = [(v, w) for (v, w) in zip(values, weights) if v[1] > 0]
+    if not usable: return 0.0
+    # re-normaliza
+    total_w = sum(w for (_, w) in usable)
+    return sum(v * w for ((v, _), w) in usable) / total_w
+
+✅ PROMPT 6.D — Combinação NON‑KO & pontes com stat_counts
+
+app/score/combine.py
+
+from typing import Dict, Tuple
+
+NONKO_9 = "nonko_9max_pref"
+NONKO_6 = "nonko_6max_pref"
+
+def combine_nonko_stat(stat_counts: dict, month: str, stat_id: str, by: str = "opportunities") -> Tuple[int, int, float]:
+    """
+    Combina 9max e 6max para NON‑KO por 'by' (opportunities|hands).
+    Retorna (opp_total, att_total, pct).
+    """
+    g9 = stat_counts.get("counts", {}).get(month, {}).get(NONKO_9, {}).get(stat_id)
+    g6 = stat_counts.get("counts", {}).get(month, {}).get(NONKO_6, {}).get(stat_id)
+    o9 = (g9 or {}).get("opportunities", 0); a9 = (g9 or {}).get("attempts", 0)
+    o6 = (g6 or {}).get("opportunities", 0); a6 = (g6 or {}).get("attempts", 0)
+
+    # opportunities é o padrão; "hands" exigiria outro input (partitions) — deixamos hook.
+    if by == "opportunities":
+        o = o9 + o6; a = a9 + a6
+        pct = (a / o * 100.0) if o > 0 else 0.0
+        return o, a, pct
+    else:
+        # fallback: usa opportunities como proxy de “hands”
+        o = o9 + o6; a = a9 + a6
+        pct = (a / o * 100.0) if o > 0 else 0.0
+        return o, a, pct
+
+✅ PROMPT 6.E — Scoring (step e linear)
+
+app/score/scoring.py
+
+import math
+from typing import Optional
+
+def score_step(actual_pct: float, ideal_pct: float,
+               step_down_pct: float, step_up_pct: float,
+               points_per_step_down: float, points_per_step_up: float) -> float:
+    """
+    Scoring por degraus (saltos). Ex.: 2% down -> -10 pts, 4% up -> -10 pts.
+    Usa ceil de passos.
+    """
+    diff = actual_pct - ideal_pct
+    if diff >= 0:
+        steps = math.ceil(diff / max(step_up_pct, 1e-9))
+        penalty = steps * points_per_step_up
+    else:
+        steps = math.ceil((-diff) / max(step_down_pct, 1e-9))
+        penalty = steps * points_per_step_down
+    return max(0.0, 100.0 - penalty)
+
+def score_linear(actual_pct: float, ideal_pct: float,
+                 step_down_pct: float, step_up_pct: float,
+                 points_per_step_down: float, points_per_step_up: float) -> float:
+    """
+    Alternativa linear: penalidade proporcional (sem degraus).
+    """
+    diff = actual_pct - ideal_pct
+    if diff >= 0:
+        penalty = (diff / max(step_up_pct, 1e-9)) * points_per_step_up
+    else:
+        penalty = ((-diff) / max(step_down_pct, 1e-9)) * points_per_step_down
+    return max(0.0, 100.0 - penalty)
+
+def pick_scorer(mode: str):
+    return score_step if (mode or "step") == "step" else score_linear
+
+✅ PROMPT 6.F — Runner (gera scores/scorecard.json)
+
+app/score/runner.py
+
+import os, json
+from collections import defaultdict
+from datetime import datetime
+from typing import Dict, List
+from app.score.loader import load_config
+from app.score.time_decay import weights_for_n, apply_time_decay
+from app.score.combine import combine_nonko_stat, NONKO_6, NONKO_9
+from app.score.scoring import pick_scorer
+
+NONKO_COMBINED = "nonko_pref"
+
+def _months_sorted(counts: dict) -> List[str]:
+    # counts = data["counts"] com chaves "YYYY-MM"
+    ms = list(counts.keys())
+    ms.sort()          # ascendente
+    ms = ms[::-1]      # mais recente primeiro
+    return ms
+
+def build_scorecard(stat_counts_path: str, cfg_path: str, out_dir: str = "scores") -> Dict:
+    os.makedirs(out_dir, exist_ok=True)
+    data = json.load(open(stat_counts_path, "r", encoding="utf-8"))
+    counts = data.get("counts", {}) or {}
+
+    cfg = load_config(cfg_path)
+    w3 = cfg["time_decay"]["weights_3"]; w2 = cfg["time_decay"]["weights_2"]; w1 = cfg["time_decay"]["weights_1"]
+    combine_by = cfg["nonko_combine"]["by"]
+    sc = cfg["scoring"]; mode = sc.get("mode","step"); defaults = sc["default"]
+    scorer = pick_scorer(mode)
+
+    ideals = cfg["ideals"]
+    w_groups = cfg["weights"]["groups"]
+    w_subgroups = cfg["weights"]["subgroups"]
+    w_stats = cfg["weights"]["stats"]
+
+    months = _months_sorted(counts)   # do mais recente ao mais antigo
+
+    # 1) Agregação temporal por stat/group → % e score
+    stat_level = defaultdict(dict)    # stat_id -> group -> {...}
+    for stat_id, ideal_map in ideals.items():
+        for group in [NONKO_9, NONKO_6, "pko_pref"]:
+            # coleciona últimos 3 meses com opp>0
+            per_month = []
+            for m in months:
+                gnode = counts.get(m, {}).get(group, {}).get(stat_id)
+                if not gnode: continue
+                opp = gnode.get("opportunities", 0)
+                pct = gnode.get("percentage", 0.0)
+                per_month.append((pct, 1.0 if opp > 0 else 0.0))
+                if len(per_month) == 3: break
+            if not per_month:
+                continue
+            ws = weights_for_n(len(per_month), w3, w2, w1)
+            pct_td = apply_time_decay(per_month, ws)
+            # score mensal → primeiro calcula score de cada mês, depois time‑decay sobre scores
+            per_month_scores = []
+            for i, (pct, usable) in enumerate(per_month):
+                if usable <= 0: per_month_scores.append((0.0, 0.0)); continue
+                ideal = ideal_map.get(group, ideal_map.get(NONKO_COMBINED))
+                s = scorer(pct, ideal,
+                           defaults["step_down_pct"], defaults["step_up_pct"],
+                           defaults["points_per_step_down"], defaults["points_per_step_up"])
+                per_month_scores.append((s, 1.0))
+            score_td = apply_time_decay(per_month_scores, ws)
+
+            stat_level[stat_id][group] = {
+                "pct_time_decay": round(pct_td, 2),
+                "score_time_decay": round(score_td, 2),
+                "months_used": len(per_month)
+            }
+
+        # NON‑KO combinado (9+6) por amostra (mês a mês → depois TD)
+        per_month_combined = []
+        per_month_combined_scores = []
+        for m in months:
+            o, a, pct = combine_nonko_stat(data, m, stat_id, by=combine_by)
+            if o <= 0:  # sem amostra
+                continue
+            per_month_combined.append((pct, 1.0))
+            ideal = ideal_map.get(NONKO_COMBINED, 
+                                  ideal_map.get(NONKO_9, 0))
+            s = scorer(pct, ideal,
+                       defaults["step_down_pct"], defaults["step_up_pct"],
+                       defaults["points_per_step_down"], defaults["points_per_step_up"])
+            per_month_combined_scores.append((s, 1.0))
+            if len(per_month_combined) == 3: break
+
+        if per_month_combined:
+            ws = weights_for_n(len(per_month_combined), w3, w2, w1)
+            pct_td = apply_time_decay(per_month_combined, ws)
+            score_td = apply_time_decay(per_month_combined_scores, ws)
+            stat_level[stat_id][NONKO_COMBINED] = {
+                "pct_time_decay": round(pct_td, 2),
+                "score_time_decay": round(score_td, 2),
+                "months_used": len(per_month_combined)
+            }
+
+    # 2) Sub‑grupo RFI por group (média ponderada por pesos de stat)
+    subgroup_level = {"RFI": {}}
+    for group in [NONKO_COMBINED, NONKO_9, NONKO_6, "pko_pref"]:
+        vals = []
+        for sid in ["RFI_EARLY","RFI_MIDDLE","RFI_CO_STEAL","RFI_BTN_STEAL"]:
+            srec = stat_level.get(sid, {}).get(group)
+            if not srec: continue
+            w = w_stats.get(sid, 0.0)
+            vals.append((srec["score_time_decay"], w))
+        if vals and sum(w for _, w in vals) > 0:
+            num = sum(v*w for v,w in vals); den = sum(w for _,w in vals)
+            subgroup_level["RFI"][group] = round(num/den, 2)
+
+    # 3) Scores de grupo (aplica pesos de sub‑grupo)
+    group_level = {}
+    for group in [NONKO_COMBINED, "pko_pref", "postflop_all"]:
+        rfi = subgroup_level["RFI"].get(group)
+        if rfi is None: continue
+        s = rfi * w_subgroups.get("RFI", 1.0)
+        group_level[group] = round(s, 2)
+
+    # 4) Score final (aplica pesos de grupo)
+    overall = None
+    if group_level:
+        parts = []
+        for g, s in group_level.items():
+            wg = w_groups.get(g, 0.0)
+            parts.append((s, wg))
+        if sum(w for _,w in parts) > 0:
+            overall = round(sum(v*w for v,w in parts)/sum(w for _,w in parts), 2)
+
+    out = {
+        "generated_at": datetime.utcnow().isoformat()+"Z",
+        "inputs": {"stat_counts": stat_counts_path, "config": cfg_path},
+        "weights": cfg["weights"],
+        "time_decay": cfg["time_decay"],
+        "nonko_combine_by": combine_by,
+        "stat_level": stat_level,      # pct & score time-decay por stat×group
+        "subgroup_level": subgroup_level,
+        "group_level": group_level,
+        "overall": overall
+    }
+    out_path = os.path.join(out_dir, "scorecard.json")
+    json.dump(out, open(out_path,"w",encoding="utf-8"), ensure_ascii=False, indent=2)
+    return {"scorecard_path": out_path, "overall": overall}
+
+✅ PROMPT 6.G — Endpoints e CLI
+
+CLI (adicionar em app/score/runner.py):
+
+import argparse, os
+from app.score.runner import build_scorecard as _build
+
+def main():
+    ap = argparse.ArgumentParser(description="Build scorecard (time-decay + scoring)")
+    ap.add_argument("--stats", dest="stat_counts", default="stats/stat_counts.json")
+    ap.add_argument("--cfg", dest="cfg_path", default="app/score/config.yml")
+    ap.add_argument("--out", dest="out_dir", default="scores")
+    args = ap.parse_args()
+    res = _build(args.stat_counts, args.cfg_path, args.out_dir)
+    print(res)
+
+if __name__ == "__main__":
+    main()
+
+
+Endpoints (adicionar no Flask, sem tocar no que existe):
+
+# POST /api/score/build
+@app.route('/api/score/build', methods=['POST'])
+def api_score_build():
+    data = request.get_json(force=True) if request.is_json else {}
+    stat_counts = data.get("stat_counts", "stats/stat_counts.json")
+    cfg_path    = data.get("cfg_path", "app/score/config.yml")
+    out_dir     = data.get("out_dir", "scores")
+    res = app.score.runner.build_scorecard(stat_counts, cfg_path, out_dir)
+    return jsonify({"success": True, **res})
+
+# GET /api/score/summary?path=scores/scorecard.json
+@app.route('/api/score/summary', methods=['GET'])
+def api_score_summary():
+    path = request.args.get("path","scores/scorecard.json")
+    if not os.path.exists(path): return jsonify({"error":"scorecard not found"}), 404
+    return jsonify(json.load(open(path,"r",encoding="utf-8")))
+
+# GET /api/score/config
+@app.route('/api/score/config', methods=['GET'])
+def api_score_config_get():
+    from app.score.loader import load_config
+    cfg = load_config()
+    return jsonify(cfg)
+
+# POST /api/score/config (grava config)
+@app.route('/api/score/config', methods=['POST'])
+def api_score_config_post():
+    from app.score.loader import save_config
+    data = request.get_json(force=True)
+    save_config(data)
+    return jsonify({"success": True})
+
+✅ PROMPT 6.H — UI “Playground” (mínimo viável já nesta fase)
+
+Quando terás interface?
+👉 Nesta própria Fase 6, entregamos um painel simples para experimentares ideais, saltos e pesos em tempo real.
+
+Criar templates/scoring.html:
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Scoring Playground</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    .row { display:flex; gap:16px; margin-bottom:12px; flex-wrap:wrap; }
+    .card { border:1px solid #ccc; border-radius:8px; padding:16px; min-width:280px; }
+    input[type=number] { width:100px; }
+    table { border-collapse: collapse; width:100%; }
+    th, td { border:1px solid #ddd; padding:8px; text-align:right; }
+    th { background:#f6f6f6; }
+  </style>
+</head>
+<body>
+  <h1>Scoring Playground</h1>
+  <div class="row">
+    <button id="load">Carregar Config</button>
+    <button id="save">Guardar Config</button>
+    <button id="rebuild">Recalcular Scorecard</button>
+  </div>
+
+  <div class="row">
+    <div class="card">
+      <h3>Time‑decay</h3>
+      <div>3 meses: <input id="w3_0" type="number" step="0.01"> <input id="w3_1" type="number" step="0.01"> <input id="w3_2" type="number" step="0.01"></div>
+      <div>2 meses: <input id="w2_0" type="number" step="0.01"> <input id="w2_1" type="number" step="0.01"></div>
+      <div>1 mês : <input id="w1_0" type="number" step="0.01"></div>
+    </div>
+    <div class="card">
+      <h3>Scoring (saltos)</h3>
+      <div>Step down %: <input id="sd" type="number" step="0.1"></div>
+      <div>Step up %: <input id="su" type="number" step="0.1"></div>
+      <div>Pontos/step down: <input id="psd" type="number" step="1"></div>
+      <div>Pontos/step up: <input id="psu" type="number" step="1"></div>
+      <div>Min opps: <input id="minopp" type="number" step="1"></div>
+    </div>
+    <div class="card">
+      <h3>Peso de grupos</h3>
+      <div>NON‑KO: <input id="wg_nonko" type="number" step="0.01"></div>
+      <div>PKO: <input id="wg_pko" type="number" step="0.01"></div>
+      <div>POSTFLOP: <input id="wg_post" type="number" step="0.01"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Ideais RFI</h3>
+    <table id="ideals">
+      <thead>
+        <tr><th style="text-align:left">Stat</th><th>nonko_9max</th><th>nonko_6max</th><th>pko</th></tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Resultados (scorecard)</h3>
+    <pre id="out"></pre>
+  </div>
+
+<script>
+async function getJSON(url){ const r = await fetch(url); return r.json(); }
+async function postJSON(url, body){ const r = await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)}); return r.json(); }
+
+async function loadCfg(){
+  const cfg = await getJSON('/api/score/config');
+  // time-decay
+  document.getElementById('w3_0').value = cfg.time_decay.weights_3[0];
+  document.getElementById('w3_1').value = cfg.time_decay.weights_3[1];
+  document.getElementById('w3_2').value = cfg.time_decay.weights_3[2];
+  document.getElementById('w2_0').value = cfg.time_decay.weights_2[0];
+  document.getElementById('w2_1').value = cfg.time_decay.weights_2[1];
+  document.getElementById('w1_0').value = cfg.time_decay.weights_1[0];
+
+  document.getElementById('sd').value = cfg.scoring.default.step_down_pct;
+  document.getElementById('su').value = cfg.scoring.default.step_up_pct;
+  document.getElementById('psd').value = cfg.scoring.default.points_per_step_down;
+  document.getElementById('psu').value = cfg.scoring.default.points_per_step_up;
+  document.getElementById('minopp').value = cfg.scoring.default.min_opportunities;
+
+  document.getElementById('wg_nonko').value = cfg.weights.groups.nonko_pref ?? 0;
+  document.getElementById('wg_pko').value = cfg.weights.groups.pko_pref ?? 0;
+  document.getElementById('wg_post').value = cfg.weights.groups.postflop_all ?? 0;
+
+  // Ideais
+  const tbody = document.querySelector('#ideals tbody');
+  tbody.innerHTML = '';
+  const stats = ['RFI_EARLY','RFI_MIDDLE','RFI_CO_STEAL','RFI_BTN_STEAL'];
+  stats.forEach(s=>{
+    const row = document.createElement('tr');
+    row.innerHTML = `
+      <td style="text-align:left">${s}</td>
+      <td><input data-s="${s}" data-g="nonko_9max_pref" type="number" step="0.1" value="${cfg.ideals[s]?.nonko_9max_pref ?? ''}"></td>
+      <td><input data-s="${s}" data-g="nonko_6max_pref" type="number" step="0.1" value="${cfg.ideals[s]?.nonko_6max_pref ?? ''}"></td>
+      <td><input data-s="${s}" data-g="pko_pref" type="number" step="0.1" value="${cfg.ideals[s]?.pko_pref ?? ''}"></td>`;
+    tbody.appendChild(row);
+  });
+
+  window._cfg = cfg;
+}
+
+async function saveCfg(){
+  const cfg = window._cfg;
+  cfg.time_decay.weights_3 = [ +w3_0.value, +w3_1.value, +w3_2.value ];
+  cfg.time_decay.weights_2 = [ +w2_0.value, +w2_1.value ];
+  cfg.time_decay.weights_1 = [ +w1_0.value ];
+
+  cfg.scoring.default.step_down_pct = +sd.value;
+  cfg.scoring.default.step_up_pct = +su.value;
+  cfg.scoring.default.points_per_step_down = +psd.value;
+  cfg.scoring.default.points_per_step_up = +psu.value;
+  cfg.scoring.default.min_opportunities = +minopp.value;
+
+  cfg.weights.groups.nonko_pref = +wg_nonko.value;
+  cfg.weights.groups.pko_pref   = +wg_pko.value;
+  cfg.weights.groups.postflop_all = +wg_post.value;
+
+  // Ideais
+  document.querySelectorAll('#ideals input').forEach(inp=>{
+    const s = inp.dataset.s, g = inp.dataset.g;
+    cfg.ideals[s] = cfg.ideals[s] || {};
+    cfg.ideals[s][g] = +inp.value;
+  });
+
+  const res = await postJSON('/api/score/config', cfg);
+  alert(res.success ? 'Config guardada' : 'Erro a guardar');
+}
+
+async function rebuild(){
+  await postJSON('/api/score/build', {});  // usa caminhos por defeito
+  const out = await getJSON('/api/score/summary');
+  document.getElementById('out').textContent = JSON.stringify(out, null, 2);
+}
+
+load.onclick = loadCfg;
+save.onclick = saveCfg;
+rebuild.onclick = rebuild;
+window.addEventListener('load', async()=>{ await loadCfg(); await rebuild(); });
+</script>
+</body>
+</html>
+
+
+Adicionar rota simples:
+
+@app.route('/scoring')
+def scoring_page():
+    return render_template('scoring.html')
+
+
+Com isto, já tens uma interface para mexer nos ideais/pesos e ver o score recalculado (Fase 6).
+A UI final “bonita” (com gráficos, tabelas e click‑through com excerpts) fica para a Fase 7, mas o Playground já valida o desenho funcional.
+
+✅ PROMPT 6.I — Testes mínimos (unit)
+
+Cria tests/test_score_time_decay.py com:
+
+verificação de weights_for_n para 3/2/1 meses,
+
+apply_time_decay com meses válidos/ignorados (opps=0),
+
+score_step com exemplos (±2% → −10, +4% → −10, etc.).
+
+Cria tests/test_score_runner.py com um stat_counts.json sintético (2–3 meses) validando:
+
+nonko_pref combinado por opportunities,
+
+resultado overall coerente com pesos de grupo.
+
+Definition of Done — Fase 6
+
+ scores/scorecard.json com stat/sub‑grupo/grupo/final e meta.
+
+ Time‑decay 50/30/20, 50/50, 100% (conforme meses presentes).
+
+ NON‑KO combinado (9+6) ponderado por amostra (por defeito, opportunities).
+
+ Scoring step (assimétrico) e opção linear.
+
+ Endpoints /api/score/* + Playground /scoring.
+
+ Testes mínimos a passar.
+
+ Zero breaking changes nas fases anteriores.

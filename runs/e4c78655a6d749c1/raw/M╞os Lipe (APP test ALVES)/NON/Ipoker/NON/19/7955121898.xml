@@ -1,0 +1,2078 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7955121898">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€4,000 GTD|Monday Mayhem, 1081528332</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:37:12</duration>
+  <gamecount>40</gamecount>
+  <startdate>2024-02-19 18:46:19</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>782,954</bets>
+  <wins>486,588</wins>
+  <chipsin>99,280</chipsin>
+  <chipsout>196,834</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080883248</tournamentcode>
+  <tournamentname>€4,000 GTD|Monday Mayhem</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €0.90</buyin>
+  <totalbuyin>€10</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10573520089">
+  <general>
+   <startdate>2024-02-19 18:46:19</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="41,040" dealer="0" seat="1" name="sonio" bet="45,720" addon="0" rebuy="0" chips="108,100"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="SystemOFaClown" bet="720" addon="0" rebuy="0" chips="98,560"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="720" addon="0" rebuy="0" chips="295,105"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="18,720" addon="0" rebuy="0" chips="204,500"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Lordget" bet="720" addon="0" rebuy="0" chips="116,934"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="720" addon="0" rebuy="0" chips="261,804"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="siemprenuts" bet="720" addon="0" rebuy="0" chips="308,720"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sonio" sum="720" type="15"/>
+   <action no="2" player="SystemOFaClown" sum="720" type="15"/>
+   <action no="3" player="Figolandia" sum="720" type="15"/>
+   <action no="4" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="5" player="Lordget" sum="720" type="15"/>
+   <action no="6" player="Gualerino" sum="720" type="15"/>
+   <action no="7" player="siemprenuts" sum="720" type="15"/>
+   <action no="8" player="sonio" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="9" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="10" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="11" player="Flavioteixeira91" sum="18,000" type="23"/>
+   <cards player="Lordget" type="Pocket">X X</cards>
+   <action no="12" player="Lordget" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="13" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="14" player="siemprenuts" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="15" player="sonio" sum="9,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 DQ D3</cards>
+   <action no="16" player="sonio" sum="27,000" type="5"/>
+   <action no="17" player="Flavioteixeira91" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520109">
+  <general>
+   <startdate>2024-02-19 18:47:17</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="sonio" bet="720" addon="0" rebuy="0" chips="130,420"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="SystemOFaClown" bet="5,220" addon="0" rebuy="0" chips="97,840"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="9,720" addon="0" rebuy="0" chips="294,385"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="720" addon="0" rebuy="0" chips="185,780"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Lordget" bet="720" addon="0" rebuy="0" chips="116,214"/>
+    <player reg_code="" win="28,260" dealer="0" seat="7" name="Gualerino" bet="18,000" addon="0" rebuy="0" chips="261,084"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="720" addon="0" rebuy="0" chips="308,000"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="720" addon="0" rebuy="0" chips="100,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SystemOFaClown" sum="720" type="15"/>
+   <action no="2" player="Figolandia" sum="720" type="15"/>
+   <action no="3" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="4" player="Lordget" sum="720" type="15"/>
+   <action no="5" player="Gualerino" sum="720" type="15"/>
+   <action no="6" player="siemprenuts" sum="720" type="15"/>
+   <action no="7" player="tropeiro123" sum="720" type="15"/>
+   <action no="8" player="sonio" sum="720" type="15"/>
+   <action no="9" player="SystemOFaClown" sum="4,500" type="1"/>
+   <action no="10" player="Figolandia" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="11" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="Lordget" type="Pocket">X X</cards>
+   <action no="12" player="Lordget" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="13" player="Gualerino" sum="18,000" type="23"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="14" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 S4</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="16" player="sonio" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="17" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="18" player="Figolandia" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520116">
+  <general>
+   <startdate>2024-02-19 18:47:37</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="720" addon="0" rebuy="0" chips="129,700"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="SystemOFaClown" bet="720" addon="0" rebuy="0" chips="92,620"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="5,220" addon="0" rebuy="0" chips="284,665"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="18,720" addon="0" rebuy="0" chips="185,060"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Lordget" bet="720" addon="0" rebuy="0" chips="115,494"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="720" addon="0" rebuy="0" chips="279,624"/>
+    <player reg_code="" win="46,260" dealer="0" seat="9" name="siemprenuts" bet="33,985" addon="0" rebuy="0" chips="307,280"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="720" addon="0" rebuy="0" chips="99,280"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Figolandia" sum="720" type="15"/>
+   <action no="2" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="3" player="Lordget" sum="720" type="15"/>
+   <action no="4" player="Gualerino" sum="720" type="15"/>
+   <action no="5" player="siemprenuts" sum="720" type="15"/>
+   <action no="6" player="tropeiro123" sum="720" type="15"/>
+   <action no="7" player="sonio" sum="720" type="15"/>
+   <action no="8" player="SystemOFaClown" sum="720" type="15"/>
+   <action no="9" player="Figolandia" sum="4,500" type="1"/>
+   <action no="10" player="Flavioteixeira91" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lordget" type="Pocket">X X</cards>
+   <action no="11" player="Lordget" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="12" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="13" player="siemprenuts" sum="18,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S7 H5</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="15" player="sonio" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="16" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="17" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="18" player="Flavioteixeira91" sum="9,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 CA H4</cards>
+   <action no="19" player="Flavioteixeira91" sum="0" type="4"/>
+   <action no="20" player="siemprenuts" sum="15,265" type="5"/>
+   <action no="21" player="Flavioteixeira91" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520127">
+  <general>
+   <startdate>2024-02-19 18:48:17</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="238,368" dealer="0" seat="1" name="sonio" bet="114,774" addon="0" rebuy="0" chips="128,980"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="SystemOFaClown" bet="720" addon="0" rebuy="0" chips="91,900"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Figolandia" bet="720" addon="0" rebuy="0" chips="279,445"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="5,220" addon="0" rebuy="0" chips="166,340"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Lordget" bet="114,054" addon="0" rebuy="0" chips="114,774"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="720" addon="0" rebuy="0" chips="278,904"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="720" addon="0" rebuy="0" chips="334,820"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="720" addon="0" rebuy="0" chips="98,560"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="2" player="Lordget" sum="720" type="15"/>
+   <action no="3" player="Gualerino" sum="720" type="15"/>
+   <action no="4" player="siemprenuts" sum="720" type="15"/>
+   <action no="5" player="tropeiro123" sum="720" type="15"/>
+   <action no="6" player="sonio" sum="720" type="15"/>
+   <action no="7" player="SystemOFaClown" sum="720" type="15"/>
+   <action no="8" player="Figolandia" sum="720" type="15"/>
+   <action no="9" player="Flavioteixeira91" sum="4,500" type="1"/>
+   <action no="10" player="Lordget" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="11" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="12" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 S9</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">HA CA</cards>
+   <action no="14" player="sonio" sum="18,000" type="23"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="15" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="16" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="17" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="Lordget" type="Pocket">SQ HQ</cards>
+   <action no="18" player="Lordget" sum="114,054" type="23"/>
+   <action no="19" player="sonio" sum="96,054" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 D3 D9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10573520143">
+  <general>
+   <startdate>2024-02-19 18:48:57</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="720" addon="0" rebuy="0" chips="252,574"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="SystemOFaClown" bet="90,460" addon="0" rebuy="0" chips="91,180"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="720" addon="0" rebuy="0" chips="278,725"/>
+    <player reg_code="" win="194,960" dealer="1" seat="5" name="Flavioteixeira91" bet="161,120" addon="0" rebuy="0" chips="161,120"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="9,720" addon="0" rebuy="0" chips="278,184"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="720" addon="0" rebuy="0" chips="334,100"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="720" addon="0" rebuy="0" chips="97,840"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gualerino" sum="720" type="15"/>
+   <action no="2" player="siemprenuts" sum="720" type="15"/>
+   <action no="3" player="tropeiro123" sum="720" type="15"/>
+   <action no="4" player="sonio" sum="720" type="15"/>
+   <action no="5" player="SystemOFaClown" sum="720" type="15"/>
+   <action no="6" player="Figolandia" sum="720" type="15"/>
+   <action no="7" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="8" player="Gualerino" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="9" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 S3</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="11" player="sonio" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">DK HJ</cards>
+   <action no="12" player="SystemOFaClown" sum="90,460" type="23"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="13" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">HA DQ</cards>
+   <action no="14" player="Flavioteixeira91" sum="160,400" type="7"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="15" player="Gualerino" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ HK CQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+  </round>
+ </game>
+ <game gamecode="10573520153">
+  <general>
+   <startdate>2024-02-19 18:49:39</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>720</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="720" addon="0" rebuy="0" chips="251,854"/>
+    <player reg_code="" win="27,540" dealer="0" seat="2" name="ZecaPauGordinho" bet="99,280" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="720" addon="0" rebuy="0" chips="278,005"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="720" addon="0" rebuy="0" chips="264,900"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="5,220" addon="0" rebuy="0" chips="268,464"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="9,720" addon="0" rebuy="0" chips="333,380"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="720" addon="0" rebuy="0" chips="97,120"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gualerino" sum="720" type="15"/>
+   <action no="2" player="siemprenuts" sum="720" type="15"/>
+   <action no="3" player="tropeiro123" sum="720" type="15"/>
+   <action no="4" player="sonio" sum="720" type="15"/>
+   <action no="5" player="ZecaPauGordinho" sum="720" type="15"/>
+   <action no="6" player="Figolandia" sum="720" type="15"/>
+   <action no="7" player="Flavioteixeira91" sum="720" type="15"/>
+   <action no="8" player="Gualerino" sum="4,500" type="1"/>
+   <action no="9" player="siemprenuts" sum="9,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CQ D7</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="11" player="sonio" sum="0" type="0"/>
+   <cards player="ZecaPauGordinho" type="Pocket">X X</cards>
+   <action no="12" player="ZecaPauGordinho" sum="99,280" type="23"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="13" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="14" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="15" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="16" player="siemprenuts" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520167">
+  <general>
+   <startdate>2024-02-19 18:50:11</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="251,134"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="ZecaPauGordinho" bet="800" addon="0" rebuy="0" chips="117,820"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="277,285"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="800" addon="0" rebuy="0" chips="264,180"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="55,400" dealer="1" seat="7" name="Gualerino" bet="42,800" addon="0" rebuy="0" chips="263,244"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="5,800" addon="0" rebuy="0" chips="323,660"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="22,800" addon="0" rebuy="0" chips="96,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="siemprenuts" sum="800" type="15"/>
+   <action no="2" player="tropeiro123" sum="800" type="15"/>
+   <action no="3" player="sonio" sum="800" type="15"/>
+   <action no="4" player="ZecaPauGordinho" sum="800" type="15"/>
+   <action no="5" player="Figolandia" sum="800" type="15"/>
+   <action no="6" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="7" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="8" player="Gualerino" sum="800" type="15"/>
+   <action no="9" player="siemprenuts" sum="5,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="11" player="sonio" sum="0" type="0"/>
+   <cards player="ZecaPauGordinho" type="Pocket">X X</cards>
+   <action no="12" player="ZecaPauGordinho" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="13" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="14" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="15" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="16" player="Gualerino" sum="22,000" type="23"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="17" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 H6</cards>
+   <action no="18" player="tropeiro123" sum="12,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA S2 C9</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="Gualerino" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action no="21" player="tropeiro123" sum="0" type="4"/>
+   <action no="22" player="Gualerino" sum="20,000" type="5"/>
+   <action no="23" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520189">
+  <general>
+   <startdate>2024-02-19 18:51:14</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="10,800" addon="0" rebuy="0" chips="250,334"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="ZecaPauGordinho" bet="800" addon="0" rebuy="0" chips="117,020"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="276,485"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="800" addon="0" rebuy="0" chips="263,380"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="99,200"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="800" addon="0" rebuy="0" chips="295,844"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="317,860"/>
+    <player reg_code="7955121898" win="26,400" dealer="0" seat="10" name="tropeiro123" bet="72,800" addon="0" rebuy="0" chips="73,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="800" type="15"/>
+   <action no="2" player="sonio" sum="800" type="15"/>
+   <action no="3" player="ZecaPauGordinho" sum="800" type="15"/>
+   <action no="4" player="Figolandia" sum="800" type="15"/>
+   <action no="5" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="6" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="7" player="Gualerino" sum="800" type="15"/>
+   <action no="8" player="siemprenuts" sum="800" type="15"/>
+   <action no="9" player="tropeiro123" sum="5,000" type="1"/>
+   <action no="10" player="sonio" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ZecaPauGordinho" type="Pocket">X X</cards>
+   <action no="11" player="ZecaPauGordinho" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="12" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="13" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="14" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="15" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="16" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK D9</cards>
+   <action no="17" player="tropeiro123" sum="72,800" type="23"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="18" player="sonio" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520200">
+  <general>
+   <startdate>2024-02-19 18:51:45</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="5,800" addon="0" rebuy="0" chips="239,534"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="ZecaPauGordinho" bet="10,800" addon="0" rebuy="0" chips="116,220"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="275,685"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="800" addon="0" rebuy="0" chips="262,580"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="98,400"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="800" addon="0" rebuy="0" chips="295,044"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="317,060"/>
+    <player reg_code="7955121898" win="31,400" dealer="1" seat="10" name="tropeiro123" bet="88,400" addon="0" rebuy="0" chips="89,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sonio" sum="800" type="15"/>
+   <action no="2" player="ZecaPauGordinho" sum="800" type="15"/>
+   <action no="3" player="Figolandia" sum="800" type="15"/>
+   <action no="4" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="5" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="6" player="Gualerino" sum="800" type="15"/>
+   <action no="7" player="siemprenuts" sum="800" type="15"/>
+   <action no="8" player="tropeiro123" sum="800" type="15"/>
+   <action no="9" player="sonio" sum="5,000" type="1"/>
+   <action no="10" player="ZecaPauGordinho" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="11" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="12" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="13" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="14" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="15" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK DQ</cards>
+   <action no="16" player="tropeiro123" sum="88,400" type="23"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="17" player="sonio" sum="0" type="0"/>
+   <cards player="ZecaPauGordinho" type="Pocket">X X</cards>
+   <action no="18" player="ZecaPauGordinho" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520216">
+  <general>
+   <startdate>2024-02-19 18:52:33</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="233,734"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="10,800" addon="0" rebuy="0" chips="274,885"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="800" addon="0" rebuy="0" chips="261,780"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="97,600"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="800" addon="0" rebuy="0" chips="294,244"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="316,260"/>
+    <player reg_code="7955121898" win="25,600" dealer="0" seat="10" name="tropeiro123" bet="109,000" addon="0" rebuy="0" chips="109,800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Figolandia" sum="800" type="15"/>
+   <action no="2" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="3" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="4" player="Gualerino" sum="800" type="15"/>
+   <action no="5" player="siemprenuts" sum="800" type="15"/>
+   <action no="6" player="tropeiro123" sum="800" type="15"/>
+   <action no="7" player="sonio" sum="800" type="15"/>
+   <action no="8" player="Figolandia" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="9" player="Flavioteixeira91" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="10" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="11" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="12" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ HA</cards>
+   <action no="13" player="tropeiro123" sum="109,000" type="23"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="14" player="sonio" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="15" player="Figolandia" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520231">
+  <general>
+   <startdate>2024-02-19 18:53:07</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="40,800" addon="0" rebuy="0" chips="232,934"/>
+    <player reg_code="" win="95,600" dealer="0" seat="4" name="Figolandia" bet="40,800" addon="0" rebuy="0" chips="264,085"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="10,800" addon="0" rebuy="0" chips="260,980"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="96,800"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="800" addon="0" rebuy="0" chips="293,444"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="315,460"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="800" addon="0" rebuy="0" chips="124,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Figolandia" sum="800" type="15"/>
+   <action no="2" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="3" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="4" player="Gualerino" sum="800" type="15"/>
+   <action no="5" player="siemprenuts" sum="800" type="15"/>
+   <action no="6" player="tropeiro123" sum="800" type="15"/>
+   <action no="7" player="sonio" sum="800" type="15"/>
+   <action no="8" player="Figolandia" sum="5,000" type="1"/>
+   <action no="9" player="Flavioteixeira91" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="10" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="11" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="12" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S2</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">SA C8</cards>
+   <action no="14" player="sonio" sum="20,000" type="23"/>
+   <cards player="Figolandia" type="Pocket">CK SJ</cards>
+   <action no="15" player="Figolandia" sum="40,000" type="23"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="16" player="Flavioteixeira91" sum="0" type="0"/>
+   <action no="17" player="sonio" sum="20,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 DK D6</cards>
+   <action no="18" player="Figolandia" sum="0" type="4"/>
+   <action no="19" player="sonio" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="20" player="Figolandia" sum="0" type="4"/>
+   <action no="21" player="sonio" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action no="22" player="Figolandia" sum="0" type="4"/>
+   <action no="23" player="sonio" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573520257">
+  <general>
+   <startdate>2024-02-19 18:54:25</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="192,134"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="800" addon="0" rebuy="0" chips="205,590"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="318,885"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Flavioteixeira91" bet="10,800" addon="0" rebuy="0" chips="250,180"/>
+    <player reg_code="" win="26,400" dealer="0" seat="6" name="SystemOFaClown" bet="24,528" addon="0" rebuy="0" chips="96,000"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Gualerino" bet="800" addon="0" rebuy="0" chips="292,644"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="314,660"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="800" addon="0" rebuy="0" chips="123,800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Flavioteixeira91" sum="800" type="15"/>
+   <action no="2" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="3" player="Gualerino" sum="800" type="15"/>
+   <action no="4" player="siemprenuts" sum="800" type="15"/>
+   <action no="5" player="tropeiro123" sum="800" type="15"/>
+   <action no="6" player="sonio" sum="800" type="15"/>
+   <action no="7" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="8" player="Figolandia" sum="800" type="15"/>
+   <action no="9" player="Flavioteixeira91" sum="5,000" type="1"/>
+   <action no="10" player="SystemOFaClown" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="11" player="Gualerino" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="12" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 S9</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="14" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="15" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="16" player="Figolandia" sum="0" type="0"/>
+   <cards player="Flavioteixeira91" type="Pocket">X X</cards>
+   <action no="17" player="Flavioteixeira91" sum="5,000" type="3"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="18" player="SystemOFaClown" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H7 S3</cards>
+   <action no="19" player="Flavioteixeira91" sum="0" type="4"/>
+   <action no="20" player="SystemOFaClown" sum="13,728" type="5"/>
+   <action no="21" player="Flavioteixeira91" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520275">
+  <general>
+   <startdate>2024-02-19 19:02:56</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="191,334"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="800" addon="0" rebuy="0" chips="204,790"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="318,085"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="800" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="111,600"/>
+    <player reg_code="" win="26,400" dealer="0" seat="7" name="Gualerino" bet="35,000" addon="0" rebuy="0" chips="291,844"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="10,800" addon="0" rebuy="0" chips="313,860"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="800" addon="0" rebuy="0" chips="123,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gualerino" sum="800" type="15"/>
+   <action no="2" player="siemprenuts" sum="800" type="15"/>
+   <action no="3" player="tropeiro123" sum="800" type="15"/>
+   <action no="4" player="sonio" sum="800" type="15"/>
+   <action no="5" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="6" player="Figolandia" sum="800" type="15"/>
+   <action no="7" player="turbonaterrr" sum="800" type="15"/>
+   <action no="8" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="9" player="Gualerino" sum="5,000" type="1"/>
+   <action no="10" player="siemprenuts" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S4 S3</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="12" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="13" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="14" player="Figolandia" sum="0" type="0"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="15" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="16" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="Gualerino" type="Pocket">X X</cards>
+   <action no="17" player="Gualerino" sum="35,000" type="23"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="18" player="siemprenuts" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520296">
+  <general>
+   <startdate>2024-02-19 19:03:20</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="190,534"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="800" addon="0" rebuy="0" chips="203,990"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="317,285"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="800" addon="0" rebuy="0" chips="99,200"/>
+    <player reg_code="" win="30,600" dealer="0" seat="6" name="SystemOFaClown" bet="100,000" addon="0" rebuy="0" chips="110,800"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="5,800" addon="0" rebuy="0" chips="303,060"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="10,800" addon="0" rebuy="0" chips="122,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="siemprenuts" sum="800" type="15"/>
+   <action no="2" player="tropeiro123" sum="800" type="15"/>
+   <action no="3" player="sonio" sum="800" type="15"/>
+   <action no="4" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="5" player="Figolandia" sum="800" type="15"/>
+   <action no="6" player="turbonaterrr" sum="800" type="15"/>
+   <action no="7" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="8" player="siemprenuts" sum="5,000" type="1"/>
+   <action no="9" player="tropeiro123" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="10" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="11" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="12" player="Figolandia" sum="0" type="0"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="13" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="14" player="SystemOFaClown" sum="100,000" type="23"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="15" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 SK</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573520310">
+  <general>
+   <startdate>2024-02-19 19:03:56</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="40,800" addon="0" rebuy="0" chips="189,734"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="800" addon="0" rebuy="0" chips="203,190"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="316,485"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="800" addon="0" rebuy="0" chips="98,400"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="20,800" addon="0" rebuy="0" chips="130,600"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="486DX4" bet="800" addon="0" rebuy="0" chips="100,000"/>
+    <player reg_code="" win="111,400" dealer="1" seat="9" name="siemprenuts" bet="77,562" addon="0" rebuy="0" chips="297,260"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="5,800" addon="0" rebuy="0" chips="111,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="800" type="15"/>
+   <action no="2" player="sonio" sum="800" type="15"/>
+   <action no="3" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="4" player="Figolandia" sum="800" type="15"/>
+   <action no="5" player="turbonaterrr" sum="800" type="15"/>
+   <action no="6" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="7" player="486DX4" sum="800" type="15"/>
+   <action no="8" player="siemprenuts" sum="800" type="15"/>
+   <action no="9" player="tropeiro123" sum="5,000" type="1"/>
+   <action no="10" player="sonio" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="11" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="12" player="Figolandia" sum="0" type="0"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="13" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="14" player="SystemOFaClown" sum="20,000" type="23"/>
+   <cards player="486DX4" type="Pocket">X X</cards>
+   <action no="15" player="486DX4" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="16" player="siemprenuts" sum="20,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D3 CJ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="18" player="sonio" sum="10,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C2 D8</cards>
+   <action no="19" player="sonio" sum="20,000" type="5"/>
+   <action no="20" player="SystemOFaClown" sum="0" type="0"/>
+   <action no="21" player="siemprenuts" sum="20,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action no="22" player="sonio" sum="0" type="4"/>
+   <action no="23" player="siemprenuts" sum="36,762" type="5"/>
+   <action no="24" player="sonio" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547374">
+  <general>
+   <startdate>2024-02-19 19:05:18</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="5,800" addon="0" rebuy="0" chips="148,934"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="20,800" addon="0" rebuy="0" chips="202,390"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="800" addon="0" rebuy="0" chips="315,685"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="800" addon="0" rebuy="0" chips="97,600"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="109,800"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="486DX4" bet="800" addon="0" rebuy="0" chips="99,200"/>
+    <player reg_code="" win="51,400" dealer="0" seat="9" name="siemprenuts" bet="20,800" addon="0" rebuy="0" chips="367,860"/>
+    <player reg_code="7955121898" win="0" dealer="1" seat="10" name="tropeiro123" bet="800" addon="0" rebuy="0" chips="105,600"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="sonio" sum="800" type="15"/>
+   <action no="2" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="3" player="Figolandia" sum="800" type="15"/>
+   <action no="4" player="turbonaterrr" sum="800" type="15"/>
+   <action no="5" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="6" player="486DX4" sum="800" type="15"/>
+   <action no="7" player="siemprenuts" sum="800" type="15"/>
+   <action no="8" player="tropeiro123" sum="800" type="15"/>
+   <action no="9" player="sonio" sum="5,000" type="1"/>
+   <action no="10" player="TANZZZZZZ" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="11" player="Figolandia" sum="0" type="0"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="12" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="13" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="486DX4" type="Pocket">X X</cards>
+   <action no="14" player="486DX4" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">DA SK</cards>
+   <action no="15" player="siemprenuts" sum="20,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ C6</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="17" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">H4 H5</cards>
+   <action no="18" player="TANZZZZZZ" sum="10,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 C7 S3</cards>
+   <action no="19" player="TANZZZZZZ" sum="0" type="4"/>
+   <action no="20" player="siemprenuts" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action no="21" player="TANZZZZZZ" sum="0" type="4"/>
+   <action no="22" player="siemprenuts" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+   <action no="23" player="TANZZZZZZ" sum="0" type="4"/>
+   <action no="24" player="siemprenuts" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573547398">
+  <general>
+   <startdate>2024-02-19 19:06:05</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="86,400" dealer="1" seat="1" name="sonio" bet="143,134" addon="0" rebuy="0" chips="143,134"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="20,800" addon="0" rebuy="0" chips="181,590"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="20,800" addon="0" rebuy="0" chips="314,885"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="800" addon="0" rebuy="0" chips="96,800"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="109,000"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="486DX4" bet="800" addon="0" rebuy="0" chips="98,400"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="800" addon="0" rebuy="0" chips="398,460"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="20,800" addon="0" rebuy="0" chips="104,800"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="2" player="Figolandia" sum="800" type="15"/>
+   <action no="3" player="turbonaterrr" sum="800" type="15"/>
+   <action no="4" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="5" player="486DX4" sum="800" type="15"/>
+   <action no="6" player="siemprenuts" sum="800" type="15"/>
+   <action no="7" player="tropeiro123" sum="800" type="15"/>
+   <action no="8" player="sonio" sum="800" type="15"/>
+   <action no="9" player="TANZZZZZZ" sum="5,000" type="1"/>
+   <action no="10" player="Figolandia" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="11" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="12" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="486DX4" type="Pocket">X X</cards>
+   <action no="13" player="486DX4" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="14" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 CQ</cards>
+   <action no="15" player="tropeiro123" sum="20,000" type="23"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="16" player="sonio" sum="20,000" type="3"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="17" player="TANZZZZZZ" sum="15,000" type="3"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="18" player="Figolandia" sum="10,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 SJ C9</cards>
+   <action no="19" player="TANZZZZZZ" sum="0" type="4"/>
+   <action no="20" player="Figolandia" sum="0" type="4"/>
+   <action no="21" player="tropeiro123" sum="0" type="4"/>
+   <action no="22" player="sonio" sum="122,334" type="5"/>
+   <action no="23" player="TANZZZZZZ" sum="0" type="0"/>
+   <action no="24" player="Figolandia" sum="0" type="0"/>
+   <action no="25" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547446">
+  <general>
+   <startdate>2024-02-19 19:07:39</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="800" addon="0" rebuy="0" chips="208,734"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="TANZZZZZZ" bet="800" addon="0" rebuy="0" chips="160,790"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Figolandia" bet="5,800" addon="0" rebuy="0" chips="294,085"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="10,800" addon="0" rebuy="0" chips="96,000"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="800" addon="0" rebuy="0" chips="108,200"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="486DX4" bet="800" addon="0" rebuy="0" chips="97,600"/>
+    <player reg_code="" win="31,400" dealer="0" seat="9" name="siemprenuts" bet="20,000" addon="0" rebuy="0" chips="397,660"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="800" addon="0" rebuy="0" chips="84,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Figolandia" sum="800" type="15"/>
+   <action no="2" player="turbonaterrr" sum="800" type="15"/>
+   <action no="3" player="SystemOFaClown" sum="800" type="15"/>
+   <action no="4" player="486DX4" sum="800" type="15"/>
+   <action no="5" player="siemprenuts" sum="800" type="15"/>
+   <action no="6" player="tropeiro123" sum="800" type="15"/>
+   <action no="7" player="sonio" sum="800" type="15"/>
+   <action no="8" player="TANZZZZZZ" sum="800" type="15"/>
+   <action no="9" player="Figolandia" sum="5,000" type="1"/>
+   <action no="10" player="turbonaterrr" sum="10,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="11" player="SystemOFaClown" sum="0" type="0"/>
+   <cards player="486DX4" type="Pocket">X X</cards>
+   <action no="12" player="486DX4" sum="0" type="0"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="13" player="siemprenuts" sum="20,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D8 CK</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="15" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="16" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">X X</cards>
+   <action no="17" player="Figolandia" sum="0" type="0"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="18" player="turbonaterrr" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547464">
+  <general>
+   <startdate>2024-02-19 19:08:14</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="sonio" bet="1,000" addon="0" rebuy="0" chips="207,934"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="TANZZZZZZ" bet="1,000" addon="0" rebuy="0" chips="159,990"/>
+    <player reg_code="" win="217,600" dealer="1" seat="4" name="Figolandia" bet="96,800" addon="0" rebuy="0" chips="288,285"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="turbonaterrr" bet="7,000" addon="0" rebuy="0" chips="85,200"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="SystemOFaClown" bet="13,000" addon="0" rebuy="0" chips="107,400"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="486DX4" bet="95,800" addon="0" rebuy="0" chips="96,800"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="siemprenuts" bet="1,000" addon="0" rebuy="0" chips="418,260"/>
+    <player reg_code="7955121898" win="0" dealer="0" seat="10" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="83,200"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="turbonaterrr" sum="1,000" type="15"/>
+   <action no="2" player="SystemOFaClown" sum="1,000" type="15"/>
+   <action no="3" player="486DX4" sum="1,000" type="15"/>
+   <action no="4" player="siemprenuts" sum="1,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="6" player="sonio" sum="1,000" type="15"/>
+   <action no="7" player="TANZZZZZZ" sum="1,000" type="15"/>
+   <action no="8" player="Figolandia" sum="1,000" type="15"/>
+   <action no="9" player="turbonaterrr" sum="6,000" type="1"/>
+   <action no="10" player="SystemOFaClown" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="486DX4" type="Pocket">HA D10</cards>
+   <action no="11" player="486DX4" sum="95,800" type="23"/>
+   <cards player="siemprenuts" type="Pocket">X X</cards>
+   <action no="12" player="siemprenuts" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 S10</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="sonio" type="Pocket">X X</cards>
+   <action no="14" player="sonio" sum="0" type="0"/>
+   <cards player="TANZZZZZZ" type="Pocket">X X</cards>
+   <action no="15" player="TANZZZZZZ" sum="0" type="0"/>
+   <cards player="Figolandia" type="Pocket">CA SA</cards>
+   <action no="16" player="Figolandia" sum="95,800" type="3"/>
+   <cards player="turbonaterrr" type="Pocket">X X</cards>
+   <action no="17" player="turbonaterrr" sum="0" type="0"/>
+   <cards player="SystemOFaClown" type="Pocket">X X</cards>
+   <action no="18" player="SystemOFaClown" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 D9 S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+  </round>
+ </game>
+ <game gamecode="10573547489">
+  <general>
+   <startdate>2024-02-19 19:09:02</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="875,256"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="124,486"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="25,000" addon="0" rebuy="0" chips="759,674"/>
+    <player reg_code="" win="55,000" dealer="0" seat="6" name="Imissyoumom" bet="291,060" addon="0" rebuy="0" chips="292,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="297,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="216,036"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="175,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="blzjr1" sum="1,000" type="15"/>
+   <action no="2" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="3" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="4" player="fully87" sum="1,000" type="15"/>
+   <action no="5" player="Butragueno" sum="1,000" type="15"/>
+   <action no="6" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="7" player="moob" sum="1,000" type="15"/>
+   <action no="8" player="blzjr1" sum="6,000" type="1"/>
+   <action no="9" player="Imissyoumom" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="10" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="11" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="12" player="Butragueno" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="13" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="14" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="15" player="blzjr1" sum="24,000" type="23"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="16" player="Imissyoumom" sum="291,060" type="23"/>
+   <action no="17" player="blzjr1" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547509">
+  <general>
+   <startdate>2024-02-19 19:09:45</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="82,200"/>
+    <player reg_code="" win="38,000" dealer="0" seat="2" name="Moneyfellah321" bet="27,240" addon="0" rebuy="0" chips="874,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="123,486"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="734,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="7,000" addon="0" rebuy="0" chips="322,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="13,000" addon="0" rebuy="0" chips="296,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="215,036"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="174,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="2" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="3" player="fully87" sum="1,000" type="15"/>
+   <action no="4" player="Butragueno" sum="1,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="6" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="7" player="moob" sum="1,000" type="15"/>
+   <action no="8" player="blzjr1" sum="1,000" type="15"/>
+   <action no="9" player="Imissyoumom" sum="6,000" type="1"/>
+   <action no="10" player="Paranoic777" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="11" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="12" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 D4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="14" player="Moneyfellah321" sum="27,240" type="23"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="15" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="16" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="17" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="18" player="Paranoic777" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547531">
+  <general>
+   <startdate>2024-02-19 19:10:22</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="81,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="899,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="122,486"/>
+    <player reg_code="" win="62,000" dealer="0" seat="5" name="blzjr1" bet="49,000" addon="0" rebuy="0" chips="733,674"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="315,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="7,000" addon="0" rebuy="0" chips="283,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="25,000" addon="0" rebuy="0" chips="214,036"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="173,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="2" player="fully87" sum="1,000" type="15"/>
+   <action no="3" player="Butragueno" sum="1,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="5" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="6" player="moob" sum="1,000" type="15"/>
+   <action no="7" player="blzjr1" sum="1,000" type="15"/>
+   <action no="8" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="9" player="Paranoic777" sum="6,000" type="1"/>
+   <action no="10" player="fully87" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="11" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 CK</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="13" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="14" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="15" player="blzjr1" sum="24,000" type="23"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="16" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="17" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="18" player="fully87" sum="12,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA D9 HQ</cards>
+   <action no="19" player="fully87" sum="0" type="4"/>
+   <action no="20" player="blzjr1" sum="24,000" type="5"/>
+   <action no="21" player="fully87" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547556">
+  <general>
+   <startdate>2024-02-19 19:11:09</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="38,000" dealer="0" seat="1" name="tropeiro123" bet="79,200" addon="0" rebuy="0" chips="80,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="898,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="121,486"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="770,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="314,060"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="276,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="7,000" addon="0" rebuy="0" chips="189,036"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="13,000" addon="0" rebuy="0" chips="172,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="fully87" sum="1,000" type="15"/>
+   <action no="2" player="Butragueno" sum="1,000" type="15"/>
+   <action no="3" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="4" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="5" player="moob" sum="1,000" type="15"/>
+   <action no="6" player="blzjr1" sum="1,000" type="15"/>
+   <action no="7" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="8" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="9" player="fully87" sum="6,000" type="1"/>
+   <action no="10" player="Butragueno" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S9 D9</cards>
+   <action no="11" player="tropeiro123" sum="79,200" type="23"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="12" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="13" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="14" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="15" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="16" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="17" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="18" player="Butragueno" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547568">
+  <general>
+   <startdate>2024-02-19 19:11:34</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="20,000" dealer="0" seat="1" name="tropeiro123" bet="13,000" addon="0" rebuy="0" chips="105,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="897,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="120,486"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="769,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="313,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="275,210"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="182,036"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="7,000" addon="0" rebuy="0" chips="159,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Butragueno" sum="1,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="3" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="4" player="moob" sum="1,000" type="15"/>
+   <action no="5" player="blzjr1" sum="1,000" type="15"/>
+   <action no="6" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="7" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="8" player="fully87" sum="1,000" type="15"/>
+   <action no="9" player="Butragueno" sum="6,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SA D7</cards>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="11" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="12" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="13" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="14" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="15" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="16" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="17" player="Butragueno" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573547577">
+  <general>
+   <startdate>2024-02-19 19:12:02</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="7,000" addon="0" rebuy="0" chips="118,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="13,000" addon="0" rebuy="0" chips="896,256"/>
+    <player reg_code="" win="262,972" dealer="0" seat="4" name="moob" bet="118,486" addon="0" rebuy="0" chips="119,486"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="768,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="312,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="274,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="119,486" addon="0" rebuy="0" chips="181,036"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="152,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="2" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="3" player="moob" sum="1,000" type="15"/>
+   <action no="4" player="blzjr1" sum="1,000" type="15"/>
+   <action no="5" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="6" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="7" player="fully87" sum="1,000" type="15"/>
+   <action no="8" player="Butragueno" sum="1,000" type="15"/>
+   <action no="9" player="tropeiro123" sum="6,000" type="1"/>
+   <action no="10" player="Moneyfellah321" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="moob" type="Pocket">SA D9</cards>
+   <action no="11" player="moob" sum="118,486" type="23"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="12" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="13" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="14" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">HK HA</cards>
+   <action no="15" player="fully87" sum="118,486" type="3"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="16" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ C8</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="18" player="Moneyfellah321" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ H9 S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+ <game gamecode="10573547594">
+  <general>
+   <startdate>2024-02-19 19:12:38</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="1" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="111,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="7,000" addon="0" rebuy="0" chips="883,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="13,000" addon="0" rebuy="0" chips="262,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="767,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="311,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="273,210"/>
+    <player reg_code="" win="38,000" dealer="0" seat="9" name="fully87" bet="60,550" addon="0" rebuy="0" chips="61,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="151,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="2" player="moob" sum="1,000" type="15"/>
+   <action no="3" player="blzjr1" sum="1,000" type="15"/>
+   <action no="4" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="5" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="6" player="fully87" sum="1,000" type="15"/>
+   <action no="7" player="Butragueno" sum="1,000" type="15"/>
+   <action no="8" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="9" player="Moneyfellah321" sum="6,000" type="1"/>
+   <action no="10" player="moob" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="11" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="12" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="13" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="14" player="fully87" sum="60,550" type="23"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="15" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 C2</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="17" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="18" player="moob" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583218">
+  <general>
+   <startdate>2024-02-19 19:13:05</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="110,200"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="876,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="7,000" addon="0" rebuy="0" chips="249,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="13,000" addon="0" rebuy="0" chips="766,674"/>
+    <player reg_code="" win="38,000" dealer="0" seat="6" name="Imissyoumom" bet="24,000" addon="0" rebuy="0" chips="310,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="272,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="86,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="150,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="moob" sum="1,000" type="15"/>
+   <action no="2" player="blzjr1" sum="1,000" type="15"/>
+   <action no="3" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="4" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="5" player="fully87" sum="1,000" type="15"/>
+   <action no="6" player="Butragueno" sum="1,000" type="15"/>
+   <action no="7" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="8" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="9" player="moob" sum="6,000" type="1"/>
+   <action no="10" player="blzjr1" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="11" player="Imissyoumom" sum="24,000" type="23"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="12" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="13" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="14" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ D6</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="16" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="17" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="18" player="blzjr1" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583226">
+  <general>
+   <startdate>2024-02-19 19:13:30</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="74,000" dealer="0" seat="1" name="tropeiro123" bet="108,200" addon="0" rebuy="0" chips="109,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="875,256"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="242,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="7,000" addon="0" rebuy="0" chips="753,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="13,000" addon="0" rebuy="0" chips="335,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="25,000" addon="0" rebuy="0" chips="271,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="85,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="1,000" addon="0" rebuy="0" chips="149,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="blzjr1" sum="1,000" type="15"/>
+   <action no="2" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="3" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="4" player="fully87" sum="1,000" type="15"/>
+   <action no="5" player="Butragueno" sum="1,000" type="15"/>
+   <action no="6" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="7" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="8" player="moob" sum="1,000" type="15"/>
+   <action no="9" player="blzjr1" sum="6,000" type="1"/>
+   <action no="10" player="Imissyoumom" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="11" player="Paranoic777" sum="24,000" type="23"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="12" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="13" player="Butragueno" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 CK</cards>
+   <action no="14" player="tropeiro123" sum="108,200" type="23"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="15" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="16" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="17" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="18" player="Imissyoumom" sum="0" type="0"/>
+   <action no="19" player="Paranoic777" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583269">
+  <general>
+   <startdate>2024-02-19 19:14:55</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="158,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="874,256"/>
+    <player reg_code="" win="74,000" dealer="0" seat="4" name="moob" bet="240,972" addon="0" rebuy="0" chips="241,972"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="746,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="7,000" addon="0" rebuy="0" chips="322,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="13,000" addon="0" rebuy="0" chips="246,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="84,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="25,000" addon="0" rebuy="0" chips="148,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="2" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="3" player="fully87" sum="1,000" type="15"/>
+   <action no="4" player="Butragueno" sum="1,000" type="15"/>
+   <action no="5" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="6" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="7" player="moob" sum="1,000" type="15"/>
+   <action no="8" player="blzjr1" sum="1,000" type="15"/>
+   <action no="9" player="Imissyoumom" sum="6,000" type="1"/>
+   <action no="10" player="Paranoic777" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="11" player="fully87" sum="0" type="0"/>
+   <cards player="Butragueno" type="Pocket">X X</cards>
+   <action no="12" player="Butragueno" sum="24,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S6 HQ</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="14" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="15" player="moob" sum="240,972" type="23"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="16" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="17" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="18" player="Paranoic777" sum="0" type="0"/>
+   <action no="19" player="Butragueno" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583296">
+  <general>
+   <startdate>2024-02-19 19:15:41</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="271,188" dealer="0" seat="1" name="tropeiro123" bet="123,594" addon="0" rebuy="0" chips="157,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="873,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="290,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="745,674"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="315,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="7,000" addon="0" rebuy="0" chips="233,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="13,000" addon="0" rebuy="0" chips="83,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Butragueno" bet="122,594" addon="0" rebuy="0" chips="123,594"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="2" player="fully87" sum="1,000" type="15"/>
+   <action no="3" player="Butragueno" sum="1,000" type="15"/>
+   <action no="4" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="5" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="6" player="moob" sum="1,000" type="15"/>
+   <action no="7" player="blzjr1" sum="1,000" type="15"/>
+   <action no="8" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="9" player="Paranoic777" sum="6,000" type="1"/>
+   <action no="10" player="fully87" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Butragueno" type="Pocket">H7 C7</cards>
+   <action no="11" player="Butragueno" sum="122,594" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SJ CA</cards>
+   <action no="12" player="tropeiro123" sum="122,594" type="3"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="13" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="14" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="15" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="16" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="17" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="18" player="fully87" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA D4 S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+  </round>
+ </game>
+ <game gamecode="10573583314">
+  <general>
+   <startdate>2024-02-19 19:16:24</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="13,000" addon="0" rebuy="0" chips="304,794"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,000" addon="0" rebuy="0" chips="872,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="289,972"/>
+    <player reg_code="" win="37,000" dealer="0" seat="5" name="blzjr1" bet="24,000" addon="0" rebuy="0" chips="744,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="314,060"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="226,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="7,000" addon="0" rebuy="0" chips="70,550"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="fully87" sum="1,000" type="15"/>
+   <action no="2" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="3" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="4" player="moob" sum="1,000" type="15"/>
+   <action no="5" player="blzjr1" sum="1,000" type="15"/>
+   <action no="6" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="7" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="8" player="fully87" sum="6,000" type="1"/>
+   <action no="9" player="tropeiro123" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="10" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="11" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="12" player="blzjr1" sum="24,000" type="23"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="13" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="14" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="15" player="fully87" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 HQ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583343">
+  <general>
+   <startdate>2024-02-19 19:17:14</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="13,000" addon="0" rebuy="0" chips="291,794"/>
+    <player reg_code="" win="31,000" dealer="0" seat="2" name="Moneyfellah321" bet="300,000" addon="0" rebuy="0" chips="871,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,000" addon="0" rebuy="0" chips="288,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="768,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="313,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="225,210"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="fully87" bet="1,000" addon="0" rebuy="0" chips="63,550"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="2" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="3" player="moob" sum="1,000" type="15"/>
+   <action no="4" player="blzjr1" sum="1,000" type="15"/>
+   <action no="5" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="6" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="7" player="fully87" sum="1,000" type="15"/>
+   <action no="8" player="tropeiro123" sum="6,000" type="1"/>
+   <action no="9" player="Moneyfellah321" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="10" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="11" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="12" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="13" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">X X</cards>
+   <action no="14" player="fully87" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 HK</cards>
+   <action no="15" player="tropeiro123" sum="6,000" type="3"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="16" player="Moneyfellah321" sum="300,000" type="23"/>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583362">
+  <general>
+   <startdate>2024-02-19 19:17:50</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="1" seat="1" name="tropeiro123" bet="1,000" addon="0" rebuy="0" chips="278,794"/>
+    <player reg_code="" win="143,100" dealer="0" seat="2" name="Moneyfellah321" bet="315,100" addon="0" rebuy="0" chips="889,256"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="13,000" addon="0" rebuy="0" chips="287,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,000" addon="0" rebuy="0" chips="767,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,000" addon="0" rebuy="0" chips="312,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,000" addon="0" rebuy="0" chips="224,210"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="fully87" bet="61,550" addon="0" rebuy="0" chips="62,550"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="1,000" addon="0" rebuy="0" chips="108,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Moneyfellah321" sum="1,000" type="15"/>
+   <action no="2" player="moob" sum="1,000" type="15"/>
+   <action no="3" player="blzjr1" sum="1,000" type="15"/>
+   <action no="4" player="Imissyoumom" sum="1,000" type="15"/>
+   <action no="5" player="Paranoic777" sum="1,000" type="15"/>
+   <action no="6" player="fully87" sum="1,000" type="15"/>
+   <action no="7" player="lendallejo" sum="1,000" type="15"/>
+   <action no="8" player="tropeiro123" sum="1,000" type="15"/>
+   <action no="9" player="Moneyfellah321" sum="6,000" type="1"/>
+   <action no="10" player="moob" sum="12,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="11" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="12" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="13" player="Paranoic777" sum="0" type="0"/>
+   <cards player="fully87" type="Pocket">SA C5</cards>
+   <action no="14" player="fully87" sum="61,550" type="23"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="15" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ S3</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">C7 D7</cards>
+   <action no="17" player="Moneyfellah321" sum="315,100" type="23"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="18" player="moob" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA H8 SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+  </round>
+ </game>
+ <game gamecode="10573583394">
+  <general>
+   <startdate>2024-02-19 19:18:53</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,280" addon="0" rebuy="0" chips="277,794"/>
+    <player reg_code="" win="80,960" dealer="1" seat="2" name="Moneyfellah321" bet="73,760" addon="0" rebuy="0" chips="969,806"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="9,280" addon="0" rebuy="0" chips="274,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="33,280" addon="0" rebuy="0" chips="766,674"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,280" addon="0" rebuy="0" chips="311,060"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="1,280" addon="0" rebuy="0" chips="223,210"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="1,280" addon="0" rebuy="0" chips="107,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="moob" sum="1,280" type="15"/>
+   <action no="2" player="blzjr1" sum="1,280" type="15"/>
+   <action no="3" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="4" player="Paranoic777" sum="1,280" type="15"/>
+   <action no="5" player="lendallejo" sum="1,280" type="15"/>
+   <action no="6" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="7" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="8" player="moob" sum="8,000" type="1"/>
+   <action no="9" player="blzjr1" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="10" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="Paranoic777" type="Pocket">X X</cards>
+   <action no="11" player="Paranoic777" sum="0" type="0"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="12" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 S7</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="14" player="Moneyfellah321" sum="32,000" type="23"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="15" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="16" player="blzjr1" sum="16,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ C4 H3</cards>
+   <action no="17" player="blzjr1" sum="0" type="4"/>
+   <action no="18" player="Moneyfellah321" sum="40,480" type="5"/>
+   <action no="19" player="blzjr1" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583423">
+  <general>
+   <startdate>2024-02-19 19:19:47</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,280" addon="0" rebuy="0" chips="276,514"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,280" addon="0" rebuy="0" chips="1,017,486"/>
+    <player reg_code="" win="474,260" dealer="1" seat="4" name="moob" bet="264,412" addon="0" rebuy="0" chips="265,692"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="9,280" addon="0" rebuy="0" chips="733,394"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="17,280" addon="0" rebuy="0" chips="309,780"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Paranoic777" bet="221,930" addon="0" rebuy="0" chips="221,930"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="1,280" addon="0" rebuy="0" chips="106,120"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="blzjr1" sum="1,280" type="15"/>
+   <action no="2" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="3" player="Paranoic777" sum="1,280" type="15"/>
+   <action no="4" player="lendallejo" sum="1,280" type="15"/>
+   <action no="5" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="6" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="7" player="moob" sum="1,280" type="15"/>
+   <action no="8" player="blzjr1" sum="8,000" type="1"/>
+   <action no="9" player="Imissyoumom" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Paranoic777" type="Pocket">DK SK</cards>
+   <action no="10" player="Paranoic777" sum="35,200" type="23"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="11" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ C6</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="13" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">CA DA</cards>
+   <action no="14" player="moob" sum="264,412" type="23"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="15" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="16" player="Imissyoumom" sum="0" type="0"/>
+   <action no="17" player="Paranoic777" sum="185,450" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 SA S7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10573583443">
+  <general>
+   <startdate>2024-02-19 19:20:23</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="33,280" addon="0" rebuy="0" chips="275,234"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,280" addon="0" rebuy="0" chips="1,016,206"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,280" addon="0" rebuy="0" chips="518,022"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="blzjr1" bet="1,280" addon="0" rebuy="0" chips="724,114"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="9,280" addon="0" rebuy="0" chips="292,500"/>
+    <player reg_code="" win="80,960" dealer="0" seat="9" name="H142HIMRS" bet="618,822" addon="0" rebuy="0" chips="620,102"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="1,280" addon="0" rebuy="0" chips="104,840"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="2" player="H142HIMRS" sum="1,280" type="15"/>
+   <action no="3" player="lendallejo" sum="1,280" type="15"/>
+   <action no="4" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="5" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="6" player="moob" sum="1,280" type="15"/>
+   <action no="7" player="blzjr1" sum="1,280" type="15"/>
+   <action no="8" player="Imissyoumom" sum="8,000" type="1"/>
+   <action no="9" player="H142HIMRS" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="10" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 C10</cards>
+   <action no="11" player="tropeiro123" sum="32,000" type="23"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="12" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="13" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="14" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="15" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="H142HIMRS" type="Pocket">X X</cards>
+   <action no="16" player="H142HIMRS" sum="618,822" type="23"/>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583460">
+  <general>
+   <startdate>2024-02-19 19:20:51</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="1,280" addon="0" rebuy="0" chips="241,954"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="70,880" addon="0" rebuy="0" chips="1,014,926"/>
+    <player reg_code="" win="172,160" dealer="0" seat="4" name="moob" bet="122,528" addon="0" rebuy="0" chips="516,742"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,280" addon="0" rebuy="0" chips="722,834"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="Imissyoumom" bet="1,280" addon="0" rebuy="0" chips="283,220"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="H142HIMRS" bet="9,280" addon="0" rebuy="0" chips="667,782"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="17,280" addon="0" rebuy="0" chips="103,560"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="H142HIMRS" sum="1,280" type="15"/>
+   <action no="2" player="lendallejo" sum="1,280" type="15"/>
+   <action no="3" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="4" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="5" player="moob" sum="1,280" type="15"/>
+   <action no="6" player="blzjr1" sum="1,280" type="15"/>
+   <action no="7" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="8" player="H142HIMRS" sum="8,000" type="1"/>
+   <action no="9" player="lendallejo" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DJ S4</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="11" player="Moneyfellah321" sum="37,600" type="23"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="12" player="moob" sum="37,600" type="3"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="13" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="14" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="H142HIMRS" type="Pocket">X X</cards>
+   <action no="15" player="H142HIMRS" sum="0" type="0"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="16" player="lendallejo" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 C9 HK</cards>
+   <action no="17" player="Moneyfellah321" sum="32,000" type="5"/>
+   <action no="18" player="moob" sum="32,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action no="19" player="Moneyfellah321" sum="0" type="4"/>
+   <action no="20" player="moob" sum="51,648" type="5"/>
+   <action no="21" player="Moneyfellah321" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573583487">
+  <general>
+   <startdate>2024-02-19 19:21:39</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="33,280" addon="0" rebuy="0" chips="240,674"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="1,280" addon="0" rebuy="0" chips="944,046"/>
+    <player reg_code="" win="82,240" dealer="0" seat="4" name="moob" bet="49,280" addon="0" rebuy="0" chips="618,022"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,280" addon="0" rebuy="0" chips="721,554"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,280" addon="0" rebuy="0" chips="281,940"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="wwhite82" bet="1,280" addon="0" rebuy="0" chips="152,760"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="H142HIMRS" bet="1,280" addon="0" rebuy="0" chips="658,502"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="9,280" addon="0" rebuy="0" chips="86,280"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="lendallejo" sum="1,280" type="15"/>
+   <action no="2" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="3" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="4" player="moob" sum="1,280" type="15"/>
+   <action no="5" player="blzjr1" sum="1,280" type="15"/>
+   <action no="6" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="7" player="wwhite82" sum="1,280" type="15"/>
+   <action no="8" player="H142HIMRS" sum="1,280" type="15"/>
+   <action no="9" player="lendallejo" sum="8,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="11" player="Moneyfellah321" sum="0" type="0"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="12" player="moob" sum="32,000" type="23"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="13" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="14" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="wwhite82" type="Pocket">X X</cards>
+   <action no="15" player="wwhite82" sum="0" type="0"/>
+   <cards player="H142HIMRS" type="Pocket">X X</cards>
+   <action no="16" player="H142HIMRS" sum="0" type="0"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="17" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK C5</cards>
+   <action no="18" player="tropeiro123" sum="16,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 HQ D4</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="moob" sum="16,000" type="5"/>
+   <action no="21" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573598102">
+  <general>
+   <startdate>2024-02-19 19:22:32</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="0" seat="1" name="tropeiro123" bet="9,280" addon="0" rebuy="0" chips="207,394"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="Moneyfellah321" bet="17,280" addon="0" rebuy="0" chips="942,766"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="1,280" addon="0" rebuy="0" chips="666,982"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,280" addon="0" rebuy="0" chips="720,274"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,280" addon="0" rebuy="0" chips="280,660"/>
+    <player reg_code="" win="50,240" dealer="0" seat="7" name="wwhite82" bet="150,200" addon="0" rebuy="0" chips="151,480"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="H142HIMRS" bet="1,280" addon="0" rebuy="0" chips="657,222"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="lendallejo" bet="1,280" addon="0" rebuy="0" chips="77,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="2" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="3" player="moob" sum="1,280" type="15"/>
+   <action no="4" player="blzjr1" sum="1,280" type="15"/>
+   <action no="5" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="6" player="wwhite82" sum="1,280" type="15"/>
+   <action no="7" player="H142HIMRS" sum="1,280" type="15"/>
+   <action no="8" player="lendallejo" sum="1,280" type="15"/>
+   <action no="9" player="tropeiro123" sum="8,000" type="1"/>
+   <action no="10" player="Moneyfellah321" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="11" player="moob" sum="0" type="0"/>
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="12" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="13" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="wwhite82" type="Pocket">X X</cards>
+   <action no="14" player="wwhite82" sum="150,200" type="23"/>
+   <cards player="H142HIMRS" type="Pocket">X X</cards>
+   <action no="15" player="H142HIMRS" sum="0" type="0"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="16" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H4</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="18" player="Moneyfellah321" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573598114">
+  <general>
+   <startdate>2024-02-19 19:22:55</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>1,280</ante>
+   <players>
+    <player reg_code="7955121898" win="0" dealer="1" seat="1" name="tropeiro123" bet="1,280" addon="0" rebuy="0" chips="198,114"/>
+    <player reg_code="" win="42,240" dealer="0" seat="2" name="Moneyfellah321" bet="49,280" addon="0" rebuy="0" chips="925,486"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="moob" bet="17,280" addon="0" rebuy="0" chips="665,702"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="blzjr1" bet="1,280" addon="0" rebuy="0" chips="718,994"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Imissyoumom" bet="1,280" addon="0" rebuy="0" chips="279,380"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="wwhite82" bet="1,280" addon="0" rebuy="0" chips="184,440"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="H142HIMRS" bet="1,280" addon="0" rebuy="0" chips="655,942"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="lendallejo" bet="1,280" addon="0" rebuy="0" chips="75,720"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Moneyfellah321" sum="1,280" type="15"/>
+   <action no="2" player="moob" sum="1,280" type="15"/>
+   <action no="3" player="blzjr1" sum="1,280" type="15"/>
+   <action no="4" player="Imissyoumom" sum="1,280" type="15"/>
+   <action no="5" player="wwhite82" sum="1,280" type="15"/>
+   <action no="6" player="H142HIMRS" sum="1,280" type="15"/>
+   <action no="7" player="lendallejo" sum="1,280" type="15"/>
+   <action no="8" player="tropeiro123" sum="1,280" type="15"/>
+   <action no="9" player="Moneyfellah321" sum="8,000" type="1"/>
+   <action no="10" player="moob" sum="16,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="blzjr1" type="Pocket">X X</cards>
+   <action no="11" player="blzjr1" sum="0" type="0"/>
+   <cards player="Imissyoumom" type="Pocket">X X</cards>
+   <action no="12" player="Imissyoumom" sum="0" type="0"/>
+   <cards player="wwhite82" type="Pocket">X X</cards>
+   <action no="13" player="wwhite82" sum="0" type="0"/>
+   <cards player="H142HIMRS" type="Pocket">X X</cards>
+   <action no="14" player="H142HIMRS" sum="0" type="0"/>
+   <cards player="lendallejo" type="Pocket">X X</cards>
+   <action no="15" player="lendallejo" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 SJ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Moneyfellah321" type="Pocket">X X</cards>
+   <action no="17" player="Moneyfellah321" sum="8,000" type="3"/>
+   <cards player="moob" type="Pocket">X X</cards>
+   <action no="18" player="moob" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA H3 D6</cards>
+   <action no="19" player="Moneyfellah321" sum="32,000" type="5"/>
+   <action no="20" player="moob" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

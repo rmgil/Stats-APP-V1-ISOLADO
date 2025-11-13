@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954841198">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€15,000 GTD, 1081501489</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:28:19</duration>
+  <gamecount>20</gamecount>
+  <startdate>2024-02-19 14:52:15</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>116,003</bets>
+  <wins>7,680</wins>
+  <chipsin>99,900</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP54</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294125</tournamentcode>
+  <tournamentname>E3|€15,000 GTD</tournamentname>
+  <place>316</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10572921054">
+  <general>
+   <startdate>2024-02-19 14:52:15</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="120" addon="0" rebuy="0" chips="92,415"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="120" addon="0" rebuy="0" chips="135,234"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="99,624"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="520" addon="0" rebuy="0" chips="90,130"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="920" addon="0" rebuy="0" chips="98,160"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="120" addon="0" rebuy="0" chips="93,773"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="1,720" addon="0" rebuy="0" chips="126,420"/>
+    <player reg_code="" win="5,360" dealer="0" seat="10" name="Gore0IRo" bet="4,800" addon="0" rebuy="0" chips="97,764"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WDB92" sum="120" type="15"/>
+   <action no="2" player="tropeiro123" sum="120" type="15"/>
+   <action no="3" player="mywifeisbest" sum="120" type="15"/>
+   <action no="4" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="5" player="Gore0IRo" sum="120" type="15"/>
+   <action no="6" player="Kjellern" sum="120" type="15"/>
+   <action no="7" player="GatoMoiado" sum="120" type="15"/>
+   <action no="8" player="Skyhook" sum="120" type="15"/>
+   <action no="9" player="WDB92" sum="400" type="1"/>
+   <action no="10" player="tropeiro123" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="11" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="12" player="Chikini11Banraba" sum="1,600" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="4,800" type="23"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="14" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="15" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="16" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="17" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 DK</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+   <action no="19" player="Chikini11Banraba" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10572921143">
+  <general>
+   <startdate>2024-02-19 14:53:35</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="120" addon="0" rebuy="0" chips="92,295"/>
+    <player reg_code="" win="5,360" dealer="0" seat="2" name="GatoMoiado" bet="3,888" addon="0" rebuy="0" chips="135,114"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="99,504"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,610"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="520" addon="0" rebuy="0" chips="97,240"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="2,120" addon="0" rebuy="0" chips="93,653"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="124,700"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="120" addon="0" rebuy="0" chips="101,404"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="120" type="15"/>
+   <action no="2" player="mywifeisbest" sum="120" type="15"/>
+   <action no="3" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="4" player="Gore0IRo" sum="120" type="15"/>
+   <action no="5" player="Kjellern" sum="120" type="15"/>
+   <action no="6" player="GatoMoiado" sum="120" type="15"/>
+   <action no="7" player="Skyhook" sum="120" type="15"/>
+   <action no="8" player="WDB92" sum="120" type="15"/>
+   <action no="9" player="tropeiro123" sum="400" type="1"/>
+   <action no="10" player="mywifeisbest" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="11" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="13" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="14" player="GatoMoiado" sum="2,000" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 CA</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="18" player="mywifeisbest" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA S7 C8</cards>
+   <action no="19" player="mywifeisbest" sum="0" type="4"/>
+   <action no="20" player="GatoMoiado" sum="1,768" type="5"/>
+   <action no="21" player="mywifeisbest" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10572921204">
+  <general>
+   <startdate>2024-02-19 14:54:21</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="12,880" dealer="0" seat="1" name="Kjellern" bet="14,496" addon="0" rebuy="0" chips="92,175"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="5,480" addon="0" rebuy="0" chips="138,354"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="99,384"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,490"/>
+    <player reg_code="7954841198" win="0" dealer="1" seat="6" name="tropeiro123" bet="120" addon="0" rebuy="0" chips="96,720"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="520" addon="0" rebuy="0" chips="91,533"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="920" addon="0" rebuy="0" chips="124,580"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="120" addon="0" rebuy="0" chips="101,284"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="mywifeisbest" sum="120" type="15"/>
+   <action no="2" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="3" player="Gore0IRo" sum="120" type="15"/>
+   <action no="4" player="Kjellern" sum="120" type="15"/>
+   <action no="5" player="GatoMoiado" sum="120" type="15"/>
+   <action no="6" player="Skyhook" sum="120" type="15"/>
+   <action no="7" player="WDB92" sum="120" type="15"/>
+   <action no="8" player="tropeiro123" sum="120" type="15"/>
+   <action no="9" player="mywifeisbest" sum="400" type="1"/>
+   <action no="10" player="Chikini11Banraba" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="12" player="Kjellern" sum="800" type="3"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="13" player="GatoMoiado" sum="2,800" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="14" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK S7</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="17" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="18" player="Chikini11Banraba" sum="0" type="0"/>
+   <action no="19" player="Kjellern" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 C3 H10</cards>
+   <action no="20" player="Kjellern" sum="0" type="4"/>
+   <action no="21" player="GatoMoiado" sum="2,560" type="5"/>
+   <action no="22" player="Kjellern" sum="2,560" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action no="23" player="Kjellern" sum="0" type="4"/>
+   <action no="24" player="GatoMoiado" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action no="25" player="Kjellern" sum="9,016" type="5"/>
+   <action no="26" player="GatoMoiado" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10572921290">
+  <general>
+   <startdate>2024-02-19 15:01:30</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="120" addon="0" rebuy="0" chips="99,575"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="120" addon="0" rebuy="0" chips="132,874"/>
+    <player reg_code="" win="7,296" dealer="0" seat="4" name="Skyhook" bet="7,888" addon="0" rebuy="0" chips="99,264"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,370"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="120" addon="0" rebuy="0" chips="96,600"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="mywifeisbest" bet="120" addon="0" rebuy="0" chips="91,013"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="520" addon="0" rebuy="0" chips="123,660"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="3,088" addon="0" rebuy="0" chips="101,164"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="2" player="Gore0IRo" sum="120" type="15"/>
+   <action no="3" player="Kjellern" sum="120" type="15"/>
+   <action no="4" player="GatoMoiado" sum="120" type="15"/>
+   <action no="5" player="Skyhook" sum="120" type="15"/>
+   <action no="6" player="WDB92" sum="120" type="15"/>
+   <action no="7" player="tropeiro123" sum="120" type="15"/>
+   <action no="8" player="mywifeisbest" sum="120" type="15"/>
+   <action no="9" player="Chikini11Banraba" sum="400" type="1"/>
+   <action no="10" player="Gore0IRo" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="11" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="12" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="13" player="Skyhook" sum="1,600" type="23"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="14" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H5</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="16" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="17" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="18" player="Gore0IRo" sum="800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 D10 C4</cards>
+   <action no="19" player="Gore0IRo" sum="0" type="4"/>
+   <action no="20" player="Skyhook" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action no="21" player="Gore0IRo" sum="1,368" type="5"/>
+   <action no="22" player="Skyhook" sum="1,368" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action no="23" player="Gore0IRo" sum="0" type="4"/>
+   <action no="24" player="Skyhook" sum="4,800" type="5"/>
+   <action no="25" player="Gore0IRo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573018718">
+  <general>
+   <startdate>2024-02-19 15:02:58</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="920" addon="0" rebuy="0" chips="99,455"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="120" addon="0" rebuy="0" chips="132,754"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="103,472"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,250"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="1,800" addon="0" rebuy="0" chips="96,480"/>
+    <player reg_code="" win="5,520" dealer="0" seat="7" name="mywifeisbest" bet="5,280" addon="0" rebuy="0" chips="90,893"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="123,140"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="520" addon="0" rebuy="0" chips="98,076"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gore0IRo" sum="120" type="15"/>
+   <action no="2" player="Kjellern" sum="120" type="15"/>
+   <action no="3" player="GatoMoiado" sum="120" type="15"/>
+   <action no="4" player="Skyhook" sum="120" type="15"/>
+   <action no="5" player="WDB92" sum="120" type="15"/>
+   <action no="6" player="tropeiro123" sum="120" type="15"/>
+   <action no="7" player="mywifeisbest" sum="120" type="15"/>
+   <action no="8" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="9" player="Gore0IRo" sum="400" type="1"/>
+   <action no="10" player="Kjellern" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="11" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="12" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="13" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ C10</cards>
+   <action no="14" player="tropeiro123" sum="1,680" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="15" player="mywifeisbest" sum="5,280" type="23"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="16" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="17" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="18" player="Kjellern" sum="0" type="0"/>
+   <action no="19" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573018751">
+  <general>
+   <startdate>2024-02-19 15:03:30</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="520" addon="0" rebuy="0" chips="98,535"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="920" addon="0" rebuy="0" chips="132,634"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="103,352"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,130"/>
+    <player reg_code="7954841198" win="2,960" dealer="0" seat="6" name="tropeiro123" bet="1,680" addon="0" rebuy="0" chips="94,680"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="120" addon="0" rebuy="0" chips="94,613"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="123,020"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="Gore0IRo" bet="120" addon="0" rebuy="0" chips="97,556"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Kjellern" sum="120" type="15"/>
+   <action no="2" player="GatoMoiado" sum="120" type="15"/>
+   <action no="3" player="Skyhook" sum="120" type="15"/>
+   <action no="4" player="WDB92" sum="120" type="15"/>
+   <action no="5" player="tropeiro123" sum="120" type="15"/>
+   <action no="6" player="mywifeisbest" sum="120" type="15"/>
+   <action no="7" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="8" player="Gore0IRo" sum="120" type="15"/>
+   <action no="9" player="Kjellern" sum="400" type="1"/>
+   <action no="10" player="GatoMoiado" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="11" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="12" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ SQ</cards>
+   <action no="13" player="tropeiro123" sum="1,680" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="14" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="15" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="16" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="17" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="18" player="GatoMoiado" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573018797">
+  <general>
+   <startdate>2024-02-19 15:04:04</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="46,192" dealer="1" seat="1" name="Kjellern" bet="98,015" addon="0" rebuy="0" chips="98,015"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="1,800" addon="0" rebuy="0" chips="131,714"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="1,800" addon="0" rebuy="0" chips="103,232"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="120" addon="0" rebuy="0" chips="89,010"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="1,800" addon="0" rebuy="0" chips="96,720"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="120" addon="0" rebuy="0" chips="94,493"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="122,900"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="20,216" addon="0" rebuy="0" chips="97,436"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="GatoMoiado" sum="120" type="15"/>
+   <action no="2" player="Skyhook" sum="120" type="15"/>
+   <action no="3" player="WDB92" sum="120" type="15"/>
+   <action no="4" player="tropeiro123" sum="120" type="15"/>
+   <action no="5" player="mywifeisbest" sum="120" type="15"/>
+   <action no="6" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="7" player="Gore0IRo" sum="120" type="15"/>
+   <action no="8" player="Kjellern" sum="120" type="15"/>
+   <action no="9" player="GatoMoiado" sum="400" type="1"/>
+   <action no="10" player="Skyhook" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="11" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA S9</cards>
+   <action no="12" player="tropeiro123" sum="1,680" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="13" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="14" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="15" player="Gore0IRo" sum="1,680" type="3"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="16" player="Kjellern" sum="1,680" type="3"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="17" player="GatoMoiado" sum="1,280" type="3"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="18" player="Skyhook" sum="880" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ H2 C7</cards>
+   <action no="19" player="GatoMoiado" sum="0" type="4"/>
+   <action no="20" player="Skyhook" sum="0" type="4"/>
+   <action no="21" player="tropeiro123" sum="0" type="4"/>
+   <action no="22" player="Gore0IRo" sum="2,808" type="5"/>
+   <action no="23" player="Kjellern" sum="6,416" type="23"/>
+   <action no="24" player="GatoMoiado" sum="0" type="0"/>
+   <action no="25" player="Skyhook" sum="0" type="0"/>
+   <action no="26" player="tropeiro123" sum="0" type="0"/>
+   <action no="27" player="Gore0IRo" sum="3,608" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="28" player="Gore0IRo" sum="0" type="4"/>
+   <action no="29" player="Kjellern" sum="12,000" type="5"/>
+   <action no="30" player="Gore0IRo" sum="12,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action no="31" player="Gore0IRo" sum="0" type="4"/>
+   <action no="32" player="Kjellern" sum="77,799" type="5"/>
+   <action no="33" player="Gore0IRo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573018939">
+  <general>
+   <startdate>2024-02-19 15:06:04</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="2,960" dealer="0" seat="1" name="Kjellern" bet="2,000" addon="0" rebuy="0" chips="123,991"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="GatoMoiado" bet="120" addon="0" rebuy="0" chips="129,914"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="520" addon="0" rebuy="0" chips="101,432"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="920" addon="0" rebuy="0" chips="88,890"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="120" addon="0" rebuy="0" chips="94,920"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="120" addon="0" rebuy="0" chips="94,373"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="122,780"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="120" addon="0" rebuy="0" chips="77,220"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Skyhook" sum="120" type="15"/>
+   <action no="2" player="WDB92" sum="120" type="15"/>
+   <action no="3" player="tropeiro123" sum="120" type="15"/>
+   <action no="4" player="mywifeisbest" sum="120" type="15"/>
+   <action no="5" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="6" player="Gore0IRo" sum="120" type="15"/>
+   <action no="7" player="Kjellern" sum="120" type="15"/>
+   <action no="8" player="GatoMoiado" sum="120" type="15"/>
+   <action no="9" player="Skyhook" sum="400" type="1"/>
+   <action no="10" player="WDB92" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H8 S5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="12" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="13" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="14" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="15" player="Kjellern" sum="2,000" type="23"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="16" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="17" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="18" player="WDB92" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573018979">
+  <general>
+   <startdate>2024-02-19 15:06:31</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="120" addon="0" rebuy="0" chips="126,031"/>
+    <player reg_code="" win="14,792" dealer="0" seat="2" name="GatoMoiado" bet="6,436" addon="0" rebuy="0" chips="129,794"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Skyhook" bet="120" addon="0" rebuy="0" chips="100,912"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="520" addon="0" rebuy="0" chips="87,970"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="920" addon="0" rebuy="0" chips="94,800"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="6,436" addon="0" rebuy="0" chips="94,253"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="120" addon="0" rebuy="0" chips="122,660"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="120" addon="0" rebuy="0" chips="77,100"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="WDB92" sum="120" type="15"/>
+   <action no="2" player="tropeiro123" sum="120" type="15"/>
+   <action no="3" player="mywifeisbest" sum="120" type="15"/>
+   <action no="4" player="Chikini11Banraba" sum="120" type="15"/>
+   <action no="5" player="Gore0IRo" sum="120" type="15"/>
+   <action no="6" player="Kjellern" sum="120" type="15"/>
+   <action no="7" player="GatoMoiado" sum="120" type="15"/>
+   <action no="8" player="Skyhook" sum="120" type="15"/>
+   <action no="9" player="WDB92" sum="400" type="1"/>
+   <action no="10" player="tropeiro123" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mywifeisbest" type="Pocket">D4 DA</cards>
+   <action no="11" player="mywifeisbest" sum="1,600" type="23"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="12" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="13" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="14" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">CK DQ</cards>
+   <action no="15" player="GatoMoiado" sum="1,600" type="3"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="16" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="17" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 C2</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H7 H6</cards>
+   <action no="19" player="mywifeisbest" sum="0" type="4"/>
+   <action no="20" player="GatoMoiado" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="21" player="mywifeisbest" sum="0" type="4"/>
+   <action no="22" player="GatoMoiado" sum="4,716" type="5"/>
+   <action no="23" player="mywifeisbest" sum="4,716" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="24" player="mywifeisbest" sum="0" type="4"/>
+   <action no="25" player="GatoMoiado" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573019124">
+  <general>
+   <startdate>2024-02-19 15:08:27</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="1,930" addon="0" rebuy="0" chips="125,911"/>
+    <player reg_code="" win="7,790" dealer="0" seat="2" name="GatoMoiado" bet="9,000" addon="0" rebuy="0" chips="138,150"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="100,792"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="87,450"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="580" addon="0" rebuy="0" chips="93,880"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="1,030" addon="0" rebuy="0" chips="87,817"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="130" addon="0" rebuy="0" chips="122,540"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="1,930" addon="0" rebuy="0" chips="76,980"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="130" type="15"/>
+   <action no="2" player="mywifeisbest" sum="130" type="15"/>
+   <action no="3" player="Chikini11Banraba" sum="130" type="15"/>
+   <action no="4" player="Gore0IRo" sum="130" type="15"/>
+   <action no="5" player="Kjellern" sum="130" type="15"/>
+   <action no="6" player="GatoMoiado" sum="130" type="15"/>
+   <action no="7" player="Skyhook" sum="130" type="15"/>
+   <action no="8" player="WDB92" sum="130" type="15"/>
+   <action no="9" player="tropeiro123" sum="450" type="1"/>
+   <action no="10" player="mywifeisbest" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="11" player="Chikini11Banraba" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="12" player="Gore0IRo" sum="1,800" type="23"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="13" player="Kjellern" sum="1,800" type="3"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="14" player="GatoMoiado" sum="9,000" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="15" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="16" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 CJ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="18" player="mywifeisbest" sum="0" type="0"/>
+   <action no="19" player="Gore0IRo" sum="0" type="0"/>
+   <action no="20" player="Kjellern" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573019208">
+  <general>
+   <startdate>2024-02-19 15:09:26</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="130" addon="0" rebuy="0" chips="123,981"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="130" addon="0" rebuy="0" chips="144,010"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="100,662"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="87,320"/>
+    <player reg_code="7954841198" win="0" dealer="1" seat="6" name="tropeiro123" bet="93,300" addon="0" rebuy="0" chips="93,300"/>
+    <player reg_code="" win="175,254" dealer="0" seat="7" name="mywifeisbest" bet="86,787" addon="0" rebuy="0" chips="86,787"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Chikini11Banraba" bet="1,030" addon="0" rebuy="0" chips="122,410"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="130" addon="0" rebuy="0" chips="75,050"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="mywifeisbest" sum="130" type="15"/>
+   <action no="2" player="Chikini11Banraba" sum="130" type="15"/>
+   <action no="3" player="Gore0IRo" sum="130" type="15"/>
+   <action no="4" player="Kjellern" sum="130" type="15"/>
+   <action no="5" player="GatoMoiado" sum="130" type="15"/>
+   <action no="6" player="Skyhook" sum="130" type="15"/>
+   <action no="7" player="WDB92" sum="130" type="15"/>
+   <action no="8" player="tropeiro123" sum="130" type="15"/>
+   <action no="9" player="mywifeisbest" sum="450" type="1"/>
+   <action no="10" player="Chikini11Banraba" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="11" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="12" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="13" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="14" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="15" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 S9</cards>
+   <action no="16" player="tropeiro123" sum="1,890" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">DQ D6</cards>
+   <action no="17" player="mywifeisbest" sum="1,440" type="3"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="18" player="Chikini11Banraba" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 H6 D5</cards>
+   <action no="19" player="mywifeisbest" sum="0" type="4"/>
+   <action no="20" player="tropeiro123" sum="1,430" type="5"/>
+   <action no="21" player="mywifeisbest" sum="1,430" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action no="22" player="mywifeisbest" sum="3,775" type="5"/>
+   <action no="23" player="tropeiro123" sum="16,919" type="23"/>
+   <action no="24" player="mywifeisbest" sum="13,144" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+   <action no="25" player="mywifeisbest" sum="13,997" type="5"/>
+   <action no="26" player="tropeiro123" sum="72,931" type="23"/>
+   <action no="27" player="mywifeisbest" sum="52,421" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10573019351">
+  <general>
+   <startdate>2024-02-19 15:11:20</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="130" addon="0" rebuy="0" chips="123,851"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="130" addon="0" rebuy="0" chips="143,880"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="100,532"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="87,190"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="6,513"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="175,254"/>
+    <player reg_code="" win="2,840" dealer="0" seat="9" name="Chikini11Banraba" bet="3,150" addon="0" rebuy="0" chips="121,380"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="1,030" addon="0" rebuy="0" chips="74,920"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Chikini11Banraba" sum="130" type="15"/>
+   <action no="2" player="Gore0IRo" sum="130" type="15"/>
+   <action no="3" player="Kjellern" sum="130" type="15"/>
+   <action no="4" player="GatoMoiado" sum="130" type="15"/>
+   <action no="5" player="Skyhook" sum="130" type="15"/>
+   <action no="6" player="WDB92" sum="130" type="15"/>
+   <action no="7" player="tropeiro123" sum="130" type="15"/>
+   <action no="8" player="mywifeisbest" sum="130" type="15"/>
+   <action no="9" player="Chikini11Banraba" sum="450" type="1"/>
+   <action no="10" player="Gore0IRo" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="11" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="12" player="GatoMoiado" sum="0" type="0"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="13" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="14" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 S9</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="16" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Chikini11Banraba" type="Pocket">X X</cards>
+   <action no="17" player="Chikini11Banraba" sum="3,150" type="23"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="18" player="Gore0IRo" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573019394">
+  <general>
+   <startdate>2024-02-19 15:11:54</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="2,380" addon="0" rebuy="0" chips="123,721"/>
+    <player reg_code="" win="5,860" dealer="0" seat="2" name="GatoMoiado" bet="5,603" addon="0" rebuy="0" chips="143,750"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="100,402"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="87,060"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="130" addon="0" rebuy="0" chips="6,383"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="175,124"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Gore0IRo" bet="580" addon="0" rebuy="0" chips="73,890"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Gore0IRo" sum="130" type="15"/>
+   <action no="2" player="Kjellern" sum="130" type="15"/>
+   <action no="3" player="GatoMoiado" sum="130" type="15"/>
+   <action no="4" player="Skyhook" sum="130" type="15"/>
+   <action no="5" player="WDB92" sum="130" type="15"/>
+   <action no="6" player="tropeiro123" sum="130" type="15"/>
+   <action no="7" player="mywifeisbest" sum="130" type="15"/>
+   <action no="8" player="Gore0IRo" sum="450" type="1"/>
+   <action no="9" player="Kjellern" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="10" player="GatoMoiado" sum="2,250" type="23"/>
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="11" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="12" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 C6</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="14" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">X X</cards>
+   <action no="15" player="Gore0IRo" sum="0" type="0"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="16" player="Kjellern" sum="1,350" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA D9 HQ</cards>
+   <action no="17" player="Kjellern" sum="0" type="4"/>
+   <action no="18" player="GatoMoiado" sum="3,223" type="5"/>
+   <action no="19" player="Kjellern" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573044071">
+  <general>
+   <startdate>2024-02-19 15:13:10</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Kjellern" bet="580" addon="0" rebuy="0" chips="121,341"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="GatoMoiado" bet="1,030" addon="0" rebuy="0" chips="147,230"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Skyhook" bet="130" addon="0" rebuy="0" chips="100,272"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="WDB92" bet="130" addon="0" rebuy="0" chips="86,930"/>
+    <player reg_code="7954841198" win="0" dealer="0" seat="6" name="tropeiro123" bet="6,123" addon="0" rebuy="0" chips="6,253"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="mywifeisbest" bet="130" addon="0" rebuy="0" chips="174,994"/>
+    <player reg_code="" win="14,506" dealer="1" seat="10" name="Gore0IRo" bet="16,746" addon="0" rebuy="0" chips="73,310">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Kjellern" sum="130" type="15"/>
+   <action no="2" player="GatoMoiado" sum="130" type="15"/>
+   <action no="3" player="Skyhook" sum="130" type="15"/>
+   <action no="4" player="WDB92" sum="130" type="15"/>
+   <action no="5" player="tropeiro123" sum="130" type="15"/>
+   <action no="6" player="mywifeisbest" sum="130" type="15"/>
+   <action no="7" player="Gore0IRo" sum="130" type="15"/>
+   <action no="8" player="Kjellern" sum="450" type="1"/>
+   <action no="9" player="GatoMoiado" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Skyhook" type="Pocket">X X</cards>
+   <action no="10" player="Skyhook" sum="0" type="0"/>
+   <cards player="WDB92" type="Pocket">X X</cards>
+   <action no="11" player="WDB92" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 S3</cards>
+   <action no="12" player="tropeiro123" sum="6,123" type="23"/>
+   <cards player="mywifeisbest" type="Pocket">X X</cards>
+   <action no="13" player="mywifeisbest" sum="0" type="0"/>
+   <cards player="Gore0IRo" type="Pocket">SQ DQ</cards>
+   <action no="14" player="Gore0IRo" sum="16,746" type="23"/>
+   <cards player="Kjellern" type="Pocket">X X</cards>
+   <action no="15" player="Kjellern" sum="0" type="0"/>
+   <cards player="GatoMoiado" type="Pocket">X X</cards>
+   <action no="16" player="GatoMoiado" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 CA S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+</session>

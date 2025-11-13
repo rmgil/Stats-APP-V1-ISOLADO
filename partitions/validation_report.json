@@ -1,0 +1,17 @@
+{
+  "counts_path": "partitions/partition_counts.json",
+  "hands_jsonl": "parsed/hands_enriched.jsonl",
+  "differences": [],
+  "ok": true,
+  "report_path": "partitions/validation_report.json",
+  "summary": {
+    "total_months": 1,
+    "total_hands_in_counts": 12,
+    "groups_with_data": [
+      "nonko_6max_pref",
+      "postflop_all"
+    ],
+    "validation_status": "PASSED",
+    "discrepancy_count": 0
+  }
+}

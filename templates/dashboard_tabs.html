@@ -1,0 +1,2475 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Análise de Mãos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+        
+        .header {
+            background: #111;
+            padding: 20px;
+            border-bottom: 1px solid #222;
+        }
+        
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            color: #fff;
+            font-weight: 300;
+        }
+        
+        .summary {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+        
+        .summary-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: #999;
+        }
+        
+        .summary-value {
+            color: #fff;
+            font-weight: 500;
+        }
+        
+        .btn-new-analysis {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: transform 0.2s;
+        }
+        
+        .btn-new-analysis:hover {
+            transform: translateY(-2px);
+        }
+        
+        /* Tab Navigation */
+        .tabs-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .tab-nav {
+            display: flex;
+            border-bottom: 1px solid #222;
+            margin-bottom: 30px;
+        }
+        
+        .tab-btn {
+            background: none;
+            border: none;
+            color: #666;
+            padding: 12px 24px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .tab-btn:hover {
+            color: #999;
+        }
+        
+        .tab-btn.active {
+            color: #fff;
+        }
+        
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+        
+        /* Sub-tabs for NONKO */
+        .sub-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .sub-tab-btn {
+            background: #111;
+            border: 1px solid #222;
+            color: #666;
+            padding: 8px 16px;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 20px;
+            transition: all 0.2s;
+        }
+        
+        .sub-tab-btn:hover {
+            background: #1a1a1a;
+            color: #999;
+        }
+        
+        .sub-tab-btn.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border-color: transparent;
+        }
+        
+        /* Tab Content */
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* Top Cards Container */
+        .top-cards-container {
+            display: grid;
+            grid-template-columns: 300px 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        @media (max-width: 1400px) {
+            .top-cards-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .top-cards-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Site Hands Card */
+        .site-hands-card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .site-hands-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .site-hands-icon {
+            font-size: 24px;
+        }
+        
+        .site-hands-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #999;
+            font-weight: 500;
+        }
+        
+        .site-hands-total {
+            font-size: 32px;
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        
+        .site-hands-divider {
+            height: 1px;
+            background: #333;
+            margin: 15px 0;
+        }
+        
+        .site-hands-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .site-hand-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .site-hand-name {
+            font-size: 13px;
+            color: #e0e0e0;
+        }
+        
+        .site-hand-count {
+            font-size: 14px;
+            font-weight: 600;
+            color: #22c55e;
+        }
+        
+        /* Player Identity Card */
+        .player-card {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .player-photo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            color: #444;
+        }
+        
+        .player-info {
+            flex: 1;
+        }
+        
+        .player-name {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .player-details {
+            display: flex;
+            gap: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .player-detail {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .player-detail strong {
+            color: #999;
+        }
+        
+        /* Average Stats Section */
+        .average-stats {
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .average-stats-title {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #999;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .average-score {
+            font-size: 56px;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .average-stats-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        .score-breakdown {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            max-width: 300px;
+        }
+        
+        .score-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .score-label {
+            font-size: 14px;
+            color: #999;
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+        
+        .score-value {
+            font-size: 20px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .average-chart-container {
+            flex: 0 0 240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Groups with Subgroups (GERAL tab) */
+        .groups-with-subgroups {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        
+        .group-card-detailed {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .group-header {
+            padding: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .group-header.nonko {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        
+        .group-header.pko {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
+        }
+        
+        .group-header.postflop {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+        }
+        
+        .group-score {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .group-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            justify-content: space-between;
+        }
+        
+        .volume-info {
+            background: #0a0a0a;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 13px;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .subgroup-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .subgroup-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: #0a0a0a;
+            border-radius: 6px;
+            border: 1px solid #1a1a1a;
+        }
+        
+        .subgroup-name {
+            font-size: 13px;
+            color: #e0e0e0;
+        }
+        
+        .subgroup-score {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .subgroup-score-value {
+            font-size: 14px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .subgroup-weight {
+            font-size: 11px;
+            color: #666;
+        }
+        
+        /* Stats Container */
+        .stats-container {
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .stats-header-wrapper {
+            position: sticky;
+            top: 0;
+            z-index: 15;
+            background: #0a0a0a;
+        }
+        
+        .stats-header {
+            padding: 20px;
+            border-bottom: 1px solid #222;
+            background: #0a0a0a;
+        }
+        
+        .stats-title {
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .stats-info {
+            font-size: 13px;
+            color: #666;
+        }
+        
+        .stats-body {
+            padding: 20px;
+            position: relative;
+            max-height: calc(100vh - 300px);
+            overflow-y: auto;
+        }
+        
+        /* Stat Categories */
+        .stat-category {
+            margin-bottom: 30px;
+        }
+        
+        .stat-category-title {
+            font-weight: 600;
+            color: #999;
+            margin-bottom: 15px;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        /* Table Header */
+        .stat-header {
+            display: grid;
+            grid-template-columns: 100px 1fr 100px 120px 130px 80px;
+            gap: 20px;
+            align-items: center;
+            padding: 12px 20px;
+            border-bottom: 2px solid #333;
+            background: #0a0a0a;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: #666;
+            font-weight: 600;
+        }
+        
+        .stat-header > div {
+            padding: 0 10px;
+            position: relative;
+        }
+        
+        .stat-header > div:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 20px;
+            width: 1px;
+            background: #333;
+        }
+        
+        .stat-row {
+            display: grid;
+            grid-template-columns: 100px 1fr 100px 120px 130px 80px;
+            gap: 20px;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px solid #1a1a1a;
+        }
+        
+        .stat-row > div {
+            padding: 0 10px;
+            position: relative;
+        }
+        
+        /* Highlight "Nota final" column (6th column) with subtle gradient background */
+        .stat-row > div:nth-child(6) {
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.08), rgba(118, 75, 162, 0.08));
+            border-radius: 6px;
+            padding: 8px 10px;
+        }
+        
+        .stat-header > div:nth-child(6) {
+            background: linear-gradient(90deg, rgba(102, 126, 234, 0.12), rgba(118, 75, 162, 0.12));
+            border-radius: 6px;
+            padding: 8px 10px;
+        }
+        
+        .stat-row > div:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 20px;
+            width: 1px;
+            background: #222;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        .stat-name {
+            color: #e0e0e0;
+            font-size: 13px;
+        }
+        
+        .stat-percentage {
+            font-weight: 600;
+            color: #fff;
+            font-size: 13px;
+            text-align: center;
+        }
+        
+        .stat-count {
+            color: #444;
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .stat-ideal {
+            color: #666;
+            font-size: 11px;
+            text-align: left;
+        }
+        
+        /* Stat score display (replacing bar) */
+        .stat-score {
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 14px;
+            min-width: 45px;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        /* Score Colors */
+        .score-dark-green { color: #22c55e !important; }     /* 80-100: Verde Escuro */
+        .score-light-green { color: #84cc16 !important; }    /* 60-79: Verde claro */
+        .score-yellow { color: #eab308 !important; }         /* 40-59: Amarelo */
+        .score-orange-red { color: #f97316 !important; }     /* 20-39: Vermelho alaranjado */
+        .score-dark-red { color: #991b1b !important; }       /* 0-19: Vermelho escuro */
+        .score-empty { color: #666 !important; }             /* Vazio: Cinza */
+        
+        /* Score Badge */
+        .score-badge {
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 11px;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .score-excellent { background: #22c55e; }
+        .score-good { background: #84cc16; }
+        .score-average { background: #eab308; }
+        .score-below { background: #f97316; }
+        .score-poor { background: #ef4444; }
+        
+        /* Radar Chart Container */
+        .radar-chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            background: #0a0a0a;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .radar-chart-container canvas {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Tooltip Styles */
+        .stat-tooltip {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .stat-info-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 16px;
+            height: 16px;
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            border-radius: 50%;
+            font-size: 11px;
+            font-weight: bold;
+            cursor: help;
+            transition: all 0.2s;
+        }
+        
+        .stat-info-icon:hover {
+            background: rgba(102, 126, 234, 0.3);
+            transform: scale(1.1);
+        }
+        
+        .stat-tooltip-content {
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-left: 10px;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 14px 16px;
+            min-width: 350px;
+            max-width: 500px;
+            z-index: 1000;
+            transition: opacity 0.2s, visibility 0.2s;
+            font-size: 12px;
+            line-height: 1.6;
+            color: #ccc;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+        }
+        
+        .stat-tooltip-content strong {
+            color: #fff;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+            display: inline-block;
+        }
+        
+        .stat-tooltip:hover .stat-tooltip-content {
+            visibility: visible;
+            opacity: 1;
+        }
+        
+        .stat-tooltip-content::before {
+            content: '';
+            position: absolute;
+            right: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 6px solid transparent;
+            border-right-color: #333;
+        }
+        
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 100px 20px;
+            color: #666;
+        }
+        
+        .loading-spinner {
+            border: 2px solid #222;
+            border-top: 2px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Error State */
+        .error {
+            background: #1a0808;
+            color: #ff6b6b;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px;
+            border: 1px solid #2a0808;
+        }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+        
+        .empty-state h3 {
+            color: #999;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+            }
+            
+            .summary {
+                flex-wrap: wrap;
+            }
+            
+            .tab-nav {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            
+            .groups-with-subgroups {
+                grid-template-columns: 1fr;
+            }
+            
+            .stat-bar {
+                width: 60px;
+            }
+            
+            .average-score {
+                font-size: 48px;
+            }
+            
+            .player-card {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        /* Month Selector Dropdown */
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        
+        .month-selector {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .month-selector label {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #999;
+            letter-spacing: 0.5px;
+        }
+        
+        .month-dropdown {
+            background: #0f172a;
+            border: 1px solid #1f2937;
+            color: #e2e8f0;
+            padding: 8px 12px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+            min-width: 200px;
+        }
+        
+        .month-dropdown:hover {
+            border-color: #667eea;
+        }
+        
+        .month-dropdown:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+        }
+        
+        @media (max-width: 768px) {
+            .header-actions {
+                width: 100%;
+                justify-content: space-between;
+            }
+            
+            .month-selector {
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+            }
+            
+            .month-dropdown {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>Dashboard de Análise</h1>
+            <div class="header-actions">
+                <div class="month-selector" id="monthSelectorContainer" style="display: none;" data-token="{{ token }}" data-current-month="{{ month or '' }}">
+                    <label for="monthSelector">Período:</label>
+                    <select id="monthSelector" class="month-dropdown">
+                        <option value="">Todos os meses</option>
+                    </select>
+                </div>
+                <button class="btn-new-analysis" onclick="window.location.href='/upload'">
+                    Nova Análise
+                </button>
+            </div>
+            <div class="summary">
+                <div class="summary-item">
+                    <span>Total encontradas:</span>
+                    <span class="summary-value" id="totalHands">-</span>
+                </div>
+                <div class="summary-item">
+                    <span>Válidas:</span>
+                    <span class="summary-value" style="color: #22c55e;" id="validHands">-</span>
+                </div>
+                <div class="summary-item" title="Torneios Mystery Bounty">
+                    <span>Mystery:</span>
+                    <span class="summary-value" style="color: #eab308;" id="mysteryHands">-</span>
+                </div>
+                <div class="summary-item" title="Mãos com menos de 4 jogadores ativos">
+                    <span>&lt;4 jogadores:</span>
+                    <span class="summary-value" style="color: #f97316;" id="lessThan4Hands">-</span>
+                </div>
+                <div class="summary-item" title="Resumos de torneio">
+                    <span>Resumos:</span>
+                    <span class="summary-value" style="color: #64748b;" id="tournamentSummaryHands">-</span>
+                </div>
+                <div class="summary-item" title="Jogos a dinheiro (cash games)">
+                    <span>Cash:</span>
+                    <span class="summary-value" style="color: #64748b;" id="cashGameHands">-</span>
+                </div>
+                <div class="summary-item" title="Formato não reconhecido">
+                    <span>Inválido:</span>
+                    <span class="summary-value" style="color: #64748b;" id="invalidFormatHands">-</span>
+                </div>
+                <div class="summary-item" title="Effective stack < 16bb (preflop filter)">
+                    <span>Stack < 16bb:</span>
+                    <span class="summary-value" style="color: #8b5cf6;" id="lowStackHands">-</span>
+                </div>
+                <div class="summary-item" title="Contextual all-in exclusion (e.g., 3bet was all-in shove, steal was all-in)">
+                    <span>All-in contextual:</span>
+                    <span class="summary-value" style="color: #f97316;" id="allinContextualHands">-</span>
+                </div>
+                <div class="summary-item" title="Outras razões de descarte">
+                    <span>Outros:</span>
+                    <span class="summary-value" style="color: #64748b;" id="otherHands">-</span>
+                </div>
+                <div class="summary-item">
+                    <span>Token:</span>
+                    <span class="summary-value" id="tokenDisplay" style="font-family: monospace; font-size: 11px;">-</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="tabs-container">
+        <!-- Main Tab Navigation -->
+        <div class="tab-nav">
+            <button class="tab-btn active" onclick="switchTab('geral')">GERAL</button>
+            <button class="tab-btn" onclick="switchTab('nonko')">NONKO</button>
+            <button class="tab-btn" onclick="switchTab('pko')">PKO</button>
+            <button class="tab-btn" onclick="switchTab('postflop')">POSTFLOP</button>
+        </div>
+        
+        <!-- GERAL Tab Content -->
+        <div id="tab-geral" class="tab-content active">
+            <div id="loading-geral" class="loading">
+                <div class="loading-spinner"></div>
+                <div>Carregando dados...</div>
+            </div>
+            <div id="content-geral" style="display: none;">
+                <!-- Top Cards Container -->
+                <div class="top-cards-container">
+                    <!-- Hands by Site Card -->
+                    <div class="site-hands-card" id="site-hands-card">
+                        <div class="site-hands-header">
+                            <div class="site-hands-icon">📊</div>
+                            <div class="site-hands-title">Mãos Válidas</div>
+                        </div>
+                        <div class="site-hands-total" id="site-hands-total">-</div>
+                        <div class="site-hands-divider"></div>
+                        <div class="site-hands-list" id="site-hands-list">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                    
+                    <!-- Player Identity Card -->
+                    <div class="player-card" id="player-card">
+                        <div class="player-photo">👤</div>
+                        <div class="player-info">
+                            <div class="player-name" id="player-name">Jogador</div>
+                            <div class="player-details">
+                                <div class="player-detail">
+                                    <strong>Email:</strong>
+                                    <span id="player-email">-</span>
+                                </div>
+                                <div class="player-detail">
+                                    <strong>Nível:</strong>
+                                    <span id="player-level">-</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Average Stats Section -->
+                    <div class="average-stats">
+                        <div class="average-stats-title">Average Stats</div>
+                        <div class="average-score" id="average-score">-</div>
+                        <div class="average-stats-content">
+                            <div class="score-breakdown">
+                                <div class="score-item">
+                                    <span class="score-label">NON-KO</span>
+                                    <span class="score-value" id="nonko-score">-</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-label">PKO</span>
+                                    <span class="score-value" id="pko-score">-</span>
+                                </div>
+                                <div class="score-item">
+                                    <span class="score-label">POSTFLOP</span>
+                                    <span class="score-value" id="postflop-score">-</span>
+                                </div>
+                            </div>
+                            <div class="average-chart-container">
+                                <canvas id="average-stats-radar" width="240" height="240"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Groups with Subgroups -->
+                <div class="groups-with-subgroups" id="groups-container"></div>
+            </div>
+        </div>
+        
+        <!-- NONKO Tab Content -->
+        <div id="tab-nonko" class="tab-content">
+            <!-- Overall NON-KO Score Section -->
+            <div class="sub-tabs">
+                <button class="sub-tab-btn active" onclick="switchNonkoSubTab('9max')">9-max</button>
+                <button class="sub-tab-btn" onclick="switchNonkoSubTab('6max')">6-max</button>
+            </div>
+            
+            <div id="nonko-9max" class="sub-tab-content active">
+                <div id="loading-nonko-9max" class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Carregando dados 9-max...</div>
+                </div>
+                <div id="content-nonko-9max" style="display: none;"></div>
+            </div>
+            
+            <div id="nonko-6max" class="sub-tab-content" style="display: none;">
+                <div id="loading-nonko-6max" class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Carregando dados 6-max...</div>
+                </div>
+                <div id="content-nonko-6max" style="display: none;"></div>
+            </div>
+        </div>
+        
+        <!-- PKO Tab Content -->
+        <div id="tab-pko" class="tab-content">
+            <div id="loading-pko" class="loading">
+                <div class="loading-spinner"></div>
+                <div>Carregando dados PKO...</div>
+            </div>
+            <div id="content-pko" style="display: none;"></div>
+        </div>
+        
+        <!-- POSTFLOP Tab Content -->
+        <div id="tab-postflop" class="tab-content">
+            <div id="loading-postflop" class="loading">
+                <div class="loading-spinner"></div>
+                <div>Carregando dados Postflop...</div>
+            </div>
+            <div id="content-postflop" style="display: none;"></div>
+        </div>
+        
+    </div>
+    
+    <div id="error" class="error" style="display: none;"></div>
+    
+    <script>
+        // Global data storage
+        let dashboardData = null;
+        let downloadUrls = {}; // Store download URLs by format and stat name
+        let currentTab = 'geral';
+        let currentNonkoSubTab = '9max';
+        
+        // Combined tooltips: Rules + Practical Examples (English, Hero perspective, verified against code)
+        const statTooltips = {
+            // POSTFLOP (20 stats)
+            'Flop CBet IP %': '<strong>RULES:</strong><br>• Hero is PFR (first raiser)<br>• Unopened pot preflop (no limpers)<br>• Valid position (EP/MP/CO/BTN)<br>• No 3bet/4bet preflop<br>• Heads-up on flop (2 players)<br>• Hero IP (acts last)<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You open CO, BB calls. Flop ♠K♥8♣3, BB checks. You can bet (you\'re IP, raised preflop).',
+            'Flop CBet 3BetPot IP': '<strong>RULES:</strong><br>• Hero is 3bettor<br>• Villain called 3bet<br>• Heads-up on flop (2 players)<br>• Hero IP (acts last)<br>• No all-in preflop<br>• Action checks to Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO opens, you 3-bet from BTN, CO calls. Flop ♦A♣Q♥7, CO checks. You can bet (you\'re IP, 3-bettor).',
+            'Flop CBet OOP%': '<strong>RULES:</strong><br>• Hero is PFR (first raiser)<br>• Unopened pot preflop<br>• Valid position (EP/MP/CO/BTN)<br>• No 3bet/4bet preflop<br>• Heads-up on flop (2 players)<br>• Hero OOP (acts first)<br>• No all-in preflop<br><br><strong>💡 EXAMPLE:</strong><br>You open EP, BTN calls. Flop ♥K♠9♦4. You act first - can bet (you\'re OOP, raised preflop).',
+            'Flop fold vs Cbet IP': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Villain is PFR<br>• Hero called preflop<br>• Heads-up on flop<br>• Villain cbets (not all-in)<br>• Hero IP (acts last)<br><br><strong>💡 EXAMPLE:</strong><br>CO opens, you call from BTN. Flop ♣A♦7♥2, CO bets. You fold (you\'re IP, facing cbet).',
+            'Flop raise Cbet IP': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Villain is PFR<br>• Hero called preflop<br>• Heads-up on flop<br>• Villain cbets (not all-in)<br>• Hero IP (acts last)<br><br><strong>💡 EXAMPLE:</strong><br>EP opens, you call from CO. Flop ♠8♥5♦3, EP bets 1000. You raise to 3000 (you\'re IP).',
+            'Flop raise Cbet OOP': '<strong>RULES:</strong><br>• Hero called raise preflop<br>• Heads-up on flop<br>• Hero OOP (acts first)<br>• Hero checks<br>• Villain bets (not all-in)<br><br><strong>💡 EXAMPLE:</strong><br>You call raise from BB. Flop ♥J♣9♠6, you check, villain bets. You check-raise (you\'re OOP).',
+            'Fold vs Check Raise': '<strong>RULES:</strong><br>• Heads-up on flop<br>• Villain checks<br>• Hero bets<br>• Villain check-raises<br><br><strong>💡 EXAMPLE:</strong><br>Flop action heads-up. Villain checks, you bet, villain check-raises. You fold.',
+            'Flop bet vs missed Cbet SRP': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Villain is PFR<br>• Hero called preflop<br>• Heads-up on flop<br>• Hero IP (acts last)<br>• Villain checks (missed cbet)<br><br><strong>💡 EXAMPLE:</strong><br>MP opens, you call in position. Flop ♦9♥7♣2, MP checks. You can bet (villain missed cbet, you\'re IP).',
+            'Turn CBet IP%': '<strong>RULES:</strong><br>• Hero cbet flop IP<br>• Villain called flop cbet<br>• Heads-up on turn<br>• Hero IP (acts last)<br>• Action checks to Hero<br><br><strong>💡 EXAMPLE:</strong><br>You cbet flop IP, villain calls. Turn ♠K, villain checks. You can bet again (you\'re IP, have initiative).',
+            'Turn Cbet OOP%': '<strong>RULES:</strong><br>• Hero cbet flop OOP<br>• Villain called flop cbet<br>• Heads-up on turn<br>• Hero OOP (acts first)<br><br><strong>💡 EXAMPLE:</strong><br>You cbet flop OOP, villain calls. Turn ♥5. You act first - can bet again (you\'re OOP, have initiative).',
+            'Turn donk bet': '<strong>RULES:</strong><br>• Villain cbet flop<br>• Hero called flop cbet<br>• Heads-up on turn<br>• Hero OOP (acts first)<br><br><strong>💡 EXAMPLE:</strong><br>Villain cbet flop, you called. Turn ♣Q, you act first OOP and bet (donk bet into flop bettor).',
+            'Turn donk bet SRP vs PFR': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Villain is PFR<br>• Villain cbet flop<br>• Hero called flop cbet<br>• Heads-up on turn<br>• Hero OOP (acts first)<br><br><strong>💡 EXAMPLE:</strong><br>SRP: Villain raised preflop, cbet flop, you called. Turn: you bet first (donk vs PFR).',
+            'Bet turn vs Missed Flop Cbet OOP SRP': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Villain is PFR<br>• Hero called preflop<br>• Villain checked flop (missed cbet)<br>• Heads-up on turn<br>• Hero OOP (acts first)<br><br><strong>💡 EXAMPLE:</strong><br>Villain opened, you called. Flop: you checked, villain checked behind. Turn: you act first OOP and bet.',
+            'Turn Fold vs CBet OOP': '<strong>RULES:</strong><br>• Villain is PFR<br>• Villain cbet flop<br>• Hero called flop cbet<br>• Heads-up on turn<br>• Hero OOP (acts first)<br>• Hero checks<br>• Villain cbets turn<br><br><strong>💡 EXAMPLE:</strong><br>Villain cbet flop, you called. Turn: you check OOP, villain bets again. You fold.',
+            'WTSD%': '<strong>RULES:</strong><br>• Hero saw flop<br>• No all-in before river<br>• Hero reached showdown<br><br><strong>💡 EXAMPLE:</strong><br>You saw flop, no all-ins before river, reached showdown (cards revealed).',
+            'W$SD%': '<strong>RULES:</strong><br>• Hero saw flop<br>• No all-in before river<br>• Showdown occurred<br>• Hero won at showdown<br><br><strong>💡 EXAMPLE:</strong><br>You saw flop, no all-ins before river, went to showdown and WON.',
+            'W$WSF Rating': '<strong>RULES:</strong><br>• Hero saw flop<br>• Ratio: Won pots / Saw flop<br><br><strong>💡 EXAMPLE:</strong><br>Of all times you saw the flop, how often did you win the pot? (win doesn\'t require showdown).',
+            'River Agg %': '<strong>RULES:</strong><br>• Reached river<br>• No all-in before river<br>• Hero had action (not check-only)<br>• Ratio: (bets+raises) / calls<br><br><strong>💡 EXAMPLE:</strong><br>On river, do you prefer betting/raising or calling? Measures aggression ratio.',
+            'River bet - Single Rsd Pot': '<strong>RULES:</strong><br>• SRP (no 3bet preflop)<br>• Heads-up from flop (2 players)<br>• Reached river<br>• No all-in before river<br>• Action checks to Hero (opportunity to bet)<br><br><strong>💡 EXAMPLE:</strong><br>SRP heads-up from flop. River: villain checks or you act first. You can bet.',
+            'W$SD% B River': '<strong>RULES:</strong><br>• Heads-up from flop (2 players)<br>• Hero bet/raised river (NOT call)<br>• Showdown occurred<br>• Hero won at showdown<br><br><strong>💡 EXAMPLE:</strong><br>Heads-up from flop, you bet river (not call), went to showdown, and WON.',
+            
+            // PREFLOP RFI (4 stats)
+            'Early RFI': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in EP (UTG, UTG+1, UTG+2)<br>• Hero ≥16bb<br>• Avg stacks after Hero ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re UTG, everyone folded before you. You can open raise (first to act, early position).',
+            'Middle RFI': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in MP (MP, HJ)<br>• Hero ≥16bb<br>• Avg stacks after Hero ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re MP, everyone folded. You open raise with AQ (middle position).',
+            'CO Steal': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in CO<br>• Hero ≥16bb<br>• Avg stacks after Hero ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re CO, everyone folded. You raise with K9s trying to steal blinds (late position).',
+            'BTN Steal': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in BTN<br>• Hero ≥16bb<br>• Avg stacks after Hero ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re on the Button, everyone folded. You raise with A5s to steal blinds (best position).',
+            
+            // PREFLOP 3bet/Cold Call (8 stats)
+            'EP 3bet': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in EP<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO opens, you\'re in EP and 3-bet with JJ (re-raise from early position).',
+            'EP Cold Call': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in EP<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>BTN opens, you\'re in EP and just call with 99 (cold call = call without investing yet).',
+            'MP 3bet': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in MP<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>UTG opens, you\'re MP and 3-bet with AK (re-raise from middle position).',
+            'MP Cold Call': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in MP<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO opens, you\'re MP and call with 77 (cold call from middle position).',
+            'CO 3bet': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in CO<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>MP opens, you\'re CO and 3-bet with QQ (re-raise from cut-off).',
+            'CO Cold Call': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in CO<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>UTG opens, you\'re CO and call with AJ (cold call from cut-off).',
+            'BTN 3bet': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in BTN<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO opens, you\'re BTN and 3-bet with KQ (re-raise from button).',
+            'BTN Cold Call': '<strong>RULES:</strong><br>• Single raise before Hero<br>• No limpers, no callers<br>• Hero in BTN<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>UTG opens, you\'re BTN and call with A9s (cold call from button).',
+            
+            // PREFLOP Defense/Aggression (5 stats)
+            'BTN fold to CO steal': '<strong>RULES:</strong><br>• CO raised first (clean raise)<br>• No callers<br>• Hero in BTN<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO raises (steal attempt), you\'re BTN. Do you fold or defend?',
+            'Squeeze': '<strong>RULES:</strong><br>• Raise + at least 1 caller<br>• Hero in any position<br>• Hero ≥16bb<br>• Avg(raiser+callers) ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>UTG raises, MP calls. You\'re BB and 3-bet big (squeeze to push both out).',
+            'Squeeze vs BTN Raiser': '<strong>RULES:</strong><br>• BTN raised + caller(s)<br>• Hero in BB<br>• Hero ≥16bb<br>• Avg(raiser+callers) ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>BTN raises, SB calls. You\'re BB and squeeze (big 3-bet vs BTN raiser).',
+            'Fold to 3bet IP': '<strong>RULES:</strong><br>• Hero open raised (clean)<br>• Clean 3bet (heads-up)<br>• No callers after 3bet<br>• Hero was IP when opening<br>• Hero ≥16bb, 3bettor ≥16bb<br>• 3bet NOT all-in<br><br><strong>💡 EXAMPLE:</strong><br>You open CO, BTN 3-bets. You fold (you were IP when opening).',
+            'Fold to 3bet OOP': '<strong>RULES:</strong><br>• Hero open raised (clean)<br>• Clean 3bet (heads-up)<br>• No callers after 3bet<br>• Hero was OOP when opening<br>• Hero ≥16bb, 3bettor ≥16bb<br>• 3bet NOT all-in<br><br><strong>💡 EXAMPLE:</strong><br>You open UTG, CO 3-bets. You fold (you were OOP when opening).',
+            
+            // PREFLOP Blinds (11 stats)
+            'SB UO VPIP': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in SB<br>• Hero ≥16bb, BB ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re SB, everyone folded. Do you limp or raise? (SB Unopened VPIP).',
+            'SB Steal': '<strong>RULES:</strong><br>• Unopened pot<br>• Hero in SB<br>• Hero ≥16bb, BB ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>You\'re SB, everyone folded. You raise with K7o to steal BB.',
+            'SB fold to CO Steal': '<strong>RULES:</strong><br>• CO raised first (clean)<br>• No callers<br>• Hero in SB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO raises, you\'re SB. Do you fold or defend?',
+            'SB fold to BTN Steal': '<strong>RULES:</strong><br>• BTN raised first (clean)<br>• No callers<br>• Hero in SB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>BTN raises, you\'re SB. Do you fold K8s or defend?',
+            'SB resteal vs BTN': '<strong>RULES:</strong><br>• BTN raised first<br>• Hero in SB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br>• (Hero all-in allowed)<br><br><strong>💡 EXAMPLE:</strong><br>BTN raises, you\'re SB and 3-bet with A9 (resteal vs BTN).',
+            'BB fold vs CO steal': '<strong>RULES:</strong><br>• CO raised first (clean)<br>• No callers<br>• Hero in BB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>CO raises, you\'re BB. Do you fold or defend with Q9?',
+            'BB fold vs BTN steal': '<strong>RULES:</strong><br>• BTN raised first (clean)<br>• No callers<br>• Hero in BB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>BTN raises, you\'re BB. Do you fold or call with K7s?',
+            'BB resteal vs BTN steal': '<strong>RULES:</strong><br>• BTN raised first<br>• Hero in BB<br>• Hero ≥16bb, Raiser ≥16bb<br>• No all-in before Hero<br>• (Hero all-in allowed)<br><br><strong>💡 EXAMPLE:</strong><br>BTN raises, you\'re BB and 3-bet with AJ (resteal vs BTN).',
+            'BB fold vs SB steal': '<strong>RULES:</strong><br>• SB raised first<br>• Hero in BB<br>• Hero ≥16bb, SB ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>SB raises, you\'re BB. Do you fold or defend?',
+            'BB raise vs SB limp UOP': '<strong>RULES:</strong><br>• SB limped (completed)<br>• Unopened pot before SB<br>• Hero in BB<br>• Hero ≥16bb, SB ≥16bb<br>• No all-in before Hero<br><br><strong>💡 EXAMPLE:</strong><br>SB limps (just completes), you\'re BB and raise with A8.'
+        };
+        
+        // Get token from URL - either from path or query params
+        let token = null;
+        
+        // Try to get from path first (e.g., /dashboard/9202cc7ab0e0)
+        const pathMatch = window.location.pathname.match(/\/dashboard\/([a-f0-9]{12})/);
+        if (pathMatch) {
+            token = pathMatch[1];
+        } else {
+            // Fallback to query params (e.g., ?token=9202cc7ab0e0)
+            const urlParams = new URLSearchParams(window.location.search);
+            token = urlParams.get('token');
+        }
+        
+        if (!token) {
+            showError('Token não fornecido');
+        } else {
+            document.getElementById('tokenDisplay').textContent = token;
+            // Get month from URL params if present
+            const urlParams = new URLSearchParams(window.location.search);
+            const month = urlParams.get('month');
+            // Load download URLs first, then dashboard
+            loadHandsByStatSection(token, month).then(() => {
+                loadDashboard(token);
+            });
+        }
+        
+        // Tab switching
+        function switchTab(tabName) {
+            currentTab = tabName;
+            
+            // Update tab buttons
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update tab content
+            document.querySelectorAll('.tab-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+        
+        // NONKO sub-tab switching
+        function switchNonkoSubTab(subTab) {
+            currentNonkoSubTab = subTab;
+            
+            // Update sub-tab buttons
+            document.querySelectorAll('.sub-tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update sub-tab content
+            document.querySelectorAll('.sub-tab-content').forEach(content => {
+                content.style.display = 'none';
+            });
+            document.getElementById(`nonko-${subTab}`).style.display = 'block';
+        }
+        
+        // Load dashboard data
+        async function loadDashboard(token) {
+            try {
+                const response = await fetch(`/api/dashboard/${token}`);
+                const data = await response.json();
+                
+                if (!data.ok) {
+                    showError(data.error || 'Erro ao carregar dados');
+                    return;
+                }
+                
+                dashboardData = data.data;
+                displayDashboard(dashboardData);
+                
+            } catch (error) {
+                showError('Erro de conexão: ' + error.message);
+            }
+        }
+        
+        function displayDashboard(data) {
+            // Update summary - check both direct and overall paths
+            const totalHands = data.total_hands || (data.overall && data.overall.total_hands) || 0;
+            const validHands = data.valid_hands || (data.overall && data.overall.valid_hands) || 0;
+            
+            document.getElementById('totalHands').textContent = totalHands;
+            document.getElementById('validHands').textContent = validHands;
+            
+            // Update discard statistics - all categories
+            const discardStats = data.discard_stats || {};
+            document.getElementById('mysteryHands').textContent = discardStats.mystery || 0;
+            document.getElementById('lessThan4Hands').textContent = discardStats.less_than_4_players || 0;
+            document.getElementById('tournamentSummaryHands').textContent = discardStats.tournament_summary || 0;
+            document.getElementById('cashGameHands').textContent = discardStats.cash_game || 0;
+            document.getElementById('invalidFormatHands').textContent = discardStats.invalid_format || 0;
+            document.getElementById('lowStackHands').textContent = discardStats.low_effective_stack_excluded || 0;
+            document.getElementById('allinContextualHands').textContent = discardStats.allin_contextual_excluded || 0;
+            document.getElementById('otherHands').textContent = discardStats.other || 0;
+            
+            // Calculate and verify totals
+            const totalDiscarded = (discardStats.mystery || 0) + 
+                                  (discardStats.less_than_4_players || 0) + 
+                                  (discardStats.tournament_summary || 0) + 
+                                  (discardStats.cash_game || 0) + 
+                                  (discardStats.invalid_format || 0) + 
+                                  (discardStats.low_effective_stack_excluded || 0) +
+                                  (discardStats.allin_contextual_excluded || 0) +
+                                  (discardStats.other || 0);
+            
+            const totalCalculated = (data.valid_hands || 0) + totalDiscarded;
+            
+            // Log discrepancy if exists
+            if (totalCalculated !== data.total_hands) {
+                console.warn(`Discrepancy detected: Total=${data.total_hands}, Valid+Discarded=${totalCalculated}, Difference=${data.total_hands - totalCalculated}`);
+            }
+            
+            // Update hands by site card
+            const handsBySite = data.hands_by_site || {};
+            const siteHandsTotal = document.getElementById('site-hands-total');
+            const siteHandsList = document.getElementById('site-hands-list');
+            
+            // Update total - use valid_hands directly instead of summing hands_by_site
+            siteHandsTotal.textContent = validHands.toLocaleString('pt-BR') + ' mãos';
+            
+            // Clear and populate list
+            siteHandsList.innerHTML = '';
+            
+            // Sort sites by hand count (descending)
+            const sortedSites = Object.entries(handsBySite).sort((a, b) => b[1] - a[1]);
+            
+            if (sortedSites.length === 0) {
+                siteHandsList.innerHTML = '<div style="color: #666; font-size: 13px; text-align: center;">Nenhuma sala detectada</div>';
+            } else {
+                sortedSites.forEach(([site, count]) => {
+                    const item = document.createElement('div');
+                    item.className = 'site-hand-item';
+                    item.innerHTML = `
+                        <span class="site-hand-name">${site}</span>
+                        <span class="site-hand-count">${count.toLocaleString('pt-BR')}</span>
+                    `;
+                    siteHandsList.appendChild(item);
+                });
+            }
+            
+            // Update player info (placeholders for now)
+            const playerInfo = data.player_info || {};
+            document.getElementById('player-name').textContent = playerInfo.name || 'Jogador';
+            document.getElementById('player-email').textContent = playerInfo.email || 'email@exemplo.com';
+            document.getElementById('player-level').textContent = playerInfo.level || 'NL50';
+            
+            // Display all tabs
+            displayGeneralTab(data);
+            displayNonkoTab(data);
+            displayPkoTab(data);
+            displayPostflopTab(data);
+        }
+        
+        function displayGeneralTab(data) {
+            const container = document.getElementById('groups-container');
+            container.innerHTML = '';
+            
+            const weightedScores = data.weighted_scores || {};
+            
+            // Update Average Stats
+            const overallScore = weightedScores.overall;
+            document.getElementById('average-score').textContent = overallScore !== null && overallScore !== undefined ? overallScore.toFixed(0) : '-';
+            
+            // Update group scores in breakdown
+            const nonkoScore = weightedScores.nonko?.group_score;
+            const pkoScore = weightedScores.pko?.group_score;
+            const postflopScore = weightedScores.postflop?.group_score;
+            
+            // Display scores with proper null handling
+            document.getElementById('nonko-score').textContent = nonkoScore !== null && nonkoScore !== undefined ? nonkoScore.toFixed(0) : '-';
+            document.getElementById('pko-score').textContent = pkoScore !== null && pkoScore !== undefined ? pkoScore.toFixed(0) : '-';
+            document.getElementById('postflop-score').textContent = postflopScore !== null && postflopScore !== undefined ? postflopScore.toFixed(0) : '-';
+            
+            // Apply colors to scores
+            if (nonkoScore !== null && nonkoScore !== undefined) {
+                document.getElementById('nonko-score').className = 'score-value ' + getScoreColorClass(nonkoScore);
+            }
+            if (pkoScore !== null && pkoScore !== undefined) {
+                document.getElementById('pko-score').className = 'score-value ' + getScoreColorClass(pkoScore);
+            }
+            if (postflopScore !== null && postflopScore !== undefined) {
+                document.getElementById('postflop-score').className = 'score-value ' + getScoreColorClass(postflopScore);
+            }
+            
+            // Create Average Stats radar chart
+            const averageChartData = [
+                nonkoScore !== null && nonkoScore !== undefined ? nonkoScore : 0,
+                pkoScore !== null && pkoScore !== undefined ? pkoScore : 0,
+                postflopScore !== null && postflopScore !== undefined ? postflopScore : 0
+            ];
+            createAverageRadarChart('average-stats-radar', ['NON-KO', 'PKO', 'POSTFLOP'], averageChartData);
+            
+            // NONKO Card with subgroups
+            if (weightedScores.nonko) {
+                const nonkoCard = createDetailedGroupCard('NON-KO', 'nonko', weightedScores.nonko, data.groups);
+                container.appendChild(nonkoCard);
+            }
+            
+            // PKO Card with subgroups
+            if (weightedScores.pko) {
+                const pkoCard = createDetailedGroupCard('PKO', 'pko', weightedScores.pko, data.groups);
+                container.appendChild(pkoCard);
+            }
+            
+            // POSTFLOP Card
+            if (weightedScores.postflop || data.groups.postflop_all) {
+                const postflopData = weightedScores.postflop || {};
+                const postflopGroup = data.groups.postflop_all || {};
+                const postflopCard = createDetailedGroupCard('POSTFLOP', 'postflop', postflopData, data.groups);
+                container.appendChild(postflopCard);
+            } else {
+                // Only show placeholder if no data
+                const postflopCard = document.createElement('div');
+                postflopCard.className = 'group-card-detailed';
+                postflopCard.innerHTML = `
+                    <div class="group-header postflop">
+                        <span>POSTFLOP</span>
+                        <span class="group-score">-</span>
+                    </div>
+                    <div class="group-content">
+                        <div class="empty-state" style="padding: 20px;">
+                            <p>Sem dados postflop</p>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(postflopCard);
+            }
+            
+            // Hide loading, show content
+            document.getElementById('loading-geral').style.display = 'none';
+            document.getElementById('content-geral').style.display = 'block';
+        }
+        
+        function createDetailedGroupCard(title, groupClass, groupData, allGroups) {
+            const card = document.createElement('div');
+            card.className = 'group-card-detailed';
+            
+            let volumeInfo = '';
+            if (groupClass === 'nonko' && groupData.weight_9max !== undefined) {
+                const hands9max = allGroups.nonko_9max?.hands_count || 0;
+                const hands6max = allGroups.nonko_6max?.hands_count || 0;
+                volumeInfo = `
+                    <div class="volume-info">
+                        <span>9-max: ${hands9max.toLocaleString('pt-BR')} mãos (${groupData.weight_9max}%)</span>
+                        <span>6-max: ${hands6max.toLocaleString('pt-BR')} mãos (${groupData.weight_6max}%)</span>
+                    </div>
+                `;
+            } else if (groupClass === 'pko') {
+                const handsPko = allGroups.pko?.hands_count || 0;
+                volumeInfo = `
+                    <div class="volume-info">
+                        <span>Total: ${handsPko.toLocaleString('pt-BR')} mãos</span>
+                    </div>
+                `;
+            } else if (groupClass === 'postflop') {
+                const handsPostflop = allGroups.postflop_all?.hands_count || 0;
+                volumeInfo = `
+                    <div class="volume-info">
+                        <span>Total: ${handsPostflop.toLocaleString('pt-BR')} mãos</span>
+                    </div>
+                `;
+            }
+            
+            // Build subgroups HTML with fixed order
+            let subgroupsHTML = '';
+            let subgroups = {};
+            let subgroupOrder = [];
+            
+            if (groupClass === 'postflop') {
+                // For POSTFLOP, get subgroups from allGroups.postflop_all
+                subgroups = allGroups.postflop_all?.subgroups || {};
+                subgroupOrder = ['Flop Cbet', 'Vs Cbet', 'vs Skipped Cbet', 'Turn Play', 'River play'];
+            } else {
+                // For NON-KO and PKO, use groupData.subgroups
+                subgroups = groupData.subgroups || {};
+                subgroupOrder = ['RFI', 'BvB', '3b & CC', 'vs 3b IP/OOP', 'Squeeze', 'Defesa da BB', 'Defesa da SB'];
+            }
+            
+            const chartData = [];
+            
+            subgroupOrder.forEach(name => {
+                if (name in subgroups) {
+                    const data = subgroups[name];
+                    const score = data.score;
+                    const weight = (data.weight * 100).toFixed(0);
+                    
+                    // Distinguish between null/undefined (no data) and 0 (bad performance)
+                    let scoreDisplay = '-';
+                    let scoreColorClass = 'score-empty';
+                    
+                    if (score !== null && score !== undefined) {
+                        scoreDisplay = score.toFixed(0);
+                        scoreColorClass = getScoreColorClass(score);
+                        chartData.push(score);
+                    } else {
+                        chartData.push(0); // For chart, treat no data as 0
+                    }
+                    
+                    subgroupsHTML += `
+                        <div class="subgroup-row">
+                            <span class="subgroup-name">${name}</span>
+                            <div class="subgroup-score">
+                                <span class="subgroup-score-value ${scoreColorClass}">${scoreDisplay}</span>
+                                <span class="subgroup-weight">(${weight}%)</span>
+                            </div>
+                        </div>
+                    `;
+                }
+            });
+            
+            // Add radar chart container
+            const chartId = `radar-${groupClass}-${Date.now()}`;
+            const radarChartHTML = `
+                <div class="radar-chart-container" style="margin-top: 20px;">
+                    <canvas id="${chartId}" width="300" height="300"></canvas>
+                </div>
+            `;
+            
+            card.innerHTML = `
+                <div class="group-header ${groupClass}">
+                    <span>${title}</span>
+                    <span class="group-score">${groupData.group_score !== null && groupData.group_score !== undefined ? groupData.group_score.toFixed(0) : '-'}</span>
+                </div>
+                <div class="group-content">
+                    ${volumeInfo}
+                    <div class="subgroup-list">
+                        ${subgroupsHTML}
+                    </div>
+                    ${radarChartHTML}
+                </div>
+            `;
+            
+            // Create radar chart after card is added to DOM
+            setTimeout(() => {
+                createRadarChart(chartId, subgroupOrder, chartData, title);
+            }, 100);
+            
+            return card;
+        }
+        
+        // Helper function to transform format-specific scores to weighted format
+        function transformScoresToWeightedFormat(groupData) {
+            if (!groupData || !groupData.scores) return null;
+            
+            const scores = groupData.scores;
+            const subgroups = {};
+            
+            // Map backend category keys to frontend subgroup names
+            const categoryMapping = {
+                'rfi': 'RFI',
+                'bvb': 'BvB',
+                'threbet_cc': '3b & CC',
+                'vs_3bet': 'vs 3b IP/OOP',
+                'squeeze': 'Squeeze',
+                'bb_defense': 'Defesa da BB',
+                'sb_defense': 'Defesa da SB'
+            };
+            
+            // Transform each category score
+            for (const [backendKey, frontendName] of Object.entries(categoryMapping)) {
+                if (scores[backendKey]) {
+                    const categoryScore = scores[backendKey].overall_score || 
+                                        scores[backendKey]._weighted_average || 
+                                        scores[backendKey].score || 
+                                        null;
+                    
+                    if (categoryScore !== null && categoryScore !== undefined) {
+                        subgroups[frontendName] = {
+                            score: categoryScore,
+                            weight: 0  // Weight doesn't matter for individual display
+                        };
+                    }
+                }
+            }
+            
+            return { subgroups: subgroups };
+        }
+        
+        function displayNonkoTab(data) {
+            // Display 9-max stats with format-specific scores
+            const nonko9max = data.groups.nonko_9max || {};
+            if (nonko9max.hands_count > 0) {
+                const nonko9maxScores = transformScoresToWeightedFormat(nonko9max);
+                displayStatsContainer('content-nonko-9max', '9-max', nonko9max, nonko9maxScores);
+            } else {
+                document.getElementById('content-nonko-9max').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <h3>Sem dados 9-max</h3>
+                        <p>Nenhuma mão 9-max foi encontrada nesta análise.</p>
+                    </div>
+                `;
+            }
+            document.getElementById('loading-nonko-9max').style.display = 'none';
+            document.getElementById('content-nonko-9max').style.display = 'block';
+            
+            // Display 6-max stats with format-specific scores
+            const nonko6max = data.groups.nonko_6max || {};
+            if (nonko6max.hands_count > 0) {
+                const nonko6maxScores = transformScoresToWeightedFormat(nonko6max);
+                displayStatsContainer('content-nonko-6max', '6-max', nonko6max, nonko6maxScores);
+            } else {
+                document.getElementById('content-nonko-6max').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <h3>Sem dados 6-max</h3>
+                        <p>Nenhuma mão 6-max foi encontrada nesta análise.</p>
+                    </div>
+                `;
+            }
+            document.getElementById('loading-nonko-6max').style.display = 'none';
+            document.getElementById('content-nonko-6max').style.display = 'block';
+        }
+        
+        function displayPkoTab(data) {
+            const weightedScores = data.weighted_scores || {};
+            const pkoWeightedData = weightedScores.pko;
+            
+            
+            const pkoData = data.groups.pko || {};
+            if (pkoData.hands_count > 0) {
+                displayStatsContainer('content-pko', 'PKO', pkoData, pkoWeightedData);
+            } else {
+                document.getElementById('content-pko').innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📊</div>
+                        <h3>Sem dados PKO</h3>
+                        <p>Nenhuma mão PKO foi encontrada nesta análise.</p>
+                    </div>
+                `;
+            }
+            document.getElementById('loading-pko').style.display = 'none';
+            document.getElementById('content-pko').style.display = 'block';
+        }
+        
+        function displayPostflopTab(data) {
+            // Check if postflop_all group exists (API may aggregate it)
+            const postflopAll = data.groups.postflop_all;
+            
+            console.log('[POSTFLOP DEBUG] postflop_all data:', postflopAll);
+            
+            if (postflopAll) {
+                // Use pre-aggregated postflop_all data from API
+                console.log('[POSTFLOP DEBUG] Using postflop_all with', postflopAll.hands_count, 'hands');
+                displayStatsContainer('content-postflop', 'POSTFLOP', postflopAll);
+            } else {
+                // Fallback: Combine postflop stats from individual groups
+                const combinedStats = {};
+                let totalHands = 0;
+                
+                // Iterate through all groups and aggregate postflop_stats
+                ['nonko_9max', 'nonko_6max', 'pko'].forEach(groupKey => {
+                    const group = data.groups[groupKey];
+                    if (!group || !group.postflop_stats) return;
+                    
+                    // Add to total hands count
+                    totalHands += group.postflop_hands_count || 0;
+                    
+                    // Aggregate each stat
+                    Object.entries(group.postflop_stats).forEach(([statName, statData]) => {
+                        if (!combinedStats[statName]) {
+                            combinedStats[statName] = {
+                                opportunities: 0,
+                                attempts: 0
+                            };
+                            // Initialize special fields for W$WSF Rating
+                            if (statName === 'W$WSF Rating' && statData.player_sum !== undefined) {
+                                combinedStats[statName].player_sum = 0;
+                            }
+                        }
+                        combinedStats[statName].opportunities += statData.opportunities || 0;
+                        combinedStats[statName].attempts += statData.attempts || 0;
+                        
+                        // Aggregate player_sum for W$WSF Rating
+                        if (statName === 'W$WSF Rating' && statData.player_sum !== undefined) {
+                            combinedStats[statName].player_sum = (combinedStats[statName].player_sum || 0) + statData.player_sum;
+                        }
+                    });
+                });
+                
+                // Calculate percentages and format as expected by displayStatsContainer
+                const formattedStats = {};
+                Object.entries(combinedStats).forEach(([statName, statData]) => {
+                    let percentage;
+                    
+                    // Special handling for W$WSF Rating
+                    if (statName === 'W$WSF Rating' && statData.player_sum > 0 && statData.opportunities > 0) {
+                        const avgPlayers = statData.player_sum / statData.opportunities;
+                        const winRate = statData.attempts / statData.opportunities;
+                        const expectedRate = 1.0 / avgPlayers;
+                        percentage = expectedRate > 0 ? winRate / expectedRate : 0;
+                    }
+                    // Special handling for River Agg %
+                    else if (statName === 'River Agg %' && statData.opportunities > 0) {
+                        percentage = statData.attempts / statData.opportunities;
+                    }
+                    // Standard percentage calculation
+                    else {
+                        percentage = statData.opportunities > 0 
+                            ? (statData.attempts / statData.opportunities) 
+                            : 0;
+                    }
+                    
+                    formattedStats[statName] = {
+                        percentage: percentage,
+                        opportunities: statData.opportunities,
+                        attempts: statData.attempts,
+                        ideal: getIdealValue(statName) // Get ideal value for comparison
+                    };
+                });
+                
+                // Create postflop data object
+                const postflopData = {
+                    hands_count: totalHands,
+                    stats: formattedStats,
+                    overall_score: 0 // Can calculate later if needed
+                };
+                
+                if (totalHands > 0) {
+                    displayStatsContainer('content-postflop', 'POSTFLOP', postflopData);
+                } else {
+                    document.getElementById('content-postflop').innerHTML = `
+                        <div class="empty-state">
+                            <div class="empty-state-icon">📊</div>
+                            <h3>Sem dados Postflop</h3>
+                            <p>Nenhuma mão postflop foi encontrada nesta análise.</p>
+                        </div>
+                    `;
+                }
+            }
+            
+            // Always hide loading and show content (even if empty)
+            document.getElementById('loading-postflop').style.display = 'none';
+            document.getElementById('content-postflop').style.display = 'block';
+            console.log('[POSTFLOP DEBUG] Finished displaying postflop tab');
+        }
+        
+        function getIdealValue(statName) {
+            // Return ideal values for postflop stats (for color coding)
+            const ideals = {
+                'Flop CBet IP %': 0.90,
+                'Flop CBet 3BetPot IP': 0.75,
+                'Flop Cbet OOP%': 0.50,
+                'Flop fold vs Cbet IP': 0.37,
+                'Flop raise Cbet IP': 0.125,
+                'Flop raise Cbet OOP': 0.202,
+                'Fold vs Check Raise': 0.36,
+                'Flop bet vs missed Cbet SRP': 0.30,
+                'Turn CBet IP%': 0.50,
+                'Turn Cbet OOP%': 0.50,
+                'Turn donk bet': 0.15,
+                'Turn donk bet SRP vs PFR': 0.15,
+                'Bet turn vs Missed Flop Cbet OOP SRP': 0.30,
+                'Turn Fold vs CBet OOP': 0.50,
+                'WTSD%': 0.30,
+                'W$SD%': 0.50,
+                'W$WSF Rating': 1.0,
+                'River Agg %': 3.0,
+                'River bet - Single Rsd Pot': 0.40,
+                'W$SD% B River': 0.55
+            };
+            return ideals[statName] || 0.50;
+        }
+        
+        
+        function displayStatsContainer(containerId, title, groupData, weightedScoresData) {
+            const container = document.getElementById(containerId);
+            
+            // Handle different data structures for postflop vs preflop
+            let stats = {};
+            if (title === 'POSTFLOP' && groupData.subgroups) {
+                // Postflop data has subgroups structure, flatten it
+                Object.values(groupData.subgroups).forEach(subgroup => {
+                    if (subgroup.stats) {
+                        // Map API fields (att, opps, pct) to expected fields (attempts, opportunities, percentage)
+                        Object.entries(subgroup.stats).forEach(([statName, statData]) => {
+                            stats[statName] = {
+                                attempts: statData.att || statData.attempts || 0,
+                                opportunities: statData.opps || statData.opportunities || 0,
+                                percentage: statData.pct || statData.percentage || 0,
+                                ideal: statData.ideal,
+                                score: statData.score,
+                                weight: statData.weight
+                            };
+                        });
+                    }
+                });
+            } else {
+                stats = groupData.stats || {};
+            }
+            
+            // Determine format key for downloads
+            let formatKey = '';
+            if (title === '9-max') formatKey = 'nonko_9max';
+            else if (title === '6-max') formatKey = 'nonko_6max';
+            else if (title === 'PKO') formatKey = 'pko';
+            else if (title === 'POSTFLOP') formatKey = 'postflop_all';
+            
+            // Stats order and categories - diferentes para Preflop e Postflop
+            let categoryDefinitions = {};
+            
+            if (title === 'POSTFLOP') {
+                // Categorias de POSTFLOP (5 sub-grupos visuais com 20 stats) - ordem exata conforme especificação
+                categoryDefinitions = {
+                    'Flop Cbet': ['Flop CBet IP %', 'Flop CBet 3BetPot IP', 'Flop CBet OOP%'],
+                    'Vs Cbet': ['Flop fold vs Cbet IP', 'Flop raise Cbet IP', 'Flop raise Cbet OOP', 'Fold vs Check Raise'],
+                    'vs Skipped Cbet': ['Flop bet vs missed Cbet SRP'],
+                    'Turn Play': ['Turn CBet IP%', 'Turn Cbet OOP%', 'Turn donk bet', 'Turn donk bet SRP vs PFR', 'Bet turn vs Missed Flop Cbet OOP SRP', 'Turn Fold vs CBet OOP'],
+                    'River play': ['WTSD%', 'W$SD%', 'W$WSF Rating', 'River Agg %', 'River bet - Single Rsd Pot', 'W$SD% B River']
+                };
+            } else {
+                // Categorias de PREFLOP (NON-KO e PKO)
+                categoryDefinitions = {
+                    'RFI': ['Early RFI', 'Middle RFI', 'CO Steal', 'BTN Steal'],
+                    'BvB': ['SB UO VPIP', 'BB fold vs SB steal', 'BB raise vs SB limp UOP', 'SB Steal'],
+                    'Ranges CC/3Bet IP': [
+                        'EP 3bet', 'EP Cold Call', 'EP VPIP',
+                        'MP 3bet', 'MP Cold Call', 'MP VPIP',
+                        'CO 3bet', 'CO Cold Call', 'CO VPIP',
+                        'BTN 3bet', 'BTN Cold Call', 'BTN VPIP', 'BTN fold to CO steal'
+                    ],
+                    'vs 3bet IP/OOP': ['Fold to 3bet IP', 'Fold to 3bet OOP', 'Fold to 3bet'],
+                    'Squeeze': ['Squeeze', 'Squeeze vs BTN Raiser'],
+                    'Defesa da BB': ['BB fold vs CO steal', 'BB fold vs BTN steal', 'BB fold vs SB steal', 'BB resteal vs BTN steal'],
+                    'Defesa da SB': ['SB fold to CO Steal', 'SB fold to BTN Steal', 'SB resteal vs BTN']
+                };
+            }
+            
+            // Build HTML
+            let html = `
+                <div class="stats-container">
+                    <div class="stats-header-wrapper">
+                        <div class="stats-header">
+                            <div class="stats-title">${title}</div>
+                            <div class="stats-info">
+                                ${groupData.hands_count.toLocaleString('pt-BR')} mãos analisadas
+                                ${groupData.overall_score !== null && groupData.overall_score !== undefined ? ` • <span class="group-overall-score" style="
+                                    display: inline-flex;
+                                    align-items: center;
+                                    gap: 6px;
+                                    padding: 6px 14px;
+                                    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
+                                    border: 2px solid rgba(102, 126, 234, 0.3);
+                                    border-radius: 8px;
+                                    font-weight: 700;
+                                    font-size: 14px;
+                                    text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+                                "><span style="opacity: 0.8;">📊 Nota Geral:</span> <span class="${getScoreColorClass(groupData.overall_score)}" style="font-size: 16px;">${groupData.overall_score.toFixed(0)}/100</span></span>` : ''}
+                            </div>
+                        </div>
+                        <div class="stat-header">
+                            <div style="text-align: center;">Download</div>
+                            <div style="text-align: left;">Stat</div>
+                            <div style="text-align: center;">Resultado</div>
+                            <div style="text-align: center;">Sample</div>
+                            <div style="text-align: left;">Nº ideal</div>
+                            <div style="text-align: center;">Nota final</div>
+                        </div>
+                    </div>
+                    <div class="stats-body">
+            `;
+            
+            Object.entries(categoryDefinitions).forEach(([category, statKeys]) => {
+                // CHANGED: Include ALL stats, even without data (show as N/A)
+                const categoryStats = statKeys.map(key => ({
+                    key,
+                    ...(stats[key] || { opportunities: 0, attempts: 0, percentage: null, score: null })
+                }));
+                
+                // Don't skip categories - show them all
+                // if (categoryStats.length === 0) return;
+                
+                // Add score to category title if available
+                let categoryTitle = category;
+                
+                // For PREFLOP: RFI overall score (legacy, keeping for compatibility)
+                if (category === 'RFI' && groupData.overall_score > 0) {
+                    const scoreClass = getScoreClass(groupData.overall_score);
+                    categoryTitle = `
+                        ${category}
+                        <span class="score-badge ${scoreClass}">${groupData.overall_score.toFixed(0)}/100</span>
+                    `;
+                }
+                
+                // For POSTFLOP: Subgroup scores
+                if (title === 'POSTFLOP' && groupData.subgroups && groupData.subgroups[category]) {
+                    const subgroupScore = groupData.subgroups[category].score;
+                    if (subgroupScore !== null && subgroupScore !== undefined) {
+                        const scoreClass = getScoreClass(subgroupScore);
+                        categoryTitle = `
+                            ${category}
+                            <span class="score-badge ${scoreClass}">${subgroupScore.toFixed(0)}/100</span>
+                        `;
+                    }
+                }
+                
+                // For NON-KO and PKO: Category scores from weighted_scores
+                if ((title === '9-max' || title === '6-max' || title === 'PKO') && weightedScoresData && weightedScoresData.subgroups) {
+                    // Map frontend category names to backend subgroup names
+                    const categoryMapping = {
+                        'RFI': 'RFI',
+                        'BvB': 'BvB',
+                        'Ranges CC/3Bet IP': '3b & CC',
+                        'vs 3bet IP/OOP': 'vs 3b IP/OOP',
+                        'Squeeze': 'Squeeze',
+                        'Defesa da BB': 'Defesa da BB',
+                        'Defesa da SB': 'Defesa da SB'
+                    };
+                    
+                    const backendCategoryName = categoryMapping[category];
+                    if (backendCategoryName && weightedScoresData.subgroups[backendCategoryName]) {
+                        const categoryScore = weightedScoresData.subgroups[backendCategoryName].score;
+                        if (categoryScore !== null && categoryScore !== undefined) {
+                            const scoreClass = getScoreClass(categoryScore);
+                            categoryTitle = `
+                                ${category}
+                                <span class="score-badge ${scoreClass}">${categoryScore.toFixed(0)}/100</span>
+                            `;
+                        }
+                    }
+                }
+                
+                html += `<div class="stat-category">
+                    <div class="stat-category-title">${categoryTitle}</div>`;
+                
+                categoryStats.forEach(stat => {
+                    // Use pre-calculated percentage/pct if available (for W$WSF Rating, River Agg %)
+                    // Otherwise calculate standard percentage
+                    let percentage;
+                    // W$WSF Rating and River Agg % need 2 decimal places (1.07), others need 1 (90.3%)
+                    const decimalPlaces = (stat.key === 'W$WSF Rating' || stat.key === 'River Agg %') ? 2 : 1;
+                    
+                    if (stat.percentage !== undefined && stat.percentage !== null) {
+                        // Use pre-calculated value (could be rating like 1.07 or percentage like 90.27)
+                        percentage = stat.percentage.toFixed(decimalPlaces);
+                    } else if (stat.pct !== undefined && stat.pct !== null) {
+                        // Use pct value from API
+                        percentage = stat.pct.toFixed(decimalPlaces);
+                    } else if (stat.opportunities > 0) {
+                        // Fallback: calculate percentage
+                        percentage = ((stat.attempts / stat.opportunities) * 100).toFixed(decimalPlaces);
+                    } else {
+                        // CHANGED: Show N/A instead of 0.0 when no data exists
+                        percentage = 'N/A';
+                    }
+                    
+                    // CHANGED: Handle N/A percentage for fillWidth
+                    const fillWidth = percentage === 'N/A' ? 0 : Math.min(100, parseFloat(percentage));
+                    
+                    // Get individual score and ideal for this stat
+                    let scoreDisplay = '-';
+                    let scoreColorClass = 'score-empty';
+                    let idealDisplay = '';
+                    
+                    if (stat.score !== null && stat.score !== undefined) {
+                        scoreDisplay = stat.score.toFixed(0);
+                        scoreColorClass = getScoreColorClass(stat.score);
+                    }
+                    
+                    if (stat.ideal !== null && stat.ideal !== undefined) {
+                        // Handle both array [min, max] and single number formats
+                        let idealValue;
+                        if (Array.isArray(stat.ideal) && stat.ideal.length === 2) {
+                            // Calculate average of [min, max], casting to numbers to avoid string concatenation
+                            idealValue = (Number(stat.ideal[0]) + Number(stat.ideal[1])) / 2;
+                        } else if (Array.isArray(stat.ideal) && stat.ideal.length > 0) {
+                            // Fallback for unexpected array lengths - use first element
+                            idealValue = Number(stat.ideal[0]);
+                        } else {
+                            // Single number value
+                            idealValue = Number(stat.ideal);
+                        }
+                        
+                        // W$WSF Rating and River Agg % are ratios (2 decimals), not percentages (1 decimal)
+                        const isRatio = (stat.key === 'W$WSF Rating' || stat.key === 'River Agg %');
+                        const idealSuffix = isRatio ? '' : '%';
+                        const idealDecimals = isRatio ? 2 : 1;
+                        idealDisplay = `<span class="stat-ideal" style="
+                            display: inline-flex;
+                            align-items: center;
+                            gap: 4px;
+                            background: linear-gradient(135deg, rgba(59, 130, 246, 0.2), rgba(96, 165, 250, 0.15));
+                            border: 1.5px solid rgba(59, 130, 246, 0.4);
+                            padding: 5px 10px;
+                            border-radius: 6px;
+                            font-weight: 700;
+                            color: #60a5fa;
+                            text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+                        "><span style="opacity: 0.7; font-size: 10px;">🎯 ideal:</span> <span style="font-size: 13px;">${idealValue.toFixed(idealDecimals)}${idealSuffix}</span></span>`;
+                    }
+                    
+                    // Check if download URL is available for this stat
+                    let downloadButton = '';
+                    let url = null;
+                    
+                    // Function to create normalized key for matching with download URLs
+                    function normalizeStatKey(key) {
+                        // Map common stat names to their download URL keys
+                        const statNameMapping = {
+                            // Postflop mappings
+                            'Flop CBet IP %': 'Postflop Flop Cbet Ip',
+                            'Flop CBet 3BetPot IP': 'Postflop Flop Cbet 3Betpot Ip',
+                            'Flop CBet OOP%': 'Postflop Flop Cbet Oop',
+                            'Flop fold vs Cbet IP': 'Postflop Flop Fold Cbet Ip',
+                            'Flop raise Cbet IP': 'Postflop Flop Raise Cbet Ip',
+                            'Flop raise Cbet OOP': 'Postflop Flop Raise Cbet Oop',
+                            'Flop bet vs missed Cbet SRP': 'Postflop Flop Bet Missed Srp',
+                            'Turn CBet IP%': 'Postflop Turn Cbet Ip',
+                            'Turn Cbet OOP%': 'Postflop Turn Cbet Oop',
+                            'Turn donk bet': 'Postflop Turn Donk',
+                            'Turn donk bet SRP vs PFR': 'Postflop Turn Donk Srp',
+                            'Bet turn vs Missed Flop Cbet OOP SRP': 'Postflop Bet Turn Missed Oop',
+                            'Turn Fold vs CBet OOP': 'Postflop Turn Fold Cbet Oop',
+                            'WTSD%': 'Postflop Wtsd',
+                            'W$SD%': 'Postflop Wssd',
+                            'W$WSF Rating': 'Postflop Wwsf',
+                            'River Agg %': 'Postflop River Agg',
+                            'River bet - Single Rsd Pot': 'Postflop River Bet Single',
+                            'W$SD% B River': 'Postflop Wssd B River',
+                            'Fold vs Check Raise': 'Postflop Fold Vs Check Raise',
+                            
+                            // Preflop mappings (RFI)
+                            'Early RFI': 'Rfi Early',
+                            'Middle RFI': 'Rfi Middle',
+                            'CO Steal': 'Rfi Co Steal',
+                            'BTN Steal': 'Rfi Btn Steal',
+                            
+                            // 3BET/CC mappings
+                            'EP 3bet': '3Bet Ep',
+                            'EP Cold Call': 'Cc Ep',
+                            'MP 3bet': '3Bet Mp',
+                            'MP Cold Call': 'Cc Mp',
+                            'CO 3bet': '3Bet Co',
+                            'CO Cold Call': 'Cc Co',
+                            'BTN 3bet': '3Bet Btn',
+                            'BTN Cold Call': 'Cc Btn',
+                            
+                            // BvB mappings
+                            'SB UO VPIP': 'Bvb Sb Uo Vpip',
+                            'BB fold vs SB steal': 'Bvb Bb Fold Sb Steal',
+                            'BB raise vs SB limp UOP': 'Bvb Bb Raise Sb Limp',
+                            'SB Steal': 'Bvb Sb Steal',
+                            
+                            // VS 3BET mappings
+                            'Fold to 3bet IP': 'Vs 3Bet Fold Ip',
+                            'Fold to 3bet OOP': 'Vs 3Bet Fold Oop',
+                            'Fold to 3bet': 'Vs 3Bet Fold',
+                            
+                            // Squeeze mappings
+                            'Squeeze': 'Squeeze',
+                            'Squeeze vs BTN Raiser': 'Squeeze Vs Btn',
+                            
+                            // BB Defense mappings  
+                            'BB fold vs CO steal': 'Bb Defense Fold Co',
+                            'BB fold vs BTN steal': 'Bb Defense Fold Btn',
+                            'BB resteal vs BTN steal': 'Bb Defense Resteal Btn',
+                            
+                            // SB Defense mappings
+                            'SB fold to CO Steal': 'Sb Defense Fold Co',
+                            'SB fold to BTN Steal': 'Sb Defense Fold Btn',
+                            'SB resteal vs BTN': 'Sb Defense Resteal Btn',
+                            
+                            // Other mappings
+                            'BTN fold to CO steal': 'Btn Fold Co Steal',
+                            
+                            // POSTFLOP mappings
+                            'Flop CBet IP %': 'Postflop Flop Cbet Ip',
+                            'Flop CBet 3BetPot IP': 'Postflop Flop Cbet 3Betpot Ip',
+                            'Flop CBet OOP%': 'Postflop Flop Cbet Oop',
+                            'Flop fold vs Cbet IP': 'Postflop Flop Fold Cbet Ip',
+                            'Flop raise Cbet IP': 'Postflop Flop Raise Cbet Ip',
+                            'Flop raise Cbet OOP': 'Postflop Flop Raise Cbet Oop',
+                            'Fold vs Check Raise': 'Postflop Fold Vs Check Raise',  // Corrigido: adicionado "Vs"
+                            'Flop bet vs missed Cbet SRP': 'Postflop Flop Bet Missed Srp',
+                            'Turn CBet IP%': 'Postflop Turn Cbet Ip',
+                            'Turn Cbet OOP%': 'Postflop Turn Cbet Oop',
+                            'Turn donk bet': 'Postflop Turn Donk',  // Corrigido: removido "Bet"
+                            'Turn donk bet SRP vs PFR': 'Postflop Turn Donk Srp',  // Corrigido: removido "Bet"
+                            'Bet turn vs Missed Flop Cbet OOP SRP': 'Postflop Bet Turn Missed Oop',
+                            'Turn Fold vs CBet OOP': 'Postflop Turn Fold Cbet Oop',
+                            'WTSD%': 'Postflop Wtsd',
+                            'W$SD%': 'Postflop Wssd',  // Corrigido: mudado de "W Sd" para "Wssd"
+                            'W$WSF Rating': 'Postflop Wwsf',  // Corrigido: mudado de "W Wsf" para "Wwsf"
+                            'River Agg %': 'Postflop River Agg',
+                            'River bet - Single Rsd Pot': 'Postflop River Bet Single',
+                            'W$SD% B River': 'Postflop Wssd B River'  // Corrigido: mudado de "W Sd B River" para "Wssd B River"
+                        };
+                        
+                        // Return mapped name if exists, otherwise return original
+                        return statNameMapping[key] || key;
+                    }
+                    
+                    const normalizedKey = normalizeStatKey(stat.key);
+                    
+                    // Debug log to track the mapping
+                    console.log(`[DOWNLOAD DEBUG] Stat: "${stat.key}", Normalized: "${normalizedKey}", Format: "${formatKey}"`);
+                    
+                    // For POSTFLOP tab, prioritize 'all' (cross-format), then search specific formats
+                    if (formatKey === 'postflop_all') {
+                        for (const format of ['all', 'nonko_9max', 'nonko_6max', 'pko']) {
+                            if (downloadUrls[format]) {
+                                // Try normalized key first
+                                if (downloadUrls[format][normalizedKey]) {
+                                    url = downloadUrls[format][normalizedKey];
+                                    console.log(`[DOWNLOAD DEBUG] Found URL in format '${format}' with normalized key: ${url}`);
+                                    break;
+                                }
+                                // Fallback to original key
+                                if (downloadUrls[format][stat.key]) {
+                                    url = downloadUrls[format][stat.key];
+                                    console.log(`[DOWNLOAD DEBUG] Found URL in format '${format}' with original key: ${url}`);
+                                    break;
+                                }
+                            }
+                        }
+                        if (!url) {
+                            console.log(`[DOWNLOAD DEBUG] No URL found for postflop stat: "${stat.key}"`);
+                        }
+                    } else if (formatKey && downloadUrls[formatKey]) {
+                        // Try normalized key first
+                        url = downloadUrls[formatKey][normalizedKey] || downloadUrls[formatKey][stat.key];
+                        if (url) {
+                            console.log(`[DOWNLOAD DEBUG] Found URL in format '${formatKey}': ${url}`);
+                        } else {
+                            console.log(`[DOWNLOAD DEBUG] No URL found for stat "${stat.key}" in format "${formatKey}"`);
+                        }
+                    }
+                    
+                    // CHANGED: Only show download button if there are opportunities
+                    if (url && stat.opportunities > 0) {
+                        
+                        // Extract first hand ID from the URL (if available)
+                        // URLs are like: /api/download/hands_by_stat/token/format/stat_name
+                        const urlParts = url.split('/');
+                        const statName = urlParts[urlParts.length - 1];
+                        
+                        // For W$WSF Rating and River Agg %, show total hands count
+                        let downloadCount, downloadTitle;
+                        if (stat.key === 'W$WSF Rating') {
+                            // W$WSF Rating: opportunities = total flops seen
+                            downloadCount = stat.opportunities;
+                            downloadTitle = `Download ${downloadCount} mãos`;
+                        } else if (stat.key === 'River Agg %') {
+                            // River Agg %: use total_hands if available, otherwise opportunities
+                            downloadCount = stat.total_hands || stat.opportunities;
+                            downloadTitle = `Download ${downloadCount} mãos`;
+                        } else {
+                            downloadCount = stat.opportunities;
+                            downloadTitle = `Download ${downloadCount} oportunidades`;
+                        }
+                        
+                        downloadButton = `
+                            <a href="${url}" 
+                               class="stat-download-btn" 
+                               title="${downloadTitle}"
+                               style="
+                                   margin-right: 5px;
+                                   padding: 6px 10px;
+                                   background: linear-gradient(135deg, #667eea, #764ba2);
+                                   color: white;
+                                   border-radius: 6px;
+                                   text-decoration: none;
+                                   font-size: 11px;
+                                   font-weight: 600;
+                                   transition: all 0.3s;
+                                   display: inline-flex;
+                                   align-items: center;
+                                   gap: 5px;
+                               "
+                               onmouseover="this.style.transform='translateY(-1px)'; this.style.boxShadow='0 4px 12px rgba(102,126,234,0.3)';"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                                ⬇️ ${downloadCount}
+                            </a>
+                        `;
+                    }
+                    
+                    // W$WSF Rating and River Agg % are ratios, not percentages - display without %
+                    const displaySuffix = (stat.key === 'W$WSF Rating' || stat.key === 'River Agg %') ? '' : '%';
+                    
+                    // Apply color to percentage result based on score (same gradient as final score)
+                    const percentageColorClass = (stat.score !== null && stat.score !== undefined) ? getScoreColorClass(stat.score) : '';
+                    
+                    // W$WSF Rating and River Agg % don't show (attempts/opportunities) count
+                    const showCount = !(stat.key === 'W$WSF Rating' || stat.key === 'River Agg %');
+                    const countDisplay = showCount ? `<span class="stat-count">(${stat.attempts}/${stat.opportunities})</span>` : '<span class="stat-count" style="color: #666;">—</span>';
+                    
+                    // Create single combined tooltip (rules + example)
+                    const tooltip = statTooltips[stat.key];
+                    
+                    const statNameWithTooltip = tooltip 
+                        ? `<div class="stat-tooltip">
+                             <span class="stat-name">${stat.key}</span>
+                             <span class="stat-info-icon">ⓘ</span>
+                             <div class="stat-tooltip-content">${tooltip}</div>
+                           </div>`
+                        : `<span class="stat-name">${stat.key}</span>`;
+                    
+                    // Debug para verificar se o botão está sendo criado
+                    if (downloadButton) {
+                        console.log(`[DOWNLOAD BUTTON] Button created for stat: "${stat.key}"`);
+                    } else {
+                        console.log(`[DOWNLOAD BUTTON] No button for stat: "${stat.key}"`);
+                    }
+                    
+                    html += `
+                        <div class="stat-row">
+                            <div style="text-align: center;">${downloadButton}</div>
+                            <div style="text-align: left;">${statNameWithTooltip}</div>
+                            <div style="text-align: center;"><span class="stat-percentage ${percentageColorClass}" style="font-weight: 600;">${percentage}${displaySuffix}</span></div>
+                            <div style="text-align: center;">${countDisplay}</div>
+                            <div style="text-align: left;">${idealDisplay}</div>
+                            <div style="text-align: center;"><span class="stat-score ${scoreColorClass}" style="font-weight: 600;">${scoreDisplay}</span></div>
+                        </div>
+                    `;
+                });
+                
+                html += '</div>';
+            });
+            
+            html += '</div></div>';
+            container.innerHTML = html;
+        }
+        
+        function getScoreColorClass(score) {
+            if (score >= 80) return 'score-dark-green';    // Verde Escuro
+            if (score >= 60) return 'score-light-green';   // Verde claro
+            if (score >= 40) return 'score-yellow';        // Amarelo
+            if (score >= 20) return 'score-orange-red';    // Vermelho alaranjado
+            if (score >= 0) return 'score-dark-red';       // Vermelho escuro
+            return 'score-empty';                          // Cinza (sem dados)
+        }
+        
+        function createRadarChart(canvasId, labels, data, title) {
+            const canvas = document.getElementById(canvasId);
+            if (!canvas) return;
+            
+            const ctx = canvas.getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: title,
+                        data: data,
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderWidth: 2,
+                        pointRadius: 4,
+                        pointBackgroundColor: 'rgba(102, 126, 234, 1)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                display: false  // Remove numbers from radar
+                            },
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.1)'
+                            },
+                            pointLabels: {
+                                color: '#999',
+                                font: {
+                                    size: 11
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function createAverageRadarChart(canvasId, labels, data) {
+            const canvas = document.getElementById(canvasId);
+            if (!canvas) return;
+            
+            const ctx = canvas.getContext('2d');
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Average',
+                        data: data,
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderWidth: 2,
+                        pointRadius: 3,
+                        pointBackgroundColor: 'rgba(102, 126, 234, 1)'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled: true
+                        }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                display: false  // Remove numbers from radar
+                            },
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.1)'
+                            },
+                            pointLabels: {
+                                color: '#999',
+                                font: {
+                                    size: 10
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+        
+        function getScoreClass(score) {
+            if (score >= 90) return 'score-excellent';
+            if (score >= 75) return 'score-good';
+            if (score >= 60) return 'score-average';
+            if (score >= 45) return 'score-below';
+            return 'score-poor';
+        }
+        
+        
+        function showError(message) {
+            document.getElementById('error').textContent = message;
+            document.getElementById('error').style.display = 'block';
+            document.querySelectorAll('.loading').forEach(el => el.style.display = 'none');
+        }
+        
+        // Load hands by stat downloads section (now loads URLs into memory instead of creating UI)
+        async function loadHandsByStatSection(token, month = null) {
+            console.log('Loading hands by stat for token:', token, 'month:', month);
+            try {
+                // Build URL with month parameter if present
+                const url = month 
+                    ? `/api/hands_by_stat/${token}?month=${month}`
+                    : `/api/hands_by_stat/${token}`;
+                const response = await fetch(url);
+                if (!response.ok) {
+                    console.error('API response not ok:', response.status);
+                    return Promise.resolve(); // Still resolve to allow dashboard to load
+                }
+                
+                const data = await response.json();
+                console.log('Hands by stat data:', data);
+                
+                // Store download URLs in memory for use in stat displays
+                if (data.formats && Object.keys(data.formats).length > 0) {
+                    console.log('Found formats:', Object.keys(data.formats));
+                    
+                    // Store URLs for each format
+                    Object.keys(data.formats).forEach(format => {
+                        downloadUrls[format] = {};
+                        const formatData = data.formats[format];
+                        if (formatData.stats && Array.isArray(formatData.stats)) {
+                            // Stats is an array, iterate through it
+                            formatData.stats.forEach(stat => {
+                                if (stat.stat_name && stat.download_url) {
+                                    downloadUrls[format][stat.stat_name] = stat.download_url;
+                                }
+                            });
+                        }
+                    });
+                    
+                    console.log('Stored download URLs:', downloadUrls);
+                    
+                    // Don't create UI elements - just store the URLs
+                } else {
+                    console.log('No stats available to display');
+                }
+                return Promise.resolve(); // Return resolved promise
+            } catch (error) {
+                console.error('Error loading hands by stat:', error);
+                return Promise.resolve(); // Still resolve to allow dashboard to load
+            }
+        }
+        
+        // No longer need separate initialization for hands by stat
+        // It's now called before loadDashboard
+        
+        // Month Selector Initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            const monthSelectorContainer = document.getElementById('monthSelectorContainer');
+            const monthSelector = document.getElementById('monthSelector');
+            
+            if (!monthSelectorContainer || !monthSelector) return;
+            
+            const token = monthSelectorContainer.dataset.token;
+            const currentMonth = monthSelectorContainer.dataset.currentMonth;
+            
+            if (!token) {
+                console.log('No token found, skipping month selector initialization');
+                return;
+            }
+            
+            // Fetch months manifest
+            fetch(`/api/dashboard/${token}/months`)
+                .then(response => {
+                    if (!response.ok) {
+                        // No months manifest (single-month or legacy upload)
+                        console.log('No months manifest available');
+                        return null;
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!data || !data.ok || !data.data || !data.data.months) {
+                        console.log('Invalid months manifest data');
+                        return;
+                    }
+                    
+                    const months = data.data.months;
+                    
+                    // Only show selector if there's more than 1 month
+                    if (months.length <= 1) {
+                        console.log('Only 1 month, hiding month selector');
+                        return;
+                    }
+                    
+                    // Sort months descending (newest first)
+                    months.sort((a, b) => b.month.localeCompare(a.month));
+                    
+                    // Populate dropdown
+                    months.forEach(monthData => {
+                        const option = document.createElement('option');
+                        option.value = monthData.month;
+                        
+                        let formattedMonth;
+                        
+                        // Check if month is in YYYY-MM format
+                        if (monthData.month.match(/^\d{4}-\d{2}$/)) {
+                            // Format month: "2025-10" -> "Outubro 2025"
+                            const [year, month] = monthData.month.split('-');
+                            const date = new Date(parseInt(year), parseInt(month) - 1, 1);
+                            const monthName = new Intl.DateTimeFormat('pt-PT', { 
+                                month: 'long', 
+                                year: 'numeric' 
+                            }).format(date);
+                            
+                            // Capitalize first letter
+                            formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+                        } else {
+                            // Handle special cases like "unknown"
+                            formattedMonth = monthData.month === 'unknown' ? 
+                                'Mês desconhecido' : monthData.month;
+                        }
+                        
+                        // Add hand count if available
+                        const handCount = monthData.total_hands ? 
+                            ` (${monthData.total_hands.toLocaleString('pt-PT')} mãos)` : '';
+                        
+                        option.textContent = formattedMonth + handCount;
+                        
+                        // Mark current month as selected
+                        if (currentMonth && monthData.month === currentMonth) {
+                            option.selected = true;
+                        }
+                        
+                        monthSelector.appendChild(option);
+                    });
+                    
+                    // Show the selector
+                    monthSelectorContainer.style.display = 'flex';
+                    
+                    console.log(`Month selector initialized with ${months.length} months`);
+                })
+                .catch(error => {
+                    console.error('Error loading months manifest:', error);
+                    // Keep selector hidden on error
+                });
+            
+            // Handle month selection change
+            monthSelector.addEventListener('change', function(e) {
+                const selectedMonth = e.target.value;
+                
+                // Build URL preserving token, adding/removing month param
+                const url = new URL(window.location.href);
+                
+                if (selectedMonth) {
+                    // Set month parameter
+                    url.searchParams.set('month', selectedMonth);
+                } else {
+                    // Remove month parameter (show all months)
+                    url.searchParams.delete('month');
+                }
+                
+                // Navigate to new URL
+                window.location.href = url.toString();
+            });
+        });
+    </script>
+</body>
+</html>

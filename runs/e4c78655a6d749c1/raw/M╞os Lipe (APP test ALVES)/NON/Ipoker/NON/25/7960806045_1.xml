@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960806045">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1082043386</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:29:19</duration>
+  <gamecount>66</gamecount>
+  <startdate>2024-02-25 17:46:44</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>415,449</bets>
+  <wins>240,759</wins>
+  <chipsin>99,800</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP54</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081926676</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>338</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10584146692">
+  <general>
+   <startdate>2024-02-25 17:46:44</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="49,230" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="49,262" seat="2" name="t1c1c1ca" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="124,828" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="128,489" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="53,277" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="6,750" addon="0" rebuy="0" win="10,300" chips="205,733" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="104,801" seat="10" name="tropeiro123" reg_code="7960806045" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="PainB" sum="400" type="15"/>
+   <action no="2" player="t1c1c1ca" sum="400" type="15"/>
+   <action no="3" player="kamajin01" sum="400" type="15"/>
+   <action no="4" player="Shad0w87" sum="400" type="15"/>
+   <action no="5" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="6" player="Ascension66" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="PainB" sum="1,500" type="1"/>
+   <action no="9" player="t1c1c1ca" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="10" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="11" player="Shad0w87" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="12" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="13" player="Ascension66" sum="6,750" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H5 C7</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="15" player="PainB" sum="0" type="0"/>
+   <cards player="t1c1c1ca" type="Pocket">X X</cards>
+   <action no="16" player="t1c1c1ca" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584146741">
+  <general>
+   <startdate>2024-02-25 17:47:22</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="47,330" seat="1" name="PainB" reg_code="" dealer="1"/>
+    <player bet="6,400" addon="0" rebuy="0" win="0" chips="124,428" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="128,089" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="13,800" addon="0" rebuy="0" win="14,800" chips="337,044" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="52,877" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="212,633" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="104,401" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="kamajin01" sum="400" type="15"/>
+   <action no="2" player="Shad0w87" sum="400" type="15"/>
+   <action no="3" player="LESNAR1990" sum="400" type="15"/>
+   <action no="4" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="5" player="Ascension66" sum="400" type="15"/>
+   <action no="6" player="tropeiro123" sum="400" type="15"/>
+   <action no="7" player="PainB" sum="400" type="15"/>
+   <action no="8" player="kamajin01" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="9" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="10" player="LESNAR1990" sum="6,000" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="11" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="12" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 D6</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="14" player="PainB" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="15" player="kamajin01" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S5 D10</cards>
+   <action no="16" player="kamajin01" sum="0" type="4"/>
+   <action no="17" player="LESNAR1990" sum="7,400" type="5"/>
+   <action no="18" player="kamajin01" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584146788">
+  <general>
+   <startdate>2024-02-25 17:47:55</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="46,530" addon="0" rebuy="0" win="10,700" chips="46,930" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="126,400" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="118,028" seat="4" name="kamajin01" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="127,689" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="345,444" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="52,477" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="212,233" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="104,001" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Shad0w87" sum="400" type="15"/>
+   <action no="2" player="LESNAR1990" sum="400" type="15"/>
+   <action no="3" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="4" player="Ascension66" sum="400" type="15"/>
+   <action no="5" player="tropeiro123" sum="400" type="15"/>
+   <action no="6" player="PainB" sum="400" type="15"/>
+   <action no="7" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="8" player="kamajin01" sum="400" type="15"/>
+   <action no="9" player="Shad0w87" sum="1,500" type="1"/>
+   <action no="10" player="LESNAR1990" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="11" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="12" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C2</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="14" player="PainB" sum="46,530" type="23"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="15" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="16" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="17" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="18" player="LESNAR1990" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584146824">
+  <general>
+   <startdate>2024-02-25 17:48:23</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="54,230" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="126,000" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="117,628" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="125,789" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="342,044" seat="6" name="LESNAR1990" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="52,077" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="211,833" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="6,000" addon="0" rebuy="0" win="10,700" chips="103,601" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="2" player="Ascension66" sum="400" type="15"/>
+   <action no="3" player="tropeiro123" sum="400" type="15"/>
+   <action no="4" player="PainB" sum="400" type="15"/>
+   <action no="5" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="6" player="kamajin01" sum="400" type="15"/>
+   <action no="7" player="Shad0w87" sum="400" type="15"/>
+   <action no="8" player="LESNAR1990" sum="400" type="15"/>
+   <action no="9" player="lucassfelipe1" sum="1,500" type="1"/>
+   <action no="10" player="Ascension66" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DK SA</cards>
+   <action no="11" player="tropeiro123" sum="6,000" type="23"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="12" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="13" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="14" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="15" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="16" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="17" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="18" player="Ascension66" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584146893">
+  <general>
+   <startdate>2024-02-25 17:49:13</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="53,830" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="125,600" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="117,228" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="125,389" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="341,644" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="50,177" seat="7" name="lucassfelipe1" reg_code="" dealer="1"/>
+    <player bet="22,605" addon="0" rebuy="0" win="29,610" chips="208,433" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="13,605" addon="0" rebuy="0" win="0" chips="110,901" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Ascension66" sum="400" type="15"/>
+   <action no="2" player="tropeiro123" sum="400" type="15"/>
+   <action no="3" player="PainB" sum="400" type="15"/>
+   <action no="4" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="5" player="kamajin01" sum="400" type="15"/>
+   <action no="6" player="Shad0w87" sum="400" type="15"/>
+   <action no="7" player="LESNAR1990" sum="400" type="15"/>
+   <action no="8" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="9" player="Ascension66" sum="1,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="11" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="12" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="13" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="14" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="15" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="16" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="17" player="Ascension66" sum="6,750" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S5 D5</cards>
+   <action no="18" player="tropeiro123" sum="3,750" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA D6 D9</cards>
+   <action no="19" player="Ascension66" sum="6,455" type="5"/>
+   <action no="20" player="tropeiro123" sum="6,455" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action no="21" player="Ascension66" sum="0" type="4"/>
+   <action no="22" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+   <action no="23" player="Ascension66" sum="9,000" type="5"/>
+   <action no="24" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584147059">
+  <general>
+   <startdate>2024-02-25 17:51:20</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="53,430" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="125,200" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="116,828" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="124,989" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="6,000" addon="0" rebuy="0" win="10,700" chips="341,244" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="49,777" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="224,438" seat="9" name="Ascension66" reg_code="" dealer="1"/>
+    <player bet="1,900" addon="0" rebuy="0" win="0" chips="97,296" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="400" type="15"/>
+   <action no="2" player="PainB" sum="400" type="15"/>
+   <action no="3" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="4" player="kamajin01" sum="400" type="15"/>
+   <action no="5" player="Shad0w87" sum="400" type="15"/>
+   <action no="6" player="LESNAR1990" sum="400" type="15"/>
+   <action no="7" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="8" player="Ascension66" sum="400" type="15"/>
+   <action no="9" player="tropeiro123" sum="1,500" type="1"/>
+   <action no="10" player="PainB" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="11" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="12" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="13" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="14" player="LESNAR1990" sum="6,000" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="15" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="16" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 SQ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="18" player="PainB" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584147135">
+  <general>
+   <startdate>2024-02-25 17:52:18</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="49,630" addon="0" rebuy="0" win="105,460" chips="50,030" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="3,400" addon="0" rebuy="0" win="0" chips="124,800" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="116,428" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="124,589" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="348,544" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="49,377" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="224,038" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="50,030" addon="0" rebuy="0" win="0" chips="95,396" seat="10" name="tropeiro123" reg_code="7960806045" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="PainB" sum="400" type="15"/>
+   <action no="2" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="3" player="kamajin01" sum="400" type="15"/>
+   <action no="4" player="Shad0w87" sum="400" type="15"/>
+   <action no="5" player="LESNAR1990" sum="400" type="15"/>
+   <action no="6" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="7" player="Ascension66" sum="400" type="15"/>
+   <action no="8" player="tropeiro123" sum="400" type="15"/>
+   <action no="9" player="PainB" sum="1,500" type="1"/>
+   <action no="10" player="IamCrownupguy" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="11" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="12" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="13" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="14" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="15" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA SJ</cards>
+   <action no="16" player="tropeiro123" sum="6,000" type="23"/>
+   <cards player="PainB" type="Pocket">DQ HJ</cards>
+   <action no="17" player="PainB" sum="49,630" type="23"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="18" player="IamCrownupguy" sum="0" type="0"/>
+   <action no="19" player="tropeiro123" sum="43,630" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 CJ CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584147198">
+  <general>
+   <startdate>2024-02-25 17:53:12</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="105,460" seat="1" name="PainB" reg_code="" dealer="1"/>
+    <player bet="9,400" addon="0" rebuy="0" win="0" chips="121,400" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="115,628" addon="0" rebuy="0" win="21,200" chips="116,028" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="124,189" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="348,144" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="48,977" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="223,638" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="400" addon="0" rebuy="0" win="0" chips="45,366" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="IamCrownupguy" sum="400" type="15"/>
+   <action no="2" player="kamajin01" sum="400" type="15"/>
+   <action no="3" player="Shad0w87" sum="400" type="15"/>
+   <action no="4" player="LESNAR1990" sum="400" type="15"/>
+   <action no="5" player="lucassfelipe1" sum="400" type="15"/>
+   <action no="6" player="Ascension66" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="PainB" sum="400" type="15"/>
+   <action no="9" player="IamCrownupguy" sum="1,500" type="1"/>
+   <action no="10" player="kamajin01" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="11" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="12" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="13" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="14" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 C3</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="16" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="17" player="IamCrownupguy" sum="9,000" type="23"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="18" player="kamajin01" sum="115,628" type="23"/>
+   <action no="19" player="IamCrownupguy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584147261">
+  <general>
+   <startdate>2024-02-25 17:54:04</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="105,060" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="112,000" seat="2" name="IamCrownupguy" reg_code="" dealer="1"/>
+    <player bet="36,687" addon="0" rebuy="0" win="80,074" chips="127,828" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="4,450" addon="0" rebuy="0" win="0" chips="123,789" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="347,744" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="48,577" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="36,687" addon="0" rebuy="0" win="0" chips="223,238" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="44,966" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="kamajin01" sum="450" type="15"/>
+   <action no="2" player="Shad0w87" sum="450" type="15"/>
+   <action no="3" player="LESNAR1990" sum="450" type="15"/>
+   <action no="4" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="5" player="Ascension66" sum="450" type="15"/>
+   <action no="6" player="tropeiro123" sum="450" type="15"/>
+   <action no="7" player="PainB" sum="450" type="15"/>
+   <action no="8" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="9" player="kamajin01" sum="2,000" type="1"/>
+   <action no="10" player="Shad0w87" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="11" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="12" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">S8 SQ</cards>
+   <action no="13" player="Ascension66" sum="8,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S5 C7</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="15" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="16" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">SJ SK</cards>
+   <action no="17" player="kamajin01" sum="6,000" type="3"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="18" player="Shad0w87" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 D6 D3</cards>
+   <action no="19" player="kamajin01" sum="0" type="4"/>
+   <action no="20" player="Ascension66" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action no="21" player="kamajin01" sum="0" type="4"/>
+   <action no="22" player="Ascension66" sum="9,271" type="5"/>
+   <action no="23" player="kamajin01" sum="9,271" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action no="24" player="kamajin01" sum="0" type="4"/>
+   <action no="25" player="Ascension66" sum="18,966" type="5"/>
+   <action no="26" player="kamajin01" sum="18,966" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10584174782">
+  <general>
+   <startdate>2024-02-25 18:02:41</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="104,610" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="25,250" addon="0" rebuy="0" win="0" chips="111,550" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="44,786" addon="0" rebuy="0" win="59,200" chips="171,215" seat="4" name="kamajin01" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="119,339" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="4,450" addon="0" rebuy="0" win="0" chips="347,294" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="48,127" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="186,551" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="44,516" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Shad0w87" sum="450" type="15"/>
+   <action no="2" player="LESNAR1990" sum="450" type="15"/>
+   <action no="3" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="4" player="Ascension66" sum="450" type="15"/>
+   <action no="5" player="tropeiro123" sum="450" type="15"/>
+   <action no="6" player="PainB" sum="450" type="15"/>
+   <action no="7" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="8" player="kamajin01" sum="450" type="15"/>
+   <action no="9" player="Shad0w87" sum="2,000" type="1"/>
+   <action no="10" player="LESNAR1990" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="11" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="12" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 D6</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="14" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="15" player="IamCrownupguy" sum="8,400" type="23"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="16" player="kamajin01" sum="24,800" type="23"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="17" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="18" player="LESNAR1990" sum="0" type="0"/>
+   <action no="19" player="IamCrownupguy" sum="16,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 S7 C3</cards>
+   <action no="20" player="IamCrownupguy" sum="0" type="4"/>
+   <action no="21" player="kamajin01" sum="19,536" type="5"/>
+   <action no="22" player="IamCrownupguy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584174874">
+  <general>
+   <startdate>2024-02-25 18:04:04</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="104,160" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="86,300" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="47,677" addon="0" rebuy="0" win="50,027" chips="205,165" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="116,889" seat="5" name="Shad0w87" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="342,844" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="47,227" addon="0" rebuy="0" win="50,027" chips="47,677" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="186,101" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="44,066" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="LESNAR1990" sum="450" type="15"/>
+   <action no="2" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="3" player="Ascension66" sum="450" type="15"/>
+   <action no="4" player="tropeiro123" sum="450" type="15"/>
+   <action no="5" player="PainB" sum="450" type="15"/>
+   <action no="6" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="7" player="kamajin01" sum="450" type="15"/>
+   <action no="8" player="Shad0w87" sum="450" type="15"/>
+   <action no="9" player="LESNAR1990" sum="2,000" type="1"/>
+   <action no="10" player="lucassfelipe1" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="11" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S3</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="13" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="14" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">H8 DA</cards>
+   <action no="15" player="kamajin01" sum="8,000" type="23"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="16" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="17" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">S8 CA</cards>
+   <action no="18" player="lucassfelipe1" sum="47,227" type="23"/>
+   <action no="19" player="kamajin01" sum="39,227" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 S4 D6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584174922">
+  <general>
+   <startdate>2024-02-25 18:04:39</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="103,710" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="85,850" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="207,515" addon="0" rebuy="0" win="0" chips="207,515" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="116,439" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="340,394" seat="6" name="LESNAR1990" reg_code="" dealer="1"/>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="50,027" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="185,651" addon="0" rebuy="0" win="382,002" chips="185,651" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="43,616" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="2" player="Ascension66" sum="450" type="15"/>
+   <action no="3" player="tropeiro123" sum="450" type="15"/>
+   <action no="4" player="PainB" sum="450" type="15"/>
+   <action no="5" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="6" player="kamajin01" sum="450" type="15"/>
+   <action no="7" player="Shad0w87" sum="450" type="15"/>
+   <action no="8" player="LESNAR1990" sum="450" type="15"/>
+   <action no="9" player="lucassfelipe1" sum="2,000" type="1"/>
+   <action no="10" player="Ascension66" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S5 D4</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="12" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="13" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">CA D10</cards>
+   <action no="14" player="kamajin01" sum="8,000" type="23"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="15" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="16" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="17" player="lucassfelipe1" sum="6,000" type="3"/>
+   <cards player="Ascension66" type="Pocket">D8 H8</cards>
+   <action no="18" player="Ascension66" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 CQ C8</cards>
+   <action no="19" player="lucassfelipe1" sum="0" type="4"/>
+   <action no="20" player="Ascension66" sum="0" type="4"/>
+   <action no="21" player="kamajin01" sum="6,900" type="5"/>
+   <action no="22" player="lucassfelipe1" sum="0" type="0"/>
+   <action no="23" player="Ascension66" sum="6,900" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="24" player="Ascension66" sum="0" type="4"/>
+   <action no="25" player="kamajin01" sum="40,000" type="5"/>
+   <action no="26" player="Ascension66" sum="40,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="27" player="Ascension66" sum="0" type="4"/>
+   <action no="28" player="kamajin01" sum="152,165" type="5"/>
+   <action no="29" player="Ascension66" sum="130,301" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10584175109">
+  <general>
+   <startdate>2024-02-25 18:07:19</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="103,260" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="85,400" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="21,864" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="115,989" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="12,450" addon="0" rebuy="0" win="21,600" chips="339,944" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="41,577" seat="7" name="lucassfelipe1" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="382,002" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="8,450" addon="0" rebuy="0" win="0" chips="43,166" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Ascension66" sum="450" type="15"/>
+   <action no="2" player="tropeiro123" sum="450" type="15"/>
+   <action no="3" player="PainB" sum="450" type="15"/>
+   <action no="4" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="5" player="kamajin01" sum="450" type="15"/>
+   <action no="6" player="Shad0w87" sum="450" type="15"/>
+   <action no="7" player="LESNAR1990" sum="450" type="15"/>
+   <action no="8" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="9" player="Ascension66" sum="2,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="11" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="12" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="13" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="14" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="15" player="LESNAR1990" sum="8,000" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="16" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="17" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 DQ</cards>
+   <action no="18" player="tropeiro123" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D6 CA</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="LESNAR1990" sum="4,000" type="5"/>
+   <action no="21" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584175188">
+  <general>
+   <startdate>2024-02-25 18:08:17</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="22,430" addon="0" rebuy="0" win="49,560" chips="102,810" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="84,950" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="21,414" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="115,539" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="353,094" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="41,127" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="22,430" addon="0" rebuy="0" win="0" chips="379,552" seat="9" name="Ascension66" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="34,716" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="450" type="15"/>
+   <action no="2" player="PainB" sum="450" type="15"/>
+   <action no="3" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="4" player="kamajin01" sum="450" type="15"/>
+   <action no="5" player="Shad0w87" sum="450" type="15"/>
+   <action no="6" player="LESNAR1990" sum="450" type="15"/>
+   <action no="7" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="8" player="Ascension66" sum="450" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,000" type="1"/>
+   <action no="10" player="PainB" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="11" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="12" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="13" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="14" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="15" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">H8 HA</cards>
+   <action no="16" player="Ascension66" sum="9,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S2 C9</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">D9 HQ</cards>
+   <action no="18" player="PainB" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 D10 CJ</cards>
+   <action no="19" player="PainB" sum="0" type="4"/>
+   <action no="20" player="Ascension66" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action no="21" player="PainB" sum="12,980" type="5"/>
+   <action no="22" player="Ascension66" sum="12,980" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+   <action no="23" player="PainB" sum="0" type="4"/>
+   <action no="24" player="Ascension66" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584175275">
+  <general>
+   <startdate>2024-02-25 18:09:37</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="129,940" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="9,450" addon="0" rebuy="0" win="0" chips="84,500" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="20,964" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="115,089" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="352,644" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="40,677" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="18,182" addon="0" rebuy="0" win="23,600" chips="357,122" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="32,266" seat="10" name="tropeiro123" reg_code="7960806045" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="PainB" sum="450" type="15"/>
+   <action no="2" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="3" player="kamajin01" sum="450" type="15"/>
+   <action no="4" player="Shad0w87" sum="450" type="15"/>
+   <action no="5" player="LESNAR1990" sum="450" type="15"/>
+   <action no="6" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="7" player="Ascension66" sum="450" type="15"/>
+   <action no="8" player="tropeiro123" sum="450" type="15"/>
+   <action no="9" player="PainB" sum="2,000" type="1"/>
+   <action no="10" player="IamCrownupguy" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="11" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="12" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="13" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="14" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="15" player="Ascension66" sum="9,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S9 S7</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="17" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="18" player="IamCrownupguy" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C4 C6</cards>
+   <action no="19" player="IamCrownupguy" sum="0" type="4"/>
+   <action no="20" player="Ascension66" sum="8,732" type="5"/>
+   <action no="21" player="IamCrownupguy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584175362">
+  <general>
+   <startdate>2024-02-25 18:10:51</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="127,490" seat="1" name="PainB" reg_code="" dealer="1"/>
+    <player bet="2,450" addon="0" rebuy="0" win="0" chips="75,050" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="4,450" addon="0" rebuy="0" win="0" chips="20,514" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="114,639" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="31,816" addon="0" rebuy="0" win="0" chips="352,194" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="40,227" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="371,272" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="31,366" addon="0" rebuy="0" win="72,332" chips="31,816" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="IamCrownupguy" sum="450" type="15"/>
+   <action no="2" player="kamajin01" sum="450" type="15"/>
+   <action no="3" player="Shad0w87" sum="450" type="15"/>
+   <action no="4" player="LESNAR1990" sum="450" type="15"/>
+   <action no="5" player="lucassfelipe1" sum="450" type="15"/>
+   <action no="6" player="Ascension66" sum="450" type="15"/>
+   <action no="7" player="tropeiro123" sum="450" type="15"/>
+   <action no="8" player="PainB" sum="450" type="15"/>
+   <action no="9" player="IamCrownupguy" sum="2,000" type="1"/>
+   <action no="10" player="kamajin01" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="11" player="Shad0w87" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">CK C9</cards>
+   <action no="12" player="LESNAR1990" sum="8,000" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="13" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="14" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA CA</cards>
+   <action no="15" player="tropeiro123" sum="31,366" type="23"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="16" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="17" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="18" player="kamajin01" sum="0" type="0"/>
+   <action no="19" player="LESNAR1990" sum="23,366" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 C8 H10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10584175406">
+  <general>
+   <startdate>2024-02-25 18:11:37</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="127,040" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="72,600" seat="2" name="IamCrownupguy" reg_code="" dealer="1"/>
+    <player bet="15,564" addon="0" rebuy="0" win="50,692" chips="16,064" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="16,064" addon="0" rebuy="0" win="0" chips="114,189" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="16,064" addon="0" rebuy="0" win="0" chips="320,378" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="39,777" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="370,822" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="72,332" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="kamajin01" sum="500" type="15"/>
+   <action no="2" player="Shad0w87" sum="500" type="15"/>
+   <action no="3" player="LESNAR1990" sum="500" type="15"/>
+   <action no="4" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="5" player="Ascension66" sum="500" type="15"/>
+   <action no="6" player="tropeiro123" sum="500" type="15"/>
+   <action no="7" player="PainB" sum="500" type="15"/>
+   <action no="8" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="9" player="kamajin01" sum="2,500" type="1"/>
+   <action no="10" player="Shad0w87" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LESNAR1990" type="Pocket">C7 H6</cards>
+   <action no="11" player="LESNAR1990" sum="5,000" type="3"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="12" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="13" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 C9</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="15" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="16" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">SQ DK</cards>
+   <action no="17" player="kamajin01" sum="15,564" type="23"/>
+   <cards player="Shad0w87" type="Pocket">H4 HJ</cards>
+   <action no="18" player="Shad0w87" sum="10,564" type="3"/>
+   <action no="19" player="LESNAR1990" sum="10,564" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 HA CK</cards>
+   <action no="20" player="Shad0w87" sum="0" type="4"/>
+   <action no="21" player="LESNAR1990" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" player="Shad0w87" sum="0" type="4"/>
+   <action no="23" player="LESNAR1990" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="24" player="Shad0w87" sum="0" type="4"/>
+   <action no="25" player="LESNAR1990" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584175489">
+  <general>
+   <startdate>2024-02-25 18:12:55</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="126,540" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="72,100" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="50,692" seat="4" name="kamajin01" reg_code="" dealer="1"/>
+    <player bet="98,125" addon="0" rebuy="0" win="0" chips="98,125" seat="5" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="290,000" addon="0" rebuy="0" win="199,250" chips="304,314" seat="6" name="LESNAR1990" reg_code="" dealer="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="Shad0w87"/>
+    </player>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="39,277" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="370,322" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="71,832" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Shad0w87" sum="500" type="15"/>
+   <action no="2" player="LESNAR1990" sum="500" type="15"/>
+   <action no="3" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="4" player="Ascension66" sum="500" type="15"/>
+   <action no="5" player="tropeiro123" sum="500" type="15"/>
+   <action no="6" player="PainB" sum="500" type="15"/>
+   <action no="7" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="8" player="kamajin01" sum="500" type="15"/>
+   <action no="9" player="Shad0w87" sum="2,500" type="1"/>
+   <action no="10" player="LESNAR1990" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="11" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="12" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 C10</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="14" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="15" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="16" player="kamajin01" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">SJ HJ</cards>
+   <action no="17" player="Shad0w87" sum="10,000" type="23"/>
+   <cards player="LESNAR1990" type="Pocket">DK HA</cards>
+   <action no="18" player="LESNAR1990" sum="290,000" type="23"/>
+   <action no="19" player="Shad0w87" sum="87,625" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S4 H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584175552">
+  <general>
+   <startdate>2024-02-25 18:13:53</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="126,040" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="10,500" addon="0" rebuy="0" win="0" chips="71,600" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="50,192" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="404,939" addon="0" rebuy="0" win="28,500" chips="405,439" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="5,500" addon="0" rebuy="0" win="0" chips="38,777" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="369,822" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="71,332" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="LESNAR1990" sum="500" type="15"/>
+   <action no="2" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="3" player="Ascension66" sum="500" type="15"/>
+   <action no="4" player="tropeiro123" sum="500" type="15"/>
+   <action no="5" player="PainB" sum="500" type="15"/>
+   <action no="6" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="7" player="kamajin01" sum="500" type="15"/>
+   <action no="8" player="LESNAR1990" sum="2,500" type="1"/>
+   <action no="9" player="lucassfelipe1" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="10" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 S9</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="12" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="13" player="IamCrownupguy" sum="10,000" type="23"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="14" player="kamajin01" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="15" player="LESNAR1990" sum="404,939" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="16" player="lucassfelipe1" sum="0" type="0"/>
+   <action no="17" player="IamCrownupguy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584175598">
+  <general>
+   <startdate>2024-02-25 18:14:36</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="125,540" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="61,100" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="49,692" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="22,400" addon="0" rebuy="0" win="0" chips="423,439" seat="6" name="LESNAR1990" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="33,277" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="10,500" addon="0" rebuy="0" win="0" chips="369,322" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="70,832" addon="0" rebuy="0" win="59,800" chips="70,832" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="2" player="Ascension66" sum="500" type="15"/>
+   <action no="3" player="tropeiro123" sum="500" type="15"/>
+   <action no="4" player="PainB" sum="500" type="15"/>
+   <action no="5" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="6" player="kamajin01" sum="500" type="15"/>
+   <action no="7" player="LESNAR1990" sum="500" type="15"/>
+   <action no="8" player="lucassfelipe1" sum="2,500" type="1"/>
+   <action no="9" player="Ascension66" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SJ SQ</cards>
+   <action no="10" player="tropeiro123" sum="10,000" type="23"/>
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="11" player="PainB" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="12" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="13" player="kamajin01" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="14" player="LESNAR1990" sum="10,000" type="3"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="15" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="16" player="Ascension66" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ C7 CQ</cards>
+   <action no="17" player="Ascension66" sum="0" type="4"/>
+   <action no="18" player="tropeiro123" sum="11,900" type="5"/>
+   <action no="19" player="LESNAR1990" sum="11,900" type="3"/>
+   <action no="20" player="Ascension66" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action no="21" player="tropeiro123" sum="48,432" type="5"/>
+   <action no="22" player="LESNAR1990" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584221238">
+  <general>
+   <startdate>2024-02-25 18:16:06</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="34,245" addon="0" rebuy="0" win="43,990" chips="125,040" seat="1" name="PainB" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="60,600" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="49,192" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="140,794" seat="5" name="chrs108" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="401,039" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="30,277" seat="7" name="lucassfelipe1" reg_code="" dealer="1"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="358,822" seat="9" name="Ascension66" reg_code="" dealer="0"/>
+    <player bet="19,245" addon="0" rebuy="0" win="0" chips="108,232" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Ascension66" sum="500" type="15"/>
+   <action no="2" player="tropeiro123" sum="500" type="15"/>
+   <action no="3" player="PainB" sum="500" type="15"/>
+   <action no="4" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="5" player="kamajin01" sum="500" type="15"/>
+   <action no="6" player="chrs108" sum="500" type="15"/>
+   <action no="7" player="LESNAR1990" sum="500" type="15"/>
+   <action no="8" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="9" player="Ascension66" sum="2,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PainB" type="Pocket">X X</cards>
+   <action no="11" player="PainB" sum="10,000" type="23"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="12" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="13" player="kamajin01" sum="0" type="0"/>
+   <cards player="chrs108" type="Pocket">X X</cards>
+   <action no="14" player="chrs108" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="15" player="LESNAR1990" sum="0" type="0"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="16" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="17" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ D9</cards>
+   <action no="18" player="tropeiro123" sum="5,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HA D3</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="PainB" sum="8,745" type="5"/>
+   <action no="21" player="tropeiro123" sum="8,745" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action no="22" player="tropeiro123" sum="0" type="4"/>
+   <action no="23" player="PainB" sum="15,000" type="5"/>
+   <action no="24" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584221309">
+  <general>
+   <startdate>2024-02-25 18:17:11</startdate>
+   <smallblind>2,500</smallblind>
+   <bigblind>5,000</bigblind>
+   <ante>500</ante>
+   <players>
+    <player bet="149,785" addon="0" rebuy="0" win="190,974" chips="149,785" seat="1" name="PainB" reg_code="" dealer="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="60,100" seat="2" name="IamCrownupguy" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="48,692" seat="4" name="kamajin01" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="140,294" seat="5" name="chrs108" reg_code="" dealer="0"/>
+    <player bet="10,500" addon="0" rebuy="0" win="0" chips="400,539" seat="6" name="LESNAR1990" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="29,777" seat="7" name="lucassfelipe1" reg_code="" dealer="0"/>
+    <player bet="500" addon="0" rebuy="0" win="0" chips="355,822" seat="9" name="Ascension66" reg_code="" dealer="1"/>
+    <player bet="88,487" addon="0" rebuy="0" win="0" chips="88,987" seat="10" name="tropeiro123" reg_code="7960806045" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="500" type="15"/>
+   <action no="2" player="PainB" sum="500" type="15"/>
+   <action no="3" player="IamCrownupguy" sum="500" type="15"/>
+   <action no="4" player="kamajin01" sum="500" type="15"/>
+   <action no="5" player="chrs108" sum="500" type="15"/>
+   <action no="6" player="LESNAR1990" sum="500" type="15"/>
+   <action no="7" player="lucassfelipe1" sum="500" type="15"/>
+   <action no="8" player="Ascension66" sum="500" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,500" type="1"/>
+   <action no="10" player="PainB" sum="5,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="11" player="IamCrownupguy" sum="0" type="0"/>
+   <cards player="kamajin01" type="Pocket">X X</cards>
+   <action no="12" player="kamajin01" sum="0" type="0"/>
+   <cards player="chrs108" type="Pocket">X X</cards>
+   <action no="13" player="chrs108" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action no="14" player="LESNAR1990" sum="10,000" type="23"/>
+   <cards player="lucassfelipe1" type="Pocket">X X</cards>
+   <action no="15" player="lucassfelipe1" sum="0" type="0"/>
+   <cards player="Ascension66" type="Pocket">X X</cards>
+   <action no="16" player="Ascension66" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ D10</cards>
+   <action no="17" player="tropeiro123" sum="88,487" type="23"/>
+   <cards player="PainB" type="Pocket">CQ HK</cards>
+   <action no="18" player="PainB" sum="144,285" type="7"/>
+   <action no="19" player="LESNAR1990" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 SA D6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+  </round>
+ </game>
+</session>

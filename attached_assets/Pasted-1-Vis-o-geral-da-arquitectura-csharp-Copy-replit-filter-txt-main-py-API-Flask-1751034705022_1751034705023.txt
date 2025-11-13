@@ -1,0 +1,222 @@
+1. Visão geral da arquitectura
+csharp
+Copy
+replit-filter-txt/
+│
+├─ main.py               # API Flask
+├─ utils/
+│   └─ archive_handler.py# funções de unzip / unrar
+│
+├─ templates/
+│   └─ index.html        # página com área drag‑and‑drop
+├─ static/
+│   ├─ script.js         # JS frontend
+│   └─ style.css         # opcional
+│
+├─ requirements.txt      # dependências Python
+├─ .replit               # comando de arranque no Replit
+└─ replit.nix            # pacotes de sistema (unrar)
+1.1 Dependências
+text
+Copy
+Flask==3.0.*
+python-magic           # detecção de tipo MIME
+rarfile                # leitura de ficheiros .rar
+patool[binary]         # fallback p/ vários formatos
+No Replit basta editar requirements.txt.
+
+Para suportar RAR é mais fiável instalar o binário unrar.
+No replit.nix adicione:
+
+nix
+Copy
+{ pkgs }: {
+  deps = [
+    pkgs.unrar
+    pkgs.unzip
+  ];
+}
+2. Backend (main.py)
+python
+Copy
+import os, shutil, re, tempfile, zipfile, uuid
+from pathlib import Path
+from flask import Flask, render_template, request, send_file, abort
+import magic                             # python‑magic
+import rarfile
+
+app = Flask(__name__)
+WORD_MYSTERY = re.compile(r'\b(mystery|mysteries)\b',  re.I)
+WORD_PKO     = re.compile(r'\b(bounty|bounties|progressive|pko|ko|knockout)\b', re.I)
+
+###############################################################################
+def unpack_any(archive_path: Path, dest_dir: Path):
+    """
+    Descompacta ZIP ou RAR recursivamente.  
+    Se for pasta normal, copia-a.
+    """
+    mime = magic.from_file(str(archive_path), mime=True)
+    if mime == 'application/zip':
+        with zipfile.ZipFile(archive_path) as z:
+            z.extractall(dest_dir)
+    elif mime in ('application/x-rar', 'application/x-rar-compressed'):
+        with rarfile.RarFile(archive_path) as r:
+            r.extractall(dest_dir)
+    elif archive_path.is_dir():
+        shutil.copytree(archive_path, dest_dir, dirs_exist_ok=True)
+    else:
+        raise ValueError(f'Formato não suportado: {archive_path.name}')
+
+###############################################################################
+def process_txt_tree(root_dir: Path, output_dir: Path):
+    pko_dir  = output_dir / 'PKO'
+    nonko_dir = output_dir / 'NON-KO'
+    pko_dir.mkdir(parents=True, exist_ok=True)
+    nonko_dir.mkdir(parents=True, exist_ok=True)
+
+    for txt in root_dir.rglob('*.txt'):
+        try:
+            content = txt.read_text(encoding='utf-8', errors='ignore')
+        except Exception as e:
+            print(f'Ignorado {txt}: {e}')
+            continue
+
+        if WORD_MYSTERY.search(content):
+            # eliminar ficheiro contendo "mystery" isolado
+            continue
+        elif WORD_PKO.search(content):
+            shutil.copy2(txt, pko_dir / txt.name)
+        else:
+            shutil.copy2(txt, nonko_dir / txt.name)
+
+###############################################################################
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/upload', methods=['POST'])
+def upload():
+    if 'file' not in request.files:
+        abort(400, 'Nenhum ficheiro enviado')
+    f = request.files['file']
+    if f.filename == '':
+        abort(400, 'Ficheiro vazio')
+
+    # directórios temporários isolados por sessão
+    session_id = uuid.uuid4().hex
+    tmp_dir = Path(tempfile.gettempdir()) / session_id
+    raw_dir = tmp_dir / 'raw'
+    work_dir = tmp_dir / 'work'
+    out_dir  = tmp_dir / 'out'
+    raw_dir.mkdir(parents=True)
+    work_dir.mkdir()
+    out_dir.mkdir()
+
+    file_path = raw_dir / f.filename
+    f.save(file_path)
+
+    # 1) Descompactar
+    unpack_any(file_path, work_dir)
+
+    # 2) Filtrar e classificar TXT
+    process_txt_tree(work_dir, out_dir)
+
+    # 3) Gerar ZIP final
+    zip_name = tmp_dir / f'{session_id}_resultado.zip'
+    shutil.make_archive(zip_name.with_suffix(''), 'zip', out_dir)
+
+    return send_file(zip_name, as_attachment=True, download_name='resultado.zip')
+
+###############################################################################
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=3000, debug=True)
+3. Frontend
+3.1 templates/index.html
+html
+Copy
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Filtro de Ficheiros TXT</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Arraste a sua pasta ZIP/RAR ou pasta descompactada</h1>
+  <div id="dropzone">Largue o ficheiro aqui</div>
+  <p id="status"></p>
+  <script src="/static/script.js"></script>
+</body>
+</html>
+3.2 static/script.js
+js
+Copy
+const dz = document.getElementById('dropzone');
+const status = document.getElementById('status');
+
+['dragover', 'dragenter'].forEach(evt =>
+  dz.addEventListener(evt, e => { e.preventDefault(); dz.classList.add('hover'); })
+);
+['dragleave', 'drop'].forEach(evt =>
+  dz.addEventListener(evt, e => { e.preventDefault(); dz.classList.remove('hover'); })
+);
+
+dz.addEventListener('drop', e => {
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+
+  status.textContent = 'A processar…';
+  const formData = new FormData();
+  formData.append('file', file);
+
+  fetch('/upload', { method: 'POST', body: formData })
+    .then(resp => {
+      if (!resp.ok) throw new Error('Falha no upload');
+      return resp.blob();
+    })
+    .then(blob => {
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'resultado.zip';
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      status.textContent = 'Download concluído ✔️';
+    })
+    .catch(err => { status.textContent = 'Erro: ' + err.message; });
+});
+(O CSS é opcional; basta dar uma borda/preenchimento ao #dropzone.)
+
+4. Arquivos de configuração do Replit
+4.1 .replit
+text
+Copy
+run = "python3 main.py"
+4.2 replit.nix
+Já mostrado na secção 1.1; garante que os binários unzip e unrar estão disponíveis para a biblioteca rarfile.
+
+5. Lógica de filtragem (explicação rápida)
+Regras	Expressão regular usada	Acção
+Eliminar ficheiros com “mystery” ou “mysteries” como palavra isolada	`\b(mystery	mysteries)\b` (case‑insensitive)
+Classificar como PKO se contiver qualquer termo isolado:
+“Bounty”, “bounties”, “Progressive”, “PKO”, “ko”, “knockout”	`\b(bounty	bounties
+Restantes ficheiros	—	Copiar para <out>/NON-KO/
+
+re.I torna a pesquisa “case‑insensitive”.
+O \b (word‑boundary) garante que “ko” não apanha “smoke”, e “mystery” não apanha “mysterykingoficeland”.
+
+6. Dicas finais
+Charset: o exemplo lê em UTF‑8; se receber ficheiros em ISO‑8859‑1, pode troca‑lo ou tentar encoding='latin1'.
+
+Escalabilidade: para ZIPs grandes (> 100 MB) considere stream=True no Flask ou aumentar MAX_CONTENT_LENGTH.
+
+Segurança: use tempfile.TemporaryDirectory() para destruir auto‑maticamente o conteúdo quando o processo termina.
+
+RAR protegidos por password: rarfile exigirá password; actualmente o script aborta se o ficheiro estiver protegido.
+
+Testes locais: antes de enviar para o Replit, corra python main.py num ambiente virtual para garantir ausência de erros.
+
+Depois de publicar, qualquer utilizador poderá abrir o link gerado pelo Replit, arrastar a sua pasta e receber de volta o arquivo resultado.zip estruturado exactamente como desejado.
+
+Boa implementação!

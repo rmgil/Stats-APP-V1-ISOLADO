@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947752252">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3,000 GTD - Bounty Hunter, 1080876189</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:35:19</duration>
+  <gamecount>25</gamecount>
+  <startdate>2024-02-12 14:46:25</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>54,675</bets>
+  <wins>66,928</wins>
+  <chipsin>9,980</chipsin>
+  <chipsout>42,830</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080219303</tournamentcode>
+  <tournamentname>€3,000 GTD - Bounty Hunter</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560248206">
+  <general>
+   <startdate>2024-02-12 14:46:25</startdate>
+   <smallblind>100</smallblind>
+   <bigblind>200</bigblind>
+   <ante>16</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,441" addon="0" bet="216" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="4,124" addon="0" bet="2,143" reg_code="" name="aloud1" win="2,333" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,643" addon="0" bet="2,143" reg_code="" name="Iskandar96" win="2,333" rebuy="0"/>
+    <player dealer="0" seat="5" chips="25,752" addon="0" bet="16" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="22,221" addon="0" bet="16" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="17,072" addon="0" bet="16" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,554" addon="0" bet="116" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="16" player="super3" type="15"/>
+   <action no="2" sum="16" player="Larcher" type="15"/>
+   <action no="3" sum="16" player="aloud1" type="15"/>
+   <action no="4" sum="16" player="Iskandar96" type="15"/>
+   <action no="5" sum="16" player="pokermaniacu" type="15"/>
+   <action no="6" sum="16" player="MEATFACTORY" type="15"/>
+   <action no="7" sum="16" player="10en2wo" type="15"/>
+   <action no="8" sum="100" player="super3" type="1"/>
+   <action no="9" sum="200" player="Larcher" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="aloud1" type="Pocket">HQ SK</cards>
+   <action no="10" sum="400" player="aloud1" type="23"/>
+   <cards player="Iskandar96" type="Pocket">CQ DK</cards>
+   <action no="11" sum="1,200" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="10en2wo" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Larcher" type="0"/>
+   <action no="17" sum="800" player="aloud1" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H6 D10</cards>
+   <action no="18" sum="0" player="aloud1" type="4"/>
+   <action no="19" sum="0" player="Iskandar96" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="20" sum="0" player="aloud1" type="4"/>
+   <action no="21" sum="927" player="Iskandar96" type="5"/>
+   <action no="22" sum="927" player="aloud1" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+   <action no="23" sum="0" player="aloud1" type="4"/>
+   <action no="24" sum="0" player="Iskandar96" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560248269">
+  <general>
+   <startdate>2024-02-12 14:47:35</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,225" addon="0" bet="145" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="4,314" addon="0" bet="270" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,833" addon="0" bet="2,131" reg_code="" name="Iskandar96" win="2,757" rebuy="0"/>
+    <player dealer="0" seat="5" chips="25,736" addon="0" bet="20" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="22,205" addon="0" bet="20" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="17,056" addon="0" bet="20" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="10,000" addon="0" bet="20" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="6,438" addon="0" bet="1,131" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="Larcher" type="15"/>
+   <action no="2" sum="20" player="aloud1" type="15"/>
+   <action no="3" sum="20" player="Iskandar96" type="15"/>
+   <action no="4" sum="20" player="pokermaniacu" type="15"/>
+   <action no="5" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="6" sum="20" player="10en2wo" type="15"/>
+   <action no="7" sum="20" player="tropeiro123" type="15"/>
+   <action no="8" sum="20" player="super3" type="15"/>
+   <action no="9" sum="125" player="Larcher" type="1"/>
+   <action no="10" sum="250" player="aloud1" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="11" sum="563" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 D2</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="16" sum="563" player="super3" type="3"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Larcher" type="0"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="aloud1" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 S10 C10</cards>
+   <action no="19" sum="548" player="Iskandar96" type="5"/>
+   <action no="20" sum="548" player="super3" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+   <action no="21" sum="1,000" player="Iskandar96" type="5"/>
+   <action no="22" sum="0" player="super3" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560265969">
+  <general>
+   <startdate>2024-02-12 14:48:37</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="1" seat="1" chips="17,080" addon="0" bet="5,628" reg_code="" name="Larcher" win="6,201" rebuy="0"/>
+    <player dealer="0" seat="2" chips="4,044" addon="0" bet="595" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="18,459" addon="0" bet="270" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="25,716" addon="0" bet="2,628" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="22,185" addon="0" bet="20" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="17,036" addon="0" bet="20" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,980" addon="0" bet="20" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,307" addon="0" bet="20" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="aloud1" type="15"/>
+   <action no="2" sum="20" player="Iskandar96" type="15"/>
+   <action no="3" sum="20" player="pokermaniacu" type="15"/>
+   <action no="4" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="5" sum="20" player="10en2wo" type="15"/>
+   <action no="6" sum="20" player="tropeiro123" type="15"/>
+   <action no="7" sum="20" player="super3" type="15"/>
+   <action no="8" sum="20" player="Larcher" type="15"/>
+   <action no="9" sum="125" player="aloud1" type="1"/>
+   <action no="10" sum="250" player="Iskandar96" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="11" sum="575" player="pokermaniacu" type="23"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK C9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="16" sum="575" player="Larcher" type="3"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="17" sum="450" player="aloud1" type="3"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Iskandar96" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 C2 C5</cards>
+   <action no="19" sum="0" player="aloud1" type="4"/>
+   <action no="20" sum="1,000" player="pokermaniacu" type="5"/>
+   <action no="21" sum="1,000" player="Larcher" type="3"/>
+   <action no="22" sum="0" player="aloud1" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action no="23" sum="1,033" player="pokermaniacu" type="5"/>
+   <action no="24" sum="1,033" player="Larcher" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action no="25" sum="0" player="pokermaniacu" type="4"/>
+   <action no="26" sum="3,000" player="Larcher" type="5"/>
+   <action no="27" sum="0" player="pokermaniacu" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560266123">
+  <general>
+   <startdate>2024-02-12 14:51:20</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="20,653" addon="0" bet="1,594" reg_code="" name="Larcher" win="2,385" rebuy="0"/>
+    <player dealer="1" seat="2" chips="3,449" addon="0" bet="545" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="18,189" addon="0" bet="145" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="23,088" addon="0" bet="545" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="22,165" addon="0" bet="20" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="17,016" addon="0" bet="20" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,960" addon="0" bet="545" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,287" addon="0" bet="20" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="Iskandar96" type="15"/>
+   <action no="2" sum="20" player="pokermaniacu" type="15"/>
+   <action no="3" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="4" sum="20" player="10en2wo" type="15"/>
+   <action no="5" sum="20" player="tropeiro123" type="15"/>
+   <action no="6" sum="20" player="super3" type="15"/>
+   <action no="7" sum="20" player="Larcher" type="15"/>
+   <action no="8" sum="20" player="aloud1" type="15"/>
+   <action no="9" sum="125" player="Iskandar96" type="1"/>
+   <action no="10" sum="250" player="pokermaniacu" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 HQ</cards>
+   <action no="13" sum="525" player="tropeiro123" type="23"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="15" sum="525" player="Larcher" type="3"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="16" sum="525" player="aloud1" type="3"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="18" sum="275" player="pokermaniacu" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA SJ H3</cards>
+   <action no="19" sum="0" player="pokermaniacu" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="0" player="Larcher" type="4"/>
+   <action no="22" sum="0" player="aloud1" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="23" sum="0" player="pokermaniacu" type="4"/>
+   <action no="24" sum="0" player="tropeiro123" type="4"/>
+   <action no="25" sum="1,049" player="Larcher" type="5"/>
+   <action no="26" sum="0" player="aloud1" type="0"/>
+   <action no="27" sum="0" player="pokermaniacu" type="0"/>
+   <action no="28" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560266231">
+  <general>
+   <startdate>2024-02-12 14:53:19</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,493" addon="0" bet="2,690" reg_code="" name="Larcher" win="3,473" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,904" addon="0" bet="20" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="18,044" addon="0" bet="20" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="22,543" addon="0" bet="145" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="22,145" addon="0" bet="1,614" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="16,996" addon="0" bet="20" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,415" addon="0" bet="20" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,267" addon="0" bet="20" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="pokermaniacu" type="15"/>
+   <action no="2" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="3" sum="20" player="10en2wo" type="15"/>
+   <action no="4" sum="20" player="tropeiro123" type="15"/>
+   <action no="5" sum="20" player="super3" type="15"/>
+   <action no="6" sum="20" player="Larcher" type="15"/>
+   <action no="7" sum="20" player="aloud1" type="15"/>
+   <action no="8" sum="20" player="Iskandar96" type="15"/>
+   <action no="9" sum="125" player="pokermaniacu" type="1"/>
+   <action no="10" sum="250" player="MEATFACTORY" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 D8</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="14" sum="600" player="Larcher" type="23"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="aloud1" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="18" sum="350" player="MEATFACTORY" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 H7 S10</cards>
+   <action no="19" sum="0" player="MEATFACTORY" type="4"/>
+   <action no="20" sum="0" player="Larcher" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="21" sum="994" player="MEATFACTORY" type="5"/>
+   <action no="22" sum="994" player="Larcher" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+   <action no="23" sum="0" player="MEATFACTORY" type="4"/>
+   <action no="24" sum="1,076" player="Larcher" type="5"/>
+   <action no="25" sum="0" player="MEATFACTORY" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560266318">
+  <general>
+   <startdate>2024-02-12 14:54:54</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,352" addon="0" bet="20" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,884" addon="0" bet="20" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="18,024" addon="0" bet="20" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="22,398" addon="0" bet="595" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="20,531" addon="0" bet="1,995" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="16,976" addon="0" bet="5,125" reg_code="" name="10en2wo" win="4,685" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,395" addon="0" bet="20" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,247" addon="0" bet="20" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="2" sum="20" player="10en2wo" type="15"/>
+   <action no="3" sum="20" player="tropeiro123" type="15"/>
+   <action no="4" sum="20" player="super3" type="15"/>
+   <action no="5" sum="20" player="Larcher" type="15"/>
+   <action no="6" sum="20" player="aloud1" type="15"/>
+   <action no="7" sum="20" player="Iskandar96" type="15"/>
+   <action no="8" sum="20" player="pokermaniacu" type="15"/>
+   <action no="9" sum="125" player="MEATFACTORY" type="1"/>
+   <action no="10" sum="250" player="10en2wo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HA C6</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Larcher" type="0"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="aloud1" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="16" sum="575" player="pokermaniacu" type="23"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="17" sum="1,975" player="MEATFACTORY" type="23"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="18" sum="5,125" player="10en2wo" type="23"/>
+   <action no="19" sum="0" player="pokermaniacu" type="0"/>
+   <action no="20" sum="0" player="MEATFACTORY" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560266361">
+  <general>
+   <startdate>2024-02-12 15:01:26</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,332" addon="0" bet="20" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,864" addon="0" bet="20" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="18,004" addon="0" bet="20" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="21,803" addon="0" bet="21,803" reg_code="" name="pokermaniacu" win="11,980" rebuy="0"/>
+    <player dealer="1" seat="6" chips="18,536" addon="0" bet="20" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="19,666" addon="0" bet="5,805" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,375" addon="0" bet="270" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,227" addon="0" bet="20" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="10en2wo" type="15"/>
+   <action no="2" sum="20" player="tropeiro123" type="15"/>
+   <action no="3" sum="20" player="super3" type="15"/>
+   <action no="4" sum="20" player="Larcher" type="15"/>
+   <action no="5" sum="20" player="aloud1" type="15"/>
+   <action no="6" sum="20" player="Iskandar96" type="15"/>
+   <action no="7" sum="20" player="pokermaniacu" type="15"/>
+   <action no="8" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="9" sum="125" player="10en2wo" type="1"/>
+   <action no="10" sum="250" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Larcher" type="0"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="aloud1" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="15" sum="575" player="pokermaniacu" type="23"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="17" sum="2,135" player="10en2wo" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HA C2</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="1,560" player="pokermaniacu" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D9 HJ</cards>
+   <action no="20" sum="1,404" player="10en2wo" type="5"/>
+   <action no="21" sum="1,404" player="pokermaniacu" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="22" sum="2,246" player="10en2wo" type="5"/>
+   <action no="23" sum="2,246" player="pokermaniacu" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+   <action no="24" sum="0" player="10en2wo" type="4"/>
+   <action no="25" sum="15,998" player="pokermaniacu" type="5"/>
+   <action no="26" sum="0" player="10en2wo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281368">
+  <general>
+   <startdate>2024-02-12 15:03:28</startdate>
+   <smallblind>125</smallblind>
+   <bigblind>250</bigblind>
+   <ante>20</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,312" addon="0" bet="20" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,844" addon="0" bet="20" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="17,984" addon="0" bet="583" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,978" addon="0" bet="20" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="18,516" addon="0" bet="2,125" reg_code="" name="MEATFACTORY" win="1,661" rebuy="0"/>
+    <player dealer="1" seat="7" chips="13,861" addon="0" bet="20" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,105" addon="0" bet="145" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,207" addon="0" bet="270" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="20" player="tropeiro123" type="15"/>
+   <action no="2" sum="20" player="super3" type="15"/>
+   <action no="3" sum="20" player="Larcher" type="15"/>
+   <action no="4" sum="20" player="aloud1" type="15"/>
+   <action no="5" sum="20" player="Iskandar96" type="15"/>
+   <action no="6" sum="20" player="pokermaniacu" type="15"/>
+   <action no="7" sum="20" player="MEATFACTORY" type="15"/>
+   <action no="8" sum="20" player="10en2wo" type="15"/>
+   <action no="9" sum="125" player="tropeiro123" type="1"/>
+   <action no="10" sum="250" player="super3" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Larcher" type="0"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="aloud1" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="13" sum="563" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="15" sum="2,125" player="MEATFACTORY" type="23"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK D2</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="super3" type="0"/>
+   <action no="19" sum="0" player="Iskandar96" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281404">
+  <general>
+   <startdate>2024-02-12 15:04:18</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,292" addon="0" bet="324" reg_code="" name="Larcher" win="492" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,824" addon="0" bet="24" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="17,401" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,958" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="19,594" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="13,841" addon="0" bet="24" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="8,960" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="4,937" addon="0" bet="174" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="super3" type="15"/>
+   <action no="2" sum="24" player="Larcher" type="15"/>
+   <action no="3" sum="24" player="aloud1" type="15"/>
+   <action no="4" sum="24" player="Iskandar96" type="15"/>
+   <action no="5" sum="24" player="pokermaniacu" type="15"/>
+   <action no="6" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="7" sum="24" player="10en2wo" type="15"/>
+   <action no="8" sum="24" player="tropeiro123" type="15"/>
+   <action no="9" sum="150" player="super3" type="1"/>
+   <action no="10" sum="300" player="Larcher" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="aloud1" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 C5</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="super3" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281428">
+  <general>
+   <startdate>2024-02-12 15:04:52</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,610" addon="0" bet="174" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,800" addon="0" bet="324" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="17,377" addon="0" bet="699" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,934" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="19,570" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="13,817" addon="0" bet="24" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,936" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="4,763" addon="0" bet="1,197" reg_code="" name="super3" win="1,992" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="Larcher" type="15"/>
+   <action no="2" sum="24" player="aloud1" type="15"/>
+   <action no="3" sum="24" player="Iskandar96" type="15"/>
+   <action no="4" sum="24" player="pokermaniacu" type="15"/>
+   <action no="5" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="6" sum="24" player="10en2wo" type="15"/>
+   <action no="7" sum="24" player="tropeiro123" type="15"/>
+   <action no="8" sum="24" player="super3" type="15"/>
+   <action no="9" sum="150" player="Larcher" type="1"/>
+   <action no="10" sum="300" player="aloud1" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="11" sum="675" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 SJ</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="16" sum="675" player="super3" type="3"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Larcher" type="0"/>
+   <cards player="aloud1" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="aloud1" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 DK CQ</cards>
+   <action no="19" sum="0" player="Iskandar96" type="4"/>
+   <action no="20" sum="498" player="super3" type="5"/>
+   <action no="21" sum="0" player="Iskandar96" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281464">
+  <general>
+   <startdate>2024-02-12 15:05:45</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="1" seat="1" chips="24,436" addon="0" bet="1,944" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="2,476" addon="0" bet="2,476" reg_code="" name="aloud1" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,678" addon="0" bet="324" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,910" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="19,546" addon="0" bet="18,180" reg_code="" name="MEATFACTORY" win="7,316" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="aloud1"/>
+    </player>
+    <player dealer="0" seat="7" chips="13,793" addon="0" bet="24" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,912" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,056" addon="0" bet="24" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="aloud1" type="15"/>
+   <action no="2" sum="24" player="Iskandar96" type="15"/>
+   <action no="3" sum="24" player="pokermaniacu" type="15"/>
+   <action no="4" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="5" sum="24" player="10en2wo" type="15"/>
+   <action no="6" sum="24" player="tropeiro123" type="15"/>
+   <action no="7" sum="24" player="super3" type="15"/>
+   <action no="8" sum="24" player="Larcher" type="15"/>
+   <action no="9" sum="150" player="aloud1" type="1"/>
+   <action no="10" sum="300" player="Iskandar96" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">DQ SQ</cards>
+   <action no="12" sum="660" player="MEATFACTORY" type="23"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ H7</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="16" sum="1,920" player="Larcher" type="23"/>
+   <cards player="aloud1" type="Pocket">CA C7</cards>
+   <action no="17" sum="1,770" player="aloud1" type="3"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Iskandar96" type="0"/>
+   <action no="19" sum="18,180" player="MEATFACTORY" type="23"/>
+   <action no="20" sum="0" player="Larcher" type="0"/>
+   <action no="21" sum="532" player="aloud1" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D4 H9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560281527">
+  <general>
+   <startdate>2024-02-12 15:07:27</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,492" addon="0" bet="24" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,354" addon="0" bet="174" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,886" addon="0" bet="324" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,386" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="13,769" addon="0" bet="24" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,888" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,032" addon="0" bet="600" reg_code="" name="super3" win="918" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="Iskandar96" type="15"/>
+   <action no="2" sum="24" player="pokermaniacu" type="15"/>
+   <action no="3" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="4" sum="24" player="10en2wo" type="15"/>
+   <action no="5" sum="24" player="tropeiro123" type="15"/>
+   <action no="6" sum="24" player="super3" type="15"/>
+   <action no="7" sum="24" player="Larcher" type="15"/>
+   <action no="8" sum="150" player="Iskandar96" type="1"/>
+   <action no="9" sum="300" player="pokermaniacu" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 C9</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="13" sum="600" player="super3" type="23"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Larcher" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pokermaniacu" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281552">
+  <general>
+   <startdate>2024-02-12 15:08:06</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,468" addon="0" bet="24" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="16,180" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,562" addon="0" bet="324" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,362" addon="0" bet="900" reg_code="" name="MEATFACTORY" win="768" rebuy="0"/>
+    <player dealer="0" seat="7" chips="13,745" addon="0" bet="24" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,864" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,626" addon="0" bet="24" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="pokermaniacu" type="15"/>
+   <action no="2" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="3" sum="24" player="10en2wo" type="15"/>
+   <action no="4" sum="24" player="tropeiro123" type="15"/>
+   <action no="5" sum="24" player="super3" type="15"/>
+   <action no="6" sum="24" player="Larcher" type="15"/>
+   <action no="7" sum="24" player="Iskandar96" type="15"/>
+   <action no="8" sum="150" player="pokermaniacu" type="1"/>
+   <action no="9" sum="300" player="MEATFACTORY" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="10en2wo" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="10en2wo" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 C9</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Larcher" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="15" sum="150" player="pokermaniacu" type="3"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="16" sum="900" player="MEATFACTORY" type="23"/>
+   <action no="17" sum="0" player="pokermaniacu" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281569">
+  <general>
+   <startdate>2024-02-12 15:08:48</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,444" addon="0" bet="24" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,156" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="27,238" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="24,806" addon="0" bet="13,721" reg_code="" name="MEATFACTORY" win="27,562" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="10en2wo"/>
+    </player>
+    <player dealer="0" seat="7" chips="13,721" addon="0" bet="13,697" reg_code="" name="10en2wo" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,840" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,602" addon="0" bet="24" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="2" sum="24" player="10en2wo" type="15"/>
+   <action no="3" sum="24" player="tropeiro123" type="15"/>
+   <action no="4" sum="24" player="super3" type="15"/>
+   <action no="5" sum="24" player="Larcher" type="15"/>
+   <action no="6" sum="24" player="Iskandar96" type="15"/>
+   <action no="7" sum="24" player="pokermaniacu" type="15"/>
+   <action no="8" sum="150" player="MEATFACTORY" type="1"/>
+   <action no="9" sum="300" player="10en2wo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CK S2</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Larcher" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">SQ DA</cards>
+   <action no="15" sum="150" player="MEATFACTORY" type="3"/>
+   <cards player="10en2wo" type="Pocket">CA SJ</cards>
+   <action no="16" sum="1,050" player="10en2wo" type="23"/>
+   <action no="17" sum="4,200" player="MEATFACTORY" type="23"/>
+   <action no="18" sum="13,697" player="10en2wo" type="23"/>
+   <action no="19" sum="9,497" player="MEATFACTORY" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D7 S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10560281607">
+  <general>
+   <startdate>2024-02-12 15:10:04</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,420" addon="0" bet="24" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,132" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,214" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="38,647" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,816" addon="0" bet="8,792" reg_code="7947752252" name="tropeiro123" win="1,344" rebuy="0"/>
+    <player dealer="0" seat="10" chips="6,578" addon="0" bet="624" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="tropeiro123" type="15"/>
+   <action no="2" sum="24" player="super3" type="15"/>
+   <action no="3" sum="24" player="Larcher" type="15"/>
+   <action no="4" sum="24" player="Iskandar96" type="15"/>
+   <action no="5" sum="24" player="pokermaniacu" type="15"/>
+   <action no="6" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="7" sum="300" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="8" sum="600" player="super3" type="23"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Larcher" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 S7</cards>
+   <action no="13" sum="8,792" player="tropeiro123" type="23"/>
+   <action no="14" sum="0" player="super3" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281632">
+  <general>
+   <startdate>2024-02-12 15:10:58</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,396" addon="0" bet="24" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="7,107" addon="0" bet="24" reg_code="" name="IamCrownupguy" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,108" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,190" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="38,623" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,536" addon="0" bet="9,512" reg_code="7947752252" name="tropeiro123" win="768" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,954" addon="0" bet="324" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="tropeiro123" type="15"/>
+   <action no="2" sum="24" player="super3" type="15"/>
+   <action no="3" sum="24" player="Larcher" type="15"/>
+   <action no="4" sum="24" player="IamCrownupguy" type="15"/>
+   <action no="5" sum="24" player="Iskandar96" type="15"/>
+   <action no="6" sum="24" player="pokermaniacu" type="15"/>
+   <action no="7" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="8" sum="150" player="tropeiro123" type="1"/>
+   <action no="9" sum="300" player="super3" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Larcher" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="IamCrownupguy" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 S7</cards>
+   <action no="15" sum="9,512" player="tropeiro123" type="23"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="super3" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281660">
+  <general>
+   <startdate>2024-02-12 15:11:46</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="1" chips="22,372" addon="0" bet="714" reg_code="" name="Larcher" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="7,083" addon="0" bet="24" reg_code="" name="IamCrownupguy" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,084" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,166" addon="0" bet="1,138" reg_code="" name="pokermaniacu" win="1,698" rebuy="0"/>
+    <player dealer="0" seat="6" chips="38,599" addon="0" bet="24" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="9,980" addon="0" bet="24" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,630" addon="0" bet="174" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="super3" type="15"/>
+   <action no="2" sum="24" player="Larcher" type="15"/>
+   <action no="3" sum="24" player="IamCrownupguy" type="15"/>
+   <action no="4" sum="24" player="Iskandar96" type="15"/>
+   <action no="5" sum="24" player="pokermaniacu" type="15"/>
+   <action no="6" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="7" sum="24" player="tropeiro123" type="15"/>
+   <action no="8" sum="150" player="super3" type="1"/>
+   <action no="9" sum="300" player="Larcher" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="IamCrownupguy" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="12" sum="690" player="pokermaniacu" type="23"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 S4</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="super3" type="0"/>
+   <cards player="Larcher" type="Pocket">X X</cards>
+   <action no="16" sum="390" player="Larcher" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA H6 H2</cards>
+   <action no="17" sum="0" player="Larcher" type="4"/>
+   <action no="18" sum="424" player="pokermaniacu" type="5"/>
+   <action no="19" sum="0" player="Larcher" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281676">
+  <general>
+   <startdate>2024-02-12 15:12:22</startdate>
+   <smallblind>150</smallblind>
+   <bigblind>300</bigblind>
+   <ante>24</ante>
+   <players>
+    <player dealer="0" seat="2" chips="7,059" addon="0" bet="324" reg_code="" name="IamCrownupguy" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,060" addon="0" bet="24" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,150" addon="0" bet="24" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="38,575" addon="0" bet="684" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="8,079" addon="0" bet="24" reg_code="" name="MeteFicha" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="9,956" addon="0" bet="2,203" reg_code="7947752252" name="tropeiro123" win="1,788" rebuy="0"/>
+    <player dealer="1" seat="10" chips="5,456" addon="0" bet="24" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="24" player="IamCrownupguy" type="15"/>
+   <action no="2" sum="24" player="Iskandar96" type="15"/>
+   <action no="3" sum="24" player="pokermaniacu" type="15"/>
+   <action no="4" sum="24" player="MEATFACTORY" type="15"/>
+   <action no="5" sum="24" player="MeteFicha" type="15"/>
+   <action no="6" sum="24" player="tropeiro123" type="15"/>
+   <action no="7" sum="24" player="super3" type="15"/>
+   <action no="8" sum="300" player="IamCrownupguy" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="11" sum="660" player="MEATFACTORY" type="23"/>
+   <cards player="MeteFicha" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MeteFicha" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 D9</cards>
+   <action no="13" sum="660" player="tropeiro123" type="3"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="super3" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="IamCrownupguy" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 HQ SJ</cards>
+   <action no="16" sum="0" player="MEATFACTORY" type="4"/>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action no="18" sum="0" player="MEATFACTORY" type="4"/>
+   <action no="19" sum="1,519" player="tropeiro123" type="5"/>
+   <action no="20" sum="0" player="MEATFACTORY" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560281720">
+  <general>
+   <startdate>2024-02-12 15:13:57</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="2" chips="6,735" addon="0" bet="6,703" reg_code="" name="IamCrownupguy" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="16,036" addon="0" bet="432" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,126" addon="0" bet="32" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="37,891" addon="0" bet="912" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="8,055" addon="0" bet="32" reg_code="" name="MeteFicha" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="11,060" addon="0" bet="6,735" reg_code="7947752252" name="tropeiro123" win="14,910" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="IamCrownupguy"/>
+    </player>
+    <player dealer="0" seat="10" chips="5,432" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="IamCrownupguy" type="15"/>
+   <action no="2" sum="32" player="Iskandar96" type="15"/>
+   <action no="3" sum="32" player="pokermaniacu" type="15"/>
+   <action no="4" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="5" sum="32" player="MeteFicha" type="15"/>
+   <action no="6" sum="32" player="tropeiro123" type="15"/>
+   <action no="7" sum="32" player="super3" type="15"/>
+   <action no="8" sum="200" player="IamCrownupguy" type="1"/>
+   <action no="9" sum="400" player="Iskandar96" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="11" sum="880" player="MEATFACTORY" type="23"/>
+   <cards player="MeteFicha" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MeteFicha" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK DK</cards>
+   <action no="13" sum="880" player="tropeiro123" type="3"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="super3" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">D4 H4</cards>
+   <action no="15" sum="6,703" player="IamCrownupguy" type="23"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Iskandar96" type="0"/>
+   <action no="17" sum="0" player="MEATFACTORY" type="0"/>
+   <action no="18" sum="5,823" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 S5 H5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560312727">
+  <general>
+   <startdate>2024-02-12 15:15:15</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="4" chips="15,604" addon="0" bet="232" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,094" addon="0" bet="432" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="36,979" addon="0" bet="880" reg_code="" name="MEATFACTORY" win="1,192" rebuy="0"/>
+    <player dealer="0" seat="7" chips="8,023" addon="0" bet="32" reg_code="" name="MeteFicha" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="19,235" addon="0" bet="32" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,400" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="Iskandar96" type="15"/>
+   <action no="2" sum="32" player="pokermaniacu" type="15"/>
+   <action no="3" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="4" sum="32" player="MeteFicha" type="15"/>
+   <action no="5" sum="32" player="tropeiro123" type="15"/>
+   <action no="6" sum="32" player="super3" type="15"/>
+   <action no="7" sum="200" player="Iskandar96" type="1"/>
+   <action no="8" sum="400" player="pokermaniacu" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="9" sum="880" player="MEATFACTORY" type="23"/>
+   <cards player="MeteFicha" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="MeteFicha" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 C6</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="super3" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="pokermaniacu" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560312744">
+  <general>
+   <startdate>2024-02-12 15:15:58</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,769" addon="0" bet="32" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,451" addon="0" bet="32" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="15,372" addon="0" bet="32" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,662" addon="0" bet="232" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="37,739" addon="0" bet="432" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="7,991" addon="0" bet="2,032" reg_code="" name="MeteFicha" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="19,203" addon="0" bet="3,246" reg_code="7947752252" name="tropeiro123" win="4,856" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,368" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="pokermaniacu" type="15"/>
+   <action no="2" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="3" sum="32" player="MeteFicha" type="15"/>
+   <action no="4" sum="32" player="tropeiro123" type="15"/>
+   <action no="5" sum="32" player="super3" type="15"/>
+   <action no="6" sum="32" player="muci" type="15"/>
+   <action no="7" sum="32" player="EarnThis" type="15"/>
+   <action no="8" sum="32" player="Iskandar96" type="15"/>
+   <action no="9" sum="200" player="pokermaniacu" type="1"/>
+   <action no="10" sum="400" player="MEATFACTORY" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MeteFicha" type="Pocket">X X</cards>
+   <action no="11" sum="800" player="MeteFicha" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SQ CQ</cards>
+   <action no="12" sum="2,000" player="tropeiro123" type="23"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="super3" type="0"/>
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="muci" type="0"/>
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="EarnThis" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="MEATFACTORY" type="0"/>
+   <action no="19" sum="1,200" player="MeteFicha" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK HK C2</cards>
+   <action no="20" sum="0" player="MeteFicha" type="4"/>
+   <action no="21" sum="1,214" player="tropeiro123" type="5"/>
+   <action no="22" sum="0" player="MeteFicha" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560312774">
+  <general>
+   <startdate>2024-02-12 15:17:09</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,737" addon="0" bet="32" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,419" addon="0" bet="32" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="15,340" addon="0" bet="5,959" reg_code="" name="Iskandar96" win="13,150" rebuy="0">
+     <knockout tobalance="€4.55" tobounty="€4.55" kicked="MeteFicha"/>
+    </player>
+    <player dealer="1" seat="5" chips="27,430" addon="0" bet="32" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="37,307" addon="0" bet="232" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="5,959" addon="0" bet="5,927" reg_code="" name="MeteFicha" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="22,027" addon="0" bet="872" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,336" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="2" sum="32" player="MeteFicha" type="15"/>
+   <action no="3" sum="32" player="tropeiro123" type="15"/>
+   <action no="4" sum="32" player="super3" type="15"/>
+   <action no="5" sum="32" player="muci" type="15"/>
+   <action no="6" sum="32" player="EarnThis" type="15"/>
+   <action no="7" sum="32" player="Iskandar96" type="15"/>
+   <action no="8" sum="32" player="pokermaniacu" type="15"/>
+   <action no="9" sum="200" player="MEATFACTORY" type="1"/>
+   <action no="10" sum="400" player="MeteFicha" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HK SJ</cards>
+   <action no="11" sum="840" player="tropeiro123" type="23"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="super3" type="0"/>
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="muci" type="0"/>
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="EarnThis" type="0"/>
+   <cards player="Iskandar96" type="Pocket">DA DJ</cards>
+   <action no="15" sum="840" player="Iskandar96" type="3"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="MeteFicha" type="Pocket">D10 C10</cards>
+   <action no="18" sum="5,927" player="MeteFicha" type="23"/>
+   <action no="19" sum="0" player="tropeiro123" type="0"/>
+   <action no="20" sum="5,087" player="Iskandar96" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 S2 D9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10560312800">
+  <general>
+   <startdate>2024-02-12 15:18:04</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,705" addon="0" bet="32" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,387" addon="0" bet="32" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="22,531" addon="0" bet="832" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="27,398" addon="0" bet="2,800" reg_code="" name="pokermaniacu" win="2,224" rebuy="0"/>
+    <player dealer="1" seat="6" chips="37,075" addon="0" bet="32" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="21,155" addon="0" bet="432" reg_code="7947752252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,304" addon="0" bet="32" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="tropeiro123" type="15"/>
+   <action no="2" sum="32" player="super3" type="15"/>
+   <action no="3" sum="32" player="muci" type="15"/>
+   <action no="4" sum="32" player="EarnThis" type="15"/>
+   <action no="5" sum="32" player="Iskandar96" type="15"/>
+   <action no="6" sum="32" player="pokermaniacu" type="15"/>
+   <action no="7" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="8" sum="400" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="super3" type="0"/>
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="muci" type="0"/>
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="EarnThis" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="12" sum="800" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="13" sum="2,800" player="pokermaniacu" type="23"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 C2</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <action no="16" sum="0" player="Iskandar96" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560312820">
+  <general>
+   <startdate>2024-02-12 15:18:48</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,673" addon="0" bet="32" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,355" addon="0" bet="32" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="21,699" addon="0" bet="21,699" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,790" addon="0" bet="32" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="37,043" addon="0" bet="32" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="20,723" addon="0" bet="20,723" reg_code="7947752252" name="tropeiro123" win="42,006" rebuy="0"/>
+    <player dealer="0" seat="10" chips="5,272" addon="0" bet="432" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="tropeiro123" type="15"/>
+   <action no="2" sum="32" player="super3" type="15"/>
+   <action no="3" sum="32" player="muci" type="15"/>
+   <action no="4" sum="32" player="EarnThis" type="15"/>
+   <action no="5" sum="32" player="Iskandar96" type="15"/>
+   <action no="6" sum="32" player="pokermaniacu" type="15"/>
+   <action no="7" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="8" sum="200" player="tropeiro123" type="1"/>
+   <action no="9" sum="400" player="super3" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="muci" type="0"/>
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="EarnThis" type="0"/>
+   <cards player="Iskandar96" type="Pocket">C10 DQ</cards>
+   <action no="12" sum="800" player="Iskandar96" type="23"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA DA</cards>
+   <action no="15" sum="600" player="tropeiro123" type="3"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="super3" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 S5 CA</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="733" player="Iskandar96" type="5"/>
+   <action no="19" sum="733" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="2,767" player="Iskandar96" type="5"/>
+   <action no="22" sum="2,767" player="tropeiro123" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="23" sum="0" player="tropeiro123" type="4"/>
+   <action no="24" sum="17,367" player="Iskandar96" type="5"/>
+   <action no="25" sum="16,391" player="tropeiro123" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10560312872">
+  <general>
+   <startdate>2024-02-12 15:21:15</startdate>
+   <smallblind>200</smallblind>
+   <bigblind>400</bigblind>
+   <ante>32</ante>
+   <players>
+    <player dealer="0" seat="1" chips="17,641" addon="0" bet="432" reg_code="" name="muci" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="11,323" addon="0" bet="32" reg_code="" name="EarnThis" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="976" addon="0" bet="32" reg_code="" name="Iskandar96" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="28,758" addon="0" bet="32" reg_code="" name="pokermaniacu" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="37,011" addon="0" bet="32" reg_code="" name="MEATFACTORY" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="10,000" addon="0" bet="32" reg_code="" name="JIMMIERIKSEN1" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="42,006" addon="0" bet="920" reg_code="7947752252" name="tropeiro123" win="1,256" rebuy="0"/>
+    <player dealer="0" seat="10" chips="4,840" addon="0" bet="232" reg_code="" name="super3" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="32" player="super3" type="15"/>
+   <action no="2" sum="32" player="muci" type="15"/>
+   <action no="3" sum="32" player="EarnThis" type="15"/>
+   <action no="4" sum="32" player="Iskandar96" type="15"/>
+   <action no="5" sum="32" player="pokermaniacu" type="15"/>
+   <action no="6" sum="32" player="MEATFACTORY" type="15"/>
+   <action no="7" sum="32" player="JIMMIERIKSEN1" type="15"/>
+   <action no="8" sum="32" player="tropeiro123" type="15"/>
+   <action no="9" sum="200" player="super3" type="1"/>
+   <action no="10" sum="400" player="muci" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="EarnThis" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="EarnThis" type="0"/>
+   <cards player="Iskandar96" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Iskandar96" type="0"/>
+   <cards player="pokermaniacu" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pokermaniacu" type="0"/>
+   <cards player="MEATFACTORY" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MEATFACTORY" type="0"/>
+   <cards player="JIMMIERIKSEN1" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JIMMIERIKSEN1" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ SA</cards>
+   <action no="16" sum="920" player="tropeiro123" type="23"/>
+   <cards player="super3" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="super3" type="0"/>
+   <cards player="muci" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="muci" type="0"/>
+  </round>
+ </game>
+</session>

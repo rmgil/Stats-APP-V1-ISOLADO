@@ -1,0 +1,17 @@
+{
+  "page_title": true,
+  "dropzone": true,
+  "checks": {
+    "structure": true,
+    "encoding": true,
+    "duplicates": true,
+    "parser": true,
+    "filetypes": true,
+    "size": true
+  },
+  "actions": {
+    "send_pipeline": true,
+    "download_report": true,
+    "reset": true
+  }
+}

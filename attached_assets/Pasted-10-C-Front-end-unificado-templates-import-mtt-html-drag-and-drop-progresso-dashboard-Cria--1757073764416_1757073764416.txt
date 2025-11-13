@@ -1,0 +1,60 @@
+10.C — Front‑end unificado: templates/import_mtt.html (drag‑and‑drop + progresso + dashboard)
+
+Cria templates/import_mtt.html (substitui a tua página atual “Importar MTT”):
+
+{% extends "base.html" %}
+{% block title %}Importar MTT{% endblock %}
+{% block content %}
+<div class="container py-4">
+  <h1 class="mb-3">Importar MTT</h1>
+  <div class="card bg-dark border-0 shadow">
+    <div class="card-body">
+      <p class="text-muted mb-3">Largue um .ZIP com os seus ficheiros .TXT. A app faz automaticamente a separação <b>NON‑KO / PKO / Mystery</b>, processa o pipeline e abre a sua dashboard.</p>
+
+      <form id="uploadForm">
+        <div class="d-flex gap-2 align-items-center">
+          <input class="form-control" type="file" name="file" accept=".zip" required />
+          <button class="btn btn-primary" id="btnUpload" type="submit">Processar MTT</button>
+        </div>
+      </form>
+
+      <div class="mt-3" id="progress" style="display:none;">
+        <div class="spinner-border spinner-border-sm" role="status"></div>
+        <span class="ms-2">A processar…</span>
+      </div>
+
+      <div class="mt-3 text-danger" id="errorBox" style="display:none;"></div>
+      <div class="mt-3" id="okBox" style="display:none;"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const form = document.getElementById('uploadForm');
+const btn = document.getElementById('btnUpload');
+const prog = document.getElementById('progress');
+const err = document.getElementById('errorBox');
+const okb = document.getElementById('okBox');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  err.style.display = 'none'; okb.style.display = 'none';
+  prog.style.display = 'block'; btn.disabled = true;
+
+  const fd = new FormData(form);
+  try {
+    const res = await fetch('/api/import/upload_mtt', { method:'POST', body: fd });
+    const js = await res.json();
+    if (!js.ok) throw new Error(js.error || 'Falha no upload');
+    okb.innerHTML = `<a class="btn btn-success" href="/dashboard_v2?token=${js.token}">Abrir Dashboard</a>`;
+    okb.style.display = 'block';
+  } catch (ex) {
+    err.textContent = `Erro: ${ex.message}`;
+    err.style.display = 'block';
+  } finally {
+    prog.style.display = 'none';
+    btn.disabled = false;
+  }
+});
+</script>
+{% endblock %}

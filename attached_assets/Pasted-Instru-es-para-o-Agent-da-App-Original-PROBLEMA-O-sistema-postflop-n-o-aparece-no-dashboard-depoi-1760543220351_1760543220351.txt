@@ -1,0 +1,66 @@
+Instruções para o Agent da App Original
+PROBLEMA: O sistema postflop não aparece no dashboard depois de transferir o ZIP com melhorias.
+
+VERIFICAÇÃO RÁPIDA: Execute estes comandos primeiro:
+
+# Verificar se ficheiros postflop existem
+ls -la app/stats/postflop_calculator_v3.py
+ls -la app/stats/postflop_site_parsers.py  
+ls -la app/derive/postflop.py
+# Verificar se o pipeline chama postflop
+grep -n "postflop_calculator = PostflopCalculatorV3" app/pipeline/multi_site_runner.py
+grep -n "postflop_stats = postflop_calculator" app/pipeline/multi_site_runner.py
+SE FALTAM FICHEIROS, extraia novamente o ZIP que foi transferido.
+
+SE OS FICHEIROS EXISTEM MAS POSTFLOP NÃO APARECE, aplique estas correções:
+
+CORREÇÃO 1: Verificar Pipeline (app/pipeline/multi_site_runner.py)
+Na linha ~231, depois de postflop_stats = postflop_calculator.get_stats_summary(), deve ter:
+
+# Store postflop stats in result
+result['postflop_stats'] = postflop_stats
+result['postflop_hands_count'] = postflop_calculator.hands_analyzed
+CORREÇÃO 2: Verificar que os dados são passados (app/pipeline/multi_site_runner.py)
+Na linha ~240-250 onde guarda o resultado, confirme que tem:
+
+pipeline_result['combined'][group_key] = {
+    'hand_count': len(hands),
+    'stats': all_stats,
+    'postflop_stats': postflop_stats,  # <-- CRÍTICO
+    'postflop_hands_count': postflop_calculator.hands_analyzed,  # <-- CRÍTICO
+    # ... resto dos campos
+}
+CORREÇÃO 3: Verificar API Dashboard (app/api_dashboard.py)
+Na função get_dashboard_data() linha ~460, confirme que chama:
+
+# Aggregate postflop stats
+postflop_all = aggregate_postflop_stats(pipeline_result['combined'], ideals, stat_weights)
+E que retorna postflop_all no resultado final (~linha 500):
+
+return {
+    'groups': {
+        # ... outros grupos
+        'postflop_all': postflop_all if postflop_all else None
+    }
+}
+CORREÇÃO 4: Testar com Debug
+Adicione este log temporário em app/pipeline/multi_site_runner.py depois da linha 231:
+
+logger.info(f"POSTFLOP DEBUG: Analyzed {postflop_calculator.hands_analyzed} hands, got {len(postflop_stats)} stats")
+TESTE FINAL
+Reinicie o servidor
+Processe um ficheiro pequeno
+Verifique os logs para "POSTFLOP DEBUG"
+Abra o dashboard e verifique a aba POSTFLOP
+SE AINDA NÃO FUNCIONAR, execute este diagnóstico:
+
+# Criar ficheiro test_postflop.py na raiz
+import json
+from app.stats.postflop_calculator_v3 import PostflopCalculatorV3
+# Teste básico
+calc = PostflopCalculatorV3()
+print(f"PostflopCalculatorV3 importado: {calc is not None}")
+print(f"Métodos disponíveis: {dir(calc)}")
+# Verificar pipeline
+from app.pipeline.multi_site_runner import process_site_hands
+print("Pipeline importado com sucesso")

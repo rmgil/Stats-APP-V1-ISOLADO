@@ -1,0 +1,1497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7939716439">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1080142769</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:05:22</duration>
+  <gamecount>47</gamecount>
+  <startdate>2024-02-04 16:26:58</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>86,897</bets>
+  <wins>70,530</wins>
+  <chipsin>99,610</chipsin>
+  <chipsout>94,855</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080047722</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10545260079">
+  <general>
+   <startdate>2024-02-04 16:26:58</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player chips="98,450" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="1,030" rebuy="0" reg_code=""/>
+    <player chips="112,380" seat="2" addon="0" win="2,710" name="tropeiro123" dealer="0" bet="3,600" rebuy="0" reg_code="7939716439"/>
+    <player chips="92,250" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="97,348" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="24,519" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="158,089" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="130" rebuy="0" reg_code=""/>
+    <player chips="149,855" seat="10" addon="0" win="0" name="emirali01" dealer="1" bet="130" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Frasse12" sum="130" type="15" no="1"/>
+   <action player="tropeiro123" sum="130" type="15" no="2"/>
+   <action player="CountDzNuts" sum="130" type="15" no="3"/>
+   <action player="DontShove" sum="130" type="15" no="4"/>
+   <action player="Subarik88" sum="130" type="15" no="5"/>
+   <action player="nevermind70" sum="130" type="15" no="6"/>
+   <action player="emirali01" sum="130" type="15" no="7"/>
+   <action player="Frasse12" sum="450" type="1" no="8"/>
+   <action player="tropeiro123" sum="900" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="10"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="11"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="0" type="0" no="12"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="13"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="14"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="450" type="3" no="15"/>
+   <cards player="tropeiro123" type="Pocket">H2 SQ</cards>
+   <action player="tropeiro123" sum="3,600" type="23" no="16"/>
+   <action player="Frasse12" sum="0" type="0" no="17"/>
+  </round>
+ </game>
+ <game gamecode="10545260175">
+  <general>
+   <startdate>2024-02-04 16:27:44</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="97,420" seat="1" addon="0" win="0" name="Frasse12" dealer="1" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="114,060" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="650" rebuy="0" reg_code="7939716439"/>
+    <player chips="92,120" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+    <player chips="97,218" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="24,389" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="157,959" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="149,725" seat="10" addon="0" win="10,550" name="emirali01" dealer="0" bet="5,631" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="150" type="15" no="1"/>
+   <action player="CountDzNuts" sum="150" type="15" no="2"/>
+   <action player="DontShove" sum="150" type="15" no="3"/>
+   <action player="Subarik88" sum="150" type="15" no="4"/>
+   <action player="nevermind70" sum="150" type="15" no="5"/>
+   <action player="emirali01" sum="150" type="15" no="6"/>
+   <action player="Frasse12" sum="150" type="15" no="7"/>
+   <action player="tropeiro123" sum="500" type="1" no="8"/>
+   <action player="CountDzNuts" sum="1,000" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="2,000" type="23" no="10"/>
+   <cards player="Subarik88" type="Pocket">X X</cards>
+   <action player="Subarik88" sum="2,000" type="3" no="11"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="2,000" type="3" no="13"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="2,000" type="3" no="14"/>
+   <cards player="tropeiro123" type="Pocket">D2 SQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="15"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 C7 H7</cards>
+   <action player="DontShove" sum="0" type="4" no="17"/>
+   <action player="Subarik88" sum="0" type="4" no="18"/>
+   <action player="emirali01" sum="3,481" type="5" no="19"/>
+   <action player="Frasse12" sum="0" type="0" no="20"/>
+   <action player="DontShove" sum="0" type="0" no="21"/>
+   <action player="Subarik88" sum="0" type="0" no="22"/>
+  </round>
+ </game>
+ <game gamecode="10545260317">
+  <general>
+   <startdate>2024-02-04 16:28:49</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="95,270" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="113,410" seat="2" addon="0" win="0" name="tropeiro123" dealer="1" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="90,970" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="650" rebuy="0" reg_code=""/>
+    <player chips="95,068" seat="5" addon="0" win="45,728" name="DontShove" dealer="0" bet="22,239" rebuy="0" reg_code="">
+     <knockout tobounty="€4.55" kicked="Subarik88" tobalance="€4.55"/>
+    </player>
+    <player chips="22,239" seat="6" addon="0" win="0" name="Subarik88" dealer="0" bet="22,239" rebuy="0" reg_code=""/>
+    <player chips="157,809" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="158,125" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CountDzNuts" sum="150" type="15" no="1"/>
+   <action player="DontShove" sum="150" type="15" no="2"/>
+   <action player="Subarik88" sum="150" type="15" no="3"/>
+   <action player="nevermind70" sum="150" type="15" no="4"/>
+   <action player="emirali01" sum="150" type="15" no="5"/>
+   <action player="Frasse12" sum="150" type="15" no="6"/>
+   <action player="tropeiro123" sum="150" type="15" no="7"/>
+   <action player="CountDzNuts" sum="500" type="1" no="8"/>
+   <action player="DontShove" sum="1,000" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="Subarik88" type="Pocket">HQ SK</cards>
+   <action player="Subarik88" sum="2,000" type="23" no="10"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="11"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="12"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">H8 H3</cards>
+   <action player="tropeiro123" sum="0" type="0" no="14"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="15"/>
+   <cards player="DontShove" type="Pocket">SA C10</cards>
+   <action player="DontShove" sum="1,000" type="3" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ SQ DK</cards>
+   <action player="DontShove" sum="0" type="4" no="17"/>
+   <action player="Subarik88" sum="1,831" type="5" no="18"/>
+   <action player="DontShove" sum="4,500" type="23" no="19"/>
+   <action player="Subarik88" sum="20,089" type="23" no="20"/>
+   <action player="DontShove" sum="15,589" type="3" no="21"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+ <game gamecode="10545260477">
+  <general>
+   <startdate>2024-02-04 16:29:59</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="95,120" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="113,260" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="90,320" seat="4" addon="0" win="0" name="CountDzNuts" dealer="1" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="118,557" seat="5" addon="0" win="0" name="DontShove" dealer="0" bet="650" rebuy="0" reg_code=""/>
+    <player chips="100,000" seat="6" addon="0" win="0" name="Mandragor3" dealer="0" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="157,659" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="100,000" seat="9" addon="0" win="7,700" name="InYourHead13" dealer="0" bet="6,000" rebuy="0" reg_code=""/>
+    <player chips="157,975" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DontShove" sum="150" type="15" no="1"/>
+   <action player="Mandragor3" sum="150" type="15" no="2"/>
+   <action player="nevermind70" sum="150" type="15" no="3"/>
+   <action player="InYourHead13" sum="150" type="15" no="4"/>
+   <action player="emirali01" sum="150" type="15" no="5"/>
+   <action player="Frasse12" sum="150" type="15" no="6"/>
+   <action player="tropeiro123" sum="150" type="15" no="7"/>
+   <action player="CountDzNuts" sum="150" type="15" no="8"/>
+   <action player="DontShove" sum="500" type="1" no="9"/>
+   <action player="Mandragor3" sum="1,000" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="11"/>
+   <cards player="InYourHead13" type="Pocket">X X</cards>
+   <action player="InYourHead13" sum="2,000" type="23" no="12"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="0" type="0" no="13"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="14"/>
+   <cards player="tropeiro123" type="Pocket">C7 C4</cards>
+   <action player="tropeiro123" sum="0" type="0" no="15"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="2,000" type="3" no="16"/>
+   <cards player="DontShove" type="Pocket">X X</cards>
+   <action player="DontShove" sum="0" type="0" no="17"/>
+   <cards player="Mandragor3" type="Pocket">X X</cards>
+   <action player="Mandragor3" sum="1,000" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 SA D6</cards>
+   <action player="Mandragor3" sum="0" type="4" no="19"/>
+   <action player="InYourHead13" sum="3,850" type="5" no="20"/>
+   <action player="CountDzNuts" sum="0" type="0" no="21"/>
+   <action player="Mandragor3" sum="0" type="0" no="22"/>
+  </round>
+ </game>
+ <game gamecode="10545289250">
+  <general>
+   <startdate>2024-02-04 16:31:51</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="94,970" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="113,110" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="88,170" seat="4" addon="0" win="0" name="CountDzNuts" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="97,850" seat="6" addon="0" win="0" name="Mandragor3" dealer="0" bet="650" rebuy="0" reg_code=""/>
+    <player chips="157,509" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="2,150" rebuy="0" reg_code=""/>
+    <player chips="105,550" seat="9" addon="0" win="0" name="InYourHead13" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="157,825" seat="10" addon="0" win="5,550" name="emirali01" dealer="0" bet="3,537" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Mandragor3" sum="150" type="15" no="1"/>
+   <action player="nevermind70" sum="150" type="15" no="2"/>
+   <action player="InYourHead13" sum="150" type="15" no="3"/>
+   <action player="emirali01" sum="150" type="15" no="4"/>
+   <action player="Frasse12" sum="150" type="15" no="5"/>
+   <action player="tropeiro123" sum="150" type="15" no="6"/>
+   <action player="CountDzNuts" sum="150" type="15" no="7"/>
+   <action player="Mandragor3" sum="500" type="1" no="8"/>
+   <action player="nevermind70" sum="1,000" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="InYourHead13" type="Pocket">X X</cards>
+   <action player="InYourHead13" sum="0" type="0" no="10"/>
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="2,000" type="23" no="11"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">H9 H5</cards>
+   <action player="tropeiro123" sum="0" type="0" no="13"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="0" type="0" no="14"/>
+   <cards player="Mandragor3" type="Pocket">X X</cards>
+   <action player="Mandragor3" sum="0" type="0" no="15"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="1,000" type="3" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 H4 D6</cards>
+   <action player="nevermind70" sum="0" type="4" no="17"/>
+   <action player="emirali01" sum="1,387" type="5" no="18"/>
+   <action player="nevermind70" sum="0" type="0" no="19"/>
+  </round>
+ </game>
+ <game gamecode="10545289351">
+  <general>
+   <startdate>2024-02-04 16:32:40</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="94,820" seat="1" addon="0" win="0" name="Frasse12" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="112,960" seat="2" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="88,020" seat="4" addon="0" win="19,422" name="CountDzNuts" dealer="0" bet="14,420" rebuy="0" reg_code=""/>
+    <player chips="191,351" seat="5" addon="0" win="0" name="Pankbest" dealer="0" bet="8,011" rebuy="0" reg_code=""/>
+    <player chips="97,200" seat="6" addon="0" win="0" name="Mandragor3" dealer="1" bet="150" rebuy="0" reg_code=""/>
+    <player chips="155,359" seat="7" addon="0" win="0" name="nevermind70" dealer="0" bet="650" rebuy="0" reg_code=""/>
+    <player chips="105,400" seat="9" addon="0" win="0" name="InYourHead13" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+    <player chips="161,225" seat="10" addon="0" win="0" name="emirali01" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="nevermind70" sum="150" type="15" no="1"/>
+   <action player="InYourHead13" sum="150" type="15" no="2"/>
+   <action player="emirali01" sum="150" type="15" no="3"/>
+   <action player="Frasse12" sum="150" type="15" no="4"/>
+   <action player="tropeiro123" sum="150" type="15" no="5"/>
+   <action player="CountDzNuts" sum="150" type="15" no="6"/>
+   <action player="Pankbest" sum="150" type="15" no="7"/>
+   <action player="Mandragor3" sum="150" type="15" no="8"/>
+   <action player="nevermind70" sum="500" type="1" no="9"/>
+   <action player="InYourHead13" sum="1,000" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="emirali01" type="Pocket">X X</cards>
+   <action player="emirali01" sum="1,000" type="3" no="11"/>
+   <cards player="Frasse12" type="Pocket">X X</cards>
+   <action player="Frasse12" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">CA H2</cards>
+   <action player="tropeiro123" sum="0" type="0" no="13"/>
+   <cards player="CountDzNuts" type="Pocket">X X</cards>
+   <action player="CountDzNuts" sum="4,000" type="23" no="14"/>
+   <cards player="Pankbest" type="Pocket">X X</cards>
+   <action player="Pankbest" sum="4,000" type="3" no="15"/>
+   <cards player="Mandragor3" type="Pocket">X X</cards>
+   <action player="Mandragor3" sum="0" type="0" no="16"/>
+   <cards player="nevermind70" type="Pocket">X X</cards>
+   <action player="nevermind70" sum="0" type="0" no="17"/>
+   <cards player="InYourHead13" type="Pocket">X X</cards>
+   <action player="InYourHead13" sum="0" type="0" no="18"/>
+   <action player="emirali01" sum="0" type="0" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 DQ HQ</cards>
+   <action player="CountDzNuts" sum="3,861" type="5" no="20"/>
+   <action player="Pankbest" sum="3,861" type="3" no="21"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action player="CountDzNuts" sum="6,409" type="5" no="22"/>
+   <action player="Pankbest" sum="0" type="0" no="23"/>
+  </round>
+ </game>
+ <game gamecode="10545289469">
+  <general>
+   <startdate>2024-02-04 16:33:31</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="169,154" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+    <player chips="141,642" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="70,366" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="6,465" rebuy="0" reg_code=""/>
+    <player chips="100,000" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="308,625" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="101,003" seat="7" addon="0" win="17,680" name="AreUSeriously" dealer="0" bet="6,465" rebuy="0" reg_code=""/>
+    <player chips="101,205" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="3,150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="campbellthebig" sum="150" type="15" no="1"/>
+   <action player="Pokerehmeulaser" sum="150" type="15" no="2"/>
+   <action player="CastleCli" sum="150" type="15" no="3"/>
+   <action player="mikekar79" sum="150" type="15" no="4"/>
+   <action player="kidinmyheart1" sum="150" type="15" no="5"/>
+   <action player="lkr2" sum="150" type="15" no="6"/>
+   <action player="AreUSeriously" sum="150" type="15" no="7"/>
+   <action player="campbellthebig" sum="500" type="1" no="8"/>
+   <action player="Pokerehmeulaser" sum="1,000" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="10"/>
+   <cards player="mikekar79" type="Pocket">D10 SJ</cards>
+   <action player="mikekar79" sum="1,000" type="3" no="11"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="12"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="13"/>
+   <cards player="AreUSeriously" type="Pocket">H9 HQ</cards>
+   <action player="AreUSeriously" sum="3,000" type="23" no="14"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="2,500" type="3" no="15"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="16"/>
+   <action player="mikekar79" sum="2,000" type="3" no="17"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA C4 HA</cards>
+   <action player="campbellthebig" sum="0" type="4" no="18"/>
+   <action player="mikekar79" sum="0" type="4" no="19"/>
+   <action player="AreUSeriously" sum="0" type="4" no="20"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action player="campbellthebig" sum="0" type="4" no="21"/>
+   <action player="mikekar79" sum="0" type="4" no="22"/>
+   <action player="AreUSeriously" sum="0" type="4" no="23"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action player="campbellthebig" sum="0" type="4" no="24"/>
+   <action player="mikekar79" sum="0" type="4" no="25"/>
+   <action player="AreUSeriously" sum="3,315" type="5" no="26"/>
+   <action player="campbellthebig" sum="0" type="0" no="27"/>
+   <action player="mikekar79" sum="3,315" type="3" no="28"/>
+  </round>
+ </game>
+ <game gamecode="10545289619">
+  <general>
+   <startdate>2024-02-04 16:34:35</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="168,004" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+    <player chips="141,492" seat="2" addon="0" win="9,200" name="CastleCli" dealer="0" bet="7,650" rebuy="0" reg_code=""/>
+    <player chips="63,901" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="99,850" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="308,475" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="3,650" rebuy="0" reg_code=""/>
+    <player chips="112,218" seat="7" addon="0" win="0" name="AreUSeriously" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="112,810" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="98,055" seat="10" addon="0" win="0" name="campbellthebig" dealer="1" bet="150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Pokerehmeulaser" sum="150" type="15" no="1"/>
+   <action player="CastleCli" sum="150" type="15" no="2"/>
+   <action player="mikekar79" sum="150" type="15" no="3"/>
+   <action player="kidinmyheart1" sum="150" type="15" no="4"/>
+   <action player="lkr2" sum="150" type="15" no="5"/>
+   <action player="AreUSeriously" sum="150" type="15" no="6"/>
+   <action player="tropeiro123" sum="150" type="15" no="7"/>
+   <action player="campbellthebig" sum="150" type="15" no="8"/>
+   <action player="Pokerehmeulaser" sum="500" type="1" no="9"/>
+   <action player="CastleCli" sum="1,000" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="11"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="12"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="1,000" type="3" no="13"/>
+   <cards player="AreUSeriously" type="Pocket">X X</cards>
+   <action player="AreUSeriously" sum="0" type="0" no="14"/>
+   <cards player="tropeiro123" type="Pocket">D8 S4</cards>
+   <action player="tropeiro123" sum="0" type="0" no="15"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="16"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="500" type="3" no="17"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="3,500" type="23" no="18"/>
+   <action player="lkr2" sum="2,500" type="3" no="19"/>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="20"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 C10 D7</cards>
+   <action player="CastleCli" sum="0" type="4" no="21"/>
+   <action player="lkr2" sum="0" type="4" no="22"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action player="CastleCli" sum="0" type="4" no="23"/>
+   <action player="lkr2" sum="0" type="4" no="24"/>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+   <action player="CastleCli" sum="4,000" type="5" no="25"/>
+   <action player="lkr2" sum="0" type="0" no="26"/>
+  </round>
+ </game>
+ <game gamecode="10545289762">
+  <general>
+   <startdate>2024-02-04 16:35:39</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="166,854" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="1" bet="150" rebuy="0" reg_code=""/>
+    <player chips="147,042" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="650" rebuy="0" reg_code=""/>
+    <player chips="63,751" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="2,650" rebuy="0" reg_code=""/>
+    <player chips="99,700" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="304,825" seat="6" addon="0" win="6,700" name="lkr2" dealer="0" bet="7,072" rebuy="0" reg_code=""/>
+    <player chips="112,068" seat="7" addon="0" win="0" name="AreUSeriously" dealer="0" bet="150" rebuy="0" reg_code=""/>
+    <player chips="112,660" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,905" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CastleCli" sum="150" type="15" no="1"/>
+   <action player="mikekar79" sum="150" type="15" no="2"/>
+   <action player="kidinmyheart1" sum="150" type="15" no="3"/>
+   <action player="lkr2" sum="150" type="15" no="4"/>
+   <action player="AreUSeriously" sum="150" type="15" no="5"/>
+   <action player="tropeiro123" sum="150" type="15" no="6"/>
+   <action player="campbellthebig" sum="150" type="15" no="7"/>
+   <action player="Pokerehmeulaser" sum="150" type="15" no="8"/>
+   <action player="CastleCli" sum="500" type="1" no="9"/>
+   <action player="mikekar79" sum="1,000" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="11"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="2,500" type="23" no="12"/>
+   <cards player="AreUSeriously" type="Pocket">X X</cards>
+   <action player="AreUSeriously" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">S2 DK</cards>
+   <action player="tropeiro123" sum="0" type="0" no="14"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="15"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="16"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="17"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="1,500" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 SQ HJ</cards>
+   <action player="mikekar79" sum="0" type="4" no="19"/>
+   <action player="lkr2" sum="4,422" type="5" no="20"/>
+   <action player="mikekar79" sum="0" type="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10545289843">
+  <general>
+   <startdate>2024-02-04 16:36:17</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player chips="166,704" seat="1" addon="0" win="231,736" name="Pokerehmeulaser" dealer="0" bet="120,720" rebuy="0" reg_code="">
+     <knockout tobounty="€4.55" kicked="AreUSeriously" tobalance="€4.55"/>
+    </player>
+    <player chips="146,392" seat="2" addon="0" win="0" name="CastleCli" dealer="1" bet="150" rebuy="0" reg_code=""/>
+    <player chips="61,101" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="3,150" rebuy="0" reg_code=""/>
+    <player chips="99,550" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="1,150" rebuy="0" reg_code=""/>
+    <player chips="308,875" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="3,150" rebuy="0" reg_code=""/>
+    <player chips="111,918" seat="7" addon="0" win="0" name="AreUSeriously" dealer="0" bet="111,918" rebuy="0" reg_code=""/>
+    <player chips="112,510" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="150" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,755" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="150" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mikekar79" sum="150" type="15" no="1"/>
+   <action player="kidinmyheart1" sum="150" type="15" no="2"/>
+   <action player="lkr2" sum="150" type="15" no="3"/>
+   <action player="AreUSeriously" sum="150" type="15" no="4"/>
+   <action player="tropeiro123" sum="150" type="15" no="5"/>
+   <action player="campbellthebig" sum="150" type="15" no="6"/>
+   <action player="Pokerehmeulaser" sum="150" type="15" no="7"/>
+   <action player="CastleCli" sum="150" type="15" no="8"/>
+   <action player="mikekar79" sum="500" type="1" no="9"/>
+   <action player="kidinmyheart1" sum="1,000" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="1,000" type="3" no="11"/>
+   <cards player="AreUSeriously" type="Pocket">SJ SK</cards>
+   <action player="AreUSeriously" sum="3,000" type="23" no="12"/>
+   <cards player="tropeiro123" type="Pocket">H8 CQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="13"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="14"/>
+   <cards player="Pokerehmeulaser" type="Pocket">C7 D7</cards>
+   <action player="Pokerehmeulaser" sum="3,000" type="3" no="15"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="16"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="2,500" type="3" no="17"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="18"/>
+   <action player="lkr2" sum="2,000" type="3" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C2 S7</cards>
+   <action player="mikekar79" sum="0" type="4" no="20"/>
+   <action player="lkr2" sum="0" type="4" no="21"/>
+   <action player="AreUSeriously" sum="4,260" type="5" no="22"/>
+   <action player="Pokerehmeulaser" sum="12,520" type="23" no="23"/>
+   <action player="mikekar79" sum="0" type="0" no="24"/>
+   <action player="lkr2" sum="0" type="0" no="25"/>
+   <action player="AreUSeriously" sum="8,260" type="3" no="26"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action player="AreUSeriously" sum="0" type="4" no="27"/>
+   <action player="Pokerehmeulaser" sum="16,000" type="5" no="28"/>
+   <action player="AreUSeriously" sum="16,000" type="3" no="29"/>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+   <action player="AreUSeriously" sum="0" type="4" no="30"/>
+   <action player="Pokerehmeulaser" sum="89,050" type="5" no="31"/>
+   <action player="AreUSeriously" sum="80,248" type="7" no="32"/>
+  </round>
+ </game>
+ <game gamecode="10545290065">
+  <general>
+   <startdate>2024-02-04 16:37:57</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="286,522" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="146,242" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="57,951" seat="4" addon="0" win="0" name="mikekar79" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="98,400" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="780" rebuy="0" reg_code=""/>
+    <player chips="305,725" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="4,425" rebuy="0" reg_code=""/>
+    <player chips="112,360" seat="9" addon="0" win="10,350" name="tropeiro123" dealer="0" bet="10,117" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,605" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="180" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="kidinmyheart1" sum="180" type="15" no="1"/>
+   <action player="lkr2" sum="180" type="15" no="2"/>
+   <action player="tropeiro123" sum="180" type="15" no="3"/>
+   <action player="campbellthebig" sum="180" type="15" no="4"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="5"/>
+   <action player="CastleCli" sum="180" type="15" no="6"/>
+   <action player="mikekar79" sum="180" type="15" no="7"/>
+   <action player="kidinmyheart1" sum="600" type="1" no="8"/>
+   <action player="lkr2" sum="1,200" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S10 SA</cards>
+   <action player="tropeiro123" sum="2,520" type="23" no="10"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="11"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="12"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="13"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="14"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="15"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="1,320" type="3" no="16"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 DA D8</cards>
+   <action player="lkr2" sum="0" type="4" no="17"/>
+   <action player="tropeiro123" sum="1,725" type="5" no="18"/>
+   <action player="lkr2" sum="1,725" type="3" no="19"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action player="lkr2" sum="0" type="4" no="20"/>
+   <action player="tropeiro123" sum="0" type="4" no="21"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action player="lkr2" sum="0" type="4" no="22"/>
+   <action player="tropeiro123" sum="5,692" type="5" no="23"/>
+   <action player="lkr2" sum="0" type="0" no="24"/>
+  </round>
+ </game>
+ <game gamecode="10545290267">
+  <general>
+   <startdate>2024-02-04 16:39:31</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="286,342" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="146,062" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="57,771" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="97,620" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="301,300" seat="6" addon="0" win="32,700" name="lkr2" dealer="0" bet="14,550" rebuy="0" reg_code=""/>
+    <player chips="100,000" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="2,700" rebuy="0" reg_code=""/>
+    <player chips="118,285" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="14,550" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,425" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="180" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="lkr2" sum="180" type="15" no="1"/>
+   <action player="MrCijay" sum="180" type="15" no="2"/>
+   <action player="tropeiro123" sum="180" type="15" no="3"/>
+   <action player="campbellthebig" sum="180" type="15" no="4"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="5"/>
+   <action player="CastleCli" sum="180" type="15" no="6"/>
+   <action player="mikekar79" sum="180" type="15" no="7"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="8"/>
+   <action player="lkr2" sum="600" type="1" no="9"/>
+   <action player="MrCijay" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SA DK</cards>
+   <action player="tropeiro123" sum="2,520" type="23" no="11"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="12"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="13"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="14"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="15"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="16"/>
+   <cards player="lkr2" type="Pocket">C10 C2</cards>
+   <action player="lkr2" sum="1,920" type="3" no="17"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="1,320" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 CQ D5</cards>
+   <action player="lkr2" sum="0" type="4" no="19"/>
+   <action player="MrCijay" sum="0" type="4" no="20"/>
+   <action player="tropeiro123" sum="2,250" type="5" no="21"/>
+   <action player="lkr2" sum="2,250" type="3" no="22"/>
+   <action player="MrCijay" sum="0" type="0" no="23"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action player="lkr2" sum="0" type="4" no="24"/>
+   <action player="tropeiro123" sum="9,600" type="5" no="25"/>
+   <action player="lkr2" sum="9,600" type="3" no="26"/>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+   <action player="lkr2" sum="0" type="4" no="27"/>
+   <action player="tropeiro123" sum="0" type="4" no="28"/>
+  </round>
+ </game>
+ <game gamecode="10545290486">
+  <general>
+   <startdate>2024-02-04 16:41:09</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="286,162" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="145,882" seat="2" addon="0" win="4,440" name="CastleCli" dealer="0" bet="2,400" rebuy="0" reg_code=""/>
+    <player chips="57,591" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="97,440" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="319,450" seat="6" addon="0" win="0" name="lkr2" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="97,300" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="780" rebuy="0" reg_code=""/>
+    <player chips="103,735" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="1,380" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,245" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="180" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="MrCijay" sum="180" type="15" no="1"/>
+   <action player="tropeiro123" sum="180" type="15" no="2"/>
+   <action player="campbellthebig" sum="180" type="15" no="3"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="4"/>
+   <action player="CastleCli" sum="180" type="15" no="5"/>
+   <action player="mikekar79" sum="180" type="15" no="6"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="7"/>
+   <action player="lkr2" sum="180" type="15" no="8"/>
+   <action player="MrCijay" sum="600" type="1" no="9"/>
+   <action player="tropeiro123" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="11"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="12"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="2,400" type="23" no="13"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="14"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="15"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="16"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="17"/>
+   <cards player="tropeiro123" type="Pocket">H4 SQ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+ <game gamecode="10545290583">
+  <general>
+   <startdate>2024-02-04 16:41:48</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="285,982" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="148,942" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="57,411" seat="4" addon="0" win="117,702" name="mikekar79" dealer="0" bet="57,411" rebuy="0" reg_code=""/>
+    <player chips="97,260" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="57,411" rebuy="0" reg_code=""/>
+    <player chips="319,270" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="96,520" seat="7" addon="0" win="0" name="MrCijay" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="102,355" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="780" rebuy="0" reg_code="7939716439"/>
+    <player chips="97,065" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="180" type="15" no="1"/>
+   <action player="campbellthebig" sum="180" type="15" no="2"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="3"/>
+   <action player="CastleCli" sum="180" type="15" no="4"/>
+   <action player="mikekar79" sum="180" type="15" no="5"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="6"/>
+   <action player="lkr2" sum="180" type="15" no="7"/>
+   <action player="MrCijay" sum="180" type="15" no="8"/>
+   <action player="tropeiro123" sum="600" type="1" no="9"/>
+   <action player="campbellthebig" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="11"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="12"/>
+   <cards player="mikekar79" type="Pocket">C2 H2</cards>
+   <action player="mikekar79" sum="1,200" type="3" no="13"/>
+   <cards player="kidinmyheart1" type="Pocket">SK DA</cards>
+   <action player="kidinmyheart1" sum="4,080" type="23" no="14"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="15"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="16"/>
+   <cards player="tropeiro123" type="Pocket">H3 S4</cards>
+   <action player="tropeiro123" sum="0" type="0" no="17"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="18"/>
+   <action player="mikekar79" sum="2,880" type="3" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 HJ DK</cards>
+   <action player="mikekar79" sum="0" type="4" no="20"/>
+   <action player="kidinmyheart1" sum="3,420" type="5" no="21"/>
+   <action player="mikekar79" sum="10,830" type="23" no="22"/>
+   <action player="kidinmyheart1" sum="7,410" type="3" no="23"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action player="mikekar79" sum="42,321" type="5" no="24"/>
+   <action player="kidinmyheart1" sum="42,321" type="3" no="25"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+  </round>
+ </game>
+ <game gamecode="10545318705">
+  <general>
+   <startdate>2024-02-04 16:43:25</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="285,802" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+    <player chips="148,762" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="117,702" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="39,849" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="2,580" rebuy="0" reg_code=""/>
+    <player chips="319,090" seat="6" addon="0" win="196,050" name="lkr2" dealer="0" bet="95,685" rebuy="0" reg_code="">
+     <knockout tobounty="€4.55" kicked="campbellthebig" tobalance="€4.55"/>
+    </player>
+    <player chips="96,340" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="101,575" seat="9" addon="0" win="0" name="tropeiro123" dealer="1" bet="180" rebuy="0" reg_code="7939716439"/>
+    <player chips="95,685" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="95,505" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="campbellthebig" sum="180" type="15" no="1"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="2"/>
+   <action player="CastleCli" sum="180" type="15" no="3"/>
+   <action player="mikekar79" sum="180" type="15" no="4"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="5"/>
+   <action player="lkr2" sum="180" type="15" no="6"/>
+   <action player="MrCijay" sum="180" type="15" no="7"/>
+   <action player="tropeiro123" sum="180" type="15" no="8"/>
+   <action player="campbellthebig" sum="600" type="1" no="9"/>
+   <action player="Pokerehmeulaser" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="11"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="12"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="2,400" type="23" no="13"/>
+   <cards player="lkr2" type="Pocket">DA DJ</cards>
+   <action player="lkr2" sum="8,400" type="23" no="14"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="15"/>
+   <cards player="tropeiro123" type="Pocket">S10 C9</cards>
+   <action player="tropeiro123" sum="0" type="0" no="16"/>
+   <cards player="campbellthebig" type="Pocket">DK HA</cards>
+   <action player="campbellthebig" sum="95,505" type="23" no="17"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="18"/>
+   <action player="kidinmyheart1" sum="0" type="0" no="19"/>
+   <action player="lkr2" sum="87,105" type="3" no="20"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 H4 C5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+ <game gamecode="10545318830">
+  <general>
+   <startdate>2024-02-04 16:44:19</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="284,422" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+    <player chips="148,582" seat="2" addon="0" win="30,762" name="CastleCli" dealer="0" bet="12,531" rebuy="0" reg_code=""/>
+    <player chips="117,522" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="37,269" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="419,455" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="12,531" rebuy="0" reg_code=""/>
+    <player chips="96,160" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="101,395" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="3,780" rebuy="0" reg_code="7939716439"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Pokerehmeulaser" sum="180" type="15" no="1"/>
+   <action player="CastleCli" sum="180" type="15" no="2"/>
+   <action player="mikekar79" sum="180" type="15" no="3"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="4"/>
+   <action player="lkr2" sum="180" type="15" no="5"/>
+   <action player="MrCijay" sum="180" type="15" no="6"/>
+   <action player="tropeiro123" sum="180" type="15" no="7"/>
+   <action player="Pokerehmeulaser" sum="600" type="1" no="8"/>
+   <action player="CastleCli" sum="1,200" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="10"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="11"/>
+   <cards player="lkr2" type="Pocket">S2 S3</cards>
+   <action player="lkr2" sum="1,200" type="3" no="12"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">DA C9</cards>
+   <action player="tropeiro123" sum="1,200" type="3" no="14"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="600" type="3" no="15"/>
+   <cards player="CastleCli" type="Pocket">DK HA</cards>
+   <action player="CastleCli" sum="3,600" type="23" no="16"/>
+   <action player="lkr2" sum="2,400" type="3" no="17"/>
+   <action player="tropeiro123" sum="2,400" type="3" no="18"/>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 D3 H10</cards>
+   <action player="CastleCli" sum="0" type="4" no="20"/>
+   <action player="lkr2" sum="0" type="4" no="21"/>
+   <action player="tropeiro123" sum="0" type="4" no="22"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action player="CastleCli" sum="0" type="4" no="23"/>
+   <action player="lkr2" sum="8,751" type="5" no="24"/>
+   <action player="tropeiro123" sum="0" type="0" no="25"/>
+   <action player="CastleCli" sum="8,751" type="3" no="26"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action player="CastleCli" sum="0" type="4" no="27"/>
+   <action player="lkr2" sum="0" type="4" no="28"/>
+  </round>
+ </game>
+ <game gamecode="10545319066">
+  <general>
+   <startdate>2024-02-04 16:46:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="283,042" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="166,813" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="780" rebuy="0" reg_code=""/>
+    <player chips="117,342" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+    <player chips="37,089" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="406,924" seat="6" addon="0" win="28,920" name="lkr2" dealer="0" bet="13,020" rebuy="0" reg_code=""/>
+    <player chips="95,980" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="97,615" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="180" rebuy="0" reg_code="7939716439"/>
+    <player chips="100,000" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="13,020" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CastleCli" sum="180" type="15" no="1"/>
+   <action player="mikekar79" sum="180" type="15" no="2"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="3"/>
+   <action player="lkr2" sum="180" type="15" no="4"/>
+   <action player="MrCijay" sum="180" type="15" no="5"/>
+   <action player="tropeiro123" sum="180" type="15" no="6"/>
+   <action player="campbellthebig" sum="180" type="15" no="7"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="8"/>
+   <action player="CastleCli" sum="600" type="1" no="9"/>
+   <action player="mikekar79" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="11"/>
+   <cards player="lkr2" type="Pocket">CA C3</cards>
+   <action player="lkr2" sum="2,400" type="23" no="12"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="13"/>
+   <cards player="tropeiro123" type="Pocket">H2 C4</cards>
+   <action player="tropeiro123" sum="0" type="0" no="14"/>
+   <cards player="campbellthebig" type="Pocket">CQ SQ</cards>
+   <action player="campbellthebig" sum="10,440" type="23" no="15"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="16"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="17"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="18"/>
+   <action player="lkr2" sum="8,040" type="3" no="19"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK C9 SA</cards>
+   <action player="lkr2" sum="0" type="4" no="20"/>
+   <action player="campbellthebig" sum="0" type="4" no="21"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action player="lkr2" sum="1,200" type="5" no="22"/>
+   <action player="campbellthebig" sum="1,200" type="3" no="23"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+   <action player="lkr2" sum="1,200" type="5" no="24"/>
+   <action player="campbellthebig" sum="1,200" type="3" no="25"/>
+  </round>
+ </game>
+ <game gamecode="10545319200">
+  <general>
+   <startdate>2024-02-04 16:47:07</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player chips="282,862" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="166,033" seat="2" addon="0" win="0" name="CastleCli" dealer="1" bet="180" rebuy="0" reg_code=""/>
+    <player chips="115,962" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="780" rebuy="0" reg_code=""/>
+    <player chips="36,909" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+    <player chips="422,824" seat="6" addon="0" win="5,640" name="lkr2" dealer="0" bet="5,102" rebuy="0" reg_code=""/>
+    <player chips="95,800" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="180" rebuy="0" reg_code=""/>
+    <player chips="97,435" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="180" rebuy="0" reg_code="7939716439"/>
+    <player chips="86,980" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="1,380" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mikekar79" sum="180" type="15" no="1"/>
+   <action player="kidinmyheart1" sum="180" type="15" no="2"/>
+   <action player="lkr2" sum="180" type="15" no="3"/>
+   <action player="MrCijay" sum="180" type="15" no="4"/>
+   <action player="tropeiro123" sum="180" type="15" no="5"/>
+   <action player="campbellthebig" sum="180" type="15" no="6"/>
+   <action player="Pokerehmeulaser" sum="180" type="15" no="7"/>
+   <action player="CastleCli" sum="180" type="15" no="8"/>
+   <action player="mikekar79" sum="600" type="1" no="9"/>
+   <action player="kidinmyheart1" sum="1,200" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="1,200" type="3" no="11"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="12"/>
+   <cards player="tropeiro123" type="Pocket">S3 CA</cards>
+   <action player="tropeiro123" sum="0" type="0" no="13"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="1,200" type="3" no="14"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="15"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="16"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="17"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="4" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 C7 S6</cards>
+   <action player="kidinmyheart1" sum="0" type="4" no="19"/>
+   <action player="lkr2" sum="3,722" type="5" no="20"/>
+   <action player="campbellthebig" sum="0" type="0" no="21"/>
+   <action player="kidinmyheart1" sum="0" type="0" no="22"/>
+  </round>
+ </game>
+ <game gamecode="10545319304">
+  <general>
+   <startdate>2024-02-04 16:48:03</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="282,682" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="165,853" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="10,000" rebuy="0" reg_code=""/>
+    <player chips="115,182" seat="4" addon="0" win="0" name="mikekar79" dealer="1" bet="10,000" rebuy="0" reg_code=""/>
+    <player chips="35,529" seat="5" addon="0" win="91,858" name="kidinmyheart1" dealer="0" bet="35,529" rebuy="0" reg_code=""/>
+    <player chips="427,084" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="35,529" rebuy="0" reg_code=""/>
+    <player chips="95,620" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="97,255" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="200" rebuy="0" reg_code="7939716439"/>
+    <player chips="85,600" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="200" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="kidinmyheart1" sum="200" type="15" no="1"/>
+   <action player="lkr2" sum="200" type="15" no="2"/>
+   <action player="MrCijay" sum="200" type="15" no="3"/>
+   <action player="tropeiro123" sum="200" type="15" no="4"/>
+   <action player="campbellthebig" sum="200" type="15" no="5"/>
+   <action player="Pokerehmeulaser" sum="200" type="15" no="6"/>
+   <action player="CastleCli" sum="200" type="15" no="7"/>
+   <action player="mikekar79" sum="200" type="15" no="8"/>
+   <action player="kidinmyheart1" sum="700" type="1" no="9"/>
+   <action player="lkr2" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="11"/>
+   <cards player="tropeiro123" type="Pocket">C6 DJ</cards>
+   <action player="tropeiro123" sum="0" type="0" no="12"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="13"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="14"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="2,800" type="23" no="15"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="2,800" type="3" no="16"/>
+   <cards player="kidinmyheart1" type="Pocket">DA HA</cards>
+   <action player="kidinmyheart1" sum="9,800" type="23" no="17"/>
+   <cards player="lkr2" type="Pocket">S5 H5</cards>
+   <action player="lkr2" sum="8,400" type="3" no="18"/>
+   <action player="CastleCli" sum="7,000" type="3" no="19"/>
+   <action player="mikekar79" sum="7,000" type="3" no="20"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D6 D4</cards>
+   <action player="kidinmyheart1" sum="25,529" type="5" no="21"/>
+   <action player="lkr2" sum="25,529" type="3" no="22"/>
+   <action player="CastleCli" sum="0" type="0" no="23"/>
+   <action player="mikekar79" sum="0" type="0" no="24"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+  </round>
+ </game>
+ <game gamecode="10545319469">
+  <general>
+   <startdate>2024-02-04 16:49:14</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="282,482" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="5,800" rebuy="0" reg_code=""/>
+    <player chips="155,853" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="105,182" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="91,858" seat="5" addon="0" win="16,300" name="kidinmyheart1" dealer="1" bet="91,658" rebuy="0" reg_code=""/>
+    <player chips="391,555" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="900" rebuy="0" reg_code=""/>
+    <player chips="95,420" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="1,600" rebuy="0" reg_code=""/>
+    <player chips="97,055" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="200" rebuy="0" reg_code="7939716439"/>
+    <player chips="85,400" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="1,600" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="lkr2" sum="200" type="15" no="1"/>
+   <action player="MrCijay" sum="200" type="15" no="2"/>
+   <action player="tropeiro123" sum="200" type="15" no="3"/>
+   <action player="campbellthebig" sum="200" type="15" no="4"/>
+   <action player="Pokerehmeulaser" sum="200" type="15" no="5"/>
+   <action player="CastleCli" sum="200" type="15" no="6"/>
+   <action player="mikekar79" sum="200" type="15" no="7"/>
+   <action player="kidinmyheart1" sum="200" type="15" no="8"/>
+   <action player="lkr2" sum="700" type="1" no="9"/>
+   <action player="MrCijay" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D4 S7</cards>
+   <action player="tropeiro123" sum="0" type="0" no="11"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="1,400" type="3" no="12"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="5,600" type="23" no="13"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="14"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="15"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="91,658" type="23" no="16"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="17"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="18"/>
+   <action player="campbellthebig" sum="0" type="0" no="19"/>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="20"/>
+  </round>
+ </game>
+ <game gamecode="10545319608">
+  <general>
+   <startdate>2024-02-04 16:50:16</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="276,682" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="155,653" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="104,982" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="102,358" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="390,655" seat="6" addon="0" win="0" name="lkr2" dealer="1" bet="200" rebuy="0" reg_code=""/>
+    <player chips="93,820" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="900" rebuy="0" reg_code=""/>
+    <player chips="96,855" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="4,400" rebuy="0" reg_code="7939716439"/>
+    <player chips="83,800" seat="10" addon="0" win="10,700" name="campbellthebig" dealer="0" bet="9,750" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="MrCijay" sum="200" type="15" no="1"/>
+   <action player="tropeiro123" sum="200" type="15" no="2"/>
+   <action player="campbellthebig" sum="200" type="15" no="3"/>
+   <action player="Pokerehmeulaser" sum="200" type="15" no="4"/>
+   <action player="CastleCli" sum="200" type="15" no="5"/>
+   <action player="mikekar79" sum="200" type="15" no="6"/>
+   <action player="kidinmyheart1" sum="200" type="15" no="7"/>
+   <action player="lkr2" sum="200" type="15" no="8"/>
+   <action player="MrCijay" sum="700" type="1" no="9"/>
+   <action player="tropeiro123" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="4,200" type="23" no="11"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="12"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="13"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="14"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="15"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="16"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="0" type="0" no="17"/>
+   <cards player="tropeiro123" type="Pocket">D7 S10</cards>
+   <action player="tropeiro123" sum="2,800" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 S5 HJ</cards>
+   <action player="tropeiro123" sum="0" type="4" no="19"/>
+   <action player="campbellthebig" sum="5,350" type="5" no="20"/>
+   <action player="tropeiro123" sum="0" type="0" no="21"/>
+  </round>
+ </game>
+ <game gamecode="10545319729">
+  <general>
+   <startdate>2024-02-04 16:51:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="276,482" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="155,453" seat="2" addon="0" win="17,700" name="CastleCli" dealer="0" bet="18,200" rebuy="0" reg_code=""/>
+    <player chips="104,782" seat="4" addon="0" win="0" name="mikekar79" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="102,158" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="390,455" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="92,920" seat="7" addon="0" win="0" name="MrCijay" dealer="1" bet="7,200" rebuy="0" reg_code=""/>
+    <player chips="92,455" seat="9" addon="0" win="0" name="tropeiro123" dealer="0" bet="900" rebuy="0" reg_code="7939716439"/>
+    <player chips="90,100" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="1,600" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" sum="200" type="15" no="1"/>
+   <action player="campbellthebig" sum="200" type="15" no="2"/>
+   <action player="Pokerehmeulaser" sum="200" type="15" no="3"/>
+   <action player="CastleCli" sum="200" type="15" no="4"/>
+   <action player="mikekar79" sum="200" type="15" no="5"/>
+   <action player="kidinmyheart1" sum="200" type="15" no="6"/>
+   <action player="lkr2" sum="200" type="15" no="7"/>
+   <action player="MrCijay" sum="200" type="15" no="8"/>
+   <action player="tropeiro123" sum="700" type="1" no="9"/>
+   <action player="campbellthebig" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="11"/>
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="3,500" type="23" no="12"/>
+   <cards player="mikekar79" type="Pocket">X X</cards>
+   <action player="mikekar79" sum="0" type="0" no="13"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="14"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="0" type="0" no="15"/>
+   <cards player="MrCijay" type="Pocket">X X</cards>
+   <action player="MrCijay" sum="3,500" type="3" no="16"/>
+   <cards player="tropeiro123" type="Pocket">D8 D2</cards>
+   <action player="tropeiro123" sum="0" type="0" no="17"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 C3 CA</cards>
+   <action player="CastleCli" sum="3,500" type="5" no="19"/>
+   <action player="MrCijay" sum="3,500" type="3" no="20"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action player="CastleCli" sum="0" type="4" no="21"/>
+   <action player="MrCijay" sum="0" type="4" no="22"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action player="CastleCli" sum="11,000" type="5" no="23"/>
+   <action player="MrCijay" sum="0" type="0" no="24"/>
+  </round>
+ </game>
+ <game gamecode="10545319865">
+  <general>
+   <startdate>2024-02-04 16:52:12</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="276,282" seat="1" addon="0" win="0" name="Pokerehmeulaser" dealer="0" bet="4,400" rebuy="0" reg_code=""/>
+    <player chips="165,953" seat="2" addon="0" win="0" name="CastleCli" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="104,582" seat="4" addon="0" win="181,740" name="mikekar79" dealer="0" bet="104,582" rebuy="0" reg_code="">
+     <knockout tobounty="€4.55" kicked="MrCijay" tobalance="€4.55"/>
+    </player>
+    <player chips="101,958" seat="5" addon="0" win="0" name="kidinmyheart1" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="390,255" seat="6" addon="0" win="0" name="lkr2" dealer="0" bet="4,400" rebuy="0" reg_code=""/>
+    <player chips="85,720" seat="7" addon="0" win="0" name="MrCijay" dealer="0" bet="85,720" rebuy="0" reg_code=""/>
+    <player chips="91,555" seat="9" addon="0" win="0" name="tropeiro123" dealer="1" bet="200" rebuy="0" reg_code="7939716439"/>
+    <player chips="88,500" seat="10" addon="0" win="0" name="campbellthebig" dealer="0" bet="900" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="campbellthebig" sum="200" type="15" no="1"/>
+   <action player="Pokerehmeulaser" sum="200" type="15" no="2"/>
+   <action player="CastleCli" sum="200" type="15" no="3"/>
+   <action player="mikekar79" sum="200" type="15" no="4"/>
+   <action player="kidinmyheart1" sum="200" type="15" no="5"/>
+   <action player="lkr2" sum="200" type="15" no="6"/>
+   <action player="MrCijay" sum="200" type="15" no="7"/>
+   <action player="tropeiro123" sum="200" type="15" no="8"/>
+   <action player="campbellthebig" sum="700" type="1" no="9"/>
+   <action player="Pokerehmeulaser" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="CastleCli" type="Pocket">X X</cards>
+   <action player="CastleCli" sum="0" type="0" no="11"/>
+   <cards player="mikekar79" type="Pocket">H9 C9</cards>
+   <action player="mikekar79" sum="4,200" type="23" no="12"/>
+   <cards player="kidinmyheart1" type="Pocket">X X</cards>
+   <action player="kidinmyheart1" sum="0" type="0" no="13"/>
+   <cards player="lkr2" type="Pocket">X X</cards>
+   <action player="lkr2" sum="4,200" type="3" no="14"/>
+   <cards player="MrCijay" type="Pocket">DJ CQ</cards>
+   <action player="MrCijay" sum="4,200" type="3" no="15"/>
+   <cards player="tropeiro123" type="Pocket">S6 SK</cards>
+   <action player="tropeiro123" sum="0" type="0" no="16"/>
+   <cards player="campbellthebig" type="Pocket">X X</cards>
+   <action player="campbellthebig" sum="0" type="0" no="17"/>
+   <cards player="Pokerehmeulaser" type="Pocket">X X</cards>
+   <action player="Pokerehmeulaser" sum="2,800" type="3" no="18"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D9 H8</cards>
+   <action player="Pokerehmeulaser" sum="0" type="4" no="19"/>
+   <action player="mikekar79" sum="19,100" type="5" no="20"/>
+   <action player="lkr2" sum="0" type="0" no="21"/>
+   <action player="MrCijay" sum="19,100" type="3" no="22"/>
+   <action player="Pokerehmeulaser" sum="0" type="0" no="23"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action player="mikekar79" sum="81,082" type="5" no="24"/>
+   <action player="MrCijay" sum="62,220" type="7" no="25"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+  </round>
+ </game>
+ <game gamecode="10545319960">
+  <general>
+   <startdate>2024-02-04 16:52:52</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="66,440" seat="1" addon="0" win="0" name="Gisele92o" dealer="0" bet="1,600" rebuy="0" reg_code=""/>
+    <player chips="215,645" seat="2" addon="0" win="0" name="zosteRRRRR" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="87,100" seat="4" addon="0" win="0" name="tightcamel" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="265,169" seat="5" addon="0" win="0" name="RunningGood" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="78,136" seat="6" addon="0" win="0" name="cashmeoutsidee" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="92,660" seat="7" addon="0" win="0" name="7isgood" dealer="0" bet="49,810" rebuy="0" reg_code=""/>
+    <player chips="49,810" seat="10" addon="0" win="102,020" name="PuraVidaU" dealer="0" bet="49,810" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="PuraVidaU" sum="200" type="15" no="1"/>
+   <action player="Gisele92o" sum="200" type="15" no="2"/>
+   <action player="zosteRRRRR" sum="200" type="15" no="3"/>
+   <action player="tightcamel" sum="200" type="15" no="4"/>
+   <action player="RunningGood" sum="200" type="15" no="5"/>
+   <action player="cashmeoutsidee" sum="200" type="15" no="6"/>
+   <action player="7isgood" sum="200" type="15" no="7"/>
+   <action player="PuraVidaU" sum="700" type="1" no="8"/>
+   <action player="Gisele92o" sum="1,400" type="2" no="9"/>
+  </round>
+  <round no="1">
+   <cards player="zosteRRRRR" type="Pocket">X X</cards>
+   <action player="zosteRRRRR" sum="0" type="0" no="10"/>
+   <cards player="tightcamel" type="Pocket">X X</cards>
+   <action player="tightcamel" sum="0" type="0" no="11"/>
+   <cards player="RunningGood" type="Pocket">X X</cards>
+   <action player="RunningGood" sum="0" type="0" no="12"/>
+   <cards player="cashmeoutsidee" type="Pocket">X X</cards>
+   <action player="cashmeoutsidee" sum="0" type="0" no="13"/>
+   <cards player="7isgood" type="Pocket">D3 DK</cards>
+   <action player="7isgood" sum="3,500" type="23" no="14"/>
+   <cards player="PuraVidaU" type="Pocket">CA HA</cards>
+   <action player="PuraVidaU" sum="9,800" type="23" no="15"/>
+   <cards player="Gisele92o" type="Pocket">X X</cards>
+   <action player="Gisele92o" sum="0" type="0" no="16"/>
+   <action player="7isgood" sum="6,300" type="3" no="17"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 H5 SA</cards>
+   <action player="PuraVidaU" sum="1,400" type="5" no="18"/>
+   <action player="7isgood" sum="1,400" type="3" no="19"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action player="PuraVidaU" sum="12,600" type="5" no="20"/>
+   <action player="7isgood" sum="12,600" type="3" no="21"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action player="PuraVidaU" sum="25,810" type="5" no="22"/>
+   <action player="7isgood" sum="25,810" type="3" no="23"/>
+  </round>
+ </game>
+ <game gamecode="10545350087">
+  <general>
+   <startdate>2024-02-04 16:54:46</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player chips="64,840" seat="1" addon="0" win="0" name="Gisele92o" dealer="0" bet="900" rebuy="0" reg_code=""/>
+    <player chips="215,445" seat="2" addon="0" win="0" name="zosteRRRRR" dealer="0" bet="1,600" rebuy="0" reg_code=""/>
+    <player chips="86,900" seat="4" addon="0" win="0" name="tightcamel" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="264,969" seat="5" addon="0" win="0" name="RunningGood" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="77,936" seat="6" addon="0" win="0" name="cashmeoutsidee" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="42,850" seat="7" addon="0" win="0" name="7isgood" dealer="0" bet="200" rebuy="0" reg_code=""/>
+    <player chips="91,355" seat="9" addon="0" win="5,100" name="tropeiro123" dealer="0" bet="2,940" rebuy="0" reg_code="7939716439"/>
+    <player chips="102,020" seat="10" addon="0" win="0" name="PuraVidaU" dealer="1" bet="200" rebuy="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Gisele92o" sum="200" type="15" no="1"/>
+   <action player="zosteRRRRR" sum="200" type="15" no="2"/>
+   <action player="tightcamel" sum="200" type="15" no="3"/>
+   <action player="RunningGood" sum="200" type="15" no="4"/>
+   <action player="cashmeoutsidee" sum="200" type="15" no="5"/>
+   <action player="7isgood" sum="200" type="15" no="6"/>
+   <action player="tropeiro123" sum="200" type="15" no="7"/>
+   <action player="PuraVidaU" sum="200" type="15" no="8"/>
+   <action player="Gisele92o" sum="700" type="1" no="9"/>
+   <action player="zosteRRRRR" sum="1,400" type="2" no="10"/>
+  </round>
+  <round no="1">
+   <cards player="tightcamel" type="Pocket">X X</cards>
+   <action player="tightcamel" sum="0" type="0" no="11"/>
+   <cards player="RunningGood" type="Pocket">X X</cards>
+   <action player="RunningGood" sum="0" type="0" no="12"/>
+   <cards player="cashmeoutsidee" type="Pocket">X X</cards>
+   <action player="cashmeoutsidee" sum="0" type="0" no="13"/>
+   <cards player="7isgood" type="Pocket">X X</cards>
+   <action player="7isgood" sum="0" type="0" no="14"/>
+   <cards player="tropeiro123" type="Pocket">HA H3</cards>
+   <action player="tropeiro123" sum="2,940" type="23" no="15"/>
+   <cards player="PuraVidaU" type="Pocket">X X</cards>
+   <action player="PuraVidaU" sum="0" type="0" no="16"/>
+   <cards player="Gisele92o" type="Pocket">X X</cards>
+   <action player="Gisele92o" sum="0" type="0" no="17"/>
+   <cards player="zosteRRRRR" type="Pocket">X X</cards>
+   <action player="zosteRRRRR" sum="0" type="0" no="18"/>
+  </round>
+ </game>
+</session>

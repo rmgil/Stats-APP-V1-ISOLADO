@@ -1,0 +1,2386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7959783635">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€20,000 GTD, 1081954818</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:01:59</duration>
+  <gamecount>42</gamecount>
+  <startdate>2024-02-24 15:37:38</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>212,922</bets>
+  <wins>289,591</wins>
+  <chipsin>124,800</chipsin>
+  <chipsout>208,429</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294371</tournamentcode>
+  <tournamentname>E3|€20,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10581965482">
+  <general>
+   <startdate>2024-02-24 15:37:38</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="119,259" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="125,000" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="173,477" dealer="1" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="102,574" dealer="0" bet="3,000" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="152,721" dealer="0" bet="5,310" win="7,000" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="224,026" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="186,056" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mrmone83" no="1" sum="200" type="15"/>
+   <action player="GushMints" no="2" sum="200" type="15"/>
+   <action player="AncientStoner" no="3" sum="200" type="15"/>
+   <action player="Brst01" no="4" sum="200" type="15"/>
+   <action player="lPozzal" no="5" sum="200" type="15"/>
+   <action player="TjibbeR" no="6" sum="200" type="15"/>
+   <action player="serjqq1" no="7" sum="200" type="15"/>
+   <action player="mrmone83" no="8" sum="700" type="1"/>
+   <action player="GushMints" no="9" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="10" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="0" type="0"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="14" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="15" sum="2,800" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="1,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 D2 S7</cards>
+   <action player="mrmone83" no="17" sum="0" type="4"/>
+   <action player="GushMints" no="18" sum="2,310" type="5"/>
+   <action player="mrmone83" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965586">
+  <general>
+   <startdate>2024-02-24 15:39:01</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="119,059" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="125,000" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="124,800" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="173,277" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="99,574" dealer="1" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="156,721" dealer="0" bet="900" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,826" dealer="0" bet="1,600" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="185,856" dealer="0" bet="2,800" win="5,100" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="200" type="15"/>
+   <action player="AncientStoner" no="2" sum="200" type="15"/>
+   <action player="Brst01" no="3" sum="200" type="15"/>
+   <action player="lPozzal" no="4" sum="200" type="15"/>
+   <action player="tropeiro123" no="5" sum="200" type="15"/>
+   <action player="TjibbeR" no="6" sum="200" type="15"/>
+   <action player="serjqq1" no="7" sum="200" type="15"/>
+   <action player="mrmone83" no="8" sum="200" type="15"/>
+   <action player="GushMints" no="9" sum="700" type="1"/>
+   <action player="AncientStoner" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="2,800" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ C9</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="15" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="16" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965621">
+  <general>
+   <startdate>2024-02-24 15:39:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="118,859" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="124,800" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="124,600" dealer="0" bet="7,200" win="10,700" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="173,077" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="99,374" dealer="0" bet="3,000" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="155,821" dealer="1" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="222,226" dealer="0" bet="900" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="189,356" dealer="0" bet="3,000" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="200" type="15"/>
+   <action player="Brst01" no="2" sum="200" type="15"/>
+   <action player="lPozzal" no="3" sum="200" type="15"/>
+   <action player="tropeiro123" no="4" sum="200" type="15"/>
+   <action player="TjibbeR" no="5" sum="200" type="15"/>
+   <action player="serjqq1" no="6" sum="200" type="15"/>
+   <action player="mrmone83" no="7" sum="200" type="15"/>
+   <action player="GushMints" no="8" sum="200" type="15"/>
+   <action player="AncientStoner" no="9" sum="700" type="1"/>
+   <action player="Brst01" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 H8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="2,800" type="23"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="14" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="15" sum="2,800" type="3"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="17" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="18" sum="1,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D3 C9</cards>
+   <action player="Brst01" no="19" sum="0" type="4"/>
+   <action player="TjibbeR" no="20" sum="4,200" type="5"/>
+   <action player="mrmone83" no="21" sum="0" type="0"/>
+   <action player="Brst01" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965730">
+  <general>
+   <startdate>2024-02-24 15:41:07</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="118,659" dealer="0" bet="1,600" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="124,600" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="132,300" dealer="0" bet="6,080" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="172,877" dealer="0" bet="14,760" win="15,460" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="96,374" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="155,621" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="221,326" dealer="1" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="186,356" dealer="0" bet="900" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Brst01" no="1" sum="200" type="15"/>
+   <action player="lPozzal" no="2" sum="200" type="15"/>
+   <action player="tropeiro123" no="3" sum="200" type="15"/>
+   <action player="TjibbeR" no="4" sum="200" type="15"/>
+   <action player="serjqq1" no="5" sum="200" type="15"/>
+   <action player="mrmone83" no="6" sum="200" type="15"/>
+   <action player="GushMints" no="7" sum="200" type="15"/>
+   <action player="AncientStoner" no="8" sum="200" type="15"/>
+   <action player="Brst01" no="9" sum="700" type="1"/>
+   <action player="lPozzal" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 DQ</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="2,800" type="23"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="13" sum="2,800" type="3"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="14" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="15" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="16" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="17" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 S5 HA</cards>
+   <action player="TjibbeR" no="19" sum="3,080" type="5"/>
+   <action player="serjqq1" no="20" sum="11,760" type="23"/>
+   <action player="TjibbeR" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965776">
+  <general>
+   <startdate>2024-02-24 15:41:47</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="117,059" dealer="0" bet="900" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="124,400" dealer="0" bet="1,600" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="126,220" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="182,257" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="96,174" dealer="0" bet="3,000" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="155,421" dealer="0" bet="10,360" win="9,300" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="221,126" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="185,456" dealer="1" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="lPozzal" no="1" sum="200" type="15"/>
+   <action player="tropeiro123" no="2" sum="200" type="15"/>
+   <action player="TjibbeR" no="3" sum="200" type="15"/>
+   <action player="serjqq1" no="4" sum="200" type="15"/>
+   <action player="mrmone83" no="5" sum="200" type="15"/>
+   <action player="GushMints" no="6" sum="200" type="15"/>
+   <action player="AncientStoner" no="7" sum="200" type="15"/>
+   <action player="Brst01" no="8" sum="200" type="15"/>
+   <action player="lPozzal" no="9" sum="700" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="11" sum="0" type="0"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="12" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="13" sum="2,800" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="14" sum="10,360" type="23"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="15" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="16" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 S2</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="mrmone83" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965830">
+  <general>
+   <startdate>2024-02-24 15:42:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="116,159" dealer="1" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="122,800" dealer="0" bet="900" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="126,020" dealer="0" bet="1,600" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="182,057" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="93,174" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="161,721" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,926" dealer="0" bet="4,200" win="5,100" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="185,256" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="200" type="15"/>
+   <action player="TjibbeR" no="2" sum="200" type="15"/>
+   <action player="serjqq1" no="3" sum="200" type="15"/>
+   <action player="mrmone83" no="4" sum="200" type="15"/>
+   <action player="GushMints" no="5" sum="200" type="15"/>
+   <action player="AncientStoner" no="6" sum="200" type="15"/>
+   <action player="Brst01" no="7" sum="200" type="15"/>
+   <action player="lPozzal" no="8" sum="200" type="15"/>
+   <action player="tropeiro123" no="9" sum="700" type="1"/>
+   <action player="TjibbeR" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="11" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="12" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="13" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="14" sum="4,200" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="15" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 S8</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965875">
+  <general>
+   <startdate>2024-02-24 15:43:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="115,959" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="121,900" dealer="1" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="124,420" dealer="0" bet="900" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="181,857" dealer="0" bet="14,000" win="7,900" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="92,974" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="161,521" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="224,426" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="185,056" dealer="0" bet="3,000" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TjibbeR" no="1" sum="200" type="15"/>
+   <action player="serjqq1" no="2" sum="200" type="15"/>
+   <action player="mrmone83" no="3" sum="200" type="15"/>
+   <action player="GushMints" no="4" sum="200" type="15"/>
+   <action player="AncientStoner" no="5" sum="200" type="15"/>
+   <action player="Brst01" no="6" sum="200" type="15"/>
+   <action player="lPozzal" no="7" sum="200" type="15"/>
+   <action player="tropeiro123" no="8" sum="200" type="15"/>
+   <action player="TjibbeR" no="9" sum="700" type="1"/>
+   <action player="serjqq1" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="11" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="12" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="2,800" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 D3</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="17" sum="0" type="0"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="18" sum="14,000" type="23"/>
+   <action player="Brst01" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965981">
+  <general>
+   <startdate>2024-02-24 15:44:32</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="115,759" dealer="0" bet="46,650" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="121,700" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,520" dealer="1" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="serjqq1" reg_code="" chips="186,757" dealer="0" bet="1,050" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="92,774" dealer="0" bet="1,850" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="161,321" dealer="0" bet="3,930" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="224,226" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="182,056" dealer="0" bet="46,650" win="100,880" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="serjqq1" no="1" sum="250" type="15"/>
+   <action player="mrmone83" no="2" sum="250" type="15"/>
+   <action player="GushMints" no="3" sum="250" type="15"/>
+   <action player="AncientStoner" no="4" sum="250" type="15"/>
+   <action player="Brst01" no="5" sum="250" type="15"/>
+   <action player="lPozzal" no="6" sum="250" type="15"/>
+   <action player="tropeiro123" no="7" sum="250" type="15"/>
+   <action player="TjibbeR" no="8" sum="250" type="15"/>
+   <action player="serjqq1" no="9" sum="800" type="1"/>
+   <action player="mrmone83" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="11" sum="3,680" type="23"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="12" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">S7 SJ</cards>
+   <action player="Brst01" no="13" sum="3,680" type="3"/>
+   <cards player="lPozzal" type="Pocket">CJ DJ</cards>
+   <action player="lPozzal" no="14" sum="15,360" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H8 H2</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="16" sum="0" type="0"/>
+   <cards player="serjqq1" type="Pocket">X X</cards>
+   <action player="serjqq1" no="17" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="18" sum="0" type="0"/>
+   <action player="GushMints" no="19" sum="0" type="0"/>
+   <action player="Brst01" no="20" sum="11,680" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 H7 HA</cards>
+   <action player="Brst01" no="21" sum="0" type="4"/>
+   <action player="lPozzal" no="22" sum="5,820" type="5"/>
+   <action player="Brst01" no="23" sum="5,820" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action player="Brst01" no="24" sum="0" type="4"/>
+   <action player="lPozzal" no="25" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action player="Brst01" no="26" sum="25,220" type="5"/>
+   <action player="lPozzal" no="27" sum="25,220" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10581994245">
+  <general>
+   <startdate>2024-02-24 15:46:06</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="69,109" dealer="0" bet="46,696" win="30,545" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="121,450" dealer="0" bet="8,515" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,270" dealer="0" bet="8,515" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="90,924" dealer="0" bet="1,050" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="157,391" dealer="0" bet="3,450" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,976" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="236,286" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mrmone83" no="1" sum="250" type="15"/>
+   <action player="GushMints" no="2" sum="250" type="15"/>
+   <action player="AncientStoner" no="3" sum="250" type="15"/>
+   <action player="Brst01" no="4" sum="250" type="15"/>
+   <action player="lPozzal" no="5" sum="250" type="15"/>
+   <action player="tropeiro123" no="6" sum="250" type="15"/>
+   <action player="TjibbeR" no="7" sum="250" type="15"/>
+   <action player="mrmone83" no="8" sum="800" type="1"/>
+   <action player="GushMints" no="9" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="10" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="3,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HK D10</cards>
+   <action player="tropeiro123" no="13" sum="3,200" type="3"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="3,200" type="3"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="15" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="1,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S9 CK</cards>
+   <action player="GushMints" no="17" sum="0" type="4"/>
+   <action player="lPozzal" no="18" sum="5,065" type="5"/>
+   <action player="tropeiro123" no="19" sum="5,065" type="3"/>
+   <action player="TjibbeR" no="20" sum="5,065" type="3"/>
+   <action player="GushMints" no="21" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action player="lPozzal" no="22" sum="0" type="4"/>
+   <action player="tropeiro123" no="23" sum="0" type="4"/>
+   <action player="TjibbeR" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action player="lPozzal" no="25" sum="38,181" type="5"/>
+   <action player="tropeiro123" no="26" sum="0" type="0"/>
+   <action player="TjibbeR" no="27" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994426">
+  <general>
+   <startdate>2024-02-24 15:48:24</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="91,139" dealer="0" bet="6,650" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="112,935" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="114,755" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="125,000" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="89,874" dealer="1" bet="19,450" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="153,941" dealer="0" bet="1,050" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,726" dealer="0" bet="1,850" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="236,036" dealer="0" bet="56,350" win="49,200" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="250" type="15"/>
+   <action player="AncientStoner" no="2" sum="250" type="15"/>
+   <action player="Brst01" no="3" sum="250" type="15"/>
+   <action player="lPozzal" no="4" sum="250" type="15"/>
+   <action player="tropeiro123" no="5" sum="250" type="15"/>
+   <action player="TjibbeR" no="6" sum="250" type="15"/>
+   <action player="tramsyrev" no="7" sum="250" type="15"/>
+   <action player="mrmone83" no="8" sum="250" type="15"/>
+   <action player="GushMints" no="9" sum="800" type="1"/>
+   <action player="AncientStoner" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="1,600" type="3"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="1,600" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HJ S6</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="16" sum="6,400" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="0" type="0"/>
+   <action player="Brst01" no="19" sum="4,800" type="3"/>
+   <action player="lPozzal" no="20" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H10 SJ</cards>
+   <action player="Brst01" no="21" sum="0" type="4"/>
+   <action player="lPozzal" no="22" sum="0" type="4"/>
+   <action player="mrmone83" no="23" sum="12,800" type="5"/>
+   <action player="Brst01" no="24" sum="12,800" type="3"/>
+   <action player="lPozzal" no="25" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action player="Brst01" no="26" sum="0" type="4"/>
+   <action player="mrmone83" no="27" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action player="Brst01" no="28" sum="36,900" type="5"/>
+   <action player="mrmone83" no="29" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994545">
+  <general>
+   <startdate>2024-02-24 15:49:58</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="84,489" dealer="0" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="112,685" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="114,505" dealer="0" bet="6,570" win="9,200" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="124,750" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="70,424" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="152,891" dealer="1" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="221,876" dealer="0" bet="1,050" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="265,786" dealer="0" bet="3,450" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="250" type="15"/>
+   <action player="Brst01" no="2" sum="250" type="15"/>
+   <action player="lPozzal" no="3" sum="250" type="15"/>
+   <action player="tropeiro123" no="4" sum="250" type="15"/>
+   <action player="TjibbeR" no="5" sum="250" type="15"/>
+   <action player="tramsyrev" no="6" sum="250" type="15"/>
+   <action player="mrmone83" no="7" sum="250" type="15"/>
+   <action player="GushMints" no="8" sum="250" type="15"/>
+   <action player="AncientStoner" no="9" sum="800" type="1"/>
+   <action player="Brst01" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 D9</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="3,200" type="23"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="14" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="15" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="17" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="18" sum="1,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK S6 CQ</cards>
+   <action player="Brst01" no="19" sum="0" type="4"/>
+   <action player="TjibbeR" no="20" sum="3,120" type="5"/>
+   <action player="Brst01" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994615">
+  <general>
+   <startdate>2024-02-24 15:50:50</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="84,239" dealer="0" bet="1,850" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="112,435" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="120,255" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="124,500" dealer="0" bet="4,000" win="6,000" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="70,174" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="152,641" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,826" dealer="1" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="262,336" dealer="0" bet="1,050" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Brst01" no="1" sum="250" type="15"/>
+   <action player="lPozzal" no="2" sum="250" type="15"/>
+   <action player="tropeiro123" no="3" sum="250" type="15"/>
+   <action player="TjibbeR" no="4" sum="250" type="15"/>
+   <action player="tramsyrev" no="5" sum="250" type="15"/>
+   <action player="mrmone83" no="6" sum="250" type="15"/>
+   <action player="GushMints" no="7" sum="250" type="15"/>
+   <action player="AncientStoner" no="8" sum="250" type="15"/>
+   <action player="Brst01" no="9" sum="800" type="1"/>
+   <action player="lPozzal" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S7 DK</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="13" sum="4,000" type="23"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="14" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="15" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="16" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="17" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994686">
+  <general>
+   <startdate>2024-02-24 15:51:48</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="82,389" dealer="0" bet="1,050" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="112,185" dealer="0" bet="9,134" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="120,005" dealer="0" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="128,650" dealer="0" bet="4,250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="69,924" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="152,391" dealer="0" bet="25,348" win="24,568" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,576" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="261,286" dealer="1" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="lPozzal" no="1" sum="250" type="15"/>
+   <action player="tropeiro123" no="2" sum="250" type="15"/>
+   <action player="TjibbeR" no="3" sum="250" type="15"/>
+   <action player="tramsyrev" no="4" sum="250" type="15"/>
+   <action player="mrmone83" no="5" sum="250" type="15"/>
+   <action player="GushMints" no="6" sum="250" type="15"/>
+   <action player="AncientStoner" no="7" sum="250" type="15"/>
+   <action player="Brst01" no="8" sum="250" type="15"/>
+   <action player="lPozzal" no="9" sum="800" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="11" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="12" sum="4,000" type="23"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="13" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="14" sum="4,000" type="3"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="15" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="16" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 D9</cards>
+   <action player="tropeiro123" no="18" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H5 S7</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="tramsyrev" no="20" sum="0" type="4"/>
+   <action player="GushMints" no="21" sum="4,884" type="5"/>
+   <action player="tropeiro123" no="22" sum="4,884" type="3"/>
+   <action player="tramsyrev" no="23" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action player="tropeiro123" no="24" sum="0" type="4"/>
+   <action player="GushMints" no="25" sum="16,214" type="5"/>
+   <action player="tropeiro123" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994818">
+  <general>
+   <startdate>2024-02-24 15:53:29</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="81,339" dealer="1" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="103,051" dealer="0" bet="1,050" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="119,755" dealer="0" bet="11,200" win="9,200" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="124,400" dealer="0" bet="250" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="69,674" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="167,825" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,326" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="261,036" dealer="0" bet="3,450" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="250" type="15"/>
+   <action player="TjibbeR" no="2" sum="250" type="15"/>
+   <action player="tramsyrev" no="3" sum="250" type="15"/>
+   <action player="mrmone83" no="4" sum="250" type="15"/>
+   <action player="GushMints" no="5" sum="250" type="15"/>
+   <action player="AncientStoner" no="6" sum="250" type="15"/>
+   <action player="Brst01" no="7" sum="250" type="15"/>
+   <action player="lPozzal" no="8" sum="250" type="15"/>
+   <action player="tropeiro123" no="9" sum="800" type="1"/>
+   <action player="TjibbeR" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="11" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="12" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="13" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="14" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="15" sum="3,200" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA H3</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="18" sum="11,200" type="23"/>
+   <action player="Brst01" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581994942">
+  <general>
+   <startdate>2024-02-24 15:54:58</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="81,089" dealer="0" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="102,001" dealer="1" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="125,505" dealer="0" bet="1,050" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="124,150" dealer="0" bet="1,850" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="69,424" dealer="0" bet="250" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="167,575" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,076" dealer="0" bet="4,800" win="6,000" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="257,586" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TjibbeR" no="1" sum="250" type="15"/>
+   <action player="tramsyrev" no="2" sum="250" type="15"/>
+   <action player="mrmone83" no="3" sum="250" type="15"/>
+   <action player="GushMints" no="4" sum="250" type="15"/>
+   <action player="AncientStoner" no="5" sum="250" type="15"/>
+   <action player="Brst01" no="6" sum="250" type="15"/>
+   <action player="lPozzal" no="7" sum="250" type="15"/>
+   <action player="tropeiro123" no="8" sum="250" type="15"/>
+   <action player="TjibbeR" no="9" sum="800" type="1"/>
+   <action player="tramsyrev" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="11" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="12" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="4,800" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 C4</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="17" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581995000">
+  <general>
+   <startdate>2024-02-24 16:01:30</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="80,839" dealer="0" bet="250" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="101,751" dealer="0" bet="250" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="124,455" dealer="1" bet="250" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="122,300" dealer="0" bet="5,750" win="5,200" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="69,174" dealer="0" bet="1,850" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="167,325" dealer="0" bet="250" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="224,226" dealer="0" bet="250" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="257,336" dealer="0" bet="250" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tramsyrev" no="1" sum="250" type="15"/>
+   <action player="mrmone83" no="2" sum="250" type="15"/>
+   <action player="GushMints" no="3" sum="250" type="15"/>
+   <action player="AncientStoner" no="4" sum="250" type="15"/>
+   <action player="Brst01" no="5" sum="250" type="15"/>
+   <action player="lPozzal" no="6" sum="250" type="15"/>
+   <action player="tropeiro123" no="7" sum="250" type="15"/>
+   <action player="TjibbeR" no="8" sum="250" type="15"/>
+   <action player="tramsyrev" no="9" sum="800" type="1"/>
+   <action player="mrmone83" no="10" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="11" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="12" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="13" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 D5</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="16" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="17" sum="800" type="3"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="18" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 CJ SJ</cards>
+   <action player="tramsyrev" no="19" sum="0" type="4"/>
+   <action player="mrmone83" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action player="tramsyrev" no="21" sum="3,900" type="5"/>
+   <action player="mrmone83" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582018944">
+  <general>
+   <startdate>2024-02-24 16:03:19</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="80,589" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="101,501" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="124,205" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="125,650" dealer="1" bet="275" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="67,324" dealer="0" bet="3,875" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="167,075" dealer="0" bet="14,400" win="13,000" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,976" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="257,086" dealer="0" bet="3,875" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="mrmone83" no="1" sum="275" type="15"/>
+   <action player="GushMints" no="2" sum="275" type="15"/>
+   <action player="AncientStoner" no="3" sum="275" type="15"/>
+   <action player="Brst01" no="4" sum="275" type="15"/>
+   <action player="lPozzal" no="5" sum="275" type="15"/>
+   <action player="tropeiro123" no="6" sum="275" type="15"/>
+   <action player="TjibbeR" no="7" sum="275" type="15"/>
+   <action player="tramsyrev" no="8" sum="275" type="15"/>
+   <action player="mrmone83" no="9" sum="900" type="1"/>
+   <action player="GushMints" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="11" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="12" sum="3,600" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 DQ</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="15" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="16" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="17" sum="2,700" type="3"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="18" sum="14,400" type="23"/>
+   <action player="Brst01" no="19" sum="0" type="0"/>
+   <action player="mrmone83" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582019010">
+  <general>
+   <startdate>2024-02-24 16:04:03</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="80,314" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="101,226" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,930" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="125,375" dealer="0" bet="3,960" win="6,700" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="63,449" dealer="1" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="176,200" dealer="0" bet="1,175" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,701" dealer="0" bet="2,075" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="253,211" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="275" type="15"/>
+   <action player="AncientStoner" no="2" sum="275" type="15"/>
+   <action player="Brst01" no="3" sum="275" type="15"/>
+   <action player="lPozzal" no="4" sum="275" type="15"/>
+   <action player="tropeiro123" no="5" sum="275" type="15"/>
+   <action player="TjibbeR" no="6" sum="275" type="15"/>
+   <action player="tramsyrev" no="7" sum="275" type="15"/>
+   <action player="mrmone83" no="8" sum="275" type="15"/>
+   <action player="GushMints" no="9" sum="900" type="1"/>
+   <action player="AncientStoner" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H8</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="3,960" type="23"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="16" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582019102">
+  <general>
+   <startdate>2024-02-24 16:05:10</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="80,039" dealer="0" bet="18,275" win="17,500" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="100,951" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,655" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="130,000" dealer="0" bet="275" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="63,174" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="175,025" dealer="1" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="221,626" dealer="0" bet="1,175" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="252,936" dealer="0" bet="7,475" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="275" type="15"/>
+   <action player="Brst01" no="2" sum="275" type="15"/>
+   <action player="lPozzal" no="3" sum="275" type="15"/>
+   <action player="tropeiro123" no="4" sum="275" type="15"/>
+   <action player="TjibbeR" no="5" sum="275" type="15"/>
+   <action player="tramsyrev" no="6" sum="275" type="15"/>
+   <action player="mrmone83" no="7" sum="275" type="15"/>
+   <action player="GushMints" no="8" sum="275" type="15"/>
+   <action player="AncientStoner" no="9" sum="900" type="1"/>
+   <action player="Brst01" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="11" sum="3,600" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SQ D6</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="14" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="15" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="17" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="18" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 D4 D9</cards>
+   <action player="Brst01" no="19" sum="0" type="4"/>
+   <action player="lPozzal" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action player="Brst01" no="21" sum="3,600" type="5"/>
+   <action player="lPozzal" no="22" sum="14,400" type="23"/>
+   <action player="Brst01" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582019211">
+  <general>
+   <startdate>2024-02-24 16:06:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="90,064" dealer="0" bet="4,775" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="100,676" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,380" dealer="0" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="129,725" dealer="0" bet="8,768" win="12,100" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="62,899" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,750" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,451" dealer="1" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="245,461" dealer="0" bet="1,175" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Brst01" no="1" sum="275" type="15"/>
+   <action player="lPozzal" no="2" sum="275" type="15"/>
+   <action player="tropeiro123" no="3" sum="275" type="15"/>
+   <action player="TjibbeR" no="4" sum="275" type="15"/>
+   <action player="tramsyrev" no="5" sum="275" type="15"/>
+   <action player="mrmone83" no="6" sum="275" type="15"/>
+   <action player="GushMints" no="7" sum="275" type="15"/>
+   <action player="AncientStoner" no="8" sum="275" type="15"/>
+   <action player="Brst01" no="9" sum="900" type="1"/>
+   <action player="lPozzal" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H10 SJ</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="13" sum="4,500" type="23"/>
+   <cards player="mrmone83" type="Pocket">X X</cards>
+   <action player="mrmone83" no="14" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="15" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="16" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="17" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="18" sum="2,700" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 SA D4</cards>
+   <action player="lPozzal" no="19" sum="0" type="4"/>
+   <action player="tramsyrev" no="20" sum="3,993" type="5"/>
+   <action player="lPozzal" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582019287">
+  <general>
+   <startdate>2024-02-24 16:07:27</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="85,289" dealer="0" bet="85,289" win="132,298" rebuy="0" seat="1" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="mrmone83"/>
+    </player>
+    <player name="tropeiro123" reg_code="7959783635" chips="100,401" dealer="0" bet="2,075" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="123,105" dealer="0" bet="3,875" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="137,050" dealer="0" bet="275" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="mrmone83" reg_code="" chips="62,624" dealer="0" bet="62,624" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,475" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="220,176" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="244,286" dealer="1" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="lPozzal" no="1" sum="275" type="15"/>
+   <action player="tropeiro123" no="2" sum="275" type="15"/>
+   <action player="TjibbeR" no="3" sum="275" type="15"/>
+   <action player="tramsyrev" no="4" sum="275" type="15"/>
+   <action player="mrmone83" no="5" sum="275" type="15"/>
+   <action player="GushMints" no="6" sum="275" type="15"/>
+   <action player="AncientStoner" no="7" sum="275" type="15"/>
+   <action player="Brst01" no="8" sum="275" type="15"/>
+   <action player="lPozzal" no="9" sum="900" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="11" sum="3,600" type="23"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="12" sum="0" type="0"/>
+   <cards player="mrmone83" type="Pocket">D8 D10</cards>
+   <action player="mrmone83" no="13" sum="3,600" type="3"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="14" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="15" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="16" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">HA HK</cards>
+   <action player="lPozzal" no="17" sum="18,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CA CQ</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+   <action player="TjibbeR" no="19" sum="0" type="0"/>
+   <action player="mrmone83" no="20" sum="14,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 C5 H4</cards>
+   <action player="lPozzal" no="21" sum="14,388" type="5"/>
+   <action player="mrmone83" no="22" sum="14,388" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action player="lPozzal" no="23" sum="52,626" type="5"/>
+   <action player="mrmone83" no="24" sum="29,961" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10582019416">
+  <general>
+   <startdate>2024-02-24 16:09:04</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="154,963" dealer="1" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="98,326" dealer="0" bet="21,353" win="48,581" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="119,230" dealer="0" bet="4,775" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="136,775" dealer="0" bet="21,353" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,200" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="219,901" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="244,011" dealer="0" bet="275" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="275" type="15"/>
+   <action player="TjibbeR" no="2" sum="275" type="15"/>
+   <action player="tramsyrev" no="3" sum="275" type="15"/>
+   <action player="GushMints" no="4" sum="275" type="15"/>
+   <action player="AncientStoner" no="5" sum="275" type="15"/>
+   <action player="Brst01" no="6" sum="275" type="15"/>
+   <action player="lPozzal" no="7" sum="275" type="15"/>
+   <action player="tropeiro123" no="8" sum="900" type="1"/>
+   <action player="TjibbeR" no="9" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tramsyrev" type="Pocket">HK DJ</cards>
+   <action player="tramsyrev" no="10" sum="4,500" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="11" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="12" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="13" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK CQ</cards>
+   <action player="tropeiro123" no="15" sum="3,600" type="3"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="16" sum="2,700" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 DK H10</cards>
+   <action player="tropeiro123" no="17" sum="0" type="4"/>
+   <action player="TjibbeR" no="18" sum="0" type="4"/>
+   <action player="tramsyrev" no="19" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action player="tropeiro123" no="20" sum="3,852" type="5"/>
+   <action player="TjibbeR" no="21" sum="0" type="0"/>
+   <action player="tramsyrev" no="22" sum="3,852" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action player="tropeiro123" no="23" sum="12,726" type="5"/>
+   <action player="tramsyrev" no="24" sum="12,726" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10582019633">
+  <general>
+   <startdate>2024-02-24 16:11:42</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="154,688" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="125,554" dealer="1" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="114,455" dealer="0" bet="1,175" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="115,422" dealer="0" bet="9,457" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="125,000" dealer="0" bet="275" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="173,925" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="219,626" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="243,736" dealer="0" bet="25,555" win="21,464" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TjibbeR" no="1" sum="275" type="15"/>
+   <action player="tramsyrev" no="2" sum="275" type="15"/>
+   <action player="Domovoy111" no="3" sum="275" type="15"/>
+   <action player="GushMints" no="4" sum="275" type="15"/>
+   <action player="AncientStoner" no="5" sum="275" type="15"/>
+   <action player="Brst01" no="6" sum="275" type="15"/>
+   <action player="lPozzal" no="7" sum="275" type="15"/>
+   <action player="tropeiro123" no="8" sum="275" type="15"/>
+   <action player="TjibbeR" no="9" sum="900" type="1"/>
+   <action player="tramsyrev" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="11" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="12" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="3,816" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 S7</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="17" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="18" sum="2,016" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 S9 CQ</cards>
+   <action player="tramsyrev" no="19" sum="0" type="4"/>
+   <action player="Brst01" no="20" sum="5,366" type="5"/>
+   <action player="tramsyrev" no="21" sum="5,366" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action player="tramsyrev" no="22" sum="0" type="4"/>
+   <action player="Brst01" no="23" sum="16,098" type="5"/>
+   <action player="tramsyrev" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053155">
+  <general>
+   <startdate>2024-02-24 16:13:11</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="154,413" dealer="0" bet="275" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="125,279" dealer="0" bet="275" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="113,280" dealer="1" bet="275" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="105,965" dealer="0" bet="1,175" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="124,725" dealer="0" bet="2,075" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="173,650" dealer="0" bet="275" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="219,351" dealer="0" bet="275" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="255,743" dealer="0" bet="3,600" win="6,700" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tramsyrev" no="1" sum="275" type="15"/>
+   <action player="Domovoy111" no="2" sum="275" type="15"/>
+   <action player="GushMints" no="3" sum="275" type="15"/>
+   <action player="AncientStoner" no="4" sum="275" type="15"/>
+   <action player="Brst01" no="5" sum="275" type="15"/>
+   <action player="lPozzal" no="6" sum="275" type="15"/>
+   <action player="tropeiro123" no="7" sum="275" type="15"/>
+   <action player="TjibbeR" no="8" sum="275" type="15"/>
+   <action player="tramsyrev" no="9" sum="900" type="1"/>
+   <action player="Domovoy111" no="10" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="11" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="12" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="13" sum="3,600" type="23"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 C6</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="16" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="17" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053243">
+  <general>
+   <startdate>2024-02-24 16:14:19</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="154,138" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="125,004" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="113,005" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="104,790" dealer="1" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="122,650" dealer="0" bet="1,300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="173,375" dealer="0" bet="2,300" win="4,400" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="219,076" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="260,368" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Domovoy111" no="1" sum="300" type="15"/>
+   <action player="GushMints" no="2" sum="300" type="15"/>
+   <action player="AncientStoner" no="3" sum="300" type="15"/>
+   <action player="Brst01" no="4" sum="300" type="15"/>
+   <action player="lPozzal" no="5" sum="300" type="15"/>
+   <action player="tropeiro123" no="6" sum="300" type="15"/>
+   <action player="TjibbeR" no="7" sum="300" type="15"/>
+   <action player="tramsyrev" no="8" sum="300" type="15"/>
+   <action player="Domovoy111" no="9" sum="1,000" type="1"/>
+   <action player="GushMints" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="11" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="12" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 H2</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="15" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="16" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053318">
+  <general>
+   <startdate>2024-02-24 16:15:12</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="153,838" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="124,704" dealer="0" bet="7,460" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="112,705" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="104,490" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="121,350" dealer="1" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="176,475" dealer="0" bet="1,300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="218,776" dealer="0" bet="14,420" win="17,720" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="260,068" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="300" type="15"/>
+   <action player="AncientStoner" no="2" sum="300" type="15"/>
+   <action player="Brst01" no="3" sum="300" type="15"/>
+   <action player="lPozzal" no="4" sum="300" type="15"/>
+   <action player="tropeiro123" no="5" sum="300" type="15"/>
+   <action player="TjibbeR" no="6" sum="300" type="15"/>
+   <action player="tramsyrev" no="7" sum="300" type="15"/>
+   <action player="Domovoy111" no="8" sum="300" type="15"/>
+   <action player="GushMints" no="9" sum="1,000" type="1"/>
+   <action player="AncientStoner" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 D6</cards>
+   <action player="tropeiro123" no="13" sum="4,200" type="23"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="16" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="2,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 HK S9</cards>
+   <action player="AncientStoner" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="2,960" type="5"/>
+   <action player="AncientStoner" no="21" sum="9,920" type="23"/>
+   <action player="tropeiro123" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053460">
+  <general>
+   <startdate>2024-02-24 16:16:56</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="153,538" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="117,244" dealer="0" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="112,405" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="104,190" dealer="0" bet="10,800" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="121,050" dealer="0" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="175,175" dealer="1" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="229,036" dealer="0" bet="1,300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="259,768" dealer="0" bet="23,000" win="24,400" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="300" type="15"/>
+   <action player="Brst01" no="2" sum="300" type="15"/>
+   <action player="lPozzal" no="3" sum="300" type="15"/>
+   <action player="tropeiro123" no="4" sum="300" type="15"/>
+   <action player="TjibbeR" no="5" sum="300" type="15"/>
+   <action player="tramsyrev" no="6" sum="300" type="15"/>
+   <action player="Domovoy111" no="7" sum="300" type="15"/>
+   <action player="GushMints" no="8" sum="300" type="15"/>
+   <action player="AncientStoner" no="9" sum="1,000" type="1"/>
+   <action player="Brst01" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 S7</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="14" sum="4,400" type="23"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="15" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="17" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="18" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H3 C3</cards>
+   <action player="Brst01" no="19" sum="0" type="4"/>
+   <action player="tramsyrev" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action player="Brst01" no="21" sum="6,100" type="5"/>
+   <action player="tramsyrev" no="22" sum="6,100" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+   <action player="Brst01" no="23" sum="12,200" type="5"/>
+   <action player="tramsyrev" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053630">
+  <general>
+   <startdate>2024-02-24 16:18:59</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="lPozzal" reg_code="" chips="153,238" dealer="0" bet="4,500" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="116,944" dealer="0" bet="7,460" win="11,800" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="112,105" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="93,390" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="120,750" dealer="0" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,875" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="227,736" dealer="1" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="273,368" dealer="0" bet="1,300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Brst01" no="1" sum="300" type="15"/>
+   <action player="lPozzal" no="2" sum="300" type="15"/>
+   <action player="tropeiro123" no="3" sum="300" type="15"/>
+   <action player="TjibbeR" no="4" sum="300" type="15"/>
+   <action player="tramsyrev" no="5" sum="300" type="15"/>
+   <action player="Domovoy111" no="6" sum="300" type="15"/>
+   <action player="GushMints" no="7" sum="300" type="15"/>
+   <action player="AncientStoner" no="8" sum="300" type="15"/>
+   <action player="Brst01" no="9" sum="1,000" type="1"/>
+   <action player="lPozzal" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SA HA</cards>
+   <action player="tropeiro123" no="11" sum="4,200" type="23"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="13" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="14" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="15" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="16" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="17" sum="0" type="0"/>
+   <cards player="lPozzal" type="Pocket">X X</cards>
+   <action player="lPozzal" no="18" sum="2,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 SK H6</cards>
+   <action player="lPozzal" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="2,960" type="5"/>
+   <action player="lPozzal" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582053723">
+  <general>
+   <startdate>2024-02-24 16:20:13</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959783635" chips="124,244" dealer="0" bet="7,965" win="17,430" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="111,805" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="93,090" dealer="0" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="120,450" dealer="0" bet="7,965" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,575" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="227,436" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="272,068" dealer="1" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="300" type="15"/>
+   <action player="TjibbeR" no="2" sum="300" type="15"/>
+   <action player="tramsyrev" no="3" sum="300" type="15"/>
+   <action player="Domovoy111" no="4" sum="300" type="15"/>
+   <action player="GushMints" no="5" sum="300" type="15"/>
+   <action player="AncientStoner" no="6" sum="300" type="15"/>
+   <action player="Brst01" no="7" sum="300" type="15"/>
+   <action player="tropeiro123" no="8" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="9" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="10" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">C6 H6</cards>
+   <action player="Domovoy111" no="11" sum="4,200" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="12" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 H10</cards>
+   <action player="tropeiro123" no="15" sum="2,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 SK H7</cards>
+   <action player="tropeiro123" no="16" sum="0" type="4"/>
+   <action player="Domovoy111" no="17" sum="3,465" type="5"/>
+   <action player="tropeiro123" no="18" sum="3,465" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="Domovoy111" no="20" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action player="tropeiro123" no="21" sum="0" type="4"/>
+   <action player="Domovoy111" no="22" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582053830">
+  <general>
+   <startdate>2024-02-24 16:21:36</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="jeremix19" reg_code="" chips="125,000" dealer="0" bet="125,000" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="133,709" dealer="1" bet="300" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="111,505" dealer="0" bet="1,300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="92,790" dealer="0" bet="2,300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="112,485" dealer="0" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="174,275" dealer="0" bet="125,000" win="254,800" rebuy="0" seat="7" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="jeremix19"/>
+    </player>
+    <player name="AncientStoner" reg_code="" chips="227,136" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="271,768" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TjibbeR" no="1" sum="300" type="15"/>
+   <action player="tramsyrev" no="2" sum="300" type="15"/>
+   <action player="Domovoy111" no="3" sum="300" type="15"/>
+   <action player="GushMints" no="4" sum="300" type="15"/>
+   <action player="AncientStoner" no="5" sum="300" type="15"/>
+   <action player="Brst01" no="6" sum="300" type="15"/>
+   <action player="jeremix19" no="7" sum="300" type="15"/>
+   <action player="tropeiro123" no="8" sum="300" type="15"/>
+   <action player="TjibbeR" no="9" sum="1,000" type="1"/>
+   <action player="tramsyrev" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="11" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">S9 SQ</cards>
+   <action player="GushMints" no="12" sum="4,200" type="23"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="0" type="0"/>
+   <cards player="jeremix19" type="Pocket">CK HA</cards>
+   <action player="jeremix19" no="15" sum="14,400" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S10 DJ</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="17" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="18" sum="0" type="0"/>
+   <action player="GushMints" no="19" sum="10,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK D3 S6</cards>
+   <action player="GushMints" no="20" sum="0" type="4"/>
+   <action player="jeremix19" no="21" sum="20,000" type="5"/>
+   <action player="GushMints" no="22" sum="75,360" type="23"/>
+   <action player="jeremix19" no="23" sum="90,300" type="7"/>
+   <action player="GushMints" no="24" sum="34,940" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10582053941">
+  <general>
+   <startdate>2024-02-24 16:23:03</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" reg_code="7959783635" chips="133,409" dealer="0" bet="4,200" win="7,100" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="110,205" dealer="1" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="90,490" dealer="0" bet="1,300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="112,185" dealer="0" bet="2,300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="304,075" dealer="0" bet="300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="226,836" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="271,468" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tramsyrev" no="1" sum="300" type="15"/>
+   <action player="Domovoy111" no="2" sum="300" type="15"/>
+   <action player="GushMints" no="3" sum="300" type="15"/>
+   <action player="AncientStoner" no="4" sum="300" type="15"/>
+   <action player="Brst01" no="5" sum="300" type="15"/>
+   <action player="tropeiro123" no="6" sum="300" type="15"/>
+   <action player="TjibbeR" no="7" sum="300" type="15"/>
+   <action player="tramsyrev" no="8" sum="1,000" type="1"/>
+   <action player="Domovoy111" no="9" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="10" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="11" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA S4</cards>
+   <action player="tropeiro123" no="13" sum="4,200" type="23"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080234">
+  <general>
+   <startdate>2024-02-24 16:23:44</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="125,000" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="138,209" dealer="0" bet="4,200" win="7,400" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="109,905" dealer="0" bet="300" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="89,190" dealer="1" bet="300" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="109,885" dealer="0" bet="1,300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="303,775" dealer="0" bet="2,300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="226,536" dealer="0" bet="300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="271,168" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Domovoy111" no="1" sum="300" type="15"/>
+   <action player="GushMints" no="2" sum="300" type="15"/>
+   <action player="AncientStoner" no="3" sum="300" type="15"/>
+   <action player="Brst01" no="4" sum="300" type="15"/>
+   <action player="tigersleepy799" no="5" sum="300" type="15"/>
+   <action player="tropeiro123" no="6" sum="300" type="15"/>
+   <action player="TjibbeR" no="7" sum="300" type="15"/>
+   <action player="tramsyrev" no="8" sum="300" type="15"/>
+   <action player="Domovoy111" no="9" sum="1,000" type="1"/>
+   <action player="GushMints" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="11" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="12" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 CK</cards>
+   <action player="tropeiro123" no="14" sum="4,200" type="23"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="15" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="16" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="17" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080296">
+  <general>
+   <startdate>2024-02-24 16:24:33</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="124,700" dealer="0" bet="300" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="143,309" dealer="0" bet="88,890" win="197,280" rebuy="0" seat="2" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tramsyrev"/>
+    </player>
+    <player name="TjibbeR" reg_code="" chips="109,605" dealer="0" bet="15,000" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="88,890" dealer="0" bet="88,890" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="108,585" dealer="1" bet="300" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="301,475" dealer="0" bet="1,300" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="226,236" dealer="0" bet="2,300" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="270,868" dealer="0" bet="300" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="300" type="15"/>
+   <action player="AncientStoner" no="2" sum="300" type="15"/>
+   <action player="Brst01" no="3" sum="300" type="15"/>
+   <action player="tigersleepy799" no="4" sum="300" type="15"/>
+   <action player="tropeiro123" no="5" sum="300" type="15"/>
+   <action player="TjibbeR" no="6" sum="300" type="15"/>
+   <action player="tramsyrev" no="7" sum="300" type="15"/>
+   <action player="Domovoy111" no="8" sum="300" type="15"/>
+   <action player="GushMints" no="9" sum="1,000" type="1"/>
+   <action player="AncientStoner" no="10" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ CA</cards>
+   <action player="tropeiro123" no="13" sum="4,200" type="23"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="4,200" type="3"/>
+   <cards player="tramsyrev" type="Pocket">DA HK</cards>
+   <action player="tramsyrev" no="15" sum="14,700" type="23"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="16" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="0" type="0"/>
+   <action player="tropeiro123" no="19" sum="10,500" type="3"/>
+   <action player="TjibbeR" no="20" sum="10,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 HQ HJ</cards>
+   <action player="tropeiro123" no="21" sum="0" type="4"/>
+   <action player="TjibbeR" no="22" sum="0" type="4"/>
+   <action player="tramsyrev" no="23" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action player="tropeiro123" no="24" sum="0" type="4"/>
+   <action player="TjibbeR" no="25" sum="0" type="4"/>
+   <action player="tramsyrev" no="26" sum="16,335" type="5"/>
+   <action player="tropeiro123" no="27" sum="16,335" type="3"/>
+   <action player="TjibbeR" no="28" sum="0" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action player="tropeiro123" no="29" sum="0" type="4"/>
+   <action player="tramsyrev" no="30" sum="57,555" type="5"/>
+   <action player="tropeiro123" no="31" sum="57,555" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10582080474">
+  <general>
+   <startdate>2024-02-24 16:27:02</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="124,400" dealer="0" bet="350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="251,699" dealer="0" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="94,605" dealer="0" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="108,285" dealer="0" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="300,175" dealer="1" bet="350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="223,936" dealer="0" bet="1,600" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="270,568" dealer="0" bet="2,850" win="4,950" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="350" type="15"/>
+   <action player="Brst01" no="2" sum="350" type="15"/>
+   <action player="tigersleepy799" no="3" sum="350" type="15"/>
+   <action player="tropeiro123" no="4" sum="350" type="15"/>
+   <action player="TjibbeR" no="5" sum="350" type="15"/>
+   <action player="Domovoy111" no="6" sum="350" type="15"/>
+   <action player="GushMints" no="7" sum="350" type="15"/>
+   <action player="AncientStoner" no="8" sum="1,250" type="1"/>
+   <action player="Brst01" no="9" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 DQ</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="13" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="14" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="15" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080521">
+  <general>
+   <startdate>2024-02-24 16:27:47</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="124,050" dealer="0" bet="2,850" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="251,349" dealer="0" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="94,255" dealer="0" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="304,998" dealer="0" bet="350" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="107,935" dealer="0" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="299,825" dealer="0" bet="350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="222,336" dealer="1" bet="350" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="273,918" dealer="0" bet="5,350" win="7,800" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Brst01" no="1" sum="350" type="15"/>
+   <action player="tigersleepy799" no="2" sum="350" type="15"/>
+   <action player="tropeiro123" no="3" sum="350" type="15"/>
+   <action player="TjibbeR" no="4" sum="350" type="15"/>
+   <action player="dscturrr" no="5" sum="350" type="15"/>
+   <action player="Domovoy111" no="6" sum="350" type="15"/>
+   <action player="GushMints" no="7" sum="350" type="15"/>
+   <action player="AncientStoner" no="8" sum="350" type="15"/>
+   <action player="Brst01" no="9" sum="1,250" type="1"/>
+   <action player="tigersleepy799" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D5 H10</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="12" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="13" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="14" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="15" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="16" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="17" sum="1,250" type="3"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="18" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ H4 DJ</cards>
+   <action player="Brst01" no="19" sum="2,500" type="5"/>
+   <action player="tigersleepy799" no="20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080594">
+  <general>
+   <startdate>2024-02-24 16:28:47</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="121,200" dealer="0" bet="5,350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="250,999" dealer="0" bet="39,170" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="93,905" dealer="0" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="304,648" dealer="0" bet="350" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="107,585" dealer="0" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="299,475" dealer="0" bet="350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="221,986" dealer="0" bet="39,170" win="85,440" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="278,868" dealer="1" bet="350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tigersleepy799" no="1" sum="350" type="15"/>
+   <action player="tropeiro123" no="2" sum="350" type="15"/>
+   <action player="TjibbeR" no="3" sum="350" type="15"/>
+   <action player="dscturrr" no="4" sum="350" type="15"/>
+   <action player="Domovoy111" no="5" sum="350" type="15"/>
+   <action player="GushMints" no="6" sum="350" type="15"/>
+   <action player="AncientStoner" no="7" sum="350" type="15"/>
+   <action player="Brst01" no="8" sum="350" type="15"/>
+   <action player="tigersleepy799" no="9" sum="1,250" type="1"/>
+   <action player="tropeiro123" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="11" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="12" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="13" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="14" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">DQ CA</cards>
+   <action player="AncientStoner" no="15" sum="5,000" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="16" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="17" sum="3,750" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D10 HQ</cards>
+   <action player="tropeiro123" no="18" sum="2,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA CJ D7</cards>
+   <action player="tigersleepy799" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="0" type="4"/>
+   <action player="AncientStoner" no="21" sum="8,900" type="5"/>
+   <action player="tigersleepy799" no="22" sum="0" type="0"/>
+   <action player="tropeiro123" no="23" sum="8,900" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action player="tropeiro123" no="24" sum="0" type="4"/>
+   <action player="AncientStoner" no="25" sum="24,920" type="5"/>
+   <action player="tropeiro123" no="26" sum="24,920" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+   <action player="tropeiro123" no="27" sum="0" type="4"/>
+   <action player="AncientStoner" no="28" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582080753">
+  <general>
+   <startdate>2024-02-24 16:31:08</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="115,850" dealer="1" bet="350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="211,829" dealer="0" bet="1,600" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="93,555" dealer="0" bet="34,185" win="81,720" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="304,298" dealer="0" bet="350" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="107,235" dealer="0" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="299,125" dealer="0" bet="350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="268,256" dealer="0" bet="34,185" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="278,518" dealer="0" bet="10,350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="350" type="15"/>
+   <action player="TjibbeR" no="2" sum="350" type="15"/>
+   <action player="dscturrr" no="3" sum="350" type="15"/>
+   <action player="Domovoy111" no="4" sum="350" type="15"/>
+   <action player="GushMints" no="5" sum="350" type="15"/>
+   <action player="AncientStoner" no="6" sum="350" type="15"/>
+   <action player="Brst01" no="7" sum="350" type="15"/>
+   <action player="tigersleepy799" no="8" sum="350" type="15"/>
+   <action player="tropeiro123" no="9" sum="1,250" type="1"/>
+   <action player="TjibbeR" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="11" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="12" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="13" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">DA S9</cards>
+   <action player="AncientStoner" no="14" sum="5,000" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="15" sum="5,000" type="3"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="16" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 HA</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">H6 C5</cards>
+   <action player="TjibbeR" no="18" sum="2,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 CA D5</cards>
+   <action player="TjibbeR" no="19" sum="0" type="4"/>
+   <action player="AncientStoner" no="20" sum="0" type="4"/>
+   <action player="Brst01" no="21" sum="5,000" type="5"/>
+   <action player="TjibbeR" no="22" sum="5,000" type="3"/>
+   <action player="AncientStoner" no="23" sum="5,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action player="TjibbeR" no="24" sum="0" type="4"/>
+   <action player="AncientStoner" no="25" sum="0" type="4"/>
+   <action player="Brst01" no="26" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action player="TjibbeR" no="27" sum="23,835" type="5"/>
+   <action player="AncientStoner" no="28" sum="23,835" type="3"/>
+   <action player="Brst01" no="29" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080903">
+  <general>
+   <startdate>2024-02-24 16:33:07</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="115,500" dealer="0" bet="115,500" win="14,050" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="210,229" dealer="1" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="141,090" dealer="0" bet="1,600" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="303,948" dealer="0" bet="5,350" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="106,885" dealer="0" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="298,775" dealer="0" bet="350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="234,071" dealer="0" bet="350" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="268,168" dealer="0" bet="350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="TjibbeR" no="1" sum="350" type="15"/>
+   <action player="dscturrr" no="2" sum="350" type="15"/>
+   <action player="Domovoy111" no="3" sum="350" type="15"/>
+   <action player="GushMints" no="4" sum="350" type="15"/>
+   <action player="AncientStoner" no="5" sum="350" type="15"/>
+   <action player="Brst01" no="6" sum="350" type="15"/>
+   <action player="tigersleepy799" no="7" sum="350" type="15"/>
+   <action player="tropeiro123" no="8" sum="350" type="15"/>
+   <action player="TjibbeR" no="9" sum="1,250" type="1"/>
+   <action player="dscturrr" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="11" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="12" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="13" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="14" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="15" sum="2,500" type="3"/>
+   <cards player="tropeiro123" type="Pocket">SJ S5</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="17" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="18" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ D7 S9</cards>
+   <action player="dscturrr" no="19" sum="0" type="4"/>
+   <action player="tigersleepy799" no="20" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action player="dscturrr" no="21" sum="0" type="4"/>
+   <action player="tigersleepy799" no="22" sum="2,500" type="5"/>
+   <action player="dscturrr" no="23" sum="2,500" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action player="dscturrr" no="24" sum="0" type="4"/>
+   <action player="tigersleepy799" no="25" sum="110,150" type="5"/>
+   <action player="dscturrr" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582080989">
+  <general>
+   <startdate>2024-02-24 16:34:21</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="124,200" dealer="0" bet="350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="209,879" dealer="0" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="139,490" dealer="1" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="298,598" dealer="0" bet="1,600" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="106,535" dealer="0" bet="10,401" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="298,425" dealer="0" bet="32,901" win="24,152" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="233,721" dealer="0" bet="350" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="267,818" dealer="0" bet="350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="dscturrr" no="1" sum="350" type="15"/>
+   <action player="Domovoy111" no="2" sum="350" type="15"/>
+   <action player="GushMints" no="3" sum="350" type="15"/>
+   <action player="AncientStoner" no="4" sum="350" type="15"/>
+   <action player="Brst01" no="5" sum="350" type="15"/>
+   <action player="tigersleepy799" no="6" sum="350" type="15"/>
+   <action player="tropeiro123" no="7" sum="350" type="15"/>
+   <action player="TjibbeR" no="8" sum="350" type="15"/>
+   <action player="dscturrr" no="9" sum="1,250" type="1"/>
+   <action player="Domovoy111" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="11" sum="5,250" type="23"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="12" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="13" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 CQ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="16" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="17" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="18" sum="2,750" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H4 C3</cards>
+   <action player="Domovoy111" no="19" sum="0" type="4"/>
+   <action player="GushMints" no="20" sum="4,801" type="5"/>
+   <action player="Domovoy111" no="21" sum="4,801" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action player="Domovoy111" no="22" sum="0" type="4"/>
+   <action player="GushMints" no="23" sum="22,500" type="5"/>
+   <action player="Domovoy111" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582105676">
+  <general>
+   <startdate>2024-02-24 16:35:41</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="123,850" dealer="0" bet="350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="209,529" dealer="0" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="139,140" dealer="0" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="296,998" dealer="1" bet="8,875" win="14,050" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="96,134" dealer="0" bet="1,600" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="312,176" dealer="0" bet="5,350" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="233,371" dealer="0" bet="350" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="267,468" dealer="0" bet="350" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Domovoy111" no="1" sum="350" type="15"/>
+   <action player="GushMints" no="2" sum="350" type="15"/>
+   <action player="AncientStoner" no="3" sum="350" type="15"/>
+   <action player="Brst01" no="4" sum="350" type="15"/>
+   <action player="tigersleepy799" no="5" sum="350" type="15"/>
+   <action player="tropeiro123" no="6" sum="350" type="15"/>
+   <action player="TjibbeR" no="7" sum="350" type="15"/>
+   <action player="dscturrr" no="8" sum="350" type="15"/>
+   <action player="Domovoy111" no="9" sum="1,250" type="1"/>
+   <action player="GushMints" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="11" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="12" sum="0" type="0"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 S10</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="15" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="16" sum="5,000" type="23"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="17" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="18" sum="2,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C6 S5</cards>
+   <action player="GushMints" no="19" sum="0" type="4"/>
+   <action player="dscturrr" no="20" sum="3,525" type="5"/>
+   <action player="GushMints" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582105772">
+  <general>
+   <startdate>2024-02-24 16:36:53</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="123,500" dealer="0" bet="350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="209,179" dealer="0" bet="350" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="138,790" dealer="0" bet="350" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="305,698" dealer="0" bet="82,925" win="68,680" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="94,534" dealer="1" bet="350" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="306,826" dealer="0" bet="1,600" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="233,021" dealer="0" bet="2,850" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="267,118" dealer="0" bet="31,415" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="GushMints" no="1" sum="350" type="15"/>
+   <action player="AncientStoner" no="2" sum="350" type="15"/>
+   <action player="Brst01" no="3" sum="350" type="15"/>
+   <action player="tigersleepy799" no="4" sum="350" type="15"/>
+   <action player="tropeiro123" no="5" sum="350" type="15"/>
+   <action player="TjibbeR" no="6" sum="350" type="15"/>
+   <action player="dscturrr" no="7" sum="350" type="15"/>
+   <action player="Domovoy111" no="8" sum="350" type="15"/>
+   <action player="GushMints" no="9" sum="1,250" type="1"/>
+   <action player="AncientStoner" no="10" sum="2,500" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="11" sum="5,000" type="23"/>
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 C6</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="14" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="15" sum="5,000" type="3"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="16" sum="0" type="0"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="17" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK DJ D8</cards>
+   <action player="Brst01" no="19" sum="5,461" type="5"/>
+   <action player="dscturrr" no="20" sum="5,461" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+   <action player="Brst01" no="21" sum="0" type="4"/>
+   <action player="dscturrr" no="22" sum="20,604" type="5"/>
+   <action player="Brst01" no="23" sum="20,604" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action player="Brst01" no="24" sum="0" type="4"/>
+   <action player="dscturrr" no="25" sum="51,510" type="5"/>
+   <action player="Brst01" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582105887">
+  <general>
+   <startdate>2024-02-24 16:38:25</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player name="tigersleepy799" reg_code="" chips="123,150" dealer="0" bet="400" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="tropeiro123" reg_code="7959783635" chips="208,829" dealer="0" bet="400" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="TjibbeR" reg_code="" chips="138,440" dealer="0" bet="400" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="dscturrr" reg_code="" chips="342,963" dealer="0" bet="400" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Domovoy111" reg_code="" chips="94,184" dealer="0" bet="21,885" win="28,718" rebuy="0" seat="6" addon="0"/>
+    <player name="GushMints" reg_code="" chips="305,226" dealer="1" bet="400" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="AncientStoner" reg_code="" chips="230,171" dealer="0" bet="1,900" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="Brst01" reg_code="" chips="235,703" dealer="0" bet="12,409" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="AncientStoner" no="1" sum="400" type="15"/>
+   <action player="Brst01" no="2" sum="400" type="15"/>
+   <action player="tigersleepy799" no="3" sum="400" type="15"/>
+   <action player="tropeiro123" no="4" sum="400" type="15"/>
+   <action player="TjibbeR" no="5" sum="400" type="15"/>
+   <action player="dscturrr" no="6" sum="400" type="15"/>
+   <action player="Domovoy111" no="7" sum="400" type="15"/>
+   <action player="GushMints" no="8" sum="400" type="15"/>
+   <action player="AncientStoner" no="9" sum="1,500" type="1"/>
+   <action player="Brst01" no="10" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigersleepy799" type="Pocket">X X</cards>
+   <action player="tigersleepy799" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ D8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="TjibbeR" type="Pocket">X X</cards>
+   <action player="TjibbeR" no="13" sum="0" type="0"/>
+   <cards player="dscturrr" type="Pocket">X X</cards>
+   <action player="dscturrr" no="14" sum="0" type="0"/>
+   <cards player="Domovoy111" type="Pocket">X X</cards>
+   <action player="Domovoy111" no="15" sum="6,300" type="23"/>
+   <cards player="GushMints" type="Pocket">X X</cards>
+   <action player="GushMints" no="16" sum="0" type="0"/>
+   <cards player="AncientStoner" type="Pocket">X X</cards>
+   <action player="AncientStoner" no="17" sum="0" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action player="Brst01" no="18" sum="3,300" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK H9 S7</cards>
+   <action player="Brst01" no="19" sum="0" type="4"/>
+   <action player="Domovoy111" no="20" sum="5,709" type="5"/>
+   <action player="Brst01" no="21" sum="5,709" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action player="Brst01" no="22" sum="0" type="4"/>
+   <action player="Domovoy111" no="23" sum="9,476" type="5"/>
+   <action player="Brst01" no="24" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

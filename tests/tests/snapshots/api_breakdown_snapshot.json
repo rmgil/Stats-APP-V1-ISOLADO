@@ -1,0 +1,9 @@
+{
+  "endpoint": "/api/stats/breakdown",
+  "status_code": 500,
+  "request_params": {
+    "group": "postflop_all",
+    "family": "POST_CBET"
+  },
+  "error": "Stats directory not found (expected in development)"
+}

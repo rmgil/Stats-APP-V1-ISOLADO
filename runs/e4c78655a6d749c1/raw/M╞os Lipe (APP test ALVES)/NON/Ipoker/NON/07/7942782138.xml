@@ -1,0 +1,1952 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7942782138">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€7000 GTD|Fists of Fury, 1080427576</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:50:49</duration>
+  <gamecount>36</gamecount>
+  <startdate>2024-02-07 17:29:23</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>91,104</bets>
+  <wins>52,328</wins>
+  <chipsin>9,920</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP54</statuspoints>
+  <awardpoints>RP108</awardpoints>
+  <ipoints>RP54</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079755814</tournamentcode>
+  <tournamentname>€7000 GTD|Fists of Fury</tournamentname>
+  <place>123</place>
+  <buyin>€18.20 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10551077206">
+  <general>
+   <startdate>2024-02-07 17:29:23</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="1" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="10,000" name="tropeiro123"/>
+    <player dealer="0" bet="580" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="10,000" name="Kurbashy"/>
+    <player dealer="0" bet="3,673" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="95,724" name="hugofount"/>
+    <player dealer="0" bet="10,614" rebuy="0" seat="7" win="8,166" reg_code="" addon="0" chips="33,957" name="NavioPirata74"/>
+    <player dealer="0" bet="80" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="31,650" name="thatCriss"/>
+    <player dealer="0" bet="80" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="8,760" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="Kurbashy"/>
+   <action type="15" sum="80" no="2" player="hugofount"/>
+   <action type="15" sum="80" no="3" player="NavioPirata74"/>
+   <action type="15" sum="80" no="4" player="thatCriss"/>
+   <action type="15" sum="80" no="5" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="6" player="tropeiro123"/>
+   <action type="1" sum="500" no="7" player="Kurbashy"/>
+   <action type="2" sum="1,000" no="8" player="hugofount"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="23" sum="2,000" no="9" player="NavioPirata74"/>
+   <cards type="Pocket" player="thatCriss">X X</cards>
+   <action type="0" sum="0" no="10" player="thatCriss"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="11" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">S4 S5</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="13" player="Kurbashy"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="3" sum="1,000" no="14" player="hugofount"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D6 DA</cards>
+   <action type="4" sum="0" no="15" player="hugofount"/>
+   <action type="5" sum="1,593" no="16" player="NavioPirata74"/>
+   <action type="3" sum="1,593" no="17" player="hugofount"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action type="4" sum="0" no="18" player="hugofount"/>
+   <action type="5" sum="6,941" no="19" player="NavioPirata74"/>
+   <action type="0" sum="0" no="20" player="hugofount"/>
+  </round>
+ </game>
+ <game gamecode="10551077284">
+  <general>
+   <startdate>2024-02-07 17:30:18</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,920" name="tropeiro123"/>
+    <player dealer="1" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="9,420" name="Kurbashy"/>
+    <player dealer="0" bet="580" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="92,051" name="hugofount"/>
+    <player dealer="0" bet="2,080" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="38,450" name="NavioPirata74"/>
+    <player dealer="0" bet="5,715" rebuy="0" seat="9" win="4,980" reg_code="" addon="0" chips="31,570" name="thatCriss"/>
+    <player dealer="0" bet="80" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="8,680" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="hugofount"/>
+   <action type="15" sum="80" no="2" player="NavioPirata74"/>
+   <action type="15" sum="80" no="3" player="thatCriss"/>
+   <action type="15" sum="80" no="4" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="5" player="tropeiro123"/>
+   <action type="15" sum="80" no="6" player="Kurbashy"/>
+   <action type="1" sum="500" no="7" player="hugofount"/>
+   <action type="2" sum="1,000" no="8" player="NavioPirata74"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thatCriss">X X</cards>
+   <action type="23" sum="2,000" no="9" player="thatCriss"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="10" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">SK D4</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="12" player="Kurbashy"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="13" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="3" sum="1,000" no="14" player="NavioPirata74"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 DA S7</cards>
+   <action type="4" sum="0" no="15" player="NavioPirata74"/>
+   <action type="5" sum="3,635" no="16" player="thatCriss"/>
+   <action type="0" sum="0" no="17" player="NavioPirata74"/>
+  </round>
+ </game>
+ <game gamecode="10551077371">
+  <general>
+   <startdate>2024-02-07 17:31:23</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,840" name="tropeiro123"/>
+    <player dealer="0" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="9,340" name="Kurbashy"/>
+    <player dealer="0" bet="80" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="10,000" name="Augusto1010"/>
+    <player dealer="0" bet="80" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="19,227" name="terje"/>
+    <player dealer="1" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,471" name="hugofount"/>
+    <player dealer="0" bet="2,080" rebuy="0" seat="7" win="2,640" reg_code="" addon="0" chips="36,370" name="NavioPirata74"/>
+    <player dealer="0" bet="1,080" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="34,470" name="thatCriss"/>
+    <player dealer="0" bet="80" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="8,600" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="NavioPirata74"/>
+   <action type="15" sum="80" no="2" player="thatCriss"/>
+   <action type="15" sum="80" no="3" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="4" player="tropeiro123"/>
+   <action type="15" sum="80" no="5" player="Kurbashy"/>
+   <action type="15" sum="80" no="6" player="Augusto1010"/>
+   <action type="15" sum="80" no="7" player="terje"/>
+   <action type="15" sum="80" no="8" player="hugofount"/>
+   <action type="1" sum="500" no="9" player="NavioPirata74"/>
+   <action type="2" sum="1,000" no="10" player="thatCriss"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="11" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H3 SK</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="13" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="14" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="15" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="16" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="3" sum="500" no="17" player="NavioPirata74"/>
+   <cards type="Pocket" player="thatCriss">X X</cards>
+   <action type="4" sum="0" no="18" player="thatCriss"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 C2 DK</cards>
+   <action type="5" sum="1,000" no="19" player="NavioPirata74"/>
+   <action type="0" sum="0" no="20" player="thatCriss"/>
+  </round>
+ </game>
+ <game gamecode="10551077449">
+  <general>
+   <startdate>2024-02-07 17:32:19</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="2,080" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,760" name="tropeiro123"/>
+    <player dealer="0" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="9,260" name="Kurbashy"/>
+    <player dealer="0" bet="9,840" rebuy="0" seat="4" win="6,140" reg_code="" addon="0" chips="9,920" name="Augusto1010"/>
+    <player dealer="0" bet="80" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="19,147" name="terje"/>
+    <player dealer="0" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,391" name="hugofount"/>
+    <player dealer="1" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,930" name="NavioPirata74"/>
+    <player dealer="0" bet="580" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="33,390" name="thatCriss"/>
+    <player dealer="0" bet="1,080" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="8,520" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="thatCriss"/>
+   <action type="15" sum="80" no="2" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="3" player="tropeiro123"/>
+   <action type="15" sum="80" no="4" player="Kurbashy"/>
+   <action type="15" sum="80" no="5" player="Augusto1010"/>
+   <action type="15" sum="80" no="6" player="terje"/>
+   <action type="15" sum="80" no="7" player="hugofount"/>
+   <action type="15" sum="80" no="8" player="NavioPirata74"/>
+   <action type="1" sum="500" no="9" player="thatCriss"/>
+   <action type="2" sum="1,000" no="10" player="UIIJJUMA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HA C9</cards>
+   <action type="23" sum="2,000" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="12" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="9,840" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="14" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="15" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="16" player="NavioPirata74"/>
+   <cards type="Pocket" player="thatCriss">X X</cards>
+   <action type="0" sum="0" no="17" player="thatCriss"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="18" player="UIIJJUMA"/>
+   <action type="0" sum="0" no="19" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10551077516">
+  <general>
+   <startdate>2024-02-07 17:33:10</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="2,080" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="7,680" name="tropeiro123"/>
+    <player dealer="0" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="9,180" name="Kurbashy"/>
+    <player dealer="0" bet="3,080" rebuy="0" seat="4" win="5,060" reg_code="" addon="0" chips="13,980" name="Augusto1010"/>
+    <player dealer="0" bet="80" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="19,067" name="terje"/>
+    <player dealer="0" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,311" name="hugofount"/>
+    <player dealer="0" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,850" name="NavioPirata74"/>
+    <player dealer="0" bet="580" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="7,440" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="2" player="tropeiro123"/>
+   <action type="15" sum="80" no="3" player="Kurbashy"/>
+   <action type="15" sum="80" no="4" player="Augusto1010"/>
+   <action type="15" sum="80" no="5" player="terje"/>
+   <action type="15" sum="80" no="6" player="hugofount"/>
+   <action type="15" sum="80" no="7" player="NavioPirata74"/>
+   <action type="1" sum="500" no="8" player="UIIJJUMA"/>
+   <action type="2" sum="1,000" no="9" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="10" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="2,000" no="11" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="12" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="13" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="14" player="NavioPirata74"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="15" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D6 D2</cards>
+   <action type="3" sum="1,000" no="16" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 HQ CA</cards>
+   <action type="4" sum="0" no="17" player="tropeiro123"/>
+   <action type="5" sum="1,000" no="18" player="Augusto1010"/>
+   <action type="0" sum="0" no="19" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10551077605">
+  <general>
+   <startdate>2024-02-07 17:34:17</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="5,600" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="5,600" name="tropeiro123"/>
+    <player dealer="0" bet="6,860" rebuy="0" seat="2" win="19,640" reg_code="" addon="0" chips="9,100" name="Kurbashy"/>
+    <player dealer="0" bet="80" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="16,960" name="Augusto1010"/>
+    <player dealer="0" bet="80" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="18,987" name="terje"/>
+    <player dealer="0" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,231" name="hugofount"/>
+    <player dealer="0" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,770" name="NavioPirata74"/>
+    <player dealer="1" bet="6,780" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="6,860" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="tropeiro123"/>
+   <action type="15" sum="80" no="2" player="Kurbashy"/>
+   <action type="15" sum="80" no="3" player="Augusto1010"/>
+   <action type="15" sum="80" no="4" player="terje"/>
+   <action type="15" sum="80" no="5" player="hugofount"/>
+   <action type="15" sum="80" no="6" player="NavioPirata74"/>
+   <action type="15" sum="80" no="7" player="UIIJJUMA"/>
+   <action type="1" sum="500" no="8" player="tropeiro123"/>
+   <action type="2" sum="1,000" no="9" player="Kurbashy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="10" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="11" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="12" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="13" player="NavioPirata74"/>
+   <cards type="Pocket" player="UIIJJUMA">CJ SA</cards>
+   <action type="23" sum="6,780" no="14" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">C9 HA</cards>
+   <action type="7" sum="5,020" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">DA HQ</cards>
+   <action type="3" sum="5,780" no="16" player="Kurbashy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 CK H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10551107245">
+  <general>
+   <startdate>2024-02-07 17:35:19</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="1" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="10,000" name="tropeiro123"/>
+    <player dealer="0" bet="580" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="21,880" name="Kurbashy"/>
+    <player dealer="0" bet="2,080" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="16,880" name="Augusto1010"/>
+    <player dealer="0" bet="80" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="18,907" name="terje"/>
+    <player dealer="0" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,151" name="hugofount"/>
+    <player dealer="0" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,690" name="NavioPirata74"/>
+    <player dealer="0" bet="4,650" rebuy="0" seat="9" win="5,140" reg_code="" addon="0" chips="20,000" name="juilie"/>
+    <player dealer="0" bet="80" rebuy="1" seat="10" win="0" reg_code="" addon="0" chips="10,000" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="Kurbashy"/>
+   <action type="15" sum="80" no="2" player="Augusto1010"/>
+   <action type="15" sum="80" no="3" player="terje"/>
+   <action type="15" sum="80" no="4" player="hugofount"/>
+   <action type="15" sum="80" no="5" player="NavioPirata74"/>
+   <action type="15" sum="80" no="6" player="juilie"/>
+   <action type="15" sum="80" no="7" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="8" player="tropeiro123"/>
+   <action type="1" sum="500" no="9" player="Kurbashy"/>
+   <action type="2" sum="1,000" no="10" player="Augusto1010"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="11" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="12" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="13" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="23" sum="2,000" no="14" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="15" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H2 D9</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="17" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="3" sum="1,000" no="18" player="Augusto1010"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 DK H3</cards>
+   <action type="4" sum="0" no="19" player="Augusto1010"/>
+   <action type="5" sum="2,570" no="20" player="juilie"/>
+   <action type="0" sum="0" no="21" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10551107309">
+  <general>
+   <startdate>2024-02-07 17:36:04</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,920" name="tropeiro123"/>
+    <player dealer="1" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="21,300" name="Kurbashy"/>
+    <player dealer="0" bet="580" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="14,800" name="Augusto1010"/>
+    <player dealer="0" bet="2,080" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="18,827" name="terje"/>
+    <player dealer="0" bet="80" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="91,071" name="hugofount"/>
+    <player dealer="0" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,610" name="NavioPirata74"/>
+    <player dealer="0" bet="80" rebuy="1" seat="9" win="0" reg_code="" addon="0" chips="23,060" name="juilie"/>
+    <player dealer="0" bet="3,080" rebuy="0" seat="10" win="5,140" reg_code="" addon="0" chips="9,920" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="Augusto1010"/>
+   <action type="15" sum="80" no="2" player="terje"/>
+   <action type="15" sum="80" no="3" player="hugofount"/>
+   <action type="15" sum="80" no="4" player="NavioPirata74"/>
+   <action type="15" sum="80" no="5" player="juilie"/>
+   <action type="15" sum="80" no="6" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="7" player="tropeiro123"/>
+   <action type="15" sum="80" no="8" player="Kurbashy"/>
+   <action type="1" sum="500" no="9" player="Augusto1010"/>
+   <action type="2" sum="1,000" no="10" player="terje"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="11" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="12" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="13" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="23" sum="2,000" no="14" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">CJ DK</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="16" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="17" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="3" sum="1,000" no="18" player="terje"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 SQ DQ</cards>
+   <action type="4" sum="0" no="19" player="terje"/>
+   <action type="5" sum="1,000" no="20" player="UIIJJUMA"/>
+   <action type="0" sum="0" no="21" player="terje"/>
+  </round>
+ </game>
+ <game gamecode="10551107423">
+  <general>
+   <startdate>2024-02-07 17:37:23</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="80" rebuy="1" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,840" name="tropeiro123"/>
+    <player dealer="0" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="21,220" name="Kurbashy"/>
+    <player dealer="1" bet="2,000" rebuy="0" seat="4" win="3,140" reg_code="" addon="0" chips="14,220" name="Augusto1010"/>
+    <player dealer="0" bet="580" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="16,747" name="terje"/>
+    <player dealer="0" bet="1,080" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="90,991" name="hugofount"/>
+    <player dealer="0" bet="80" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="37,530" name="NavioPirata74"/>
+    <player dealer="0" bet="80" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="22,980" name="juilie"/>
+    <player dealer="0" bet="80" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="12,980" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="terje"/>
+   <action type="15" sum="80" no="2" player="hugofount"/>
+   <action type="15" sum="80" no="3" player="NavioPirata74"/>
+   <action type="15" sum="80" no="4" player="juilie"/>
+   <action type="15" sum="80" no="5" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="6" player="tropeiro123"/>
+   <action type="15" sum="80" no="7" player="Kurbashy"/>
+   <action type="15" sum="80" no="8" player="Augusto1010"/>
+   <action type="1" sum="500" no="9" player="terje"/>
+   <action type="2" sum="1,000" no="10" player="hugofount"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="12" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="13" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">C7 S4</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="15" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="2,000" no="16" player="Augusto1010"/>
+   <cards type="Pocket" player="terje">X X</cards>
+   <action type="0" sum="0" no="17" player="terje"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="18" player="hugofount"/>
+  </round>
+ </game>
+ <game gamecode="10551107490">
+  <general>
+   <startdate>2024-02-07 17:38:11</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player dealer="0" bet="80" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="9,760" name="tropeiro123"/>
+    <player dealer="0" bet="80" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="21,140" name="Kurbashy"/>
+    <player dealer="0" bet="3,080" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="16,280" name="Augusto1010"/>
+    <player dealer="0" bet="580" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="89,911" name="hugofount"/>
+    <player dealer="0" bet="11,080" rebuy="0" seat="7" win="7,060" reg_code="" addon="0" chips="37,450" name="NavioPirata74"/>
+    <player dealer="0" bet="80" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="22,900" name="juilie"/>
+    <player dealer="0" bet="80" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="12,900" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="80" no="1" player="hugofount"/>
+   <action type="15" sum="80" no="2" player="NavioPirata74"/>
+   <action type="15" sum="80" no="3" player="juilie"/>
+   <action type="15" sum="80" no="4" player="UIIJJUMA"/>
+   <action type="15" sum="80" no="5" player="tropeiro123"/>
+   <action type="15" sum="80" no="6" player="Kurbashy"/>
+   <action type="15" sum="80" no="7" player="Augusto1010"/>
+   <action type="1" sum="500" no="8" player="hugofount"/>
+   <action type="2" sum="1,000" no="9" player="NavioPirata74"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="10" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="11" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D8 D2</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="13" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="2,000" no="14" player="Augusto1010"/>
+   <cards type="Pocket" player="hugofount">X X</cards>
+   <action type="0" sum="0" no="15" player="hugofount"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="3" sum="1,000" no="16" player="NavioPirata74"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ DQ H3</cards>
+   <action type="4" sum="0" no="17" player="NavioPirata74"/>
+   <action type="5" sum="1,000" no="18" player="Augusto1010"/>
+   <action type="3" sum="1,000" no="19" player="NavioPirata74"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action type="4" sum="0" no="20" player="NavioPirata74"/>
+   <action type="4" sum="0" no="21" player="Augusto1010"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action type="5" sum="8,000" no="22" player="NavioPirata74"/>
+   <action type="0" sum="0" no="23" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10551108056">
+  <general>
+   <startdate>2024-02-07 17:46:00</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="0" bet="96" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="19,680" name="tropeiro123"/>
+    <player dealer="0" bet="96" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="21,060" name="Kurbashy"/>
+    <player dealer="0" bet="96" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="43,200" name="Augusto1010"/>
+    <player dealer="0" bet="96" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="40,000" name="Jerumiro"/>
+    <player dealer="0" bet="2,400" rebuy="0" seat="6" win="3,768" reg_code="" addon="0" chips="40,000" name="ioluKK"/>
+    <player dealer="1" bet="96" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="71,430" name="NavioPirata74"/>
+    <player dealer="0" bet="696" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="52,820" name="juilie"/>
+    <player dealer="0" bet="1,296" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="42,820" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="juilie"/>
+   <action type="15" sum="96" no="2" player="UIIJJUMA"/>
+   <action type="15" sum="96" no="3" player="tropeiro123"/>
+   <action type="15" sum="96" no="4" player="Kurbashy"/>
+   <action type="15" sum="96" no="5" player="Augusto1010"/>
+   <action type="15" sum="96" no="6" player="Jerumiro"/>
+   <action type="15" sum="96" no="7" player="ioluKK"/>
+   <action type="15" sum="96" no="8" player="NavioPirata74"/>
+   <action type="1" sum="600" no="9" player="juilie"/>
+   <action type="2" sum="1,200" no="10" player="UIIJJUMA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H8 H2</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="12" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="14" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="23" sum="2,400" no="15" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="16" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="17" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="18" player="UIIJJUMA"/>
+  </round>
+ </game>
+ <game gamecode="10551135393">
+  <general>
+   <startdate>2024-02-07 17:47:02</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="0" bet="19,488" rebuy="1" seat="1" win="42,984" reg_code="7942782138" addon="0" chips="19,584" name="tropeiro123"/>
+    <player dealer="0" bet="96" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="20,964" name="Kurbashy"/>
+    <player dealer="0" bet="2,736" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="43,104" name="Augusto1010"/>
+    <player dealer="0" bet="96" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="39,904" name="Jerumiro"/>
+    <player dealer="0" bet="96" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="42,472" name="ioluKK"/>
+    <player dealer="0" bet="96" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="71,334" name="NavioPirata74"/>
+    <player dealer="1" bet="19,584" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="52,124" name="juilie"/>
+    <player dealer="0" bet="696" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="41,524" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="UIIJJUMA"/>
+   <action type="15" sum="96" no="2" player="tropeiro123"/>
+   <action type="15" sum="96" no="3" player="Kurbashy"/>
+   <action type="15" sum="96" no="4" player="Augusto1010"/>
+   <action type="15" sum="96" no="5" player="Jerumiro"/>
+   <action type="15" sum="96" no="6" player="ioluKK"/>
+   <action type="15" sum="96" no="7" player="NavioPirata74"/>
+   <action type="15" sum="96" no="8" player="juilie"/>
+   <action type="1" sum="600" no="9" player="UIIJJUMA"/>
+   <action type="2" sum="1,200" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Kurbashy">X X</cards>
+   <action type="0" sum="0" no="11" player="Kurbashy"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="2,640" no="12" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="13" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="14" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="15" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">H6 S6</cards>
+   <action type="3" sum="2,640" no="16" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="17" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">CA C10</cards>
+   <action type="23" sum="19,488" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="Augusto1010"/>
+   <action type="3" sum="16,848" no="20" player="juilie"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 S8 C3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+ <game gamecode="10551135549">
+  <general>
+   <startdate>2024-02-07 17:48:48</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="0" bet="696" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="42,984" name="tropeiro123"/>
+    <player dealer="0" bet="20,772" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="20,868" name="Kurbashy"/>
+    <player dealer="0" bet="96" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="40,368" name="Augusto1010"/>
+    <player dealer="0" bet="96" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="39,808" name="Jerumiro"/>
+    <player dealer="0" bet="20,868" rebuy="0" seat="6" win="42,912" reg_code="" addon="0" chips="42,376" name="ioluKK"/>
+    <player dealer="0" bet="96" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="71,238" name="NavioPirata74"/>
+    <player dealer="0" bet="96" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="32,540" name="juilie"/>
+    <player dealer="1" bet="96" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,828" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="tropeiro123"/>
+   <action type="15" sum="96" no="2" player="Kurbashy"/>
+   <action type="15" sum="96" no="3" player="Augusto1010"/>
+   <action type="15" sum="96" no="4" player="Jerumiro"/>
+   <action type="15" sum="96" no="5" player="ioluKK"/>
+   <action type="15" sum="96" no="6" player="NavioPirata74"/>
+   <action type="15" sum="96" no="7" player="juilie"/>
+   <action type="15" sum="96" no="8" player="UIIJJUMA"/>
+   <action type="1" sum="600" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,200" no="10" player="Kurbashy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="11" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="12" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">HK DA</cards>
+   <action type="23" sum="2,400" no="13" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="14" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="15" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="16" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D7 C5</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="Kurbashy">SA H6</cards>
+   <action type="23" sum="20,772" no="18" player="Kurbashy"/>
+   <action type="3" sum="18,372" no="19" player="ioluKK"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 S2 C8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10551135700">
+  <general>
+   <startdate>2024-02-07 17:50:29</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="1" bet="96" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="42,288" name="tropeiro123"/>
+    <player dealer="0" bet="1,296" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="40,272" name="Augusto1010"/>
+    <player dealer="0" bet="96" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="39,712" name="Jerumiro"/>
+    <player dealer="0" bet="96" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="64,420" name="ioluKK"/>
+    <player dealer="0" bet="96" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="71,142" name="NavioPirata74"/>
+    <player dealer="0" bet="2,832" rebuy="0" seat="9" win="3,072" reg_code="" addon="0" chips="32,444" name="juilie"/>
+    <player dealer="0" bet="96" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,732" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="Augusto1010"/>
+   <action type="15" sum="96" no="2" player="Jerumiro"/>
+   <action type="15" sum="96" no="3" player="ioluKK"/>
+   <action type="15" sum="96" no="4" player="NavioPirata74"/>
+   <action type="15" sum="96" no="5" player="juilie"/>
+   <action type="15" sum="96" no="6" player="UIIJJUMA"/>
+   <action type="15" sum="96" no="7" player="tropeiro123"/>
+   <action type="2" sum="1,200" no="8" player="Augusto1010"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="9" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="10" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="3" sum="1,200" no="12" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="13" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H8 C9</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="4" sum="0" no="15" player="Augusto1010"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 HQ DJ</cards>
+   <action type="4" sum="0" no="16" player="Augusto1010"/>
+   <action type="5" sum="1,536" no="17" player="juilie"/>
+   <action type="0" sum="0" no="18" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10551135818">
+  <general>
+   <startdate>2024-02-07 17:51:46</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="0" bet="10,974" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="42,192" name="tropeiro123"/>
+    <player dealer="0" bet="696" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="38,976" name="Augusto1010"/>
+    <player dealer="0" bet="1,296" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="39,616" name="Jerumiro"/>
+    <player dealer="0" bet="96" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="64,324" name="ioluKK"/>
+    <player dealer="0" bet="71,046" rebuy="0" seat="7" win="24,228" reg_code="" addon="0" chips="71,046" name="NavioPirata74"/>
+    <player dealer="0" bet="96" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="34,220" name="juilie"/>
+    <player dealer="0" bet="96" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,636" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="Augusto1010"/>
+   <action type="15" sum="96" no="2" player="Jerumiro"/>
+   <action type="15" sum="96" no="3" player="ioluKK"/>
+   <action type="15" sum="96" no="4" player="NavioPirata74"/>
+   <action type="15" sum="96" no="5" player="juilie"/>
+   <action type="15" sum="96" no="6" player="UIIJJUMA"/>
+   <action type="15" sum="96" no="7" player="tropeiro123"/>
+   <action type="1" sum="600" no="8" player="Augusto1010"/>
+   <action type="2" sum="1,200" no="9" player="Jerumiro"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="10" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="23" sum="2,400" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="12" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="13" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">HK DA</cards>
+   <action type="23" sum="6,840" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="15" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="16" player="Jerumiro"/>
+   <action type="3" sum="4,440" no="17" player="NavioPirata74"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 H5 DQ</cards>
+   <action type="4" sum="0" no="18" player="NavioPirata74"/>
+   <action type="5" sum="4,038" no="19" player="tropeiro123"/>
+   <action type="23" sum="64,110" no="20" player="NavioPirata74"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10551135947">
+  <general>
+   <startdate>2024-02-07 17:53:15</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player dealer="0" bet="96" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="31,218" name="tropeiro123"/>
+    <player dealer="0" bet="96" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="50,931" name="JiggaWhoo"/>
+    <player dealer="1" bet="2,496" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="38,280" name="Augusto1010"/>
+    <player dealer="0" bet="696" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="38,320" name="Jerumiro"/>
+    <player dealer="0" bet="8,400" rebuy="0" seat="6" win="6,168" reg_code="" addon="0" chips="64,228" name="ioluKK"/>
+    <player dealer="0" bet="96" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,300" name="NavioPirata74"/>
+    <player dealer="0" bet="96" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="34,124" name="juilie"/>
+    <player dealer="0" bet="96" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,540" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="96" no="1" player="Jerumiro"/>
+   <action type="15" sum="96" no="2" player="ioluKK"/>
+   <action type="15" sum="96" no="3" player="NavioPirata74"/>
+   <action type="15" sum="96" no="4" player="juilie"/>
+   <action type="15" sum="96" no="5" player="UIIJJUMA"/>
+   <action type="15" sum="96" no="6" player="tropeiro123"/>
+   <action type="15" sum="96" no="7" player="JiggaWhoo"/>
+   <action type="15" sum="96" no="8" player="Augusto1010"/>
+   <action type="1" sum="600" no="9" player="Jerumiro"/>
+   <action type="2" sum="1,200" no="10" player="ioluKK"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="12" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="13" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H9 H2</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="15" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="23" sum="2,400" no="16" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="17" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="23" sum="8,400" no="18" player="ioluKK"/>
+   <action type="0" sum="0" no="19" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10551136034">
+  <general>
+   <startdate>2024-02-07 17:54:14</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="31,122" name="tropeiro123"/>
+    <player dealer="0" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="50,835" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,784" name="Augusto1010"/>
+    <player dealer="1" bet="128" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="37,624" name="Jerumiro"/>
+    <player dealer="0" bet="928" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="67,900" name="ioluKK"/>
+    <player dealer="0" bet="1,728" rebuy="0" seat="7" win="2,624" reg_code="" addon="0" chips="84,204" name="NavioPirata74"/>
+    <player dealer="0" bet="128" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="34,028" name="juilie"/>
+    <player dealer="0" bet="128" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,444" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="ioluKK"/>
+   <action type="15" sum="128" no="2" player="NavioPirata74"/>
+   <action type="15" sum="128" no="3" player="juilie"/>
+   <action type="15" sum="128" no="4" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="5" player="tropeiro123"/>
+   <action type="15" sum="128" no="6" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="7" player="Augusto1010"/>
+   <action type="15" sum="128" no="8" player="Jerumiro"/>
+   <action type="1" sum="800" no="9" player="ioluKK"/>
+   <action type="2" sum="1,600" no="10" player="NavioPirata74"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="11" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="12" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D3 C8</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="14" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="15" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="16" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="17" player="ioluKK"/>
+  </round>
+ </game>
+ <game gamecode="10551136101">
+  <general>
+   <startdate>2024-02-07 17:54:59</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="30,994" name="tropeiro123"/>
+    <player dealer="0" bet="6,528" rebuy="0" seat="2" win="8,224" reg_code="" addon="0" chips="50,707" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,656" name="Augusto1010"/>
+    <player dealer="0" bet="128" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="37,496" name="Jerumiro"/>
+    <player dealer="1" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,972" name="ioluKK"/>
+    <player dealer="0" bet="928" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="85,900" name="NavioPirata74"/>
+    <player dealer="0" bet="3,328" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="33,900" name="juilie"/>
+    <player dealer="0" bet="128" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="40,316" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="NavioPirata74"/>
+   <action type="15" sum="128" no="2" player="juilie"/>
+   <action type="15" sum="128" no="3" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="4" player="tropeiro123"/>
+   <action type="15" sum="128" no="5" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="6" player="Augusto1010"/>
+   <action type="15" sum="128" no="7" player="Jerumiro"/>
+   <action type="15" sum="128" no="8" player="ioluKK"/>
+   <action type="1" sum="800" no="9" player="NavioPirata74"/>
+   <action type="2" sum="1,600" no="10" player="juilie"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="11" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">SQ C4</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="23" sum="3,200" no="13" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="14" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="15" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="16" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="17" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="3" sum="1,600" no="18" player="juilie"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK S7 D8</cards>
+   <action type="4" sum="0" no="19" player="juilie"/>
+   <action type="5" sum="3,200" no="20" player="JiggaWhoo"/>
+   <action type="0" sum="0" no="21" player="juilie"/>
+  </round>
+ </game>
+ <game gamecode="10551136132">
+  <general>
+   <startdate>2024-02-07 18:01:16</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="30,866" name="tropeiro123"/>
+    <player dealer="0" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="55,603" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,528" name="Augusto1010"/>
+    <player dealer="0" bet="11,560" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="37,368" name="Jerumiro"/>
+    <player dealer="0" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,844" name="ioluKK"/>
+    <player dealer="1" bet="128" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,972" name="NavioPirata74"/>
+    <player dealer="0" bet="928" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="30,572" name="juilie"/>
+    <player dealer="0" bet="11,560" rebuy="0" seat="10" win="24,688" reg_code="" addon="0" chips="40,188" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="juilie"/>
+   <action type="15" sum="128" no="2" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="3" player="tropeiro123"/>
+   <action type="15" sum="128" no="4" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="5" player="Augusto1010"/>
+   <action type="15" sum="128" no="6" player="Jerumiro"/>
+   <action type="15" sum="128" no="7" player="ioluKK"/>
+   <action type="15" sum="128" no="8" player="NavioPirata74"/>
+   <action type="1" sum="800" no="9" player="juilie"/>
+   <action type="2" sum="1,600" no="10" player="UIIJJUMA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C8 C3</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="12" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">DJ SA</cards>
+   <action type="23" sum="3,200" no="14" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="15" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="16" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="17" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">S4 HK</cards>
+   <action type="3" sum="1,600" no="18" player="UIIJJUMA"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 S2 DK</cards>
+   <action type="4" sum="0" no="19" player="UIIJJUMA"/>
+   <action type="5" sum="2,056" no="20" player="Jerumiro"/>
+   <action type="3" sum="2,056" no="21" player="UIIJJUMA"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action type="4" sum="0" no="22" player="UIIJJUMA"/>
+   <action type="5" sum="6,176" no="23" player="Jerumiro"/>
+   <action type="3" sum="6,176" no="24" player="UIIJJUMA"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action type="4" sum="0" no="25" player="UIIJJUMA"/>
+   <action type="4" sum="0" no="26" player="Jerumiro"/>
+  </round>
+ </game>
+ <game gamecode="10551160106">
+  <general>
+   <startdate>2024-02-07 18:03:22</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="10,400" rebuy="0" seat="1" win="8,224" reg_code="7942782138" addon="0" chips="30,738" name="tropeiro123"/>
+    <player dealer="0" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="55,475" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,400" name="Augusto1010"/>
+    <player dealer="0" bet="128" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="25,808" name="Jerumiro"/>
+    <player dealer="0" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,716" name="ioluKK"/>
+    <player dealer="0" bet="3,328" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,844" name="NavioPirata74"/>
+    <player dealer="1" bet="128" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="29,644" name="juilie"/>
+    <player dealer="0" bet="928" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,316" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="2" player="tropeiro123"/>
+   <action type="15" sum="128" no="3" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="4" player="Augusto1010"/>
+   <action type="15" sum="128" no="5" player="Jerumiro"/>
+   <action type="15" sum="128" no="6" player="ioluKK"/>
+   <action type="15" sum="128" no="7" player="NavioPirata74"/>
+   <action type="15" sum="128" no="8" player="juilie"/>
+   <action type="1" sum="800" no="9" player="UIIJJUMA"/>
+   <action type="2" sum="1,600" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="11" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="12" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="13" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="14" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="23" sum="3,200" no="15" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="16" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="17" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">HK DK</cards>
+   <action type="23" sum="10,400" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="NavioPirata74"/>
+  </round>
+ </game>
+ <game gamecode="10551160174">
+  <general>
+   <startdate>2024-02-07 18:04:07</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="3,328" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="35,634" name="tropeiro123"/>
+    <player dealer="0" bet="6,528" rebuy="0" seat="2" win="7,424" reg_code="" addon="0" chips="55,347" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,272" name="Augusto1010"/>
+    <player dealer="0" bet="128" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="25,680" name="Jerumiro"/>
+    <player dealer="0" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,588" name="ioluKK"/>
+    <player dealer="0" bet="128" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="81,516" name="NavioPirata74"/>
+    <player dealer="0" bet="128" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="29,516" name="juilie"/>
+    <player dealer="1" bet="128" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="52,388" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="tropeiro123"/>
+   <action type="15" sum="128" no="2" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="3" player="Augusto1010"/>
+   <action type="15" sum="128" no="4" player="Jerumiro"/>
+   <action type="15" sum="128" no="5" player="ioluKK"/>
+   <action type="15" sum="128" no="6" player="NavioPirata74"/>
+   <action type="15" sum="128" no="7" player="juilie"/>
+   <action type="15" sum="128" no="8" player="UIIJJUMA"/>
+   <action type="1" sum="800" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,600" no="10" player="JiggaWhoo"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="11" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="12" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="13" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="14" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="15" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="16" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H6 H8</cards>
+   <action type="3" sum="800" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="4" sum="0" no="18" player="JiggaWhoo"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 CK D5</cards>
+   <action type="5" sum="1,600" no="19" player="tropeiro123"/>
+   <action type="23" sum="4,800" no="20" player="JiggaWhoo"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10551160269">
+  <general>
+   <startdate>2024-02-07 18:05:10</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="1" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="32,306" name="tropeiro123"/>
+    <player dealer="0" bet="928" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="59,443" name="JiggaWhoo"/>
+    <player dealer="0" bet="1,728" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="35,144" name="Augusto1010"/>
+    <player dealer="0" bet="128" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="25,552" name="Jerumiro"/>
+    <player dealer="0" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,460" name="ioluKK"/>
+    <player dealer="0" bet="128" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="81,388" name="NavioPirata74"/>
+    <player dealer="0" bet="128" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="29,388" name="juilie"/>
+    <player dealer="0" bet="3,200" rebuy="0" seat="10" win="5,024" reg_code="" addon="0" chips="52,260" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="2" player="Augusto1010"/>
+   <action type="15" sum="128" no="3" player="Jerumiro"/>
+   <action type="15" sum="128" no="4" player="ioluKK"/>
+   <action type="15" sum="128" no="5" player="NavioPirata74"/>
+   <action type="15" sum="128" no="6" player="juilie"/>
+   <action type="15" sum="128" no="7" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="8" player="tropeiro123"/>
+   <action type="1" sum="800" no="9" player="JiggaWhoo"/>
+   <action type="2" sum="1,600" no="10" player="Augusto1010"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="11" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="12" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="13" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="14" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="23" sum="3,200" no="15" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">H2 H5</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="17" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="18" player="Augusto1010"/>
+  </round>
+ </game>
+ <game gamecode="10551160334">
+  <general>
+   <startdate>2024-02-07 18:05:48</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="32,178" name="tropeiro123"/>
+    <player dealer="1" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="58,515" name="JiggaWhoo"/>
+    <player dealer="0" bet="928" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="33,416" name="Augusto1010"/>
+    <player dealer="0" bet="1,728" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="25,424" name="Jerumiro"/>
+    <player dealer="0" bet="128" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,332" name="ioluKK"/>
+    <player dealer="0" bet="128" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="81,260" name="NavioPirata74"/>
+    <player dealer="0" bet="128" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="29,260" name="juilie"/>
+    <player dealer="0" bet="3,200" rebuy="0" seat="10" win="5,024" reg_code="" addon="0" chips="55,556" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="Augusto1010"/>
+   <action type="15" sum="128" no="2" player="Jerumiro"/>
+   <action type="15" sum="128" no="3" player="ioluKK"/>
+   <action type="15" sum="128" no="4" player="NavioPirata74"/>
+   <action type="15" sum="128" no="5" player="juilie"/>
+   <action type="15" sum="128" no="6" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="7" player="tropeiro123"/>
+   <action type="15" sum="128" no="8" player="JiggaWhoo"/>
+   <action type="1" sum="800" no="9" player="Augusto1010"/>
+   <action type="2" sum="1,600" no="10" player="Jerumiro"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="11" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="12" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="13" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="23" sum="3,200" no="14" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D8 D7</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="16" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="17" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">X X</cards>
+   <action type="0" sum="0" no="18" player="Jerumiro"/>
+  </round>
+ </game>
+ <game gamecode="10551160411">
+  <general>
+   <startdate>2024-02-07 18:06:40</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="32,050" name="tropeiro123"/>
+    <player dealer="0" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="58,387" name="JiggaWhoo"/>
+    <player dealer="1" bet="3,328" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="32,488" name="Augusto1010"/>
+    <player dealer="0" bet="23,568" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="23,696" name="Jerumiro"/>
+    <player dealer="0" bet="1,728" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="66,204" name="ioluKK"/>
+    <player dealer="0" bet="128" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="81,132" name="NavioPirata74"/>
+    <player dealer="0" bet="29,132" rebuy="0" seat="9" win="52,960" reg_code="" addon="0" chips="29,132" name="juilie"/>
+    <player dealer="0" bet="128" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="58,852" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="Jerumiro"/>
+   <action type="15" sum="128" no="2" player="ioluKK"/>
+   <action type="15" sum="128" no="3" player="NavioPirata74"/>
+   <action type="15" sum="128" no="4" player="juilie"/>
+   <action type="15" sum="128" no="5" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="6" player="tropeiro123"/>
+   <action type="15" sum="128" no="7" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="8" player="Augusto1010"/>
+   <action type="1" sum="800" no="9" player="Jerumiro"/>
+   <action type="2" sum="1,600" no="10" player="ioluKK"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">D8 C8</cards>
+   <action type="23" sum="3,200" no="12" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="13" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">S7 H5</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="15" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="3" sum="3,200" no="16" player="Augusto1010"/>
+   <cards type="Pocket" player="Jerumiro">HJ HA</cards>
+   <action type="23" sum="23,568" no="17" player="Jerumiro"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="18" player="ioluKK"/>
+   <action type="7" sum="25,804" no="19" player="juilie"/>
+   <action type="0" sum="0" no="20" player="Augusto1010"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 S6 S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+  </round>
+ </game>
+ <game gamecode="10551160481">
+  <general>
+   <startdate>2024-02-07 18:07:29</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>128</ante>
+   <players>
+    <player dealer="0" bet="128" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="31,922" name="tropeiro123"/>
+    <player dealer="0" bet="128" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="58,259" name="JiggaWhoo"/>
+    <player dealer="0" bet="128" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="29,160" name="Augusto1010"/>
+    <player dealer="0" bet="928" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="64,476" name="ioluKK"/>
+    <player dealer="0" bet="12,557" rebuy="0" seat="7" win="16,192" reg_code="" addon="0" chips="81,004" name="NavioPirata74"/>
+    <player dealer="0" bet="7,376" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="58,396" name="juilie"/>
+    <player dealer="0" bet="128" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="58,724" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="128" no="1" player="ioluKK"/>
+   <action type="15" sum="128" no="2" player="NavioPirata74"/>
+   <action type="15" sum="128" no="3" player="juilie"/>
+   <action type="15" sum="128" no="4" player="UIIJJUMA"/>
+   <action type="15" sum="128" no="5" player="tropeiro123"/>
+   <action type="15" sum="128" no="6" player="JiggaWhoo"/>
+   <action type="15" sum="128" no="7" player="Augusto1010"/>
+   <action type="1" sum="800" no="8" player="ioluKK"/>
+   <action type="2" sum="1,600" no="9" player="NavioPirata74"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="23" sum="3,200" no="10" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="11" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">D6 DQ</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="13" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="14" player="Augusto1010"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="15" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="3" sum="1,600" no="16" player="NavioPirata74"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 HQ H2</cards>
+   <action type="4" sum="0" no="17" player="NavioPirata74"/>
+   <action type="5" sum="4,048" no="18" player="juilie"/>
+   <action type="3" sum="4,048" no="19" player="NavioPirata74"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action type="5" sum="5,181" no="20" player="NavioPirata74"/>
+   <action type="0" sum="0" no="21" player="juilie"/>
+  </round>
+ </game>
+ <game gamecode="10551160618">
+  <general>
+   <startdate>2024-02-07 18:09:01</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="14,280" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="31,794" name="tropeiro123"/>
+    <player dealer="0" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="58,131" name="JiggaWhoo"/>
+    <player dealer="0" bet="160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="29,032" name="Augusto1010"/>
+    <player dealer="1" bet="160" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="63,548" name="ioluKK"/>
+    <player dealer="0" bet="1,160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="89,820" name="NavioPirata74"/>
+    <player dealer="0" bet="14,280" rebuy="0" seat="9" win="30,360" reg_code="" addon="0" chips="51,020" name="juilie"/>
+    <player dealer="0" bet="160" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="58,596" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="NavioPirata74"/>
+   <action type="15" sum="160" no="2" player="juilie"/>
+   <action type="15" sum="160" no="3" player="UIIJJUMA"/>
+   <action type="15" sum="160" no="4" player="tropeiro123"/>
+   <action type="15" sum="160" no="5" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="6" player="Augusto1010"/>
+   <action type="15" sum="160" no="7" player="ioluKK"/>
+   <action type="1" sum="1,000" no="8" player="NavioPirata74"/>
+   <action type="2" sum="2,000" no="9" player="juilie"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="UIIJJUMA">X X</cards>
+   <action type="0" sum="0" no="10" player="UIIJJUMA"/>
+   <cards type="Pocket" player="tropeiro123">HQ HJ</cards>
+   <action type="23" sum="4,000" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="12" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="14" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="15" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">S2 C5</cards>
+   <action type="3" sum="2,000" no="16" player="juilie"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ HA S4</cards>
+   <action type="4" sum="0" no="17" player="juilie"/>
+   <action type="5" sum="2,530" no="18" player="tropeiro123"/>
+   <action type="3" sum="2,530" no="19" player="juilie"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action type="4" sum="0" no="20" player="juilie"/>
+   <action type="4" sum="0" no="21" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action type="5" sum="7,590" no="22" player="juilie"/>
+   <action type="3" sum="7,590" no="23" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10551160793">
+  <general>
+   <startdate>2024-02-07 18:11:07</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="160" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,514" name="tropeiro123"/>
+    <player dealer="0" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="57,971" name="JiggaWhoo"/>
+    <player dealer="0" bet="160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="28,872" name="Augusto1010"/>
+    <player dealer="0" bet="160" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="53,924" name="xXMAXTERXx"/>
+    <player dealer="0" bet="160" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="63,388" name="ioluKK"/>
+    <player dealer="1" bet="4,160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="88,660" name="NavioPirata74"/>
+    <player dealer="0" bet="58,436" rebuy="0" seat="9" win="121,832" reg_code="" addon="0" chips="67,100" name="juilie"/>
+    <player dealer="0" bet="58,276" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="58,436" name="UIIJJUMA"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="juilie"/>
+   <action type="15" sum="160" no="2" player="UIIJJUMA"/>
+   <action type="15" sum="160" no="3" player="tropeiro123"/>
+   <action type="15" sum="160" no="4" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="5" player="Augusto1010"/>
+   <action type="15" sum="160" no="6" player="xXMAXTERXx"/>
+   <action type="15" sum="160" no="7" player="ioluKK"/>
+   <action type="15" sum="160" no="8" player="NavioPirata74"/>
+   <action type="1" sum="1,000" no="9" player="juilie"/>
+   <action type="2" sum="2,000" no="10" player="UIIJJUMA"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">CK H5</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="12" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="14" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="15" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="23" sum="4,000" no="16" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">SJ SA</cards>
+   <action type="3" sum="3,000" no="17" player="juilie"/>
+   <cards type="Pocket" player="UIIJJUMA">S6 D6</cards>
+   <action type="23" sum="58,276" no="18" player="UIIJJUMA"/>
+   <action type="0" sum="0" no="19" player="NavioPirata74"/>
+   <action type="3" sum="54,276" no="20" player="juilie"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 SK C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10551160885">
+  <general>
+   <startdate>2024-02-07 18:12:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="2,160" rebuy="0" seat="1" win="1,120" reg_code="7942782138" addon="0" chips="17,354" name="tropeiro123"/>
+    <player dealer="0" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="57,811" name="JiggaWhoo"/>
+    <player dealer="0" bet="160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="28,712" name="Augusto1010"/>
+    <player dealer="0" bet="160" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="53,764" name="xXMAXTERXx"/>
+    <player dealer="0" bet="160" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="63,228" name="ioluKK"/>
+    <player dealer="0" bet="160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,500" name="NavioPirata74"/>
+    <player dealer="1" bet="160" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="130,496" name="juilie"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="tropeiro123"/>
+   <action type="15" sum="160" no="2" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="3" player="Augusto1010"/>
+   <action type="15" sum="160" no="4" player="xXMAXTERXx"/>
+   <action type="15" sum="160" no="5" player="ioluKK"/>
+   <action type="15" sum="160" no="6" player="NavioPirata74"/>
+   <action type="15" sum="160" no="7" player="juilie"/>
+   <action type="2" sum="2,000" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S5 HA</cards>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="9" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="10" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="11" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="12" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="13" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="14" player="juilie"/>
+  </round>
+ </game>
+ <game gamecode="10551160930">
+  <general>
+   <startdate>2024-02-07 18:12:43</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="1" bet="160" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="18,314" name="tropeiro123"/>
+    <player dealer="0" bet="5,160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="57,651" name="JiggaWhoo"/>
+    <player dealer="0" bet="2,160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="28,552" name="Augusto1010"/>
+    <player dealer="0" bet="5,160" rebuy="0" seat="5" win="13,280" reg_code="" addon="0" chips="53,604" name="xXMAXTERXx"/>
+    <player dealer="0" bet="160" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="63,068" name="ioluKK"/>
+    <player dealer="0" bet="160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,340" name="NavioPirata74"/>
+    <player dealer="0" bet="160" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="130,336" name="juilie"/>
+    <player dealer="0" bet="160" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,947" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="2" player="Augusto1010"/>
+   <action type="15" sum="160" no="3" player="xXMAXTERXx"/>
+   <action type="15" sum="160" no="4" player="ioluKK"/>
+   <action type="15" sum="160" no="5" player="NavioPirata74"/>
+   <action type="15" sum="160" no="6" player="juilie"/>
+   <action type="15" sum="160" no="7" player="PrincessSofia23"/>
+   <action type="15" sum="160" no="8" player="tropeiro123"/>
+   <action type="1" sum="1,000" no="9" player="JiggaWhoo"/>
+   <action type="2" sum="2,000" no="10" player="Augusto1010"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xXMAXTERXx">DQ D8</cards>
+   <action type="3" sum="2,000" no="11" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="12" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="13" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="14" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="15" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">C2 C4</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">S4 S7</cards>
+   <action type="3" sum="1,000" no="17" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="4" sum="0" no="18" player="Augusto1010"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 H2 H4</cards>
+   <action type="5" sum="3,000" no="19" player="JiggaWhoo"/>
+   <action type="0" sum="0" no="20" player="Augusto1010"/>
+   <action type="3" sum="3,000" no="21" player="xXMAXTERXx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+   <action type="4" sum="0" no="22" player="JiggaWhoo"/>
+   <action type="4" sum="0" no="23" player="xXMAXTERXx"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action type="4" sum="0" no="24" player="JiggaWhoo"/>
+   <action type="4" sum="0" no="25" player="xXMAXTERXx"/>
+  </round>
+ </game>
+ <game gamecode="10551204310">
+  <general>
+   <startdate>2024-02-07 18:13:57</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="160" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="18,154" name="tropeiro123"/>
+    <player dealer="1" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="52,491" name="JiggaWhoo"/>
+    <player dealer="0" bet="1,160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="26,392" name="Augusto1010"/>
+    <player dealer="0" bet="4,160" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="61,724" name="xXMAXTERXx"/>
+    <player dealer="0" bet="6,730" rebuy="0" seat="6" win="10,280" reg_code="" addon="0" chips="62,908" name="ioluKK"/>
+    <player dealer="0" bet="160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,180" name="NavioPirata74"/>
+    <player dealer="0" bet="160" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="130,176" name="juilie"/>
+    <player dealer="0" bet="160" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,787" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="Augusto1010"/>
+   <action type="15" sum="160" no="2" player="xXMAXTERXx"/>
+   <action type="15" sum="160" no="3" player="ioluKK"/>
+   <action type="15" sum="160" no="4" player="NavioPirata74"/>
+   <action type="15" sum="160" no="5" player="juilie"/>
+   <action type="15" sum="160" no="6" player="PrincessSofia23"/>
+   <action type="15" sum="160" no="7" player="tropeiro123"/>
+   <action type="15" sum="160" no="8" player="JiggaWhoo"/>
+   <action type="1" sum="1,000" no="9" player="Augusto1010"/>
+   <action type="2" sum="2,000" no="10" player="xXMAXTERXx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="23" sum="4,000" no="11" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="12" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="13" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="14" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">S7 D6</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="16" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="17" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="3" sum="2,000" no="18" player="xXMAXTERXx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H5 HQ</cards>
+   <action type="4" sum="0" no="19" player="xXMAXTERXx"/>
+   <action type="5" sum="2,570" no="20" player="ioluKK"/>
+   <action type="0" sum="0" no="21" player="xXMAXTERXx"/>
+  </round>
+ </game>
+ <game gamecode="10551204381">
+  <general>
+   <startdate>2024-02-07 18:14:45</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="160" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,994" name="tropeiro123"/>
+    <player dealer="0" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="52,331" name="JiggaWhoo"/>
+    <player dealer="1" bet="160" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="25,232" name="Augusto1010"/>
+    <player dealer="0" bet="1,160" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="57,564" name="xXMAXTERXx"/>
+    <player dealer="0" bet="4,910" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="69,028" name="ioluKK"/>
+    <player dealer="0" bet="160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="84,020" name="NavioPirata74"/>
+    <player dealer="0" bet="13,156" rebuy="0" seat="9" win="11,780" reg_code="" addon="0" chips="130,016" name="juilie"/>
+    <player dealer="0" bet="160" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,627" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="xXMAXTERXx"/>
+   <action type="15" sum="160" no="2" player="ioluKK"/>
+   <action type="15" sum="160" no="3" player="NavioPirata74"/>
+   <action type="15" sum="160" no="4" player="juilie"/>
+   <action type="15" sum="160" no="5" player="PrincessSofia23"/>
+   <action type="15" sum="160" no="6" player="tropeiro123"/>
+   <action type="15" sum="160" no="7" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="8" player="Augusto1010"/>
+   <action type="1" sum="1,000" no="9" player="xXMAXTERXx"/>
+   <action type="2" sum="2,000" no="10" player="ioluKK"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="11" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="23" sum="4,750" no="12" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="13" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">H10 H3</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="15" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="16" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="17" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="3" sum="2,750" no="18" player="ioluKK"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 D4 C5</cards>
+   <action type="4" sum="0" no="19" player="ioluKK"/>
+   <action type="5" sum="8,246" no="20" player="juilie"/>
+   <action type="0" sum="0" no="21" player="ioluKK"/>
+  </round>
+ </game>
+ <game gamecode="10551204497">
+  <general>
+   <startdate>2024-02-07 18:16:08</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" bet="160" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,834" name="tropeiro123"/>
+    <player dealer="0" bet="160" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="52,171" name="JiggaWhoo"/>
+    <player dealer="0" bet="24,912" rebuy="0" seat="4" win="53,104" reg_code="" addon="0" chips="25,072" name="Augusto1010"/>
+    <player dealer="1" bet="160" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="56,404" name="xXMAXTERXx"/>
+    <player dealer="0" bet="25,072" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="64,118" name="ioluKK"/>
+    <player dealer="0" bet="2,160" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="83,860" name="NavioPirata74"/>
+    <player dealer="0" bet="160" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="136,886" name="juilie"/>
+    <player dealer="0" bet="160" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,467" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="160" no="1" player="ioluKK"/>
+   <action type="15" sum="160" no="2" player="NavioPirata74"/>
+   <action type="15" sum="160" no="3" player="juilie"/>
+   <action type="15" sum="160" no="4" player="PrincessSofia23"/>
+   <action type="15" sum="160" no="5" player="tropeiro123"/>
+   <action type="15" sum="160" no="6" player="JiggaWhoo"/>
+   <action type="15" sum="160" no="7" player="Augusto1010"/>
+   <action type="15" sum="160" no="8" player="xXMAXTERXx"/>
+   <action type="1" sum="1,000" no="9" player="ioluKK"/>
+   <action type="2" sum="2,000" no="10" player="NavioPirata74"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="11" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="12" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">H7 H10</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="14" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">HJ SJ</cards>
+   <action type="23" sum="4,000" no="15" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="16" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">DQ DA</cards>
+   <action type="23" sum="10,000" no="17" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="18" player="NavioPirata74"/>
+   <action type="23" sum="24,912" no="19" player="Augusto1010"/>
+   <action type="3" sum="14,912" no="20" player="ioluKK"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H3 H4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+  </round>
+ </game>
+ <game gamecode="10551204575">
+  <general>
+   <startdate>2024-02-07 18:16:58</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" bet="200" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,674" name="tropeiro123"/>
+    <player dealer="0" bet="5,200" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="52,011" name="JiggaWhoo"/>
+    <player dealer="0" bet="200" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="53,104" name="Augusto1010"/>
+    <player dealer="0" bet="200" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="56,244" name="xXMAXTERXx"/>
+    <player dealer="1" bet="38,846" rebuy="0" seat="6" win="15,350" reg_code="" addon="0" chips="39,046" name="ioluKK"/>
+    <player dealer="0" bet="1,450" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="81,700" name="NavioPirata74"/>
+    <player dealer="0" bet="2,700" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="136,726" name="juilie"/>
+    <player dealer="0" bet="200" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="53,307" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="NavioPirata74"/>
+   <action type="15" sum="200" no="2" player="juilie"/>
+   <action type="15" sum="200" no="3" player="PrincessSofia23"/>
+   <action type="15" sum="200" no="4" player="tropeiro123"/>
+   <action type="15" sum="200" no="5" player="JiggaWhoo"/>
+   <action type="15" sum="200" no="6" player="Augusto1010"/>
+   <action type="15" sum="200" no="7" player="xXMAXTERXx"/>
+   <action type="15" sum="200" no="8" player="ioluKK"/>
+   <action type="1" sum="1,250" no="9" player="NavioPirata74"/>
+   <action type="2" sum="2,500" no="10" player="juilie"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="11" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">H9 H5</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="23" sum="5,000" no="13" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="14" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="15" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="23" sum="38,846" no="16" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="17" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="18" player="juilie"/>
+   <action type="0" sum="0" no="19" player="JiggaWhoo"/>
+  </round>
+ </game>
+ <game gamecode="10551204649">
+  <general>
+   <startdate>2024-02-07 18:17:43</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" bet="200" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,474" name="tropeiro123"/>
+    <player dealer="0" bet="200" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="46,811" name="JiggaWhoo"/>
+    <player dealer="0" bet="200" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="52,904" name="Augusto1010"/>
+    <player dealer="0" bet="13,809" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="56,044" name="xXMAXTERXx"/>
+    <player dealer="0" bet="200" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="49,196" name="ioluKK"/>
+    <player dealer="1" bet="200" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="80,250" name="NavioPirata74"/>
+    <player dealer="0" bet="1,450" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="134,026" name="juilie"/>
+    <player dealer="0" bet="53,107" rebuy="0" seat="10" win="30,068" reg_code="" addon="0" chips="53,107" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="juilie"/>
+   <action type="15" sum="200" no="2" player="PrincessSofia23"/>
+   <action type="15" sum="200" no="3" player="tropeiro123"/>
+   <action type="15" sum="200" no="4" player="JiggaWhoo"/>
+   <action type="15" sum="200" no="5" player="Augusto1010"/>
+   <action type="15" sum="200" no="6" player="xXMAXTERXx"/>
+   <action type="15" sum="200" no="7" player="ioluKK"/>
+   <action type="15" sum="200" no="8" player="NavioPirata74"/>
+   <action type="1" sum="1,250" no="9" player="juilie"/>
+   <action type="2" sum="2,500" no="10" player="PrincessSofia23"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C4 DK</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="12" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="13" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="23" sum="5,000" no="14" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="15" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="16" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="17" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="3" sum="2,500" no="18" player="PrincessSofia23"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 HK H2</cards>
+   <action type="4" sum="0" no="19" player="PrincessSofia23"/>
+   <action type="4" sum="0" no="20" player="xXMAXTERXx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action type="5" sum="8,609" no="21" player="PrincessSofia23"/>
+   <action type="3" sum="8,609" no="22" player="xXMAXTERXx"/>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+   <action type="5" sum="39,298" no="23" player="PrincessSofia23"/>
+   <action type="0" sum="0" no="24" player="xXMAXTERXx"/>
+  </round>
+ </game>
+ <game gamecode="10551204750">
+  <general>
+   <startdate>2024-02-07 18:18:55</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" bet="2,700" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="17,274" name="tropeiro123"/>
+    <player dealer="0" bet="200" rebuy="0" seat="2" win="0" reg_code="" addon="0" chips="46,611" name="JiggaWhoo"/>
+    <player dealer="0" bet="200" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="52,704" name="Augusto1010"/>
+    <player dealer="0" bet="200" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="42,235" name="xXMAXTERXx"/>
+    <player dealer="0" bet="200" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="48,996" name="ioluKK"/>
+    <player dealer="0" bet="200" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="80,050" name="NavioPirata74"/>
+    <player dealer="1" bet="5,200" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="132,576" name="juilie"/>
+    <player dealer="0" bet="69,166" rebuy="0" seat="10" win="14,100" reg_code="" addon="0" chips="69,366" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="PrincessSofia23"/>
+   <action type="15" sum="200" no="2" player="tropeiro123"/>
+   <action type="15" sum="200" no="3" player="JiggaWhoo"/>
+   <action type="15" sum="200" no="4" player="Augusto1010"/>
+   <action type="15" sum="200" no="5" player="xXMAXTERXx"/>
+   <action type="15" sum="200" no="6" player="ioluKK"/>
+   <action type="15" sum="200" no="7" player="NavioPirata74"/>
+   <action type="15" sum="200" no="8" player="juilie"/>
+   <action type="1" sum="1,250" no="9" player="PrincessSofia23"/>
+   <action type="2" sum="2,500" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JiggaWhoo">X X</cards>
+   <action type="0" sum="0" no="11" player="JiggaWhoo"/>
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="12" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="13" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="14" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="15" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="23" sum="5,000" no="16" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="23" sum="69,166" no="17" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">C8 S7</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+   <action type="0" sum="0" no="19" player="juilie"/>
+  </round>
+ </game>
+ <game gamecode="10551204814">
+  <general>
+   <startdate>2024-02-07 18:19:37</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" bet="14,374" rebuy="0" seat="1" win="0" reg_code="7942782138" addon="0" chips="14,574" name="tropeiro123"/>
+    <player dealer="0" bet="14,574" rebuy="0" seat="2" win="30,348" reg_code="" addon="0" chips="46,411" name="JiggaWhoo"/>
+    <player dealer="0" bet="200" rebuy="0" seat="4" win="0" reg_code="" addon="0" chips="52,504" name="Augusto1010"/>
+    <player dealer="0" bet="200" rebuy="0" seat="5" win="0" reg_code="" addon="0" chips="42,035" name="xXMAXTERXx"/>
+    <player dealer="0" bet="200" rebuy="0" seat="6" win="0" reg_code="" addon="0" chips="48,796" name="ioluKK"/>
+    <player dealer="0" bet="200" rebuy="0" seat="7" win="0" reg_code="" addon="0" chips="79,850" name="NavioPirata74"/>
+    <player dealer="0" bet="200" rebuy="0" seat="9" win="0" reg_code="" addon="0" chips="127,376" name="juilie"/>
+    <player dealer="1" bet="200" rebuy="0" seat="10" win="0" reg_code="" addon="0" chips="78,266" name="PrincessSofia23"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="tropeiro123"/>
+   <action type="15" sum="200" no="2" player="JiggaWhoo"/>
+   <action type="15" sum="200" no="3" player="Augusto1010"/>
+   <action type="15" sum="200" no="4" player="xXMAXTERXx"/>
+   <action type="15" sum="200" no="5" player="ioluKK"/>
+   <action type="15" sum="200" no="6" player="NavioPirata74"/>
+   <action type="15" sum="200" no="7" player="juilie"/>
+   <action type="15" sum="200" no="8" player="PrincessSofia23"/>
+   <action type="1" sum="1,250" no="9" player="tropeiro123"/>
+   <action type="2" sum="2,500" no="10" player="JiggaWhoo"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Augusto1010">X X</cards>
+   <action type="0" sum="0" no="11" player="Augusto1010"/>
+   <cards type="Pocket" player="xXMAXTERXx">X X</cards>
+   <action type="0" sum="0" no="12" player="xXMAXTERXx"/>
+   <cards type="Pocket" player="ioluKK">X X</cards>
+   <action type="0" sum="0" no="13" player="ioluKK"/>
+   <cards type="Pocket" player="NavioPirata74">X X</cards>
+   <action type="0" sum="0" no="14" player="NavioPirata74"/>
+   <cards type="Pocket" player="juilie">X X</cards>
+   <action type="0" sum="0" no="15" player="juilie"/>
+   <cards type="Pocket" player="PrincessSofia23">X X</cards>
+   <action type="0" sum="0" no="16" player="PrincessSofia23"/>
+   <cards type="Pocket" player="tropeiro123">D7 D4</cards>
+   <action type="23" sum="14,374" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="JiggaWhoo">D8 H10</cards>
+   <action type="3" sum="11,874" no="18" player="JiggaWhoo"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ D9 SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+  </round>
+ </game>
+</session>

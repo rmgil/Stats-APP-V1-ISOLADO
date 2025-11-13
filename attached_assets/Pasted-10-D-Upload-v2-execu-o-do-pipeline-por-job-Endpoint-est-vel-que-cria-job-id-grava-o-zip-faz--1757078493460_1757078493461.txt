@@ -1,0 +1,55 @@
+10.D — Upload v2 + execução do pipeline por job
+
+Endpoint estável que cria job_id, grava o zip, faz unpack, classifica por PKO/NON‑KO/Mystery, e chama o pipeline no diretório do job.
+
+# main.py (adicionar novos endpoints simples)
+import uuid, zipfile, shutil, tempfile, os
+from flask import request, jsonify
+
+def _jobs_dir():
+    base = os.environ.get("MTT_JOBS_DIR", os.path.join(tempfile.gettempdir(), "mtt_jobs"))
+    os.makedirs(base, exist_ok=True); return base
+
+def _new_job_id():
+    return uuid.uuid4().hex[:16]  # 16 chars, simples p/ UI
+
+@app.post("/upload_v2")
+def upload_v2():
+    f = request.files.get("file")
+    if not f or not f.filename.lower().endswith(".zip"):
+        return jsonify(ok=False, error="invalid_file", detail="Submete um .zip"), 400
+    job_id = _new_job_id()
+    job_dir = os.path.join(_jobs_dir(), job_id)
+    os.makedirs(job_dir, exist_ok=True)
+    zip_path = os.path.join(job_dir, "upload.zip")
+    f.save(zip_path)
+    try:
+        with zipfile.ZipFile(zip_path) as z:
+            z.extractall(os.path.join(job_dir, "inbox"))
+    except Exception as e:
+        return jsonify(ok=False, error="bad_zip", detail=str(e)), 400
+    return jsonify(ok=True, job_id=job_id)
+
+@app.post("/api/pipeline/run")
+def pipeline_run():
+    job = request.args.get("job","").strip()
+    if not job: return jsonify(ok=False,error="missing_job"),400
+    base = os.path.join(_jobs_dir(), job)
+    inbox = os.path.join(base, "inbox")
+    if not os.path.isdir(inbox): return jsonify(ok=False,error="empty_inbox"),400
+
+    # Reutiliza os teus runners existentes, mas apontando a raiz do job
+    # 1) classificar -> cria test_classified/ (NON-KO, PKO, Mystery)
+    # 2) parse/enrich -> parsed/hands_enriched.jsonl
+    # 3) partitions -> partitions/...
+    # 4) stats -> stats/stat_counts.json (+ index .ids)
+    # 5) score -> scores/scorecard.json
+    try:
+        from app.pipeline import run_all  # cria um helper thin-wrapper se não existir
+        run_all(inbox_dir=inbox, out_root=base)
+        return jsonify(ok=True, job=job)
+    except Exception as e:
+        return jsonify(ok=False, error="pipeline_failed", detail=str(e)), 500
+
+
+Nota: Se ainda não tens app/pipeline.py para orquestrar, cria um “thin wrapper” que chame exatamente os teus runners das Fases 1–8, só trocando os paths para out_root=job_dir.

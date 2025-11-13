@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7943528521">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,500|Lunch Classic, 1080495433</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:04:40</duration>
+  <gamecount>7</gamecount>
+  <startdate>2024-02-08 13:23:20</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>30,125</bets>
+  <wins>38,100</wins>
+  <chipsin>98,900</chipsin>
+  <chipsout>117,500</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080392847</tournamentcode>
+  <tournamentname>€2,500|Lunch Classic</tournamentname>
+  <place>N/A</place>
+  <buyin>€36.30 + €3.70</buyin>
+  <totalbuyin>€40</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10552430953">
+  <general>
+   <startdate>2024-02-08 13:23:20</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="1" bet="1,100" reg_code="7943528521" seat="1" chips="100,000"/>
+    <player win="222,800" rebuy="0" addon="0" name="fuiascompras" dealer="0" bet="104,600" reg_code="" seat="5" chips="105,700"/>
+    <player win="0" rebuy="0" addon="0" name="Vaihdoinnimen" dealer="0" bet="8,100" reg_code="" seat="6" chips="316,851"/>
+    <player win="0" rebuy="0" addon="0" name="k0varts1" dealer="0" bet="1,100" reg_code="" seat="7" chips="315,622"/>
+    <player win="0" rebuy="0" addon="0" name="andysenior1" dealer="0" bet="105,700" reg_code="" seat="9" chips="107,850"/>
+    <player win="0" rebuy="0" addon="0" name="prodoman" dealer="0" bet="1,100" reg_code="" seat="10" chips="259,737"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="fuiascompras" no="1" sum="1,100" type="15"/>
+   <action player="Vaihdoinnimen" no="2" sum="1,100" type="15"/>
+   <action player="k0varts1" no="3" sum="1,100" type="15"/>
+   <action player="andysenior1" no="4" sum="1,100" type="15"/>
+   <action player="prodoman" no="5" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="6" sum="1,100" type="15"/>
+   <action player="fuiascompras" no="7" sum="3,500" type="1"/>
+   <action player="Vaihdoinnimen" no="8" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="k0varts1" type="Pocket">X X</cards>
+   <action player="k0varts1" no="9" sum="0" type="0"/>
+   <cards player="andysenior1" type="Pocket">DK CA</cards>
+   <action player="andysenior1" no="10" sum="14,000" type="23"/>
+   <cards player="prodoman" type="Pocket">X X</cards>
+   <action player="prodoman" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 D8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="fuiascompras" type="Pocket">HK HJ</cards>
+   <action player="fuiascompras" no="13" sum="104,600" type="23"/>
+   <cards player="Vaihdoinnimen" type="Pocket">X X</cards>
+   <action player="Vaihdoinnimen" no="14" sum="0" type="0"/>
+   <action player="andysenior1" no="15" sum="90,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 HA H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+  </round>
+ </game>
+ <game gamecode="10552430966">
+  <general>
+   <startdate>2024-02-08 13:24:03</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="23,000" rebuy="0" addon="0" name="thewelshgoat" dealer="1" bet="98,900" reg_code="" seat="1" chips="100,000"/>
+    <player win="0" rebuy="0" addon="0" name="WipeHype" dealer="0" bet="4,600" reg_code="" seat="6" chips="111,536"/>
+    <player win="0" rebuy="0" addon="0" name="MentalWarrior" dealer="0" bet="8,100" reg_code="" seat="7" chips="96,200"/>
+    <player win="0" rebuy="0" addon="0" name="iboz29" dealer="0" bet="1,100" reg_code="" seat="9" chips="136,979"/>
+    <player win="0" rebuy="0" addon="0" name="Darkter" dealer="0" bet="1,100" reg_code="" seat="10" chips="402,438"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="WipeHype" no="1" sum="1,100" type="15"/>
+   <action player="MentalWarrior" no="2" sum="1,100" type="15"/>
+   <action player="iboz29" no="3" sum="1,100" type="15"/>
+   <action player="Darkter" no="4" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="5" sum="1,100" type="15"/>
+   <action player="WipeHype" no="6" sum="3,500" type="1"/>
+   <action player="MentalWarrior" no="7" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="iboz29" type="Pocket">X X</cards>
+   <action player="iboz29" no="8" sum="0" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="9" sum="0" type="0"/>
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="10" sum="98,900" type="23"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action player="WipeHype" no="11" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action player="MentalWarrior" no="12" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552430972">
+  <general>
+   <startdate>2024-02-08 13:24:26</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="thewelshgoat" dealer="0" bet="1,100" reg_code="" seat="1" chips="114,900"/>
+    <player win="0" rebuy="0" addon="0" name="finfikarN" dealer="0" bet="1,100" reg_code="" seat="4" chips="151,874"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943528521" seat="5" chips="98,900"/>
+    <player win="0" rebuy="0" addon="0" name="WipeHype" dealer="1" bet="1,100" reg_code="" seat="6" chips="106,936"/>
+    <player win="0" rebuy="0" addon="0" name="MentalWarrior" dealer="0" bet="8,100" reg_code="" seat="7" chips="88,100"/>
+    <player win="21,700" rebuy="0" addon="0" name="iboz29" dealer="0" bet="21,000" reg_code="" seat="9" chips="135,879"/>
+    <player win="0" rebuy="0" addon="0" name="Darkter" dealer="0" bet="1,100" reg_code="" seat="10" chips="401,338"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="MentalWarrior" no="1" sum="1,100" type="15"/>
+   <action player="iboz29" no="2" sum="1,100" type="15"/>
+   <action player="Darkter" no="3" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="4" sum="1,100" type="15"/>
+   <action player="finfikarN" no="5" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="6" sum="1,100" type="15"/>
+   <action player="WipeHype" no="7" sum="1,100" type="15"/>
+   <action player="MentalWarrior" no="8" sum="3,500" type="1"/>
+   <action player="iboz29" no="9" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="10" sum="0" type="0"/>
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="11" sum="0" type="0"/>
+   <cards player="finfikarN" type="Pocket">X X</cards>
+   <action player="finfikarN" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ D8</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action player="WipeHype" no="14" sum="0" type="0"/>
+   <cards player="MentalWarrior" type="Pocket">X X</cards>
+   <action player="MentalWarrior" no="15" sum="3,500" type="3"/>
+   <cards player="iboz29" type="Pocket">X X</cards>
+   <action player="iboz29" no="16" sum="21,000" type="23"/>
+   <action player="MentalWarrior" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552449030">
+  <general>
+   <startdate>2024-02-08 13:25:32</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="thewelshgoat" dealer="0" bet="1,100" reg_code="" seat="1" chips="113,800"/>
+    <player win="0" rebuy="0" addon="0" name="IamCrownupguy" dealer="0" bet="1,100" reg_code="" seat="2" chips="123,364"/>
+    <player win="0" rebuy="0" addon="0" name="finfikarN" dealer="0" bet="1,100" reg_code="" seat="4" chips="150,774"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943528521" seat="5" chips="97,800"/>
+    <player win="20,600" rebuy="0" addon="0" name="iboz29" dealer="0" bet="18,400" reg_code="" seat="9" chips="149,479"/>
+    <player win="0" rebuy="0" addon="0" name="Darkter" dealer="0" bet="8,100" reg_code="" seat="10" chips="400,238"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="iboz29" no="1" sum="1,100" type="15"/>
+   <action player="Darkter" no="2" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="3" sum="1,100" type="15"/>
+   <action player="IamCrownupguy" no="4" sum="1,100" type="15"/>
+   <action player="finfikarN" no="5" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="6" sum="1,100" type="15"/>
+   <action player="iboz29" no="7" sum="3,500" type="1"/>
+   <action player="Darkter" no="8" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="9" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action player="IamCrownupguy" no="10" sum="0" type="0"/>
+   <cards player="finfikarN" type="Pocket">X X</cards>
+   <action player="finfikarN" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H8</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="iboz29" type="Pocket">X D10</cards>
+   <action player="iboz29" no="13" sum="3,500" type="3"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="14" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D8 SK</cards>
+   <action player="iboz29" no="15" sum="10,300" type="5"/>
+   <action player="Darkter" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552449038">
+  <general>
+   <startdate>2024-02-08 13:26:00</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="thewelshgoat" dealer="0" bet="15,100" reg_code="" seat="1" chips="112,700"/>
+    <player win="0" rebuy="0" addon="0" name="IamCrownupguy" dealer="0" bet="1,100" reg_code="" seat="2" chips="122,264"/>
+    <player win="0" rebuy="0" addon="0" name="finfikarN" dealer="0" bet="1,100" reg_code="" seat="4" chips="149,674"/>
+    <player win="38,100" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="24,625" reg_code="7943528521" seat="5" chips="96,700"/>
+    <player win="0" rebuy="0" addon="0" name="iboz29" dealer="1" bet="1,100" reg_code="" seat="9" chips="161,979"/>
+    <player win="0" rebuy="0" addon="0" name="Darkter" dealer="0" bet="4,600" reg_code="" seat="10" chips="392,138"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Darkter" no="1" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="2" sum="1,100" type="15"/>
+   <action player="IamCrownupguy" no="3" sum="1,100" type="15"/>
+   <action player="finfikarN" no="4" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="5" sum="1,100" type="15"/>
+   <action player="iboz29" no="6" sum="1,100" type="15"/>
+   <action player="Darkter" no="7" sum="3,500" type="1"/>
+   <action player="thewelshgoat" no="8" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action player="IamCrownupguy" no="9" sum="0" type="0"/>
+   <cards player="finfikarN" type="Pocket">X X</cards>
+   <action player="finfikarN" no="10" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK DK</cards>
+   <action player="tropeiro123" no="11" sum="14,000" type="23"/>
+   <cards player="iboz29" type="Pocket">X X</cards>
+   <action player="iboz29" no="12" sum="0" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="13" sum="0" type="0"/>
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="14" sum="7,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ SA D7</cards>
+   <action player="thewelshgoat" no="15" sum="0" type="4"/>
+   <action player="tropeiro123" no="16" sum="9,525" type="5"/>
+   <action player="thewelshgoat" no="17" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552449048">
+  <general>
+   <startdate>2024-02-08 13:26:39</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="thewelshgoat" dealer="0" bet="4,600" reg_code="" seat="1" chips="97,600"/>
+    <player win="38,100" rebuy="0" addon="0" name="IamCrownupguy" dealer="0" bet="120,064" reg_code="" seat="2" chips="121,164"/>
+    <player win="0" rebuy="0" addon="0" name="finfikarN" dealer="0" bet="1,100" reg_code="" seat="4" chips="148,574"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943528521" seat="5" chips="119,700"/>
+    <player win="0" rebuy="0" addon="0" name="iboz29" dealer="0" bet="15,100" reg_code="" seat="9" chips="160,879"/>
+    <player win="0" rebuy="0" addon="0" name="Darkter" dealer="1" bet="1,100" reg_code="" seat="10" chips="387,538"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="thewelshgoat" no="1" sum="1,100" type="15"/>
+   <action player="IamCrownupguy" no="2" sum="1,100" type="15"/>
+   <action player="finfikarN" no="3" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="4" sum="1,100" type="15"/>
+   <action player="iboz29" no="5" sum="1,100" type="15"/>
+   <action player="Darkter" no="6" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="7" sum="3,500" type="1"/>
+   <action player="IamCrownupguy" no="8" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="finfikarN" type="Pocket">X X</cards>
+   <action player="finfikarN" no="9" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 S2</cards>
+   <action player="tropeiro123" no="10" sum="0" type="0"/>
+   <cards player="iboz29" type="Pocket">X X</cards>
+   <action player="iboz29" no="11" sum="14,000" type="23"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="12" sum="0" type="0"/>
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="13" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action player="IamCrownupguy" no="14" sum="120,064" type="23"/>
+   <action player="iboz29" no="15" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10552449059">
+  <general>
+   <startdate>2024-02-08 13:27:31</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>1,100</ante>
+   <players>
+    <player win="0" rebuy="0" addon="0" name="thewelshgoat" dealer="1" bet="1,100" reg_code="" seat="1" chips="93,000"/>
+    <player win="0" rebuy="0" addon="0" name="IamCrownupguy" dealer="0" bet="4,600" reg_code="" seat="2" chips="144,164"/>
+    <player win="0" rebuy="0" addon="0" name="finfikarN" dealer="0" bet="8,100" reg_code="" seat="4" chips="147,474"/>
+    <player win="0" rebuy="0" addon="0" name="tropeiro123" dealer="0" bet="1,100" reg_code="7943528521" seat="5" chips="118,600"/>
+    <player win="0" rebuy="0" addon="0" name="tripsfinal338" dealer="0" bet="1,100" reg_code="" seat="6" chips="229,480"/>
+    <player win="0" rebuy="0" addon="0" name="Onnekas5" dealer="0" bet="1,100" reg_code="" seat="7" chips="230,824"/>
+    <player win="0" rebuy="0" addon="0" name="iboz29" dealer="0" bet="1,100" reg_code="" seat="9" chips="145,779"/>
+    <player win="26,300" rebuy="0" addon="0" name="Darkter" dealer="0" bet="14,000" reg_code="" seat="10" chips="386,438"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="IamCrownupguy" no="1" sum="1,100" type="15"/>
+   <action player="finfikarN" no="2" sum="1,100" type="15"/>
+   <action player="tropeiro123" no="3" sum="1,100" type="15"/>
+   <action player="tripsfinal338" no="4" sum="1,100" type="15"/>
+   <action player="Onnekas5" no="5" sum="1,100" type="15"/>
+   <action player="iboz29" no="6" sum="1,100" type="15"/>
+   <action player="Darkter" no="7" sum="1,100" type="15"/>
+   <action player="thewelshgoat" no="8" sum="1,100" type="15"/>
+   <action player="IamCrownupguy" no="9" sum="3,500" type="1"/>
+   <action player="finfikarN" no="10" sum="7,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H7 HK</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="tripsfinal338" type="Pocket">X X</cards>
+   <action player="tripsfinal338" no="12" sum="0" type="0"/>
+   <cards player="Onnekas5" type="Pocket">X X</cards>
+   <action player="Onnekas5" no="13" sum="0" type="0"/>
+   <cards player="iboz29" type="Pocket">X X</cards>
+   <action player="iboz29" no="14" sum="0" type="0"/>
+   <cards player="Darkter" type="Pocket">X X</cards>
+   <action player="Darkter" no="15" sum="14,000" type="23"/>
+   <cards player="thewelshgoat" type="Pocket">X X</cards>
+   <action player="thewelshgoat" no="16" sum="0" type="0"/>
+   <cards player="IamCrownupguy" type="Pocket">X X</cards>
+   <action player="IamCrownupguy" no="17" sum="0" type="0"/>
+   <cards player="finfikarN" type="Pocket">X X</cards>
+   <action player="finfikarN" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,41 @@
+{
+  "run": {
+    "token": "d9e68e0c857e4377",
+    "base": "runs/d9e68e0c857e4377"
+  },
+  "overall": null,
+  "group_level": {},
+  "samples": {},
+  "months": [
+    "generated_at",
+    "input",
+    "dsl",
+    "metric",
+    "hands_processed",
+    "errors",
+    "stats_computed",
+    "counts"
+  ],
+  "counts": {
+    "generated_at": "2025-09-05T14:32:56.425603Z",
+    "input": "/tmp/jobs/d9e68e0c857e4377/out/parsed/hands_enriched.jsonl",
+    "dsl": "app/stats/dsl/stats.yml",
+    "metric": {
+      "type": "percent",
+      "decimals": 2
+    },
+    "hands_processed": 8757,
+    "errors": 0,
+    "stats_computed": 66,
+    "counts": {}
+  },
+  "groups": {},
+  "ingest": {
+    "files_total": 268,
+    "files_pko": 115,
+    "files_mystery": 7,
+    "files_nonko": 146,
+    "timestamp": "2025-09-05T14:32:38.531984",
+    "source_zip": "00000197-a404-d72c-0000-00001fad5a7a.zip"
+  }
+}

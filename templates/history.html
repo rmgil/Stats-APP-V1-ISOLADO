@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórico de Processamentos</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+        }
+        
+        .header {
+            background: #111;
+            padding: 20px;
+            border-bottom: 1px solid #222;
+        }
+        
+        .header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h1 {
+            font-size: 24px;
+            color: #fff;
+            font-weight: 300;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px 20px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 20px;
+            border: 1px solid #333;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #666;
+            margin-bottom: 8px;
+        }
+        
+        .stat-value {
+            font-size: 32px;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .history-table {
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #333;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        
+        th {
+            background: #222;
+            color: #999;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        
+        td {
+            color: #e0e0e0;
+        }
+        
+        tr:hover {
+            background: #252525;
+        }
+        
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-completed {
+            background: #1a472a;
+            color: #4ade80;
+        }
+        
+        .status-processing {
+            background: #422006;
+            color: #fb923c;
+        }
+        
+        .status-failed {
+            background: #4c1d1d;
+            color: #f87171;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+        }
+        
+        .empty-state h2 {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .empty-state p {
+            color: #444;
+        }
+        
+        .action-link {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        
+        .action-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <h1>📊 Histórico de Processamentos</h1>
+            <a href="/upload" class="btn">Nova Análise</a>
+        </div>
+    </div>
+    
+    <div class="container">
+        <!-- Statistics Section -->
+        <div class="stats-grid" id="statsSection">
+            <div class="stat-card">
+                <div class="stat-label">Total de Uploads</div>
+                <div class="stat-value" id="totalUploads">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Total de Mãos</div>
+                <div class="stat-value" id="totalHands">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Sites Processados</div>
+                <div class="stat-value" id="totalSites">-</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Concluídos</div>
+                <div class="stat-value" id="completedCount">-</div>
+            </div>
+        </div>
+        
+        <!-- History Table -->
+        <div class="history-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Ficheiro</th>
+                        <th>Status</th>
+                        <th>Mãos</th>
+                        <th>Sites</th>
+                        <th>Pontuação</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="historyTableBody">
+                    <tr>
+                        <td colspan="7">
+                            <div class="loading">Carregando histórico...</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <script>
+        // Load user statistics
+        async function loadStats() {
+            try {
+                const response = await fetch('/api/history/stats');
+                const data = await response.json();
+                
+                if (data.success && data.stats) {
+                    document.getElementById('totalUploads').textContent = data.stats.total_uploads || 0;
+                    document.getElementById('totalHands').textContent = data.stats.total_hands?.toLocaleString() || 0;
+                    document.getElementById('totalSites').textContent = data.stats.total_sites || 0;
+                    document.getElementById('completedCount').textContent = data.stats.completed_count || 0;
+                }
+            } catch (error) {
+                console.error('Error loading stats:', error);
+            }
+        }
+        
+        // Load history
+        async function loadHistory() {
+            try {
+                const response = await fetch('/api/history/my?limit=50');
+                const data = await response.json();
+                
+                const tbody = document.getElementById('historyTableBody');
+                
+                if (!data.success || !data.history || data.history.length === 0) {
+                    tbody.innerHTML = `
+                        <tr>
+                            <td colspan="7">
+                                <div class="empty-state">
+                                    <h2>Nenhum histórico ainda</h2>
+                                    <p>Faça o seu primeiro upload para começar!</p>
+                                </div>
+                            </td>
+                        </tr>
+                    `;
+                    return;
+                }
+                
+                tbody.innerHTML = data.history.map(item => {
+                    const date = new Date(item.created_at);
+                    const formattedDate = date.toLocaleDateString('pt-PT') + ' ' + date.toLocaleTimeString('pt-PT', { hour: '2-digit', minute: '2-digit' });
+                    
+                    const statusClass = `status-${item.status}`;
+                    const statusText = item.status === 'completed' ? 'Concluído' : 
+                                     item.status === 'processing' ? 'A processar' : 
+                                     item.status === 'failed' ? 'Falhou' : item.status;
+                    
+                    const score = item.overall_score ? item.overall_score.toFixed(1) : '-';
+                    
+                    return `
+                        <tr>
+                            <td>${formattedDate}</td>
+                            <td>${item.filename}</td>
+                            <td><span class="status-badge ${statusClass}">${statusText}</span></td>
+                            <td>${(item.total_hands || 0).toLocaleString()}</td>
+                            <td>${item.total_sites || 0}</td>
+                            <td>${score}</td>
+                            <td>
+                                ${item.status === 'completed' ? 
+                                    `<a href="/dashboard/${item.token}" class="action-link">Ver Dashboard</a>` :
+                                    '-'}
+                            </td>
+                        </tr>
+                    `;
+                }).join('');
+                
+            } catch (error) {
+                console.error('Error loading history:', error);
+                document.getElementById('historyTableBody').innerHTML = `
+                    <tr>
+                        <td colspan="7">
+                            <div class="empty-state">
+                                <h2>Erro ao carregar histórico</h2>
+                                <p>${error.message}</p>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }
+        }
+        
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            loadStats();
+            loadHistory();
+        });
+    </script>
+</body>
+</html>

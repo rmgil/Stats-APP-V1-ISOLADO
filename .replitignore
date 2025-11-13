@@ -1,0 +1,72 @@
+# Large data directories that should not be included in deployment
+attached_assets/**
+runs/**
+work/**
+parsed/**
+partitions/**
+poker-classifier/temp/**
+poker-classifier/work/**
+scores/**
+stats/**
+test_classified/**
+test_partitions/**
+test_stats/**
+
+# Test files  
+tests/**
+test_*
+*.test.py
+*_test.py
+
+# Archive files
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# Log files
+*.log
+logs/**
+
+# Python cache
+__pycache__/**
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE and editor files
+.vscode/**
+.idea/**
+*.swp
+*.swo
+*~
+
+# Temporary files
+/tmp/**
+temp/**
+*.tmp
+
+# Documentation
+README.md
+*.md
+
+# Result files from processing
+result_*.zip
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment files (keep .env for secrets)
+.env.local
+.env.development
+.env.test
+
+# Other unnecessary files for deployment
+cookies.txt
+*.html
+pipeline_test.log

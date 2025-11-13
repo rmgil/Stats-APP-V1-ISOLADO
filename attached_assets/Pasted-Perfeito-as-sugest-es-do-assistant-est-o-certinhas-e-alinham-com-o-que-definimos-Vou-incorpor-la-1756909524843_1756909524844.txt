@@ -1,0 +1,496 @@
+Perfeito — as sugestões do assistant estão certinhas e alinham com o que definimos. Vou incorporá‑las e fechar um plano final da FASE 5 com prompts prontos para o agent aplicar sem tocar no que já está estável (Fases 1–4).
+
+Atenções principais que consolidei:
+
+EP/MP via hero_pos_group; CO/BTN via hero_position absoluta ✅
+
+Filtros: heads_up_only (HU no flop), pot_type=["SRP"], eff_stack_min_bb>=16, exclude_allin_preflop=true ✅
+
+Engine com error handling robusto, ids por opps/attempts (click‑through), manifest com % e contadores ✅
+
+CLI verbosa + validação de entradas ✅
+
+Endpoints REST estáveis (build/summary/hands) ✅
+
+Testes (unit e integração) cobrindo casos edge ✅
+
+Plano final — Fase 5 (DSL + Executor)
+Saídas desta fase
+
+stats/stat_counts.json — % (2 casas), opportunities, attempts por mês × grupo × stat.
+
+stats/index/<YYYY-MM>__<group>__<stat>__opps.ids e …__attempts.ids — listas de hand_id para click‑through.
+
+CLI + APIs para correr e ler resultados.
+
+PROMPTS (cola no agent por ordem)
+✅ PROMPT 5.0 — Diretiva de integração
+
+Não reescrever nada das Fases 1–4. Adicionar apenas app/stats/ (DSL+engine+runner), endpoints e testes. Manter nomes e contratos existentes. Onde houver duplicação de endpoints, apenas acrescentar os novos (não substituir o que já funciona).
+
+✅ PROMPT 5.1 — Catálogo DSL (RFI) com mapeamento correto EP/MP vs CO/BTN
+
+Cria/atualiza app/stats/dsl/stats.yml exatamente com o conteúdo abaixo.
+
+version: 1
+defaults:
+  metric: { type: percent, decimals: 2 }
+
+stats:
+  # -------------------------
+  # RFI: EARLY POSITION
+  # -------------------------
+  - id: RFI_EARLY
+    label: "Early RFI"
+    family: "RFI"
+    scope: preflop
+    applies_to_groups: ["nonko_9max_pref", "nonko_6max_pref", "pko_pref"]
+    filters:
+      heads_up_only: true
+      pot_type: ["SRP"]
+      eff_stack_min_bb: 16
+      exclude_allin_preflop: true
+    opportunity:
+      all:
+        - eq: ["hero_pos_group", "EP"]
+        - is_true: "unopened_pot"
+    attempt:
+      is_true: "hero_raised_first_in"
+
+  # -------------------------
+  # RFI: MIDDLE POSITION
+  # -------------------------
+  - id: RFI_MIDDLE
+    label: "Middle RFI"
+    family: "RFI"
+    scope: preflop
+    applies_to_groups: ["nonko_9max_pref", "nonko_6max_pref", "pko_pref"]
+    filters:
+      heads_up_only: true
+      pot_type: ["SRP"]
+      eff_stack_min_bb: 16
+      exclude_allin_preflop: true
+    opportunity:
+      all:
+        - eq: ["hero_pos_group", "MP"]
+        - is_true: "unopened_pot"
+    attempt:
+      is_true: "hero_raised_first_in"
+
+  # -------------------------
+  # RFI: CUTOFF STEAL
+  # -------------------------
+  - id: RFI_CO_STEAL
+    label: "CO Steal"
+    family: "RFI"
+    scope: preflop
+    applies_to_groups: ["nonko_9max_pref", "nonko_6max_pref", "pko_pref"]
+    filters:
+      heads_up_only: true
+      pot_type: ["SRP"]
+      eff_stack_min_bb: 16
+      exclude_allin_preflop: true
+    opportunity:
+      all:
+        - eq: ["hero_position", "CO"]
+        - is_true: "unopened_pot"
+    attempt:
+      is_true: "hero_raised_first_in"
+
+  # -------------------------
+  # RFI: BUTTON STEAL
+  # -------------------------
+  - id: RFI_BTN_STEAL
+    label: "BTN Steal"
+    family: "RFI"
+    scope: preflop
+    applies_to_groups: ["nonko_9max_pref", "nonko_6max_pref", "pko_pref"]
+    filters:
+      heads_up_only: true
+      pot_type: ["SRP"]
+      eff_stack_min_bb: 16
+      exclude_allin_preflop: true
+    opportunity:
+      all:
+        - eq: ["hero_position", "BTN"]
+        - is_true: "unopened_pot"
+    attempt:
+      is_true: "hero_raised_first_in"
+
+
+Notas
+
+EP/MP via hero_pos_group (respeita 9‑max com EP/EP2 e MP1/MP2/MP3).
+
+CO/BTN via hero_position absoluta.
+
+HU é avaliado no flop (exclui multiway e walks automaticamente).
+
+✅ PROMPT 5.2 — Engine robusto (substituir app/stats/engine.py)
+
+Cria/substitui app/stats/engine.py com o código abaixo (mantém nomes build_context, eval_clause, pass_filters, run_stats).
+
+# app/stats/engine.py
+import os, json, yaml, logging
+from datetime import datetime
+from typing import Dict, Any
+from app.partition.groups import groups_for_hand
+from app.partition.months import month_bucket, make_hand_id
+
+logger = logging.getLogger(__name__)
+
+def build_context(hand: dict) -> Dict[str, Any]:
+    derived = hand.get("derived", {}) or {}
+    positions = derived.get("positions", {}) or {}
+    preflop   = derived.get("preflop", {}) or {}
+    ip        = derived.get("ip", {}) or {}
+    stacks    = derived.get("stacks", {}) or {}
+    flags     = derived.get("flags", {}) or {}
+
+    hero = hand.get("hero")
+    hero_pos_group = positions.get("pos_group", {}).get(hero) if hero else None
+    hero_position  = positions.get("abs_positions", {}).get(hero) if hero else None
+
+    ctx = {
+        # hero
+        "hero_pos_group": hero_pos_group,
+        "hero_position":  hero_position,
+
+        # preflop core
+        "unopened_pot": preflop.get("unopened_pot", False),
+        "pot_type": preflop.get("pot_type", "none"),
+        "hero_raised_first_in": preflop.get("hero_raised_first_in", False),
+        "hero_vpip": preflop.get("hero_vpip", False),
+        "faced_3bet": preflop.get("faced_3bet", False),
+        "folded_to_3bet": preflop.get("folded_to_3bet", False),
+        "is_squeeze": preflop.get("is_squeeze", False),
+        "is_resteal_vs_btn": preflop.get("is_resteal_vs_btn", False),
+
+        # ip/multiway
+        "heads_up_flop": ip.get("heads_up_flop", False),
+        "heads_up_turn": ip.get("heads_up_turn", False),
+        "heads_up_river": ip.get("heads_up_river", False),
+        "hero_ip_flop": ip.get("hero_ip_flop"),
+        "hero_ip_turn": ip.get("hero_ip_turn"),
+        "hero_ip_river": ip.get("hero_ip_river"),
+        "players_to_flop": ip.get("players_to_flop", 0),
+        "players_to_turn": ip.get("players_to_turn", 0),
+        "players_to_river": ip.get("players_to_river", 0),
+
+        # stacks
+        "eff_stack_srp": stacks.get("eff_stack_bb_srp"),
+        "eff_stack_vs_3bet": stacks.get("eff_stack_bb_vs_3bettor"),
+
+        # flags
+        "any_allin_preflop": flags.get("any_allin_preflop", False),
+
+        # meta
+        "hand_id": make_hand_id(hand),
+        "month": month_bucket(hand.get("timestamp_utc", "")),
+        "groups": groups_for_hand(hand),
+    }
+    return ctx
+
+def eval_clause(clause: Any, ctx: Dict[str, Any]) -> bool:
+    if clause is None:
+        return False
+    if isinstance(clause, bool):
+        return clause
+    if isinstance(clause, str):
+        return bool(ctx.get(clause, False))
+    if isinstance(clause, dict):
+        if "all" in clause:
+            return all(eval_clause(c, ctx) for c in clause["all"])
+        if "any" in clause:
+            return any(eval_clause(c, ctx) for c in clause["any"])
+        if "not" in clause:
+            return not eval_clause(clause["not"], ctx)
+        if "eq" in clause:
+            k, v = clause["eq"];           return ctx.get(k) == v
+        if "in" in clause:
+            k, arr = clause["in"];         return ctx.get(k) in arr
+        if "gte" in clause:
+            k, v = clause["gte"]; x = ctx.get(k); return (x is not None) and (x >= v)
+        if "lte" in clause:
+            k, v = clause["lte"]; x = ctx.get(k); return (x is not None) and (x <= v)
+        if "gt" in clause:
+            k, v = clause["gt"];  x = ctx.get(k); return (x is not None) and (x > v)
+        if "lt" in clause:
+            k, v = clause["lt"];  x = ctx.get(k); return (x is not None) and (x < v)
+        if "is_true" in clause:
+            return bool(ctx.get(clause["is_true"], False))
+        if "is_false" in clause:
+            return not bool(ctx.get(clause["is_false"], True))  # missing -> False
+    logger.warning(f"[DSL] Unknown clause: {clause}")
+    return False
+
+def pass_filters(stat: dict, ctx: Dict[str, Any]) -> bool:
+    f = stat.get("filters", {}) or {}
+    if f.get("heads_up_only") and not ctx.get("heads_up_flop", False):
+        return False
+    allowed = f.get("pot_type")
+    if allowed and ctx.get("pot_type") not in allowed:
+        return False
+    min_bb = f.get("eff_stack_min_bb")
+    if min_bb is not None:
+        eff = ctx.get("eff_stack_srp")
+        if eff is None or eff < float(min_bb):
+            return False
+    if f.get("exclude_allin_preflop") and ctx.get("any_allin_preflop", False):
+        return False
+    return True
+
+def load_catalog(yaml_path: str) -> dict:
+    if not os.path.exists(yaml_path):
+        raise FileNotFoundError(f"DSL catalog not found: {yaml_path}")
+    with open(yaml_path, "r", encoding="utf-8") as f:
+        cat = yaml.safe_load(f)
+    if not cat.get("stats"):
+        raise ValueError("DSL catalog missing 'stats'")
+    return cat
+
+def ensure_dirs(*paths): 
+    for p in paths: os.makedirs(p, exist_ok=True)
+
+def run_stats(in_jsonl: str, dsl_path: str, out_dir: str) -> dict:
+    catalog = load_catalog(dsl_path)
+    stats_defs = catalog.get("stats", [])
+    defaults  = catalog.get("defaults", {})
+    metric    = defaults.get("metric", {"type":"percent","decimals":2})
+
+    out_index = os.path.join(out_dir, "index")
+    ensure_dirs(out_dir, out_index)
+
+    # (month -> group -> stat -> {'opp':int,'att':int})
+    counts: Dict[str, Dict[str, Dict[str, Dict[str, int]]]] = {}
+    id_files = {}  # (month, group, stat, kind) -> fh
+    def _fh(m, g, s, k):
+        key = (m,g,s,k)
+        if key not in id_files:
+            path = os.path.join(out_index, f"{m}__{g}__{s}__{k}.ids")
+            id_files[key] = open(path, "w", encoding="utf-8")
+        return id_files[key]
+
+    hands_processed = 0
+    errors = []
+    try:
+        with open(in_jsonl, "r", encoding="utf-8") as fi:
+            for line_num, line in enumerate(fi, 1):
+                try:
+                    hand = json.loads(line)
+                    hands_processed += 1
+                    ctx = build_context(hand)
+                    month = ctx["month"]; hand_groups = ctx["groups"]; hid = ctx["hand_id"]
+
+                    for stat in stats_defs:
+                        stat_id = stat["id"]
+                        s_groups = stat.get("applies_to_groups", [])
+                        # restrição aos grupos aplicáveis
+                        for g in (grp for grp in hand_groups if grp in s_groups):
+                            if not pass_filters(stat, ctx):
+                                continue
+                            if not eval_clause(stat.get("opportunity"), ctx):
+                                continue
+                            counts.setdefault(month, {}).setdefault(g, {}).setdefault(stat_id, {"opp":0,"att":0})
+                            counts[month][g][stat_id]["opp"] += 1
+                            _fh(month,g,stat_id,"opps").write(hid+"\n")
+
+                            if eval_clause(stat.get("attempt"), ctx):
+                                counts[month][g][stat_id]["att"] += 1
+                                _fh(month,g,stat_id,"attempts").write(hid+"\n")
+
+                except Exception as e:
+                    errors.append({"line": line_num, "error": str(e)})
+                    logger.error(f"[stats] Error at line {line_num}: {e}")
+
+    finally:
+        for f in id_files.values():
+            try: f.close()
+            except: pass
+
+    # Manifest com percentagens
+    dec = int(metric.get("decimals", 2))
+    manifest = {
+        "generated_at": datetime.utcnow().isoformat()+"Z",
+        "input": in_jsonl,
+        "dsl": os.path.relpath(dsl_path),
+        "metric": metric,
+        "hands_processed": hands_processed,
+        "errors": len(errors),
+        "stats_computed": len(stats_defs),
+        "counts": {}
+    }
+    for m, by_group in counts.items():
+        mobj = manifest["counts"].setdefault(m, {})
+        for g, by_stat in by_group.items():
+            gobj = mobj.setdefault(g, {})
+            for sid, agg in by_stat.items():
+                opp = agg["opp"]; att = agg["att"]
+                pct = round((att/opp*100) if opp else 0.0, dec)
+                gobj[sid] = {
+                    "opportunities": opp,
+                    "attempts": att,
+                    "percentage": pct,
+                    "index_files": {
+                        "opps": f"index/{m}__{g}__{sid}__opps.ids",
+                        "attempts": f"index/{m}__{g}__{sid}__attempts.ids"
+                    }
+                }
+
+    out_path = os.path.join(out_dir, "stat_counts.json")
+    with open(out_path, "w", encoding="utf-8") as fo:
+        json.dump(manifest, fo, ensure_ascii=False, indent=2)
+
+    # log de erros (se houver)
+    if errors:
+        with open(os.path.join(out_dir, "stats_errors.log"), "w", encoding="utf-8") as fe:
+            json.dump(errors, fe, ensure_ascii=False, indent=2)
+
+    return {
+        "output_path": out_path,
+        "index_dir": out_index,
+        "hands_processed": hands_processed,
+        "stats_computed": len(stats_defs),
+        "errors": len(errors),
+        "months_generated": len(counts),
+        "stats": [s["id"] for s in stats_defs],
+    }
+
+
+Nota: mantive output_path (não out_path) para ficar igual ao que o assistant sugeriu e aos teus endpoints.
+
+✅ PROMPT 5.3 — CLI com validação e logging
+
+Cria/atualiza app/stats/runner.py com:
+
+# app/stats/runner.py
+import argparse, os, sys, logging
+from app.stats.engine import run_stats
+
+def main():
+    ap = argparse.ArgumentParser(description="Compute stats from enriched hands using DSL")
+    ap.add_argument("--in", dest="in_jsonl", required=True, help="parsed/hands_enriched.jsonl")
+    ap.add_argument("--dsl", dest="dsl_path", default="app/stats/dsl/stats.yml")
+    ap.add_argument("--out", dest="out_dir", default="stats")
+    ap.add_argument("--verbose", "-v", action="store_true")
+    args = ap.parse_args()
+
+    logging.basicConfig(level=(logging.DEBUG if args.verbose else logging.INFO),
+                        format="%(levelname)s:%(name)s:%(message)s")
+
+    if not os.path.exists(args.in_jsonl):
+        print(f"❌ Input not found: {args.in_jsonl}"); sys.exit(1)
+    if not os.path.exists(args.dsl_path):
+        print(f"❌ DSL not found: {args.dsl_path}"); sys.exit(1)
+    os.makedirs(args.out_dir, exist_ok=True)
+
+    res = run_stats(args.in_jsonl, args.dsl_path, args.out_dir)
+    print("\n✅ Stats OK")
+    print(f"   Hands processed : {res['hands_processed']}")
+    print(f"   Stats computed  : {res['stats_computed']}")
+    print(f"   Months generated: {res['months_generated']}")
+    print(f"   Output file     : {res['output_path']}")
+    print(f"   Index dir       : {res['index_dir']}")
+    if res["errors"]:
+        print(f"   ⚠️ Errors       : {res['errors']} (see stats_errors.log)")
+
+if __name__ == "__main__":
+    main()
+
+
+Uso:
+
+python -m app.stats.runner --in parsed/hands_enriched.jsonl --out stats/ -v
+
+✅ PROMPT 5.4 — Endpoints (build/summary/hands)
+
+Se ainda não tens estes endpoints, adiciona‑os ao Flask; se já tens, mantém a assinatura e só sincroniza o campo output_path.
+
+# POST /api/stats/build
+@app.route('/api/stats/build', methods=['POST'])
+def api_stats_build():
+    try:
+        data = request.get_json(force=True) if request.is_json else {}
+        in_jsonl = data.get("in_jsonl", "parsed/hands_enriched.jsonl")
+        dsl_path = data.get("dsl_path", "app/stats/dsl/stats.yml")
+        out_dir  = data.get("out_dir", "stats")
+        if not os.path.exists(in_jsonl): return jsonify({"error": f"Input not found: {in_jsonl}"}), 404
+        if not os.path.exists(dsl_path): return jsonify({"error": f"DSL not found: {dsl_path}"}), 404
+        os.makedirs(out_dir, exist_ok=True)
+        res = run_stats(in_jsonl, dsl_path, out_dir)
+        return jsonify({"success": True, **res})
+    except Exception as e:
+        app.logger.error(f"/api/stats/build failed: {e}")
+        return jsonify({"error": str(e)}), 500
+
+# GET /api/stats/summary?path=stats/stat_counts.json
+@app.route('/api/stats/summary', methods=['GET'])
+def api_stats_summary():
+    path = request.args.get('path', 'stats/stat_counts.json')
+    if not os.path.exists(path): return jsonify({"error":"stat_counts.json not found"}), 404
+    with open(path, 'r', encoding='utf-8') as f: return jsonify(json.load(f))
+
+# GET /api/stats/hands?month=YYYY-MM&group=...&stat=...&type=opps|attempts
+@app.route('/api/stats/hands', methods=['GET'])
+def api_stats_hands():
+    base = request.args.get('index_dir', 'stats/index')
+    month = request.args.get('month'); group = request.args.get('group')
+    stat  = request.args.get('stat');  kind  = request.args.get('type','opps')
+    if not all([month, group, stat]): return jsonify({"error":"Missing params"}), 400
+    if kind not in ("opps","attempts"): return jsonify({"error":"type must be opps|attempts"}), 400
+    path = os.path.join(base, f"{month}__{group}__{stat}__{kind}.ids")
+    if not os.path.exists(path): return jsonify({"error":"index not found","path":path}), 404
+    with open(path,'r',encoding='utf-8') as f: ids = [ln.strip() for ln in f if ln.strip()]
+    return jsonify({"month":month,"group":group,"stat":stat,"type":kind,"count":len(ids),"hand_ids":ids})
+
+✅ PROMPT 5.5 — Testes (engine + RFI + integração)
+
+Cria tests/test_stats_rfi.py com os testes sugeridos (componentes e integração). Usa exatamente o spec que o assistant te deu (está sólido).
+Obs.: no teste de integração, “mocka” groups_for_hand para devolver ["nonko_9max_pref"] e valida 2 opps / 1 att / 50%.
+
+✅ PROMPT 5.6 — README (secção Fase 5)
+
+Acrescenta “Fase 5 — DSL & Executor” com:
+• como editar app/stats/dsl/stats.yml;
+• como correr python -m app.stats.runner …;
+• endpoints disponíveis;
+• estrutura dos outputs;
+• nota: heads_up_flop = HU à entrada do flop; raw_offsets permite click‑through (fase futura).
+
+Notas de qualidade (confirmadas)
+
+Freeplay BB não entra em RFI (tem pot_type = "none" e unopened_pot=false devido ao limp da SB).
+
+Walks não entram (não há flop ⇒ heads_up_flop=false).
+
+All‑ins pré‑flop excluídos via exclude_allin_preflop.
+
+Short‑stack excluído via eff_stack_srp < 16.
+
+SRP only evita interferência de 3bet/4bet nos RFI.
+
+DoD — Fase 5 (final)
+
+ stats/stat_counts.json com % (2 casas), opportunities, attempts, index_files por mês × grupo × stat.
+
+ .ids para opps e attempts por mês × grupo × stat.
+
+ CLI e endpoints a funcionar.
+
+ Testes a passar (engine + RFI + integração mínima).
+
+ Sem breaking changes às fases anteriores.
+
+Próximo passo (quando fechares a Fase 5)
+
+Na Fase 6 montamos:
+
+Agregação mensal ponderada 50/30/20 (time‑decay) por stat.
+
+Ponderação NON‑KO combinada (9‑max+6‑max) pela amostra da própria stat.
+
+UI de pesos/ideais/saltos para scoring 0–100 (stat → sub‑grupo → grupo → final).
+
+Click‑through com excerto de HH usando hand_id + raw_offsets.
+
+Se quiseres, já preparo os prompts da Fase 6 assim que confirmares que esta Fase 5 passou nos teus testes.

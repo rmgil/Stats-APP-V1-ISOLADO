@@ -1,0 +1,227 @@
+{
+  "generated_at": "2025-09-04T13:54:25.669824Z",
+  "input": "parsed/hands_enriched.jsonl",
+  "dsl": "app/stats/dsl/stats.yml",
+  "metric": {
+    "type": "percent",
+    "decimals": 2
+  },
+  "hands_processed": 6,
+  "errors": 0,
+  "stats_computed": 66,
+  "counts": {
+    "2024-07": {
+      "postflop_all": {
+        "POST_CBET_FLOP_IP": {
+          "opportunities": 2,
+          "attempts": 1,
+          "percentage": 50.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_CBET_FLOP_IP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_CBET_FLOP_IP__attempts.ids"
+          }
+        },
+        "POST_CBET_TURN_IP": {
+          "opportunities": 2,
+          "attempts": 2,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_CBET_TURN_IP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_CBET_TURN_IP__attempts.ids"
+          }
+        },
+        "POST_WTSD": {
+          "opportunities": 6,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_WTSD__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_WTSD__attempts.ids"
+          }
+        },
+        "POST_W$WSF": {
+          "opportunities": 6,
+          "attempts": 1,
+          "percentage": 16.67,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_W$WSF__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_W$WSF__attempts.ids"
+          }
+        },
+        "POST_RIVER_BET_SINGLE_RAISED_POT": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_RIVER_BET_SINGLE_RAISED_POT__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_RIVER_BET_SINGLE_RAISED_POT__attempts.ids"
+          }
+        },
+        "POST_WWSF": {
+          "opportunities": 6,
+          "attempts": 1,
+          "percentage": 16.67,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_WWSF__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_WWSF__attempts.ids"
+          }
+        },
+        "POST_AGG_PCT_FLOP": {
+          "opportunities": 6,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_AGG_PCT_FLOP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_AGG_PCT_FLOP__attempts.ids"
+          }
+        },
+        "POST_VS_CBET_FLOP_RAISE_OOP": {
+          "opportunities": 4,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_VS_CBET_FLOP_RAISE_OOP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_VS_CBET_FLOP_RAISE_OOP__attempts.ids"
+          }
+        },
+        "POST_TURN_FOLD_VS_CBET_OOP": {
+          "opportunities": 4,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_TURN_FOLD_VS_CBET_OOP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_TURN_FOLD_VS_CBET_OOP__attempts.ids"
+          }
+        },
+        "POST_BET_VS_MISSED_CBET_SRP_FLOP": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_BET_VS_MISSED_CBET_SRP_FLOP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_BET_VS_MISSED_CBET_SRP_FLOP__attempts.ids"
+          }
+        },
+        "POST_DONK_FLOP": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_DONK_FLOP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_DONK_FLOP__attempts.ids"
+          }
+        },
+        "POST_DONK_TURN": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_DONK_TURN__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_DONK_TURN__attempts.ids"
+          }
+        },
+        "POST_DONK_TURN_SRP_VS_PFR": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_DONK_TURN_SRP_VS_PFR__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_DONK_TURN_SRP_VS_PFR__attempts.ids"
+          }
+        },
+        "POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__postflop_all__POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP__opps.ids",
+            "attempts": "index/2024-07__postflop_all__POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP__attempts.ids"
+          }
+        }
+      },
+      "nonko_6max_pref": {
+        "POST_VS_CBET_FLOP_RAISE_OOP": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_VS_CBET_FLOP_RAISE_OOP__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_VS_CBET_FLOP_RAISE_OOP__attempts.ids"
+          }
+        },
+        "POST_DONK_TURN": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_DONK_TURN__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_DONK_TURN__attempts.ids"
+          }
+        },
+        "POST_DONK_TURN_SRP_VS_PFR": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_DONK_TURN_SRP_VS_PFR__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_DONK_TURN_SRP_VS_PFR__attempts.ids"
+          }
+        },
+        "POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP": {
+          "opportunities": 1,
+          "attempts": 1,
+          "percentage": 100.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_BET_TURN_VS_MISSED_FLOP_CBET_OOP_SRP__attempts.ids"
+          }
+        },
+        "POST_TURN_FOLD_VS_CBET_OOP": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_TURN_FOLD_VS_CBET_OOP__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_TURN_FOLD_VS_CBET_OOP__attempts.ids"
+          }
+        },
+        "POST_WTSD": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_WTSD__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_WTSD__attempts.ids"
+          }
+        },
+        "POST_W$WSF": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_W$WSF__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_W$WSF__attempts.ids"
+          }
+        },
+        "POST_WWSF": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_WWSF__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_WWSF__attempts.ids"
+          }
+        },
+        "POST_AGG_PCT_FLOP": {
+          "opportunities": 1,
+          "attempts": 0,
+          "percentage": 0.0,
+          "index_files": {
+            "opps": "index/2024-07__nonko_6max_pref__POST_AGG_PCT_FLOP__opps.ids",
+            "attempts": "index/2024-07__nonko_6max_pref__POST_AGG_PCT_FLOP__attempts.ids"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960612147">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>12,000|Session Starter, 1082028765</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:02:37</duration>
+  <gamecount>2</gamecount>
+  <startdate>2024-02-25 13:48:41</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>100,000</bets>
+  <wins>0</wins>
+  <chipsin>0</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP36</statuspoints>
+  <awardpoints>RP108</awardpoints>
+  <ipoints>RP36</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081406103</tournamentcode>
+  <tournamentname>12,000|Session Starter</tournamentname>
+  <place>240</place>
+  <buyin>€18.20 + €18.20 + €3.60</buyin>
+  <totalbuyin>€40</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10583601327">
+  <general>
+   <startdate>2024-02-25 13:48:41</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="101,395" seat="1" name="Henrikim" reg_code="" dealer="0"/>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="511,820" seat="2" name="lightquiet526" reg_code="" dealer="0"/>
+    <player bet="8,400" addon="0" rebuy="0" win="8,900" chips="134,839" seat="5" name="Razdaygovna" reg_code="" dealer="1"/>
+    <player bet="900" addon="0" rebuy="0" win="0" chips="100,300" seat="6" name="MJSmithpoker1970" reg_code="" dealer="0"/>
+    <player bet="1,600" addon="0" rebuy="0" win="0" chips="43,761" seat="7" name="LetsHaveFun3" reg_code="" dealer="0"/>
+    <player bet="3,000" addon="0" rebuy="0" win="0" chips="80,923" seat="10" name="Nasvai20" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MJSmithpoker1970" sum="200" type="15"/>
+   <action no="2" player="LetsHaveFun3" sum="200" type="15"/>
+   <action no="3" player="Nasvai20" sum="200" type="15"/>
+   <action no="4" player="Henrikim" sum="200" type="15"/>
+   <action no="5" player="lightquiet526" sum="200" type="15"/>
+   <action no="6" player="Razdaygovna" sum="200" type="15"/>
+   <action no="7" player="MJSmithpoker1970" sum="700" type="1"/>
+   <action no="8" player="LetsHaveFun3" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Nasvai20" type="Pocket">X X</cards>
+   <action no="9" player="Nasvai20" sum="2,800" type="23"/>
+   <cards player="Henrikim" type="Pocket">X X</cards>
+   <action no="10" player="Henrikim" sum="0" type="0"/>
+   <cards player="lightquiet526" type="Pocket">X X</cards>
+   <action no="11" player="lightquiet526" sum="0" type="0"/>
+   <cards player="Razdaygovna" type="Pocket">X X</cards>
+   <action no="12" player="Razdaygovna" sum="8,400" type="23"/>
+   <cards player="MJSmithpoker1970" type="Pocket">X X</cards>
+   <action no="13" player="MJSmithpoker1970" sum="0" type="0"/>
+   <cards player="LetsHaveFun3" type="Pocket">X X</cards>
+   <action no="14" player="LetsHaveFun3" sum="0" type="0"/>
+   <action no="15" player="Nasvai20" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583601364">
+  <general>
+   <startdate>2024-02-25 13:49:08</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="101,195" seat="1" name="Henrikim" reg_code="" dealer="0"/>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="511,620" seat="2" name="lightquiet526" reg_code="" dealer="0"/>
+    <player bet="204,941" addon="0" rebuy="0" win="201,900" chips="204,941" seat="4" name="francescototti95" reg_code="" dealer="0">
+     <knockout tobounty="€9.10" tobalance="€9.10" kicked="tropeiro123"/>
+    </player>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="140,739" seat="5" name="Razdaygovna" reg_code="" dealer="0"/>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="99,400" seat="6" name="MJSmithpoker1970" reg_code="" dealer="1"/>
+    <player bet="900" addon="0" rebuy="0" win="0" chips="42,161" seat="7" name="LetsHaveFun3" reg_code="" dealer="0"/>
+    <player bet="100,000" addon="0" rebuy="0" win="0" chips="100,000" seat="9" name="tropeiro123" reg_code="7960612147" dealer="0"/>
+    <player bet="200" addon="0" rebuy="0" win="0" chips="77,923" seat="10" name="Nasvai20" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="LetsHaveFun3" sum="200" type="15"/>
+   <action no="2" player="tropeiro123" sum="200" type="15"/>
+   <action no="3" player="Nasvai20" sum="200" type="15"/>
+   <action no="4" player="Henrikim" sum="200" type="15"/>
+   <action no="5" player="lightquiet526" sum="200" type="15"/>
+   <action no="6" player="francescototti95" sum="200" type="15"/>
+   <action no="7" player="Razdaygovna" sum="200" type="15"/>
+   <action no="8" player="MJSmithpoker1970" sum="200" type="15"/>
+   <action no="9" player="LetsHaveFun3" sum="700" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Nasvai20" type="Pocket">X X</cards>
+   <action no="11" player="Nasvai20" sum="0" type="0"/>
+   <cards player="Henrikim" type="Pocket">X X</cards>
+   <action no="12" player="Henrikim" sum="0" type="0"/>
+   <cards player="lightquiet526" type="Pocket">X X</cards>
+   <action no="13" player="lightquiet526" sum="0" type="0"/>
+   <cards player="francescototti95" type="Pocket">SA HJ</cards>
+   <action no="14" player="francescototti95" sum="3,080" type="23"/>
+   <cards player="Razdaygovna" type="Pocket">X X</cards>
+   <action no="15" player="Razdaygovna" sum="0" type="0"/>
+   <cards player="MJSmithpoker1970" type="Pocket">X X</cards>
+   <action no="16" player="MJSmithpoker1970" sum="0" type="0"/>
+   <cards player="LetsHaveFun3" type="Pocket">X X</cards>
+   <action no="17" player="LetsHaveFun3" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ HQ</cards>
+   <action no="18" player="tropeiro123" sum="13,244" type="23"/>
+   <action no="19" player="francescototti95" sum="10,164" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 H8 D10</cards>
+   <action no="20" player="tropeiro123" sum="15,834" type="5"/>
+   <action no="21" player="francescototti95" sum="15,834" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="22" player="tropeiro123" sum="0" type="4"/>
+   <action no="23" player="francescototti95" sum="21,159" type="5"/>
+   <action no="24" player="tropeiro123" sum="21,159" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+   <action no="25" player="tropeiro123" sum="0" type="4"/>
+   <action no="26" player="francescototti95" sum="154,504" type="5"/>
+   <action no="27" player="tropeiro123" sum="49,563" type="7"/>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,15 @@
+{
+  "six_max_order": ["BTN", "SB", "BB", "EP", "MP", "CO"],
+  "nine_max_order": ["BTN", "SB", "BB", "EP", "EP2", "MP1", "MP2", "MP3", "CO"],
+  "buckets_six_max": {
+    "EP": ["EP"],
+    "MP": ["MP"],
+    "LP": ["CO", "BTN"]
+  },
+  "buckets_nine_max_full": {
+    "EP": ["EP", "EP2"],
+    "MP": ["MP1", "MP2", "MP3"],
+    "LP": ["CO", "BTN"]
+  },
+  "preserve": ["CO", "BTN", "SB", "BB"]
+}

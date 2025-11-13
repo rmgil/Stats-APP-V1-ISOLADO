@@ -1,0 +1,10 @@
+{
+  "endpoint": "/api/stats/timeseries",
+  "status_code": 500,
+  "request_params": {
+    "stat": "POST_CBET_FLOP_IP",
+    "group": "postflop_all",
+    "months": 6
+  },
+  "error": "Stats directory not found (expected in development)"
+}

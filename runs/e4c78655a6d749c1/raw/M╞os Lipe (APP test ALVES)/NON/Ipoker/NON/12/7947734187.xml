@@ -1,0 +1,1656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947734187">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E2: The Big Game|€100k GTD|D1, 1080871946</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:35:25</duration>
+  <gamecount>30</gamecount>
+  <startdate>2024-02-12 14:30:27</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>87,405</bets>
+  <wins>13,450</wins>
+  <chipsin>49,820</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079640908</tournamentcode>
+  <tournamentname>E2: The Big Game|€100k GTD|D1</tournamentname>
+  <place>51</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10560176916">
+  <general>
+   <startdate>2024-02-12 14:30:27</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="1" seat="2" chips="151,920" addon="0" bet="180" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="47,690" addon="0" bet="780" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="99,137" addon="0" bet="1,380" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="132,381" addon="0" bet="2,580" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="65,640" addon="0" bet="180" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="22,361" addon="0" bet="22,181" reg_code="" name="PuPbeerTaT" win="7,860" rebuy="0"/>
+    <player dealer="0" seat="10" chips="59,450" addon="0" bet="180" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="2" sum="180" player="lastZuko" type="15"/>
+   <action no="3" sum="180" player="ILoveBurger" type="15"/>
+   <action no="4" sum="180" player="raventeal597" type="15"/>
+   <action no="5" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="6" sum="180" player="devilhuge82" type="15"/>
+   <action no="7" sum="180" player="tigereasy64" type="15"/>
+   <action no="8" sum="600" player="Flusheimasgrande" type="1"/>
+   <action no="9" sum="1,200" player="lastZuko" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="10" sum="2,400" player="ILoveBurger" type="23"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="raventeal597" type="0"/>
+   <cards player="PuPbeerTaT" type="Pocket">X X</cards>
+   <action no="12" sum="22,181" player="PuPbeerTaT" type="23"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lastZuko" type="0"/>
+   <action no="17" sum="0" player="ILoveBurger" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560176973">
+  <general>
+   <startdate>2024-02-12 14:31:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="50,000" addon="0" bet="180" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="151,740" addon="0" bet="180" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="46,910" addon="0" bet="180" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="97,757" addon="0" bet="780" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="129,801" addon="0" bet="1,380" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="65,460" addon="0" bet="180" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,641" addon="0" bet="180" reg_code="" name="PuPbeerTaT" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="59,270" addon="0" bet="3,000" reg_code="" name="devilhuge82" win="4,440" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="lastZuko" type="15"/>
+   <action no="2" sum="180" player="ILoveBurger" type="15"/>
+   <action no="3" sum="180" player="raventeal597" type="15"/>
+   <action no="4" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="5" sum="180" player="devilhuge82" type="15"/>
+   <action no="6" sum="180" player="tropeiro123" type="15"/>
+   <action no="7" sum="180" player="tigereasy64" type="15"/>
+   <action no="8" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="9" sum="600" player="lastZuko" type="1"/>
+   <action no="10" sum="1,200" player="ILoveBurger" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="raventeal597" type="0"/>
+   <cards player="PuPbeerTaT" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="PuPbeerTaT" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="13" sum="3,000" player="devilhuge82" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S5 C10</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ILoveBurger" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177009">
+  <general>
+   <startdate>2024-02-12 14:31:43</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="49,820" addon="0" bet="180" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="151,560" addon="0" bet="180" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="46,730" addon="0" bet="180" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="96,977" addon="0" bet="2,580" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="128,421" addon="0" bet="780" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="65,280" addon="0" bet="7,233" reg_code="" name="raventeal597" win="6,840" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,461" addon="0" bet="180" reg_code="" name="PuPbeerTaT" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="62,330" addon="0" bet="180" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="ILoveBurger" type="15"/>
+   <action no="2" sum="180" player="raventeal597" type="15"/>
+   <action no="3" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="4" sum="180" player="devilhuge82" type="15"/>
+   <action no="5" sum="180" player="tropeiro123" type="15"/>
+   <action no="6" sum="180" player="tigereasy64" type="15"/>
+   <action no="7" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="8" sum="180" player="lastZuko" type="15"/>
+   <action no="9" sum="600" player="ILoveBurger" type="1"/>
+   <action no="10" sum="1,200" player="raventeal597" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PuPbeerTaT" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="PuPbeerTaT" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK C8</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="16" sum="2,400" player="lastZuko" type="23"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="18" sum="7,233" player="raventeal597" type="23"/>
+   <action no="19" sum="0" player="lastZuko" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177089">
+  <general>
+   <startdate>2024-02-12 14:32:44</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="49,640" addon="0" bet="180" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="151,380" addon="0" bet="2,580" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="46,550" addon="0" bet="180" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="94,397" addon="0" bet="180" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="127,641" addon="0" bet="180" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="69,540" addon="0" bet="780" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,281" addon="0" bet="1,380" reg_code="" name="PuPbeerTaT" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="62,150" addon="0" bet="5,580" reg_code="" name="devilhuge82" win="8,040" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="raventeal597" type="15"/>
+   <action no="2" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="3" sum="180" player="devilhuge82" type="15"/>
+   <action no="4" sum="180" player="tropeiro123" type="15"/>
+   <action no="5" sum="180" player="tigereasy64" type="15"/>
+   <action no="6" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="7" sum="180" player="lastZuko" type="15"/>
+   <action no="8" sum="180" player="ILoveBurger" type="15"/>
+   <action no="9" sum="600" player="raventeal597" type="1"/>
+   <action no="10" sum="1,200" player="PuPbeerTaT" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="11" sum="2,400" player="devilhuge82" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S3 H5</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="13" sum="2,400" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="raventeal597" type="0"/>
+   <cards player="PuPbeerTaT" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="PuPbeerTaT" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 HQ C6</cards>
+   <action no="19" sum="3,000" player="devilhuge82" type="5"/>
+   <action no="20" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177161">
+  <general>
+   <startdate>2024-02-12 14:33:48</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="49,460" addon="0" bet="180" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="148,800" addon="0" bet="13,020" reg_code="" name="tigereasy64" win="9,240" rebuy="0"/>
+    <player dealer="0" seat="4" chips="46,370" addon="0" bet="180" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="94,217" addon="0" bet="180" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="127,461" addon="0" bet="180" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="68,760" addon="0" bet="180" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="25,901" addon="0" bet="780" reg_code="" name="PuPbeerTaT" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="67,610" addon="0" bet="3,780" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="2" sum="180" player="devilhuge82" type="15"/>
+   <action no="3" sum="180" player="tropeiro123" type="15"/>
+   <action no="4" sum="180" player="tigereasy64" type="15"/>
+   <action no="5" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="6" sum="180" player="lastZuko" type="15"/>
+   <action no="7" sum="180" player="ILoveBurger" type="15"/>
+   <action no="8" sum="180" player="raventeal597" type="15"/>
+   <action no="9" sum="600" player="PuPbeerTaT" type="1"/>
+   <action no="10" sum="1,200" player="devilhuge82" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D8 H10</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="12" sum="3,600" player="tigereasy64" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="raventeal597" type="0"/>
+   <cards player="PuPbeerTaT" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="PuPbeerTaT" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="18" sum="2,400" player="devilhuge82" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 H4 SA</cards>
+   <action no="19" sum="0" player="devilhuge82" type="4"/>
+   <action no="20" sum="0" player="tigereasy64" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="21" sum="0" player="devilhuge82" type="4"/>
+   <action no="22" sum="0" player="tigereasy64" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+   <action no="23" sum="0" player="devilhuge82" type="4"/>
+   <action no="24" sum="9,240" player="tigereasy64" type="5"/>
+   <action no="25" sum="0" player="devilhuge82" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177252">
+  <general>
+   <startdate>2024-02-12 14:34:57</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="49,280" addon="0" bet="1,380" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="154,260" addon="0" bet="1,380" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="46,190" addon="0" bet="180" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="94,037" addon="0" bet="180" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="127,281" addon="0" bet="25,121" reg_code="" name="ILoveBurger" win="54,322" rebuy="0"/>
+    <player dealer="0" seat="7" chips="68,580" addon="0" bet="180" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="25,121" addon="0" bet="24,941" reg_code="" name="PuPbeerTaT" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="63,830" addon="0" bet="780" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="devilhuge82" type="15"/>
+   <action no="2" sum="180" player="tropeiro123" type="15"/>
+   <action no="3" sum="180" player="tigereasy64" type="15"/>
+   <action no="4" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="5" sum="180" player="lastZuko" type="15"/>
+   <action no="6" sum="180" player="ILoveBurger" type="15"/>
+   <action no="7" sum="180" player="raventeal597" type="15"/>
+   <action no="8" sum="180" player="PuPbeerTaT" type="15"/>
+   <action no="9" sum="600" player="devilhuge82" type="1"/>
+   <action no="10" sum="1,200" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="11" sum="1,200" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">HJ SA</cards>
+   <action no="14" sum="4,800" player="ILoveBurger" type="23"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="raventeal597" type="0"/>
+   <cards player="PuPbeerTaT" type="Pocket">C10 CQ</cards>
+   <action no="16" sum="24,941" player="PuPbeerTaT" type="23"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK H3</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="0" player="tigereasy64" type="0"/>
+   <action no="20" sum="20,141" player="ILoveBurger" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA H10 C8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10560177326">
+  <general>
+   <startdate>2024-02-12 14:35:47</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player dealer="0" seat="1" chips="47,900" addon="0" bet="780" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="152,880" addon="0" bet="2,580" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="46,010" addon="0" bet="8,922" reg_code="" name="Flusheimasgrande" win="21,744" rebuy="0"/>
+    <player dealer="0" seat="5" chips="93,857" addon="0" bet="180" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="156,482" addon="0" bet="180" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="68,400" addon="0" bet="180" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="63,050" addon="0" bet="8,922" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="180" player="tropeiro123" type="15"/>
+   <action no="2" sum="180" player="tigereasy64" type="15"/>
+   <action no="3" sum="180" player="Flusheimasgrande" type="15"/>
+   <action no="4" sum="180" player="lastZuko" type="15"/>
+   <action no="5" sum="180" player="ILoveBurger" type="15"/>
+   <action no="6" sum="180" player="raventeal597" type="15"/>
+   <action no="7" sum="180" player="devilhuge82" type="15"/>
+   <action no="8" sum="600" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,200" player="tigereasy64" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flusheimasgrande" type="Pocket">CA DK</cards>
+   <action no="10" sum="2,400" player="Flusheimasgrande" type="23"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">D6 DA</cards>
+   <action no="14" sum="2,400" player="devilhuge82" type="3"/>
+   <cards player="tropeiro123" type="Pocket">D9 H6</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="16" sum="1,200" player="tigereasy64" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ HJ C7</cards>
+   <action no="17" sum="0" player="tigereasy64" type="4"/>
+   <action no="18" sum="0" player="Flusheimasgrande" type="4"/>
+   <action no="19" sum="0" player="devilhuge82" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action no="20" sum="0" player="tigereasy64" type="4"/>
+   <action no="21" sum="0" player="Flusheimasgrande" type="4"/>
+   <action no="22" sum="0" player="devilhuge82" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="23" sum="0" player="tigereasy64" type="4"/>
+   <action no="24" sum="6,342" player="Flusheimasgrande" type="5"/>
+   <action no="25" sum="6,342" player="devilhuge82" type="3"/>
+   <action no="26" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177391">
+  <general>
+   <startdate>2024-02-12 14:37:06</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="47,120" addon="0" bet="3,140" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="150,300" addon="0" bet="900" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="58,832" addon="0" bet="11,200" reg_code="" name="Flusheimasgrande" win="7,980" rebuy="0"/>
+    <player dealer="0" seat="5" chips="93,677" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="156,302" addon="0" bet="200" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="68,220" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="54,128" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="tigereasy64" type="15"/>
+   <action no="2" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="3" sum="200" player="lastZuko" type="15"/>
+   <action no="4" sum="200" player="ILoveBurger" type="15"/>
+   <action no="5" sum="200" player="raventeal597" type="15"/>
+   <action no="6" sum="200" player="devilhuge82" type="15"/>
+   <action no="7" sum="200" player="tropeiro123" type="15"/>
+   <action no="8" sum="700" player="tigereasy64" type="1"/>
+   <action no="9" sum="1,400" player="Flusheimasgrande" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 H7</cards>
+   <action no="14" sum="2,940" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="16" sum="11,200" player="Flusheimasgrande" type="23"/>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177441">
+  <general>
+   <startdate>2024-02-12 14:38:09</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="43,980" addon="0" bet="200" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="149,400" addon="0" bet="7,200" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="63,672" addon="0" bet="900" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="93,477" addon="0" bet="1,600" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="156,102" addon="0" bet="156,102" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="68,020" addon="0" bet="68,020" reg_code="" name="raventeal597" win="146,140" rebuy="0"/>
+    <player dealer="0" seat="10" chips="53,928" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="2" sum="200" player="lastZuko" type="15"/>
+   <action no="3" sum="200" player="ILoveBurger" type="15"/>
+   <action no="4" sum="200" player="raventeal597" type="15"/>
+   <action no="5" sum="200" player="devilhuge82" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="200" player="tigereasy64" type="15"/>
+   <action no="8" sum="700" player="Flusheimasgrande" type="1"/>
+   <action no="9" sum="1,400" player="lastZuko" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ILoveBurger" type="Pocket">H8 H9</cards>
+   <action no="10" sum="2,800" player="ILoveBurger" type="23"/>
+   <cards player="raventeal597" type="Pocket">SQ SK</cards>
+   <action no="11" sum="7,000" player="raventeal597" type="23"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 C10</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="14" sum="7,000" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lastZuko" type="0"/>
+   <action no="17" sum="4,200" player="ILoveBurger" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H4 DQ</cards>
+   <action no="18" sum="0" player="ILoveBurger" type="4"/>
+   <action no="19" sum="12,250" player="raventeal597" type="5"/>
+   <action no="20" sum="0" player="tigereasy64" type="0"/>
+   <action no="21" sum="148,902" player="ILoveBurger" type="23"/>
+   <action no="22" sum="48,570" player="raventeal597" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10560177504">
+  <general>
+   <startdate>2024-02-12 14:39:28</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="43,780" addon="0" bet="200" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="142,200" addon="0" bet="200" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="62,772" addon="0" bet="8,390" reg_code="" name="Flusheimasgrande" win="7,700" rebuy="0"/>
+    <player dealer="0" seat="5" chips="91,877" addon="0" bet="900" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="88,082" addon="0" bet="3,000" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="146,140" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="53,728" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="lastZuko" type="15"/>
+   <action no="2" sum="200" player="ILoveBurger" type="15"/>
+   <action no="3" sum="200" player="raventeal597" type="15"/>
+   <action no="4" sum="200" player="devilhuge82" type="15"/>
+   <action no="5" sum="200" player="tropeiro123" type="15"/>
+   <action no="6" sum="200" player="tigereasy64" type="15"/>
+   <action no="7" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="8" sum="700" player="lastZuko" type="1"/>
+   <action no="9" sum="1,400" player="ILoveBurger" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 CA</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" sum="2,800" player="Flusheimasgrande" type="23"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="16" sum="1,400" player="ILoveBurger" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 CJ D7</cards>
+   <action no="17" sum="0" player="ILoveBurger" type="4"/>
+   <action no="18" sum="5,390" player="Flusheimasgrande" type="5"/>
+   <action no="19" sum="0" player="ILoveBurger" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177558">
+  <general>
+   <startdate>2024-02-12 14:40:42</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="43,580" addon="0" bet="200" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="142,000" addon="0" bet="200" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="67,472" addon="0" bet="200" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="90,977" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="85,082" addon="0" bet="900" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="145,940" addon="0" bet="1,600" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="53,528" addon="0" bet="2,800" reg_code="" name="devilhuge82" win="4,900" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="ILoveBurger" type="15"/>
+   <action no="2" sum="200" player="raventeal597" type="15"/>
+   <action no="3" sum="200" player="devilhuge82" type="15"/>
+   <action no="4" sum="200" player="tropeiro123" type="15"/>
+   <action no="5" sum="200" player="tigereasy64" type="15"/>
+   <action no="6" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="7" sum="200" player="lastZuko" type="15"/>
+   <action no="8" sum="700" player="ILoveBurger" type="1"/>
+   <action no="9" sum="1,400" player="raventeal597" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="10" sum="2,800" player="devilhuge82" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H5 CJ</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="raventeal597" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177580">
+  <general>
+   <startdate>2024-02-12 14:41:14</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="43,380" addon="0" bet="3,140" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="141,800" addon="0" bet="200" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="67,272" addon="0" bet="200" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,777" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="84,182" addon="0" bet="200" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="144,340" addon="0" bet="900" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="50,000" addon="0" bet="4,540" reg_code="" name="b0rnew0lf" win="8,180" rebuy="0"/>
+    <player dealer="0" seat="10" chips="56,828" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="raventeal597" type="15"/>
+   <action no="2" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="3" sum="200" player="devilhuge82" type="15"/>
+   <action no="4" sum="200" player="tropeiro123" type="15"/>
+   <action no="5" sum="200" player="tigereasy64" type="15"/>
+   <action no="6" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="7" sum="200" player="lastZuko" type="15"/>
+   <action no="8" sum="200" player="ILoveBurger" type="15"/>
+   <action no="9" sum="700" player="raventeal597" type="1"/>
+   <action no="10" sum="1,400" player="b0rnew0lf" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA S8</cards>
+   <action no="12" sum="2,940" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="raventeal597" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="18" sum="1,540" player="b0rnew0lf" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 H6 D4</cards>
+   <action no="19" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="21" sum="0" player="b0rnew0lf" type="4"/>
+   <action no="22" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action no="23" sum="1,400" player="b0rnew0lf" type="5"/>
+   <action no="24" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177627">
+  <general>
+   <startdate>2024-02-12 14:42:20</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="40,240" addon="0" bet="5,185" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="141,600" addon="0" bet="200" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="67,072" addon="0" bet="200" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,577" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="83,982" addon="0" bet="200" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="143,440" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="55,040" addon="0" bet="900" reg_code="" name="b0rnew0lf" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="56,628" addon="0" bet="5,185" reg_code="" name="devilhuge82" win="12,270" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="b0rnew0lf" type="15"/>
+   <action no="2" sum="200" player="devilhuge82" type="15"/>
+   <action no="3" sum="200" player="tropeiro123" type="15"/>
+   <action no="4" sum="200" player="tigereasy64" type="15"/>
+   <action no="5" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="6" sum="200" player="lastZuko" type="15"/>
+   <action no="7" sum="200" player="ILoveBurger" type="15"/>
+   <action no="8" sum="200" player="raventeal597" type="15"/>
+   <action no="9" sum="700" player="b0rnew0lf" type="1"/>
+   <action no="10" sum="1,400" player="devilhuge82" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DJ CJ</cards>
+   <action no="11" sum="2,940" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="raventeal597" type="0"/>
+   <cards player="b0rnew0lf" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="b0rnew0lf" type="0"/>
+   <cards player="devilhuge82" type="Pocket">CQ H7</cards>
+   <action no="18" sum="1,540" player="devilhuge82" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C3 H4</cards>
+   <action no="19" sum="0" player="devilhuge82" type="4"/>
+   <action no="20" sum="2,045" player="tropeiro123" type="5"/>
+   <action no="21" sum="2,045" player="devilhuge82" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action no="22" sum="0" player="devilhuge82" type="4"/>
+   <action no="23" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action no="24" sum="0" player="devilhuge82" type="4"/>
+   <action no="25" sum="0" player="tropeiro123" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560177685">
+  <general>
+   <startdate>2024-02-12 14:43:36</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="35,055" addon="0" bet="4,925" reg_code="7947734187" name="tropeiro123" win="7,700" rebuy="0"/>
+    <player dealer="0" seat="2" chips="141,400" addon="0" bet="3,000" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="66,872" addon="0" bet="200" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,377" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="83,782" addon="0" bet="200" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="143,240" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="63,713" addon="0" bet="900" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="devilhuge82" type="15"/>
+   <action no="2" sum="200" player="tropeiro123" type="15"/>
+   <action no="3" sum="200" player="tigereasy64" type="15"/>
+   <action no="4" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="5" sum="200" player="lastZuko" type="15"/>
+   <action no="6" sum="200" player="ILoveBurger" type="15"/>
+   <action no="7" sum="200" player="raventeal597" type="15"/>
+   <action no="8" sum="700" player="devilhuge82" type="1"/>
+   <action no="9" sum="1,400" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="10" sum="2,800" player="tigereasy64" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 D5</cards>
+   <action no="16" sum="1,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 CA D3</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="0" player="tigereasy64" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="19" sum="1,925" player="tropeiro123" type="5"/>
+   <action no="20" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177723">
+  <general>
+   <startdate>2024-02-12 14:44:20</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="39,755" addon="0" bet="3,000" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="138,400" addon="0" bet="6,500" reg_code="" name="tigereasy64" win="7,000" rebuy="0"/>
+    <player dealer="0" seat="4" chips="66,672" addon="0" bet="200" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,177" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="83,582" addon="0" bet="200" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="143,040" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="62,813" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="tropeiro123" type="15"/>
+   <action no="2" sum="200" player="tigereasy64" type="15"/>
+   <action no="3" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="4" sum="200" player="lastZuko" type="15"/>
+   <action no="5" sum="200" player="ILoveBurger" type="15"/>
+   <action no="6" sum="200" player="raventeal597" type="15"/>
+   <action no="7" sum="200" player="devilhuge82" type="15"/>
+   <action no="8" sum="700" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,400" player="tigereasy64" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ C6</cards>
+   <action no="15" sum="700" player="tropeiro123" type="3"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="tigereasy64" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ D7 D5</cards>
+   <action no="17" sum="1,400" player="tropeiro123" type="5"/>
+   <action no="18" sum="1,400" player="tigereasy64" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="3,500" player="tigereasy64" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177788">
+  <general>
+   <startdate>2024-02-12 14:45:32</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="36,755" addon="0" bet="200" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="142,400" addon="0" bet="11,400" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="66,472" addon="0" bet="1,600" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="89,977" addon="0" bet="200" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="83,382" addon="0" bet="30,100" reg_code="" name="ILoveBurger" win="25,400" rebuy="0"/>
+    <player dealer="0" seat="7" chips="142,840" addon="0" bet="200" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="8,027" addon="0" bet="200" reg_code="" name="Heimalvin" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="62,613" addon="0" bet="200" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="tigereasy64" type="15"/>
+   <action no="2" sum="200" player="Flusheimasgrande" type="15"/>
+   <action no="3" sum="200" player="lastZuko" type="15"/>
+   <action no="4" sum="200" player="ILoveBurger" type="15"/>
+   <action no="5" sum="200" player="raventeal597" type="15"/>
+   <action no="6" sum="200" player="Heimalvin" type="15"/>
+   <action no="7" sum="200" player="devilhuge82" type="15"/>
+   <action no="8" sum="200" player="tropeiro123" type="15"/>
+   <action no="9" sum="700" player="tigereasy64" type="1"/>
+   <action no="10" sum="1,400" player="Flusheimasgrande" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="12" sum="2,800" player="ILoveBurger" type="23"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="raventeal597" type="0"/>
+   <cards player="Heimalvin" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Heimalvin" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C8</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="17" sum="2,100" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Flusheimasgrande" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 SQ S3</cards>
+   <action no="19" sum="1,400" player="tigereasy64" type="5"/>
+   <action no="20" sum="7,000" player="ILoveBurger" type="23"/>
+   <action no="21" sum="5,600" player="tigereasy64" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="22" sum="1,400" player="tigereasy64" type="5"/>
+   <action no="23" sum="20,100" player="ILoveBurger" type="23"/>
+   <action no="24" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177847">
+  <general>
+   <startdate>2024-02-12 14:46:38</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="36,555" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="131,000" addon="0" bet="12,800" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="64,872" addon="0" bet="1,050" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="89,777" addon="0" bet="1,850" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,382" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="142,640" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="7,827" addon="0" bet="7,827" reg_code="" name="Heimalvin" win="19,554" rebuy="0"/>
+    <player dealer="0" seat="10" chips="62,413" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="2" sum="250" player="lastZuko" type="15"/>
+   <action no="3" sum="250" player="ILoveBurger" type="15"/>
+   <action no="4" sum="250" player="raventeal597" type="15"/>
+   <action no="5" sum="250" player="Heimalvin" type="15"/>
+   <action no="6" sum="250" player="devilhuge82" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="250" player="tigereasy64" type="15"/>
+   <action no="9" sum="800" player="Flusheimasgrande" type="1"/>
+   <action no="10" sum="1,600" player="lastZuko" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="raventeal597" type="0"/>
+   <cards player="Heimalvin" type="Pocket">HA S7</cards>
+   <action no="13" sum="7,200" player="Heimalvin" type="23"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 DK</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">CK D9</cards>
+   <action no="16" sum="12,800" player="tigereasy64" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="lastZuko" type="0"/>
+   <action no="19" sum="377" player="Heimalvin" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 C5 D6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560177876">
+  <general>
+   <startdate>2024-02-12 14:47:13</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="36,305" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="123,173" addon="0" bet="250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="63,822" addon="0" bet="250" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="87,927" addon="0" bet="1,050" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="97,132" addon="0" bet="1,850" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="142,390" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="19,554" addon="0" bet="19,304" reg_code="" name="Heimalvin" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="62,163" addon="0" bet="19,554" reg_code="" name="devilhuge82" win="43,008" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="lastZuko" type="15"/>
+   <action no="2" sum="250" player="ILoveBurger" type="15"/>
+   <action no="3" sum="250" player="raventeal597" type="15"/>
+   <action no="4" sum="250" player="Heimalvin" type="15"/>
+   <action no="5" sum="250" player="devilhuge82" type="15"/>
+   <action no="6" sum="250" player="tropeiro123" type="15"/>
+   <action no="7" sum="250" player="tigereasy64" type="15"/>
+   <action no="8" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="9" sum="800" player="lastZuko" type="1"/>
+   <action no="10" sum="1,600" player="ILoveBurger" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="raventeal597" type="0"/>
+   <cards player="Heimalvin" type="Pocket">H8 HK</cards>
+   <action no="12" sum="19,304" player="Heimalvin" type="23"/>
+   <cards player="devilhuge82" type="Pocket">H7 SA</cards>
+   <action no="13" sum="19,304" player="devilhuge82" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H10 D9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ILoveBurger" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK S6 H9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10560177919">
+  <general>
+   <startdate>2024-02-12 14:48:01</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="36,055" addon="0" bet="3,610" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="122,923" addon="0" bet="12,250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="63,572" addon="0" bet="250" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="86,877" addon="0" bet="250" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="95,282" addon="0" bet="1,050" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="142,140" addon="0" bet="22,250" reg_code="" name="raventeal597" win="29,910" rebuy="0"/>
+    <player dealer="0" seat="10" chips="85,617" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="ILoveBurger" type="15"/>
+   <action no="2" sum="250" player="raventeal597" type="15"/>
+   <action no="3" sum="250" player="devilhuge82" type="15"/>
+   <action no="4" sum="250" player="tropeiro123" type="15"/>
+   <action no="5" sum="250" player="tigereasy64" type="15"/>
+   <action no="6" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="7" sum="250" player="lastZuko" type="15"/>
+   <action no="8" sum="800" player="ILoveBurger" type="1"/>
+   <action no="9" sum="1,600" player="raventeal597" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA C2</cards>
+   <action no="11" sum="3,360" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="12" sum="3,360" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="16" sum="12,000" player="raventeal597" type="23"/>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <action no="18" sum="8,640" player="tigereasy64" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ D7 C4</cards>
+   <action no="19" sum="10,000" player="raventeal597" type="5"/>
+   <action no="20" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560177957">
+  <general>
+   <startdate>2024-02-12 14:48:49</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="32,445" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="110,673" addon="0" bet="3,450" reg_code="" name="tigereasy64" win="8,950" rebuy="0"/>
+    <player dealer="0" seat="4" chips="63,322" addon="0" bet="250" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="86,627" addon="0" bet="250" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="94,232" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="159,800" addon="0" bet="1,050" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="85,367" addon="0" bet="3,450" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="raventeal597" type="15"/>
+   <action no="2" sum="250" player="devilhuge82" type="15"/>
+   <action no="3" sum="250" player="tropeiro123" type="15"/>
+   <action no="4" sum="250" player="tigereasy64" type="15"/>
+   <action no="5" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="6" sum="250" player="lastZuko" type="15"/>
+   <action no="7" sum="250" player="ILoveBurger" type="15"/>
+   <action no="8" sum="800" player="raventeal597" type="1"/>
+   <action no="9" sum="1,600" player="devilhuge82" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S9 DK</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">D7 C7</cards>
+   <action no="11" sum="1,600" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">D9 CJ</cards>
+   <action no="16" sum="0" player="devilhuge82" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 S7 SA</cards>
+   <action no="17" sum="0" player="devilhuge82" type="4"/>
+   <action no="18" sum="0" player="tigereasy64" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="19" sum="0" player="devilhuge82" type="4"/>
+   <action no="20" sum="1,600" player="tigereasy64" type="5"/>
+   <action no="21" sum="1,600" player="devilhuge82" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action no="22" sum="0" player="devilhuge82" type="4"/>
+   <action no="23" sum="0" player="tigereasy64" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560177989">
+  <general>
+   <startdate>2024-02-12 14:49:36</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="32,195" addon="0" bet="3,770" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="116,173" addon="0" bet="250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="63,072" addon="0" bet="250" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="86,377" addon="0" bet="10,962" reg_code="" name="lastZuko" win="9,590" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,982" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="158,750" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="81,917" addon="0" bet="1,050" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="devilhuge82" type="15"/>
+   <action no="2" sum="250" player="tropeiro123" type="15"/>
+   <action no="3" sum="250" player="tigereasy64" type="15"/>
+   <action no="4" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="5" sum="250" player="lastZuko" type="15"/>
+   <action no="6" sum="250" player="ILoveBurger" type="15"/>
+   <action no="7" sum="250" player="raventeal597" type="15"/>
+   <action no="8" sum="800" player="devilhuge82" type="1"/>
+   <action no="9" sum="1,600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="12" sum="3,520" player="lastZuko" type="23"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ S3</cards>
+   <action no="16" sum="1,920" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK CJ S7</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="7,192" player="lastZuko" type="5"/>
+   <action no="19" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178063">
+  <general>
+   <startdate>2024-02-12 14:50:50</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="28,425" addon="0" bet="3,770" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="115,923" addon="0" bet="7,832" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="62,822" addon="0" bet="250" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="92,197" addon="0" bet="23,157" reg_code="" name="lastZuko" win="20,434" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,732" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="158,500" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="80,867" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tropeiro123" type="15"/>
+   <action no="2" sum="250" player="tigereasy64" type="15"/>
+   <action no="3" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="4" sum="250" player="lastZuko" type="15"/>
+   <action no="5" sum="250" player="ILoveBurger" type="15"/>
+   <action no="6" sum="250" player="raventeal597" type="15"/>
+   <action no="7" sum="250" player="devilhuge82" type="15"/>
+   <action no="8" sum="800" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,600" player="tigereasy64" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="11" sum="3,520" player="lastZuko" type="23"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 HA</cards>
+   <action no="15" sum="2,720" player="tropeiro123" type="3"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="16" sum="1,920" player="tigereasy64" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ HJ S10</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="0" player="tigereasy64" type="4"/>
+   <action no="19" sum="4,062" player="lastZuko" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="4,062" player="tigereasy64" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action no="22" sum="0" player="tigereasy64" type="4"/>
+   <action no="23" sum="15,325" player="lastZuko" type="5"/>
+   <action no="24" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178112">
+  <general>
+   <startdate>2024-02-12 14:52:00</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" seat="1" chips="24,655" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="108,091" addon="0" bet="3,450" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="62,572" addon="0" bet="5,993" reg_code="" name="Flusheimasgrande" win="16,436" rebuy="0"/>
+    <player dealer="0" seat="5" chips="104,799" addon="0" bet="250" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,482" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="158,250" addon="0" bet="5,993" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="80,617" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tigereasy64" type="15"/>
+   <action no="2" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="3" sum="250" player="lastZuko" type="15"/>
+   <action no="4" sum="250" player="ILoveBurger" type="15"/>
+   <action no="5" sum="250" player="raventeal597" type="15"/>
+   <action no="6" sum="250" player="devilhuge82" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="800" player="tigereasy64" type="1"/>
+   <action no="9" sum="1,600" player="Flusheimasgrande" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">C9 D9</cards>
+   <action no="12" sum="3,200" player="raventeal597" type="23"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 C4</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="15" sum="2,400" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">H10 H3</cards>
+   <action no="16" sum="1,600" player="Flusheimasgrande" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 C10 D5</cards>
+   <action no="17" sum="0" player="tigereasy64" type="4"/>
+   <action no="18" sum="0" player="Flusheimasgrande" type="4"/>
+   <action no="19" sum="2,543" player="raventeal597" type="5"/>
+   <action no="20" sum="0" player="tigereasy64" type="0"/>
+   <action no="21" sum="2,543" player="Flusheimasgrande" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="22" sum="0" player="Flusheimasgrande" type="4"/>
+   <action no="23" sum="0" player="raventeal597" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action no="24" sum="0" player="Flusheimasgrande" type="4"/>
+   <action no="25" sum="0" player="raventeal597" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560178204">
+  <general>
+   <startdate>2024-02-12 14:53:57</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="24,405" addon="0" bet="24,155" reg_code="7947734187" name="tropeiro123" win="5,750" rebuy="0"/>
+    <player dealer="1" seat="2" chips="104,641" addon="0" bet="250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="73,015" addon="0" bet="1,050" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="104,549" addon="0" bet="1,850" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="93,232" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="152,257" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="80,367" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="2" sum="250" player="lastZuko" type="15"/>
+   <action no="3" sum="250" player="ILoveBurger" type="15"/>
+   <action no="4" sum="250" player="raventeal597" type="15"/>
+   <action no="5" sum="250" player="devilhuge82" type="15"/>
+   <action no="6" sum="250" player="tropeiro123" type="15"/>
+   <action no="7" sum="250" player="tigereasy64" type="15"/>
+   <action no="8" sum="800" player="Flusheimasgrande" type="1"/>
+   <action no="9" sum="1,600" player="lastZuko" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 HA</cards>
+   <action no="13" sum="24,155" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lastZuko" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178232">
+  <general>
+   <startdate>2024-02-12 14:54:31</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="28,305" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="104,391" addon="0" bet="250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="71,965" addon="0" bet="9,850" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="102,699" addon="0" bet="1,050" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="92,982" addon="0" bet="1,850" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="152,007" addon="0" bet="250" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="80,117" addon="0" bet="15,300" reg_code="" name="devilhuge82" win="23,350" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="lastZuko" type="15"/>
+   <action no="2" sum="250" player="ILoveBurger" type="15"/>
+   <action no="3" sum="250" player="raventeal597" type="15"/>
+   <action no="4" sum="250" player="devilhuge82" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="tigereasy64" type="15"/>
+   <action no="7" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="8" sum="800" player="lastZuko" type="1"/>
+   <action no="9" sum="1,600" player="ILoveBurger" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="raventeal597" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="11" sum="3,200" player="devilhuge82" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 S2</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" sum="9,600" player="Flusheimasgrande" type="23"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ILoveBurger" type="0"/>
+   <action no="17" sum="6,400" player="devilhuge82" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 D7 S10</cards>
+   <action no="18" sum="0" player="devilhuge82" type="4"/>
+   <action no="19" sum="0" player="Flusheimasgrande" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="20" sum="5,450" player="devilhuge82" type="5"/>
+   <action no="21" sum="0" player="Flusheimasgrande" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178288">
+  <general>
+   <startdate>2024-02-12 15:01:27</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="28,055" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="104,141" addon="0" bet="250" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="62,115" addon="0" bet="3,200" reg_code="" name="Flusheimasgrande" win="6,000" rebuy="0"/>
+    <player dealer="1" seat="5" chips="101,649" addon="0" bet="250" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="91,132" addon="0" bet="1,050" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="151,757" addon="0" bet="1,850" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="50,000" addon="0" bet="250" reg_code="" name="WipeHype" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="93,617" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="ILoveBurger" type="15"/>
+   <action no="2" sum="250" player="raventeal597" type="15"/>
+   <action no="3" sum="250" player="WipeHype" type="15"/>
+   <action no="4" sum="250" player="devilhuge82" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="tigereasy64" type="15"/>
+   <action no="7" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="8" sum="250" player="lastZuko" type="15"/>
+   <action no="9" sum="800" player="ILoveBurger" type="1"/>
+   <action no="10" sum="1,600" player="raventeal597" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WipeHype" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 CK</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="tigereasy64" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" sum="3,200" player="Flusheimasgrande" type="23"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="raventeal597" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178323">
+  <general>
+   <startdate>2024-02-12 15:02:28</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="27,805" addon="0" bet="250" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="103,891" addon="0" bet="9,850" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="66,265" addon="0" bet="17,850" reg_code="" name="Flusheimasgrande" win="23,600" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,399" addon="0" bet="250" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="90,082" addon="0" bet="250" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="149,907" addon="0" bet="1,050" reg_code="" name="raventeal597" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="49,750" addon="0" bet="1,850" reg_code="" name="WipeHype" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="93,367" addon="0" bet="250" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="raventeal597" type="15"/>
+   <action no="2" sum="250" player="WipeHype" type="15"/>
+   <action no="3" sum="250" player="devilhuge82" type="15"/>
+   <action no="4" sum="250" player="tropeiro123" type="15"/>
+   <action no="5" sum="250" player="tigereasy64" type="15"/>
+   <action no="6" sum="250" player="Flusheimasgrande" type="15"/>
+   <action no="7" sum="250" player="lastZuko" type="15"/>
+   <action no="8" sum="250" player="ILoveBurger" type="15"/>
+   <action no="9" sum="800" player="raventeal597" type="1"/>
+   <action no="10" sum="1,600" player="WipeHype" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="13" sum="3,200" player="tigereasy64" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" sum="9,600" player="Flusheimasgrande" type="23"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="raventeal597" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="raventeal597" type="0"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="WipeHype" type="0"/>
+   <action no="19" sum="6,400" player="tigereasy64" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK S9 H3</cards>
+   <action no="20" sum="0" player="tigereasy64" type="4"/>
+   <action no="21" sum="8,000" player="Flusheimasgrande" type="5"/>
+   <action no="22" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178356">
+  <general>
+   <startdate>2024-02-12 15:03:16</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="27,555" addon="0" bet="275" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="94,041" addon="0" bet="7,832" reg_code="" name="tigereasy64" win="8,225" rebuy="0"/>
+    <player dealer="0" seat="4" chips="80,015" addon="0" bet="275" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,149" addon="0" bet="275" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="89,832" addon="0" bet="2,075" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="47,900" addon="0" bet="1,175" reg_code="" name="WipeHype" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="93,117" addon="0" bet="2,075" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="WipeHype" type="15"/>
+   <action no="2" sum="275" player="devilhuge82" type="15"/>
+   <action no="3" sum="275" player="tropeiro123" type="15"/>
+   <action no="4" sum="275" player="tigereasy64" type="15"/>
+   <action no="5" sum="275" player="Flusheimasgrande" type="15"/>
+   <action no="6" sum="275" player="lastZuko" type="15"/>
+   <action no="7" sum="275" player="ILoveBurger" type="15"/>
+   <action no="8" sum="900" player="WipeHype" type="1"/>
+   <action no="9" sum="1,800" player="devilhuge82" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C2 C6</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="11" sum="1,800" player="tigereasy64" type="3"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="14" sum="1,800" player="ILoveBurger" type="3"/>
+   <cards player="WipeHype" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WipeHype" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="devilhuge82" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D3 S2</cards>
+   <action no="17" sum="0" player="devilhuge82" type="4"/>
+   <action no="18" sum="5,757" player="tigereasy64" type="5"/>
+   <action no="19" sum="0" player="ILoveBurger" type="0"/>
+   <action no="20" sum="0" player="devilhuge82" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178419">
+  <general>
+   <startdate>2024-02-12 15:04:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="27,280" addon="0" bet="2,075" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,191" addon="0" bet="3,875" reg_code="" name="tigereasy64" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="79,740" addon="0" bet="275" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="100,874" addon="0" bet="275" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="87,757" addon="0" bet="275" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="96,580" addon="0" bet="9,787" reg_code="" name="ATAC94" win="11,825" rebuy="0"/>
+    <player dealer="0" seat="10" chips="91,042" addon="0" bet="1,175" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="devilhuge82" type="15"/>
+   <action no="2" sum="275" player="tropeiro123" type="15"/>
+   <action no="3" sum="275" player="tigereasy64" type="15"/>
+   <action no="4" sum="275" player="Flusheimasgrande" type="15"/>
+   <action no="5" sum="275" player="lastZuko" type="15"/>
+   <action no="6" sum="275" player="ILoveBurger" type="15"/>
+   <action no="7" sum="275" player="ATAC94" type="15"/>
+   <action no="8" sum="900" player="devilhuge82" type="1"/>
+   <action no="9" sum="1,800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tigereasy64" type="Pocket">X X</cards>
+   <action no="10" sum="3,600" player="tigereasy64" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="ATAC94" type="Pocket">X X</cards>
+   <action no="14" sum="3,600" player="ATAC94" type="3"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 C2</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 C7 H3</cards>
+   <action no="17" sum="0" player="tigereasy64" type="4"/>
+   <action no="18" sum="5,912" player="ATAC94" type="5"/>
+   <action no="19" sum="0" player="tigereasy64" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560178448">
+  <general>
+   <startdate>2024-02-12 15:05:16</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="25,205" addon="0" bet="24,930" reg_code="7947734187" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="96,316" addon="0" bet="25,205" reg_code="" name="tigereasy64" win="51,785" rebuy="0"/>
+    <player dealer="0" seat="4" chips="79,465" addon="0" bet="275" reg_code="" name="Flusheimasgrande" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="100,599" addon="0" bet="275" reg_code="" name="lastZuko" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="87,482" addon="0" bet="275" reg_code="" name="ILoveBurger" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="104,530" addon="0" bet="275" reg_code="" name="ATAC94" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="89,867" addon="0" bet="275" reg_code="" name="devilhuge82" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="tropeiro123" type="15"/>
+   <action no="2" sum="275" player="tigereasy64" type="15"/>
+   <action no="3" sum="275" player="Flusheimasgrande" type="15"/>
+   <action no="4" sum="275" player="lastZuko" type="15"/>
+   <action no="5" sum="275" player="ILoveBurger" type="15"/>
+   <action no="6" sum="275" player="ATAC94" type="15"/>
+   <action no="7" sum="275" player="devilhuge82" type="15"/>
+   <action no="8" sum="900" player="tropeiro123" type="1"/>
+   <action no="9" sum="1,800" player="tigereasy64" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Flusheimasgrande" type="0"/>
+   <cards player="lastZuko" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="lastZuko" type="0"/>
+   <cards player="ILoveBurger" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ILoveBurger" type="0"/>
+   <cards player="ATAC94" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ATAC94" type="0"/>
+   <cards player="devilhuge82" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="devilhuge82" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK S2</cards>
+   <action no="15" sum="24,930" player="tropeiro123" type="23"/>
+   <cards player="tigereasy64" type="Pocket">C2 CA</cards>
+   <action no="16" sum="23,130" player="tigereasy64" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 S9 HJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,295 @@
+Perfeito — com a Fase 3 fechada e o agent a confirmar tudo, não vejo ajustes críticos agora. Vamos então avançar para a FASE 4 (Partições Operacionais & Contagens) exatamente em cima do que já tens.
+
+Abaixo tens os prompts prontos (cirúrgicos, sem reescrever nada), com DoD por passo. Esta fase vai produzir:
+
+grupos operacionais por mão (non‑KO 9‑max preflop, non‑KO 6‑max preflop, PKO preflop, post‑flop tudo),
+
+contagem de mãos por grupo (global e por mês YYYY‑MM em Europe/Lisbon),
+
+índices “click‑through” (ficheiros com hand_ids por bucket),
+
+e um JSON de saída único com tudo sumarizado.
+
+Nota: contagens por stat (denominadores) ficam para a Fase 5 (DSL). Aqui focamos mãos/grupos/tempo (a “base” que as stats vão consumir).
+
+🎯 Objetivo da Fase 4
+
+Transformar parsed/hands_enriched.jsonl em:
+
+partitions/partition_counts.json (sumário por mês × grupo),
+
+partitions/index/<YYYY-MM>__<group>.ids (lista de hand_id para click‑through),
+
+endpoint/CLI para gerar e ler estes objetos.
+
+Grupos alvo:
+
+nonko_9max_pref — non‑KO & mesa 7–10 (9‑max) & pré‑flop
+
+nonko_6max_pref — non‑KO & mesa 3–6 (6‑max) & pré‑flop
+
+pko_pref — PKO (6+9 juntos) & pré‑flop
+
+postflop_all — todas as mãos que viram flop, independentemente de non‑KO/PKO e 6/9
+
+PROMPT A — Módulos da Fase 4 (sem tocar no que existe)
+
+Cria a seguinte estrutura:
+
+app/partition/
+  __init__.py
+  groups.py
+  months.py
+  runner.py
+
+
+Dependências: usar apenas o que já tens (pydantic, dateutil, pytz se necessário).
+
+DoD: módulo importável app.partition.* compila.
+
+PROMPT B — Bucket temporal (Europe/Lisbon) e hand_id estável
+
+Em app/partition/months.py, implementa:
+
+from datetime import datetime
+from dateutil import parser, tz
+import hashlib
+
+TZ_PT = tz.gettz("Europe/Lisbon")
+
+def month_bucket(timestamp_utc: str) -> str:
+    """
+    Recebe ISO UTC (hand.timestamp_utc) e devolve 'YYYY-MM' em Europe/Lisbon.
+    """
+    if not timestamp_utc:
+        return "unknown"
+    dt = parser.isoparse(timestamp_utc)
+    dt_pt = dt.astimezone(TZ_PT)
+    return f"{dt_pt.year:04d}-{dt_pt.month:02d}"
+
+def make_hand_id(hand_obj: dict) -> str:
+    """
+    Gera um id estável por mão:
+    - usa (site, tournament_id, file_id, button_seat, raw_offsets.hand_start, timestamp_utc)
+    - se faltar algo, inclui apenas os campos disponíveis
+    """
+    parts = [
+        str(hand_obj.get("site","")),
+        str(hand_obj.get("tournament_id","")),
+        str(hand_obj.get("file_id","")),
+        str(hand_obj.get("button_seat","")),
+        str(hand_obj.get("raw_offsets",{}).get("hand_start","")),
+        str(hand_obj.get("timestamp_utc","")),
+    ]
+    s = "|".join(parts)
+    return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
+
+
+DoD: testes rápidos locais retornam buckets corretos e hand_id determinístico.
+
+PROMPT C — Regras de pertença a grupos (partições)
+
+Em app/partition/groups.py, implementa:
+
+from typing import List, Dict
+
+# nomes constantes dos grupos
+NONKO_9MAX_PREF = "nonko_9max_pref"
+NONKO_6MAX_PREF = "nonko_6max_pref"
+PKO_PREF        = "pko_pref"
+POSTFLOP_ALL    = "postflop_all"
+
+def infer_tourney_class(hand: dict) -> str:
+    """
+    Detecta 'mystery'|'PKO'|'non-KO' a partir de:
+    - campo armazenado no parse (se existir), ex.: hand.get('tourney_class')
+    - OU path/caminho no file_id (ex.: .../PKO/..., .../non-KO/..., .../mystery/...)
+    - fallback: 'non-KO'
+    """
+    tc = (hand.get("tourney_class") or "").lower()
+    if tc in ("pko","mystery","non-ko"): return tc
+    fid = (hand.get("file_id") or "").lower()
+    if "/pko/" in fid or "\\pko\\" in fid: return "pko"
+    if "/myst" in fid or "\\myst" in fid: return "mystery"
+    return "non-ko"
+
+def is_table_6max(table_max_resolved: int) -> bool:
+    return 3 <= table_max_resolved <= 6
+
+def is_table_9max(table_max_resolved: int) -> bool:
+    return 7 <= table_max_resolved <= 10
+
+def saw_flop(hand: dict) -> bool:
+    # usa derived.ip.players_to_flop (já calculado na Fase 3)
+    ip = hand.get("derived",{}).get("ip",{})
+    return (ip.get("players_to_flop", 0) >= 2)
+
+def groups_for_hand(hand: dict) -> List[str]:
+    g: List[str] = []
+    derived = hand.get("derived", {})
+    table_max = int(derived.get("positions",{}).get("table_max_resolved") or hand.get("table_max") or 0)
+    tclass = infer_tourney_class(hand)
+
+    # Pré-flop (todos os pot types; filtragens específicas serão na DSL)
+    if tclass == "non-ko" and is_table_9max(table_max):
+        g.append(NONKO_9MAX_PREF)
+    if tclass == "non-ko" and is_table_6max(table_max):
+        g.append(NONKO_6MAX_PREF)
+    if tclass == "pko":
+        g.append(PKO_PREF)
+
+    # Pós-flop (tudo que viu flop)
+    if saw_flop(hand):
+        g.append(POSTFLOP_ALL)
+
+    return g
+
+
+DoD: para 4 mãos sintéticas (non‑KO‑6, non‑KO‑9, PKO, fold preflop) obténs os grupos esperados.
+
+PROMPT D — Runner: gerar contagens por mês × grupo + índices de mão
+
+Em app/partition/runner.py, implementa:
+
+import os, json, collections
+from typing import Dict
+from app.partition.groups import groups_for_hand, NONKO_6MAX_PREF, NONKO_9MAX_PREF, PKO_PREF, POSTFLOP_ALL
+from app.partition.months import month_bucket, make_hand_id
+
+def build_partitions(in_jsonl: str, out_dir: str) -> Dict:
+    """
+    Lê hands_enriched.jsonl e escreve:
+      - partition_counts.json (sumário)
+      - index/<YYYY-MM>__<group>.ids (um hand_id por linha)
+    Retorna um dicionário com totais.
+    """
+    os.makedirs(out_dir, exist_ok=True)
+    index_dir = os.path.join(out_dir, "index")
+    os.makedirs(index_dir, exist_ok=True)
+
+    counts = collections.defaultdict(lambda: collections.defaultdict(lambda: {"hands": 0}))
+    totals = {NONKO_6MAX_PREF:0, NONKO_9MAX_PREF:0, PKO_PREF:0, POSTFLOP_ALL:0}
+    id_files = {}  # (month, group) -> file handle
+
+    def _fh(month, group):
+        key = (month, group)
+        if key not in id_files:
+            path = os.path.join(index_dir, f"{month}__{group}.ids")
+            id_files[key] = open(path, "w", encoding="utf-8")
+        return id_files[key]
+
+    with open(in_jsonl, "r", encoding="utf-8") as fi:
+        for line in fi:
+            hand = json.loads(line)
+            month = month_bucket(hand.get("timestamp_utc"))
+            hgroups = groups_for_hand(hand)
+            hid = make_hand_id(hand)
+            for g in hgroups:
+                counts[month][g]["hands"] += 1
+                totals[g] += 1
+                _fh(month, g).write(hid + "\n")
+
+    # fechar descritores
+    for f in id_files.values():
+        try: f.close()
+        except: pass
+
+    out = {
+        "input": in_jsonl,
+        "output_dir": out_dir,
+        "counts": counts,         # será serializado abaixo
+        "totals": totals
+    }
+
+    # serializar counts para JSON “puro”
+    counts_json = {m:{g:v for g,v in d.items()} for m,d in counts.items()}
+    with open(os.path.join(out_dir, "partition_counts.json"), "w", encoding="utf-8") as fo:
+        json.dump({"input": in_jsonl, "totals": totals, "counts": counts_json}, fo, ensure_ascii=False, indent=2)
+
+    return {"input": in_jsonl, "out_dir": out_dir, "totals": totals}
+
+
+CLI:
+python -m app.partition.runner --in parsed/hands_enriched.jsonl --out partitions/
+
+DoD: gera partitions/partition_counts.json e ficheiros partitions/index/<month>__<group>.ids.
+
+PROMPT E — Endpoint Flask para consumir no backoffice (sem mexer no front)
+
+Adiciona um endpoint simples:
+
+POST /api/partition com body: { "in_jsonl": "<path>", "out_dir": "<path>" }
+Retorna: {"ok": true, "counts_path": ".../partition_counts.json"}
+
+E um GET /api/partition/counts?path=... que devolve o conteúdo do JSON (para debug).
+
+DoD: endpoints disponíveis; não interferem com o fluxo de download atual.
+
+PROMPT F — Teste mínimo (pytest) das partições
+
+Cria tests/test_partition_groups.py com 4 mãos sintéticas (dicts) e asserts:
+
+non‑KO + 9‑max + preflop → groups_for_hand contém nonko_9max_pref.
+
+non‑KO + 6‑max → contém nonko_6max_pref.
+
+PKO (qualquer mesa) → contém pko_pref.
+
+Mão que vê flop → contém postflop_all; mão que não vê flop → não contém.
+
+month_bucket("2025-06-30T22:30:00Z") → "2025-06" (timezone PT).
+
+DoD: testes passam.
+
+PROMPT G — (Opcional) NON‑KO combinado por mês
+
+Sem alterar partition_counts.json, cria partitions/nonko_combined.json com:
+
+{
+  "YYYY-MM": {
+    "hands_nonko_9max_pref": X,
+    "hands_nonko_6max_pref": Y,
+    "hands_nonko_pref_total": X+Y
+  },
+  ...
+}
+
+
+Isto vai ser útil mais à frente para as tuas ponderações por volume.
+
+DoD: ficheiro gerado com somatórios coerentes.
+
+Saídas esperadas no disco após a Fase 4
+parsed/
+  hands_enriched.jsonl
+partitions/
+  partition_counts.json
+  nonko_combined.json           # opcional
+  index/
+    2025-06__nonko_9max_pref.ids
+    2025-06__nonko_6max_pref.ids
+    2025-06__pko_pref.ids
+    2025-06__postflop_all.ids
+    2025-07__...
+
+Porque este desenho é o certo agora
+
+Não mexe no que já está estável (Fases 1–3).
+
+Dá‑te contagens fiáveis por grupo e por mês (que pediste) e já cria os índices de “click‑through” por bucket (vamos usá‑los quando, na UI, clicares num número).
+
+Mantém NON‑KO 9‑max e NON‑KO 6‑max separados, e oferece um somatório opcional que apoia a tua regra de ponderação mais tarde.
+
+Não antecipa a DSL: deixa o terreno pronto para, na Fase 5, as tuas 4 stats de RFI e as restantes consumirem estes buckets e escreverem os denominadores (oportunidades) por mês × grupo.
+
+Definition of Done — Fase 4
+
+ partition_counts.json com totais por mês × grupo.
+
+ Ficheiros .ids por mês × grupo com os hand_id das mãos do bucket.
+
+ CLI e endpoints operacionais.
+
+ Testes mínimos a passar.
+
+ (Opcional) nonko_combined.json com somas mensais 6‑max+9‑max.

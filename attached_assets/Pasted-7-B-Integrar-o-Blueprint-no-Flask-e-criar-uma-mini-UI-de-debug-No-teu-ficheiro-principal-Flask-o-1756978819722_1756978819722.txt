@@ -1,0 +1,71 @@
+7.B – Integrar o Blueprint no Flask e criar uma mini‑UI de debug
+
+No teu ficheiro principal Flask (onde registaste os outros endpoints), adiciona:
+
+# no topo
+from app.hands.api import bp as hands_bp
+app.register_blueprint(hands_bp)
+
+
+Cria um pequeno template para testar manualmente:
+
+templates/debug_hands.html
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Debug Hands</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    input, button { padding: 6px 10px; margin-right: 6px; }
+    pre { background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; white-space:pre-wrap; }
+    .muted { color:#666; font-size:12px; }
+  </style>
+</head>
+<body>
+  <h2>Debug Hands</h2>
+  <div>
+    <button id="reindex">Reindex</button>
+    <span class="muted">Usa parsed/hands_enriched.jsonl → parsed/hands_index.json</span>
+  </div>
+  <hr/>
+  <div>
+    <input id="handid" placeholder="hand_id" size="40"/>
+    <button id="get">/api/hh</button>
+    <button id="excerpt">/api/hh/excerpt</button>
+  </div>
+  <pre id="out"></pre>
+
+<script>
+async function j(u, opt){ const r = await fetch(u, opt||{}); return r.json(); }
+
+document.getElementById('reindex').onclick = async ()=>{
+  const res = await j('/api/hh/reindex', {method:'POST', headers:{'Content-Type':'application/json'}, body:'{}'});
+  document.getElementById('out').textContent = JSON.stringify(res,null,2);
+};
+
+document.getElementById('get').onclick = async ()=>{
+  const id = document.getElementById('handid').value.trim();
+  const res = await j('/api/hh?id='+encodeURIComponent(id));
+  document.getElementById('out').textContent = JSON.stringify(res,null,2);
+};
+
+document.getElementById('excerpt').onclick = async ()=>{
+  const id = document.getElementById('handid').value.trim();
+  const res = await j('/api/hh/excerpt?id='+encodeURIComponent(id));
+  document.getElementById('out').textContent = res.snippet || JSON.stringify(res,null,2);
+};
+</script>
+</body>
+</html>
+
+
+Adiciona a rota no Flask:
+
+@app.route('/debug-hands')
+def debug_hands_page():
+    return render_template('debug_hands.html')
+
+
+(Opcional) adiciona um link discreto para /debug-hands no teu index.html.

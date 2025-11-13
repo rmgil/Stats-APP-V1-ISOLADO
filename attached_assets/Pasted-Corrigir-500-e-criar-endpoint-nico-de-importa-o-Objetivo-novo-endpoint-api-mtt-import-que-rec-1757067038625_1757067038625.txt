@@ -1,0 +1,77 @@
+Corrigir 500 e criar endpoint único de importação
+
+Objetivo: novo endpoint /api/mtt/import que:
+
+recebe ZIP (até 200 MB),
+
+unzip seguro para /tmp/mtt_sessions/<uuid>/inbox,
+
+scan de .txt com detecção de rede e tipo de torneio (PKO/NON‑KO/Mystery),
+
+grava manifest.json com contagens por rede/tipo,
+
+dispara derive → partitions → stats → score,
+
+devolve JSON final com overall, groups, e caminhos dos artefactos.
+
+Alterações:
+
+main.py
+
+Configurar app.config["MAX_CONTENT_LENGTH"] = 200 * 1024 * 1024.
+
+@app.post("/api/mtt/import"):
+
+Usar secure_filename e uuid4() para a sessão.
+
+Unzip seguro (recusar paths com ../absolutos).
+
+Detector de encoding: tenta utf-8, senão latin-1 e cp1252.
+
+Detectar rede:
+
+PokerStars se linha inicial contém PokerStars Hand # (ou Tournament #)
+
+GGPoker se contém Bounty Hunters/GG patterns
+
+888/Party/Winamax se padrões respectivos.
+
+Classificar tipo de torneio:
+
+PKO se cabeçalho tiver “Bounty”, “Bounty Hunters”, “PKO” ou formato buy‑in “X+Y+fee” (PokerStars: “€3.37+€3.38+€0.75”).
+
+Mystery se aparecer “Mystery Bounty” no cabeçalho. (GG costuma listar “Mystery Bounty”; a tua amostra “Bounty Hunters $32” é PKO normal).
+
+NON‑KO caso nenhum dos acima.
+
+Montar manifest = {files: [...], counts: {by_network, by_type}} e gravar.
+
+Chamar as funções já existentes: derive → partitions → stats → score.
+
+Responder 200 com:
+
+{
+  "ok": true,
+  "session": "<uuid>",
+  "summary": { "overall": <score>, "group_level": {...}, "sample": {...} },
+  "links": {
+    "dashboard": "/dashboard?session=<uuid>",
+    "score_json": "scores/scorecard.json",
+    "stats_json": "stats/stat_counts.json"
+  },
+  "manifest": { ... }
+}
+
+
+Utilitários novos em app/import/:
+
+zip_utils.py: safe_unzip(zip_path, dest_dir) com guard contra ZipSlip.
+
+detectors.py: detect_network(text) -> {"pokerstars"|"gg"|"888"|...},
+detect_tourney_type(header) -> {"PKO"|"NON_KO"|"MYSTERY"} (com regras acima).
+
+Logs & erros:
+
+Se algo falha, responder {"ok": false, "where": "step-name", "error": "exc str"}.
+
+Isto evita o genérico “Internal Server Error” no front‑end.

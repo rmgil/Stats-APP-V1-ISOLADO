@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960599684">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|Mini Showdown|€20,000 GTD, 1082030313</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:08:07</duration>
+  <gamecount>7</gamecount>
+  <startdate>2024-02-25 13:34:28</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>2,700</bets>
+  <wins>0</wins>
+  <chipsin>119,900</chipsin>
+  <chipsout>117,300</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294689</tournamentcode>
+  <tournamentname>E3|Mini Showdown|€20,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10583573756">
+  <general>
+   <startdate>2024-02-25 13:34:28</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="1,500" addon="0" rebuy="0" win="2,100" chips="109,214" seat="1" name="Revelio2" reg_code="" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="120,460" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="128,140" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="126,493" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="240,316" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="123,464" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="115,118" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Revelio2" sum="100" type="15"/>
+   <action no="2" player="GrubEric" sum="100" type="15"/>
+   <action no="3" player="machinepink78" sum="100" type="15"/>
+   <action no="4" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="5" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="6" player="Shad0w87" sum="100" type="15"/>
+   <action no="7" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="8" player="Revelio2" sum="350" type="1"/>
+   <action no="9" player="GrubEric" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="10" player="machinepink78" sum="0" type="0"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="11" player="DrunkenPriest69" sum="0" type="0"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="12" player="SC4MINCOM1NG" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="13" player="Shad0w87" sum="0" type="0"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="14" player="xxxImTheOnExxx" sum="0" type="0"/>
+   <cards player="Revelio2" type="Pocket">X X</cards>
+   <action no="15" player="Revelio2" sum="350" type="3"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="16" player="GrubEric" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ S7 DA</cards>
+   <action no="17" player="Revelio2" sum="700" type="5"/>
+   <action no="18" player="GrubEric" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583573979">
+  <general>
+   <startdate>2024-02-25 13:35:08</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="110,514" seat="1" name="Revelio2" reg_code="" dealer="1"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="119,660" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="128,040" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="126,393" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="120,000" seat="6" name="tropeiro123" reg_code="7960599684" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="240,216" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="123,364" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="1,400" addon="0" rebuy="0" win="2,550" chips="115,018" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="GrubEric" sum="100" type="15"/>
+   <action no="2" player="machinepink78" sum="100" type="15"/>
+   <action no="3" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="4" player="tropeiro123" sum="100" type="15"/>
+   <action no="5" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="6" player="Shad0w87" sum="100" type="15"/>
+   <action no="7" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="8" player="Revelio2" sum="100" type="15"/>
+   <action no="9" player="GrubEric" sum="350" type="1"/>
+   <action no="10" player="machinepink78" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="11" player="DrunkenPriest69" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA D3</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="13" player="SC4MINCOM1NG" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="14" player="Shad0w87" sum="0" type="0"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="15" player="xxxImTheOnExxx" sum="1,400" type="23"/>
+   <cards player="Revelio2" type="Pocket">X X</cards>
+   <action no="16" player="Revelio2" sum="0" type="0"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="17" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="18" player="machinepink78" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583584658">
+  <general>
+   <startdate>2024-02-25 13:36:30</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="119,210" seat="2" name="GrubEric" reg_code="" dealer="1"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="127,240" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="126,293" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="119,900" seat="6" name="tropeiro123" reg_code="7960599684" dealer="0"/>
+    <player bet="4,055" addon="0" rebuy="0" win="0" chips="240,116" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="123,264" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="9,561" addon="0" rebuy="0" win="9,660" chips="116,768" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="machinepink78" sum="100" type="15"/>
+   <action no="2" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="3" player="tropeiro123" sum="100" type="15"/>
+   <action no="4" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="5" player="Shad0w87" sum="100" type="15"/>
+   <action no="6" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="7" player="GrubEric" sum="100" type="15"/>
+   <action no="8" player="machinepink78" sum="350" type="1"/>
+   <action no="9" player="DrunkenPriest69" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H3 DJ</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="11" player="SC4MINCOM1NG" sum="1,750" type="23"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="12" player="Shad0w87" sum="0" type="0"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="13" player="xxxImTheOnExxx" sum="1,750" type="3"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="14" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="15" player="machinepink78" sum="0" type="0"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="16" player="DrunkenPriest69" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 C5 HK</cards>
+   <action no="17" player="SC4MINCOM1NG" sum="0" type="4"/>
+   <action no="18" player="xxxImTheOnExxx" sum="2,205" type="5"/>
+   <action no="19" player="SC4MINCOM1NG" sum="2,205" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="20" player="SC4MINCOM1NG" sum="0" type="4"/>
+   <action no="21" player="xxxImTheOnExxx" sum="5,506" type="5"/>
+   <action no="22" player="SC4MINCOM1NG" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583584995">
+  <general>
+   <startdate>2024-02-25 13:37:31</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="119,110" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="30,480" addon="0" rebuy="0" win="0" chips="126,790" seat="4" name="machinepink78" reg_code="" dealer="1"/>
+    <player bet="125,493" addon="0" rebuy="0" win="64,960" chips="125,493" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="119,800" seat="6" name="tropeiro123" reg_code="7960599684" dealer="0"/>
+    <player bet="1,500" addon="0" rebuy="0" win="0" chips="236,061" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="123,164" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="1,500" addon="0" rebuy="0" win="0" chips="122,373" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="2" player="tropeiro123" sum="100" type="15"/>
+   <action no="3" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="4" player="Shad0w87" sum="100" type="15"/>
+   <action no="5" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="6" player="GrubEric" sum="100" type="15"/>
+   <action no="7" player="machinepink78" sum="100" type="15"/>
+   <action no="8" player="DrunkenPriest69" sum="350" type="1"/>
+   <action no="9" player="tropeiro123" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="10" player="SC4MINCOM1NG" sum="1,400" type="23"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="11" player="Shad0w87" sum="0" type="0"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="12" player="xxxImTheOnExxx" sum="1,400" type="3"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="13" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="14" player="machinepink78" sum="1,400" type="3"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="15" player="DrunkenPriest69" sum="11,900" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D7 C8</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <action no="17" player="SC4MINCOM1NG" sum="0" type="0"/>
+   <action no="18" player="xxxImTheOnExxx" sum="0" type="0"/>
+   <action no="19" player="machinepink78" sum="10,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 H2 C7</cards>
+   <action no="20" player="DrunkenPriest69" sum="0" type="4"/>
+   <action no="21" player="machinepink78" sum="18,480" type="5"/>
+   <action no="22" player="DrunkenPriest69" sum="113,493" type="23"/>
+   <action no="23" player="machinepink78" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583585539">
+  <general>
+   <startdate>2024-02-25 13:39:20</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="119,010" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="96,310" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="159,973" seat="5" name="DrunkenPriest69" reg_code="" dealer="1"/>
+    <player bet="1,500" addon="0" rebuy="0" win="0" chips="119,000" seat="6" name="tropeiro123" reg_code="7960599684" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="234,561" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="4,230" addon="0" rebuy="0" win="4,200" chips="123,064" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="120,873" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="100" type="15"/>
+   <action no="2" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="3" player="Shad0w87" sum="100" type="15"/>
+   <action no="4" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="5" player="GrubEric" sum="100" type="15"/>
+   <action no="6" player="machinepink78" sum="100" type="15"/>
+   <action no="7" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="8" player="tropeiro123" sum="350" type="1"/>
+   <action no="9" player="SC4MINCOM1NG" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="10" player="Shad0w87" sum="1,400" type="23"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="11" player="xxxImTheOnExxx" sum="0" type="0"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="12" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="13" player="machinepink78" sum="0" type="0"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="14" player="DrunkenPriest69" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 S7</cards>
+   <action no="15" player="tropeiro123" sum="1,050" type="3"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="16" player="SC4MINCOM1NG" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 S4 H2</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="Shad0w87" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="Shad0w87" sum="2,730" type="5"/>
+   <action no="21" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583585896">
+  <general>
+   <startdate>2024-02-25 13:40:36</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="120,000" seat="1" name="kirebet" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="118,910" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="96,210" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="1,640" addon="0" rebuy="0" win="0" chips="159,873" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="117,500" seat="6" name="tropeiro123" reg_code="7960599684" dealer="1"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="233,761" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="0"/>
+    <player bet="5,180" addon="0" rebuy="0" win="4,230" chips="125,764" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="120,773" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="2" player="Shad0w87" sum="100" type="15"/>
+   <action no="3" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="4" player="kirebet" sum="100" type="15"/>
+   <action no="5" player="GrubEric" sum="100" type="15"/>
+   <action no="6" player="machinepink78" sum="100" type="15"/>
+   <action no="7" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="8" player="tropeiro123" sum="100" type="15"/>
+   <action no="9" player="SC4MINCOM1NG" sum="350" type="1"/>
+   <action no="10" player="Shad0w87" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="11" player="xxxImTheOnExxx" sum="0" type="0"/>
+   <cards player="kirebet" type="Pocket">X X</cards>
+   <action no="12" player="kirebet" sum="0" type="0"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="13" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="14" player="machinepink78" sum="0" type="0"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="15" player="DrunkenPriest69" sum="1,540" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C9 H6</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="17" player="SC4MINCOM1NG" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="18" player="Shad0w87" sum="5,180" type="23"/>
+   <action no="19" player="DrunkenPriest69" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10583586063">
+  <general>
+   <startdate>2024-02-25 13:41:13</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="119,900" seat="1" name="kirebet" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="118,810" seat="2" name="GrubEric" reg_code="" dealer="0"/>
+    <player bet="19,943" addon="0" rebuy="0" win="17,904" chips="96,110" seat="4" name="machinepink78" reg_code="" dealer="0"/>
+    <player bet="8,127" addon="0" rebuy="0" win="0" chips="158,233" seat="5" name="DrunkenPriest69" reg_code="" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="117,400" seat="6" name="tropeiro123" reg_code="7960599684" dealer="0"/>
+    <player bet="100" addon="0" rebuy="0" win="0" chips="233,311" seat="7" name="SC4MINCOM1NG" reg_code="" dealer="1"/>
+    <player bet="450" addon="0" rebuy="0" win="0" chips="128,354" seat="9" name="Shad0w87" reg_code="" dealer="0"/>
+    <player bet="800" addon="0" rebuy="0" win="0" chips="120,673" seat="10" name="xxxImTheOnExxx" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Shad0w87" sum="100" type="15"/>
+   <action no="2" player="xxxImTheOnExxx" sum="100" type="15"/>
+   <action no="3" player="kirebet" sum="100" type="15"/>
+   <action no="4" player="GrubEric" sum="100" type="15"/>
+   <action no="5" player="machinepink78" sum="100" type="15"/>
+   <action no="6" player="DrunkenPriest69" sum="100" type="15"/>
+   <action no="7" player="tropeiro123" sum="100" type="15"/>
+   <action no="8" player="SC4MINCOM1NG" sum="100" type="15"/>
+   <action no="9" player="Shad0w87" sum="350" type="1"/>
+   <action no="10" player="xxxImTheOnExxx" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="kirebet" type="Pocket">X X</cards>
+   <action no="11" player="kirebet" sum="0" type="0"/>
+   <cards player="GrubEric" type="Pocket">X X</cards>
+   <action no="12" player="GrubEric" sum="0" type="0"/>
+   <cards player="machinepink78" type="Pocket">X X</cards>
+   <action no="13" player="machinepink78" sum="1,400" type="23"/>
+   <cards player="DrunkenPriest69" type="Pocket">X X</cards>
+   <action no="14" player="DrunkenPriest69" sum="1,400" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C10 S9</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="SC4MINCOM1NG" type="Pocket">X X</cards>
+   <action no="16" player="SC4MINCOM1NG" sum="0" type="0"/>
+   <cards player="Shad0w87" type="Pocket">X X</cards>
+   <action no="17" player="Shad0w87" sum="0" type="0"/>
+   <cards player="xxxImTheOnExxx" type="Pocket">X X</cards>
+   <action no="18" player="xxxImTheOnExxx" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 HK D10</cards>
+   <action no="19" player="machinepink78" sum="0" type="4"/>
+   <action no="20" player="DrunkenPriest69" sum="1,534" type="5"/>
+   <action no="21" player="machinepink78" sum="1,534" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="22" player="machinepink78" sum="5,093" type="5"/>
+   <action no="23" player="DrunkenPriest69" sum="5,093" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action no="24" player="machinepink78" sum="11,816" type="5"/>
+   <action no="25" player="DrunkenPriest69" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

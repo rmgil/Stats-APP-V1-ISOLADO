@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7940626003">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000|Micro Highroller, 1080236192</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>04:01:06</duration>
+  <gamecount>193</gamecount>
+  <startdate>2024-02-05 19:03:48</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,104,595</bets>
+  <wins>716,467</wins>
+  <chipsin>39,965</chipsin>
+  <chipsout>189,107</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1079587058</tournamentcode>
+  <tournamentname>€10,000|Micro Highroller</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10547513048">
+  <general>
+   <startdate>2024-02-05 19:03:48</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="diInster" bet="3,400" win="0" seat="1" dealer="0" chips="41,481"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="400" win="0" seat="2" dealer="0" chips="172,570"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="400" win="0" seat="4" dealer="0" chips="129,848"/>
+    <player rebuy="0" addon="0" reg_code="" name="Evankhell" bet="8,454" win="0" seat="5" dealer="0" chips="8,854"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="400" win="0" seat="6" dealer="0" chips="228,438"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="400" win="0" seat="7" dealer="0" chips="32,746"/>
+    <player rebuy="0" addon="0" reg_code="" name="5betlitgh" bet="400" win="0" seat="9" dealer="1" chips="43,106"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="207,980" win="23,108" seat="10" dealer="0" chips="208,380">
+     <knockout tobounty="€6.82" kicked="Evankhell" tobalance="€6.83"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="madsweeney" type="15" sum="400"/>
+   <action no="2" player="diInster" type="15" sum="400"/>
+   <action no="3" player="Dumason" type="15" sum="400"/>
+   <action no="4" player="andywaters" type="15" sum="400"/>
+   <action no="5" player="Evankhell" type="15" sum="400"/>
+   <action no="6" player="tropeiro123" type="15" sum="400"/>
+   <action no="7" player="Iugod" type="15" sum="400"/>
+   <action no="8" player="5betlitgh" type="15" sum="400"/>
+   <action no="9" player="madsweeney" type="1" sum="1,500"/>
+   <action no="10" player="diInster" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="11" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="12" player="andywaters" type="0" sum="0"/>
+   <cards player="Evankhell" type="Pocket">HK C8</cards>
+   <action no="13" player="Evankhell" type="23" sum="8,454"/>
+   <cards player="tropeiro123" type="Pocket">HJ H5</cards>
+   <action no="14" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="15" player="Iugod" type="0" sum="0"/>
+   <cards player="5betlitgh" type="Pocket">X X</cards>
+   <action no="16" player="5betlitgh" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">S7 HA</cards>
+   <action no="17" player="madsweeney" type="23" sum="207,980"/>
+   <cards player="diInster" type="Pocket">X X</cards>
+   <action no="18" player="diInster" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 D6 S10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+  </round>
+ </game>
+ <game gamecode="10547513115">
+  <general>
+   <startdate>2024-02-05 19:05:08</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="diInster" bet="1,900" win="0" seat="1" dealer="0" chips="38,081"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="3,400" win="0" seat="2" dealer="0" chips="172,170"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="400" win="0" seat="4" dealer="0" chips="129,448"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="42,706" win="0" seat="6" dealer="0" chips="228,038"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="400" win="0" seat="7" dealer="0" chips="32,346"/>
+    <player rebuy="0" addon="0" reg_code="" name="5betlitgh" bet="42,306" win="91,912" seat="9" dealer="0" chips="42,706"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="400" win="0" seat="10" dealer="1" chips="222,634"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="diInster" type="15" sum="400"/>
+   <action no="2" player="Dumason" type="15" sum="400"/>
+   <action no="3" player="andywaters" type="15" sum="400"/>
+   <action no="4" player="tropeiro123" type="15" sum="400"/>
+   <action no="5" player="Iugod" type="15" sum="400"/>
+   <action no="6" player="5betlitgh" type="15" sum="400"/>
+   <action no="7" player="madsweeney" type="15" sum="400"/>
+   <action no="8" player="diInster" type="1" sum="1,500"/>
+   <action no="9" player="Dumason" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="10" player="andywaters" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ HK</cards>
+   <action no="11" player="tropeiro123" type="23" sum="6,300"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="12" player="Iugod" type="0" sum="0"/>
+   <cards player="5betlitgh" type="Pocket">S10 SA</cards>
+   <action no="13" player="5betlitgh" type="23" sum="42,306"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="14" player="madsweeney" type="0" sum="0"/>
+   <cards player="diInster" type="Pocket">X X</cards>
+   <action no="15" player="diInster" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="16" player="Dumason" type="0" sum="0"/>
+   <action no="17" player="tropeiro123" type="3" sum="36,006"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 HA C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+  </round>
+ </game>
+ <game gamecode="10547513174">
+  <general>
+   <startdate>2024-02-05 19:06:23</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="diInster" bet="400" win="0" seat="1" dealer="1" chips="36,181"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="1,900" win="0" seat="2" dealer="0" chips="168,770"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="128,648" win="199,724" seat="4" dealer="0" chips="129,048">
+     <knockout tobounty="€13.65" kicked="5betlitgh" tobalance="€13.65"/>
+    </player>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="6,400" win="0" seat="5" dealer="0" chips="214,732"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="6,400" win="0" seat="6" dealer="0" chips="185,332"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="400" win="0" seat="7" dealer="0" chips="31,946"/>
+    <player rebuy="0" addon="0" reg_code="" name="5betlitgh" bet="91,912" win="0" seat="9" dealer="0" chips="91,912"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="400" win="0" seat="10" dealer="0" chips="222,234"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Dumason" type="15" sum="400"/>
+   <action no="2" player="andywaters" type="15" sum="400"/>
+   <action no="3" player="Divion" type="15" sum="400"/>
+   <action no="4" player="tropeiro123" type="15" sum="400"/>
+   <action no="5" player="Iugod" type="15" sum="400"/>
+   <action no="6" player="5betlitgh" type="15" sum="400"/>
+   <action no="7" player="madsweeney" type="15" sum="400"/>
+   <action no="8" player="diInster" type="15" sum="400"/>
+   <action no="9" player="Dumason" type="1" sum="1,500"/>
+   <action no="10" player="andywaters" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="11" player="Divion" type="23" sum="6,000"/>
+   <cards player="tropeiro123" type="Pocket">H4 D4</cards>
+   <action no="12" player="tropeiro123" type="3" sum="6,000"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="13" player="Iugod" type="0" sum="0"/>
+   <cards player="5betlitgh" type="Pocket">HQ HA</cards>
+   <action no="14" player="5betlitgh" type="23" sum="24,000"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="15" player="madsweeney" type="0" sum="0"/>
+   <cards player="diInster" type="Pocket">X X</cards>
+   <action no="16" player="diInster" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="17" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">SK CK</cards>
+   <action no="18" player="andywaters" type="23" sum="128,648"/>
+   <action no="19" player="Divion" type="0" sum="0"/>
+   <action no="20" player="tropeiro123" type="0" sum="0"/>
+   <action no="21" player="5betlitgh" type="7" sum="67,512"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 S10 C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+ <game gamecode="10547513223">
+  <general>
+   <startdate>2024-02-05 19:07:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="diInster" bet="400" win="0" seat="1" dealer="0" chips="35,781"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="400" win="0" seat="2" dealer="1" chips="166,870"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="30,916" win="37,516" seat="4" dealer="0" chips="236,860"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="7,000" win="0" seat="5" dealer="0" chips="208,332"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="400" win="0" seat="6" dealer="0" chips="178,932"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="400" win="0" seat="7" dealer="0" chips="31,546"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="14,458" win="0" seat="10" dealer="0" chips="221,834"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="andywaters" type="15" sum="400"/>
+   <action no="2" player="Divion" type="15" sum="400"/>
+   <action no="3" player="tropeiro123" type="15" sum="400"/>
+   <action no="4" player="Iugod" type="15" sum="400"/>
+   <action no="5" player="madsweeney" type="15" sum="400"/>
+   <action no="6" player="diInster" type="15" sum="400"/>
+   <action no="7" player="Dumason" type="15" sum="400"/>
+   <action no="8" player="andywaters" type="1" sum="1,500"/>
+   <action no="9" player="Divion" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 S10</cards>
+   <action no="10" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="11" player="Iugod" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="12" player="madsweeney" type="23" sum="6,600"/>
+   <cards player="diInster" type="Pocket">X X</cards>
+   <action no="13" player="diInster" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="14" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="15" player="andywaters" type="3" sum="5,100"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="16" player="Divion" type="3" sum="3,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S3 D8</cards>
+   <action no="17" player="andywaters" type="4" sum="0"/>
+   <action no="18" player="Divion" type="4" sum="0"/>
+   <action no="19" player="madsweeney" type="5" sum="7,458"/>
+   <action no="20" player="andywaters" type="23" sum="23,916"/>
+   <action no="21" player="Divion" type="0" sum="0"/>
+   <action no="22" player="madsweeney" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10547513290">
+  <general>
+   <startdate>2024-02-05 19:09:07</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="diInster" bet="34,981" win="0" seat="1" dealer="0" chips="35,381"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="400" win="0" seat="2" dealer="0" chips="166,470"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="400" win="0" seat="4" dealer="1" chips="259,918"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="200,932" win="76,162" seat="5" dealer="0" chips="201,332">
+     <knockout tobounty="€4.55" kicked="diInster" tobalance="€4.55"/>
+    </player>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="3,400" win="0" seat="6" dealer="0" chips="178,532"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="400" win="0" seat="7" dealer="0" chips="31,146"/>
+    <player rebuy="0" addon="0" reg_code="" name="rol3x" bet="400" win="0" seat="9" dealer="0" chips="25,700"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="400" win="0" seat="10" dealer="0" chips="207,376"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Divion" type="15" sum="400"/>
+   <action no="2" player="tropeiro123" type="15" sum="400"/>
+   <action no="3" player="Iugod" type="15" sum="400"/>
+   <action no="4" player="rol3x" type="15" sum="400"/>
+   <action no="5" player="madsweeney" type="15" sum="400"/>
+   <action no="6" player="diInster" type="15" sum="400"/>
+   <action no="7" player="Dumason" type="15" sum="400"/>
+   <action no="8" player="andywaters" type="15" sum="400"/>
+   <action no="9" player="Divion" type="1" sum="1,500"/>
+   <action no="10" player="tropeiro123" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="11" player="Iugod" type="0" sum="0"/>
+   <cards player="rol3x" type="Pocket">X X</cards>
+   <action no="12" player="rol3x" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="13" player="madsweeney" type="0" sum="0"/>
+   <cards player="diInster" type="Pocket">SA D10</cards>
+   <action no="14" player="diInster" type="23" sum="34,981"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="15" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="16" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">S9 CJ</cards>
+   <action no="17" player="Divion" type="23" sum="200,932"/>
+   <cards player="tropeiro123" type="Pocket">D6 D3</cards>
+   <action no="18" player="tropeiro123" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 C8 S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+  </round>
+ </game>
+ <game gamecode="10547513348">
+  <general>
+   <startdate>2024-02-05 19:10:17</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="400" win="0" seat="2" dealer="0" chips="166,070"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="6,400" win="0" seat="4" dealer="0" chips="259,518"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="6,400" win="0" seat="5" dealer="1" chips="242,113"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="30,000" win="23,800" seat="6" dealer="0" chips="175,132"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="3,400" win="0" seat="7" dealer="0" chips="30,746"/>
+    <player rebuy="0" addon="0" reg_code="" name="rol3x" bet="400" win="0" seat="9" dealer="0" chips="25,300"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="400" win="0" seat="10" dealer="0" chips="206,976"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" type="15" sum="400"/>
+   <action no="2" player="Iugod" type="15" sum="400"/>
+   <action no="3" player="rol3x" type="15" sum="400"/>
+   <action no="4" player="madsweeney" type="15" sum="400"/>
+   <action no="5" player="Dumason" type="15" sum="400"/>
+   <action no="6" player="andywaters" type="15" sum="400"/>
+   <action no="7" player="Divion" type="15" sum="400"/>
+   <action no="8" player="tropeiro123" type="1" sum="1,500"/>
+   <action no="9" player="Iugod" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="rol3x" type="Pocket">X X</cards>
+   <action no="10" player="rol3x" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="11" player="madsweeney" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="12" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="13" player="andywaters" type="23" sum="6,000"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="14" player="Divion" type="3" sum="6,000"/>
+   <cards player="tropeiro123" type="Pocket">SJ CJ</cards>
+   <action no="15" player="tropeiro123" type="23" sum="30,000"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="16" player="Iugod" type="0" sum="0"/>
+   <action no="17" player="andywaters" type="0" sum="0"/>
+   <action no="18" player="Divion" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10547513381">
+  <general>
+   <startdate>2024-02-05 19:11:05</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="400" win="0" seat="2" dealer="0" chips="165,670"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="400" win="0" seat="4" dealer="0" chips="253,118"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="400" win="0" seat="5" dealer="0" chips="235,713"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="13,025" win="0" seat="6" dealer="1" chips="192,532"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="1,900" win="0" seat="7" dealer="0" chips="27,346"/>
+    <player rebuy="0" addon="0" reg_code="" name="rol3x" bet="7,000" win="0" seat="9" dealer="0" chips="24,900"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="37,025" win="36,150" seat="10" dealer="0" chips="206,576"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Iugod" type="15" sum="400"/>
+   <action no="2" player="rol3x" type="15" sum="400"/>
+   <action no="3" player="madsweeney" type="15" sum="400"/>
+   <action no="4" player="Dumason" type="15" sum="400"/>
+   <action no="5" player="andywaters" type="15" sum="400"/>
+   <action no="6" player="Divion" type="15" sum="400"/>
+   <action no="7" player="tropeiro123" type="15" sum="400"/>
+   <action no="8" player="Iugod" type="1" sum="1,500"/>
+   <action no="9" player="rol3x" type="2" sum="3,000"/>
+  </round>
+  <round no="1">
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="10" player="madsweeney" type="23" sum="6,600"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="11" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="12" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="13" player="Divion" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">DA DJ</cards>
+   <action no="14" player="tropeiro123" type="3" sum="6,600"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="15" player="Iugod" type="0" sum="0"/>
+   <cards player="rol3x" type="Pocket">X X</cards>
+   <action no="16" player="rol3x" type="3" sum="3,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK C2 D7</cards>
+   <action no="17" player="rol3x" type="4" sum="0"/>
+   <action no="18" player="madsweeney" type="5" sum="6,025"/>
+   <action no="19" player="tropeiro123" type="3" sum="6,025"/>
+   <action no="20" player="rol3x" type="0" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action no="21" player="madsweeney" type="5" sum="24,000"/>
+   <action no="22" player="tropeiro123" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10547537412">
+  <general>
+   <startdate>2024-02-05 19:12:49</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="450" win="0" seat="1" dealer="0" chips="40,000"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="450" win="0" seat="2" dealer="0" chips="165,270"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="450" win="0" seat="4" dealer="0" chips="252,718"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="450" win="0" seat="5" dealer="0" chips="235,313"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="450" win="0" seat="6" dealer="0" chips="179,507"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="18,000" win="42,500" seat="7" dealer="1" chips="25,446">
+     <knockout tobounty="€4.55" kicked="rol3x" tobalance="€4.55"/>
+    </player>
+    <player rebuy="0" addon="0" reg_code="" name="rol3x" bet="17,900" win="0" seat="9" dealer="0" chips="17,900"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="4,450" win="0" seat="10" dealer="0" chips="229,701"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="rol3x" type="15" sum="450"/>
+   <action no="2" player="madsweeney" type="15" sum="450"/>
+   <action no="3" player="jeremix19" type="15" sum="450"/>
+   <action no="4" player="Dumason" type="15" sum="450"/>
+   <action no="5" player="andywaters" type="15" sum="450"/>
+   <action no="6" player="Divion" type="15" sum="450"/>
+   <action no="7" player="tropeiro123" type="15" sum="450"/>
+   <action no="8" player="Iugod" type="15" sum="450"/>
+   <action no="9" player="rol3x" type="1" sum="2,000"/>
+   <action no="10" player="madsweeney" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="jeremix19" type="Pocket">X X</cards>
+   <action no="11" player="jeremix19" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="12" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="13" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="14" player="Divion" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 S8</cards>
+   <action no="15" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">CK CQ</cards>
+   <action no="16" player="Iugod" type="23" sum="18,000"/>
+   <cards player="rol3x" type="Pocket">HJ H9</cards>
+   <action no="17" player="rol3x" type="7" sum="15,450"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="18" player="madsweeney" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ SQ S9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10547537452">
+  <general>
+   <startdate>2024-02-05 19:13:38</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="39,100" win="83,350" seat="1" dealer="0" chips="39,550"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="450" win="0" seat="2" dealer="0" chips="164,820"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="450" win="0" seat="4" dealer="0" chips="252,268"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="39,550" win="0" seat="5" dealer="0" chips="234,863"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="450" win="0" seat="6" dealer="0" chips="179,057"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="450" win="0" seat="7" dealer="0" chips="50,046"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="2,450" win="0" seat="10" dealer="0" chips="225,251"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="madsweeney" type="15" sum="450"/>
+   <action no="2" player="jeremix19" type="15" sum="450"/>
+   <action no="3" player="Dumason" type="15" sum="450"/>
+   <action no="4" player="andywaters" type="15" sum="450"/>
+   <action no="5" player="Divion" type="15" sum="450"/>
+   <action no="6" player="tropeiro123" type="15" sum="450"/>
+   <action no="7" player="Iugod" type="15" sum="450"/>
+   <action no="8" player="madsweeney" type="1" sum="2,000"/>
+   <action no="9" player="jeremix19" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="10" player="Dumason" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="11" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">HK H9</cards>
+   <action no="12" player="Divion" type="23" sum="8,000"/>
+   <cards player="tropeiro123" type="Pocket">CQ S7</cards>
+   <action no="13" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="14" player="Iugod" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="15" player="madsweeney" type="0" sum="0"/>
+   <cards player="jeremix19" type="Pocket">CA SQ</cards>
+   <action no="16" player="jeremix19" type="23" sum="39,100"/>
+   <action no="17" player="Divion" type="3" sum="31,100"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 HA H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+  </round>
+ </game>
+ <game gamecode="10547537483">
+  <general>
+   <startdate>2024-02-05 19:14:33</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="2,450" win="0" seat="1" dealer="0" chips="83,350"/>
+    <player rebuy="0" addon="0" reg_code="" name="Dumason" bet="40,850" win="0" seat="2" dealer="0" chips="164,370"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="69,362" win="86,400" seat="4" dealer="0" chips="251,818"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="450" win="0" seat="5" dealer="0" chips="195,313"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="450" win="0" seat="6" dealer="0" chips="178,607"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="450" win="0" seat="7" dealer="0" chips="49,596"/>
+    <player rebuy="0" addon="0" reg_code="" name="Jpvasc" bet="450" win="0" seat="9" dealer="0" chips="40,000"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="450" win="0" seat="10" dealer="1" chips="222,801"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="jeremix19" type="15" sum="450"/>
+   <action no="2" player="Dumason" type="15" sum="450"/>
+   <action no="3" player="andywaters" type="15" sum="450"/>
+   <action no="4" player="Divion" type="15" sum="450"/>
+   <action no="5" player="tropeiro123" type="15" sum="450"/>
+   <action no="6" player="Iugod" type="15" sum="450"/>
+   <action no="7" player="Jpvasc" type="15" sum="450"/>
+   <action no="8" player="madsweeney" type="15" sum="450"/>
+   <action no="9" player="jeremix19" type="1" sum="2,000"/>
+   <action no="10" player="Dumason" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="11" player="andywaters" type="23" sum="8,000"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="12" player="Divion" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 H7</cards>
+   <action no="13" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">X X</cards>
+   <action no="14" player="Iugod" type="0" sum="0"/>
+   <cards player="Jpvasc" type="Pocket">X X</cards>
+   <action no="15" player="Jpvasc" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="16" player="madsweeney" type="0" sum="0"/>
+   <cards player="jeremix19" type="Pocket">X X</cards>
+   <action no="17" player="jeremix19" type="0" sum="0"/>
+   <cards player="Dumason" type="Pocket">X X</cards>
+   <action no="18" player="Dumason" type="3" sum="4,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S6 H10</cards>
+   <action no="19" player="Dumason" type="4" sum="0"/>
+   <action no="20" player="andywaters" type="5" sum="10,800"/>
+   <action no="21" player="Dumason" type="23" sum="32,400"/>
+   <action no="22" player="andywaters" type="3" sum="21,600"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="23" player="Dumason" type="4" sum="0"/>
+   <action no="24" player="andywaters" type="5" sum="28,512"/>
+   <action no="25" player="Dumason" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10547537554">
+  <general>
+   <startdate>2024-02-05 19:16:03</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="450" win="0" seat="1" dealer="1" chips="80,900"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="4,450" win="0" seat="4" dealer="0" chips="297,368"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="450" win="0" seat="5" dealer="0" chips="194,863"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="450" win="0" seat="6" dealer="0" chips="178,157"/>
+    <player rebuy="0" addon="0" reg_code="" name="Iugod" bet="48,696" win="0" seat="7" dealer="0" chips="49,146"/>
+    <player rebuy="0" addon="0" reg_code="" name="Jpvasc" bet="450" win="0" seat="9" dealer="0" chips="39,550"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="221,901" win="104,542" seat="10" dealer="0" chips="222,351">
+     <knockout tobounty="€11.37" kicked="Iugod" tobalance="€11.38"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="andywaters" type="15" sum="450"/>
+   <action no="2" player="Divion" type="15" sum="450"/>
+   <action no="3" player="tropeiro123" type="15" sum="450"/>
+   <action no="4" player="Iugod" type="15" sum="450"/>
+   <action no="5" player="Jpvasc" type="15" sum="450"/>
+   <action no="6" player="madsweeney" type="15" sum="450"/>
+   <action no="7" player="jeremix19" type="15" sum="450"/>
+   <action no="8" player="andywaters" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="9" player="Divion" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 C10</cards>
+   <action no="10" player="tropeiro123" type="0" sum="0"/>
+   <cards player="Iugod" type="Pocket">HJ DQ</cards>
+   <action no="11" player="Iugod" type="23" sum="48,696"/>
+   <cards player="Jpvasc" type="Pocket">X X</cards>
+   <action no="12" player="Jpvasc" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">CQ HK</cards>
+   <action no="13" player="madsweeney" type="23" sum="221,901"/>
+   <cards player="jeremix19" type="Pocket">X X</cards>
+   <action no="14" player="jeremix19" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="15" player="andywaters" type="0" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H2 D10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10547537604">
+  <general>
+   <startdate>2024-02-05 19:17:08</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="450" win="0" seat="1" dealer="0" chips="80,450"/>
+    <player rebuy="0" addon="0" reg_code="" name="Bukowski2" bet="450" win="0" seat="2" dealer="0" chips="208,122"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="450" win="0" seat="4" dealer="1" chips="292,918"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="2,450" win="0" seat="5" dealer="0" chips="194,413"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="4,450" win="7,150" seat="6" dealer="0" chips="177,707"/>
+    <player rebuy="0" addon="0" reg_code="" name="Jpvasc" bet="450" win="0" seat="9" dealer="0" chips="39,100"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="450" win="0" seat="10" dealer="0" chips="277,747"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Divion" type="15" sum="450"/>
+   <action no="2" player="tropeiro123" type="15" sum="450"/>
+   <action no="3" player="Jpvasc" type="15" sum="450"/>
+   <action no="4" player="madsweeney" type="15" sum="450"/>
+   <action no="5" player="jeremix19" type="15" sum="450"/>
+   <action no="6" player="Bukowski2" type="15" sum="450"/>
+   <action no="7" player="andywaters" type="15" sum="450"/>
+   <action no="8" player="Divion" type="1" sum="2,000"/>
+   <action no="9" player="tropeiro123" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S5 D7</cards>
+   <cards player="Jpvasc" type="Pocket">X X</cards>
+   <action no="10" player="Jpvasc" type="0" sum="0"/>
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="11" player="madsweeney" type="0" sum="0"/>
+   <cards player="jeremix19" type="Pocket">X X</cards>
+   <action no="12" player="jeremix19" type="0" sum="0"/>
+   <cards player="Bukowski2" type="Pocket">X X</cards>
+   <action no="13" player="Bukowski2" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="14" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="15" player="Divion" type="0" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10547537626">
+  <general>
+   <startdate>2024-02-05 19:17:34</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player rebuy="0" addon="0" reg_code="" name="jeremix19" bet="450" win="0" seat="1" dealer="0" chips="80,000"/>
+    <player rebuy="0" addon="0" reg_code="" name="Bukowski2" bet="450" win="0" seat="2" dealer="0" chips="207,672"/>
+    <player rebuy="0" addon="0" reg_code="" name="andywaters" bet="450" win="0" seat="4" dealer="0" chips="292,468"/>
+    <player rebuy="0" addon="0" reg_code="" name="Divion" bet="450" win="0" seat="5" dealer="1" chips="191,963"/>
+    <player rebuy="0" addon="0" reg_code="7940626003" name="tropeiro123" bet="181,957" win="11,150" seat="6" dealer="0" chips="182,407"/>
+    <player rebuy="0" addon="0" reg_code="" name="Jpvasc" bet="4,450" win="0" seat="9" dealer="0" chips="38,650"/>
+    <player rebuy="0" addon="0" reg_code="" name="madsweeney" bet="450" win="0" seat="10" dealer="0" chips="277,297"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" type="15" sum="450"/>
+   <action no="2" player="Jpvasc" type="15" sum="450"/>
+   <action no="3" player="madsweeney" type="15" sum="450"/>
+   <action no="4" player="jeremix19" type="15" sum="450"/>
+   <action no="5" player="Bukowski2" type="15" sum="450"/>
+   <action no="6" player="andywaters" type="15" sum="450"/>
+   <action no="7" player="Divion" type="15" sum="450"/>
+   <action no="8" player="tropeiro123" type="1" sum="2,000"/>
+   <action no="9" player="Jpvasc" type="2" sum="4,000"/>
+  </round>
+  <round no="1">
+   <cards player="madsweeney" type="Pocket">X X</cards>
+   <action no="10" player="madsweeney" type="0" sum="0"/>
+   <cards player="jeremix19" type="Pocket">X X</cards>
+   <action no="11" player="jeremix19" type="0" sum="0"/>
+   <cards player="Bukowski2" type="Pocket">X X</cards>
+   <action no="12" player="Bukowski2" type="0" sum="0"/>
+   <cards player="andywaters" type="Pocket">X X</cards>
+   <action no="13" player="andywaters" type="0" sum="0"/>
+   <cards player="Divion" type="Pocket">X X</cards>
+   <action no="14" player="Divion" type="0" sum="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 HA</cards>
+   <action no="15" player="tropeiro123" type="23" sum="181,957"/>
+   <cards player="Jpvasc" type="Pocket">X X</cards>
+   <action no="16" player="Jpvasc" type="0" sum="0"/>
+  </round>
+ </game>
+</session>

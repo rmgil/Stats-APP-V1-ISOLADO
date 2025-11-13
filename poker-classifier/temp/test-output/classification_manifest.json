@@ -1,0 +1,43 @@
+{
+  "run_id": "1637c373-c417-48e1-aa7f-749490012bd7",
+  "started_at": "2025-09-03T10:33:30.860Z",
+  "finished_at": "2025-09-03T10:33:30.909Z",
+  "totals": {
+    "PKO": 1,
+    "mystery": 1,
+    "non-KO": 1,
+    "unknown": 0
+  },
+  "files": [
+    {
+      "input": "mystery_tournament.txt",
+      "output_class": "mystery",
+      "detector": {
+        "reason": "Matched mystery patterns: Mystery, mystery, Mystery Bounty, Mystery bounty, mystery bounties",
+        "score": 1
+      },
+      "encoding": "latin1",
+      "bytes": 181
+    },
+    {
+      "input": "pko_tournament.txt",
+      "output_class": "PKO",
+      "detector": {
+        "reason": "Matched PKO patterns: Progressive, progressive, PKO, Knockout, bounties, Progressive Knockout",
+        "score": 1
+      },
+      "encoding": "latin1",
+      "bytes": 184
+    },
+    {
+      "input": "regular_tournament.txt",
+      "output_class": "non-KO",
+      "detector": {
+        "reason": "Freezeout tournament format",
+        "score": 0.9
+      },
+      "encoding": "latin1",
+      "bytes": 167
+    }
+  ]
+}

@@ -1,0 +1,2321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7949618765">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€2,000|The Classic, 1081045318</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:42:39</duration>
+  <gamecount>46</gamecount>
+  <startdate>2024-02-14 13:08:39</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>235,551</bets>
+  <wins>125,941</wins>
+  <chipsin>33,840</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP22.50</statuspoints>
+  <awardpoints>RP45</awardpoints>
+  <ipoints>RP22.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080951026</tournamentcode>
+  <tournamentname>€2,000|The Classic</tournamentname>
+  <place>38</place>
+  <buyin>€22.75 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10563593480">
+  <general>
+   <startdate>2024-02-14 13:08:39</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="6,540" bet="4,335" seat="1" addon="0" chips="30,000"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="6" addon="0" chips="64,519"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="2,700" seat="7" addon="0" chips="160,699"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="41,889"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="58,525"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="180"/>
+   <action type="15" no="2" player="MalaysianAir" sum="180"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="4" player="shipsoft984" sum="180"/>
+   <action type="15" no="5" player="tropeiro123" sum="180"/>
+   <action type="1" no="6" player="Vi7u" sum="600"/>
+   <action type="2" no="7" player="MalaysianAir" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="8" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="9" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H9 H10</cards>
+   <action type="23" no="10" player="tropeiro123" sum="2,520"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="11" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="12" player="MalaysianAir" sum="1,320"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 CJ D3</cards>
+   <action type="4" no="13" player="MalaysianAir" sum="0"/>
+   <action type="5" no="14" player="tropeiro123" sum="1,635"/>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563593485">
+  <general>
+   <startdate>2024-02-14 13:09:32</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="6,900" bet="4,425" seat="1" addon="0" chips="33,840"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="33,270"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="35,639"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="6" addon="0" chips="63,739"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="7" addon="0" chips="157,999"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="2,700" seat="9" addon="0" chips="41,709"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="58,345"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="180"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="3" player="shipsoft984" sum="180"/>
+   <action type="15" no="4" player="tropeiro123" sum="180"/>
+   <action type="15" no="5" player="NixxPix" sum="180"/>
+   <action type="15" no="6" player="veryinv0lved" sum="180"/>
+   <action type="15" no="7" player="Vi7u" sum="180"/>
+   <action type="1" no="8" player="MalaysianAir" sum="600"/>
+   <action type="2" no="9" player="WorldsBestBoss" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="10" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H7 HK</cards>
+   <action type="23" no="11" player="tropeiro123" sum="2,520"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="12" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="13" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="14" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="3" no="16" player="WorldsBestBoss" sum="1,320"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 SK SA</cards>
+   <action type="4" no="17" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="1,725"/>
+   <action type="0" no="19" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563593492">
+  <general>
+   <startdate>2024-02-14 13:10:39</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="18,237" seat="1" addon="0" chips="38,040"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="33,090"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="35,459"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="40,494" bet="18,237" seat="6" addon="0" chips="63,559"/>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="7" addon="0" chips="157,219"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="9" addon="0" chips="39,009"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="2,700" seat="10" addon="0" chips="58,165"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="2" player="shipsoft984" sum="180"/>
+   <action type="15" no="3" player="tropeiro123" sum="180"/>
+   <action type="15" no="4" player="NixxPix" sum="180"/>
+   <action type="15" no="5" player="veryinv0lved" sum="180"/>
+   <action type="15" no="6" player="Vi7u" sum="180"/>
+   <action type="15" no="7" player="MalaysianAir" sum="180"/>
+   <action type="1" no="8" player="WorldsBestBoss" sum="600"/>
+   <action type="2" no="9" player="shipsoft984" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H7 HA</cards>
+   <action type="23" no="10" player="tropeiro123" sum="2,520"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="12" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">H5 D5</cards>
+   <action type="3" no="13" player="Vi7u" sum="2,520"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="3" no="16" player="shipsoft984" sum="1,320"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 S5 C6</cards>
+   <action type="4" no="17" player="shipsoft984" sum="0"/>
+   <action type="4" no="18" player="tropeiro123" sum="0"/>
+   <action type="5" no="19" player="Vi7u" sum="3,297"/>
+   <action type="0" no="20" player="shipsoft984" sum="0"/>
+   <action type="3" no="21" player="tropeiro123" sum="3,297"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action type="4" no="22" player="tropeiro123" sum="0"/>
+   <action type="4" no="23" player="Vi7u" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action type="5" no="24" player="tropeiro123" sum="3,120"/>
+   <action type="23" no="25" player="Vi7u" sum="12,240"/>
+   <action type="3" no="26" player="tropeiro123" sum="9,120"/>
+  </round>
+ </game>
+ <game gamecode="10563593506">
+  <general>
+   <startdate>2024-02-14 13:12:55</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="1,380" seat="1" addon="0" chips="19,803"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="32,910"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="35,279"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="6" addon="0" chips="85,816"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="157,039"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="1" reg_code="" win="0" bet="2,580" seat="9" addon="0" chips="38,229"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="7,260" bet="10,800" seat="10" addon="0" chips="55,465"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="180"/>
+   <action type="15" no="2" player="tropeiro123" sum="180"/>
+   <action type="15" no="3" player="NixxPix" sum="180"/>
+   <action type="15" no="4" player="veryinv0lved" sum="180"/>
+   <action type="15" no="5" player="Vi7u" sum="180"/>
+   <action type="15" no="6" player="MalaysianAir" sum="180"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="180"/>
+   <action type="1" no="8" player="shipsoft984" sum="600"/>
+   <action type="2" no="9" player="tropeiro123" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="10" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="11" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="12" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="23" no="14" player="WorldsBestBoss" sum="2,400"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="23" no="15" player="shipsoft984" sum="10,800"/>
+   <cards type="Pocket" player="tropeiro123">D10 C8</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <action type="0" no="17" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624558">
+  <general>
+   <startdate>2024-02-14 13:13:44</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="780" seat="1" addon="0" chips="18,423"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="2,460" bet="1,380" seat="4" addon="0" chips="32,730"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="35,099"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="6" addon="0" chips="85,636"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="156,859"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="35,649"/>
+    <player name="shipsoft984" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="10" addon="0" chips="60,145"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="180"/>
+   <action type="15" no="2" player="NixxPix" sum="180"/>
+   <action type="15" no="3" player="veryinv0lved" sum="180"/>
+   <action type="15" no="4" player="Vi7u" sum="180"/>
+   <action type="15" no="5" player="MalaysianAir" sum="180"/>
+   <action type="15" no="6" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="7" player="shipsoft984" sum="180"/>
+   <action type="1" no="8" player="tropeiro123" sum="600"/>
+   <action type="2" no="9" player="NixxPix" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="10" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="11" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="12" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="13" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="14" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S5 D2</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624561">
+  <general>
+   <startdate>2024-02-14 13:14:10</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="180" seat="1" addon="0" chips="17,643"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="4" addon="0" chips="34,410"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="6,660" bet="7,200" seat="5" addon="0" chips="34,919"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="2,580" seat="6" addon="0" chips="85,456"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="156,679"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="35,469"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="59,965"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="180"/>
+   <action type="15" no="2" player="veryinv0lved" sum="180"/>
+   <action type="15" no="3" player="Vi7u" sum="180"/>
+   <action type="15" no="4" player="MalaysianAir" sum="180"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="6" player="shipsoft984" sum="180"/>
+   <action type="15" no="7" player="tropeiro123" sum="180"/>
+   <action type="1" no="8" player="NixxPix" sum="600"/>
+   <action type="2" no="9" player="veryinv0lved" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="23" no="10" player="Vi7u" sum="2,400"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="12" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="13" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CQ D7</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="15" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="23" no="16" player="veryinv0lved" sum="7,200"/>
+   <action type="0" no="17" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624564">
+  <general>
+   <startdate>2024-02-14 13:14:47</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="180" seat="1" addon="0" chips="17,463"/>
+    <player name="NixxPix" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="4" addon="0" chips="33,630"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="3,660" bet="2,580" seat="5" addon="0" chips="38,999"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="6" addon="0" chips="82,876"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="156,499"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="35,289"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="59,785"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="veryinv0lved" sum="180"/>
+   <action type="15" no="2" player="Vi7u" sum="180"/>
+   <action type="15" no="3" player="MalaysianAir" sum="180"/>
+   <action type="15" no="4" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="5" player="shipsoft984" sum="180"/>
+   <action type="15" no="6" player="tropeiro123" sum="180"/>
+   <action type="15" no="7" player="NixxPix" sum="180"/>
+   <action type="1" no="8" player="veryinv0lved" sum="600"/>
+   <action type="2" no="9" player="Vi7u" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="10" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="11" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="12" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D5 C6</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="3" no="15" player="veryinv0lved" sum="600"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="4" no="16" player="Vi7u" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ S3 CA</cards>
+   <action type="5" no="17" player="veryinv0lved" sum="1,200"/>
+   <action type="0" no="18" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624574">
+  <general>
+   <startdate>2024-02-14 13:16:07</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="180" seat="1" addon="0" chips="17,283"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="33,450"/>
+    <player name="veryinv0lved" rebuy="0" dealer="1" reg_code="" win="4,260" bet="2,400" seat="5" addon="0" chips="41,279"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="6" addon="0" chips="81,496"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="7" addon="0" chips="156,319"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="35,109"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="59,605"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="180"/>
+   <action type="15" no="2" player="MalaysianAir" sum="180"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="4" player="shipsoft984" sum="180"/>
+   <action type="15" no="5" player="tropeiro123" sum="180"/>
+   <action type="15" no="6" player="NixxPix" sum="180"/>
+   <action type="15" no="7" player="veryinv0lved" sum="180"/>
+   <action type="1" no="8" player="Vi7u" sum="600"/>
+   <action type="2" no="9" player="MalaysianAir" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="10" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D5 SK</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="13" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="23" no="14" player="veryinv0lved" sum="2,400"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="15" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624576">
+  <general>
+   <startdate>2024-02-14 13:16:28</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="180" seat="1" addon="0" chips="17,103"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="33,270"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="44,159"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="0" bet="2,580" seat="6" addon="0" chips="80,716"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="2,580" seat="7" addon="0" chips="154,939"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="8,460" bet="9,600" seat="9" addon="0" chips="34,929"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="59,425"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="180"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="180"/>
+   <action type="15" no="3" player="shipsoft984" sum="180"/>
+   <action type="15" no="4" player="tropeiro123" sum="180"/>
+   <action type="15" no="5" player="NixxPix" sum="180"/>
+   <action type="15" no="6" player="veryinv0lved" sum="180"/>
+   <action type="15" no="7" player="Vi7u" sum="180"/>
+   <action type="1" no="8" player="MalaysianAir" sum="600"/>
+   <action type="2" no="9" player="WorldsBestBoss" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="10" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DK S8</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="12" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="13" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="23" no="14" player="Vi7u" sum="2,400"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="15" player="MalaysianAir" sum="1,800"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="23" no="16" player="WorldsBestBoss" sum="9,600"/>
+   <action type="0" no="17" player="Vi7u" sum="0"/>
+   <action type="0" no="18" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624582">
+  <general>
+   <startdate>2024-02-14 13:17:14</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="200" seat="1" addon="0" chips="16,923"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="33,090"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="4,900" bet="2,800" seat="5" addon="0" chips="43,979"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="78,136"/>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="7" addon="0" chips="152,359"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="9" addon="0" chips="40,809"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="10" addon="0" chips="59,245"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="2" player="shipsoft984" sum="200"/>
+   <action type="15" no="3" player="tropeiro123" sum="200"/>
+   <action type="15" no="4" player="NixxPix" sum="200"/>
+   <action type="15" no="5" player="veryinv0lved" sum="200"/>
+   <action type="15" no="6" player="Vi7u" sum="200"/>
+   <action type="15" no="7" player="MalaysianAir" sum="200"/>
+   <action type="1" no="8" player="WorldsBestBoss" sum="700"/>
+   <action type="2" no="9" player="shipsoft984" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H5 C10</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="23" no="12" player="veryinv0lved" sum="2,800"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="13" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="16" player="shipsoft984" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624586">
+  <general>
+   <startdate>2024-02-14 13:17:41</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="1,600" seat="1" addon="0" chips="16,723"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="9,100" bet="6,350" seat="4" addon="0" chips="32,890"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="47,279"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="77,936"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="3,000" seat="7" addon="0" chips="152,159"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="9" addon="0" chips="39,909"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="10" addon="0" chips="57,645"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="200"/>
+   <action type="15" no="2" player="tropeiro123" sum="200"/>
+   <action type="15" no="3" player="NixxPix" sum="200"/>
+   <action type="15" no="4" player="veryinv0lved" sum="200"/>
+   <action type="15" no="5" player="Vi7u" sum="200"/>
+   <action type="15" no="6" player="MalaysianAir" sum="200"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="200"/>
+   <action type="1" no="8" player="shipsoft984" sum="700"/>
+   <action type="2" no="9" player="tropeiro123" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="23" no="10" player="NixxPix" sum="2,800"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="11" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="12" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="13" player="MalaysianAir" sum="2,800"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="14" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="15" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H7 SK</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ DK C9</cards>
+   <action type="5" no="17" player="NixxPix" sum="3,350"/>
+   <action type="0" no="18" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624597">
+  <general>
+   <startdate>2024-02-14 13:19:13</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="4,200" bet="14,923" seat="1" addon="0" chips="15,123"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="4" addon="0" chips="38,990"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="47,079"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="77,736"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="149,159"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="39,709"/>
+    <player name="shipsoft984" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="10" addon="0" chips="56,745"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="200"/>
+   <action type="15" no="2" player="NixxPix" sum="200"/>
+   <action type="15" no="3" player="veryinv0lved" sum="200"/>
+   <action type="15" no="4" player="Vi7u" sum="200"/>
+   <action type="15" no="5" player="MalaysianAir" sum="200"/>
+   <action type="15" no="6" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="7" player="shipsoft984" sum="200"/>
+   <action type="1" no="8" player="tropeiro123" sum="700"/>
+   <action type="2" no="9" player="NixxPix" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="10" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="11" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="12" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="13" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="14" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C8 C9</cards>
+   <action type="23" no="15" player="tropeiro123" sum="14,923"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="16" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624602">
+  <general>
+   <startdate>2024-02-14 13:19:49</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="200" seat="1" addon="0" chips="17,723"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="4" addon="0" chips="37,390"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="2,800" bet="1,600" seat="5" addon="0" chips="46,879"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="77,536"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="148,959"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="39,509"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="56,545"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="200"/>
+   <action type="15" no="2" player="veryinv0lved" sum="200"/>
+   <action type="15" no="3" player="Vi7u" sum="200"/>
+   <action type="15" no="4" player="MalaysianAir" sum="200"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="6" player="shipsoft984" sum="200"/>
+   <action type="15" no="7" player="tropeiro123" sum="200"/>
+   <action type="1" no="8" player="NixxPix" sum="700"/>
+   <action type="2" no="9" player="veryinv0lved" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="10" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="12" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="13" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H3 SJ</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="15" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624605">
+  <general>
+   <startdate>2024-02-14 13:20:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="4,900" bet="17,323" seat="1" addon="0" chips="17,523"/>
+    <player name="NixxPix" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="4" addon="0" chips="36,490"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="5" addon="0" chips="48,779"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="6" addon="0" chips="77,336"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="148,759"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="39,309"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="56,345"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="veryinv0lved" sum="200"/>
+   <action type="15" no="2" player="Vi7u" sum="200"/>
+   <action type="15" no="3" player="MalaysianAir" sum="200"/>
+   <action type="15" no="4" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="5" player="shipsoft984" sum="200"/>
+   <action type="15" no="6" player="tropeiro123" sum="200"/>
+   <action type="15" no="7" player="NixxPix" sum="200"/>
+   <action type="1" no="8" player="veryinv0lved" sum="700"/>
+   <action type="2" no="9" player="Vi7u" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="10" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="11" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="12" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DJ HQ</cards>
+   <action type="23" no="13" player="tropeiro123" sum="17,323"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="15" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="16" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624609">
+  <general>
+   <startdate>2024-02-14 13:20:51</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="200" seat="1" addon="0" chips="20,823"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="7,700" bet="5,800" seat="4" addon="0" chips="36,290"/>
+    <player name="veryinv0lved" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="5" addon="0" chips="47,879"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="6" addon="0" chips="75,736"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="3,000" seat="7" addon="0" chips="148,559"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="39,109"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="56,145"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="200"/>
+   <action type="15" no="2" player="MalaysianAir" sum="200"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="4" player="shipsoft984" sum="200"/>
+   <action type="15" no="5" player="tropeiro123" sum="200"/>
+   <action type="15" no="6" player="NixxPix" sum="200"/>
+   <action type="15" no="7" player="veryinv0lved" sum="200"/>
+   <action type="1" no="8" player="Vi7u" sum="700"/>
+   <action type="2" no="9" player="MalaysianAir" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="10" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SK S2</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="23" no="13" player="NixxPix" sum="2,800"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="14" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="15" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="16" player="MalaysianAir" sum="1,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 SQ D3</cards>
+   <action type="4" no="17" player="MalaysianAir" sum="0"/>
+   <action type="5" no="18" player="NixxPix" sum="2,800"/>
+   <action type="0" no="19" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624612">
+  <general>
+   <startdate>2024-02-14 13:21:29</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="11,850" bet="20,623" seat="1" addon="0" chips="20,623"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="135,306"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="40,990"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="47,679"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="6" addon="0" chips="74,836"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="7" addon="0" chips="145,559"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="4,975" seat="9" addon="0" chips="38,909"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="55,945"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="200"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="3" player="shipsoft984" sum="200"/>
+   <action type="15" no="4" player="tropeiro123" sum="200"/>
+   <action type="15" no="5" player="4get24bet" sum="200"/>
+   <action type="15" no="6" player="NixxPix" sum="200"/>
+   <action type="15" no="7" player="veryinv0lved" sum="200"/>
+   <action type="15" no="8" player="Vi7u" sum="200"/>
+   <action type="1" no="9" player="MalaysianAir" sum="700"/>
+   <action type="2" no="10" player="WorldsBestBoss" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HJ DA</cards>
+   <action type="23" no="12" player="tropeiro123" sum="2,800"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="13" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">X X</cards>
+   <action type="0" no="15" player="veryinv0lved" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="16" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="17" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="3" no="18" player="WorldsBestBoss" sum="1,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S5 C6</cards>
+   <action type="4" no="19" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="20" player="tropeiro123" sum="1,975"/>
+   <action type="3" no="21" player="WorldsBestBoss" sum="1,975"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action type="4" no="22" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="23" player="tropeiro123" sum="15,648"/>
+   <action type="0" no="24" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624622">
+  <general>
+   <startdate>2024-02-14 13:22:58</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="200" seat="1" addon="0" chips="27,498"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="135,106"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="40,790"/>
+    <player name="veryinv0lved" rebuy="0" dealer="0" reg_code="" win="0" bet="47,279" seat="5" addon="0" chips="47,479"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="98,258" bet="47,479" seat="6" addon="0" chips="74,636"/>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="7" addon="0" chips="144,659"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="9" addon="0" chips="33,934"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="10" addon="0" chips="55,745"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="200"/>
+   <action type="15" no="2" player="shipsoft984" sum="200"/>
+   <action type="15" no="3" player="tropeiro123" sum="200"/>
+   <action type="15" no="4" player="4get24bet" sum="200"/>
+   <action type="15" no="5" player="NixxPix" sum="200"/>
+   <action type="15" no="6" player="veryinv0lved" sum="200"/>
+   <action type="15" no="7" player="Vi7u" sum="200"/>
+   <action type="15" no="8" player="MalaysianAir" sum="200"/>
+   <action type="1" no="9" player="WorldsBestBoss" sum="700"/>
+   <action type="2" no="10" player="shipsoft984" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">CA D7</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="12" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="13" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="veryinv0lved">HK DA</cards>
+   <action type="23" no="14" player="veryinv0lved" sum="2,800"/>
+   <cards type="Pocket" player="Vi7u">C9 S9</cards>
+   <action type="23" no="15" player="Vi7u" sum="8,400"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="17" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="18" player="shipsoft984" sum="0"/>
+   <action type="23" no="19" player="veryinv0lved" sum="47,279"/>
+   <action type="3" no="20" player="Vi7u" sum="38,879"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 HJ D3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10563624631">
+  <general>
+   <startdate>2024-02-14 13:24:53</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="14,498" bet="6,224" seat="1" addon="0" chips="27,298"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="2" addon="0" chips="134,906"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="4" addon="0" chips="40,590"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="125,415"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="144,459"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="1" reg_code="" win="0" bet="6,224" seat="9" addon="0" chips="33,034"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="10" addon="0" chips="54,145"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="250"/>
+   <action type="15" no="2" player="tropeiro123" sum="250"/>
+   <action type="15" no="3" player="4get24bet" sum="250"/>
+   <action type="15" no="4" player="NixxPix" sum="250"/>
+   <action type="15" no="5" player="Vi7u" sum="250"/>
+   <action type="15" no="6" player="MalaysianAir" sum="250"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="250"/>
+   <action type="1" no="8" player="shipsoft984" sum="800"/>
+   <action type="2" no="9" player="tropeiro123" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="10" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="12" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">SA C6</cards>
+   <action type="23" no="14" player="WorldsBestBoss" sum="3,200"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="15" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H9 S7</cards>
+   <action type="3" no="16" player="tropeiro123" sum="1,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C7 CJ</cards>
+   <action type="4" no="17" player="tropeiro123" sum="0"/>
+   <action type="5" no="18" player="WorldsBestBoss" sum="2,774"/>
+   <action type="3" no="19" player="tropeiro123" sum="2,774"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action type="4" no="20" player="tropeiro123" sum="0"/>
+   <action type="4" no="21" player="WorldsBestBoss" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action type="4" no="22" player="tropeiro123" sum="0"/>
+   <action type="4" no="23" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624641">
+  <general>
+   <startdate>2024-02-14 13:26:40</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="1,050" seat="1" addon="0" chips="35,572"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="2" addon="0" chips="134,656"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="4" addon="0" chips="40,340"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="125,165"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="26,810" seat="7" addon="0" chips="144,209"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="57,270" bet="26,560" seat="9" addon="0" chips="26,810"/>
+    <player name="shipsoft984" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="10" addon="0" chips="53,095"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="250"/>
+   <action type="15" no="2" player="4get24bet" sum="250"/>
+   <action type="15" no="3" player="NixxPix" sum="250"/>
+   <action type="15" no="4" player="Vi7u" sum="250"/>
+   <action type="15" no="5" player="MalaysianAir" sum="250"/>
+   <action type="15" no="6" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="7" player="shipsoft984" sum="250"/>
+   <action type="1" no="8" player="tropeiro123" sum="800"/>
+   <action type="2" no="9" player="4get24bet" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="10" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="11" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">S7 D7</cards>
+   <action type="23" no="12" player="MalaysianAir" sum="3,520"/>
+   <cards type="Pocket" player="WorldsBestBoss">SJ HA</cards>
+   <action type="23" no="13" player="WorldsBestBoss" sum="26,560"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="14" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C6 S9</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="16" player="4get24bet" sum="0"/>
+   <action type="3" no="17" player="MalaysianAir" sum="23,040"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S6 D9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10563624645">
+  <general>
+   <startdate>2024-02-14 13:27:38</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="250" seat="1" addon="0" chips="34,522"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="2" addon="0" chips="132,806"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="3,350" bet="1,850" seat="4" addon="0" chips="40,090"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="124,915"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="117,399"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="57,270"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="52,845"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="4get24bet" sum="250"/>
+   <action type="15" no="2" player="NixxPix" sum="250"/>
+   <action type="15" no="3" player="Vi7u" sum="250"/>
+   <action type="15" no="4" player="MalaysianAir" sum="250"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="6" player="shipsoft984" sum="250"/>
+   <action type="15" no="7" player="tropeiro123" sum="250"/>
+   <action type="1" no="8" player="4get24bet" sum="800"/>
+   <action type="2" no="9" player="NixxPix" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="10" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="12" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="13" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S5 C3</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="15" player="4get24bet" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563624649">
+  <general>
+   <startdate>2024-02-14 13:28:02</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="13,904" bet="13,574" seat="1" addon="0" chips="34,272"/>
+    <player name="4get24bet" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="2" addon="0" chips="131,756"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="4" addon="0" chips="42,390"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="5,927" seat="6" addon="0" chips="124,665"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="117,149"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="57,020"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="52,595"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="250"/>
+   <action type="15" no="2" player="Vi7u" sum="250"/>
+   <action type="15" no="3" player="MalaysianAir" sum="250"/>
+   <action type="15" no="4" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="5" player="shipsoft984" sum="250"/>
+   <action type="15" no="6" player="tropeiro123" sum="250"/>
+   <action type="15" no="7" player="4get24bet" sum="250"/>
+   <action type="1" no="8" player="NixxPix" sum="800"/>
+   <action type="2" no="9" player="Vi7u" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="10" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="11" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="12" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C9 H9</cards>
+   <action type="23" no="13" player="tropeiro123" sum="3,360"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="14" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="15" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="3" no="16" player="Vi7u" sum="1,760"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 HK CK</cards>
+   <action type="4" no="17" player="Vi7u" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="2,317"/>
+   <action type="3" no="19" player="Vi7u" sum="2,317"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action type="4" no="20" player="Vi7u" sum="0"/>
+   <action type="5" no="21" player="tropeiro123" sum="7,647"/>
+   <action type="0" no="22" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645741">
+  <general>
+   <startdate>2024-02-14 13:29:30</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="250" seat="1" addon="0" chips="42,249"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="3,930" seat="2" addon="0" chips="131,506"/>
+    <player name="NixxPix" rebuy="0" dealer="1" reg_code="" win="0" bet="10,725" seat="4" addon="0" chips="41,340"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="6" addon="0" chips="118,738"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="27,180" bet="21,257" seat="7" addon="0" chips="116,899"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="56,770"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="52,345"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="250"/>
+   <action type="15" no="2" player="MalaysianAir" sum="250"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="4" player="shipsoft984" sum="250"/>
+   <action type="15" no="5" player="tropeiro123" sum="250"/>
+   <action type="15" no="6" player="4get24bet" sum="250"/>
+   <action type="15" no="7" player="NixxPix" sum="250"/>
+   <action type="1" no="8" player="Vi7u" sum="800"/>
+   <action type="2" no="9" player="MalaysianAir" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="10" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 S2</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="23" no="13" player="4get24bet" sum="3,680"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="3" no="14" player="NixxPix" sum="3,680"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="15" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="16" player="MalaysianAir" sum="2,080"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 D6 C9</cards>
+   <action type="4" no="17" player="MalaysianAir" sum="0"/>
+   <action type="4" no="18" player="4get24bet" sum="0"/>
+   <action type="5" no="19" player="NixxPix" sum="6,795"/>
+   <action type="23" no="20" player="MalaysianAir" sum="17,327"/>
+   <action type="0" no="21" player="4get24bet" sum="0"/>
+   <action type="0" no="22" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645751">
+  <general>
+   <startdate>2024-02-14 13:30:49</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="43,949" bet="41,749" seat="1" addon="0" chips="41,999"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="2" addon="0" chips="127,576"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="4" addon="0" chips="30,615"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="5" addon="0" chips="30,000"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="43,949" bet="41,999" seat="6" addon="0" chips="117,688"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="7" addon="0" chips="133,354"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="9" addon="0" chips="56,520"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="52,095"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="250"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="3" player="shipsoft984" sum="250"/>
+   <action type="15" no="4" player="tropeiro123" sum="250"/>
+   <action type="15" no="5" player="4get24bet" sum="250"/>
+   <action type="15" no="6" player="NixxPix" sum="250"/>
+   <action type="15" no="7" player="Irmeli1966" sum="250"/>
+   <action type="15" no="8" player="Vi7u" sum="250"/>
+   <action type="1" no="9" player="MalaysianAir" sum="800"/>
+   <action type="2" no="10" player="WorldsBestBoss" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SK DA</cards>
+   <action type="23" no="12" player="tropeiro123" sum="3,360"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="13" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="15" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">CA DK</cards>
+   <action type="23" no="16" player="Vi7u" sum="8,800"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="17" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="18" player="WorldsBestBoss" sum="0"/>
+   <action type="23" no="19" player="tropeiro123" sum="41,749"/>
+   <action type="3" no="20" player="Vi7u" sum="32,949"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D8 H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S9</cards>
+  </round>
+ </game>
+ <game gamecode="10563645755">
+  <general>
+   <startdate>2024-02-14 13:31:48</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="250" seat="1" addon="0" chips="43,949"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="3,610" seat="2" addon="0" chips="127,326"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="4" addon="0" chips="30,365"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="5" addon="0" chips="29,750"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="11,120" bet="7,502" seat="6" addon="0" chips="119,638"/>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="7" addon="0" chips="132,304"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="9" addon="0" chips="54,670"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="10" addon="0" chips="51,845"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="250"/>
+   <action type="15" no="2" player="shipsoft984" sum="250"/>
+   <action type="15" no="3" player="tropeiro123" sum="250"/>
+   <action type="15" no="4" player="4get24bet" sum="250"/>
+   <action type="15" no="5" player="NixxPix" sum="250"/>
+   <action type="15" no="6" player="Irmeli1966" sum="250"/>
+   <action type="15" no="7" player="Vi7u" sum="250"/>
+   <action type="15" no="8" player="MalaysianAir" sum="250"/>
+   <action type="1" no="9" player="WorldsBestBoss" sum="800"/>
+   <action type="2" no="10" player="shipsoft984" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S8 C5</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="23" no="12" player="4get24bet" sum="3,360"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="13" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="14" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="3" no="15" player="Vi7u" sum="3,360"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="17" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="18" player="shipsoft984" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 CK CQ</cards>
+   <action type="4" no="19" player="4get24bet" sum="0"/>
+   <action type="5" no="20" player="Vi7u" sum="3,892"/>
+   <action type="0" no="21" player="4get24bet" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645761">
+  <general>
+   <startdate>2024-02-14 13:32:50</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="2,075" seat="1" addon="0" chips="43,699"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="123,716"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="30,115"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="29,500"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="127,148"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="132,054"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="1" reg_code="" win="6,700" bet="3,600" seat="9" addon="0" chips="53,620"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="10" addon="0" chips="49,995"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="275"/>
+   <action type="15" no="2" player="tropeiro123" sum="275"/>
+   <action type="15" no="3" player="4get24bet" sum="275"/>
+   <action type="15" no="4" player="NixxPix" sum="275"/>
+   <action type="15" no="5" player="Irmeli1966" sum="275"/>
+   <action type="15" no="6" player="Vi7u" sum="275"/>
+   <action type="15" no="7" player="MalaysianAir" sum="275"/>
+   <action type="15" no="8" player="WorldsBestBoss" sum="275"/>
+   <action type="1" no="9" player="shipsoft984" sum="900"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="11" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="12" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="13" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="14" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="23" no="16" player="WorldsBestBoss" sum="3,600"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="17" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 S3</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645766">
+  <general>
+   <startdate>2024-02-14 13:33:25</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="5,675" seat="1" addon="0" chips="41,624"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="13,000" bet="8,925" seat="2" addon="0" chips="123,441"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="29,840"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="29,225"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="126,873"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="131,779"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="58,245"/>
+    <player name="shipsoft984" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="10" addon="0" chips="48,820"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="275"/>
+   <action type="15" no="2" player="4get24bet" sum="275"/>
+   <action type="15" no="3" player="NixxPix" sum="275"/>
+   <action type="15" no="4" player="Irmeli1966" sum="275"/>
+   <action type="15" no="5" player="Vi7u" sum="275"/>
+   <action type="15" no="6" player="MalaysianAir" sum="275"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="8" player="shipsoft984" sum="275"/>
+   <action type="1" no="9" player="tropeiro123" sum="900"/>
+   <action type="2" no="10" player="4get24bet" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="12" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="13" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="16" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C8 C10</cards>
+   <action type="3" no="17" player="tropeiro123" sum="900"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="23" no="18" player="4get24bet" sum="5,400"/>
+   <action type="3" no="19" player="tropeiro123" sum="3,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ H5 S3</cards>
+   <action type="4" no="20" player="tropeiro123" sum="0"/>
+   <action type="5" no="21" player="4get24bet" sum="3,250"/>
+   <action type="0" no="22" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645775">
+  <general>
+   <startdate>2024-02-14 13:34:29</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="275" seat="1" addon="0" chips="35,949"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="60,505" bet="29,290" seat="4" addon="0" chips="29,565"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="28,950"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="126,598"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="131,504"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="57,970"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="29,565" seat="10" addon="0" chips="48,545"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="275"/>
+   <action type="15" no="2" player="Irmeli1966" sum="275"/>
+   <action type="15" no="3" player="Vi7u" sum="275"/>
+   <action type="15" no="4" player="MalaysianAir" sum="275"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="6" player="shipsoft984" sum="275"/>
+   <action type="15" no="7" player="tropeiro123" sum="275"/>
+   <action type="2" no="8" player="NixxPix" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="9" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="10" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="12" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">HQ SQ</cards>
+   <action type="23" no="13" player="shipsoft984" sum="3,780"/>
+   <cards type="Pocket" player="tropeiro123">H9 DQ</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">CQ HK</cards>
+   <action type="23" no="15" player="NixxPix" sum="29,290"/>
+   <action type="3" no="16" player="shipsoft984" sum="25,510"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA D5 H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+  </round>
+ </game>
+ <game gamecode="10563645782">
+  <general>
+   <startdate>2024-02-14 13:35:17</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="275" seat="1" addon="0" chips="35,674"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="4" addon="0" chips="60,505"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="3,725" bet="2,075" seat="5" addon="0" chips="28,675"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="126,323"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="131,229"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="57,695"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="18,980"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="275"/>
+   <action type="15" no="2" player="Irmeli1966" sum="275"/>
+   <action type="15" no="3" player="Vi7u" sum="275"/>
+   <action type="15" no="4" player="MalaysianAir" sum="275"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="6" player="shipsoft984" sum="275"/>
+   <action type="15" no="7" player="tropeiro123" sum="275"/>
+   <action type="1" no="8" player="NixxPix" sum="900"/>
+   <action type="2" no="9" player="Irmeli1966" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="10" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="12" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="13" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ D6</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="15" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645786">
+  <general>
+   <startdate>2024-02-14 13:35:41</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="4,055" seat="1" addon="0" chips="35,399"/>
+    <player name="NixxPix" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="4" addon="0" chips="59,330"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="11,285" bet="30,950" seat="5" addon="0" chips="31,225"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="6" addon="0" chips="126,048"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="130,954"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="57,420"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="18,705"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Irmeli1966" sum="275"/>
+   <action type="15" no="2" player="Vi7u" sum="275"/>
+   <action type="15" no="3" player="MalaysianAir" sum="275"/>
+   <action type="15" no="4" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="5" player="shipsoft984" sum="275"/>
+   <action type="15" no="6" player="tropeiro123" sum="275"/>
+   <action type="15" no="7" player="NixxPix" sum="275"/>
+   <action type="1" no="8" player="Irmeli1966" sum="900"/>
+   <action type="2" no="9" player="Vi7u" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="10" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="11" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="12" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C9 DK</cards>
+   <action type="23" no="13" player="tropeiro123" sum="3,780"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="23" no="15" player="Irmeli1966" sum="30,950"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="16" player="Vi7u" sum="0"/>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645791">
+  <general>
+   <startdate>2024-02-14 13:36:10</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="275" seat="1" addon="0" chips="31,344"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="59,055"/>
+    <player name="Irmeli1966" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="5" addon="0" chips="38,455"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="13,188" seat="6" addon="0" chips="123,973"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="27,751" bet="35,943" seat="7" addon="0" chips="130,679"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="57,145"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="18,430"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="275"/>
+   <action type="15" no="2" player="MalaysianAir" sum="275"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="4" player="shipsoft984" sum="275"/>
+   <action type="15" no="5" player="tropeiro123" sum="275"/>
+   <action type="15" no="6" player="NixxPix" sum="275"/>
+   <action type="15" no="7" player="Irmeli1966" sum="275"/>
+   <action type="1" no="8" player="Vi7u" sum="900"/>
+   <action type="2" no="9" player="MalaysianAir" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="10" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S3 C9</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="13" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="14" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="23" no="15" player="Vi7u" sum="7,200"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="16" player="MalaysianAir" sum="5,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 H6 H4</cards>
+   <action type="5" no="17" player="Vi7u" sum="5,713"/>
+   <action type="3" no="18" player="MalaysianAir" sum="5,713"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action type="4" no="19" player="Vi7u" sum="0"/>
+   <action type="5" no="20" player="MalaysianAir" sum="22,755"/>
+   <action type="0" no="21" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645801">
+  <general>
+   <startdate>2024-02-14 13:37:30</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="275" seat="1" addon="0" chips="31,069"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="58,780"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="3,875" seat="5" addon="0" chips="38,180"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="6" addon="0" chips="110,785"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="10,925" bet="144,967" seat="7" addon="0" chips="145,242"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="9" addon="0" chips="56,870"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="18,155"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="275"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="3" player="shipsoft984" sum="275"/>
+   <action type="15" no="4" player="tropeiro123" sum="275"/>
+   <action type="15" no="5" player="NixxPix" sum="275"/>
+   <action type="15" no="6" player="Irmeli1966" sum="275"/>
+   <action type="15" no="7" player="Vi7u" sum="275"/>
+   <action type="1" no="8" player="MalaysianAir" sum="900"/>
+   <action type="2" no="9" player="WorldsBestBoss" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="10" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C8 C9</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="12" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="23" no="13" player="Irmeli1966" sum="3,600"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="14" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="23" no="15" player="MalaysianAir" sum="144,967"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="16" player="WorldsBestBoss" sum="0"/>
+   <action type="0" no="17" player="Irmeli1966" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645809">
+  <general>
+   <startdate>2024-02-14 13:38:20</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="275" seat="1" addon="0" chips="30,794"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="58,505"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="34,305"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="110,510"/>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="6,425" bet="4,500" seat="7" addon="0" chips="152,292"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="9" addon="0" chips="54,795"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="10" addon="0" chips="17,880"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="2" player="shipsoft984" sum="275"/>
+   <action type="15" no="3" player="tropeiro123" sum="275"/>
+   <action type="15" no="4" player="NixxPix" sum="275"/>
+   <action type="15" no="5" player="Irmeli1966" sum="275"/>
+   <action type="15" no="6" player="Vi7u" sum="275"/>
+   <action type="15" no="7" player="MalaysianAir" sum="275"/>
+   <action type="1" no="8" player="WorldsBestBoss" sum="900"/>
+   <action type="2" no="9" player="shipsoft984" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H7 H8</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="12" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="13" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="23" no="14" player="MalaysianAir" sum="4,500"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="16" player="shipsoft984" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645816">
+  <general>
+   <startdate>2024-02-14 13:38:48</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="4,235" seat="1" addon="0" chips="30,519"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="58,230"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="34,030"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="110,235"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="10,745" bet="7,565" seat="7" addon="0" chips="156,642"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="9" addon="0" chips="53,620"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="10" addon="0" chips="15,805"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="275"/>
+   <action type="15" no="2" player="tropeiro123" sum="275"/>
+   <action type="15" no="3" player="NixxPix" sum="275"/>
+   <action type="15" no="4" player="Irmeli1966" sum="275"/>
+   <action type="15" no="5" player="Vi7u" sum="275"/>
+   <action type="15" no="6" player="MalaysianAir" sum="275"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="275"/>
+   <action type="1" no="8" player="shipsoft984" sum="900"/>
+   <action type="2" no="9" player="tropeiro123" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="10" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="11" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="12" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="23" no="13" player="MalaysianAir" sum="3,960"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="14" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="15" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">CK H9</cards>
+   <action type="3" no="16" player="tropeiro123" sum="2,160"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S2 S4</cards>
+   <action type="4" no="17" player="tropeiro123" sum="0"/>
+   <action type="5" no="18" player="MalaysianAir" sum="3,330"/>
+   <action type="0" no="19" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645824">
+  <general>
+   <startdate>2024-02-14 13:40:15</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="1,175" seat="1" addon="0" chips="26,284"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="2" addon="0" chips="30,000"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="4" addon="0" chips="57,955"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="33,755"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="14,630" seat="6" addon="0" chips="109,960"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="163,152"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="53,345"/>
+    <player name="shipsoft984" rebuy="0" dealer="1" reg_code="" win="33,610" bet="14,355" seat="10" addon="0" chips="14,630"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="275"/>
+   <action type="15" no="2" player="unterstrass" sum="275"/>
+   <action type="15" no="3" player="NixxPix" sum="275"/>
+   <action type="15" no="4" player="Irmeli1966" sum="275"/>
+   <action type="15" no="5" player="Vi7u" sum="275"/>
+   <action type="15" no="6" player="MalaysianAir" sum="275"/>
+   <action type="15" no="7" player="WorldsBestBoss" sum="275"/>
+   <action type="15" no="8" player="shipsoft984" sum="275"/>
+   <action type="1" no="9" player="tropeiro123" sum="900"/>
+   <action type="2" no="10" player="unterstrass" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="12" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">S8 SK</cards>
+   <action type="23" no="13" player="Vi7u" sum="3,600"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="15" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">CK C10</cards>
+   <action type="23" no="16" player="shipsoft984" sum="14,355"/>
+   <cards type="Pocket" player="tropeiro123">D6 SQ</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="18" player="unterstrass" sum="0"/>
+   <action type="3" no="19" player="Vi7u" sum="10,755"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 DJ DA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+  </round>
+ </game>
+ <game gamecode="10563645830">
+  <general>
+   <startdate>2024-02-14 13:41:11</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="300" seat="1" addon="0" chips="25,109"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="2" addon="0" chips="27,925"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="2,300" seat="4" addon="0" chips="57,680"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="33,480"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="95,330"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="162,877"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="7,400" bet="4,000" seat="9" addon="0" chips="53,070"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="33,610"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="unterstrass" sum="300"/>
+   <action type="15" no="2" player="NixxPix" sum="300"/>
+   <action type="15" no="3" player="Irmeli1966" sum="300"/>
+   <action type="15" no="4" player="Vi7u" sum="300"/>
+   <action type="15" no="5" player="MalaysianAir" sum="300"/>
+   <action type="15" no="6" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="7" player="shipsoft984" sum="300"/>
+   <action type="15" no="8" player="tropeiro123" sum="300"/>
+   <action type="1" no="9" player="unterstrass" sum="1,000"/>
+   <action type="2" no="10" player="NixxPix" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="11" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="12" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="23" no="14" player="WorldsBestBoss" sum="4,000"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="15" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H6 C10</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="17" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="18" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563645833">
+  <general>
+   <startdate>2024-02-14 13:41:55</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="300" seat="1" addon="0" chips="24,809"/>
+    <player name="unterstrass" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="2" addon="0" chips="26,625"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="4" addon="0" chips="55,380"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="4,500" seat="5" addon="0" chips="33,180"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="95,030"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="162,577"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="9" addon="0" chips="58,170"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="11,800" bet="8,040" seat="10" addon="0" chips="33,310"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NixxPix" sum="300"/>
+   <action type="15" no="2" player="Irmeli1966" sum="300"/>
+   <action type="15" no="3" player="Vi7u" sum="300"/>
+   <action type="15" no="4" player="MalaysianAir" sum="300"/>
+   <action type="15" no="5" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="6" player="shipsoft984" sum="300"/>
+   <action type="15" no="7" player="tropeiro123" sum="300"/>
+   <action type="15" no="8" player="unterstrass" sum="300"/>
+   <action type="1" no="9" player="NixxPix" sum="1,000"/>
+   <action type="2" no="10" player="Irmeli1966" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="11" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="12" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="13" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="23" no="14" player="shipsoft984" sum="4,200"/>
+   <cards type="Pocket" player="tropeiro123">D9 DK</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="16" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="17" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="3" no="18" player="Irmeli1966" sum="2,200"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 HQ D6</cards>
+   <action type="4" no="19" player="Irmeli1966" sum="0"/>
+   <action type="5" no="20" player="shipsoft984" sum="3,540"/>
+   <action type="0" no="21" player="Irmeli1966" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672914">
+  <general>
+   <startdate>2024-02-14 13:42:45</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="300" seat="1" addon="0" chips="24,509"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="13,400" bet="10,300" seat="2" addon="0" chips="26,325"/>
+    <player name="NixxPix" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="4" addon="0" chips="54,080"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="5" addon="0" chips="28,680"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="2,300" seat="6" addon="0" chips="94,730"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="162,277"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="4,300" seat="9" addon="0" chips="57,870"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="40,610"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Irmeli1966" sum="300"/>
+   <action type="15" no="2" player="Vi7u" sum="300"/>
+   <action type="15" no="3" player="MalaysianAir" sum="300"/>
+   <action type="15" no="4" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="5" player="shipsoft984" sum="300"/>
+   <action type="15" no="6" player="tropeiro123" sum="300"/>
+   <action type="15" no="7" player="unterstrass" sum="300"/>
+   <action type="15" no="8" player="NixxPix" sum="300"/>
+   <action type="1" no="9" player="Irmeli1966" sum="1,000"/>
+   <action type="2" no="10" player="Vi7u" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="23" no="12" player="WorldsBestBoss" sum="4,000"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="13" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H2 C6</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="3" no="15" player="unterstrass" sum="4,000"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="16" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="17" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="18" player="Vi7u" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ S3 H8</cards>
+   <action type="4" no="19" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="20" player="unterstrass" sum="6,000"/>
+   <action type="0" no="21" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672919">
+  <general>
+   <startdate>2024-02-14 13:43:46</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="11,400" bet="7,150" seat="1" addon="0" chips="24,209"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="35,425"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="4" addon="0" chips="53,780"/>
+    <player name="Irmeli1966" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="5" addon="0" chips="27,380"/>
+    <player name="Vi7u" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="6" addon="0" chips="92,430"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="4,300" seat="7" addon="0" chips="161,977"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="9" addon="0" chips="53,570"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="40,310"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Vi7u" sum="300"/>
+   <action type="15" no="2" player="MalaysianAir" sum="300"/>
+   <action type="15" no="3" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="4" player="shipsoft984" sum="300"/>
+   <action type="15" no="5" player="tropeiro123" sum="300"/>
+   <action type="15" no="6" player="unterstrass" sum="300"/>
+   <action type="15" no="7" player="NixxPix" sum="300"/>
+   <action type="15" no="8" player="Irmeli1966" sum="300"/>
+   <action type="1" no="9" player="Vi7u" sum="1,000"/>
+   <action type="2" no="10" player="MalaysianAir" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="0" no="11" player="WorldsBestBoss" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="12" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DA H9</cards>
+   <action type="23" no="13" player="tropeiro123" sum="4,000"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="14" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="15" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="16" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="0" no="17" player="Vi7u" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="18" player="MalaysianAir" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK DJ H2</cards>
+   <action type="4" no="19" player="MalaysianAir" sum="0"/>
+   <action type="5" no="20" player="tropeiro123" sum="2,850"/>
+   <action type="0" no="21" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672931">
+  <general>
+   <startdate>2024-02-14 13:45:17</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="300" seat="1" addon="0" chips="31,309"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="35,125"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="4" addon="0" chips="53,480"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="27,080"/>
+    <player name="Vi7u" rebuy="0" dealer="1" reg_code="" win="0" bet="4,300" seat="6" addon="0" chips="91,130"/>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="14,400" bet="16,108" seat="7" addon="0" chips="157,677"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="4,300" seat="9" addon="0" chips="53,270"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="40,010"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="300"/>
+   <action type="15" no="2" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="3" player="shipsoft984" sum="300"/>
+   <action type="15" no="4" player="tropeiro123" sum="300"/>
+   <action type="15" no="5" player="unterstrass" sum="300"/>
+   <action type="15" no="6" player="NixxPix" sum="300"/>
+   <action type="15" no="7" player="Irmeli1966" sum="300"/>
+   <action type="15" no="8" player="Vi7u" sum="300"/>
+   <action type="1" no="9" player="MalaysianAir" sum="1,000"/>
+   <action type="2" no="10" player="WorldsBestBoss" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="11" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ D6</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="13" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="14" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="15" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="Vi7u">X X</cards>
+   <action type="23" no="16" player="Vi7u" sum="4,000"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="17" player="MalaysianAir" sum="3,000"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="3" no="18" player="WorldsBestBoss" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 CQ CJ</cards>
+   <action type="4" no="19" player="MalaysianAir" sum="0"/>
+   <action type="4" no="20" player="WorldsBestBoss" sum="0"/>
+   <action type="4" no="21" player="Vi7u" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action type="5" no="22" player="MalaysianAir" sum="11,808"/>
+   <action type="0" no="23" player="WorldsBestBoss" sum="0"/>
+   <action type="0" no="24" player="Vi7u" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672942">
+  <general>
+   <startdate>2024-02-14 13:46:48</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="300" seat="1" addon="0" chips="31,009"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="34,825"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="4" addon="0" chips="53,180"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="26,780"/>
+    <player name="WorldsBestBoss" rebuy="0" dealer="0" reg_code="" win="0" bet="2,300" seat="9" addon="0" chips="48,970"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="5,800" bet="6,360" seat="10" addon="0" chips="39,710"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WorldsBestBoss" sum="300"/>
+   <action type="15" no="2" player="shipsoft984" sum="300"/>
+   <action type="15" no="3" player="tropeiro123" sum="300"/>
+   <action type="15" no="4" player="unterstrass" sum="300"/>
+   <action type="15" no="5" player="NixxPix" sum="300"/>
+   <action type="15" no="6" player="Irmeli1966" sum="300"/>
+   <action type="1" no="7" player="WorldsBestBoss" sum="1,000"/>
+   <action type="2" no="8" player="shipsoft984" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C10 DJ</cards>
+   <action type="0" no="9" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="10" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="0" no="11" player="NixxPix" sum="0"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="0" no="12" player="Irmeli1966" sum="0"/>
+   <cards type="Pocket" player="WorldsBestBoss">X X</cards>
+   <action type="3" no="13" player="WorldsBestBoss" sum="1,000"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="4" no="14" player="shipsoft984" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ S10 D2</cards>
+   <action type="4" no="15" player="WorldsBestBoss" sum="0"/>
+   <action type="4" no="16" player="shipsoft984" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action type="4" no="17" player="WorldsBestBoss" sum="0"/>
+   <action type="4" no="18" player="shipsoft984" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action type="4" no="19" player="WorldsBestBoss" sum="0"/>
+   <action type="5" no="20" player="shipsoft984" sum="4,060"/>
+   <action type="0" no="21" player="WorldsBestBoss" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672951">
+  <general>
+   <startdate>2024-02-14 13:48:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="2,300" seat="1" addon="0" chips="30,709"/>
+    <player name="unterstrass" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="34,525"/>
+    <player name="NixxPix" rebuy="0" dealer="0" reg_code="" win="0" bet="4,300" seat="4" addon="0" chips="52,880"/>
+    <player name="Irmeli1966" rebuy="0" dealer="0" reg_code="" win="13,100" bet="26,180" seat="5" addon="0" chips="26,480"/>
+    <player name="9100" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="52,720"/>
+    <player name="smalltownBoy" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="34,262"/>
+    <player name="shipsoft984" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="10" addon="0" chips="43,210"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="shipsoft984" sum="300"/>
+   <action type="15" no="2" player="tropeiro123" sum="300"/>
+   <action type="15" no="3" player="unterstrass" sum="300"/>
+   <action type="15" no="4" player="NixxPix" sum="300"/>
+   <action type="15" no="5" player="Irmeli1966" sum="300"/>
+   <action type="15" no="6" player="9100" sum="300"/>
+   <action type="15" no="7" player="smalltownBoy" sum="300"/>
+   <action type="1" no="8" player="shipsoft984" sum="1,000"/>
+   <action type="2" no="9" player="tropeiro123" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="unterstrass">X X</cards>
+   <action type="0" no="10" player="unterstrass" sum="0"/>
+   <cards type="Pocket" player="NixxPix">X X</cards>
+   <action type="23" no="11" player="NixxPix" sum="4,000"/>
+   <cards type="Pocket" player="Irmeli1966">X X</cards>
+   <action type="23" no="12" player="Irmeli1966" sum="26,180"/>
+   <cards type="Pocket" player="9100">X X</cards>
+   <action type="0" no="13" player="9100" sum="0"/>
+   <cards type="Pocket" player="smalltownBoy">X X</cards>
+   <action type="0" no="14" player="smalltownBoy" sum="0"/>
+   <cards type="Pocket" player="shipsoft984">X X</cards>
+   <action type="0" no="15" player="shipsoft984" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 HJ</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <action type="0" no="17" player="NixxPix" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672957">
+  <general>
+   <startdate>2024-02-14 13:48:43</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="bragehoel" rebuy="0" dealer="0" reg_code="" win="8,350" bet="41,211" seat="1" addon="0" chips="41,561"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="350" seat="2" addon="0" chips="28,409"/>
+    <player name="Tandjes88" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="4" addon="0" chips="47,848"/>
+    <player name="aceloud921" rebuy="0" dealer="1" reg_code="" win="0" bet="350" seat="5" addon="0" chips="63,070"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="6" addon="0" chips="115,680"/>
+    <player name="BigAca666" rebuy="0" dealer="0" reg_code="" win="0" bet="2,850" seat="9" addon="0" chips="328,984"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="4get24bet" sum="350"/>
+   <action type="15" no="2" player="BigAca666" sum="350"/>
+   <action type="15" no="3" player="bragehoel" sum="350"/>
+   <action type="15" no="4" player="tropeiro123" sum="350"/>
+   <action type="15" no="5" player="Tandjes88" sum="350"/>
+   <action type="15" no="6" player="aceloud921" sum="350"/>
+   <action type="1" no="7" player="4get24bet" sum="1,250"/>
+   <action type="2" no="8" player="BigAca666" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bragehoel">X X</cards>
+   <action type="23" no="9" player="bragehoel" sum="41,211"/>
+   <cards type="Pocket" player="tropeiro123">H5 C5</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Tandjes88">X X</cards>
+   <action type="0" no="11" player="Tandjes88" sum="0"/>
+   <cards type="Pocket" player="aceloud921">X X</cards>
+   <action type="0" no="12" player="aceloud921" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="13" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="BigAca666">X X</cards>
+   <action type="0" no="14" player="BigAca666" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672961">
+  <general>
+   <startdate>2024-02-14 13:49:13</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="bragehoel" rebuy="0" dealer="0" reg_code="" win="0" bet="2,850" seat="1" addon="0" chips="47,061"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="350" seat="2" addon="0" chips="28,059"/>
+    <player name="Tandjes88" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="4" addon="0" chips="47,498"/>
+    <player name="aceloud921" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="5" addon="0" chips="62,720"/>
+    <player name="4get24bet" rebuy="0" dealer="1" reg_code="" win="8,350" bet="5,250" seat="6" addon="0" chips="114,080"/>
+    <player name="BigAca666" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="9" addon="0" chips="326,134"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="BigAca666" sum="350"/>
+   <action type="15" no="2" player="bragehoel" sum="350"/>
+   <action type="15" no="3" player="tropeiro123" sum="350"/>
+   <action type="15" no="4" player="Tandjes88" sum="350"/>
+   <action type="15" no="5" player="aceloud921" sum="350"/>
+   <action type="15" no="6" player="4get24bet" sum="350"/>
+   <action type="1" no="7" player="BigAca666" sum="1,250"/>
+   <action type="2" no="8" player="bragehoel" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S7 D10</cards>
+   <action type="0" no="9" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Tandjes88">X X</cards>
+   <action type="0" no="10" player="Tandjes88" sum="0"/>
+   <cards type="Pocket" player="aceloud921">X X</cards>
+   <action type="0" no="11" player="aceloud921" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="23" no="12" player="4get24bet" sum="5,250"/>
+   <cards type="Pocket" player="BigAca666">X X</cards>
+   <action type="0" no="13" player="BigAca666" sum="0"/>
+   <cards type="Pocket" player="bragehoel">X X</cards>
+   <action type="0" no="14" player="bragehoel" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672964">
+  <general>
+   <startdate>2024-02-14 13:49:33</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="bragehoel" rebuy="0" dealer="0" reg_code="" win="15,100" bet="43,861" seat="1" addon="0" chips="44,211"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="0" bet="2,850" seat="2" addon="0" chips="27,709"/>
+    <player name="Tandjes88" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="4" addon="0" chips="47,148"/>
+    <player name="aceloud921" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="5" addon="0" chips="62,370"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="5,600" seat="6" addon="0" chips="119,580"/>
+    <player name="BigAca666" rebuy="0" dealer="1" reg_code="" win="0" bet="350" seat="9" addon="0" chips="324,534"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="bragehoel" sum="350"/>
+   <action type="15" no="2" player="tropeiro123" sum="350"/>
+   <action type="15" no="3" player="Tandjes88" sum="350"/>
+   <action type="15" no="4" player="aceloud921" sum="350"/>
+   <action type="15" no="5" player="4get24bet" sum="350"/>
+   <action type="15" no="6" player="BigAca666" sum="350"/>
+   <action type="1" no="7" player="bragehoel" sum="1,250"/>
+   <action type="2" no="8" player="tropeiro123" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Tandjes88">X X</cards>
+   <action type="0" no="9" player="Tandjes88" sum="0"/>
+   <cards type="Pocket" player="aceloud921">X X</cards>
+   <action type="0" no="10" player="aceloud921" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="23" no="11" player="4get24bet" sum="5,250"/>
+   <cards type="Pocket" player="BigAca666">X X</cards>
+   <action type="0" no="12" player="BigAca666" sum="0"/>
+   <cards type="Pocket" player="bragehoel">X X</cards>
+   <action type="23" no="13" player="bragehoel" sum="43,861"/>
+   <cards type="Pocket" player="tropeiro123">C7 SA</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <action type="0" no="15" player="4get24bet" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672971">
+  <general>
+   <startdate>2024-02-14 13:50:11</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="bragehoel" rebuy="0" dealer="1" reg_code="" win="0" bet="350" seat="1" addon="0" chips="53,711"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949618765" win="7,800" bet="24,509" seat="2" addon="0" chips="24,859"/>
+    <player name="Tandjes88" rebuy="0" dealer="0" reg_code="" win="0" bet="2,850" seat="4" addon="0" chips="46,798"/>
+    <player name="aceloud921" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="5" addon="0" chips="62,020"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="6" addon="0" chips="113,980"/>
+    <player name="eltuga10" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="7" addon="0" chips="49,975"/>
+    <player name="BigAca666" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="9" addon="0" chips="324,184"/>
+    <player name="Hochloffpower" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="10" addon="0" chips="21,100"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="350"/>
+   <action type="15" no="2" player="Tandjes88" sum="350"/>
+   <action type="15" no="3" player="aceloud921" sum="350"/>
+   <action type="15" no="4" player="4get24bet" sum="350"/>
+   <action type="15" no="5" player="eltuga10" sum="350"/>
+   <action type="15" no="6" player="BigAca666" sum="350"/>
+   <action type="15" no="7" player="Hochloffpower" sum="350"/>
+   <action type="15" no="8" player="bragehoel" sum="350"/>
+   <action type="1" no="9" player="tropeiro123" sum="1,250"/>
+   <action type="2" no="10" player="Tandjes88" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="aceloud921">X X</cards>
+   <action type="0" no="11" player="aceloud921" sum="0"/>
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="12" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="eltuga10">X X</cards>
+   <action type="0" no="13" player="eltuga10" sum="0"/>
+   <cards type="Pocket" player="BigAca666">X X</cards>
+   <action type="0" no="14" player="BigAca666" sum="0"/>
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="0" no="15" player="Hochloffpower" sum="0"/>
+   <cards type="Pocket" player="bragehoel">X X</cards>
+   <action type="0" no="16" player="bragehoel" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H4 H5</cards>
+   <action type="23" no="17" player="tropeiro123" sum="24,509"/>
+   <cards type="Pocket" player="Tandjes88">X X</cards>
+   <action type="0" no="18" player="Tandjes88" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563672977">
+  <general>
+   <startdate>2024-02-14 13:50:40</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player name="bragehoel" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="1" addon="0" chips="53,361"/>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949618765" win="0" bet="29,459" seat="2" addon="0" chips="29,809"/>
+    <player name="Tandjes88" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="4" addon="0" chips="43,948"/>
+    <player name="aceloud921" rebuy="0" dealer="0" reg_code="" win="62,968" bet="29,809" seat="5" addon="0" chips="61,670"/>
+    <player name="4get24bet" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="6" addon="0" chips="113,630"/>
+    <player name="eltuga10" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="7" addon="0" chips="49,625"/>
+    <player name="BigAca666" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="9" addon="0" chips="323,834"/>
+    <player name="Hochloffpower" rebuy="0" dealer="0" reg_code="" win="0" bet="350" seat="10" addon="0" chips="20,750"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Tandjes88" sum="350"/>
+   <action type="15" no="2" player="aceloud921" sum="350"/>
+   <action type="15" no="3" player="4get24bet" sum="350"/>
+   <action type="15" no="4" player="eltuga10" sum="350"/>
+   <action type="15" no="5" player="BigAca666" sum="350"/>
+   <action type="15" no="6" player="Hochloffpower" sum="350"/>
+   <action type="15" no="7" player="bragehoel" sum="350"/>
+   <action type="15" no="8" player="tropeiro123" sum="350"/>
+   <action type="1" no="9" player="Tandjes88" sum="1,250"/>
+   <action type="2" no="10" player="aceloud921" sum="2,500"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="4get24bet">X X</cards>
+   <action type="0" no="11" player="4get24bet" sum="0"/>
+   <cards type="Pocket" player="eltuga10">X X</cards>
+   <action type="0" no="12" player="eltuga10" sum="0"/>
+   <cards type="Pocket" player="BigAca666">X X</cards>
+   <action type="0" no="13" player="BigAca666" sum="0"/>
+   <cards type="Pocket" player="Hochloffpower">X X</cards>
+   <action type="0" no="14" player="Hochloffpower" sum="0"/>
+   <cards type="Pocket" player="bragehoel">X X</cards>
+   <action type="0" no="15" player="bragehoel" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C10 HA</cards>
+   <action type="23" no="16" player="tropeiro123" sum="29,459"/>
+   <cards type="Pocket" player="Tandjes88">X X</cards>
+   <action type="0" no="17" player="Tandjes88" sum="0"/>
+   <cards type="Pocket" player="aceloud921">DA C6</cards>
+   <action type="3" no="18" player="aceloud921" sum="26,959"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 S6 HK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+</session>

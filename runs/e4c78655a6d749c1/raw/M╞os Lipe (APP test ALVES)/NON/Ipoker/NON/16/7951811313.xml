@@ -1,0 +1,2624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7951811313">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€15,000 GTD, 1081229488</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:00:49</duration>
+  <gamecount>46</gamecount>
+  <startdate>2024-02-16 14:44:14</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>114,674</bets>
+  <wins>8,040</wins>
+  <chipsin>99,880</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP54</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294180</tournamentcode>
+  <tournamentname>E3|€15,000 GTD</tournamentname>
+  <place>410</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10567346530">
+  <general>
+   <startdate>2024-02-16 14:44:14</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player seat="1" dealer="0" bet="100" name="thuggerthegoat" rebuy="0" win="0" chips="99,700" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="100" name="xxxxRGxxxx" rebuy="0" win="0" chips="116,639" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="13,935" name="sms231" rebuy="0" win="12,536" chips="61,130" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="100" name="CuervoBlanco" rebuy="0" win="0" chips="130,167" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="100" name="Veqeqoby" rebuy="0" win="0" chips="133,874" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="450" name="GabrielBatigol" rebuy="0" win="0" chips="99,862" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="5,843" name="TheArtic" rebuy="0" win="0" chips="147,601" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="100" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="100" no="2" player="TheArtic"/>
+   <action type="15" sum="100" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="100" no="4" player="xxxxRGxxxx"/>
+   <action type="15" sum="100" no="5" player="sms231"/>
+   <action type="15" sum="100" no="6" player="CuervoBlanco"/>
+   <action type="15" sum="100" no="7" player="Veqeqoby"/>
+   <action type="1" sum="350" no="8" player="GabrielBatigol"/>
+   <action type="2" sum="700" no="9" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="10" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="11" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="1,750" no="12" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="13" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="3" sum="1,050" no="16" player="TheArtic"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D9 CK</cards>
+   <action type="4" sum="0" no="17" player="TheArtic"/>
+   <action type="5" sum="1,501" no="18" player="sms231"/>
+   <action type="3" sum="1,501" no="19" player="TheArtic"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action type="4" sum="0" no="20" player="TheArtic"/>
+   <action type="4" sum="0" no="21" player="sms231"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action type="5" sum="2,492" no="22" player="TheArtic"/>
+   <action type="23" sum="10,584" no="23" player="sms231"/>
+   <action type="0" sum="0" no="24" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567346598">
+  <general>
+   <startdate>2024-02-16 14:45:42</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="920" name="thuggerthegoat" rebuy="0" win="0" chips="99,600" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="120" name="xxxxRGxxxx" rebuy="0" win="0" chips="116,539" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="120" name="tropeiro123" rebuy="0" win="0" chips="100,000" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="120" name="sms231" rebuy="0" win="0" chips="67,823" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="130,067" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="120" name="Veqeqoby" rebuy="0" win="0" chips="133,774" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="2,000" name="GabrielBatigol" rebuy="0" win="2,960" chips="99,412" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="520" name="TheArtic" rebuy="0" win="0" chips="141,758" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="TheArtic"/>
+   <action type="15" sum="120" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="3" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="4" player="tropeiro123"/>
+   <action type="15" sum="120" no="5" player="sms231"/>
+   <action type="15" sum="120" no="6" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="7" player="Veqeqoby"/>
+   <action type="15" sum="120" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="400" no="9" player="TheArtic"/>
+   <action type="2" sum="800" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="11" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C3 CJ</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="13" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="14" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="23" sum="2,000" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="18" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567346633">
+  <general>
+   <startdate>2024-02-16 14:46:26</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="520" name="thuggerthegoat" rebuy="0" win="0" chips="98,680" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="920" name="xxxxRGxxxx" rebuy="0" win="0" chips="116,419" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="120" name="tropeiro123" rebuy="0" win="0" chips="99,880" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="14,000" name="sms231" rebuy="0" win="17,640" chips="67,703" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="129,947" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="120" name="Veqeqoby" rebuy="0" win="0" chips="133,654" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="120" name="GabrielBatigol" rebuy="0" win="0" chips="101,452" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="7,860" name="TheArtic" rebuy="0" win="0" chips="141,238" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="2" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="3" player="tropeiro123"/>
+   <action type="15" sum="120" no="4" player="sms231"/>
+   <action type="15" sum="120" no="5" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="6" player="Veqeqoby"/>
+   <action type="15" sum="120" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="8" player="TheArtic"/>
+   <action type="1" sum="400" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="800" no="10" player="xxxxRGxxxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C10 D6</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="2,000" no="12" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="13" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="23" sum="4,800" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="17" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="18" player="xxxxRGxxxx"/>
+   <action type="3" sum="2,800" no="19" player="sms231"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H6 C3</cards>
+   <action type="4" sum="0" no="20" player="sms231"/>
+   <action type="5" sum="2,940" no="21" player="TheArtic"/>
+   <action type="23" sum="9,080" no="22" player="sms231"/>
+   <action type="0" sum="0" no="23" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567346719">
+  <general>
+   <startdate>2024-02-16 14:48:01</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="1" bet="12,214" name="thuggerthegoat" rebuy="0" win="11,148" chips="98,160" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="520" name="xxxxRGxxxx" rebuy="0" win="0" chips="115,499" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="5,014" name="tropeiro123" rebuy="0" win="0" chips="99,760" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="120" name="sms231" rebuy="0" win="0" chips="77,483" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="129,827" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="120" name="Veqeqoby" rebuy="0" win="0" chips="133,534" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="120" name="GabrielBatigol" rebuy="0" win="0" chips="101,332" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="120" name="TheArtic" rebuy="0" win="0" chips="133,378" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="2" player="tropeiro123"/>
+   <action type="15" sum="120" no="3" player="sms231"/>
+   <action type="15" sum="120" no="4" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="5" player="Veqeqoby"/>
+   <action type="15" sum="120" no="6" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="7" player="TheArtic"/>
+   <action type="15" sum="120" no="8" player="thuggerthegoat"/>
+   <action type="1" sum="400" no="9" player="xxxxRGxxxx"/>
+   <action type="2" sum="800" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="11" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="12" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="13" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="14" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="15" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="2,000" no="16" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="17" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">D3 C5</cards>
+   <action type="3" sum="1,200" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 S3 HA</cards>
+   <action type="4" sum="0" no="19" player="tropeiro123"/>
+   <action type="5" sum="2,894" no="20" player="thuggerthegoat"/>
+   <action type="3" sum="2,894" no="21" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="4" sum="0" no="22" player="tropeiro123"/>
+   <action type="5" sum="7,200" no="23" player="thuggerthegoat"/>
+   <action type="0" sum="0" no="24" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567365762">
+  <general>
+   <startdate>2024-02-16 14:50:28</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="120" name="thuggerthegoat" rebuy="0" win="0" chips="104,294" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="6,520" name="xxxxRGxxxx" rebuy="0" win="14,560" chips="114,979" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="6,520" name="tropeiro123" rebuy="0" win="0" chips="94,746" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="920" name="sms231" rebuy="0" win="0" chips="77,363" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="129,707" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="120" name="Veqeqoby" rebuy="0" win="0" chips="133,414" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="120" name="GabrielBatigol" rebuy="0" win="0" chips="101,212" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="120" name="TheArtic" rebuy="0" win="0" chips="133,258" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="tropeiro123"/>
+   <action type="15" sum="120" no="2" player="sms231"/>
+   <action type="15" sum="120" no="3" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="4" player="Veqeqoby"/>
+   <action type="15" sum="120" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="6" player="TheArtic"/>
+   <action type="15" sum="120" no="7" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="8" player="xxxxRGxxxx"/>
+   <action type="1" sum="400" no="9" player="tropeiro123"/>
+   <action type="2" sum="800" no="10" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="11" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="12" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="13" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="14" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="15" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">CK S6</cards>
+   <action type="23" sum="2,400" no="16" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">H10 CJ</cards>
+   <action type="3" sum="2,000" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="18" player="sms231"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ D8 D10</cards>
+   <action type="4" sum="0" no="19" player="tropeiro123"/>
+   <action type="5" sum="4,000" no="20" player="xxxxRGxxxx"/>
+   <action type="3" sum="4,000" no="21" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action type="4" sum="0" no="22" player="tropeiro123"/>
+   <action type="4" sum="0" no="23" player="xxxxRGxxxx"/>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+   <action type="4" sum="0" no="24" player="tropeiro123"/>
+   <action type="4" sum="0" no="25" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567365876">
+  <general>
+   <startdate>2024-02-16 14:52:23</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="120" name="thuggerthegoat" rebuy="0" win="0" chips="104,174" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="3,060" name="xxxxRGxxxx" rebuy="0" win="0" chips="123,019" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="9,894" name="tropeiro123" rebuy="0" win="8,040" chips="88,226" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="520" name="sms231" rebuy="0" win="0" chips="76,443" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="920" name="CuervoBlanco" rebuy="0" win="0" chips="129,587" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="120" name="Veqeqoby" rebuy="0" win="0" chips="133,294" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="120" name="GabrielBatigol" rebuy="0" win="0" chips="101,092" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="120" name="TheArtic" rebuy="0" win="0" chips="133,138" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="sms231"/>
+   <action type="15" sum="120" no="2" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="3" player="Veqeqoby"/>
+   <action type="15" sum="120" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="5" player="TheArtic"/>
+   <action type="15" sum="120" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="7" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="8" player="tropeiro123"/>
+   <action type="1" sum="400" no="9" player="sms231"/>
+   <action type="2" sum="800" no="10" player="CuervoBlanco"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="23" sum="1,600" no="15" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">D10 HQ</cards>
+   <action type="3" sum="1,600" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="18" player="CuervoBlanco"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D2 H3</cards>
+   <action type="4" sum="0" no="19" player="xxxxRGxxxx"/>
+   <action type="5" sum="1,340" no="20" player="tropeiro123"/>
+   <action type="3" sum="1,340" no="21" player="xxxxRGxxxx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action type="4" sum="0" no="22" player="xxxxRGxxxx"/>
+   <action type="5" sum="6,834" no="23" player="tropeiro123"/>
+   <action type="0" sum="0" no="24" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567365959">
+  <general>
+   <startdate>2024-02-16 14:53:45</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,000" name="thuggerthegoat" rebuy="0" win="2,960" chips="104,054" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="120" name="xxxxRGxxxx" rebuy="0" win="0" chips="119,959" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="120" name="tropeiro123" rebuy="0" win="0" chips="93,206" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="1" bet="120" name="sms231" rebuy="0" win="0" chips="75,923" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="520" name="CuervoBlanco" rebuy="0" win="0" chips="128,667" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="920" name="Veqeqoby" rebuy="0" win="0" chips="133,174" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="120" name="GabrielBatigol" rebuy="0" win="0" chips="100,972" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="120" name="TheArtic" rebuy="0" win="0" chips="133,018" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="2" player="Veqeqoby"/>
+   <action type="15" sum="120" no="3" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="4" player="TheArtic"/>
+   <action type="15" sum="120" no="5" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="6" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="7" player="tropeiro123"/>
+   <action type="15" sum="120" no="8" player="sms231"/>
+   <action type="1" sum="400" no="9" player="CuervoBlanco"/>
+   <action type="2" sum="800" no="10" player="Veqeqoby"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="11" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="12" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="2,000" no="13" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="14" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">SA D7</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="16" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="17" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="18" player="Veqeqoby"/>
+  </round>
+ </game>
+ <game gamecode="10567365991">
+  <general>
+   <startdate>2024-02-16 14:54:19</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="120" name="thuggerthegoat" rebuy="0" win="0" chips="106,094" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="120" name="xxxxRGxxxx" rebuy="0" win="0" chips="119,839" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="5,880" name="tropeiro123" rebuy="0" win="0" chips="93,086" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="10,394" name="sms231" rebuy="0" win="13,680" chips="75,803" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="128,147" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="520" name="Veqeqoby" rebuy="0" win="0" chips="132,254" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="920" name="GabrielBatigol" rebuy="0" win="0" chips="100,852" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="120" name="TheArtic" rebuy="0" win="0" chips="132,898" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="Veqeqoby"/>
+   <action type="15" sum="120" no="2" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="3" player="TheArtic"/>
+   <action type="15" sum="120" no="4" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="5" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="6" player="tropeiro123"/>
+   <action type="15" sum="120" no="7" player="sms231"/>
+   <action type="15" sum="120" no="8" player="CuervoBlanco"/>
+   <action type="1" sum="400" no="9" player="Veqeqoby"/>
+   <action type="2" sum="800" no="10" player="GabrielBatigol"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="11" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="12" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="13" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">S5 SQ</cards>
+   <action type="23" sum="1,680" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="5,760" no="15" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="16" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="17" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="18" player="GabrielBatigol"/>
+   <action type="3" sum="4,080" no="19" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 SA H6</cards>
+   <action type="4" sum="0" no="20" player="tropeiro123"/>
+   <action type="5" sum="4,514" no="21" player="sms231"/>
+   <action type="0" sum="0" no="22" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567366062">
+  <general>
+   <startdate>2024-02-16 15:01:28</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player seat="1" dealer="0" bet="120" name="thuggerthegoat" rebuy="0" win="0" chips="105,974" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="120" name="xxxxRGxxxx" rebuy="0" win="0" chips="119,719" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="120" name="tropeiro123" rebuy="0" win="0" chips="87,206" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="120" name="sms231" rebuy="0" win="0" chips="83,603" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="120" name="CuervoBlanco" rebuy="0" win="0" chips="128,027" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="2,400" name="Veqeqoby" rebuy="0" win="2,960" chips="131,734" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="520" name="GabrielBatigol" rebuy="0" win="0" chips="99,932" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="920" name="TheArtic" rebuy="0" win="0" chips="132,778" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="120" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="120" no="2" player="TheArtic"/>
+   <action type="15" sum="120" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="120" no="4" player="xxxxRGxxxx"/>
+   <action type="15" sum="120" no="5" player="tropeiro123"/>
+   <action type="15" sum="120" no="6" player="sms231"/>
+   <action type="15" sum="120" no="7" player="CuervoBlanco"/>
+   <action type="15" sum="120" no="8" player="Veqeqoby"/>
+   <action type="1" sum="400" no="9" player="GabrielBatigol"/>
+   <action type="2" sum="800" no="10" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="11" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="12" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">CQ D8</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="14" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="15" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="23" sum="2,400" no="16" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="17" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="18" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567366101">
+  <general>
+   <startdate>2024-02-16 15:02:06</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="7,625" name="thuggerthegoat" rebuy="0" win="0" chips="105,854" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="28,669" name="xxxxRGxxxx" rebuy="0" win="0" chips="119,599" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="87,086" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="28,669" name="sms231" rebuy="0" win="66,063" chips="83,483" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="127,907" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="133,774" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="99,412" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="580" name="TheArtic" rebuy="0" win="0" chips="131,858" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="TheArtic"/>
+   <action type="15" sum="130" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="3" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="4" player="tropeiro123"/>
+   <action type="15" sum="130" no="5" player="sms231"/>
+   <action type="15" sum="130" no="6" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="7" player="Veqeqoby"/>
+   <action type="15" sum="130" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="450" no="9" player="TheArtic"/>
+   <action type="2" sum="900" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxxxRGxxxx">CA DK</cards>
+   <action type="23" sum="2,700" no="11" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">S2 H4</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">SQ SA</cards>
+   <action type="3" sum="2,700" no="13" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="14" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="3" sum="1,800" no="18" player="thuggerthegoat"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H6 HQ</cards>
+   <action type="4" sum="0" no="19" player="thuggerthegoat"/>
+   <action type="5" sum="4,795" no="20" player="xxxxRGxxxx"/>
+   <action type="3" sum="4,795" no="21" player="sms231"/>
+   <action type="3" sum="4,795" no="22" player="thuggerthegoat"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action type="4" sum="0" no="23" player="thuggerthegoat"/>
+   <action type="4" sum="0" no="24" player="xxxxRGxxxx"/>
+   <action type="5" sum="7,911" no="25" player="sms231"/>
+   <action type="0" sum="0" no="26" player="thuggerthegoat"/>
+   <action type="3" sum="7,911" no="27" player="xxxxRGxxxx"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action type="4" sum="0" no="28" player="xxxxRGxxxx"/>
+   <action type="5" sum="13,133" no="29" player="sms231"/>
+   <action type="3" sum="13,133" no="30" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567366205">
+  <general>
+   <startdate>2024-02-16 15:03:34</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="580" name="thuggerthegoat" rebuy="0" win="0" chips="98,229" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,030" name="xxxxRGxxxx" rebuy="0" win="0" chips="90,930" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="86,956" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="4,653" name="sms231" rebuy="0" win="0" chips="120,877" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="12,753" name="CuervoBlanco" rebuy="0" win="11,436" chips="127,777" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="133,644" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="99,282" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="130" name="TheArtic" rebuy="0" win="0" chips="131,278" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="2" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="3" player="tropeiro123"/>
+   <action type="15" sum="130" no="4" player="sms231"/>
+   <action type="15" sum="130" no="5" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="6" player="Veqeqoby"/>
+   <action type="15" sum="130" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="8" player="TheArtic"/>
+   <action type="1" sum="450" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="900" no="10" player="xxxxRGxxxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DK C4</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="2,250" no="12" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="3" sum="2,250" no="13" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="17" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="18" player="xxxxRGxxxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK C6 D6</cards>
+   <action type="5" sum="2,273" no="19" player="sms231"/>
+   <action type="3" sum="2,273" no="20" player="CuervoBlanco"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action type="4" sum="0" no="21" player="sms231"/>
+   <action type="4" sum="0" no="22" player="CuervoBlanco"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action type="4" sum="0" no="23" player="sms231"/>
+   <action type="5" sum="8,100" no="24" player="CuervoBlanco"/>
+   <action type="0" sum="0" no="25" player="sms231"/>
+  </round>
+ </game>
+ <game gamecode="10567384916">
+  <general>
+   <startdate>2024-02-16 15:04:53</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="1" bet="130" name="thuggerthegoat" rebuy="0" win="0" chips="97,649" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="580" name="xxxxRGxxxx" rebuy="0" win="0" chips="89,900" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,030" name="tropeiro123" rebuy="0" win="0" chips="86,826" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="25,702" name="sms231" rebuy="0" win="0" chips="116,224" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="134,560" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="133,514" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="25,702" name="GabrielBatigol" rebuy="0" win="53,534" chips="99,152" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="130" name="TheArtic" rebuy="0" win="0" chips="131,148" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="2" player="tropeiro123"/>
+   <action type="15" sum="130" no="3" player="sms231"/>
+   <action type="15" sum="130" no="4" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="5" player="Veqeqoby"/>
+   <action type="15" sum="130" no="6" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="7" player="TheArtic"/>
+   <action type="15" sum="130" no="8" player="thuggerthegoat"/>
+   <action type="1" sum="450" no="9" player="xxxxRGxxxx"/>
+   <action type="2" sum="900" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">HJ SJ</cards>
+   <action type="23" sum="2,250" no="11" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="12" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="13" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">CK DK</cards>
+   <action type="23" sum="6,300" no="14" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="15" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="16" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="17" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">SK CJ</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+   <action type="23" sum="16,650" no="19" player="sms231"/>
+   <action type="3" sum="10,350" no="20" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ S3 H6</cards>
+   <action type="5" sum="8,922" no="21" player="sms231"/>
+   <action type="3" sum="8,922" no="22" player="GabrielBatigol"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action type="4" sum="0" no="23" player="sms231"/>
+   <action type="4" sum="0" no="24" player="GabrielBatigol"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action type="4" sum="0" no="25" player="sms231"/>
+   <action type="4" sum="0" no="26" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567385017">
+  <general>
+   <startdate>2024-02-16 15:06:25</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="130" name="thuggerthegoat" rebuy="0" win="0" chips="97,519" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="130" name="xxxxRGxxxx" rebuy="0" win="0" chips="89,320" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="15,613" name="tropeiro123" rebuy="0" win="0" chips="85,796" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="46,213" name="sms231" rebuy="0" win="32,006" chips="90,522" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="134,430" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="133,384" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="126,984" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="130" name="TheArtic" rebuy="0" win="0" chips="131,018" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="tropeiro123"/>
+   <action type="15" sum="130" no="2" player="sms231"/>
+   <action type="15" sum="130" no="3" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="4" player="Veqeqoby"/>
+   <action type="15" sum="130" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="6" player="TheArtic"/>
+   <action type="15" sum="130" no="7" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="8" player="xxxxRGxxxx"/>
+   <action type="1" sum="450" no="9" player="tropeiro123"/>
+   <action type="2" sum="900" no="10" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="11" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="12" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="13" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="14" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="15" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="16" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">DQ DA</cards>
+   <action type="23" sum="3,600" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="3" sum="2,700" no="18" player="sms231"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 D6 H10</cards>
+   <action type="4" sum="0" no="19" player="tropeiro123"/>
+   <action type="5" sum="2,719" no="20" player="sms231"/>
+   <action type="3" sum="2,719" no="21" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+   <action type="4" sum="0" no="22" player="tropeiro123"/>
+   <action type="5" sum="9,164" no="23" player="sms231"/>
+   <action type="3" sum="9,164" no="24" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action type="4" sum="0" no="25" player="tropeiro123"/>
+   <action type="5" sum="30,600" no="26" player="sms231"/>
+   <action type="0" sum="0" no="27" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567385153">
+  <general>
+   <startdate>2024-02-16 15:08:13</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="130" name="thuggerthegoat" rebuy="0" win="0" chips="97,389" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="130" name="xxxxRGxxxx" rebuy="0" win="0" chips="89,190" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="130" name="tropeiro123" rebuy="0" win="0" chips="70,183" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="580" name="sms231" rebuy="0" win="0" chips="106,915" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="7,510" name="CuervoBlanco" rebuy="0" win="7,430" chips="134,300" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,110" name="Veqeqoby" rebuy="0" win="0" chips="133,254" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="2,110" name="GabrielBatigol" rebuy="0" win="0" chips="126,854" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="130" name="TheArtic" rebuy="0" win="0" chips="130,888" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="sms231"/>
+   <action type="15" sum="130" no="2" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="3" player="Veqeqoby"/>
+   <action type="15" sum="130" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="5" player="TheArtic"/>
+   <action type="15" sum="130" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="7" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="8" player="tropeiro123"/>
+   <action type="1" sum="450" no="9" player="sms231"/>
+   <action type="2" sum="900" no="10" player="CuervoBlanco"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="23" sum="1,980" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="3" sum="1,980" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="15" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C2 DJ</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="3" sum="1,080" no="18" player="CuervoBlanco"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 C10 SQ</cards>
+   <action type="4" sum="0" no="19" player="CuervoBlanco"/>
+   <action type="4" sum="0" no="20" player="Veqeqoby"/>
+   <action type="4" sum="0" no="21" player="GabrielBatigol"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action type="5" sum="5,400" no="22" player="CuervoBlanco"/>
+   <action type="0" sum="0" no="23" player="Veqeqoby"/>
+   <action type="0" sum="0" no="24" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567385217">
+  <general>
+   <startdate>2024-02-16 15:09:06</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="6,880" name="thuggerthegoat" rebuy="0" win="15,440" chips="97,259" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="130" name="xxxxRGxxxx" rebuy="0" win="0" chips="89,060" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="70,053" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="1" bet="130" name="sms231" rebuy="0" win="0" chips="106,335" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="6,880" name="CuervoBlanco" rebuy="0" win="0" chips="139,620" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,030" name="Veqeqoby" rebuy="0" win="0" chips="131,144" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="124,744" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="130" name="TheArtic" rebuy="0" win="0" chips="130,758" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="2" player="Veqeqoby"/>
+   <action type="15" sum="130" no="3" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="4" player="TheArtic"/>
+   <action type="15" sum="130" no="5" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="6" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="7" player="tropeiro123"/>
+   <action type="15" sum="130" no="8" player="sms231"/>
+   <action type="1" sum="450" no="9" player="CuervoBlanco"/>
+   <action type="2" sum="900" no="10" player="Veqeqoby"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="11" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="12" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">HA DJ</cards>
+   <action type="23" sum="2,250" no="13" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="14" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">D6 H10</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="16" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">H9 H7</cards>
+   <action type="3" sum="1,800" no="17" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="18" player="Veqeqoby"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 HK HJ</cards>
+   <action type="4" sum="0" no="19" player="CuervoBlanco"/>
+   <action type="4" sum="0" no="20" player="thuggerthegoat"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action type="5" sum="4,500" no="21" player="CuervoBlanco"/>
+   <action type="3" sum="4,500" no="22" player="thuggerthegoat"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action type="4" sum="0" no="23" player="CuervoBlanco"/>
+   <action type="4" sum="0" no="24" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567385286">
+  <general>
+   <startdate>2024-02-16 15:10:07</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="130" name="thuggerthegoat" rebuy="0" win="0" chips="105,819" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="130" name="xxxxRGxxxx" rebuy="0" win="0" chips="88,930" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="69,923" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="130" name="sms231" rebuy="0" win="0" chips="106,205" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="5,238" name="CuervoBlanco" rebuy="0" win="0" chips="132,740" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="580" name="Veqeqoby" rebuy="0" win="0" chips="130,114" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="8,546" name="GabrielBatigol" rebuy="0" win="11,706" chips="124,614" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="130" name="TheArtic" rebuy="0" win="0" chips="130,628" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="Veqeqoby"/>
+   <action type="15" sum="130" no="2" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="3" player="TheArtic"/>
+   <action type="15" sum="130" no="4" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="5" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="6" player="tropeiro123"/>
+   <action type="15" sum="130" no="7" player="sms231"/>
+   <action type="15" sum="130" no="8" player="CuervoBlanco"/>
+   <action type="1" sum="450" no="9" player="Veqeqoby"/>
+   <action type="2" sum="900" no="10" player="GabrielBatigol"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="11" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="12" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="13" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C9 S4</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="15" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="23" sum="1,800" no="16" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="17" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="3" sum="900" no="18" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H9 C6</cards>
+   <action type="4" sum="0" no="19" player="GabrielBatigol"/>
+   <action type="5" sum="3,308" no="20" player="CuervoBlanco"/>
+   <action type="23" sum="6,616" no="21" player="GabrielBatigol"/>
+   <action type="0" sum="0" no="22" player="CuervoBlanco"/>
+  </round>
+ </game>
+ <game gamecode="10567385336">
+  <general>
+   <startdate>2024-02-16 15:10:47</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="130" name="thuggerthegoat" rebuy="0" win="0" chips="105,689" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="130" name="xxxxRGxxxx" rebuy="0" win="0" chips="88,800" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,020" name="tropeiro123" rebuy="0" win="0" chips="69,793" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="6,480" name="sms231" rebuy="0" win="6,170" chips="106,075" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="127,502" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="129,534" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="580" name="GabrielBatigol" rebuy="0" win="0" chips="131,082" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="1,030" name="TheArtic" rebuy="0" win="0" chips="130,498" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="2" player="TheArtic"/>
+   <action type="15" sum="130" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="4" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="5" player="tropeiro123"/>
+   <action type="15" sum="130" no="6" player="sms231"/>
+   <action type="15" sum="130" no="7" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="8" player="Veqeqoby"/>
+   <action type="1" sum="450" no="9" player="GabrielBatigol"/>
+   <action type="2" sum="900" no="10" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="11" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="12" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">HA H7</cards>
+   <action type="23" sum="1,890" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="6,480" no="14" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="15" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="16" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="17" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="18" player="TheArtic"/>
+   <action type="0" sum="0" no="19" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567385394">
+  <general>
+   <startdate>2024-02-16 15:11:36</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,030" name="thuggerthegoat" rebuy="0" win="0" chips="105,559" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,800" name="xxxxRGxxxx" rebuy="0" win="3,290" chips="88,670" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="67,773" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="130" name="sms231" rebuy="0" win="0" chips="110,225" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="127,372" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="129,404" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="130,502" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="580" name="TheArtic" rebuy="0" win="0" chips="129,468" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="TheArtic"/>
+   <action type="15" sum="130" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="3" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="4" player="tropeiro123"/>
+   <action type="15" sum="130" no="5" player="sms231"/>
+   <action type="15" sum="130" no="6" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="7" player="Veqeqoby"/>
+   <action type="15" sum="130" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="450" no="9" player="TheArtic"/>
+   <action type="2" sum="900" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="23" sum="1,800" no="11" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">H7 DA</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="13" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="14" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="18" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567385433">
+  <general>
+   <startdate>2024-02-16 15:12:04</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player seat="1" dealer="0" bet="580" name="thuggerthegoat" rebuy="0" win="0" chips="104,529" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,930" name="xxxxRGxxxx" rebuy="0" win="0" chips="90,930" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="130" name="tropeiro123" rebuy="0" win="0" chips="67,643" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="130" name="sms231" rebuy="0" win="0" chips="110,095" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="130" name="CuervoBlanco" rebuy="0" win="0" chips="127,242" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="130" name="Veqeqoby" rebuy="0" win="0" chips="129,274" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="130" name="GabrielBatigol" rebuy="0" win="0" chips="130,372" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="3,730" name="TheArtic" rebuy="0" win="5,090" chips="128,888" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="130" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="130" no="2" player="xxxxRGxxxx"/>
+   <action type="15" sum="130" no="3" player="tropeiro123"/>
+   <action type="15" sum="130" no="4" player="sms231"/>
+   <action type="15" sum="130" no="5" player="CuervoBlanco"/>
+   <action type="15" sum="130" no="6" player="Veqeqoby"/>
+   <action type="15" sum="130" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="130" no="8" player="TheArtic"/>
+   <action type="1" sum="450" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="900" no="10" player="xxxxRGxxxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">SQ D7</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="12" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="13" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="23" sum="1,800" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="17" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="3" sum="900" no="18" player="xxxxRGxxxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK S4 S9</cards>
+   <action type="4" sum="0" no="19" player="xxxxRGxxxx"/>
+   <action type="5" sum="1,800" no="20" player="TheArtic"/>
+   <action type="0" sum="0" no="21" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567385515">
+  <general>
+   <startdate>2024-02-16 15:13:15</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="1" bet="150" name="thuggerthegoat" rebuy="0" win="0" chips="103,949" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="650" name="xxxxRGxxxx" rebuy="0" win="0" chips="89,000" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="1,150" name="tropeiro123" rebuy="0" win="0" chips="67,513" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="5,191" name="sms231" rebuy="0" win="7,700" chips="109,965" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="150" name="CuervoBlanco" rebuy="0" win="0" chips="127,112" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="2,650" name="Veqeqoby" rebuy="0" win="0" chips="129,144" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="130,242" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="150" name="TheArtic" rebuy="0" win="0" chips="132,048" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="2" player="tropeiro123"/>
+   <action type="15" sum="150" no="3" player="sms231"/>
+   <action type="15" sum="150" no="4" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="5" player="Veqeqoby"/>
+   <action type="15" sum="150" no="6" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="7" player="TheArtic"/>
+   <action type="15" sum="150" no="8" player="thuggerthegoat"/>
+   <action type="1" sum="500" no="9" player="xxxxRGxxxx"/>
+   <action type="2" sum="1,000" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="2,500" no="11" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="12" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="3" sum="2,500" no="13" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="14" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="15" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="16" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="17" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C10 D7</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C5 S8</cards>
+   <action type="5" sum="2,541" no="19" player="sms231"/>
+   <action type="0" sum="0" no="20" player="Veqeqoby"/>
+  </round>
+ </game>
+ <game gamecode="10567415357">
+  <general>
+   <startdate>2024-02-16 15:14:19</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="150" name="thuggerthegoat" rebuy="0" win="0" chips="103,799" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="150" name="xxxxRGxxxx" rebuy="0" win="0" chips="88,350" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="650" name="tropeiro123" rebuy="0" win="0" chips="66,363" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="1,150" name="sms231" rebuy="0" win="0" chips="115,015" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="62,041" name="CuervoBlanco" rebuy="0" win="0" chips="126,962" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="126,494" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="130,092" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="62,041" name="TheArtic" rebuy="0" win="126,482" chips="131,898" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="tropeiro123"/>
+   <action type="15" sum="150" no="2" player="sms231"/>
+   <action type="15" sum="150" no="3" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="4" player="Veqeqoby"/>
+   <action type="15" sum="150" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="6" player="TheArtic"/>
+   <action type="15" sum="150" no="7" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="8" player="xxxxRGxxxx"/>
+   <action type="1" sum="500" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,000" no="10" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CuervoBlanco">HA H8</cards>
+   <action type="23" sum="2,200" no="11" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="12" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="13" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">CQ DA</cards>
+   <action type="23" sum="8,400" no="14" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="15" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="16" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C5 C2</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="18" player="sms231"/>
+   <action type="23" sum="21,600" no="19" player="CuervoBlanco"/>
+   <action type="3" sum="13,200" no="20" player="TheArtic"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 H10 D9</cards>
+   <action type="5" sum="15,147" no="21" player="CuervoBlanco"/>
+   <action type="3" sum="15,147" no="22" player="TheArtic"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action type="4" sum="0" no="23" player="CuervoBlanco"/>
+   <action type="5" sum="25,144" no="24" player="TheArtic"/>
+   <action type="3" sum="25,144" no="25" player="CuervoBlanco"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action type="4" sum="0" no="26" player="CuervoBlanco"/>
+   <action type="4" sum="0" no="27" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567415473">
+  <general>
+   <startdate>2024-02-16 15:15:47</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="150" name="thuggerthegoat" rebuy="0" win="0" chips="103,649" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="150" name="xxxxRGxxxx" rebuy="0" win="0" chips="88,200" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="10,350" name="tropeiro123" rebuy="0" win="0" chips="65,713" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="650" name="sms231" rebuy="0" win="0" chips="113,865" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="18,350" name="CuervoBlanco" rebuy="0" win="22,100" chips="64,921" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="126,344" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="129,942" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="150" name="TheArtic" rebuy="0" win="0" chips="196,339" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="sms231"/>
+   <action type="15" sum="150" no="2" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="3" player="Veqeqoby"/>
+   <action type="15" sum="150" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="5" player="TheArtic"/>
+   <action type="15" sum="150" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="7" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="8" player="tropeiro123"/>
+   <action type="1" sum="500" no="9" player="sms231"/>
+   <action type="2" sum="1,000" no="10" player="CuervoBlanco"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="15" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">C5 CA</cards>
+   <action type="23" sum="2,100" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="23" sum="10,200" no="18" player="CuervoBlanco"/>
+   <action type="3" sum="8,100" no="19" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK D8 S4</cards>
+   <action type="5" sum="8,000" no="20" player="CuervoBlanco"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567415558">
+  <general>
+   <startdate>2024-02-16 15:16:59</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="150" name="thuggerthegoat" rebuy="0" win="0" chips="103,499" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="7,000" name="xxxxRGxxxx" rebuy="0" win="9,300" chips="88,050" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,350" name="tropeiro123" rebuy="0" win="0" chips="55,363" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="1" bet="2,350" name="sms231" rebuy="0" win="0" chips="113,215" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="650" name="CuervoBlanco" rebuy="0" win="0" chips="76,671" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,150" name="Veqeqoby" rebuy="0" win="0" chips="126,194" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="129,792" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="150" name="TheArtic" rebuy="0" win="0" chips="196,189" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="2" player="Veqeqoby"/>
+   <action type="15" sum="150" no="3" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="4" player="TheArtic"/>
+   <action type="15" sum="150" no="5" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="6" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="7" player="tropeiro123"/>
+   <action type="15" sum="150" no="8" player="sms231"/>
+   <action type="1" sum="500" no="9" player="CuervoBlanco"/>
+   <action type="2" sum="1,000" no="10" player="Veqeqoby"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="11" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="12" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="13" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="23" sum="2,200" no="14" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">D2 S2</cards>
+   <action type="3" sum="2,200" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="3" sum="2,200" no="16" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="17" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="18" player="Veqeqoby"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK SA D10</cards>
+   <action type="5" sum="4,650" no="19" player="xxxxRGxxxx"/>
+   <action type="0" sum="0" no="20" player="tropeiro123"/>
+   <action type="0" sum="0" no="21" player="sms231"/>
+  </round>
+ </game>
+ <game gamecode="10567415642">
+  <general>
+   <startdate>2024-02-16 15:17:58</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="24,053" name="thuggerthegoat" rebuy="0" win="19,858" chips="103,349" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="8,729" name="xxxxRGxxxx" rebuy="0" win="0" chips="95,000" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="150" name="tropeiro123" rebuy="0" win="0" chips="53,013" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="150" name="sms231" rebuy="0" win="0" chips="110,865" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="150" name="CuervoBlanco" rebuy="0" win="0" chips="76,021" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="650" name="Veqeqoby" rebuy="0" win="0" chips="125,044" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,150" name="GabrielBatigol" rebuy="0" win="0" chips="129,642" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="150" name="TheArtic" rebuy="0" win="0" chips="196,039" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="Veqeqoby"/>
+   <action type="15" sum="150" no="2" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="3" player="TheArtic"/>
+   <action type="15" sum="150" no="4" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="5" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="6" player="tropeiro123"/>
+   <action type="15" sum="150" no="7" player="sms231"/>
+   <action type="15" sum="150" no="8" player="CuervoBlanco"/>
+   <action type="1" sum="500" no="9" player="Veqeqoby"/>
+   <action type="2" sum="1,000" no="10" player="GabrielBatigol"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="11" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="2,500" no="12" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="3" sum="2,500" no="13" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">S4 S9</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="15" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="16" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="17" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="18" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 C9 H9</cards>
+   <action type="5" sum="2,079" no="19" player="thuggerthegoat"/>
+   <action type="3" sum="2,079" no="20" player="xxxxRGxxxx"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action type="4" sum="0" no="21" player="thuggerthegoat"/>
+   <action type="5" sum="4,000" no="22" player="xxxxRGxxxx"/>
+   <action type="23" sum="19,324" no="23" player="thuggerthegoat"/>
+   <action type="0" sum="0" no="24" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567415807">
+  <general>
+   <startdate>2024-02-16 15:19:58</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,500" name="thuggerthegoat" rebuy="0" win="3,700" chips="114,478" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="150" name="xxxxRGxxxx" rebuy="0" win="0" chips="86,271" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="150" name="tropeiro123" rebuy="0" win="0" chips="52,863" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="150" name="sms231" rebuy="0" win="0" chips="110,715" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="150" name="CuervoBlanco" rebuy="0" win="0" chips="75,871" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="124,394" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="650" name="GabrielBatigol" rebuy="0" win="0" chips="128,492" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="1,150" name="TheArtic" rebuy="0" win="0" chips="195,889" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="2" player="TheArtic"/>
+   <action type="15" sum="150" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="4" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="5" player="tropeiro123"/>
+   <action type="15" sum="150" no="6" player="sms231"/>
+   <action type="15" sum="150" no="7" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="8" player="Veqeqoby"/>
+   <action type="1" sum="500" no="9" player="GabrielBatigol"/>
+   <action type="2" sum="1,000" no="10" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="2,500" no="11" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="0" sum="0" no="12" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">H7 D10</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="14" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="15" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="16" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="17" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="18" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567415883">
+  <general>
+   <startdate>2024-02-16 15:21:06</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="1,150" name="thuggerthegoat" rebuy="0" win="0" chips="117,028" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="6,150" name="xxxxRGxxxx" rebuy="0" win="0" chips="86,121" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="150" name="tropeiro123" rebuy="0" win="0" chips="52,713" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="11,001" name="sms231" rebuy="0" win="14,700" chips="110,565" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="150" name="CuervoBlanco" rebuy="0" win="0" chips="75,721" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="124,244" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="127,842" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="650" name="TheArtic" rebuy="0" win="0" chips="194,739" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="TheArtic"/>
+   <action type="15" sum="150" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="3" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="4" player="tropeiro123"/>
+   <action type="15" sum="150" no="5" player="sms231"/>
+   <action type="15" sum="150" no="6" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="7" player="Veqeqoby"/>
+   <action type="15" sum="150" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="500" no="9" player="TheArtic"/>
+   <action type="2" sum="1,000" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="23" sum="2,000" no="11" player="xxxxRGxxxx"/>
+   <cards type="Pocket" player="tropeiro123">S5 S7</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="23" sum="6,000" no="13" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="14" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="18" player="thuggerthegoat"/>
+   <action type="3" sum="4,000" no="19" player="xxxxRGxxxx"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 DA H10</cards>
+   <action type="4" sum="0" no="20" player="xxxxRGxxxx"/>
+   <action type="5" sum="4,851" no="21" player="sms231"/>
+   <action type="0" sum="0" no="22" player="xxxxRGxxxx"/>
+  </round>
+ </game>
+ <game gamecode="10567415968">
+  <general>
+   <startdate>2024-02-16 15:22:12</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,250" name="thuggerthegoat" rebuy="0" win="0" chips="115,878" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="5,200" name="xxxxRGxxxx" rebuy="0" win="7,500" chips="79,971" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,250" name="tropeiro123" rebuy="0" win="0" chips="52,563" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="150" name="sms231" rebuy="0" win="0" chips="119,115" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="150" name="CuervoBlanco" rebuy="0" win="0" chips="75,571" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="124,094" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="127,692" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="150" name="TheArtic" rebuy="0" win="0" chips="194,089" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="150" no="2" player="xxxxRGxxxx"/>
+   <action type="15" sum="150" no="3" player="tropeiro123"/>
+   <action type="15" sum="150" no="4" player="sms231"/>
+   <action type="15" sum="150" no="5" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="6" player="Veqeqoby"/>
+   <action type="15" sum="150" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="8" player="TheArtic"/>
+   <action type="1" sum="500" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="1,000" no="10" player="xxxxRGxxxx"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DJ D9</cards>
+   <action type="23" sum="2,100" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="12" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="13" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="3" sum="1,600" no="17" player="thuggerthegoat"/>
+   <cards type="Pocket" player="xxxxRGxxxx">X X</cards>
+   <action type="23" sum="5,200" no="18" player="xxxxRGxxxx"/>
+   <action type="0" sum="0" no="19" player="tropeiro123"/>
+   <action type="0" sum="0" no="20" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567416042">
+  <general>
+   <startdate>2024-02-16 15:23:10</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player seat="1" dealer="1" bet="150" name="thuggerthegoat" rebuy="0" win="0" chips="113,628" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,150" name="tropeiro123" rebuy="0" win="0" chips="50,313" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="150" name="sms231" rebuy="0" win="0" chips="118,965" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="3,816" name="CuervoBlanco" rebuy="0" win="5,050" chips="75,421" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="150" name="Veqeqoby" rebuy="0" win="0" chips="123,944" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="150" name="GabrielBatigol" rebuy="0" win="0" chips="127,542" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="150" name="TheArtic" rebuy="0" win="0" chips="193,939" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="150" no="1" player="tropeiro123"/>
+   <action type="15" sum="150" no="2" player="sms231"/>
+   <action type="15" sum="150" no="3" player="CuervoBlanco"/>
+   <action type="15" sum="150" no="4" player="Veqeqoby"/>
+   <action type="15" sum="150" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="150" no="6" player="TheArtic"/>
+   <action type="15" sum="150" no="7" player="thuggerthegoat"/>
+   <action type="2" sum="1,000" no="8" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="9" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="23" sum="2,000" no="10" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="tropeiro123">HA H6</cards>
+   <action type="3" sum="1,000" no="15" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ DJ S10</cards>
+   <action type="4" sum="0" no="16" player="tropeiro123"/>
+   <action type="5" sum="1,666" no="17" player="CuervoBlanco"/>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567440741">
+  <general>
+   <startdate>2024-02-16 15:24:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="113,478" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="780" name="tropeiro123" rebuy="0" win="0" chips="48,163" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="1,380" name="sms231" rebuy="0" win="0" chips="118,815" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="2,400" name="CuervoBlanco" rebuy="0" win="4,260" chips="78,321" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Veqeqoby" rebuy="0" win="0" chips="123,794" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="127,392" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="193,789" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="tropeiro123"/>
+   <action type="15" sum="180" no="2" player="sms231"/>
+   <action type="15" sum="180" no="3" player="CuervoBlanco"/>
+   <action type="15" sum="180" no="4" player="Veqeqoby"/>
+   <action type="15" sum="180" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="6" player="TheArtic"/>
+   <action type="15" sum="180" no="7" player="thuggerthegoat"/>
+   <action type="1" sum="600" no="8" player="tropeiro123"/>
+   <action type="2" sum="1,200" no="9" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="23" sum="2,400" no="10" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="tropeiro123">C7 S6</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="16" player="sms231"/>
+  </round>
+ </game>
+ <game gamecode="10567440788">
+  <general>
+   <startdate>2024-02-16 15:24:49</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="113,298" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="7,200" name="Scaramangas69" rebuy="0" win="8,040" chips="100,000" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="180" name="tropeiro123" rebuy="0" win="0" chips="47,383" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="780" name="sms231" rebuy="0" win="0" chips="117,435" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,380" name="CuervoBlanco" rebuy="0" win="0" chips="81,201" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Veqeqoby" rebuy="0" win="0" chips="123,614" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="127,212" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="2,580" name="TheArtic" rebuy="0" win="0" chips="193,609" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="sms231"/>
+   <action type="15" sum="180" no="2" player="CuervoBlanco"/>
+   <action type="15" sum="180" no="3" player="Veqeqoby"/>
+   <action type="15" sum="180" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="5" player="TheArtic"/>
+   <action type="15" sum="180" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="7" player="Scaramangas69"/>
+   <action type="15" sum="180" no="8" player="tropeiro123"/>
+   <action type="1" sum="600" no="9" player="sms231"/>
+   <action type="2" sum="1,200" no="10" player="CuervoBlanco"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="23" sum="2,400" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="23" sum="7,200" no="15" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">S6 DQ</cards>
+   <action type="0" sum="0" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="18" player="CuervoBlanco"/>
+   <action type="0" sum="0" no="19" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567440854">
+  <general>
+   <startdate>2024-02-16 15:25:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="113,118" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="13,800" name="Scaramangas69" rebuy="0" win="15,240" chips="105,460" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="6,180" name="tropeiro123" rebuy="0" win="0" chips="47,203" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="1" bet="180" name="sms231" rebuy="0" win="0" chips="116,655" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="780" name="CuervoBlanco" rebuy="0" win="0" chips="79,821" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,380" name="Veqeqoby" rebuy="0" win="0" chips="123,434" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="127,032" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="191,029" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="CuervoBlanco"/>
+   <action type="15" sum="180" no="2" player="Veqeqoby"/>
+   <action type="15" sum="180" no="3" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="4" player="TheArtic"/>
+   <action type="15" sum="180" no="5" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="6" player="Scaramangas69"/>
+   <action type="15" sum="180" no="7" player="tropeiro123"/>
+   <action type="15" sum="180" no="8" player="sms231"/>
+   <action type="1" sum="600" no="9" player="CuervoBlanco"/>
+   <action type="2" sum="1,200" no="10" player="Veqeqoby"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="11" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="12" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="13" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="3" sum="1,200" no="14" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">SK DQ</cards>
+   <action type="23" sum="6,000" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="16" player="sms231"/>
+   <cards type="Pocket" player="CuervoBlanco">X X</cards>
+   <action type="0" sum="0" no="17" player="CuervoBlanco"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="18" player="Veqeqoby"/>
+   <action type="3" sum="4,800" no="19" player="Scaramangas69"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 C4 S7</cards>
+   <action type="4" sum="0" no="20" player="Scaramangas69"/>
+   <action type="4" sum="0" no="21" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action type="5" sum="7,620" no="22" player="Scaramangas69"/>
+   <action type="0" sum="0" no="23" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567440969">
+  <general>
+   <startdate>2024-02-16 15:27:07</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="14,256" name="thuggerthegoat" rebuy="0" win="15,612" chips="112,938" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="Scaramangas69" rebuy="0" win="0" chips="114,520" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="180" name="tropeiro123" rebuy="0" win="0" chips="41,023" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="180" name="sms231" rebuy="0" win="0" chips="116,475" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="780" name="Veqeqoby" rebuy="0" win="0" chips="122,054" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="7,056" name="GabrielBatigol" rebuy="0" win="0" chips="126,852" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="190,849" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="Veqeqoby"/>
+   <action type="15" sum="180" no="2" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="3" player="TheArtic"/>
+   <action type="15" sum="180" no="4" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="5" player="Scaramangas69"/>
+   <action type="15" sum="180" no="6" player="tropeiro123"/>
+   <action type="15" sum="180" no="7" player="sms231"/>
+   <action type="1" sum="600" no="8" player="Veqeqoby"/>
+   <action type="2" sum="1,200" no="9" player="GabrielBatigol"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="10" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="3,000" no="11" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="12" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">H4 HJ</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="14" player="sms231"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="3" sum="1,800" no="16" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 HK CQ</cards>
+   <action type="4" sum="0" no="17" player="GabrielBatigol"/>
+   <action type="5" sum="3,876" no="18" player="thuggerthegoat"/>
+   <action type="3" sum="3,876" no="19" player="GabrielBatigol"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action type="4" sum="0" no="20" player="GabrielBatigol"/>
+   <action type="5" sum="7,200" no="21" player="thuggerthegoat"/>
+   <action type="0" sum="0" no="22" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567441057">
+  <general>
+   <startdate>2024-02-16 15:28:17</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="121,494" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="20,956" name="Scaramangas69" rebuy="0" win="18,836" chips="114,340" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="180" name="tropeiro123" rebuy="0" win="0" chips="40,843" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="180" name="sms231" rebuy="0" win="0" chips="116,295" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="8,068" name="Veqeqoby" rebuy="0" win="0" chips="121,274" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="780" name="GabrielBatigol" rebuy="0" win="0" chips="119,796" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="1,380" name="TheArtic" rebuy="0" win="0" chips="190,669" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="2" player="TheArtic"/>
+   <action type="15" sum="180" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="4" player="Scaramangas69"/>
+   <action type="15" sum="180" no="5" player="tropeiro123"/>
+   <action type="15" sum="180" no="6" player="sms231"/>
+   <action type="15" sum="180" no="7" player="Veqeqoby"/>
+   <action type="1" sum="600" no="8" player="GabrielBatigol"/>
+   <action type="2" sum="1,200" no="9" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="10" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="23" sum="3,000" no="11" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">CK D10</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="13" player="sms231"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="3" sum="3,000" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="16" player="TheArtic"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK CQ H8</cards>
+   <action type="5" sum="4,888" no="17" player="Scaramangas69"/>
+   <action type="3" sum="4,888" no="18" player="Veqeqoby"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action type="5" sum="12,888" no="19" player="Scaramangas69"/>
+   <action type="0" sum="0" no="20" player="Veqeqoby"/>
+  </round>
+ </game>
+ <game gamecode="10567441129">
+  <general>
+   <startdate>2024-02-16 15:29:21</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="2,580" name="thuggerthegoat" rebuy="0" win="0" chips="121,314" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="Scaramangas69" rebuy="0" win="0" chips="125,108" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="180" name="tropeiro123" rebuy="0" win="0" chips="40,663" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="180" name="sms231" rebuy="0" win="0" chips="116,115" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="4,290" name="AllPainNoGa1n" rebuy="0" win="6,840" chips="100,000" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Veqeqoby" rebuy="0" win="0" chips="113,206" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="119,016" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="780" name="TheArtic" rebuy="0" win="0" chips="189,289" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="TheArtic"/>
+   <action type="15" sum="180" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="3" player="Scaramangas69"/>
+   <action type="15" sum="180" no="4" player="tropeiro123"/>
+   <action type="15" sum="180" no="5" player="sms231"/>
+   <action type="15" sum="180" no="6" player="AllPainNoGa1n"/>
+   <action type="15" sum="180" no="7" player="Veqeqoby"/>
+   <action type="15" sum="180" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="600" no="9" player="TheArtic"/>
+   <action type="2" sum="1,200" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="11" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">C4 SQ</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="13" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="23" sum="2,400" no="14" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="3" sum="1,200" no="18" player="thuggerthegoat"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA C10 H7</cards>
+   <action type="4" sum="0" no="19" player="thuggerthegoat"/>
+   <action type="5" sum="1,710" no="20" player="AllPainNoGa1n"/>
+   <action type="0" sum="0" no="21" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567441200">
+  <general>
+   <startdate>2024-02-16 15:30:14</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="780" name="thuggerthegoat" rebuy="0" win="0" chips="118,734" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,380" name="Scaramangas69" rebuy="0" win="0" chips="124,928" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="180" name="tropeiro123" rebuy="0" win="0" chips="40,483" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="180" name="sms231" rebuy="0" win="0" chips="115,935" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="180" name="AllPainNoGa1n" rebuy="0" win="0" chips="104,260" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="3,180" name="Veqeqoby" rebuy="0" win="0" chips="113,026" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="14,580" name="GabrielBatigol" rebuy="0" win="0" chips="118,836" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="14,580" name="TheArtic" rebuy="0" win="35,040" chips="188,509" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="2" player="Scaramangas69"/>
+   <action type="15" sum="180" no="3" player="tropeiro123"/>
+   <action type="15" sum="180" no="4" player="sms231"/>
+   <action type="15" sum="180" no="5" player="AllPainNoGa1n"/>
+   <action type="15" sum="180" no="6" player="Veqeqoby"/>
+   <action type="15" sum="180" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="8" player="TheArtic"/>
+   <action type="1" sum="600" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="1,200" no="10" player="Scaramangas69"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HQ D6</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="12" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="13" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="23" sum="3,000" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">HA H10</cards>
+   <action type="3" sum="3,000" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">SQ DA</cards>
+   <action type="23" sum="14,400" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="17" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="18" player="Scaramangas69"/>
+   <action type="0" sum="0" no="19" player="Veqeqoby"/>
+   <action type="3" sum="11,400" no="20" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 C6 C3</cards>
+   <action type="4" sum="0" no="21" player="GabrielBatigol"/>
+   <action type="4" sum="0" no="22" player="TheArtic"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C5</cards>
+   <action type="4" sum="0" no="23" player="GabrielBatigol"/>
+   <action type="4" sum="0" no="24" player="TheArtic"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action type="4" sum="0" no="25" player="GabrielBatigol"/>
+   <action type="4" sum="0" no="26" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567441372">
+  <general>
+   <startdate>2024-02-16 15:31:54</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="1" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="117,954" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="780" name="Scaramangas69" rebuy="0" win="0" chips="123,548" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="2,580" name="tropeiro123" rebuy="0" win="0" chips="40,303" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="180" name="sms231" rebuy="0" win="0" chips="115,755" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="3,780" name="AllPainNoGa1n" rebuy="0" win="6,840" chips="104,080" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="180" name="Veqeqoby" rebuy="0" win="0" chips="109,846" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="104,256" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="208,969" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="Scaramangas69"/>
+   <action type="15" sum="180" no="2" player="tropeiro123"/>
+   <action type="15" sum="180" no="3" player="sms231"/>
+   <action type="15" sum="180" no="4" player="AllPainNoGa1n"/>
+   <action type="15" sum="180" no="5" player="Veqeqoby"/>
+   <action type="15" sum="180" no="6" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="7" player="TheArtic"/>
+   <action type="15" sum="180" no="8" player="thuggerthegoat"/>
+   <action type="1" sum="600" no="9" player="Scaramangas69"/>
+   <action type="2" sum="1,200" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="11" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="23" sum="2,400" no="12" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="13" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="14" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="15" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="16" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="17" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">SJ SK</cards>
+   <action type="3" sum="1,200" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 C6 C8</cards>
+   <action type="4" sum="0" no="19" player="tropeiro123"/>
+   <action type="5" sum="1,200" no="20" player="AllPainNoGa1n"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10567441520">
+  <general>
+   <startdate>2024-02-16 15:33:19</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="9,000" name="thuggerthegoat" rebuy="0" win="9,240" chips="117,774" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="180" name="Scaramangas69" rebuy="0" win="0" chips="122,768" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="780" name="tropeiro123" rebuy="0" win="0" chips="37,723" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="1,380" name="sms231" rebuy="0" win="0" chips="115,575" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="180" name="AllPainNoGa1n" rebuy="0" win="0" chips="108,340" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="3,180" name="Veqeqoby" rebuy="0" win="0" chips="109,666" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="104,076" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="208,789" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="tropeiro123"/>
+   <action type="15" sum="180" no="2" player="sms231"/>
+   <action type="15" sum="180" no="3" player="AllPainNoGa1n"/>
+   <action type="15" sum="180" no="4" player="Veqeqoby"/>
+   <action type="15" sum="180" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="6" player="TheArtic"/>
+   <action type="15" sum="180" no="7" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="8" player="Scaramangas69"/>
+   <action type="1" sum="600" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,200" no="10" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="11" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="23" sum="3,000" no="12" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="13" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="14" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="9,000" no="15" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="16" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">H2 HJ</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="18" player="sms231"/>
+   <action type="0" sum="0" no="19" player="Veqeqoby"/>
+  </round>
+ </game>
+ <game gamecode="10567465459">
+  <general>
+   <startdate>2024-02-16 15:34:02</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="thuggerthegoat" rebuy="0" win="0" chips="123,834" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="Scaramangas69" rebuy="0" win="0" chips="122,588" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="3,180" name="tropeiro123" rebuy="0" win="0" chips="36,943" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="780" name="sms231" rebuy="0" win="0" chips="114,195" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="3,180" name="AllPainNoGa1n" rebuy="0" win="0" chips="108,160" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="6,823" name="Veqeqoby" rebuy="0" win="11,040" chips="106,486" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="180" name="GabrielBatigol" rebuy="0" win="0" chips="103,896" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="180" name="TheArtic" rebuy="0" win="0" chips="208,609" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="sms231"/>
+   <action type="15" sum="180" no="2" player="AllPainNoGa1n"/>
+   <action type="15" sum="180" no="3" player="Veqeqoby"/>
+   <action type="15" sum="180" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="180" no="5" player="TheArtic"/>
+   <action type="15" sum="180" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="180" no="7" player="Scaramangas69"/>
+   <action type="15" sum="180" no="8" player="tropeiro123"/>
+   <action type="1" sum="600" no="9" player="sms231"/>
+   <action type="2" sum="1,200" no="10" player="AllPainNoGa1n"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="23" sum="3,000" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="15" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">CA SJ</cards>
+   <action type="3" sum="3,000" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="3" sum="1,800" no="18" player="AllPainNoGa1n"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 C4 S10</cards>
+   <action type="4" sum="0" no="19" player="AllPainNoGa1n"/>
+   <action type="5" sum="3,643" no="20" player="Veqeqoby"/>
+   <action type="0" sum="0" no="21" player="tropeiro123"/>
+   <action type="0" sum="0" no="22" player="AllPainNoGa1n"/>
+  </round>
+ </game>
+ <game gamecode="10567465665">
+  <general>
+   <startdate>2024-02-16 15:36:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="thuggerthegoat" rebuy="0" win="0" chips="123,654" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="7,900" name="Scaramangas69" rebuy="0" win="0" chips="122,408" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="33,763" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="1" bet="200" name="sms231" rebuy="0" win="0" chips="113,415" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="900" name="AllPainNoGa1n" rebuy="0" win="0" chips="104,980" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,600" name="Veqeqoby" rebuy="0" win="0" chips="114,346" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="103,716" name="GabrielBatigol" rebuy="0" win="218,432" chips="103,716" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="205,244" name="TheArtic" rebuy="0" win="0" chips="208,429" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="2" player="Veqeqoby"/>
+   <action type="15" sum="200" no="3" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="4" player="TheArtic"/>
+   <action type="15" sum="200" no="5" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="6" player="Scaramangas69"/>
+   <action type="15" sum="200" no="7" player="tropeiro123"/>
+   <action type="15" sum="200" no="8" player="sms231"/>
+   <action type="1" sum="700" no="9" player="AllPainNoGa1n"/>
+   <action type="2" sum="1,400" no="10" player="Veqeqoby"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="GabrielBatigol">D9 DJ</cards>
+   <action type="3" sum="1,400" no="11" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">C8 D8</cards>
+   <action type="23" sum="4,900" no="12" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="13" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="3" sum="4,900" no="14" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">SJ H10</cards>
+   <action type="0" sum="0" no="15" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="16" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="17" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="18" player="Veqeqoby"/>
+   <action type="3" sum="3,500" no="19" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 C9 D5</cards>
+   <action type="4" sum="0" no="20" player="GabrielBatigol"/>
+   <action type="5" sum="2,800" no="21" player="TheArtic"/>
+   <action type="3" sum="2,800" no="22" player="Scaramangas69"/>
+   <action type="23" sum="15,096" no="23" player="GabrielBatigol"/>
+   <action type="3" sum="12,296" no="24" player="TheArtic"/>
+   <action type="0" sum="0" no="25" player="Scaramangas69"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action type="4" sum="0" no="26" player="GabrielBatigol"/>
+   <action type="5" sum="12,848" no="27" player="TheArtic"/>
+   <action type="3" sum="12,848" no="28" player="GabrielBatigol"/>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+   <action type="4" sum="0" no="29" player="GabrielBatigol"/>
+   <action type="5" sum="172,200" no="30" player="TheArtic"/>
+   <action type="7" sum="70,672" no="31" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567465818">
+  <general>
+   <startdate>2024-02-16 15:37:41</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="thuggerthegoat" rebuy="0" win="0" chips="123,454" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="7,400" name="Scaramangas69" rebuy="0" win="5,800" chips="114,508" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="33,563" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="200" name="sms231" rebuy="0" win="0" chips="113,215" addon="0" reg_code=""/>
+    <player seat="6" dealer="1" bet="200" name="AllPainNoGa1n" rebuy="0" win="0" chips="104,080" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="1,600" name="Veqeqoby" rebuy="0" win="0" chips="112,746" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,600" name="GabrielBatigol" rebuy="0" win="0" chips="218,432" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="200" name="TheArtic" rebuy="0" win="0" chips="104,713" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="Veqeqoby"/>
+   <action type="15" sum="200" no="2" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="3" player="TheArtic"/>
+   <action type="15" sum="200" no="4" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="5" player="Scaramangas69"/>
+   <action type="15" sum="200" no="6" player="tropeiro123"/>
+   <action type="15" sum="200" no="7" player="sms231"/>
+   <action type="15" sum="200" no="8" player="AllPainNoGa1n"/>
+   <action type="1" sum="700" no="9" player="Veqeqoby"/>
+   <action type="2" sum="1,400" no="10" player="GabrielBatigol"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="11" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="12" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="3" sum="1,400" no="13" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">D4 C9</cards>
+   <action type="0" sum="0" no="14" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="15" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="16" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="3" sum="700" no="17" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="4" sum="0" no="18" player="GabrielBatigol"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 D6 S5</cards>
+   <action type="4" sum="0" no="19" player="Veqeqoby"/>
+   <action type="4" sum="0" no="20" player="GabrielBatigol"/>
+   <action type="5" sum="5,800" no="21" player="Scaramangas69"/>
+   <action type="0" sum="0" no="22" player="Veqeqoby"/>
+   <action type="0" sum="0" no="23" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567465913">
+  <general>
+   <startdate>2024-02-16 15:38:36</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="thuggerthegoat" rebuy="0" win="0" chips="123,254" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="200" name="Scaramangas69" rebuy="0" win="0" chips="118,708" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="33,363" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="200" name="sms231" rebuy="0" win="0" chips="113,015" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="4,400" name="AllPainNoGa1n" rebuy="0" win="10,000" chips="103,880" addon="0" reg_code=""/>
+    <player seat="7" dealer="1" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="111,146" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="3,000" name="GabrielBatigol" rebuy="0" win="0" chips="216,832" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="3,000" name="TheArtic" rebuy="0" win="0" chips="104,513" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="2" player="TheArtic"/>
+   <action type="15" sum="200" no="3" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="4" player="Scaramangas69"/>
+   <action type="15" sum="200" no="5" player="tropeiro123"/>
+   <action type="15" sum="200" no="6" player="sms231"/>
+   <action type="15" sum="200" no="7" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="8" player="Veqeqoby"/>
+   <action type="1" sum="700" no="9" player="GabrielBatigol"/>
+   <action type="2" sum="1,400" no="10" player="TheArtic"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="11" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="12" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">H8 CK</cards>
+   <action type="0" sum="0" no="13" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="14" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="23" sum="2,800" no="15" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="16" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="3" sum="2,100" no="17" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="3" sum="1,400" no="18" player="TheArtic"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 CJ SJ</cards>
+   <action type="4" sum="0" no="19" player="GabrielBatigol"/>
+   <action type="4" sum="0" no="20" player="TheArtic"/>
+   <action type="5" sum="1,400" no="21" player="AllPainNoGa1n"/>
+   <action type="0" sum="0" no="22" player="GabrielBatigol"/>
+   <action type="0" sum="0" no="23" player="TheArtic"/>
+  </round>
+ </game>
+ <game gamecode="10567466104">
+  <general>
+   <startdate>2024-02-16 15:39:43</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="21,043" name="thuggerthegoat" rebuy="0" win="43,986" chips="123,054" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="200" name="Scaramangas69" rebuy="0" win="0" chips="118,508" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="33,163" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="200" name="sms231" rebuy="0" win="0" chips="112,815" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="AllPainNoGa1n" rebuy="0" win="0" chips="110,880" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="110,946" addon="0" reg_code=""/>
+    <player seat="9" dealer="1" bet="21,043" name="GabrielBatigol" rebuy="0" win="0" chips="213,832" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="900" name="TheArtic" rebuy="0" win="0" chips="101,513" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="TheArtic"/>
+   <action type="15" sum="200" no="2" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="3" player="Scaramangas69"/>
+   <action type="15" sum="200" no="4" player="tropeiro123"/>
+   <action type="15" sum="200" no="5" player="sms231"/>
+   <action type="15" sum="200" no="6" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="7" player="Veqeqoby"/>
+   <action type="15" sum="200" no="8" player="GabrielBatigol"/>
+   <action type="1" sum="700" no="9" player="TheArtic"/>
+   <action type="2" sum="1,400" no="10" player="thuggerthegoat"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="0" sum="0" no="11" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">D5 DK</cards>
+   <action type="0" sum="0" no="12" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="13" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="14" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="15" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">D10 SA</cards>
+   <action type="23" sum="3,500" no="16" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="17" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">D8 SK</cards>
+   <action type="3" sum="2,100" no="18" player="thuggerthegoat"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S9 HK</cards>
+   <action type="4" sum="0" no="19" player="thuggerthegoat"/>
+   <action type="5" sum="4,743" no="20" player="GabrielBatigol"/>
+   <action type="3" sum="4,743" no="21" player="thuggerthegoat"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action type="4" sum="0" no="22" player="thuggerthegoat"/>
+   <action type="5" sum="12,600" no="23" player="GabrielBatigol"/>
+   <action type="3" sum="12,600" no="24" player="thuggerthegoat"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action type="4" sum="0" no="25" player="thuggerthegoat"/>
+   <action type="4" sum="0" no="26" player="GabrielBatigol"/>
+  </round>
+ </game>
+ <game gamecode="10567466471">
+  <general>
+   <startdate>2024-02-16 15:41:29</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="900" name="thuggerthegoat" rebuy="0" win="0" chips="145,997" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="1,600" name="Scaramangas69" rebuy="0" win="3,000" chips="118,308" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="200" name="tropeiro123" rebuy="0" win="0" chips="32,963" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="200" name="sms231" rebuy="0" win="0" chips="112,615" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="AllPainNoGa1n" rebuy="0" win="0" chips="110,680" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="110,746" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="GabrielBatigol" rebuy="0" win="0" chips="192,789" addon="0" reg_code=""/>
+    <player seat="10" dealer="1" bet="200" name="TheArtic" rebuy="0" win="0" chips="100,613" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="2" player="Scaramangas69"/>
+   <action type="15" sum="200" no="3" player="tropeiro123"/>
+   <action type="15" sum="200" no="4" player="sms231"/>
+   <action type="15" sum="200" no="5" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="6" player="Veqeqoby"/>
+   <action type="15" sum="200" no="7" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="8" player="TheArtic"/>
+   <action type="1" sum="700" no="9" player="thuggerthegoat"/>
+   <action type="2" sum="1,400" no="10" player="Scaramangas69"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <cards type="Pocket" player="tropeiro123">C4 S2</cards>
+   <action type="0" sum="0" no="11" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="12" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="13" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="14" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="15" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="16" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="17" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567466560">
+  <general>
+   <startdate>2024-02-16 15:42:02</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="1" bet="3,000" name="thuggerthegoat" rebuy="0" win="0" chips="145,097" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="8,000" name="Scaramangas69" rebuy="0" win="10,000" chips="120,408" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="3,000" name="tropeiro123" rebuy="0" win="0" chips="32,763" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="200" name="sms231" rebuy="0" win="0" chips="112,415" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="AllPainNoGa1n" rebuy="0" win="0" chips="110,480" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="110,546" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="GabrielBatigol" rebuy="0" win="0" chips="192,589" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="200" name="TheArtic" rebuy="0" win="0" chips="100,413" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="Scaramangas69"/>
+   <action type="15" sum="200" no="2" player="tropeiro123"/>
+   <action type="15" sum="200" no="3" player="sms231"/>
+   <action type="15" sum="200" no="4" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="5" player="Veqeqoby"/>
+   <action type="15" sum="200" no="6" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="7" player="TheArtic"/>
+   <action type="15" sum="200" no="8" player="thuggerthegoat"/>
+   <action type="1" sum="700" no="9" player="Scaramangas69"/>
+   <action type="2" sum="1,400" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="11" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="12" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="13" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="14" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="15" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="23" sum="2,800" no="16" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="3" sum="2,100" no="17" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">D7 D10</cards>
+   <action type="3" sum="1,400" no="18" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 CK H3</cards>
+   <action type="5" sum="5,000" no="19" player="Scaramangas69"/>
+   <action type="0" sum="0" no="20" player="tropeiro123"/>
+   <action type="0" sum="0" no="21" player="thuggerthegoat"/>
+  </round>
+ </game>
+ <game gamecode="10567487190">
+  <general>
+   <startdate>2024-02-16 15:43:07</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="200" name="thuggerthegoat" rebuy="0" win="0" chips="142,097" addon="0" reg_code=""/>
+    <player seat="2" dealer="1" bet="15,100" name="Scaramangas69" rebuy="0" win="10,700" chips="127,408" addon="0" reg_code=""/>
+    <player seat="4" dealer="0" bet="900" name="tropeiro123" rebuy="0" win="0" chips="29,763" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="4,400" name="sms231" rebuy="0" win="0" chips="112,215" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="200" name="AllPainNoGa1n" rebuy="0" win="0" chips="110,280" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="110,346" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="200" name="GabrielBatigol" rebuy="0" win="0" chips="192,389" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="200" name="TheArtic" rebuy="0" win="0" chips="100,213" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="tropeiro123"/>
+   <action type="15" sum="200" no="2" player="sms231"/>
+   <action type="15" sum="200" no="3" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="4" player="Veqeqoby"/>
+   <action type="15" sum="200" no="5" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="6" player="TheArtic"/>
+   <action type="15" sum="200" no="7" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="8" player="Scaramangas69"/>
+   <action type="1" sum="700" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,400" no="10" player="sms231"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="11" player="AllPainNoGa1n"/>
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="12" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="0" sum="0" no="13" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="14" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">X X</cards>
+   <action type="0" sum="0" no="15" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="23" sum="4,200" no="16" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">DJ H9</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="3" sum="2,800" no="18" player="sms231"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK D10 DK</cards>
+   <action type="4" sum="0" no="19" player="sms231"/>
+   <action type="4" sum="0" no="20" player="Scaramangas69"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C10</cards>
+   <action type="4" sum="0" no="21" player="sms231"/>
+   <action type="4" sum="0" no="22" player="Scaramangas69"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action type="4" sum="0" no="23" player="sms231"/>
+   <action type="5" sum="10,700" no="24" player="Scaramangas69"/>
+   <action type="0" sum="0" no="25" player="sms231"/>
+  </round>
+ </game>
+ <game gamecode="10567487302">
+  <general>
+   <startdate>2024-02-16 15:44:10</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player seat="1" dealer="0" bet="141,697" name="thuggerthegoat" rebuy="0" win="67,326" chips="141,897" addon="0" reg_code="">
+     <knockout kicked="tropeiro123" tobalance="€4.55" tobounty="€4.55"/>
+    </player>
+    <player seat="2" dealer="0" bet="5,100" name="Scaramangas69" rebuy="0" win="0" chips="133,708" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="28,663" name="tropeiro123" rebuy="0" win="0" chips="28,863" addon="0" reg_code="7951811313"/>
+    <player seat="5" dealer="0" bet="900" name="sms231" rebuy="0" win="0" chips="107,815" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,600" name="AllPainNoGa1n" rebuy="0" win="0" chips="110,080" addon="0" reg_code=""/>
+    <player seat="7" dealer="0" bet="200" name="Veqeqoby" rebuy="0" win="0" chips="110,146" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="1,600" name="GabrielBatigol" rebuy="0" win="0" chips="192,189" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="200" name="TheArtic" rebuy="0" win="0" chips="100,013" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="200" no="1" player="sms231"/>
+   <action type="15" sum="200" no="2" player="AllPainNoGa1n"/>
+   <action type="15" sum="200" no="3" player="Veqeqoby"/>
+   <action type="15" sum="200" no="4" player="GabrielBatigol"/>
+   <action type="15" sum="200" no="5" player="TheArtic"/>
+   <action type="15" sum="200" no="6" player="thuggerthegoat"/>
+   <action type="15" sum="200" no="7" player="Scaramangas69"/>
+   <action type="15" sum="200" no="8" player="tropeiro123"/>
+   <action type="1" sum="700" no="9" player="sms231"/>
+   <action type="2" sum="1,400" no="10" player="AllPainNoGa1n"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Veqeqoby">X X</cards>
+   <action type="0" sum="0" no="11" player="Veqeqoby"/>
+   <cards type="Pocket" player="GabrielBatigol">X X</cards>
+   <action type="3" sum="1,400" no="12" player="GabrielBatigol"/>
+   <cards type="Pocket" player="TheArtic">X X</cards>
+   <action type="0" sum="0" no="13" player="TheArtic"/>
+   <cards type="Pocket" player="thuggerthegoat">DQ SA</cards>
+   <action type="23" sum="4,900" no="14" player="thuggerthegoat"/>
+   <cards type="Pocket" player="Scaramangas69">X X</cards>
+   <action type="3" sum="4,900" no="15" player="Scaramangas69"/>
+   <cards type="Pocket" player="tropeiro123">HA SK</cards>
+   <action type="23" sum="28,663" no="16" player="tropeiro123"/>
+   <cards type="Pocket" player="sms231">X X</cards>
+   <action type="0" sum="0" no="17" player="sms231"/>
+   <cards type="Pocket" player="AllPainNoGa1n">X X</cards>
+   <action type="0" sum="0" no="18" player="AllPainNoGa1n"/>
+   <action type="0" sum="0" no="19" player="GabrielBatigol"/>
+   <action type="23" sum="141,697" no="20" player="thuggerthegoat"/>
+   <action type="0" sum="0" no="21" player="Scaramangas69"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S5 HQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+</session>

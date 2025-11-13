@@ -1,0 +1,2794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947777893">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€30,000 GTD, 1080874153</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:55:02</duration>
+  <gamecount>104</gamecount>
+  <startdate>2024-02-12 16:10:57</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>214,435</bets>
+  <wins>100,320</wins>
+  <chipsin>99,870</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP90</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294205</tournamentcode>
+  <tournamentname>E3|€30,000 GTD</tournamentname>
+  <place>261</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10560428520">
+  <general>
+   <startdate>2024-02-12 16:10:57</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" seat="1" chips="95,675" addon="0" bet="275" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="75,900" addon="0" bet="1,175" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="233,464" addon="0" bet="2,075" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,332" addon="0" bet="275" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="181,857" addon="0" bet="275" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,807" addon="0" bet="275" reg_code="" name="7bbopen33" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="159,720" addon="0" bet="32,950" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="185,766" addon="0" bet="58,150" reg_code="" name="doctorfifth916" win="70,250" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="tropeiro123" type="15"/>
+   <action no="2" sum="275" player="BushDoctor04" type="15"/>
+   <action no="3" sum="275" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="275" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="275" player="7bbopen33" type="15"/>
+   <action no="6" sum="275" player="Niklir2000" type="15"/>
+   <action no="7" sum="275" player="doctorfifth916" type="15"/>
+   <action no="8" sum="275" player="HuMaN" type="15"/>
+   <action no="9" sum="900" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,800" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="7bbopen33" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="7bbopen33" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="3,780" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="10,800" player="doctorfifth916" type="23"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 C6</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="BushDoctor04" type="0"/>
+   <action no="19" sum="7,020" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK SJ DK</cards>
+   <action no="20" sum="0" player="Niklir2000" type="4"/>
+   <action no="21" sum="9,275" player="doctorfifth916" type="5"/>
+   <action no="22" sum="9,275" player="Niklir2000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="23" sum="0" player="Niklir2000" type="4"/>
+   <action no="24" sum="0" player="doctorfifth916" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="25" sum="12,600" player="Niklir2000" type="5"/>
+   <action no="26" sum="37,800" player="doctorfifth916" type="23"/>
+   <action no="27" sum="0" player="Niklir2000" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560428700">
+  <general>
+   <startdate>2024-02-12 16:12:20</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,400" addon="0" bet="275" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="74,725" addon="0" bet="275" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,389" addon="0" bet="1,175" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,057" addon="0" bet="2,075" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="181,582" addon="0" bet="43,532" reg_code="" name="Kobe24Lebron23" win="91,414" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€11.37" kicked="7bbopen33"/>
+    </player>
+    <player dealer="0" seat="7" chips="43,532" addon="0" bet="43,257" reg_code="" name="7bbopen33" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="126,770" addon="0" bet="275" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="223,066" addon="0" bet="275" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="BushDoctor04" type="15"/>
+   <action no="2" sum="275" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="275" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="275" player="7bbopen33" type="15"/>
+   <action no="5" sum="275" player="Niklir2000" type="15"/>
+   <action no="6" sum="275" player="doctorfifth916" type="15"/>
+   <action no="7" sum="275" player="HuMaN" type="15"/>
+   <action no="8" sum="275" player="tropeiro123" type="15"/>
+   <action no="9" sum="900" player="BushDoctor04" type="1"/>
+   <action no="10" sum="1,800" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">C10 C9</cards>
+   <action no="11" sum="3,600" player="Kobe24Lebron23" type="23"/>
+   <cards player="7bbopen33" type="Pocket">SK CA</cards>
+   <action no="12" sum="43,257" player="7bbopen33" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D4 HA</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="0"/>
+   <action no="19" sum="39,657" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S4 SQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10560428795">
+  <general>
+   <startdate>2024-02-12 16:13:10</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,125" addon="0" bet="275" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="74,450" addon="0" bet="275" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="230,214" addon="0" bet="275" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="98,982" addon="0" bet="1,175" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="229,464" addon="0" bet="2,075" reg_code="" name="Kobe24Lebron23" win="3,725" rebuy="0"/>
+    <player dealer="0" seat="9" chips="126,495" addon="0" bet="275" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="222,791" addon="0" bet="275" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="275" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="275" player="Niklir2000" type="15"/>
+   <action no="4" sum="275" player="doctorfifth916" type="15"/>
+   <action no="5" sum="275" player="HuMaN" type="15"/>
+   <action no="6" sum="275" player="tropeiro123" type="15"/>
+   <action no="7" sum="275" player="BushDoctor04" type="15"/>
+   <action no="8" sum="900" player="JiggaWhoo" type="1"/>
+   <action no="9" sum="1,800" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 SA</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560428874">
+  <general>
+   <startdate>2024-02-12 16:13:48</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="94,850" addon="0" bet="275" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="74,175" addon="0" bet="275" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,939" addon="0" bet="275" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="97,807" addon="0" bet="275" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="232,014" addon="0" bet="8,471" reg_code="" name="Kobe24Lebron23" win="11,200" rebuy="0"/>
+    <player dealer="0" seat="7" chips="100,000" addon="0" bet="4,775" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="126,220" addon="0" bet="275" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="222,516" addon="0" bet="275" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="275" player="WizardofAids" type="15"/>
+   <action no="3" sum="275" player="Niklir2000" type="15"/>
+   <action no="4" sum="275" player="doctorfifth916" type="15"/>
+   <action no="5" sum="275" player="HuMaN" type="15"/>
+   <action no="6" sum="275" player="tropeiro123" type="15"/>
+   <action no="7" sum="275" player="BushDoctor04" type="15"/>
+   <action no="8" sum="275" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="900" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="1,800" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 S4</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="17" sum="4,500" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="18" sum="2,700" player="WizardofAids" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA D6 S3</cards>
+   <action no="19" sum="3,696" player="Kobe24Lebron23" type="5"/>
+   <action no="20" sum="0" player="WizardofAids" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560428969">
+  <general>
+   <startdate>2024-02-12 16:14:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="94,575" addon="0" bet="275" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="73,900" addon="0" bet="275" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,664" addon="0" bet="275" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="97,532" addon="0" bet="275" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="238,439" addon="0" bet="7,274" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="95,225" addon="0" bet="1,175" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="125,945" addon="0" bet="19,673" reg_code="" name="Niklir2000" win="17,098" rebuy="0"/>
+    <player dealer="0" seat="10" chips="222,241" addon="0" bet="275" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="WizardofAids" type="15"/>
+   <action no="2" sum="275" player="Niklir2000" type="15"/>
+   <action no="3" sum="275" player="doctorfifth916" type="15"/>
+   <action no="4" sum="275" player="HuMaN" type="15"/>
+   <action no="5" sum="275" player="tropeiro123" type="15"/>
+   <action no="6" sum="275" player="BushDoctor04" type="15"/>
+   <action no="7" sum="275" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="275" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="900" player="WizardofAids" type="1"/>
+   <action no="10" sum="1,800" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 SQ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="3,600" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="18" sum="1,800" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S9 H5</cards>
+   <action no="19" sum="0" player="Niklir2000" type="4"/>
+   <action no="20" sum="3,399" player="Kobe24Lebron23" type="5"/>
+   <action no="21" sum="15,798" player="Niklir2000" type="23"/>
+   <action no="22" sum="0" player="Kobe24Lebron23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560452263">
+  <general>
+   <startdate>2024-02-12 16:15:24</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="94,300" addon="0" bet="300" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="73,625" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,389" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="97,257" addon="0" bet="96,957" reg_code="" name="JiggaWhoo" win="33,400" rebuy="0"/>
+    <player dealer="0" seat="6" chips="231,165" addon="0" bet="300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="94,050" addon="0" bet="14,300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="135,769" addon="0" bet="1,300" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="221,966" addon="0" bet="2,300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="Niklir2000" type="15"/>
+   <action no="2" sum="300" player="doctorfifth916" type="15"/>
+   <action no="3" sum="300" player="HuMaN" type="15"/>
+   <action no="4" sum="300" player="tropeiro123" type="15"/>
+   <action no="5" sum="300" player="BushDoctor04" type="15"/>
+   <action no="6" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="300" player="WizardofAids" type="15"/>
+   <action no="9" sum="1,000" player="Niklir2000" type="1"/>
+   <action no="10" sum="2,000" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="HuMaN" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 S10</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="5,000" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="14,000" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="doctorfifth916" type="0"/>
+   <action no="19" sum="96,957" player="JiggaWhoo" type="23"/>
+   <action no="20" sum="0" player="WizardofAids" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560452377">
+  <general>
+   <startdate>2024-02-12 16:16:19</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="94,000" addon="0" bet="2,300" reg_code="" name="HuMaN" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="73,325" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,089" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="116,357" addon="0" bet="300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="230,865" addon="0" bet="300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="79,750" addon="0" bet="79,450" reg_code="" name="WizardofAids" win="164,300" rebuy="0"/>
+    <player dealer="1" seat="9" chips="134,469" addon="0" bet="79,750" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="219,666" addon="0" bet="1,300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="doctorfifth916" type="15"/>
+   <action no="2" sum="300" player="HuMaN" type="15"/>
+   <action no="3" sum="300" player="tropeiro123" type="15"/>
+   <action no="4" sum="300" player="BushDoctor04" type="15"/>
+   <action no="5" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="6" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="7" sum="300" player="WizardofAids" type="15"/>
+   <action no="8" sum="300" player="Niklir2000" type="15"/>
+   <action no="9" sum="1,000" player="doctorfifth916" type="1"/>
+   <action no="10" sum="2,000" player="HuMaN" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H3 S3</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">D9 C9</cards>
+   <action no="15" sum="4,200" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">CA SK</cards>
+   <action no="16" sum="12,400" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="HuMaN" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="HuMaN" type="0"/>
+   <action no="19" sum="79,450" player="WizardofAids" type="23"/>
+   <action no="20" sum="67,050" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 D2 SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10560452507">
+  <general>
+   <startdate>2024-02-12 16:17:26</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="2" chips="73,025" addon="0" bet="4,300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="228,789" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="116,057" addon="0" bet="300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="230,565" addon="0" bet="31,597" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="164,300" addon="0" bet="300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="54,719" addon="0" bet="31,597" reg_code="" name="Niklir2000" win="68,694" rebuy="0"/>
+    <player dealer="1" seat="10" chips="218,366" addon="0" bet="300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="tropeiro123" type="15"/>
+   <action no="2" sum="300" player="BushDoctor04" type="15"/>
+   <action no="3" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="300" player="WizardofAids" type="15"/>
+   <action no="6" sum="300" player="Niklir2000" type="15"/>
+   <action no="7" sum="300" player="doctorfifth916" type="15"/>
+   <action no="8" sum="2,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">DK D4</cards>
+   <action no="11" sum="4,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">H7 H10</cards>
+   <action no="13" sum="4,000" player="Niklir2000" type="3"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 CA</cards>
+   <action no="15" sum="2,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 S8 H3</cards>
+   <action no="16" sum="0" player="tropeiro123" type="4"/>
+   <action no="17" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="18" sum="0" player="Niklir2000" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="7,755" player="Kobe24Lebron23" type="5"/>
+   <action no="21" sum="7,755" player="Niklir2000" type="3"/>
+   <action no="22" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="23" sum="19,542" player="Kobe24Lebron23" type="5"/>
+   <action no="24" sum="19,542" player="Niklir2000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560452708">
+  <general>
+   <startdate>2024-02-12 16:19:07</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="81,116" addon="0" bet="300" reg_code="" name="Keekenpoika" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="68,725" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="228,489" addon="0" bet="17,630" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="115,757" addon="0" bet="2,300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="198,968" addon="0" bet="300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="164,000" addon="0" bet="300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="91,816" addon="0" bet="41,630" reg_code="" name="Niklir2000" win="39,060" rebuy="0"/>
+    <player dealer="0" seat="10" chips="218,066" addon="0" bet="300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="BushDoctor04" type="15"/>
+   <action no="2" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="300" player="WizardofAids" type="15"/>
+   <action no="5" sum="300" player="Niklir2000" type="15"/>
+   <action no="6" sum="300" player="doctorfifth916" type="15"/>
+   <action no="7" sum="300" player="Keekenpoika" type="15"/>
+   <action no="8" sum="300" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,000" player="BushDoctor04" type="1"/>
+   <action no="10" sum="2,000" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="4,000" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Keekenpoika" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 C5</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="3,000" player="BushDoctor04" type="3"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 SK CA</cards>
+   <action no="19" sum="0" player="BushDoctor04" type="4"/>
+   <action no="20" sum="3,100" player="Niklir2000" type="5"/>
+   <action no="21" sum="3,100" player="BushDoctor04" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="22" sum="0" player="BushDoctor04" type="4"/>
+   <action no="23" sum="10,230" player="Niklir2000" type="5"/>
+   <action no="24" sum="10,230" player="BushDoctor04" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="25" sum="0" player="BushDoctor04" type="4"/>
+   <action no="26" sum="24,000" player="Niklir2000" type="5"/>
+   <action no="27" sum="0" player="BushDoctor04" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560452833">
+  <general>
+   <startdate>2024-02-12 16:20:09</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="80,816" addon="0" bet="80,516" reg_code="" name="Keekenpoika" win="178,432" rebuy="0"/>
+    <player dealer="0" seat="2" chips="68,425" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="210,859" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="113,457" addon="0" bet="1,300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="198,668" addon="0" bet="2,300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="163,700" addon="0" bet="300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="113,246" addon="0" bet="113,246" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="217,766" addon="0" bet="12,300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="300" player="WizardofAids" type="15"/>
+   <action no="4" sum="300" player="Niklir2000" type="15"/>
+   <action no="5" sum="300" player="doctorfifth916" type="15"/>
+   <action no="6" sum="300" player="Keekenpoika" type="15"/>
+   <action no="7" sum="300" player="tropeiro123" type="15"/>
+   <action no="8" sum="300" player="BushDoctor04" type="15"/>
+   <action no="9" sum="1,000" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="2,000" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">D6 D7</cards>
+   <action no="12" sum="4,000" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="12,000" player="doctorfifth916" type="23"/>
+   <cards player="Keekenpoika" type="Pocket">SQ SA</cards>
+   <action no="14" sum="80,516" player="Keekenpoika" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D8 D10</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Kobe24Lebron23" type="0"/>
+   <action no="19" sum="108,946" player="Niklir2000" type="7"/>
+   <action no="20" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 DQ S2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560452990">
+  <general>
+   <startdate>2024-02-12 16:21:25</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="178,432" addon="0" bet="4,760" reg_code="" name="Keekenpoika" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="68,125" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="210,559" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="112,157" addon="0" bet="14,784" reg_code="" name="JiggaWhoo" win="14,320" rebuy="0"/>
+    <player dealer="0" seat="6" chips="196,368" addon="0" bet="1,300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="163,400" addon="0" bet="2,300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="32,430" addon="0" bet="300" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="205,466" addon="0" bet="300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="300" player="WizardofAids" type="15"/>
+   <action no="3" sum="300" player="Niklir2000" type="15"/>
+   <action no="4" sum="300" player="doctorfifth916" type="15"/>
+   <action no="5" sum="300" player="Keekenpoika" type="15"/>
+   <action no="6" sum="300" player="tropeiro123" type="15"/>
+   <action no="7" sum="300" player="BushDoctor04" type="15"/>
+   <action no="8" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="1,000" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="2,000" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="13" sum="4,460" player="Keekenpoika" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H10 H9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="4,460" player="JiggaWhoo" type="3"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="WizardofAids" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 C3 C4</cards>
+   <action no="19" sum="0" player="Keekenpoika" type="4"/>
+   <action no="20" sum="0" player="JiggaWhoo" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="21" sum="0" player="Keekenpoika" type="4"/>
+   <action no="22" sum="10,024" player="JiggaWhoo" type="5"/>
+   <action no="23" sum="0" player="Keekenpoika" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560453140">
+  <general>
+   <startdate>2024-02-12 16:22:51</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="173,672" addon="0" bet="4,760" reg_code="" name="Keekenpoika" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="67,825" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="210,259" addon="0" bet="12,760" reg_code="" name="BushDoctor04" win="16,780" rebuy="0"/>
+    <player dealer="0" seat="5" chips="121,717" addon="0" bet="300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="195,068" addon="0" bet="300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="161,100" addon="0" bet="1,300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="32,130" addon="0" bet="4,760" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="205,166" addon="0" bet="300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="WizardofAids" type="15"/>
+   <action no="2" sum="300" player="Niklir2000" type="15"/>
+   <action no="3" sum="300" player="doctorfifth916" type="15"/>
+   <action no="4" sum="300" player="Keekenpoika" type="15"/>
+   <action no="5" sum="300" player="tropeiro123" type="15"/>
+   <action no="6" sum="300" player="BushDoctor04" type="15"/>
+   <action no="7" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="1,000" player="WizardofAids" type="1"/>
+   <action no="10" sum="2,000" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="12" sum="4,460" player="Keekenpoika" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SA CJ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="4,460" player="BushDoctor04" type="3"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="18" sum="2,460" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 H10 S4</cards>
+   <action no="19" sum="0" player="Niklir2000" type="4"/>
+   <action no="20" sum="0" player="Keekenpoika" type="4"/>
+   <action no="21" sum="0" player="BushDoctor04" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="22" sum="0" player="Niklir2000" type="4"/>
+   <action no="23" sum="0" player="Keekenpoika" type="4"/>
+   <action no="24" sum="8,000" player="BushDoctor04" type="5"/>
+   <action no="25" sum="0" player="Niklir2000" type="0"/>
+   <action no="26" sum="0" player="Keekenpoika" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560453261">
+  <general>
+   <startdate>2024-02-12 16:23:58</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="168,912" addon="0" bet="300" reg_code="" name="Keekenpoika" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="67,525" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="222,279" addon="0" bet="300" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="121,417" addon="0" bet="300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="194,768" addon="0" bet="70,803" reg_code="" name="Kobe24Lebron23" win="62,244" rebuy="0"/>
+    <player dealer="1" seat="7" chips="159,800" addon="0" bet="300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="27,370" addon="0" bet="1,300" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="204,866" addon="0" bet="29,722" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="Niklir2000" type="15"/>
+   <action no="2" sum="300" player="doctorfifth916" type="15"/>
+   <action no="3" sum="300" player="Keekenpoika" type="15"/>
+   <action no="4" sum="300" player="tropeiro123" type="15"/>
+   <action no="5" sum="300" player="BushDoctor04" type="15"/>
+   <action no="6" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="300" player="WizardofAids" type="15"/>
+   <action no="9" sum="1,000" player="Niklir2000" type="1"/>
+   <action no="10" sum="2,000" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Keekenpoika" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 D4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="4,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="2,000" player="doctorfifth916" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S4 D3</cards>
+   <action no="19" sum="0" player="doctorfifth916" type="4"/>
+   <action no="20" sum="6,270" player="Kobe24Lebron23" type="5"/>
+   <action no="21" sum="6,270" player="doctorfifth916" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action no="22" sum="0" player="doctorfifth916" type="4"/>
+   <action no="23" sum="19,152" player="Kobe24Lebron23" type="5"/>
+   <action no="24" sum="19,152" player="doctorfifth916" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+   <action no="25" sum="0" player="doctorfifth916" type="4"/>
+   <action no="26" sum="41,081" player="Kobe24Lebron23" type="5"/>
+   <action no="27" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560453477">
+  <general>
+   <startdate>2024-02-12 16:25:53</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="168,612" addon="0" bet="4,500" reg_code="" name="Keekenpoika" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="67,225" addon="0" bet="300" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="221,979" addon="0" bet="8,394" reg_code="" name="BushDoctor04" win="11,800" rebuy="0"/>
+    <player dealer="0" seat="5" chips="121,117" addon="0" bet="300" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="227,290" addon="0" bet="300" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="159,500" addon="0" bet="300" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="26,070" addon="0" bet="300" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="175,144" addon="0" bet="1,300" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="doctorfifth916" type="15"/>
+   <action no="2" sum="300" player="Keekenpoika" type="15"/>
+   <action no="3" sum="300" player="tropeiro123" type="15"/>
+   <action no="4" sum="300" player="BushDoctor04" type="15"/>
+   <action no="5" sum="300" player="JiggaWhoo" type="15"/>
+   <action no="6" sum="300" player="Kobe24Lebron23" type="15"/>
+   <action no="7" sum="300" player="WizardofAids" type="15"/>
+   <action no="8" sum="300" player="Niklir2000" type="15"/>
+   <action no="9" sum="1,000" player="doctorfifth916" type="1"/>
+   <action no="10" sum="2,000" player="Keekenpoika" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D5 H3</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" sum="4,200" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="18" sum="2,200" player="Keekenpoika" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 H5 D7</cards>
+   <action no="19" sum="0" player="Keekenpoika" type="4"/>
+   <action no="20" sum="3,894" player="BushDoctor04" type="5"/>
+   <action no="21" sum="0" player="Keekenpoika" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560453549">
+  <general>
+   <startdate>2024-02-12 16:26:30</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="2" chips="66,925" addon="0" bet="2,850" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="229,279" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="120,817" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="226,990" addon="0" bet="5,350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="159,200" addon="0" bet="25,770" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="25,770" addon="0" bet="25,420" reg_code="" name="Niklir2000" win="60,790" rebuy="0"/>
+    <player dealer="1" seat="10" chips="173,844" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="tropeiro123" type="15"/>
+   <action no="2" sum="350" player="BushDoctor04" type="15"/>
+   <action no="3" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="350" player="WizardofAids" type="15"/>
+   <action no="6" sum="350" player="Niklir2000" type="15"/>
+   <action no="7" sum="350" player="doctorfifth916" type="15"/>
+   <action no="8" sum="2,500" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="5,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">DQ DJ</cards>
+   <action no="12" sum="15,000" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">CA D10</cards>
+   <action no="13" sum="25,420" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 D4</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <action no="16" sum="0" player="Kobe24Lebron23" type="0"/>
+   <action no="17" sum="10,420" player="WizardofAids" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 H6 C7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+  </round>
+ </game>
+ <game gamecode="10560478331">
+  <general>
+   <startdate>2024-02-12 16:27:08</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="2" chips="64,075" addon="0" bet="2,850" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="228,929" addon="0" bet="10,000" reg_code="" name="BushDoctor04" win="7,450" rebuy="0"/>
+    <player dealer="0" seat="5" chips="120,467" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="221,640" addon="0" bet="350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="133,430" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="60,790" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="173,494" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="tropeiro123" type="15"/>
+   <action no="2" sum="350" player="BushDoctor04" type="15"/>
+   <action no="3" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="350" player="WizardofAids" type="15"/>
+   <action no="6" sum="350" player="Niklir2000" type="15"/>
+   <action no="7" sum="350" player="doctorfifth916" type="15"/>
+   <action no="8" sum="1,250" player="tropeiro123" type="1"/>
+   <action no="9" sum="2,500" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 S3</cards>
+   <action no="15" sum="1,250" player="tropeiro123" type="3"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="10,000" player="BushDoctor04" type="23"/>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478397">
+  <general>
+   <startdate>2024-02-12 16:27:47</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="160,849" addon="0" bet="5,000" reg_code="" name="ViniEE" win="9,050" rebuy="0"/>
+    <player dealer="1" seat="2" chips="61,225" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="233,529" addon="0" bet="1,600" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="120,117" addon="0" bet="2,850" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="221,290" addon="0" bet="350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="133,080" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="60,440" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="173,144" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="BushDoctor04" type="15"/>
+   <action no="2" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="350" player="WizardofAids" type="15"/>
+   <action no="5" sum="350" player="Niklir2000" type="15"/>
+   <action no="6" sum="350" player="doctorfifth916" type="15"/>
+   <action no="7" sum="350" player="ViniEE" type="15"/>
+   <action no="8" sum="350" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,250" player="BushDoctor04" type="1"/>
+   <action no="10" sum="2,500" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="15" sum="5,000" player="ViniEE" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C5 S2</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478439">
+  <general>
+   <startdate>2024-02-12 16:28:09</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="167,049" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="60,875" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="231,929" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="117,267" addon="0" bet="32,399" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="220,940" addon="0" bet="76,551" reg_code="" name="Kobe24Lebron23" win="66,898" rebuy="0"/>
+    <player dealer="0" seat="7" chips="132,730" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="60,090" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="172,794" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="350" player="WizardofAids" type="15"/>
+   <action no="4" sum="350" player="Niklir2000" type="15"/>
+   <action no="5" sum="350" player="doctorfifth916" type="15"/>
+   <action no="6" sum="350" player="ViniEE" type="15"/>
+   <action no="7" sum="350" player="tropeiro123" type="15"/>
+   <action no="8" sum="350" player="BushDoctor04" type="15"/>
+   <action no="9" sum="1,250" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="2,500" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D8 D5</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="8,750" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="18" sum="6,250" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 C8 S6</cards>
+   <action no="19" sum="10,000" player="JiggaWhoo" type="5"/>
+   <action no="20" sum="10,000" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+   <action no="21" sum="0" player="JiggaWhoo" type="4"/>
+   <action no="22" sum="13,299" player="Kobe24Lebron23" type="5"/>
+   <action no="23" sum="13,299" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action no="24" sum="0" player="JiggaWhoo" type="4"/>
+   <action no="25" sum="44,152" player="Kobe24Lebron23" type="5"/>
+   <action no="26" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478593">
+  <general>
+   <startdate>2024-02-12 16:29:34</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="166,699" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="60,525" addon="0" bet="5,600" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,579" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="84,868" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="255,439" addon="0" bet="15,500" reg_code="" name="Kobe24Lebron23" win="15,800" rebuy="0"/>
+    <player dealer="0" seat="7" chips="132,380" addon="0" bet="2,850" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="59,740" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="172,444" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="350" player="WizardofAids" type="15"/>
+   <action no="3" sum="350" player="Niklir2000" type="15"/>
+   <action no="4" sum="350" player="doctorfifth916" type="15"/>
+   <action no="5" sum="350" player="ViniEE" type="15"/>
+   <action no="6" sum="350" player="tropeiro123" type="15"/>
+   <action no="7" sum="350" player="BushDoctor04" type="15"/>
+   <action no="8" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="1,250" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="2,500" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="14" sum="5,250" player="tropeiro123" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="17" sum="15,500" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="WizardofAids" type="0"/>
+   <action no="19" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478687">
+  <general>
+   <startdate>2024-02-12 16:30:26</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="166,349" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="54,925" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="231,229" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="84,518" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="265,639" addon="0" bet="9,986" reg_code="" name="Kobe24Lebron23" win="14,050" rebuy="0"/>
+    <player dealer="0" seat="7" chips="129,530" addon="0" bet="1,600" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="59,390" addon="0" bet="5,350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="172,094" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="WizardofAids" type="15"/>
+   <action no="2" sum="350" player="Niklir2000" type="15"/>
+   <action no="3" sum="350" player="doctorfifth916" type="15"/>
+   <action no="4" sum="350" player="ViniEE" type="15"/>
+   <action no="5" sum="350" player="tropeiro123" type="15"/>
+   <action no="6" sum="350" player="BushDoctor04" type="15"/>
+   <action no="7" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="1,250" player="WizardofAids" type="1"/>
+   <action no="10" sum="2,500" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 D5</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="5,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="18" sum="2,500" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA S7 H3</cards>
+   <action no="19" sum="0" player="Niklir2000" type="4"/>
+   <action no="20" sum="4,636" player="Kobe24Lebron23" type="5"/>
+   <action no="21" sum="0" player="Niklir2000" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478784">
+  <general>
+   <startdate>2024-02-12 16:31:18</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="165,999" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="54,575" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="230,879" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="84,168" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="274,339" addon="0" bet="5,000" reg_code="" name="Kobe24Lebron23" win="9,050" rebuy="0"/>
+    <player dealer="1" seat="7" chips="127,930" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="54,040" addon="0" bet="1,600" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="171,744" addon="0" bet="2,850" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="Niklir2000" type="15"/>
+   <action no="2" sum="350" player="doctorfifth916" type="15"/>
+   <action no="3" sum="350" player="ViniEE" type="15"/>
+   <action no="4" sum="350" player="tropeiro123" type="15"/>
+   <action no="5" sum="350" player="BushDoctor04" type="15"/>
+   <action no="6" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="350" player="WizardofAids" type="15"/>
+   <action no="9" sum="1,250" player="Niklir2000" type="1"/>
+   <action no="10" sum="2,500" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ D10</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="5,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478831">
+  <general>
+   <startdate>2024-02-12 16:31:45</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="165,649" addon="0" bet="2,850" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="54,225" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="230,529" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,818" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="280,539" addon="0" bet="5,000" reg_code="" name="Kobe24Lebron23" win="9,050" rebuy="0"/>
+    <player dealer="0" seat="7" chips="127,580" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="52,440" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="168,894" addon="0" bet="1,600" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="doctorfifth916" type="15"/>
+   <action no="2" sum="350" player="ViniEE" type="15"/>
+   <action no="3" sum="350" player="tropeiro123" type="15"/>
+   <action no="4" sum="350" player="BushDoctor04" type="15"/>
+   <action no="5" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="6" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="7" sum="350" player="WizardofAids" type="15"/>
+   <action no="8" sum="350" player="Niklir2000" type="15"/>
+   <action no="9" sum="1,250" player="doctorfifth916" type="1"/>
+   <action no="10" sum="2,500" player="ViniEE" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S6 CA</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="14" sum="5,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ViniEE" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478903">
+  <general>
+   <startdate>2024-02-12 16:32:24</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="162,799" addon="0" bet="1,600" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="53,875" addon="0" bet="2,850" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="230,179" addon="0" bet="5,250" reg_code="" name="BushDoctor04" win="9,050" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,468" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="286,739" addon="0" bet="350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="127,230" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="52,090" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="167,294" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="ViniEE" type="15"/>
+   <action no="2" sum="350" player="tropeiro123" type="15"/>
+   <action no="3" sum="350" player="BushDoctor04" type="15"/>
+   <action no="4" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="5" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="6" sum="350" player="WizardofAids" type="15"/>
+   <action no="7" sum="350" player="Niklir2000" type="15"/>
+   <action no="8" sum="350" player="doctorfifth916" type="15"/>
+   <action no="9" sum="1,250" player="ViniEE" type="1"/>
+   <action no="10" sum="2,500" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" sum="5,250" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 C9</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560478985">
+  <general>
+   <startdate>2024-02-12 16:33:06</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="1" seat="1" chips="161,199" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="51,025" addon="0" bet="1,600" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="236,379" addon="0" bet="2,850" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,118" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="286,389" addon="0" bet="350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="126,880" addon="0" bet="5,250" reg_code="" name="WizardofAids" win="9,050" rebuy="0"/>
+    <player dealer="0" seat="9" chips="51,740" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="166,944" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="tropeiro123" type="15"/>
+   <action no="2" sum="350" player="BushDoctor04" type="15"/>
+   <action no="3" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="350" player="WizardofAids" type="15"/>
+   <action no="6" sum="350" player="Niklir2000" type="15"/>
+   <action no="7" sum="350" player="doctorfifth916" type="15"/>
+   <action no="8" sum="350" player="ViniEE" type="15"/>
+   <action no="9" sum="1,250" player="tropeiro123" type="1"/>
+   <action no="10" sum="2,500" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="13" sum="5,250" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK D6</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="BushDoctor04" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560479034">
+  <general>
+   <startdate>2024-02-12 16:33:34</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="160,849" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="49,425" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="233,529" addon="0" bet="20,350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="82,768" addon="0" bet="40,350" reg_code="" name="JiggaWhoo" win="42,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="286,039" addon="0" bet="350" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="133,080" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="51,390" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="166,594" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="BushDoctor04" type="15"/>
+   <action no="2" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="350" player="WizardofAids" type="15"/>
+   <action no="5" sum="350" player="Niklir2000" type="15"/>
+   <action no="6" sum="350" player="doctorfifth916" type="15"/>
+   <action no="7" sum="350" player="ViniEE" type="15"/>
+   <action no="8" sum="350" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,250" player="BushDoctor04" type="1"/>
+   <action no="10" sum="2,500" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 D10</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="1,250" player="BushDoctor04" type="3"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 DJ D6</cards>
+   <action no="19" sum="2,500" player="BushDoctor04" type="5"/>
+   <action no="20" sum="2,500" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action no="21" sum="15,000" player="BushDoctor04" type="5"/>
+   <action no="22" sum="15,000" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action no="23" sum="0" player="BushDoctor04" type="4"/>
+   <action no="24" sum="20,000" player="JiggaWhoo" type="5"/>
+   <action no="25" sum="0" player="BushDoctor04" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560479157">
+  <general>
+   <startdate>2024-02-12 16:34:45</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="160,499" addon="0" bet="5,350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="49,075" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="213,179" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="105,218" addon="0" bet="1,600" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="285,689" addon="0" bet="17,850" reg_code="" name="Kobe24Lebron23" win="44,050" rebuy="0"/>
+    <player dealer="0" seat="7" chips="132,730" addon="0" bet="350" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="51,040" addon="0" bet="17,850" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="166,244" addon="0" bet="350" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="350" player="WizardofAids" type="15"/>
+   <action no="4" sum="350" player="Niklir2000" type="15"/>
+   <action no="5" sum="350" player="doctorfifth916" type="15"/>
+   <action no="6" sum="350" player="ViniEE" type="15"/>
+   <action no="7" sum="350" player="tropeiro123" type="15"/>
+   <action no="8" sum="350" player="BushDoctor04" type="15"/>
+   <action no="9" sum="1,250" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="2,500" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">S3 C3</cards>
+   <action no="12" sum="5,000" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="14" sum="5,000" player="ViniEE" type="3"/>
+   <cards player="tropeiro123" type="Pocket">CJ H6</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">CQ C4</cards>
+   <action no="18" sum="2,500" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 C8 DQ</cards>
+   <action no="19" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="20" sum="5,000" player="Niklir2000" type="5"/>
+   <action no="21" sum="0" player="ViniEE" type="0"/>
+   <action no="22" sum="5,000" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="23" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="24" sum="7,500" player="Niklir2000" type="5"/>
+   <action no="25" sum="7,500" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H8</cards>
+   <action no="26" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="27" sum="0" player="Niklir2000" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560479298">
+  <general>
+   <startdate>2024-02-12 16:36:07</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="155,149" addon="0" bet="350" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="48,725" addon="0" bet="350" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="212,829" addon="0" bet="350" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="103,618" addon="0" bet="350" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="311,889" addon="0" bet="1,600" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="132,380" addon="0" bet="51,185" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="33,190" addon="0" bet="350" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="165,894" addon="0" bet="51,185" reg_code="" name="doctorfifth916" win="105,720" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="350" player="WizardofAids" type="15"/>
+   <action no="3" sum="350" player="Niklir2000" type="15"/>
+   <action no="4" sum="350" player="doctorfifth916" type="15"/>
+   <action no="5" sum="350" player="ViniEE" type="15"/>
+   <action no="6" sum="350" player="tropeiro123" type="15"/>
+   <action no="7" sum="350" player="BushDoctor04" type="15"/>
+   <action no="8" sum="350" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="1,250" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="2,500" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">HA H10</cards>
+   <action no="12" sum="5,000" player="doctorfifth916" type="23"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 CA</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">S4 C6</cards>
+   <action no="18" sum="2,500" player="WizardofAids" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA H9 H7</cards>
+   <action no="19" sum="0" player="WizardofAids" type="4"/>
+   <action no="20" sum="0" player="doctorfifth916" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action no="21" sum="15,000" player="WizardofAids" type="5"/>
+   <action no="22" sum="15,000" player="doctorfifth916" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action no="23" sum="30,835" player="WizardofAids" type="5"/>
+   <action no="24" sum="30,835" player="doctorfifth916" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560479429">
+  <general>
+   <startdate>2024-02-12 16:37:19</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="154,799" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="48,375" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="212,479" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="103,268" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="310,289" addon="0" bet="400" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="81,195" addon="0" bet="1,900" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="32,840" addon="0" bet="32,840" reg_code="" name="Niklir2000" win="69,580" rebuy="0"/>
+    <player dealer="0" seat="10" chips="220,429" addon="0" bet="32,840" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="WizardofAids" type="15"/>
+   <action no="2" sum="400" player="Niklir2000" type="15"/>
+   <action no="3" sum="400" player="doctorfifth916" type="15"/>
+   <action no="4" sum="400" player="ViniEE" type="15"/>
+   <action no="5" sum="400" player="tropeiro123" type="15"/>
+   <action no="6" sum="400" player="BushDoctor04" type="15"/>
+   <action no="7" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="1,500" player="WizardofAids" type="1"/>
+   <action no="10" sum="3,000" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">SA SQ</cards>
+   <action no="11" sum="6,000" player="doctorfifth916" type="23"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S10</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">S9 D10</cards>
+   <action no="18" sum="3,000" player="Niklir2000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 SK C7</cards>
+   <action no="19" sum="26,440" player="Niklir2000" type="5"/>
+   <action no="20" sum="26,440" player="doctorfifth916" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560479514">
+  <general>
+   <startdate>2024-02-12 16:38:07</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="154,399" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="47,975" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="212,079" addon="0" bet="6,700" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="102,868" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="309,889" addon="0" bet="6,700" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="79,295" addon="0" bet="78,895" reg_code="" name="WizardofAids" win="26,600" rebuy="0"/>
+    <player dealer="0" seat="9" chips="69,580" addon="0" bet="1,900" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="187,589" addon="0" bet="3,400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="Niklir2000" type="15"/>
+   <action no="2" sum="400" player="doctorfifth916" type="15"/>
+   <action no="3" sum="400" player="ViniEE" type="15"/>
+   <action no="4" sum="400" player="tropeiro123" type="15"/>
+   <action no="5" sum="400" player="BushDoctor04" type="15"/>
+   <action no="6" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="400" player="WizardofAids" type="15"/>
+   <action no="9" sum="1,500" player="Niklir2000" type="1"/>
+   <action no="10" sum="3,000" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 DA</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" sum="6,300" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="6,300" player="Kobe24Lebron23" type="3"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="78,895" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="doctorfifth916" type="0"/>
+   <action no="19" sum="0" player="BushDoctor04" type="0"/>
+   <action no="20" sum="0" player="Kobe24Lebron23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507048">
+  <general>
+   <startdate>2024-02-12 16:38:58</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="153,999" addon="0" bet="3,400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="47,575" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="205,379" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="102,468" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="303,189" addon="0" bet="6,000" reg_code="" name="Kobe24Lebron23" win="10,700" rebuy="0"/>
+    <player dealer="0" seat="7" chips="99,195" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="67,680" addon="0" bet="400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="184,189" addon="0" bet="1,900" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="doctorfifth916" type="15"/>
+   <action no="2" sum="400" player="ViniEE" type="15"/>
+   <action no="3" sum="400" player="tropeiro123" type="15"/>
+   <action no="4" sum="400" player="BushDoctor04" type="15"/>
+   <action no="5" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="6" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="7" sum="400" player="WizardofAids" type="15"/>
+   <action no="8" sum="400" player="Niklir2000" type="15"/>
+   <action no="9" sum="1,500" player="doctorfifth916" type="1"/>
+   <action no="10" sum="3,000" player="ViniEE" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C3 SJ</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="14" sum="6,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ViniEE" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507106">
+  <general>
+   <startdate>2024-02-12 16:39:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="150,599" addon="0" bet="1,900" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="47,175" addon="0" bet="3,400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="204,979" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="102,068" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="310,489" addon="0" bet="12,901" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="98,795" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="67,280" addon="0" bet="12,901" reg_code="" name="Niklir2000" win="32,702" rebuy="0"/>
+    <player dealer="1" seat="10" chips="182,289" addon="0" bet="400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="ViniEE" type="15"/>
+   <action no="2" sum="400" player="tropeiro123" type="15"/>
+   <action no="3" sum="400" player="BushDoctor04" type="15"/>
+   <action no="4" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="5" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="6" sum="400" player="WizardofAids" type="15"/>
+   <action no="7" sum="400" player="Niklir2000" type="15"/>
+   <action no="8" sum="400" player="doctorfifth916" type="15"/>
+   <action no="9" sum="1,500" player="ViniEE" type="1"/>
+   <action no="10" sum="3,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">HA DJ</cards>
+   <action no="13" sum="6,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">H9 H5</cards>
+   <action no="15" sum="6,000" player="Niklir2000" type="3"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 C2</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 DQ C4</cards>
+   <action no="19" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="20" sum="0" player="Niklir2000" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="21" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="22" sum="6,501" player="Niklir2000" type="5"/>
+   <action no="23" sum="6,501" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+   <action no="24" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="25" sum="0" player="Niklir2000" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560507273">
+  <general>
+   <startdate>2024-02-12 16:41:05</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="1" seat="1" chips="148,699" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="43,775" addon="0" bet="1,900" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="204,579" addon="0" bet="3,400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,668" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="297,588" addon="0" bet="400" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="98,395" addon="0" bet="6,300" reg_code="" name="WizardofAids" win="10,700" rebuy="0"/>
+    <player dealer="0" seat="9" chips="87,081" addon="0" bet="400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="181,889" addon="0" bet="400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="tropeiro123" type="15"/>
+   <action no="2" sum="400" player="BushDoctor04" type="15"/>
+   <action no="3" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="400" player="WizardofAids" type="15"/>
+   <action no="6" sum="400" player="Niklir2000" type="15"/>
+   <action no="7" sum="400" player="doctorfifth916" type="15"/>
+   <action no="8" sum="400" player="ViniEE" type="15"/>
+   <action no="9" sum="1,500" player="tropeiro123" type="1"/>
+   <action no="10" sum="3,000" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="13" sum="6,300" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 DA</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="BushDoctor04" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507335">
+  <general>
+   <startdate>2024-02-12 16:41:38</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="148,299" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="41,875" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="201,179" addon="0" bet="21,000" reg_code="" name="BushDoctor04" win="18,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="101,268" addon="0" bet="3,400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="297,188" addon="0" bet="400" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="105,695" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="86,681" addon="0" bet="400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="181,489" addon="0" bet="6,400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="BushDoctor04" type="15"/>
+   <action no="2" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="400" player="WizardofAids" type="15"/>
+   <action no="5" sum="400" player="Niklir2000" type="15"/>
+   <action no="6" sum="400" player="doctorfifth916" type="15"/>
+   <action no="7" sum="400" player="ViniEE" type="15"/>
+   <action no="8" sum="400" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,500" player="BushDoctor04" type="1"/>
+   <action no="10" sum="3,000" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="6,000" player="doctorfifth916" type="23"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 SK</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="21,000" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="0"/>
+   <action no="19" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507380">
+  <general>
+   <startdate>2024-02-12 16:42:06</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="147,899" addon="0" bet="6,400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="41,475" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="212,979" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="97,868" addon="0" bet="1,900" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="296,788" addon="0" bet="24,000" reg_code="" name="Kobe24Lebron23" win="16,700" rebuy="0"/>
+    <player dealer="0" seat="7" chips="105,295" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="86,281" addon="0" bet="400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="175,089" addon="0" bet="400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="400" player="WizardofAids" type="15"/>
+   <action no="4" sum="400" player="Niklir2000" type="15"/>
+   <action no="5" sum="400" player="doctorfifth916" type="15"/>
+   <action no="6" sum="400" player="ViniEE" type="15"/>
+   <action no="7" sum="400" player="tropeiro123" type="15"/>
+   <action no="8" sum="400" player="BushDoctor04" type="15"/>
+   <action no="9" sum="1,500" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="3,000" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="14" sum="6,000" player="ViniEE" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 DA</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="18" sum="24,000" player="Kobe24Lebron23" type="23"/>
+   <action no="19" sum="0" player="ViniEE" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507487">
+  <general>
+   <startdate>2024-02-12 16:43:12</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="141,499" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="41,075" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="212,579" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="95,968" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="307,088" addon="0" bet="6,700" reg_code="" name="Kobe24Lebron23" win="18,800" rebuy="0"/>
+    <player dealer="0" seat="7" chips="104,895" addon="0" bet="3,400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="85,881" addon="0" bet="6,700" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="174,689" addon="0" bet="400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="400" player="WizardofAids" type="15"/>
+   <action no="3" sum="400" player="Niklir2000" type="15"/>
+   <action no="4" sum="400" player="doctorfifth916" type="15"/>
+   <action no="5" sum="400" player="ViniEE" type="15"/>
+   <action no="6" sum="400" player="tropeiro123" type="15"/>
+   <action no="7" sum="400" player="BushDoctor04" type="15"/>
+   <action no="8" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="1,500" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="3,000" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">DQ D7</cards>
+   <action no="11" sum="6,300" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA H10</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">HJ HA</cards>
+   <action no="17" sum="4,800" player="Kobe24Lebron23" type="3"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="WizardofAids" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 S4 D5</cards>
+   <action no="19" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="20" sum="0" player="Niklir2000" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="21" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="22" sum="0" player="Niklir2000" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action no="23" sum="0" player="Kobe24Lebron23" type="4"/>
+   <action no="24" sum="0" player="Niklir2000" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560507618">
+  <general>
+   <startdate>2024-02-12 16:44:28</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="141,099" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="40,675" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="212,179" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="95,568" addon="0" bet="6,400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="319,188" addon="0" bet="400" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="101,495" addon="0" bet="101,095" reg_code="" name="WizardofAids" win="18,200" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,181" addon="0" bet="3,400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="174,289" addon="0" bet="400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="WizardofAids" type="15"/>
+   <action no="2" sum="400" player="Niklir2000" type="15"/>
+   <action no="3" sum="400" player="doctorfifth916" type="15"/>
+   <action no="4" sum="400" player="ViniEE" type="15"/>
+   <action no="5" sum="400" player="tropeiro123" type="15"/>
+   <action no="6" sum="400" player="BushDoctor04" type="15"/>
+   <action no="7" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="1,500" player="WizardofAids" type="1"/>
+   <action no="10" sum="3,000" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 H6</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="6,000" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="101,095" player="WizardofAids" type="23"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Niklir2000" type="0"/>
+   <action no="19" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507662">
+  <general>
+   <startdate>2024-02-12 16:45:00</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="140,699" addon="0" bet="400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="40,275" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="211,779" addon="0" bet="400" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="89,168" addon="0" bet="400" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="318,788" addon="0" bet="6,000" reg_code="" name="Kobe24Lebron23" win="10,700" rebuy="0"/>
+    <player dealer="1" seat="7" chips="113,295" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="75,781" addon="0" bet="1,900" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="173,889" addon="0" bet="3,400" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="Niklir2000" type="15"/>
+   <action no="2" sum="400" player="doctorfifth916" type="15"/>
+   <action no="3" sum="400" player="ViniEE" type="15"/>
+   <action no="4" sum="400" player="tropeiro123" type="15"/>
+   <action no="5" sum="400" player="BushDoctor04" type="15"/>
+   <action no="6" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="400" player="WizardofAids" type="15"/>
+   <action no="9" sum="1,500" player="Niklir2000" type="1"/>
+   <action no="10" sum="3,000" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 H4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="6,000" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560507721">
+  <general>
+   <startdate>2024-02-12 16:45:37</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="140,299" addon="0" bet="3,400" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="39,875" addon="0" bet="400" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="211,379" addon="0" bet="88,768" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="88,768" addon="0" bet="88,768" reg_code="" name="JiggaWhoo" win="206,936" rebuy="0"/>
+    <player dealer="0" seat="6" chips="326,088" addon="0" bet="22,900" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="112,895" addon="0" bet="400" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="73,881" addon="0" bet="400" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="170,489" addon="0" bet="1,900" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="doctorfifth916" type="15"/>
+   <action no="2" sum="400" player="ViniEE" type="15"/>
+   <action no="3" sum="400" player="tropeiro123" type="15"/>
+   <action no="4" sum="400" player="BushDoctor04" type="15"/>
+   <action no="5" sum="400" player="JiggaWhoo" type="15"/>
+   <action no="6" sum="400" player="Kobe24Lebron23" type="15"/>
+   <action no="7" sum="400" player="WizardofAids" type="15"/>
+   <action no="8" sum="400" player="Niklir2000" type="15"/>
+   <action no="9" sum="1,500" player="doctorfifth916" type="1"/>
+   <action no="10" sum="3,000" player="ViniEE" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H7 H8</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">C5 CA</cards>
+   <action no="12" sum="6,300" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">S7 C7</cards>
+   <action no="13" sum="6,300" player="JiggaWhoo" type="3"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="14" sum="22,500" player="Kobe24Lebron23" type="23"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="ViniEE" type="0"/>
+   <action no="19" sum="16,200" player="BushDoctor04" type="3"/>
+   <action no="20" sum="16,200" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D2 S5</cards>
+   <action no="21" sum="0" player="BushDoctor04" type="4"/>
+   <action no="22" sum="0" player="JiggaWhoo" type="4"/>
+   <action no="23" sum="0" player="Kobe24Lebron23" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+   <action no="24" sum="0" player="BushDoctor04" type="4"/>
+   <action no="25" sum="65,868" player="JiggaWhoo" type="5"/>
+   <action no="26" sum="0" player="Kobe24Lebron23" type="0"/>
+   <action no="27" sum="65,868" player="BushDoctor04" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+  </round>
+ </game>
+ <game gamecode="10560507974">
+  <general>
+   <startdate>2024-02-12 16:48:15</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="136,899" addon="0" bet="2,450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="39,475" addon="0" bet="4,450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="122,611" addon="0" bet="450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="206,936" addon="0" bet="10,450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="303,188" addon="0" bet="26,730" reg_code="" name="Kobe24Lebron23" win="29,600" rebuy="0"/>
+    <player dealer="0" seat="7" chips="112,495" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="73,481" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="168,589" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="ViniEE" type="15"/>
+   <action no="2" sum="450" player="tropeiro123" type="15"/>
+   <action no="3" sum="450" player="BushDoctor04" type="15"/>
+   <action no="4" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="5" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="6" sum="450" player="WizardofAids" type="15"/>
+   <action no="7" sum="450" player="Niklir2000" type="15"/>
+   <action no="8" sum="450" player="doctorfifth916" type="15"/>
+   <action no="9" sum="2,000" player="ViniEE" type="1"/>
+   <action no="10" sum="4,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="12" sum="10,000" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="13" sum="10,000" player="Kobe24Lebron23" type="3"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ D3</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 S5 D7</cards>
+   <action no="19" sum="0" player="JiggaWhoo" type="4"/>
+   <action no="20" sum="16,280" player="Kobe24Lebron23" type="5"/>
+   <action no="21" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560508050">
+  <general>
+   <startdate>2024-02-12 16:49:03</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="1" seat="1" chips="134,449" addon="0" bet="15,578" reg_code="" name="ViniEE" win="21,600" rebuy="0"/>
+    <player dealer="0" seat="2" chips="35,025" addon="0" bet="2,450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="122,161" addon="0" bet="8,450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="196,486" addon="0" bet="450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="322,338" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="112,045" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="73,031" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="168,139" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="tropeiro123" type="15"/>
+   <action no="2" sum="450" player="BushDoctor04" type="15"/>
+   <action no="3" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="450" player="WizardofAids" type="15"/>
+   <action no="6" sum="450" player="Niklir2000" type="15"/>
+   <action no="7" sum="450" player="doctorfifth916" type="15"/>
+   <action no="8" sum="450" player="ViniEE" type="15"/>
+   <action no="9" sum="2,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="4,000" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="16" sum="8,000" player="ViniEE" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HQ H4</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="18" sum="4,000" player="BushDoctor04" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D3 C4</cards>
+   <action no="19" sum="0" player="BushDoctor04" type="4"/>
+   <action no="20" sum="7,128" player="ViniEE" type="5"/>
+   <action no="21" sum="0" player="BushDoctor04" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560508111">
+  <general>
+   <startdate>2024-02-12 16:49:47</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="147,599" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="32,575" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="113,711" addon="0" bet="2,450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="196,036" addon="0" bet="8,450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="321,888" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="111,595" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="72,581" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="167,689" addon="0" bet="16,450" reg_code="" name="doctorfifth916" win="21,600" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="BushDoctor04" type="15"/>
+   <action no="2" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="450" player="WizardofAids" type="15"/>
+   <action no="5" sum="450" player="Niklir2000" type="15"/>
+   <action no="6" sum="450" player="doctorfifth916" type="15"/>
+   <action no="7" sum="450" player="ViniEE" type="15"/>
+   <action no="8" sum="450" player="tropeiro123" type="15"/>
+   <action no="9" sum="2,000" player="BushDoctor04" type="1"/>
+   <action no="10" sum="4,000" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="8,000" player="doctorfifth916" type="23"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 H3</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="4,000" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 CJ S10</cards>
+   <action no="19" sum="0" player="JiggaWhoo" type="4"/>
+   <action no="20" sum="8,000" player="doctorfifth916" type="5"/>
+   <action no="21" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534116">
+  <general>
+   <startdate>2024-02-12 16:50:28</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="147,149" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="32,125" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="111,261" addon="0" bet="450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="187,586" addon="0" bet="30,450" reg_code="" name="JiggaWhoo" win="31,600" rebuy="0"/>
+    <player dealer="0" seat="6" chips="321,438" addon="0" bet="14,450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="111,145" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="72,131" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="180,839" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="450" player="WizardofAids" type="15"/>
+   <action no="4" sum="450" player="Niklir2000" type="15"/>
+   <action no="5" sum="450" player="doctorfifth916" type="15"/>
+   <action no="6" sum="450" player="ViniEE" type="15"/>
+   <action no="7" sum="450" player="tropeiro123" type="15"/>
+   <action no="8" sum="450" player="BushDoctor04" type="15"/>
+   <action no="9" sum="2,000" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="4,000" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C4 H3</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="14,000" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="18" sum="10,000" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C3 D4</cards>
+   <action no="19" sum="16,000" player="JiggaWhoo" type="5"/>
+   <action no="20" sum="0" player="Kobe24Lebron23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534206">
+  <general>
+   <startdate>2024-02-12 16:51:18</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="146,699" addon="0" bet="146,249" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="31,675" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="110,811" addon="0" bet="450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="204,736" addon="0" bet="450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="306,988" addon="0" bet="2,450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="110,695" addon="0" bet="4,450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="71,681" addon="0" bet="71,231" reg_code="" name="Niklir2000" win="152,062" rebuy="0"/>
+    <player dealer="0" seat="10" chips="180,389" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="2" sum="450" player="WizardofAids" type="15"/>
+   <action no="3" sum="450" player="Niklir2000" type="15"/>
+   <action no="4" sum="450" player="doctorfifth916" type="15"/>
+   <action no="5" sum="450" player="ViniEE" type="15"/>
+   <action no="6" sum="450" player="tropeiro123" type="15"/>
+   <action no="7" sum="450" player="BushDoctor04" type="15"/>
+   <action no="8" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="9" sum="2,000" player="Kobe24Lebron23" type="1"/>
+   <action no="10" sum="4,000" player="WizardofAids" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Niklir2000" type="Pocket">D10 DQ</cards>
+   <action no="11" sum="71,231" player="Niklir2000" type="23"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">HQ CA</cards>
+   <action no="13" sum="146,249" player="ViniEE" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C5 SJ</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="WizardofAids" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 D3 D2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+  </round>
+ </game>
+ <game gamecode="10560534269">
+  <general>
+   <startdate>2024-02-12 16:51:57</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="75,018" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="31,225" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="110,361" addon="0" bet="450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="204,286" addon="0" bet="204,286" reg_code="" name="JiggaWhoo" win="133,600" rebuy="0"/>
+    <player dealer="1" seat="6" chips="304,538" addon="0" bet="62,450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="106,245" addon="0" bet="2,450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="152,062" addon="0" bet="4,450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="179,939" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="WizardofAids" type="15"/>
+   <action no="2" sum="450" player="Niklir2000" type="15"/>
+   <action no="3" sum="450" player="doctorfifth916" type="15"/>
+   <action no="4" sum="450" player="ViniEE" type="15"/>
+   <action no="5" sum="450" player="tropeiro123" type="15"/>
+   <action no="6" sum="450" player="BushDoctor04" type="15"/>
+   <action no="7" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="8" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="9" sum="2,000" player="WizardofAids" type="1"/>
+   <action no="10" sum="4,000" player="Niklir2000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 D4</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="15" sum="10,000" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="16" sum="10,000" player="Kobe24Lebron23" type="3"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Niklir2000" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H7 C5</cards>
+   <action no="19" sum="12,000" player="JiggaWhoo" type="5"/>
+   <action no="20" sum="12,000" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="21" sum="40,000" player="JiggaWhoo" type="5"/>
+   <action no="22" sum="40,000" player="Kobe24Lebron23" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action no="23" sum="141,836" player="JiggaWhoo" type="5"/>
+   <action no="24" sum="0" player="Kobe24Lebron23" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534421">
+  <general>
+   <startdate>2024-02-12 16:53:38</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="74,568" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="30,775" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="109,911" addon="0" bet="109,461" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="275,436" addon="0" bet="109,911" reg_code="" name="JiggaWhoo" win="228,522" rebuy="0">
+     <knockout tobalance="€17.06" tobounty="€17.06" kicked="BushDoctor04"/>
+    </player>
+    <player dealer="0" seat="6" chips="242,088" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="103,795" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="147,612" addon="0" bet="2,450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="179,489" addon="0" bet="4,450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="Niklir2000" type="15"/>
+   <action no="2" sum="450" player="doctorfifth916" type="15"/>
+   <action no="3" sum="450" player="ViniEE" type="15"/>
+   <action no="4" sum="450" player="tropeiro123" type="15"/>
+   <action no="5" sum="450" player="BushDoctor04" type="15"/>
+   <action no="6" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="7" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="8" sum="450" player="WizardofAids" type="15"/>
+   <action no="9" sum="2,000" player="Niklir2000" type="1"/>
+   <action no="10" sum="4,000" player="doctorfifth916" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 HJ</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">DA D7</cards>
+   <action no="13" sum="8,400" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">SQ HA</cards>
+   <action no="14" sum="28,800" player="JiggaWhoo" type="23"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="doctorfifth916" type="0"/>
+   <action no="19" sum="109,461" player="BushDoctor04" type="23"/>
+   <action no="20" sum="80,661" player="JiggaWhoo" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 H2 DK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+  </round>
+ </game>
+ <game gamecode="10560534498">
+  <general>
+   <startdate>2024-02-12 16:54:30</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="74,118" addon="0" bet="73,668" reg_code="" name="ViniEE" win="11,150" rebuy="0"/>
+    <player dealer="0" seat="2" chips="30,325" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="394,047" addon="0" bet="450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="241,638" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="103,345" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="145,162" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="175,039" addon="0" bet="4,450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="doctorfifth916" type="15"/>
+   <action no="2" sum="450" player="ViniEE" type="15"/>
+   <action no="3" sum="450" player="tropeiro123" type="15"/>
+   <action no="4" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="5" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="6" sum="450" player="WizardofAids" type="15"/>
+   <action no="7" sum="450" player="Niklir2000" type="15"/>
+   <action no="8" sum="2,000" player="doctorfifth916" type="1"/>
+   <action no="9" sum="4,000" player="ViniEE" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C7 SJ</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="2,000" player="doctorfifth916" type="3"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="16" sum="73,668" player="ViniEE" type="23"/>
+   <action no="17" sum="0" player="doctorfifth916" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534546">
+  <general>
+   <startdate>2024-02-12 16:54:57</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="80,818" addon="0" bet="2,450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="29,875" addon="0" bet="8,850" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="100,000" addon="0" bet="13,106" reg_code="" name="BushDoctor04" win="22,400" rebuy="0"/>
+    <player dealer="0" seat="5" chips="393,597" addon="0" bet="450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="241,188" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="102,895" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="144,712" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="170,589" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="ViniEE" type="15"/>
+   <action no="2" sum="450" player="tropeiro123" type="15"/>
+   <action no="3" sum="450" player="BushDoctor04" type="15"/>
+   <action no="4" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="5" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="6" sum="450" player="WizardofAids" type="15"/>
+   <action no="7" sum="450" player="Niklir2000" type="15"/>
+   <action no="8" sum="450" player="doctorfifth916" type="15"/>
+   <action no="9" sum="2,000" player="ViniEE" type="1"/>
+   <action no="10" sum="4,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="11" sum="8,400" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 CQ</cards>
+   <action no="18" sum="4,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ D4 H6</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="4,256" player="BushDoctor04" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534668">
+  <general>
+   <startdate>2024-02-12 17:01:51</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="1" seat="1" chips="78,368" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="21,025" addon="0" bet="20,575" reg_code="7947777893" name="tropeiro123" win="44,750" rebuy="0"/>
+    <player dealer="0" seat="4" chips="113,550" addon="0" bet="21,025" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="393,147" addon="0" bet="450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="240,738" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="102,445" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="144,262" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="170,139" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="tropeiro123" type="15"/>
+   <action no="2" sum="450" player="BushDoctor04" type="15"/>
+   <action no="3" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="4" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="5" sum="450" player="WizardofAids" type="15"/>
+   <action no="6" sum="450" player="Niklir2000" type="15"/>
+   <action no="7" sum="450" player="doctorfifth916" type="15"/>
+   <action no="8" sum="450" player="ViniEE" type="15"/>
+   <action no="9" sum="2,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="4,000" player="BushDoctor04" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK H5</cards>
+   <action no="17" sum="20,575" player="tropeiro123" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">S4 S10</cards>
+   <action no="18" sum="16,575" player="BushDoctor04" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 D6 SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10560534771">
+  <general>
+   <startdate>2024-02-12 17:02:33</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="77,918" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="44,750" addon="0" bet="450" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="92,525" addon="0" bet="2,450" reg_code="" name="BushDoctor04" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="392,697" addon="0" bet="4,450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="240,288" addon="0" bet="450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="101,995" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="143,812" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="169,689" addon="0" bet="8,400" reg_code="" name="doctorfifth916" win="13,600" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="BushDoctor04" type="15"/>
+   <action no="2" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="3" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="4" sum="450" player="WizardofAids" type="15"/>
+   <action no="5" sum="450" player="Niklir2000" type="15"/>
+   <action no="6" sum="450" player="doctorfifth916" type="15"/>
+   <action no="7" sum="450" player="ViniEE" type="15"/>
+   <action no="8" sum="450" player="tropeiro123" type="15"/>
+   <action no="9" sum="2,000" player="BushDoctor04" type="1"/>
+   <action no="10" sum="4,000" player="JiggaWhoo" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kobe24Lebron23" type="0"/>
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="14" sum="8,400" player="doctorfifth916" type="23"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S6</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="BushDoctor04" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="BushDoctor04" type="0"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="JiggaWhoo" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560534840">
+  <general>
+   <startdate>2024-02-12 17:03:05</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="77,468" addon="0" bet="450" reg_code="" name="ViniEE" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="44,300" addon="0" bet="43,850" reg_code="7947777893" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="90,075" addon="0" bet="89,625" reg_code="" name="BushDoctor04" win="97,300" rebuy="0">
+     <knockout tobalance="€11.38" tobounty="€11.37" kicked="tropeiro123"/>
+    </player>
+    <player dealer="0" seat="5" chips="388,247" addon="0" bet="2,450" reg_code="" name="JiggaWhoo" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="239,838" addon="0" bet="4,450" reg_code="" name="Kobe24Lebron23" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="101,545" addon="0" bet="450" reg_code="" name="WizardofAids" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="143,362" addon="0" bet="450" reg_code="" name="Niklir2000" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="178,839" addon="0" bet="450" reg_code="" name="doctorfifth916" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="JiggaWhoo" type="15"/>
+   <action no="2" sum="450" player="Kobe24Lebron23" type="15"/>
+   <action no="3" sum="450" player="WizardofAids" type="15"/>
+   <action no="4" sum="450" player="Niklir2000" type="15"/>
+   <action no="5" sum="450" player="doctorfifth916" type="15"/>
+   <action no="6" sum="450" player="ViniEE" type="15"/>
+   <action no="7" sum="450" player="tropeiro123" type="15"/>
+   <action no="8" sum="450" player="BushDoctor04" type="15"/>
+   <action no="9" sum="2,000" player="JiggaWhoo" type="1"/>
+   <action no="10" sum="4,000" player="Kobe24Lebron23" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="WizardofAids" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="WizardofAids" type="0"/>
+   <cards player="Niklir2000" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Niklir2000" type="0"/>
+   <cards player="doctorfifth916" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="doctorfifth916" type="0"/>
+   <cards player="ViniEE" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="ViniEE" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 SK</cards>
+   <action no="15" sum="43,850" player="tropeiro123" type="23"/>
+   <cards player="BushDoctor04" type="Pocket">D8 C8</cards>
+   <action no="16" sum="89,625" player="BushDoctor04" type="23"/>
+   <cards player="JiggaWhoo" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="JiggaWhoo" type="0"/>
+   <cards player="Kobe24Lebron23" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Kobe24Lebron23" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA CJ D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7960855391">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€4000 GTD|Fists of Fury, 1082046120</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:14:56</duration>
+  <gamecount>10</gamecount>
+  <startdate>2024-02-25 17:32:20</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,688</bets>
+  <wins>1,640</wins>
+  <chipsin>9,920</chipsin>
+  <chipsout>10,452</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081416295</tournamentcode>
+  <tournamentname>€4000 GTD|Fists of Fury</tournamentname>
+  <place>N/A</place>
+  <buyin>€18.20 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10584090153">
+  <general>
+   <startdate>2024-02-25 17:32:20</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="37,338" seat="1" name="xxKakiMakixx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,840" seat="2" name="faridifra" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="64,919" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="6,768" addon="0" rebuy="0" win="14,936" chips="6,768" seat="5" name="HisBrilliancy" reg_code="" dealer="1"/>
+    <player bet="15,330" addon="0" rebuy="0" win="0" chips="15,410" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="33,299" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="33,514" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="rosjonSvS" sum="80" type="15"/>
+   <action no="2" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="3" player="monkeypoker74" sum="80" type="15"/>
+   <action no="4" player="xxKakiMakixx" sum="80" type="15"/>
+   <action no="5" player="faridifra" sum="80" type="15"/>
+   <action no="6" player="knapp1" sum="80" type="15"/>
+   <action no="7" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="8" player="rosjonSvS" sum="500" type="1"/>
+   <action no="9" player="nomoorhasssle" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="10" player="monkeypoker74" sum="0" type="0"/>
+   <cards player="xxKakiMakixx" type="Pocket">X X</cards>
+   <action no="11" player="xxKakiMakixx" sum="0" type="0"/>
+   <cards player="faridifra" type="Pocket">X X</cards>
+   <action no="12" player="faridifra" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="13" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">C10 SQ</cards>
+   <action no="14" player="HisBrilliancy" sum="6,000" type="23"/>
+   <cards player="rosjonSvS" type="Pocket">CK DA</cards>
+   <action no="15" player="rosjonSvS" sum="15,330" type="23"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="16" player="nomoorhasssle" sum="0" type="0"/>
+   <action no="17" player="HisBrilliancy" sum="688" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 D10 S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+  </round>
+ </game>
+ <game gamecode="10584090221">
+  <general>
+   <startdate>2024-02-25 17:33:08</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="37,258" seat="1" name="xxKakiMakixx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,760" seat="2" name="faridifra" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="64,839" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="2,080" addon="0" rebuy="0" win="0" chips="14,936" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="8,562" addon="0" rebuy="0" win="0" chips="8,642" seat="6" name="rosjonSvS" reg_code="" dealer="1"/>
+    <player bet="32,139" addon="0" rebuy="0" win="20,684" chips="32,219" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="33,434" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="2" player="monkeypoker74" sum="80" type="15"/>
+   <action no="3" player="xxKakiMakixx" sum="80" type="15"/>
+   <action no="4" player="faridifra" sum="80" type="15"/>
+   <action no="5" player="knapp1" sum="80" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="7" player="rosjonSvS" sum="80" type="15"/>
+   <action no="8" player="nomoorhasssle" sum="500" type="1"/>
+   <action no="9" player="monkeypoker74" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="xxKakiMakixx" type="Pocket">X X</cards>
+   <action no="10" player="xxKakiMakixx" sum="0" type="0"/>
+   <cards player="faridifra" type="Pocket">X X</cards>
+   <action no="11" player="faridifra" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="12" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="13" player="HisBrilliancy" sum="2,000" type="23"/>
+   <cards player="rosjonSvS" type="Pocket">C6 CA</cards>
+   <action no="14" player="rosjonSvS" sum="8,562" type="23"/>
+   <cards player="nomoorhasssle" type="Pocket">C10 D10</cards>
+   <action no="15" player="nomoorhasssle" sum="32,139" type="23"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="16" player="monkeypoker74" sum="0" type="0"/>
+   <action no="17" player="HisBrilliancy" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 H6 SQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+  </round>
+ </game>
+ <game gamecode="10584116671">
+  <general>
+   <startdate>2024-02-25 17:33:49</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="1,080" addon="0" rebuy="0" win="1,640" chips="37,178" seat="1" name="xxKakiMakixx" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,680" seat="2" name="faridifra" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="64,759" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="12,856" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="2" win="0" chips="20,000" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="10,000" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="44,261" seat="9" name="nomoorhasssle" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="32,354" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="monkeypoker74" sum="80" type="15"/>
+   <action no="2" player="xxKakiMakixx" sum="80" type="15"/>
+   <action no="3" player="faridifra" sum="80" type="15"/>
+   <action no="4" player="knapp1" sum="80" type="15"/>
+   <action no="5" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="6" player="rosjonSvS" sum="80" type="15"/>
+   <action no="7" player="tropeiro123" sum="80" type="15"/>
+   <action no="8" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="9" player="monkeypoker74" sum="500" type="1"/>
+   <action no="10" player="xxKakiMakixx" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="xxKakiMakixx" type="Pocket">X X</cards>
+   <cards player="faridifra" type="Pocket">X X</cards>
+   <action no="11" player="faridifra" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="12" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="13" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="rosjonSvS" type="Pocket">X X</cards>
+   <action no="14" player="rosjonSvS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 D4</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="16" player="nomoorhasssle" sum="0" type="0"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="17" player="monkeypoker74" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584116716">
+  <general>
+   <startdate>2024-02-25 17:34:24</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="1,080" addon="0" rebuy="0" win="560" chips="9,600" seat="2" name="faridifra" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="64,679" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="12,776" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="19,920" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,920" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="44,181" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="31,774" seat="10" name="monkeypoker74" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="faridifra" sum="80" type="15"/>
+   <action no="2" player="knapp1" sum="80" type="15"/>
+   <action no="3" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="4" player="rosjonSvS" sum="80" type="15"/>
+   <action no="5" player="tropeiro123" sum="80" type="15"/>
+   <action no="6" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="7" player="monkeypoker74" sum="80" type="15"/>
+   <action no="8" player="faridifra" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="faridifra" type="Pocket">X X</cards>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="9" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="10" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="rosjonSvS" type="Pocket">X X</cards>
+   <action no="11" player="rosjonSvS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C3 C4</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="13" player="nomoorhasssle" sum="0" type="0"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="14" player="monkeypoker74" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584116756">
+  <general>
+   <startdate>2024-02-25 17:34:52</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="10,080" addon="0" rebuy="0" win="0" chips="10,080" seat="2" name="faridifra" reg_code="" dealer="0"/>
+    <player bet="12,200" addon="0" rebuy="0" win="20,560" chips="64,599" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="12,696" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="19,840" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,840" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="44,101" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="31,694" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="faridifra" sum="80" type="15"/>
+   <action no="2" player="knapp1" sum="80" type="15"/>
+   <action no="3" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="4" player="rosjonSvS" sum="80" type="15"/>
+   <action no="5" player="tropeiro123" sum="80" type="15"/>
+   <action no="6" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="7" player="monkeypoker74" sum="80" type="15"/>
+   <action no="8" player="faridifra" sum="500" type="1"/>
+   <action no="9" player="knapp1" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="10" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="rosjonSvS" type="Pocket">X X</cards>
+   <action no="11" player="rosjonSvS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 H9</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="13" player="nomoorhasssle" sum="0" type="0"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="14" player="monkeypoker74" sum="0" type="0"/>
+   <cards player="faridifra" type="Pocket">C6 DJ</cards>
+   <action no="15" player="faridifra" sum="500" type="3"/>
+   <cards player="knapp1" type="Pocket">S9 S10</cards>
+   <action no="16" player="knapp1" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H8 CK</cards>
+   <action no="17" player="faridifra" sum="0" type="4"/>
+   <action no="18" player="knapp1" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="19" player="faridifra" sum="1,000" type="5"/>
+   <action no="20" player="knapp1" sum="1,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action no="21" player="faridifra" sum="4,560" type="5"/>
+   <action no="22" player="knapp1" sum="10,120" type="23"/>
+   <action no="23" player="faridifra" sum="3,440" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10584116865">
+  <general>
+   <startdate>2024-02-25 17:36:06</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="10,000" seat="1" name="Dmitriev34" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="10,000" seat="2" name="aceloud921" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="75,079" seat="4" name="knapp1" reg_code="" dealer="1"/>
+    <player bet="12,536" addon="0" rebuy="0" win="2,640" chips="12,616" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="0" chips="19,760" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,760" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="44,021" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="31,614" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="2" player="rosjonSvS" sum="80" type="15"/>
+   <action no="3" player="tropeiro123" sum="80" type="15"/>
+   <action no="4" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="5" player="monkeypoker74" sum="80" type="15"/>
+   <action no="6" player="Dmitriev34" sum="80" type="15"/>
+   <action no="7" player="aceloud921" sum="80" type="15"/>
+   <action no="8" player="knapp1" sum="80" type="15"/>
+   <action no="9" player="HisBrilliancy" sum="500" type="1"/>
+   <action no="10" player="rosjonSvS" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D2 H3</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="12" player="nomoorhasssle" sum="0" type="0"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="13" player="monkeypoker74" sum="0" type="0"/>
+   <cards player="Dmitriev34" type="Pocket">X X</cards>
+   <action no="14" player="Dmitriev34" sum="0" type="0"/>
+   <cards player="aceloud921" type="Pocket">X X</cards>
+   <action no="15" player="aceloud921" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="16" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="17" player="HisBrilliancy" sum="12,536" type="23"/>
+   <cards player="rosjonSvS" type="Pocket">X X</cards>
+   <action no="18" player="rosjonSvS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584116921">
+  <general>
+   <startdate>2024-02-25 17:36:45</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>80</ante>
+   <players>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,920" seat="1" name="Dmitriev34" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="9,920" seat="2" name="aceloud921" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="74,999" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="14,176" seat="5" name="HisBrilliancy" reg_code="" dealer="1"/>
+    <player bet="580" addon="0" rebuy="0" win="0" chips="18,680" seat="6" name="rosjonSvS" reg_code="" dealer="0"/>
+    <player bet="1,080" addon="0" rebuy="0" win="1,640" chips="9,680" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="43,941" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="80" addon="0" rebuy="0" win="0" chips="31,534" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="rosjonSvS" sum="80" type="15"/>
+   <action no="2" player="tropeiro123" sum="80" type="15"/>
+   <action no="3" player="nomoorhasssle" sum="80" type="15"/>
+   <action no="4" player="monkeypoker74" sum="80" type="15"/>
+   <action no="5" player="Dmitriev34" sum="80" type="15"/>
+   <action no="6" player="aceloud921" sum="80" type="15"/>
+   <action no="7" player="knapp1" sum="80" type="15"/>
+   <action no="8" player="HisBrilliancy" sum="80" type="15"/>
+   <action no="9" player="rosjonSvS" sum="500" type="1"/>
+   <action no="10" player="tropeiro123" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C3 C8</cards>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="11" player="nomoorhasssle" sum="0" type="0"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="12" player="monkeypoker74" sum="0" type="0"/>
+   <cards player="Dmitriev34" type="Pocket">X X</cards>
+   <action no="13" player="Dmitriev34" sum="0" type="0"/>
+   <cards player="aceloud921" type="Pocket">X X</cards>
+   <action no="14" player="aceloud921" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="15" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="16" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="rosjonSvS" type="Pocket">X X</cards>
+   <action no="17" player="rosjonSvS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10584117364">
+  <general>
+   <startdate>2024-02-25 17:42:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="39,840" seat="1" name="Dmitriev34" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="39,840" seat="2" name="aceloud921" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="104,919" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="44,096" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="40,000" seat="6" name="APPS55" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="10,740" seat="7" name="tropeiro123" reg_code="7960855391" dealer="1"/>
+    <player bet="2,496" addon="0" rebuy="0" win="5,568" chips="73,861" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="2,496" addon="0" rebuy="0" win="0" chips="61,454" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="nomoorhasssle" sum="96" type="15"/>
+   <action no="2" player="monkeypoker74" sum="96" type="15"/>
+   <action no="3" player="Dmitriev34" sum="96" type="15"/>
+   <action no="4" player="aceloud921" sum="96" type="15"/>
+   <action no="5" player="knapp1" sum="96" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="96" type="15"/>
+   <action no="7" player="APPS55" sum="96" type="15"/>
+   <action no="8" player="tropeiro123" sum="96" type="15"/>
+   <action no="9" player="nomoorhasssle" sum="600" type="1"/>
+   <action no="10" player="monkeypoker74" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Dmitriev34" type="Pocket">X X</cards>
+   <action no="11" player="Dmitriev34" sum="0" type="0"/>
+   <cards player="aceloud921" type="Pocket">X X</cards>
+   <action no="12" player="aceloud921" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="13" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="14" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="APPS55" type="Pocket">X X</cards>
+   <action no="15" player="APPS55" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 C2</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">HQ D7</cards>
+   <action no="17" player="nomoorhasssle" sum="2,400" type="23"/>
+   <cards player="monkeypoker74" type="Pocket">S8 S2</cards>
+   <action no="18" player="monkeypoker74" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 HK D6</cards>
+   <action no="19" player="nomoorhasssle" sum="0" type="4"/>
+   <action no="20" player="monkeypoker74" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="21" player="nomoorhasssle" sum="0" type="4"/>
+   <action no="22" player="monkeypoker74" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action no="23" player="nomoorhasssle" sum="0" type="4"/>
+   <action no="24" player="monkeypoker74" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584143728">
+  <general>
+   <startdate>2024-02-25 17:44:11</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="6,480" addon="0" rebuy="0" win="7,968" chips="39,744" seat="1" name="Dmitriev34" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="39,744" seat="2" name="aceloud921" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="104,823" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="44,000" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="39,904" seat="6" name="APPS55" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="10,644" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="6,480" addon="0" rebuy="0" win="7,968" chips="76,933" seat="9" name="nomoorhasssle" reg_code="" dealer="1"/>
+    <player bet="2,496" addon="0" rebuy="0" win="0" chips="58,958" seat="10" name="monkeypoker74" reg_code="" dealer="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="monkeypoker74" sum="96" type="15"/>
+   <action no="2" player="Dmitriev34" sum="96" type="15"/>
+   <action no="3" player="aceloud921" sum="96" type="15"/>
+   <action no="4" player="knapp1" sum="96" type="15"/>
+   <action no="5" player="HisBrilliancy" sum="96" type="15"/>
+   <action no="6" player="APPS55" sum="96" type="15"/>
+   <action no="7" player="tropeiro123" sum="96" type="15"/>
+   <action no="8" player="nomoorhasssle" sum="96" type="15"/>
+   <action no="9" player="monkeypoker74" sum="600" type="1"/>
+   <action no="10" player="Dmitriev34" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="aceloud921" type="Pocket">X X</cards>
+   <action no="11" player="aceloud921" sum="0" type="0"/>
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="12" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="13" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="APPS55" type="Pocket">X X</cards>
+   <action no="14" player="APPS55" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 S7</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">CA H6</cards>
+   <action no="16" player="nomoorhasssle" sum="2,400" type="23"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="17" player="monkeypoker74" sum="1,800" type="3"/>
+   <cards player="Dmitriev34" type="Pocket">SA C5</cards>
+   <action no="18" player="Dmitriev34" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA DQ SK</cards>
+   <action no="19" player="monkeypoker74" sum="0" type="4"/>
+   <action no="20" player="Dmitriev34" sum="0" type="4"/>
+   <action no="21" player="nomoorhasssle" sum="3,984" type="5"/>
+   <action no="22" player="monkeypoker74" sum="0" type="0"/>
+   <action no="23" player="Dmitriev34" sum="3,984" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+   <action no="24" player="Dmitriev34" sum="0" type="4"/>
+   <action no="25" player="nomoorhasssle" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action no="26" player="Dmitriev34" sum="0" type="4"/>
+   <action no="27" player="nomoorhasssle" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10584143932">
+  <general>
+   <startdate>2024-02-25 17:46:20</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>96</ante>
+   <players>
+    <player bet="696" addon="0" rebuy="0" win="0" chips="41,232" seat="1" name="Dmitriev34" reg_code="" dealer="0"/>
+    <player bet="1,296" addon="0" rebuy="0" win="0" chips="39,648" seat="2" name="aceloud921" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="104,727" seat="4" name="knapp1" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="43,904" seat="5" name="HisBrilliancy" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="39,808" seat="6" name="APPS55" reg_code="" dealer="0"/>
+    <player bet="96" addon="0" rebuy="0" win="0" chips="10,548" seat="7" name="tropeiro123" reg_code="7960855391" dealer="0"/>
+    <player bet="19,200" addon="0" rebuy="0" win="19,368" chips="78,421" seat="9" name="nomoorhasssle" reg_code="" dealer="0"/>
+    <player bet="8,496" addon="0" rebuy="0" win="0" chips="56,462" seat="10" name="monkeypoker74" reg_code="" dealer="1"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Dmitriev34" sum="96" type="15"/>
+   <action no="2" player="aceloud921" sum="96" type="15"/>
+   <action no="3" player="knapp1" sum="96" type="15"/>
+   <action no="4" player="HisBrilliancy" sum="96" type="15"/>
+   <action no="5" player="APPS55" sum="96" type="15"/>
+   <action no="6" player="tropeiro123" sum="96" type="15"/>
+   <action no="7" player="nomoorhasssle" sum="96" type="15"/>
+   <action no="8" player="monkeypoker74" sum="96" type="15"/>
+   <action no="9" player="Dmitriev34" sum="600" type="1"/>
+   <action no="10" player="aceloud921" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="knapp1" type="Pocket">X X</cards>
+   <action no="11" player="knapp1" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="12" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="APPS55" type="Pocket">X X</cards>
+   <action no="13" player="APPS55" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 DJ</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="nomoorhasssle" type="Pocket">X X</cards>
+   <action no="15" player="nomoorhasssle" sum="2,400" type="23"/>
+   <cards player="monkeypoker74" type="Pocket">X X</cards>
+   <action no="16" player="monkeypoker74" sum="8,400" type="23"/>
+   <cards player="Dmitriev34" type="Pocket">X X</cards>
+   <action no="17" player="Dmitriev34" sum="0" type="0"/>
+   <cards player="aceloud921" type="Pocket">X X</cards>
+   <action no="18" player="aceloud921" sum="0" type="0"/>
+   <action no="19" player="nomoorhasssle" sum="19,200" type="23"/>
+   <action no="20" player="monkeypoker74" sum="0" type="0"/>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,2675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7949833111">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1081060157</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:02:04</duration>
+  <gamecount>46</gamecount>
+  <startdate>2024-02-14 16:30:08</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>166,709</bets>
+  <wins>61,807</wins>
+  <chipsin>103,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP18</statuspoints>
+  <awardpoints>RP36</awardpoints>
+  <ipoints>RP18</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080972040</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>315</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10563994519">
+  <general>
+   <startdate>2024-02-14 16:30:08</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="4play" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="2" addon="0" chips="104,410"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="650" seat="4" addon="0" chips="108,416"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="3,150" seat="5" addon="0" chips="73,570"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="6" addon="0" chips="98,400"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="7" addon="0" chips="86,794"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="7,550" bet="13,150" seat="9" addon="0" chips="99,590"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="10" addon="0" chips="70,468"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="ILoveBurger" sum="150"/>
+   <action type="15" no="2" player="KKdiniz" sum="150"/>
+   <action type="15" no="3" player="Lolofgren" sum="150"/>
+   <action type="15" no="4" player="KenAdams369" sum="150"/>
+   <action type="15" no="5" player="clubcruel392" sum="150"/>
+   <action type="15" no="6" player="gbastosv" sum="150"/>
+   <action type="15" no="7" player="4play" sum="150"/>
+   <action type="1" no="8" player="ILoveBurger" sum="500"/>
+   <action type="2" no="9" player="KKdiniz" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="10" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="11" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="23" no="12" player="clubcruel392" sum="3,000"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="13" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="4play">X X</cards>
+   <action type="0" no="14" player="4play" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="15" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="3" no="16" player="KKdiniz" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA C2 H9</cards>
+   <action type="4" no="17" player="KKdiniz" sum="0"/>
+   <action type="5" no="18" player="clubcruel392" sum="10,000"/>
+   <action type="0" no="19" player="KKdiniz" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563994628">
+  <general>
+   <startdate>2024-02-14 16:32:06</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="5,750" bet="3,687" seat="1" addon="0" chips="100,000"/>
+    <player name="ILoveBurger" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="4" addon="0" chips="107,766"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="650" seat="5" addon="0" chips="70,420"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="2,250" seat="6" addon="0" chips="98,250"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="7" addon="0" chips="86,644"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="9" addon="0" chips="103,990"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="10" addon="0" chips="70,318"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KKdiniz" sum="150"/>
+   <action type="15" no="2" player="Lolofgren" sum="150"/>
+   <action type="15" no="3" player="KenAdams369" sum="150"/>
+   <action type="15" no="4" player="clubcruel392" sum="150"/>
+   <action type="15" no="5" player="gbastosv" sum="150"/>
+   <action type="15" no="6" player="tropeiro123" sum="150"/>
+   <action type="15" no="7" player="ILoveBurger" sum="150"/>
+   <action type="1" no="8" player="KKdiniz" sum="500"/>
+   <action type="2" no="9" player="Lolofgren" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="10" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="11" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="12" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 CK</cards>
+   <action type="23" no="13" player="tropeiro123" sum="2,100"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="14" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="15" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="3" no="16" player="Lolofgren" sum="1,100"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 DK D4</cards>
+   <action type="4" no="17" player="Lolofgren" sum="0"/>
+   <action type="5" no="18" player="tropeiro123" sum="1,437"/>
+   <action type="0" no="19" player="Lolofgren" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563994671">
+  <general>
+   <startdate>2024-02-14 16:32:53</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="150" seat="1" addon="0" chips="103,500"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="4" addon="0" chips="107,616"/>
+    <player name="KKdiniz" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="5" addon="0" chips="69,770"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="29,050" bet="14,150" seat="6" addon="0" chips="96,000"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="14,150" seat="7" addon="0" chips="86,494"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="9" addon="0" chips="103,840"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="10" addon="0" chips="70,168"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Lolofgren" sum="150"/>
+   <action type="15" no="2" player="KenAdams369" sum="150"/>
+   <action type="15" no="3" player="clubcruel392" sum="150"/>
+   <action type="15" no="4" player="gbastosv" sum="150"/>
+   <action type="15" no="5" player="tropeiro123" sum="150"/>
+   <action type="15" no="6" player="ILoveBurger" sum="150"/>
+   <action type="15" no="7" player="KKdiniz" sum="150"/>
+   <action type="1" no="8" player="Lolofgren" sum="500"/>
+   <action type="2" no="9" player="KenAdams369" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="10" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="11" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S7 C6</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="13" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="14" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">DJ SK</cards>
+   <action type="23" no="15" player="Lolofgren" sum="2,000"/>
+   <cards type="Pocket" player="KenAdams369">D10 C7</cards>
+   <action type="3" no="16" player="KenAdams369" sum="1,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D6 D4</cards>
+   <action type="5" no="17" player="Lolofgren" sum="2,000"/>
+   <action type="3" no="18" player="KenAdams369" sum="2,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+   <action type="5" no="19" player="Lolofgren" sum="3,000"/>
+   <action type="3" no="20" player="KenAdams369" sum="3,000"/>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+   <action type="4" no="21" player="Lolofgren" sum="0"/>
+   <action type="5" no="22" player="KenAdams369" sum="7,000"/>
+   <action type="3" no="23" player="Lolofgren" sum="7,000"/>
+  </round>
+ </game>
+ <game gamecode="10563994726">
+  <general>
+   <startdate>2024-02-14 16:33:58</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="150" seat="1" addon="0" chips="103,350"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="48,700" bet="23,150" seat="2" addon="0" chips="100,000"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="4" addon="0" chips="107,466"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="5" addon="0" chips="69,620"/>
+    <player name="Lolofgren" rebuy="0" dealer="1" reg_code="" win="0" bet="23,150" seat="6" addon="0" chips="110,900"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="650" seat="7" addon="0" chips="72,344"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="1,150" seat="9" addon="0" chips="103,690"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="10" addon="0" chips="70,018"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KenAdams369" sum="150"/>
+   <action type="15" no="2" player="clubcruel392" sum="150"/>
+   <action type="15" no="3" player="gbastosv" sum="150"/>
+   <action type="15" no="4" player="tropeiro123" sum="150"/>
+   <action type="15" no="5" player="Samdaman2601" sum="150"/>
+   <action type="15" no="6" player="ILoveBurger" sum="150"/>
+   <action type="15" no="7" player="KKdiniz" sum="150"/>
+   <action type="15" no="8" player="Lolofgren" sum="150"/>
+   <action type="1" no="9" player="KenAdams369" sum="500"/>
+   <action type="2" no="10" player="clubcruel392" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="11" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D6 D4</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">D10 CA</cards>
+   <action type="3" no="13" player="Samdaman2601" sum="1,000"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="14" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="15" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">C10 CK</cards>
+   <action type="23" no="16" player="Lolofgren" sum="3,000"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="17" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="18" player="clubcruel392" sum="0"/>
+   <action type="3" no="19" player="Samdaman2601" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 H10 HJ</cards>
+   <action type="5" no="20" player="Samdaman2601" sum="10,000"/>
+   <action type="3" no="21" player="Lolofgren" sum="10,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S9</cards>
+   <action type="5" no="22" player="Samdaman2601" sum="4,000"/>
+   <action type="3" no="23" player="Lolofgren" sum="4,000"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action type="5" no="24" player="Samdaman2601" sum="6,000"/>
+   <action type="3" no="25" player="Lolofgren" sum="6,000"/>
+  </round>
+ </game>
+ <game gamecode="10563994778">
+  <general>
+   <startdate>2024-02-14 16:35:03</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="150" seat="1" addon="0" chips="103,200"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="14,700" bet="20,850" seat="2" addon="0" chips="125,550"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="6,150" seat="4" addon="0" chips="107,316"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="5" addon="0" chips="69,470"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="6" addon="0" chips="87,750"/>
+    <player name="KenAdams369" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="7" addon="0" chips="71,694"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="650" seat="9" addon="0" chips="102,540"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="1,150" seat="10" addon="0" chips="69,868"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="clubcruel392" sum="150"/>
+   <action type="15" no="2" player="gbastosv" sum="150"/>
+   <action type="15" no="3" player="tropeiro123" sum="150"/>
+   <action type="15" no="4" player="Samdaman2601" sum="150"/>
+   <action type="15" no="5" player="ILoveBurger" sum="150"/>
+   <action type="15" no="6" player="KKdiniz" sum="150"/>
+   <action type="15" no="7" player="Lolofgren" sum="150"/>
+   <action type="15" no="8" player="KenAdams369" sum="150"/>
+   <action type="1" no="9" player="clubcruel392" sum="500"/>
+   <action type="2" no="10" player="gbastosv" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C3 S6</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="23" no="12" player="Samdaman2601" sum="2,000"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="23" no="13" player="ILoveBurger" sum="6,000"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="14" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="15" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="16" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="17" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="18" player="gbastosv" sum="0"/>
+   <action type="3" no="19" player="Samdaman2601" sum="4,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H3 D10</cards>
+   <action type="5" no="20" player="Samdaman2601" sum="14,700"/>
+   <action type="0" no="21" player="ILoveBurger" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563994814">
+  <general>
+   <startdate>2024-02-14 16:35:42</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,150" seat="1" addon="0" chips="103,050"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="3,650" seat="2" addon="0" chips="134,100"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="4" addon="0" chips="101,166"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="5" addon="0" chips="69,320"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="6" addon="0" chips="87,600"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="9,700" bet="7,650" seat="7" addon="0" chips="71,544"/>
+    <player name="clubcruel392" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="9" addon="0" chips="101,890"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="650" seat="10" addon="0" chips="68,718"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="gbastosv" sum="150"/>
+   <action type="15" no="2" player="tropeiro123" sum="150"/>
+   <action type="15" no="3" player="Samdaman2601" sum="150"/>
+   <action type="15" no="4" player="ILoveBurger" sum="150"/>
+   <action type="15" no="5" player="KKdiniz" sum="150"/>
+   <action type="15" no="6" player="Lolofgren" sum="150"/>
+   <action type="15" no="7" player="KenAdams369" sum="150"/>
+   <action type="15" no="8" player="clubcruel392" sum="150"/>
+   <action type="1" no="9" player="gbastosv" sum="500"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="3" no="11" player="Samdaman2601" sum="1,000"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="12" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="13" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="14" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="23" no="15" player="KenAdams369" sum="3,500"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="16" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="17" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C9 S5</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+   <action type="3" no="19" player="Samdaman2601" sum="2,500"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 HA CK</cards>
+   <action type="4" no="20" player="Samdaman2601" sum="0"/>
+   <action type="5" no="21" player="KenAdams369" sum="4,000"/>
+   <action type="0" no="22" player="Samdaman2601" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563994875">
+  <general>
+   <startdate>2024-02-14 16:36:51</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="2,150" seat="1" addon="0" chips="101,900"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="4,150" seat="2" addon="0" chips="130,450"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="11,200" bet="7,150" seat="4" addon="0" chips="101,016"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="5" addon="0" chips="69,170"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="6" addon="0" chips="87,450"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="7" addon="0" chips="77,594"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="150" seat="9" addon="0" chips="101,740"/>
+    <player name="gbastosv" rebuy="0" dealer="1" reg_code="" win="0" bet="150" seat="10" addon="0" chips="68,068"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="150"/>
+   <action type="15" no="2" player="Samdaman2601" sum="150"/>
+   <action type="15" no="3" player="ILoveBurger" sum="150"/>
+   <action type="15" no="4" player="KKdiniz" sum="150"/>
+   <action type="15" no="5" player="Lolofgren" sum="150"/>
+   <action type="15" no="6" player="KenAdams369" sum="150"/>
+   <action type="15" no="7" player="clubcruel392" sum="150"/>
+   <action type="15" no="8" player="gbastosv" sum="150"/>
+   <action type="1" no="9" player="tropeiro123" sum="500"/>
+   <action type="2" no="10" player="Samdaman2601" sum="1,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="23" no="11" player="ILoveBurger" sum="2,000"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="12" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="13" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="14" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="15" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="16" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C6 C4</cards>
+   <action type="3" no="17" player="tropeiro123" sum="1,500"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="3" no="18" player="Samdaman2601" sum="1,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 CA S10</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="Samdaman2601" sum="0"/>
+   <action type="5" no="21" player="ILoveBurger" sum="2,000"/>
+   <action type="0" no="22" player="tropeiro123" sum="0"/>
+   <action type="3" no="23" player="Samdaman2601" sum="2,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action type="4" no="24" player="Samdaman2601" sum="0"/>
+   <action type="4" no="25" player="ILoveBurger" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+   <action type="4" no="26" player="Samdaman2601" sum="0"/>
+   <action type="5" no="27" player="ILoveBurger" sum="3,000"/>
+   <action type="0" no="28" player="Samdaman2601" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563994968">
+  <general>
+   <startdate>2024-02-14 16:38:27</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949833111" win="0" bet="180" seat="1" addon="0" chips="99,750"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="3,180" seat="2" addon="0" chips="126,300"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="28,440" bet="28,980" seat="4" addon="0" chips="108,066"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="69,020"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="6" addon="0" chips="87,300"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="77,444"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="101,590"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="12,180" seat="10" addon="0" chips="67,918"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Samdaman2601" sum="180"/>
+   <action type="15" no="2" player="ILoveBurger" sum="180"/>
+   <action type="15" no="3" player="KKdiniz" sum="180"/>
+   <action type="15" no="4" player="Lolofgren" sum="180"/>
+   <action type="15" no="5" player="KenAdams369" sum="180"/>
+   <action type="15" no="6" player="clubcruel392" sum="180"/>
+   <action type="15" no="7" player="gbastosv" sum="180"/>
+   <action type="15" no="8" player="tropeiro123" sum="180"/>
+   <action type="1" no="9" player="Samdaman2601" sum="600"/>
+   <action type="2" no="10" player="ILoveBurger" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="11" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="12" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="13" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="14" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="23" no="15" player="gbastosv" sum="3,000"/>
+   <cards type="Pocket" player="tropeiro123">H2 CJ</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="3" no="17" player="Samdaman2601" sum="2,400"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="23" no="18" player="ILoveBurger" sum="12,000"/>
+   <action type="3" no="19" player="gbastosv" sum="9,000"/>
+   <action type="0" no="20" player="Samdaman2601" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H5 C4</cards>
+   <action type="4" no="21" player="ILoveBurger" sum="0"/>
+   <action type="4" no="22" player="gbastosv" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action type="4" no="23" player="ILoveBurger" sum="0"/>
+   <action type="4" no="24" player="gbastosv" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+   <action type="5" no="25" player="ILoveBurger" sum="16,800"/>
+   <action type="0" no="26" player="gbastosv" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10563995083">
+  <general>
+   <startdate>2024-02-14 16:40:40</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="180" seat="1" addon="0" chips="99,570"/>
+    <player name="Samdaman2601" rebuy="0" dealer="1" reg_code="" win="30,840" bet="44,220" seat="2" addon="0" chips="123,120"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="4" addon="0" chips="124,326"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="5" addon="0" chips="68,840"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="6" addon="0" chips="87,120"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="77,264"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="101,410"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="13,380" seat="10" addon="0" chips="55,738"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="ILoveBurger" sum="180"/>
+   <action type="15" no="2" player="KKdiniz" sum="180"/>
+   <action type="15" no="3" player="Lolofgren" sum="180"/>
+   <action type="15" no="4" player="KenAdams369" sum="180"/>
+   <action type="15" no="5" player="clubcruel392" sum="180"/>
+   <action type="15" no="6" player="gbastosv" sum="180"/>
+   <action type="15" no="7" player="tropeiro123" sum="180"/>
+   <action type="15" no="8" player="Samdaman2601" sum="180"/>
+   <action type="1" no="9" player="ILoveBurger" sum="600"/>
+   <action type="2" no="10" player="KKdiniz" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="3" no="11" player="Lolofgren" sum="1,200"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="12" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="13" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="23" no="14" player="gbastosv" sum="4,800"/>
+   <cards type="Pocket" player="tropeiro123">SJ H8</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="23" no="16" player="Samdaman2601" sum="8,400"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="17" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="18" player="KKdiniz" sum="0"/>
+   <action type="0" no="19" player="Lolofgren" sum="0"/>
+   <action type="3" no="20" player="gbastosv" sum="3,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ S10 S8</cards>
+   <action type="4" no="21" player="gbastosv" sum="0"/>
+   <action type="5" no="22" player="Samdaman2601" sum="4,800"/>
+   <action type="3" no="23" player="gbastosv" sum="4,800"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action type="4" no="24" player="gbastosv" sum="0"/>
+   <action type="5" no="25" player="Samdaman2601" sum="30,840"/>
+   <action type="0" no="26" player="gbastosv" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021402">
+  <general>
+   <startdate>2024-02-14 16:41:52</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="180" seat="1" addon="0" chips="99,390"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="2" addon="0" chips="140,580"/>
+    <player name="ILoveBurger" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="4" addon="0" chips="123,546"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="5" addon="0" chips="67,460"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="6" addon="0" chips="85,740"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="77,084"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="9" addon="0" chips="101,230"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="4,440" bet="3,000" seat="10" addon="0" chips="42,358"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KKdiniz" sum="180"/>
+   <action type="15" no="2" player="Lolofgren" sum="180"/>
+   <action type="15" no="3" player="KenAdams369" sum="180"/>
+   <action type="15" no="4" player="clubcruel392" sum="180"/>
+   <action type="15" no="5" player="gbastosv" sum="180"/>
+   <action type="15" no="6" player="tropeiro123" sum="180"/>
+   <action type="15" no="7" player="Samdaman2601" sum="180"/>
+   <action type="15" no="8" player="ILoveBurger" sum="180"/>
+   <action type="1" no="9" player="KKdiniz" sum="600"/>
+   <action type="2" no="10" player="Lolofgren" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="11" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="12" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="23" no="13" player="gbastosv" sum="3,000"/>
+   <cards type="Pocket" player="tropeiro123">HK S10</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="0" no="15" player="Samdaman2601" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="16" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="17" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="18" player="Lolofgren" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021456">
+  <general>
+   <startdate>2024-02-14 16:42:50</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="180" seat="1" addon="0" chips="99,210"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="18,180" seat="2" addon="0" chips="140,400"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="123,366"/>
+    <player name="KKdiniz" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="5" addon="0" chips="66,680"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="7,380" seat="6" addon="0" chips="84,360"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="7" addon="0" chips="76,904"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="45,840" bet="55,380" seat="9" addon="0" chips="101,050"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="45,418"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Lolofgren" sum="180"/>
+   <action type="15" no="2" player="KenAdams369" sum="180"/>
+   <action type="15" no="3" player="clubcruel392" sum="180"/>
+   <action type="15" no="4" player="gbastosv" sum="180"/>
+   <action type="15" no="5" player="tropeiro123" sum="180"/>
+   <action type="15" no="6" player="Samdaman2601" sum="180"/>
+   <action type="15" no="7" player="ILoveBurger" sum="180"/>
+   <action type="15" no="8" player="KKdiniz" sum="180"/>
+   <action type="1" no="9" player="Lolofgren" sum="600"/>
+   <action type="2" no="10" player="KenAdams369" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="23" no="11" player="clubcruel392" sum="3,600"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="12" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D3 S2</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="3" no="14" player="Samdaman2601" sum="3,600"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="15" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="16" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="23" no="17" player="Lolofgren" sum="7,200"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="18" player="KenAdams369" sum="0"/>
+   <action type="3" no="19" player="clubcruel392" sum="3,600"/>
+   <action type="3" no="20" player="Samdaman2601" sum="3,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H2 H4</cards>
+   <action type="4" no="21" player="Lolofgren" sum="0"/>
+   <action type="5" no="22" player="clubcruel392" sum="10,800"/>
+   <action type="3" no="23" player="Samdaman2601" sum="10,800"/>
+   <action type="0" no="24" player="Lolofgren" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action type="5" no="25" player="clubcruel392" sum="37,200"/>
+   <action type="0" no="26" player="Samdaman2601" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021543">
+  <general>
+   <startdate>2024-02-14 16:44:30</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="180" seat="1" addon="0" chips="99,030"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="85,020" seat="2" addon="0" chips="122,220"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="123,186"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="66,500"/>
+    <player name="Lolofgren" rebuy="0" dealer="1" reg_code="" win="0" bet="2,580" seat="6" addon="0" chips="76,980"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="7" addon="0" chips="75,524"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="174,120" bet="85,020" seat="9" addon="0" chips="128,710"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="10" addon="0" chips="45,238"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KenAdams369" sum="180"/>
+   <action type="15" no="2" player="clubcruel392" sum="180"/>
+   <action type="15" no="3" player="gbastosv" sum="180"/>
+   <action type="15" no="4" player="tropeiro123" sum="180"/>
+   <action type="15" no="5" player="Samdaman2601" sum="180"/>
+   <action type="15" no="6" player="ILoveBurger" sum="180"/>
+   <action type="15" no="7" player="KKdiniz" sum="180"/>
+   <action type="15" no="8" player="Lolofgren" sum="180"/>
+   <action type="1" no="9" player="KenAdams369" sum="600"/>
+   <action type="2" no="10" player="clubcruel392" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="11" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H4 D9</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">CK HK</cards>
+   <action type="23" no="13" player="Samdaman2601" sum="2,400"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="14" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="15" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="3" no="16" player="Lolofgren" sum="2,400"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="17" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">CA S9</cards>
+   <action type="23" no="18" player="clubcruel392" sum="12,000"/>
+   <action type="23" no="19" player="Samdaman2601" sum="21,600"/>
+   <action type="0" no="20" player="Lolofgren" sum="0"/>
+   <action type="3" no="21" player="clubcruel392" sum="9,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 S6 C7</cards>
+   <action type="4" no="22" player="clubcruel392" sum="0"/>
+   <action type="5" no="23" player="Samdaman2601" sum="47,640"/>
+   <action type="3" no="24" player="clubcruel392" sum="47,640"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action type="4" no="25" player="clubcruel392" sum="0"/>
+   <action type="5" no="26" player="Samdaman2601" sum="15,600"/>
+   <action type="3" no="27" player="clubcruel392" sum="15,600"/>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+   <action type="4" no="28" player="clubcruel392" sum="0"/>
+   <action type="4" no="29" player="Samdaman2601" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021605">
+  <general>
+   <startdate>2024-02-14 16:45:39</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="10,800" bet="5,400" seat="1" addon="0" chips="98,850"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="2,700" seat="2" addon="0" chips="37,200"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="123,006"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="66,320"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="2,700" seat="6" addon="0" chips="74,400"/>
+    <player name="KenAdams369" rebuy="0" dealer="1" reg_code="" win="0" bet="180" seat="7" addon="0" chips="74,744"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="9" addon="0" chips="217,810"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="1,380" seat="10" addon="0" chips="45,058"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="clubcruel392" sum="180"/>
+   <action type="15" no="2" player="gbastosv" sum="180"/>
+   <action type="15" no="3" player="tropeiro123" sum="180"/>
+   <action type="15" no="4" player="Samdaman2601" sum="180"/>
+   <action type="15" no="5" player="ILoveBurger" sum="180"/>
+   <action type="15" no="6" player="KKdiniz" sum="180"/>
+   <action type="15" no="7" player="Lolofgren" sum="180"/>
+   <action type="15" no="8" player="KenAdams369" sum="180"/>
+   <action type="1" no="9" player="clubcruel392" sum="600"/>
+   <action type="2" no="10" player="gbastosv" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">DQ DJ</cards>
+   <action type="23" no="11" player="tropeiro123" sum="2,520"/>
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="3" no="12" player="Samdaman2601" sum="2,520"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="13" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="14" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="3" no="15" player="Lolofgren" sum="2,520"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="16" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="17" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="18" player="gbastosv" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK CJ D5</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="Samdaman2601" sum="0"/>
+   <action type="4" no="21" player="Lolofgren" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action type="5" no="22" player="tropeiro123" sum="2,700"/>
+   <action type="0" no="23" player="Samdaman2601" sum="0"/>
+   <action type="0" no="24" player="Lolofgren" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021660">
+  <general>
+   <startdate>2024-02-14 16:46:52</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="22,290" seat="1" addon="0" chips="106,950"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="2" addon="0" chips="34,500"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="4" addon="0" chips="122,826"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="5" addon="0" chips="66,140"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="6" addon="0" chips="71,700"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="180" seat="7" addon="0" chips="74,564"/>
+    <player name="clubcruel392" rebuy="0" dealer="1" reg_code="" win="46,260" bet="217,030" seat="9" addon="0" chips="217,030"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="780" seat="10" addon="0" chips="43,678"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="gbastosv" sum="180"/>
+   <action type="15" no="2" player="tropeiro123" sum="180"/>
+   <action type="15" no="3" player="Samdaman2601" sum="180"/>
+   <action type="15" no="4" player="ILoveBurger" sum="180"/>
+   <action type="15" no="5" player="KKdiniz" sum="180"/>
+   <action type="15" no="6" player="Lolofgren" sum="180"/>
+   <action type="15" no="7" player="KenAdams369" sum="180"/>
+   <action type="15" no="8" player="clubcruel392" sum="180"/>
+   <action type="1" no="9" player="gbastosv" sum="600"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,200"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Samdaman2601">X X</cards>
+   <action type="0" no="11" player="Samdaman2601" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="12" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="13" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="14" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="15" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="23" no="16" player="clubcruel392" sum="3,600"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="17" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DA SQ</cards>
+   <action type="23" no="18" player="tropeiro123" sum="14,400"/>
+   <action type="3" no="19" player="clubcruel392" sum="10,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK SJ C5</cards>
+   <action type="5" no="20" player="tropeiro123" sum="7,710"/>
+   <action type="23" no="21" player="clubcruel392" sum="202,450"/>
+   <action type="0" no="22" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021733">
+  <general>
+   <startdate>2024-02-14 16:48:10</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="900" seat="1" addon="0" chips="84,660"/>
+    <player name="Samdaman2601" rebuy="0" dealer="0" reg_code="" win="0" bet="34,320" seat="2" addon="0" chips="34,320"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="91,540" bet="122,646" seat="4" addon="0" chips="122,646">
+     <knockout kicked="Samdaman2601" tobounty="€4.55" tobalance="€4.55"/>
+    </player>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="65,960"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="15,600" seat="6" addon="0" chips="71,520"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="74,384"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="241,000"/>
+    <player name="gbastosv" rebuy="0" dealer="1" reg_code="" win="0" bet="5,800" seat="10" addon="0" chips="42,898"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="200"/>
+   <action type="15" no="2" player="Samdaman2601" sum="200"/>
+   <action type="15" no="3" player="ILoveBurger" sum="200"/>
+   <action type="15" no="4" player="KKdiniz" sum="200"/>
+   <action type="15" no="5" player="Lolofgren" sum="200"/>
+   <action type="15" no="6" player="KenAdams369" sum="200"/>
+   <action type="15" no="7" player="clubcruel392" sum="200"/>
+   <action type="15" no="8" player="gbastosv" sum="200"/>
+   <action type="1" no="9" player="tropeiro123" sum="700"/>
+   <action type="2" no="10" player="Samdaman2601" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ILoveBurger">S8 D8</cards>
+   <action type="23" no="11" player="ILoveBurger" sum="2,800"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="12" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="23" no="13" player="Lolofgren" sum="5,600"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="14" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="15" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="3" no="16" player="gbastosv" sum="5,600"/>
+   <cards type="Pocket" player="tropeiro123">C9 S4</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="Samdaman2601">H8 D6</cards>
+   <action type="3" no="18" player="Samdaman2601" sum="4,200"/>
+   <action type="3" no="19" player="ILoveBurger" sum="2,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D3 C5</cards>
+   <action type="4" no="20" player="Samdaman2601" sum="0"/>
+   <action type="4" no="21" player="ILoveBurger" sum="0"/>
+   <action type="5" no="22" player="Lolofgren" sum="9,800"/>
+   <action type="0" no="23" player="gbastosv" sum="0"/>
+   <action type="3" no="24" player="Samdaman2601" sum="9,800"/>
+   <action type="23" no="25" player="ILoveBurger" sum="116,846"/>
+   <action type="0" no="26" player="Lolofgren" sum="0"/>
+   <action type="7" no="27" player="Samdaman2601" sum="18,720"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+  </round>
+ </game>
+ <game gamecode="10564021810">
+  <general>
+   <startdate>2024-02-14 16:49:44</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949833111" win="0" bet="200" seat="1" addon="0" chips="83,760"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="14,000" bet="13,500" seat="4" addon="0" chips="179,866"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="65,760"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="55,920"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="74,184"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="240,800"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="6,500" seat="10" addon="0" chips="37,098"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="ILoveBurger" sum="200"/>
+   <action type="15" no="2" player="KKdiniz" sum="200"/>
+   <action type="15" no="3" player="Lolofgren" sum="200"/>
+   <action type="15" no="4" player="KenAdams369" sum="200"/>
+   <action type="15" no="5" player="clubcruel392" sum="200"/>
+   <action type="15" no="6" player="gbastosv" sum="200"/>
+   <action type="15" no="7" player="tropeiro123" sum="200"/>
+   <action type="2" no="8" player="ILoveBurger" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="9" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="0" no="10" player="Lolofgren" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="11" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="12" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="23" no="13" player="gbastosv" sum="3,500"/>
+   <cards type="Pocket" player="tropeiro123">D2 HJ</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="3" no="15" player="ILoveBurger" sum="2,100"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 D5 D7</cards>
+   <action type="5" no="16" player="ILoveBurger" sum="2,800"/>
+   <action type="3" no="17" player="gbastosv" sum="2,800"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action type="5" no="18" player="ILoveBurger" sum="7,000"/>
+   <action type="0" no="19" player="gbastosv" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021886">
+  <general>
+   <startdate>2024-02-14 16:51:13</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="200" seat="1" addon="0" chips="83,560"/>
+    <player name="AlainDelon" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="100,000"/>
+    <player name="ILoveBurger" rebuy="0" dealer="1" reg_code="" win="7,900" bet="5,449" seat="4" addon="0" chips="187,366"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="5" addon="0" chips="65,560"/>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="3,000" seat="6" addon="0" chips="55,720"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="73,984"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="240,600"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="30,598"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KKdiniz" sum="200"/>
+   <action type="15" no="2" player="Lolofgren" sum="200"/>
+   <action type="15" no="3" player="KenAdams369" sum="200"/>
+   <action type="15" no="4" player="clubcruel392" sum="200"/>
+   <action type="15" no="5" player="gbastosv" sum="200"/>
+   <action type="15" no="6" player="tropeiro123" sum="200"/>
+   <action type="15" no="7" player="AlainDelon" sum="200"/>
+   <action type="15" no="8" player="ILoveBurger" sum="200"/>
+   <action type="1" no="9" player="KKdiniz" sum="700"/>
+   <action type="2" no="10" player="Lolofgren" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="11" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="12" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="13" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S9 DK</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="AlainDelon">X X</cards>
+   <action type="0" no="15" player="AlainDelon" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="23" no="16" player="ILoveBurger" sum="2,800"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="17" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Lolofgren">X X</cards>
+   <action type="3" no="18" player="Lolofgren" sum="1,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 S8 H2</cards>
+   <action type="4" no="19" player="Lolofgren" sum="0"/>
+   <action type="5" no="20" player="ILoveBurger" sum="2,449"/>
+   <action type="0" no="21" player="Lolofgren" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564021929">
+  <general>
+   <startdate>2024-02-14 16:51:59</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="200" seat="1" addon="0" chips="83,360"/>
+    <player name="AlainDelon" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="99,800"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="192,266"/>
+    <player name="KKdiniz" rebuy="0" dealer="1" reg_code="" win="108,040" bet="52,720" seat="5" addon="0" chips="64,660">
+     <knockout kicked="Lolofgren" tobounty="€4.55" tobalance="€4.55"/>
+    </player>
+    <player name="Lolofgren" rebuy="0" dealer="0" reg_code="" win="0" bet="52,720" seat="6" addon="0" chips="52,720"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="7" addon="0" chips="73,784"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="9" addon="0" chips="240,400"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="30,398"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="Lolofgren" sum="200"/>
+   <action type="15" no="2" player="KenAdams369" sum="200"/>
+   <action type="15" no="3" player="clubcruel392" sum="200"/>
+   <action type="15" no="4" player="gbastosv" sum="200"/>
+   <action type="15" no="5" player="tropeiro123" sum="200"/>
+   <action type="15" no="6" player="AlainDelon" sum="200"/>
+   <action type="15" no="7" player="ILoveBurger" sum="200"/>
+   <action type="15" no="8" player="KKdiniz" sum="200"/>
+   <action type="1" no="9" player="Lolofgren" sum="700"/>
+   <action type="2" no="10" player="KenAdams369" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="11" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="12" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S2 HJ</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="AlainDelon">X X</cards>
+   <action type="0" no="14" player="AlainDelon" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="15" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">DQ CK</cards>
+   <action type="23" no="16" player="KKdiniz" sum="2,800"/>
+   <cards type="Pocket" player="Lolofgren">CQ HA</cards>
+   <action type="23" no="17" player="Lolofgren" sum="8,400"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="18" player="KenAdams369" sum="0"/>
+   <action type="3" no="19" player="KKdiniz" sum="5,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ C10 H4</cards>
+   <action type="5" no="20" player="Lolofgren" sum="9,800"/>
+   <action type="3" no="21" player="KKdiniz" sum="9,800"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action type="5" no="22" player="Lolofgren" sum="34,320"/>
+   <action type="3" no="23" player="KKdiniz" sum="34,320"/>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10564021991">
+  <general>
+   <startdate>2024-02-14 16:53:17</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="37,993" seat="1" addon="0" chips="83,160"/>
+    <player name="AlainDelon" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="99,600"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="79,086" bet="37,993" seat="4" addon="0" chips="192,066"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="119,980"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="7" addon="0" chips="72,184"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="9" addon="0" chips="240,200"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="10" addon="0" chips="30,198"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="KenAdams369" sum="200"/>
+   <action type="15" no="2" player="clubcruel392" sum="200"/>
+   <action type="15" no="3" player="gbastosv" sum="200"/>
+   <action type="15" no="4" player="tropeiro123" sum="200"/>
+   <action type="15" no="5" player="AlainDelon" sum="200"/>
+   <action type="15" no="6" player="ILoveBurger" sum="200"/>
+   <action type="15" no="7" player="KKdiniz" sum="200"/>
+   <action type="1" no="8" player="KenAdams369" sum="700"/>
+   <action type="2" no="9" player="clubcruel392" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="10" player="gbastosv" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HQ H10</cards>
+   <action type="23" no="11" player="tropeiro123" sum="2,940"/>
+   <cards type="Pocket" player="AlainDelon">X X</cards>
+   <action type="0" no="12" player="AlainDelon" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">CJ HK</cards>
+   <action type="23" no="13" player="ILoveBurger" sum="10,080"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="14" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="15" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="16" player="clubcruel392" sum="0"/>
+   <action type="3" no="17" player="tropeiro123" sum="7,140"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ S4 D7</cards>
+   <action type="4" no="18" player="tropeiro123" sum="0"/>
+   <action type="5" no="19" player="ILoveBurger" sum="7,000"/>
+   <action type="3" no="20" player="tropeiro123" sum="7,000"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action type="4" no="21" player="tropeiro123" sum="0"/>
+   <action type="4" no="22" player="ILoveBurger" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action type="5" no="23" player="tropeiro123" sum="20,713"/>
+   <action type="3" no="24" player="ILoveBurger" sum="20,713"/>
+  </round>
+ </game>
+ <game gamecode="10564050062">
+  <general>
+   <startdate>2024-02-14 17:01:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="5,100" bet="2,940" seat="1" addon="0" chips="45,167"/>
+    <player name="AlainDelon" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="99,400"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="233,159"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="119,780"/>
+    <player name="Enygmatic" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="6" addon="0" chips="100,000"/>
+    <player name="KenAdams369" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="7" addon="0" chips="71,284"/>
+    <player name="clubcruel392" rebuy="0" dealer="0" reg_code="" win="0" bet="900" seat="9" addon="0" chips="238,600"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="1,600" seat="10" addon="0" chips="29,998"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="clubcruel392" sum="200"/>
+   <action type="15" no="2" player="gbastosv" sum="200"/>
+   <action type="15" no="3" player="tropeiro123" sum="200"/>
+   <action type="15" no="4" player="AlainDelon" sum="200"/>
+   <action type="15" no="5" player="ILoveBurger" sum="200"/>
+   <action type="15" no="6" player="KKdiniz" sum="200"/>
+   <action type="15" no="7" player="Enygmatic" sum="200"/>
+   <action type="15" no="8" player="KenAdams369" sum="200"/>
+   <action type="1" no="9" player="clubcruel392" sum="700"/>
+   <action type="2" no="10" player="gbastosv" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C10 CK</cards>
+   <action type="23" no="11" player="tropeiro123" sum="2,940"/>
+   <cards type="Pocket" player="AlainDelon">X X</cards>
+   <action type="0" no="12" player="AlainDelon" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="13" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="14" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Enygmatic">X X</cards>
+   <action type="0" no="15" player="Enygmatic" sum="0"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="16" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="17" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="0" no="18" player="gbastosv" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050085">
+  <general>
+   <startdate>2024-02-14 17:02:09</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,600" seat="1" addon="0" chips="48,667"/>
+    <player name="AlainDelon" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="2" addon="0" chips="99,200"/>
+    <player name="ILoveBurger" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="4" addon="0" chips="232,959"/>
+    <player name="KKdiniz" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="5" addon="0" chips="119,580"/>
+    <player name="Enygmatic" rebuy="0" dealer="0" reg_code="" win="9,440" bet="6,346" seat="6" addon="0" chips="99,800"/>
+    <player name="KenAdams369" rebuy="0" dealer="0" reg_code="" win="0" bet="200" seat="7" addon="0" chips="71,084"/>
+    <player name="clubcruel392" rebuy="0" dealer="1" reg_code="" win="0" bet="200" seat="9" addon="0" chips="237,700"/>
+    <player name="gbastosv" rebuy="0" dealer="0" reg_code="" win="0" bet="3,420" seat="10" addon="0" chips="28,398"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="gbastosv" sum="200"/>
+   <action type="15" no="2" player="tropeiro123" sum="200"/>
+   <action type="15" no="3" player="AlainDelon" sum="200"/>
+   <action type="15" no="4" player="ILoveBurger" sum="200"/>
+   <action type="15" no="5" player="KKdiniz" sum="200"/>
+   <action type="15" no="6" player="Enygmatic" sum="200"/>
+   <action type="15" no="7" player="KenAdams369" sum="200"/>
+   <action type="15" no="8" player="clubcruel392" sum="200"/>
+   <action type="1" no="9" player="gbastosv" sum="700"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,400"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="AlainDelon">X X</cards>
+   <action type="0" no="11" player="AlainDelon" sum="0"/>
+   <cards type="Pocket" player="ILoveBurger">X X</cards>
+   <action type="0" no="12" player="ILoveBurger" sum="0"/>
+   <cards type="Pocket" player="KKdiniz">X X</cards>
+   <action type="0" no="13" player="KKdiniz" sum="0"/>
+   <cards type="Pocket" player="Enygmatic">X X</cards>
+   <action type="23" no="14" player="Enygmatic" sum="3,220"/>
+   <cards type="Pocket" player="KenAdams369">X X</cards>
+   <action type="0" no="15" player="KenAdams369" sum="0"/>
+   <cards type="Pocket" player="clubcruel392">X X</cards>
+   <action type="0" no="16" player="clubcruel392" sum="0"/>
+   <cards type="Pocket" player="gbastosv">X X</cards>
+   <action type="3" no="17" player="gbastosv" sum="2,520"/>
+   <cards type="Pocket" player="tropeiro123">S3 D2</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ DJ H10</cards>
+   <action type="4" no="19" player="gbastosv" sum="0"/>
+   <action type="5" no="20" player="Enygmatic" sum="2,926"/>
+   <action type="0" no="21" player="gbastosv" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050156">
+  <general>
+   <startdate>2024-02-14 17:03:30</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="11,190" bet="10,170" seat="1" addon="0" chips="100,000"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,050" seat="4" addon="0" chips="47,067"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="5" addon="0" chips="34,464"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="3,770" seat="6" addon="0" chips="75,863"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="76,344"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="124,276"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="62,913"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="250"/>
+   <action type="15" no="2" player="WDB92" sum="250"/>
+   <action type="15" no="3" player="lowprofileguy" sum="250"/>
+   <action type="15" no="4" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="5" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="6" player="D1merr" sum="250"/>
+   <action type="15" no="7" player="MalaysianAir" sum="250"/>
+   <action type="1" no="8" player="tropeiro123" sum="800"/>
+   <action type="2" no="9" player="WDB92" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="23" no="10" player="lowprofileguy" sum="3,520"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="11" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="12" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="13" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="3" no="14" player="MalaysianAir" sum="3,520"/>
+   <cards type="Pocket" player="tropeiro123">H10 S7</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="16" player="WDB92" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 S4 CJ</cards>
+   <action type="4" no="17" player="lowprofileguy" sum="0"/>
+   <action type="4" no="18" player="MalaysianAir" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action type="4" no="19" player="lowprofileguy" sum="0"/>
+   <action type="5" no="20" player="MalaysianAir" sum="6,400"/>
+   <action type="0" no="21" player="lowprofileguy" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050212">
+  <general>
+   <startdate>2024-02-14 17:04:35</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="1" addon="0" chips="107,420"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="11,450" seat="2" addon="0" chips="98,900"/>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949833111" win="0" bet="250" seat="4" addon="0" chips="46,017"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="30,800" bet="32,614" seat="5" addon="0" chips="32,614"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="3,450" seat="6" addon="0" chips="72,093"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="76,094"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="124,026"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="3,450" seat="10" addon="0" chips="62,663"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WDB92" sum="250"/>
+   <action type="15" no="2" player="lowprofileguy" sum="250"/>
+   <action type="15" no="3" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="4" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="5" player="D1merr" sum="250"/>
+   <action type="15" no="6" player="MalaysianAir" sum="250"/>
+   <action type="15" no="7" player="thedaddy14" sum="250"/>
+   <action type="15" no="8" player="tropeiro123" sum="250"/>
+   <action type="1" no="9" player="WDB92" sum="800"/>
+   <action type="2" no="10" player="lowprofileguy" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="11" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="12" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="23" no="13" player="D1merr" sum="3,200"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="3" no="15" player="thedaddy14" sum="3,200"/>
+   <cards type="Pocket" player="tropeiro123">C3 C6</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="3" no="17" player="WDB92" sum="2,400"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="3" no="18" player="lowprofileguy" sum="1,600"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D9 H8</cards>
+   <action type="4" no="19" player="WDB92" sum="0"/>
+   <action type="4" no="20" player="lowprofileguy" sum="0"/>
+   <action type="4" no="21" player="D1merr" sum="0"/>
+   <action type="4" no="22" player="thedaddy14" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action type="5" no="23" player="WDB92" sum="8,000"/>
+   <action type="0" no="24" player="lowprofileguy" sum="0"/>
+   <action type="0" no="25" player="D1merr" sum="0"/>
+   <action type="3" no="26" player="thedaddy14" sum="8,000"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action type="5" no="27" player="WDB92" sum="21,164"/>
+   <action type="0" no="28" player="thedaddy14" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050323">
+  <general>
+   <startdate>2024-02-14 17:06:34</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="1" addon="0" chips="107,170"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="2" addon="0" chips="87,450"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="250" seat="4" addon="0" chips="45,767"/>
+    <player name="WDB92" rebuy="0" dealer="1" reg_code="" win="0" bet="3,450" seat="5" addon="0" chips="51,964"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="6" addon="0" chips="68,643"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="9,200" bet="9,600" seat="7" addon="0" chips="75,844"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="123,776"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="59,213"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="lowprofileguy" sum="250"/>
+   <action type="15" no="2" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="3" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="4" player="D1merr" sum="250"/>
+   <action type="15" no="5" player="MalaysianAir" sum="250"/>
+   <action type="15" no="6" player="thedaddy14" sum="250"/>
+   <action type="15" no="7" player="tropeiro123" sum="250"/>
+   <action type="15" no="8" player="WDB92" sum="250"/>
+   <action type="1" no="9" player="lowprofileguy" sum="800"/>
+   <action type="2" no="10" player="rPu3JIu1" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="11" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="12" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="14" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">D8 S2</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="23" no="16" player="WDB92" sum="3,200"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="17" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="23" no="18" player="rPu3JIu1" sum="9,600"/>
+   <action type="0" no="19" player="WDB92" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050360">
+  <general>
+   <startdate>2024-02-14 17:07:19</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="1" addon="0" chips="106,920"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="79,480" bet="59,006" seat="2" addon="0" chips="87,200"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="250" seat="4" addon="0" chips="45,517"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="5" addon="0" chips="48,514"/>
+    <player name="lowprofileguy" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="6" addon="0" chips="67,593"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="38,190" seat="7" addon="0" chips="81,594"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="9" addon="0" chips="123,526"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="58,963"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="2" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="3" player="D1merr" sum="250"/>
+   <action type="15" no="4" player="MalaysianAir" sum="250"/>
+   <action type="15" no="5" player="thedaddy14" sum="250"/>
+   <action type="15" no="6" player="tropeiro123" sum="250"/>
+   <action type="15" no="7" player="WDB92" sum="250"/>
+   <action type="15" no="8" player="lowprofileguy" sum="250"/>
+   <action type="1" no="9" player="rPu3JIu1" sum="800"/>
+   <action type="2" no="10" player="TheBuenoGuy" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="11" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="12" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="23" no="13" player="thedaddy14" sum="3,200"/>
+   <cards type="Pocket" player="tropeiro123">C4 C2</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="15" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="16" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="23" no="17" player="rPu3JIu1" sum="9,600"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="18" player="TheBuenoGuy" sum="0"/>
+   <action type="3" no="19" player="thedaddy14" sum="6,400"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 C7 D6</cards>
+   <action type="5" no="20" player="rPu3JIu1" sum="7,524"/>
+   <action type="3" no="21" player="thedaddy14" sum="7,524"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action type="5" no="22" player="rPu3JIu1" sum="20,816"/>
+   <action type="23" no="23" player="thedaddy14" sum="41,632"/>
+   <action type="0" no="24" player="rPu3JIu1" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050410">
+  <general>
+   <startdate>2024-02-14 17:08:22</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="1" addon="0" chips="106,670"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="67,343" seat="2" addon="0" chips="128,490"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="250" seat="4" addon="0" chips="45,267"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="5" addon="0" chips="48,264"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="138,586" bet="67,343" seat="6" addon="0" chips="67,343"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="7" addon="0" chips="43,404"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="9" addon="0" chips="121,676"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="10" addon="0" chips="58,713"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="2" player="D1merr" sum="250"/>
+   <action type="15" no="3" player="MalaysianAir" sum="250"/>
+   <action type="15" no="4" player="thedaddy14" sum="250"/>
+   <action type="15" no="5" player="tropeiro123" sum="250"/>
+   <action type="15" no="6" player="WDB92" sum="250"/>
+   <action type="15" no="7" player="lowprofileguy" sum="250"/>
+   <action type="15" no="8" player="rPu3JIu1" sum="250"/>
+   <action type="1" no="9" player="TheBuenoGuy" sum="800"/>
+   <action type="2" no="10" player="D1merr" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">HA DQ</cards>
+   <action type="23" no="12" player="thedaddy14" sum="6,400"/>
+   <cards type="Pocket" player="tropeiro123">H8 SJ</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="14" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="lowprofileguy">DA CK</cards>
+   <action type="23" no="15" player="lowprofileguy" sum="19,200"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="16" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="17" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="18" player="D1merr" sum="0"/>
+   <action type="3" no="19" player="thedaddy14" sum="12,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 H10 C3</cards>
+   <action type="4" no="20" player="thedaddy14" sum="0"/>
+   <action type="5" no="21" player="lowprofileguy" sum="10,700"/>
+   <action type="3" no="22" player="thedaddy14" sum="10,700"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action type="4" no="23" player="thedaddy14" sum="0"/>
+   <action type="4" no="24" player="lowprofileguy" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+   <action type="4" no="25" player="thedaddy14" sum="0"/>
+   <action type="5" no="26" player="lowprofileguy" sum="37,193"/>
+   <action type="3" no="27" player="thedaddy14" sum="37,193"/>
+  </round>
+ </game>
+ <game gamecode="10564050482">
+  <general>
+   <startdate>2024-02-14 17:09:46</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="1" addon="0" chips="106,420"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="2" addon="0" chips="61,147"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="250" seat="4" addon="0" chips="45,017"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="5" addon="0" chips="48,014"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="138,586"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="43,154"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="1" reg_code="" win="6,000" bet="3,200" seat="9" addon="0" chips="120,626"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="10" addon="0" chips="56,863"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="D1merr" sum="250"/>
+   <action type="15" no="2" player="MalaysianAir" sum="250"/>
+   <action type="15" no="3" player="thedaddy14" sum="250"/>
+   <action type="15" no="4" player="tropeiro123" sum="250"/>
+   <action type="15" no="5" player="WDB92" sum="250"/>
+   <action type="15" no="6" player="lowprofileguy" sum="250"/>
+   <action type="15" no="7" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="8" player="TheBuenoGuy" sum="250"/>
+   <action type="1" no="9" player="D1merr" sum="800"/>
+   <action type="2" no="10" player="MalaysianAir" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="11" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H7 DA</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="13" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="14" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="15" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="23" no="16" player="TheBuenoGuy" sum="3,200"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="17" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="18" player="MalaysianAir" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050505">
+  <general>
+   <startdate>2024-02-14 17:10:24</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="1" addon="0" chips="104,570"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="2" addon="0" chips="60,897"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="3,610" seat="4" addon="0" chips="44,767"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="11,120" bet="6,810" seat="5" addon="0" chips="47,764"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="138,336"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="42,904"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="124,776"/>
+    <player name="D1merr" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="10" addon="0" chips="55,813"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="250"/>
+   <action type="15" no="2" player="thedaddy14" sum="250"/>
+   <action type="15" no="3" player="tropeiro123" sum="250"/>
+   <action type="15" no="4" player="WDB92" sum="250"/>
+   <action type="15" no="5" player="lowprofileguy" sum="250"/>
+   <action type="15" no="6" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="7" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="8" player="D1merr" sum="250"/>
+   <action type="1" no="9" player="MalaysianAir" sum="800"/>
+   <action type="2" no="10" player="thedaddy14" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HK HQ</cards>
+   <action type="23" no="11" player="tropeiro123" sum="3,360"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="3" no="12" player="WDB92" sum="3,360"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="13" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="14" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="15" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="16" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="17" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="18" player="thedaddy14" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 C2 D9</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="WDB92" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action type="4" no="21" player="tropeiro123" sum="0"/>
+   <action type="5" no="22" player="WDB92" sum="3,200"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564050575">
+  <general>
+   <startdate>2024-02-14 17:11:37</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="1" addon="0" chips="103,520"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="1,050" seat="2" addon="0" chips="59,047"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,850" seat="4" addon="0" chips="41,157"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="6,000" bet="4,800" seat="5" addon="0" chips="55,274"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="138,086"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="42,654"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="9" addon="0" chips="124,526"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="55,563"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="thedaddy14" sum="250"/>
+   <action type="15" no="2" player="tropeiro123" sum="250"/>
+   <action type="15" no="3" player="WDB92" sum="250"/>
+   <action type="15" no="4" player="lowprofileguy" sum="250"/>
+   <action type="15" no="5" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="6" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="7" player="D1merr" sum="250"/>
+   <action type="15" no="8" player="MalaysianAir" sum="250"/>
+   <action type="1" no="9" player="thedaddy14" sum="800"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="23" no="11" player="WDB92" sum="4,800"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="12" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="13" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="14" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="15" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="17" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H10 S4</cards>
+   <action type="0" no="18" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564074712">
+  <general>
+   <startdate>2024-02-14 17:12:42</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="1" addon="0" chips="103,270"/>
+    <player name="thedaddy14" rebuy="0" dealer="1" reg_code="" win="0" bet="250" seat="2" addon="0" chips="57,997"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,050" seat="4" addon="0" chips="39,307"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="1,850" seat="5" addon="0" chips="59,424"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="6" addon="0" chips="137,836"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="7" addon="0" chips="42,404"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="6,000" bet="3,200" seat="9" addon="0" chips="124,276"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="250" seat="10" addon="0" chips="55,313"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="250"/>
+   <action type="15" no="2" player="WDB92" sum="250"/>
+   <action type="15" no="3" player="lowprofileguy" sum="250"/>
+   <action type="15" no="4" player="rPu3JIu1" sum="250"/>
+   <action type="15" no="5" player="TheBuenoGuy" sum="250"/>
+   <action type="15" no="6" player="D1merr" sum="250"/>
+   <action type="15" no="7" player="MalaysianAir" sum="250"/>
+   <action type="15" no="8" player="thedaddy14" sum="250"/>
+   <action type="1" no="9" player="tropeiro123" sum="800"/>
+   <action type="2" no="10" player="WDB92" sum="1,600"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="11" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="12" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="23" no="13" player="TheBuenoGuy" sum="3,200"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="14" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="16" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DK S8</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="18" player="WDB92" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564074752">
+  <general>
+   <startdate>2024-02-14 17:13:21</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="103,020"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="6,700" bet="57,472" seat="2" addon="0" chips="57,747"/>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949833111" win="0" bet="275" seat="4" addon="0" chips="38,257"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="5" addon="0" chips="57,574"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="6" addon="0" chips="137,586"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="42,154"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="128,426"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="55,063"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WDB92" sum="275"/>
+   <action type="15" no="2" player="lowprofileguy" sum="275"/>
+   <action type="15" no="3" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="4" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="5" player="D1merr" sum="275"/>
+   <action type="15" no="6" player="MalaysianAir" sum="275"/>
+   <action type="15" no="7" player="thedaddy14" sum="275"/>
+   <action type="15" no="8" player="tropeiro123" sum="275"/>
+   <action type="1" no="9" player="WDB92" sum="900"/>
+   <action type="2" no="10" player="lowprofileguy" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="11" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="12" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="13" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="14" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="23" no="15" player="thedaddy14" sum="57,472"/>
+   <cards type="Pocket" player="tropeiro123">C2 CK</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="17" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="18" player="lowprofileguy" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564074789">
+  <general>
+   <startdate>2024-02-14 17:14:05</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="102,745"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="62,372"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="40,157" bet="37,707" seat="4" addon="0" chips="37,982"/>
+    <player name="WDB92" rebuy="0" dealer="1" reg_code="" win="40,157" bet="56,399" seat="5" addon="0" chips="56,399"/>
+    <player name="lowprofileguy" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="6" addon="0" chips="135,511"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="7" addon="0" chips="41,879"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="128,151"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="54,788"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="lowprofileguy" sum="275"/>
+   <action type="15" no="2" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="3" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="4" player="D1merr" sum="275"/>
+   <action type="15" no="5" player="MalaysianAir" sum="275"/>
+   <action type="15" no="6" player="thedaddy14" sum="275"/>
+   <action type="15" no="7" player="tropeiro123" sum="275"/>
+   <action type="15" no="8" player="WDB92" sum="275"/>
+   <action type="1" no="9" player="lowprofileguy" sum="900"/>
+   <action type="2" no="10" player="rPu3JIu1" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="11" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="12" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="14" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DA S10</cards>
+   <action type="23" no="15" player="tropeiro123" sum="37,707"/>
+   <cards type="Pocket" player="WDB92">CA S2</cards>
+   <action type="7" no="16" player="WDB92" sum="56,124"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action type="0" no="17" player="lowprofileguy" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="18" player="rPu3JIu1" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 C8 S5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10564074841">
+  <general>
+   <startdate>2024-02-14 17:15:03</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="102,470"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="62,097"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="275" seat="4" addon="0" chips="40,157"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="15,503" seat="5" addon="0" chips="58,574"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="7" addon="0" chips="39,804"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="33,281" bet="15,503" seat="9" addon="0" chips="127,876"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="54,513"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="2" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="3" player="D1merr" sum="275"/>
+   <action type="15" no="4" player="MalaysianAir" sum="275"/>
+   <action type="15" no="5" player="thedaddy14" sum="275"/>
+   <action type="15" no="6" player="tropeiro123" sum="275"/>
+   <action type="15" no="7" player="WDB92" sum="275"/>
+   <action type="1" no="8" player="rPu3JIu1" sum="900"/>
+   <action type="2" no="9" player="TheBuenoGuy" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="10" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="12" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SJ H8</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">S6 SA</cards>
+   <action type="23" no="14" player="WDB92" sum="3,600"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="15" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">SK C9</cards>
+   <action type="3" no="16" player="TheBuenoGuy" sum="1,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA DJ DQ</cards>
+   <action type="4" no="17" player="TheBuenoGuy" sum="0"/>
+   <action type="5" no="18" player="WDB92" sum="5,012"/>
+   <action type="3" no="19" player="TheBuenoGuy" sum="5,012"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action type="4" no="20" player="TheBuenoGuy" sum="0"/>
+   <action type="4" no="21" player="WDB92" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action type="5" no="22" player="TheBuenoGuy" sum="6,616"/>
+   <action type="3" no="23" player="WDB92" sum="6,616"/>
+  </round>
+ </game>
+ <game gamecode="10564074934">
+  <general>
+   <startdate>2024-02-14 17:16:44</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="102,195"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="6,700" bet="5,400" seat="2" addon="0" chips="61,822"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="275" seat="4" addon="0" chips="39,882"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="43,071"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="100,000"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="7" addon="0" chips="38,629"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="9" addon="0" chips="145,654"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="10" addon="0" chips="54,238"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="2" player="D1merr" sum="275"/>
+   <action type="15" no="3" player="MalaysianAir" sum="275"/>
+   <action type="15" no="4" player="thedaddy14" sum="275"/>
+   <action type="15" no="5" player="tropeiro123" sum="275"/>
+   <action type="15" no="6" player="WDB92" sum="275"/>
+   <action type="15" no="7" player="NutsPlayer" sum="275"/>
+   <action type="15" no="8" player="rPu3JIu1" sum="275"/>
+   <action type="1" no="9" player="TheBuenoGuy" sum="900"/>
+   <action type="2" no="10" player="D1merr" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="11" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="23" no="12" player="thedaddy14" sum="5,400"/>
+   <cards type="Pocket" player="tropeiro123">D10 S7</cards>
+   <action type="0" no="13" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="14" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="15" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="16" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="17" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="18" player="D1merr" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564074974">
+  <general>
+   <startdate>2024-02-14 17:17:27</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="101,645" seat="1" addon="0" chips="101,920"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="66,447"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="4,055" seat="4" addon="0" chips="39,607"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="95,702" bet="42,796" seat="5" addon="0" chips="42,796"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="4,055" seat="6" addon="0" chips="99,725"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="38,354"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="9" addon="0" chips="144,479"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="10" addon="0" chips="52,163"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="D1merr" sum="275"/>
+   <action type="15" no="2" player="MalaysianAir" sum="275"/>
+   <action type="15" no="3" player="thedaddy14" sum="275"/>
+   <action type="15" no="4" player="tropeiro123" sum="275"/>
+   <action type="15" no="5" player="WDB92" sum="275"/>
+   <action type="15" no="6" player="NutsPlayer" sum="275"/>
+   <action type="15" no="7" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="8" player="TheBuenoGuy" sum="275"/>
+   <action type="1" no="9" player="D1merr" sum="900"/>
+   <action type="2" no="10" player="MalaysianAir" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="11" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S7 SA</cards>
+   <action type="23" no="12" player="tropeiro123" sum="3,780"/>
+   <cards type="Pocket" player="WDB92">D5 H5</cards>
+   <action type="3" no="13" player="WDB92" sum="3,780"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="3" no="14" player="NutsPlayer" sum="3,780"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="15" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="16" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="17" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">CK CQ</cards>
+   <action type="23" no="18" player="MalaysianAir" sum="101,645"/>
+   <action type="0" no="19" player="tropeiro123" sum="0"/>
+   <action type="7" no="20" player="WDB92" sum="38,741"/>
+   <action type="0" no="21" player="NutsPlayer" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 C3 SJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+  </round>
+ </game>
+ <game gamecode="10564075060">
+  <general>
+   <startdate>2024-02-14 17:19:05</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="1" addon="0" chips="59,124"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="15,990" bet="22,710" seat="2" addon="0" chips="66,172"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="6,720" seat="4" addon="0" chips="35,552"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="95,702"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="95,670"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="38,079"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="144,204"/>
+    <player name="D1merr" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="10" addon="0" chips="50,988"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="275"/>
+   <action type="15" no="2" player="thedaddy14" sum="275"/>
+   <action type="15" no="3" player="tropeiro123" sum="275"/>
+   <action type="15" no="4" player="WDB92" sum="275"/>
+   <action type="15" no="5" player="NutsPlayer" sum="275"/>
+   <action type="15" no="6" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="7" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="8" player="D1merr" sum="275"/>
+   <action type="1" no="9" player="MalaysianAir" sum="900"/>
+   <action type="2" no="10" player="thedaddy14" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">HJ HK</cards>
+   <action type="23" no="11" player="tropeiro123" sum="3,780"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="12" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="13" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="14" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="15" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="16" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="17" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="3" no="18" player="thedaddy14" sum="1,980"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 DA C9</cards>
+   <action type="4" no="19" player="thedaddy14" sum="0"/>
+   <action type="5" no="20" player="tropeiro123" sum="2,665"/>
+   <action type="3" no="21" player="thedaddy14" sum="2,665"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CQ</cards>
+   <action type="5" no="22" player="thedaddy14" sum="15,990"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564075128">
+  <general>
+   <startdate>2024-02-14 17:20:19</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="1" addon="0" chips="57,949"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="2" addon="0" chips="75,442"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="6,450" seat="4" addon="0" chips="28,832"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="5" addon="0" chips="95,427"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="6" addon="0" chips="95,395"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="37,804"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="15,450" bet="11,850" seat="9" addon="0" chips="143,929"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="50,713"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="thedaddy14" sum="275"/>
+   <action type="15" no="2" player="tropeiro123" sum="275"/>
+   <action type="15" no="3" player="WDB92" sum="275"/>
+   <action type="15" no="4" player="NutsPlayer" sum="275"/>
+   <action type="15" no="5" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="6" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="7" player="D1merr" sum="275"/>
+   <action type="15" no="8" player="MalaysianAir" sum="275"/>
+   <action type="1" no="9" player="thedaddy14" sum="900"/>
+   <action type="2" no="10" player="tropeiro123" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="11" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="12" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="13" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="23" no="14" player="TheBuenoGuy" sum="3,600"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="15" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="17" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">C7 SK</cards>
+   <action type="3" no="18" player="tropeiro123" sum="1,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK HQ DA</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="5" no="20" player="TheBuenoGuy" sum="2,575"/>
+   <action type="3" no="21" player="tropeiro123" sum="2,575"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action type="4" no="22" player="tropeiro123" sum="0"/>
+   <action type="5" no="23" player="TheBuenoGuy" sum="5,400"/>
+   <action type="0" no="24" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564075171">
+  <general>
+   <startdate>2024-02-14 17:21:13</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="57,674"/>
+    <player name="thedaddy14" rebuy="0" dealer="1" reg_code="" win="0" bet="275" seat="2" addon="0" chips="74,267"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="1,175" seat="4" addon="0" chips="22,382"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="3,875" seat="5" addon="0" chips="95,152"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="10,300" bet="7,475" seat="6" addon="0" chips="95,120"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="37,529"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="9" addon="0" chips="152,929"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="50,438"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="275"/>
+   <action type="15" no="2" player="WDB92" sum="275"/>
+   <action type="15" no="3" player="NutsPlayer" sum="275"/>
+   <action type="15" no="4" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="5" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="6" player="D1merr" sum="275"/>
+   <action type="15" no="7" player="MalaysianAir" sum="275"/>
+   <action type="15" no="8" player="thedaddy14" sum="275"/>
+   <action type="1" no="9" player="tropeiro123" sum="900"/>
+   <action type="2" no="10" player="WDB92" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="23" no="11" player="NutsPlayer" sum="3,600"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="12" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="13" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="14" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="16" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">S5 C9</cards>
+   <action type="0" no="17" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="3" no="18" player="WDB92" sum="1,800"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 DA SK</cards>
+   <action type="4" no="19" player="WDB92" sum="0"/>
+   <action type="5" no="20" player="NutsPlayer" sum="3,600"/>
+   <action type="0" no="21" player="WDB92" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564075212">
+  <general>
+   <startdate>2024-02-14 17:21:58</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="119,148" bet="57,124" seat="1" addon="0" chips="57,399"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="73,992"/>
+    <player name="tropeiro123" rebuy="0" dealer="1" reg_code="7949833111" win="0" bet="275" seat="4" addon="0" chips="21,207"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="5" addon="0" chips="91,277"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="6" addon="0" chips="101,545"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="7" addon="0" chips="37,254"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="57,399" seat="9" addon="0" chips="152,654"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="50,163"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="WDB92" sum="275"/>
+   <action type="15" no="2" player="NutsPlayer" sum="275"/>
+   <action type="15" no="3" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="4" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="5" player="D1merr" sum="275"/>
+   <action type="15" no="6" player="MalaysianAir" sum="275"/>
+   <action type="15" no="7" player="thedaddy14" sum="275"/>
+   <action type="15" no="8" player="tropeiro123" sum="275"/>
+   <action type="1" no="9" player="WDB92" sum="900"/>
+   <action type="2" no="10" player="NutsPlayer" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="11" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">D9 SA</cards>
+   <action type="23" no="12" player="TheBuenoGuy" sum="3,600"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="13" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">H10 DA</cards>
+   <action type="23" no="14" player="MalaysianAir" sum="57,124"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="15" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H6 C7</cards>
+   <action type="0" no="16" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="17" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="18" player="NutsPlayer" sum="0"/>
+   <action type="3" no="19" player="TheBuenoGuy" sum="53,524"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 S8 SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10564111643">
+  <general>
+   <startdate>2024-02-14 17:22:59</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="1" addon="0" chips="119,148"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="2" addon="0" chips="73,717"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="275" seat="4" addon="0" chips="20,932"/>
+    <player name="WDB92" rebuy="0" dealer="1" reg_code="" win="50,214" bet="55,332" seat="5" addon="0" chips="90,102"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="1,175" seat="6" addon="0" chips="99,470"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="2,075" seat="7" addon="0" chips="36,979"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="22,932" seat="9" addon="0" chips="95,255"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="275" seat="10" addon="0" chips="49,888"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="NutsPlayer" sum="275"/>
+   <action type="15" no="2" player="rPu3JIu1" sum="275"/>
+   <action type="15" no="3" player="TheBuenoGuy" sum="275"/>
+   <action type="15" no="4" player="D1merr" sum="275"/>
+   <action type="15" no="5" player="MalaysianAir" sum="275"/>
+   <action type="15" no="6" player="thedaddy14" sum="275"/>
+   <action type="15" no="7" player="tropeiro123" sum="275"/>
+   <action type="15" no="8" player="WDB92" sum="275"/>
+   <action type="1" no="9" player="NutsPlayer" sum="900"/>
+   <action type="2" no="10" player="rPu3JIu1" sum="1,800"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="23" no="11" player="TheBuenoGuy" sum="3,600"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="12" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="13" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="14" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">H7 H5</cards>
+   <action type="0" no="15" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="3" no="16" player="WDB92" sum="3,600"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="17" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="18" player="rPu3JIu1" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 HQ H2</cards>
+   <action type="5" no="19" player="TheBuenoGuy" sum="3,993"/>
+   <action type="3" no="20" player="WDB92" sum="3,993"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+   <action type="5" no="21" player="TheBuenoGuy" sum="15,064"/>
+   <action type="3" no="22" player="WDB92" sum="15,064"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action type="4" no="23" player="TheBuenoGuy" sum="0"/>
+   <action type="5" no="24" player="WDB92" sum="32,400"/>
+   <action type="0" no="25" player="TheBuenoGuy" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564111717">
+  <general>
+   <startdate>2024-02-14 17:24:29</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="1" addon="0" chips="118,873"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="21,400" bet="24,300" seat="2" addon="0" chips="73,442"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="300" seat="4" addon="0" chips="20,657"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="117,384"/>
+    <player name="NutsPlayer" rebuy="0" dealer="1" reg_code="" win="0" bet="6,300" seat="6" addon="0" chips="98,295"/>
+    <player name="rPu3JIu1" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="7" addon="0" chips="34,904"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="6,300" seat="9" addon="0" chips="72,323"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="49,613"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="rPu3JIu1" sum="300"/>
+   <action type="15" no="2" player="TheBuenoGuy" sum="300"/>
+   <action type="15" no="3" player="D1merr" sum="300"/>
+   <action type="15" no="4" player="MalaysianAir" sum="300"/>
+   <action type="15" no="5" player="thedaddy14" sum="300"/>
+   <action type="15" no="6" player="tropeiro123" sum="300"/>
+   <action type="15" no="7" player="WDB92" sum="300"/>
+   <action type="15" no="8" player="NutsPlayer" sum="300"/>
+   <action type="1" no="9" player="rPu3JIu1" sum="1,000"/>
+   <action type="2" no="10" player="TheBuenoGuy" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="11" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="12" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="23" no="13" player="thedaddy14" sum="6,000"/>
+   <cards type="Pocket" player="tropeiro123">D8 DK</cards>
+   <action type="0" no="14" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="15" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="3" no="16" player="NutsPlayer" sum="6,000"/>
+   <cards type="Pocket" player="rPu3JIu1">X X</cards>
+   <action type="0" no="17" player="rPu3JIu1" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="3" no="18" player="TheBuenoGuy" sum="4,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H9 CQ</cards>
+   <action type="4" no="19" player="TheBuenoGuy" sum="0"/>
+   <action type="4" no="20" player="thedaddy14" sum="0"/>
+   <action type="4" no="21" player="NutsPlayer" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action type="4" no="22" player="TheBuenoGuy" sum="0"/>
+   <action type="5" no="23" player="thedaddy14" sum="18,000"/>
+   <action type="0" no="24" player="NutsPlayer" sum="0"/>
+   <action type="0" no="25" player="TheBuenoGuy" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564111788">
+  <general>
+   <startdate>2024-02-14 17:25:57</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="1" addon="0" chips="118,573"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="88,542"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="300" seat="4" addon="0" chips="20,357"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="117,084"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="91,995"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="49,313" seat="9" addon="0" chips="66,023"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="100,126" bet="49,013" seat="10" addon="0" chips="49,313"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="TheBuenoGuy" sum="300"/>
+   <action type="15" no="2" player="D1merr" sum="300"/>
+   <action type="15" no="3" player="MalaysianAir" sum="300"/>
+   <action type="15" no="4" player="thedaddy14" sum="300"/>
+   <action type="15" no="5" player="tropeiro123" sum="300"/>
+   <action type="15" no="6" player="WDB92" sum="300"/>
+   <action type="15" no="7" player="NutsPlayer" sum="300"/>
+   <action type="1" no="8" player="TheBuenoGuy" sum="1,000"/>
+   <action type="2" no="9" player="D1merr" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="10" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="11" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">SJ H4</cards>
+   <action type="0" no="12" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="13" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="14" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">CA DK</cards>
+   <action type="23" no="15" player="TheBuenoGuy" sum="7,000"/>
+   <cards type="Pocket" player="D1merr">CJ HK</cards>
+   <action type="23" no="16" player="D1merr" sum="49,013"/>
+   <action type="3" no="17" player="TheBuenoGuy" sum="42,013"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 HQ D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+  </round>
+ </game>
+ <game gamecode="10564111832">
+  <general>
+   <startdate>2024-02-14 17:26:48</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="50,942" bet="24,221" seat="1" addon="0" chips="118,273"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="2" addon="0" chips="88,242"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="300" seat="4" addon="0" chips="20,057"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="24,221" seat="5" addon="0" chips="116,784"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="91,695"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="9" addon="0" chips="16,710"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="10" addon="0" chips="100,126"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="D1merr" sum="300"/>
+   <action type="15" no="2" player="MalaysianAir" sum="300"/>
+   <action type="15" no="3" player="thedaddy14" sum="300"/>
+   <action type="15" no="4" player="tropeiro123" sum="300"/>
+   <action type="15" no="5" player="WDB92" sum="300"/>
+   <action type="15" no="6" player="NutsPlayer" sum="300"/>
+   <action type="15" no="7" player="TheBuenoGuy" sum="300"/>
+   <action type="1" no="8" player="D1merr" sum="1,000"/>
+   <action type="2" no="9" player="MalaysianAir" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="10" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">HA S3</cards>
+   <action type="0" no="11" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">S5 H7</cards>
+   <action type="3" no="12" player="WDB92" sum="2,000"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="13" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="14" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="15" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">D8 C8</cards>
+   <action type="23" no="16" player="MalaysianAir" sum="8,000"/>
+   <action type="3" no="17" player="WDB92" sum="6,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA C5 C3</cards>
+   <action type="5" no="18" player="MalaysianAir" sum="5,921"/>
+   <action type="3" no="19" player="WDB92" sum="5,921"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action type="4" no="20" player="MalaysianAir" sum="0"/>
+   <action type="4" no="21" player="WDB92" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">C10</cards>
+   <action type="4" no="22" player="MalaysianAir" sum="0"/>
+   <action type="5" no="23" player="WDB92" sum="10,000"/>
+   <action type="3" no="24" player="MalaysianAir" sum="10,000"/>
+  </round>
+ </game>
+ <game gamecode="10564111906">
+  <general>
+   <startdate>2024-02-14 17:28:23</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="1" addon="0" chips="144,994"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="8,300" seat="2" addon="0" chips="87,942"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="300" seat="4" addon="0" chips="19,757"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="92,563"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="91,395"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="9" addon="0" chips="16,410"/>
+    <player name="D1merr" rebuy="0" dealer="1" reg_code="" win="19,100" bet="8,300" seat="10" addon="0" chips="98,826"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="MalaysianAir" sum="300"/>
+   <action type="15" no="2" player="thedaddy14" sum="300"/>
+   <action type="15" no="3" player="tropeiro123" sum="300"/>
+   <action type="15" no="4" player="WDB92" sum="300"/>
+   <action type="15" no="5" player="NutsPlayer" sum="300"/>
+   <action type="15" no="6" player="TheBuenoGuy" sum="300"/>
+   <action type="15" no="7" player="D1merr" sum="300"/>
+   <action type="1" no="8" player="MalaysianAir" sum="1,000"/>
+   <action type="2" no="9" player="thedaddy14" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C10 D3</cards>
+   <action type="0" no="10" player="tropeiro123" sum="0"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="11" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="12" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="13" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">C9 S10</cards>
+   <action type="23" no="14" player="D1merr" sum="4,000"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">S5 H6</cards>
+   <action type="3" no="16" player="thedaddy14" sum="2,000"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 H10 SA</cards>
+   <action type="4" no="17" player="thedaddy14" sum="0"/>
+   <action type="4" no="18" player="D1merr" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action type="4" no="19" player="thedaddy14" sum="0"/>
+   <action type="4" no="20" player="D1merr" sum="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action type="4" no="21" player="thedaddy14" sum="0"/>
+   <action type="5" no="22" player="D1merr" sum="4,000"/>
+   <action type="3" no="23" player="thedaddy14" sum="4,000"/>
+  </round>
+ </game>
+ <game gamecode="10564111963">
+  <general>
+   <startdate>2024-02-14 17:29:29</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="1" addon="0" chips="143,694"/>
+    <player name="thedaddy14" rebuy="0" dealer="0" reg_code="" win="0" bet="1,300" seat="2" addon="0" chips="79,642"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="4,300" seat="4" addon="0" chips="19,457"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="5" addon="0" chips="92,263"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="11,400" bet="34,300" seat="6" addon="0" chips="91,095"/>
+    <player name="Jahdemaa" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="100,000"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="9" addon="0" chips="16,110"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="10" addon="0" chips="109,626"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="thedaddy14" sum="300"/>
+   <action type="15" no="2" player="tropeiro123" sum="300"/>
+   <action type="15" no="3" player="WDB92" sum="300"/>
+   <action type="15" no="4" player="NutsPlayer" sum="300"/>
+   <action type="15" no="5" player="Jahdemaa" sum="300"/>
+   <action type="15" no="6" player="TheBuenoGuy" sum="300"/>
+   <action type="15" no="7" player="D1merr" sum="300"/>
+   <action type="15" no="8" player="MalaysianAir" sum="300"/>
+   <action type="1" no="9" player="thedaddy14" sum="1,000"/>
+   <action type="2" no="10" player="tropeiro123" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="0" no="11" player="WDB92" sum="0"/>
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="3" no="12" player="NutsPlayer" sum="2,000"/>
+   <cards type="Pocket" player="Jahdemaa">X X</cards>
+   <action type="0" no="13" player="Jahdemaa" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="14" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">X X</cards>
+   <action type="0" no="15" player="D1merr" sum="0"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="16" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="17" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DK C2</cards>
+   <action type="4" no="18" player="tropeiro123" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 SQ HQ</cards>
+   <action type="4" no="19" player="tropeiro123" sum="0"/>
+   <action type="4" no="20" player="NutsPlayer" sum="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+   <action type="5" no="21" player="tropeiro123" sum="2,000"/>
+   <action type="23" no="22" player="NutsPlayer" sum="32,000"/>
+   <action type="0" no="23" player="tropeiro123" sum="0"/>
+  </round>
+ </game>
+ <game gamecode="10564112036">
+  <general>
+   <startdate>2024-02-14 17:31:00</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player name="MalaysianAir" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="1" addon="0" chips="143,394"/>
+    <player name="thedaddy14" rebuy="0" dealer="1" reg_code="" win="0" bet="300" seat="2" addon="0" chips="78,342"/>
+    <player name="tropeiro123" rebuy="0" dealer="0" reg_code="7949833111" win="0" bet="14,857" seat="4" addon="0" chips="15,157"/>
+    <player name="WDB92" rebuy="0" dealer="0" reg_code="" win="0" bet="15,157" seat="5" addon="0" chips="91,963"/>
+    <player name="NutsPlayer" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="6" addon="0" chips="98,195"/>
+    <player name="Jahdemaa" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="7" addon="0" chips="99,700"/>
+    <player name="TheBuenoGuy" rebuy="0" dealer="0" reg_code="" win="0" bet="300" seat="9" addon="0" chips="15,810"/>
+    <player name="D1merr" rebuy="0" dealer="0" reg_code="" win="46,971" bet="109,026" seat="10" addon="0" chips="109,326">
+     <knockout kicked="tropeiro123" tobounty="€4.55" tobalance="€4.55"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" no="1" player="tropeiro123" sum="300"/>
+   <action type="15" no="2" player="WDB92" sum="300"/>
+   <action type="15" no="3" player="NutsPlayer" sum="300"/>
+   <action type="15" no="4" player="Jahdemaa" sum="300"/>
+   <action type="15" no="5" player="TheBuenoGuy" sum="300"/>
+   <action type="15" no="6" player="D1merr" sum="300"/>
+   <action type="15" no="7" player="MalaysianAir" sum="300"/>
+   <action type="15" no="8" player="thedaddy14" sum="300"/>
+   <action type="1" no="9" player="tropeiro123" sum="1,000"/>
+   <action type="2" no="10" player="WDB92" sum="2,000"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NutsPlayer">X X</cards>
+   <action type="0" no="11" player="NutsPlayer" sum="0"/>
+   <cards type="Pocket" player="Jahdemaa">X X</cards>
+   <action type="0" no="12" player="Jahdemaa" sum="0"/>
+   <cards type="Pocket" player="TheBuenoGuy">X X</cards>
+   <action type="0" no="13" player="TheBuenoGuy" sum="0"/>
+   <cards type="Pocket" player="D1merr">D5 S5</cards>
+   <action type="23" no="14" player="D1merr" sum="4,400"/>
+   <cards type="Pocket" player="MalaysianAir">X X</cards>
+   <action type="0" no="15" player="MalaysianAir" sum="0"/>
+   <cards type="Pocket" player="thedaddy14">X X</cards>
+   <action type="0" no="16" player="thedaddy14" sum="0"/>
+   <cards type="Pocket" player="tropeiro123">DJ HK</cards>
+   <action type="23" no="17" player="tropeiro123" sum="14,857"/>
+   <cards type="Pocket" player="WDB92">X X</cards>
+   <action type="3" no="18" player="WDB92" sum="12,857"/>
+   <action type="23" no="19" player="D1merr" sum="109,026"/>
+   <action type="0" no="20" player="WDB92" sum="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 SQ H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+  </round>
+ </game>
+</session>

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954861283">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€25,000|Morning Mystery|D1, 1081506439</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:06:31</duration>
+  <gamecount>66</gamecount>
+  <startdate>2024-02-19 15:45:54</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>188,216</bets>
+  <wins>101,811</wins>
+  <chipsin>48,500</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP13.50</statuspoints>
+  <awardpoints>RP40.50</awardpoints>
+  <ipoints>RP13.50</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080308115</tournamentcode>
+  <tournamentname>E3|€25,000|Morning Mystery|D1</tournamentname>
+  <place>14</place>
+  <buyin>€6.83 + €6.82 + €1.35</buyin>
+  <totalbuyin>€15</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10573109043">
+  <general>
+   <startdate>2024-02-19 15:45:54</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="5,330" dealer="0" seat="4" name="hymencrusher" bet="4,680" addon="0" rebuy="0" chips="181,644"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="200" addon="0" rebuy="0" chips="45,694"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="TheArtic" bet="200" addon="0" rebuy="0" chips="99,484"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="900" addon="0" rebuy="0" chips="67,254"/>
+    <player reg_code="7954861283" win="5,330" dealer="0" seat="9" name="tropeiro123" bet="4,680" addon="0" rebuy="0" chips="9,126"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FreshRS" sum="200" type="15"/>
+   <action no="2" player="tropeiro123" sum="200" type="15"/>
+   <action no="3" player="hymencrusher" sum="200" type="15"/>
+   <action no="4" player="ValdukRS" sum="200" type="15"/>
+   <action no="5" player="TheArtic" sum="200" type="15"/>
+   <action no="6" player="FreshRS" sum="700" type="1"/>
+   <action no="7" player="tropeiro123" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="hymencrusher" type="Pocket">H9 H10</cards>
+   <action no="8" player="hymencrusher" sum="3,080" type="23"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="9" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="10" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="11" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK C10</cards>
+   <action no="12" player="tropeiro123" sum="1,680" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ S3 D3</cards>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+   <action no="14" player="hymencrusher" sum="1,400" type="5"/>
+   <action no="15" player="tropeiro123" sum="1,400" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action no="16" player="tropeiro123" sum="0" type="4"/>
+   <action no="17" player="hymencrusher" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S10</cards>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+   <action no="19" player="hymencrusher" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573109136">
+  <general>
+   <startdate>2024-02-19 15:47:06</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,850" addon="0" rebuy="0" chips="182,294"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="45,494"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="250" addon="0" rebuy="0" chips="99,284"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="66,354"/>
+    <player reg_code="7954861283" win="4,450" dealer="0" seat="9" name="tropeiro123" bet="9,526" addon="0" rebuy="0" chips="9,776"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="250" type="15"/>
+   <action no="2" player="hymencrusher" sum="250" type="15"/>
+   <action no="3" player="ValdukRS" sum="250" type="15"/>
+   <action no="4" player="TheArtic" sum="250" type="15"/>
+   <action no="5" player="FreshRS" sum="250" type="15"/>
+   <action no="6" player="tropeiro123" sum="800" type="1"/>
+   <action no="7" player="hymencrusher" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="8" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="9" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="10" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HJ D10</cards>
+   <action no="11" player="tropeiro123" sum="9,526" type="23"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="12" player="hymencrusher" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573109160">
+  <general>
+   <startdate>2024-02-19 15:47:30</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,850" addon="0" rebuy="0" chips="180,444"/>
+    <player reg_code="" win="4,450" dealer="0" seat="5" name="ValdukRS" bet="5,600" addon="0" rebuy="0" chips="45,244"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="250" addon="0" rebuy="0" chips="99,034"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="66,104"/>
+    <player reg_code="7954861283" win="0" dealer="1" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="12,376"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="hymencrusher" sum="250" type="15"/>
+   <action no="2" player="ValdukRS" sum="250" type="15"/>
+   <action no="3" player="TheArtic" sum="250" type="15"/>
+   <action no="4" player="FreshRS" sum="250" type="15"/>
+   <action no="5" player="tropeiro123" sum="250" type="15"/>
+   <action no="6" player="hymencrusher" sum="800" type="1"/>
+   <action no="7" player="ValdukRS" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="8" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="9" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 C4</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="800" type="3"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="5,600" type="23"/>
+   <action no="13" player="hymencrusher" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573109185">
+  <general>
+   <startdate>2024-02-19 15:47:51</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="178,594"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="5,850" addon="0" rebuy="0" chips="47,844"/>
+    <player reg_code="" win="12,450" dealer="0" seat="6" name="TheArtic" bet="12,075" addon="0" rebuy="0" chips="98,784"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="65,854"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="12,126"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="ValdukRS" sum="250" type="15"/>
+   <action no="2" player="TheArtic" sum="250" type="15"/>
+   <action no="3" player="FreshRS" sum="250" type="15"/>
+   <action no="4" player="tropeiro123" sum="250" type="15"/>
+   <action no="5" player="hymencrusher" sum="250" type="15"/>
+   <action no="6" player="ValdukRS" sum="800" type="1"/>
+   <action no="7" player="TheArtic" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="8" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 S6</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="5,600" type="23"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="12" player="TheArtic" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 D3 H4</cards>
+   <action no="13" player="ValdukRS" sum="0" type="4"/>
+   <action no="14" player="TheArtic" sum="6,225" type="5"/>
+   <action no="15" player="ValdukRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573109245">
+  <general>
+   <startdate>2024-02-19 15:48:31</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="5,500" dealer="0" seat="1" name="Trash42" bet="3,200" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="178,344"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="41,994"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="1,050" addon="0" rebuy="0" chips="105,384"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="1,850" addon="0" rebuy="0" chips="65,604"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="11,876"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="TheArtic" sum="250" type="15"/>
+   <action no="2" player="FreshRS" sum="250" type="15"/>
+   <action no="3" player="tropeiro123" sum="250" type="15"/>
+   <action no="4" player="Trash42" sum="250" type="15"/>
+   <action no="5" player="hymencrusher" sum="250" type="15"/>
+   <action no="6" player="ValdukRS" sum="250" type="15"/>
+   <action no="7" player="TheArtic" sum="800" type="1"/>
+   <action no="8" player="FreshRS" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C7 S6</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="3,200" type="23"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="13" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="14" player="FreshRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573109263">
+  <general>
+   <startdate>2024-02-19 15:48:54</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,850" addon="0" rebuy="0" chips="53,650"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="178,094"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="41,744"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="TheArtic" bet="11,626" addon="0" rebuy="0" chips="104,334"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="1,050" addon="0" rebuy="0" chips="63,754"/>
+    <player reg_code="7954861283" win="26,652" dealer="0" seat="9" name="tropeiro123" bet="11,376" addon="0" rebuy="0" chips="11,626"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FreshRS" sum="250" type="15"/>
+   <action no="2" player="tropeiro123" sum="250" type="15"/>
+   <action no="3" player="Trash42" sum="250" type="15"/>
+   <action no="4" player="hymencrusher" sum="250" type="15"/>
+   <action no="5" player="ValdukRS" sum="250" type="15"/>
+   <action no="6" player="TheArtic" sum="250" type="15"/>
+   <action no="7" player="FreshRS" sum="800" type="1"/>
+   <action no="8" player="tropeiro123" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="1,600" type="3"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">D3 C3</cards>
+   <action no="12" player="TheArtic" sum="4,800" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="13" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK SA</cards>
+   <action no="14" player="tropeiro123" sum="11,376" type="23"/>
+   <action no="15" player="Trash42" sum="0" type="0"/>
+   <action no="16" player="TheArtic" sum="6,576" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ SJ S3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10573109316">
+  <general>
+   <startdate>2024-02-19 15:49:37</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="3,450" addon="0" rebuy="0" chips="51,800"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="177,844"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="41,494"/>
+    <player reg_code="" win="11,100" dealer="0" seat="6" name="TheArtic" bet="6,650" addon="0" rebuy="0" chips="92,708"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="62,704"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="3,450" addon="0" rebuy="0" chips="26,652"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="250" type="15"/>
+   <action no="2" player="Trash42" sum="250" type="15"/>
+   <action no="3" player="hymencrusher" sum="250" type="15"/>
+   <action no="4" player="ValdukRS" sum="250" type="15"/>
+   <action no="5" player="TheArtic" sum="250" type="15"/>
+   <action no="6" player="FreshRS" sum="250" type="15"/>
+   <action no="7" player="tropeiro123" sum="800" type="1"/>
+   <action no="8" player="Trash42" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="9" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="10" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="11" player="TheArtic" sum="3,200" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="12" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 SQ</cards>
+   <action no="13" player="tropeiro123" sum="2,400" type="3"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="14" player="Trash42" sum="1,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 HA H2</cards>
+   <action no="15" player="tropeiro123" sum="0" type="4"/>
+   <action no="16" player="Trash42" sum="0" type="4"/>
+   <action no="17" player="TheArtic" sum="3,200" type="5"/>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+   <action no="19" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573109391">
+  <general>
+   <startdate>2024-02-19 15:50:33</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="26,394" dealer="0" seat="1" name="Trash42" bet="18,744" addon="0" rebuy="0" chips="48,350"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,850" addon="0" rebuy="0" chips="177,594"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="41,244"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="250" addon="0" rebuy="0" chips="100,358"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="11,897" addon="0" rebuy="0" chips="62,454"/>
+    <player reg_code="7954861283" win="0" dealer="1" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="23,202"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="250" type="15"/>
+   <action no="2" player="hymencrusher" sum="250" type="15"/>
+   <action no="3" player="ValdukRS" sum="250" type="15"/>
+   <action no="4" player="TheArtic" sum="250" type="15"/>
+   <action no="5" player="FreshRS" sum="250" type="15"/>
+   <action no="6" player="tropeiro123" sum="250" type="15"/>
+   <action no="7" player="Trash42" sum="800" type="1"/>
+   <action no="8" player="hymencrusher" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="9" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="10" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="11" player="FreshRS" sum="3,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">SJ S2</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="13" player="Trash42" sum="2,400" type="3"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="14" player="hymencrusher" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ H4 HQ</cards>
+   <action no="15" player="Trash42" sum="3,200" type="5"/>
+   <action no="16" player="FreshRS" sum="3,200" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action no="17" player="Trash42" sum="0" type="4"/>
+   <action no="18" player="FreshRS" sum="5,247" type="5"/>
+   <action no="19" player="Trash42" sum="12,094" type="23"/>
+   <action no="20" player="FreshRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134103">
+  <general>
+   <startdate>2024-02-19 15:52:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="62,847"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,050" addon="0" rebuy="0" chips="175,744"/>
+    <player reg_code="" win="3,100" dealer="0" seat="5" name="ValdukRS" bet="1,850" addon="0" rebuy="0" chips="40,994"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="250" addon="0" rebuy="0" chips="100,108"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="50,557"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="22,952"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="hymencrusher" sum="250" type="15"/>
+   <action no="2" player="ValdukRS" sum="250" type="15"/>
+   <action no="3" player="TheArtic" sum="250" type="15"/>
+   <action no="4" player="FreshRS" sum="250" type="15"/>
+   <action no="5" player="tropeiro123" sum="250" type="15"/>
+   <action no="6" player="Trash42" sum="250" type="15"/>
+   <action no="7" player="hymencrusher" sum="800" type="1"/>
+   <action no="8" player="ValdukRS" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="9" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="10" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 CK</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="12" player="Trash42" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="13" player="hymencrusher" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134136">
+  <general>
+   <startdate>2024-02-19 15:53:10</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="62,597"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="174,694"/>
+    <player reg_code="" win="9,500" dealer="0" seat="5" name="ValdukRS" bet="42,794" addon="0" rebuy="0" chips="43,044"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="1,850" addon="0" rebuy="0" chips="99,858"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="250" addon="0" rebuy="0" chips="50,307"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="3,450" addon="0" rebuy="0" chips="22,702"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="ValdukRS" sum="250" type="15"/>
+   <action no="2" player="TheArtic" sum="250" type="15"/>
+   <action no="3" player="FreshRS" sum="250" type="15"/>
+   <action no="4" player="tropeiro123" sum="250" type="15"/>
+   <action no="5" player="Trash42" sum="250" type="15"/>
+   <action no="6" player="hymencrusher" sum="250" type="15"/>
+   <action no="7" player="ValdukRS" sum="800" type="1"/>
+   <action no="8" player="TheArtic" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="9" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ SQ</cards>
+   <action no="10" player="tropeiro123" sum="3,200" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="12" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="13" player="ValdukRS" sum="42,794" type="23"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="14" player="TheArtic" sum="0" type="0"/>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134175">
+  <general>
+   <startdate>2024-02-19 15:53:46</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="6,650" addon="0" rebuy="0" chips="62,347"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="174,444"/>
+    <player reg_code="" win="16,700" dealer="1" seat="5" name="ValdukRS" bet="22,650" addon="0" rebuy="0" chips="49,094"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="1,050" addon="0" rebuy="0" chips="98,008"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="1,850" addon="0" rebuy="0" chips="50,057"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="19,252"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="TheArtic" sum="250" type="15"/>
+   <action no="2" player="FreshRS" sum="250" type="15"/>
+   <action no="3" player="tropeiro123" sum="250" type="15"/>
+   <action no="4" player="Trash42" sum="250" type="15"/>
+   <action no="5" player="hymencrusher" sum="250" type="15"/>
+   <action no="6" player="ValdukRS" sum="250" type="15"/>
+   <action no="7" player="TheArtic" sum="800" type="1"/>
+   <action no="8" player="FreshRS" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D2 H10</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="1,600" type="3"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="6,400" type="23"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="13" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="14" player="FreshRS" sum="0" type="0"/>
+   <action no="15" player="Trash42" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK CQ DJ</cards>
+   <action no="16" player="Trash42" sum="0" type="4"/>
+   <action no="17" player="ValdukRS" sum="16,000" type="5"/>
+   <action no="18" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134241">
+  <general>
+   <startdate>2024-02-19 15:54:40</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="55,697"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="3,450" addon="0" rebuy="0" chips="174,194"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="59,144"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="TheArtic" bet="9,850" addon="0" rebuy="0" chips="96,958"/>
+    <player reg_code="" win="25,500" dealer="0" seat="7" name="FreshRS" bet="47,957" addon="0" rebuy="0" chips="48,207"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="1,850" addon="0" rebuy="0" chips="19,002"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FreshRS" sum="250" type="15"/>
+   <action no="2" player="tropeiro123" sum="250" type="15"/>
+   <action no="3" player="Trash42" sum="250" type="15"/>
+   <action no="4" player="hymencrusher" sum="250" type="15"/>
+   <action no="5" player="ValdukRS" sum="250" type="15"/>
+   <action no="6" player="TheArtic" sum="250" type="15"/>
+   <action no="7" player="FreshRS" sum="800" type="1"/>
+   <action no="8" player="tropeiro123" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="3,200" type="23"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="12" player="TheArtic" sum="9,600" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="13" player="FreshRS" sum="47,957" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D6 S3</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <action no="15" player="hymencrusher" sum="0" type="0"/>
+   <action no="16" player="TheArtic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134282">
+  <general>
+   <startdate>2024-02-19 16:00:50</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="18,550" dealer="0" seat="1" name="Trash42" bet="17,525" addon="0" rebuy="0" chips="55,447"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="250" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="250" addon="0" rebuy="0" chips="170,744"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="250" addon="0" rebuy="0" chips="58,894"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="250" addon="0" rebuy="0" chips="87,108"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="FreshRS" bet="8,250" addon="0" rebuy="0" chips="63,857"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="1,050" addon="0" rebuy="0" chips="17,152"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="250" type="15"/>
+   <action no="2" player="Trash42" sum="250" type="15"/>
+   <action no="3" player="veverka7" sum="250" type="15"/>
+   <action no="4" player="hymencrusher" sum="250" type="15"/>
+   <action no="5" player="ValdukRS" sum="250" type="15"/>
+   <action no="6" player="TheArtic" sum="250" type="15"/>
+   <action no="7" player="FreshRS" sum="250" type="15"/>
+   <action no="8" player="tropeiro123" sum="800" type="1"/>
+   <action no="9" player="Trash42" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="10" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="13" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="14" player="FreshRS" sum="3,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C4 H7</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="16" player="Trash42" sum="8,000" type="23"/>
+   <action no="17" player="FreshRS" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H9 C9</cards>
+   <action no="18" player="Trash42" sum="9,275" type="5"/>
+   <action no="19" player="FreshRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134303">
+  <general>
+   <startdate>2024-02-19 16:02:17</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,175" addon="0" rebuy="0" chips="65,747"/>
+    <player reg_code="" win="3,725" dealer="0" seat="2" name="veverka7" bet="2,075" addon="0" rebuy="0" chips="49,750"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="170,494"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="58,644"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="275" addon="0" rebuy="0" chips="86,858"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="55,607"/>
+    <player reg_code="7954861283" win="0" dealer="1" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="16,102"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="275" type="15"/>
+   <action no="2" player="veverka7" sum="275" type="15"/>
+   <action no="3" player="hymencrusher" sum="275" type="15"/>
+   <action no="4" player="ValdukRS" sum="275" type="15"/>
+   <action no="5" player="TheArtic" sum="275" type="15"/>
+   <action no="6" player="FreshRS" sum="275" type="15"/>
+   <action no="7" player="tropeiro123" sum="275" type="15"/>
+   <action no="8" player="Trash42" sum="900" type="1"/>
+   <action no="9" player="veverka7" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="12" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="13" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 HJ</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="15" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134315">
+  <general>
+   <startdate>2024-02-19 16:02:28</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="64,572"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="1,175" addon="0" rebuy="0" chips="52,300"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="2,075" addon="0" rebuy="0" chips="170,219"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="58,369"/>
+    <player reg_code="" win="6,425" dealer="0" seat="6" name="TheArtic" bet="3,600" addon="0" rebuy="0" chips="86,583"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="55,332"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="15,827"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="veverka7" sum="275" type="15"/>
+   <action no="2" player="hymencrusher" sum="275" type="15"/>
+   <action no="3" player="ValdukRS" sum="275" type="15"/>
+   <action no="4" player="TheArtic" sum="275" type="15"/>
+   <action no="5" player="FreshRS" sum="275" type="15"/>
+   <action no="6" player="tropeiro123" sum="275" type="15"/>
+   <action no="7" player="Trash42" sum="275" type="15"/>
+   <action no="8" player="veverka7" sum="900" type="1"/>
+   <action no="9" player="hymencrusher" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="10" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="11" player="TheArtic" sum="3,600" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="12" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 DQ</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="14" player="Trash42" sum="0" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="15" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="16" player="hymencrusher" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134372">
+  <general>
+   <startdate>2024-02-19 16:02:57</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="51,125" addon="0" rebuy="0" chips="64,297"/>
+    <player reg_code="" win="106,325" dealer="1" seat="2" name="veverka7" bet="50,850" addon="0" rebuy="0" chips="51,125"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,175" addon="0" rebuy="0" chips="168,144"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="2,075" addon="0" rebuy="0" chips="58,094"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="275" addon="0" rebuy="0" chips="90,933"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="55,057"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="15,552"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="hymencrusher" sum="275" type="15"/>
+   <action no="2" player="ValdukRS" sum="275" type="15"/>
+   <action no="3" player="TheArtic" sum="275" type="15"/>
+   <action no="4" player="FreshRS" sum="275" type="15"/>
+   <action no="5" player="tropeiro123" sum="275" type="15"/>
+   <action no="6" player="Trash42" sum="275" type="15"/>
+   <action no="7" player="veverka7" sum="275" type="15"/>
+   <action no="8" player="hymencrusher" sum="900" type="1"/>
+   <action no="9" player="ValdukRS" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="10" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="11" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ D7</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">H7 S7</cards>
+   <action no="13" player="Trash42" sum="5,400" type="23"/>
+   <cards player="veverka7" type="Pocket">S9 H9</cards>
+   <action no="14" player="veverka7" sum="50,850" type="23"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="15" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="16" player="ValdukRS" sum="0" type="0"/>
+   <action no="17" player="Trash42" sum="45,450" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 SA C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+  </round>
+ </game>
+ <game gamecode="10573134424">
+  <general>
+   <startdate>2024-02-19 16:03:57</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="12,897" addon="0" rebuy="0" chips="13,172"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="275" addon="0" rebuy="0" chips="106,325"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="166,969"/>
+    <player reg_code="" win="29,519" dealer="0" seat="5" name="ValdukRS" bet="55,744" addon="0" rebuy="0" chips="56,019"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="2,075" addon="0" rebuy="0" chips="90,658"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="54,782"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="15,277"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="ValdukRS" sum="275" type="15"/>
+   <action no="2" player="TheArtic" sum="275" type="15"/>
+   <action no="3" player="FreshRS" sum="275" type="15"/>
+   <action no="4" player="tropeiro123" sum="275" type="15"/>
+   <action no="5" player="Trash42" sum="275" type="15"/>
+   <action no="6" player="veverka7" sum="275" type="15"/>
+   <action no="7" player="hymencrusher" sum="275" type="15"/>
+   <action no="8" player="ValdukRS" sum="900" type="1"/>
+   <action no="9" player="TheArtic" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="10" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK D3</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">D9 DQ</cards>
+   <action no="12" player="Trash42" sum="12,897" type="23"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="13" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="14" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">SA DJ</cards>
+   <action no="15" player="ValdukRS" sum="55,744" type="23"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="16" player="TheArtic" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ H7 HK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10573134464">
+  <general>
+   <startdate>2024-02-19 16:04:31</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="275" addon="0" rebuy="0" chips="106,050"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="166,694"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="72,366"/>
+    <player reg_code="" win="5,250" dealer="0" seat="6" name="TheArtic" bet="3,875" addon="0" rebuy="0" chips="88,583"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="2,075" addon="0" rebuy="0" chips="54,507"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="15,002"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="TheArtic" sum="275" type="15"/>
+   <action no="2" player="FreshRS" sum="275" type="15"/>
+   <action no="3" player="tropeiro123" sum="275" type="15"/>
+   <action no="4" player="veverka7" sum="275" type="15"/>
+   <action no="5" player="hymencrusher" sum="275" type="15"/>
+   <action no="6" player="ValdukRS" sum="275" type="15"/>
+   <action no="7" player="TheArtic" sum="900" type="1"/>
+   <action no="8" player="FreshRS" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DK C5</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="10" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="13" player="TheArtic" sum="900" type="3"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="14" player="FreshRS" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D10 S8</cards>
+   <action no="15" player="TheArtic" sum="1,800" type="5"/>
+   <action no="16" player="FreshRS" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134551">
+  <general>
+   <startdate>2024-02-19 16:05:53</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="275" addon="0" rebuy="0" chips="105,775"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="166,419"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="72,091"/>
+    <player reg_code="" win="14,624" dealer="1" seat="6" name="TheArtic" bet="17,280" addon="0" rebuy="0" chips="91,758"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="1,175" addon="0" rebuy="0" chips="52,432"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="6,312" addon="0" rebuy="0" chips="14,727"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="FreshRS" sum="275" type="15"/>
+   <action no="2" player="tropeiro123" sum="275" type="15"/>
+   <action no="3" player="veverka7" sum="275" type="15"/>
+   <action no="4" player="hymencrusher" sum="275" type="15"/>
+   <action no="5" player="ValdukRS" sum="275" type="15"/>
+   <action no="6" player="TheArtic" sum="275" type="15"/>
+   <action no="7" player="FreshRS" sum="900" type="1"/>
+   <action no="8" player="tropeiro123" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="9" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="12" player="TheArtic" sum="3,600" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="13" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 H5</cards>
+   <action no="14" player="tropeiro123" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA C9 S8</cards>
+   <action no="15" player="tropeiro123" sum="0" type="4"/>
+   <action no="16" player="TheArtic" sum="2,437" type="5"/>
+   <action no="17" player="tropeiro123" sum="2,437" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+   <action no="19" player="TheArtic" sum="10,968" type="5"/>
+   <action no="20" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134660">
+  <general>
+   <startdate>2024-02-19 16:07:36</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="STIRITUP" bet="2,075" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="275" addon="0" rebuy="0" chips="105,500"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="166,144"/>
+    <player reg_code="" win="6,425" dealer="0" seat="5" name="ValdukRS" bet="3,600" addon="0" rebuy="0" chips="71,816"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="275" addon="0" rebuy="0" chips="100,070"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="51,257"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="1,175" addon="0" rebuy="0" chips="8,415"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="275" type="15"/>
+   <action no="2" player="STIRITUP" sum="275" type="15"/>
+   <action no="3" player="veverka7" sum="275" type="15"/>
+   <action no="4" player="hymencrusher" sum="275" type="15"/>
+   <action no="5" player="ValdukRS" sum="275" type="15"/>
+   <action no="6" player="TheArtic" sum="275" type="15"/>
+   <action no="7" player="FreshRS" sum="275" type="15"/>
+   <action no="8" player="tropeiro123" sum="900" type="1"/>
+   <action no="9" player="STIRITUP" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="10" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="11" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="12" player="ValdukRS" sum="3,600" type="23"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="13" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="14" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H7</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="STIRITUP" type="Pocket">X X</cards>
+   <action no="16" player="STIRITUP" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573134691">
+  <general>
+   <startdate>2024-02-19 16:08:00</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="STIRITUP" bet="1,175" addon="0" rebuy="0" chips="47,925"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="2,075" addon="0" rebuy="0" chips="105,225"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="165,869"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="76,166"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="7,240" addon="0" rebuy="0" chips="99,795"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="50,982"/>
+    <player reg_code="7954861283" win="18,555" dealer="1" seat="9" name="tropeiro123" bet="6,965" addon="0" rebuy="0" chips="7,240"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="STIRITUP" sum="275" type="15"/>
+   <action no="2" player="veverka7" sum="275" type="15"/>
+   <action no="3" player="hymencrusher" sum="275" type="15"/>
+   <action no="4" player="ValdukRS" sum="275" type="15"/>
+   <action no="5" player="TheArtic" sum="275" type="15"/>
+   <action no="6" player="FreshRS" sum="275" type="15"/>
+   <action no="7" player="tropeiro123" sum="275" type="15"/>
+   <action no="8" player="STIRITUP" sum="900" type="1"/>
+   <action no="9" player="veverka7" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="10" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="11" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">S8 DA</cards>
+   <action no="12" player="TheArtic" sum="3,600" type="23"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="13" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ DJ</cards>
+   <action no="14" player="tropeiro123" sum="6,965" type="23"/>
+   <cards player="STIRITUP" type="Pocket">X X</cards>
+   <action no="15" player="STIRITUP" sum="0" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="16" player="veverka7" sum="0" type="0"/>
+   <action no="17" player="TheArtic" sum="3,365" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ S9 C9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S2</cards>
+  </round>
+ </game>
+ <game gamecode="10573159742">
+  <general>
+   <startdate>2024-02-19 16:08:58</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="6,425" dealer="1" seat="1" name="STIRITUP" bet="3,600" addon="0" rebuy="0" chips="46,750"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="veverka7" bet="1,175" addon="0" rebuy="0" chips="103,150"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="2,075" addon="0" rebuy="0" chips="165,594"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="275" addon="0" rebuy="0" chips="75,891"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="275" addon="0" rebuy="0" chips="92,555"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="50,707"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="18,555"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="veverka7" sum="275" type="15"/>
+   <action no="2" player="hymencrusher" sum="275" type="15"/>
+   <action no="3" player="ValdukRS" sum="275" type="15"/>
+   <action no="4" player="TheArtic" sum="275" type="15"/>
+   <action no="5" player="FreshRS" sum="275" type="15"/>
+   <action no="6" player="tropeiro123" sum="275" type="15"/>
+   <action no="7" player="STIRITUP" sum="275" type="15"/>
+   <action no="8" player="veverka7" sum="900" type="1"/>
+   <action no="9" player="hymencrusher" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="10" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="11" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="12" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HJ C6</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="STIRITUP" type="Pocket">X X</cards>
+   <action no="14" player="STIRITUP" sum="3,600" type="23"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="15" player="veverka7" sum="0" type="0"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="16" player="hymencrusher" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573159781">
+  <general>
+   <startdate>2024-02-19 16:09:29</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="STIRITUP" bet="275" addon="0" rebuy="0" chips="51,100"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="veverka7" bet="11,075" addon="0" rebuy="0" chips="101,975"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="hymencrusher" bet="1,175" addon="0" rebuy="0" chips="163,519"/>
+    <player reg_code="" win="24,425" dealer="0" seat="5" name="ValdukRS" bet="21,875" addon="0" rebuy="0" chips="75,616"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="275" addon="0" rebuy="0" chips="92,280"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="50,432"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="18,280"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="hymencrusher" sum="275" type="15"/>
+   <action no="2" player="ValdukRS" sum="275" type="15"/>
+   <action no="3" player="TheArtic" sum="275" type="15"/>
+   <action no="4" player="FreshRS" sum="275" type="15"/>
+   <action no="5" player="tropeiro123" sum="275" type="15"/>
+   <action no="6" player="STIRITUP" sum="275" type="15"/>
+   <action no="7" player="veverka7" sum="275" type="15"/>
+   <action no="8" player="hymencrusher" sum="900" type="1"/>
+   <action no="9" player="ValdukRS" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="10" player="TheArtic" sum="0" type="0"/>
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="11" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 SJ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="STIRITUP" type="Pocket">X X</cards>
+   <action no="13" player="STIRITUP" sum="0" type="0"/>
+   <cards player="veverka7" type="Pocket">X X</cards>
+   <action no="14" player="veverka7" sum="5,400" type="23"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="15" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="16" player="ValdukRS" sum="3,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA D9 S8</cards>
+   <action no="17" player="ValdukRS" sum="0" type="4"/>
+   <action no="18" player="veverka7" sum="5,400" type="5"/>
+   <action no="19" player="ValdukRS" sum="5,400" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="20" player="ValdukRS" sum="0" type="4"/>
+   <action no="21" player="veverka7" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+   <action no="22" player="ValdukRS" sum="10,800" type="5"/>
+   <action no="23" player="veverka7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573159849">
+  <general>
+   <startdate>2024-02-19 16:10:35</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="STIRITUP" bet="275" addon="0" rebuy="0" chips="50,825"/>
+    <player reg_code="" win="91,475" dealer="0" seat="2" name="veverka7" bet="46,535" addon="0" rebuy="0" chips="90,900"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="hymencrusher" bet="275" addon="0" rebuy="0" chips="162,344"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="ValdukRS" bet="1,175" addon="0" rebuy="0" chips="88,966"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="TheArtic" bet="35,735" addon="0" rebuy="0" chips="92,005"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="FreshRS" bet="275" addon="0" rebuy="0" chips="50,157"/>
+    <player reg_code="7954861283" win="0" dealer="0" seat="9" name="tropeiro123" bet="17,730" addon="0" rebuy="0" chips="18,005"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="ValdukRS" sum="275" type="15"/>
+   <action no="2" player="TheArtic" sum="275" type="15"/>
+   <action no="3" player="FreshRS" sum="275" type="15"/>
+   <action no="4" player="tropeiro123" sum="275" type="15"/>
+   <action no="5" player="STIRITUP" sum="275" type="15"/>
+   <action no="6" player="veverka7" sum="275" type="15"/>
+   <action no="7" player="hymencrusher" sum="275" type="15"/>
+   <action no="8" player="ValdukRS" sum="900" type="1"/>
+   <action no="9" player="TheArtic" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FreshRS" type="Pocket">X X</cards>
+   <action no="10" player="FreshRS" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 DA</cards>
+   <action no="11" player="tropeiro123" sum="17,730" type="23"/>
+   <cards player="STIRITUP" type="Pocket">X X</cards>
+   <action no="12" player="STIRITUP" sum="0" type="0"/>
+   <cards player="veverka7" type="Pocket">C10 CA</cards>
+   <action no="13" player="veverka7" sum="35,460" type="23"/>
+   <cards player="hymencrusher" type="Pocket">X X</cards>
+   <action no="14" player="hymencrusher" sum="0" type="0"/>
+   <cards player="ValdukRS" type="Pocket">X X</cards>
+   <action no="15" player="ValdukRS" sum="0" type="0"/>
+   <cards player="TheArtic" type="Pocket">X X</cards>
+   <action no="16" player="TheArtic" sum="33,660" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA S3 S6</cards>
+   <action no="17" player="TheArtic" sum="0" type="4"/>
+   <action no="18" player="veverka7" sum="10,800" type="5"/>
+   <action no="19" player="TheArtic" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+  </round>
+ </game>
+</session>

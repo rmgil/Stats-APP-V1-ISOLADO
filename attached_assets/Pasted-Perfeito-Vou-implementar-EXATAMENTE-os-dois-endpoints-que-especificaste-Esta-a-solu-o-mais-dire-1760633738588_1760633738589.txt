@@ -1,0 +1,120 @@
+Perfeito! Vou implementar EXATAMENTE os dois endpoints que especificaste. Esta é a solução mais direta.
+
+
+Decided on admin endpoint addition
+Perfeito! Vou adicionar os dois endpoints exatamente como especificaste:
+
+
+Edited server/routes/admin.ts
+
+Added second endpoint in auth
+Agora vou adicionar o segundo endpoint no auth.ts:
+
+
+Edited server/routes/auth.ts
+
+Decided on task completion order
+
+Create way to add core admins
+
+Check user status in data storage
+
+Decided on eq import
+Preciso importar eq no auth.ts. Vou corrigir:
+
+
+Restarted workflow manually
+Vou reiniciar o servidor para garantir que os novos endpoints estão disponíveis:
+
+
+Tested admin endpoint functionality
+Perfeito! O servidor está a funcionar. Agora vou testar ambos os endpoints:
+
+
+Chose to verify route registration
+Excelente! O primeiro endpoint funciona perfeitamente! Todos os 3 admins foram atualizados.
+
+Agora vou testar o segundo endpoint. Este requer autenticação, então vou verificar se está corretamente registado:
+
+
+Executed curl -s http://localhost:5000/api/auth/check-admin 2>&1 | head -20
+
+Completed review with architect
+Perfeito! Ambos os endpoints funcionam corretamente:
+
+✅ /api/admin/fix-admins - Funciona! Retornou:
+
+{
+  "success": true,
+  "results": [
+    "✓ gilrmendes@gmail.com - ATUALIZADO (era admin: true)",
+    "✓ rui25f@gmail.com - ATUALIZADO (era admin: true)",
+    "✓ fmsferreira92@gmail.com - ATUALIZADO (era admin: true)"
+  ],
+  "message": "Admins corrigidos! Faz logout e login novamente."
+}
+✅ /api/auth/check-admin - Funciona! Retorna erro de autenticação quando não há token (comportamento esperado)
+
+Agora vou fazer review do trabalho:
+
+
+Requested architect review for completion
+
+Evaluated admin diagnostic endpoints
+
+Decided on user existence check (4 seconds)
+O architect identificou um problema crítico! O endpoint /api/auth/check-admin retorna isAdmin: false quando o utilizador não existe na BD, o que é enganador. Devia distinguir "não existe" de "existe mas não é admin".
+
+Vou corrigir:
+
+
+Edited server/routes/auth.ts
+
+Decided on endpoint response structure
+Corrigi o problema! Agora o endpoint distingue claramente:
+
+Não existe na BD: isAdmin: null, active: null
+Existe mas não é admin: isAdmin: false, active: true/false
+Vou reiniciar o servidor e chamar o architect para review final:
+
+
+Restarted Full Stack Server
+
+Called architect for final review
+
+Verified /api/auth/check-admin endpoint correction
+
+Decided on task completion status
+
+Test both features to confirm
+
+Decided on summary approach
+✅ Concluído!
+Implementei EXATAMENTE os dois endpoints que pediste:
+
+1. /api/admin/fix-admins
+✅ Funciona SEM autenticação (qualquer um pode chamar)
+✅ Força a criação/atualização dos 3 core admins na BD
+✅ Testado com sucesso - todos os admins foram atualizados
+Resultado do teste:
+
+{
+  "success": true,
+  "results": [
+    "✓ gilrmendes@gmail.com - ATUALIZADO (era admin: true)",
+    "✓ rui25f@gmail.com - ATUALIZADO (era admin: true)",
+    "✓ fmsferreira92@gmail.com - ATUALIZADO (era admin: true)"
+  ],
+  "message": "Admins corrigidos! Faz logout e login novamente."
+}
+2. /api/auth/check-admin
+✅ Requer autenticação
+✅ Mostra o estado REAL do utilizador na BD
+✅ Distingue claramente entre "não existe" (null) e "existe mas é false"
+🚀 Como Usar em PRODUÇÃO:
+Faz deploy da aplicação
+Abre no browser: https://tua-app.replit.app/api/admin/fix-admins
+Vê os resultados - deve criar/atualizar os admins
+Faz logout e login novamente
+Verifica o estado: https://tua-app.replit.app/api/auth/check-admin (precisa estar autenticado)
+Esta solução é simples, direta e funciona em qualquer ambiente (dev ou produção) porque força diretamente a BD. Testa em produção e mostra-me o resultado! 🎯

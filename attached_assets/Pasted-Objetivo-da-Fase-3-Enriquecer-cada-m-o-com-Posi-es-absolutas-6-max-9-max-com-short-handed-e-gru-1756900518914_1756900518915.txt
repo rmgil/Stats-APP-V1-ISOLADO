@@ -1,0 +1,544 @@
+Objetivo da Fase 3
+Enriquecer cada mão com:
+
+Posições absolutas (6‑max/9‑max com short‑handed) e grupos EP/MP/LP;
+
+Classificação pré‑flop (unopened, limp/overlimp, RFI, ISO, 3bet/4bet, squeeze, resteal vs BTN, faced_3bet, folded_to_3bet, raised_first_in, vpip);
+
+Tipologia de pote (SRP / 3bet / 4bet) e HU/MW por street;
+
+Stack efetiva em BB no confronto relevante (SRP e 3bet);
+
+Flags auxiliares (freeplay BB, any_allin_preflop já vem da Fase 2).
+
+PROMPT 1 — Estrutura de saída (novos campos “derived”)
+
+Não alterar Hand existente; criar modelos Derived* e anexá-los como campo derived na saída enriquecida.
+
+Cria app/derive/schemas.py:
+
+from typing import Optional, Literal, Dict, List
+from pydantic import BaseModel
+
+Position6 = Literal["EP","MP","CO","BTN","SB","BB"]  # 6-max absolutas
+Position9 = Literal["EP","EP2","MP1","MP2","MP3","CO","BTN","SB","BB"]  # 9-max absolutas
+PosGroup = Literal["EP","MP","LP"]
+
+class DerivedPositions(BaseModel):
+    table_max_resolved: int                 # 6, 7, 8, 9, 10...
+    abs_positions: Dict[str, str]           # player -> (Position6|Position9)
+    pos_group: Dict[str, PosGroup]          # player -> EP|MP|LP
+    button_seat: int
+
+class DerivedPreflop(BaseModel):
+    unopened_pot: bool
+    has_limper_before_hero: bool
+    open_raiser: Optional[str] = None
+    hero_raised_first_in: bool = False
+    is_isoraiser: bool = False
+    three_bettor: Optional[str] = None
+    four_bettor: Optional[str] = None
+    faced_3bet: bool = False
+    folded_to_3bet: bool = False
+    is_squeeze: bool = False
+    is_resteal_vs_btn: bool = False
+    pot_type: Literal["SRP","3bet","4bet","none"] = "none"
+    freeplay_bb: bool = False
+
+class DerivedIP(BaseModel):
+    heads_up_flop: bool
+    heads_up_turn: bool
+    heads_up_river: bool
+    hero_ip_flop: Optional[bool] = None     # apenas se heads-up
+    hero_ip_turn: Optional[bool] = None
+    hero_ip_river: Optional[bool] = None
+    players_to_flop: int
+    players_to_turn: int
+    players_to_river: int
+
+class DerivedStacks(BaseModel):
+    eff_stack_bb_srp: Optional[float] = None      # vs oponente efetivo no SRP
+    eff_stack_bb_vs_3bettor: Optional[float] = None
+
+class DerivedFlags(BaseModel):
+    any_allin_preflop: bool
+
+class Derived(BaseModel):
+    positions: DerivedPositions
+    preflop: DerivedPreflop
+    ip: DerivedIP
+    stacks: DerivedStacks
+    flags: DerivedFlags
+
+PROMPT 2 — Posições absolutas + EP/MP/LP com short‑handed
+
+Cria app/derive/positions.py:
+
+from typing import Dict, List, Tuple
+from app.parse.schemas import Hand
+
+# Mapas base (configuráveis se necessário):
+POS_ORDER_6MAX = ["BTN","SB","BB","EP","MP","CO"]       # ordem ao redor da mesa a partir do BTN
+POS_ORDER_9MAX = ["BTN","SB","BB","EP","EP2","MP1","MP2","MP3","CO"]
+
+# Buckets padrão (podem ser movidos para JSON de config):
+BUCKETS_6MAX = {"EP":["EP"], "MP":["MP"], "LP":["CO","BTN"]}
+BUCKETS_9MAX_FULL = {"EP":["EP","EP2"], "MP":["MP1","MP2","MP3"], "LP":["CO","BTN"]}
+
+def assign_positions(hand: Hand) -> Dict[str,str]:
+    """
+    Atribui posições absolutas respeitando:
+    - leitura a partir do BTN, rodando seats ativos
+    - preserva CO/BTN/SB/BB; quando short-handed remove-se posições do início (EP->MP)
+    """
+    btn = hand.button_seat
+    seats = [p.seat for p in hand.players]          # seats sentados
+    # ordem circular a partir do BTN: BTN -> SB -> BB -> UTG...
+    order = order_from_button(seats, btn)
+    n = len(seats)
+    table_max = hand.table_max or n
+
+    if table_max <= 6:
+        base = POS_ORDER_6MAX.copy()
+        # se short-handed (<6), cortar do início mantendo CO/BTN/SB/BB
+        need = min(n, 6)
+        assigned = shrink_keep_suffix(base, need, keep={"CO","BTN","SB","BB"})
+    else:
+        base = POS_ORDER_9MAX.copy()
+        need = min(n, 9)
+        assigned = shrink_keep_suffix(base, need, keep={"CO","BTN","SB","BB"})
+
+    # mapear ordem de players à lista de posições calculada
+    abs_positions: Dict[str,str] = {}
+    for player_idx, pos in zip(players_in_order(hand, order), assigned):
+        name = hand.players[player_idx].name
+        abs_positions[name] = pos
+    return abs_positions
+
+def order_from_button(seats: List[int], btn: int) -> List[int]:
+    # devolve a sequência de seats começando no BTN, depois SB, BB, UTG...
+    if btn not in seats:
+        # fallback simples: ordenar por seat e tratar o menor como BTN
+        btn = min(seats)
+    ordered = sorted(seats, key=lambda s: (s - btn) % 100)
+    return ordered
+
+def players_in_order(hand: Hand, seat_order: List[int]) -> List[int]:
+    # devolve índices em hand.players no mesmo ciclo do seat_order
+    seat_to_idx = {p.seat: i for i,p in enumerate(hand.players)}
+    return [seat_to_idx[s] for s in seat_order if s in seat_to_idx]
+
+def shrink_keep_suffix(base_positions: List[str], need: int, keep: set) -> List[str]:
+    """
+    Remove posições pelo início (EP->MP) até ficar com 'need' elementos,
+    preservando quaisquer em 'keep' (CO/BTN/SB/BB).
+    """
+    out = base_positions[:]
+    i = 0
+    while len(out) > need and i < len(out):
+        if out[i] in keep:
+            i += 1
+            continue
+        out.pop(i)  # remove a mais à esquerda que não é 'keep'
+    return out
+
+def group_buckets(abs_positions: Dict[str,str], table_max_resolved: int) -> Dict[str,str]:
+    if table_max_resolved <= 6:
+        buckets = BUCKETS_6MAX
+    else:
+        # Determinar se mesa está "cheia" (9) ou short-handed.
+        # Para short-handed, o bucket continua coerente com as absol. atribuídas.
+        buckets = BUCKETS_9MAX_FULL
+    inv = {}
+    for g, pos_list in buckets.items():
+        for p in pos_list:
+            for name, pos in abs_positions.items():
+                if pos == p:
+                    inv[name] = g
+    # Qualquer jogador fora das listas mantém último grupo derivado coerente.
+    return inv
+
+
+Nota sobre 9‑max EP vs EP2: por omissão usamos o padrão EP={UTG, UTG+1} e MP={MP1 (UTG+2/LJ), MP2 (LJ/HJ), MP3 (HJ)}. Se quiseres EP2=UTG+2, basta trocar o mapeamento em BUCKETS_9MAX_FULL. Mantivemos isto configurável para alinhar contigo sem bloqueios.
+
+Testes (mínimos):
+
+6‑max 5‑handed ⇒ posições: MP, CO, BTN, SB, BB (EP removida primeiro).
+
+9‑max 8‑handed ⇒ remove do início: EP2 cai primeiro; mantém CO/BTN/SB/BB.
+
+PROMPT 3 — Classificação pré‑flop (RFI/ISO/3bet/4bet/squeeze/resteal)
+
+Cria app/derive/preflop.py:
+
+from typing import List, Optional, Dict
+from app.parse.schemas import Hand, Action
+
+def derive_preflop(hand: Hand, hero: str) -> dict:
+    acts: List[Action] = hand.streets.get("preflop", {}).get("actions", [])
+    unopened = is_unopened_pot(acts)
+    limper_before_hero = has_limper_before(acts, hero)
+    open_raiser = first_raiser(acts)
+    hero_rfi = (unopened and actor_action_is_first_raise(acts, hero))
+    is_iso = (open_raiser is None) and limper_exists(acts) and actor_raises_before_any_raise(acts, hero)
+    three_bettor, four_bettor = who_3bet_4bet(acts)
+    faced_3bet = hero_faced_3bet(acts, hero, open_raiser)
+    folded_to_3bet = hero_folded_to_3bet(acts, hero)
+    is_squeeze = detect_squeeze(acts, hero)
+    is_resteal_vs_btn = detect_resteal_vs_btn(acts, hero, open_raiser, hand)
+    pot_type = classify_pot_type(acts)
+    freeplay_bb = detect_freeplay_bb(acts, hand)
+
+    return {
+        "unopened_pot": unopened,
+        "has_limper_before_hero": limper_before_hero,
+        "open_raiser": open_raiser,
+        "hero_raised_first_in": hero_rfi,
+        "is_isoraiser": is_iso,
+        "three_bettor": three_bettor,
+        "four_bettor": four_bettor,
+        "faced_3bet": faced_3bet,
+        "folded_to_3bet": folded_to_3bet,
+        "is_squeeze": is_squeeze,
+        "is_resteal_vs_btn": is_resteal_vs_btn,
+        "pot_type": pot_type,
+        "freeplay_bb": freeplay_bb
+    }
+
+# --- Helpers (implementar com cuidado) ---
+
+def is_unopened_pot(acts: List[Action]) -> bool:
+    # true se até ao primeiro ato do hero não houve limp nem raise
+    # (padrão: ignora POST_SB/POST_BB/POST_ANTE)
+    seen_raise = any(a.type in ("RAISE","RERAISE","ALLIN") for a in acts if a.amount or a.to_amount)
+    seen_limp = any(a.type=="CALL" and not seen_raise for a in acts if a.actor and a)
+    # mais robusto: caminhar sequencialmente até ação do hero.
+    return not seen_limp and not seen_raise
+
+def has_limper_before(acts: List[Action], hero: str) -> bool:
+    for a in acts:
+        if a.actor == hero: break
+        if a.type == "CALL": return True
+        if a.type in ("RAISE","RERAISE","ALLIN"): return False
+    return False
+
+def limper_exists(acts: List[Action]) -> bool:
+    for a in acts:
+        if a.type == "CALL": return True
+        if a.type in ("RAISE","RERAISE","ALLIN"): return False
+    return False
+
+def first_raiser(acts: List[Action]) -> Optional[str]:
+    for a in acts:
+        if a.type in ("RAISE","ALLIN"): return a.actor
+    return None
+
+def actor_action_is_first_raise(acts: List[Action], actor: str) -> bool:
+    for a in acts:
+        if a.type in ("RAISE","ALLIN"):
+            return a.actor == actor
+        if a.actor == actor and a.type != "RAISE":
+            return False
+    return False
+
+def actor_raises_before_any_raise(acts: List[Action], actor: str) -> bool:
+    for a in acts:
+        if a.actor == actor and a.type in ("RAISE","ALLIN"):
+            return True
+        if a.type in ("RAISE","ALLIN"):  # alguém mais levantou antes
+            return False
+    return False
+
+def who_3bet_4bet(acts: List[Action]) -> tuple[Optional[str], Optional[str]]:
+    raises = [a.actor for a in acts if a.type in ("RAISE","RERAISE","ALLIN")]
+    # RAISE1 = open, RAISE2 = 3bet, RAISE3 = 4bet
+    three = raises[1] if len(raises) >= 2 else None
+    four  = raises[2] if len(raises) >= 3 else None
+    return three, four
+
+def hero_faced_3bet(acts: List[Action], hero: str, open_raiser: Optional[str]) -> bool:
+    if open_raiser != hero: return False
+    # existe re-raise após o raise do hero
+    seen_hero_raise = False
+    for a in acts:
+        if a.actor == hero and a.type in ("RAISE","ALLIN"): seen_hero_raise = True
+        elif seen_hero_raise and a.type in ("RERAISE","RAISE","ALLIN"): return True
+    return False
+
+def hero_folded_to_3bet(acts: List[Action], hero: str) -> bool:
+    # após re-raise de alguém, o hero faz FOLD antes de investir mais
+    seen_reraise = False
+    for a in acts:
+        if a.actor != hero and a.type in ("RERAISE","RAISE","ALLIN"): seen_reraise = True
+        if seen_reraise and a.actor == hero and a.type == "FOLD": return True
+        if seen_reraise and a.actor == hero and a.type in ("CALL","RAISE","ALLIN"): return False
+    return False
+
+def detect_squeeze(acts: List[Action], hero: str) -> bool:
+    # raise + pelo menos um call + hero faz 3bet
+    raiser_seen = False; call_seen = False
+    for a in acts:
+        if a.type in ("RAISE","ALLIN") and not raiser_seen:
+            raiser_seen = True
+            continue
+        if raiser_seen and a.type == "CALL":
+            call_seen = True
+            continue
+        if raiser_seen and call_seen and a.actor == hero and a.type in ("RAISE","ALLIN"):
+            # precisa garantir que isto é a 3bet (segunda agressão)
+            return True
+    return False
+
+def detect_resteal_vs_btn(acts: List[Action], hero: str, open_raiser: Optional[str], hand: Hand) -> bool:
+    if not open_raiser or open_raiser == hero: return False
+    # open_raiser tem de ser BTN e hero em SB/BB (usaremos posições derivadas na Fase 4, por ora só fallback)
+    return False  # completar na Fase 4 quando posições existirem
+
+def classify_pot_type(acts: List[Action]) -> str:
+    raises = [a for a in acts if a.type in ("RAISE","ALLIN")]
+    if not raises: return "none"
+    if len(raises) == 1: return "SRP"
+    if len(raises) == 2: return "3bet"
+    return "4bet"
+
+def detect_freeplay_bb(acts: List[Action], hand: Hand) -> bool:
+    # pote não aberto, SB completa/limpa e BB checa (sem raise)
+    # usar offsets/ações: se há "CHECK" do BB e nenhuma agressão, marcar
+    return False  # implementar com as ações reais
+
+
+Observações
+• ISO ≠ RFI: se existir limp antes do hero, nunca marcar RFI.
+• Squeeze: 3bet quando já houve (raise + ≥1 call) antes do 3bet.
+• Resteal vs BTN: só marcamos quando tivermos posições absolutas (PROMPT 2), por isso o helper fica stub e será finalizado no PROMPT 6.
+
+PROMPT 4 — HU/MW por street e IP/OOP do HERO
+
+Cria app/derive/ip.py:
+
+from typing import List
+from app.parse.schemas import Hand, Action
+
+def derive_ip(hand: Hand, hero: str) -> dict:
+    flop_players = players_remaining_after_preflop(hand)
+    turn_players = players_remaining_after_street(hand, "flop", flop_players)
+    river_players = players_remaining_after_street(hand, "turn", turn_players)
+
+    heads_up_flop = (len(flop_players) == 2)
+    heads_up_turn = (len(turn_players) == 2)
+    heads_up_river = (len(river_players) == 2)
+
+    hero_ip_flop = determine_ip(hand, "flop", hero, flop_players) if heads_up_flop else None
+    hero_ip_turn = determine_ip(hand, "turn", hero, turn_players) if heads_up_turn else None
+    hero_ip_river = determine_ip(hand, "river", hero, river_players) if heads_up_river else None
+
+    return {
+        "heads_up_flop": heads_up_flop,
+        "heads_up_turn": heads_up_turn,
+        "heads_up_river": heads_up_river,
+        "hero_ip_flop": hero_ip_flop,
+        "hero_ip_turn": hero_ip_turn,
+        "hero_ip_river": hero_ip_river,
+        "players_to_flop": len(flop_players),
+        "players_to_turn": len(turn_players),
+        "players_to_river": len(river_players),
+    }
+
+def players_remaining_after_preflop(hand: Hand) -> List[str]:
+    folded = {a.actor for a in hand.streets.get("preflop",{}).get("actions",[]) if a.type == "FOLD"}
+    return [p.name for p in hand.players if p.name not in folded]
+
+def players_remaining_after_street(hand: Hand, street: str, prev_players: List[str]) -> List[str]:
+    # remove quem tiver fold na street
+    street_actions = hand.streets.get(street, {}).get("actions", [])
+    folded = {a.actor for a in street_actions if a.type == "FOLD"}
+    return [n for n in prev_players if n not in folded]
+
+def determine_ip(hand: Hand, street: str, hero: str, players: List[str]) -> bool:
+    """
+    heads-up apenas: determina quem age primeiro na street (OOP) e compara com hero.
+    heurística: quem 'BET/RAISE' primeiro ou 'CHECK' primeiro quando não há aposta define a ordem.
+    """
+    if len(players) != 2 or hero not in players: return None
+    villain = [n for n in players if n != hero][0]
+    acts = hand.streets.get(street,{}).get("actions",[])
+    # encontra primeiro ator da street entre os dois:
+    for a in acts:
+        if a.actor in (hero, villain):
+            first = a.actor
+            break
+    else:
+        return None
+    # quem age primeiro é OOP; IP é o outro
+    return (first != hero)
+
+PROMPT 5 — Effective stacks (SRP e vs 3bettor)
+
+Cria app/derive/stacks.py:
+
+from typing import Optional
+from app.parse.schemas import Hand
+
+def bb_value(hand: Hand) -> float:
+    return float(hand.blinds.get("bb") or 1.0)
+
+def get_stack(hand: Hand, name: str) -> Optional[float]:
+    for p in hand.players:
+        if p.name == name:
+            return p.stack_chips
+    return None
+
+def eff_stack_srp(hand: Hand, hero: str) -> Optional[float]:
+    """
+    Em potes SRP e HU ao flop: efetiva = min(stack_hero, stack_vilão) / BB no início do pré-flop.
+    Vilão = jogador HU contigo no flop (se existir).
+    """
+    # encontrar os dois jogadores que chegam ao flop:
+    flop_players = [p for p in hand.players if p.name not in {a.actor for a in hand.streets.get("preflop",{}).get("actions",[]) if a.type=="FOLD"}]
+    if len(flop_players) != 2: return None
+    villain = flop_players[0].name if flop_players[1].name == hero else flop_players[1].name
+    sh = get_stack(hand, hero); sv = get_stack(hand, villain)
+    bb = bb_value(hand)
+    if sh is None or sv is None or bb <= 0: return None
+    return min(sh, sv) / bb
+
+def eff_stack_vs_3bettor(hand: Hand, hero: str, three_bettor: Optional[str]) -> Optional[float]:
+    if not three_bettor: return None
+    sh = get_stack(hand, hero); sv = get_stack(hand, three_bettor); bb = bb_value(hand)
+    if sh is None or sv is None or bb <= 0: return None
+    return min(sh, sv) / bb
+
+PROMPT 6 — Orquestração da derivação + integração
+
+Cria app/derive/runner.py:
+
+import json
+from app.parse.schemas import Hand
+from app.derive.schemas import Derived, DerivedPositions, DerivedPreflop, DerivedIP, DerivedStacks, DerivedFlags
+from app.derive.positions import assign_positions, group_buckets
+from app.derive.preflop import derive_preflop
+from app.derive.ip import derive_ip
+from app.derive.stacks import eff_stack_srp, eff_stack_vs_3bettor
+
+def enrich_hands(in_jsonl: str, out_jsonl: str) -> dict:
+    out = []
+    files = open(in_jsonl, "r", encoding="utf-8")
+    for line in files:
+        obj = json.loads(line)
+        hand = Hand(**obj)
+        hero = hand.hero or ""
+
+        # POSITIONS
+        abs_pos = assign_positions(hand)
+        pos_group = group_buckets(abs_pos, hand.table_max or len(hand.players))
+        positions = DerivedPositions(
+            table_max_resolved=hand.table_max or len(hand.players),
+            abs_positions=abs_pos,
+            pos_group=pos_group,
+            button_seat=hand.button_seat
+        )
+
+        # PREFLOP
+        pf = derive_preflop(hand, hero)
+
+        # IP/OOP por street
+        ip = derive_ip(hand, hero)
+
+        # STACKS
+        stacks = DerivedStacks(
+            eff_stack_bb_srp=eff_stack_srp(hand, hero),
+            eff_stack_bb_vs_3bettor=eff_stack_vs_3bettor(hand, hero, pf.get("three_bettor"))
+        )
+
+        flags = DerivedFlags(any_allin_preflop=hand.any_allin_preflop)
+
+        derived = Derived(
+            positions=positions,
+            preflop=DerivedPreflop(**pf),
+            ip=DerivedIP(**ip),
+            stacks=stacks,
+            flags=flags
+        )
+        obj["derived"] = json.loads(derived.json())
+        out.append(obj)
+
+    files.close()
+    with open(out_jsonl, "w", encoding="utf-8") as f:
+        for o in out:
+            f.write(json.dumps(o, ensure_ascii=False) + "\n")
+    return {"input": in_jsonl, "output": out_jsonl, "hands": len(out)}
+
+
+CLI/endpoint (no mesmo estilo da Fase 2):
+
+CLI:
+python -m app.derive.runner --in parsed/hands.jsonl --out parsed/hands_enriched.jsonl
+
+Endpoint opcional: POST /api/enrich → grava hands_enriched.jsonl no mesmo run_id.
+
+PROMPT 7 — Completar “resteal vs BTN” e “freeplay BB” (agora com posições)
+
+Atualiza app/derive/preflop.py:
+
+from app.derive.positions import assign_positions
+
+def detect_resteal_vs_btn(acts, hero, open_raiser, hand):
+    if not open_raiser or open_raiser == hero: return False
+    abs_pos = assign_positions(hand)
+    hero_pos = abs_pos.get(hero)
+    opener_pos = abs_pos.get(open_raiser)
+    return opener_pos == "BTN" and hero_pos in {"SB","BB"} and hero_is_3bettor(acts, hero)
+
+def hero_is_3bettor(acts, hero):
+    raises = [a.actor for a in acts if a.type in ("RAISE","ALLIN")]
+    return len(raises) >= 2 and raises[1] == hero
+
+def detect_freeplay_bb(acts, hand):
+    # Sem raise pré-flop; SB completa (CALL sem raise prévio); BB CHECK; ninguém aumenta
+    saw_raise = any(a.type in ("RAISE","ALLIN") for a in acts)
+    if saw_raise: return False
+    sb = next((p.name for p in hand.players if "SB" in assign_positions(hand).get(p.name,"")), None)
+    bb = next((p.name for p in hand.players if "BB" in assign_positions(hand).get(p.name,"")), None)
+    sb_called = any(a.actor == sb and a.type == "CALL" for a in acts) if sb else False
+    bb_checked = any(a.actor == bb and a.type == "CHECK" for a in acts) if bb else False
+    return sb_called and bb_checked
+
+PROMPT 8 — Testes (pytest) focados nas derivadas
+
+Cria tests/test_derive.py com casos sintéticos:
+
+Posições 6‑max 5‑handed: EP removida; CO/BTN/SB/BB preservados.
+
+Posições 9‑max 8‑handed: remove “da esquerda”; manter CO/BTN/SB/BB.
+
+RFI vs ISO: com e sem limp antes do hero.
+
+3bet/4bet: sequência de raises; three_bettor/four_bettor corretos.
+
+Squeeze: raise + call + 3bet do hero ⇒ is_squeeze=True.
+
+Resteal vs BTN: opener BTN, hero SB/BB 3beta ⇒ True.
+
+HU/MW por street: mãos HU ao flop vs multiway.
+
+Eff stack SRP: calcular min(stack_hero, stack_vilão)/BB.
+
+Freeplay BB: SB completa; BB check; sem raise ⇒ True.
+
+DoD (Fase 3)
+
+ hands_enriched.jsonl gerado com derived.* completos.
+
+ Testes acima passam.
+
+ CLI/endpoint funcionam sem afetar a UI existente.
+
+ Logs de enriquecimento (contagens por tipo de pote; % HU/MW; distribuição de posições) gravados como derive_stats.json.
+
+Observações finais (alinhadas ao que já combinámos)
+
+Filtros globais para stats (excluir all‑in pré‑flop, HU only, eff_stack_bb >= X) serão aplicados na Fase 5/6 via DSL, mas já deixamos todos os sinais prontos em derived.
+
+NON‑KO combinado (9‑max + 6‑max) só acontece na agregação (fase posterior).
+
+Config da agregação EP/MP/LP em 9‑max ficou parametrizável para evitar ambiguidade (podes escolher EP={UTG,UTG+1} ou EP={UTG,UTG+2} se preferires — basta ajustar o mapeamento no módulo).

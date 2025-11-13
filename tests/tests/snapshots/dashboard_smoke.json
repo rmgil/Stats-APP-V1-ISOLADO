@@ -1,0 +1,20 @@
+{
+  "endpoint": "/dashboard",
+  "status": 200,
+  "has_charts": {
+    "trends": true,
+    "gauge": true,
+    "heatmap": true,
+    "street": true,
+    "position": true
+  },
+  "has_filters": {
+    "family": true,
+    "group": true,
+    "months": true
+  },
+  "has_javascript": {
+    "chart_js": true,
+    "bootstrap": true
+  }
+}

@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947659621">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€12,000|Bounty Hunter XL, 1080879634</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>02:53:09</duration>
+  <gamecount>125</gamecount>
+  <startdate>2024-02-12 15:22:33</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>1,889,612</bets>
+  <wins>1,142,991</wins>
+  <chipsin>111,710</chipsin>
+  <chipsout>406,498</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080853679</tournamentcode>
+  <tournamentname>€12,000|Bounty Hunter XL</tournamentname>
+  <place>N/A</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560319324">
+  <general>
+   <startdate>2024-02-12 15:22:33</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="1" chips="92,324" addon="0" bet="600" reg_code="" name="SuperFighter" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="93,950" addon="0" bet="600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="237,766" addon="0" bet="600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="417,852" addon="0" bet="417,252" reg_code="" name="MAiK0lm3n" win="19,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="107,791" addon="0" bet="3,600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,650" addon="0" bet="6,600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="97,900" addon="0" bet="600" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="147,514" addon="0" bet="600" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="GodOgFull" type="15"/>
+   <action no="2" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="3" sum="600" player="Kongalkohol" type="15"/>
+   <action no="4" sum="600" player="sunsharp36" type="15"/>
+   <action no="5" sum="600" player="SuperFighter" type="15"/>
+   <action no="6" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="600" player="tropeiro123" type="15"/>
+   <action no="8" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="9" sum="3,000" player="GodOgFull" type="1"/>
+   <action no="10" sum="6,000" player="PrayForMercy21" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="sunsharp36" type="0"/>
+   <cards player="SuperFighter" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="SuperFighter" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 CJ</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="16" sum="417,252" player="MAiK0lm3n" type="23"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="PrayForMercy21" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319433">
+  <general>
+   <startdate>2024-02-12 15:23:28</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="1" chips="91,724" addon="0" bet="91,124" reg_code="" name="SuperFighter" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="93,350" addon="0" bet="600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="237,166" addon="0" bet="600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="431,052" addon="0" bet="600" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="104,191" addon="0" bet="104,191" reg_code="" name="GodOgFull" win="196,048" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="SuperFighter"/>
+    </player>
+    <player dealer="0" seat="7" chips="80,050" addon="0" bet="3,600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="97,300" addon="0" bet="6,600" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="146,914" addon="0" bet="600" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="2" sum="600" player="Kongalkohol" type="15"/>
+   <action no="3" sum="600" player="sunsharp36" type="15"/>
+   <action no="4" sum="600" player="SuperFighter" type="15"/>
+   <action no="5" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="600" player="tropeiro123" type="15"/>
+   <action no="7" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="600" player="GodOgFull" type="15"/>
+   <action no="9" sum="3,000" player="PrayForMercy21" type="1"/>
+   <action no="10" sum="6,000" player="Kongalkohol" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sunsharp36" type="0"/>
+   <cards player="SuperFighter" type="Pocket">DA H6</cards>
+   <action no="12" sum="91,124" player="SuperFighter" type="23"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ D5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">DJ HA</cards>
+   <action no="16" sum="103,591" player="GodOgFull" type="7"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Kongalkohol" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 C6 DQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+ <game gamecode="10560319533">
+  <general>
+   <startdate>2024-02-12 15:24:21</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="2" chips="92,750" addon="0" bet="600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="236,566" addon="0" bet="55,911" reg_code="7947659621" name="tropeiro123" win="69,822" rebuy="0"/>
+    <player dealer="0" seat="5" chips="430,452" addon="0" bet="600" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="208,515" addon="0" bet="600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="76,450" addon="0" bet="600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="90,700" addon="0" bet="3,600" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="146,314" addon="0" bet="31,911" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="Kongalkohol" type="15"/>
+   <action no="2" sum="600" player="sunsharp36" type="15"/>
+   <action no="3" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="600" player="tropeiro123" type="15"/>
+   <action no="5" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="6" sum="600" player="GodOgFull" type="15"/>
+   <action no="7" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="8" sum="3,000" player="Kongalkohol" type="1"/>
+   <action no="9" sum="6,000" player="sunsharp36" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ H10</cards>
+   <action no="11" sum="12,600" player="tropeiro123" type="23"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="16" sum="6,600" player="sunsharp36" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ SQ S8</cards>
+   <action no="17" sum="0" player="sunsharp36" type="4"/>
+   <action no="18" sum="8,100" player="tropeiro123" type="5"/>
+   <action no="19" sum="18,711" player="sunsharp36" type="23"/>
+   <action no="20" sum="10,611" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action no="21" sum="0" player="sunsharp36" type="4"/>
+   <action no="22" sum="24,000" player="tropeiro123" type="5"/>
+   <action no="23" sum="0" player="sunsharp36" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319741">
+  <general>
+   <startdate>2024-02-12 15:26:14</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="1" chips="187,700" addon="0" bet="187,100" reg_code="" name="LegeVaas" win="57,600" rebuy="0"/>
+    <player dealer="0" seat="2" chips="92,150" addon="0" bet="600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="274,477" addon="0" bet="600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="429,852" addon="0" bet="13,800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="207,915" addon="0" bet="600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="75,850" addon="0" bet="600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="87,100" addon="0" bet="13,800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="114,403" addon="0" bet="13,800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="sunsharp36" type="15"/>
+   <action no="2" sum="600" player="LegeVaas" type="15"/>
+   <action no="3" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="600" player="tropeiro123" type="15"/>
+   <action no="5" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="6" sum="600" player="GodOgFull" type="15"/>
+   <action no="7" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="8" sum="600" player="Kongalkohol" type="15"/>
+   <action no="9" sum="3,000" player="sunsharp36" type="1"/>
+   <action no="10" sum="6,000" player="LegeVaas" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 S6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="13" sum="13,200" player="MAiK0lm3n" type="23"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="16" sum="13,200" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="17" sum="10,200" player="sunsharp36" type="3"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="18" sum="187,100" player="LegeVaas" type="23"/>
+   <action no="19" sum="0" player="MAiK0lm3n" type="0"/>
+   <action no="20" sum="0" player="Kongalkohol" type="0"/>
+   <action no="21" sum="0" player="sunsharp36" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319918">
+  <general>
+   <startdate>2024-02-12 15:27:45</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="1" chips="231,500" addon="0" bet="3,600" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="91,550" addon="0" bet="6,600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="273,877" addon="0" bet="600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="416,052" addon="0" bet="12,000" reg_code="" name="MAiK0lm3n" win="19,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="207,315" addon="0" bet="600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="75,250" addon="0" bet="600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="73,300" addon="0" bet="600" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="100,603" addon="0" bet="600" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="LegeVaas" type="15"/>
+   <action no="2" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="600" player="tropeiro123" type="15"/>
+   <action no="4" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="5" sum="600" player="GodOgFull" type="15"/>
+   <action no="6" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="7" sum="600" player="Kongalkohol" type="15"/>
+   <action no="8" sum="600" player="sunsharp36" type="15"/>
+   <action no="9" sum="3,000" player="LegeVaas" type="1"/>
+   <action no="10" sum="6,000" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H9 C7</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="12,000" player="MAiK0lm3n" type="23"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="InTrussWeTrust" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560320024">
+  <general>
+   <startdate>2024-02-12 15:28:37</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="1" seat="1" chips="227,900" addon="0" bet="600" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="84,950" addon="0" bet="56,640" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="273,277" addon="0" bet="6,600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="429,252" addon="0" bet="600" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="206,715" addon="0" bet="600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="74,650" addon="0" bet="600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="72,700" addon="0" bet="56,640" reg_code="" name="Kongalkohol" win="122,880" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,003" addon="0" bet="600" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="600" player="tropeiro123" type="15"/>
+   <action no="3" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="4" sum="600" player="GodOgFull" type="15"/>
+   <action no="5" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="6" sum="600" player="Kongalkohol" type="15"/>
+   <action no="7" sum="600" player="sunsharp36" type="15"/>
+   <action no="8" sum="600" player="LegeVaas" type="15"/>
+   <action no="9" sum="3,000" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="6,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">S2 H2</cards>
+   <action no="14" sum="6,000" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">HK D9</cards>
+   <action no="17" sum="3,000" player="InTrussWeTrust" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C3 HJ</cards>
+   <action no="18" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK H6 D4</cards>
+   <action no="19" sum="12,000" player="InTrussWeTrust" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="12,000" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action no="22" sum="14,040" player="InTrussWeTrust" type="5"/>
+   <action no="23" sum="14,040" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="24" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="25" sum="24,000" player="Kongalkohol" type="5"/>
+   <action no="26" sum="24,000" player="InTrussWeTrust" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560344126">
+  <general>
+   <startdate>2024-02-12 15:30:25</startdate>
+   <smallblind>3,000</smallblind>
+   <bigblind>6,000</bigblind>
+   <ante>600</ante>
+   <players>
+    <player dealer="0" seat="1" chips="227,300" addon="0" bet="600" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="28,310" addon="0" bet="600" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="266,677" addon="0" bet="3,600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="428,652" addon="0" bet="48,000" reg_code="" name="MAiK0lm3n" win="31,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="206,115" addon="0" bet="12,600" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="74,050" addon="0" bet="600" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="138,940" addon="0" bet="600" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,403" addon="0" bet="600" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="600" player="tropeiro123" type="15"/>
+   <action no="2" sum="600" player="MAiK0lm3n" type="15"/>
+   <action no="3" sum="600" player="GodOgFull" type="15"/>
+   <action no="4" sum="600" player="PrayForMercy21" type="15"/>
+   <action no="5" sum="600" player="Kongalkohol" type="15"/>
+   <action no="6" sum="600" player="sunsharp36" type="15"/>
+   <action no="7" sum="600" player="LegeVaas" type="15"/>
+   <action no="8" sum="600" player="InTrussWeTrust" type="15"/>
+   <action no="9" sum="3,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="6,000" player="MAiK0lm3n" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="11" sum="12,000" player="GodOgFull" type="23"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 CK</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="18" sum="48,000" player="MAiK0lm3n" type="23"/>
+   <action no="19" sum="0" player="GodOgFull" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560344248">
+  <general>
+   <startdate>2024-02-12 15:31:27</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="226,700" addon="0" bet="700" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="27,710" addon="0" bet="700" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="263,077" addon="0" bet="700" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="447,852" addon="0" bet="33,180" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="193,515" addon="0" bet="33,180" reg_code="" name="GodOgFull" win="70,560" rebuy="0"/>
+    <player dealer="0" seat="7" chips="73,450" addon="0" bet="700" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="138,340" addon="0" bet="700" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="98,803" addon="0" bet="700" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="2" sum="700" player="GodOgFull" type="15"/>
+   <action no="3" sum="700" player="PrayForMercy21" type="15"/>
+   <action no="4" sum="700" player="Kongalkohol" type="15"/>
+   <action no="5" sum="700" player="sunsharp36" type="15"/>
+   <action no="6" sum="700" player="LegeVaas" type="15"/>
+   <action no="7" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="8" sum="700" player="tropeiro123" type="15"/>
+   <action no="9" sum="3,500" player="MAiK0lm3n" type="1"/>
+   <action no="10" sum="7,000" player="GodOgFull" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 C4</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">D5 D8</cards>
+   <action no="17" sum="3,500" player="MAiK0lm3n" type="3"/>
+   <cards player="GodOgFull" type="Pocket">SQ H10</cards>
+   <action no="18" sum="0" player="GodOgFull" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 SA HJ</cards>
+   <action no="19" sum="7,000" player="MAiK0lm3n" type="5"/>
+   <action no="20" sum="7,000" player="GodOgFull" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action no="21" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="22" sum="0" player="GodOgFull" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="23" sum="18,480" player="MAiK0lm3n" type="5"/>
+   <action no="24" sum="18,480" player="GodOgFull" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560344465">
+  <general>
+   <startdate>2024-02-12 15:33:18</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="226,000" addon="0" bet="700" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="27,010" addon="0" bet="700" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="262,377" addon="0" bet="700" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="414,672" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="230,895" addon="0" bet="4,200" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="72,750" addon="0" bet="21,700" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="137,640" addon="0" bet="700" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="98,103" addon="0" bet="73,311" reg_code="" name="sunsharp36" win="51,100" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="GodOgFull" type="15"/>
+   <action no="2" sum="700" player="PrayForMercy21" type="15"/>
+   <action no="3" sum="700" player="Kongalkohol" type="15"/>
+   <action no="4" sum="700" player="sunsharp36" type="15"/>
+   <action no="5" sum="700" player="LegeVaas" type="15"/>
+   <action no="6" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="700" player="tropeiro123" type="15"/>
+   <action no="8" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="9" sum="3,500" player="GodOgFull" type="1"/>
+   <action no="10" sum="7,000" player="PrayForMercy21" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="12" sum="14,000" player="sunsharp36" type="23"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ D4</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="18" sum="7,000" player="PrayForMercy21" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 SA SK</cards>
+   <action no="19" sum="0" player="PrayForMercy21" type="4"/>
+   <action no="20" sum="7,000" player="sunsharp36" type="5"/>
+   <action no="21" sum="7,000" player="PrayForMercy21" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action no="22" sum="0" player="PrayForMercy21" type="4"/>
+   <action no="23" sum="51,611" player="sunsharp36" type="5"/>
+   <action no="24" sum="0" player="PrayForMercy21" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560344634">
+  <general>
+   <startdate>2024-02-12 15:34:41</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="225,300" addon="0" bet="700" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="26,310" addon="0" bet="700" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="261,677" addon="0" bet="15,400" reg_code="7947659621" name="tropeiro123" win="38,500" rebuy="0"/>
+    <player dealer="0" seat="5" chips="413,972" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="226,695" addon="0" bet="700" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="51,050" addon="0" bet="4,200" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="136,940" addon="0" bet="15,400" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="127,503" addon="0" bet="700" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="PrayForMercy21" type="15"/>
+   <action no="2" sum="700" player="Kongalkohol" type="15"/>
+   <action no="3" sum="700" player="sunsharp36" type="15"/>
+   <action no="4" sum="700" player="LegeVaas" type="15"/>
+   <action no="5" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="700" player="tropeiro123" type="15"/>
+   <action no="7" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="700" player="GodOgFull" type="15"/>
+   <action no="9" sum="3,500" player="PrayForMercy21" type="1"/>
+   <action no="10" sum="7,000" player="Kongalkohol" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ DK</cards>
+   <action no="14" sum="14,700" player="tropeiro123" type="23"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="PrayForMercy21" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">S8 HK</cards>
+   <action no="18" sum="7,700" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 S4 H6</cards>
+   <action no="19" sum="0" player="Kongalkohol" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D6</cards>
+   <action no="21" sum="0" player="Kongalkohol" type="4"/>
+   <action no="22" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D2</cards>
+   <action no="23" sum="0" player="Kongalkohol" type="4"/>
+   <action no="24" sum="0" player="tropeiro123" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560344791">
+  <general>
+   <startdate>2024-02-12 15:36:00</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="224,600" addon="0" bet="700" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="25,610" addon="0" bet="700" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="284,777" addon="0" bet="700" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="413,272" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="225,995" addon="0" bet="700" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="46,850" addon="0" bet="46,150" reg_code="" name="PrayForMercy21" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="121,540" addon="0" bet="46,850" reg_code="" name="Kongalkohol" win="104,900" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="PrayForMercy21"/>
+    </player>
+    <player dealer="0" seat="10" chips="126,803" addon="0" bet="7,700" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="Kongalkohol" type="15"/>
+   <action no="2" sum="700" player="sunsharp36" type="15"/>
+   <action no="3" sum="700" player="LegeVaas" type="15"/>
+   <action no="4" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="700" player="tropeiro123" type="15"/>
+   <action no="6" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="7" sum="700" player="GodOgFull" type="15"/>
+   <action no="8" sum="700" player="PrayForMercy21" type="15"/>
+   <action no="9" sum="3,500" player="Kongalkohol" type="1"/>
+   <action no="10" sum="7,000" player="sunsharp36" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 C10</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="GodOgFull" type="0"/>
+   <cards player="PrayForMercy21" type="Pocket">DA D10</cards>
+   <action no="16" sum="46,150" player="PrayForMercy21" type="23"/>
+   <cards player="Kongalkohol" type="Pocket">CK D9</cards>
+   <action no="17" sum="42,650" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="sunsharp36" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK CJ SJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D6</cards>
+  </round>
+ </game>
+ <game gamecode="10560344928">
+  <general>
+   <startdate>2024-02-12 15:37:03</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="223,900" addon="0" bet="72,100" reg_code="" name="LegeVaas" win="72,800" rebuy="0"/>
+    <player dealer="0" seat="2" chips="24,910" addon="0" bet="700" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="284,077" addon="0" bet="700" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="412,572" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="225,295" addon="0" bet="32,900" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="179,590" addon="0" bet="700" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="119,103" addon="0" bet="4,200" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="sunsharp36" type="15"/>
+   <action no="2" sum="700" player="LegeVaas" type="15"/>
+   <action no="3" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="700" player="tropeiro123" type="15"/>
+   <action no="5" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="6" sum="700" player="GodOgFull" type="15"/>
+   <action no="7" sum="700" player="Kongalkohol" type="15"/>
+   <action no="8" sum="3,500" player="sunsharp36" type="1"/>
+   <action no="9" sum="7,000" player="LegeVaas" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H3</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="14,000" player="GodOgFull" type="23"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="16" sum="7,000" player="LegeVaas" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 HK H4</cards>
+   <action no="17" sum="0" player="LegeVaas" type="4"/>
+   <action no="18" sum="18,200" player="GodOgFull" type="5"/>
+   <action no="19" sum="57,400" player="LegeVaas" type="23"/>
+   <action no="20" sum="0" player="GodOgFull" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560345110">
+  <general>
+   <startdate>2024-02-12 15:38:42</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="0" seat="1" chips="263,800" addon="0" bet="4,200" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="24,210" addon="0" bet="23,510" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="283,377" addon="0" bet="282,677" reg_code="7947659621" name="tropeiro123" win="70,120" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="InTrussWeTrust"/>
+    </player>
+    <player dealer="0" seat="5" chips="411,872" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="192,395" addon="0" bet="700" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="399,938" addon="0" bet="14,700" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="178,890" addon="0" bet="700" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="114,903" addon="0" bet="700" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="LegeVaas" type="15"/>
+   <action no="2" sum="700" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="700" player="tropeiro123" type="15"/>
+   <action no="4" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="5" sum="700" player="GodOgFull" type="15"/>
+   <action no="6" sum="700" player="RETROEASTD" type="15"/>
+   <action no="7" sum="700" player="Kongalkohol" type="15"/>
+   <action no="8" sum="700" player="sunsharp36" type="15"/>
+   <action no="9" sum="3,500" player="LegeVaas" type="1"/>
+   <action no="10" sum="7,000" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H6 D6</cards>
+   <action no="11" sum="14,000" player="tropeiro123" type="23"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="14" sum="14,000" player="RETROEASTD" type="3"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LegeVaas" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">S2 CA</cards>
+   <action no="18" sum="23,510" player="InTrussWeTrust" type="23"/>
+   <action no="19" sum="282,677" player="tropeiro123" type="23"/>
+   <action no="20" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 S7 H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10560369039">
+  <general>
+   <startdate>2024-02-12 15:40:22</startdate>
+   <smallblind>3,500</smallblind>
+   <bigblind>7,000</bigblind>
+   <ante>700</ante>
+   <players>
+    <player dealer="1" seat="1" chips="259,600" addon="0" bet="95,725" reg_code="" name="LegeVaas" win="124,950" rebuy="0"/>
+    <player dealer="0" seat="4" chips="329,287" addon="0" bet="60,725" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="411,172" addon="0" bet="700" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="191,695" addon="0" bet="700" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="385,238" addon="0" bet="700" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="178,190" addon="0" bet="700" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="114,203" addon="0" bet="700" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="700" player="tropeiro123" type="15"/>
+   <action no="2" sum="700" player="MAiK0lm3n" type="15"/>
+   <action no="3" sum="700" player="GodOgFull" type="15"/>
+   <action no="4" sum="700" player="RETROEASTD" type="15"/>
+   <action no="5" sum="700" player="Kongalkohol" type="15"/>
+   <action no="6" sum="700" player="sunsharp36" type="15"/>
+   <action no="7" sum="700" player="LegeVaas" type="15"/>
+   <action no="8" sum="7,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="14" sum="15,400" player="LegeVaas" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C7 C5</cards>
+   <action no="15" sum="8,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D4 S2</cards>
+   <action no="16" sum="0" player="tropeiro123" type="4"/>
+   <action no="17" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="18" sum="44,625" player="tropeiro123" type="5"/>
+   <action no="19" sum="44,625" player="LegeVaas" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H9</cards>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="35,000" player="LegeVaas" type="5"/>
+   <action no="22" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369234">
+  <general>
+   <startdate>2024-02-12 15:42:11</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="323,825" addon="0" bet="800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="170,930" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="268,562" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="410,472" addon="0" bet="4,800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="190,995" addon="0" bet="8,800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="384,538" addon="0" bet="800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="177,490" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="113,503" addon="0" bet="112,703" reg_code="" name="sunsharp36" win="26,400" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="2" sum="800" player="GodOgFull" type="15"/>
+   <action no="3" sum="800" player="RETROEASTD" type="15"/>
+   <action no="4" sum="800" player="Kongalkohol" type="15"/>
+   <action no="5" sum="800" player="sunsharp36" type="15"/>
+   <action no="6" sum="800" player="LegeVaas" type="15"/>
+   <action no="7" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="8" sum="800" player="tropeiro123" type="15"/>
+   <action no="9" sum="4,000" player="MAiK0lm3n" type="1"/>
+   <action no="10" sum="8,000" player="GodOgFull" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="13" sum="112,703" player="sunsharp36" type="23"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ C2</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="GodOgFull" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369324">
+  <general>
+   <startdate>2024-02-12 15:43:02</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="323,025" addon="0" bet="800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="170,130" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="267,762" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="405,672" addon="0" bet="16,000" reg_code="" name="MAiK0lm3n" win="26,400" rebuy="0"/>
+    <player dealer="0" seat="6" chips="182,195" addon="0" bet="4,800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="383,738" addon="0" bet="8,800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="176,690" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="131,103" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="GodOgFull" type="15"/>
+   <action no="2" sum="800" player="RETROEASTD" type="15"/>
+   <action no="3" sum="800" player="Kongalkohol" type="15"/>
+   <action no="4" sum="800" player="sunsharp36" type="15"/>
+   <action no="5" sum="800" player="LegeVaas" type="15"/>
+   <action no="6" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="7" sum="800" player="tropeiro123" type="15"/>
+   <action no="8" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="9" sum="4,000" player="GodOgFull" type="1"/>
+   <action no="10" sum="8,000" player="RETROEASTD" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 D10</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="16" sum="16,000" player="MAiK0lm3n" type="23"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369396">
+  <general>
+   <startdate>2024-02-12 15:43:41</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="322,225" addon="0" bet="16,800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="169,330" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="266,962" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="423,272" addon="0" bet="800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="177,395" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="374,938" addon="0" bet="4,800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="175,890" addon="0" bet="59,200" reg_code="" name="Kongalkohol" win="42,400" rebuy="0"/>
+    <player dealer="0" seat="10" chips="130,303" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="RETROEASTD" type="15"/>
+   <action no="2" sum="800" player="Kongalkohol" type="15"/>
+   <action no="3" sum="800" player="sunsharp36" type="15"/>
+   <action no="4" sum="800" player="LegeVaas" type="15"/>
+   <action no="5" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="6" sum="800" player="tropeiro123" type="15"/>
+   <action no="7" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="800" player="GodOgFull" type="15"/>
+   <action no="9" sum="4,000" player="RETROEASTD" type="1"/>
+   <action no="10" sum="8,000" player="Kongalkohol" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="12" sum="16,000" player="LegeVaas" type="23"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H8 CQ</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="18" sum="8,000" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 S8 H6</cards>
+   <action no="19" sum="0" player="Kongalkohol" type="4"/>
+   <action no="20" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="21" sum="0" player="Kongalkohol" type="4"/>
+   <action no="22" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+   <action no="23" sum="42,400" player="Kongalkohol" type="5"/>
+   <action no="24" sum="0" player="LegeVaas" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369548">
+  <general>
+   <startdate>2024-02-12 15:45:09</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="305,425" addon="0" bet="800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="168,530" addon="0" bet="18,000" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="266,162" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="422,472" addon="0" bet="800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="176,595" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="370,138" addon="0" bet="18,000" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="201,490" addon="0" bet="4,800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="129,503" addon="0" bet="42,000" reg_code="" name="sunsharp36" win="62,000" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="Kongalkohol" type="15"/>
+   <action no="2" sum="800" player="sunsharp36" type="15"/>
+   <action no="3" sum="800" player="LegeVaas" type="15"/>
+   <action no="4" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="5" sum="800" player="tropeiro123" type="15"/>
+   <action no="6" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="7" sum="800" player="GodOgFull" type="15"/>
+   <action no="8" sum="800" player="RETROEASTD" type="15"/>
+   <action no="9" sum="4,000" player="Kongalkohol" type="1"/>
+   <action no="10" sum="8,000" player="sunsharp36" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="12" sum="17,200" player="digoxarlivcsbrau" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 D3</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="16" sum="17,200" player="RETROEASTD" type="3"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="18" sum="9,200" player="sunsharp36" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ CK H5</cards>
+   <action no="19" sum="0" player="sunsharp36" type="4"/>
+   <action no="20" sum="0" player="digoxarlivcsbrau" type="4"/>
+   <action no="21" sum="0" player="RETROEASTD" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="22" sum="24,000" player="sunsharp36" type="5"/>
+   <action no="23" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <action no="24" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369664">
+  <general>
+   <startdate>2024-02-12 15:46:15</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="304,625" addon="0" bet="8,800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="150,530" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="265,362" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="421,672" addon="0" bet="800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="175,795" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="352,138" addon="0" bet="800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="196,690" addon="0" bet="24,800" reg_code="" name="Kongalkohol" win="26,400" rebuy="0"/>
+    <player dealer="0" seat="10" chips="173,503" addon="0" bet="4,800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="sunsharp36" type="15"/>
+   <action no="2" sum="800" player="LegeVaas" type="15"/>
+   <action no="3" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="4" sum="800" player="tropeiro123" type="15"/>
+   <action no="5" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="6" sum="800" player="GodOgFull" type="15"/>
+   <action no="7" sum="800" player="RETROEASTD" type="15"/>
+   <action no="8" sum="800" player="Kongalkohol" type="15"/>
+   <action no="9" sum="4,000" player="sunsharp36" type="1"/>
+   <action no="10" sum="8,000" player="LegeVaas" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ D7</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="16" sum="8,000" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 H3 SA</cards>
+   <action no="19" sum="0" player="LegeVaas" type="4"/>
+   <action no="20" sum="16,000" player="Kongalkohol" type="5"/>
+   <action no="21" sum="0" player="LegeVaas" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369780">
+  <general>
+   <startdate>2024-02-12 15:47:23</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="295,825" addon="0" bet="4,800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="149,730" addon="0" bet="8,800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="264,562" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="420,872" addon="0" bet="800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="174,995" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="351,338" addon="0" bet="24,000" reg_code="" name="RETROEASTD" win="26,400" rebuy="0"/>
+    <player dealer="0" seat="9" chips="214,290" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="168,703" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="LegeVaas" type="15"/>
+   <action no="2" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="3" sum="800" player="tropeiro123" type="15"/>
+   <action no="4" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="5" sum="800" player="GodOgFull" type="15"/>
+   <action no="6" sum="800" player="RETROEASTD" type="15"/>
+   <action no="7" sum="800" player="Kongalkohol" type="15"/>
+   <action no="8" sum="800" player="sunsharp36" type="15"/>
+   <action no="9" sum="4,000" player="LegeVaas" type="1"/>
+   <action no="10" sum="8,000" player="digoxarlivcsbrau" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C6 C7</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="14" sum="24,000" player="RETROEASTD" type="23"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="digoxarlivcsbrau" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560369856">
+  <general>
+   <startdate>2024-02-12 15:48:10</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="1" seat="1" chips="291,025" addon="0" bet="800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="140,930" addon="0" bet="4,800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="263,762" addon="0" bet="21,600" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="420,072" addon="0" bet="800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="174,195" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="368,938" addon="0" bet="49,600" reg_code="" name="RETROEASTD" win="52,000" rebuy="0"/>
+    <player dealer="0" seat="9" chips="213,490" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="167,903" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="2" sum="800" player="tropeiro123" type="15"/>
+   <action no="3" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="4" sum="800" player="GodOgFull" type="15"/>
+   <action no="5" sum="800" player="RETROEASTD" type="15"/>
+   <action no="6" sum="800" player="Kongalkohol" type="15"/>
+   <action no="7" sum="800" player="sunsharp36" type="15"/>
+   <action no="8" sum="800" player="LegeVaas" type="15"/>
+   <action no="9" sum="4,000" player="digoxarlivcsbrau" type="1"/>
+   <action no="10" sum="8,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="13" sum="20,800" player="RETROEASTD" type="23"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ H9</cards>
+   <action no="18" sum="12,800" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 SK D6</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="28,000" player="RETROEASTD" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560370009">
+  <general>
+   <startdate>2024-02-12 15:49:40</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="290,225" addon="0" bet="27,400" reg_code="" name="LegeVaas" win="42,400" rebuy="0"/>
+    <player dealer="1" seat="2" chips="136,130" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="242,162" addon="0" bet="4,800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="419,272" addon="0" bet="16,800" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="173,395" addon="0" bet="800" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="399,338" addon="0" bet="800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="212,690" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="167,103" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="tropeiro123" type="15"/>
+   <action no="2" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="3" sum="800" player="GodOgFull" type="15"/>
+   <action no="4" sum="800" player="RETROEASTD" type="15"/>
+   <action no="5" sum="800" player="Kongalkohol" type="15"/>
+   <action no="6" sum="800" player="sunsharp36" type="15"/>
+   <action no="7" sum="800" player="LegeVaas" type="15"/>
+   <action no="8" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="9" sum="4,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="8,000" player="MAiK0lm3n" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="GodOgFull" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="GodOgFull" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="15" sum="16,000" player="LegeVaas" type="23"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 C5</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="18" sum="8,000" player="MAiK0lm3n" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 CJ H6</cards>
+   <action no="19" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="20" sum="10,600" player="LegeVaas" type="5"/>
+   <action no="21" sum="0" player="MAiK0lm3n" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560370109">
+  <general>
+   <startdate>2024-02-12 15:50:45</startdate>
+   <smallblind>4,000</smallblind>
+   <bigblind>8,000</bigblind>
+   <ante>800</ante>
+   <players>
+    <player dealer="0" seat="1" chips="315,825" addon="0" bet="16,800" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="135,330" addon="0" bet="800" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="237,362" addon="0" bet="800" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="402,472" addon="0" bet="208,800" reg_code="" name="MAiK0lm3n" win="365,990" rebuy="0">
+     <knockout tobalance="€8.54" tobounty="€8.53" kicked="GodOgFull"/>
+    </player>
+    <player dealer="0" seat="6" chips="172,595" addon="0" bet="172,595" reg_code="" name="GodOgFull" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="398,538" addon="0" bet="800" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="211,890" addon="0" bet="800" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="166,303" addon="0" bet="800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="800" player="MAiK0lm3n" type="15"/>
+   <action no="2" sum="800" player="GodOgFull" type="15"/>
+   <action no="3" sum="800" player="RETROEASTD" type="15"/>
+   <action no="4" sum="800" player="Kongalkohol" type="15"/>
+   <action no="5" sum="800" player="sunsharp36" type="15"/>
+   <action no="6" sum="800" player="LegeVaas" type="15"/>
+   <action no="7" sum="800" player="digoxarlivcsbrau" type="15"/>
+   <action no="8" sum="800" player="tropeiro123" type="15"/>
+   <action no="9" sum="4,000" player="MAiK0lm3n" type="1"/>
+   <action no="10" sum="8,000" player="GodOgFull" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="14" sum="16,000" player="LegeVaas" type="23"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 H9</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">D3 S3</cards>
+   <action no="17" sum="12,000" player="MAiK0lm3n" type="3"/>
+   <cards player="GodOgFull" type="Pocket">H10 CJ</cards>
+   <action no="18" sum="8,000" player="GodOgFull" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 H7 DJ</cards>
+   <action no="19" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="20" sum="0" player="GodOgFull" type="4"/>
+   <action no="21" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" sum="48,000" player="MAiK0lm3n" type="5"/>
+   <action no="23" sum="48,000" player="GodOgFull" type="3"/>
+   <action no="24" sum="0" player="LegeVaas" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action no="25" sum="144,000" player="MAiK0lm3n" type="5"/>
+   <action no="26" sum="107,795" player="GodOgFull" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10560397846">
+  <general>
+   <startdate>2024-02-12 15:53:51</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="299,025" addon="0" bet="900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="134,530" addon="0" bet="900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="236,562" addon="0" bet="900" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="595,867" addon="0" bet="42,165" reg_code="" name="MAiK0lm3n" win="42,300" rebuy="0"/>
+    <player dealer="0" seat="7" chips="397,738" addon="0" bet="18,900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="211,090" addon="0" bet="900" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="165,503" addon="0" bet="900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="RETROEASTD" type="15"/>
+   <action no="2" sum="900" player="Kongalkohol" type="15"/>
+   <action no="3" sum="900" player="sunsharp36" type="15"/>
+   <action no="4" sum="900" player="LegeVaas" type="15"/>
+   <action no="5" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="6" sum="900" player="tropeiro123" type="15"/>
+   <action no="7" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="9,000" player="RETROEASTD" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 DQ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="14" sum="18,000" player="MAiK0lm3n" type="23"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="15" sum="9,000" player="RETROEASTD" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 D6 CJ</cards>
+   <action no="16" sum="0" player="RETROEASTD" type="4"/>
+   <action no="17" sum="0" player="MAiK0lm3n" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S8</cards>
+   <action no="18" sum="0" player="RETROEASTD" type="4"/>
+   <action no="19" sum="23,265" player="MAiK0lm3n" type="5"/>
+   <action no="20" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560397942">
+  <general>
+   <startdate>2024-02-12 15:54:48</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="298,125" addon="0" bet="900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="133,630" addon="0" bet="900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="235,662" addon="0" bet="900" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="619,267" addon="0" bet="900" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="378,838" addon="0" bet="58,050" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="210,190" addon="0" bet="103,050" reg_code="" name="Kongalkohol" win="120,600" rebuy="0"/>
+    <player dealer="0" seat="10" chips="164,603" addon="0" bet="900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="RETROEASTD" type="15"/>
+   <action no="2" sum="900" player="Kongalkohol" type="15"/>
+   <action no="3" sum="900" player="sunsharp36" type="15"/>
+   <action no="4" sum="900" player="LegeVaas" type="15"/>
+   <action no="5" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="6" sum="900" player="tropeiro123" type="15"/>
+   <action no="7" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="4,500" player="RETROEASTD" type="1"/>
+   <action no="9" sum="9,000" player="Kongalkohol" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 HK</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="15" sum="27,000" player="RETROEASTD" type="23"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="16" sum="18,000" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK H8 H4</cards>
+   <action no="17" sum="30,150" player="RETROEASTD" type="5"/>
+   <action no="18" sum="30,150" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="19" sum="0" player="RETROEASTD" type="4"/>
+   <action no="20" sum="45,000" player="Kongalkohol" type="5"/>
+   <action no="21" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560398086">
+  <general>
+   <startdate>2024-02-12 16:01:30</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="297,225" addon="0" bet="900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="132,730" addon="0" bet="900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="234,762" addon="0" bet="234,762" reg_code="7947659621" name="tropeiro123" win="159,804" rebuy="0"/>
+    <player dealer="0" seat="5" chips="618,367" addon="0" bet="45,468" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="480,934" addon="0" bet="900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="320,788" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="272,740" addon="0" bet="45,468" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="163,703" addon="0" bet="19,800" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="Kongalkohol" type="15"/>
+   <action no="2" sum="900" player="sunsharp36" type="15"/>
+   <action no="3" sum="900" player="LegeVaas" type="15"/>
+   <action no="4" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="5" sum="900" player="tropeiro123" type="15"/>
+   <action no="6" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="7" sum="900" player="fiskermann67" type="15"/>
+   <action no="8" sum="900" player="RETROEASTD" type="15"/>
+   <action no="9" sum="4,500" player="Kongalkohol" type="1"/>
+   <action no="10" sum="9,000" player="sunsharp36" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 CK</cards>
+   <action no="13" sum="18,900" player="tropeiro123" type="23"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="14" sum="18,900" player="MAiK0lm3n" type="3"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="17" sum="14,400" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="18" sum="9,900" player="sunsharp36" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 DK DA</cards>
+   <action no="19" sum="0" player="Kongalkohol" type="4"/>
+   <action no="20" sum="0" player="sunsharp36" type="4"/>
+   <action no="21" sum="0" player="tropeiro123" type="4"/>
+   <action no="22" sum="25,668" player="MAiK0lm3n" type="5"/>
+   <action no="23" sum="25,668" player="Kongalkohol" type="3"/>
+   <action no="24" sum="0" player="sunsharp36" type="0"/>
+   <action no="25" sum="214,962" player="tropeiro123" type="23"/>
+   <action no="26" sum="0" player="MAiK0lm3n" type="0"/>
+   <action no="27" sum="0" player="Kongalkohol" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560398378">
+  <general>
+   <startdate>2024-02-12 16:03:26</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="296,325" addon="0" bet="9,900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="131,830" addon="0" bet="900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="349,098" addon="0" bet="900" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="572,899" addon="0" bet="900" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="480,034" addon="0" bet="900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="319,888" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="227,272" addon="0" bet="900" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="143,903" addon="0" bet="18,900" reg_code="" name="sunsharp36" win="25,200" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="sunsharp36" type="15"/>
+   <action no="2" sum="900" player="LegeVaas" type="15"/>
+   <action no="3" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="4" sum="900" player="tropeiro123" type="15"/>
+   <action no="5" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="6" sum="900" player="fiskermann67" type="15"/>
+   <action no="7" sum="900" player="RETROEASTD" type="15"/>
+   <action no="8" sum="900" player="Kongalkohol" type="15"/>
+   <action no="9" sum="4,500" player="sunsharp36" type="1"/>
+   <action no="10" sum="9,000" player="LegeVaas" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 C4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="17" sum="4,500" player="sunsharp36" type="3"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 DK C5</cards>
+   <action no="19" sum="9,000" player="sunsharp36" type="5"/>
+   <action no="20" sum="0" player="LegeVaas" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560398516">
+  <general>
+   <startdate>2024-02-12 16:04:25</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="286,425" addon="0" bet="5,400" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="130,930" addon="0" bet="130,930" reg_code="" name="digoxarlivcsbrau" win="271,760" rebuy="0"/>
+    <player dealer="0" seat="4" chips="348,198" addon="0" bet="900" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="571,999" addon="0" bet="900" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="479,134" addon="0" bet="900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="318,988" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="226,372" addon="0" bet="130,930" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="159,203" addon="0" bet="900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="LegeVaas" type="15"/>
+   <action no="2" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="3" sum="900" player="tropeiro123" type="15"/>
+   <action no="4" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="5" sum="900" player="fiskermann67" type="15"/>
+   <action no="6" sum="900" player="RETROEASTD" type="15"/>
+   <action no="7" sum="900" player="Kongalkohol" type="15"/>
+   <action no="8" sum="900" player="sunsharp36" type="15"/>
+   <action no="9" sum="4,500" player="LegeVaas" type="1"/>
+   <action no="10" sum="9,000" player="digoxarlivcsbrau" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 DQ</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">S9 C10</cards>
+   <action no="15" sum="9,000" player="Kongalkohol" type="3"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">H10 CJ</cards>
+   <action no="18" sum="0" player="digoxarlivcsbrau" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 DA H9</cards>
+   <action no="19" sum="0" player="digoxarlivcsbrau" type="4"/>
+   <action no="20" sum="18,000" player="Kongalkohol" type="5"/>
+   <action no="21" sum="121,030" player="digoxarlivcsbrau" type="23"/>
+   <action no="22" sum="103,030" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+  </round>
+ </game>
+ <game gamecode="10560398684">
+  <general>
+   <startdate>2024-02-12 16:05:37</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="1" seat="1" chips="281,025" addon="0" bet="900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="271,760" addon="0" bet="5,400" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="347,298" addon="0" bet="9,900" reg_code="7947659621" name="tropeiro123" win="16,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="571,099" addon="0" bet="900" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="478,234" addon="0" bet="900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="318,088" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="95,442" addon="0" bet="900" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="158,303" addon="0" bet="900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="2" sum="900" player="tropeiro123" type="15"/>
+   <action no="3" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="4" sum="900" player="fiskermann67" type="15"/>
+   <action no="5" sum="900" player="RETROEASTD" type="15"/>
+   <action no="6" sum="900" player="Kongalkohol" type="15"/>
+   <action no="7" sum="900" player="sunsharp36" type="15"/>
+   <action no="8" sum="900" player="LegeVaas" type="15"/>
+   <action no="9" sum="4,500" player="digoxarlivcsbrau" type="1"/>
+   <action no="10" sum="9,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S7 SJ</cards>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MAiK0lm3n" type="0"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="digoxarlivcsbrau" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560398741">
+  <general>
+   <startdate>2024-02-12 16:06:02</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="280,125" addon="0" bet="900" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="266,360" addon="0" bet="18,900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="358,098" addon="0" bet="357,198" reg_code="7947659621" name="tropeiro123" win="70,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="570,199" addon="0" bet="9,900" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="477,334" addon="0" bet="900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="317,188" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="94,542" addon="0" bet="900" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="157,403" addon="0" bet="18,900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="tropeiro123" type="15"/>
+   <action no="2" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="3" sum="900" player="fiskermann67" type="15"/>
+   <action no="4" sum="900" player="RETROEASTD" type="15"/>
+   <action no="5" sum="900" player="Kongalkohol" type="15"/>
+   <action no="6" sum="900" player="sunsharp36" type="15"/>
+   <action no="7" sum="900" player="LegeVaas" type="15"/>
+   <action no="8" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="9" sum="4,500" player="tropeiro123" type="1"/>
+   <action no="10" sum="9,000" player="MAiK0lm3n" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="14" sum="18,000" player="sunsharp36" type="23"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="16" sum="18,000" player="digoxarlivcsbrau" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HQ SA</cards>
+   <action no="17" sum="357,198" player="tropeiro123" type="23"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="MAiK0lm3n" type="0"/>
+   <action no="19" sum="0" player="sunsharp36" type="0"/>
+   <action no="20" sum="0" player="digoxarlivcsbrau" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560428010">
+  <general>
+   <startdate>2024-02-12 16:07:03</startdate>
+   <smallblind>4,500</smallblind>
+   <bigblind>9,000</bigblind>
+   <ante>900</ante>
+   <players>
+    <player dealer="0" seat="1" chips="279,225" addon="0" bet="31,950" reg_code="" name="LegeVaas" win="78,300" rebuy="0"/>
+    <player dealer="0" seat="2" chips="247,460" addon="0" bet="900" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="409,398" addon="0" bet="900" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="560,299" addon="0" bet="31,950" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="476,434" addon="0" bet="9,900" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="316,288" addon="0" bet="900" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="93,642" addon="0" bet="900" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="138,503" addon="0" bet="900" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="900" player="MAiK0lm3n" type="15"/>
+   <action no="2" sum="900" player="fiskermann67" type="15"/>
+   <action no="3" sum="900" player="RETROEASTD" type="15"/>
+   <action no="4" sum="900" player="Kongalkohol" type="15"/>
+   <action no="5" sum="900" player="sunsharp36" type="15"/>
+   <action no="6" sum="900" player="LegeVaas" type="15"/>
+   <action no="7" sum="900" player="digoxarlivcsbrau" type="15"/>
+   <action no="8" sum="900" player="tropeiro123" type="15"/>
+   <action no="9" sum="4,500" player="MAiK0lm3n" type="1"/>
+   <action no="10" sum="9,000" player="fiskermann67" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="RETROEASTD" type="0"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">H4 H5</cards>
+   <action no="14" sum="18,000" player="LegeVaas" type="23"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK H8</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">HK H9</cards>
+   <action no="17" sum="13,500" player="MAiK0lm3n" type="3"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="fiskermann67" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ D5 DQ</cards>
+   <action no="19" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="20" sum="0" player="LegeVaas" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S7</cards>
+   <action no="21" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="22" sum="13,050" player="LegeVaas" type="5"/>
+   <action no="23" sum="13,050" player="MAiK0lm3n" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action no="24" sum="0" player="MAiK0lm3n" type="4"/>
+   <action no="25" sum="0" player="LegeVaas" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560428214">
+  <general>
+   <startdate>2024-02-12 16:08:41</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player dealer="0" seat="1" chips="325,575" addon="0" bet="1,000" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="246,560" addon="0" bet="1,000" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="408,498" addon="0" bet="1,000" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="528,349" addon="0" bet="37,430" reg_code="" name="MAiK0lm3n" win="53,000" rebuy="0"/>
+    <player dealer="0" seat="6" chips="466,534" addon="0" bet="6,000" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="315,388" addon="0" bet="21,000" reg_code="" name="RETROEASTD" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="92,742" addon="0" bet="1,000" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="137,603" addon="0" bet="1,000" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="fiskermann67" type="15"/>
+   <action no="2" sum="1,000" player="RETROEASTD" type="15"/>
+   <action no="3" sum="1,000" player="Kongalkohol" type="15"/>
+   <action no="4" sum="1,000" player="sunsharp36" type="15"/>
+   <action no="5" sum="1,000" player="LegeVaas" type="15"/>
+   <action no="6" sum="1,000" player="digoxarlivcsbrau" type="15"/>
+   <action no="7" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="8" sum="1,000" player="MAiK0lm3n" type="15"/>
+   <action no="9" sum="5,000" player="fiskermann67" type="1"/>
+   <action no="10" sum="10,000" player="RETROEASTD" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Kongalkohol" type="0"/>
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 CJ</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="16" sum="20,000" player="MAiK0lm3n" type="23"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="fiskermann67" type="0"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="18" sum="10,000" player="RETROEASTD" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S3 D10 CK</cards>
+   <action no="19" sum="0" player="RETROEASTD" type="4"/>
+   <action no="20" sum="16,430" player="MAiK0lm3n" type="5"/>
+   <action no="21" sum="0" player="RETROEASTD" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560428344">
+  <general>
+   <startdate>2024-02-12 16:09:35</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,000</ante>
+   <players>
+    <player dealer="0" seat="1" chips="324,575" addon="0" bet="1,000" reg_code="" name="LegeVaas" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="245,560" addon="0" bet="1,000" reg_code="" name="digoxarlivcsbrau" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="407,498" addon="0" bet="1,000" reg_code="7947659621" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="560,349" addon="0" bet="31,000" reg_code="" name="MAiK0lm3n" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="460,534" addon="0" bet="21,000" reg_code="" name="fiskermann67" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="294,388" addon="0" bet="88,500" reg_code="" name="RETROEASTD" win="118,000" rebuy="0"/>
+    <player dealer="0" seat="9" chips="91,742" addon="0" bet="31,000" reg_code="" name="Kongalkohol" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="136,603" addon="0" bet="1,000" reg_code="" name="sunsharp36" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="1,000" player="RETROEASTD" type="15"/>
+   <action no="2" sum="1,000" player="Kongalkohol" type="15"/>
+   <action no="3" sum="1,000" player="sunsharp36" type="15"/>
+   <action no="4" sum="1,000" player="LegeVaas" type="15"/>
+   <action no="5" sum="1,000" player="digoxarlivcsbrau" type="15"/>
+   <action no="6" sum="1,000" player="tropeiro123" type="15"/>
+   <action no="7" sum="1,000" player="MAiK0lm3n" type="15"/>
+   <action no="8" sum="1,000" player="fiskermann67" type="15"/>
+   <action no="9" sum="5,000" player="RETROEASTD" type="1"/>
+   <action no="10" sum="10,000" player="Kongalkohol" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="sunsharp36" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="sunsharp36" type="0"/>
+   <cards player="LegeVaas" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="LegeVaas" type="0"/>
+   <cards player="digoxarlivcsbrau" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="digoxarlivcsbrau" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 CK</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="MAiK0lm3n" type="Pocket">X X</cards>
+   <action no="15" sum="20,000" player="MAiK0lm3n" type="23"/>
+   <cards player="fiskermann67" type="Pocket">X X</cards>
+   <action no="16" sum="20,000" player="fiskermann67" type="3"/>
+   <cards player="RETROEASTD" type="Pocket">X X</cards>
+   <action no="17" sum="15,000" player="RETROEASTD" type="3"/>
+   <cards player="Kongalkohol" type="Pocket">X X</cards>
+   <action no="18" sum="10,000" player="Kongalkohol" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H3 D10</cards>
+   <action no="19" sum="0" player="RETROEASTD" type="4"/>
+   <action no="20" sum="10,000" player="Kongalkohol" type="5"/>
+   <action no="21" sum="10,000" player="MAiK0lm3n" type="3"/>
+   <action no="22" sum="0" player="fiskermann67" type="0"/>
+   <action no="23" sum="67,500" player="RETROEASTD" type="23"/>
+   <action no="24" sum="0" player="Kongalkohol" type="0"/>
+   <action no="25" sum="0" player="MAiK0lm3n" type="0"/>
+  </round>
+ </game>
+</session>

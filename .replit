@@ -1,0 +1,64 @@
+modules = ["python-3.11", "postgresql-16"]
+
+[nix]
+channel = "stable-24_05"
+packages = ["bzip2", "cabextract", "diffutils", "file", "glibcLocales", "gnugrep", "gnutar", "gzip", "libarchive", "libxcrypt", "libyaml", "lzip", "openssl", "p7zip", "postgresql", "unrar", "unzip", "xz", "zip", "zpaq"]
+
+[deployment]
+deploymentTarget = "autoscale"
+run = ["gunicorn", "--config", "gunicorn.conf.py", "main:app"]
+
+[workflows]
+runButton = "Project"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
+
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gunicorn --bind 0.0.0.0:5000 --workers 1 --timeout 900 --worker-class sync --max-requests 500 --max-requests-jitter 50 --reuse-port --reload main:app"
+waitForPort = 5000
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[[ports]]
+localPort = 37645
+externalPort = 3002
+
+[[ports]]
+localPort = 39021
+externalPort = 3001
+
+[[ports]]
+localPort = 41753
+externalPort = 4200
+
+[[ports]]
+localPort = 43401
+externalPort = 3003
+
+[[ports]]
+localPort = 46871
+externalPort = 3000
+
+[agent]
+integrations = ["styling_replit:1.0.0", "flask_supabase:1.0.0"]
+expertMode = true
+
+[objectStorage]
+defaultBucketID = "replit-objstore-7afb0566-1bc1-4804-a472-b61e580493af"

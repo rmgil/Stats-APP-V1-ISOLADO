@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947761252">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 | The Eliminator, 1080879625</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:28:04</duration>
+  <gamecount>19</gamecount>
+  <startdate>2024-02-12 14:54:22</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>109,846</bets>
+  <wins>14,800</wins>
+  <chipsin>99,800</chipsin>
+  <chipsout>14,554</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080219310</tournamentcode>
+  <tournamentname>€10,000 | The Eliminator</tournamentname>
+  <place>N/A</place>
+  <buyin>€13.65 + €13.65 + €2.70</buyin>
+  <totalbuyin>€30</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560268130">
+  <general>
+   <startdate>2024-02-12 14:54:22</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="100,000" addon="0" bet="200" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="11,306" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="185,271" addon="0" bet="1,600" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="106,156" addon="0" bet="200" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="88,260" addon="0" bet="11,306" reg_code="" name="Lobisome" win="24,812" rebuy="0"/>
+    <player dealer="0" seat="10" chips="55,372" addon="0" bet="200" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="DWG118" type="15"/>
+   <action no="2" sum="200" player="wazuwazool" type="15"/>
+   <action no="3" sum="200" player="TheDoughh" type="15"/>
+   <action no="4" sum="200" player="Lobisome" type="15"/>
+   <action no="5" sum="200" player="Versatileleaf95" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="700" player="DWG118" type="1"/>
+   <action no="8" sum="1,400" player="wazuwazool" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">CJ CA</cards>
+   <action no="10" sum="2,800" player="Lobisome" type="23"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 S9</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">S5 S7</cards>
+   <action no="13" sum="2,100" player="DWG118" type="3"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="wazuwazool" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK C7 CK</cards>
+   <action no="15" sum="0" player="DWG118" type="4"/>
+   <action no="16" sum="2,706" player="Lobisome" type="5"/>
+   <action no="17" sum="2,706" player="DWG118" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="18" sum="0" player="DWG118" type="4"/>
+   <action no="19" sum="0" player="Lobisome" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action no="20" sum="5,600" player="DWG118" type="5"/>
+   <action no="21" sum="5,600" player="Lobisome" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560268337">
+  <general>
+   <startdate>2024-02-12 15:02:10</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,800" addon="0" bet="200" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="88,694" addon="0" bet="200" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="183,671" addon="0" bet="3,000" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="105,956" addon="0" bet="3,000" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="101,766" addon="0" bet="6,168" reg_code="" name="Lobisome" win="9,600" rebuy="0"/>
+    <player dealer="0" seat="10" chips="55,172" addon="0" bet="200" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="wazuwazool" type="15"/>
+   <action no="2" sum="200" player="TheDoughh" type="15"/>
+   <action no="3" sum="200" player="Lobisome" type="15"/>
+   <action no="4" sum="200" player="Versatileleaf95" type="15"/>
+   <action no="5" sum="200" player="tropeiro123" type="15"/>
+   <action no="6" sum="200" player="DWG118" type="15"/>
+   <action no="7" sum="700" player="wazuwazool" type="1"/>
+   <action no="8" sum="1,400" player="TheDoughh" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="9" sum="2,800" player="Lobisome" type="23"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 C10</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="DWG118" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="13" sum="2,100" player="wazuwazool" type="3"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="14" sum="1,400" player="TheDoughh" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SA D2 D8</cards>
+   <action no="15" sum="0" player="wazuwazool" type="4"/>
+   <action no="16" sum="0" player="TheDoughh" type="4"/>
+   <action no="17" sum="3,168" player="Lobisome" type="5"/>
+   <action no="18" sum="0" player="wazuwazool" type="0"/>
+   <action no="19" sum="0" player="TheDoughh" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560268456">
+  <general>
+   <startdate>2024-02-12 15:03:15</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,600" addon="0" bet="200" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="88,494" addon="0" bet="200" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="100,000" addon="0" bet="200" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="94,794" addon="0" bet="3,700" reg_code="" name="atdodpiki" win="9,300" rebuy="0"/>
+    <player dealer="1" seat="6" chips="180,671" addon="0" bet="200" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="102,956" addon="0" bet="900" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="108,366" addon="0" bet="3,700" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="54,972" addon="0" bet="200" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="TheDoughh" type="15"/>
+   <action no="2" sum="200" player="Lobisome" type="15"/>
+   <action no="3" sum="200" player="Versatileleaf95" type="15"/>
+   <action no="4" sum="200" player="tropeiro123" type="15"/>
+   <action no="5" sum="200" player="DWG118" type="15"/>
+   <action no="6" sum="200" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="200" player="atdodpiki" type="15"/>
+   <action no="8" sum="200" player="wazuwazool" type="15"/>
+   <action no="9" sum="700" player="TheDoughh" type="1"/>
+   <action no="10" sum="1,400" player="Lobisome" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK C4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">HQ SA</cards>
+   <action no="15" sum="3,500" player="atdodpiki" type="23"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">HA S8</cards>
+   <action no="18" sum="2,100" player="Lobisome" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D5 H7</cards>
+   <action no="19" sum="0" player="Lobisome" type="4"/>
+   <action no="20" sum="0" player="atdodpiki" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="21" sum="0" player="Lobisome" type="4"/>
+   <action no="22" sum="0" player="atdodpiki" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+   <action no="23" sum="0" player="Lobisome" type="4"/>
+   <action no="24" sum="0" player="atdodpiki" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560268638">
+  <general>
+   <startdate>2024-02-12 15:04:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,400" addon="0" bet="13,850" reg_code="7947761252" name="tropeiro123" win="14,800" rebuy="0"/>
+    <player dealer="0" seat="2" chips="88,294" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="99,800" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="100,394" addon="0" bet="4,250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="180,471" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="102,056" addon="0" bet="4,250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="104,666" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="54,772" addon="0" bet="1,050" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="2" sum="250" player="tropeiro123" type="15"/>
+   <action no="3" sum="250" player="DWG118" type="15"/>
+   <action no="4" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="250" player="atdodpiki" type="15"/>
+   <action no="6" sum="250" player="wazuwazool" type="15"/>
+   <action no="7" sum="250" player="TheDoughh" type="15"/>
+   <action no="8" sum="250" player="Lobisome" type="15"/>
+   <action no="9" sum="800" player="Versatileleaf95" type="1"/>
+   <action no="10" sum="1,600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="13" sum="4,000" player="atdodpiki" type="23"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="15" sum="4,000" player="TheDoughh" type="3"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK D10</cards>
+   <action no="18" sum="2,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 S7 D8</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="0" player="atdodpiki" type="4"/>
+   <action no="21" sum="0" player="TheDoughh" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action no="22" sum="9,600" player="tropeiro123" type="5"/>
+   <action no="23" sum="0" player="atdodpiki" type="0"/>
+   <action no="24" sum="0" player="TheDoughh" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560268832">
+  <general>
+   <startdate>2024-02-12 15:06:20</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="109,950" addon="0" bet="1,050" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="88,044" addon="0" bet="3,610" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="99,550" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="96,144" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="180,221" addon="0" bet="7,770" reg_code="" name="wazuwazool" win="9,520" rebuy="0"/>
+    <player dealer="0" seat="7" chips="97,806" addon="0" bet="250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="104,416" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="53,722" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tropeiro123" type="15"/>
+   <action no="2" sum="250" player="DWG118" type="15"/>
+   <action no="3" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="250" player="atdodpiki" type="15"/>
+   <action no="5" sum="250" player="wazuwazool" type="15"/>
+   <action no="6" sum="250" player="TheDoughh" type="15"/>
+   <action no="7" sum="250" player="Lobisome" type="15"/>
+   <action no="8" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="9" sum="800" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,600" player="DWG118" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="13" sum="3,360" player="wazuwazool" type="23"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 SA</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="18" sum="1,760" player="DWG118" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 S5 C2</cards>
+   <action no="19" sum="0" player="DWG118" type="4"/>
+   <action no="20" sum="4,160" player="wazuwazool" type="5"/>
+   <action no="21" sum="0" player="DWG118" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560268954">
+  <general>
+   <startdate>2024-02-12 15:07:24</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="1" seat="1" chips="108,900" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="84,434" addon="0" bet="1,050" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="99,300" addon="0" bet="6,650" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="95,894" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="186,131" addon="0" bet="15,230" reg_code="" name="wazuwazool" win="15,600" rebuy="0"/>
+    <player dealer="0" seat="7" chips="97,556" addon="0" bet="250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="104,166" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="53,472" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="DWG118" type="15"/>
+   <action no="2" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="250" player="atdodpiki" type="15"/>
+   <action no="4" sum="250" player="wazuwazool" type="15"/>
+   <action no="5" sum="250" player="TheDoughh" type="15"/>
+   <action no="6" sum="250" player="Lobisome" type="15"/>
+   <action no="7" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="8" sum="250" player="tropeiro123" type="15"/>
+   <action no="9" sum="800" player="DWG118" type="1"/>
+   <action no="10" sum="1,600" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="12" sum="3,200" player="wazuwazool" type="23"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 C9</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="18" sum="1,600" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 CJ D8</cards>
+   <action no="19" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="20" sum="3,200" player="wazuwazool" type="5"/>
+   <action no="21" sum="3,200" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action no="22" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="23" sum="8,580" player="wazuwazool" type="5"/>
+   <action no="24" sum="0" player="InTrussWeTrust" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289370">
+  <general>
+   <startdate>2024-02-12 15:08:57</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="108,650" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="83,384" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="92,650" addon="0" bet="10,346" reg_code="" name="InTrussWeTrust" win="22,192" rebuy="0"/>
+    <player dealer="0" seat="5" chips="95,644" addon="0" bet="10,346" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="195,081" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="97,306" addon="0" bet="250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="103,916" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="53,222" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="250" player="atdodpiki" type="15"/>
+   <action no="3" sum="250" player="wazuwazool" type="15"/>
+   <action no="4" sum="250" player="TheDoughh" type="15"/>
+   <action no="5" sum="250" player="Lobisome" type="15"/>
+   <action no="6" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="7" sum="250" player="tropeiro123" type="15"/>
+   <action no="8" sum="250" player="DWG118" type="15"/>
+   <action no="9" sum="800" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="1,600" player="atdodpiki" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 S6</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">CQ HJ</cards>
+   <action no="17" sum="800" player="InTrussWeTrust" type="3"/>
+   <cards player="atdodpiki" type="Pocket">H9 C9</cards>
+   <action no="18" sum="6,400" player="atdodpiki" type="23"/>
+   <action no="19" sum="4,800" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 HA CJ</cards>
+   <action no="20" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="21" sum="3,696" player="atdodpiki" type="5"/>
+   <action no="22" sum="3,696" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="23" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="24" sum="0" player="atdodpiki" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="25" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="26" sum="0" player="atdodpiki" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560289528">
+  <general>
+   <startdate>2024-02-12 15:10:18</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="108,400" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="83,134" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="104,496" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="85,298" addon="0" bet="1,050" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="194,831" addon="0" bet="1,850" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="97,056" addon="0" bet="3,280" reg_code="" name="TheDoughh" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="9" chips="103,666" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="52,972" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="atdodpiki" type="15"/>
+   <action no="2" sum="250" player="wazuwazool" type="15"/>
+   <action no="3" sum="250" player="TheDoughh" type="15"/>
+   <action no="4" sum="250" player="Lobisome" type="15"/>
+   <action no="5" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="6" sum="250" player="tropeiro123" type="15"/>
+   <action no="7" sum="250" player="DWG118" type="15"/>
+   <action no="8" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="9" sum="800" player="atdodpiki" type="1"/>
+   <action no="10" sum="1,600" player="wazuwazool" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="11" sum="3,280" player="TheDoughh" type="23"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ D6</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="wazuwazool" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289592">
+  <general>
+   <startdate>2024-02-12 15:10:47</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="108,150" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="82,884" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="104,246" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="84,248" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="192,981" addon="0" bet="1,050" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="101,206" addon="0" bet="1,850" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="103,416" addon="0" bet="3,200" reg_code="" name="Lobisome" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="10" chips="52,722" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="wazuwazool" type="15"/>
+   <action no="2" sum="250" player="TheDoughh" type="15"/>
+   <action no="3" sum="250" player="Lobisome" type="15"/>
+   <action no="4" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="5" sum="250" player="tropeiro123" type="15"/>
+   <action no="6" sum="250" player="DWG118" type="15"/>
+   <action no="7" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="8" sum="250" player="atdodpiki" type="15"/>
+   <action no="9" sum="800" player="wazuwazool" type="1"/>
+   <action no="10" sum="1,600" player="TheDoughh" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="11" sum="3,200" player="Lobisome" type="23"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C8</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="TheDoughh" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289667">
+  <general>
+   <startdate>2024-02-12 15:11:27</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="107,900" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="82,634" addon="0" bet="3,770" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="103,996" addon="0" bet="16,640" reg_code="" name="InTrussWeTrust" win="14,960" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,998" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="191,931" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="99,356" addon="0" bet="1,050" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="107,566" addon="0" bet="1,850" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="52,472" addon="0" bet="3,770" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="TheDoughh" type="15"/>
+   <action no="2" sum="250" player="Lobisome" type="15"/>
+   <action no="3" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="4" sum="250" player="tropeiro123" type="15"/>
+   <action no="5" sum="250" player="DWG118" type="15"/>
+   <action no="6" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="250" player="atdodpiki" type="15"/>
+   <action no="8" sum="250" player="wazuwazool" type="15"/>
+   <action no="9" sum="800" player="TheDoughh" type="1"/>
+   <action no="10" sum="1,600" player="Lobisome" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="11" sum="3,520" player="Versatileleaf95" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C8 C6</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="13" sum="3,520" player="DWG118" type="3"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="16,640" player="InTrussWeTrust" type="23"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Lobisome" type="0"/>
+   <action no="19" sum="0" player="Versatileleaf95" type="0"/>
+   <action no="20" sum="0" player="DWG118" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289749">
+  <general>
+   <startdate>2024-02-12 15:12:10</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="107,650" addon="0" bet="250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="78,864" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="115,186" addon="0" bet="3,200" reg_code="" name="InTrussWeTrust" win="6,000" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,748" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="191,681" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="98,306" addon="0" bet="250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="105,716" addon="0" bet="1,050" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="48,702" addon="0" bet="1,850" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="Lobisome" type="15"/>
+   <action no="2" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="3" sum="250" player="tropeiro123" type="15"/>
+   <action no="4" sum="250" player="DWG118" type="15"/>
+   <action no="5" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="250" player="atdodpiki" type="15"/>
+   <action no="7" sum="250" player="wazuwazool" type="15"/>
+   <action no="8" sum="250" player="TheDoughh" type="15"/>
+   <action no="9" sum="800" player="Lobisome" type="1"/>
+   <action no="10" sum="1,600" player="Versatileleaf95" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D9 C4</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="3,200" player="InTrussWeTrust" type="23"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Versatileleaf95" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289806">
+  <general>
+   <startdate>2024-02-12 15:12:35</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="107,400" addon="0" bet="4,250" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="78,614" addon="0" bet="250" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="119,336" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="83,498" addon="0" bet="6,954" reg_code="" name="atdodpiki" win="10,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="191,431" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="98,056" addon="0" bet="250" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="104,666" addon="0" bet="250" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="46,852" addon="0" bet="1,050" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="2" sum="250" player="tropeiro123" type="15"/>
+   <action no="3" sum="250" player="DWG118" type="15"/>
+   <action no="4" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="5" sum="250" player="atdodpiki" type="15"/>
+   <action no="6" sum="250" player="wazuwazool" type="15"/>
+   <action no="7" sum="250" player="TheDoughh" type="15"/>
+   <action no="8" sum="250" player="Lobisome" type="15"/>
+   <action no="9" sum="800" player="Versatileleaf95" type="1"/>
+   <action no="10" sum="1,600" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="13" sum="4,000" player="atdodpiki" type="23"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 H7</cards>
+   <action no="18" sum="2,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK CA S5</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="2,704" player="atdodpiki" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560289932">
+  <general>
+   <startdate>2024-02-12 15:13:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player dealer="0" seat="1" chips="103,150" addon="0" bet="1,050" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="78,364" addon="0" bet="1,850" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="119,086" addon="0" bet="250" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,048" addon="0" bet="250" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="191,181" addon="0" bet="250" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="97,806" addon="0" bet="10,810" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="104,416" addon="0" bet="19,231" reg_code="" name="Lobisome" win="25,520" rebuy="0"/>
+    <player dealer="1" seat="10" chips="45,802" addon="0" bet="250" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="250" player="tropeiro123" type="15"/>
+   <action no="2" sum="250" player="DWG118" type="15"/>
+   <action no="3" sum="250" player="InTrussWeTrust" type="15"/>
+   <action no="4" sum="250" player="atdodpiki" type="15"/>
+   <action no="5" sum="250" player="wazuwazool" type="15"/>
+   <action no="6" sum="250" player="TheDoughh" type="15"/>
+   <action no="7" sum="250" player="Lobisome" type="15"/>
+   <action no="8" sum="250" player="Versatileleaf95" type="15"/>
+   <action no="9" sum="800" player="tropeiro123" type="1"/>
+   <action no="10" sum="1,600" player="DWG118" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="14" sum="3,280" player="TheDoughh" type="23"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="15" sum="10,560" player="Lobisome" type="23"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ DA</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="DWG118" type="0"/>
+   <action no="19" sum="7,280" player="TheDoughh" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S2 C6 H7</cards>
+   <action no="20" sum="0" player="TheDoughh" type="4"/>
+   <action no="21" sum="8,421" player="Lobisome" type="5"/>
+   <action no="22" sum="0" player="TheDoughh" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290103">
+  <general>
+   <startdate>2024-02-12 15:15:10</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="1" seat="1" chips="102,100" addon="0" bet="275" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="76,514" addon="0" bet="1,175" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="118,836" addon="0" bet="24,205" reg_code="" name="InTrussWeTrust" win="21,630" rebuy="0"/>
+    <player dealer="0" seat="5" chips="89,798" addon="0" bet="275" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="190,931" addon="0" bet="275" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,996" addon="0" bet="275" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="119,126" addon="0" bet="9,540" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="45,552" addon="0" bet="275" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="DWG118" type="15"/>
+   <action no="2" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="3" sum="275" player="atdodpiki" type="15"/>
+   <action no="4" sum="275" player="wazuwazool" type="15"/>
+   <action no="5" sum="275" player="TheDoughh" type="15"/>
+   <action no="6" sum="275" player="Lobisome" type="15"/>
+   <action no="7" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="8" sum="275" player="tropeiro123" type="15"/>
+   <action no="9" sum="900" player="DWG118" type="1"/>
+   <action no="10" sum="1,800" player="InTrussWeTrust" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="14" sum="3,600" player="Lobisome" type="23"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 HJ</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="18" sum="1,800" player="InTrussWeTrust" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 D4 S7</cards>
+   <action no="19" sum="0" player="InTrussWeTrust" type="4"/>
+   <action no="20" sum="5,665" player="Lobisome" type="5"/>
+   <action no="21" sum="20,330" player="InTrussWeTrust" type="23"/>
+   <action no="22" sum="0" player="Lobisome" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290242">
+  <general>
+   <startdate>2024-02-12 15:16:23</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="101,825" addon="0" bet="275" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="75,339" addon="0" bet="275" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="130,926" addon="0" bet="1,175" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="89,523" addon="0" bet="89,248" reg_code="" name="atdodpiki" win="10,300" rebuy="0"/>
+    <player dealer="0" seat="6" chips="190,656" addon="0" bet="275" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,721" addon="0" bet="275" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="109,586" addon="0" bet="275" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="45,277" addon="0" bet="3,875" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="2" sum="275" player="atdodpiki" type="15"/>
+   <action no="3" sum="275" player="wazuwazool" type="15"/>
+   <action no="4" sum="275" player="TheDoughh" type="15"/>
+   <action no="5" sum="275" player="Lobisome" type="15"/>
+   <action no="6" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="7" sum="275" player="tropeiro123" type="15"/>
+   <action no="8" sum="275" player="DWG118" type="15"/>
+   <action no="9" sum="900" player="InTrussWeTrust" type="1"/>
+   <action no="10" sum="1,800" player="atdodpiki" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="14" sum="3,600" player="Versatileleaf95" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DQ D2</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="18" sum="89,248" player="atdodpiki" type="23"/>
+   <action no="19" sum="0" player="Versatileleaf95" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290344">
+  <general>
+   <startdate>2024-02-12 15:17:11</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="101,550" addon="0" bet="275" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="75,064" addon="0" bet="275" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="129,751" addon="0" bet="275" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="95,948" addon="0" bet="1,175" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="190,381" addon="0" bet="2,075" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,446" addon="0" bet="275" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="109,311" addon="0" bet="275" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="41,402" addon="0" bet="3,600" reg_code="" name="Versatileleaf95" win="6,700" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="atdodpiki" type="15"/>
+   <action no="2" sum="275" player="wazuwazool" type="15"/>
+   <action no="3" sum="275" player="TheDoughh" type="15"/>
+   <action no="4" sum="275" player="Lobisome" type="15"/>
+   <action no="5" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="6" sum="275" player="tropeiro123" type="15"/>
+   <action no="7" sum="275" player="DWG118" type="15"/>
+   <action no="8" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="9" sum="900" player="atdodpiki" type="1"/>
+   <action no="10" sum="1,800" player="wazuwazool" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="13" sum="3,600" player="Versatileleaf95" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C2 DJ</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="wazuwazool" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560290410">
+  <general>
+   <startdate>2024-02-12 15:17:46</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="101,275" addon="0" bet="86,171" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="74,789" addon="0" bet="275" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="129,476" addon="0" bet="275" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="94,773" addon="0" bet="275" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="188,306" addon="0" bet="1,175" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="86,171" addon="0" bet="86,171" reg_code="" name="TheDoughh" win="174,892" rebuy="0"/>
+    <player dealer="0" seat="9" chips="109,036" addon="0" bet="275" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="46,027" addon="0" bet="275" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="wazuwazool" type="15"/>
+   <action no="2" sum="275" player="TheDoughh" type="15"/>
+   <action no="3" sum="275" player="Lobisome" type="15"/>
+   <action no="4" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="5" sum="275" player="tropeiro123" type="15"/>
+   <action no="6" sum="275" player="DWG118" type="15"/>
+   <action no="7" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="8" sum="275" player="atdodpiki" type="15"/>
+   <action no="9" sum="900" player="wazuwazool" type="1"/>
+   <action no="10" sum="1,800" player="TheDoughh" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA DK</cards>
+   <action no="13" sum="3,780" player="tropeiro123" type="23"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">H8 CA</cards>
+   <action no="18" sum="1,980" player="TheDoughh" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 S8 CJ</cards>
+   <action no="19" sum="0" player="TheDoughh" type="4"/>
+   <action no="20" sum="2,665" player="tropeiro123" type="5"/>
+   <action no="21" sum="2,665" player="TheDoughh" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="22" sum="0" player="TheDoughh" type="4"/>
+   <action no="23" sum="13,591" player="tropeiro123" type="5"/>
+   <action no="24" sum="13,591" player="TheDoughh" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+   <action no="25" sum="0" player="TheDoughh" type="4"/>
+   <action no="26" sum="30,600" player="tropeiro123" type="5"/>
+   <action no="27" sum="65,860" player="TheDoughh" type="23"/>
+   <action no="28" sum="35,260" player="tropeiro123" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560319077">
+  <general>
+   <startdate>2024-02-12 15:20:26</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="15,104" addon="0" bet="275" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="74,514" addon="0" bet="275" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="129,201" addon="0" bet="275" reg_code="" name="InTrussWeTrust" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="94,498" addon="0" bet="3,875" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="187,131" addon="0" bet="11,975" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="174,892" addon="0" bet="1,175" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="108,761" addon="0" bet="108,486" reg_code="" name="Lobisome" win="30,100" rebuy="0"/>
+    <player dealer="0" seat="10" chips="45,752" addon="0" bet="275" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="TheDoughh" type="15"/>
+   <action no="2" sum="275" player="Lobisome" type="15"/>
+   <action no="3" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="4" sum="275" player="tropeiro123" type="15"/>
+   <action no="5" sum="275" player="DWG118" type="15"/>
+   <action no="6" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="7" sum="275" player="atdodpiki" type="15"/>
+   <action no="8" sum="275" player="wazuwazool" type="15"/>
+   <action no="9" sum="900" player="TheDoughh" type="1"/>
+   <action no="10" sum="1,800" player="Lobisome" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Versatileleaf95" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 H9</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="InTrussWeTrust" type="0"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="15" sum="3,600" player="atdodpiki" type="23"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="16" sum="11,700" player="wazuwazool" type="23"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="18" sum="108,486" player="Lobisome" type="23"/>
+   <action no="19" sum="0" player="atdodpiki" type="0"/>
+   <action no="20" sum="0" player="wazuwazool" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560319198">
+  <general>
+   <startdate>2024-02-12 15:21:26</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="14,829" addon="0" bet="275" reg_code="7947761252" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="74,239" addon="0" bet="275" reg_code="" name="DWG118" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="128,926" addon="0" bet="6,965" reg_code="" name="InTrussWeTrust" win="10,300" rebuy="0"/>
+    <player dealer="0" seat="5" chips="90,623" addon="0" bet="275" reg_code="" name="atdodpiki" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="175,156" addon="0" bet="275" reg_code="" name="wazuwazool" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="173,717" addon="0" bet="275" reg_code="" name="TheDoughh" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="126,886" addon="0" bet="1,175" reg_code="" name="Lobisome" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="45,477" addon="0" bet="3,875" reg_code="" name="Versatileleaf95" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="Lobisome" type="15"/>
+   <action no="2" sum="275" player="Versatileleaf95" type="15"/>
+   <action no="3" sum="275" player="tropeiro123" type="15"/>
+   <action no="4" sum="275" player="DWG118" type="15"/>
+   <action no="5" sum="275" player="InTrussWeTrust" type="15"/>
+   <action no="6" sum="275" player="atdodpiki" type="15"/>
+   <action no="7" sum="275" player="wazuwazool" type="15"/>
+   <action no="8" sum="275" player="TheDoughh" type="15"/>
+   <action no="9" sum="900" player="Lobisome" type="1"/>
+   <action no="10" sum="1,800" player="Versatileleaf95" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C5 H8</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="DWG118" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="DWG118" type="0"/>
+   <cards player="InTrussWeTrust" type="Pocket">X X</cards>
+   <action no="13" sum="3,600" player="InTrussWeTrust" type="23"/>
+   <cards player="atdodpiki" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="atdodpiki" type="0"/>
+   <cards player="wazuwazool" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="wazuwazool" type="0"/>
+   <cards player="TheDoughh" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="TheDoughh" type="0"/>
+   <cards player="Lobisome" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Lobisome" type="0"/>
+   <cards player="Versatileleaf95" type="Pocket">X X</cards>
+   <action no="18" sum="1,800" player="Versatileleaf95" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 H2 H3</cards>
+   <action no="19" sum="0" player="Versatileleaf95" type="4"/>
+   <action no="20" sum="3,090" player="InTrussWeTrust" type="5"/>
+   <action no="21" sum="0" player="Versatileleaf95" type="0"/>
+  </round>
+ </game>
+</session>

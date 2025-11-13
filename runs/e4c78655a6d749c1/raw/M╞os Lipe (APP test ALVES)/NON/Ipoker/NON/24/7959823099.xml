@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7959823099">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€25,000 GTD|Daily Main, 1081950000</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:13:04</duration>
+  <gamecount>12</gamecount>
+  <startdate>2024-02-24 16:16:00</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>51,430</bets>
+  <wins>8,992</wins>
+  <chipsin>42,190</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP135</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081299460</tournamentcode>
+  <tournamentname>€25,000 GTD|Daily Main</tournamentname>
+  <place>355</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10582042455">
+  <general>
+   <startdate>2024-02-24 16:16:00</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="43,096" dealer="0" bet="90" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="81,715" dealer="0" bet="90" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="deasjoab" reg_code="" chips="9,043" dealer="0" bet="90" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="118,484" dealer="0" bet="3,909" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,559" dealer="1" bet="90" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,774" dealer="0" bet="390" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="32,042" dealer="0" bet="3,909" win="8,568" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="FunomenalGoku" no="1" sum="90" type="15"/>
+   <action player="bajiyxa1" no="2" sum="90" type="15"/>
+   <action player="CATCLOWN" no="3" sum="90" type="15"/>
+   <action player="minniemon" no="4" sum="90" type="15"/>
+   <action player="deasjoab" no="5" sum="90" type="15"/>
+   <action player="tramsyrev" no="6" sum="90" type="15"/>
+   <action player="skiti13" no="7" sum="90" type="15"/>
+   <action player="FunomenalGoku" no="8" sum="300" type="1"/>
+   <action player="bajiyxa1" no="9" sum="600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="10" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="11" sum="0" type="0"/>
+   <cards player="deasjoab" type="Pocket">X X</cards>
+   <action player="deasjoab" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">HJ CA</cards>
+   <action player="tramsyrev" no="13" sum="1,320" type="23"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="14" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="15" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">H3 HQ</cards>
+   <action player="bajiyxa1" no="16" sum="720" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 D5 H7</cards>
+   <action player="bajiyxa1" no="17" sum="0" type="4"/>
+   <action player="tramsyrev" no="18" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action player="bajiyxa1" no="19" sum="0" type="4"/>
+   <action player="tramsyrev" no="20" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SQ</cards>
+   <action player="bajiyxa1" no="21" sum="2,499" type="5"/>
+   <action player="tramsyrev" no="22" sum="2,499" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10582042639">
+  <general>
+   <startdate>2024-02-24 16:17:04</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="43,006" dealer="0" bet="1,350" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="81,625" dealer="0" bet="90" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="deasjoab" reg_code="" chips="8,953" dealer="0" bet="90" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="40,000" dealer="0" bet="2,238" win="3,540" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="114,575" dealer="0" bet="90" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,469" dealer="0" bet="90" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,384" dealer="1" bet="90" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="36,701" dealer="0" bet="390" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="bajiyxa1" no="1" sum="90" type="15"/>
+   <action player="CATCLOWN" no="2" sum="90" type="15"/>
+   <action player="minniemon" no="3" sum="90" type="15"/>
+   <action player="deasjoab" no="4" sum="90" type="15"/>
+   <action player="tropeiro123" no="5" sum="90" type="15"/>
+   <action player="tramsyrev" no="6" sum="90" type="15"/>
+   <action player="skiti13" no="7" sum="90" type="15"/>
+   <action player="FunomenalGoku" no="8" sum="90" type="15"/>
+   <action player="bajiyxa1" no="9" sum="300" type="1"/>
+   <action player="CATCLOWN" no="10" sum="600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="11" sum="0" type="0"/>
+   <cards player="deasjoab" type="Pocket">X X</cards>
+   <action player="deasjoab" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ C10</cards>
+   <action player="tropeiro123" no="13" sum="1,260" type="23"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="14" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="15" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="16" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="17" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="18" sum="660" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 H6 HA</cards>
+   <action player="CATCLOWN" no="19" sum="0" type="4"/>
+   <action player="tropeiro123" no="20" sum="888" type="5"/>
+   <action player="CATCLOWN" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582042798">
+  <general>
+   <startdate>2024-02-24 16:18:05</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="41,656" dealer="0" bet="390" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="81,535" dealer="0" bet="690" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="deasjoab" reg_code="" chips="8,863" dealer="0" bet="90" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="42,190" dealer="0" bet="90" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="114,485" dealer="0" bet="90" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,379" dealer="0" bet="90" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,294" dealer="0" bet="90" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="36,311" dealer="1" bet="1,200" win="2,220" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CATCLOWN" no="1" sum="90" type="15"/>
+   <action player="minniemon" no="2" sum="90" type="15"/>
+   <action player="deasjoab" no="3" sum="90" type="15"/>
+   <action player="tropeiro123" no="4" sum="90" type="15"/>
+   <action player="tramsyrev" no="5" sum="90" type="15"/>
+   <action player="skiti13" no="6" sum="90" type="15"/>
+   <action player="FunomenalGoku" no="7" sum="90" type="15"/>
+   <action player="bajiyxa1" no="8" sum="90" type="15"/>
+   <action player="CATCLOWN" no="9" sum="300" type="1"/>
+   <action player="minniemon" no="10" sum="600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="deasjoab" type="Pocket">X X</cards>
+   <action player="deasjoab" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 S5</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="13" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="14" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="15" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="16" sum="1,200" type="23"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="17" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582042935">
+  <general>
+   <startdate>2024-02-24 16:18:57</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="41,266" dealer="1" bet="90" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="80,845" dealer="0" bet="8,773" win="18,086" rebuy="0" seat="2" addon="0">
+     <knockout tobounty="€11.37" tobalance="€11.38" kicked="deasjoab"/>
+    </player>
+    <player name="deasjoab" reg_code="" chips="8,773" dealer="0" bet="8,683" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="42,100" dealer="0" bet="90" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="114,395" dealer="0" bet="90" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,289" dealer="0" bet="90" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,204" dealer="0" bet="90" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="37,841" dealer="0" bet="90" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="minniemon" no="1" sum="90" type="15"/>
+   <action player="deasjoab" no="2" sum="90" type="15"/>
+   <action player="tropeiro123" no="3" sum="90" type="15"/>
+   <action player="tramsyrev" no="4" sum="90" type="15"/>
+   <action player="skiti13" no="5" sum="90" type="15"/>
+   <action player="FunomenalGoku" no="6" sum="90" type="15"/>
+   <action player="bajiyxa1" no="7" sum="90" type="15"/>
+   <action player="CATCLOWN" no="8" sum="90" type="15"/>
+   <action player="minniemon" no="9" sum="300" type="1"/>
+   <action player="deasjoab" no="10" sum="600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S10 C2</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="12" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="13" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="14" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="15" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="16" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">S7 H10</cards>
+   <action player="minniemon" no="17" sum="300" type="3"/>
+   <cards player="deasjoab" type="Pocket">H8 CQ</cards>
+   <action player="deasjoab" no="18" sum="8,683" type="23"/>
+   <action player="minniemon" no="19" sum="8,083" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA H7 D4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+  </round>
+ </game>
+ <game gamecode="10582073145">
+  <general>
+   <startdate>2024-02-24 16:20:05</startdate>
+   <smallblind>300</smallblind>
+   <bigblind>600</bigblind>
+   <ante>90</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="41,176" dealer="0" bet="90" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="90,158" dealer="1" bet="90" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="42,010" dealer="0" bet="1,290" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="114,305" dealer="0" bet="90" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,199" dealer="0" bet="90" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,114" dealer="0" bet="90" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="37,751" dealer="0" bet="2,289" win="3,030" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="90" type="15"/>
+   <action player="tramsyrev" no="2" sum="90" type="15"/>
+   <action player="skiti13" no="3" sum="90" type="15"/>
+   <action player="FunomenalGoku" no="4" sum="90" type="15"/>
+   <action player="bajiyxa1" no="5" sum="90" type="15"/>
+   <action player="CATCLOWN" no="6" sum="90" type="15"/>
+   <action player="minniemon" no="7" sum="90" type="15"/>
+   <action player="tropeiro123" no="8" sum="600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="9" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="10" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="11" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="12" sum="1,200" type="23"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="13" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 D4</cards>
+   <action player="tropeiro123" no="15" sum="600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK S2 H2</cards>
+   <action player="tropeiro123" no="16" sum="0" type="4"/>
+   <action player="bajiyxa1" no="17" sum="999" type="5"/>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582073213">
+  <general>
+   <startdate>2024-02-24 16:21:01</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="41,086" dealer="0" bet="100" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="90,068" dealer="0" bet="100" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="40,720" dealer="0" bet="2,450" win="2,100" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="114,215" dealer="0" bet="800" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,109" dealer="0" bet="100" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="73,024" dealer="0" bet="100" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="39,491" dealer="0" bet="100" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="100" type="15"/>
+   <action player="tramsyrev" no="2" sum="100" type="15"/>
+   <action player="skiti13" no="3" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="4" sum="100" type="15"/>
+   <action player="bajiyxa1" no="5" sum="100" type="15"/>
+   <action player="CATCLOWN" no="6" sum="100" type="15"/>
+   <action player="minniemon" no="7" sum="100" type="15"/>
+   <action player="tropeiro123" no="8" sum="350" type="1"/>
+   <action player="tramsyrev" no="9" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="10" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="11" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="12" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="13" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H8</cards>
+   <action player="tropeiro123" no="15" sum="2,450" type="23"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582073263">
+  <general>
+   <startdate>2024-02-24 16:21:32</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="40,986" dealer="0" bet="40,986" win="83,522" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="89,968" dealer="0" bet="100" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="42,020" dealer="1" bet="40,986" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="113,415" dealer="0" bet="450" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,009" dealer="0" bet="800" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="72,924" dealer="0" bet="100" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="39,391" dealer="0" bet="100" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tramsyrev" no="1" sum="100" type="15"/>
+   <action player="skiti13" no="2" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="3" sum="100" type="15"/>
+   <action player="bajiyxa1" no="4" sum="100" type="15"/>
+   <action player="CATCLOWN" no="5" sum="100" type="15"/>
+   <action player="minniemon" no="6" sum="100" type="15"/>
+   <action player="tropeiro123" no="7" sum="100" type="15"/>
+   <action player="tramsyrev" no="8" sum="350" type="1"/>
+   <action player="skiti13" no="9" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="10" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="11" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">S9 SJ</cards>
+   <action player="CATCLOWN" no="12" sum="1,400" type="23"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 S7</cards>
+   <action player="tropeiro123" no="14" sum="1,400" type="3"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="16" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H3 S8</cards>
+   <action player="CATCLOWN" no="17" sum="1,501" type="5"/>
+   <action player="tropeiro123" no="18" sum="4,979" type="23"/>
+   <action player="CATCLOWN" no="19" sum="16,857" type="23"/>
+   <action player="tropeiro123" no="20" sum="11,878" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+   <action player="CATCLOWN" no="21" sum="22,629" type="5"/>
+   <action player="tropeiro123" no="22" sum="22,629" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10582073404">
+  <general>
+   <startdate>2024-02-24 16:23:15</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="83,522" dealer="0" bet="100" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="89,868" dealer="0" bet="100" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="LESNAR1990" reg_code="" chips="40,000" dealer="0" bet="6,400" win="7,750" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="1,034" dealer="0" bet="100" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="112,965" dealer="1" bet="100" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="49,209" dealer="0" bet="6,400" win="7,750" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="72,824" dealer="0" bet="800" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="39,291" dealer="0" bet="1,500" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="skiti13" no="1" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="2" sum="100" type="15"/>
+   <action player="bajiyxa1" no="3" sum="100" type="15"/>
+   <action player="CATCLOWN" no="4" sum="100" type="15"/>
+   <action player="minniemon" no="5" sum="100" type="15"/>
+   <action player="LESNAR1990" no="6" sum="100" type="15"/>
+   <action player="tropeiro123" no="7" sum="100" type="15"/>
+   <action player="tramsyrev" no="8" sum="100" type="15"/>
+   <action player="skiti13" no="9" sum="350" type="1"/>
+   <action player="FunomenalGoku" no="10" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="11" sum="1,400" type="23"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="12" sum="0" type="0"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="13" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">C5 CA</cards>
+   <action player="LESNAR1990" no="14" sum="1,400" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C6 HJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="16" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">DA D2</cards>
+   <action player="skiti13" no="17" sum="1,050" type="3"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DK SA SJ</cards>
+   <action player="skiti13" no="19" sum="0" type="4"/>
+   <action player="bajiyxa1" no="20" sum="0" type="4"/>
+   <action player="LESNAR1990" no="21" sum="1,400" type="5"/>
+   <action player="skiti13" no="22" sum="1,400" type="3"/>
+   <action player="bajiyxa1" no="23" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action player="skiti13" no="24" sum="0" type="4"/>
+   <action player="LESNAR1990" no="25" sum="3,500" type="5"/>
+   <action player="skiti13" no="26" sum="3,500" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action player="skiti13" no="27" sum="0" type="4"/>
+   <action player="LESNAR1990" no="28" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10582073548">
+  <general>
+   <startdate>2024-02-24 16:25:04</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="83,422" dealer="0" bet="21,000" win="16,550" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="89,768" dealer="0" bet="5,000" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="LESNAR1990" reg_code="" chips="41,350" dealer="0" bet="5,000" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="934" dealer="0" bet="100" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="112,865" dealer="0" bet="100" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,559" dealer="1" bet="100" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="72,024" dealer="0" bet="450" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="37,791" dealer="0" bet="800" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="FunomenalGoku" no="1" sum="100" type="15"/>
+   <action player="bajiyxa1" no="2" sum="100" type="15"/>
+   <action player="CATCLOWN" no="3" sum="100" type="15"/>
+   <action player="minniemon" no="4" sum="100" type="15"/>
+   <action player="LESNAR1990" no="5" sum="100" type="15"/>
+   <action player="tropeiro123" no="6" sum="100" type="15"/>
+   <action player="tramsyrev" no="7" sum="100" type="15"/>
+   <action player="skiti13" no="8" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="9" sum="350" type="1"/>
+   <action player="bajiyxa1" no="10" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="11" sum="1,400" type="23"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="12" sum="4,900" type="23"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action player="LESNAR1990" no="13" sum="4,900" type="3"/>
+   <cards player="tropeiro123" type="Pocket">C7 H5</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="15" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="16" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="17" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="18" sum="0" type="0"/>
+   <action player="CATCLOWN" no="19" sum="21,000" type="23"/>
+   <action player="minniemon" no="20" sum="0" type="0"/>
+   <action player="LESNAR1990" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582073611">
+  <general>
+   <startdate>2024-02-24 16:25:44</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="94,972" dealer="0" bet="94,872" win="8,486" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="84,768" dealer="0" bet="100" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="LESNAR1990" reg_code="" chips="36,350" dealer="0" bet="100" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="834" dealer="0" bet="834" win="3,352" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="112,765" dealer="0" bet="100" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,459" dealer="0" bet="100" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="71,574" dealer="1" bet="5,077" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="36,991" dealer="0" bet="450" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="bajiyxa1" no="1" sum="100" type="15"/>
+   <action player="CATCLOWN" no="2" sum="100" type="15"/>
+   <action player="minniemon" no="3" sum="100" type="15"/>
+   <action player="LESNAR1990" no="4" sum="100" type="15"/>
+   <action player="tropeiro123" no="5" sum="100" type="15"/>
+   <action player="tramsyrev" no="6" sum="100" type="15"/>
+   <action player="skiti13" no="7" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="8" sum="100" type="15"/>
+   <action player="bajiyxa1" no="9" sum="350" type="1"/>
+   <action player="CATCLOWN" no="10" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="11" sum="0" type="0"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action player="LESNAR1990" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 CA</cards>
+   <action player="tropeiro123" no="13" sum="734" type="7"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="14" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="15" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="16" sum="4,977" type="23"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="17" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">D10 DQ</cards>
+   <action player="CATCLOWN" no="18" sum="94,872" type="23"/>
+   <action player="FunomenalGoku" no="19" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 HA SA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+  </round>
+ </game>
+ <game gamecode="10582073723">
+  <general>
+   <startdate>2024-02-24 16:27:03</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="98,381" dealer="0" bet="33,570" win="29,500" rebuy="0" seat="1" addon="0"/>
+    <player name="minniemon" reg_code="" chips="84,668" dealer="0" bet="800" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="LESNAR1990" reg_code="" chips="36,250" dealer="0" bet="100" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="3,352" dealer="0" bet="100" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="112,665" dealer="0" bet="100" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="50,359" dealer="0" bet="14,100" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="66,497" dealer="0" bet="100" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="36,541" dealer="1" bet="100" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CATCLOWN" no="1" sum="100" type="15"/>
+   <action player="minniemon" no="2" sum="100" type="15"/>
+   <action player="LESNAR1990" no="3" sum="100" type="15"/>
+   <action player="tropeiro123" no="4" sum="100" type="15"/>
+   <action player="tramsyrev" no="5" sum="100" type="15"/>
+   <action player="skiti13" no="6" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="7" sum="100" type="15"/>
+   <action player="bajiyxa1" no="8" sum="100" type="15"/>
+   <action player="CATCLOWN" no="9" sum="350" type="1"/>
+   <action player="minniemon" no="10" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action player="LESNAR1990" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ S4</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="13" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="14" sum="1,400" type="23"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="15" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="16" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">X X</cards>
+   <action player="CATCLOWN" no="17" sum="6,300" type="23"/>
+   <cards player="minniemon" type="Pocket">X X</cards>
+   <action player="minniemon" no="18" sum="0" type="0"/>
+   <action player="skiti13" no="19" sum="4,900" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ C4 H4</cards>
+   <action player="CATCLOWN" no="20" sum="7,700" type="5"/>
+   <action player="skiti13" no="21" sum="7,700" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action player="CATCLOWN" no="22" sum="19,470" type="5"/>
+   <action player="skiti13" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10582073819">
+  <general>
+   <startdate>2024-02-24 16:28:12</startdate>
+   <smallblind>350</smallblind>
+   <bigblind>700</bigblind>
+   <ante>100</ante>
+   <players>
+    <player name="CATCLOWN" reg_code="" chips="113,781" dealer="1" bet="13,261" win="30,974" rebuy="0" seat="1" addon="0">
+     <knockout tobounty="€11.37" tobalance="€11.38" kicked="tropeiro123"/>
+    </player>
+    <player name="minniemon" reg_code="" chips="83,868" dealer="0" bet="13,261" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="LESNAR1990" reg_code="" chips="36,150" dealer="0" bet="800" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="tropeiro123" reg_code="7959823099" chips="3,252" dealer="0" bet="3,152" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tramsyrev" reg_code="" chips="112,565" dealer="0" bet="100" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="skiti13" reg_code="" chips="36,259" dealer="0" bet="100" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="FunomenalGoku" reg_code="" chips="66,397" dealer="0" bet="100" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="bajiyxa1" reg_code="" chips="36,441" dealer="0" bet="100" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="minniemon" no="1" sum="100" type="15"/>
+   <action player="LESNAR1990" no="2" sum="100" type="15"/>
+   <action player="tropeiro123" no="3" sum="100" type="15"/>
+   <action player="tramsyrev" no="4" sum="100" type="15"/>
+   <action player="skiti13" no="5" sum="100" type="15"/>
+   <action player="FunomenalGoku" no="6" sum="100" type="15"/>
+   <action player="bajiyxa1" no="7" sum="100" type="15"/>
+   <action player="CATCLOWN" no="8" sum="100" type="15"/>
+   <action player="minniemon" no="9" sum="350" type="1"/>
+   <action player="LESNAR1990" no="10" sum="700" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C5 HA</cards>
+   <action player="tropeiro123" no="11" sum="3,152" type="23"/>
+   <cards player="tramsyrev" type="Pocket">X X</cards>
+   <action player="tramsyrev" no="12" sum="0" type="0"/>
+   <cards player="skiti13" type="Pocket">X X</cards>
+   <action player="skiti13" no="13" sum="0" type="0"/>
+   <cards player="FunomenalGoku" type="Pocket">X X</cards>
+   <action player="FunomenalGoku" no="14" sum="0" type="0"/>
+   <cards player="bajiyxa1" type="Pocket">X X</cards>
+   <action player="bajiyxa1" no="15" sum="0" type="0"/>
+   <cards player="CATCLOWN" type="Pocket">HK S4</cards>
+   <action player="CATCLOWN" no="16" sum="7,004" type="23"/>
+   <cards player="minniemon" type="Pocket">SK SQ</cards>
+   <action player="minniemon" no="17" sum="6,654" type="3"/>
+   <cards player="LESNAR1990" type="Pocket">X X</cards>
+   <action player="LESNAR1990" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 S2 D2</cards>
+   <action player="minniemon" no="19" sum="0" type="4"/>
+   <action player="CATCLOWN" no="20" sum="6,157" type="5"/>
+   <action player="minniemon" no="21" sum="6,157" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action player="minniemon" no="22" sum="0" type="4"/>
+   <action player="CATCLOWN" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+   <action player="minniemon" no="24" sum="0" type="4"/>
+   <action player="CATCLOWN" no="25" sum="0" type="4"/>
+  </round>
+ </game>
+</session>

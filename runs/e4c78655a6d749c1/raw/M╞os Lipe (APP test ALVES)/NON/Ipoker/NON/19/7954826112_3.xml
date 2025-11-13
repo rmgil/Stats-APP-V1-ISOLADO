@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954826112">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€10,000 | The Eliminator, 1081503185</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:35:52</duration>
+  <gamecount>73</gamecount>
+  <startdate>2024-02-19 15:45:39</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>372,541</bets>
+  <wins>211,934</wins>
+  <chipsin>99,350</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP27</statuspoints>
+  <awardpoints>RP81</awardpoints>
+  <ipoints>RP27</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080872349</tournamentcode>
+  <tournamentname>€10,000 | The Eliminator</tournamentname>
+  <place>229</place>
+  <buyin>€13.65 + €13.65 + €2.70</buyin>
+  <totalbuyin>€30</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10573113577">
+  <general>
+   <startdate>2024-02-19 15:45:39</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="64,886"/>
+    <player reg_code="7954826112" win="0" dealer="1" seat="2" name="tropeiro123" bet="50,830" addon="0" rebuy="0" chips="105,929"/>
+    <player reg_code="" win="107,060" dealer="0" seat="4" name="Keekenpoika" bet="50,430" addon="0" rebuy="0" chips="50,830"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="3,400" addon="0" rebuy="0" chips="130,372"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="400" addon="0" rebuy="0" chips="223,412"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="67,040"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="88,797"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="186,639"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Keekenpoika" sum="400" type="15"/>
+   <action no="2" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="3" player="callyouruber" sum="400" type="15"/>
+   <action no="4" player="murkmanz" sum="400" type="15"/>
+   <action no="5" player="DalaDula" sum="400" type="15"/>
+   <action no="6" player="Newerkla10" sum="400" type="15"/>
+   <action no="7" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="8" player="tropeiro123" sum="400" type="15"/>
+   <action no="9" player="Keekenpoika" sum="1,500" type="1"/>
+   <action no="10" player="MarianaAmaGG" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="11" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="12" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="13" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="14" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DA C10</cards>
+   <action no="16" player="tropeiro123" sum="6,000" type="23"/>
+   <cards player="Keekenpoika" type="Pocket">C4 D4</cards>
+   <action no="17" player="Keekenpoika" sum="50,430" type="23"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="18" player="MarianaAmaGG" sum="0" type="0"/>
+   <action no="19" player="tropeiro123" sum="44,430" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CQ H3 S7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DQ</cards>
+  </round>
+ </game>
+ <game gamecode="10573113694">
+  <general>
+   <startdate>2024-02-19 15:47:02</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="64,486"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="55,099"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="107,060"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="1,900" addon="0" rebuy="0" chips="126,972"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="3,400" addon="0" rebuy="0" chips="223,012"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="66,640"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="88,397"/>
+    <player reg_code="" win="10,700" dealer="0" seat="10" name="Newerkla10" bet="6,000" addon="0" rebuy="0" chips="186,239"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="2" player="callyouruber" sum="400" type="15"/>
+   <action no="3" player="murkmanz" sum="400" type="15"/>
+   <action no="4" player="DalaDula" sum="400" type="15"/>
+   <action no="5" player="Newerkla10" sum="400" type="15"/>
+   <action no="6" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="Keekenpoika" sum="400" type="15"/>
+   <action no="9" player="MarianaAmaGG" sum="1,500" type="1"/>
+   <action no="10" player="callyouruber" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="11" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="12" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="13" player="Newerkla10" sum="6,000" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 S8</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="16" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="17" player="MarianaAmaGG" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="18" player="callyouruber" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573113759">
+  <general>
+   <startdate>2024-02-19 15:47:52</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="64,086"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="54,699"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="106,660"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="MarianaAmaGG" bet="400" addon="0" rebuy="0" chips="125,072"/>
+    <player reg_code="" win="9,200" dealer="0" seat="6" name="callyouruber" bet="219,212" addon="0" rebuy="0" chips="219,612"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="3,400" addon="0" rebuy="0" chips="66,240"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="87,997"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="193,539"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="callyouruber" sum="400" type="15"/>
+   <action no="2" player="murkmanz" sum="400" type="15"/>
+   <action no="3" player="DalaDula" sum="400" type="15"/>
+   <action no="4" player="Newerkla10" sum="400" type="15"/>
+   <action no="5" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="6" player="tropeiro123" sum="400" type="15"/>
+   <action no="7" player="Keekenpoika" sum="400" type="15"/>
+   <action no="8" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="9" player="callyouruber" sum="1,500" type="1"/>
+   <action no="10" player="murkmanz" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="11" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="12" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="13" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ S10</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="15" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="16" player="MarianaAmaGG" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="17" player="callyouruber" sum="219,212" type="23"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="18" player="murkmanz" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573113823">
+  <general>
+   <startdate>2024-02-19 15:48:38</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="63,686"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="54,299"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="106,260"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="400" addon="0" rebuy="0" chips="124,672"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="callyouruber" bet="400" addon="0" rebuy="0" chips="225,412"/>
+    <player reg_code="" win="9,200" dealer="0" seat="7" name="murkmanz" bet="62,440" addon="0" rebuy="0" chips="62,840"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="3,400" addon="0" rebuy="0" chips="87,597"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="193,139"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="murkmanz" sum="400" type="15"/>
+   <action no="2" player="DalaDula" sum="400" type="15"/>
+   <action no="3" player="Newerkla10" sum="400" type="15"/>
+   <action no="4" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="5" player="tropeiro123" sum="400" type="15"/>
+   <action no="6" player="Keekenpoika" sum="400" type="15"/>
+   <action no="7" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="8" player="callyouruber" sum="400" type="15"/>
+   <action no="9" player="murkmanz" sum="1,500" type="1"/>
+   <action no="10" player="DalaDula" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="11" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="12" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 D6</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="14" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="15" player="MarianaAmaGG" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="16" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="17" player="murkmanz" sum="62,440" type="23"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="18" player="DalaDula" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573113855">
+  <general>
+   <startdate>2024-02-19 15:49:01</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="63,286"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="53,899"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="105,860"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="68,640" addon="0" rebuy="0" chips="124,272"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="400" addon="0" rebuy="0" chips="225,012"/>
+    <player reg_code="" win="144,180" dealer="1" seat="7" name="murkmanz" bet="68,240" addon="0" rebuy="0" chips="68,640"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="1,900" addon="0" rebuy="0" chips="84,197"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="3,400" addon="0" rebuy="0" chips="192,739"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DalaDula" sum="400" type="15"/>
+   <action no="2" player="Newerkla10" sum="400" type="15"/>
+   <action no="3" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="4" player="tropeiro123" sum="400" type="15"/>
+   <action no="5" player="Keekenpoika" sum="400" type="15"/>
+   <action no="6" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="7" player="callyouruber" sum="400" type="15"/>
+   <action no="8" player="murkmanz" sum="400" type="15"/>
+   <action no="9" player="DalaDula" sum="1,500" type="1"/>
+   <action no="10" player="Newerkla10" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="11" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H7</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="13" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">DA DJ</cards>
+   <action no="14" player="MarianaAmaGG" sum="6,600" type="23"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="15" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">HA HK</cards>
+   <action no="16" player="murkmanz" sum="68,240" type="23"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="17" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="18" player="Newerkla10" sum="0" type="0"/>
+   <action no="19" player="MarianaAmaGG" sum="61,640" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 C6 DK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+  </round>
+ </game>
+ <game gamecode="10573113947">
+  <general>
+   <startdate>2024-02-19 15:50:16</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="3,400" addon="0" rebuy="0" chips="62,886"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="53,499"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="105,460"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="400" addon="0" rebuy="0" chips="55,632"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="400" addon="0" rebuy="0" chips="224,612"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="144,180"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="82,297"/>
+    <player reg_code="" win="9,200" dealer="0" seat="10" name="Newerkla10" bet="188,939" addon="0" rebuy="0" chips="189,339"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Newerkla10" sum="400" type="15"/>
+   <action no="2" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="3" player="tropeiro123" sum="400" type="15"/>
+   <action no="4" player="Keekenpoika" sum="400" type="15"/>
+   <action no="5" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="6" player="callyouruber" sum="400" type="15"/>
+   <action no="7" player="murkmanz" sum="400" type="15"/>
+   <action no="8" player="DalaDula" sum="400" type="15"/>
+   <action no="9" player="Newerkla10" sum="1,500" type="1"/>
+   <action no="10" player="Flusheimasgrande" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ H5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="12" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="13" player="MarianaAmaGG" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="14" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="15" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="16" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="17" player="Newerkla10" sum="188,939" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="18" player="Flusheimasgrande" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573114003">
+  <general>
+   <startdate>2024-02-19 15:50:54</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="1,900" addon="0" rebuy="0" chips="59,486"/>
+    <player reg_code="7954826112" win="17,900" dealer="0" seat="2" name="tropeiro123" bet="52,699" addon="0" rebuy="0" chips="53,099"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="105,060"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="400" addon="0" rebuy="0" chips="55,232"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="7,000" addon="0" rebuy="0" chips="224,212"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="143,780"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="81,897"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="195,139"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="2" player="tropeiro123" sum="400" type="15"/>
+   <action no="3" player="Keekenpoika" sum="400" type="15"/>
+   <action no="4" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="5" player="callyouruber" sum="400" type="15"/>
+   <action no="6" player="murkmanz" sum="400" type="15"/>
+   <action no="7" player="DalaDula" sum="400" type="15"/>
+   <action no="8" player="Newerkla10" sum="400" type="15"/>
+   <action no="9" player="Flusheimasgrande" sum="1,500" type="1"/>
+   <action no="10" player="tropeiro123" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="11" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="12" player="MarianaAmaGG" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="13" player="callyouruber" sum="6,600" type="23"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="14" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="15" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="16" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="17" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK HK</cards>
+   <action no="18" player="tropeiro123" sum="52,699" type="23"/>
+   <action no="19" player="callyouruber" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573114065">
+  <general>
+   <startdate>2024-02-19 15:51:41</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="57,586"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="7,000" addon="0" rebuy="0" chips="63,999"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="7,000" addon="0" rebuy="0" chips="104,660"/>
+    <player reg_code="" win="23,000" dealer="0" seat="5" name="MarianaAmaGG" bet="14,590" addon="0" rebuy="0" chips="54,832"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="400" addon="0" rebuy="0" chips="217,212"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="143,380"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="81,497"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="194,739"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="400" type="15"/>
+   <action no="2" player="Keekenpoika" sum="400" type="15"/>
+   <action no="3" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="4" player="callyouruber" sum="400" type="15"/>
+   <action no="5" player="murkmanz" sum="400" type="15"/>
+   <action no="6" player="DalaDula" sum="400" type="15"/>
+   <action no="7" player="Newerkla10" sum="400" type="15"/>
+   <action no="8" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="9" player="tropeiro123" sum="1,500" type="1"/>
+   <action no="10" player="Keekenpoika" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="11" player="MarianaAmaGG" sum="6,600" type="23"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="12" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="13" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="14" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="15" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="16" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 C6</cards>
+   <action no="17" player="tropeiro123" sum="5,100" type="3"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="18" player="Keekenpoika" sum="3,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 CK S8</cards>
+   <action no="19" player="tropeiro123" sum="0" type="4"/>
+   <action no="20" player="Keekenpoika" sum="0" type="4"/>
+   <action no="21" player="MarianaAmaGG" sum="7,590" type="5"/>
+   <action no="22" player="tropeiro123" sum="0" type="0"/>
+   <action no="23" player="Keekenpoika" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573114186">
+  <general>
+   <startdate>2024-02-19 15:53:11</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="57,186"/>
+    <player reg_code="7954826112" win="0" dealer="1" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="56,999"/>
+    <player reg_code="" win="19,400" dealer="0" seat="4" name="Keekenpoika" bet="22,200" addon="0" rebuy="0" chips="97,660"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="3,400" addon="0" rebuy="0" chips="70,832"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="7,000" addon="0" rebuy="0" chips="216,812"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="142,980"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="81,097"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="400" addon="0" rebuy="0" chips="194,339"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Keekenpoika" sum="400" type="15"/>
+   <action no="2" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="3" player="callyouruber" sum="400" type="15"/>
+   <action no="4" player="murkmanz" sum="400" type="15"/>
+   <action no="5" player="DalaDula" sum="400" type="15"/>
+   <action no="6" player="Newerkla10" sum="400" type="15"/>
+   <action no="7" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="8" player="tropeiro123" sum="400" type="15"/>
+   <action no="9" player="Keekenpoika" sum="1,500" type="1"/>
+   <action no="10" player="MarianaAmaGG" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="11" player="callyouruber" sum="6,600" type="23"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="12" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="13" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="14" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 DQ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="17" player="Keekenpoika" sum="22,200" type="23"/>
+   <cards player="MarianaAmaGG" type="Pocket">X X</cards>
+   <action no="18" player="MarianaAmaGG" sum="0" type="0"/>
+   <action no="19" player="callyouruber" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573114267">
+  <general>
+   <startdate>2024-02-19 15:54:09</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="400" addon="0" rebuy="0" chips="56,786"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="56,599"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="Keekenpoika" bet="400" addon="0" rebuy="0" chips="110,060"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="MarianaAmaGG" bet="67,032" addon="0" rebuy="0" chips="67,432"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="3,400" addon="0" rebuy="0" chips="209,812"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="400" addon="0" rebuy="0" chips="142,580"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="400" addon="0" rebuy="0" chips="80,697"/>
+    <player reg_code="" win="140,264" dealer="0" seat="10" name="Newerkla10" bet="67,432" addon="0" rebuy="0" chips="193,939">
+     <knockout tobounty="€6.82" tobalance="€6.83" kicked="MarianaAmaGG"/>
+    </player>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="MarianaAmaGG" sum="400" type="15"/>
+   <action no="2" player="callyouruber" sum="400" type="15"/>
+   <action no="3" player="murkmanz" sum="400" type="15"/>
+   <action no="4" player="DalaDula" sum="400" type="15"/>
+   <action no="5" player="Newerkla10" sum="400" type="15"/>
+   <action no="6" player="Flusheimasgrande" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="Keekenpoika" sum="400" type="15"/>
+   <action no="9" player="MarianaAmaGG" sum="1,500" type="1"/>
+   <action no="10" player="callyouruber" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="11" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="12" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">CK DA</cards>
+   <action no="13" player="Newerkla10" sum="6,000" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK HJ</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="16" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="MarianaAmaGG" type="Pocket">S9 SA</cards>
+   <action no="17" player="MarianaAmaGG" sum="67,032" type="23"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="18" player="callyouruber" sum="0" type="0"/>
+   <action no="19" player="Newerkla10" sum="61,032" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 DQ S4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+  </round>
+ </game>
+ <game gamecode="10573142724">
+  <general>
+   <startdate>2024-02-19 16:02:09</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="450" addon="0" rebuy="0" chips="56,386"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="450" addon="0" rebuy="0" chips="56,199"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="16,238" addon="0" rebuy="0" chips="109,660"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="450" addon="0" rebuy="0" chips="212,400"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="206,412"/>
+    <player reg_code="" win="39,176" dealer="0" seat="7" name="murkmanz" bet="35,826" addon="0" rebuy="0" chips="142,180"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="4,450" addon="0" rebuy="0" chips="80,297"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="450" addon="0" rebuy="0" chips="266,771"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="murkmanz" sum="450" type="15"/>
+   <action no="2" player="DalaDula" sum="450" type="15"/>
+   <action no="3" player="Newerkla10" sum="450" type="15"/>
+   <action no="4" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="5" player="tropeiro123" sum="450" type="15"/>
+   <action no="6" player="Keekenpoika" sum="450" type="15"/>
+   <action no="7" player="Mrs2run" sum="450" type="15"/>
+   <action no="8" player="callyouruber" sum="450" type="15"/>
+   <action no="9" player="murkmanz" sum="2,000" type="1"/>
+   <action no="10" player="DalaDula" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="11" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="12" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 S3</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="14" player="Keekenpoika" sum="8,000" type="23"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="15" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="16" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="17" player="murkmanz" sum="6,000" type="3"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="18" player="DalaDula" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 S8 D8</cards>
+   <action no="19" player="murkmanz" sum="0" type="4"/>
+   <action no="20" player="Keekenpoika" sum="7,788" type="5"/>
+   <action no="21" player="murkmanz" sum="7,788" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" player="murkmanz" sum="0" type="4"/>
+   <action no="23" player="Keekenpoika" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action no="24" player="murkmanz" sum="19,588" type="5"/>
+   <action no="25" player="Keekenpoika" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573142854">
+  <general>
+   <startdate>2024-02-19 16:03:12</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="450" addon="0" rebuy="0" chips="55,936"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="450" addon="0" rebuy="0" chips="55,749"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="450" addon="0" rebuy="0" chips="93,422"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="450" addon="0" rebuy="0" chips="211,950"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="205,962"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="murkmanz" bet="450" addon="0" rebuy="0" chips="165,118"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="2,450" addon="0" rebuy="0" chips="75,847"/>
+    <player reg_code="" win="7,600" dealer="0" seat="10" name="Newerkla10" bet="4,450" addon="0" rebuy="0" chips="266,321"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DalaDula" sum="450" type="15"/>
+   <action no="2" player="Newerkla10" sum="450" type="15"/>
+   <action no="3" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="4" player="tropeiro123" sum="450" type="15"/>
+   <action no="5" player="Keekenpoika" sum="450" type="15"/>
+   <action no="6" player="Mrs2run" sum="450" type="15"/>
+   <action no="7" player="callyouruber" sum="450" type="15"/>
+   <action no="8" player="murkmanz" sum="450" type="15"/>
+   <action no="9" player="DalaDula" sum="2,000" type="1"/>
+   <action no="10" player="Newerkla10" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="11" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 SQ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="13" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="14" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="15" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="16" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="17" player="DalaDula" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573142882">
+  <general>
+   <startdate>2024-02-19 16:03:30</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="4,450" addon="0" rebuy="0" chips="55,486"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="450" addon="0" rebuy="0" chips="55,299"/>
+    <player reg_code="" win="42,496" dealer="0" seat="4" name="Keekenpoika" bet="30,921" addon="0" rebuy="0" chips="92,972"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="450" addon="0" rebuy="0" chips="211,500"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="205,512"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="16,898" addon="0" rebuy="0" chips="164,668"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="DalaDula" bet="450" addon="0" rebuy="0" chips="73,397"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="2,450" addon="0" rebuy="0" chips="271,471"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Newerkla10" sum="450" type="15"/>
+   <action no="2" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="3" player="tropeiro123" sum="450" type="15"/>
+   <action no="4" player="Keekenpoika" sum="450" type="15"/>
+   <action no="5" player="Mrs2run" sum="450" type="15"/>
+   <action no="6" player="callyouruber" sum="450" type="15"/>
+   <action no="7" player="murkmanz" sum="450" type="15"/>
+   <action no="8" player="DalaDula" sum="450" type="15"/>
+   <action no="9" player="Newerkla10" sum="2,000" type="1"/>
+   <action no="10" player="Flusheimasgrande" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H9 H6</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="12" player="Keekenpoika" sum="8,000" type="23"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="13" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="14" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="15" player="murkmanz" sum="8,000" type="3"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="16" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="17" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="18" player="Flusheimasgrande" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA C7 SK</cards>
+   <action no="19" player="Keekenpoika" sum="8,448" type="5"/>
+   <action no="20" player="murkmanz" sum="8,448" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="21" player="Keekenpoika" sum="14,023" type="5"/>
+   <action no="22" player="murkmanz" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573142988">
+  <general>
+   <startdate>2024-02-19 16:04:17</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="2,450" addon="0" rebuy="0" chips="51,036"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="4,450" addon="0" rebuy="0" chips="54,849"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="450" addon="0" rebuy="0" chips="118,570"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="450" addon="0" rebuy="0" chips="211,050"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="205,062"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="450" addon="0" rebuy="0" chips="147,770"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="450" addon="0" rebuy="0" chips="72,947"/>
+    <player reg_code="" win="13,600" dealer="1" seat="10" name="Newerkla10" bet="8,000" addon="0" rebuy="0" chips="269,021"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="2" player="tropeiro123" sum="450" type="15"/>
+   <action no="3" player="Keekenpoika" sum="450" type="15"/>
+   <action no="4" player="Mrs2run" sum="450" type="15"/>
+   <action no="5" player="callyouruber" sum="450" type="15"/>
+   <action no="6" player="murkmanz" sum="450" type="15"/>
+   <action no="7" player="DalaDula" sum="450" type="15"/>
+   <action no="8" player="Newerkla10" sum="450" type="15"/>
+   <action no="9" player="Flusheimasgrande" sum="2,000" type="1"/>
+   <action no="10" player="tropeiro123" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="11" player="Keekenpoika" sum="0" type="0"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="12" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="13" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="14" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="15" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="16" player="Newerkla10" sum="8,000" type="23"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="17" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 S6</cards>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573143028">
+  <general>
+   <startdate>2024-02-19 16:04:43</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Flusheimasgrande" bet="450" addon="0" rebuy="0" chips="48,586"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="2,450" addon="0" rebuy="0" chips="50,399"/>
+    <player reg_code="" win="7,600" dealer="0" seat="4" name="Keekenpoika" bet="4,450" addon="0" rebuy="0" chips="118,120"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="450" addon="0" rebuy="0" chips="210,600"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="204,612"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="450" addon="0" rebuy="0" chips="147,320"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="450" addon="0" rebuy="0" chips="72,497"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="450" addon="0" rebuy="0" chips="278,171"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="450" type="15"/>
+   <action no="2" player="Keekenpoika" sum="450" type="15"/>
+   <action no="3" player="Mrs2run" sum="450" type="15"/>
+   <action no="4" player="callyouruber" sum="450" type="15"/>
+   <action no="5" player="murkmanz" sum="450" type="15"/>
+   <action no="6" player="DalaDula" sum="450" type="15"/>
+   <action no="7" player="Newerkla10" sum="450" type="15"/>
+   <action no="8" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="9" player="tropeiro123" sum="2,000" type="1"/>
+   <action no="10" player="Keekenpoika" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="11" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="12" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="13" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="14" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="15" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="16" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DK S2</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573143109">
+  <general>
+   <startdate>2024-02-19 16:05:20</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="450" addon="0" rebuy="0" chips="48,136"/>
+    <player reg_code="7954826112" win="0" dealer="1" seat="2" name="tropeiro123" bet="450" addon="0" rebuy="0" chips="47,949"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="Keekenpoika" bet="25,098" addon="0" rebuy="0" chips="123,270"/>
+    <player reg_code="" win="52,896" dealer="0" seat="5" name="Mrs2run" bet="62,125" addon="0" rebuy="0" chips="210,150"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="450" addon="0" rebuy="0" chips="204,162"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="450" addon="0" rebuy="0" chips="146,870"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="450" addon="0" rebuy="0" chips="72,047"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="450" addon="0" rebuy="0" chips="277,721"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Keekenpoika" sum="450" type="15"/>
+   <action no="2" player="Mrs2run" sum="450" type="15"/>
+   <action no="3" player="callyouruber" sum="450" type="15"/>
+   <action no="4" player="murkmanz" sum="450" type="15"/>
+   <action no="5" player="DalaDula" sum="450" type="15"/>
+   <action no="6" player="Newerkla10" sum="450" type="15"/>
+   <action no="7" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="8" player="tropeiro123" sum="450" type="15"/>
+   <action no="9" player="Keekenpoika" sum="2,000" type="1"/>
+   <action no="10" player="Mrs2run" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="11" player="callyouruber" sum="0" type="0"/>
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="12" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="13" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="14" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="15" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 CQ</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Keekenpoika" type="Pocket">X X</cards>
+   <action no="17" player="Keekenpoika" sum="2,000" type="3"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="18" player="Mrs2run" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK D3 H9</cards>
+   <action no="19" player="Keekenpoika" sum="0" type="4"/>
+   <action no="20" player="Mrs2run" sum="5,220" type="5"/>
+   <action no="21" player="Keekenpoika" sum="5,220" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="22" player="Keekenpoika" sum="0" type="4"/>
+   <action no="23" player="Mrs2run" sum="15,428" type="5"/>
+   <action no="24" player="Keekenpoika" sum="15,428" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="25" player="Keekenpoika" sum="0" type="4"/>
+   <action no="26" player="Mrs2run" sum="37,027" type="5"/>
+   <action no="27" player="Keekenpoika" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573143265">
+  <general>
+   <startdate>2024-02-19 16:06:46</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Flusheimasgrande" bet="450" addon="0" rebuy="0" chips="47,686"/>
+    <player reg_code="7954826112" win="0" dealer="0" seat="2" name="tropeiro123" bet="47,049" addon="0" rebuy="0" chips="47,499"/>
+    <player reg_code="" win="103,698" dealer="1" seat="4" name="Keekenpoika" bet="97,722" addon="0" rebuy="0" chips="98,172">
+     <knockout tobounty="€6.82" tobalance="€6.83" kicked="tropeiro123"/>
+    </player>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Mrs2run" bet="2,450" addon="0" rebuy="0" chips="237,948"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="callyouruber" bet="4,450" addon="0" rebuy="0" chips="203,712"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="murkmanz" bet="450" addon="0" rebuy="0" chips="146,420"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="DalaDula" bet="450" addon="0" rebuy="0" chips="71,597"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="Newerkla10" bet="450" addon="0" rebuy="0" chips="277,271"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Mrs2run" sum="450" type="15"/>
+   <action no="2" player="callyouruber" sum="450" type="15"/>
+   <action no="3" player="murkmanz" sum="450" type="15"/>
+   <action no="4" player="DalaDula" sum="450" type="15"/>
+   <action no="5" player="Newerkla10" sum="450" type="15"/>
+   <action no="6" player="Flusheimasgrande" sum="450" type="15"/>
+   <action no="7" player="tropeiro123" sum="450" type="15"/>
+   <action no="8" player="Keekenpoika" sum="450" type="15"/>
+   <action no="9" player="Mrs2run" sum="2,000" type="1"/>
+   <action no="10" player="callyouruber" sum="4,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="murkmanz" type="Pocket">X X</cards>
+   <action no="11" player="murkmanz" sum="0" type="0"/>
+   <cards player="DalaDula" type="Pocket">X X</cards>
+   <action no="12" player="DalaDula" sum="0" type="0"/>
+   <cards player="Newerkla10" type="Pocket">X X</cards>
+   <action no="13" player="Newerkla10" sum="0" type="0"/>
+   <cards player="Flusheimasgrande" type="Pocket">X X</cards>
+   <action no="14" player="Flusheimasgrande" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA C3</cards>
+   <action no="15" player="tropeiro123" sum="47,049" type="23"/>
+   <cards player="Keekenpoika" type="Pocket">DA DJ</cards>
+   <action no="16" player="Keekenpoika" sum="97,722" type="23"/>
+   <cards player="Mrs2run" type="Pocket">X X</cards>
+   <action no="17" player="Mrs2run" sum="0" type="0"/>
+   <cards player="callyouruber" type="Pocket">X X</cards>
+   <action no="18" player="callyouruber" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ C9 C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DK</cards>
+  </round>
+ </game>
+</session>

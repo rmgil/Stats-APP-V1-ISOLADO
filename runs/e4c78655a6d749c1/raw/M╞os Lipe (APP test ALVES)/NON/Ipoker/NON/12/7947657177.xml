@@ -1,0 +1,2273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947657177">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€5K|Early Hunter XL, 1080865569</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:54:19</duration>
+  <gamecount>39</gamecount>
+  <startdate>2024-02-12 13:15:12</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>387,905</bets>
+  <wins>417,618</wins>
+  <chipsin>117,265</chipsin>
+  <chipsout>155,738</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080776994</tournamentcode>
+  <tournamentname>€5K|Early Hunter XL</tournamentname>
+  <place>N/A</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560080875">
+  <general>
+   <startdate>2024-02-12 13:15:12</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="2" chips="54,591" addon="0" bet="2,075" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="290,508" addon="0" bet="275" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="75,090" addon="0" bet="275" reg_code="" name="GoogleMats" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="547,433" addon="0" bet="3,600" reg_code="" name="Virtuouscube7" win="6,425" rebuy="0"/>
+    <player dealer="0" seat="7" chips="174,300" addon="0" bet="275" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="157,301" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="89,884" addon="0" bet="1,175" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="FausSatan" type="15"/>
+   <action no="2" sum="275" player="arkit1611" type="15"/>
+   <action no="3" sum="275" player="alcazar123" type="15"/>
+   <action no="4" sum="275" player="GoogleMats" type="15"/>
+   <action no="5" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="6" sum="275" player="abc7772" type="15"/>
+   <action no="7" sum="275" player="MARmALADE158" type="15"/>
+   <action no="8" sum="900" player="FausSatan" type="1"/>
+   <action no="9" sum="1,800" player="arkit1611" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="alcazar123" type="0"/>
+   <cards player="GoogleMats" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="GoogleMats" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="12" sum="3,600" player="Virtuouscube7" type="23"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="arkit1611" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560080881">
+  <general>
+   <startdate>2024-02-12 13:15:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="2" chips="52,516" addon="0" bet="1,175" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="290,233" addon="0" bet="2,075" reg_code="" name="alcazar123" win="3,725" rebuy="0"/>
+    <player dealer="0" seat="5" chips="74,815" addon="0" bet="275" reg_code="" name="GoogleMats" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="551,783" addon="0" bet="275" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="174,025" addon="0" bet="275" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="157,026" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="88,709" addon="0" bet="275" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="arkit1611" type="15"/>
+   <action no="2" sum="275" player="alcazar123" type="15"/>
+   <action no="3" sum="275" player="GoogleMats" type="15"/>
+   <action no="4" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="5" sum="275" player="abc7772" type="15"/>
+   <action no="6" sum="275" player="MARmALADE158" type="15"/>
+   <action no="7" sum="275" player="FausSatan" type="15"/>
+   <action no="8" sum="900" player="arkit1611" type="1"/>
+   <action no="9" sum="1,800" player="alcazar123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <cards player="GoogleMats" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="GoogleMats" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="arkit1611" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560080891">
+  <general>
+   <startdate>2024-02-12 13:15:53</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,000" addon="0" bet="14,715" reg_code="7947657177" name="tropeiro123" win="31,980" rebuy="0"/>
+    <player dealer="1" seat="2" chips="51,341" addon="0" bet="275" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="292,783" addon="0" bet="1,175" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="74,540" addon="0" bet="14,715" reg_code="" name="GoogleMats" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="551,508" addon="0" bet="275" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="173,750" addon="0" bet="275" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="156,751" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,434" addon="0" bet="275" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="alcazar123" type="15"/>
+   <action no="2" sum="275" player="GoogleMats" type="15"/>
+   <action no="3" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="4" sum="275" player="abc7772" type="15"/>
+   <action no="5" sum="275" player="MARmALADE158" type="15"/>
+   <action no="6" sum="275" player="FausSatan" type="15"/>
+   <action no="7" sum="275" player="tropeiro123" type="15"/>
+   <action no="8" sum="275" player="arkit1611" type="15"/>
+   <action no="9" sum="900" player="alcazar123" type="1"/>
+   <action no="10" sum="1,800" player="GoogleMats" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA H5</cards>
+   <action no="15" sum="3,780" player="tropeiro123" type="23"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="alcazar123" type="0"/>
+   <cards player="GoogleMats" type="Pocket">S4 S7</cards>
+   <action no="18" sum="1,980" player="GoogleMats" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S8 SJ</cards>
+   <action no="19" sum="0" player="GoogleMats" type="4"/>
+   <action no="20" sum="2,665" player="tropeiro123" type="5"/>
+   <action no="21" sum="2,665" player="GoogleMats" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+   <action no="22" sum="0" player="GoogleMats" type="4"/>
+   <action no="23" sum="0" player="tropeiro123" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action no="24" sum="7,995" player="GoogleMats" type="5"/>
+   <action no="25" sum="7,995" player="tropeiro123" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560080927">
+  <general>
+   <startdate>2024-02-12 13:17:38</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="117,265" addon="0" bet="275" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="51,066" addon="0" bet="275" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="291,608" addon="0" bet="275" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="59,825" addon="0" bet="1,175" reg_code="" name="GoogleMats" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="551,233" addon="0" bet="17,768" reg_code="" name="Virtuouscube7" win="20,086" rebuy="0"/>
+    <player dealer="0" seat="7" chips="173,475" addon="0" bet="8,768" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="156,476" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="88,159" addon="0" bet="275" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="GoogleMats" type="15"/>
+   <action no="2" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="3" sum="275" player="abc7772" type="15"/>
+   <action no="4" sum="275" player="MARmALADE158" type="15"/>
+   <action no="5" sum="275" player="FausSatan" type="15"/>
+   <action no="6" sum="275" player="tropeiro123" type="15"/>
+   <action no="7" sum="275" player="arkit1611" type="15"/>
+   <action no="8" sum="275" player="alcazar123" type="15"/>
+   <action no="9" sum="900" player="GoogleMats" type="1"/>
+   <action no="10" sum="1,800" player="Virtuouscube7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="11" sum="4,500" player="abc7772" type="23"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ C8</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="alcazar123" type="0"/>
+   <cards player="GoogleMats" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="GoogleMats" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="18" sum="2,700" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 HJ C4</cards>
+   <action no="19" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="20" sum="3,993" player="abc7772" type="5"/>
+   <action no="21" sum="3,993" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DQ</cards>
+   <action no="22" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="23" sum="0" player="abc7772" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action no="24" sum="9,000" player="Virtuouscube7" type="5"/>
+   <action no="25" sum="0" player="abc7772" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560080955">
+  <general>
+   <startdate>2024-02-12 13:18:36</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="116,990" addon="0" bet="275" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="50,791" addon="0" bet="275" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="291,333" addon="0" bet="275" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="58,650" addon="0" bet="58,375" reg_code="" name="GoogleMats" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="562,551" addon="0" bet="4,415" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="164,707" addon="0" bet="58,650" reg_code="" name="abc7772" win="123,090" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="GoogleMats"/>
+    </player>
+    <player dealer="0" seat="9" chips="156,201" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="87,884" addon="0" bet="275" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="2" sum="275" player="abc7772" type="15"/>
+   <action no="3" sum="275" player="MARmALADE158" type="15"/>
+   <action no="4" sum="275" player="FausSatan" type="15"/>
+   <action no="5" sum="275" player="tropeiro123" type="15"/>
+   <action no="6" sum="275" player="arkit1611" type="15"/>
+   <action no="7" sum="275" player="alcazar123" type="15"/>
+   <action no="8" sum="275" player="GoogleMats" type="15"/>
+   <action no="9" sum="900" player="Virtuouscube7" type="1"/>
+   <action no="10" sum="1,800" player="abc7772" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C5 D7</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazar123" type="0"/>
+   <cards player="GoogleMats" type="Pocket">D2 S2</cards>
+   <action no="16" sum="4,140" player="GoogleMats" type="23"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="17" sum="3,240" player="Virtuouscube7" type="3"/>
+   <cards player="abc7772" type="Pocket">SK HK</cards>
+   <action no="18" sum="20,880" player="abc7772" type="23"/>
+   <action no="19" sum="58,375" player="GoogleMats" type="23"/>
+   <action no="20" sum="0" player="Virtuouscube7" type="0"/>
+   <action no="21" sum="37,495" player="abc7772" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H8 DK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">DJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+  </round>
+ </game>
+ <game gamecode="10560080995">
+  <general>
+   <startdate>2024-02-12 13:20:17</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="116,715" addon="0" bet="18,171" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="50,516" addon="0" bet="50,516" reg_code="" name="arkit1611" win="40,417" rebuy="0"/>
+    <player dealer="0" seat="4" chips="291,058" addon="0" bet="275" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="558,136" addon="0" bet="275" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="229,147" addon="0" bet="1,175" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="155,926" addon="0" bet="2,075" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="87,609" addon="0" bet="275" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="abc7772" type="15"/>
+   <action no="2" sum="275" player="MARmALADE158" type="15"/>
+   <action no="3" sum="275" player="FausSatan" type="15"/>
+   <action no="4" sum="275" player="tropeiro123" type="15"/>
+   <action no="5" sum="275" player="arkit1611" type="15"/>
+   <action no="6" sum="275" player="alcazar123" type="15"/>
+   <action no="7" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="900" player="abc7772" type="1"/>
+   <action no="9" sum="1,800" player="MARmALADE158" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ HA</cards>
+   <action no="11" sum="3,780" player="tropeiro123" type="23"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="12" sum="11,160" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="alcazar123" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MARmALADE158" type="0"/>
+   <action no="17" sum="7,380" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HJ SK S6</cards>
+   <action no="18" sum="0" player="tropeiro123" type="4"/>
+   <action no="19" sum="6,736" player="arkit1611" type="5"/>
+   <action no="20" sum="6,736" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+   <action no="21" sum="0" player="tropeiro123" type="4"/>
+   <action no="22" sum="32,345" player="arkit1611" type="5"/>
+   <action no="23" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102302">
+  <general>
+   <startdate>2024-02-12 13:21:53</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="98,544" addon="0" bet="275" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="72,762" addon="0" bet="19,691" reg_code="" name="arkit1611" win="21,123" rebuy="0"/>
+    <player dealer="0" seat="4" chips="290,783" addon="0" bet="275" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="557,861" addon="0" bet="275" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="227,972" addon="0" bet="275" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="153,851" addon="0" bet="3,875" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="87,334" addon="0" bet="8,074" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="MARmALADE158" type="15"/>
+   <action no="2" sum="275" player="FausSatan" type="15"/>
+   <action no="3" sum="275" player="tropeiro123" type="15"/>
+   <action no="4" sum="275" player="arkit1611" type="15"/>
+   <action no="5" sum="275" player="alcazar123" type="15"/>
+   <action no="6" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="275" player="abc7772" type="15"/>
+   <action no="8" sum="900" player="MARmALADE158" type="1"/>
+   <action no="9" sum="1,800" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">HA C2</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="3,600" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="alcazar123" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="2,700" player="MARmALADE158" type="3"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="1,800" player="FausSatan" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H6 DA</cards>
+   <action no="17" sum="0" player="MARmALADE158" type="4"/>
+   <action no="18" sum="0" player="FausSatan" type="4"/>
+   <action no="19" sum="4,199" player="arkit1611" type="5"/>
+   <action no="20" sum="0" player="MARmALADE158" type="0"/>
+   <action no="21" sum="4,199" player="FausSatan" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="22" sum="0" player="FausSatan" type="4"/>
+   <action no="23" sum="11,617" player="arkit1611" type="5"/>
+   <action no="24" sum="0" player="FausSatan" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102333">
+  <general>
+   <startdate>2024-02-12 13:23:11</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player dealer="0" seat="1" chips="98,269" addon="0" bet="2,075" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="85,811" addon="0" bet="275" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="290,508" addon="0" bet="3,960" reg_code="" name="alcazar123" win="6,700" rebuy="0"/>
+    <player dealer="0" seat="5" chips="219,075" addon="0" bet="275" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="557,586" addon="0" bet="275" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="227,697" addon="0" bet="275" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="149,976" addon="0" bet="275" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="79,260" addon="0" bet="1,175" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="275" player="FausSatan" type="15"/>
+   <action no="2" sum="275" player="tropeiro123" type="15"/>
+   <action no="3" sum="275" player="arkit1611" type="15"/>
+   <action no="4" sum="275" player="alcazar123" type="15"/>
+   <action no="5" sum="275" player="pantherkeen833" type="15"/>
+   <action no="6" sum="275" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="275" player="abc7772" type="15"/>
+   <action no="8" sum="275" player="MARmALADE158" type="15"/>
+   <action no="9" sum="900" player="FausSatan" type="1"/>
+   <action no="10" sum="1,800" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="3,960" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ H7</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102348">
+  <general>
+   <startdate>2024-02-12 13:24:01</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="96,194" addon="0" bet="1,300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="85,536" addon="0" bet="2,300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="295,133" addon="0" bet="106,500" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="218,800" addon="0" bet="300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="557,311" addon="0" bet="106,500" reg_code="" name="Virtuouscube7" win="217,800" rebuy="0"/>
+    <player dealer="0" seat="7" chips="227,422" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="149,701" addon="0" bet="300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="78,085" addon="0" bet="300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="tropeiro123" type="15"/>
+   <action no="2" sum="300" player="arkit1611" type="15"/>
+   <action no="3" sum="300" player="alcazar123" type="15"/>
+   <action no="4" sum="300" player="pantherkeen833" type="15"/>
+   <action no="5" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="6" sum="300" player="abc7772" type="15"/>
+   <action no="7" sum="300" player="MARmALADE158" type="15"/>
+   <action no="8" sum="300" player="FausSatan" type="15"/>
+   <action no="9" sum="1,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="2,000" player="arkit1611" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">S5 SA</cards>
+   <action no="11" sum="4,400" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">S9 H9</cards>
+   <action no="13" sum="22,200" player="Virtuouscube7" type="23"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 S10</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="arkit1611" type="0"/>
+   <action no="19" sum="17,800" player="alcazar123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 C10 C2</cards>
+   <action no="20" sum="0" player="alcazar123" type="4"/>
+   <action no="21" sum="0" player="Virtuouscube7" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action no="22" sum="0" player="alcazar123" type="4"/>
+   <action no="23" sum="0" player="Virtuouscube7" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action no="24" sum="0" player="alcazar123" type="4"/>
+   <action no="25" sum="24,000" player="Virtuouscube7" type="5"/>
+   <action no="26" sum="84,000" player="alcazar123" type="23"/>
+   <action no="27" sum="60,000" player="Virtuouscube7" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560102390">
+  <general>
+   <startdate>2024-02-12 13:25:43</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="1" seat="1" chips="94,894" addon="0" bet="31,675" reg_code="7947657177" name="tropeiro123" win="18,900" rebuy="0"/>
+    <player dealer="0" seat="2" chips="83,236" addon="0" bet="1,300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="188,633" addon="0" bet="8,050" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="218,500" addon="0" bet="300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="668,611" addon="0" bet="300" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="227,122" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="149,401" addon="0" bet="300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="77,785" addon="0" bet="300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="arkit1611" type="15"/>
+   <action no="2" sum="300" player="alcazar123" type="15"/>
+   <action no="3" sum="300" player="pantherkeen833" type="15"/>
+   <action no="4" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="5" sum="300" player="abc7772" type="15"/>
+   <action no="6" sum="300" player="MARmALADE158" type="15"/>
+   <action no="7" sum="300" player="FausSatan" type="15"/>
+   <action no="8" sum="300" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,000" player="arkit1611" type="1"/>
+   <action no="10" sum="2,000" player="alcazar123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA S10</cards>
+   <action no="16" sum="4,600" player="tropeiro123" type="23"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="18" sum="2,600" player="alcazar123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ H3 D8</cards>
+   <action no="19" sum="0" player="alcazar123" type="4"/>
+   <action no="20" sum="3,150" player="tropeiro123" type="5"/>
+   <action no="21" sum="3,150" player="alcazar123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action no="22" sum="0" player="alcazar123" type="4"/>
+   <action no="23" sum="23,625" player="tropeiro123" type="5"/>
+   <action no="24" sum="0" player="alcazar123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102424">
+  <general>
+   <startdate>2024-02-12 13:26:58</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="105,744" addon="0" bet="300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="81,936" addon="0" bet="300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="180,583" addon="0" bet="1,300" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="218,200" addon="0" bet="16,602" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="668,311" addon="0" bet="300" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="226,822" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="149,101" addon="0" bet="300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="77,485" addon="0" bet="38,204" reg_code="" name="FausSatan" win="36,004" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="alcazar123" type="15"/>
+   <action no="2" sum="300" player="pantherkeen833" type="15"/>
+   <action no="3" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="4" sum="300" player="abc7772" type="15"/>
+   <action no="5" sum="300" player="MARmALADE158" type="15"/>
+   <action no="6" sum="300" player="FausSatan" type="15"/>
+   <action no="7" sum="300" player="tropeiro123" type="15"/>
+   <action no="8" sum="300" player="arkit1611" type="15"/>
+   <action no="9" sum="1,000" player="alcazar123" type="1"/>
+   <action no="10" sum="2,000" player="pantherkeen833" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="4,000" player="FausSatan" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CA S2</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="18" sum="2,000" player="pantherkeen833" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 HJ DJ</cards>
+   <action no="19" sum="0" player="pantherkeen833" type="4"/>
+   <action no="20" sum="2,508" player="FausSatan" type="5"/>
+   <action no="21" sum="5,016" player="pantherkeen833" type="23"/>
+   <action no="22" sum="2,508" player="FausSatan" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="23" sum="0" player="pantherkeen833" type="4"/>
+   <action no="24" sum="7,286" player="FausSatan" type="5"/>
+   <action no="25" sum="7,286" player="pantherkeen833" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CQ</cards>
+   <action no="26" sum="0" player="pantherkeen833" type="4"/>
+   <action no="27" sum="21,602" player="FausSatan" type="5"/>
+   <action no="28" sum="0" player="pantherkeen833" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102470">
+  <general>
+   <startdate>2024-02-12 13:28:52</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="105,444" addon="0" bet="300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="81,636" addon="0" bet="4,300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="179,283" addon="0" bet="55,900" reg_code="" name="alcazar123" win="70,600" rebuy="0"/>
+    <player dealer="0" seat="5" chips="201,598" addon="0" bet="1,300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="668,011" addon="0" bet="31,900" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="226,522" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="148,801" addon="0" bet="300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="96,887" addon="0" bet="300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="pantherkeen833" type="15"/>
+   <action no="2" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="3" sum="300" player="abc7772" type="15"/>
+   <action no="4" sum="300" player="MARmALADE158" type="15"/>
+   <action no="5" sum="300" player="FausSatan" type="15"/>
+   <action no="6" sum="300" player="tropeiro123" type="15"/>
+   <action no="7" sum="300" player="arkit1611" type="15"/>
+   <action no="8" sum="300" player="alcazar123" type="15"/>
+   <action no="9" sum="1,000" player="pantherkeen833" type="1"/>
+   <action no="10" sum="2,000" player="Virtuouscube7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 C9</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="15" sum="4,000" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="16" sum="13,600" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="18" sum="11,600" player="Virtuouscube7" type="3"/>
+   <action no="19" sum="0" player="arkit1611" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ H3 HJ</cards>
+   <action no="20" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="21" sum="18,000" player="alcazar123" type="5"/>
+   <action no="22" sum="18,000" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action no="23" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="24" sum="24,000" player="alcazar123" type="5"/>
+   <action no="25" sum="0" player="Virtuouscube7" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102501">
+  <general>
+   <startdate>2024-02-12 13:30:15</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="105,144" addon="0" bet="300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="77,336" addon="0" bet="300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="217,983" addon="0" bet="300" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="200,298" addon="0" bet="2,300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="636,111" addon="0" bet="6,500" reg_code="" name="Virtuouscube7" win="8,400" rebuy="0"/>
+    <player dealer="0" seat="7" chips="226,222" addon="0" bet="2,300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="148,501" addon="0" bet="300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="96,587" addon="0" bet="300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="2" sum="300" player="abc7772" type="15"/>
+   <action no="3" sum="300" player="MARmALADE158" type="15"/>
+   <action no="4" sum="300" player="FausSatan" type="15"/>
+   <action no="5" sum="300" player="tropeiro123" type="15"/>
+   <action no="6" sum="300" player="arkit1611" type="15"/>
+   <action no="7" sum="300" player="alcazar123" type="15"/>
+   <action no="8" sum="300" player="pantherkeen833" type="15"/>
+   <action no="9" sum="1,000" player="Virtuouscube7" type="1"/>
+   <action no="10" sum="2,000" player="abc7772" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 D9</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="16" sum="2,000" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="17" sum="1,000" player="Virtuouscube7" type="3"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="abc7772" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 H3 D3</cards>
+   <action no="19" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="20" sum="0" player="abc7772" type="4"/>
+   <action no="21" sum="0" player="pantherkeen833" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C7</cards>
+   <action no="22" sum="4,200" player="Virtuouscube7" type="5"/>
+   <action no="23" sum="0" player="abc7772" type="0"/>
+   <action no="24" sum="0" player="pantherkeen833" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560102530">
+  <general>
+   <startdate>2024-02-12 13:31:16</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="104,844" addon="0" bet="300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="77,036" addon="0" bet="300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="217,683" addon="0" bet="10,700" reg_code="" name="alcazar123" win="15,600" rebuy="0"/>
+    <player dealer="0" seat="5" chips="197,998" addon="0" bet="300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="642,211" addon="0" bet="300" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="223,922" addon="0" bet="4,700" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="148,201" addon="0" bet="4,700" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="96,287" addon="0" bet="300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="abc7772" type="15"/>
+   <action no="2" sum="300" player="MARmALADE158" type="15"/>
+   <action no="3" sum="300" player="FausSatan" type="15"/>
+   <action no="4" sum="300" player="tropeiro123" type="15"/>
+   <action no="5" sum="300" player="arkit1611" type="15"/>
+   <action no="6" sum="300" player="alcazar123" type="15"/>
+   <action no="7" sum="300" player="pantherkeen833" type="15"/>
+   <action no="8" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="9" sum="1,000" player="abc7772" type="1"/>
+   <action no="10" sum="2,000" player="MARmALADE158" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ D5</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="14" sum="4,400" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="17" sum="3,400" player="abc7772" type="3"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="18" sum="2,400" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA H2 D7</cards>
+   <action no="19" sum="0" player="abc7772" type="4"/>
+   <action no="20" sum="0" player="MARmALADE158" type="4"/>
+   <action no="21" sum="6,000" player="alcazar123" type="5"/>
+   <action no="22" sum="0" player="abc7772" type="0"/>
+   <action no="23" sum="0" player="MARmALADE158" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120793">
+  <general>
+   <startdate>2024-02-12 13:32:12</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="104,544" addon="0" bet="4,500" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="76,736" addon="0" bet="300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="228,583" addon="0" bet="300" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="197,698" addon="0" bet="10,500" reg_code="" name="pantherkeen833" win="13,800" rebuy="0"/>
+    <player dealer="0" seat="6" chips="641,911" addon="0" bet="300" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="219,222" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="143,501" addon="0" bet="1,300" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="95,987" addon="0" bet="2,300" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="MARmALADE158" type="15"/>
+   <action no="2" sum="300" player="FausSatan" type="15"/>
+   <action no="3" sum="300" player="tropeiro123" type="15"/>
+   <action no="4" sum="300" player="arkit1611" type="15"/>
+   <action no="5" sum="300" player="alcazar123" type="15"/>
+   <action no="6" sum="300" player="pantherkeen833" type="15"/>
+   <action no="7" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="300" player="abc7772" type="15"/>
+   <action no="9" sum="1,000" player="MARmALADE158" type="1"/>
+   <action no="10" sum="2,000" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D9 DJ</cards>
+   <action no="11" sum="4,200" player="tropeiro123" type="23"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="14" sum="4,200" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="FausSatan" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 S5 SA</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="6,000" player="pantherkeen833" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120818">
+  <general>
+   <startdate>2024-02-12 13:33:30</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player dealer="0" seat="1" chips="100,044" addon="0" bet="2,300" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="76,436" addon="0" bet="300" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="228,283" addon="0" bet="300" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="206,998" addon="0" bet="300" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="641,611" addon="0" bet="300" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="218,922" addon="0" bet="300" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="142,201" addon="0" bet="19,500" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="93,687" addon="0" bet="28,916" reg_code="" name="FausSatan" win="42,800" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="300" player="FausSatan" type="15"/>
+   <action no="2" sum="300" player="tropeiro123" type="15"/>
+   <action no="3" sum="300" player="arkit1611" type="15"/>
+   <action no="4" sum="300" player="alcazar123" type="15"/>
+   <action no="5" sum="300" player="pantherkeen833" type="15"/>
+   <action no="6" sum="300" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="300" player="abc7772" type="15"/>
+   <action no="8" sum="300" player="MARmALADE158" type="15"/>
+   <action no="9" sum="1,000" player="FausSatan" type="1"/>
+   <action no="10" sum="2,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="16" sum="4,600" player="MARmALADE158" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" sum="19,200" player="FausSatan" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ HA</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="14,600" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ SQ S4</cards>
+   <action no="20" sum="9,416" player="FausSatan" type="5"/>
+   <action no="21" sum="0" player="MARmALADE158" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120848">
+  <general>
+   <startdate>2024-02-12 13:34:37</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="97,744" addon="0" bet="9,550" reg_code="7947657177" name="tropeiro123" win="23,700" rebuy="0"/>
+    <player dealer="0" seat="2" chips="76,136" addon="0" bet="2,850" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="227,983" addon="0" bet="350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="206,698" addon="0" bet="350" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="641,311" addon="0" bet="9,550" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="218,622" addon="0" bet="350" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="122,701" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="116,987" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="tropeiro123" type="15"/>
+   <action no="2" sum="350" player="arkit1611" type="15"/>
+   <action no="3" sum="350" player="alcazar123" type="15"/>
+   <action no="4" sum="350" player="pantherkeen833" type="15"/>
+   <action no="5" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="6" sum="350" player="abc7772" type="15"/>
+   <action no="7" sum="350" player="MARmALADE158" type="15"/>
+   <action no="8" sum="350" player="FausSatan" type="15"/>
+   <action no="9" sum="1,250" player="tropeiro123" type="1"/>
+   <action no="10" sum="2,500" player="arkit1611" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">S10 DQ</cards>
+   <action no="13" sum="5,250" player="Virtuouscube7" type="23"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 H7</cards>
+   <action no="17" sum="4,000" player="tropeiro123" type="3"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="arkit1611" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 D7 S9</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="0" player="Virtuouscube7" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="21" sum="3,950" player="tropeiro123" type="5"/>
+   <action no="22" sum="3,950" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action no="23" sum="0" player="tropeiro123" type="4"/>
+   <action no="24" sum="0" player="Virtuouscube7" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560120891">
+  <general>
+   <startdate>2024-02-12 13:36:23</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="1" seat="1" chips="111,894" addon="0" bet="350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="73,286" addon="0" bet="1,600" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="227,633" addon="0" bet="2,850" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="206,348" addon="0" bet="5,000" reg_code="" name="pantherkeen833" win="9,050" rebuy="0"/>
+    <player dealer="0" seat="6" chips="631,761" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="218,272" addon="0" bet="350" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="122,351" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="116,637" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="arkit1611" type="15"/>
+   <action no="2" sum="350" player="alcazar123" type="15"/>
+   <action no="3" sum="350" player="pantherkeen833" type="15"/>
+   <action no="4" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="5" sum="350" player="abc7772" type="15"/>
+   <action no="6" sum="350" player="MARmALADE158" type="15"/>
+   <action no="7" sum="350" player="FausSatan" type="15"/>
+   <action no="8" sum="350" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,250" player="arkit1611" type="1"/>
+   <action no="10" sum="2,500" player="alcazar123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="11" sum="5,000" player="pantherkeen833" type="23"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H9 D7</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="alcazar123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120919">
+  <general>
+   <startdate>2024-02-12 13:37:32</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="111,544" addon="0" bet="350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="71,686" addon="0" bet="5,350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="224,783" addon="0" bet="14,250" reg_code="" name="alcazar123" win="15,300" rebuy="0"/>
+    <player dealer="0" seat="5" chips="212,548" addon="0" bet="2,850" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="631,411" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="217,922" addon="0" bet="350" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="122,001" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="116,287" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="alcazar123" type="15"/>
+   <action no="2" sum="350" player="pantherkeen833" type="15"/>
+   <action no="3" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="4" sum="350" player="abc7772" type="15"/>
+   <action no="5" sum="350" player="MARmALADE158" type="15"/>
+   <action no="6" sum="350" player="FausSatan" type="15"/>
+   <action no="7" sum="350" player="tropeiro123" type="15"/>
+   <action no="8" sum="350" player="arkit1611" type="15"/>
+   <action no="9" sum="1,250" player="alcazar123" type="1"/>
+   <action no="10" sum="2,500" player="pantherkeen833" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 DK</cards>
+   <action no="15" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="5,000" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="17" sum="14,250" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="pantherkeen833" type="0"/>
+   <action no="19" sum="0" player="arkit1611" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120940">
+  <general>
+   <startdate>2024-02-12 13:38:20</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="111,194" addon="0" bet="5,250" reg_code="7947657177" name="tropeiro123" win="9,050" rebuy="0"/>
+    <player dealer="0" seat="2" chips="66,336" addon="0" bet="350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="234,733" addon="0" bet="350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="209,698" addon="0" bet="1,600" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="631,061" addon="0" bet="2,850" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="217,572" addon="0" bet="350" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="121,651" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="115,937" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="pantherkeen833" type="15"/>
+   <action no="2" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="3" sum="350" player="abc7772" type="15"/>
+   <action no="4" sum="350" player="MARmALADE158" type="15"/>
+   <action no="5" sum="350" player="FausSatan" type="15"/>
+   <action no="6" sum="350" player="tropeiro123" type="15"/>
+   <action no="7" sum="350" player="arkit1611" type="15"/>
+   <action no="8" sum="350" player="alcazar123" type="15"/>
+   <action no="9" sum="1,250" player="pantherkeen833" type="1"/>
+   <action no="10" sum="2,500" player="Virtuouscube7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="abc7772" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="abc7772" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H10</cards>
+   <action no="14" sum="5,250" player="tropeiro123" type="23"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Virtuouscube7" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560120954">
+  <general>
+   <startdate>2024-02-12 13:38:57</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="117,394" addon="0" bet="350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,986" addon="0" bet="350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="234,383" addon="0" bet="350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="208,098" addon="0" bet="350" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="628,211" addon="0" bet="627,861" reg_code="" name="Virtuouscube7" win="436,544" rebuy="0">
+     <knockout tobalance="€8.54" tobounty="€8.53" kicked="abc7772"/>
+    </player>
+    <player dealer="0" seat="7" chips="217,222" addon="0" bet="217,222" reg_code="" name="abc7772" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="121,301" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="115,587" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="2" sum="350" player="abc7772" type="15"/>
+   <action no="3" sum="350" player="MARmALADE158" type="15"/>
+   <action no="4" sum="350" player="FausSatan" type="15"/>
+   <action no="5" sum="350" player="tropeiro123" type="15"/>
+   <action no="6" sum="350" player="arkit1611" type="15"/>
+   <action no="7" sum="350" player="alcazar123" type="15"/>
+   <action no="8" sum="350" player="pantherkeen833" type="15"/>
+   <action no="9" sum="1,250" player="Virtuouscube7" type="1"/>
+   <action no="10" sum="2,500" player="abc7772" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DQ H10</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">H6 S6</cards>
+   <action no="17" sum="7,000" player="Virtuouscube7" type="23"/>
+   <cards player="abc7772" type="Pocket">DA CK</cards>
+   <action no="18" sum="31,500" player="abc7772" type="23"/>
+   <action no="19" sum="627,861" player="Virtuouscube7" type="23"/>
+   <action no="20" sum="185,372" player="abc7772" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 H5 C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+  </round>
+ </game>
+ <game gamecode="10560120986">
+  <general>
+   <startdate>2024-02-12 13:40:01</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="117,044" addon="0" bet="350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="65,636" addon="0" bet="11,100" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="234,033" addon="0" bet="350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="207,748" addon="0" bet="11,100" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="847,533" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="120,951" addon="0" bet="55,863" reg_code="" name="MARmALADE158" win="34,700" rebuy="0"/>
+    <player dealer="0" seat="10" chips="115,237" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="MARmALADE158" type="15"/>
+   <action no="2" sum="350" player="FausSatan" type="15"/>
+   <action no="3" sum="350" player="tropeiro123" type="15"/>
+   <action no="4" sum="350" player="arkit1611" type="15"/>
+   <action no="5" sum="350" player="alcazar123" type="15"/>
+   <action no="6" sum="350" player="pantherkeen833" type="15"/>
+   <action no="7" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="2,500" player="MARmALADE158" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="9" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK H4</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="5,000" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="5,000" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="2,500" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HA DK SJ</cards>
+   <action no="16" sum="0" player="MARmALADE158" type="4"/>
+   <action no="17" sum="5,750" player="arkit1611" type="5"/>
+   <action no="18" sum="5,750" player="pantherkeen833" type="3"/>
+   <action no="19" sum="5,750" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C4</cards>
+   <action no="20" sum="0" player="MARmALADE158" type="4"/>
+   <action no="21" sum="0" player="arkit1611" type="4"/>
+   <action no="22" sum="0" player="pantherkeen833" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action no="23" sum="44,763" player="MARmALADE158" type="5"/>
+   <action no="24" sum="0" player="arkit1611" type="0"/>
+   <action no="25" sum="0" player="pantherkeen833" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560121014">
+  <general>
+   <startdate>2024-02-12 13:41:21</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="116,694" addon="0" bet="350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="54,536" addon="0" bet="350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="233,683" addon="0" bet="13,350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="196,648" addon="0" bet="23,350" reg_code="" name="pantherkeen833" win="35,200" rebuy="0"/>
+    <player dealer="0" seat="6" chips="847,183" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="144,551" addon="0" bet="1,600" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="114,887" addon="0" bet="5,850" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="MARmALADE158" type="15"/>
+   <action no="2" sum="350" player="FausSatan" type="15"/>
+   <action no="3" sum="350" player="tropeiro123" type="15"/>
+   <action no="4" sum="350" player="arkit1611" type="15"/>
+   <action no="5" sum="350" player="alcazar123" type="15"/>
+   <action no="6" sum="350" player="pantherkeen833" type="15"/>
+   <action no="7" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="1,250" player="MARmALADE158" type="1"/>
+   <action no="9" sum="2,500" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S4 DJ</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="5,500" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="5,500" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="3,000" player="FausSatan" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA DK DA</cards>
+   <action no="17" sum="0" player="FausSatan" type="4"/>
+   <action no="18" sum="7,500" player="alcazar123" type="5"/>
+   <action no="19" sum="7,500" player="pantherkeen833" type="3"/>
+   <action no="20" sum="0" player="FausSatan" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="21" sum="0" player="alcazar123" type="4"/>
+   <action no="22" sum="10,000" player="pantherkeen833" type="5"/>
+   <action no="23" sum="0" player="alcazar123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560121047">
+  <general>
+   <startdate>2024-02-12 13:42:31</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="116,344" addon="0" bet="2,850" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="54,186" addon="0" bet="350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="220,333" addon="0" bet="5,850" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="218,498" addon="0" bet="350" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="846,833" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="142,951" addon="0" bet="16,000" reg_code="" name="MARmALADE158" win="17,200" rebuy="0"/>
+    <player dealer="0" seat="10" chips="109,037" addon="0" bet="1,600" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="FausSatan" type="15"/>
+   <action no="2" sum="350" player="tropeiro123" type="15"/>
+   <action no="3" sum="350" player="arkit1611" type="15"/>
+   <action no="4" sum="350" player="alcazar123" type="15"/>
+   <action no="5" sum="350" player="pantherkeen833" type="15"/>
+   <action no="6" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="350" player="MARmALADE158" type="15"/>
+   <action no="8" sum="1,250" player="FausSatan" type="1"/>
+   <action no="9" sum="2,500" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="11" sum="5,500" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="16,000" player="MARmALADE158" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C8 C10</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <action no="17" sum="0" player="alcazar123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560139332">
+  <general>
+   <startdate>2024-02-12 13:43:27</startdate>
+   <smallblind>1,250</smallblind>
+   <bigblind>2,500</bigblind>
+   <ante>350</ante>
+   <players>
+    <player dealer="0" seat="1" chips="113,494" addon="0" bet="5,350" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="53,836" addon="0" bet="5,350" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="214,483" addon="0" bet="350" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="218,148" addon="0" bet="15,350" reg_code="" name="pantherkeen833" win="17,450" rebuy="0"/>
+    <player dealer="0" seat="6" chips="846,483" addon="0" bet="350" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="154,301" addon="0" bet="350" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="107,437" addon="0" bet="350" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="350" player="tropeiro123" type="15"/>
+   <action no="2" sum="350" player="arkit1611" type="15"/>
+   <action no="3" sum="350" player="alcazar123" type="15"/>
+   <action no="4" sum="350" player="pantherkeen833" type="15"/>
+   <action no="5" sum="350" player="Virtuouscube7" type="15"/>
+   <action no="6" sum="350" player="MARmALADE158" type="15"/>
+   <action no="7" sum="350" player="FausSatan" type="15"/>
+   <action no="8" sum="1,250" player="tropeiro123" type="1"/>
+   <action no="9" sum="2,500" player="arkit1611" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="11" sum="5,000" player="pantherkeen833" type="23"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 C6</cards>
+   <action no="15" sum="3,750" player="tropeiro123" type="3"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="2,500" player="arkit1611" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ HK C5</cards>
+   <action no="17" sum="0" player="tropeiro123" type="4"/>
+   <action no="18" sum="0" player="arkit1611" type="4"/>
+   <action no="19" sum="10,000" player="pantherkeen833" type="5"/>
+   <action no="20" sum="0" player="tropeiro123" type="0"/>
+   <action no="21" sum="0" player="arkit1611" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560139366">
+  <general>
+   <startdate>2024-02-12 13:44:56</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="1" seat="1" chips="108,144" addon="0" bet="400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="48,486" addon="0" bet="1,900" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="214,133" addon="0" bet="6,400" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="230,248" addon="0" bet="400" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="846,133" addon="0" bet="162,016" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="100,000" addon="0" bet="52,158" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="153,951" addon="0" bet="400" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="107,087" addon="0" bet="107,087" reg_code="" name="FausSatan" win="275,832" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="arkit1611" type="15"/>
+   <action no="2" sum="400" player="alcazar123" type="15"/>
+   <action no="3" sum="400" player="pantherkeen833" type="15"/>
+   <action no="4" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="5" sum="400" player="zikaferal" type="15"/>
+   <action no="6" sum="400" player="MARmALADE158" type="15"/>
+   <action no="7" sum="400" player="FausSatan" type="15"/>
+   <action no="8" sum="400" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,500" player="arkit1611" type="1"/>
+   <action no="10" sum="3,000" player="alcazar123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">CA H5</cards>
+   <action no="12" sum="6,000" player="Virtuouscube7" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="13" sum="6,000" player="zikaferal" type="3"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">C6 C7</cards>
+   <action no="15" sum="6,000" player="FausSatan" type="3"/>
+   <cards player="tropeiro123" type="Pocket">CJ HK</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="18" sum="3,000" player="alcazar123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 CQ C3</cards>
+   <action no="19" sum="0" player="alcazar123" type="4"/>
+   <action no="20" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="21" sum="0" player="zikaferal" type="4"/>
+   <action no="22" sum="9,758" player="FausSatan" type="5"/>
+   <action no="23" sum="0" player="alcazar123" type="0"/>
+   <action no="24" sum="9,758" player="Virtuouscube7" type="3"/>
+   <action no="25" sum="9,758" player="zikaferal" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action no="26" sum="36,000" player="Virtuouscube7" type="5"/>
+   <action no="27" sum="36,000" player="zikaferal" type="3"/>
+   <action no="28" sum="90,929" player="FausSatan" type="23"/>
+   <action no="29" sum="145,858" player="Virtuouscube7" type="23"/>
+   <action no="30" sum="0" player="zikaferal" type="0"/>
+  </round>
+  <round no="4">
+   <cards type="River">HA</cards>
+  </round>
+ </game>
+ <game gamecode="10560139417">
+  <general>
+   <startdate>2024-02-12 13:47:05</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="107,744" addon="0" bet="107,744" reg_code="7947657177" name="tropeiro123" win="222,388" rebuy="0"/>
+    <player dealer="1" seat="2" chips="46,586" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="207,733" addon="0" bet="1,900" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="229,848" addon="0" bet="3,400" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="739,046" addon="0" bet="739,046" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,842" addon="0" bet="400" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="153,551" addon="0" bet="400" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="275,832" addon="0" bet="400" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="alcazar123" type="15"/>
+   <action no="2" sum="400" player="pantherkeen833" type="15"/>
+   <action no="3" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="4" sum="400" player="zikaferal" type="15"/>
+   <action no="5" sum="400" player="MARmALADE158" type="15"/>
+   <action no="6" sum="400" player="FausSatan" type="15"/>
+   <action no="7" sum="400" player="tropeiro123" type="15"/>
+   <action no="8" sum="400" player="arkit1611" type="15"/>
+   <action no="9" sum="1,500" player="alcazar123" type="1"/>
+   <action no="10" sum="3,000" player="pantherkeen833" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Virtuouscube7" type="Pocket">HJ H10</cards>
+   <action no="11" sum="6,300" player="Virtuouscube7" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HQ HK</cards>
+   <action no="15" sum="6,300" player="tropeiro123" type="3"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="pantherkeen833" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 H5 CJ</cards>
+   <action no="19" sum="9,000" player="Virtuouscube7" type="5"/>
+   <action no="20" sum="9,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H2</cards>
+   <action no="21" sum="0" player="Virtuouscube7" type="4"/>
+   <action no="22" sum="9,575" player="tropeiro123" type="5"/>
+   <action no="23" sum="723,346" player="Virtuouscube7" type="23"/>
+   <action no="24" sum="82,469" player="tropeiro123" type="7"/>
+  </round>
+  <round no="4">
+   <cards type="River">S5</cards>
+  </round>
+ </game>
+ <game gamecode="10560139455">
+  <general>
+   <startdate>2024-02-12 13:48:35</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="222,388" addon="0" bet="400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="46,186" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="205,833" addon="0" bet="6,400" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="226,448" addon="0" bet="6,400" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="631,302" addon="0" bet="631,302" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,442" addon="0" bet="400" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="153,151" addon="0" bet="153,151" reg_code="" name="MARmALADE158" win="320,702" rebuy="0"/>
+    <player dealer="0" seat="10" chips="275,432" addon="0" bet="400" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="pantherkeen833" type="15"/>
+   <action no="2" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="3" sum="400" player="zikaferal" type="15"/>
+   <action no="4" sum="400" player="MARmALADE158" type="15"/>
+   <action no="5" sum="400" player="FausSatan" type="15"/>
+   <action no="6" sum="400" player="tropeiro123" type="15"/>
+   <action no="7" sum="400" player="arkit1611" type="15"/>
+   <action no="8" sum="400" player="alcazar123" type="15"/>
+   <action no="9" sum="1,500" player="pantherkeen833" type="1"/>
+   <action no="10" sum="3,000" player="Virtuouscube7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">SA DJ</cards>
+   <action no="12" sum="6,000" player="MARmALADE158" type="23"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 S4</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="16" sum="6,000" player="alcazar123" type="3"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="17" sum="4,500" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">HA D6</cards>
+   <action no="18" sum="3,000" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA C3 C4</cards>
+   <action no="19" sum="0" player="pantherkeen833" type="4"/>
+   <action no="20" sum="6,000" player="Virtuouscube7" type="5"/>
+   <action no="21" sum="6,000" player="MARmALADE158" type="3"/>
+   <action no="22" sum="0" player="alcazar123" type="0"/>
+   <action no="23" sum="0" player="pantherkeen833" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action no="24" sum="19,600" player="Virtuouscube7" type="5"/>
+   <action no="25" sum="19,600" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action no="26" sum="599,302" player="Virtuouscube7" type="5"/>
+   <action no="27" sum="121,151" player="MARmALADE158" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10560139502">
+  <general>
+   <startdate>2024-02-12 13:50:13</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="221,988" addon="0" bet="400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="45,786" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="199,433" addon="0" bet="400" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="1" seat="5" chips="220,048" addon="0" bet="400" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="478,151" addon="0" bet="1,900" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="47,042" addon="0" bet="3,400" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="320,702" addon="0" bet="37,920" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="275,032" addon="0" bet="37,920" reg_code="" name="FausSatan" win="82,740" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="2" sum="400" player="zikaferal" type="15"/>
+   <action no="3" sum="400" player="MARmALADE158" type="15"/>
+   <action no="4" sum="400" player="FausSatan" type="15"/>
+   <action no="5" sum="400" player="tropeiro123" type="15"/>
+   <action no="6" sum="400" player="arkit1611" type="15"/>
+   <action no="7" sum="400" player="alcazar123" type="15"/>
+   <action no="8" sum="400" player="pantherkeen833" type="15"/>
+   <action no="9" sum="1,500" player="Virtuouscube7" type="1"/>
+   <action no="10" sum="3,000" player="zikaferal" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MARmALADE158" type="Pocket">HK HQ</cards>
+   <action no="11" sum="6,000" player="MARmALADE158" type="23"/>
+   <cards player="FausSatan" type="Pocket">HA CQ</cards>
+   <action no="12" sum="6,000" player="FausSatan" type="3"/>
+   <cards player="tropeiro123" type="Pocket">CK HJ</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="zikaferal" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ D10 S2</cards>
+   <action no="19" sum="0" player="MARmALADE158" type="4"/>
+   <action no="20" sum="6,698" player="FausSatan" type="5"/>
+   <action no="21" sum="6,698" player="MARmALADE158" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="22" sum="0" player="MARmALADE158" type="4"/>
+   <action no="23" sum="0" player="FausSatan" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action no="24" sum="0" player="MARmALADE158" type="4"/>
+   <action no="25" sum="24,822" player="FausSatan" type="5"/>
+   <action no="26" sum="24,822" player="MARmALADE158" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560139537">
+  <general>
+   <startdate>2024-02-12 13:51:29</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="221,588" addon="0" bet="400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="45,386" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="199,033" addon="0" bet="400" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="219,648" addon="0" bet="43,642" reg_code="" name="pantherkeen833" win="92,684" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="zikaferal"/>
+    </player>
+    <player dealer="1" seat="6" chips="476,251" addon="0" bet="400" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="43,642" addon="0" bet="43,242" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="282,782" addon="0" bet="3,400" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="319,852" addon="0" bet="400" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="zikaferal" type="15"/>
+   <action no="2" sum="400" player="MARmALADE158" type="15"/>
+   <action no="3" sum="400" player="FausSatan" type="15"/>
+   <action no="4" sum="400" player="tropeiro123" type="15"/>
+   <action no="5" sum="400" player="arkit1611" type="15"/>
+   <action no="6" sum="400" player="alcazar123" type="15"/>
+   <action no="7" sum="400" player="pantherkeen833" type="15"/>
+   <action no="8" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="9" sum="1,500" player="zikaferal" type="1"/>
+   <action no="10" sum="3,000" player="MARmALADE158" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA C7</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">S9 C9</cards>
+   <action no="15" sum="6,000" player="pantherkeen833" type="23"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">CQ HQ</cards>
+   <action no="17" sum="43,242" player="zikaferal" type="23"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="MARmALADE158" type="0"/>
+   <action no="19" sum="37,242" player="pantherkeen833" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D3 HK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+  </round>
+ </game>
+ <game gamecode="10560139550">
+  <general>
+   <startdate>2024-02-12 13:52:14</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="221,188" addon="0" bet="400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="44,986" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="198,633" addon="0" bet="46,030" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="268,690" addon="0" bet="400" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="475,851" addon="0" bet="46,030" reg_code="" name="Virtuouscube7" win="98,560" rebuy="0"/>
+    <player dealer="0" seat="9" chips="279,382" addon="0" bet="1,900" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="319,452" addon="0" bet="3,400" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="MARmALADE158" type="15"/>
+   <action no="2" sum="400" player="FausSatan" type="15"/>
+   <action no="3" sum="400" player="tropeiro123" type="15"/>
+   <action no="4" sum="400" player="arkit1611" type="15"/>
+   <action no="5" sum="400" player="alcazar123" type="15"/>
+   <action no="6" sum="400" player="pantherkeen833" type="15"/>
+   <action no="7" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="1,500" player="MARmALADE158" type="1"/>
+   <action no="9" sum="3,000" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DK D2</cards>
+   <action no="10" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">CQ CJ</cards>
+   <action no="12" sum="6,600" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">H7 CA</cards>
+   <action no="14" sum="6,600" player="Virtuouscube7" type="3"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FausSatan" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 DA HQ</cards>
+   <action no="17" sum="9,000" player="alcazar123" type="5"/>
+   <action no="18" sum="9,000" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="19" sum="30,030" player="alcazar123" type="5"/>
+   <action no="20" sum="30,030" player="Virtuouscube7" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">DJ</cards>
+   <action no="21" sum="0" player="alcazar123" type="4"/>
+   <action no="22" sum="0" player="Virtuouscube7" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560139572">
+  <general>
+   <startdate>2024-02-12 13:53:00</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player dealer="0" seat="1" chips="220,788" addon="0" bet="3,400" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="44,586" addon="0" bet="400" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="152,603" addon="0" bet="400" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="268,290" addon="0" bet="6,000" reg_code="" name="pantherkeen833" win="10,700" rebuy="0"/>
+    <player dealer="0" seat="6" chips="528,381" addon="0" bet="400" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="100,000" addon="0" bet="400" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="277,482" addon="0" bet="400" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="316,052" addon="0" bet="1,900" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="400" player="FausSatan" type="15"/>
+   <action no="2" sum="400" player="tropeiro123" type="15"/>
+   <action no="3" sum="400" player="arkit1611" type="15"/>
+   <action no="4" sum="400" player="alcazar123" type="15"/>
+   <action no="5" sum="400" player="pantherkeen833" type="15"/>
+   <action no="6" sum="400" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="400" player="zikaferal" type="15"/>
+   <action no="8" sum="400" player="MARmALADE158" type="15"/>
+   <action no="9" sum="1,500" player="FausSatan" type="1"/>
+   <action no="10" sum="3,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arkit1611" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="6,000" player="pantherkeen833" type="23"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 C3</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560139587">
+  <general>
+   <startdate>2024-02-12 13:53:37</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="217,388" addon="0" bet="52,450" reg_code="7947657177" name="tropeiro123" win="111,600" rebuy="0"/>
+    <player dealer="0" seat="2" chips="44,186" addon="0" bet="4,450" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="152,203" addon="0" bet="52,450" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="275,590" addon="0" bet="450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="527,981" addon="0" bet="450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="99,600" addon="0" bet="450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="277,082" addon="0" bet="450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="314,152" addon="0" bet="450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="tropeiro123" type="15"/>
+   <action no="2" sum="450" player="arkit1611" type="15"/>
+   <action no="3" sum="450" player="alcazar123" type="15"/>
+   <action no="4" sum="450" player="pantherkeen833" type="15"/>
+   <action no="5" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="6" sum="450" player="zikaferal" type="15"/>
+   <action no="7" sum="450" player="MARmALADE158" type="15"/>
+   <action no="8" sum="450" player="FausSatan" type="15"/>
+   <action no="9" sum="2,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="4,000" player="arkit1611" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="alcazar123" type="Pocket">C9 C8</cards>
+   <action no="11" sum="12,000" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CJ SA</cards>
+   <action no="17" sum="10,000" player="tropeiro123" type="3"/>
+   <cards player="arkit1611" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="arkit1611" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 DJ D10</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="12,000" player="alcazar123" type="5"/>
+   <action no="21" sum="12,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="22" sum="0" player="tropeiro123" type="4"/>
+   <action no="23" sum="28,000" player="alcazar123" type="5"/>
+   <action no="24" sum="28,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+   <action no="25" sum="0" player="tropeiro123" type="4"/>
+   <action no="26" sum="0" player="alcazar123" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560154744">
+  <general>
+   <startdate>2024-02-12 14:01:28</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="1" seat="1" chips="276,538" addon="0" bet="450" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="39,736" addon="0" bet="39,286" reg_code="" name="arkit1611" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="99,753" addon="0" bet="39,736" reg_code="" name="alcazar123" win="82,172" rebuy="0">
+     <knockout tobalance="€5.69" tobounty="€5.69" kicked="arkit1611"/>
+    </player>
+    <player dealer="0" seat="5" chips="275,140" addon="0" bet="450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="527,531" addon="0" bet="450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="99,150" addon="0" bet="450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="276,632" addon="0" bet="450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="313,702" addon="0" bet="450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="arkit1611" type="15"/>
+   <action no="2" sum="450" player="alcazar123" type="15"/>
+   <action no="3" sum="450" player="pantherkeen833" type="15"/>
+   <action no="4" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="5" sum="450" player="zikaferal" type="15"/>
+   <action no="6" sum="450" player="MARmALADE158" type="15"/>
+   <action no="7" sum="450" player="FausSatan" type="15"/>
+   <action no="8" sum="450" player="tropeiro123" type="15"/>
+   <action no="9" sum="2,000" player="arkit1611" type="1"/>
+   <action no="10" sum="4,000" player="alcazar123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 S6</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="arkit1611" type="Pocket">CK H6</cards>
+   <action no="17" sum="39,286" player="arkit1611" type="23"/>
+   <cards player="alcazar123" type="Pocket">DK HA</cards>
+   <action no="18" sum="35,286" player="alcazar123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H10 D7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10560154759">
+  <general>
+   <startdate>2024-02-12 14:02:10</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="276,088" addon="0" bet="45,250" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="450" reg_code="" name="cloudevil8199" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="142,189" addon="0" bet="142,189" reg_code="" name="alcazar123" win="99,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="274,690" addon="0" bet="2,450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="527,081" addon="0" bet="4,450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="98,700" addon="0" bet="450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="276,182" addon="0" bet="450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="313,252" addon="0" bet="450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="pantherkeen833" type="15"/>
+   <action no="2" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="3" sum="450" player="zikaferal" type="15"/>
+   <action no="4" sum="450" player="MARmALADE158" type="15"/>
+   <action no="5" sum="450" player="FausSatan" type="15"/>
+   <action no="6" sum="450" player="tropeiro123" type="15"/>
+   <action no="7" sum="450" player="cloudevil8199" type="15"/>
+   <action no="8" sum="450" player="alcazar123" type="15"/>
+   <action no="9" sum="2,000" player="pantherkeen833" type="1"/>
+   <action no="10" sum="4,000" player="Virtuouscube7" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C9 CJ</cards>
+   <action no="14" sum="8,400" player="tropeiro123" type="23"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="cloudevil8199" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="16" sum="24,800" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Virtuouscube7" type="0"/>
+   <action no="19" sum="16,400" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ SK S7</cards>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="20,000" player="alcazar123" type="5"/>
+   <action no="22" sum="20,000" player="tropeiro123" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action no="23" sum="0" player="tropeiro123" type="4"/>
+   <action no="24" sum="96,939" player="alcazar123" type="5"/>
+   <action no="25" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560154788">
+  <general>
+   <startdate>2024-02-12 14:03:50</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="230,838" addon="0" bet="450" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="99,550" addon="0" bet="450" reg_code="" name="cloudevil8199" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="196,139" addon="0" bet="40,930" reg_code="" name="alcazar123" win="38,560" rebuy="0"/>
+    <player dealer="1" seat="5" chips="272,240" addon="0" bet="450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="522,631" addon="0" bet="2,450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="98,250" addon="0" bet="16,930" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="275,732" addon="0" bet="450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="312,802" addon="0" bet="450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="2" sum="450" player="zikaferal" type="15"/>
+   <action no="3" sum="450" player="MARmALADE158" type="15"/>
+   <action no="4" sum="450" player="FausSatan" type="15"/>
+   <action no="5" sum="450" player="tropeiro123" type="15"/>
+   <action no="6" sum="450" player="cloudevil8199" type="15"/>
+   <action no="7" sum="450" player="alcazar123" type="15"/>
+   <action no="8" sum="450" player="pantherkeen833" type="15"/>
+   <action no="9" sum="2,000" player="Virtuouscube7" type="1"/>
+   <action no="10" sum="4,000" player="zikaferal" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H6 D4</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="cloudevil8199" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="15" sum="8,800" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="18" sum="4,800" player="zikaferal" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 CK S3</cards>
+   <action no="19" sum="0" player="zikaferal" type="4"/>
+   <action no="20" sum="7,680" player="alcazar123" type="5"/>
+   <action no="21" sum="7,680" player="zikaferal" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action no="22" sum="0" player="zikaferal" type="4"/>
+   <action no="23" sum="24,000" player="alcazar123" type="5"/>
+   <action no="24" sum="0" player="zikaferal" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560154824">
+  <general>
+   <startdate>2024-02-12 14:05:40</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="230,388" addon="0" bet="64,950" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="99,100" addon="0" bet="450" reg_code="" name="cloudevil8199" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="217,769" addon="0" bet="450" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="271,790" addon="0" bet="155,040" reg_code="" name="pantherkeen833" win="138,600" rebuy="0"/>
+    <player dealer="1" seat="6" chips="520,181" addon="0" bet="450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="81,320" addon="0" bet="2,450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="275,282" addon="0" bet="4,450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="312,352" addon="0" bet="450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="zikaferal" type="15"/>
+   <action no="2" sum="450" player="MARmALADE158" type="15"/>
+   <action no="3" sum="450" player="FausSatan" type="15"/>
+   <action no="4" sum="450" player="tropeiro123" type="15"/>
+   <action no="5" sum="450" player="cloudevil8199" type="15"/>
+   <action no="6" sum="450" player="alcazar123" type="15"/>
+   <action no="7" sum="450" player="pantherkeen833" type="15"/>
+   <action no="8" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="9" sum="2,000" player="zikaferal" type="1"/>
+   <action no="10" sum="4,000" player="MARmALADE158" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA H5</cards>
+   <action no="12" sum="8,400" player="tropeiro123" type="23"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="cloudevil8199" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="15" sum="8,400" player="pantherkeen833" type="3"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="MARmALADE158" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 D6 D5</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="0" player="pantherkeen833" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="21" sum="33,000" player="tropeiro123" type="5"/>
+   <action no="22" sum="33,000" player="pantherkeen833" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action no="23" sum="23,100" player="tropeiro123" type="5"/>
+   <action no="24" sum="113,190" player="pantherkeen833" type="23"/>
+   <action no="25" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560154874">
+  <general>
+   <startdate>2024-02-12 14:07:52</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="165,438" addon="0" bet="450" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="98,650" addon="0" bet="450" reg_code="" name="cloudevil8199" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="217,319" addon="0" bet="450" reg_code="" name="alcazar123" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="345,440" addon="0" bet="450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="519,731" addon="0" bet="8,000" reg_code="" name="Virtuouscube7" win="13,600" rebuy="0"/>
+    <player dealer="1" seat="7" chips="78,870" addon="0" bet="450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="270,832" addon="0" bet="2,450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="311,902" addon="0" bet="4,450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="MARmALADE158" type="15"/>
+   <action no="2" sum="450" player="FausSatan" type="15"/>
+   <action no="3" sum="450" player="tropeiro123" type="15"/>
+   <action no="4" sum="450" player="cloudevil8199" type="15"/>
+   <action no="5" sum="450" player="alcazar123" type="15"/>
+   <action no="6" sum="450" player="pantherkeen833" type="15"/>
+   <action no="7" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="8" sum="450" player="zikaferal" type="15"/>
+   <action no="9" sum="2,000" player="MARmALADE158" type="1"/>
+   <action no="10" sum="4,000" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C10 H4</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="cloudevil8199" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="alcazar123" type="0"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="15" sum="8,000" player="Virtuouscube7" type="23"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="FausSatan" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560154886">
+  <general>
+   <startdate>2024-02-12 14:08:14</startdate>
+   <smallblind>2,000</smallblind>
+   <bigblind>4,000</bigblind>
+   <ante>450</ante>
+   <players>
+    <player dealer="0" seat="1" chips="164,988" addon="0" bet="9,250" reg_code="7947657177" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="98,200" addon="0" bet="450" reg_code="" name="cloudevil8199" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="216,869" addon="0" bet="21,250" reg_code="" name="alcazar123" win="23,200" rebuy="0"/>
+    <player dealer="0" seat="5" chips="344,990" addon="0" bet="450" reg_code="" name="pantherkeen833" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="528,881" addon="0" bet="450" reg_code="" name="Virtuouscube7" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="78,420" addon="0" bet="450" reg_code="" name="zikaferal" win="0" rebuy="0"/>
+    <player dealer="1" seat="9" chips="268,382" addon="0" bet="450" reg_code="" name="MARmALADE158" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="307,452" addon="0" bet="2,450" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="450" player="FausSatan" type="15"/>
+   <action no="2" sum="450" player="tropeiro123" type="15"/>
+   <action no="3" sum="450" player="cloudevil8199" type="15"/>
+   <action no="4" sum="450" player="alcazar123" type="15"/>
+   <action no="5" sum="450" player="pantherkeen833" type="15"/>
+   <action no="6" sum="450" player="Virtuouscube7" type="15"/>
+   <action no="7" sum="450" player="zikaferal" type="15"/>
+   <action no="8" sum="450" player="MARmALADE158" type="15"/>
+   <action no="9" sum="2,000" player="FausSatan" type="1"/>
+   <action no="10" sum="4,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="cloudevil8199" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="cloudevil8199" type="0"/>
+   <cards player="alcazar123" type="Pocket">X X</cards>
+   <action no="12" sum="8,800" player="alcazar123" type="23"/>
+   <cards player="pantherkeen833" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="pantherkeen833" type="0"/>
+   <cards player="Virtuouscube7" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Virtuouscube7" type="0"/>
+   <cards player="zikaferal" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="zikaferal" type="0"/>
+   <cards player="MARmALADE158" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="MARmALADE158" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="FausSatan" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SQ HK</cards>
+   <action no="18" sum="4,800" player="tropeiro123" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 C8 C2</cards>
+   <action no="19" sum="0" player="tropeiro123" type="4"/>
+   <action no="20" sum="12,000" player="alcazar123" type="5"/>
+   <action no="21" sum="0" player="tropeiro123" type="0"/>
+  </round>
+ </game>
+</session>

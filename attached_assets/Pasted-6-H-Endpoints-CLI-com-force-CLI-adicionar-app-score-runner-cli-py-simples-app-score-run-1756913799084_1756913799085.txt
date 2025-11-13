@@ -1,0 +1,67 @@
+6.H — Endpoints & CLI (com force)
+
+CLI (adicionar app/score/runner_cli.py simples):
+
+# app/score/runner_cli.py
+import argparse
+from app.score.runner import build_scorecard
+
+def main():
+    ap = argparse.ArgumentParser(description="Build scorecard (time-decay + scoring)")
+    ap.add_argument("--stats", dest="stat_counts", default="stats/stat_counts.json")
+    ap.add_argument("--cfg", dest="cfg_path", default="app/score/config.yml")
+    ap.add_argument("--out", dest="out_dir", default="scores")
+    ap.add_argument("--force", action="store_true")
+    args = ap.parse_args()
+    res = build_scorecard(args.stat_counts, args.cfg_path, args.out_dir, force=args.force)
+    print(res)
+
+if __name__ == "__main__":
+    main()
+
+
+Uso:
+
+python -m app.score.runner_cli --stats stats/stat_counts.json --cfg app/score/config.yml --out scores --force
+
+
+Endpoints Flask (acrescentar; manter os teus existentes):
+
+# POST /api/score/build
+@app.route('/api/score/build', methods=['POST'])
+def api_score_build():
+    from app.score.runner import build_scorecard
+    data = request.get_json(force=True) if request.is_json else {}
+    stat_counts = data.get("stat_counts", "stats/stat_counts.json")
+    cfg_path    = data.get("cfg_path", "app/score/config.yml")
+    out_dir     = data.get("out_dir", "scores")
+    force       = bool(data.get("force", False))
+    res = build_scorecard(stat_counts, cfg_path, out_dir, force=force)
+    return jsonify({"success": True, **res})
+
+# GET /api/score/summary?path=scores/scorecard.json
+@app.route('/api/score/summary', methods=['GET'])
+def api_score_summary():
+    path = request.args.get("path","scores/scorecard.json")
+    if not os.path.exists(path): return jsonify({"error":"scorecard not found"}), 404
+    return jsonify(json.load(open(path,"r",encoding="utf-8")))
+
+# GET /api/score/config
+@app.route('/api/score/config', methods=['GET'])
+def api_score_config_get():
+    from app.score.loader import load_config
+    cfg = load_config()
+    return jsonify(cfg)
+
+# POST /api/score/config
+@app.route('/api/score/config', methods=['POST'])
+def api_score_config_post():
+    from app.score.loader import save_config
+    data = request.get_json(force=True)
+    save_config(data)
+    return jsonify({"success": True})
+
+# UI Playground
+@app.route('/scoring')
+def scoring_page():
+    return render_template('scoring.html')

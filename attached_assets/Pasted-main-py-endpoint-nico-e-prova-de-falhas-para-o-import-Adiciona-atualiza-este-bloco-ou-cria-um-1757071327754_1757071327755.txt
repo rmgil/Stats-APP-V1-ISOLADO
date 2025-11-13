@@ -1,0 +1,133 @@
+main.py — endpoint único e à prova de falhas para o import
+
+Adiciona/atualiza este bloco (ou cria um blueprint upload_bp) e garante que é registado no app:
+
+# --- main.py (secção imports no topo)
+import os, uuid, zipfile, re, io, json, traceback
+from flask import request, jsonify, render_template
+from werkzeug.utils import secure_filename
+
+JOBS_ROOT = "/tmp/jobs"
+MAX_ZIP_BYTES = 200 * 1024 * 1024  # 200 MB para conteúdo expandido
+ALLOWED_UPLOADS = {".zip"}
+
+os.makedirs(JOBS_ROOT, exist_ok=True)
+
+def _save_upload_zip(file_storage):
+    job_id = uuid.uuid4().hex[:10]
+    job_dir = os.path.join(JOBS_ROOT, job_id)
+    os.makedirs(job_dir, exist_ok=True)
+    fn = secure_filename(file_storage.filename or f"{job_id}.zip")
+    zip_path = os.path.join(job_dir, fn)
+    # grava em blocos para não rebentar memória
+    with open(zip_path, "wb") as f:
+        while True:
+            chunk = file_storage.stream.read(1024 * 1024)
+            if not chunk:
+                break
+            f.write(chunk)
+    return job_id, job_dir, zip_path
+
+def _extract_zip(zip_path, out_dir):
+    with zipfile.ZipFile(zip_path) as zf:
+        total = sum(i.file_size for i in zf.infolist())
+        if total > MAX_ZIP_BYTES:
+            raise ValueError(f"ZIP demasiado grande ({total} bytes). Limite {MAX_ZIP_BYTES}.")
+        zf.extractall(out_dir)
+    txts = []
+    for root, _, files in os.walk(out_dir):
+        for fn in files:
+            if fn.lower().endswith(".txt"):
+                txts.append(os.path.join(root, fn))
+    if not txts:
+        raise ValueError("O ZIP não contém .txt.")
+    return txts
+
+# ===== Classificador de torneios (PKO / Mystery / non-KO) =====
+PKO_PATTERNS = [
+    r"\bBounty\s*Hunters?\b",      # GG (ex.: "Bounty Hunters $32")
+    r"\b(Bounty\s*Builder|Progressive\s*KO|PKO)\b",  # PokerStars PKO
+    r"\b\d+[,.]\d+\s*\+\s*\d+[,.]\d+\s*\+\s*\d+[,.]\d+\b",  # preço X+Y+fee (PS PKO)
+]
+MYSTERY_PATTERNS = [r"\bMystery\s*Bounty\b"]
+
+def _detect_mode_from_text(text):
+    # retorna "mystery" | "pko" | "nonko"
+    t = text
+    for p in MYSTERY_PATTERNS:
+        if re.search(p, t, re.IGNORECASE):
+            return "mystery"
+    for p in PKO_PATTERNS:
+        if re.search(p, t, re.IGNORECASE):
+            return "pko"
+    # Heurística para non-KO: preço apenas X+fee
+    if re.search(r"\b\d+[,.]\d+\s*\+\s*\d+[,.]\d+\b", t) and not re.search(PKO_PATTERNS[2], t):
+        return "nonko"
+    return "nonko"
+
+def _classify_txts(txt_files):
+    buckets = {"pko": [], "mystery": [], "nonko": []}
+    for p in txt_files:
+        # lê só o início para ser rápido
+        with open(p, "rb") as f:
+            head = f.read(8192).decode("utf-8", errors="ignore")
+        mode = _detect_mode_from_text(head)
+        buckets[mode].append(p)
+    return buckets
+
+def _run_pipeline(job_dir, buckets):
+    """
+    Integra com o teu orquestrador já existente da Fase 1–8.
+    Espera:
+      - gerar parsed/hands_enriched.jsonl
+      - gerar stats/stat_counts.json
+      - gerar scores/scorecard.json
+    Devolve um resumo (dict) que o frontend vai usar.
+    """
+    # 1) escreve um manifest simples com os caminhos das mãos por bucket
+    manifest = {"job_dir": job_dir, "inputs": buckets}
+    man_path = os.path.join(job_dir, "manifest.json")
+    with open(man_path, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, ensure_ascii=False, indent=2)
+
+    # 2) Chama os runners que já tens (importa das tuas fases 2–8)
+    # Nota: se já tens endpoints /api/derive/build etc., chama-os como funções
+    # para evitar round‑trip HTTP no mesmo processo.
+    # Exemplo ilustrativo (alinha com os teus módulos reais):
+    from app.pipeline import build_all  # <- cria uma função “build_all(manifest_path, out_dir)”
+    out = build_all(man_path, job_dir)  # retorna paths gerados e pequenos agregados
+
+    # 3) devolve um resumo estável para o frontend
+    return {
+        "job_dir": job_dir,
+        "paths": out.get("paths", {}),
+        "summary": out.get("summary", {}),
+    }
+
+@app.post("/api/pipeline")
+def api_pipeline():
+    try:
+        if "file" not in request.files:
+            return jsonify(ok=False, error="Faltou o ficheiro .zip no campo 'file'."), 400
+        up = request.files["file"]
+        ext = os.path.splitext(up.filename or "")[1].lower()
+        if ext not in ALLOWED_UPLOADS:
+            return jsonify(ok=False, error="Só é aceite .zip."), 400
+
+        job_id, job_dir, zip_path = _save_upload_zip(up)
+        in_dir = os.path.join(job_dir, "in")
+        os.makedirs(in_dir, exist_ok=True)
+        txt_files = _extract_zip(zip_path, in_dir)
+        buckets = _classify_txts(txt_files)
+
+        result = _run_pipeline(job_dir, buckets)
+        return jsonify(ok=True, job_id=job_id, result=result)
+    except Exception as e:
+        # Nunca deixa 500 sem rasto:
+        job_id = locals().get("job_id", "nojob")
+        err_txt = traceback.format_exc()
+        err_dir = os.path.join(JOBS_ROOT, str(job_id))
+        os.makedirs(err_dir, exist_ok=True)
+        with open(os.path.join(err_dir, "error.txt"), "w", encoding="utf-8") as f:
+            f.write(err_txt)
+        return jsonify(ok=False, error=str(e), job_id=job_id), 500

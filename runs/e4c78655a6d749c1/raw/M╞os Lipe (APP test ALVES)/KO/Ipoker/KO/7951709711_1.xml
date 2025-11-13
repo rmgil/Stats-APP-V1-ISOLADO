@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7951709711">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11,000|Bounty Hunter XL, 1081221347</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:38:12</duration>
+  <gamecount>29</gamecount>
+  <startdate>2024-02-16 13:44:52</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>137,740</bets>
+  <wins>94,630</wins>
+  <chipsin>99,880</chipsin>
+  <chipsout>134,570</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1081193497</tournamentcode>
+  <tournamentname>€11,000|Bounty Hunter XL</tournamentname>
+  <place>N/A</place>
+  <buyin>€11.37 + €11.38 + €2.25</buyin>
+  <totalbuyin>€25</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10567234888">
+  <general>
+   <startdate>2024-02-16 13:44:52</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player seat="1" dealer="0" bet="180" name="PiCoLLoTo" rebuy="0" win="0" chips="89,731" addon="0" reg_code=""/>
+    <player seat="2" dealer="0" bet="180" name="bupe87" rebuy="0" win="0" chips="100,000" addon="0" reg_code=""/>
+    <player seat="4" dealer="1" bet="180" name="Giperion4" rebuy="0" win="0" chips="112,266" addon="0" reg_code=""/>
+    <player seat="5" dealer="0" bet="780" name="ZoidePiscinaa" rebuy="0" win="0" chips="104,290" addon="0" reg_code=""/>
+    <player seat="6" dealer="0" bet="1,380" name="tropeiro123" rebuy="0" win="0" chips="135,950" addon="0" reg_code="7951709711"/>
+    <player seat="7" dealer="0" bet="180" name="Sujirokimimamih" rebuy="0" win="0" chips="97,310" addon="0" reg_code=""/>
+    <player seat="9" dealer="0" bet="2,580" name="YinYangMT09SP" rebuy="0" win="0" chips="78,401" addon="0" reg_code=""/>
+    <player seat="10" dealer="0" bet="4,992" name="AraLena" rebuy="0" win="8,040" chips="95,443" addon="0" reg_code=""/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="180" no="1" player="ZoidePiscinaa"/>
+   <action type="15" sum="180" no="2" player="tropeiro123"/>
+   <action type="15" sum="180" no="3" player="Sujirokimimamih"/>
+   <action type="15" sum="180" no="4" player="YinYangMT09SP"/>
+   <action type="15" sum="180" no="5" player="AraLena"/>
+   <action type="15" sum="180" no="6" player="PiCoLLoTo"/>
+   <action type="15" sum="180" no="7" player="bupe87"/>
+   <action type="15" sum="180" no="8" player="Giperion4"/>
+   <action type="1" sum="600" no="9" player="ZoidePiscinaa"/>
+   <action type="2" sum="1,200" no="10" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Sujirokimimamih">X X</cards>
+   <action type="0" sum="0" no="11" player="Sujirokimimamih"/>
+   <cards type="Pocket" player="YinYangMT09SP">X X</cards>
+   <action type="3" sum="1,200" no="12" player="YinYangMT09SP"/>
+   <cards type="Pocket" player="AraLena">X X</cards>
+   <action type="23" sum="2,400" no="13" player="AraLena"/>
+   <cards type="Pocket" player="PiCoLLoTo">X X</cards>
+   <action type="0" sum="0" no="14" player="PiCoLLoTo"/>
+   <cards type="Pocket" player="bupe87">X X</cards>
+   <action type="0" sum="0" no="15" player="bupe87"/>
+   <cards type="Pocket" player="Giperion4">X X</cards>
+   <action type="0" sum="0" no="16" player="Giperion4"/>
+   <cards type="Pocket" player="ZoidePiscinaa">X X</cards>
+   <action type="0" sum="0" no="17" player="ZoidePiscinaa"/>
+   <cards type="Pocket" player="tropeiro123">H2 C7</cards>
+   <action type="0" sum="0" no="18" player="tropeiro123"/>
+   <action type="3" sum="1,200" no="19" player="YinYangMT09SP"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 SJ S3</cards>
+   <action type="4" sum="0" no="20" player="YinYangMT09SP"/>
+   <action type="5" sum="2,412" no="21" player="AraLena"/>
+   <action type="0" sum="0" no="22" player="YinYangMT09SP"/>
+  </round>
+ </game>
+</session>

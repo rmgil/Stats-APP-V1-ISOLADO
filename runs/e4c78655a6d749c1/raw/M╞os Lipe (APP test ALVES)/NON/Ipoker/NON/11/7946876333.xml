@@ -1,0 +1,2741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7946876333">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€6,000 |Sunday Early Special, 1080798893</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:03:12</duration>
+  <gamecount>4</gamecount>
+  <startdate>2024-02-11 16:09:00</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>62,600</bets>
+  <wins>0</wins>
+  <chipsin>1,186,965</chipsin>
+  <chipsout>1,128,165</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080128826</tournamentcode>
+  <tournamentname>€6,000 |Sunday Early Special</tournamentname>
+  <place>N/A</place>
+  <buyin>€45.50 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10558615239">
+  <general>
+   <startdate>2024-02-11 16:09:00</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="79,194" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="640,782" addon="0" win="0"/>
+    <player bet="1,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="164,329" addon="0" win="0"/>
+    <player bet="1,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="1" chips="87,000" addon="0" win="0"/>
+    <player bet="77,694" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="79,194" addon="0" win="174,388"/>
+    <player bet="11,500" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="164,450" addon="0" win="0"/>
+    <player bet="1,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="398,504" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="2" type="15" sum="1,500" player="iyouwant"/>
+   <action no="3" type="15" sum="1,500" player="Vidok112"/>
+   <action no="4" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="5" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="6" type="15" sum="1,500" player="Snake292929"/>
+   <action no="7" type="1" sum="5,000" player="ILIKECHEEEESE"/>
+   <action no="8" type="2" sum="10,000" player="iyouwant"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="9" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="teacherpyramid6">DQ D10</cards>
+   <action no="10" type="23" sum="20,000" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="11" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="12" type="0" sum="0" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">C5 CA</cards>
+   <action no="13" type="23" sum="77,694" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="14" type="0" sum="0" player="iyouwant"/>
+   <action no="15" type="3" sum="57,694" player="teacherpyramid6"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 S7 DJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10558615282">
+  <general>
+   <startdate>2024-02-11 16:09:50</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="1,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="0" chips="100,000" addon="0" win="0"/>
+    <player bet="30,000" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="561,588" addon="0" win="37,000"/>
+    <player bet="1,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="162,829" addon="0" win="0"/>
+    <player bet="1,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="85,500" addon="0" win="0"/>
+    <player bet="1,500" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="1" chips="174,388" addon="0" win="0"/>
+    <player bet="6,500" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="152,950" addon="0" win="0"/>
+    <player bet="11,500" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="100,000" addon="0" win="0"/>
+    <player bet="1,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="397,004" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="iyouwant"/>
+   <action no="2" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="3" type="15" sum="1,500" player="Vidok112"/>
+   <action no="4" type="15" sum="1,500" player="vasco12"/>
+   <action no="5" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="6" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="7" type="15" sum="1,500" player="Snake292929"/>
+   <action no="8" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="9" type="1" sum="5,000" player="iyouwant"/>
+   <action no="10" type="2" sum="10,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="11" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="vasco12">X X</cards>
+   <action no="12" type="0" sum="0" player="vasco12"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="13" type="23" sum="30,000" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="14" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="15" type="0" sum="0" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="16" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="17" type="0" sum="0" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">H3 S2</cards>
+   <action no="18" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558615327">
+  <general>
+   <startdate>2024-02-11 16:10:56</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="1,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="0" chips="98,500" addon="0" win="0"/>
+    <player bet="1,500" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="587,088" addon="0" win="0"/>
+    <player bet="1,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="161,329" addon="0" win="0"/>
+    <player bet="82,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="84,000" addon="0" win="37,000"/>
+    <player bet="1,500" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="172,888" addon="0" win="0"/>
+    <player bet="1,500" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="1" chips="146,450" addon="0" win="0"/>
+    <player bet="6,500" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="88,500" addon="0" win="0"/>
+    <player bet="11,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="395,504" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="2" type="15" sum="1,500" player="Vidok112"/>
+   <action no="3" type="15" sum="1,500" player="vasco12"/>
+   <action no="4" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="5" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="6" type="15" sum="1,500" player="Snake292929"/>
+   <action no="7" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="8" type="15" sum="1,500" player="iyouwant"/>
+   <action no="9" type="1" sum="5,000" player="tropeiro123"/>
+   <action no="10" type="2" sum="10,000" player="Vidok112"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="vasco12">X X</cards>
+   <action no="11" type="0" sum="0" player="vasco12"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="12" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="13" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="14" type="23" sum="82,500" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="15" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="16" type="0" sum="0" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">D6 D8</cards>
+   <action no="17" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="18" type="0" sum="0" player="Vidok112"/>
+  </round>
+ </game>
+ <game gamecode="10558615363">
+  <general>
+   <startdate>2024-02-11 16:11:40</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="21,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="0" chips="97,000" addon="0" win="0"/>
+    <player bet="1,500" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="585,588" addon="0" win="0"/>
+    <player bet="1,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="159,829" addon="0" win="0"/>
+    <player bet="32,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="109,500" addon="0" win="57,000"/>
+    <player bet="1,500" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="171,388" addon="0" win="0"/>
+    <player bet="1,500" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="144,950" addon="0" win="0"/>
+    <player bet="1,500" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="1" chips="82,000" addon="0" win="0"/>
+    <player bet="6,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="384,004" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="Vidok112"/>
+   <action no="2" type="15" sum="1,500" player="vasco12"/>
+   <action no="3" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="4" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="5" type="15" sum="1,500" player="Snake292929"/>
+   <action no="6" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="7" type="15" sum="1,500" player="iyouwant"/>
+   <action no="8" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="9" type="1" sum="5,000" player="Vidok112"/>
+   <action no="10" type="2" sum="10,000" player="vasco12"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="11" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="12" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="13" type="23" sum="20,000" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="14" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="15" type="0" sum="0" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">S5 HJ</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="17" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="vasco12">X X</cards>
+   <action no="18" type="3" sum="10,000" player="vasco12"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 H8 HK</cards>
+   <action no="19" type="4" sum="0" player="vasco12"/>
+   <action no="20" type="5" sum="11,000" player="Snake292929"/>
+   <action no="21" type="0" sum="0" player="vasco12"/>
+  </round>
+ </game>
+ <game gamecode="10558615423">
+  <general>
+   <startdate>2024-02-11 16:13:04</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="6,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="0" chips="75,500" addon="0" win="0"/>
+    <player bet="11,500" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="584,088" addon="0" win="0"/>
+    <player bet="1,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="158,329" addon="0" win="0"/>
+    <player bet="21,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="145,000" addon="0" win="0"/>
+    <player bet="1,500" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="169,888" addon="0" win="0"/>
+    <player bet="141,950" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="143,450" addon="0" win="67,000"/>
+    <player bet="1,500" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="80,500" addon="0" win="0"/>
+    <player bet="1,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="1" chips="377,504" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="vasco12"/>
+   <action no="2" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="3" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="4" type="15" sum="1,500" player="Snake292929"/>
+   <action no="5" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="6" type="15" sum="1,500" player="iyouwant"/>
+   <action no="7" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="8" type="15" sum="1,500" player="Vidok112"/>
+   <action no="9" type="1" sum="5,000" player="vasco12"/>
+   <action no="10" type="2" sum="10,000" player="teacherpyramid6"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="11" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="12" type="23" sum="20,000" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="13" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="14" type="23" sum="141,950" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">C3 H9</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="16" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="vasco12">X X</cards>
+   <action no="17" type="0" sum="0" player="vasco12"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="18" type="0" sum="0" player="teacherpyramid6"/>
+   <action no="19" type="0" sum="0" player="Snake292929"/>
+  </round>
+ </game>
+ <game gamecode="10558615454">
+  <general>
+   <startdate>2024-02-11 16:13:43</startdate>
+   <smallblind>5,000</smallblind>
+   <bigblind>10,000</bigblind>
+   <ante>1,500</ante>
+   <players>
+    <player bet="1,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="1" chips="69,000" addon="0" win="0"/>
+    <player bet="21,500" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="572,588" addon="0" win="0"/>
+    <player bet="11,500" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="156,829" addon="0" win="0"/>
+    <player bet="1,500" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="123,500" addon="0" win="0"/>
+    <player bet="1,500" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="168,388" addon="0" win="0"/>
+    <player bet="35,760" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="188,950" addon="0" win="62,000"/>
+    <player bet="1,500" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="79,000" addon="0" win="0"/>
+    <player bet="1,500" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="376,004" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,500" player="teacherpyramid6"/>
+   <action no="2" type="15" sum="1,500" player="JirayaOninja"/>
+   <action no="3" type="15" sum="1,500" player="Snake292929"/>
+   <action no="4" type="15" sum="1,500" player="ILIKECHEEEESE"/>
+   <action no="5" type="15" sum="1,500" player="iyouwant"/>
+   <action no="6" type="15" sum="1,500" player="tropeiro123"/>
+   <action no="7" type="15" sum="1,500" player="Vidok112"/>
+   <action no="8" type="15" sum="1,500" player="vasco12"/>
+   <action no="9" type="1" sum="5,000" player="teacherpyramid6"/>
+   <action no="10" type="2" sum="10,000" player="JirayaOninja"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="11" type="0" sum="0" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="12" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="13" type="23" sum="20,000" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">D6 C5</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="15" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="vasco12">X X</cards>
+   <action no="16" type="0" sum="0" player="vasco12"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="17" type="3" sum="15,000" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="18" type="0" sum="0" player="JirayaOninja"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 C4 CK</cards>
+   <action no="19" type="4" sum="0" player="teacherpyramid6"/>
+   <action no="20" type="5" sum="14,260" player="iyouwant"/>
+   <action no="21" type="0" sum="0" player="teacherpyramid6"/>
+  </round>
+ </game>
+ <game gamecode="10558615513">
+  <general>
+   <startdate>2024-02-11 16:14:56</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="67,500" name="vasco12" reg_code="" rebuy="0" seat="1" dealer="0" chips="67,500" addon="0" win="0"/>
+    <player bet="1,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="1" chips="551,088" addon="0" win="0"/>
+    <player bet="7,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="145,329" addon="0" win="0"/>
+    <player bet="13,800" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="122,000" addon="0" win="0"/>
+    <player bet="1,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="166,888" addon="0" win="0"/>
+    <player bet="77,500" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="229,450" addon="0" win="0"/>
+    <player bet="75,700" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="77,500" addon="0" win="249,500"/>
+    <player bet="1,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="374,504" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="2" type="15" sum="1,800" player="Snake292929"/>
+   <action no="3" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="4" type="15" sum="1,800" player="iyouwant"/>
+   <action no="5" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="6" type="15" sum="1,800" player="Vidok112"/>
+   <action no="7" type="15" sum="1,800" player="vasco12"/>
+   <action no="8" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="9" type="1" sum="6,000" player="JirayaOninja"/>
+   <action no="10" type="2" sum="12,000" player="Snake292929"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="11" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">DA D6</cards>
+   <action no="12" type="23" sum="24,000" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">HK CA</cards>
+   <action no="13" type="23" sum="75,700" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="14" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="vasco12">HQ SK</cards>
+   <action no="15" type="7" sum="65,700" player="vasco12"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="16" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="17" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="18" type="0" sum="0" player="Snake292929"/>
+   <action no="19" type="3" sum="51,700" player="iyouwant"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 SA H8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+  </round>
+ </game>
+ <game gamecode="10558645788">
+  <general>
+   <startdate>2024-02-11 16:16:08</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="1,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="549,288" addon="0" win="0"/>
+    <player bet="1,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="1" chips="137,529" addon="0" win="0"/>
+    <player bet="7,800" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="108,200" addon="0" win="0"/>
+    <player bet="13,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="165,088" addon="0" win="0"/>
+    <player bet="1,800" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="151,950" addon="0" win="0"/>
+    <player bet="25,200" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="249,500" addon="0" win="42,600"/>
+    <player bet="1,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="372,704" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="Snake292929"/>
+   <action no="2" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="3" type="15" sum="1,800" player="iyouwant"/>
+   <action no="4" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="5" type="15" sum="1,800" player="Vidok112"/>
+   <action no="6" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="7" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="8" type="1" sum="6,000" player="Snake292929"/>
+   <action no="9" type="2" sum="12,000" player="ILIKECHEEEESE"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="iyouwant">X X</cards>
+   <action no="10" type="0" sum="0" player="iyouwant"/>
+   <cards type="Pocket" player="tropeiro123">D5 C6</cards>
+   <action no="11" type="23" sum="25,200" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="12" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="13" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="14" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="15" type="0" sum="0" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="16" type="0" sum="0" player="ILIKECHEEEESE"/>
+  </round>
+ </game>
+ <game gamecode="10558645825">
+  <general>
+   <startdate>2024-02-11 16:16:52</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="1,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="547,488" addon="0" win="0"/>
+    <player bet="1,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="135,729" addon="0" win="0"/>
+    <player bet="1,800" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="1" chips="100,400" addon="0" win="0"/>
+    <player bet="7,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="151,288" addon="0" win="0"/>
+    <player bet="148,350" name="iyouwant" reg_code="" rebuy="0" seat="7" dealer="0" chips="150,150" addon="0" win="0"/>
+    <player bet="1,800" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="278,300" addon="0" win="0"/>
+    <player bet="150,150" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="370,904" addon="0" win="315,300"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="2" type="15" sum="1,800" player="iyouwant"/>
+   <action no="3" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="4" type="15" sum="1,800" player="Vidok112"/>
+   <action no="5" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="6" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="7" type="15" sum="1,800" player="Snake292929"/>
+   <action no="8" type="1" sum="6,000" player="ILIKECHEEEESE"/>
+   <action no="9" type="2" sum="12,000" player="iyouwant"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H7 H3</cards>
+   <action no="10" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">DA CK</cards>
+   <action no="11" type="23" sum="24,000" player="Vidok112"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="12" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="13" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">X X</cards>
+   <action no="14" type="0" sum="0" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="15" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="iyouwant">D10 S10</cards>
+   <action no="16" type="23" sum="148,350" player="iyouwant"/>
+   <action no="17" type="3" sum="124,350" player="Vidok112"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 SJ S6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10558645864">
+  <general>
+   <startdate>2024-02-11 16:17:46</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="1,800" name="KingJamesI86" reg_code="" rebuy="0" seat="1" dealer="0" chips="137,300" addon="0" win="0"/>
+    <player bet="1,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="545,688" addon="0" win="0"/>
+    <player bet="1,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="133,929" addon="0" win="0"/>
+    <player bet="96,800" name="Snake292929" reg_code="" rebuy="0" seat="5" dealer="0" chips="98,600" addon="0" win="0"/>
+    <player bet="1,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="1" chips="143,488" addon="0" win="0"/>
+    <player bet="274,700" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="276,500" addon="0" win="236,200"/>
+    <player bet="31,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="536,054" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="2" type="15" sum="1,800" player="Vidok112"/>
+   <action no="3" type="15" sum="1,800" player="KingJamesI86"/>
+   <action no="4" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="5" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="6" type="15" sum="1,800" player="Snake292929"/>
+   <action no="7" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="8" type="2" sum="12,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="9" type="23" sum="30,000" player="Vidok112"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="10" type="0" sum="0" player="KingJamesI86"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="11" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="12" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="Snake292929">H10 C10</cards>
+   <action no="13" type="23" sum="96,800" player="Snake292929"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="14" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="tropeiro123">CQ HK</cards>
+   <action no="15" type="23" sum="274,700" player="tropeiro123"/>
+   <action no="16" type="0" sum="0" player="Vidok112"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 D4 DQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+  </round>
+ </game>
+ <game gamecode="10558645897">
+  <general>
+   <startdate>2024-02-11 16:18:31</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="13,800" name="KingJamesI86" reg_code="" rebuy="0" seat="1" dealer="0" chips="135,500" addon="0" win="0"/>
+    <player bet="1,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="543,888" addon="0" win="0"/>
+    <player bet="1,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="132,129" addon="0" win="0"/>
+    <player bet="139,888" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="141,688" addon="0" win="310,376"/>
+    <player bet="1,800" name="Occlumens" reg_code="" rebuy="0" seat="7" dealer="0" chips="352,707" addon="0" win="0"/>
+    <player bet="412,300" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="1" chips="414,100" addon="0" win="0"/>
+    <player bet="7,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="504,254" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="Vidok112"/>
+   <action no="2" type="15" sum="1,800" player="KingJamesI86"/>
+   <action no="3" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="4" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="5" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="6" type="15" sum="1,800" player="Occlumens"/>
+   <action no="7" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="8" type="1" sum="6,000" player="Vidok112"/>
+   <action no="9" type="2" sum="12,000" player="KingJamesI86"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="10" type="0" sum="0" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="11" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">DK SJ</cards>
+   <action no="12" type="23" sum="139,888" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="Occlumens">X X</cards>
+   <action no="13" type="0" sum="0" player="Occlumens"/>
+   <cards type="Pocket" player="tropeiro123">CA CJ</cards>
+   <action no="14" type="23" sum="412,300" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="15" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="16" type="0" sum="0" player="KingJamesI86"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ C9 H9</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+  </round>
+ </game>
+ <game gamecode="10558645923">
+  <general>
+   <startdate>2024-02-11 16:19:07</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="7,800" name="KingJamesI86" reg_code="" rebuy="0" seat="1" dealer="0" chips="121,700" addon="0" win="0"/>
+    <player bet="13,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="542,088" addon="0" win="0"/>
+    <player bet="1,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="130,329" addon="0" win="0"/>
+    <player bet="25,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="310,376" addon="0" win="0"/>
+    <player bet="1,800" name="Occlumens" reg_code="" rebuy="0" seat="7" dealer="0" chips="350,907" addon="0" win="0"/>
+    <player bet="60,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="272,412" addon="0" win="78,600"/>
+    <player bet="1,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="1" chips="496,454" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="KingJamesI86"/>
+   <action no="2" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="3" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="4" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="5" type="15" sum="1,800" player="Occlumens"/>
+   <action no="6" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="7" type="15" sum="1,800" player="Vidok112"/>
+   <action no="8" type="1" sum="6,000" player="KingJamesI86"/>
+   <action no="9" type="2" sum="12,000" player="teacherpyramid6"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="10" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="11" type="23" sum="24,000" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="Occlumens">X X</cards>
+   <action no="12" type="0" sum="0" player="Occlumens"/>
+   <cards type="Pocket" player="tropeiro123">HK CJ</cards>
+   <action no="13" type="23" sum="60,000" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="14" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="15" type="0" sum="0" player="KingJamesI86"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="16" type="0" sum="0" player="teacherpyramid6"/>
+   <action no="17" type="0" sum="0" player="ILIKECHEEEESE"/>
+  </round>
+ </game>
+ <game gamecode="10558645968">
+  <general>
+   <startdate>2024-02-11 16:20:00</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="1,800" name="KingJamesI86" reg_code="" rebuy="0" seat="1" dealer="1" chips="113,900" addon="0" win="0"/>
+    <player bet="61,800" name="teacherpyramid6" reg_code="" rebuy="0" seat="2" dealer="0" chips="528,288" addon="0" win="60,600"/>
+    <player bet="25,800" name="JirayaOninja" reg_code="" rebuy="0" seat="4" dealer="0" chips="128,529" addon="0" win="0"/>
+    <player bet="1,800" name="ILIKECHEEEESE" reg_code="" rebuy="0" seat="6" dealer="0" chips="284,576" addon="0" win="0"/>
+    <player bet="1,800" name="Occlumens" reg_code="" rebuy="0" seat="7" dealer="0" chips="349,107" addon="0" win="0"/>
+    <player bet="1,800" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="9" dealer="0" chips="325,212" addon="0" win="0"/>
+    <player bet="1,800" name="Vidok112" reg_code="" rebuy="0" seat="10" dealer="0" chips="494,654" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="teacherpyramid6"/>
+   <action no="2" type="15" sum="1,800" player="JirayaOninja"/>
+   <action no="3" type="15" sum="1,800" player="ILIKECHEEEESE"/>
+   <action no="4" type="15" sum="1,800" player="Occlumens"/>
+   <action no="5" type="15" sum="1,800" player="tropeiro123"/>
+   <action no="6" type="15" sum="1,800" player="Vidok112"/>
+   <action no="7" type="15" sum="1,800" player="KingJamesI86"/>
+   <action no="8" type="1" sum="6,000" player="teacherpyramid6"/>
+   <action no="9" type="2" sum="12,000" player="JirayaOninja"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ILIKECHEEEESE">X X</cards>
+   <action no="10" type="0" sum="0" player="ILIKECHEEEESE"/>
+   <cards type="Pocket" player="Occlumens">X X</cards>
+   <action no="11" type="0" sum="0" player="Occlumens"/>
+   <cards type="Pocket" player="tropeiro123">C3 C8</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="Vidok112">X X</cards>
+   <action no="13" type="0" sum="0" player="Vidok112"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="14" type="0" sum="0" player="KingJamesI86"/>
+   <cards type="Pocket" player="teacherpyramid6">X X</cards>
+   <action no="15" type="23" sum="24,000" player="teacherpyramid6"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="16" type="3" sum="12,000" player="JirayaOninja"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 H6 S10</cards>
+   <action no="17" type="5" sum="36,000" player="teacherpyramid6"/>
+   <action no="18" type="0" sum="0" player="JirayaOninja"/>
+  </round>
+ </game>
+ <game gamecode="10558646015">
+  <general>
+   <startdate>2024-02-11 16:21:03</startdate>
+   <smallblind>6,000</smallblind>
+   <bigblind>12,000</bigblind>
+   <ante>1,800</ante>
+   <players>
+    <player bet="13,800" name="sharksharp382" reg_code="" rebuy="0" seat="1" dealer="0" chips="362,919" addon="0" win="0"/>
+    <player bet="1,800" name="NoSlowrollpls" reg_code="" rebuy="0" seat="2" dealer="0" chips="236,081" addon="0" win="0"/>
+    <player bet="1,800" name="dreadass" reg_code="" rebuy="0" seat="4" dealer="0" chips="610,400" addon="0" win="0"/>
+    <player bet="167,600" name="SunRunAndylula" reg_code="" rebuy="0" seat="7" dealer="0" chips="169,400" addon="0" win="40,800"/>
+    <player bet="1,800" name="tkaj1" reg_code="" rebuy="0" seat="9" dealer="1" chips="672,334" addon="0" win="0"/>
+    <player bet="7,800" name="cHwHg77zH" reg_code="" rebuy="0" seat="10" dealer="0" chips="393,789" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="1,800" player="cHwHg77zH"/>
+   <action no="2" type="15" sum="1,800" player="sharksharp382"/>
+   <action no="3" type="15" sum="1,800" player="NoSlowrollpls"/>
+   <action no="4" type="15" sum="1,800" player="dreadass"/>
+   <action no="5" type="15" sum="1,800" player="SunRunAndylula"/>
+   <action no="6" type="15" sum="1,800" player="tkaj1"/>
+   <action no="7" type="1" sum="6,000" player="cHwHg77zH"/>
+   <action no="8" type="2" sum="12,000" player="sharksharp382"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="NoSlowrollpls">X X</cards>
+   <action no="9" type="0" sum="0" player="NoSlowrollpls"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="10" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action no="11" type="23" sum="167,600" player="SunRunAndylula"/>
+   <cards type="Pocket" player="tkaj1">X X</cards>
+   <action no="12" type="0" sum="0" player="tkaj1"/>
+   <cards type="Pocket" player="cHwHg77zH">X X</cards>
+   <action no="13" type="0" sum="0" player="cHwHg77zH"/>
+   <cards type="Pocket" player="sharksharp382">X X</cards>
+   <action no="14" type="0" sum="0" player="sharksharp382"/>
+  </round>
+ </game>
+ <game gamecode="10558646034">
+  <general>
+   <startdate>2024-02-11 16:21:32</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="9,100" name="sharksharp382" reg_code="" rebuy="0" seat="1" dealer="0" chips="349,119" addon="0" win="0"/>
+    <player bet="16,100" name="NoSlowrollpls" reg_code="" rebuy="0" seat="2" dealer="0" chips="234,281" addon="0" win="0"/>
+    <player bet="2,100" name="dreadass" reg_code="" rebuy="0" seat="4" dealer="0" chips="608,600" addon="0" win="0"/>
+    <player bet="2,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="5" dealer="0" chips="323,412" addon="0" win="0"/>
+    <player bet="2,100" name="KingJamesI86" reg_code="" rebuy="0" seat="6" dealer="0" chips="112,100" addon="0" win="0"/>
+    <player bet="2,100" name="SunRunAndylula" reg_code="" rebuy="0" seat="7" dealer="0" chips="196,400" addon="0" win="0"/>
+    <player bet="34,900" name="tkaj1" reg_code="" rebuy="0" seat="9" dealer="0" chips="670,534" addon="0" win="51,800"/>
+    <player bet="2,100" name="cHwHg77zH" reg_code="" rebuy="0" seat="10" dealer="1" chips="385,989" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="sharksharp382"/>
+   <action no="2" type="15" sum="2,100" player="NoSlowrollpls"/>
+   <action no="3" type="15" sum="2,100" player="dreadass"/>
+   <action no="4" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="5" type="15" sum="2,100" player="KingJamesI86"/>
+   <action no="6" type="15" sum="2,100" player="SunRunAndylula"/>
+   <action no="7" type="15" sum="2,100" player="tkaj1"/>
+   <action no="8" type="15" sum="2,100" player="cHwHg77zH"/>
+   <action no="9" type="1" sum="7,000" player="sharksharp382"/>
+   <action no="10" type="2" sum="14,000" player="NoSlowrollpls"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="11" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="tropeiro123">C4 C6</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="13" type="0" sum="0" player="KingJamesI86"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action no="14" type="0" sum="0" player="SunRunAndylula"/>
+   <cards type="Pocket" player="tkaj1">X X</cards>
+   <action no="15" type="23" sum="34,900" player="tkaj1"/>
+   <cards type="Pocket" player="cHwHg77zH">X X</cards>
+   <action no="16" type="0" sum="0" player="cHwHg77zH"/>
+   <cards type="Pocket" player="sharksharp382">X X</cards>
+   <action no="17" type="0" sum="0" player="sharksharp382"/>
+   <cards type="Pocket" player="NoSlowrollpls">X X</cards>
+   <action no="18" type="0" sum="0" player="NoSlowrollpls"/>
+  </round>
+ </game>
+ <game gamecode="10558646070">
+  <general>
+   <startdate>2024-02-11 16:22:15</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="sharksharp382" reg_code="" rebuy="0" seat="1" dealer="1" chips="340,019" addon="0" win="0"/>
+    <player bet="9,100" name="NoSlowrollpls" reg_code="" rebuy="0" seat="2" dealer="0" chips="218,181" addon="0" win="0"/>
+    <player bet="162,750" name="dreadass" reg_code="" rebuy="0" seat="4" dealer="0" chips="606,500" addon="0" win="0"/>
+    <player bet="2,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="5" dealer="0" chips="321,312" addon="0" win="0"/>
+    <player bet="2,100" name="KingJamesI86" reg_code="" rebuy="0" seat="6" dealer="0" chips="110,000" addon="0" win="0"/>
+    <player bet="2,100" name="SunRunAndylula" reg_code="" rebuy="0" seat="7" dealer="0" chips="194,300" addon="0" win="0"/>
+    <player bet="16,100" name="tkaj1" reg_code="" rebuy="0" seat="9" dealer="0" chips="706,234" addon="0" win="0"/>
+    <player bet="162,750" name="cHwHg77zH" reg_code="" rebuy="0" seat="10" dealer="0" chips="383,889" addon="0" win="359,100"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="NoSlowrollpls"/>
+   <action no="2" type="15" sum="2,100" player="dreadass"/>
+   <action no="3" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="4" type="15" sum="2,100" player="KingJamesI86"/>
+   <action no="5" type="15" sum="2,100" player="SunRunAndylula"/>
+   <action no="6" type="15" sum="2,100" player="tkaj1"/>
+   <action no="7" type="15" sum="2,100" player="cHwHg77zH"/>
+   <action no="8" type="15" sum="2,100" player="sharksharp382"/>
+   <action no="9" type="1" sum="7,000" player="NoSlowrollpls"/>
+   <action no="10" type="2" sum="14,000" player="dreadass"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">D8 S3</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="12" type="0" sum="0" player="KingJamesI86"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action no="13" type="0" sum="0" player="SunRunAndylula"/>
+   <cards type="Pocket" player="tkaj1">X X</cards>
+   <action no="14" type="3" sum="14,000" player="tkaj1"/>
+   <cards type="Pocket" player="cHwHg77zH">CK C10</cards>
+   <action no="15" type="23" sum="47,600" player="cHwHg77zH"/>
+   <cards type="Pocket" player="sharksharp382">X X</cards>
+   <action no="16" type="0" sum="0" player="sharksharp382"/>
+   <cards type="Pocket" player="NoSlowrollpls">X X</cards>
+   <action no="17" type="0" sum="0" player="NoSlowrollpls"/>
+   <cards type="Pocket" player="dreadass">H7 HK</cards>
+   <action no="18" type="3" sum="33,600" player="dreadass"/>
+   <action no="19" type="0" sum="0" player="tkaj1"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ H10 H2</cards>
+   <action no="20" type="4" sum="0" player="dreadass"/>
+   <action no="21" type="5" sum="33,250" player="cHwHg77zH"/>
+   <action no="22" type="3" sum="33,250" player="dreadass"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+   <action no="23" type="4" sum="0" player="dreadass"/>
+   <action no="24" type="5" sum="79,800" player="cHwHg77zH"/>
+   <action no="25" type="3" sum="79,800" player="dreadass"/>
+  </round>
+  <round no="4">
+   <cards type="River">C6</cards>
+   <action no="26" type="4" sum="0" player="dreadass"/>
+   <action no="27" type="4" sum="0" player="cHwHg77zH"/>
+  </round>
+ </game>
+ <game gamecode="10558646144">
+  <general>
+   <startdate>2024-02-11 16:24:01</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="NoSlowrollpls" reg_code="" rebuy="0" seat="2" dealer="1" chips="209,081" addon="0" win="0"/>
+    <player bet="9,100" name="dreadass" reg_code="" rebuy="0" seat="4" dealer="0" chips="443,750" addon="0" win="0"/>
+    <player bet="16,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="5" dealer="0" chips="319,212" addon="0" win="0"/>
+    <player bet="105,800" name="KingJamesI86" reg_code="" rebuy="0" seat="6" dealer="0" chips="107,900" addon="0" win="49,700"/>
+    <player bet="2,100" name="SunRunAndylula" reg_code="" rebuy="0" seat="7" dealer="0" chips="192,200" addon="0" win="0"/>
+    <player bet="2,100" name="tkaj1" reg_code="" rebuy="0" seat="9" dealer="0" chips="690,134" addon="0" win="0"/>
+    <player bet="2,100" name="cHwHg77zH" reg_code="" rebuy="0" seat="10" dealer="0" chips="580,239" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="dreadass"/>
+   <action no="2" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="3" type="15" sum="2,100" player="KingJamesI86"/>
+   <action no="4" type="15" sum="2,100" player="SunRunAndylula"/>
+   <action no="5" type="15" sum="2,100" player="tkaj1"/>
+   <action no="6" type="15" sum="2,100" player="cHwHg77zH"/>
+   <action no="7" type="15" sum="2,100" player="NoSlowrollpls"/>
+   <action no="8" type="1" sum="7,000" player="dreadass"/>
+   <action no="9" type="2" sum="14,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="KingJamesI86">X X</cards>
+   <action no="10" type="23" sum="105,800" player="KingJamesI86"/>
+   <cards type="Pocket" player="SunRunAndylula">X X</cards>
+   <action no="11" type="0" sum="0" player="SunRunAndylula"/>
+   <cards type="Pocket" player="tkaj1">X X</cards>
+   <action no="12" type="0" sum="0" player="tkaj1"/>
+   <cards type="Pocket" player="cHwHg77zH">X X</cards>
+   <action no="13" type="0" sum="0" player="cHwHg77zH"/>
+   <cards type="Pocket" player="NoSlowrollpls">X X</cards>
+   <action no="14" type="0" sum="0" player="NoSlowrollpls"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="15" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="tropeiro123">D2 SK</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558646126">
+  <general>
+   <startdate>2024-02-11 16:23:40</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="467,012" addon="0" win="0"/>
+    <player bet="29,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="501,090" addon="0" win="49,700"/>
+    <player bet="2,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="124,700" addon="0" win="0"/>
+    <player bet="2,100" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="1" chips="557,451" addon="0" win="0"/>
+    <player bet="9,100" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="153,500" addon="0" win="0"/>
+    <player bet="16,100" name="Krojjje" reg_code="" rebuy="0" seat="9" dealer="0" chips="62,700" addon="0" win="0"/>
+    <player bet="2,100" name="Lebronen" reg_code="" rebuy="0" seat="10" dealer="0" chips="102,200" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="2" type="15" sum="2,100" player="Krojjje"/>
+   <action no="3" type="15" sum="2,100" player="Lebronen"/>
+   <action no="4" type="15" sum="2,100" player="futurechamp"/>
+   <action no="5" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="6" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="7" type="15" sum="2,100" player="bugpink49"/>
+   <action no="8" type="1" sum="7,000" player="HorseOutside"/>
+   <action no="9" type="2" sum="14,000" player="Krojjje"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="10" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="12" type="23" sum="29,400" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="13" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="14" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">X X</cards>
+   <action no="15" type="0" sum="0" player="HorseOutside"/>
+   <cards type="Pocket" player="Krojjje">X X</cards>
+   <action no="16" type="0" sum="0" player="Krojjje"/>
+  </round>
+ </game>
+ <game gamecode="10558646170">
+  <general>
+   <startdate>2024-02-11 16:24:44</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="464,912" addon="0" win="0"/>
+    <player bet="2,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="303,112" addon="0" win="0"/>
+    <player bet="2,100" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="534,690" addon="0" win="0"/>
+    <player bet="2,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="122,600" addon="0" win="0"/>
+    <player bet="2,100" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="555,351" addon="0" win="0"/>
+    <player bet="142,300" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="1" chips="144,400" addon="0" win="109,900"/>
+    <player bet="9,100" name="Krojjje" reg_code="" rebuy="0" seat="9" dealer="0" chips="46,600" addon="0" win="0"/>
+    <player bet="100,100" name="Lebronen" reg_code="" rebuy="0" seat="10" dealer="0" chips="100,100" addon="0" win="109,900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="Krojjje"/>
+   <action no="2" type="15" sum="2,100" player="Lebronen"/>
+   <action no="3" type="15" sum="2,100" player="futurechamp"/>
+   <action no="4" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="5" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="6" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="7" type="15" sum="2,100" player="bugpink49"/>
+   <action no="8" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="9" type="1" sum="7,000" player="Krojjje"/>
+   <action no="10" type="2" sum="14,000" player="Lebronen"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">S6 HA</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="13" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="15" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">DA S3</cards>
+   <action no="16" type="23" sum="142,300" player="HorseOutside"/>
+   <cards type="Pocket" player="Krojjje">X X</cards>
+   <action no="17" type="0" sum="0" player="Krojjje"/>
+   <cards type="Pocket" player="Lebronen">SK D7</cards>
+   <action no="18" type="7" sum="84,000" player="Lebronen"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 D3 CA</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D5</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+  </round>
+ </game>
+ <game gamecode="10558646210">
+  <general>
+   <startdate>2024-02-11 16:25:53</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="16,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="462,812" addon="0" win="0"/>
+    <player bet="2,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="301,012" addon="0" win="0"/>
+    <player bet="29,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="532,590" addon="0" win="51,800"/>
+    <player bet="2,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="120,500" addon="0" win="0"/>
+    <player bet="2,100" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="553,251" addon="0" win="0"/>
+    <player bet="2,100" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="154,200" addon="0" win="0"/>
+    <player bet="2,100" name="Krojjje" reg_code="" rebuy="0" seat="9" dealer="1" chips="37,500" addon="0" win="0"/>
+    <player bet="9,100" name="Lebronen" reg_code="" rebuy="0" seat="10" dealer="0" chips="109,900" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="Lebronen"/>
+   <action no="2" type="15" sum="2,100" player="futurechamp"/>
+   <action no="3" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="4" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="5" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="6" type="15" sum="2,100" player="bugpink49"/>
+   <action no="7" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="8" type="15" sum="2,100" player="Krojjje"/>
+   <action no="9" type="1" sum="7,000" player="Lebronen"/>
+   <action no="10" type="2" sum="14,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C10 S4</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="12" type="23" sum="29,400" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="13" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="14" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">X X</cards>
+   <action no="15" type="0" sum="0" player="HorseOutside"/>
+   <cards type="Pocket" player="Krojjje">X X</cards>
+   <action no="16" type="0" sum="0" player="Krojjje"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="17" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="18" type="0" sum="0" player="futurechamp"/>
+  </round>
+ </game>
+ <game gamecode="10558646229">
+  <general>
+   <startdate>2024-02-11 16:26:20</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="9,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="446,712" addon="0" win="0"/>
+    <player bet="16,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="298,912" addon="0" win="0"/>
+    <player bet="2,100" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="568,290" addon="0" win="0"/>
+    <player bet="2,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="118,400" addon="0" win="0"/>
+    <player bet="35,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="551,151" addon="0" win="51,800"/>
+    <player bet="2,100" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="152,100" addon="0" win="0"/>
+    <player bet="2,100" name="Krojjje" reg_code="" rebuy="0" seat="9" dealer="0" chips="35,400" addon="0" win="0"/>
+    <player bet="2,100" name="Lebronen" reg_code="" rebuy="0" seat="10" dealer="1" chips="100,800" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="futurechamp"/>
+   <action no="2" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="3" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="4" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="5" type="15" sum="2,100" player="bugpink49"/>
+   <action no="6" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="7" type="15" sum="2,100" player="Krojjje"/>
+   <action no="8" type="15" sum="2,100" player="Lebronen"/>
+   <action no="9" type="1" sum="7,000" player="futurechamp"/>
+   <action no="10" type="2" sum="14,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="11" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="12" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="13" type="23" sum="35,000" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">X X</cards>
+   <action no="14" type="0" sum="0" player="HorseOutside"/>
+   <cards type="Pocket" player="Krojjje">X X</cards>
+   <action no="15" type="0" sum="0" player="Krojjje"/>
+   <cards type="Pocket" player="Lebronen">X X</cards>
+   <action no="16" type="0" sum="0" player="Lebronen"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="17" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">C7 DJ</cards>
+   <action no="18" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558646255">
+  <general>
+   <startdate>2024-02-11 16:26:52</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="1" chips="437,612" addon="0" win="0"/>
+    <player bet="9,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="282,812" addon="0" win="0"/>
+    <player bet="16,100" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="566,190" addon="0" win="0"/>
+    <player bet="2,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="116,300" addon="0" win="0"/>
+    <player bet="98,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="586,851" addon="0" win="262,200"/>
+    <player bet="2,100" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="150,000" addon="0" win="0"/>
+    <player bet="31,200" name="Krojjje" reg_code="" rebuy="0" seat="9" dealer="0" chips="33,300" addon="0" win="0"/>
+    <player bet="96,600" name="Lebronen" reg_code="" rebuy="0" seat="10" dealer="0" chips="98,700" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="2" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="3" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="4" type="15" sum="2,100" player="bugpink49"/>
+   <action no="5" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="6" type="15" sum="2,100" player="Krojjje"/>
+   <action no="7" type="15" sum="2,100" player="Lebronen"/>
+   <action no="8" type="15" sum="2,100" player="futurechamp"/>
+   <action no="9" type="1" sum="7,000" player="tropeiro123"/>
+   <action no="10" type="2" sum="14,000" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">CK H10</cards>
+   <action no="12" type="3" sum="14,000" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">X X</cards>
+   <action no="13" type="0" sum="0" player="HorseOutside"/>
+   <cards type="Pocket" player="Krojjje">C10 CA</cards>
+   <action no="14" type="23" sum="31,200" player="Krojjje"/>
+   <cards type="Pocket" player="Lebronen">DA DK</cards>
+   <action no="15" type="23" sum="96,600" player="Lebronen"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="16" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">D2 SK</cards>
+   <action no="17" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="18" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <action no="19" type="3" sum="82,600" player="bugpink49"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 D10 HQ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HK</cards>
+  </round>
+ </game>
+ <game gamecode="10558673740">
+  <general>
+   <startdate>2024-02-11 16:27:49</startdate>
+   <smallblind>7,000</smallblind>
+   <bigblind>14,000</bigblind>
+   <ante>2,100</ante>
+   <players>
+    <player bet="2,100" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="435,512" addon="0" win="0"/>
+    <player bet="2,100" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="1" chips="273,712" addon="0" win="0"/>
+    <player bet="9,100" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="550,090" addon="0" win="0"/>
+    <player bet="16,100" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="114,200" addon="0" win="0"/>
+    <player bet="42,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="750,351" addon="0" win="47,600"/>
+    <player bet="2,100" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="147,900" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,100" player="IGotDatDawgInMe"/>
+   <action no="2" type="15" sum="2,100" player="gizcomcoca"/>
+   <action no="3" type="15" sum="2,100" player="bugpink49"/>
+   <action no="4" type="15" sum="2,100" player="HorseOutside"/>
+   <action no="5" type="15" sum="2,100" player="futurechamp"/>
+   <action no="6" type="15" sum="2,100" player="tropeiro123"/>
+   <action no="7" type="1" sum="7,000" player="IGotDatDawgInMe"/>
+   <action no="8" type="2" sum="14,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="9" type="23" sum="42,000" player="bugpink49"/>
+   <cards type="Pocket" player="HorseOutside">X X</cards>
+   <action no="10" type="0" sum="0" player="HorseOutside"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CQ D9</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="13" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+  </round>
+ </game>
+ <game gamecode="10558673762">
+  <general>
+   <startdate>2024-02-11 16:28:18</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="433,412" addon="0" win="0"/>
+    <player bet="271,612" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="271,612" addon="0" win="327,600"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="1" chips="540,990" addon="0" win="0"/>
+    <player bet="10,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="98,100" addon="0" win="0"/>
+    <player bet="18,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="781,851" addon="0" win="0"/>
+    <player bet="143,400" name="HorseOutside" reg_code="" rebuy="0" seat="7" dealer="0" chips="145,800" addon="0" win="0"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="94,054" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="2" type="15" sum="2,400" player="bugpink49"/>
+   <action no="3" type="15" sum="2,400" player="HorseOutside"/>
+   <action no="4" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="5" type="15" sum="2,400" player="futurechamp"/>
+   <action no="6" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="7" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="8" type="1" sum="8,000" player="gizcomcoca"/>
+   <action no="9" type="2" sum="16,000" player="bugpink49"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="HorseOutside">S7 S5</cards>
+   <action no="10" type="23" sum="143,400" player="HorseOutside"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="11" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="12" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">C10 H10</cards>
+   <action no="13" type="7" sum="269,212" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="14" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="15" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="16" type="0" sum="0" player="bugpink49"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ D5 C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+  </round>
+ </game>
+ <game gamecode="10558673786">
+  <general>
+   <startdate>2024-02-11 16:28:54</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="431,012" addon="0" win="0"/>
+    <player bet="33,600" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="453,412" addon="0" win="56,800"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="538,590" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="1" chips="87,700" addon="0" win="0"/>
+    <player bet="10,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="763,451" addon="0" win="0"/>
+    <player bet="18,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="202,551" addon="0" win="0"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="91,654" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="bugpink49"/>
+   <action no="2" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="3" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="4" type="15" sum="2,400" player="futurechamp"/>
+   <action no="5" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="6" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="7" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="8" type="1" sum="8,000" player="bugpink49"/>
+   <action no="9" type="2" sum="16,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="10" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">D9 DK</cards>
+   <action no="12" type="23" sum="33,600" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="13" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="15" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="16" type="0" sum="0" player="InTrussWeTrust"/>
+  </round>
+ </game>
+ <game gamecode="10558673801">
+  <general>
+   <startdate>2024-02-11 16:29:19</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="428,612" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="491,812" addon="0" win="0"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="536,190" addon="0" win="0"/>
+    <player bet="82,900" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="85,300" addon="0" win="198,600"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="1" chips="753,051" addon="0" win="0"/>
+    <player bet="181,751" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="184,151" addon="0" win="0"/>
+    <player bet="18,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="89,254" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="3" type="15" sum="2,400" player="futurechamp"/>
+   <action no="4" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="5" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="6" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="7" type="15" sum="2,400" player="bugpink49"/>
+   <action no="8" type="1" sum="8,000" player="InTrussWeTrust"/>
+   <action no="9" type="2" sum="16,000" player="ttvWeddePoker"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="10" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">S6 S8</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="12" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">HA C9</cards>
+   <action no="13" type="23" sum="82,900" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="14" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">HK CQ</cards>
+   <action no="15" type="23" sum="181,751" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="16" type="0" sum="0" player="ttvWeddePoker"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 S7 S2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+  </round>
+ </game>
+ <game gamecode="10558673826">
+  <general>
+   <startdate>2024-02-11 16:29:55</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="18,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="426,212" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="489,412" addon="0" win="0"/>
+    <player bet="36,000" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="533,790" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="198,600" addon="0" win="0"/>
+    <player bet="131,200" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="750,651" addon="0" win="108,000"/>
+    <player bet="2,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="1" chips="98,851" addon="0" win="0"/>
+    <player bet="10,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="70,854" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="2" type="15" sum="2,400" player="futurechamp"/>
+   <action no="3" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="4" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="5" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="6" type="15" sum="2,400" player="bugpink49"/>
+   <action no="7" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="8,000" player="ttvWeddePoker"/>
+   <action no="9" type="2" sum="16,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">C4 DQ</cards>
+   <action no="10" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="11" type="23" sum="33,600" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="12" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="13" type="23" sum="131,200" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="15" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="16" type="0" sum="0" player="futurechamp"/>
+   <action no="17" type="0" sum="0" player="IGotDatDawgInMe"/>
+  </round>
+ </game>
+ <game gamecode="10558673849">
+  <general>
+   <startdate>2024-02-11 16:30:33</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="405,412" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="407,812" addon="0" win="100,000"/>
+    <player bet="18,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="487,012" addon="0" win="0"/>
+    <player bet="36,000" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="497,790" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="196,200" addon="0" win="0"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="822,651" addon="0" win="0"/>
+    <player bet="2,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="96,451" addon="0" win="0"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="1" chips="60,454" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="futurechamp"/>
+   <action no="2" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="3" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="4" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="5" type="15" sum="2,400" player="bugpink49"/>
+   <action no="6" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="8" type="1" sum="8,000" player="futurechamp"/>
+   <action no="9" type="2" sum="16,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="10" type="23" sum="33,600" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="14" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="15" type="23" sum="405,412" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">SQ C6</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+   <action no="17" type="0" sum="0" player="IGotDatDawgInMe"/>
+  </round>
+ </game>
+ <game gamecode="10558673863">
+  <general>
+   <startdate>2024-02-11 16:30:55</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="1" chips="471,812" addon="0" win="0"/>
+    <player bet="10,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="468,612" addon="0" win="0"/>
+    <player bet="18,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="461,790" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="193,800" addon="0" win="0"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="820,251" addon="0" win="0"/>
+    <player bet="91,651" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="94,051" addon="0" win="56,800"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="58,054" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="2" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="3" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="4" type="15" sum="2,400" player="bugpink49"/>
+   <action no="5" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="6" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="7" type="15" sum="2,400" player="futurechamp"/>
+   <action no="8" type="1" sum="8,000" player="tropeiro123"/>
+   <action no="9" type="2" sum="16,000" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="10" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="11" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="12" type="23" sum="91,651" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="13" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">H4 SK</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="16" type="0" sum="0" player="IGotDatDawgInMe"/>
+  </round>
+ </game>
+ <game gamecode="10558673895">
+  <general>
+   <startdate>2024-02-11 16:31:41</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="469,412" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="1" chips="458,212" addon="0" win="0"/>
+    <player bet="10,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="443,390" addon="0" win="0"/>
+    <player bet="18,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="191,400" addon="0" win="0"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="817,851" addon="0" win="0"/>
+    <player bet="130,051" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="132,451" addon="0" win="56,800"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="55,654" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="2" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="3" type="15" sum="2,400" player="bugpink49"/>
+   <action no="4" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="5" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="6" type="15" sum="2,400" player="futurechamp"/>
+   <action no="7" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="8" type="1" sum="8,000" player="IGotDatDawgInMe"/>
+   <action no="9" type="2" sum="16,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="10" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="11" type="23" sum="130,051" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="12" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="13" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">SK S6</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="15" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="16" type="0" sum="0" player="gizcomcoca"/>
+  </round>
+ </game>
+ <game gamecode="10558673917">
+  <general>
+   <startdate>2024-02-11 16:32:03</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="467,012" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="455,812" addon="0" win="0"/>
+    <player bet="32,000" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="1" chips="432,990" addon="0" win="56,800"/>
+    <player bet="10,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="173,000" addon="0" win="0"/>
+    <player bet="18,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="815,451" addon="0" win="0"/>
+    <player bet="2,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="170,851" addon="0" win="0"/>
+    <player bet="2,400" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="53,254" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="2" type="15" sum="2,400" player="bugpink49"/>
+   <action no="3" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="4" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="5" type="15" sum="2,400" player="futurechamp"/>
+   <action no="6" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="7" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="8" type="1" sum="8,000" player="gizcomcoca"/>
+   <action no="9" type="2" sum="16,000" player="bugpink49"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="10" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="ttvWeddePoker">X X</cards>
+   <action no="11" type="0" sum="0" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="12" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">D3 HJ</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="14" type="23" sum="32,000" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="15" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="16" type="0" sum="0" player="bugpink49"/>
+  </round>
+ </game>
+ <game gamecode="10558673942">
+  <general>
+   <startdate>2024-02-11 16:32:40</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="464,612" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="453,412" addon="0" win="0"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="471,390" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="1" chips="162,600" addon="0" win="0"/>
+    <player bet="10,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="797,051" addon="0" win="0"/>
+    <player bet="50,854" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="168,451" addon="0" win="121,708"/>
+    <player bet="48,454" name="ttvWeddePoker" reg_code="" rebuy="0" seat="10" dealer="0" chips="50,854" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="bugpink49"/>
+   <action no="2" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="3" type="15" sum="2,400" player="ttvWeddePoker"/>
+   <action no="4" type="15" sum="2,400" player="futurechamp"/>
+   <action no="5" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="6" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="7" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="8" type="1" sum="8,000" player="bugpink49"/>
+   <action no="9" type="2" sum="16,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="ttvWeddePoker">D3 DK</cards>
+   <action no="10" type="23" sum="48,454" player="ttvWeddePoker"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CK S8</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="13" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="15" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">SJ S10</cards>
+   <action no="16" type="3" sum="32,454" player="InTrussWeTrust"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C2 H6 HJ</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">CA</cards>
+  </round>
+ </game>
+ <game gamecode="10558673972">
+  <general>
+   <startdate>2024-02-11 16:33:25</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="18,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="462,212" addon="0" win="0"/>
+    <player bet="2,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="451,012" addon="0" win="0"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="468,990" addon="0" win="0"/>
+    <player bet="157,800" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="160,200" addon="0" win="54,400"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="1" chips="786,651" addon="0" win="0"/>
+    <player bet="10,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="239,305" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="2,400" player="futurechamp"/>
+   <action no="3" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="4" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="5" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="6" type="15" sum="2,400" player="bugpink49"/>
+   <action no="7" type="1" sum="8,000" player="InTrussWeTrust"/>
+   <action no="8" type="2" sum="16,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">H8 D4</cards>
+   <action no="9" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="10" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="23" sum="157,800" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="0" sum="0" player="futurechamp"/>
+  </round>
+ </game>
+ <game gamecode="10558673994">
+  <general>
+   <startdate>2024-02-11 16:33:56</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="441,412" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="443,812" addon="0" win="128,800"/>
+    <player bet="58,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="448,612" addon="0" win="0"/>
+    <player bet="2,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="466,590" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="196,200" addon="0" win="0"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="784,251" addon="0" win="0"/>
+    <player bet="2,400" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="554,087" addon="0" win="0"/>
+    <player bet="2,400" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="1" chips="228,905" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="futurechamp"/>
+   <action no="2" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="3" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="4" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="5" type="15" sum="2,400" player="bugpink49"/>
+   <action no="6" type="15" sum="2,400" player="Vaihdoinnimen"/>
+   <action no="7" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="8,000" player="futurechamp"/>
+   <action no="9" type="2" sum="16,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="10" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="Vaihdoinnimen">X X</cards>
+   <action no="13" type="0" sum="0" player="Vaihdoinnimen"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="15" type="3" sum="8,000" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">H2 C5</cards>
+   <action no="16" type="23" sum="56,000" player="tropeiro123"/>
+   <action no="17" type="23" sum="441,412" player="futurechamp"/>
+   <action no="18" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558674032">
+  <general>
+   <startdate>2024-02-11 16:34:53</startdate>
+   <smallblind>8,000</smallblind>
+   <bigblind>16,000</bigblind>
+   <ante>2,400</ante>
+   <players>
+    <player bet="2,400" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="1" chips="514,212" addon="0" win="0"/>
+    <player bet="10,400" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="390,212" addon="0" win="0"/>
+    <player bet="18,400" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="464,190" addon="0" win="0"/>
+    <player bet="2,400" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="193,800" addon="0" win="0"/>
+    <player bet="2,400" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="781,851" addon="0" win="0"/>
+    <player bet="36,000" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="551,687" addon="0" win="0"/>
+    <player bet="224,105" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="226,505" addon="0" win="108,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,400" player="tropeiro123"/>
+   <action no="2" type="15" sum="2,400" player="IGotDatDawgInMe"/>
+   <action no="3" type="15" sum="2,400" player="gizcomcoca"/>
+   <action no="4" type="15" sum="2,400" player="bugpink49"/>
+   <action no="5" type="15" sum="2,400" player="Vaihdoinnimen"/>
+   <action no="6" type="15" sum="2,400" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="2,400" player="futurechamp"/>
+   <action no="8" type="1" sum="8,000" player="tropeiro123"/>
+   <action no="9" type="2" sum="16,000" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="10" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="11" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="Vaihdoinnimen">X X</cards>
+   <action no="12" type="23" sum="33,600" player="Vaihdoinnimen"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="23" sum="224,105" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">H6 C3</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="16" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <action no="17" type="0" sum="0" player="Vaihdoinnimen"/>
+  </round>
+ </game>
+ <game gamecode="10558674056">
+  <general>
+   <startdate>2024-02-11 16:35:26</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="2,700" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="511,812" addon="0" win="0"/>
+    <player bet="2,700" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="1" chips="379,812" addon="0" win="0"/>
+    <player bet="72,963" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="445,790" addon="0" win="195,426"/>
+    <player bet="38,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="191,400" addon="0" win="0"/>
+    <player bet="2,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="779,451" addon="0" win="0"/>
+    <player bet="72,963" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="515,687" addon="0" win="0"/>
+    <player bet="2,700" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="298,505" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="2" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="3" type="15" sum="2,700" player="bugpink49"/>
+   <action no="4" type="15" sum="2,700" player="Vaihdoinnimen"/>
+   <action no="5" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="6" type="15" sum="2,700" player="futurechamp"/>
+   <action no="7" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="8" type="1" sum="9,000" player="IGotDatDawgInMe"/>
+   <action no="9" type="2" sum="18,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="10" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="Vaihdoinnimen">DQ DA</cards>
+   <action no="11" type="23" sum="36,000" player="Vaihdoinnimen"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="12" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="13" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CJ C7</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">D7 H7</cards>
+   <action no="15" type="3" sum="27,000" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="16" type="3" sum="18,000" player="gizcomcoca"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 DK S5</cards>
+   <action no="17" type="4" sum="0" player="IGotDatDawgInMe"/>
+   <action no="18" type="4" sum="0" player="gizcomcoca"/>
+   <action no="19" type="5" sum="34,263" player="Vaihdoinnimen"/>
+   <action no="20" type="3" sum="34,263" player="IGotDatDawgInMe"/>
+   <action no="21" type="0" sum="0" player="gizcomcoca"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S10</cards>
+   <action no="22" type="4" sum="0" player="IGotDatDawgInMe"/>
+   <action no="23" type="4" sum="0" player="Vaihdoinnimen"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action no="24" type="4" sum="0" player="IGotDatDawgInMe"/>
+   <action no="25" type="4" sum="0" player="Vaihdoinnimen"/>
+  </round>
+ </game>
+ <game gamecode="10558674141">
+  <general>
+   <startdate>2024-02-11 16:37:19</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="2,700" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="509,112" addon="0" win="0"/>
+    <player bet="374,412" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="377,112" addon="0" win="794,724"/>
+    <player bet="377,112" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="1" chips="568,253" addon="0" win="0"/>
+    <player bet="11,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="152,700" addon="0" win="0"/>
+    <player bet="20,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="776,751" addon="0" win="0"/>
+    <player bet="2,700" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="442,724" addon="0" win="0"/>
+    <player bet="2,700" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="295,805" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="2" type="15" sum="2,700" player="bugpink49"/>
+   <action no="3" type="15" sum="2,700" player="Vaihdoinnimen"/>
+   <action no="4" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="5" type="15" sum="2,700" player="futurechamp"/>
+   <action no="6" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="7" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="8" type="1" sum="9,000" player="gizcomcoca"/>
+   <action no="9" type="2" sum="18,000" player="bugpink49"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Vaihdoinnimen">X X</cards>
+   <action no="10" type="0" sum="0" player="Vaihdoinnimen"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="11" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="12" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CJ DJ</cards>
+   <action no="13" type="23" sum="37,800" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">SQ HA</cards>
+   <action no="14" type="23" sum="111,600" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="15" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="16" type="0" sum="0" player="bugpink49"/>
+   <action no="17" type="23" sum="374,412" player="tropeiro123"/>
+   <action no="18" type="3" sum="262,812" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D9 CK D5</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+  </round>
+ </game>
+ <game gamecode="10558674180">
+  <general>
+   <startdate>2024-02-11 16:38:13</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="2,700" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="506,412" addon="0" win="0"/>
+    <player bet="37,800" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="794,724" addon="0" win="63,900"/>
+    <player bet="2,700" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="191,141" addon="0" win="0"/>
+    <player bet="2,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="1" chips="141,000" addon="0" win="0"/>
+    <player bet="11,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="756,051" addon="0" win="0"/>
+    <player bet="20,700" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="440,024" addon="0" win="0"/>
+    <player bet="2,700" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="293,105" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="bugpink49"/>
+   <action no="2" type="15" sum="2,700" player="Vaihdoinnimen"/>
+   <action no="3" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="4" type="15" sum="2,700" player="futurechamp"/>
+   <action no="5" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="6" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="7" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="8" type="1" sum="9,000" player="bugpink49"/>
+   <action no="9" type="2" sum="18,000" player="Vaihdoinnimen"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="10" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CJ C9</cards>
+   <action no="12" type="23" sum="37,800" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="13" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="14" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="15" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="Vaihdoinnimen">X X</cards>
+   <action no="16" type="0" sum="0" player="Vaihdoinnimen"/>
+  </round>
+ </game>
+ <game gamecode="10558674198">
+  <general>
+   <startdate>2024-02-11 16:38:41</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="2,700" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="503,712" addon="0" win="0"/>
+    <player bet="2,700" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="837,924" addon="0" win="0"/>
+    <player bet="185,741" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="188,441" addon="0" win="63,900"/>
+    <player bet="2,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="138,300" addon="0" win="0"/>
+    <player bet="2,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="1" chips="744,351" addon="0" win="0"/>
+    <player bet="11,700" name="Vaihdoinnimen" reg_code="" rebuy="0" seat="7" dealer="0" chips="419,324" addon="0" win="0"/>
+    <player bet="20,700" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="290,405" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="Vaihdoinnimen"/>
+   <action no="2" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="3" type="15" sum="2,700" player="futurechamp"/>
+   <action no="4" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="5" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="6" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="7" type="15" sum="2,700" player="bugpink49"/>
+   <action no="8" type="1" sum="9,000" player="Vaihdoinnimen"/>
+   <action no="9" type="2" sum="18,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="10" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">CK D9</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="12" type="23" sum="185,741" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="13" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="14" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="Vaihdoinnimen">X X</cards>
+   <action no="15" type="0" sum="0" player="Vaihdoinnimen"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="16" type="0" sum="0" player="InTrussWeTrust"/>
+  </round>
+ </game>
+ <game gamecode="10558674225">
+  <general>
+   <startdate>2024-02-11 16:39:22</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="126,900" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="501,012" addon="0" win="0"/>
+    <player bet="153,900" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="835,224" addon="0" win="273,600"/>
+    <player bet="2,700" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="231,641" addon="0" win="0"/>
+    <player bet="2,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="135,600" addon="0" win="0"/>
+    <player bet="2,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="741,651" addon="0" win="0"/>
+    <player bet="11,700" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="269,705" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="2,700" player="futurechamp"/>
+   <action no="3" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="4" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="5" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="6" type="15" sum="2,700" player="bugpink49"/>
+   <action no="7" type="1" sum="9,000" player="InTrussWeTrust"/>
+   <action no="8" type="2" sum="18,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S8 DA</cards>
+   <action no="9" type="23" sum="37,800" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="10" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="3" sum="19,800" player="futurechamp"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 D8 DJ</cards>
+   <action no="15" type="4" sum="0" player="futurechamp"/>
+   <action no="16" type="5" sum="25,200" player="tropeiro123"/>
+   <action no="17" type="23" sum="86,400" player="futurechamp"/>
+   <action no="18" type="3" sum="61,200" player="tropeiro123"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="19" type="4" sum="0" player="futurechamp"/>
+   <action no="20" type="4" sum="0" player="tropeiro123"/>
+  </round>
+  <round no="4">
+   <cards type="River">C2</cards>
+   <action no="21" type="4" sum="0" player="futurechamp"/>
+   <action no="22" type="5" sum="27,000" player="tropeiro123"/>
+   <action no="23" type="0" sum="0" player="futurechamp"/>
+  </round>
+ </game>
+ <game gamecode="10558705589">
+  <general>
+   <startdate>2024-02-11 16:41:30</startdate>
+   <smallblind>9,000</smallblind>
+   <bigblind>18,000</bigblind>
+   <ante>2,700</ante>
+   <players>
+    <player bet="11,700" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="374,112" addon="0" win="0"/>
+    <player bet="20,700" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="981,924" addon="0" win="0"/>
+    <player bet="2,700" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="228,941" addon="0" win="0"/>
+    <player bet="2,700" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="132,900" addon="0" win="0"/>
+    <player bet="2,700" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="738,951" addon="0" win="0"/>
+    <player bet="2,700" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="1,102,250" addon="0" win="0"/>
+    <player bet="255,305" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="1" chips="258,005" addon="0" win="63,900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="2,700" player="futurechamp"/>
+   <action no="2" type="15" sum="2,700" player="tropeiro123"/>
+   <action no="3" type="15" sum="2,700" player="IGotDatDawgInMe"/>
+   <action no="4" type="15" sum="2,700" player="gizcomcoca"/>
+   <action no="5" type="15" sum="2,700" player="bugpink49"/>
+   <action no="6" type="15" sum="2,700" player="dreadass"/>
+   <action no="7" type="15" sum="2,700" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="9,000" player="futurechamp"/>
+   <action no="9" type="2" sum="18,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="IGotDatDawgInMe">X X</cards>
+   <action no="10" type="0" sum="0" player="IGotDatDawgInMe"/>
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="13" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="23" sum="255,305" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="15" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">D3 D7</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558705622">
+  <general>
+   <startdate>2024-02-11 16:42:17</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="3,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="1" chips="362,412" addon="0" win="0"/>
+    <player bet="958,224" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="961,224" addon="0" win="470,482"/>
+    <player bet="226,241" name="IGotDatDawgInMe" reg_code="" rebuy="0" seat="4" dealer="0" chips="226,241" addon="0" win="0"/>
+    <player bet="3,000" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="130,200" addon="0" win="0"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="736,251" addon="0" win="0"/>
+    <player bet="3,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="1,099,550" addon="0" win="0"/>
+    <player bet="3,000" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="301,205" addon="0" win="0"/>
+    <player bet="3,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="503,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="2" type="15" sum="3,000" player="IGotDatDawgInMe"/>
+   <action no="3" type="15" sum="3,000" player="gizcomcoca"/>
+   <action no="4" type="15" sum="3,000" player="bugpink49"/>
+   <action no="5" type="15" sum="3,000" player="dreadass"/>
+   <action no="6" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="8" type="15" sum="3,000" player="futurechamp"/>
+   <action no="9" type="1" sum="10,000" player="tropeiro123"/>
+   <action no="10" type="2" sum="20,000" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="gizcomcoca">X X</cards>
+   <action no="11" type="0" sum="0" player="gizcomcoca"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="13" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="15" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="16" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">DJ D9</cards>
+   <action no="17" type="23" sum="958,224" player="tropeiro123"/>
+   <cards type="Pocket" player="IGotDatDawgInMe">SA H3</cards>
+   <action no="18" type="7" sum="203,241" player="IGotDatDawgInMe"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 DQ H7</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H6</cards>
+  </round>
+ </game>
+ <game gamecode="10558705657">
+  <general>
+   <startdate>2024-02-11 16:43:07</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="3,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="359,412" addon="0" win="0"/>
+    <player bet="3,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="1" chips="1,205,465" addon="0" win="0"/>
+    <player bet="124,200" name="gizcomcoca" reg_code="" rebuy="0" seat="5" dealer="0" chips="127,200" addon="0" win="0"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="733,251" addon="0" win="0"/>
+    <player bet="3,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="1,096,550" addon="0" win="0"/>
+    <player bet="127,200" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="298,205" addon="0" win="269,400"/>
+    <player bet="3,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="500,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="gizcomcoca"/>
+   <action no="2" type="15" sum="3,000" player="bugpink49"/>
+   <action no="3" type="15" sum="3,000" player="dreadass"/>
+   <action no="4" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="5" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="6" type="15" sum="3,000" player="futurechamp"/>
+   <action no="7" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="8" type="2" sum="20,000" player="gizcomcoca"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="9" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="10" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">DQ HA</cards>
+   <action no="11" type="23" sum="40,000" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="12" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="13" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">C4 S9</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="gizcomcoca">CA CJ</cards>
+   <action no="15" type="23" sum="124,200" player="gizcomcoca"/>
+   <action no="16" type="3" sum="84,200" player="InTrussWeTrust"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 S4 C3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C8</cards>
+  </round>
+ </game>
+ <game gamecode="10558705704">
+  <general>
+   <startdate>2024-02-11 16:44:02</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="3,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="356,412" addon="0" win="0"/>
+    <player bet="3,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,202,465" addon="0" win="0"/>
+    <player bet="217,236" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="730,251" addon="0" win="446,472"/>
+    <player bet="217,236" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="1,093,550" addon="0" win="0"/>
+    <player bet="3,000" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="440,405" addon="0" win="0"/>
+    <player bet="3,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="497,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="bugpink49"/>
+   <action no="2" type="15" sum="3,000" player="dreadass"/>
+   <action no="3" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="4" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="5" type="15" sum="3,000" player="futurechamp"/>
+   <action no="6" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="7" type="2" sum="20,000" player="bugpink49"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dreadass">SA S7</cards>
+   <action no="8" type="23" sum="44,000" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="9" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="10" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">S4 DQ</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="bugpink49">CJ D9</cards>
+   <action no="13" type="3" sum="24,000" player="bugpink49"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 S3 C9</cards>
+   <action no="14" type="4" sum="0" player="bugpink49"/>
+   <action no="15" type="5" sum="42,400" player="dreadass"/>
+   <action no="16" type="3" sum="42,400" player="bugpink49"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H4</cards>
+   <action no="17" type="4" sum="0" player="bugpink49"/>
+   <action no="18" type="5" sum="127,836" player="dreadass"/>
+   <action no="19" type="3" sum="127,836" player="bugpink49"/>
+  </round>
+  <round no="4">
+   <cards type="River">D7</cards>
+   <action no="20" type="4" sum="0" player="bugpink49"/>
+   <action no="21" type="4" sum="0" player="dreadass"/>
+  </round>
+ </game>
+ <game gamecode="10558705761">
+  <general>
+   <startdate>2024-02-11 16:45:28</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="3,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="353,412" addon="0" win="0"/>
+    <player bet="3,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,199,465" addon="0" win="0"/>
+    <player bet="3,000" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,175,035" addon="0" win="0"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="1" chips="959,487" addon="0" win="0"/>
+    <player bet="153,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="876,314" addon="0" win="0"/>
+    <player bet="153,000" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="437,405" addon="0" win="321,000"/>
+    <player bet="3,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="494,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="dreadass"/>
+   <action no="2" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="3" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="4" type="15" sum="3,000" player="futurechamp"/>
+   <action no="5" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="6" type="15" sum="3,000" player="lowprofileguy"/>
+   <action no="7" type="15" sum="3,000" player="bugpink49"/>
+   <action no="8" type="1" sum="10,000" player="dreadass"/>
+   <action no="9" type="2" sum="20,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="10" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="11" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">H9 S7</cards>
+   <action no="12" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="13" type="0" sum="0" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="14" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">H3 CK</cards>
+   <action no="15" type="23" sum="50,000" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">D8 HK</cards>
+   <action no="16" type="3" sum="30,000" player="InTrussWeTrust"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ D3 S4</cards>
+   <action no="17" type="4" sum="0" player="dreadass"/>
+   <action no="18" type="4" sum="0" player="InTrussWeTrust"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="19" type="4" sum="0" player="dreadass"/>
+   <action no="20" type="4" sum="0" player="InTrussWeTrust"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action no="21" type="5" sum="100,000" player="dreadass"/>
+   <action no="22" type="3" sum="100,000" player="InTrussWeTrust"/>
+  </round>
+ </game>
+ <game gamecode="10558705834">
+  <general>
+   <startdate>2024-02-11 16:47:11</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="3,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="350,412" addon="0" win="0"/>
+    <player bet="42,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,196,465" addon="0" win="71,000"/>
+    <player bet="3,000" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,172,035" addon="0" win="0"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="956,487" addon="0" win="0"/>
+    <player bet="3,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="1" chips="723,314" addon="0" win="0"/>
+    <player bet="13,000" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="605,405" addon="0" win="0"/>
+    <player bet="23,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="491,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="3" type="15" sum="3,000" player="futurechamp"/>
+   <action no="4" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="5" type="15" sum="3,000" player="lowprofileguy"/>
+   <action no="6" type="15" sum="3,000" player="bugpink49"/>
+   <action no="7" type="15" sum="3,000" player="dreadass"/>
+   <action no="8" type="1" sum="10,000" player="InTrussWeTrust"/>
+   <action no="9" type="2" sum="20,000" player="JirayaOninja"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="10" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">HK D10</cards>
+   <action no="11" type="23" sum="42,000" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="12" type="0" sum="0" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="13" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="14" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="15" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="16" type="0" sum="0" player="JirayaOninja"/>
+  </round>
+ </game>
+ <game gamecode="10558705875">
+  <general>
+   <startdate>2024-02-11 16:48:12</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="23,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="347,412" addon="0" win="0"/>
+    <player bet="3,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,244,465" addon="0" win="0"/>
+    <player bet="3,000" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,169,035" addon="0" win="0"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="953,487" addon="0" win="0"/>
+    <player bet="47,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="720,314" addon="0" win="0"/>
+    <player bet="589,405" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="1" chips="592,405" addon="0" win="139,000"/>
+    <player bet="13,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="468,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="2" type="15" sum="3,000" player="futurechamp"/>
+   <action no="3" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="4" type="15" sum="3,000" player="lowprofileguy"/>
+   <action no="5" type="15" sum="3,000" player="bugpink49"/>
+   <action no="6" type="15" sum="3,000" player="dreadass"/>
+   <action no="7" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="10,000" player="JirayaOninja"/>
+   <action no="9" type="2" sum="20,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">S9 C8</cards>
+   <action no="10" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="11" type="0" sum="0" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="13" type="23" sum="44,000" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="23" sum="589,405" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="15" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="16" type="0" sum="0" player="futurechamp"/>
+   <action no="17" type="0" sum="0" player="dreadass"/>
+  </round>
+ </game>
+ <game gamecode="10558705919">
+  <general>
+   <startdate>2024-02-11 16:49:08</startdate>
+   <smallblind>10,000</smallblind>
+   <bigblind>20,000</bigblind>
+   <ante>3,000</ante>
+   <players>
+    <player bet="13,000" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="324,412" addon="0" win="0"/>
+    <player bet="23,000" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,241,465" addon="0" win="0"/>
+    <player bet="265,925" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,166,035" addon="0" win="230,740"/>
+    <player bet="3,000" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="950,487" addon="0" win="0"/>
+    <player bet="3,000" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="673,314" addon="0" win="0"/>
+    <player bet="92,870" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="684,405" addon="0" win="0"/>
+    <player bet="3,000" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="1" chips="455,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,000" player="futurechamp"/>
+   <action no="2" type="15" sum="3,000" player="tropeiro123"/>
+   <action no="3" type="15" sum="3,000" player="lowprofileguy"/>
+   <action no="4" type="15" sum="3,000" player="bugpink49"/>
+   <action no="5" type="15" sum="3,000" player="dreadass"/>
+   <action no="6" type="15" sum="3,000" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="3,000" player="JirayaOninja"/>
+   <action no="8" type="1" sum="10,000" player="futurechamp"/>
+   <action no="9" type="2" sum="20,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="10" type="23" sum="44,000" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="11" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="12" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="3" sum="44,000" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="14" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="15" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">DQ H8</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 CQ C3</cards>
+   <action no="17" type="5" sum="45,870" player="lowprofileguy"/>
+   <action no="18" type="3" sum="45,870" player="InTrussWeTrust"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action no="19" type="5" sum="173,055" player="lowprofileguy"/>
+   <action no="20" type="0" sum="0" player="InTrussWeTrust"/>
+  </round>
+ </game>
+ <game gamecode="10558731828">
+  <general>
+   <startdate>2024-02-11 16:50:09</startdate>
+   <smallblind>12,500</smallblind>
+   <bigblind>25,000</bigblind>
+   <ante>3,800</ante>
+   <players>
+    <player bet="3,800" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="1" chips="311,412" addon="0" win="0"/>
+    <player bet="16,300" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,218,465" addon="0" win="0"/>
+    <player bet="53,800" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,303,905" addon="0" win="0"/>
+    <player bet="3,800" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="947,487" addon="0" win="0"/>
+    <player bet="3,800" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="670,314" addon="0" win="0"/>
+    <player bet="178,800" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="591,535" addon="0" win="139,100"/>
+    <player bet="3,800" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="452,658" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,800" player="tropeiro123"/>
+   <action no="2" type="15" sum="3,800" player="lowprofileguy"/>
+   <action no="3" type="15" sum="3,800" player="bugpink49"/>
+   <action no="4" type="15" sum="3,800" player="dreadass"/>
+   <action no="5" type="15" sum="3,800" player="InTrussWeTrust"/>
+   <action no="6" type="15" sum="3,800" player="JirayaOninja"/>
+   <action no="7" type="15" sum="3,800" player="futurechamp"/>
+   <action no="8" type="1" sum="12,500" player="tropeiro123"/>
+   <action no="9" type="2" sum="25,000" player="lowprofileguy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="10" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="11" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="12" type="23" sum="50,000" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="13" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">D5 S9</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="16" type="3" sum="25,000" player="lowprofileguy"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 S7 D10</cards>
+   <action no="17" type="4" sum="0" player="lowprofileguy"/>
+   <action no="18" type="4" sum="0" player="InTrussWeTrust"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+   <action no="19" type="4" sum="0" player="lowprofileguy"/>
+   <action no="20" type="5" sum="125,000" player="InTrussWeTrust"/>
+   <action no="21" type="0" sum="0" player="lowprofileguy"/>
+  </round>
+ </game>
+ <game gamecode="10558731885">
+  <general>
+   <startdate>2024-02-11 16:51:25</startdate>
+   <smallblind>12,500</smallblind>
+   <bigblind>25,000</bigblind>
+   <ante>3,800</ante>
+   <players>
+    <player bet="3,800" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="307,612" addon="0" win="0"/>
+    <player bet="3,800" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="1" chips="1,202,165" addon="0" win="0"/>
+    <player bet="53,800" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="0" chips="1,250,105" addon="0" win="76,600"/>
+    <player bet="28,800" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="943,687" addon="0" win="0"/>
+    <player bet="3,800" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="666,514" addon="0" win="0"/>
+    <player bet="3,800" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="676,835" addon="0" win="0"/>
+    <player bet="3,800" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="448,858" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,800" player="lowprofileguy"/>
+   <action no="2" type="15" sum="3,800" player="bugpink49"/>
+   <action no="3" type="15" sum="3,800" player="dreadass"/>
+   <action no="4" type="15" sum="3,800" player="InTrussWeTrust"/>
+   <action no="5" type="15" sum="3,800" player="JirayaOninja"/>
+   <action no="6" type="15" sum="3,800" player="futurechamp"/>
+   <action no="7" type="15" sum="3,800" player="tropeiro123"/>
+   <action no="8" type="1" sum="12,500" player="lowprofileguy"/>
+   <action no="9" type="2" sum="25,000" player="bugpink49"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="10" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="11" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="12" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="13" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">H4 SQ</cards>
+   <action no="14" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="15" type="3" sum="12,500" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="16" type="4" sum="0" player="bugpink49"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S8 H10 CA</cards>
+   <action no="17" type="5" sum="25,000" player="lowprofileguy"/>
+   <action no="18" type="0" sum="0" player="bugpink49"/>
+  </round>
+ </game>
+ <game gamecode="10558731914">
+  <general>
+   <startdate>2024-02-11 16:52:04</startdate>
+   <smallblind>12,500</smallblind>
+   <bigblind>25,000</bigblind>
+   <ante>3,800</ante>
+   <players>
+    <player bet="3,800" name="futurechamp" reg_code="" rebuy="0" seat="1" dealer="0" chips="303,812" addon="0" win="0"/>
+    <player bet="3,800" name="tropeiro123" reg_code="7946876333" rebuy="0" seat="2" dealer="0" chips="1,198,365" addon="0" win="0"/>
+    <player bet="3,800" name="lowprofileguy" reg_code="" rebuy="0" seat="5" dealer="1" chips="1,297,905" addon="0" win="0"/>
+    <player bet="53,800" name="bugpink49" reg_code="" rebuy="0" seat="6" dealer="0" chips="914,887" addon="0" win="0"/>
+    <player bet="104,440" name="dreadass" reg_code="" rebuy="0" seat="7" dealer="0" chips="662,714" addon="0" win="126,600"/>
+    <player bet="3,800" name="InTrussWeTrust" reg_code="" rebuy="0" seat="9" dealer="0" chips="673,035" addon="0" win="0"/>
+    <player bet="3,800" name="JirayaOninja" reg_code="" rebuy="0" seat="10" dealer="0" chips="445,058" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,800" player="bugpink49"/>
+   <action no="2" type="15" sum="3,800" player="dreadass"/>
+   <action no="3" type="15" sum="3,800" player="InTrussWeTrust"/>
+   <action no="4" type="15" sum="3,800" player="JirayaOninja"/>
+   <action no="5" type="15" sum="3,800" player="futurechamp"/>
+   <action no="6" type="15" sum="3,800" player="tropeiro123"/>
+   <action no="7" type="15" sum="3,800" player="lowprofileguy"/>
+   <action no="8" type="1" sum="12,500" player="bugpink49"/>
+   <action no="9" type="2" sum="25,000" player="dreadass"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="10" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="11" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="12" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">S3 H7</cards>
+   <action no="13" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="14" type="0" sum="0" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="15" type="23" sum="50,000" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="16" type="3" sum="25,000" player="dreadass"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 H2 D8</cards>
+   <action no="17" type="4" sum="0" player="bugpink49"/>
+   <action no="18" type="5" sum="50,640" player="dreadass"/>
+   <action no="19" type="0" sum="0" player="bugpink49"/>
+  </round>
+ </game>
+ <game gamecode="10558732082">
+  <general>
+   <startdate>2024-02-11 17:01:03</startdate>
+   <smallblind>12,500</smallblind>
+   <bigblind>25,000</bigblind>
+   <ante>3,800</ante>
+   <players>
+    <player name="futurechamp" bet="3,800" reg_code="" rebuy="0" seat="1" chips="296,212" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="3,800" reg_code="7946876333" rebuy="0" seat="2" chips="1,190,765" dealer="0" addon="0" win="0"/>
+    <player name="lowprofileguy" bet="55,000" reg_code="" rebuy="0" seat="5" chips="1,290,305" dealer="0" addon="0" win="89,100"/>
+    <player name="bugpink49" bet="3,800" reg_code="" rebuy="0" seat="6" chips="857,287" dealer="0" addon="0" win="0"/>
+    <player name="dreadass" bet="3,800" reg_code="" rebuy="0" seat="7" chips="719,214" dealer="1" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="16,300" reg_code="" rebuy="0" seat="9" chips="704,535" dealer="0" addon="0" win="0"/>
+    <player name="JirayaOninja" bet="28,800" reg_code="" rebuy="0" seat="10" chips="437,458" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,800" player="InTrussWeTrust"/>
+   <action no="2" type="15" sum="3,800" player="JirayaOninja"/>
+   <action no="3" type="15" sum="3,800" player="futurechamp"/>
+   <action no="4" type="15" sum="3,800" player="tropeiro123"/>
+   <action no="5" type="15" sum="3,800" player="lowprofileguy"/>
+   <action no="6" type="15" sum="3,800" player="bugpink49"/>
+   <action no="7" type="15" sum="3,800" player="dreadass"/>
+   <action no="8" type="1" sum="12,500" player="InTrussWeTrust"/>
+   <action no="9" type="2" sum="25,000" player="JirayaOninja"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="10" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">DA H6</cards>
+   <action no="11" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="12" type="23" sum="55,000" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="13" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="14" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="15" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="16" type="0" sum="0" player="JirayaOninja"/>
+  </round>
+ </game>
+ <game gamecode="10558732119">
+  <general>
+   <startdate>2024-02-11 17:01:49</startdate>
+   <smallblind>12,500</smallblind>
+   <bigblind>25,000</bigblind>
+   <ante>3,800</ante>
+   <players>
+    <player name="futurechamp" bet="28,800" reg_code="" rebuy="0" seat="1" chips="292,412" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="3,800" reg_code="7946876333" rebuy="0" seat="2" chips="1,186,965" dealer="0" addon="0" win="0"/>
+    <player name="lowprofileguy" bet="55,000" reg_code="" rebuy="0" seat="5" chips="1,350,605" dealer="0" addon="0" win="89,100"/>
+    <player name="bugpink49" bet="3,800" reg_code="" rebuy="0" seat="6" chips="853,487" dealer="0" addon="0" win="0"/>
+    <player name="dreadass" bet="3,800" reg_code="" rebuy="0" seat="7" chips="715,414" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="3,800" reg_code="" rebuy="0" seat="9" chips="688,235" dealer="1" addon="0" win="0"/>
+    <player name="JirayaOninja" bet="16,300" reg_code="" rebuy="0" seat="10" chips="408,658" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="3,800" player="JirayaOninja"/>
+   <action no="2" type="15" sum="3,800" player="futurechamp"/>
+   <action no="3" type="15" sum="3,800" player="tropeiro123"/>
+   <action no="4" type="15" sum="3,800" player="lowprofileguy"/>
+   <action no="5" type="15" sum="3,800" player="bugpink49"/>
+   <action no="6" type="15" sum="3,800" player="dreadass"/>
+   <action no="7" type="15" sum="3,800" player="InTrussWeTrust"/>
+   <action no="8" type="1" sum="12,500" player="JirayaOninja"/>
+   <action no="9" type="2" sum="25,000" player="futurechamp"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="tropeiro123">D4 CJ</cards>
+   <action no="10" type="0" sum="0" player="tropeiro123"/>
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="11" type="23" sum="55,000" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="12" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="13" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="14" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="15" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="16" type="0" sum="0" player="futurechamp"/>
+  </round>
+ </game>
+ <game gamecode="10558732185">
+  <general>
+   <startdate>2024-02-11 17:02:45</startdate>
+   <smallblind>15,000</smallblind>
+   <bigblind>30,000</bigblind>
+   <ante>5,000</ante>
+   <players>
+    <player name="futurechamp" bet="20,000" reg_code="" rebuy="0" seat="1" chips="263,612" dealer="0" addon="0" win="0"/>
+    <player name="tropeiro123" bet="35,000" reg_code="7946876333" rebuy="0" seat="2" chips="1,183,165" dealer="0" addon="0" win="0"/>
+    <player name="lowprofileguy" bet="5,000" reg_code="" rebuy="0" seat="5" chips="1,410,905" dealer="0" addon="0" win="0"/>
+    <player name="bugpink49" bet="5,000" reg_code="" rebuy="0" seat="6" chips="849,687" dealer="0" addon="0" win="0"/>
+    <player name="dreadass" bet="60,000" reg_code="" rebuy="0" seat="7" chips="711,614" dealer="0" addon="0" win="110,000"/>
+    <player name="InTrussWeTrust" bet="5,000" reg_code="" rebuy="0" seat="9" chips="684,435" dealer="0" addon="0" win="0"/>
+    <player name="JirayaOninja" bet="5,000" reg_code="" rebuy="0" seat="10" chips="392,358" dealer="1" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="5,000" player="futurechamp"/>
+   <action no="2" type="15" sum="5,000" player="tropeiro123"/>
+   <action no="3" type="15" sum="5,000" player="lowprofileguy"/>
+   <action no="4" type="15" sum="5,000" player="bugpink49"/>
+   <action no="5" type="15" sum="5,000" player="dreadass"/>
+   <action no="6" type="15" sum="5,000" player="InTrussWeTrust"/>
+   <action no="7" type="15" sum="5,000" player="JirayaOninja"/>
+   <action no="8" type="1" sum="15,000" player="futurechamp"/>
+   <action no="9" type="2" sum="30,000" player="tropeiro123"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <action no="10" type="0" sum="0" player="lowprofileguy"/>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="11" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="12" type="23" sum="60,000" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="13" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="14" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="15" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">S4 H8</cards>
+   <action no="16" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+ <game gamecode="10558732243">
+  <general>
+   <startdate>2024-02-11 17:03:41</startdate>
+   <smallblind>15,000</smallblind>
+   <bigblind>30,000</bigblind>
+   <ante>5,000</ante>
+   <players>
+    <player name="futurechamp" bet="5,000" reg_code="" rebuy="0" seat="1" chips="243,612" dealer="1" addon="0" win="0"/>
+    <player name="tropeiro123" bet="20,000" reg_code="7946876333" rebuy="0" seat="2" chips="1,148,165" dealer="0" addon="0" win="0"/>
+    <player name="lowprofileguy" bet="35,000" reg_code="" rebuy="0" seat="5" chips="1,405,905" dealer="0" addon="0" win="65,000"/>
+    <player name="bugpink49" bet="5,000" reg_code="" rebuy="0" seat="6" chips="844,687" dealer="0" addon="0" win="0"/>
+    <player name="dreadass" bet="5,000" reg_code="" rebuy="0" seat="7" chips="786,614" dealer="0" addon="0" win="0"/>
+    <player name="InTrussWeTrust" bet="5,000" reg_code="" rebuy="0" seat="9" chips="679,435" dealer="0" addon="0" win="0"/>
+    <player name="JirayaOninja" bet="5,000" reg_code="" rebuy="0" seat="10" chips="387,358" dealer="0" addon="0" win="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" type="15" sum="5,000" player="tropeiro123"/>
+   <action no="2" type="15" sum="5,000" player="lowprofileguy"/>
+   <action no="3" type="15" sum="5,000" player="bugpink49"/>
+   <action no="4" type="15" sum="5,000" player="dreadass"/>
+   <action no="5" type="15" sum="5,000" player="InTrussWeTrust"/>
+   <action no="6" type="15" sum="5,000" player="JirayaOninja"/>
+   <action no="7" type="15" sum="5,000" player="futurechamp"/>
+   <action no="8" type="1" sum="15,000" player="tropeiro123"/>
+   <action no="9" type="2" sum="30,000" player="lowprofileguy"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="lowprofileguy">X X</cards>
+   <cards type="Pocket" player="bugpink49">X X</cards>
+   <action no="10" type="0" sum="0" player="bugpink49"/>
+   <cards type="Pocket" player="dreadass">X X</cards>
+   <action no="11" type="0" sum="0" player="dreadass"/>
+   <cards type="Pocket" player="InTrussWeTrust">X X</cards>
+   <action no="12" type="0" sum="0" player="InTrussWeTrust"/>
+   <cards type="Pocket" player="JirayaOninja">X X</cards>
+   <action no="13" type="0" sum="0" player="JirayaOninja"/>
+   <cards type="Pocket" player="futurechamp">X X</cards>
+   <action no="14" type="0" sum="0" player="futurechamp"/>
+   <cards type="Pocket" player="tropeiro123">C6 SJ</cards>
+   <action no="15" type="0" sum="0" player="tropeiro123"/>
+  </round>
+ </game>
+</session>

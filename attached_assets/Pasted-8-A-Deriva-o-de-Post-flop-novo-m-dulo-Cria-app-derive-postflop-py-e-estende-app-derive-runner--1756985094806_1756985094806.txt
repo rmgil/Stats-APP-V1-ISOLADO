@@ -1,0 +1,92 @@
+8.A — Derivação de Post‑flop (novo módulo)
+
+Cria app/derive/postflop.py e estende app/derive/runner.py para chamar este módulo.
+
+Objetivo dos campos derivados (exemplos):
+
+Quem foi o PFR (preflop raiser) da mão (pfr_player)
+
+C‑bet flop/turn (opportunity + attempt, IP e OOP)
+
+Donk bet flop/turn
+
+Vs Cbet: fold vs cbet (IP/OOP), raise vs cbet (IP/OOP)
+
+Missed cbet: bet vs missed cbet (SRP)
+
+HU/MW por street já temos;
+
+Resultados mínimos: saw_flop, saw_showdown, won_showdown, won_when_saw_flop (W$WSF)
+
+River Agg % (proporção de ações agressivas do Hero no river)
+
+Prompt para criar postflop.py (skeleton + TODOs bem definidos):
+
+# app/derive/postflop.py
+from typing import Dict, Any
+
+def derive_postflop(hand: Dict[str, Any]) -> Dict[str, Any]:
+    """
+    Deriva sinais de post-flop necessários para DSL:
+      - pfr_player
+      - cbet_flop/turn (opp/att) IP/OOP
+      - donk_flop/turn
+      - vs_cbet: fold/raise (IP/OOP)
+      - bet_vs_missed_cbet_srp (flop/turn)
+      - showdown flags: saw_flop, saw_showdown, won_showdown, w$wsf
+      - river_agg_pct (mínimo viável: agressões do hero / ações no river)
+    """
+    d = {
+        "pfr_player": None,
+
+        # Cbet (opportunity/attempt) por street e posição relativa
+        "cbet_flop_opp_ip": False,
+        "cbet_flop_att_ip": False,
+        "cbet_flop_opp_oop": False,
+        "cbet_flop_att_oop": False,
+
+        "cbet_turn_opp_ip": False,
+        "cbet_turn_att_ip": False,
+        "cbet_turn_opp_oop": False,
+        "cbet_turn_att_oop": False,
+
+        # Donk
+        "donk_flop": False,
+        "donk_turn": False,
+
+        # vs Cbet (fold/raise) IP/OOP
+        "vs_cbet_flop_fold_ip": False,
+        "vs_cbet_flop_raise_ip": False,
+        "vs_cbet_flop_fold_oop": False,
+        "vs_cbet_flop_raise_oop": False,
+
+        # bet vs missed cbet (SRP)
+        "flop_bet_vs_missed_cbet_srp": False,
+        "turn_bet_vs_missed_cbet_srp_oop": False,
+
+        # Showdown / W$WSF
+        "saw_flop": False,
+        "saw_showdown": False,
+        "won_showdown": False,
+        "won_when_saw_flop": False,
+
+        # River Agg %
+        "river_agg_pct": None,
+    }
+
+    # TODO: implementar leitura de actions por street a partir de hand['streets']
+    # usando o canónico já normalizado. Utilizar derived.ip p/ IP/OOP por street.
+
+    return d
+
+
+No app/derive/schemas.py, adiciona um DerivedPostflop e inclui em Derived principal.
+
+No app/derive/runner.py, após preflop/ip/stacks, chama:
+
+from app.derive.postflop import derive_postflop
+post = derive_postflop(hand)
+# adicionar a hand['derived']['postflop'] = post
+
+
+Nota: Começamos com o esqueleto e implementamos gradualmente (primeiro Flop CBet IP/OOP, depois “vs cbet”, etc.).

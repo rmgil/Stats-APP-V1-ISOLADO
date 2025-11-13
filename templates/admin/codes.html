@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerir Códigos - Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f8f9fa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        
+        .navbar {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        
+        .admin-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .admin-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .btn-admin {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 8px 16px;
+            transition: transform 0.2s;
+        }
+        
+        .btn-admin:hover {
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+        
+        .code-badge {
+            font-family: monospace;
+            font-size: 1.1rem;
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .badge-active {
+            background-color: #28a745;
+        }
+        
+        .badge-used {
+            background-color: #dc3545;
+        }
+        
+        .badge-expired {
+            background-color: #ffc107;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('simplified.dashboard_page') }}">Stat Manager</a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="{{ url_for('admin.index') }}">Admin</a>
+                <a class="nav-link" href="{{ url_for('auth.logout') }}">Sair</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="admin-container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h1>Códigos de Convite</h1>
+            <a href="{{ url_for('admin.index') }}" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Voltar
+            </a>
+        </div>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        
+        <div class="admin-card">
+            <h3>Gerar Novo Código</h3>
+            <form method="POST" action="{{ url_for('admin.generate_code') }}" class="row g-3">
+                <div class="col-md-3">
+                    <label class="form-label">Máximo de usos</label>
+                    <input type="number" name="max_uses" class="form-control" value="1" min="1" required>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label">Dias de validade</label>
+                    <input type="number" name="days_valid" class="form-control" value="30" min="1" required>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Notas</label>
+                    <input type="text" name="notes" class="form-control" placeholder="Opcional">
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label">&nbsp;</label>
+                    <button type="submit" class="btn btn-admin w-100">
+                        <i class="bi bi-plus-circle"></i> Gerar
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="admin-card">
+            <h3>Códigos Cadastrados</h3>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Status</th>
+                            <th>Usos</th>
+                            <th>Usado por</th>
+                            <th>Expira em</th>
+                            <th>Criado em</th>
+                            <th>Notas</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for code in codes %}
+                        <tr>
+                            <td><span class="code-badge">{{ code[1] }}</span></td>
+                            <td>
+                                {% if code[2] %}
+                                    <span class="badge badge-used">Usado</span>
+                                {% elif code[5] %}
+                                    <span class="badge badge-expired">Expira</span>
+                                {% else %}
+                                    <span class="badge badge-active">Ativo</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ code[9] }}/{{ code[8] or '∞' }}</td>
+                            <td>{{ code[3] or '-' }}</td>
+                            <td>
+                                {% if code[5] %}
+                                    {{ code[5].strftime('%d/%m/%Y') }}
+                                {% else %}
+                                    Sem prazo
+                                {% endif %}
+                            </td>
+                            <td>{{ code[6].strftime('%d/%m/%Y') if code[6] else '-' }}</td>
+                            <td>{{ code[10] or '-' }}</td>
+                            <td>
+                                <form method="POST" action="{{ url_for('admin.delete_code', code_id=code[0]) }}" style="display: inline;">
+                                    <button type="submit" class="btn btn-sm btn-outline-danger" onclick="return confirm('Tem certeza que deseja remover este código?')">
+                                        <i class="bi bi-trash"></i> Remover
+                                    </button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr>
+                            <td colspan="8" class="text-center text-muted">Nenhum código cadastrado</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

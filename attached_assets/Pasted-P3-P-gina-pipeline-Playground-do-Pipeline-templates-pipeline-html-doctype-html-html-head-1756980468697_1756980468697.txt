@@ -1,0 +1,145 @@
+P3) Página /pipeline (Playground do Pipeline)
+
+templates/pipeline.html
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Pipeline Playground</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; }
+    .card { border:1px solid #ddd; border-radius:8px; padding:16px; margin-bottom:16px; }
+    .row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
+    .muted { color:#666; font-size:12px; }
+    .ok { color:#0a7; }
+    .err { color:#c33; }
+    button, input[type=file] { padding:8px 12px; }
+    pre { background:#0f172a; color:#e2e8f0; padding:12px; border-radius:8px; white-space:pre-wrap; }
+    .steps li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <h1>Pipeline Playground (TXT → Score)</h1>
+
+  <div class="card">
+    <div class="row">
+      <input type="file" id="zip" accept=".zip" />
+      <button id="run">Executar pipeline</button>
+      <span class="muted">Carrega um .zip com a tua pasta de .TXT (≤ 50 MB)</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>Passos</h3>
+    <ol class="steps">
+      <li id="s1">Upload (dry‑run + parser) …</li>
+      <li id="s2">Derive (hands_enriched.jsonl) …</li>
+      <li id="s3">Partitions …</li>
+      <li id="s4">Stats (DSL) …</li>
+      <li id="s5">Scoring (0–100) …</li>
+    </ol>
+    <div id="links" class="row"></div>
+  </div>
+
+  <div class="card">
+    <h3>Resumo</h3>
+    <pre id="out"></pre>
+  </div>
+
+<script>
+async function postForm(url, formData){
+  const r = await fetch(url, { method:'POST', body: formData });
+  if(!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+async function postJSON(url, payload){
+  const r = await fetch(url, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(payload)});
+  if(!r.ok) throw new Error(await r.text());
+  return r.json();
+}
+function ok(el, msg){ el.innerHTML = `<span class="ok">✅</span> ${msg}` }
+function err(el, msg){ el.innerHTML = `<span class="err">❌</span> ${msg}` }
+
+document.getElementById('run').onclick = async ()=>{
+  const out = document.getElementById('out');
+  out.textContent = '';
+  const s1 = document.getElementById('s1');
+  const s2 = document.getElementById('s2');
+  const s3 = document.getElementById('s3');
+  const s4 = document.getElementById('s4');
+  const s5 = document.getElementById('s5');
+  const links = document.getElementById('links');
+  links.innerHTML = '';
+
+  try {
+    // 1) Upload (dry-run + parser)
+    const fileEl = document.getElementById('zip');
+    if(!fileEl.files || !fileEl.files[0]) { err(s1, 'Escolhe um .zip'); return; }
+    const fd = new FormData();
+    fd.append('file', fileEl.files[0]);
+    fd.append('enable_parser', 'true');
+    fd.append('dry_run', 'true');
+
+    const up = await postForm('/upload', fd);
+    if(!up.success){ throw new Error(up.error || 'Upload falhou'); }
+    ok(s1, 'Upload OK (manifest recebido)');
+
+    // Manifest path → out_dir
+    const manifestPath = up.manifest_path || '';
+    const outDir = manifestPath.substring(0, manifestPath.lastIndexOf('/'));
+    // Path do hands.jsonl (relativo no manifest)
+    const parserInfo = up.manifest?.parser || {};
+    if(!parserInfo.output_file){ throw new Error('Parser não devolveu output_file'); }
+    const handsJsonl = outDir + '/' + parserInfo.output_file; // e.g., parsed/hands.jsonl
+    const handsEnriched = outDir + '/parsed/hands_enriched.jsonl';
+
+    // 2) Derive
+    const dv = await postJSON('/api/derive/build', { in_jsonl: handsJsonl, out_jsonl: handsEnriched });
+    if(!dv.success){ throw new Error(dv.error || 'Derive falhou'); }
+    ok(s2, `Derive OK → ${handsEnriched}`);
+
+    // 3) Partitions
+    const pv = await postJSON('/api/partition', { in_jsonl: handsEnriched, out_dir: 'partitions', validate: true });
+    if(pv.error){ throw new Error(pv.error); }
+    ok(s3, 'Partitions OK');
+
+    // 4) Stats (DSL)
+    const sv = await postJSON('/api/stats/build', { in_jsonl: handsEnriched, dsl_path: 'app/stats/dsl/stats.yml', out_dir: 'stats' });
+    if(sv.error){ throw new Error(sv.error); }
+    ok(s4, 'Stats OK');
+
+    // 5) Score
+    const sc = await postJSON('/api/score/build', { stat_counts: 'stats/stat_counts.json', cfg_path: 'app/score/config.yml', out_dir: 'scores', force: true });
+    if(sc.success === false){ throw new Error(sc.error || 'Score falhou'); }
+    ok(s5, `Score OK → ${sc.scorecard_path}`);
+
+    // Mostrar resumo (overall + grupos)
+    const summary = await fetch('/api/score/summary').then(r=>r.json());
+    out.textContent = JSON.stringify({
+      overall: summary.overall,
+      group_level: summary.group_level,
+      sample: summary.stat_level?.RFI_BTN_STEAL || {}
+    }, null, 2);
+
+    links.innerHTML = `
+      <a href="/scoring" target="_blank">Abrir /scoring</a>
+      <a href="/debug-hands" target="_blank">Abrir /debug-hands</a>
+    `;
+
+  } catch(e){
+    err(s1, 'Erro no pipeline (ver abaixo)');
+    document.getElementById('out').textContent = (e && e.message) ? e.message : String(e);
+  }
+};
+</script>
+</body>
+</html>
+
+
+Adicionar rota:
+
+@app.route('/pipeline')
+def pipeline_page():
+    return render_template('pipeline.html')

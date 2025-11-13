@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7947698139">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€3500 GTD|Bigstack Hunter, 1080874670</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:12:30</duration>
+  <gamecount>10</gamecount>
+  <startdate>2024-02-12 14:02:13</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>13,920</bets>
+  <wins>0</wins>
+  <chipsin>99,880</chipsin>
+  <chipsout>86,080</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080216982</tournamentcode>
+  <tournamentname>€3500 GTD|Bigstack Hunter</tournamentname>
+  <place>N/A</place>
+  <buyin>€5.69 + €5.69 + €1.12</buyin>
+  <totalbuyin>€12.50</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10560146225">
+  <general>
+   <startdate>2024-02-12 14:02:13</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>120</ante>
+   <players>
+    <player dealer="1" seat="1" chips="100,000" addon="0" bet="120" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="100,000" addon="0" bet="920" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="100,000" addon="0" bet="3,320" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,286" addon="0" bet="5,973" reg_code="" name="Brst01" win="8,040" rebuy="0"/>
+    <player dealer="0" seat="7" chips="72,695" addon="0" bet="120" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,587" addon="0" bet="120" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="100,000" addon="0" bet="120" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="120" player="Hindus007" type="15"/>
+   <action no="2" sum="120" player="teachergirl" type="15"/>
+   <action no="3" sum="120" player="Brst01" type="15"/>
+   <action no="4" sum="120" player="arcticant" type="15"/>
+   <action no="5" sum="120" player="yutakaiwahashi" type="15"/>
+   <action no="6" sum="120" player="enricone751" type="15"/>
+   <action no="7" sum="120" player="tropeiro123" type="15"/>
+   <action no="8" sum="800" player="Hindus007" type="1"/>
+   <action no="9" sum="1,600" player="teachergirl" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="10" sum="3,200" player="Brst01" type="23"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 S7</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Hindus007" type="0"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="16" sum="1,600" player="teachergirl" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 SQ CQ</cards>
+   <action no="17" sum="0" player="teachergirl" type="4"/>
+   <action no="18" sum="2,653" player="Brst01" type="5"/>
+   <action no="19" sum="0" player="teachergirl" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560162285">
+  <general>
+   <startdate>2024-02-12 14:02:58</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,880" addon="0" bet="160" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="99,080" addon="0" bet="9,220" reg_code="" name="Hindus007" win="10,120" rebuy="0"/>
+    <player dealer="0" seat="4" chips="96,680" addon="0" bet="1,160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="128,006" addon="0" bet="4,160" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="72,575" addon="0" bet="160" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,467" addon="0" bet="160" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,880" addon="0" bet="160" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="teachergirl" type="15"/>
+   <action no="2" sum="160" player="Brst01" type="15"/>
+   <action no="3" sum="160" player="arcticant" type="15"/>
+   <action no="4" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="5" sum="160" player="enricone751" type="15"/>
+   <action no="6" sum="160" player="tropeiro123" type="15"/>
+   <action no="7" sum="160" player="Hindus007" type="15"/>
+   <action no="8" sum="1,000" player="teachergirl" type="1"/>
+   <action no="9" sum="2,000" player="Brst01" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ S3</cards>
+   <action no="13" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="14" sum="4,000" player="Hindus007" type="23"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="teachergirl" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="16" sum="2,000" player="Brst01" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D6 SA HK</cards>
+   <action no="17" sum="0" player="Brst01" type="4"/>
+   <action no="18" sum="5,060" player="Hindus007" type="5"/>
+   <action no="19" sum="0" player="Brst01" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560162325">
+  <general>
+   <startdate>2024-02-12 14:03:52</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,720" addon="0" bet="160" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="105,040" addon="0" bet="160" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="95,520" addon="0" bet="160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="123,846" addon="0" bet="1,160" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="72,415" addon="0" bet="2,160" reg_code="" name="arcticant" win="3,120" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,307" addon="0" bet="160" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,720" addon="0" bet="160" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="Brst01" type="15"/>
+   <action no="2" sum="160" player="arcticant" type="15"/>
+   <action no="3" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="4" sum="160" player="enricone751" type="15"/>
+   <action no="5" sum="160" player="tropeiro123" type="15"/>
+   <action no="6" sum="160" player="Hindus007" type="15"/>
+   <action no="7" sum="160" player="teachergirl" type="15"/>
+   <action no="8" sum="1,000" player="Brst01" type="1"/>
+   <action no="9" sum="2,000" player="arcticant" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="10" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 H4</cards>
+   <action no="12" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Hindus007" type="0"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="teachergirl" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Brst01" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560162359">
+  <general>
+   <startdate>2024-02-12 14:04:20</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="99,560" addon="0" bet="4,360" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="104,880" addon="0" bet="160" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="95,360" addon="0" bet="160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="100,000" addon="0" bet="160" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+    <player dealer="1" seat="6" chips="122,686" addon="0" bet="122,686" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="74,375" addon="0" bet="1,160" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="79,147" addon="0" bet="79,147" reg_code="" name="yutakaiwahashi" win="164,454" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,560" addon="0" bet="160" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="arcticant" type="15"/>
+   <action no="2" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="3" sum="160" player="enricone751" type="15"/>
+   <action no="4" sum="160" player="tropeiro123" type="15"/>
+   <action no="5" sum="160" player="Hindus007" type="15"/>
+   <action no="6" sum="160" player="teachergirl" type="15"/>
+   <action no="7" sum="160" player="FausSatan" type="15"/>
+   <action no="8" sum="160" player="Brst01" type="15"/>
+   <action no="9" sum="1,000" player="arcticant" type="1"/>
+   <action no="10" sum="2,000" player="yutakaiwahashi" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK CA</cards>
+   <action no="12" sum="4,200" player="tropeiro123" type="23"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Hindus007" type="0"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="FausSatan" type="0"/>
+   <cards player="Brst01" type="Pocket">D2 DQ</cards>
+   <action no="16" sum="4,200" player="Brst01" type="3"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">H8 HJ</cards>
+   <action no="18" sum="2,200" player="yutakaiwahashi" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D8 D6 SJ</cards>
+   <action no="19" sum="0" player="yutakaiwahashi" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="4,910" player="Brst01" type="5"/>
+   <action no="22" sum="11,820" player="yutakaiwahashi" type="23"/>
+   <action no="23" sum="0" player="tropeiro123" type="0"/>
+   <action no="24" sum="6,910" player="Brst01" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+   <action no="25" sum="0" player="yutakaiwahashi" type="4"/>
+   <action no="26" sum="20,000" player="Brst01" type="5"/>
+   <action no="27" sum="20,000" player="yutakaiwahashi" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S3</cards>
+   <action no="28" sum="0" player="yutakaiwahashi" type="4"/>
+   <action no="29" sum="86,506" player="Brst01" type="5"/>
+   <action no="30" sum="42,967" player="yutakaiwahashi" type="7"/>
+  </round>
+ </game>
+ <game gamecode="10560162438">
+  <general>
+   <startdate>2024-02-12 14:06:04</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,200" addon="0" bet="160" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="104,720" addon="0" bet="160" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="95,200" addon="0" bet="160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="99,840" addon="0" bet="160" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="43,539" addon="0" bet="160" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="1" seat="7" chips="73,215" addon="0" bet="12,730" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="164,454" addon="0" bet="1,160" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="99,400" addon="0" bet="12,730" reg_code="" name="enricone751" win="27,420" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="2" sum="160" player="enricone751" type="15"/>
+   <action no="3" sum="160" player="tropeiro123" type="15"/>
+   <action no="4" sum="160" player="Hindus007" type="15"/>
+   <action no="5" sum="160" player="teachergirl" type="15"/>
+   <action no="6" sum="160" player="FausSatan" type="15"/>
+   <action no="7" sum="160" player="Brst01" type="15"/>
+   <action no="8" sum="160" player="arcticant" type="15"/>
+   <action no="9" sum="1,000" player="yutakaiwahashi" type="1"/>
+   <action no="10" sum="2,000" player="enricone751" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H4 S8</cards>
+   <action no="11" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="Hindus007" type="0"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="FausSatan" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="Brst01" type="0"/>
+   <cards player="arcticant" type="Pocket">C5 S5</cards>
+   <action no="16" sum="4,000" player="arcticant" type="23"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">C7 D7</cards>
+   <action no="18" sum="2,000" player="enricone751" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D2 HJ D9</cards>
+   <action no="19" sum="0" player="enricone751" type="4"/>
+   <action no="20" sum="4,000" player="arcticant" type="5"/>
+   <action no="21" sum="4,000" player="enricone751" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action no="22" sum="0" player="enricone751" type="4"/>
+   <action no="23" sum="0" player="arcticant" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action no="24" sum="4,570" player="enricone751" type="5"/>
+   <action no="25" sum="4,570" player="arcticant" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10560162571">
+  <general>
+   <startdate>2024-02-12 14:08:29</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="95,040" addon="0" bet="2,160" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="104,560" addon="0" bet="2,160" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="95,040" addon="0" bet="160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="99,680" addon="0" bet="12,160" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="43,379" addon="0" bet="160" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="60,485" addon="0" bet="24,160" reg_code="" name="arcticant" win="30,280" rebuy="0"/>
+    <player dealer="1" seat="9" chips="163,294" addon="0" bet="160" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="114,090" addon="0" bet="1,160" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="enricone751" type="15"/>
+   <action no="2" sum="160" player="tropeiro123" type="15"/>
+   <action no="3" sum="160" player="Hindus007" type="15"/>
+   <action no="4" sum="160" player="teachergirl" type="15"/>
+   <action no="5" sum="160" player="FausSatan" type="15"/>
+   <action no="6" sum="160" player="Brst01" type="15"/>
+   <action no="7" sum="160" player="arcticant" type="15"/>
+   <action no="8" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="9" sum="1,000" player="enricone751" type="1"/>
+   <action no="10" sum="2,000" player="tropeiro123" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="11" sum="2,000" player="Hindus007" type="3"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="13" sum="7,000" player="FausSatan" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="Brst01" type="0"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="15" sum="12,000" player="arcticant" type="23"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 HQ</cards>
+   <action no="18" sum="0" player="tropeiro123" type="0"/>
+   <action no="19" sum="0" player="Hindus007" type="0"/>
+   <action no="20" sum="5,000" player="FausSatan" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H3 CJ</cards>
+   <action no="21" sum="0" player="FausSatan" type="4"/>
+   <action no="22" sum="12,000" player="arcticant" type="5"/>
+   <action no="23" sum="0" player="FausSatan" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560162655">
+  <general>
+   <startdate>2024-02-12 14:09:56</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>160</ante>
+   <players>
+    <player dealer="0" seat="1" chips="92,880" addon="0" bet="1,160" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="102,400" addon="0" bet="4,160" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="94,880" addon="0" bet="160" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="87,520" addon="0" bet="160" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="43,219" addon="0" bet="160" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="78,605" addon="0" bet="10,160" reg_code="" name="arcticant" win="10,280" rebuy="0"/>
+    <player dealer="0" seat="9" chips="163,134" addon="0" bet="160" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="1" seat="10" chips="112,930" addon="0" bet="160" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="160" player="tropeiro123" type="15"/>
+   <action no="2" sum="160" player="Hindus007" type="15"/>
+   <action no="3" sum="160" player="teachergirl" type="15"/>
+   <action no="4" sum="160" player="FausSatan" type="15"/>
+   <action no="5" sum="160" player="Brst01" type="15"/>
+   <action no="6" sum="160" player="arcticant" type="15"/>
+   <action no="7" sum="160" player="yutakaiwahashi" type="15"/>
+   <action no="8" sum="160" player="enricone751" type="15"/>
+   <action no="9" sum="1,000" player="tropeiro123" type="1"/>
+   <action no="10" sum="2,000" player="Hindus007" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="FausSatan" type="0"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="Brst01" type="0"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="14" sum="4,000" player="arcticant" type="23"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H2 H4</cards>
+   <action no="17" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="18" sum="2,000" player="Hindus007" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA CQ D2</cards>
+   <action no="19" sum="0" player="Hindus007" type="4"/>
+   <action no="20" sum="6,000" player="arcticant" type="5"/>
+   <action no="21" sum="0" player="Hindus007" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10560174456">
+  <general>
+   <startdate>2024-02-12 14:11:13</startdate>
+   <smallblind>1,200</smallblind>
+   <bigblind>2,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="1" seat="1" chips="91,720" addon="0" bet="200" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="98,240" addon="0" bet="1,400" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="0" seat="4" chips="94,720" addon="0" bet="5,480" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="87,360" addon="0" bet="21,841" reg_code="" name="FausSatan" win="51,362" rebuy="0"/>
+    <player dealer="0" seat="6" chips="43,059" addon="0" bet="21,841" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="84,725" addon="0" bet="200" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="162,974" addon="0" bet="200" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="112,770" addon="0" bet="200" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="Hindus007" type="15"/>
+   <action no="2" sum="200" player="teachergirl" type="15"/>
+   <action no="3" sum="200" player="FausSatan" type="15"/>
+   <action no="4" sum="200" player="Brst01" type="15"/>
+   <action no="5" sum="200" player="arcticant" type="15"/>
+   <action no="6" sum="200" player="yutakaiwahashi" type="15"/>
+   <action no="7" sum="200" player="enricone751" type="15"/>
+   <action no="8" sum="200" player="tropeiro123" type="15"/>
+   <action no="9" sum="1,200" player="Hindus007" type="1"/>
+   <action no="10" sum="2,400" player="teachergirl" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="FausSatan" type="Pocket">SA HQ</cards>
+   <action no="11" sum="5,280" player="FausSatan" type="23"/>
+   <cards player="Brst01" type="Pocket">H8 HA</cards>
+   <action no="12" sum="5,280" player="Brst01" type="3"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="15" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 S5</cards>
+   <action no="16" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="Hindus007" type="0"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="18" sum="2,880" player="teachergirl" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DA S10 C10</cards>
+   <action no="19" sum="0" player="teachergirl" type="4"/>
+   <action no="20" sum="0" player="FausSatan" type="4"/>
+   <action no="21" sum="6,151" player="Brst01" type="5"/>
+   <action no="22" sum="0" player="teachergirl" type="0"/>
+   <action no="23" sum="6,151" player="FausSatan" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H6</cards>
+   <action no="24" sum="0" player="FausSatan" type="4"/>
+   <action no="25" sum="10,210" player="Brst01" type="5"/>
+   <action no="26" sum="10,210" player="FausSatan" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+   <action no="27" sum="0" player="FausSatan" type="4"/>
+   <action no="28" sum="0" player="Brst01" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560174648">
+  <general>
+   <startdate>2024-02-12 14:12:13</startdate>
+   <smallblind>1,200</smallblind>
+   <bigblind>2,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="91,520" addon="0" bet="5,240" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="1" seat="2" chips="96,840" addon="0" bet="45,470" reg_code="" name="Hindus007" win="98,380" rebuy="0"/>
+    <player dealer="0" seat="4" chips="89,240" addon="0" bet="1,400" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="116,881" addon="0" bet="45,470" reg_code="" name="FausSatan" win="0" rebuy="0"/>
+    <player dealer="0" seat="6" chips="21,218" addon="0" bet="200" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="84,525" addon="0" bet="200" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="162,774" addon="0" bet="200" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="112,570" addon="0" bet="200" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="teachergirl" type="15"/>
+   <action no="2" sum="200" player="FausSatan" type="15"/>
+   <action no="3" sum="200" player="Brst01" type="15"/>
+   <action no="4" sum="200" player="arcticant" type="15"/>
+   <action no="5" sum="200" player="yutakaiwahashi" type="15"/>
+   <action no="6" sum="200" player="enricone751" type="15"/>
+   <action no="7" sum="200" player="tropeiro123" type="15"/>
+   <action no="8" sum="200" player="Hindus007" type="15"/>
+   <action no="9" sum="1,200" player="teachergirl" type="1"/>
+   <action no="10" sum="2,400" player="FausSatan" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="Brst01" type="0"/>
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="14" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK CQ</cards>
+   <action no="15" sum="5,040" player="tropeiro123" type="23"/>
+   <cards player="Hindus007" type="Pocket">C10 HA</cards>
+   <action no="16" sum="5,040" player="Hindus007" type="3"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="17" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">S3 C4</cards>
+   <action no="18" sum="2,640" player="FausSatan" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 H2 DA</cards>
+   <action no="19" sum="0" player="FausSatan" type="4"/>
+   <action no="20" sum="0" player="tropeiro123" type="4"/>
+   <action no="21" sum="8,960" player="Hindus007" type="5"/>
+   <action no="22" sum="20,320" player="FausSatan" type="23"/>
+   <action no="23" sum="0" player="tropeiro123" type="0"/>
+   <action no="24" sum="11,360" player="Hindus007" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action no="25" sum="19,910" player="FausSatan" type="5"/>
+   <action no="26" sum="19,910" player="Hindus007" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action no="27" sum="0" player="FausSatan" type="4"/>
+   <action no="28" sum="0" player="Hindus007" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10560175059">
+  <general>
+   <startdate>2024-02-12 14:14:06</startdate>
+   <smallblind>1,200</smallblind>
+   <bigblind>2,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player dealer="0" seat="1" chips="86,280" addon="0" bet="200" reg_code="7947698139" name="tropeiro123" win="0" rebuy="0"/>
+    <player dealer="0" seat="2" chips="149,750" addon="0" bet="5,000" reg_code="" name="Hindus007" win="0" rebuy="0"/>
+    <player dealer="1" seat="4" chips="87,840" addon="0" bet="200" reg_code="" name="teachergirl" win="0" rebuy="0"/>
+    <player dealer="0" seat="5" chips="71,411" addon="0" bet="71,211" reg_code="" name="FausSatan" win="13,600" rebuy="0"/>
+    <player dealer="0" seat="6" chips="21,018" addon="0" bet="2,600" reg_code="" name="Brst01" win="0" rebuy="0"/>
+    <player dealer="0" seat="7" chips="84,325" addon="0" bet="200" reg_code="" name="arcticant" win="0" rebuy="0"/>
+    <player dealer="0" seat="9" chips="162,574" addon="0" bet="200" reg_code="" name="yutakaiwahashi" win="0" rebuy="0"/>
+    <player dealer="0" seat="10" chips="112,370" addon="0" bet="200" reg_code="" name="enricone751" win="0" rebuy="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" sum="200" player="FausSatan" type="15"/>
+   <action no="2" sum="200" player="Brst01" type="15"/>
+   <action no="3" sum="200" player="arcticant" type="15"/>
+   <action no="4" sum="200" player="yutakaiwahashi" type="15"/>
+   <action no="5" sum="200" player="enricone751" type="15"/>
+   <action no="6" sum="200" player="tropeiro123" type="15"/>
+   <action no="7" sum="200" player="Hindus007" type="15"/>
+   <action no="8" sum="200" player="teachergirl" type="15"/>
+   <action no="9" sum="1,200" player="FausSatan" type="1"/>
+   <action no="10" sum="2,400" player="Brst01" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="arcticant" type="Pocket">X X</cards>
+   <action no="11" sum="0" player="arcticant" type="0"/>
+   <cards player="yutakaiwahashi" type="Pocket">X X</cards>
+   <action no="12" sum="0" player="yutakaiwahashi" type="0"/>
+   <cards player="enricone751" type="Pocket">X X</cards>
+   <action no="13" sum="0" player="enricone751" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 S5</cards>
+   <action no="14" sum="0" player="tropeiro123" type="0"/>
+   <cards player="Hindus007" type="Pocket">X X</cards>
+   <action no="15" sum="4,800" player="Hindus007" type="23"/>
+   <cards player="teachergirl" type="Pocket">X X</cards>
+   <action no="16" sum="0" player="teachergirl" type="0"/>
+   <cards player="FausSatan" type="Pocket">X X</cards>
+   <action no="17" sum="71,211" player="FausSatan" type="23"/>
+   <cards player="Brst01" type="Pocket">X X</cards>
+   <action no="18" sum="0" player="Brst01" type="0"/>
+   <action no="19" sum="0" player="Hindus007" type="0"/>
+  </round>
+ </game>
+</session>

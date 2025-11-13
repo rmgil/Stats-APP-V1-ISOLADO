@@ -1,0 +1,3524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7954942471">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€100,000|Mystery Bounty|D1, 1081513156</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>01:14:55</duration>
+  <gamecount>71</gamecount>
+  <startdate>2024-02-19 16:13:58</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>628,654</bets>
+  <wins>330,549</wins>
+  <chipsin>49,480</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>RP45</statuspoints>
+  <awardpoints>RP135</awardpoints>
+  <ipoints>RP45</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080307555</tournamentcode>
+  <tournamentname>E3|€100,000|Mystery Bounty|D1</tournamentname>
+  <place>15</place>
+  <buyin>€22.75 + €22.75 + €4.50</buyin>
+  <totalbuyin>€50</totalbuyin>
+  <win>0</win>
+ </general>
+ <game gamecode="10573160083">
+  <general>
+   <startdate>2024-02-19 16:13:58</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="AgenteMortifero" bet="120" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="520" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="920" addon="0" rebuy="0" chips="40,680"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="120" addon="0" rebuy="0" chips="57,501"/>
+    <player reg_code="" win="2,600" dealer="0" seat="10" name="toohigh" bet="1,600" addon="0" rebuy="0" chips="49,330"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="120" type="15"/>
+   <action no="2" player="Bilakovic" sum="120" type="15"/>
+   <action no="3" player="stakerflower72" sum="120" type="15"/>
+   <action no="4" player="toohigh" sum="120" type="15"/>
+   <action no="5" player="AgenteMortifero" sum="120" type="15"/>
+   <action no="6" player="tropeiro123" sum="400" type="1"/>
+   <action no="7" player="Bilakovic" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="8" player="stakerflower72" sum="0" type="0"/>
+   <cards player="toohigh" type="Pocket">X X</cards>
+   <action no="9" player="toohigh" sum="1,600" type="23"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="10" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SJ H8</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573160118">
+  <general>
+   <startdate>2024-02-19 16:14:34</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="1,720" addon="0" rebuy="0" chips="49,880"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="120" addon="0" rebuy="0" chips="49,480"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="520" addon="0" rebuy="0" chips="39,760"/>
+    <player reg_code="" win="4,200" dealer="0" seat="9" name="stakerflower72" bet="1,720" addon="0" rebuy="0" chips="57,381"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="toohigh" bet="120" addon="0" rebuy="0" chips="51,010"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="120" type="15"/>
+   <action no="2" player="stakerflower72" sum="120" type="15"/>
+   <action no="3" player="toohigh" sum="120" type="15"/>
+   <action no="4" player="AgenteMortifero" sum="120" type="15"/>
+   <action no="5" player="tropeiro123" sum="120" type="15"/>
+   <action no="6" player="Bilakovic" sum="400" type="1"/>
+   <action no="7" player="stakerflower72" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="toohigh" type="Pocket">X X</cards>
+   <action no="8" player="toohigh" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">DJ CK</cards>
+   <action no="9" player="AgenteMortifero" sum="1,600" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HQ D3</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">C5 S9</cards>
+   <action no="12" player="stakerflower72" sum="800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 H4 D9</cards>
+   <action no="13" player="stakerflower72" sum="0" type="4"/>
+   <action no="14" player="AgenteMortifero" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="15" player="stakerflower72" sum="0" type="4"/>
+   <action no="16" player="AgenteMortifero" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">C4</cards>
+   <action no="17" player="stakerflower72" sum="0" type="4"/>
+   <action no="18" player="AgenteMortifero" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573160196">
+  <general>
+   <startdate>2024-02-19 16:15:38</startdate>
+   <smallblind>400</smallblind>
+   <bigblind>800</bigblind>
+   <ante>120</ante>
+   <players>
+    <player reg_code="" win="28,224" dealer="0" seat="1" name="AgenteMortifero" bet="27,784" addon="0" rebuy="0" chips="48,160"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="120" addon="0" rebuy="0" chips="49,360"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="120" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="120" addon="0" rebuy="0" chips="39,240"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="520" addon="0" rebuy="0" chips="59,861"/>
+    <player reg_code="" win="28,224" dealer="0" seat="10" name="toohigh" bet="27,784" addon="0" rebuy="0" chips="50,890"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="120" type="15"/>
+   <action no="2" player="toohigh" sum="120" type="15"/>
+   <action no="3" player="AgenteMortifero" sum="120" type="15"/>
+   <action no="4" player="tropeiro123" sum="120" type="15"/>
+   <action no="5" player="dialetica" sum="120" type="15"/>
+   <action no="6" player="Bilakovic" sum="120" type="15"/>
+   <action no="7" player="stakerflower72" sum="400" type="1"/>
+   <action no="8" player="toohigh" sum="800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AgenteMortifero" type="Pocket">DA CQ</cards>
+   <action no="9" player="AgenteMortifero" sum="1,600" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H9 S10</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="11" player="dialetica" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="13" player="stakerflower72" sum="0" type="0"/>
+   <cards player="toohigh" type="Pocket">SA SQ</cards>
+   <action no="14" player="toohigh" sum="800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 D10 H4</cards>
+   <action no="15" player="toohigh" sum="0" type="4"/>
+   <action no="16" player="AgenteMortifero" sum="1,600" type="5"/>
+   <action no="17" player="toohigh" sum="4,800" type="23"/>
+   <action no="18" player="AgenteMortifero" sum="3,200" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action no="19" player="toohigh" sum="4,800" type="5"/>
+   <action no="20" player="AgenteMortifero" sum="4,800" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">D8</cards>
+   <action no="21" player="toohigh" sum="16,464" type="5"/>
+   <action no="22" player="AgenteMortifero" sum="16,464" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573160398">
+  <general>
+   <startdate>2024-02-19 16:18:09</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="14,900" dealer="0" seat="1" name="AgenteMortifero" bet="4,650" addon="0" rebuy="0" chips="48,600"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="49,240"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="4,650" addon="0" rebuy="0" chips="49,880"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="4,650" addon="0" rebuy="0" chips="39,120"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="150" addon="0" rebuy="0" chips="59,341"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="toohigh" bet="650" addon="0" rebuy="0" chips="51,330"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="toohigh" sum="150" type="15"/>
+   <action no="2" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="3" player="tropeiro123" sum="150" type="15"/>
+   <action no="4" player="dialetica" sum="150" type="15"/>
+   <action no="5" player="Bilakovic" sum="150" type="15"/>
+   <action no="6" player="stakerflower72" sum="150" type="15"/>
+   <action no="7" player="toohigh" sum="500" type="1"/>
+   <action no="8" player="AgenteMortifero" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">C9 D10</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">HA CK</cards>
+   <action no="10" player="dialetica" sum="2,500" type="23"/>
+   <cards player="Bilakovic" type="Pocket">C2 S2</cards>
+   <action no="11" player="Bilakovic" sum="2,500" type="3"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="12" player="stakerflower72" sum="0" type="0"/>
+   <cards player="toohigh" type="Pocket">X X</cards>
+   <action no="13" player="toohigh" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">DA SJ</cards>
+   <action no="14" player="AgenteMortifero" sum="1,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 S8 S9</cards>
+   <action no="15" player="AgenteMortifero" sum="0" type="4"/>
+   <action no="16" player="dialetica" sum="0" type="4"/>
+   <action no="17" player="Bilakovic" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="18" player="AgenteMortifero" sum="0" type="4"/>
+   <action no="19" player="dialetica" sum="0" type="4"/>
+   <action no="20" player="Bilakovic" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D5</cards>
+   <action no="21" player="AgenteMortifero" sum="2,000" type="5"/>
+   <action no="22" player="dialetica" sum="2,000" type="3"/>
+   <action no="23" player="Bilakovic" sum="2,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573196370">
+  <general>
+   <startdate>2024-02-19 16:21:00</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="650" addon="0" rebuy="0" chips="58,850"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="2,450" addon="0" rebuy="0" chips="49,090"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="150" addon="0" rebuy="0" chips="45,230"/>
+    <player reg_code="" win="6,150" dealer="0" seat="5" name="DwImBad" bet="4,910" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="150" addon="0" rebuy="0" chips="34,470"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="150" addon="0" rebuy="0" chips="59,191"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="toohigh" bet="150" addon="0" rebuy="0" chips="50,680"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="2" player="tropeiro123" sum="150" type="15"/>
+   <action no="3" player="dialetica" sum="150" type="15"/>
+   <action no="4" player="DwImBad" sum="150" type="15"/>
+   <action no="5" player="Bilakovic" sum="150" type="15"/>
+   <action no="6" player="stakerflower72" sum="150" type="15"/>
+   <action no="7" player="toohigh" sum="150" type="15"/>
+   <action no="8" player="AgenteMortifero" sum="500" type="1"/>
+   <action no="9" player="tropeiro123" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="10" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="2,300" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="13" player="stakerflower72" sum="0" type="0"/>
+   <cards player="toohigh" type="Pocket">X X</cards>
+   <action no="14" player="toohigh" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="15" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 HA</cards>
+   <action no="16" player="tropeiro123" sum="1,300" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C3 D8</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="DwImBad" sum="2,460" type="5"/>
+   <action no="19" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196426">
+  <general>
+   <startdate>2024-02-19 16:21:52</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="AgenteMortifero" bet="150" addon="0" rebuy="0" chips="58,200"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="650" addon="0" rebuy="0" chips="46,640"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="2,350" addon="0" rebuy="0" chips="45,080"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="150" addon="0" rebuy="0" chips="53,700"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="5,350" addon="0" rebuy="0" chips="34,320"/>
+    <player reg_code="" win="14,150" dealer="0" seat="9" name="stakerflower72" bet="15,255" addon="0" rebuy="0" chips="59,041"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="toohigh" bet="150" addon="0" rebuy="0" chips="50,530"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="150" type="15"/>
+   <action no="2" player="dialetica" sum="150" type="15"/>
+   <action no="3" player="DwImBad" sum="150" type="15"/>
+   <action no="4" player="Bilakovic" sum="150" type="15"/>
+   <action no="5" player="stakerflower72" sum="150" type="15"/>
+   <action no="6" player="toohigh" sum="150" type="15"/>
+   <action no="7" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="8" player="tropeiro123" sum="500" type="1"/>
+   <action no="9" player="dialetica" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="2,200" type="23"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="12" player="stakerflower72" sum="2,200" type="3"/>
+   <cards player="toohigh" type="Pocket">X X</cards>
+   <action no="13" player="toohigh" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="14" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H4 SJ</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="16" player="dialetica" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 DJ H7</cards>
+   <action no="17" player="dialetica" sum="0" type="4"/>
+   <action no="18" player="Bilakovic" sum="3,000" type="5"/>
+   <action no="19" player="stakerflower72" sum="3,000" type="3"/>
+   <action no="20" player="dialetica" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S5</cards>
+   <action no="21" player="Bilakovic" sum="0" type="4"/>
+   <action no="22" player="stakerflower72" sum="9,905" type="5"/>
+   <action no="23" player="Bilakovic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196566">
+  <general>
+   <startdate>2024-02-19 16:23:48</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="150" addon="0" rebuy="0" chips="58,050"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="45,990"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="650" addon="0" rebuy="0" chips="42,730"/>
+    <player reg_code="" win="102,010" dealer="0" seat="5" name="DwImBad" bet="50,380" addon="0" rebuy="0" chips="53,550"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="150" addon="0" rebuy="0" chips="28,970"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="150" addon="0" rebuy="0" chips="67,841"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="toohigh" bet="50,380" addon="0" rebuy="0" chips="50,380"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="dialetica" sum="150" type="15"/>
+   <action no="2" player="DwImBad" sum="150" type="15"/>
+   <action no="3" player="Bilakovic" sum="150" type="15"/>
+   <action no="4" player="stakerflower72" sum="150" type="15"/>
+   <action no="5" player="toohigh" sum="150" type="15"/>
+   <action no="6" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="7" player="tropeiro123" sum="150" type="15"/>
+   <action no="8" player="dialetica" sum="500" type="1"/>
+   <action no="9" player="DwImBad" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="11" player="stakerflower72" sum="0" type="0"/>
+   <cards player="toohigh" type="Pocket">H9 H8</cards>
+   <action no="12" player="toohigh" sum="2,000" type="23"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="13" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ H7</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="15" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">H6 C5</cards>
+   <action no="16" player="DwImBad" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 H4 S6</cards>
+   <action no="17" player="DwImBad" sum="1,830" type="5"/>
+   <action no="18" player="toohigh" sum="4,660" type="23"/>
+   <action no="19" player="DwImBad" sum="12,490" type="23"/>
+   <action no="20" player="toohigh" sum="7,830" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C2</cards>
+   <action no="21" player="DwImBad" sum="12,210" type="5"/>
+   <action no="22" player="toohigh" sum="35,740" type="23"/>
+   <action no="23" player="DwImBad" sum="23,530" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">CK</cards>
+  </round>
+ </game>
+ <game gamecode="10573196672">
+  <general>
+   <startdate>2024-02-19 16:25:14</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="150" addon="0" rebuy="0" chips="57,900"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="150" addon="0" rebuy="0" chips="45,840"/>
+    <player reg_code="" win="3,400" dealer="1" seat="4" name="dialetica" bet="2,000" addon="0" rebuy="0" chips="42,080"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="650" addon="0" rebuy="0" chips="105,180"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,150" addon="0" rebuy="0" chips="28,820"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="150" addon="0" rebuy="0" chips="67,691"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="150" type="15"/>
+   <action no="2" player="Bilakovic" sum="150" type="15"/>
+   <action no="3" player="stakerflower72" sum="150" type="15"/>
+   <action no="4" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="5" player="tropeiro123" sum="150" type="15"/>
+   <action no="6" player="dialetica" sum="150" type="15"/>
+   <action no="7" player="DwImBad" sum="500" type="1"/>
+   <action no="8" player="Bilakovic" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="10" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 C9</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="12" player="dialetica" sum="2,000" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="13" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="14" player="Bilakovic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196710">
+  <general>
+   <startdate>2024-02-19 16:25:44</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="150" addon="0" rebuy="0" chips="57,750"/>
+    <player reg_code="7954942471" win="5,400" dealer="0" seat="2" name="tropeiro123" bet="5,120" addon="0" rebuy="0" chips="45,690"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="150" addon="0" rebuy="0" chips="44,330"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="150" addon="0" rebuy="0" chips="104,530"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="650" addon="0" rebuy="0" chips="27,670"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="2,150" addon="0" rebuy="0" chips="67,541"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="150" type="15"/>
+   <action no="2" player="stakerflower72" sum="150" type="15"/>
+   <action no="3" player="AgenteMortifero" sum="150" type="15"/>
+   <action no="4" player="tropeiro123" sum="150" type="15"/>
+   <action no="5" player="dialetica" sum="150" type="15"/>
+   <action no="6" player="DwImBad" sum="150" type="15"/>
+   <action no="7" player="Bilakovic" sum="500" type="1"/>
+   <action no="8" player="stakerflower72" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="9" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA D10</cards>
+   <action no="10" player="tropeiro123" sum="2,000" type="23"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="11" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="12" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="13" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="14" player="stakerflower72" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H2 D4</cards>
+   <action no="15" player="stakerflower72" sum="0" type="4"/>
+   <action no="16" player="tropeiro123" sum="2,970" type="5"/>
+   <action no="17" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196806">
+  <general>
+   <startdate>2024-02-19 16:26:53</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="1,380" addon="0" rebuy="0" chips="57,600"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="48,940"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="180" addon="0" rebuy="0" chips="44,180"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="104,380"/>
+    <player reg_code="" win="7,320" dealer="1" seat="7" name="Bilakovic" bet="6,300" addon="0" rebuy="0" chips="27,020"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="2,700" addon="0" rebuy="0" chips="65,391"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="180" type="15"/>
+   <action no="2" player="AgenteMortifero" sum="180" type="15"/>
+   <action no="3" player="tropeiro123" sum="180" type="15"/>
+   <action no="4" player="dialetica" sum="180" type="15"/>
+   <action no="5" player="DwImBad" sum="180" type="15"/>
+   <action no="6" player="Bilakovic" sum="180" type="15"/>
+   <action no="7" player="stakerflower72" sum="600" type="1"/>
+   <action no="8" player="AgenteMortifero" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S3 S5</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="10" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="2,520" type="23"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="13" player="stakerflower72" sum="1,920" type="3"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="14" player="AgenteMortifero" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H3 SJ S7</cards>
+   <action no="15" player="stakerflower72" sum="0" type="4"/>
+   <action no="16" player="Bilakovic" sum="3,600" type="5"/>
+   <action no="17" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196900">
+  <general>
+   <startdate>2024-02-19 16:28:12</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="780" addon="0" rebuy="0" chips="56,220"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="1,380" addon="0" rebuy="0" chips="48,760"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="180" addon="0" rebuy="0" chips="44,000"/>
+    <player reg_code="" win="4,080" dealer="0" seat="5" name="DwImBad" bet="2,640" addon="0" rebuy="0" chips="104,200"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="180" addon="0" rebuy="0" chips="31,640"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="180" addon="0" rebuy="0" chips="62,691"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="AgenteMortifero" sum="180" type="15"/>
+   <action no="2" player="tropeiro123" sum="180" type="15"/>
+   <action no="3" player="dialetica" sum="180" type="15"/>
+   <action no="4" player="DwImBad" sum="180" type="15"/>
+   <action no="5" player="Bilakovic" sum="180" type="15"/>
+   <action no="6" player="stakerflower72" sum="180" type="15"/>
+   <action no="7" player="AgenteMortifero" sum="600" type="1"/>
+   <action no="8" player="tropeiro123" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="9" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="2,640" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="12" player="stakerflower72" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="13" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C7 H2</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573196988">
+  <general>
+   <startdate>2024-02-19 16:29:14</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="AgenteMortifero" bet="180" addon="0" rebuy="0" chips="55,440"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="1,380" addon="0" rebuy="0" chips="47,380"/>
+    <player reg_code="" win="52,680" dealer="0" seat="4" name="dialetica" bet="43,380" addon="0" rebuy="0" chips="43,820"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="106,900"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="180" addon="0" rebuy="0" chips="31,460"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="25,380" addon="0" rebuy="0" chips="62,511"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="180" type="15"/>
+   <action no="2" player="dialetica" sum="180" type="15"/>
+   <action no="3" player="DwImBad" sum="180" type="15"/>
+   <action no="4" player="Bilakovic" sum="180" type="15"/>
+   <action no="5" player="stakerflower72" sum="180" type="15"/>
+   <action no="6" player="AgenteMortifero" sum="180" type="15"/>
+   <action no="7" player="tropeiro123" sum="600" type="1"/>
+   <action no="8" player="dialetica" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="9" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="11" player="stakerflower72" sum="1,200" type="3"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="12" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 DK</cards>
+   <action no="13" player="tropeiro123" sum="600" type="3"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="14" player="dialetica" sum="7,200" type="23"/>
+   <action no="15" player="stakerflower72" sum="6,000" type="3"/>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 C9 S3</cards>
+   <action no="17" player="dialetica" sum="0" type="4"/>
+   <action no="18" player="stakerflower72" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+   <action no="19" player="dialetica" sum="0" type="4"/>
+   <action no="20" player="stakerflower72" sum="18,000" type="5"/>
+   <action no="21" player="dialetica" sum="36,000" type="23"/>
+   <action no="22" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221142">
+  <general>
+   <startdate>2024-02-19 16:30:36</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="180" addon="0" rebuy="0" chips="55,260"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="46,000"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="dialetica" bet="780" addon="0" rebuy="0" chips="71,120"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="1,380" addon="0" rebuy="0" chips="106,720"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="2,700" addon="0" rebuy="0" chips="31,280"/>
+    <player reg_code="" win="7,920" dealer="0" seat="9" name="stakerflower72" bet="36,951" addon="0" rebuy="0" chips="37,131"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="dialetica" sum="180" type="15"/>
+   <action no="2" player="DwImBad" sum="180" type="15"/>
+   <action no="3" player="Bilakovic" sum="180" type="15"/>
+   <action no="4" player="stakerflower72" sum="180" type="15"/>
+   <action no="5" player="AgenteMortifero" sum="180" type="15"/>
+   <action no="6" player="tropeiro123" sum="180" type="15"/>
+   <action no="7" player="dialetica" sum="600" type="1"/>
+   <action no="8" player="DwImBad" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="2,520" type="23"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="36,951" type="23"/>
+   <cards player="AgenteMortifero" type="Pocket">X X</cards>
+   <action no="11" player="AgenteMortifero" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 H8</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">X X</cards>
+   <action no="13" player="dialetica" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="14" player="DwImBad" sum="0" type="0"/>
+   <action no="15" player="Bilakovic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221221">
+  <general>
+   <startdate>2024-02-19 16:31:38</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="AgenteMortifero" bet="54,900" addon="0" rebuy="0" chips="55,080"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="45,820"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="dialetica" bet="70,340" addon="0" rebuy="0" chips="70,340"/>
+    <player reg_code="" win="197,500" dealer="0" seat="5" name="DwImBad" bet="70,340" addon="0" rebuy="0" chips="105,340"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,380" addon="0" rebuy="0" chips="28,580"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="180" addon="0" rebuy="0" chips="42,351"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="180" type="15"/>
+   <action no="2" player="Bilakovic" sum="180" type="15"/>
+   <action no="3" player="stakerflower72" sum="180" type="15"/>
+   <action no="4" player="AgenteMortifero" sum="180" type="15"/>
+   <action no="5" player="tropeiro123" sum="180" type="15"/>
+   <action no="6" player="dialetica" sum="180" type="15"/>
+   <action no="7" player="DwImBad" sum="600" type="1"/>
+   <action no="8" player="Bilakovic" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="0" type="0"/>
+   <cards player="AgenteMortifero" type="Pocket">HK DA</cards>
+   <action no="10" player="AgenteMortifero" sum="2,400" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D8 S2</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="dialetica" type="Pocket">C10 H10</cards>
+   <action no="12" player="dialetica" sum="7,200" type="23"/>
+   <cards player="DwImBad" type="Pocket">HQ CQ</cards>
+   <action no="13" player="DwImBad" sum="19,200" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="14" player="Bilakovic" sum="0" type="0"/>
+   <action no="15" player="AgenteMortifero" sum="54,900" type="23"/>
+   <action no="16" player="dialetica" sum="62,960" type="7"/>
+   <action no="17" player="DwImBad" sum="50,960" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ C3 H2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C6</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10573221299">
+  <general>
+   <startdate>2024-02-19 16:32:35</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="2,580" addon="0" rebuy="0" chips="45,640"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="232,500"/>
+    <player reg_code="" win="6,720" dealer="0" seat="7" name="Bilakovic" bet="7,200" addon="0" rebuy="0" chips="27,200"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="1,380" addon="0" rebuy="0" chips="42,171"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="180" type="15"/>
+   <action no="2" player="stakerflower72" sum="180" type="15"/>
+   <action no="3" player="tropeiro123" sum="180" type="15"/>
+   <action no="4" player="DwImBad" sum="180" type="15"/>
+   <action no="5" player="Bilakovic" sum="600" type="1"/>
+   <action no="6" player="stakerflower72" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DQ H10</cards>
+   <action no="7" player="tropeiro123" sum="2,400" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="8" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="7,200" type="23"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="0" type="0"/>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221334">
+  <general>
+   <startdate>2024-02-19 16:33:02</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="4,980" addon="0" rebuy="0" chips="43,060"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="HisBrilliancy" bet="180" addon="0" rebuy="0" chips="13,105"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="232,320"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="180" addon="0" rebuy="0" chips="31,340"/>
+    <player reg_code="" win="10,500" dealer="0" seat="9" name="stakerflower72" bet="12,330" addon="0" rebuy="0" chips="40,791"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="180" type="15"/>
+   <action no="2" player="tropeiro123" sum="180" type="15"/>
+   <action no="3" player="HisBrilliancy" sum="180" type="15"/>
+   <action no="4" player="DwImBad" sum="180" type="15"/>
+   <action no="5" player="Bilakovic" sum="180" type="15"/>
+   <action no="6" player="stakerflower72" sum="600" type="1"/>
+   <action no="7" player="tropeiro123" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="8" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="9" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="11" player="stakerflower72" sum="4,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HJ DA</cards>
+   <action no="12" player="tropeiro123" sum="3,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 D5 C5</cards>
+   <action no="13" player="stakerflower72" sum="7,350" type="5"/>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221373">
+  <general>
+   <startdate>2024-02-19 16:33:39</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="780" addon="0" rebuy="0" chips="38,080"/>
+    <player reg_code="" win="2,100" dealer="0" seat="4" name="HisBrilliancy" bet="1,380" addon="0" rebuy="0" chips="12,925"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="232,140"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="180" addon="0" rebuy="0" chips="31,160"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="180" addon="0" rebuy="0" chips="46,311"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="180" type="15"/>
+   <action no="2" player="HisBrilliancy" sum="180" type="15"/>
+   <action no="3" player="DwImBad" sum="180" type="15"/>
+   <action no="4" player="Bilakovic" sum="180" type="15"/>
+   <action no="5" player="stakerflower72" sum="180" type="15"/>
+   <action no="6" player="tropeiro123" sum="600" type="1"/>
+   <action no="7" player="HisBrilliancy" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="8" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C10 D4</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221401">
+  <general>
+   <startdate>2024-02-19 16:33:57</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="7954942471" win="28,650" dealer="1" seat="2" name="tropeiro123" bet="13,755" addon="0" rebuy="0" chips="37,300"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="HisBrilliancy" bet="780" addon="0" rebuy="0" chips="14,245"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="13,755" addon="0" rebuy="0" chips="231,960"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="180" addon="0" rebuy="0" chips="30,980"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="180" addon="0" rebuy="0" chips="46,131"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HisBrilliancy" sum="180" type="15"/>
+   <action no="2" player="DwImBad" sum="180" type="15"/>
+   <action no="3" player="Bilakovic" sum="180" type="15"/>
+   <action no="4" player="stakerflower72" sum="180" type="15"/>
+   <action no="5" player="tropeiro123" sum="180" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="600" type="1"/>
+   <action no="7" player="DwImBad" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="8" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 S3</cards>
+   <action no="10" player="tropeiro123" sum="2,400" type="23"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="11" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">D9 DA</cards>
+   <action no="12" player="DwImBad" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H7 D4 C7</cards>
+   <action no="13" player="DwImBad" sum="0" type="4"/>
+   <action no="14" player="tropeiro123" sum="1,575" type="5"/>
+   <action no="15" player="DwImBad" sum="1,575" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+   <action no="16" player="DwImBad" sum="0" type="4"/>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+   <action no="18" player="DwImBad" sum="0" type="4"/>
+   <action no="19" player="tropeiro123" sum="9,600" type="5"/>
+   <action no="20" player="DwImBad" sum="9,600" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573221504">
+  <general>
+   <startdate>2024-02-19 16:35:23</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="180" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="52,195"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="HisBrilliancy" bet="13,285" addon="0" rebuy="0" chips="13,465"/>
+    <player reg_code="" win="28,850" dealer="0" seat="5" name="DwImBad" bet="25,370" addon="0" rebuy="0" chips="218,205"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,380" addon="0" rebuy="0" chips="30,800"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="180" addon="0" rebuy="0" chips="45,951"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="180" type="15"/>
+   <action no="2" player="Bilakovic" sum="180" type="15"/>
+   <action no="3" player="stakerflower72" sum="180" type="15"/>
+   <action no="4" player="Trash42" sum="180" type="15"/>
+   <action no="5" player="tropeiro123" sum="180" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="180" type="15"/>
+   <action no="7" player="DwImBad" sum="600" type="1"/>
+   <action no="8" player="Bilakovic" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 C5</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">DK D4</cards>
+   <action no="12" player="HisBrilliancy" sum="13,285" type="23"/>
+   <cards player="DwImBad" type="Pocket">D5 DA</cards>
+   <action no="13" player="DwImBad" sum="25,370" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="14" player="Bilakovic" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ S8 C3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D3</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SA</cards>
+  </round>
+ </game>
+ <game gamecode="10573221546">
+  <general>
+   <startdate>2024-02-19 16:35:51</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="180" addon="0" rebuy="0" chips="49,820"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="180" addon="0" rebuy="0" chips="52,015"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="180" addon="0" rebuy="0" chips="233,590"/>
+    <player reg_code="" win="59,380" dealer="0" seat="7" name="Bilakovic" bet="29,420" addon="0" rebuy="0" chips="29,420"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="45,591" addon="0" rebuy="0" chips="45,771"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="180" type="15"/>
+   <action no="2" player="stakerflower72" sum="180" type="15"/>
+   <action no="3" player="Trash42" sum="180" type="15"/>
+   <action no="4" player="tropeiro123" sum="180" type="15"/>
+   <action no="5" player="DwImBad" sum="180" type="15"/>
+   <action no="6" player="Bilakovic" sum="600" type="1"/>
+   <action no="7" player="stakerflower72" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="8" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 S7</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">S5 SA</cards>
+   <action no="11" player="Bilakovic" sum="600" type="3"/>
+   <cards player="stakerflower72" type="Pocket">SK S6</cards>
+   <action no="12" player="stakerflower72" sum="45,591" type="23"/>
+   <action no="13" player="Bilakovic" sum="28,040" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 H4 C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+  </round>
+ </game>
+ <game gamecode="10573221587">
+  <general>
+   <startdate>2024-02-19 16:36:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,600" addon="0" rebuy="0" chips="49,640"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="51,835"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="233,410"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="59,380"/>
+    <player reg_code="" win="3,800" dealer="0" seat="9" name="stakerflower72" bet="16,151" addon="0" rebuy="0" chips="16,351"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="200" type="15"/>
+   <action no="2" player="Trash42" sum="200" type="15"/>
+   <action no="3" player="tropeiro123" sum="200" type="15"/>
+   <action no="4" player="DwImBad" sum="200" type="15"/>
+   <action no="5" player="Bilakovic" sum="200" type="15"/>
+   <action no="6" player="stakerflower72" sum="700" type="1"/>
+   <action no="7" player="Trash42" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S9 CK</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="9" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X HA</cards>
+   <action no="11" player="stakerflower72" sum="16,151" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="12" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221626">
+  <general>
+   <startdate>2024-02-19 16:36:55</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="5,200" dealer="0" seat="1" name="Trash42" bet="4,400" addon="0" rebuy="0" chips="48,040"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="1,600" addon="0" rebuy="0" chips="51,635"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="233,210"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="59,180"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="1,600" addon="0" rebuy="0" chips="18,551"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="200" type="15"/>
+   <action no="2" player="tropeiro123" sum="200" type="15"/>
+   <action no="3" player="DwImBad" sum="200" type="15"/>
+   <action no="4" player="Bilakovic" sum="200" type="15"/>
+   <action no="5" player="stakerflower72" sum="200" type="15"/>
+   <action no="6" player="Trash42" sum="700" type="1"/>
+   <action no="7" player="tropeiro123" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="8" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="1,400" type="3"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="700" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H8 CQ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 H3 CK</cards>
+   <action no="13" player="Trash42" sum="2,800" type="5"/>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <action no="15" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221669">
+  <general>
+   <startdate>2024-02-19 16:37:36</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="200" addon="0" rebuy="0" chips="51,640"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="900" addon="0" rebuy="0" chips="50,035"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="26,880" addon="0" rebuy="0" chips="233,010"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="58,980"/>
+    <player reg_code="" win="35,202" dealer="0" seat="9" name="stakerflower72" bet="16,951" addon="0" rebuy="0" chips="16,951"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="200" type="15"/>
+   <action no="2" player="DwImBad" sum="200" type="15"/>
+   <action no="3" player="Bilakovic" sum="200" type="15"/>
+   <action no="4" player="stakerflower72" sum="200" type="15"/>
+   <action no="5" player="Trash42" sum="200" type="15"/>
+   <action no="6" player="tropeiro123" sum="700" type="1"/>
+   <action no="7" player="DwImBad" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="8" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">S2 S6</cards>
+   <action no="9" player="stakerflower72" sum="5,600" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 SJ</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">S10 C10</cards>
+   <action no="12" player="DwImBad" sum="26,880" type="23"/>
+   <action no="13" player="stakerflower72" sum="11,151" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D4 C3 D8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C5</cards>
+  </round>
+ </game>
+ <game gamecode="10573221709">
+  <general>
+   <startdate>2024-02-19 16:38:09</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="50,588" dealer="0" seat="1" name="Trash42" bet="38,686" addon="0" rebuy="0" chips="51,440"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="49,135"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="24,294" addon="0" rebuy="0" chips="216,059"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,600" addon="0" rebuy="0" chips="58,780"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="200" addon="0" rebuy="0" chips="35,202"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="200" type="15"/>
+   <action no="2" player="Bilakovic" sum="200" type="15"/>
+   <action no="3" player="stakerflower72" sum="200" type="15"/>
+   <action no="4" player="Trash42" sum="200" type="15"/>
+   <action no="5" player="tropeiro123" sum="200" type="15"/>
+   <action no="6" player="DwImBad" sum="700" type="1"/>
+   <action no="7" player="Bilakovic" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="8" player="stakerflower72" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="3,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S8 S4</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="2,800" type="3"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DQ HQ SK</cards>
+   <action no="13" player="DwImBad" sum="0" type="4"/>
+   <action no="14" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H5</cards>
+   <action no="15" player="DwImBad" sum="6,202" type="5"/>
+   <action no="16" player="Trash42" sum="6,202" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action no="17" player="DwImBad" sum="14,392" type="5"/>
+   <action no="18" player="Trash42" sum="28,784" type="23"/>
+   <action no="19" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221803">
+  <general>
+   <startdate>2024-02-19 16:39:22</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="200" addon="0" rebuy="0" chips="77,734"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="48,935"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="191,765"/>
+    <player reg_code="" win="3,800" dealer="0" seat="7" name="Bilakovic" bet="3,420" addon="0" rebuy="0" chips="57,180"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="1,600" addon="0" rebuy="0" chips="35,002"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="200" type="15"/>
+   <action no="2" player="stakerflower72" sum="200" type="15"/>
+   <action no="3" player="Trash42" sum="200" type="15"/>
+   <action no="4" player="tropeiro123" sum="200" type="15"/>
+   <action no="5" player="DwImBad" sum="200" type="15"/>
+   <action no="6" player="Bilakovic" sum="700" type="1"/>
+   <action no="7" player="stakerflower72" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="8" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 CQ</cards>
+   <action no="9" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="700" type="3"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="12" player="stakerflower72" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 DA CJ</cards>
+   <action no="13" player="Bilakovic" sum="1,820" type="5"/>
+   <action no="14" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221830">
+  <general>
+   <startdate>2024-02-19 16:39:48</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,600" addon="0" rebuy="0" chips="77,534"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="48,735"/>
+    <player reg_code="" win="8,840" dealer="0" seat="5" name="DwImBad" bet="6,332" addon="0" rebuy="0" chips="191,565"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="59,380"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="3,420" addon="0" rebuy="0" chips="33,402"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="200" type="15"/>
+   <action no="2" player="Trash42" sum="200" type="15"/>
+   <action no="3" player="tropeiro123" sum="200" type="15"/>
+   <action no="4" player="DwImBad" sum="200" type="15"/>
+   <action no="5" player="Bilakovic" sum="200" type="15"/>
+   <action no="6" player="stakerflower72" sum="700" type="1"/>
+   <action no="7" player="Trash42" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H6 C4</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="9" player="DwImBad" sum="3,220" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="11" player="stakerflower72" sum="2,520" type="3"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="12" player="Trash42" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 SQ D2</cards>
+   <action no="13" player="stakerflower72" sum="0" type="4"/>
+   <action no="14" player="DwImBad" sum="2,912" type="5"/>
+   <action no="15" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573221866">
+  <general>
+   <startdate>2024-02-19 16:40:17</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="900" addon="0" rebuy="0" chips="75,934"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="1,600" addon="0" rebuy="0" chips="48,535"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="3,420" addon="0" rebuy="0" chips="196,985"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="59,180"/>
+    <player reg_code="" win="9,540" dealer="1" seat="9" name="stakerflower72" bet="29,782" addon="0" rebuy="0" chips="29,982"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="200" type="15"/>
+   <action no="2" player="tropeiro123" sum="200" type="15"/>
+   <action no="3" player="DwImBad" sum="200" type="15"/>
+   <action no="4" player="Bilakovic" sum="200" type="15"/>
+   <action no="5" player="stakerflower72" sum="200" type="15"/>
+   <action no="6" player="Trash42" sum="700" type="1"/>
+   <action no="7" player="tropeiro123" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="8" player="DwImBad" sum="3,220" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="29,782" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 S3</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <action no="13" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573244842">
+  <general>
+   <startdate>2024-02-19 16:41:02</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="3,280" addon="0" rebuy="0" chips="75,034"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="900" addon="0" rebuy="0" chips="46,935"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="1,600" addon="0" rebuy="0" chips="193,565"/>
+    <player reg_code="" win="12,340" dealer="0" seat="7" name="Bilakovic" bet="11,680" addon="0" rebuy="0" chips="58,980"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="3,280" addon="0" rebuy="0" chips="36,102"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="200" type="15"/>
+   <action no="2" player="DwImBad" sum="200" type="15"/>
+   <action no="3" player="Bilakovic" sum="200" type="15"/>
+   <action no="4" player="stakerflower72" sum="200" type="15"/>
+   <action no="5" player="Trash42" sum="200" type="15"/>
+   <action no="6" player="tropeiro123" sum="700" type="1"/>
+   <action no="7" player="DwImBad" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="8" player="Bilakovic" sum="3,080" type="23"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="3,080" type="3"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="3,080" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H4 C10</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="12" player="DwImBad" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 HK D8</cards>
+   <action no="13" player="Bilakovic" sum="0" type="4"/>
+   <action no="14" player="stakerflower72" sum="0" type="4"/>
+   <action no="15" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DK</cards>
+   <action no="16" player="Bilakovic" sum="8,400" type="5"/>
+   <action no="17" player="stakerflower72" sum="0" type="0"/>
+   <action no="18" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573244917">
+  <general>
+   <startdate>2024-02-19 16:42:05</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="26,900" dealer="0" seat="1" name="Trash42" bet="71,554" addon="0" rebuy="0" chips="71,754"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="46,035"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="12,450" addon="0" rebuy="0" chips="191,965"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,600" addon="0" rebuy="0" chips="68,040"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="200" addon="0" rebuy="0" chips="32,822"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="200" type="15"/>
+   <action no="2" player="Bilakovic" sum="200" type="15"/>
+   <action no="3" player="stakerflower72" sum="200" type="15"/>
+   <action no="4" player="Trash42" sum="200" type="15"/>
+   <action no="5" player="tropeiro123" sum="200" type="15"/>
+   <action no="6" player="DwImBad" sum="700" type="1"/>
+   <action no="7" player="Bilakovic" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="8" player="stakerflower72" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="3,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S4 HA</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="12,250" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <action no="13" player="Trash42" sum="71,554" type="23"/>
+   <action no="14" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573244968">
+  <general>
+   <startdate>2024-02-19 16:42:49</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="200" addon="0" rebuy="0" chips="86,204"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="3,000" addon="0" rebuy="0" chips="45,835"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="179,515"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="900" addon="0" rebuy="0" chips="66,440"/>
+    <player reg_code="" win="7,300" dealer="0" seat="9" name="stakerflower72" bet="8,400" addon="0" rebuy="0" chips="32,622"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="200" type="15"/>
+   <action no="2" player="stakerflower72" sum="200" type="15"/>
+   <action no="3" player="Trash42" sum="200" type="15"/>
+   <action no="4" player="tropeiro123" sum="200" type="15"/>
+   <action no="5" player="DwImBad" sum="200" type="15"/>
+   <action no="6" player="Bilakovic" sum="700" type="1"/>
+   <action no="7" player="stakerflower72" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="8" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA S7</cards>
+   <action no="9" player="tropeiro123" sum="2,800" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="12" player="stakerflower72" sum="8,400" type="23"/>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245017">
+  <general>
+   <startdate>2024-02-19 16:43:20</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="3,800" dealer="0" seat="1" name="Trash42" bet="1,600" addon="0" rebuy="0" chips="86,004"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="42,835"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="179,315"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="65,540"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="1,600" addon="0" rebuy="0" chips="36,922"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="200" type="15"/>
+   <action no="2" player="Trash42" sum="200" type="15"/>
+   <action no="3" player="tropeiro123" sum="200" type="15"/>
+   <action no="4" player="DwImBad" sum="200" type="15"/>
+   <action no="5" player="Bilakovic" sum="200" type="15"/>
+   <action no="6" player="stakerflower72" sum="700" type="1"/>
+   <action no="7" player="Trash42" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S8 C3</cards>
+   <action no="8" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="9" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">H2 D3</cards>
+   <action no="11" player="stakerflower72" sum="700" type="3"/>
+   <cards player="Trash42" type="Pocket">HK S6</cards>
+   <action no="12" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H9 C4</cards>
+   <action no="13" player="stakerflower72" sum="0" type="4"/>
+   <action no="14" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="15" player="stakerflower72" sum="0" type="4"/>
+   <action no="16" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H4</cards>
+   <action no="17" player="stakerflower72" sum="0" type="4"/>
+   <action no="18" player="Trash42" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573245053">
+  <general>
+   <startdate>2024-02-19 16:43:53</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="900" addon="0" rebuy="0" chips="88,204"/>
+    <player reg_code="7954942471" win="37,680" dealer="0" seat="2" name="tropeiro123" bet="42,635" addon="0" rebuy="0" chips="42,635"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="179,115"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="65,340"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="18,190" addon="0" rebuy="0" chips="35,322"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="200" type="15"/>
+   <action no="2" player="tropeiro123" sum="200" type="15"/>
+   <action no="3" player="DwImBad" sum="200" type="15"/>
+   <action no="4" player="Bilakovic" sum="200" type="15"/>
+   <action no="5" player="stakerflower72" sum="200" type="15"/>
+   <action no="6" player="Trash42" sum="700" type="1"/>
+   <action no="7" player="tropeiro123" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="8" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="9" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="10" player="stakerflower72" sum="7,000" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D9 D10</cards>
+   <action no="12" player="tropeiro123" sum="5,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H8 SJ S7</cards>
+   <action no="13" player="tropeiro123" sum="0" type="4"/>
+   <action no="14" player="stakerflower72" sum="10,990" type="5"/>
+   <action no="15" player="tropeiro123" sum="35,435" type="23"/>
+   <action no="16" player="stakerflower72" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245130">
+  <general>
+   <startdate>2024-02-19 16:44:52</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="3,000" addon="0" rebuy="0" chips="87,304"/>
+    <player reg_code="7954942471" win="8,000" dealer="0" seat="2" name="tropeiro123" bet="61,925" addon="0" rebuy="0" chips="62,125"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="1,600" addon="0" rebuy="0" chips="178,915"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="200" addon="0" rebuy="0" chips="65,140"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="200" addon="0" rebuy="0" chips="17,132"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="200" type="15"/>
+   <action no="2" player="DwImBad" sum="200" type="15"/>
+   <action no="3" player="Bilakovic" sum="200" type="15"/>
+   <action no="4" player="stakerflower72" sum="200" type="15"/>
+   <action no="5" player="Trash42" sum="200" type="15"/>
+   <action no="6" player="tropeiro123" sum="700" type="1"/>
+   <action no="7" player="DwImBad" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="8" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="9" player="stakerflower72" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="10" player="Trash42" sum="2,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H8 S8</cards>
+   <action no="11" player="tropeiro123" sum="61,925" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="12" player="DwImBad" sum="0" type="0"/>
+   <action no="13" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245187">
+  <general>
+   <startdate>2024-02-19 16:45:35</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="200" addon="0" rebuy="0" chips="84,304"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="200" addon="0" rebuy="0" chips="67,125"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="900" addon="0" rebuy="0" chips="177,315"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,600" addon="0" rebuy="0" chips="64,940"/>
+    <player reg_code="" win="4,500" dealer="0" seat="9" name="stakerflower72" bet="16,732" addon="0" rebuy="0" chips="16,932"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="200" type="15"/>
+   <action no="2" player="Bilakovic" sum="200" type="15"/>
+   <action no="3" player="stakerflower72" sum="200" type="15"/>
+   <action no="4" player="Trash42" sum="200" type="15"/>
+   <action no="5" player="tropeiro123" sum="200" type="15"/>
+   <action no="6" player="DwImBad" sum="700" type="1"/>
+   <action no="7" player="Bilakovic" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="8" player="stakerflower72" sum="16,732" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C2 D9</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245224">
+  <general>
+   <startdate>2024-02-19 16:46:03</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="200" addon="0" rebuy="0" chips="84,104"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="3,000" addon="0" rebuy="0" chips="66,925"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="3,000" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="200" addon="0" rebuy="0" chips="176,415"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="900" addon="0" rebuy="0" chips="63,340"/>
+    <player reg_code="" win="10,300" dealer="0" seat="9" name="stakerflower72" bet="19,832" addon="0" rebuy="0" chips="19,832"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="200" type="15"/>
+   <action no="2" player="stakerflower72" sum="200" type="15"/>
+   <action no="3" player="Trash42" sum="200" type="15"/>
+   <action no="4" player="tropeiro123" sum="200" type="15"/>
+   <action no="5" player="djego2023" sum="200" type="15"/>
+   <action no="6" player="DwImBad" sum="200" type="15"/>
+   <action no="7" player="Bilakovic" sum="700" type="1"/>
+   <action no="8" player="stakerflower72" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H7 HK</cards>
+   <action no="10" player="tropeiro123" sum="2,800" type="23"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="11" player="djego2023" sum="2,800" type="3"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="12" player="DwImBad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="13" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="14" player="stakerflower72" sum="1,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 C6 S3</cards>
+   <action no="15" player="stakerflower72" sum="16,832" type="5"/>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <action no="17" player="djego2023" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245315">
+  <general>
+   <startdate>2024-02-19 16:47:08</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="20,054" dealer="0" seat="1" name="Trash42" bet="15,733" addon="0" rebuy="0" chips="83,904"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="63,925"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="250" addon="0" rebuy="0" chips="47,000"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="250" addon="0" rebuy="0" chips="176,215"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="7,642" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="62,440"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="3,770" addon="0" rebuy="0" chips="27,132"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="stakerflower72" sum="250" type="15"/>
+   <action no="2" player="Trash42" sum="250" type="15"/>
+   <action no="3" player="tropeiro123" sum="250" type="15"/>
+   <action no="4" player="djego2023" sum="250" type="15"/>
+   <action no="5" player="DwImBad" sum="250" type="15"/>
+   <action no="6" player="Vialio" sum="250" type="15"/>
+   <action no="7" player="Bilakovic" sum="250" type="15"/>
+   <action no="8" player="stakerflower72" sum="800" type="1"/>
+   <action no="9" player="Trash42" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H9 DJ</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="11" player="djego2023" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="12" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="13" player="Vialio" sum="3,520" type="23"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="14" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="15" player="stakerflower72" sum="2,720" type="3"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="16" player="Trash42" sum="1,920" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H4 H7 CK</cards>
+   <action no="17" player="stakerflower72" sum="0" type="4"/>
+   <action no="18" player="Trash42" sum="0" type="4"/>
+   <action no="19" player="Vialio" sum="3,872" type="5"/>
+   <action no="20" player="stakerflower72" sum="0" type="0"/>
+   <action no="21" player="Trash42" sum="11,963" type="23"/>
+   <action no="22" player="Vialio" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245403">
+  <general>
+   <startdate>2024-02-19 16:48:20</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="9,750" dealer="0" seat="1" name="Trash42" bet="12,250" addon="0" rebuy="0" chips="96,316"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="4,250" addon="0" rebuy="0" chips="63,675"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="250" addon="0" rebuy="0" chips="46,750"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="250" addon="0" rebuy="0" chips="175,965"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="250" addon="0" rebuy="0" chips="42,358"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="62,190"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="stakerflower72" bet="250" addon="0" rebuy="0" chips="23,362"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="250" type="15"/>
+   <action no="2" player="tropeiro123" sum="250" type="15"/>
+   <action no="3" player="djego2023" sum="250" type="15"/>
+   <action no="4" player="DwImBad" sum="250" type="15"/>
+   <action no="5" player="Vialio" sum="250" type="15"/>
+   <action no="6" player="Bilakovic" sum="250" type="15"/>
+   <action no="7" player="stakerflower72" sum="250" type="15"/>
+   <action no="8" player="Trash42" sum="800" type="1"/>
+   <action no="9" player="tropeiro123" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="10" player="djego2023" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="12" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="13" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">X X</cards>
+   <action no="14" player="stakerflower72" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="15" player="Trash42" sum="4,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S3 S2</cards>
+   <action no="16" player="tropeiro123" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 DA C6</cards>
+   <action no="17" player="Trash42" sum="0" type="4"/>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="19" player="Trash42" sum="8,000" type="5"/>
+   <action no="20" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573245473">
+  <general>
+   <startdate>2024-02-19 16:49:14</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="101,816"/>
+    <player reg_code="7954942471" win="49,074" dealer="0" seat="2" name="tropeiro123" bet="59,175" addon="0" rebuy="0" chips="59,425"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="1,850" addon="0" rebuy="0" chips="46,500"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="250" addon="0" rebuy="0" chips="175,715"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="250" addon="0" rebuy="0" chips="42,108"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="61,940"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="stakerflower72" bet="22,862" addon="0" rebuy="0" chips="23,112"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="250" type="15"/>
+   <action no="2" player="djego2023" sum="250" type="15"/>
+   <action no="3" player="DwImBad" sum="250" type="15"/>
+   <action no="4" player="Vialio" sum="250" type="15"/>
+   <action no="5" player="Bilakovic" sum="250" type="15"/>
+   <action no="6" player="stakerflower72" sum="250" type="15"/>
+   <action no="7" player="Trash42" sum="250" type="15"/>
+   <action no="8" player="tropeiro123" sum="800" type="1"/>
+   <action no="9" player="djego2023" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="11" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="stakerflower72" type="Pocket">H9 S9</cards>
+   <action no="13" player="stakerflower72" sum="22,862" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="14" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA SA</cards>
+   <action no="15" player="tropeiro123" sum="59,175" type="23"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="16" player="djego2023" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 H7 H3</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">HQ</cards>
+  </round>
+ </game>
+ <game gamecode="10573245521">
+  <general>
+   <startdate>2024-02-19 16:49:54</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="9,000" addon="0" rebuy="0" chips="101,566"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="85,387"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="3,450" addon="0" rebuy="0" chips="44,650"/>
+    <player reg_code="" win="22,200" dealer="0" seat="5" name="DwImBad" bet="23,656" addon="0" rebuy="0" chips="175,465"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="250" addon="0" rebuy="0" chips="41,858"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="61,690"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="djego2023" sum="250" type="15"/>
+   <action no="2" player="DwImBad" sum="250" type="15"/>
+   <action no="3" player="Vialio" sum="250" type="15"/>
+   <action no="4" player="Bilakovic" sum="250" type="15"/>
+   <action no="5" player="Trash42" sum="250" type="15"/>
+   <action no="6" player="tropeiro123" sum="250" type="15"/>
+   <action no="7" player="djego2023" sum="800" type="1"/>
+   <action no="8" player="DwImBad" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="9" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="3,200" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S5 DJ</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="13" player="djego2023" sum="2,400" type="3"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="14" player="DwImBad" sum="1,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CJ C8 D8</cards>
+   <action no="15" player="djego2023" sum="0" type="4"/>
+   <action no="16" player="DwImBad" sum="0" type="4"/>
+   <action no="17" player="Trash42" sum="5,550" type="5"/>
+   <action no="18" player="djego2023" sum="0" type="0"/>
+   <action no="19" player="DwImBad" sum="5,550" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+   <action no="20" player="DwImBad" sum="0" type="4"/>
+   <action no="21" player="Trash42" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S6</cards>
+   <action no="22" player="DwImBad" sum="14,656" type="5"/>
+   <action no="23" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272294">
+  <general>
+   <startdate>2024-02-19 16:51:47</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="4,250" addon="0" rebuy="0" chips="92,566"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="85,137"/>
+    <player reg_code="" win="0" dealer="1" seat="4" name="djego2023" bet="41,200" addon="0" rebuy="0" chips="41,200"/>
+    <player reg_code="" win="89,500" dealer="0" seat="5" name="DwImBad" bet="188,415" addon="0" rebuy="0" chips="188,665"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="1,850" addon="0" rebuy="0" chips="41,608"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="61,440"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="250" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="wers261" bet="250" addon="0" rebuy="0" chips="50,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="250" type="15"/>
+   <action no="2" player="Vialio" sum="250" type="15"/>
+   <action no="3" player="Bilakovic" sum="250" type="15"/>
+   <action no="4" player="Atizeitor" sum="250" type="15"/>
+   <action no="5" player="wers261" sum="250" type="15"/>
+   <action no="6" player="Trash42" sum="250" type="15"/>
+   <action no="7" player="tropeiro123" sum="250" type="15"/>
+   <action no="8" player="djego2023" sum="250" type="15"/>
+   <action no="9" player="DwImBad" sum="800" type="1"/>
+   <action no="10" player="Vialio" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="11" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="12" player="Atizeitor" sum="0" type="0"/>
+   <cards player="wers261" type="Pocket">X X</cards>
+   <action no="13" player="wers261" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="14" player="Trash42" sum="4,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D9 S3</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="djego2023" type="Pocket">HA DK</cards>
+   <action no="16" player="djego2023" sum="9,600" type="23"/>
+   <cards player="DwImBad" type="Pocket">SJ DJ</cards>
+   <action no="17" player="DwImBad" sum="188,415" type="23"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="18" player="Vialio" sum="0" type="0"/>
+   <action no="19" player="Trash42" sum="0" type="0"/>
+   <action no="20" player="djego2023" sum="31,350" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 S6 C2</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10573272368">
+  <general>
+   <startdate>2024-02-19 16:52:44</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,850" addon="0" rebuy="0" chips="88,316"/>
+    <player reg_code="7954942471" win="7,350" dealer="0" seat="2" name="tropeiro123" bet="8,000" addon="0" rebuy="0" chips="84,887"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="250" addon="0" rebuy="0" chips="236,965"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="1,050" addon="0" rebuy="0" chips="39,758"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,850" addon="0" rebuy="0" chips="61,190"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="250" addon="0" rebuy="0" chips="49,750"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="wers261" bet="250" addon="0" rebuy="0" chips="49,750"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Vialio" sum="250" type="15"/>
+   <action no="2" player="Bilakovic" sum="250" type="15"/>
+   <action no="3" player="Atizeitor" sum="250" type="15"/>
+   <action no="4" player="wers261" sum="250" type="15"/>
+   <action no="5" player="Trash42" sum="250" type="15"/>
+   <action no="6" player="tropeiro123" sum="250" type="15"/>
+   <action no="7" player="DwImBad" sum="250" type="15"/>
+   <action no="8" player="Vialio" sum="800" type="1"/>
+   <action no="9" player="Bilakovic" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="10" player="Atizeitor" sum="0" type="0"/>
+   <cards player="wers261" type="Pocket">X X</cards>
+   <action no="11" player="wers261" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="12" player="Trash42" sum="1,600" type="3"/>
+   <cards player="tropeiro123" type="Pocket">SK CK</cards>
+   <action no="13" player="tropeiro123" sum="8,000" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="14" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="15" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="16" player="Bilakovic" sum="0" type="0"/>
+   <action no="17" player="Trash42" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272432">
+  <general>
+   <startdate>2024-02-19 16:53:46</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="86,466"/>
+    <player reg_code="7954942471" win="12,630" dealer="0" seat="2" name="tropeiro123" bet="14,345" addon="0" rebuy="0" chips="90,387"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="250" addon="0" rebuy="0" chips="236,715"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="Vialio" bet="3,610" addon="0" rebuy="0" chips="38,708"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="1,050" addon="0" rebuy="0" chips="59,340"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="3,610" addon="0" rebuy="0" chips="49,500"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="wers261" bet="250" addon="0" rebuy="0" chips="49,500"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="250" type="15"/>
+   <action no="2" player="Atizeitor" sum="250" type="15"/>
+   <action no="3" player="wers261" sum="250" type="15"/>
+   <action no="4" player="Trash42" sum="250" type="15"/>
+   <action no="5" player="tropeiro123" sum="250" type="15"/>
+   <action no="6" player="DwImBad" sum="250" type="15"/>
+   <action no="7" player="Vialio" sum="250" type="15"/>
+   <action no="8" player="Bilakovic" sum="800" type="1"/>
+   <action no="9" player="Atizeitor" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="wers261" type="Pocket">X X</cards>
+   <action no="10" player="wers261" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S10 CA</cards>
+   <action no="12" player="tropeiro123" sum="3,360" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="13" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="14" player="Vialio" sum="3,360" type="3"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="15" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="16" player="Atizeitor" sum="1,760" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 D3 SJ</cards>
+   <action no="17" player="Atizeitor" sum="0" type="4"/>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+   <action no="19" player="Vialio" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S3</cards>
+   <action no="20" player="Atizeitor" sum="0" type="4"/>
+   <action no="21" player="tropeiro123" sum="10,735" type="5"/>
+   <action no="22" player="Vialio" sum="0" type="0"/>
+   <action no="23" player="Atizeitor" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272530">
+  <general>
+   <startdate>2024-02-19 17:00:35</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="250" addon="0" rebuy="0" chips="86,216"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="250" addon="0" rebuy="0" chips="99,407"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="250" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="3,770" addon="0" rebuy="0" chips="236,465"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="250" addon="0" rebuy="0" chips="35,098"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="250" addon="0" rebuy="0" chips="58,290"/>
+    <player reg_code="" win="10,640" dealer="0" seat="9" name="Atizeitor" bet="45,640" addon="0" rebuy="0" chips="45,890"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="wers261" bet="1,850" addon="0" rebuy="0" chips="49,250"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Atizeitor" sum="250" type="15"/>
+   <action no="2" player="wers261" sum="250" type="15"/>
+   <action no="3" player="Trash42" sum="250" type="15"/>
+   <action no="4" player="tropeiro123" sum="250" type="15"/>
+   <action no="5" player="djego2023" sum="250" type="15"/>
+   <action no="6" player="DwImBad" sum="250" type="15"/>
+   <action no="7" player="Vialio" sum="250" type="15"/>
+   <action no="8" player="Bilakovic" sum="250" type="15"/>
+   <action no="9" player="Atizeitor" sum="800" type="1"/>
+   <action no="10" player="wers261" sum="1,600" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 C8</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="13" player="djego2023" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="14" player="DwImBad" sum="3,520" type="23"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="15" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="16" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="17" player="Atizeitor" sum="45,640" type="23"/>
+   <cards player="wers261" type="Pocket">X X</cards>
+   <action no="18" player="wers261" sum="0" type="0"/>
+   <action no="19" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272630">
+  <general>
+   <startdate>2024-02-19 17:02:20</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="2,075" addon="0" rebuy="0" chips="85,966"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="99,157"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="275" addon="0" rebuy="0" chips="49,750"/>
+    <player reg_code="" win="98,250" dealer="0" seat="5" name="DwImBad" bet="47,400" addon="0" rebuy="0" chips="232,695"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="275" addon="0" rebuy="0" chips="34,848"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="58,040"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="52,760"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="wers261" bet="47,125" addon="0" rebuy="0" chips="47,400"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="wers261" sum="275" type="15"/>
+   <action no="2" player="Trash42" sum="275" type="15"/>
+   <action no="3" player="tropeiro123" sum="275" type="15"/>
+   <action no="4" player="djego2023" sum="275" type="15"/>
+   <action no="5" player="DwImBad" sum="275" type="15"/>
+   <action no="6" player="Vialio" sum="275" type="15"/>
+   <action no="7" player="Bilakovic" sum="275" type="15"/>
+   <action no="8" player="Atizeitor" sum="275" type="15"/>
+   <action no="9" player="wers261" sum="900" type="1"/>
+   <action no="10" player="Trash42" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D4 C10</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="12" player="djego2023" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">CJ CA</cards>
+   <action no="13" player="DwImBad" sum="3,960" type="23"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="14" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="15" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="16" player="Atizeitor" sum="0" type="0"/>
+   <cards player="wers261" type="Pocket">DJ D9</cards>
+   <action no="17" player="wers261" sum="47,125" type="23"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="18" player="Trash42" sum="0" type="0"/>
+   <action no="19" player="DwImBad" sum="43,165" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HK HQ SK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+  </round>
+ </game>
+ <game gamecode="10573272667">
+  <general>
+   <startdate>2024-02-19 17:02:54</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,175" addon="0" rebuy="0" chips="83,891"/>
+    <player reg_code="7954942471" win="17,837" dealer="0" seat="2" name="tropeiro123" bet="25,781" addon="0" rebuy="0" chips="98,882"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="275" addon="0" rebuy="0" chips="49,475"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="7,781" addon="0" rebuy="0" chips="283,545"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="275" addon="0" rebuy="0" chips="34,573"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="57,765"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="52,485"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="275" type="15"/>
+   <action no="2" player="tropeiro123" sum="275" type="15"/>
+   <action no="3" player="djego2023" sum="275" type="15"/>
+   <action no="4" player="DwImBad" sum="275" type="15"/>
+   <action no="5" player="Vialio" sum="275" type="15"/>
+   <action no="6" player="Bilakovic" sum="275" type="15"/>
+   <action no="7" player="Atizeitor" sum="275" type="15"/>
+   <action no="8" player="Trash42" sum="900" type="1"/>
+   <action no="9" player="tropeiro123" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="djego2023" type="Pocket">X X</cards>
+   <action no="10" player="djego2023" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="3,960" type="23"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="12" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="13" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="14" player="Atizeitor" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="15" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA HQ</cards>
+   <action no="16" player="tropeiro123" sum="2,160" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">DJ S3 C5</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="DwImBad" sum="3,546" type="5"/>
+   <action no="19" player="tropeiro123" sum="3,546" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action no="20" player="tropeiro123" sum="0" type="4"/>
+   <action no="21" player="DwImBad" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">S7</cards>
+   <action no="22" player="tropeiro123" sum="18,000" type="5"/>
+   <action no="23" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272787">
+  <general>
+   <startdate>2024-02-19 17:04:32</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="82,716"/>
+    <player reg_code="7954942471" win="99,775" dealer="0" seat="2" name="tropeiro123" bet="49,200" addon="0" rebuy="0" chips="108,938"/>
+    <player reg_code="" win="0" dealer="0" seat="4" name="djego2023" bet="48,925" addon="0" rebuy="0" chips="49,200"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="275" addon="0" rebuy="0" chips="275,764"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="275" addon="0" rebuy="0" chips="34,298"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="57,490"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="52,210"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="275" type="15"/>
+   <action no="2" player="djego2023" sum="275" type="15"/>
+   <action no="3" player="DwImBad" sum="275" type="15"/>
+   <action no="4" player="Vialio" sum="275" type="15"/>
+   <action no="5" player="Bilakovic" sum="275" type="15"/>
+   <action no="6" player="Atizeitor" sum="275" type="15"/>
+   <action no="7" player="Trash42" sum="275" type="15"/>
+   <action no="8" player="tropeiro123" sum="900" type="1"/>
+   <action no="9" player="djego2023" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="11" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="13" player="Atizeitor" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="14" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HA DQ</cards>
+   <action no="15" player="tropeiro123" sum="6,300" type="23"/>
+   <cards player="djego2023" type="Pocket">CA S10</cards>
+   <action no="16" player="djego2023" sum="48,925" type="23"/>
+   <action no="17" player="tropeiro123" sum="42,625" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 C8 H4</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+  </round>
+ </game>
+ <game gamecode="10573272849">
+  <general>
+   <startdate>2024-02-19 17:05:17</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="82,441"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="2" name="tropeiro123" bet="6,156" addon="0" rebuy="0" chips="159,513"/>
+    <player reg_code="" win="13,687" dealer="0" seat="5" name="DwImBad" bet="10,715" addon="0" rebuy="0" chips="275,489"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="275" addon="0" rebuy="0" chips="34,023"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="57,215"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="51,935"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="chiphunter0007" bet="275" addon="0" rebuy="0" chips="50,000"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="275" type="15"/>
+   <action no="2" player="Vialio" sum="275" type="15"/>
+   <action no="3" player="Bilakovic" sum="275" type="15"/>
+   <action no="4" player="Atizeitor" sum="275" type="15"/>
+   <action no="5" player="chiphunter0007" sum="275" type="15"/>
+   <action no="6" player="Trash42" sum="275" type="15"/>
+   <action no="7" player="tropeiro123" sum="275" type="15"/>
+   <action no="8" player="DwImBad" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="9" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="11" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="12" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="13" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S4 S9</cards>
+   <action no="14" player="tropeiro123" sum="3,600" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="15" player="DwImBad" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 DQ H7</cards>
+   <action no="16" player="DwImBad" sum="0" type="4"/>
+   <action no="17" player="tropeiro123" sum="2,281" type="5"/>
+   <action no="18" player="DwImBad" sum="6,840" type="23"/>
+   <action no="19" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272914">
+  <general>
+   <startdate>2024-02-19 17:06:11</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="82,166"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="153,357"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="1,175" addon="0" rebuy="0" chips="283,020"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="2,075" addon="0" rebuy="0" chips="33,748"/>
+    <player reg_code="" win="6,425" dealer="0" seat="7" name="Bilakovic" bet="3,960" addon="0" rebuy="0" chips="56,940"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="51,660"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="chiphunter0007" bet="275" addon="0" rebuy="0" chips="49,725"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="DwImBad" sum="275" type="15"/>
+   <action no="2" player="Vialio" sum="275" type="15"/>
+   <action no="3" player="Bilakovic" sum="275" type="15"/>
+   <action no="4" player="Atizeitor" sum="275" type="15"/>
+   <action no="5" player="chiphunter0007" sum="275" type="15"/>
+   <action no="6" player="Trash42" sum="275" type="15"/>
+   <action no="7" player="tropeiro123" sum="275" type="15"/>
+   <action no="8" player="DwImBad" sum="900" type="1"/>
+   <action no="9" player="Vialio" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="10" player="Bilakovic" sum="3,960" type="23"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="11" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="12" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="13" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D7 HQ</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="15" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="16" player="Vialio" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573272958">
+  <general>
+   <startdate>2024-02-19 17:06:42</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="81,891"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="152,807" addon="0" rebuy="0" chips="153,082"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="DwImBad" bet="275" addon="0" rebuy="0" chips="281,845"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="Vialio" bet="1,175" addon="0" rebuy="0" chips="31,673"/>
+    <player reg_code="" win="124,855" dealer="0" seat="7" name="Bilakovic" bet="61,290" addon="0" rebuy="0" chips="61,290"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="51,385"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="chiphunter0007" bet="275" addon="0" rebuy="0" chips="49,450"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Vialio" sum="275" type="15"/>
+   <action no="2" player="Bilakovic" sum="275" type="15"/>
+   <action no="3" player="Atizeitor" sum="275" type="15"/>
+   <action no="4" player="chiphunter0007" sum="275" type="15"/>
+   <action no="5" player="Trash42" sum="275" type="15"/>
+   <action no="6" player="tropeiro123" sum="275" type="15"/>
+   <action no="7" player="DwImBad" sum="275" type="15"/>
+   <action no="8" player="Vialio" sum="900" type="1"/>
+   <action no="9" player="Bilakovic" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="10" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="11" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="12" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H10 D10</cards>
+   <action no="13" player="tropeiro123" sum="3,600" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="14" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">X X</cards>
+   <action no="15" player="Vialio" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">CQ HA</cards>
+   <action no="16" player="Bilakovic" sum="14,400" type="23"/>
+   <action no="17" player="tropeiro123" sum="152,807" type="23"/>
+   <action no="18" player="Bilakovic" sum="46,615" type="7"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SJ D2 CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">S8</cards>
+  </round>
+ </game>
+ <game gamecode="10573273033">
+  <general>
+   <startdate>2024-02-19 17:07:39</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="81,616"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="275" addon="0" rebuy="0" chips="91,792"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="275" addon="0" rebuy="0" chips="281,570"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="Vialio" bet="30,223" addon="0" rebuy="0" chips="30,498"/>
+    <player reg_code="" win="64,171" dealer="0" seat="7" name="Bilakovic" bet="124,580" addon="0" rebuy="0" chips="124,855"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="2,075" addon="0" rebuy="0" chips="51,110"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="chiphunter0007" bet="275" addon="0" rebuy="0" chips="49,175"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bilakovic" sum="275" type="15"/>
+   <action no="2" player="Atizeitor" sum="275" type="15"/>
+   <action no="3" player="chiphunter0007" sum="275" type="15"/>
+   <action no="4" player="Trash42" sum="275" type="15"/>
+   <action no="5" player="tropeiro123" sum="275" type="15"/>
+   <action no="6" player="DwImBad" sum="275" type="15"/>
+   <action no="7" player="Vialio" sum="275" type="15"/>
+   <action no="8" player="Bilakovic" sum="900" type="1"/>
+   <action no="9" player="Atizeitor" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="10" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="11" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 C6</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="13" player="DwImBad" sum="0" type="0"/>
+   <cards player="Vialio" type="Pocket">S4 SA</cards>
+   <action no="14" player="Vialio" sum="30,223" type="23"/>
+   <cards player="Bilakovic" type="Pocket">DA DQ</cards>
+   <action no="15" player="Bilakovic" sum="124,580" type="23"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="16" player="Atizeitor" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 CK C10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+  </round>
+ </game>
+ <game gamecode="10573294171">
+  <general>
+   <startdate>2024-02-19 17:08:15</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="275" addon="0" rebuy="0" chips="81,341"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="4,055" addon="0" rebuy="0" chips="91,517"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="4,055" addon="0" rebuy="0" chips="281,295"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="158,528"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="1,175" addon="0" rebuy="0" chips="49,035"/>
+    <player reg_code="" win="13,890" dealer="0" seat="10" name="chiphunter0007" bet="48,625" addon="0" rebuy="0" chips="48,900"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Atizeitor" sum="275" type="15"/>
+   <action no="2" player="chiphunter0007" sum="275" type="15"/>
+   <action no="3" player="Trash42" sum="275" type="15"/>
+   <action no="4" player="tropeiro123" sum="275" type="15"/>
+   <action no="5" player="DwImBad" sum="275" type="15"/>
+   <action no="6" player="Bilakovic" sum="275" type="15"/>
+   <action no="7" player="Atizeitor" sum="900" type="1"/>
+   <action no="8" player="chiphunter0007" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="9" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 S8</cards>
+   <action no="10" player="tropeiro123" sum="3,780" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="3,780" type="3"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="13" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="14" player="chiphunter0007" sum="48,625" type="23"/>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <action no="16" player="DwImBad" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573294219">
+  <general>
+   <startdate>2024-02-19 17:09:00</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="2,075" addon="0" rebuy="0" chips="81,066"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="32,559" addon="0" rebuy="0" chips="87,462"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="DwImBad" bet="275" addon="0" rebuy="0" chips="277,240"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="EatYourSpudsLad" bet="275" addon="0" rebuy="0" chips="107,991"/>
+    <player reg_code="" win="69,193" dealer="0" seat="7" name="Bilakovic" bet="158,253" addon="0" rebuy="0" chips="158,253"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="47,860"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="chiphunter0007" bet="1,175" addon="0" rebuy="0" chips="58,735"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="chiphunter0007" sum="275" type="15"/>
+   <action no="2" player="Trash42" sum="275" type="15"/>
+   <action no="3" player="tropeiro123" sum="275" type="15"/>
+   <action no="4" player="DwImBad" sum="275" type="15"/>
+   <action no="5" player="EatYourSpudsLad" sum="275" type="15"/>
+   <action no="6" player="Bilakovic" sum="275" type="15"/>
+   <action no="7" player="Atizeitor" sum="275" type="15"/>
+   <action no="8" player="chiphunter0007" sum="900" type="1"/>
+   <action no="9" player="Trash42" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S8 SA</cards>
+   <action no="10" player="tropeiro123" sum="3,600" type="23"/>
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="11" player="DwImBad" sum="0" type="0"/>
+   <cards player="EatYourSpudsLad" type="Pocket">X X</cards>
+   <action no="12" player="EatYourSpudsLad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="13" player="Bilakovic" sum="3,600" type="3"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="14" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="15" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="16" player="Trash42" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D9 DA</cards>
+   <action no="17" player="tropeiro123" sum="2,956" type="5"/>
+   <action no="18" player="Bilakovic" sum="9,000" type="23"/>
+   <action no="19" player="tropeiro123" sum="6,044" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HJ</cards>
+   <action no="20" player="tropeiro123" sum="0" type="4"/>
+   <action no="21" player="Bilakovic" sum="19,684" type="5"/>
+   <action no="22" player="tropeiro123" sum="19,684" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+   <action no="23" player="tropeiro123" sum="0" type="4"/>
+   <action no="24" player="Bilakovic" sum="125,694" type="5"/>
+   <action no="25" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573294405">
+  <general>
+   <startdate>2024-02-19 17:11:22</startdate>
+   <smallblind>900</smallblind>
+   <bigblind>1,800</bigblind>
+   <ante>275</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="Trash42" bet="1,175" addon="0" rebuy="0" chips="78,991"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="2" name="tropeiro123" bet="4,235" addon="0" rebuy="0" chips="54,903"/>
+    <player reg_code="" win="10,745" dealer="0" seat="5" name="DwImBad" bet="7,781" addon="0" rebuy="0" chips="276,965"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="EatYourSpudsLad" bet="275" addon="0" rebuy="0" chips="107,716"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="Bilakovic" bet="275" addon="0" rebuy="0" chips="194,887"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="Atizeitor" bet="275" addon="0" rebuy="0" chips="47,585"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="chiphunter0007" bet="275" addon="0" rebuy="0" chips="57,560"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Trash42" sum="275" type="15"/>
+   <action no="2" player="tropeiro123" sum="275" type="15"/>
+   <action no="3" player="DwImBad" sum="275" type="15"/>
+   <action no="4" player="EatYourSpudsLad" sum="275" type="15"/>
+   <action no="5" player="Bilakovic" sum="275" type="15"/>
+   <action no="6" player="Atizeitor" sum="275" type="15"/>
+   <action no="7" player="chiphunter0007" sum="275" type="15"/>
+   <action no="8" player="Trash42" sum="900" type="1"/>
+   <action no="9" player="tropeiro123" sum="1,800" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DwImBad" type="Pocket">X X</cards>
+   <action no="10" player="DwImBad" sum="3,960" type="23"/>
+   <cards player="EatYourSpudsLad" type="Pocket">X X</cards>
+   <action no="11" player="EatYourSpudsLad" sum="0" type="0"/>
+   <cards player="Bilakovic" type="Pocket">X X</cards>
+   <action no="12" player="Bilakovic" sum="0" type="0"/>
+   <cards player="Atizeitor" type="Pocket">X X</cards>
+   <action no="13" player="Atizeitor" sum="0" type="0"/>
+   <cards player="chiphunter0007" type="Pocket">X X</cards>
+   <action no="14" player="chiphunter0007" sum="0" type="0"/>
+   <cards player="Trash42" type="Pocket">X X</cards>
+   <action no="15" player="Trash42" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S5 HA</cards>
+   <action no="16" player="tropeiro123" sum="2,160" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 C8 C7</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="DwImBad" sum="3,546" type="5"/>
+   <action no="19" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573294488">
+  <general>
+   <startdate>2024-02-19 17:12:23</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="300" addon="0" rebuy="0" chips="53,785"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="40,775"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="HisBrilliancy" bet="7,222" addon="0" rebuy="0" chips="63,094"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="1,300" addon="0" rebuy="0" chips="83,110"/>
+    <player reg_code="" win="16,644" dealer="0" seat="9" name="9hipster" bet="15,844" addon="0" rebuy="0" chips="129,460"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="300" addon="0" rebuy="0" chips="111,169"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="2" player="9hipster" sum="300" type="15"/>
+   <action no="3" player="OUKMA7" sum="300" type="15"/>
+   <action no="4" player="acho141" sum="300" type="15"/>
+   <action no="5" player="Bootylicious7" sum="300" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="7" player="pepjulianonzima" sum="1,000" type="1"/>
+   <action no="8" player="9hipster" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="9" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="10" player="acho141" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="11" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="12" player="HisBrilliancy" sum="4,300" type="23"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="13" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="14" player="9hipster" sum="2,300" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 SQ S5</cards>
+   <action no="15" player="9hipster" sum="0" type="4"/>
+   <action no="16" player="HisBrilliancy" sum="2,622" type="5"/>
+   <action no="17" player="9hipster" sum="11,244" type="23"/>
+   <action no="18" player="HisBrilliancy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573294538">
+  <general>
+   <startdate>2024-02-19 17:13:08</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="48,000" dealer="0" seat="2" name="acho141" bet="20,600" addon="0" rebuy="0" chips="53,485"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="300" addon="0" rebuy="0" chips="50,668"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="40,475"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="20,600" addon="0" rebuy="0" chips="55,872"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="pepjulianonzima" bet="300" addon="0" rebuy="0" chips="81,810"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="1,300" addon="0" rebuy="0" chips="138,882"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="4,600" addon="0" rebuy="0" chips="110,869"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="9hipster" sum="300" type="15"/>
+   <action no="2" player="OUKMA7" sum="300" type="15"/>
+   <action no="3" player="acho141" sum="300" type="15"/>
+   <action no="4" player="tropeiro123" sum="300" type="15"/>
+   <action no="5" player="Bootylicious7" sum="300" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="7" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="8" player="9hipster" sum="1,000" type="1"/>
+   <action no="9" player="OUKMA7" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="acho141" type="Pocket">HJ CJ</cards>
+   <action no="10" player="acho141" sum="4,300" type="23"/>
+   <cards player="tropeiro123" type="Pocket">DJ S10</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="12" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">DA SA</cards>
+   <action no="13" player="HisBrilliancy" sum="4,300" type="3"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="14" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="15" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="16" player="OUKMA7" sum="2,300" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H6 H10 CA</cards>
+   <action no="17" player="OUKMA7" sum="0" type="4"/>
+   <action no="18" player="acho141" sum="8,000" type="5"/>
+   <action no="19" player="HisBrilliancy" sum="8,000" type="3"/>
+   <action no="20" player="OUKMA7" sum="0" type="0"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H8</cards>
+   <action no="21" player="acho141" sum="0" type="4"/>
+   <action no="22" player="HisBrilliancy" sum="8,000" type="5"/>
+   <action no="23" player="acho141" sum="8,000" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+   <action no="24" player="acho141" sum="0" type="4"/>
+   <action no="25" player="HisBrilliancy" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10573294631">
+  <general>
+   <startdate>2024-02-19 17:14:23</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="22,560" dealer="0" seat="2" name="acho141" bet="8,530" addon="0" rebuy="0" chips="80,885"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="300" addon="0" rebuy="0" chips="50,368"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="40,175"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="300" addon="0" rebuy="0" chips="35,272"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="4,300" addon="0" rebuy="0" chips="81,510"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="9hipster" bet="300" addon="0" rebuy="0" chips="137,582"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="8,530" addon="0" rebuy="0" chips="106,269"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="OUKMA7" sum="300" type="15"/>
+   <action no="2" player="acho141" sum="300" type="15"/>
+   <action no="3" player="tropeiro123" sum="300" type="15"/>
+   <action no="4" player="Bootylicious7" sum="300" type="15"/>
+   <action no="5" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="6" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="7" player="9hipster" sum="300" type="15"/>
+   <action no="8" player="OUKMA7" sum="1,000" type="1"/>
+   <action no="9" player="acho141" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S10 H9</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="11" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="12" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="13" player="pepjulianonzima" sum="4,000" type="23"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="14" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">DJ HA</cards>
+   <action no="15" player="OUKMA7" sum="3,000" type="3"/>
+   <cards player="acho141" type="Pocket">D2 DQ</cards>
+   <action no="16" player="acho141" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CK C10 S7</cards>
+   <action no="17" player="OUKMA7" sum="0" type="4"/>
+   <action no="18" player="acho141" sum="0" type="4"/>
+   <action no="19" player="pepjulianonzima" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">SA</cards>
+   <action no="20" player="OUKMA7" sum="0" type="4"/>
+   <action no="21" player="acho141" sum="0" type="4"/>
+   <action no="22" player="pepjulianonzima" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SJ</cards>
+   <action no="23" player="OUKMA7" sum="0" type="4"/>
+   <action no="24" player="acho141" sum="4,230" type="5"/>
+   <action no="25" player="pepjulianonzima" sum="0" type="0"/>
+   <action no="26" player="OUKMA7" sum="4,230" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573294699">
+  <general>
+   <startdate>2024-02-19 17:15:21</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="1,300" addon="0" rebuy="0" chips="94,915"/>
+    <player reg_code="7954942471" win="20,385" dealer="0" seat="4" name="tropeiro123" bet="19,135" addon="0" rebuy="0" chips="50,068"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="39,875"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="300" addon="0" rebuy="0" chips="34,972"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="300" addon="0" rebuy="0" chips="77,210"/>
+    <player reg_code="" win="20,385" dealer="0" seat="9" name="9hipster" bet="19,135" addon="0" rebuy="0" chips="137,282"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="OUKMA7" bet="300" addon="0" rebuy="0" chips="97,739"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="acho141" sum="300" type="15"/>
+   <action no="2" player="tropeiro123" sum="300" type="15"/>
+   <action no="3" player="Bootylicious7" sum="300" type="15"/>
+   <action no="4" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="5" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="6" player="9hipster" sum="300" type="15"/>
+   <action no="7" player="OUKMA7" sum="300" type="15"/>
+   <action no="8" player="acho141" sum="1,000" type="1"/>
+   <action no="9" player="tropeiro123" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="10" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="11" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="12" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">C9 SA</cards>
+   <action no="13" player="9hipster" sum="4,000" type="23"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="14" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="15" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">C6 HA</cards>
+   <action no="16" player="tropeiro123" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK DK DQ</cards>
+   <action no="17" player="tropeiro123" sum="0" type="4"/>
+   <action no="18" player="9hipster" sum="2,000" type="5"/>
+   <action no="19" player="tropeiro123" sum="2,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action no="20" player="tropeiro123" sum="0" type="4"/>
+   <action no="21" player="9hipster" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">DA</cards>
+   <action no="22" player="tropeiro123" sum="12,835" type="5"/>
+   <action no="23" player="9hipster" sum="12,835" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10573294848">
+  <general>
+   <startdate>2024-02-19 17:17:10</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="0" dealer="1" seat="2" name="acho141" bet="300" addon="0" rebuy="0" chips="93,615"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="13,300" addon="0" rebuy="0" chips="51,318"/>
+    <player reg_code="" win="32,100" dealer="0" seat="5" name="Bootylicious7" bet="39,275" addon="0" rebuy="0" chips="39,575"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="300" addon="0" rebuy="0" chips="34,672"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="300" addon="0" rebuy="0" chips="76,910"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="300" addon="0" rebuy="0" chips="138,532"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="4,300" addon="0" rebuy="0" chips="97,439"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="300" type="15"/>
+   <action no="2" player="Bootylicious7" sum="300" type="15"/>
+   <action no="3" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="4" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="5" player="9hipster" sum="300" type="15"/>
+   <action no="6" player="OUKMA7" sum="300" type="15"/>
+   <action no="7" player="acho141" sum="300" type="15"/>
+   <action no="8" player="tropeiro123" sum="1,000" type="1"/>
+   <action no="9" player="Bootylicious7" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="10" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="11" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="12" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="13" player="OUKMA7" sum="4,000" type="23"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="14" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">HK D10</cards>
+   <action no="15" player="tropeiro123" sum="13,000" type="23"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="16" player="Bootylicious7" sum="39,275" type="23"/>
+   <action no="17" player="OUKMA7" sum="0" type="0"/>
+   <action no="18" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573294911">
+  <general>
+   <startdate>2024-02-19 17:18:11</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="4,300" addon="0" rebuy="0" chips="93,315"/>
+    <player reg_code="7954942471" win="43,768" dealer="1" seat="4" name="tropeiro123" bet="37,718" addon="0" rebuy="0" chips="38,018"/>
+    <player reg_code="" win="43,768" dealer="0" seat="5" name="Bootylicious7" bet="58,375" addon="0" rebuy="0" chips="58,375"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="2,300" addon="0" rebuy="0" chips="34,372"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="300" addon="0" rebuy="0" chips="76,610"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="4,300" addon="0" rebuy="0" chips="138,232"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="300" addon="0" rebuy="0" chips="93,139"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bootylicious7" sum="300" type="15"/>
+   <action no="2" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="3" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="4" player="9hipster" sum="300" type="15"/>
+   <action no="5" player="OUKMA7" sum="300" type="15"/>
+   <action no="6" player="acho141" sum="300" type="15"/>
+   <action no="7" player="tropeiro123" sum="300" type="15"/>
+   <action no="8" player="Bootylicious7" sum="1,000" type="1"/>
+   <action no="9" player="HisBrilliancy" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="10" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="11" player="9hipster" sum="4,000" type="23"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="12" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="13" player="acho141" sum="4,000" type="3"/>
+   <cards player="tropeiro123" type="Pocket">HK CK</cards>
+   <action no="14" player="tropeiro123" sum="37,718" type="23"/>
+   <cards player="Bootylicious7" type="Pocket">S9 H9</cards>
+   <action no="15" player="Bootylicious7" sum="57,075" type="7"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="16" player="HisBrilliancy" sum="0" type="0"/>
+   <action no="17" player="9hipster" sum="0" type="0"/>
+   <action no="18" player="acho141" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D7 C6 S8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">C9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H10</cards>
+  </round>
+ </game>
+ <game gamecode="10573330719">
+  <general>
+   <startdate>2024-02-19 17:19:24</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="300" addon="0" rebuy="0" chips="89,015"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="12,300" addon="0" rebuy="0" chips="43,768"/>
+    <player reg_code="" win="0" dealer="1" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="64,125"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="1,300" addon="0" rebuy="0" chips="32,072"/>
+    <player reg_code="" win="27,100" dealer="0" seat="7" name="pepjulianonzima" bet="76,310" addon="0" rebuy="0" chips="76,310"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="300" addon="0" rebuy="0" chips="133,932"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="300" addon="0" rebuy="0" chips="92,839"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="2" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="3" player="9hipster" sum="300" type="15"/>
+   <action no="4" player="OUKMA7" sum="300" type="15"/>
+   <action no="5" player="acho141" sum="300" type="15"/>
+   <action no="6" player="tropeiro123" sum="300" type="15"/>
+   <action no="7" player="Bootylicious7" sum="300" type="15"/>
+   <action no="8" player="HisBrilliancy" sum="1,000" type="1"/>
+   <action no="9" player="pepjulianonzima" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="10" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="11" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="12" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA SJ</cards>
+   <action no="13" player="tropeiro123" sum="4,000" type="23"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="14" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="15" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="16" player="pepjulianonzima" sum="2,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D5 H6 D4</cards>
+   <action no="17" player="pepjulianonzima" sum="0" type="4"/>
+   <action no="18" player="tropeiro123" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">DA</cards>
+   <action no="19" player="pepjulianonzima" sum="0" type="4"/>
+   <action no="20" player="tropeiro123" sum="8,000" type="5"/>
+   <action no="21" player="pepjulianonzima" sum="72,010" type="23"/>
+   <action no="22" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573330830">
+  <general>
+   <startdate>2024-02-19 17:20:56</startdate>
+   <smallblind>1,000</smallblind>
+   <bigblind>2,000</bigblind>
+   <ante>300</ante>
+   <players>
+    <player reg_code="" win="11,700" dealer="0" seat="2" name="acho141" bet="10,450" addon="0" rebuy="0" chips="88,715"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="300" addon="0" rebuy="0" chips="31,468"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="300" addon="0" rebuy="0" chips="63,825"/>
+    <player reg_code="" win="0" dealer="1" seat="6" name="HisBrilliancy" bet="300" addon="0" rebuy="0" chips="30,772"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="1,300" addon="0" rebuy="0" chips="91,110"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="4,600" addon="0" rebuy="0" chips="133,632"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="300" addon="0" rebuy="0" chips="92,539"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="pepjulianonzima" sum="300" type="15"/>
+   <action no="2" player="9hipster" sum="300" type="15"/>
+   <action no="3" player="OUKMA7" sum="300" type="15"/>
+   <action no="4" player="acho141" sum="300" type="15"/>
+   <action no="5" player="tropeiro123" sum="300" type="15"/>
+   <action no="6" player="Bootylicious7" sum="300" type="15"/>
+   <action no="7" player="HisBrilliancy" sum="300" type="15"/>
+   <action no="8" player="pepjulianonzima" sum="1,000" type="1"/>
+   <action no="9" player="9hipster" sum="2,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="10" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="11" player="acho141" sum="4,300" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CQ D3</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="13" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="14" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="15" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="16" player="9hipster" sum="2,300" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C9 D6 C3</cards>
+   <action no="17" player="9hipster" sum="0" type="4"/>
+   <action no="18" player="acho141" sum="5,850" type="5"/>
+   <action no="19" player="9hipster" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573330877">
+  <general>
+   <startdate>2024-02-19 17:21:38</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="400" addon="0" rebuy="0" chips="95,815"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="31,168"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="400" addon="0" rebuy="0" chips="63,525"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="30,472"/>
+    <player reg_code="" win="16,300" dealer="1" seat="7" name="pepjulianonzima" bet="10,475" addon="0" rebuy="0" chips="89,810"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="1,900" addon="0" rebuy="0" chips="129,032"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="6,400" addon="0" rebuy="0" chips="92,239"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="9hipster" sum="400" type="15"/>
+   <action no="2" player="OUKMA7" sum="400" type="15"/>
+   <action no="3" player="acho141" sum="400" type="15"/>
+   <action no="4" player="tropeiro123" sum="400" type="15"/>
+   <action no="5" player="Bootylicious7" sum="400" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="7" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="8" player="9hipster" sum="1,500" type="1"/>
+   <action no="9" player="OUKMA7" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="10" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S7 S9</cards>
+   <action no="11" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="12" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="13" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="14" player="pepjulianonzima" sum="6,000" type="23"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="15" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="16" player="OUKMA7" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H9 HA CA</cards>
+   <action no="17" player="OUKMA7" sum="0" type="4"/>
+   <action no="18" player="pepjulianonzima" sum="4,075" type="5"/>
+   <action no="19" player="OUKMA7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573330945">
+  <general>
+   <startdate>2024-02-19 17:22:33</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="6,400" addon="0" rebuy="0" chips="95,415"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="30,768"/>
+    <player reg_code="" win="16,300" dealer="0" seat="5" name="Bootylicious7" bet="15,400" addon="0" rebuy="0" chips="63,125"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="30,072"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="99,710"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="127,132"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="1,900" addon="0" rebuy="0" chips="85,839"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="OUKMA7" sum="400" type="15"/>
+   <action no="2" player="acho141" sum="400" type="15"/>
+   <action no="3" player="tropeiro123" sum="400" type="15"/>
+   <action no="4" player="Bootylicious7" sum="400" type="15"/>
+   <action no="5" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="6" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="7" player="9hipster" sum="400" type="15"/>
+   <action no="8" player="OUKMA7" sum="1,500" type="1"/>
+   <action no="9" player="acho141" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">S9 D7</cards>
+   <action no="10" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="11" player="Bootylicious7" sum="6,000" type="23"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="12" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="13" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="14" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="15" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="16" player="acho141" sum="3,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H5 C10 H8</cards>
+   <action no="17" player="acho141" sum="0" type="4"/>
+   <action no="18" player="Bootylicious7" sum="9,000" type="5"/>
+   <action no="19" player="acho141" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573330995">
+  <general>
+   <startdate>2024-02-19 17:23:19</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="8,800" dealer="0" seat="2" name="acho141" bet="88,615" addon="0" rebuy="0" chips="89,015"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="3,400" addon="0" rebuy="0" chips="30,368"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="400" addon="0" rebuy="0" chips="73,025"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="29,672"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="99,310"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="126,732"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="OUKMA7" bet="400" addon="0" rebuy="0" chips="83,939"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="acho141" sum="400" type="15"/>
+   <action no="2" player="tropeiro123" sum="400" type="15"/>
+   <action no="3" player="Bootylicious7" sum="400" type="15"/>
+   <action no="4" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="5" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="6" player="9hipster" sum="400" type="15"/>
+   <action no="7" player="OUKMA7" sum="400" type="15"/>
+   <action no="8" player="acho141" sum="1,500" type="1"/>
+   <action no="9" player="tropeiro123" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="10" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="11" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="12" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="13" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="14" player="OUKMA7" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="15" player="acho141" sum="88,615" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HJ S2</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573331042">
+  <general>
+   <startdate>2024-02-19 17:23:51</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="400" addon="0" rebuy="0" chips="50,000"/>
+    <player reg_code="" win="0" dealer="1" seat="2" name="acho141" bet="400" addon="0" rebuy="0" chips="94,415"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="1,900" addon="0" rebuy="0" chips="26,968"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="3,400" addon="0" rebuy="0" chips="72,625"/>
+    <player reg_code="" win="10,700" dealer="0" seat="6" name="HisBrilliancy" bet="28,872" addon="0" rebuy="0" chips="29,272"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="98,910"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="126,332"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="400" addon="0" rebuy="0" chips="83,539"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="tropeiro123" sum="400" type="15"/>
+   <action no="2" player="Bootylicious7" sum="400" type="15"/>
+   <action no="3" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="4" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="5" player="9hipster" sum="400" type="15"/>
+   <action no="6" player="OUKMA7" sum="400" type="15"/>
+   <action no="7" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="8" player="acho141" sum="400" type="15"/>
+   <action no="9" player="tropeiro123" sum="1,500" type="1"/>
+   <action no="10" player="Bootylicious7" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="11" player="HisBrilliancy" sum="28,872" type="23"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="12" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="13" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="14" player="OUKMA7" sum="0" type="0"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="15" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="16" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 D4</cards>
+   <action no="17" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="18" player="Bootylicious7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573331064">
+  <general>
+   <startdate>2024-02-19 17:24:09</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="400" addon="0" rebuy="0" chips="49,600"/>
+    <player reg_code="" win="23,600" dealer="0" seat="2" name="acho141" bet="12,850" addon="0" rebuy="0" chips="94,015"/>
+    <player reg_code="7954942471" win="0" dealer="1" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="25,068"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="1,900" addon="0" rebuy="0" chips="69,225"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="9,850" addon="0" rebuy="0" chips="36,572"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="98,510"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="125,932"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="400" addon="0" rebuy="0" chips="83,139"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="Bootylicious7" sum="400" type="15"/>
+   <action no="2" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="3" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="4" player="9hipster" sum="400" type="15"/>
+   <action no="5" player="OUKMA7" sum="400" type="15"/>
+   <action no="6" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="7" player="acho141" sum="400" type="15"/>
+   <action no="8" player="tropeiro123" sum="400" type="15"/>
+   <action no="9" player="Bootylicious7" sum="1,500" type="1"/>
+   <action no="10" player="HisBrilliancy" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="11" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="12" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="13" player="OUKMA7" sum="0" type="0"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="14" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="15" player="acho141" sum="6,450" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C10 H9</cards>
+   <action no="16" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="17" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="18" player="HisBrilliancy" sum="3,450" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C4 C3 CA</cards>
+   <action no="19" player="HisBrilliancy" sum="0" type="4"/>
+   <action no="20" player="acho141" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+   <action no="21" player="HisBrilliancy" sum="3,000" type="5"/>
+   <action no="22" player="acho141" sum="6,000" type="23"/>
+   <action no="23" player="HisBrilliancy" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573331133">
+  <general>
+   <startdate>2024-02-19 17:25:09</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="400" addon="0" rebuy="0" chips="49,200"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="67,325" addon="0" rebuy="0" chips="107,765"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="24,668"/>
+    <player reg_code="" win="141,550" dealer="1" seat="5" name="Bootylicious7" bet="66,925" addon="0" rebuy="0" chips="67,325"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="1,900" addon="0" rebuy="0" chips="26,722"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="3,400" addon="0" rebuy="0" chips="98,110"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="125,532"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="400" addon="0" rebuy="0" chips="82,739"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="2" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="3" player="9hipster" sum="400" type="15"/>
+   <action no="4" player="OUKMA7" sum="400" type="15"/>
+   <action no="5" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="6" player="acho141" sum="400" type="15"/>
+   <action no="7" player="tropeiro123" sum="400" type="15"/>
+   <action no="8" player="Bootylicious7" sum="400" type="15"/>
+   <action no="9" player="HisBrilliancy" sum="1,500" type="1"/>
+   <action no="10" player="pepjulianonzima" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="11" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="12" player="OUKMA7" sum="0" type="0"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="13" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">DA DK</cards>
+   <action no="14" player="acho141" sum="6,000" type="23"/>
+   <cards player="tropeiro123" type="Pocket">D2 H9</cards>
+   <action no="15" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">HK HJ</cards>
+   <action no="16" player="Bootylicious7" sum="66,925" type="23"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="17" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="18" player="pepjulianonzima" sum="0" type="0"/>
+   <action no="19" player="acho141" sum="60,925" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S9 CJ CK</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">S4</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+  </round>
+ </game>
+ <game gamecode="10573331212">
+  <general>
+   <startdate>2024-02-19 17:26:12</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="400" addon="0" rebuy="0" chips="48,800"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="400" addon="0" rebuy="0" chips="40,440"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="24,268"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="400" addon="0" rebuy="0" chips="141,550"/>
+    <player reg_code="" win="55,044" dealer="1" seat="6" name="HisBrilliancy" bet="24,822" addon="0" rebuy="0" chips="24,822"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="27,400" addon="0" rebuy="0" chips="94,710"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="3,400" addon="0" rebuy="0" chips="125,132"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="400" addon="0" rebuy="0" chips="82,339"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="2" player="9hipster" sum="400" type="15"/>
+   <action no="3" player="OUKMA7" sum="400" type="15"/>
+   <action no="4" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="5" player="acho141" sum="400" type="15"/>
+   <action no="6" player="tropeiro123" sum="400" type="15"/>
+   <action no="7" player="Bootylicious7" sum="400" type="15"/>
+   <action no="8" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="9" player="pepjulianonzima" sum="1,500" type="1"/>
+   <action no="10" player="9hipster" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="11" player="OUKMA7" sum="0" type="0"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="12" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="13" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D2 H3</cards>
+   <action no="14" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="15" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">D10 HK</cards>
+   <action no="16" player="HisBrilliancy" sum="24,000" type="23"/>
+   <cards player="pepjulianonzima" type="Pocket">HA H5</cards>
+   <action no="17" player="pepjulianonzima" sum="22,500" type="3"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="18" player="9hipster" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C5 DQ C4</cards>
+   <action no="19" player="pepjulianonzima" sum="3,000" type="5"/>
+   <action no="20" player="HisBrilliancy" sum="422" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CK</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D3</cards>
+  </round>
+ </game>
+ <game gamecode="10573331253">
+  <general>
+   <startdate>2024-02-19 17:26:48</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="400" addon="0" rebuy="0" chips="48,400"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="400" addon="0" rebuy="0" chips="40,040"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="23,868"/>
+    <player reg_code="" win="10,700" dealer="0" seat="5" name="Bootylicious7" bet="6,600" addon="0" rebuy="0" chips="141,150"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="55,044"/>
+    <player reg_code="" win="0" dealer="1" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="69,888"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="1,900" addon="0" rebuy="0" chips="121,732"/>
+    <player reg_code="" win="0" dealer="0" seat="10" name="OUKMA7" bet="3,400" addon="0" rebuy="0" chips="81,939"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="9hipster" sum="400" type="15"/>
+   <action no="2" player="OUKMA7" sum="400" type="15"/>
+   <action no="3" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="4" player="acho141" sum="400" type="15"/>
+   <action no="5" player="tropeiro123" sum="400" type="15"/>
+   <action no="6" player="Bootylicious7" sum="400" type="15"/>
+   <action no="7" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="8" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="9" player="9hipster" sum="1,500" type="1"/>
+   <action no="10" player="OUKMA7" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="11" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="12" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S9 D4</cards>
+   <action no="13" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="14" player="Bootylicious7" sum="6,600" type="23"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="15" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="16" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="17" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="18" player="OUKMA7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573331295">
+  <general>
+   <startdate>2024-02-19 17:27:25</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="3,400" addon="0" rebuy="0" chips="48,000"/>
+    <player reg_code="" win="0" dealer="0" seat="2" name="acho141" bet="400" addon="0" rebuy="0" chips="39,640"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="400" addon="0" rebuy="0" chips="23,468"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="7,000" addon="0" rebuy="0" chips="148,450"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="54,644"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="69,488"/>
+    <player reg_code="" win="0" dealer="1" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="119,832"/>
+    <player reg_code="" win="19,400" dealer="0" seat="10" name="OUKMA7" bet="78,139" addon="0" rebuy="0" chips="78,539"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="OUKMA7" sum="400" type="15"/>
+   <action no="2" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="3" player="acho141" sum="400" type="15"/>
+   <action no="4" player="tropeiro123" sum="400" type="15"/>
+   <action no="5" player="Bootylicious7" sum="400" type="15"/>
+   <action no="6" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="7" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="8" player="9hipster" sum="400" type="15"/>
+   <action no="9" player="OUKMA7" sum="1,500" type="1"/>
+   <action no="10" player="PETMAKMAK1" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="acho141" type="Pocket">X X</cards>
+   <action no="11" player="acho141" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SA H3</cards>
+   <action no="12" player="tropeiro123" sum="0" type="0"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="13" player="Bootylicious7" sum="6,600" type="23"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="14" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="15" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="16" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">X X</cards>
+   <action no="17" player="OUKMA7" sum="78,139" type="23"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="18" player="PETMAKMAK1" sum="0" type="0"/>
+   <action no="19" player="Bootylicious7" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10573331336">
+  <general>
+   <startdate>2024-02-19 17:28:06</startdate>
+   <smallblind>1,500</smallblind>
+   <bigblind>3,000</bigblind>
+   <ante>400</ante>
+   <players>
+    <player reg_code="" win="0" dealer="0" seat="1" name="PETMAKMAK1" bet="1,900" addon="0" rebuy="0" chips="44,600"/>
+    <player reg_code="" win="105,048" dealer="0" seat="2" name="acho141" bet="39,240" addon="0" rebuy="0" chips="39,240"/>
+    <player reg_code="7954942471" win="0" dealer="0" seat="4" name="tropeiro123" bet="22,668" addon="0" rebuy="0" chips="23,068"/>
+    <player reg_code="" win="0" dealer="0" seat="5" name="Bootylicious7" bet="400" addon="0" rebuy="0" chips="141,450"/>
+    <player reg_code="" win="0" dealer="0" seat="6" name="HisBrilliancy" bet="400" addon="0" rebuy="0" chips="54,244"/>
+    <player reg_code="" win="0" dealer="0" seat="7" name="pepjulianonzima" bet="400" addon="0" rebuy="0" chips="69,088"/>
+    <player reg_code="" win="0" dealer="0" seat="9" name="9hipster" bet="400" addon="0" rebuy="0" chips="119,432"/>
+    <player reg_code="" win="0" dealer="1" seat="10" name="OUKMA7" bet="39,240" addon="0" rebuy="0" chips="90,939"/>
+   </players>
+  </general>
+  <round no="0">
+   <action no="1" player="PETMAKMAK1" sum="400" type="15"/>
+   <action no="2" player="acho141" sum="400" type="15"/>
+   <action no="3" player="tropeiro123" sum="400" type="15"/>
+   <action no="4" player="Bootylicious7" sum="400" type="15"/>
+   <action no="5" player="HisBrilliancy" sum="400" type="15"/>
+   <action no="6" player="pepjulianonzima" sum="400" type="15"/>
+   <action no="7" player="9hipster" sum="400" type="15"/>
+   <action no="8" player="OUKMA7" sum="400" type="15"/>
+   <action no="9" player="PETMAKMAK1" sum="1,500" type="1"/>
+   <action no="10" player="acho141" sum="3,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">DJ DA</cards>
+   <action no="11" player="tropeiro123" sum="22,668" type="23"/>
+   <cards player="Bootylicious7" type="Pocket">X X</cards>
+   <action no="12" player="Bootylicious7" sum="0" type="0"/>
+   <cards player="HisBrilliancy" type="Pocket">X X</cards>
+   <action no="13" player="HisBrilliancy" sum="0" type="0"/>
+   <cards player="pepjulianonzima" type="Pocket">X X</cards>
+   <action no="14" player="pepjulianonzima" sum="0" type="0"/>
+   <cards player="9hipster" type="Pocket">X X</cards>
+   <action no="15" player="9hipster" sum="0" type="0"/>
+   <cards player="OUKMA7" type="Pocket">S5 D5</cards>
+   <action no="16" player="OUKMA7" sum="22,668" type="3"/>
+   <cards player="PETMAKMAK1" type="Pocket">X X</cards>
+   <action no="17" player="PETMAKMAK1" sum="0" type="0"/>
+   <cards player="acho141" type="Pocket">DQ HJ</cards>
+   <action no="18" player="acho141" sum="35,840" type="7"/>
+   <action no="19" player="OUKMA7" sum="16,172" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 S3 S10</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">SQ</cards>
+  </round>
+  <round no="4">
+   <cards type="River">C3</cards>
+  </round>
+ </game>
+</session>

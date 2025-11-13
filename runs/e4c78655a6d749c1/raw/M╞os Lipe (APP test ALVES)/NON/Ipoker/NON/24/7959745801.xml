@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7959745801">
+ <general>
+  <client_version>23.9.1.18</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>E3|€20,000 GTD, 1081945649</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:25:40</duration>
+  <gamecount>22</gamecount>
+  <startdate>2024-02-24 15:03:00</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>145,238</bets>
+  <wins>3,700</wins>
+  <chipsin>112,856</chipsin>
+  <chipsout>0</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080294371</tournamentcode>
+  <tournamentname>E3|€20,000 GTD</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10581886159">
+  <general>
+   <startdate>2024-02-24 15:03:00</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="152,871" dealer="0" bet="130" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="138,246" dealer="0" bet="130" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="49,145" dealer="0" bet="130" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="205,204" dealer="0" bet="130" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="192,910" dealer="0" bet="130" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="75,691" dealer="0" bet="580" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="106,346" dealer="0" bet="1,030" win="1,810" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CJIageHbKuu" no="1" sum="130" type="15"/>
+   <action player="DunkenDK321" no="2" sum="130" type="15"/>
+   <action player="swisspower1997" no="3" sum="130" type="15"/>
+   <action player="s00baka" no="4" sum="130" type="15"/>
+   <action player="IKaLLYOU" no="5" sum="130" type="15"/>
+   <action player="Sharpblade911" no="6" sum="130" type="15"/>
+   <action player="Puntamenta" no="7" sum="130" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="450" type="1"/>
+   <action player="DunkenDK321" no="9" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="10" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="11" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="13" sum="0" type="0"/>
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="14" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="15" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581886204">
+  <general>
+   <startdate>2024-02-24 15:03:44</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="152,741" dealer="0" bet="6,412" win="14,054" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="138,116" dealer="0" bet="6,412" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="49,015" dealer="0" bet="130" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="205,074" dealer="0" bet="130" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="192,780" dealer="0" bet="130" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="125,000" dealer="0" bet="130" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="75,111" dealer="1" bet="130" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="107,576" dealer="0" bet="580" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DunkenDK321" no="1" sum="130" type="15"/>
+   <action player="swisspower1997" no="2" sum="130" type="15"/>
+   <action player="s00baka" no="3" sum="130" type="15"/>
+   <action player="IKaLLYOU" no="4" sum="130" type="15"/>
+   <action player="Sharpblade911" no="5" sum="130" type="15"/>
+   <action player="Puntamenta" no="6" sum="130" type="15"/>
+   <action player="tropeiro123" no="7" sum="130" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="130" type="15"/>
+   <action player="DunkenDK321" no="9" sum="450" type="1"/>
+   <action player="swisspower1997" no="10" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="s00baka" type="Pocket">DK DA</cards>
+   <action player="s00baka" no="11" sum="1,800" type="23"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="13" sum="0" type="0"/>
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S3 DJ</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="16" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="17" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">C6 H7</cards>
+   <action player="swisspower1997" no="18" sum="900" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S7 SQ DQ</cards>
+   <action player="swisspower1997" no="19" sum="0" type="4"/>
+   <action player="s00baka" no="20" sum="900" type="5"/>
+   <action player="swisspower1997" no="21" sum="900" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action player="swisspower1997" no="22" sum="0" type="4"/>
+   <action player="s00baka" no="23" sum="3,582" type="5"/>
+   <action player="swisspower1997" no="24" sum="3,582" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">C7</cards>
+   <action player="swisspower1997" no="25" sum="0" type="4"/>
+   <action player="s00baka" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10581886309">
+  <general>
+   <startdate>2024-02-24 15:05:25</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="160,383" dealer="0" bet="580" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="131,704" dealer="0" bet="2,830" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="48,885" dealer="0" bet="130" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="204,944" dealer="0" bet="9,130" win="9,590" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="192,650" dealer="0" bet="130" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="124,870" dealer="0" bet="130" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="74,981" dealer="0" bet="2,830" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="106,996" dealer="1" bet="130" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="swisspower1997" no="1" sum="130" type="15"/>
+   <action player="s00baka" no="2" sum="130" type="15"/>
+   <action player="IKaLLYOU" no="3" sum="130" type="15"/>
+   <action player="Sharpblade911" no="4" sum="130" type="15"/>
+   <action player="Puntamenta" no="5" sum="130" type="15"/>
+   <action player="tropeiro123" no="6" sum="130" type="15"/>
+   <action player="CJIageHbKuu" no="7" sum="130" type="15"/>
+   <action player="DunkenDK321" no="8" sum="130" type="15"/>
+   <action player="swisspower1997" no="9" sum="450" type="1"/>
+   <action player="s00baka" no="10" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="11" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="12" sum="2,700" type="23"/>
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CK H4</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="15" sum="2,700" type="3"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="16" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="17" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="18" sum="1,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 S7 H2</cards>
+   <action player="s00baka" no="19" sum="0" type="4"/>
+   <action player="Sharpblade911" no="20" sum="6,300" type="5"/>
+   <action player="CJIageHbKuu" no="21" sum="0" type="0"/>
+   <action player="s00baka" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581886385">
+  <general>
+   <startdate>2024-02-24 15:06:36</startdate>
+   <smallblind>450</smallblind>
+   <bigblind>900</bigblind>
+   <ante>130</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="159,803" dealer="1" bet="130" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="128,874" dealer="0" bet="580" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="48,755" dealer="0" bet="1,030" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="211,704" dealer="0" bet="130" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="192,520" dealer="0" bet="25,682" win="21,398" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="124,740" dealer="0" bet="9,634" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="72,151" dealer="0" bet="130" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="106,866" dealer="0" bet="130" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="s00baka" no="1" sum="130" type="15"/>
+   <action player="IKaLLYOU" no="2" sum="130" type="15"/>
+   <action player="Sharpblade911" no="3" sum="130" type="15"/>
+   <action player="Puntamenta" no="4" sum="130" type="15"/>
+   <action player="tropeiro123" no="5" sum="130" type="15"/>
+   <action player="CJIageHbKuu" no="6" sum="130" type="15"/>
+   <action player="DunkenDK321" no="7" sum="130" type="15"/>
+   <action player="swisspower1997" no="8" sum="130" type="15"/>
+   <action player="s00baka" no="9" sum="450" type="1"/>
+   <action player="IKaLLYOU" no="10" sum="900" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="11" sum="0" type="0"/>
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="12" sum="1,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">HA DJ</cards>
+   <action player="tropeiro123" no="13" sum="5,940" type="23"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="14" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="15" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="16" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="17" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="18" sum="0" type="0"/>
+   <action player="Puntamenta" no="19" sum="4,140" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">HQ SJ S2</cards>
+   <action player="Puntamenta" no="20" sum="0" type="4"/>
+   <action player="tropeiro123" no="21" sum="3,564" type="5"/>
+   <action player="Puntamenta" no="22" sum="3,564" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">H3</cards>
+   <action player="Puntamenta" no="23" sum="0" type="4"/>
+   <action player="tropeiro123" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">SK</cards>
+   <action player="Puntamenta" no="25" sum="16,048" type="5"/>
+   <action player="tropeiro123" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581886510">
+  <general>
+   <startdate>2024-02-24 15:08:32</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="159,673" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="128,294" dealer="1" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="47,725" dealer="0" bet="650" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="211,574" dealer="0" bet="9,675" win="12,500" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="204,284" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="115,106" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="72,021" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="106,736" dealer="0" bet="5,550" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="IKaLLYOU" no="1" sum="150" type="15"/>
+   <action player="Sharpblade911" no="2" sum="150" type="15"/>
+   <action player="Puntamenta" no="3" sum="150" type="15"/>
+   <action player="tropeiro123" no="4" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="5" sum="150" type="15"/>
+   <action player="DunkenDK321" no="6" sum="150" type="15"/>
+   <action player="swisspower1997" no="7" sum="150" type="15"/>
+   <action player="s00baka" no="8" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="9" sum="500" type="1"/>
+   <action player="Sharpblade911" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 C5</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="13" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="14" sum="2,400" type="23"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="15" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="16" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="17" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="18" sum="1,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA S4 S7</cards>
+   <action player="Sharpblade911" no="19" sum="0" type="4"/>
+   <action player="DunkenDK321" no="20" sum="3,000" type="5"/>
+   <action player="Sharpblade911" no="21" sum="3,000" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D8</cards>
+   <action player="Sharpblade911" no="22" sum="4,125" type="5"/>
+   <action player="DunkenDK321" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581886584">
+  <general>
+   <startdate>2024-02-24 15:09:39</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="159,523" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="128,144" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="47,075" dealer="1" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="218,524" dealer="0" bet="1,150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="Puntamenta" reg_code="" chips="204,134" dealer="0" bet="5,000" win="3,200" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="114,956" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="71,871" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="101,186" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Sharpblade911" no="1" sum="150" type="15"/>
+   <action player="Puntamenta" no="2" sum="150" type="15"/>
+   <action player="tropeiro123" no="3" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="4" sum="150" type="15"/>
+   <action player="DunkenDK321" no="5" sum="150" type="15"/>
+   <action player="swisspower1997" no="6" sum="150" type="15"/>
+   <action player="s00baka" no="7" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="8" sum="150" type="15"/>
+   <action player="Sharpblade911" no="9" sum="500" type="1"/>
+   <action player="Puntamenta" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">H7 C2</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="12" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="13" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="14" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="15" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="16" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="17" sum="500" type="3"/>
+   <cards player="Puntamenta" type="Pocket">X X</cards>
+   <action player="Puntamenta" no="18" sum="5,000" type="23"/>
+   <action player="Sharpblade911" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581886800">
+  <general>
+   <startdate>2024-02-24 15:12:48</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="195,773" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="97,244" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="46,625" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="217,074" dealer="0" bet="2,650" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="113,006" dealer="1" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="69,421" dealer="0" bet="650" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="100,736" dealer="0" bet="2,650" win="6,550" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CJIageHbKuu" no="1" sum="150" type="15"/>
+   <action player="DunkenDK321" no="2" sum="150" type="15"/>
+   <action player="swisspower1997" no="3" sum="150" type="15"/>
+   <action player="s00baka" no="4" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="5" sum="150" type="15"/>
+   <action player="Sharpblade911" no="6" sum="150" type="15"/>
+   <action player="tropeiro123" no="7" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="500" type="1"/>
+   <action player="DunkenDK321" no="9" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="10" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="11" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">C8 S8</cards>
+   <action player="Sharpblade911" no="13" sum="2,500" type="23"/>
+   <cards player="tropeiro123" type="Pocket">H2 D4</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="15" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">C9 H9</cards>
+   <action player="DunkenDK321" no="16" sum="1,500" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">CA SK DQ</cards>
+   <action player="DunkenDK321" no="17" sum="0" type="4"/>
+   <action player="Sharpblade911" no="18" sum="0" type="4"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">C3</cards>
+   <action player="DunkenDK321" no="19" sum="0" type="4"/>
+   <action player="Sharpblade911" no="20" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H7</cards>
+   <action player="DunkenDK321" no="21" sum="0" type="4"/>
+   <action player="Sharpblade911" no="22" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10581913691">
+  <general>
+   <startdate>2024-02-24 15:13:41</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="195,623" dealer="0" bet="1,150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="97,094" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="46,475" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="214,424" dealer="0" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="125,000" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="112,856" dealer="0" bet="2,100" win="3,700" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="68,771" dealer="1" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="104,636" dealer="0" bet="650" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DunkenDK321" no="1" sum="150" type="15"/>
+   <action player="swisspower1997" no="2" sum="150" type="15"/>
+   <action player="s00baka" no="3" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="4" sum="150" type="15"/>
+   <action player="Sharpblade911" no="5" sum="150" type="15"/>
+   <action player="UberBuR" no="6" sum="150" type="15"/>
+   <action player="tropeiro123" no="7" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="150" type="15"/>
+   <action player="DunkenDK321" no="9" sum="500" type="1"/>
+   <action player="swisspower1997" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="11" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="13" sum="0" type="0"/>
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D10 H9</cards>
+   <action player="tropeiro123" no="15" sum="2,100" type="23"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="16" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="17" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581913760">
+  <general>
+   <startdate>2024-02-24 15:14:35</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="194,473" dealer="0" bet="650" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="96,944" dealer="0" bet="1,150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="46,325" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="214,274" dealer="0" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="124,850" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="115,406" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="68,621" dealer="0" bet="2,000" win="3,700" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="103,986" dealer="1" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="swisspower1997" no="1" sum="150" type="15"/>
+   <action player="s00baka" no="2" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="3" sum="150" type="15"/>
+   <action player="Sharpblade911" no="4" sum="150" type="15"/>
+   <action player="UberBuR" no="5" sum="150" type="15"/>
+   <action player="tropeiro123" no="6" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="7" sum="150" type="15"/>
+   <action player="DunkenDK321" no="8" sum="150" type="15"/>
+   <action player="swisspower1997" no="9" sum="500" type="1"/>
+   <action player="s00baka" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="11" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="12" sum="0" type="0"/>
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">DJ C6</cards>
+   <action player="tropeiro123" no="14" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="15" sum="2,000" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="16" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="17" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581913806">
+  <general>
+   <startdate>2024-02-24 15:15:15</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="193,823" dealer="1" bet="23,826" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="95,794" dealer="0" bet="650" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="46,175" dealer="0" bet="23,826" win="49,052" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="214,124" dealer="0" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="124,700" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="115,256" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="71,171" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="103,836" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="s00baka" no="1" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="2" sum="150" type="15"/>
+   <action player="Sharpblade911" no="3" sum="150" type="15"/>
+   <action player="UberBuR" no="4" sum="150" type="15"/>
+   <action player="tropeiro123" no="5" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="6" sum="150" type="15"/>
+   <action player="DunkenDK321" no="7" sum="150" type="15"/>
+   <action player="swisspower1997" no="8" sum="150" type="15"/>
+   <action player="s00baka" no="9" sum="500" type="1"/>
+   <action player="IKaLLYOU" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="11" sum="0" type="0"/>
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D6 S4</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="14" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="15" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">HA H4</cards>
+   <action player="swisspower1997" no="16" sum="2,000" type="23"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="17" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">DK C10</cards>
+   <action player="IKaLLYOU" no="18" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SK C4 CK</cards>
+   <action player="IKaLLYOU" no="19" sum="0" type="4"/>
+   <action player="swisspower1997" no="20" sum="2,850" type="5"/>
+   <action player="IKaLLYOU" no="21" sum="2,850" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CA</cards>
+   <action player="IKaLLYOU" no="22" sum="0" type="4"/>
+   <action player="swisspower1997" no="23" sum="3,762" type="5"/>
+   <action player="IKaLLYOU" no="24" sum="8,888" type="23"/>
+   <action player="swisspower1997" no="25" sum="5,126" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">HJ</cards>
+   <action player="IKaLLYOU" no="26" sum="9,938" type="5"/>
+   <action player="swisspower1997" no="27" sum="9,938" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10581913879">
+  <general>
+   <startdate>2024-02-24 15:16:21</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="169,997" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="95,144" dealer="1" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="71,401" dealer="0" bet="650" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="213,974" dealer="0" bet="1,150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="124,550" dealer="0" bet="150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="115,106" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="71,021" dealer="0" bet="28,844" win="60,088" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="103,686" dealer="0" bet="28,844" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="IKaLLYOU" no="1" sum="150" type="15"/>
+   <action player="Sharpblade911" no="2" sum="150" type="15"/>
+   <action player="UberBuR" no="3" sum="150" type="15"/>
+   <action player="tropeiro123" no="4" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="5" sum="150" type="15"/>
+   <action player="DunkenDK321" no="6" sum="150" type="15"/>
+   <action player="swisspower1997" no="7" sum="150" type="15"/>
+   <action player="s00baka" no="8" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="9" sum="500" type="1"/>
+   <action player="Sharpblade911" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">SK C9</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">HK CQ</cards>
+   <action player="CJIageHbKuu" no="13" sum="2,000" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">CA C7</cards>
+   <action player="DunkenDK321" no="14" sum="6,000" type="23"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="15" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="16" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="17" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="18" sum="0" type="0"/>
+   <action player="CJIageHbKuu" no="19" sum="4,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C3 DQ SQ</cards>
+   <action player="CJIageHbKuu" no="20" sum="0" type="4"/>
+   <action player="DunkenDK321" no="21" sum="5,600" type="5"/>
+   <action player="CJIageHbKuu" no="22" sum="5,600" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HA</cards>
+   <action player="CJIageHbKuu" no="23" sum="0" type="4"/>
+   <action player="DunkenDK321" no="24" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D4</cards>
+   <action player="CJIageHbKuu" no="25" sum="17,094" type="5"/>
+   <action player="DunkenDK321" no="26" sum="17,094" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10581913961">
+  <general>
+   <startdate>2024-02-24 15:17:34</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="169,847" dealer="0" bet="4,031" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,994" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="70,751" dealer="1" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="212,824" dealer="0" bet="650" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="124,400" dealer="0" bet="8,762" win="9,462" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="114,956" dealer="0" bet="150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="102,265" dealer="0" bet="150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="74,842" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Sharpblade911" no="1" sum="150" type="15"/>
+   <action player="UberBuR" no="2" sum="150" type="15"/>
+   <action player="tropeiro123" no="3" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="4" sum="150" type="15"/>
+   <action player="DunkenDK321" no="5" sum="150" type="15"/>
+   <action player="swisspower1997" no="6" sum="150" type="15"/>
+   <action player="s00baka" no="7" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="8" sum="150" type="15"/>
+   <action player="Sharpblade911" no="9" sum="500" type="1"/>
+   <action player="UberBuR" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">CJ H8</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="12" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="13" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="14" sum="2,000" type="23"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="15" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="16" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="17" sum="0" type="0"/>
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="18" sum="1,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 H9 DJ</cards>
+   <action player="UberBuR" no="19" sum="0" type="4"/>
+   <action player="swisspower1997" no="20" sum="1,881" type="5"/>
+   <action player="UberBuR" no="21" sum="1,881" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">S6</cards>
+   <action player="UberBuR" no="22" sum="0" type="4"/>
+   <action player="swisspower1997" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">D10</cards>
+   <action player="UberBuR" no="24" sum="4,731" type="5"/>
+   <action player="swisspower1997" no="25" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581914047">
+  <general>
+   <startdate>2024-02-24 15:18:54</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,816" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,844" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="70,601" dealer="0" bet="150" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="212,174" dealer="1" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="UberBuR" reg_code="" chips="129,831" dealer="0" bet="2,150" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="114,806" dealer="0" bet="1,150" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="102,115" dealer="0" bet="4,196" win="6,200" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="74,692" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="UberBuR" no="1" sum="150" type="15"/>
+   <action player="tropeiro123" no="2" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="3" sum="150" type="15"/>
+   <action player="DunkenDK321" no="4" sum="150" type="15"/>
+   <action player="swisspower1997" no="5" sum="150" type="15"/>
+   <action player="s00baka" no="6" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="7" sum="150" type="15"/>
+   <action player="Sharpblade911" no="8" sum="150" type="15"/>
+   <action player="UberBuR" no="9" sum="500" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="11" sum="2,000" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="12" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="13" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="14" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="15" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="16" sum="0" type="0"/>
+   <cards player="UberBuR" type="Pocket">X X</cards>
+   <action player="UberBuR" no="17" sum="1,500" type="3"/>
+   <cards player="tropeiro123" type="Pocket">DJ S4</cards>
+   <action player="tropeiro123" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H10 CA HJ</cards>
+   <action player="UberBuR" no="19" sum="0" type="4"/>
+   <action player="CJIageHbKuu" no="20" sum="2,046" type="5"/>
+   <action player="UberBuR" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581914097">
+  <general>
+   <startdate>2024-02-24 15:19:44</startdate>
+   <smallblind>500</smallblind>
+   <bigblind>1,000</bigblind>
+   <ante>150</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,666" dealer="0" bet="150" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,694" dealer="0" bet="150" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="70,451" dealer="0" bet="2,000" win="3,550" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="212,024" dealer="0" bet="150" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="113,656" dealer="0" bet="650" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="106,165" dealer="0" bet="1,150" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="74,542" dealer="0" bet="150" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="150" type="15"/>
+   <action player="CJIageHbKuu" no="2" sum="150" type="15"/>
+   <action player="DunkenDK321" no="3" sum="150" type="15"/>
+   <action player="swisspower1997" no="4" sum="150" type="15"/>
+   <action player="s00baka" no="5" sum="150" type="15"/>
+   <action player="IKaLLYOU" no="6" sum="150" type="15"/>
+   <action player="Sharpblade911" no="7" sum="150" type="15"/>
+   <action player="tropeiro123" no="8" sum="500" type="1"/>
+   <action player="CJIageHbKuu" no="9" sum="1,000" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="10" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="11" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="12" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="13" sum="2,000" type="23"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D5 SK</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="16" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581914131">
+  <general>
+   <startdate>2024-02-24 15:20:12</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,516" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,544" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="72,851" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="211,874" dealer="0" bet="43,152" win="87,984" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="107,395" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="113,006" dealer="1" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="105,015" dealer="0" bet="780" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="74,392" dealer="0" bet="43,152" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CJIageHbKuu" no="1" sum="180" type="15"/>
+   <action player="DunkenDK321" no="2" sum="180" type="15"/>
+   <action player="swisspower1997" no="3" sum="180" type="15"/>
+   <action player="s00baka" no="4" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="5" sum="180" type="15"/>
+   <action player="Sharpblade911" no="6" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="7" sum="180" type="15"/>
+   <action player="tropeiro123" no="8" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="9" sum="600" type="1"/>
+   <action player="DunkenDK321" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="11" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="12" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="13" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">HJ DJ</cards>
+   <action player="Sharpblade911" no="14" sum="3,000" type="23"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S2 C4</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="17" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">HA SA</cards>
+   <action player="DunkenDK321" no="18" sum="9,600" type="23"/>
+   <action player="Sharpblade911" no="19" sum="6,600" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D3 SQ HQ</cards>
+   <action player="DunkenDK321" no="20" sum="6,372" type="5"/>
+   <action player="Sharpblade911" no="21" sum="6,372" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HK</cards>
+   <action player="DunkenDK321" no="22" sum="0" type="4"/>
+   <action player="Sharpblade911" no="23" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">CJ</cards>
+   <action player="DunkenDK321" no="24" sum="27,000" type="5"/>
+   <action player="Sharpblade911" no="25" sum="27,000" type="3"/>
+  </round>
+ </game>
+ <game gamecode="10581914235">
+  <general>
+   <startdate>2024-02-24 15:21:42</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,336" dealer="0" bet="2,580" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,364" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="72,671" dealer="0" bet="2,580" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="256,706" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="107,215" dealer="0" bet="11,988" win="13,440" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="112,826" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="104,235" dealer="1" bet="2,580" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="31,240" dealer="0" bet="2,580" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DunkenDK321" no="1" sum="180" type="15"/>
+   <action player="swisspower1997" no="2" sum="180" type="15"/>
+   <action player="s00baka" no="3" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="4" sum="180" type="15"/>
+   <action player="Sharpblade911" no="5" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="6" sum="180" type="15"/>
+   <action player="tropeiro123" no="7" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="180" type="15"/>
+   <action player="DunkenDK321" no="9" sum="600" type="1"/>
+   <action player="swisspower1997" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="11" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="2,400" type="23"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="13" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="14" sum="2,400" type="3"/>
+   <cards player="tropeiro123" type="Pocket">H9 S3</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="16" sum="2,400" type="3"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="17" sum="1,800" type="3"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">H2 SA H10</cards>
+   <action player="DunkenDK321" no="19" sum="0" type="4"/>
+   <action player="swisspower1997" no="20" sum="0" type="4"/>
+   <action player="IKaLLYOU" no="21" sum="0" type="4"/>
+   <action player="SureWhyNot365" no="22" sum="9,408" type="5"/>
+   <action player="CJIageHbKuu" no="23" sum="0" type="0"/>
+   <action player="DunkenDK321" no="24" sum="0" type="0"/>
+   <action player="swisspower1997" no="25" sum="0" type="0"/>
+   <action player="IKaLLYOU" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581914329">
+  <general>
+   <startdate>2024-02-24 15:23:08</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="162,756" dealer="0" bet="780" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="94,184" dealer="0" bet="1,380" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="70,091" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="256,526" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="118,075" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="112,646" dealer="0" bet="4,590" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="101,655" dealer="0" bet="4,590" win="12,060" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="28,660" dealer="1" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="swisspower1997" no="1" sum="180" type="15"/>
+   <action player="s00baka" no="2" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="3" sum="180" type="15"/>
+   <action player="Sharpblade911" no="4" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="5" sum="180" type="15"/>
+   <action player="tropeiro123" no="6" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="7" sum="180" type="15"/>
+   <action player="DunkenDK321" no="8" sum="180" type="15"/>
+   <action player="swisspower1997" no="9" sum="600" type="1"/>
+   <action player="s00baka" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="11" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="12" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CQ HA</cards>
+   <action player="tropeiro123" no="14" sum="2,400" type="23"/>
+   <cards player="CJIageHbKuu" type="Pocket">H8 S8</cards>
+   <action player="CJIageHbKuu" no="15" sum="2,400" type="3"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="16" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="17" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S6 HK H6</cards>
+   <action player="tropeiro123" no="19" sum="2,010" type="5"/>
+   <action player="CJIageHbKuu" no="20" sum="2,010" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">CJ</cards>
+   <action player="tropeiro123" no="21" sum="0" type="4"/>
+   <action player="CJIageHbKuu" no="22" sum="0" type="4"/>
+  </round>
+  <round no="4">
+   <cards type="River">H2</cards>
+   <action player="tropeiro123" no="23" sum="0" type="4"/>
+   <action player="CJIageHbKuu" no="24" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10581939161">
+  <general>
+   <startdate>2024-02-24 15:25:00</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="161,976" dealer="1" bet="11,358" win="14,784" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="92,804" dealer="0" bet="780" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="69,911" dealer="0" bet="2,580" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="256,346" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="117,895" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="108,056" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="109,125" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="28,480" dealer="0" bet="5,352" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="s00baka" no="1" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="2" sum="180" type="15"/>
+   <action player="Sharpblade911" no="3" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="4" sum="180" type="15"/>
+   <action player="tropeiro123" no="5" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="6" sum="180" type="15"/>
+   <action player="DunkenDK321" no="7" sum="180" type="15"/>
+   <action player="swisspower1997" no="8" sum="180" type="15"/>
+   <action player="s00baka" no="9" sum="600" type="1"/>
+   <action player="IKaLLYOU" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="11" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="12" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S6 D5</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="14" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="15" sum="2,400" type="23"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="16" sum="2,400" type="3"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="17" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S4 S10 HJ</cards>
+   <action player="IKaLLYOU" no="19" sum="0" type="4"/>
+   <action player="DunkenDK321" no="20" sum="2,772" type="5"/>
+   <action player="swisspower1997" no="21" sum="8,778" type="23"/>
+   <action player="IKaLLYOU" no="22" sum="0" type="0"/>
+   <action player="DunkenDK321" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581939255">
+  <general>
+   <startdate>2024-02-24 15:26:19</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="171,408" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="92,024" dealer="1" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="67,331" dealer="0" bet="780" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="256,166" dealer="0" bet="1,380" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="117,715" dealer="0" bet="2,400" win="4,440" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="107,876" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="108,945" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="23,128" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="IKaLLYOU" no="1" sum="180" type="15"/>
+   <action player="Sharpblade911" no="2" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="3" sum="180" type="15"/>
+   <action player="tropeiro123" no="4" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="5" sum="180" type="15"/>
+   <action player="DunkenDK321" no="6" sum="180" type="15"/>
+   <action player="swisspower1997" no="7" sum="180" type="15"/>
+   <action player="s00baka" no="8" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="9" sum="600" type="1"/>
+   <action player="Sharpblade911" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="11" sum="2,400" type="23"/>
+   <cards player="tropeiro123" type="Pocket">S6 D2</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="13" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="14" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="15" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="16" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="17" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="18" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581939297">
+  <general>
+   <startdate>2024-02-24 15:26:53</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="171,228" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="91,844" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="66,551" dealer="1" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="254,786" dealer="0" bet="780" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="120,775" dealer="0" bet="1,380" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="107,696" dealer="0" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="108,765" dealer="0" bet="22,948" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="22,948" dealer="0" bet="22,768" win="48,776" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Sharpblade911" no="1" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="2" sum="180" type="15"/>
+   <action player="tropeiro123" no="3" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="4" sum="180" type="15"/>
+   <action player="DunkenDK321" no="5" sum="180" type="15"/>
+   <action player="swisspower1997" no="6" sum="180" type="15"/>
+   <action player="s00baka" no="7" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="8" sum="180" type="15"/>
+   <action player="Sharpblade911" no="9" sum="600" type="1"/>
+   <action player="SureWhyNot365" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">D2 H10</cards>
+   <action player="tropeiro123" no="11" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">DK HQ</cards>
+   <action player="CJIageHbKuu" no="12" sum="2,400" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">HJ DJ</cards>
+   <action player="DunkenDK321" no="13" sum="22,768" type="23"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="14" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="15" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="16" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="17" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="18" sum="0" type="0"/>
+   <action player="CJIageHbKuu" no="19" sum="20,368" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S10 D6 C8</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">H7</cards>
+  </round>
+  <round no="4">
+   <cards type="River">D9</cards>
+  </round>
+ </game>
+ <game gamecode="10581939362">
+  <general>
+   <startdate>2024-02-24 15:27:46</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="171,048" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="91,664" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="66,371" dealer="0" bet="7,393" win="9,240" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="254,006" dealer="1" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="119,395" dealer="0" bet="780" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="107,516" dealer="0" bet="3,780" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="85,817" dealer="0" bet="180" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="48,776" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="SureWhyNot365" no="1" sum="180" type="15"/>
+   <action player="tropeiro123" no="2" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="3" sum="180" type="15"/>
+   <action player="DunkenDK321" no="4" sum="180" type="15"/>
+   <action player="swisspower1997" no="5" sum="180" type="15"/>
+   <action player="s00baka" no="6" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="7" sum="180" type="15"/>
+   <action player="Sharpblade911" no="8" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="9" sum="600" type="1"/>
+   <action player="tropeiro123" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="11" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="12" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="13" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="14" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="15" sum="3,600" type="23"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="16" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="17" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H3 H10</cards>
+   <action player="tropeiro123" no="18" sum="2,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C8 S5 CK</cards>
+   <action player="tropeiro123" no="19" sum="0" type="4"/>
+   <action player="IKaLLYOU" no="20" sum="3,613" type="5"/>
+   <action player="tropeiro123" no="21" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581939427">
+  <general>
+   <startdate>2024-02-24 15:28:42</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="170,868" dealer="0" bet="180" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="91,484" dealer="0" bet="180" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="71,831" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="253,826" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="118,615" dealer="1" bet="8,400" win="18,480" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="103,736" dealer="0" bet="780" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="85,637" dealer="0" bet="8,400" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="48,596" dealer="0" bet="180" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="tropeiro123" no="1" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="2" sum="180" type="15"/>
+   <action player="DunkenDK321" no="3" sum="180" type="15"/>
+   <action player="swisspower1997" no="4" sum="180" type="15"/>
+   <action player="s00baka" no="5" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="6" sum="180" type="15"/>
+   <action player="Sharpblade911" no="7" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="8" sum="180" type="15"/>
+   <action player="tropeiro123" no="9" sum="600" type="1"/>
+   <action player="CJIageHbKuu" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="11" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="12" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="13" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="14" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="15" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">HK CA</cards>
+   <action player="SureWhyNot365" no="16" sum="2,400" type="23"/>
+   <cards player="tropeiro123" type="Pocket">C2 C8</cards>
+   <action player="tropeiro123" no="17" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">DK DJ</cards>
+   <action player="CJIageHbKuu" no="18" sum="1,200" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">SQ H2 H9</cards>
+   <action player="CJIageHbKuu" no="19" sum="0" type="4"/>
+   <action player="SureWhyNot365" no="20" sum="1,200" type="5"/>
+   <action player="CJIageHbKuu" no="21" sum="1,200" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D2</cards>
+   <action player="CJIageHbKuu" no="22" sum="0" type="4"/>
+   <action player="SureWhyNot365" no="23" sum="4,620" type="5"/>
+   <action player="CJIageHbKuu" no="24" sum="4,620" type="3"/>
+  </round>
+  <round no="4">
+   <cards type="River">S4</cards>
+   <action player="CJIageHbKuu" no="25" sum="0" type="4"/>
+   <action player="SureWhyNot365" no="26" sum="0" type="4"/>
+  </round>
+ </game>
+ <game gamecode="10581939594">
+  <general>
+   <startdate>2024-02-24 15:31:10</startdate>
+   <smallblind>600</smallblind>
+   <bigblind>1,200</bigblind>
+   <ante>180</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="170,688" dealer="0" bet="7,380" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="91,304" dealer="0" bet="18,180" win="17,640" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="71,651" dealer="0" bet="180" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="253,646" dealer="0" bet="180" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="128,695" dealer="0" bet="180" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="102,956" dealer="1" bet="180" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="77,237" dealer="0" bet="780" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="48,416" dealer="0" bet="1,380" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="CJIageHbKuu" no="1" sum="180" type="15"/>
+   <action player="DunkenDK321" no="2" sum="180" type="15"/>
+   <action player="swisspower1997" no="3" sum="180" type="15"/>
+   <action player="s00baka" no="4" sum="180" type="15"/>
+   <action player="IKaLLYOU" no="5" sum="180" type="15"/>
+   <action player="Sharpblade911" no="6" sum="180" type="15"/>
+   <action player="SureWhyNot365" no="7" sum="180" type="15"/>
+   <action player="tropeiro123" no="8" sum="180" type="15"/>
+   <action player="CJIageHbKuu" no="9" sum="600" type="1"/>
+   <action player="DunkenDK321" no="10" sum="1,200" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="11" sum="2,400" type="23"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="12" sum="7,200" type="23"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="13" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="14" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="15" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">S8 SJ</cards>
+   <action player="tropeiro123" no="16" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="17" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="18" sum="0" type="0"/>
+   <action player="swisspower1997" no="19" sum="4,800" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C6 H2 CJ</cards>
+   <action player="swisspower1997" no="20" sum="0" type="4"/>
+   <action player="s00baka" no="21" sum="10,800" type="5"/>
+   <action player="swisspower1997" no="22" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581939659">
+  <general>
+   <startdate>2024-02-24 15:32:10</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="163,308" dealer="0" bet="5,600" win="4,400" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="101,564" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="71,471" dealer="0" bet="200" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="253,466" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="128,515" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="102,776" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="76,457" dealer="1" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="47,036" dealer="0" bet="1,600" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="DunkenDK321" no="1" sum="200" type="15"/>
+   <action player="swisspower1997" no="2" sum="200" type="15"/>
+   <action player="s00baka" no="3" sum="200" type="15"/>
+   <action player="IKaLLYOU" no="4" sum="200" type="15"/>
+   <action player="Sharpblade911" no="5" sum="200" type="15"/>
+   <action player="SureWhyNot365" no="6" sum="200" type="15"/>
+   <action player="tropeiro123" no="7" sum="200" type="15"/>
+   <action player="CJIageHbKuu" no="8" sum="200" type="15"/>
+   <action player="DunkenDK321" no="9" sum="700" type="1"/>
+   <action player="swisspower1997" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="11" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="12" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="13" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="14" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">H5 S8</cards>
+   <action player="tropeiro123" no="15" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="16" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="17" sum="700" type="3"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="18" sum="5,600" type="23"/>
+   <action player="DunkenDK321" no="19" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581939702">
+  <general>
+   <startdate>2024-02-24 15:32:52</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="166,108" dealer="0" bet="900" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="101,364" dealer="0" bet="7,452" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="71,271" dealer="0" bet="71,271" win="154,494" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="253,266" dealer="0" bet="3,000" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="128,315" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="102,576" dealer="0" bet="98,853" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="76,257" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="45,436" dealer="1" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="swisspower1997" no="1" sum="200" type="15"/>
+   <action player="s00baka" no="2" sum="200" type="15"/>
+   <action player="IKaLLYOU" no="3" sum="200" type="15"/>
+   <action player="Sharpblade911" no="4" sum="200" type="15"/>
+   <action player="SureWhyNot365" no="5" sum="200" type="15"/>
+   <action player="tropeiro123" no="6" sum="200" type="15"/>
+   <action player="CJIageHbKuu" no="7" sum="200" type="15"/>
+   <action player="DunkenDK321" no="8" sum="200" type="15"/>
+   <action player="swisspower1997" no="9" sum="700" type="1"/>
+   <action player="s00baka" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="IKaLLYOU" type="Pocket">H5 H8</cards>
+   <action player="IKaLLYOU" no="11" sum="2,800" type="23"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="12" sum="2,800" type="3"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="13" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">CA C4</cards>
+   <action player="tropeiro123" no="14" sum="2,800" type="3"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="15" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="16" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="17" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="18" sum="1,400" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C7 S6 C9</cards>
+   <action player="s00baka" no="19" sum="0" type="4"/>
+   <action player="IKaLLYOU" no="20" sum="0" type="4"/>
+   <action player="Sharpblade911" no="21" sum="0" type="4"/>
+   <action player="tropeiro123" no="22" sum="4,452" type="5"/>
+   <action player="s00baka" no="23" sum="4,452" type="3"/>
+   <action player="IKaLLYOU" no="24" sum="19,577" type="23"/>
+   <action player="Sharpblade911" no="25" sum="0" type="0"/>
+   <action player="tropeiro123" no="26" sum="95,853" type="23"/>
+   <action player="s00baka" no="27" sum="0" type="0"/>
+   <action player="IKaLLYOU" no="28" sum="48,694" type="7"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">D9</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H3</cards>
+  </round>
+ </game>
+ <game gamecode="10581939831">
+  <general>
+   <startdate>2024-02-24 15:34:48</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,208" dealer="1" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="93,912" dealer="0" bet="3,000" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="154,494" dealer="0" bet="1,600" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="250,266" dealer="0" bet="200" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="128,115" dealer="0" bet="8,600" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="31,305" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="76,057" dealer="0" bet="200" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="45,236" dealer="0" bet="22,600" win="22,600" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="s00baka" no="1" sum="200" type="15"/>
+   <action player="IKaLLYOU" no="2" sum="200" type="15"/>
+   <action player="Sharpblade911" no="3" sum="200" type="15"/>
+   <action player="SureWhyNot365" no="4" sum="200" type="15"/>
+   <action player="tropeiro123" no="5" sum="200" type="15"/>
+   <action player="CJIageHbKuu" no="6" sum="200" type="15"/>
+   <action player="DunkenDK321" no="7" sum="200" type="15"/>
+   <action player="swisspower1997" no="8" sum="200" type="15"/>
+   <action player="s00baka" no="9" sum="700" type="1"/>
+   <action player="IKaLLYOU" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="11" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="12" sum="2,800" type="23"/>
+   <cards player="tropeiro123" type="Pocket">CJ D7</cards>
+   <action player="tropeiro123" no="13" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="14" sum="0" type="0"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="15" sum="2,800" type="3"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="16" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="17" sum="2,100" type="3"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="18" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 S3 C4</cards>
+   <action player="s00baka" no="19" sum="0" type="4"/>
+   <action player="SureWhyNot365" no="20" sum="0" type="4"/>
+   <action player="DunkenDK321" no="21" sum="5,600" type="5"/>
+   <action player="s00baka" no="22" sum="0" type="0"/>
+   <action player="SureWhyNot365" no="23" sum="5,600" type="3"/>
+  </round>
+  <round no="3">
+   <cards type="Turn">HQ</cards>
+   <action player="SureWhyNot365" no="24" sum="0" type="4"/>
+   <action player="DunkenDK321" no="25" sum="14,000" type="5"/>
+   <action player="SureWhyNot365" no="26" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965375">
+  <general>
+   <startdate>2024-02-24 15:36:11</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="165,008" dealer="0" bet="10,000" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="90,912" dealer="1" bet="18,352" win="26,100" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="152,894" dealer="0" bet="900" win="0" rebuy="0" seat="4" addon="0"/>
+    <player name="Sharpblade911" reg_code="" chips="250,066" dealer="0" bet="1,600" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="119,515" dealer="0" bet="200" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="31,105" dealer="0" bet="200" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="75,857" dealer="0" bet="3,000" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="59,236" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="IKaLLYOU" no="1" sum="200" type="15"/>
+   <action player="Sharpblade911" no="2" sum="200" type="15"/>
+   <action player="SureWhyNot365" no="3" sum="200" type="15"/>
+   <action player="tropeiro123" no="4" sum="200" type="15"/>
+   <action player="CJIageHbKuu" no="5" sum="200" type="15"/>
+   <action player="DunkenDK321" no="6" sum="200" type="15"/>
+   <action player="swisspower1997" no="7" sum="200" type="15"/>
+   <action player="s00baka" no="8" sum="200" type="15"/>
+   <action player="IKaLLYOU" no="9" sum="700" type="1"/>
+   <action player="Sharpblade911" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="11" sum="0" type="0"/>
+   <cards player="tropeiro123" type="Pocket">D3 H9</cards>
+   <action player="tropeiro123" no="12" sum="0" type="0"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="13" sum="2,800" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="14" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="15" sum="2,800" type="3"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="16" sum="9,800" type="23"/>
+   <cards player="IKaLLYOU" type="Pocket">X X</cards>
+   <action player="IKaLLYOU" no="17" sum="0" type="0"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="18" sum="0" type="0"/>
+   <action player="CJIageHbKuu" no="19" sum="0" type="0"/>
+   <action player="swisspower1997" no="20" sum="7,000" type="3"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">D10 S10 D7</cards>
+   <action player="swisspower1997" no="21" sum="0" type="4"/>
+   <action player="s00baka" no="22" sum="8,352" type="5"/>
+   <action player="swisspower1997" no="23" sum="0" type="0"/>
+  </round>
+ </game>
+ <game gamecode="10581965469">
+  <general>
+   <startdate>2024-02-24 15:37:27</startdate>
+   <smallblind>700</smallblind>
+   <bigblind>1,400</bigblind>
+   <ante>200</ante>
+   <players>
+    <player name="swisspower1997" reg_code="" chips="155,008" dealer="0" bet="200" win="0" rebuy="0" seat="1" addon="0"/>
+    <player name="s00baka" reg_code="" chips="107,012" dealer="0" bet="200" win="0" rebuy="0" seat="2" addon="0"/>
+    <player name="IKaLLYOU" reg_code="" chips="151,994" dealer="1" bet="151,794" win="73,510" rebuy="0" seat="4" addon="0">
+     <knockout tobounty="€4.55" tobalance="€4.55" kicked="tropeiro123"/>
+    </player>
+    <player name="Sharpblade911" reg_code="" chips="248,466" dealer="0" bet="900" win="0" rebuy="0" seat="5" addon="0"/>
+    <player name="SureWhyNot365" reg_code="" chips="119,315" dealer="0" bet="1,600" win="0" rebuy="0" seat="6" addon="0"/>
+    <player name="tropeiro123" reg_code="7959745801" chips="30,905" dealer="0" bet="30,905" win="0" rebuy="0" seat="7" addon="0"/>
+    <player name="CJIageHbKuu" reg_code="" chips="72,857" dealer="0" bet="8,600" win="0" rebuy="0" seat="9" addon="0"/>
+    <player name="DunkenDK321" reg_code="" chips="59,036" dealer="0" bet="200" win="0" rebuy="0" seat="10" addon="0"/>
+   </players>
+  </general>
+  <round no="0">
+   <action player="Sharpblade911" no="1" sum="200" type="15"/>
+   <action player="SureWhyNot365" no="2" sum="200" type="15"/>
+   <action player="tropeiro123" no="3" sum="200" type="15"/>
+   <action player="CJIageHbKuu" no="4" sum="200" type="15"/>
+   <action player="DunkenDK321" no="5" sum="200" type="15"/>
+   <action player="swisspower1997" no="6" sum="200" type="15"/>
+   <action player="s00baka" no="7" sum="200" type="15"/>
+   <action player="IKaLLYOU" no="8" sum="200" type="15"/>
+   <action player="Sharpblade911" no="9" sum="700" type="1"/>
+   <action player="SureWhyNot365" no="10" sum="1,400" type="2"/>
+  </round>
+  <round no="1">
+   <cards player="tropeiro123" type="Pocket">SQ DQ</cards>
+   <action player="tropeiro123" no="11" sum="2,800" type="23"/>
+   <cards player="CJIageHbKuu" type="Pocket">X X</cards>
+   <action player="CJIageHbKuu" no="12" sum="8,400" type="23"/>
+   <cards player="DunkenDK321" type="Pocket">X X</cards>
+   <action player="DunkenDK321" no="13" sum="0" type="0"/>
+   <cards player="swisspower1997" type="Pocket">X X</cards>
+   <action player="swisspower1997" no="14" sum="0" type="0"/>
+   <cards player="s00baka" type="Pocket">X X</cards>
+   <action player="s00baka" no="15" sum="0" type="0"/>
+   <cards player="IKaLLYOU" type="Pocket">C10 S10</cards>
+   <action player="IKaLLYOU" no="16" sum="151,794" type="23"/>
+   <cards player="Sharpblade911" type="Pocket">X X</cards>
+   <action player="Sharpblade911" no="17" sum="0" type="0"/>
+   <cards player="SureWhyNot365" type="Pocket">X X</cards>
+   <action player="SureWhyNot365" no="18" sum="0" type="0"/>
+   <action player="tropeiro123" no="19" sum="27,905" type="7"/>
+   <action player="CJIageHbKuu" no="20" sum="0" type="0"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">S5 HK H6</cards>
+  </round>
+  <round no="3">
+   <cards type="Turn">D10</cards>
+  </round>
+  <round no="4">
+   <cards type="River">H5</cards>
+  </round>
+ </game>
+</session>

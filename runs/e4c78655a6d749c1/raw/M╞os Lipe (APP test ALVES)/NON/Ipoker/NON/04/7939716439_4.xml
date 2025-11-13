@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<session sessioncode="7939716439">
+ <general>
+  <client_version>23.3.1.7</client_version>
+  <mode>real</mode>
+  <gametype>Holdem NL</gametype>
+  <tablename>€11K The Big Game, 1080140085</tablename>
+  <tournamentcurrency>EUR</tournamentcurrency>
+  <duration>00:06:33</duration>
+  <gamecount>6</gamecount>
+  <startdate>2024-02-04 17:08:11</startdate>
+  <currency>USD</currency>
+  <nickname>tropeiro123</nickname>
+  <bets>55,200</bets>
+  <wins>111,400</wins>
+  <chipsin>94,655</chipsin>
+  <chipsout>151,055</chipsout>
+  <statuspoints>0.00</statuspoints>
+  <awardpoints>0.00</awardpoints>
+  <ipoints>0.00</ipoints>
+  <tablesize>8</tablesize>
+  <tournamentcode>1080047722</tournamentcode>
+  <tournamentname>€11K The Big Game</tournamentname>
+  <place>N/A</place>
+  <buyin>€9.10 + €9.10 + €1.80</buyin>
+  <totalbuyin>€20</totalbuyin>
+  <win>N/A</win>
+ </general>
+ <game gamecode="10545351005">
+  <general>
+   <startdate>2024-02-04 17:08:11</startdate>
+   <smallblind>800</smallblind>
+   <bigblind>1,600</bigblind>
+   <ante>250</ante>
+   <players>
+    <player chips="66,590" win="0" reg_code="" rebuy="0" addon="0" seat="1" name="Gisele92o" dealer="0" bet="250"/>
+    <player chips="209,295" win="0" reg_code="" rebuy="0" addon="0" seat="2" name="zosteRRRRR" dealer="0" bet="250"/>
+    <player chips="87,250" win="9,200" reg_code="" rebuy="0" addon="0" seat="4" name="tightcamel" dealer="0" bet="5,750"/>
+    <player chips="223,543" win="0" reg_code="" rebuy="0" addon="0" seat="5" name="RunningGood" dealer="0" bet="250"/>
+    <player chips="74,586" win="0" reg_code="" rebuy="0" addon="0" seat="6" name="cashmeoutsidee" dealer="0" bet="250"/>
+    <player chips="32,176" win="0" reg_code="" rebuy="0" addon="0" seat="7" name="7isgood" dealer="1" bet="250"/>
+    <player chips="152,105" win="0" reg_code="7939716439" rebuy="0" addon="0" seat="9" name="tropeiro123" dealer="0" bet="1,050"/>
+    <player chips="100,770" win="0" reg_code="" rebuy="0" addon="0" seat="10" name="PuraVidaU" dealer="0" bet="3,450"/>
+   </players>
+  </general>
+  <round no="0">
+   <action type="15" sum="250" no="1" player="tropeiro123"/>
+   <action type="15" sum="250" no="2" player="PuraVidaU"/>
+   <action type="15" sum="250" no="3" player="Gisele92o"/>
+   <action type="15" sum="250" no="4" player="zosteRRRRR"/>
+   <action type="15" sum="250" no="5" player="tightcamel"/>
+   <action type="15" sum="250" no="6" player="RunningGood"/>
+   <action type="15" sum="250" no="7" player="cashmeoutsidee"/>
+   <action type="15" sum="250" no="8" player="7isgood"/>
+   <action type="1" sum="800" no="9" player="tropeiro123"/>
+   <action type="2" sum="1,600" no="10" player="PuraVidaU"/>
+  </round>
+  <round no="1">
+   <cards type="Pocket" player="Gisele92o">X X</cards>
+   <action type="0" sum="0" no="11" player="Gisele92o"/>
+   <cards type="Pocket" player="zosteRRRRR">X X</cards>
+   <action type="0" sum="0" no="12" player="zosteRRRRR"/>
+   <cards type="Pocket" player="tightcamel">X X</cards>
+   <action type="23" sum="3,200" no="13" player="tightcamel"/>
+   <cards type="Pocket" player="RunningGood">X X</cards>
+   <action type="0" sum="0" no="14" player="RunningGood"/>
+   <cards type="Pocket" player="cashmeoutsidee">X X</cards>
+   <action type="0" sum="0" no="15" player="cashmeoutsidee"/>
+   <cards type="Pocket" player="7isgood">X X</cards>
+   <action type="0" sum="0" no="16" player="7isgood"/>
+   <cards type="Pocket" player="tropeiro123">H6 D3</cards>
+   <action type="0" sum="0" no="17" player="tropeiro123"/>
+   <cards type="Pocket" player="PuraVidaU">X X</cards>
+   <action type="3" sum="1,600" no="18" player="PuraVidaU"/>
+  </round>
+  <round no="2">
+   <cards type="Flop">C10 S5 D2</cards>
+   <action type="4" sum="0" no="19" player="PuraVidaU"/>
+   <action type="5" sum="2,300" no="20" player="tightcamel"/>
+   <action type="0" sum="0" no="21" player="PuraVidaU"/>
+  </round>
+ </game>
+</session>
