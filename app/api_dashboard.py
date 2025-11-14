@@ -995,7 +995,32 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                 logger.info(f"[DEBUG] Added group '{grp_name}' with {transformed_group.get('hands_count', 0)} hands, {len(transformed_group.get('stats', {}))} preflop stats")
         
         # Aggregate postflop stats
-        postflop_all = aggregate_postflop_stats(pipeline_result['combined'], ideals, stat_weights)
+        postflop_total_override: Optional[int] = None
+        postflop_hand_ids: Optional[List[str]] = None
+
+        global_samples_data = pipeline_result.get('global_samples') if isinstance(pipeline_result, dict) else None
+        if isinstance(global_samples_data, dict):
+            raw_total = global_samples_data.get('validas')
+            if isinstance(raw_total, (int, float)):
+                postflop_total_override = int(raw_total)
+
+            groups_snapshot = global_samples_data.get('groups')
+            if isinstance(groups_snapshot, dict):
+                postflop_snapshot = groups_snapshot.get('postflop_all')
+                if isinstance(postflop_snapshot, dict):
+                    ids = postflop_snapshot.get('hand_ids')
+                    if isinstance(ids, list):
+                        postflop_hand_ids = ids
+                        if postflop_total_override is None:
+                            postflop_total_override = len(ids)
+
+        postflop_all = aggregate_postflop_stats(
+            pipeline_result['combined'],
+            ideals,
+            stat_weights,
+            total_valid_hands=postflop_total_override,
+            valid_hand_ids=postflop_hand_ids,
+        )
         
         if postflop_all:
             subgroups_count = len(postflop_all.get('subgroups', {}))
@@ -1268,7 +1293,13 @@ def build_groups_structure(
     return groups
 
 
-def aggregate_postflop_stats(pipeline_groups: Dict[str, Any], ideals: Dict[str, Any], stat_weights: Dict[str, float]) -> Dict[str, Any]:
+def aggregate_postflop_stats(
+    pipeline_groups: Dict[str, Any],
+    ideals: Dict[str, Any],
+    stat_weights: Dict[str, float],
+    total_valid_hands: Optional[int] = None,
+    valid_hand_ids: Optional[List[str]] = None,
+) -> Dict[str, Any]:
     """Aggregate postflop stats from all groups into postflop_all with proper schema using scoring_config"""
     import logging
     from app.stats.scoring_config import SCORING_CONFIG
@@ -1279,6 +1310,14 @@ def aggregate_postflop_stats(pipeline_groups: Dict[str, Any], ideals: Dict[str, 
     # Aggregate postflop stats from all groups
     aggregated_stats = {}
     total_hands = 0
+
+    if valid_hand_ids is not None:
+        expected_total = len(valid_hand_ids)
+        if total_valid_hands is not None:
+            assert expected_total == total_valid_hands, (
+                "Provided POSTFLOP override does not match hand_ids length"
+            )
+        total_valid_hands = expected_total
     
     for group_name, group_data in pipeline_groups.items():
         if not isinstance(group_data, dict):
@@ -1526,9 +1565,21 @@ def aggregate_postflop_stats(pipeline_groups: Dict[str, Any], ideals: Dict[str, 
         logger.info(f"[POSTFLOP] Overall POSTFLOP score: {overall_postflop_score}")
     
     # Return with proper group schema (weight + subgroups + hands_count + overall_score)
-    return {
+    hands_count = total_hands
+    if total_valid_hands is not None:
+        hands_count = int(total_valid_hands)
+        assert hands_count >= total_hands or total_hands == 0, (
+            "POSTFLOP override should not be lower than aggregated opportunities"
+        )
+
+    result = {
         'weight': 0.1,
-        'hands_count': total_hands,
+        'hands_count': hands_count,
         'overall_score': overall_postflop_score,
         'subgroups': subgroups
     }
+
+    if valid_hand_ids is not None:
+        result['hand_ids'] = valid_hand_ids
+
+    return result
