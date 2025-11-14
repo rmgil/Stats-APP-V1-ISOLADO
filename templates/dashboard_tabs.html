@@ -2408,47 +2408,38 @@
                     }
                     
                     const months = data.data.months;
-                    
-                    if (months.length === 0) {
-                        console.log('No month data available, hiding month selector');
+                    const validMonthPattern = /^\d{4}-\d{2}$/;
+
+                    const validMonths = months.filter(monthData =>
+                        typeof monthData.month === 'string' && validMonthPattern.test(monthData.month)
+                    );
+
+                    if (validMonths.length === 0) {
+                        console.log('No valid month data available, hiding month selector');
                         return;
                     }
 
                     // Sort months descending (newest first)
-                    months.sort((a, b) => b.month.localeCompare(a.month));
-                    
+                    validMonths.sort((a, b) => b.month.localeCompare(a.month));
+
                     // Populate dropdown
-                    months.forEach(monthData => {
+                    validMonths.forEach(monthData => {
                         const option = document.createElement('option');
                         option.value = monthData.month;
-                        
-                        let formattedMonth;
-                        
-                        // Check if month is in YYYY-MM format
-                        if (monthData.month.match(/^\d{4}-\d{2}$/)) {
-                            // Format month: "2025-10" -> "Outubro 2025"
-                            const [year, month] = monthData.month.split('-');
-                            const date = new Date(parseInt(year), parseInt(month) - 1, 1);
-                            const monthName = new Intl.DateTimeFormat('pt-PT', { 
-                                month: 'long', 
-                                year: 'numeric' 
-                            }).format(date);
-                            
-                            // Capitalize first letter
-                            formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
-                        } else {
-                            // Handle special cases like "unknown"
-                            formattedMonth = monthData.month === 'unknown' ? 
-                                'Mês desconhecido' : monthData.month;
-                        }
-                        
-                        // Add hand count if available
-                        const handCount = monthData.total_hands ? 
-                            ` (${monthData.total_hands.toLocaleString('pt-PT')} mãos)` : '';
-                        
+
+                        const [year, monthValue] = monthData.month.split('-');
+                        const date = new Date(parseInt(year, 10), parseInt(monthValue, 10) - 1, 1);
+                        const monthName = new Intl.DateTimeFormat('pt-PT', {
+                            month: 'long',
+                            year: 'numeric'
+                        }).format(date);
+                        const formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+
+                        const handCount = monthData.total_hands ?
+                            ` (${Number(monthData.total_hands).toLocaleString('pt-PT')} mãos)` : '';
+
                         option.textContent = formattedMonth + handCount;
-                        
-                        // Mark current month as selected
+
                         if (currentMonth && monthData.month === currentMonth) {
                             option.selected = true;
                         }
@@ -2459,7 +2450,9 @@
                     // Show the selector
                     monthSelectorContainer.style.display = 'flex';
 
-                    if (!currentMonth) {
+                    if (currentMonth && validMonthPattern.test(currentMonth)) {
+                        monthSelector.value = currentMonth;
+                    } else {
                         monthSelector.value = '';
                     }
 

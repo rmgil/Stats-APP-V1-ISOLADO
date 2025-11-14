@@ -37,7 +37,11 @@ def build_context(hand: dict) -> Dict[str, Any]:
         "hero_pos_group": hero_pos_group,
         "hero_position":  hero_position,
         "hand_id": make_hand_id(hand),
-        "month": month_bucket(hand.get("timestamp_utc", "")),
+        "month": month_bucket(
+            hand.get("timestamp_utc", ""),
+            fallback_month=hand.get("month"),
+            debug_context=f"engine:{hand.get('hand_id', 'unknown')}",
+        ),
         "groups": groups_for_hand(hand),
         
         # ========== PREFLOP CORE ==========

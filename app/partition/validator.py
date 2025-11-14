@@ -34,7 +34,11 @@ def validate_partitions(counts_path: str, hands_jsonl: str) -> Dict:
     with open(hands_jsonl, "r", encoding="utf-8") as fi:
         for line in fi:
             h = json.loads(line)
-            month = month_bucket(h.get("timestamp_utc"))
+            month = month_bucket(
+                h.get("timestamp_utc"),
+                fallback_month=h.get("month"),
+                debug_context="partition-validator",
+            )
             for g in groups_for_hand(h):
                 actual.setdefault(month, {}).setdefault(g, 0)
                 actual[month][g] += 1

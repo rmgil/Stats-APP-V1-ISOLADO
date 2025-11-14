@@ -14,7 +14,12 @@ from app.pipeline.global_samples import build_global_samples, POSTFLOP_GROUP_KEY
 from app.pipeline.new_runner import run_simplified_pipeline
 from app.stats.aggregate import MultiSiteAggregator
 from app.parse.site_parsers.site_detector import detect_poker_site
-from app.pipeline.month_bucketizer import MonthBucket, build_month_buckets, generate_months_manifest
+from app.pipeline.month_bucketizer import (
+    MonthBucket,
+    build_month_buckets,
+    generate_months_manifest,
+    resolve_month_for_file,
+)
 from app.parse.runner import ParserRunner
 from app.services.tournament_repository import TournamentRepository
 from app.stats.stat_categories import (
@@ -99,7 +104,7 @@ def _ingest_tournaments_for_user(
         content = _read_text_file(file_path)
         metadata = parser_runner.extract_tournament_metadata(content, file_id=file_path.name) or {}
 
-        month = metadata.get('tournament_month') or 'unknown'
+        month = resolve_month_for_file(content, file_path, metadata)
         tournament_id = metadata.get('tournament_id')
 
         if not tournament_id:
@@ -825,10 +830,10 @@ def run_multi_site_pipeline(
         logger.info(f"[{token}] Created {len(buckets)} month bucket(s): {[b.month for b in buckets]}")
         
         # Check if single-month or multi-month
-        is_multi_month = len(buckets) > 1 or (len(buckets) == 1 and buckets[0].month != 'unknown')
+        is_multi_month = len(buckets) > 1
         
         if not is_multi_month:
-            # Single month (or unknown) - use existing code path for backwards compatibility
+            # Single month - use existing code path for backwards compatibility
             logger.info(f"[{token}] Single-month upload detected, using standard pipeline")
             
             # Detect sites in extracted files

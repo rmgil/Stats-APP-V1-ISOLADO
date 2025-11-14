@@ -12,20 +12,22 @@ import logging
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Set, Tuple
 
+from app.partition.months import (
+    DEFAULT_FALLBACK_MONTH,
+    infer_month_from_text,
+    month_key_from_datetime,
+    normalize_month_key,
+    parse_timestamp,
+)
+
 logger = logging.getLogger(__name__)
 
 
 class MonthBucket:
     """Represents a bucket of files for a specific month."""
-    
-    def __init__(self, month: str, work_dir: str):
-        """
-        Initialize a monthly bucket.
 
-        Args:
-            month: Month in YYYY-MM format (or 'unknown')
-            work_dir: Base work directory for this bucket
-        """
+    def __init__(self, month: str, work_dir: str):
+        """Initialize a monthly bucket."""
         self.month = month
         self.work_dir = work_dir
         self.input_dir = os.path.join(work_dir, "in")
@@ -81,6 +83,51 @@ class MonthBucket:
         }
 
 
+def _month_from_metadata(metadata: Optional[Dict[str, Optional[str]]]) -> Optional[str]:
+    if not metadata:
+        return None
+
+    month = normalize_month_key(metadata.get('tournament_month'))
+    if month:
+        return month
+
+    timestamp_hint = metadata.get('timestamp')
+    if timestamp_hint:
+        dt = parse_timestamp(timestamp_hint)
+        if dt:
+            return month_key_from_datetime(dt)
+
+    return None
+
+
+def _month_from_path(file_path: Path) -> Optional[str]:
+    for part in reversed(file_path.parts):
+        month = infer_month_from_text(part)
+        if month:
+            return month
+    return None
+
+
+def resolve_month_for_file(
+    content: str,
+    file_path: Path,
+    metadata: Optional[Dict[str, Optional[str]]],
+) -> str:
+    for candidate in (
+        _month_from_metadata(metadata),
+        infer_month_from_text(content),
+        _month_from_path(file_path),
+        infer_month_from_text(str(file_path.parent)),
+        infer_month_from_text(str(file_path)),
+    ):
+        normalized = normalize_month_key(candidate)
+        if normalized:
+            return normalized
+
+    logger.debug("Falling back to default month for %s", file_path)
+    return DEFAULT_FALLBACK_MONTH
+
+
 def build_month_buckets(
     token: str,
     input_dir: str,
@@ -96,7 +143,7 @@ def build_month_buckets(
         work_root: Base work directory (e.g., /tmp/work)
         
     Returns:
-        List of MonthBucket objects, sorted by month (unknown last)
+        List of MonthBucket objects, sorted by month key
     """
     logger.info(f"[{token}] Building monthly buckets from {input_dir}")
     
@@ -123,15 +170,8 @@ def build_month_buckets(
 
         metadata = metadata_resolver(content, Path(file_path).name) if metadata_resolver else None
 
-        month = (metadata or {}).get('tournament_month')
+        month = resolve_month_for_file(content, Path(file_path), metadata)
         tournament_id = (metadata or {}).get('tournament_id')
-
-        parent_month = Path(file_path).parent.name
-        if not month and re.fullmatch(r"\d{4}-\d{2}", parent_month):
-            month = parent_month
-
-        if not month:
-            month = 'unknown'
 
         if not tournament_id:
             tournament_id = Path(file_path).stem
@@ -159,13 +199,7 @@ def build_month_buckets(
             f"[{token}] Created bucket for {bucket.month}: {len(bucket.files)} tournament file(s)"
         )
 
-    # Sort buckets: chronological order, unknown last
-    def sort_key(bucket: MonthBucket):
-        if bucket.month == 'unknown':
-            return ('9999-99', bucket.month)
-        return (bucket.month, '')
-
-    sorted_buckets = sorted(buckets.values(), key=sort_key)
+    sorted_buckets = sorted(buckets.values(), key=lambda bucket: bucket.month)
 
     logger.info(f"[{token}] Created {len(sorted_buckets)} monthly bucket(s)")
     return sorted_buckets
