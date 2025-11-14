@@ -3,6 +3,9 @@
 ## Overview
 This Flask-based web application provides tools for processing and analyzing poker hand histories. It features a TXT/XML File Filter for processing uploaded archives (ZIP/RAR) and a CSV Merger for consolidating data. The application integrates a comprehensive poker hand history parsing module to extract detailed data from hand histories across six major poker sites: PokerStars, GG Poker, Winamax, 888poker, 888.pt, and WPN. The project aims to streamline file management, data analysis, and poker insights through an intuitive, tabbed, drag-and-drop interface, supporting multi-user and large file processing.
 
+## Recent Changes
+- **November 14, 2025**: Git pull from GitHub repository completed. System synced with latest remote version. Removed performance-degrading hands_by_stat file generation feature (was causing 3x slower uploads by generating 450+ individual files). Upload performance restored to optimal speed while maintaining full monthly dashboard functionality.
+
 ## User Preferences
 Preferred communication style: Simple, everyday language.
 
