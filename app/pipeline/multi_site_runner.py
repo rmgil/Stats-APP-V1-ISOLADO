@@ -10,6 +10,7 @@ import hashlib
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Any, Tuple, List, Optional
+from app.pipeline.global_samples import build_global_samples, POSTFLOP_GROUP_KEY
 from app.pipeline.new_runner import run_simplified_pipeline
 from app.stats.aggregate import MultiSiteAggregator
 from app.parse.site_parsers.site_detector import detect_poker_site
@@ -913,31 +914,42 @@ def run_multi_site_pipeline(
                 progress_callback(80, 'A finalizar processamento...')
             
             # Aggregate discard statistics
-            aggregated_discards = {}
+            aggregated_discards: Dict[str, int] = {}
             if 'discarded_hands' in result_data:
                 for site, discards in result_data['discarded_hands'].items():
                     for reason, count in discards.items():
                         if reason not in ['total', 'total_segments']:
                             aggregated_discards[reason] = aggregated_discards.get(reason, 0) + count
 
-            aggregated_discards['total'] = sum(aggregated_discards.values())
-            result_data['aggregated_discards'] = aggregated_discards
+            global_samples = build_global_samples(
+                result_data.get('valid_hand_records', []),
+                aggregated_discards,
+            )
 
-            # Calculate total valid hands
-            unique_valid_ids = {record['hand_id'] for record in result_data.get('valid_hand_records', [])}
-            total_valid_hands = len(unique_valid_ids)
-
-            total_hands = total_valid_hands + aggregated_discards['total']
-
-            result_data['valid_hands'] = total_valid_hands
-            result_data['total_hands'] = total_hands
+            result_data['aggregated_discards'] = global_samples.discard_counts
+            result_data['valid_hands'] = global_samples.validas
+            result_data['total_hands'] = global_samples.total_encontradas
             result_data['classification'] = {
-                'discarded_hands': aggregated_discards,
-                'total_hands': total_hands,
-                'valid_hands': total_valid_hands
+                'discarded_hands': global_samples.discard_counts,
+                'total_hands': global_samples.total_encontradas,
+                'valid_hands': global_samples.validas,
             }
+            result_data['global_samples'] = global_samples.to_dict()
 
-            _validate_category_counts(result_data.get('valid_hand_records', []), total_valid_hands)
+            # Keep combined hand counts in sync with the normalised samples
+            for group_key, group_sample in global_samples.groups.items():
+                if group_key == POSTFLOP_GROUP_KEY:
+                    continue
+                if group_key in result_data.get('combined', {}):
+                    result_data['combined'][group_key]['hand_count'] = group_sample.hand_count
+
+            postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
+            if postflop_sample:
+                assert postflop_sample.hand_count == global_samples.validas, (
+                    "POSTFLOP group count must match total valid hands"
+                )
+
+            _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
             
             # Generate manifest
             manifest = aggregator.get_combined_manifest()
@@ -1064,31 +1076,43 @@ def run_multi_site_pipeline(
                         continue
                     global_discards[reason] = global_discards.get(reason, 0) + count
 
-            discarded_total = sum(global_discards.values())
-            global_discards['total'] = discarded_total
-
-            unique_valid_ids = {record['hand_id'] for record in result_data.get('valid_hand_records', [])}
-            total_valid_hands = len(unique_valid_ids)
-
-            total_hands = total_valid_hands + discarded_total
-
-            logger.info(
-                f"[{token}] Global classification totals: valid_hands={total_valid_hands}, "
-                f"discarded={discarded_total}, total={total_hands}"
+            global_samples = build_global_samples(
+                result_data.get('valid_hand_records', []),
+                global_discards,
             )
 
-            result_data['aggregated_discards'] = global_discards
-            result_data['valid_hands'] = total_valid_hands
-            result_data['total_hands'] = total_hands
+            logger.info(
+                f"[{token}] Global classification totals: valid_hands={global_samples.validas}, "
+                f"discarded={global_samples.discard_counts.get('total', 0)}, "
+                f"total={global_samples.total_encontradas}"
+            )
+
+            result_data['aggregated_discards'] = global_samples.discard_counts
+            result_data['valid_hands'] = global_samples.validas
+            result_data['total_hands'] = global_samples.total_encontradas
             result_data['hands_per_month'] = hands_per_month
             result_data['classification'] = {
-                'discarded_hands': global_discards,
-                'total_hands': total_hands,
-                'valid_hands': total_valid_hands
+                'discarded_hands': global_samples.discard_counts,
+                'total_hands': global_samples.total_encontradas,
+                'valid_hands': global_samples.validas
             }
+            result_data['global_samples'] = global_samples.to_dict()
 
-            _validate_category_counts(result_data.get('valid_hand_records', []), total_valid_hands)
-            _validate_month_totals(hands_per_month, total_valid_hands)
+            # Sync combined hand counts with the canonical samples
+            for group_key, group_sample in global_samples.groups.items():
+                if group_key == POSTFLOP_GROUP_KEY:
+                    continue
+                if group_key in result_data.get('combined', {}):
+                    result_data['combined'][group_key]['hand_count'] = group_sample.hand_count
+
+            postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
+            if postflop_sample:
+                assert postflop_sample.hand_count == global_samples.validas, (
+                    "POSTFLOP group count must match total valid hands"
+                )
+
+            _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
+            _validate_month_totals(hands_per_month, global_samples.validas)
 
             # Generate global manifest
             manifest = global_aggregator.get_combined_manifest()
