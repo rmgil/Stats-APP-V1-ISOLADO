@@ -1,41 +1,166 @@
+"""Utilities for deriving monthly buckets for poker hands.
+
+The helpers in this module guarantee that every hand mapped into a monthly
+payload receives a month key in the canonical ``YYYY-MM`` format.  They also
+provide resilient parsing with sensible fallbacks when raw timestamps are
+missing or malformed.
 """
-Monthly partitioning for poker hands with Europe/Lisbon timezone.
-Splits hands by year-month based on hand timestamps.
-"""
+
 import json
 import os
 import hashlib
+import logging
+import re
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timezone
 from dateutil import parser, tz
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 # Timezone for Portugal
 TZ_PT = tz.gettz("Europe/Lisbon")
 
+logger = logging.getLogger(__name__)
 
-def month_bucket(timestamp_utc: str) -> str:
-    """
-    Converte timestamp UTC (ISO) para bucket mensal 'YYYY-MM' em Europe/Lisbon.
-    Se faltar timestamp, retorna 'unknown'.
-    
-    Args:
-        timestamp_utc: ISO format timestamp string in UTC
-        
-    Returns:
-        Month bucket in YYYY-MM format (Europe/Lisbon timezone)
-    """
-    if not timestamp_utc:
-        return "unknown"
-    
+MONTH_KEY_PATTERN = re.compile(r"^\d{4}-\d{2}$")
+DEFAULT_FALLBACK_MONTH = "1970-01"
+_FAILED_TIMESTAMP_SAMPLES: List[Dict[str, Optional[str]]] = []
+_FAILED_TIMESTAMP_LOG_LIMIT = 5
+
+
+def normalize_month_key(value: Optional[str]) -> Optional[str]:
+    """Return ``YYYY-MM`` when *value* already matches the expected format."""
+
+    if not isinstance(value, str):
+        return None
+
+    candidate = value.strip()
+    if MONTH_KEY_PATTERN.fullmatch(candidate):
+        return candidate
+
+    return None
+
+
+def parse_timestamp(value: Optional[str]) -> Optional[datetime]:
+    """Parse a timestamp string into a timezone-aware ``datetime`` in UTC."""
+
+    if value is None:
+        return None
+
+    if isinstance(value, (int, float)):
+        # Interpret numeric values as Unix timestamps
+        try:
+            return datetime.fromtimestamp(float(value), tz=timezone.utc)
+        except (OverflowError, ValueError):
+            return None
+
+    text = str(value).strip()
+    if not text:
+        return None
+
+    normalized = text.replace("/", "-").replace("\u2013", "-")
+
+    dt: Optional[datetime] = None
     try:
-        # Parse ISO format timestamp
-        dt = parser.isoparse(timestamp_utc)
-        # Convert to Portugal timezone
-        dt_pt = dt.astimezone(TZ_PT)
-        return f"{dt_pt.year:04d}-{dt_pt.month:02d}"
-    except Exception:
-        return "unknown"
+        dt = parser.isoparse(normalized)
+    except (ValueError, TypeError):
+        try:
+            dt = parser.parse(normalized)
+        except (ValueError, TypeError):
+            return None
+
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    else:
+        dt = dt.astimezone(timezone.utc)
+
+    return dt
+
+
+def month_key_from_datetime(dt: datetime) -> str:
+    """Convert a timezone-aware datetime into a ``YYYY-MM`` string."""
+
+    dt_pt = dt.astimezone(TZ_PT)
+    return f"{dt_pt.year:04d}-{dt_pt.month:02d}"
+
+
+_TIMESTAMP_REGEXES = [
+    re.compile(r"\d{4}[\-/]\d{2}[\-/]\d{2}[ T]\d{2}:\d{2}(?::\d{2})?(?:Z|[+-]\d{2}:?\d{2})?"),
+    re.compile(r"\d{2}[\-/]\d{2}[\-/]\d{4}[ T]\d{2}:\d{2}(?::\d{2})?"),
+]
+
+_MONTH_REGEXES = [
+    re.compile(r"(?<!\d)(\d{4}[\-_/]\d{2})(?!\d)"),
+]
+
+
+def infer_month_from_text(text: Optional[str]) -> Optional[str]:
+    """Infer a ``YYYY-MM`` month key from a free-form text snippet."""
+
+    if not text:
+        return None
+
+    snippet = text[:5000]
+
+    for pattern in _TIMESTAMP_REGEXES:
+        match = pattern.search(snippet)
+        if not match:
+            continue
+        dt = parse_timestamp(match.group(0))
+        if dt:
+            return month_key_from_datetime(dt)
+
+    for pattern in _MONTH_REGEXES:
+        match = pattern.search(snippet)
+        if not match:
+            continue
+        normalized = match.group(1).replace("_", "-").replace("/", "-")
+        month = normalize_month_key(normalized)
+        if month:
+            return month
+
+    return None
+
+
+def _record_failed_timestamp(
+    timestamp_utc: Optional[str],
+    resolved_month: str,
+    debug_context: Optional[str],
+) -> None:
+    """Log at most ``_FAILED_TIMESTAMP_LOG_LIMIT`` fallback samples for debug."""
+
+    if len(_FAILED_TIMESTAMP_SAMPLES) >= _FAILED_TIMESTAMP_LOG_LIMIT:
+        return
+
+    sample = {
+        "timestamp": str(timestamp_utc) if timestamp_utc is not None else None,
+        "resolved_month": resolved_month,
+        "context": debug_context,
+    }
+
+    _FAILED_TIMESTAMP_SAMPLES.append(sample)
+    logger.debug(
+        "month_bucket fallback applied (%s/%s): %s",
+        len(_FAILED_TIMESTAMP_SAMPLES),
+        _FAILED_TIMESTAMP_LOG_LIMIT,
+        sample,
+    )
+
+
+def month_bucket(
+    timestamp_utc: Optional[str],
+    fallback_month: Optional[str] = None,
+    *,
+    debug_context: Optional[str] = None,
+) -> str:
+    """Return the month bucket for *timestamp_utc* in ``YYYY-MM`` format."""
+
+    dt = parse_timestamp(timestamp_utc)
+    if dt:
+        return month_key_from_datetime(dt)
+
+    resolved = normalize_month_key(fallback_month) or DEFAULT_FALLBACK_MONTH
+    _record_failed_timestamp(timestamp_utc, resolved, debug_context)
+    return resolved
 
 
 def make_hand_id(hand_obj: dict) -> str:
@@ -94,30 +219,42 @@ def partition_by_month(hands_jsonl: str, output_dir: str) -> Dict[str, str]:
     """
     # Group hands by month
     months_data = defaultdict(list)
-    
+    last_month_key: Optional[str] = None
+
     with open(hands_jsonl, 'r', encoding='utf-8') as f:
         for line_num, line in enumerate(f, 1):
             try:
                 hand = json.loads(line.strip())
-                
+
                 # Add hand_id if not present
                 if 'hand_id' not in hand:
                     hand['hand_id'] = make_hand_id(hand)
-                
-                # Get month bucket
+
+                # Get month bucket with fallback to the last valid month
                 timestamp = parse_hand_datetime(hand)
-                month_key = month_bucket(timestamp)
-                
+                month_key = month_bucket(
+                    timestamp,
+                    fallback_month=last_month_key,
+                    debug_context=f"partition:{line_num}",
+                )
+
+                last_month_key = month_key
                 months_data[month_key].append(hand)
-                
+
             except Exception as e:
                 print(f"Warning: Could not process line {line_num}: {e}")
-                # Put unparseable hands in "unknown" partition
                 try:
                     hand = json.loads(line.strip())
                     hand['hand_id'] = make_hand_id(hand)
-                    months_data['unknown'].append(hand)
-                except:
+                    timestamp = parse_hand_datetime(hand)
+                    month_key = month_bucket(
+                        timestamp,
+                        fallback_month=last_month_key,
+                        debug_context=f"partition-error:{line_num}",
+                    )
+                    last_month_key = month_key
+                    months_data[month_key].append(hand)
+                except Exception:
                     pass
     
     # Create output directory
@@ -132,7 +269,7 @@ def partition_by_month(hands_jsonl: str, output_dir: str) -> Dict[str, str]:
                 f.write(json.dumps(hand, ensure_ascii=False) + '\n')
         output_files[month_key] = output_file
         print(f"  {month_key}: {len(hands)} hands → {output_file}")
-    
+
     return output_files
 
 
@@ -160,5 +297,5 @@ def generate_month_summary(output_files: Dict[str, str]) -> dict:
             'hands': hand_count
         }
         summary['total_hands'] += hand_count
-    
+
     return summary

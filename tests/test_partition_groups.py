@@ -1,8 +1,6 @@
-"""
-Tests for partition module groups, months, and hand ID generation.
-"""
+"""Tests for partition module groups, months, and hand ID generation."""
 from app.partition.groups import groups_for_hand
-from app.partition.months import month_bucket, make_hand_id
+from app.partition.months import DEFAULT_FALLBACK_MONTH, month_bucket, make_hand_id
 
 
 def test_groups_basic():
@@ -64,14 +62,18 @@ def test_hand_id_deterministic():
 # Additional edge cases
 def test_month_bucket_edge_cases():
     """Test various edge cases for month_bucket."""
-    # Empty string
-    assert month_bucket("") == "unknown"
-    # Invalid date
-    assert month_bucket("invalid-date") == "unknown"
-    # None (simulated as empty)
-    assert month_bucket("") == "unknown"
+    # Empty string falls back
+    assert month_bucket("") == DEFAULT_FALLBACK_MONTH
+    # Invalid date with explicit fallback
+    assert month_bucket("invalid-date", fallback_month="2024-05") == "2024-05"
+    # None (simulated as empty) also returns fallback when provided
+    assert month_bucket("", fallback_month="2024-06") == "2024-06"
     # New Year's Eve crossing
     assert month_bucket("2024-12-31T23:30:00Z") == "2024-12"  # Still December in PT
+    # Naive datetime assumes UTC
+    assert month_bucket("2024-12-31 23:30:00") == "2024-12"
+    # Alternate separator parsing
+    assert month_bucket("2024/12/01 12:00:00") == "2024-12"
 
 
 def test_groups_edge_cases():

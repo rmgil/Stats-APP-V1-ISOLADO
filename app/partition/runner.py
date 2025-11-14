@@ -87,7 +87,11 @@ def build_partitions(in_jsonl: str, out_dir: str) -> Dict:
             try:
                 hand = json.loads(line)
                 hands_processed += 1
-                month = month_bucket(hand.get("timestamp_utc", ""))
+                month = month_bucket(
+                    hand.get("timestamp_utc", ""),
+                    fallback_month=hand.get("month"),
+                    debug_context=f"partition-runner:{line_num}",
+                )
                 hgroups = groups_for_hand(hand)
                 hid = make_hand_id(hand)
                 for g in hgroups:

@@ -103,6 +103,7 @@
 # =============================================================================
 
 import json
+import re
 import yaml
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
@@ -111,6 +112,8 @@ from app.parse.site_parsers.site_detector import detect_poker_site
 from app.score.scoring import score_step
 from app.services.result_storage import ResultStorageService
 from app.stats.stat_categories import CATEGORY_LABELS, CATEGORY_WEIGHTS
+
+MONTH_KEY_PATTERN = re.compile(r"^\d{4}-\d{2}$")
 
 EXPECTED_GROUP_KEYS = ['nonko_9max', 'nonko_6max', 'pko', 'postflop_all']
 DEFAULT_GROUP_LABELS = {
@@ -632,6 +635,9 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         Dashboard payload dict
     """
     
+    if month and (not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month)):
+        month = None
+
     # Resolve base directory
     if token:
         base = Path('runs') / token
@@ -942,6 +948,8 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
             normalized: Dict[str, int] = {}
             for month_key, value in raw_hands_per_month.items():
                 if value is None:
+                    continue
+                if not isinstance(month_key, str) or not MONTH_KEY_PATTERN.fullmatch(month_key):
                     continue
                 try:
                     normalized[month_key] = int(value)
