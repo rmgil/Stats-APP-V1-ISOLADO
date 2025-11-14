@@ -481,7 +481,16 @@ def compute_weighted_scores_for_month_selection(
         postflop_all = aggregate_postflop_stats(combined, ideals, stat_weights)
         month_scores = calculate_weighted_scores_from_groups(combined, postflop_all)
 
-        per_month_scores[month] = month_scores
+        normalized_scores: Dict[str, Any] = {}
+        for key, value in month_scores.items():
+            if key == 'overall':
+                normalized_scores[key] = {
+                    'group_score': value if value is not None else None
+                }
+            else:
+                normalized_scores[key] = value
+
+        per_month_scores[month] = normalized_scores
 
         weight = weight_map.get(month, 0.0)
         if weight <= 0:
@@ -830,6 +839,10 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         ignored = {'generated_at', 'input', 'dsl', 'metric', 'hands_processed', 'errors', 'stats_computed'}
         months = [key for key in counts_for_structure.keys() if key not in ignored]
 
+    if months:
+        # Ensure months are unique and sorted chronologically, keeping 'unknown' last
+        months = _sort_months(sorted(set(months)))
+
     # Load ingest manifest if exists
     ingest = {}
     manifest_path = base / "manifest.json"
@@ -919,6 +932,49 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         if isinstance(discard_stats, dict) and 'total' in discard_stats:
             overall['discarded_hands'] = discard_stats.get('total', overall.get('discarded_hands', 0))
 
+    hands_per_month: Dict[str, int] = {}
+    if isinstance(pipeline_result, dict):
+        raw_hands_per_month = pipeline_result.get('hands_per_month')
+        if isinstance(raw_hands_per_month, dict):
+            normalized: Dict[str, int] = {}
+            for month_key, value in raw_hands_per_month.items():
+                if value is None:
+                    continue
+                try:
+                    normalized[month_key] = int(value)
+                except (TypeError, ValueError):
+                    continue
+
+            if normalized:
+                ordered_keys = _sort_months(list(normalized.keys()))
+                hands_per_month = {month_key: normalized[month_key] for month_key in ordered_keys}
+
+    if hands_per_month:
+        month_total = sum(hands_per_month.values())
+        valid_total = None
+        if overall and isinstance(overall.get('valid_hands'), (int, float)):
+            valid_total = int(overall['valid_hands'])
+        elif isinstance(pipeline_result, dict) and isinstance(pipeline_result.get('valid_hands'), (int, float)):
+            valid_total = int(pipeline_result['valid_hands'])
+
+        if valid_total is not None and month_total != valid_total:
+            import logging
+            logger = logging.getLogger(__name__)
+            logger.warning(
+                "[MONTH CHECK] hands_per_month total %s does not match valid_hands %s",
+                month_total,
+                valid_total,
+            )
+    elif month and selected_scope == 'monthly':
+        valid_total = None
+        if overall and isinstance(overall.get('valid_hands'), (int, float)):
+            valid_total = int(overall['valid_hands'])
+        elif isinstance(pipeline_result, dict) and isinstance(pipeline_result.get('valid_hands'), (int, float)):
+            valid_total = int(pipeline_result['valid_hands'])
+
+        if valid_total is not None:
+            hands_per_month = {month: valid_total}
+
     # Add preflop groups from pipeline_result to groups structure
     if pipeline_result and 'combined' in pipeline_result:
         import logging
@@ -998,6 +1054,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         "weighted_scores": weighted_scores,  # Frontend compatibility
         "samples": samples,
         "months": months,
+        "hands_per_month": hands_per_month,
         "counts": counts_payload,
         "groups": groups,  # New hierarchical structure
         "ingest": ingest,  # Classification summary
@@ -1023,6 +1080,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         response_data['counts'] = {}
         response_data['weighted_scores'] = {}
         response_data['ingest'] = {}
+        response_data['hands_per_month'] = {}
         response_data.pop('monthly_score_details', None)
         response_data['month_scope'] = 'missing'
         response_data['selected_month'] = None
