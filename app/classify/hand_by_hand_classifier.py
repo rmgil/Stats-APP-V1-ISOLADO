@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 from app.parse.hand_splitter import split_into_hands, split_into_hands_with_stats, classify_hand_format, is_tournament_summary, is_cash_game
 from app.classify.run import classify_tournament
+from app.utils.hand_fingerprint import fingerprint_hand
 
 # REMOVED: _has_allin_preflop() and _has_low_stack_villain() functions
 # These were filtering hands at classification stage, preventing stat-level validation
@@ -169,6 +170,8 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
     total_file_count = len(all_files)
     logger.info(f"🔍 [CLASSIFICATION] Starting hand-by-hand processing: {total_file_count} files to process")
     
+    valid_hand_records: List[Dict] = []
+
     for file_idx, txt_file in enumerate(all_files, 1):
         file_size_mb = txt_file.stat().st_size / 1024 / 1024
         logger.info(f"📄 [{file_idx}/{total_file_count}] Processing: {txt_file.name} ({file_size_mb:.2f} MB)")
@@ -208,9 +211,19 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
         # Group the hands
         for hand_data in classified_hands:
             group = hand_data['group']
-            group_hands[group].append(hand_data['hand_text'])
+            hand_text = hand_data['hand_text']
+            group_hands[group].append(hand_text)
             stats['groups'][group]['files'].add(txt_file.name)
             stats['groups'][group]['hands'].append(hand_data)
+
+            valid_hand_records.append({
+                'hand_id': fingerprint_hand(hand_text),
+                'source_file': txt_file.name,
+                'hand_index': hand_data['hand_index'],
+                'group': group,
+                'tournament_type': hand_data['tournament_type'],
+                'table_format': hand_data['table_format'],
+            })
             
             # Update file distribution
             if group not in file_info['group_distribution']:
@@ -246,7 +259,7 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
     
     # Calculate the correct total_hands: ALL hands processed (valid + ALL discarded)
     # The total should be the sum of all hands found in the files
-    total_classified = sum(stats['groups'][g]['hand_count'] for g in stats['groups'])
+    total_classified = len(valid_hand_records)
     
     # Sum all discarded hands (excluding 'total' which is already a sum)
     total_discarded = sum(
@@ -256,6 +269,9 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
     
     # Total hands = valid classified hands + all discarded hands
     stats['total_hands'] = total_classified + total_discarded
+
+    # Store normalized valid hand metadata for downstream consistency
+    stats['valid_hand_records'] = valid_hand_records
     
     # Add group labels
     stats['group_labels'] = groups

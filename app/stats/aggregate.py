@@ -5,11 +5,11 @@ Combines statistics and hands from multiple poker sites while preserving origina
 import os
 import json
 import logging
-import hashlib
 from typing import Dict, List, Any, Optional, Set
 from pathlib import Path
 from app.stats.scoring_calculator import ScoringCalculator
 from app.stats.scoring_config import get_stat_config
+from app.utils.hand_fingerprint import fingerprint_hand
 
 logger = logging.getLogger(__name__)
 
@@ -29,20 +29,6 @@ class MultiSiteAggregator:
         self.group_hand_ids = {}  # Track deduplicated hand IDs by group
         self.group_postflop_ids = {}  # Track deduplicated postflop hand IDs by group
     
-    def _fingerprint_hand(self, hand_text: str) -> str:
-        """
-        Generate a stable fingerprint for a hand text by normalizing and hashing.
-        
-        Args:
-            hand_text: Full hand history text
-            
-        Returns:
-            SHA1 hash of normalized hand text
-        """
-        # Normalize: strip whitespace, collapse newlines, lowercase
-        normalized = hand_text.strip().replace('\r\n', '\n').replace('\n\n', '\n').lower()
-        return hashlib.sha1(normalized.encode('utf-8')).hexdigest()
-    
     def _record_hand_ids(self, group: str, stat_name: str, hands_list: List[str]):
         """
         Record hand IDs for deduplication tracking.
@@ -60,7 +46,7 @@ class MultiSiteAggregator:
         # Track all hand IDs for this group
         for hand_text in hands_list:
             if hand_text:  # Skip empty strings
-                hand_id = self._fingerprint_hand(hand_text)
+                hand_id = fingerprint_hand(hand_text)
                 self.group_hand_ids[group].add(hand_id)
                 
                 # If this is a postflop stat, also track in postflop IDs
