@@ -44,7 +44,8 @@ def classify_into_final_groups(input_dir: str, output_dir: str, token: Optional[
             'pko': stats['groups']['pko']['hand_count']
         },
         'files': stats.get('file_details', []),
-        'group_labels': stats.get('group_labels', {})
+        'group_labels': stats.get('group_labels', {}),
+        'valid_hand_records': stats.get('valid_hand_records', [])
     }
     
     return result

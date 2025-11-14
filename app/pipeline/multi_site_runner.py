@@ -7,6 +7,7 @@ import json
 import logging
 import shutil
 import hashlib
+from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Any, Tuple, List, Optional
 from app.pipeline.new_runner import run_simplified_pipeline
@@ -30,6 +31,42 @@ from app.stats.stat_categories import (
 
 logger = logging.getLogger(__name__)
 
+
+def _is_dev_environment() -> bool:
+    """Return True when running in a development environment."""
+    env_candidates = [
+        os.getenv("ENVIRONMENT", ""),
+        os.getenv("FLASK_ENV", ""),
+        os.getenv("APP_ENV", ""),
+    ]
+    return any(value and value.lower().startswith("dev") for value in env_candidates)
+
+
+def _validate_category_counts(valid_hand_records: List[Dict[str, Any]], total_valid_hands: int) -> None:
+    """Assert that subgroup counts never exceed the total number of valid hands."""
+    if not _is_dev_environment() or not valid_hand_records:
+        return
+
+    nonko_ids = {r['hand_id'] for r in valid_hand_records if r.get('group') in ('nonko_9max', 'nonko_6max')}
+    pko_ids = {r['hand_id'] for r in valid_hand_records if r.get('group') == 'pko'}
+
+    # Ensure no overlaps and that subgroup counts are bounded by the total
+    overlap = nonko_ids & pko_ids
+    assert not overlap, f"Hands counted in both NON-KO and PKO: {len(overlap)}"
+    assert len(nonko_ids) + len(pko_ids) <= total_valid_hands, (
+        f"Category counts exceed total valid hands ({len(nonko_ids)} + {len(pko_ids)} > {total_valid_hands})"
+    )
+
+
+def _validate_month_totals(hands_per_month: Dict[str, int], total_valid_hands: int) -> None:
+    """Assert that the sum of monthly hands equals the reported total."""
+    if not _is_dev_environment() or not hands_per_month:
+        return
+
+    month_sum = sum(hands_per_month.values())
+    assert month_sum == total_valid_hands, (
+        f"Monthly hand totals ({month_sum}) do not match global valid hands ({total_valid_hands})"
+    )
 
 def _read_text_file(path: Path) -> str:
     try:
@@ -212,10 +249,16 @@ def _process_site_for_month(
     # Process each group for this site
     site_stats = {}
     site_discards = {}
-    
+    site_valid_hand_records: List[Dict[str, Any]] = []
+
     # Store discard stats for this site
     if 'discarded_hands' in classification_stats:
         site_discards = classification_stats['discarded_hands']
+
+    for record in classification_stats.get('valid_hand_records', []) or []:
+        record_with_site = dict(record)
+        record_with_site['site'] = site
+        site_valid_hand_records.append(record_with_site)
     
     for group_key, group_label in classification_stats['group_labels'].items():
         group_dir = os.path.join(classified_dir, group_key)
@@ -393,7 +436,8 @@ def _process_site_for_month(
     
     return {
         'site_stats': site_stats,
-        'site_discards': site_discards
+        'site_discards': site_discards,
+        'valid_hand_records': site_valid_hand_records,
     }
 
 
@@ -563,6 +607,7 @@ def _process_month_bucket(
     all_groups = set()
     month_sites = {}
     month_discards = {}
+    month_valid_records: List[Dict[str, Any]] = []
     
     total_sites = len(site_files)
     for site_idx, (site, files) in enumerate(site_files.items(), 1):
@@ -579,6 +624,12 @@ def _process_month_bucket(
         month_sites[site] = site_result['site_stats']
         if site_result['site_discards']:
             month_discards[site] = site_result['site_discards']
+
+        if site_result.get('valid_hand_records'):
+            for record in site_result['valid_hand_records']:
+                record_with_month = dict(record)
+                record_with_month['month'] = bucket.month
+                month_valid_records.append(record_with_month)
         
         # Track all groups
         for group_key in site_result['site_stats'].keys():
@@ -592,15 +643,19 @@ def _process_month_bucket(
     logger.info(f"[{token}] Month {bucket.month}: Writing cross-format postflop outputs")
     cross_format_postflop = month_aggregator.write_cross_format_postflop_outputs(month_work_dir)
     
-    # Calculate total hands for this month (from deduplicated combined groups)
-    total_hands = 0
-    total_postflop_hands = 0
-    for group_data in combined_stats.values():
-        if isinstance(group_data, dict):
-            total_hands += group_data.get('hand_count', 0)
-            total_postflop_hands += group_data.get('postflop_hands_count', 0)
+    # Calculate total hands for this month (from normalized records)
+    group_id_sets: Dict[str, set] = defaultdict(set)
+    for record in month_valid_records:
+        group_id_sets[record['group']].add(record['hand_id'])
 
-    valid_hand_count = total_hands
+    total_postflop_hands = 0
+    for group, group_data in combined_stats.items():
+        if isinstance(group_data, dict):
+            total_postflop_hands += group_data.get('postflop_hands_count', 0)
+            group_data['hand_count'] = len(group_id_sets.get(group, set()))
+
+    unique_valid_ids = {record['hand_id'] for record in month_valid_records}
+    valid_hand_count = len(unique_valid_ids)
     aggregated_discards = {}
 
     # Build month result
@@ -611,6 +666,7 @@ def _process_month_bucket(
         'sites_detected': list(site_files.keys()),
         'sites': month_sites,
         'combined': combined_stats,
+        'valid_hand_records': month_valid_records,
         'valid_hands': valid_hand_count,
         'total_hands': valid_hand_count,
         'postflop_hands_count': total_postflop_hands,
@@ -639,6 +695,8 @@ def _process_month_bucket(
         'total_hands': month_result['total_hands'],
         'valid_hands': valid_hand_count,
     }
+
+    _validate_category_counts(month_valid_records, valid_hand_count)
     
     # Save month result
     month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
@@ -709,7 +767,8 @@ def run_multi_site_pipeline(
         'status': 'processing',
         'multi_site': True,
         'sites': {},
-        'combined': {}
+        'combined': {},
+        'valid_hand_records': [],
     }
     
     try:
@@ -802,13 +861,16 @@ def run_multi_site_pipeline(
                     progress_callback(int(percent), f'A processar {site} ({len(files)} ficheiros)...')
                 
                 site_result = _process_site_for_month(
-                    site, files, work_dir, token, 
+                    site, files, work_dir, token,
                     aggregator, progress_callback, 45
                 )
-                
+
                 # Store site results
                 result_data['sites'][site] = site_result['site_stats']
-                
+
+                if site_result.get('valid_hand_records'):
+                    result_data['valid_hand_records'].extend(site_result['valid_hand_records'])
+
                 # Store discards
                 if site_result['site_discards']:
                     if 'discarded_hands' not in result_data:
@@ -823,16 +885,18 @@ def run_multi_site_pipeline(
             logger.info(f"[{token}] Aggregating statistics across all sites")
             combined_stats = _aggregate_month_groups(aggregator, work_dir, all_groups)
             
-            # Calculate hand counts
+            # Calculate hand counts based on normalized valid hand records
+            group_id_sets: Dict[str, set] = defaultdict(set)
+            for record in result_data.get('valid_hand_records', []):
+                group_id_sets[record['group']].add(record['hand_id'])
+
             for group, group_data in combined_stats.items():
-                total_hands = 0
                 total_postflop_hands = 0
                 for site in result_data.get('sites', {}).values():
                     if group in site:
-                        total_hands += site[group].get('hand_count', 0)
                         total_postflop_hands += site[group].get('postflop_hands_count', 0)
-                
-                group_data['hand_count'] = total_hands
+
+                group_data['hand_count'] = len(group_id_sets.get(group, set()))
                 group_data['postflop_hands_count'] = total_postflop_hands
             
             result_data['combined'] = combined_stats
@@ -860,19 +924,8 @@ def run_multi_site_pipeline(
             result_data['aggregated_discards'] = aggregated_discards
 
             # Calculate total valid hands
-            total_valid_hands = 0
-            for group_data in combined_stats.values():
-                if 'stats' in group_data:
-                    for stat_name, stat_data in group_data['stats'].items():
-                        if isinstance(stat_data, dict) and 'valid_hands' in stat_data:
-                            total_valid_hands += stat_data.get('valid_hands', 0)
-                            break
-
-            if total_valid_hands == 0:
-                for site, site_data in result_data['sites'].items():
-                    for group_key, group_info in site_data.items():
-                        if isinstance(group_info, dict):
-                            total_valid_hands += group_info.get('hand_count', 0)
+            unique_valid_ids = {record['hand_id'] for record in result_data.get('valid_hand_records', [])}
+            total_valid_hands = len(unique_valid_ids)
 
             total_hands = total_valid_hands + aggregated_discards['total']
 
@@ -883,6 +936,8 @@ def run_multi_site_pipeline(
                 'total_hands': total_hands,
                 'valid_hands': total_valid_hands
             }
+
+            _validate_category_counts(result_data.get('valid_hand_records', []), total_valid_hands)
             
             # Generate manifest
             manifest = aggregator.get_combined_manifest()
@@ -929,6 +984,9 @@ def run_multi_site_pipeline(
                     # Store month result
                     result_data['months'][bucket.month] = month_result
                     bucket_results[bucket.month] = month_result
+
+                    if month_result.get('valid_hand_records'):
+                        result_data['valid_hand_records'].extend(month_result['valid_hand_records'])
                     
                     # Accumulate into global aggregator
                     _accumulate_global(month_result, global_aggregator)
@@ -957,19 +1015,21 @@ def run_multi_site_pipeline(
             # Create combined results for all months
             global_combined = _aggregate_month_groups(global_aggregator, work_dir, global_groups)
             
+            group_id_sets: Dict[str, set] = defaultdict(set)
+            for record in result_data.get('valid_hand_records', []):
+                group_id_sets[record['group']].add(record['hand_id'])
+
             # Calculate global hand counts
             for group, group_data in global_combined.items():
-                total_hands = 0
                 total_postflop_hands = 0
-                
+
                 for month_result in result_data['months'].values():
                     if month_result.get('status') == 'completed':
                         for site_data in month_result.get('sites', {}).values():
                             if group in site_data:
-                                total_hands += site_data[group].get('hand_count', 0)
                                 total_postflop_hands += site_data[group].get('postflop_hands_count', 0)
-                
-                group_data['hand_count'] = total_hands
+
+                group_data['hand_count'] = len(group_id_sets.get(group, set()))
                 group_data['postflop_hands_count'] = total_postflop_hands
             
             result_data['combined'] = global_combined
@@ -989,13 +1049,14 @@ def run_multi_site_pipeline(
             
             # Aggregate global discard statistics and totals
             global_discards: Dict[str, int] = {}
-            total_valid_hands = 0
+            hands_per_month: Dict[str, int] = {}
 
-            for month_result in result_data['months'].values():
+            for month_key, month_result in result_data['months'].items():
                 if month_result.get('status') != 'completed':
                     continue
 
-                total_valid_hands += month_result.get('valid_hands', 0)
+                month_records = month_result.get('valid_hand_records', [])
+                hands_per_month[month_key] = len({record['hand_id'] for record in month_records})
 
                 month_discards = month_result.get('aggregated_discards', {})
                 for reason, count in month_discards.items():
@@ -1005,6 +1066,9 @@ def run_multi_site_pipeline(
 
             discarded_total = sum(global_discards.values())
             global_discards['total'] = discarded_total
+
+            unique_valid_ids = {record['hand_id'] for record in result_data.get('valid_hand_records', [])}
+            total_valid_hands = len(unique_valid_ids)
 
             total_hands = total_valid_hands + discarded_total
 
@@ -1016,11 +1080,15 @@ def run_multi_site_pipeline(
             result_data['aggregated_discards'] = global_discards
             result_data['valid_hands'] = total_valid_hands
             result_data['total_hands'] = total_hands
+            result_data['hands_per_month'] = hands_per_month
             result_data['classification'] = {
                 'discarded_hands': global_discards,
                 'total_hands': total_hands,
                 'valid_hands': total_valid_hands
             }
+
+            _validate_category_counts(result_data.get('valid_hand_records', []), total_valid_hands)
+            _validate_month_totals(hands_per_month, total_valid_hands)
 
             # Generate global manifest
             manifest = global_aggregator.get_combined_manifest()
