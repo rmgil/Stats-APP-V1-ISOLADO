@@ -1,5 +1,104 @@
 """Consolidated dashboard payload builder"""
 
+# =============================================================================
+# 🧭  Visão geral do modo global /dashboard/<token>
+#
+# Fluxo de execução end-to-end
+# ----------------------------
+# 1. Upload → fila: o endpoint de upload grava o ZIP na JobQueueService e o
+#    SimpleBackgroundWorker (_process_job em
+#    app/services/simple_background_worker.py) reclama o job. Ele prepara a
+#    pasta /tmp/processing_<token>, atualiza progresso e invoca
+#    run_multi_site_pipeline em app/pipeline/multi_site_runner.py.
+# 2. Extração + deteção de salas: run_multi_site_pipeline extrai o ZIP, usa
+#    ParserRunner para extrair metadados, constrói buckets mensais quando
+#    existem múltiplos meses e detecta as salas presentes
+#    (detect_sites_in_directory).
+# 3. Parsers e filtros: para cada sala/mês, classify_into_final_groups
+#    (app/classify/group_classifier.py) chama process_files_hand_by_hand, que
+#    por sua vez usa split_into_hands_with_stats e classify_hand_format para
+#    gerar “hands”. Aqui são descartadas mãos mystery, cash games, mãos com
+#    <4 jogadores, resumos de torneio e formatos inválidos
+#    (app/classify/hand_by_hand_classifier.py).
+# 4. Cálculo de stats por sala: para cada grupo final (nonko_9max,
+#    nonko_6max, pko) o pipeline agrega as mãos válidas e corre
+#    PreflopStats + PostflopCalculatorV3, recolhendo oportunidades/tentativas
+#    e guardando cada “hand” em HandCollector (app/stats/preflop_stats.py e
+#    app/stats/postflop_calculator_v3.py). Cada HandCollector escreve os
+#    samples em hands_by_stat/<grupo>/<stat>.txt + metadata.json.
+# 5. Agregação multi-sala/mês: MultiSiteAggregator (app/stats/aggregate.py)
+#    junta os stats de todas as salas, calcula percentage/score por “stat”,
+#    escreve as mãos combinadas e devolve {'overall_score', 'stats',
+#    'hand_count', 'postflop_hands_count', 'scores', 'sites_included'} por
+#    grupo. Na vertente multi-mês o pipeline chama _aggregate_month_groups e
+#    depois acumula tudo em result_data['combined'].
+# 6. Persistência: o pipeline grava work/<token>/pipeline_result_global.json
+#    (e a cópia legacy pipeline_result.json) com o payload global e envia o
+#    diretório completo para /results/<token>/ em storage
+#    (ver run_multi_site_pipeline ↦ _upload_directory). As amostras ficam em
+#    /hands_by_stat e, se houver buckets mensais, também em
+#    /results/<token>/months/<mes>/.
+
+# Estruturas-chave manipuladas nesta camada
+# -----------------------------------------
+# • “hand”: string com a hand history crua; guardada por stat no HandCollector
+#   e exposta ao frontend através dos ficheiros hands_by_stat/*.txt.
+# • “stat”: dicionário com opportunities/attempts/percentage e, após scoring,
+#   score/ideal/weight. No pipeline_result isso vive em
+#   result['combined'][grupo]['stats'][nome_do_stat].
+# • “group”: chave lógica (nonko_9max, nonko_6max, pko, postflop_all) que
+#   agrega stats, contadores e scores para um formato específico.
+
+# Onde está o payload global e como é usado
+# -----------------------------------------
+# • ResultStorageService carrega pipeline_result_global.json a partir de
+#   /results/<token>/ (ou work/<token>/). Esse ficheiro contém:
+#   - token/status/multi_site;
+#   - classification.discarded_hands (total encontradas, válidas, mystery,
+#     <4 jogadores, cash, etc.);
+#   - aggregated_discards (mesmo breakdown quando multi-mês);
+#   - valid_hands/total_hands;
+#   - sites (stats por sala) e combined (stats agregados globais).
+# • build_dashboard_payload lê esse JSON, funde-o com stat_counts.json e com
+#   scores/scorescard.json.
+#   - Header: usa classification/aggregated_discards para Total encontradas,
+#     Válidas (= total − descartadas), Mystery e <4 jogadores (chaves
+#     'mystery' e 'less_than_4_players').
+#   - Separação NON-KO/PKO/Postflop: vem dos grupos criados em
+#     pipeline_result['combined']; NON-KO é a soma ponderada de nonko_9max e
+#     nonko_6max (calculate_weighted_scores_from_groups).
+#   - 6-max/9-max: herdado de classify_hand_format → group_classifier, que
+#     define em hands_per_group quantas mãos pertencem a cada variante.
+#   - Postflop: aggregate_postflop_stats junta todos os postflop_stats dos
+#     grupos para construir postflop_all.
+
+# Como os scores e notas são obtidos
+# ----------------------------------
+# • overall_score global: calculate_weighted_scores_from_groups mistura os
+#   overall_score dos grupos NON-KO/PKO/Postflop usando pesos 80/20 (20% fixo
+#   para postflop e 80% distribuído por volume de mãos). Quando é pedido um
+#   mês específico, compute_weighted_scores_for_month_selection aplica
+#   time-decay (50/30/20) sobre scorecards mensais.
+# • Scores por grupo (NON-KO, PKO, POSTFLOP): vêm diretamente de
+#   MultiSiteAggregator.aggregate_stats → overall_score e das categorias de
+#   scores (rfi/bvb/3bet/…); o frontend lê isso em
+#   response['groups'][grupo]['overall_score'] e em weighted_scores.
+# • Notas por stat: build_scorecard (app/score/runner.py) chama
+#   explain_stat/score_to_note para cada stat e grava em
+#   scores/scorecard.json → stat_level[stat][group]['note']. Este módulo usa
+#   esses dados quando constrói groups/subgroups, permitindo ao frontend
+#   mostrar a nota textual associada ao score numérico.
+
+# Downloads de amostras
+# ----------------------
+# • Cada HandCollector grava metadata.json com contagem e IDs das mãos.
+#   MultiSiteAggregator.write_combined_outputs escreve as mãos agregadas em
+#   work/<token>/hands_by_stat/<grupo>/<ficheiro>. Estes ficheiros são
+#   expostos pelos endpoints /api/download/hands_by_stat/<token>/... em
+#   main.py, e build_dashboard_payload lista as URLs via metadata para criar
+#   os botões “Download sample” por stat.
+# =============================================================================
+
 import json
 import yaml
 from pathlib import Path
