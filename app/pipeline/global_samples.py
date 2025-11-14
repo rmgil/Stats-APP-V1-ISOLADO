@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Dict, Iterable, List, Optional, Any
+from typing import Dict, Iterable, List, Optional, Any, Set
 
 
 POSTFLOP_GROUP_KEY = "postflop_all"
@@ -57,6 +57,80 @@ class GlobalSamples:
             "discard_counts": self.discard_counts,
             "groups": {key: sample.to_dict() for key, sample in self.groups.items()},
         }
+
+    @property
+    def valid_hand_ids(self) -> List[str]:
+        """Return the ordered list of valid hand identifiers."""
+
+        postflop_sample = self.groups.get(POSTFLOP_GROUP_KEY)
+        if not postflop_sample:
+            return []
+        return list(postflop_sample.hand_ids)
+
+    def restrict_to(
+        self,
+        hand_ids: Iterable[str],
+        discard_counts: Optional[Dict[str, int]] = None,
+    ) -> "GlobalSamples":
+        """Create a new :class:`GlobalSamples` limited to the provided hands.
+
+        Args:
+            hand_ids: Iterable of hand identifiers to retain.
+            discard_counts: Optional discard mapping to associate with the
+                restricted sample. When omitted, all discard counters default to
+                zero.
+
+        Returns:
+            A new :class:`GlobalSamples` instance containing only the selected
+            hands while keeping group integrity consistent with the global
+            snapshot.
+        """
+
+        subset: Set[str] = {hand_id for hand_id in hand_ids if hand_id}
+
+        global_valid_ids = set(self.valid_hand_ids)
+        if global_valid_ids:
+            subset &= global_valid_ids
+
+        filtered_groups: Dict[str, GroupSample] = {}
+        for key, sample in self.groups.items():
+            filtered_ids = [hand_id for hand_id in sample.hand_ids if hand_id in subset]
+            filtered_groups[key] = GroupSample(key=key, hand_ids=filtered_ids)
+
+        postflop_sample = filtered_groups.get(POSTFLOP_GROUP_KEY)
+        valid_count = postflop_sample.hand_count if postflop_sample else 0
+
+        counted_valid = sum(
+            sample.hand_count
+            for key, sample in filtered_groups.items()
+            if key != POSTFLOP_GROUP_KEY
+        )
+
+        assert counted_valid == valid_count, (
+            "Mismatch between filtered group totals and valid hand count: "
+            f"{counted_valid} != {valid_count}"
+        )
+
+        normalised_discards = _normalise_discards(discard_counts)
+        total_encontradas = valid_count + normalised_discards.get("total", 0)
+
+        restricted = GlobalSamples(
+            total_encontradas=total_encontradas,
+            validas=valid_count,
+            mystery=normalised_discards.get("mystery", 0),
+            lt4_players=normalised_discards.get("less_than_4_players", 0),
+            resumos=normalised_discards.get("tournament_summary", 0),
+            discard_counts=normalised_discards,
+            groups=filtered_groups,
+        )
+
+        postflop_sample = restricted.groups.get(POSTFLOP_GROUP_KEY)
+        if postflop_sample:
+            assert postflop_sample.hand_count == restricted.validas, (
+                "Restricted POSTFLOP group must match the number of valid hands"
+            )
+
+        return restricted
 
 
 def _normalise_discards(discard_counts: Optional[Dict[str, int]]) -> Dict[str, int]:
