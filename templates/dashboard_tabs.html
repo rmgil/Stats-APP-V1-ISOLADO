@@ -1198,7 +1198,7 @@
                     }
 
                     currentUploadId = currentPayload.upload_id || currentUploadId;
-                    token = currentPayload.client_token || token;
+                    token = currentPayload.upload_id || currentPayload.client_token || token;
                 } catch (error) {
                     showError('Erro de conexão: ' + error.message);
                     return;

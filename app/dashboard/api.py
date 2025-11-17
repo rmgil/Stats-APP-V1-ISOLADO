@@ -104,29 +104,18 @@ def api_months_manifest(token):
 def api_current_dashboard():
     """Return the current master upload for the authenticated user."""
 
+    master_token = f"user-{current_user.id}"
+
     upload_service = UploadService()
     master_upload = upload_service.get_master_upload(str(current_user.id))
 
-    if not master_upload:
-        return jsonify(
-            {
-                "upload_id": None,
-                "has_data": False,
-                "message": "Ainda não carregaste nenhum ficheiro.",
-            }
-        )
-
-    client_token = master_upload.get("client_upload_token")
-    has_data = False
-
-    if client_token:
-        result_service = ResultStorageService()
-        has_data = result_service.job_exists(client_token)
+    result_service = ResultStorageService()
+    has_data = result_service.job_exists(master_token)
 
     return jsonify(
         {
-            "upload_id": str(master_upload.get("id")),
+            "upload_id": master_token,
             "has_data": has_data,
-            "client_token": client_token,
+            "client_token": master_upload.get("client_upload_token") if master_upload else None,
         }
     )
