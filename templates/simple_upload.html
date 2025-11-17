@@ -951,7 +951,7 @@
                 
                 // Redirect to results
                 setTimeout(() => {
-                    window.location.href = uploadData.dashboard_url || `/dashboard/${uploadData.token}`;
+                    window.location.href = '/dashboard';
                 }, 1500);
                 
                 return null; // No need to poll
@@ -1035,9 +1035,9 @@
                 }
                 
                 // Otherwise, start polling (legacy support)
-                const intervals = pollProgress(uploadToken, (resultToken) => {
+                const intervals = pollProgress(uploadToken, () => {
                     // On complete, redirect to dashboard
-                    window.location.href = `/dashboard/${resultToken}`;
+                    window.location.href = '/dashboard';
                 });
                 
                 // Store intervals for cleanup if needed

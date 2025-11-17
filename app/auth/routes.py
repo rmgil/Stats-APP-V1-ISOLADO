@@ -70,10 +70,10 @@ def login():
             
             # Log in user with Flask-Login
             login_user(user, remember=form.remember_me.data)
-            
+
             flash('Login realizado com sucesso!', 'success')
             next_page = request.args.get('next')
-            return redirect(next_page) if next_page else redirect(url_for('simplified.upload_page'))
+            return redirect(next_page) if next_page else redirect(url_for('simplified.dashboard_page'))
     
     return render_template('auth/login.html', form=form)
 

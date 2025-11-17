@@ -112,7 +112,7 @@ def api_current_dashboard():
             {
                 "upload_id": None,
                 "has_data": False,
-                "message": "Ainda não fizeste nenhum upload.",
+                "message": "Ainda não carregaste nenhum ficheiro.",
             }
         )
 
@@ -123,4 +123,10 @@ def api_current_dashboard():
         result_service = ResultStorageService()
         has_data = result_service.job_exists(client_token)
 
-    return jsonify({"upload_id": str(master_upload.get("id")), "has_data": has_data})
+    return jsonify(
+        {
+            "upload_id": str(master_upload.get("id")),
+            "has_data": has_data,
+            "client_token": client_token,
+        }
+    )
