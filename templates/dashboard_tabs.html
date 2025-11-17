@@ -1101,6 +1101,7 @@
         let downloadUrls = {}; // Store download URLs by format and stat name
         let currentTab = 'geral';
         let currentNonkoSubTab = '9max';
+        let currentUploadId = null;
         
         // Combined tooltips: Rules + Practical Examples (English, Hero perspective, verified against code)
         const statTooltips = {
@@ -1164,21 +1165,51 @@
         
         const urlParams = new URLSearchParams(window.location.search);
 
-        // Resolve token from path, query string or server-provided default
-        let token = null;
-        const pathMatch = window.location.pathname.match(/\/dashboard\/([a-f0-9]{12})/);
-        if (pathMatch) {
-            token = pathMatch[1];
-        } else {
-            token = urlParams.get('token') || window.initialDashboardToken || null;
-        }
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Resolve token from path, query string or server-provided default
+            let token = null;
+            const pathMatch = window.location.pathname.match(/\/dashboard\/([a-f0-9]{12})/);
+            if (pathMatch) {
+                token = pathMatch[1];
+            } else {
+                token = urlParams.get('token') || window.initialDashboardToken || null;
+            }
 
-        // Resolve month selection (query string wins over initial value)
-        let month = urlParams.get('month') || window.initialDashboardMonth || null;
+            const uploadIdFromQuery = urlParams.get('upload_id');
+            if (uploadIdFromQuery) {
+                currentUploadId = uploadIdFromQuery;
+            }
 
-        if (!token) {
-            showError('Token não fornecido');
-        } else {
+            // Resolve month selection (query string wins over initial value)
+            let month = urlParams.get('month') || window.initialDashboardMonth || null;
+
+            if (!token) {
+                try {
+                    const currentResponse = await fetch('/api/dashboard/current');
+                    if (!currentResponse.ok) {
+                        showError('Erro ao carregar dashboard atual');
+                        return;
+                    }
+
+                    const currentPayload = await currentResponse.json();
+                    if (!currentPayload.has_data) {
+                        showError('Ainda não carregaste nenhum ficheiro.');
+                        return;
+                    }
+
+                    currentUploadId = currentPayload.upload_id || currentUploadId;
+                    token = currentPayload.client_token || token;
+                } catch (error) {
+                    showError('Erro de conexão: ' + error.message);
+                    return;
+                }
+            }
+
+            if (!token) {
+                showError('Token não fornecido');
+                return;
+            }
+
             document.getElementById('tokenDisplay').textContent = token;
 
             const monthSelectorContainer = document.getElementById('monthSelectorContainer');
@@ -1187,11 +1218,13 @@
                 monthSelectorContainer.dataset.currentMonth = month || '';
             }
 
+            initializeMonthSelector(token, month);
+
             // Load download URLs first, then dashboard payload
-            loadHandsByStatSection(token, month).then(() => {
-                loadDashboard(token, month);
+            loadHandsByStatSection(token, month, currentUploadId).then(() => {
+                loadDashboard(token, month, currentUploadId);
             });
-        }
+        });
         
         // Tab switching
         function switchTab(tabName) {
@@ -1228,9 +1261,18 @@
         }
         
         // Load dashboard data
-        async function loadDashboard(token, month = null) {
+        async function loadDashboard(token, month = null, uploadId = null) {
             try {
-                const url = month ? `/api/dashboard/${token}?month=${month}` : `/api/dashboard/${token}`;
+                const params = new URLSearchParams();
+                if (month) {
+                    params.set('month', month);
+                }
+                if (uploadId) {
+                    params.set('upload_id', uploadId);
+                }
+
+                const query = params.toString();
+                const url = query ? `/api/dashboard/${token}?${query}` : `/api/dashboard/${token}`;
                 const response = await fetch(url);
                 const data = await response.json();
 
@@ -2325,12 +2367,20 @@
         }
         
         // Load hands by stat downloads section (now loads URLs into memory instead of creating UI)
-        async function loadHandsByStatSection(token, month = null) {
+        async function loadHandsByStatSection(token, month = null, uploadId = null) {
             console.log('Loading hands by stat for token:', token, 'month:', month);
             try {
-                // Build URL with month parameter if present
-                const url = month 
-                    ? `/api/hands_by_stat/${token}?month=${month}`
+                const params = new URLSearchParams();
+                if (month) {
+                    params.set('month', month);
+                }
+                if (uploadId) {
+                    params.set('upload_id', uploadId);
+                }
+
+                const query = params.toString();
+                const url = query
+                    ? `/api/hands_by_stat/${token}?${query}`
                     : `/api/hands_by_stat/${token}`;
                 const response = await fetch(url);
                 if (!response.ok) {
@@ -2377,22 +2427,25 @@
         // It's now called before loadDashboard
         
         // Month Selector Initialization
-        document.addEventListener('DOMContentLoaded', function() {
+        function initializeMonthSelector(token, currentMonth) {
             const monthSelectorContainer = document.getElementById('monthSelectorContainer');
             const monthSelector = document.getElementById('monthSelector');
-            
+
             if (!monthSelectorContainer || !monthSelector) return;
-            
-            const token = monthSelectorContainer.dataset.token;
-            const currentMonth = monthSelectorContainer.dataset.currentMonth;
-            
-            if (!token) {
-                console.log('No token found, skipping month selector initialization');
-                return;
-            }
-            
+
+            monthSelector.innerHTML = '';
+
             // Fetch months manifest
-            fetch(`/api/dashboard/${token}/months`)
+            const monthParams = new URLSearchParams();
+            if (currentUploadId) {
+                monthParams.set('upload_id', currentUploadId);
+            }
+
+            const monthsUrl = monthParams.toString()
+                ? `/api/dashboard/${token}/months?${monthParams.toString()}`
+                : `/api/dashboard/${token}/months`;
+
+            fetch(monthsUrl)
                 .then(response => {
                     if (!response.ok) {
                         // No months manifest (single-month or legacy upload)
@@ -2406,7 +2459,7 @@
                         console.log('Invalid months manifest data');
                         return;
                     }
-                    
+
                     const months = data.data.months;
                     const validMonthPattern = /^\d{4}-\d{2}$/;
 
@@ -2438,7 +2491,7 @@
                         const handCount = monthData.total_hands ?
                             ` (${Number(monthData.total_hands).toLocaleString('pt-PT')} mãos)` : '';
 
-                        option.textContent = formattedMonth + handCount;
+                        option.textContent = `${formattedMonth}${handCount}`;
 
                         if (currentMonth && monthData.month === currentMonth) {
                             option.selected = true;
@@ -2462,14 +2515,14 @@
                     console.error('Error loading months manifest:', error);
                     // Keep selector hidden on error
                 });
-            
+
             // Handle month selection change
             monthSelector.addEventListener('change', function(e) {
                 const selectedMonth = e.target.value;
-                
+
                 // Build URL preserving token, adding/removing month param
                 const url = new URL(window.location.href);
-                
+
                 if (selectedMonth) {
                     // Set month parameter
                     url.searchParams.set('month', selectedMonth);
@@ -2477,11 +2530,11 @@
                     // Remove month parameter (show all months)
                     url.searchParams.delete('month');
                 }
-                
+
                 // Navigate to new URL
                 window.location.href = url.toString();
             });
-        });
-    </script>
+        }
+</script>
 </body>
 </html>
