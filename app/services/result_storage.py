@@ -38,6 +38,7 @@ class ResultStorageService:
     def __init__(self):
         self.storage = get_storage()
         self.local_work_dir = Path("work")
+        self.local_results_dir = Path("results")
     
     def _read_json_from_storage(self, storage_path: str) -> Optional[Dict[str, Any]]:
         """
@@ -120,6 +121,18 @@ class ResultStorageService:
                 )
                 return result
 
+            # Fallback to consolidated results directory (by_user or other namespaces)
+            alt_local = self.local_results_dir / token / f"pipeline_result_{month}.json"
+            result = self._read_json_from_local(alt_local)
+
+            if result:
+                logger.info(
+                    "[RESULT STORAGE] Loaded monthly pipeline_result_%s.json for %s from local consolidated directory",
+                    month,
+                    token,
+                )
+                return result
+
             # Fallback to legacy location
             legacy_storage = f"/results/{token}/months/{month}/pipeline_result.json"
             result = self._read_json_from_storage(legacy_storage)
@@ -169,6 +182,17 @@ class ResultStorageService:
             logger.info("[RESULT STORAGE] Loaded pipeline_result_global.json for %s from local filesystem", token)
             return result
 
+        # Fallback to consolidated results directory (e.g., by_user/<user_id>)
+        alt_local = self.local_results_dir / token / "pipeline_result_global.json"
+        result = self._read_json_from_local(alt_local)
+
+        if result:
+            logger.info(
+                "[RESULT STORAGE] Loaded pipeline_result_global.json for %s from local consolidated directory",
+                token,
+            )
+            return result
+
         # Fallback to legacy aggregate file
         legacy_storage = f"/results/{token}/pipeline_result.json"
         result = self._read_json_from_storage(legacy_storage)
@@ -201,6 +225,9 @@ class ResultStorageService:
             else:
                 local_path = self.local_work_dir / token / f"pipeline_result_{month}.json"
                 if local_path.exists():
+                    return True
+                alt_local = self.local_results_dir / token / f"pipeline_result_{month}.json"
+                if alt_local.exists():
                     return True
         except Exception as exc:
             logger.debug("[RESULT STORAGE] Error checking month file %s: %s", storage_path, exc)
@@ -246,6 +273,12 @@ class ResultStorageService:
             local_dir = self.local_work_dir / token
             if local_dir.exists():
                 for path in local_dir.glob("pipeline_result_*.json"):
+                    name = path.stem.replace("pipeline_result_", "")
+                    if name and name != "global":
+                        candidate_months.append(name)
+            alt_local_dir = self.local_results_dir / token
+            if alt_local_dir.exists():
+                for path in alt_local_dir.glob("pipeline_result_*.json"):
                     name = path.stem.replace("pipeline_result_", "")
                     if name and name != "global":
                         candidate_months.append(name)
