@@ -160,6 +160,34 @@ class UploadService:
             if conn:
                 DatabasePool.return_connection(conn)
 
+    def list_active_uploads(self, user_id: str) -> list[Dict[str, Any]]:
+        """Return all active uploads for a user ordered by most recent."""
+
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, file_hash,
+                           created_at, updated_at, is_active, is_master
+                    FROM uploads
+                    WHERE user_id = %s AND is_active = true
+                    ORDER BY updated_at DESC
+                    """,
+                    (user_id,),
+                )
+
+                rows = cur.fetchall() or []
+                columns = [desc[0] for desc in cur.description]
+                return [dict(zip(columns, row)) for row in rows]
+        except Exception as exc:
+            logger.error("Failed to list active uploads: %s", exc, exc_info=True)
+            return []
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
     def refresh_upload(self, upload_id: str, *, client_upload_token: Optional[str] = None, file_name: Optional[str] = None) -> bool:
         """Update the timestamp (and optionally metadata) for an existing upload."""
         conn = None
