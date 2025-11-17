@@ -51,6 +51,7 @@ from app.api.simple_upload import simple_upload_bp
 
 # Import database pool only (no background worker needed)
 from app.services.db_pool import DatabasePool
+from app.services.upload_service import UploadService
 
 # Import database migrations
 from app.database_migrations import check_and_run_migrations
@@ -322,6 +323,30 @@ def load_upload_state():
 
 # Load existing upload state on startup
 load_upload_state()
+
+def resolve_upload_token_from_request():
+    """Resolve the upload token using query params or the user's current master upload."""
+    token = request.args.get('upload_id') or request.args.get('token')
+    if token:
+        return token, None
+
+    if not current_user.is_authenticated:
+        return None, (jsonify({"error": "Ainda não carregaste nenhum ficheiro."}), 400)
+
+    try:
+        upload_service = UploadService()
+        master_upload = upload_service.get_master_upload(str(current_user.id))
+        if master_upload and master_upload.get('client_upload_token'):
+            return master_upload['client_upload_token'], None
+    except Exception as exc:
+        app.logger.error(
+            "Failed to resolve current upload for user %s: %s",
+            getattr(current_user, 'id', 'unknown'),
+            exc,
+            exc_info=True,
+        )
+
+    return None, (jsonify({"error": "Ainda não carregaste nenhum ficheiro."}), 404)
 
 def extract_single_archive(archive_path: Path, dest_dir: Path):
     """
@@ -1903,7 +1928,6 @@ def process_uploaded_file(file_path, upload_id):
         # Calculate file hash for logical upload mapping
         try:
             from app.services.file_hash import FileHashService
-            from app.services.upload_service import UploadService
 
             file_hash = FileHashService.calculate_hash(file_path)
             upload_info['file_hash'] = file_hash
@@ -1936,6 +1960,22 @@ def process_uploaded_file(file_path, upload_id):
                 raise ValueError('Failed to persist logical upload metadata')
 
             upload_info['logical_upload_id'] = str(logical_upload_id) if logical_upload_id else None
+
+            # Ensure master upload is set for the user
+            try:
+                if upload_info.get('is_duplicate'):
+                    # Only promote duplicate if no master exists yet
+                    current_master = upload_service.get_master_upload(user_id)
+                    if not current_master:
+                        upload_service.set_master_upload(user_id, logical_upload_id)
+                else:
+                    upload_service.set_master_upload(user_id, logical_upload_id)
+            except Exception as master_error:
+                app.logger.warning(
+                    "Unable to update master upload for user %s: %s",
+                    user_id,
+                    master_error,
+                )
         except Exception as hash_error:
             app.logger.error(f"Failed to create logical upload mapping: {hash_error}")
             return jsonify({'success': False, 'error': 'Failed to record upload metadata'}), 500
@@ -3400,7 +3440,9 @@ def serve_token_files(token, rest):
 
 @app.route('/api/stats/flat')
 def api_stats_flat():
-    token = request.args.get("token", "current")
+    token, error_response = resolve_upload_token_from_request()
+    if error_response:
+        return error_response
     try:
         data = build_flat(token)
         return jsonify({"ok": True, "data": data})
@@ -3411,10 +3453,10 @@ def api_stats_flat():
 @app.route('/api/pipeline/logs')
 def api_pipeline_logs():
     """Get pipeline logs"""
-    token = request.args.get('token')
-    if not token:
-        return jsonify({"ok": False, "error": "Token required"}), 400
-    
+    token, error_response = resolve_upload_token_from_request()
+    if error_response:
+        return error_response
+
     log_file = Path(f"work/{token}/_logs/steps.jsonl")
     if not log_file.exists():
         return jsonify({"ok": False, "error": "No logs found"}), 404
@@ -3439,8 +3481,10 @@ def api_stats_export_csv():
     
     token = request.args.get('token')
     if not token:
-        return jsonify({"ok": False, "error": "Token required"}), 400
-    
+        token, error_response = resolve_upload_token_from_request()
+        if error_response:
+            return error_response
+
     try:
         # Get flat data
         flat_data = build_flat(token)
@@ -3590,7 +3634,10 @@ def api_dashboard_token(token):
 @app.route('/api/dashboard/payload', methods=['GET'])
 def api_dashboard_payload():
     """Get consolidated dashboard payload from runs or current directory"""
-    token = request.args.get('token')
+    token, error_response = resolve_upload_token_from_request()
+    if error_response:
+        return error_response
+
     out = build_dashboard_payload(token)
     return jsonify(out)
 
