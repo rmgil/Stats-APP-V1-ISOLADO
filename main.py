@@ -18,7 +18,7 @@ from werkzeug.utils import secure_filename
 import magic
 import rarfile
 import chardet
-from flask_login import LoginManager, login_required
+from flask_login import LoginManager, current_user, login_required
 
 # Import partition module
 from app.partition.runner import build_partitions
@@ -271,6 +271,14 @@ def save_upload_state():
                 serializable_state[upload_id]['result_path'] = str(info['result_path'])
             if 'zip_filename' in info:
                 serializable_state[upload_id]['zip_filename'] = info['zip_filename']
+            if info.get('user_id'):
+                serializable_state[upload_id]['user_id'] = info['user_id']
+            if info.get('file_hash'):
+                serializable_state[upload_id]['file_hash'] = info['file_hash']
+            if info.get('logical_upload_id'):
+                serializable_state[upload_id]['logical_upload_id'] = info['logical_upload_id']
+            if info.get('is_duplicate') is not None:
+                serializable_state[upload_id]['is_duplicate'] = info['is_duplicate']
 
         with open(UPLOAD_TRACKING_FILE, 'w') as f:
             import json
@@ -300,6 +308,14 @@ def load_upload_state():
                     CHUNKED_UPLOADS[upload_id]['result_path'] = Path(info['result_path'])
                 if 'zip_filename' in info:
                     CHUNKED_UPLOADS[upload_id]['zip_filename'] = info['zip_filename']
+                if info.get('user_id'):
+                    CHUNKED_UPLOADS[upload_id]['user_id'] = info['user_id']
+                if info.get('file_hash'):
+                    CHUNKED_UPLOADS[upload_id]['file_hash'] = info['file_hash']
+                if info.get('logical_upload_id'):
+                    CHUNKED_UPLOADS[upload_id]['logical_upload_id'] = info['logical_upload_id']
+                if info.get('is_duplicate') is not None:
+                    CHUNKED_UPLOADS[upload_id]['is_duplicate'] = info['is_duplicate']
 
     except Exception as e:
         app.logger.warning(f"Failed to load upload state: {e}")
@@ -1737,6 +1753,7 @@ def merge_csv():
 # Note: CHUNKED_UPLOADS is defined at the top of the file
 
 @app.route('/upload-chunk', methods=['POST'])
+@login_required
 def upload_chunk():
     """Handle individual chunks for large file uploads."""
     try:
@@ -1763,7 +1780,8 @@ def upload_chunk():
                 'file_name': file_name,
                 'total_chunks': total_chunks,
                 'received_chunks': {},
-                'created_at': time.time()
+                'created_at': time.time(),
+                'user_id': str(current_user.id) if current_user.is_authenticated else None
             }
             # Save state after creating new upload
             save_upload_state()
@@ -1804,6 +1822,7 @@ def upload_chunk():
         return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.route('/finalize-upload', methods=['POST'])
+@login_required
 def finalize_upload():
     """Combine chunks and process the file."""
     try:
@@ -1880,6 +1899,46 @@ def process_uploaded_file(file_path, upload_id):
 
         file_size = file_path.stat().st_size
         app.logger.info(f"Processing file: {file_path} ({file_size} bytes)")
+
+        # Calculate file hash for logical upload mapping
+        try:
+            from app.services.file_hash import FileHashService
+            from app.services.upload_service import UploadService
+
+            file_hash = FileHashService.calculate_hash(file_path)
+            upload_info['file_hash'] = file_hash
+            app.logger.info(f"Calculated SHA256 for {file_path.name}: {file_hash}")
+
+            user_id = upload_info.get('user_id') or (str(current_user.id) if current_user.is_authenticated else None)
+            if not user_id:
+                app.logger.error("User not authenticated for logical upload creation")
+                return jsonify({'success': False, 'error': 'User authentication required'}), 401
+
+            upload_service = UploadService()
+            existing_upload = upload_service.get_active_upload_by_hash(user_id, file_hash)
+
+            if existing_upload:
+                logical_upload_id = existing_upload.get('id')
+                upload_service.refresh_upload(logical_upload_id, client_upload_token=upload_id, file_name=upload_info.get('file_name'))
+                upload_info['is_duplicate'] = True
+                app.logger.info(f"Duplicate upload detected. Reusing logical upload ID {logical_upload_id}")
+            else:
+                logical_upload_id = upload_service.create_upload(
+                    user_id=user_id,
+                    client_upload_token=upload_id,
+                    file_name=upload_info.get('file_name'),
+                    file_hash=file_hash
+                )
+                upload_info['is_duplicate'] = False
+                app.logger.info(f"Created new logical upload ID {logical_upload_id}")
+
+            if not logical_upload_id:
+                raise ValueError('Failed to persist logical upload metadata')
+
+            upload_info['logical_upload_id'] = str(logical_upload_id) if logical_upload_id else None
+        except Exception as hash_error:
+            app.logger.error(f"Failed to create logical upload mapping: {hash_error}")
+            return jsonify({'success': False, 'error': 'Failed to record upload metadata'}), 500
 
         # Extract the archive
         app.logger.info(f"Extracting archive: {file_path} ({file_size / (1024*1024):.2f} MB)")
@@ -1979,7 +2038,17 @@ def process_uploaded_file(file_path, upload_id):
             }
 
             app.logger.info(f"Processing completed for upload {upload_id}")
-            return jsonify({'success': True, 'uploadId': upload_id})
+            response_payload = {
+                'success': True,
+                'uploadId': upload_id
+            }
+
+            if upload_info.get('logical_upload_id'):
+                response_payload['logicalUploadId'] = upload_info['logical_upload_id']
+            if 'is_duplicate' in upload_info:
+                response_payload['duplicate'] = upload_info['is_duplicate']
+
+            return jsonify(response_payload)
 
         except Exception as zip_error:
             app.logger.error(f"Error creating result ZIP: {zip_error}")
