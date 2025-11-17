@@ -1,11 +1,13 @@
 # app/dashboard/api.py
 from __future__ import annotations
 from flask import Blueprint, request, jsonify
+from flask_login import login_required, current_user
 import os, re, tempfile
 import logging
 from typing import Any, Dict, Optional
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
+from app.services.upload_service import UploadService
 from app.services.result_storage import ResultStorageService
 
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
@@ -95,3 +97,30 @@ def api_months_manifest(token):
         return jsonify({"ok": True, "data": {"months": months_list}})
     except Exception as e:
         return jsonify({"ok": False, "error": "unexpected", "detail": str(e)}), 500
+
+
+@bp_dashboard.get("/current")
+@login_required
+def api_current_dashboard():
+    """Return the current master upload for the authenticated user."""
+
+    upload_service = UploadService()
+    master_upload = upload_service.get_master_upload(str(current_user.id))
+
+    if not master_upload:
+        return jsonify(
+            {
+                "upload_id": None,
+                "has_data": False,
+                "message": "Ainda não fizeste nenhum upload.",
+            }
+        )
+
+    client_token = master_upload.get("client_upload_token")
+    has_data = False
+
+    if client_token:
+        result_service = ResultStorageService()
+        has_data = result_service.job_exists(client_token)
+
+    return jsonify({"upload_id": str(master_upload.get("id")), "has_data": has_data})
