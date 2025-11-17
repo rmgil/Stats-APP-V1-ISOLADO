@@ -12,6 +12,8 @@ from typing import Dict
 
 from app.services.job_service import JobService
 from app.services.storage import get_storage
+from app.services.upload_service import UploadService
+from app.services.master_result_builder import rebuild_user_master_results
 from app.utils.supabase_retry import with_supabase_retry
 
 
@@ -70,6 +72,41 @@ class JobsBackgroundWorker:
                     shutil.rmtree(path)
             except Exception:
                 logger.warning("Failed to cleanup %s", path)
+
+    def _handle_master_rebuild(self, *, user_id: str | None, upload_id: str | None) -> None:
+        """Promote the latest upload to master and rebuild consolidated artifacts."""
+
+        if not user_id or not upload_id:
+            logger.warning("[MASTER] Missing user or upload identifiers; skipping rebuild")
+            return
+
+        upload_service = UploadService()
+
+        try:
+            upload_service.set_master_upload(user_id, upload_id)
+        except Exception as exc:  # noqa: BLE001
+            logger.warning(
+                "[MASTER] Unable to update master upload for user %s (upload %s): %s",
+                user_id,
+                upload_id,
+                exc,
+                exc_info=True,
+            )
+
+        def _run_rebuild():
+            try:
+                logger.info("[MASTER] Rebuilding consolidated results for user %s", user_id)
+                rebuild_user_master_results(user_id)
+                logger.info("[MASTER] ✓ Master results updated for user %s", user_id)
+            except Exception as exc:  # noqa: BLE001
+                logger.error(
+                    "[MASTER] Failed to rebuild results for user %s: %s",
+                    user_id,
+                    exc,
+                    exc_info=True,
+                )
+
+        threading.Thread(target=_run_rebuild, daemon=True).start()
 
     def _process_job(self, job: Dict):
         job_id = job["id"]
@@ -132,6 +169,8 @@ class JobsBackgroundWorker:
 
             self.job_service.mark_done(job_id, result_path=result_path)
             logger.info("Job %s finished", job_id)
+
+            self._handle_master_rebuild(user_id=str(job.get("user_id")), upload_id=str(job.get("upload_id")))
 
         except Exception as exc:  # noqa: BLE001
             logger.error("Job %s failed: %s", job_id, exc, exc_info=True)
