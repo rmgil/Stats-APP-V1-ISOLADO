@@ -31,6 +31,7 @@ from app.hands.api import bp as hands_api_bp
 from app.api_dashboard import build_dashboard_payload
 from app.dashboard.api import bp_dashboard
 from app.dashboard.routes import dashboard_bp
+from app.api.jobs import bp_jobs
 
 # Import simplified workflow blueprint
 from app.api.simplified import bp as simplified_bp
@@ -52,6 +53,7 @@ from app.api.simple_upload import simple_upload_bp
 # Import database pool only (no background worker needed)
 from app.services.db_pool import DatabasePool
 from app.services.upload_service import UploadService
+from app.services.jobs_background_worker import ensure_jobs_worker
 
 # Import database migrations
 from app.database_migrations import check_and_run_migrations
@@ -855,6 +857,9 @@ app.register_blueprint(bp_dashboard)
 # Register dashboard frontend blueprint
 app.register_blueprint(dashboard_bp)
 
+# Register job upload/status blueprint
+app.register_blueprint(bp_jobs)
+
 # Register simplified workflow blueprint
 app.register_blueprint(simplified_bp)
 
@@ -934,12 +939,11 @@ def health_check():
     
     # Check background worker status
     try:
-        from app.services.job_queue_service import JobQueueService
-        job_queue = JobQueueService()
-        pending_count = job_queue.count_pending_jobs()
-        
+        from app.services.job_service import JobService
+
+        pending_count = JobService().count_pending_jobs()
         health_status['checks']['pending_jobs'] = pending_count
-        
+
         # Warning if too many pending jobs (potential backlog)
         if pending_count > 10:
             health_status['checks']['worker_status'] = 'warning: high backlog'
@@ -2284,9 +2288,12 @@ def init_app():
         
         # Initialize database connection pool (Task 7)
         DatabasePool.initialize()
-        
-        # No background worker needed - processing is now synchronous
-        app.logger.info("Application initialized successfully (synchronous processing mode)")
+
+        # Start background worker for queued jobs
+        max_jobs = int(os.environ.get('MAX_CONCURRENT_JOBS', '2'))
+        ensure_jobs_worker(max_concurrent=max_jobs)
+
+        app.logger.info("Application initialized successfully (background worker active)")
     except Exception as e:
         app.logger.error(f"Error initializing application: {e}")
         raise
@@ -2969,58 +2976,49 @@ def api_download_result(token):
     - Works across multiple autoscaled instances
     """
     try:
-        # Validate token
-        if not re.match(r'^[a-f0-9]{12}$', token):
+        # Validate token (accept legacy 12-hex or UUID-like ids)
+        if not re.match(r'^[a-f0-9\-]{12,}$', token):
             return jsonify({"error": "Invalid token"}), 400
-        
+
         # Get job info from database
-        from app.services.job_queue_service import JobQueueService
-        job_queue = JobQueueService()
-        job = job_queue.get_job(token)
-        
+        from app.services.job_service import JobService
+
+        job = JobService().get_job(token)
+
         if not job:
             return jsonify({"error": "Job not found"}), 404
-        
-        if job['status'] != 'completed':
+
+        if job['status'] != 'done':
             return jsonify({"error": f"Job not ready (status: {job['status']})"}), 400
-        
-        # Get ZIP filename from result_data
-        zip_filename = None
-        if job['result_data'] and isinstance(job['result_data'], dict):
-            zip_filename = job['result_data'].get('zip_filename')
-        
-        if not zip_filename:
-            # Fallback: construct filename from token
-            zip_filename = f"{token}_separada.zip"
-        
-        # Try to download from Object Storage
+
+        result_path = job.get('result_path')
+        if not result_path:
+            return jsonify({"error": "Result path missing"}), 404
+
         from app.services.storage import get_storage
         storage = get_storage()
-        storage_path = f"/results/{token}/{zip_filename}"
-        
-        file_data = storage.download_file(storage_path)
-        
+        file_data = storage.download_file(result_path)
+
         if file_data:
-            # File found in storage
-            app.logger.info(f"Serving ZIP from storage: {zip_filename} ({len(file_data)} bytes)")
+            app.logger.info(f"Serving result from storage: {result_path} ({len(file_data)} bytes)")
             return send_file(
                 io.BytesIO(file_data),
                 as_attachment=True,
-                download_name=zip_filename,
-                mimetype='application/zip'
+                download_name=os.path.basename(result_path),
+                mimetype='application/json'
             )
-        
+
         # Fallback to local filesystem (for backwards compatibility)
-        local_path = os.path.join("work", token, zip_filename)
+        local_path = os.path.join("work", token, os.path.basename(result_path))
         if os.path.exists(local_path):
-            app.logger.info(f"Serving ZIP from local: {zip_filename}")
+            app.logger.info(f"Serving result from local: {local_path}")
             return send_file(
                 local_path,
                 as_attachment=True,
-                download_name=zip_filename,
-                mimetype='application/zip'
+                download_name=os.path.basename(result_path),
+                mimetype='application/json'
             )
-        
+
         return jsonify({"error": "Result file not found"}), 404
         
     except Exception as e:
@@ -3116,52 +3114,50 @@ def admin_stats():
     Returns:
         Current system statistics from SQLite job queue
     """
+    conn = None
     try:
-        from app.services.job_queue_service import JobQueueService
-        import sqlite3
-        
-        job_queue = JobQueueService()
+        from app.services.db_pool import DatabasePool
+
         stats = {}
-        
-        # Job statistics by status
-        conn = sqlite3.connect('/tmp/job_queue.db')
-        cursor = conn.cursor()
-        
-        cursor.execute("""
-            SELECT status, COUNT(*)
-            FROM jobs
-            GROUP BY status
-        """)
-        stats['jobs_by_status'] = {row[0]: row[1] for row in cursor.fetchall()}
-        
-        # Recent activity (last 24h)
-        cursor.execute("""
-            SELECT COUNT(*)
-            FROM jobs
-            WHERE created_at > datetime('now', '-24 hours')
-        """)
-        stats['jobs_last_24h'] = cursor.fetchone()[0]
-        
-        # Total jobs
-        cursor.execute("SELECT COUNT(*) FROM jobs")
-        stats['total_jobs'] = cursor.fetchone()[0]
-        
-        cursor.close()
-        conn.close()
-        
+        conn = DatabasePool.get_connection()
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT status, COUNT(*)
+                FROM jobs
+                GROUP BY status
+                """
+            )
+            stats['jobs_by_status'] = {row[0]: row[1] for row in cur.fetchall()}
+
+            cur.execute(
+                """
+                SELECT COUNT(*)
+                FROM jobs
+                WHERE created_at > NOW() - INTERVAL '24 hours'
+                """
+            )
+            stats['jobs_last_24h'] = cur.fetchone()[0]
+
+            cur.execute("SELECT COUNT(*) FROM jobs")
+            stats['total_jobs'] = cur.fetchone()[0]
+
         return jsonify({
             'success': True,
             'timestamp': datetime.now().isoformat(),
             'stats': stats,
-            'system': 'sqlite_queue'
+            'system': 'postgres_jobs'
         })
-        
+
     except Exception as e:
         app.logger.error(f"Stats query failed: {e}")
         return jsonify({
             'success': False,
             'error': str(e)
         }), 500
+    finally:
+        if conn:
+            DatabasePool.return_connection(conn)
 
 
 # ============ PIPELINE REBUILD ENDPOINT ============

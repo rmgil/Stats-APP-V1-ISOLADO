@@ -8,6 +8,8 @@ from pathlib import Path
 from typing import Optional, BinaryIO
 from supabase import create_client, Client
 
+from app.utils.supabase_retry import with_supabase_retry
+
 logger = logging.getLogger(__name__)
 
 COMPRESSION_THRESHOLD_MB = 1
@@ -59,12 +61,16 @@ class SupabaseStorageService:
                 
                 # Verify bucket is accessible by trying to list it
                 try:
-                    self.client.storage.from_(bucket_name).list()
+                    with_supabase_retry(lambda: self.client.storage.from_(bucket_name).list())
                     logger.info(f"Supabase storage bucket '{bucket_name}' is accessible ({key_type} key)")
-                except Exception as e:
+                except Exception:
                     # Try to create bucket if it doesn't exist
                     try:
-                        self.client.storage.create_bucket(bucket_name, options={'public': False})
+                        with_supabase_retry(
+                            lambda: self.client.storage.create_bucket(
+                                bucket_name, options={'public': False}
+                            )
+                        )
                         logger.info(f"Created Supabase storage bucket: {bucket_name}")
                     except Exception:
                         # Bucket exists but may have RLS policies preventing creation
@@ -135,11 +141,13 @@ class SupabaseStorageService:
                 file_options['content-encoding'] = 'gzip'
             
             logger.info(f"Uploading to Supabase: {storage_path} ({len(file_data) / (1024*1024):.2f}MB)")
-            
-            self.client.storage.from_(self.bucket_name).upload(
-                path=storage_path,
-                file=file_data,
-                file_options=file_options  # type: ignore[arg-type]
+
+            with_supabase_retry(
+                lambda: self.client.storage.from_(self.bucket_name).upload(
+                    path=storage_path,
+                    file=file_data,
+                    file_options=file_options  # type: ignore[arg-type]
+                )
             )
             
             logger.info(f"✅ Upload complete: {storage_path}")
@@ -194,11 +202,13 @@ class SupabaseStorageService:
                 file_options['content-type'] = 'application/gzip'
             
             logger.info(f"Uploading to Supabase: {storage_path} ({len(file_data) / (1024*1024):.2f}MB)")
-            
-            self.client.storage.from_(self.bucket_name).upload(
-                path=storage_path,
-                file=file_data,
-                file_options=file_options  # type: ignore[arg-type]
+
+            with_supabase_retry(
+                lambda: self.client.storage.from_(self.bucket_name).upload(
+                    path=storage_path,
+                    file=file_data,
+                    file_options=file_options  # type: ignore[arg-type]
+                )
             )
             
             logger.info(f"✅ Upload complete: {storage_path}")
@@ -242,7 +252,9 @@ class SupabaseStorageService:
             if not storage_path.endswith('.gz'):
                 gz_path = storage_path + '.gz'
                 try:
-                    response = self.client.storage.from_(self.bucket_name).download(gz_path)
+                    response = with_supabase_retry(
+                        lambda: self.client.storage.from_(self.bucket_name).download(gz_path)
+                    )
                     # File found with .gz extension, decompress it
                     decompressed = gzip.decompress(response)
                     logger.info(f"Downloaded and decompressed .gz file from storage: {gz_path}")
@@ -252,7 +264,9 @@ class SupabaseStorageService:
                     pass
             
             # Download from original path
-            response = self.client.storage.from_(self.bucket_name).download(storage_path)
+            response = with_supabase_retry(
+                lambda: self.client.storage.from_(self.bucket_name).download(storage_path)
+            )
             
             # Try to decompress if it looks like gzip data (magic bytes or .gz extension)
             if storage_path.endswith('.gz'):
@@ -334,11 +348,13 @@ class SupabaseStorageService:
                 file_options['content-encoding'] = 'gzip'
             
             logger.info(f"Uploading to Supabase: {storage_path} ({len(file_data) / (1024*1024):.2f}MB)")
-            
-            self.client.storage.from_(self.bucket_name).upload(
-                path=storage_path,
-                file=file_data,
-                file_options=file_options  # type: ignore[arg-type]
+
+            with_supabase_retry(
+                lambda: self.client.storage.from_(self.bucket_name).upload(
+                    path=storage_path,
+                    file=file_data,
+                    file_options=file_options  # type: ignore[arg-type]
+                )
             )
             
             logger.info(f"✅ Upload complete: {storage_path}")
@@ -363,7 +379,9 @@ class SupabaseStorageService:
             return False
         
         try:
-            self.client.storage.from_(self.bucket_name).remove([storage_path])
+            with_supabase_retry(
+                lambda: self.client.storage.from_(self.bucket_name).remove([storage_path])
+            )
             logger.info(f"Deleted file from storage: {storage_path}")
             return True
             

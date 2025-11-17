@@ -53,11 +53,11 @@ def dashboard_with_token(token):
             suggestion="Verifique se copiou o URL corretamente."), 400
     
     # Check if token exists in database or storage
-    from app.services.job_queue_service import JobQueueService
+    from app.services.job_service import JobService
     from app.services.result_storage import get_result_storage
-    
-    job_queue = JobQueueService()
-    job = job_queue.get_job(token)
+
+    job_service = JobService()
+    job = job_service.get_job(token)
     
     if not job:
         return render_template('error.html',
@@ -65,7 +65,7 @@ def dashboard_with_token(token):
             error_message=f"Não foi encontrado nenhum resultado para o token '{token}'.",
             suggestion="Verifique se o processamento foi concluído ou se o token está correto."), 404
     
-    if job['status'] != 'completed':
+    if job['status'] != 'done':
         return render_template('error.html',
             error_title="Processamento Incompleto",
             error_message=f"O processamento ainda está {job['status']} ({job.get('progress', 0)}%).",
