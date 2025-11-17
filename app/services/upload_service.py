@@ -40,6 +40,52 @@ class UploadService:
             if conn:
                 DatabasePool.return_connection(conn)
 
+    def get_master_upload(self, user_id: str) -> Optional[Dict[str, Any]]:
+        """Return the current master upload for a user (if any)."""
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, file_hash,
+                           created_at, updated_at, is_active, is_master
+                    FROM uploads
+                    WHERE user_id = %s AND is_master = true AND is_active = true
+                    ORDER BY updated_at DESC
+                    LIMIT 1
+                    """,
+                    (user_id,),
+                )
+                row = cur.fetchone()
+                if row:
+                    columns = [desc[0] for desc in cur.description]
+                    return dict(zip(columns, row))
+
+                # Fallback: latest active upload if master not set yet
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, file_hash,
+                           created_at, updated_at, is_active, is_master
+                    FROM uploads
+                    WHERE user_id = %s AND is_active = true
+                    ORDER BY updated_at DESC
+                    LIMIT 1
+                    """,
+                    (user_id,),
+                )
+                row = cur.fetchone()
+                if row:
+                    columns = [desc[0] for desc in cur.description]
+                    return dict(zip(columns, row))
+                return None
+        except Exception as exc:
+            logger.error("Failed to fetch master upload: %s", exc, exc_info=True)
+            return None
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
     def create_upload(
         self,
         *,
@@ -77,6 +123,39 @@ class UploadService:
             if conn:
                 conn.rollback()
             return None
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
+    def set_master_upload(self, user_id: str, upload_id: str) -> bool:
+        """Mark the given upload as the master for the user, clearing previous masters."""
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                # Clear previous master flags for this user
+                cur.execute(
+                    "UPDATE uploads SET is_master = false WHERE user_id = %s AND is_master = true AND id != %s",
+                    (user_id, upload_id),
+                )
+
+                # Mark the selected upload as master
+                cur.execute(
+                    "UPDATE uploads SET is_master = true WHERE id = %s AND user_id = %s",
+                    (upload_id, user_id),
+                )
+
+                if cur.rowcount == 0:
+                    raise ValueError("Upload not found for user")
+
+                conn.commit()
+                logger.info("Marked upload %s as master for user %s", upload_id, user_id)
+                return True
+        except Exception as exc:
+            logger.error("Failed to set master upload: %s", exc, exc_info=True)
+            if conn:
+                conn.rollback()
+            return False
         finally:
             if conn:
                 DatabasePool.return_connection(conn)
