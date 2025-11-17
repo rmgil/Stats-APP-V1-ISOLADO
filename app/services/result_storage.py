@@ -39,6 +39,17 @@ class ResultStorageService:
         self.storage = get_storage()
         self.local_work_dir = Path("work")
         self.local_results_dir = Path("results")
+
+    def _normalize_token(self, token: str) -> str:
+        """Map logical tokens to storage directories.
+
+        Currently supports user-level master tokens in the format ``user-<id>``
+        which are stored under ``/results/by_user/<id>``.
+        """
+
+        if token.startswith("user-"):
+            return f"by_user/{token.removeprefix('user-')}"
+        return token
     
     def _read_json_from_storage(self, storage_path: str) -> Optional[Dict[str, Any]]:
         """
@@ -88,10 +99,12 @@ class ResultStorageService:
         
         Returns:
             Pipeline result dict or None if not found
-        
+
         Raises:
             FileNotFoundError: If month is specified but monthly data doesn't exist
         """
+        token_dir = self._normalize_token(token)
+
         if month:
             logger.info(
                 "[RESULT STORAGE] Attempting to load monthly pipeline_result_%s.json for %s",
@@ -99,7 +112,7 @@ class ResultStorageService:
                 token,
             )
             # Prefer new root-level monthly result
-            storage_path = f"/results/{token}/pipeline_result_{month}.json"
+            storage_path = f"/results/{token_dir}/pipeline_result_{month}.json"
             result = self._read_json_from_storage(storage_path)
 
             if result:
@@ -110,7 +123,7 @@ class ResultStorageService:
                 )
                 return result
 
-            local_path = self.local_work_dir / token / f"pipeline_result_{month}.json"
+            local_path = self.local_work_dir / token_dir / f"pipeline_result_{month}.json"
             result = self._read_json_from_local(local_path)
 
             if result:
@@ -122,7 +135,7 @@ class ResultStorageService:
                 return result
 
             # Fallback to consolidated results directory (by_user or other namespaces)
-            alt_local = self.local_results_dir / token / f"pipeline_result_{month}.json"
+            alt_local = self.local_results_dir / token_dir / f"pipeline_result_{month}.json"
             result = self._read_json_from_local(alt_local)
 
             if result:
@@ -134,7 +147,7 @@ class ResultStorageService:
                 return result
 
             # Fallback to legacy location
-            legacy_storage = f"/results/{token}/months/{month}/pipeline_result.json"
+            legacy_storage = f"/results/{token_dir}/months/{month}/pipeline_result.json"
             result = self._read_json_from_storage(legacy_storage)
 
             if result:
@@ -145,7 +158,7 @@ class ResultStorageService:
                 )
                 return result
 
-            legacy_local = self.local_work_dir / token / "months" / month / "pipeline_result.json"
+            legacy_local = self.local_work_dir / token_dir / "months" / month / "pipeline_result.json"
             result = self._read_json_from_local(legacy_local)
 
             if result:
@@ -164,18 +177,18 @@ class ResultStorageService:
             raise FileNotFoundError(f"Pipeline result for month {month} not found")
 
         # Load aggregate pipeline_result (default behavior)
-        logger.info(
-            "[RESULT STORAGE] Attempting to load pipeline_result_global.json for %s",
-            token,
-        )
-        storage_path = f"/results/{token}/pipeline_result_global.json"
+            logger.info(
+                "[RESULT STORAGE] Attempting to load pipeline_result_global.json for %s",
+                token,
+            )
+        storage_path = f"/results/{token_dir}/pipeline_result_global.json"
         result = self._read_json_from_storage(storage_path)
 
         if result:
             logger.info("[RESULT STORAGE] Loaded pipeline_result_global.json for %s from cloud storage", token)
             return result
 
-        local_path = self.local_work_dir / token / "pipeline_result_global.json"
+        local_path = self.local_work_dir / token_dir / "pipeline_result_global.json"
         result = self._read_json_from_local(local_path)
 
         if result:
@@ -183,7 +196,7 @@ class ResultStorageService:
             return result
 
         # Fallback to consolidated results directory (e.g., by_user/<user_id>)
-        alt_local = self.local_results_dir / token / "pipeline_result_global.json"
+        alt_local = self.local_results_dir / token_dir / "pipeline_result_global.json"
         result = self._read_json_from_local(alt_local)
 
         if result:
@@ -194,14 +207,14 @@ class ResultStorageService:
             return result
 
         # Fallback to legacy aggregate file
-        legacy_storage = f"/results/{token}/pipeline_result.json"
+        legacy_storage = f"/results/{token_dir}/pipeline_result.json"
         result = self._read_json_from_storage(legacy_storage)
 
         if result:
             logger.info("[RESULT STORAGE] Loaded legacy pipeline_result.json for %s from cloud storage", token)
             return result
 
-        legacy_local = self.local_work_dir / token / "pipeline_result.json"
+        legacy_local = self.local_work_dir / token_dir / "pipeline_result.json"
         result = self._read_json_from_local(legacy_local)
 
         if result:
@@ -214,7 +227,8 @@ class ResultStorageService:
     def _check_month_file_exists(self, token: str, month: str) -> bool:
         """Check if a monthly pipeline result exists in storage or locally."""
 
-        storage_path = f"/results/{token}/pipeline_result_{month}.json"
+        token_dir = self._normalize_token(token)
+        storage_path = f"/results/{token_dir}/pipeline_result_{month}.json"
 
         try:
             if self.storage.use_cloud:
@@ -223,24 +237,24 @@ class ResultStorageService:
                 if self.storage.file_exists(storage_path + ".gz"):
                     return True
             else:
-                local_path = self.local_work_dir / token / f"pipeline_result_{month}.json"
+                local_path = self.local_work_dir / token_dir / f"pipeline_result_{month}.json"
                 if local_path.exists():
                     return True
-                alt_local = self.local_results_dir / token / f"pipeline_result_{month}.json"
+                alt_local = self.local_results_dir / token_dir / f"pipeline_result_{month}.json"
                 if alt_local.exists():
                     return True
         except Exception as exc:
             logger.debug("[RESULT STORAGE] Error checking month file %s: %s", storage_path, exc)
 
         # Legacy layout fallback (months/<month>/pipeline_result.json)
-        legacy_storage = f"/results/{token}/months/{month}/pipeline_result.json"
+        legacy_storage = f"/results/{token_dir}/months/{month}/pipeline_result.json"
 
         try:
             if self.storage.use_cloud:
                 if self.storage.file_exists(legacy_storage):
                     return True
             else:
-                legacy_local = self.local_work_dir / token / "months" / month / "pipeline_result.json"
+                legacy_local = self.local_work_dir / token_dir / "months" / month / "pipeline_result.json"
                 if legacy_local.exists():
                     return True
         except Exception as exc:
@@ -270,13 +284,14 @@ class ResultStorageService:
 
         # Fallback to scanning local files when manifest unavailable (dev/tests)
         if not candidate_months:
-            local_dir = self.local_work_dir / token
+            token_dir = self._normalize_token(token)
+            local_dir = self.local_work_dir / token_dir
             if local_dir.exists():
                 for path in local_dir.glob("pipeline_result_*.json"):
                     name = path.stem.replace("pipeline_result_", "")
                     if name and name != "global":
                         candidate_months.append(name)
-            alt_local_dir = self.local_results_dir / token
+            alt_local_dir = self.local_results_dir / token_dir
             if alt_local_dir.exists():
                 for path in alt_local_dir.glob("pipeline_result_*.json"):
                     name = path.stem.replace("pipeline_result_", "")
@@ -357,14 +372,15 @@ class ResultStorageService:
             Manifest dict or None if not found
         """
         # Try cloud storage first
-        storage_path = f"/results/{token}/multi_site_manifest.json"
+        token_dir = self._normalize_token(token)
+        storage_path = f"/results/{token_dir}/multi_site_manifest.json"
         manifest = self._read_json_from_storage(storage_path)
         
         if manifest:
             return manifest
         
         # Fallback to local
-        local_path = self.local_work_dir / token / "multi_site_manifest.json"
+        local_path = self.local_work_dir / token_dir / "multi_site_manifest.json"
         return self._read_json_from_local(local_path)
     
     def get_group_manifest(self, token: str) -> Optional[Dict[str, Any]]:
@@ -378,14 +394,15 @@ class ResultStorageService:
             Manifest dict or None if not found
         """
         # Try cloud storage first
-        storage_path = f"/results/{token}/group_manifest.json"
+        token_dir = self._normalize_token(token)
+        storage_path = f"/results/{token_dir}/group_manifest.json"
         manifest = self._read_json_from_storage(storage_path)
         
         if manifest:
             return manifest
         
         # Fallback to local
-        local_path = self.local_work_dir / token / "group_manifest.json"
+        local_path = self.local_work_dir / token_dir / "group_manifest.json"
         return self._read_json_from_local(local_path)
     
     def get_months_manifest(self, token: str) -> Optional[Dict[str, Any]]:
@@ -399,26 +416,28 @@ class ResultStorageService:
             Months manifest dict or None if not found
         """
         # Try cloud storage first
-        storage_path = f"/results/{token}/months_manifest.json"
+        token_dir = self._normalize_token(token)
+        storage_path = f"/results/{token_dir}/months_manifest.json"
         manifest = self._read_json_from_storage(storage_path)
         
         if manifest:
             return manifest
         
         # Fallback to local
-        local_path = self.local_work_dir / token / "months_manifest.json"
+        local_path = self.local_work_dir / token_dir / "months_manifest.json"
         return self._read_json_from_local(local_path)
     
     def get_stats_json(self, token: str, group_key: str, is_multi_site: bool = True) -> Optional[Dict[str, Any]]:
         """Get statistics JSON for a group."""
 
         if is_multi_site:
-            storage_path = f"/results/{token}/combined/stats/{group_key}_stats.json"
+            token_dir = self._normalize_token(token)
+            storage_path = f"/results/{token_dir}/combined/stats/{group_key}_stats.json"
             stats = self._read_json_from_storage(storage_path)
             if stats:
                 return stats
 
-            local_path = self.local_work_dir / token / "combined" / "stats" / f"{group_key}_stats.json"
+            local_path = self.local_work_dir / token_dir / "combined" / "stats" / f"{group_key}_stats.json"
             return self._read_json_from_local(local_path)
 
         # Single-site uploads store stats directly inside pipeline_result.json
