@@ -12,6 +12,7 @@ from typing import Any, Dict, Optional, List, Tuple
 from sqlalchemy import MetaData, Table, create_engine, select
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
+from sqlalchemy.ext.automap import automap_base
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
@@ -26,6 +27,11 @@ from app.services.db_pool import DatabasePool
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
 bp_dashboard_debug = Blueprint(
     "bp_dashboard_debug", __name__ + "_debug", url_prefix="/api/debug/dashboard"
+)
+bp_dashboard_internal = Blueprint(
+    "bp_dashboard_internal",
+    __name__ + "_internal",
+    url_prefix="/api/internal",
 )
 
 logger = logging.getLogger(__name__)
@@ -49,6 +55,21 @@ def _get_tables() -> tuple[Engine, Table, Table]:
     uploads_table = Table("uploads", metadata, autoload_with=engine)
     jobs_table = Table("jobs", metadata, autoload_with=engine)
     return engine, uploads_table, jobs_table
+
+
+@lru_cache()
+def _get_orm_base():
+    engine = _get_engine()
+    Base = automap_base()
+    Base.prepare(autoload_with=engine)
+    return Base
+
+
+def _get_orm_models():
+    Base = _get_orm_base()
+    upload_model = getattr(Base.classes, "uploads", None)
+    job_model = getattr(Base.classes, "jobs", None)
+    return upload_model, job_model
 
 
 def _read_storage_or_local(storage, storage_path: str, local_path: Path) -> Optional[bytes]:
@@ -470,6 +491,93 @@ def api_debug_dashboard_state():
         )
     except Exception as e:  # noqa: BLE001 - endpoint de debug deve devolver rastreio
         logger.exception("Erro em /api/debug/dashboard/state")
+        import traceback
+
+        return jsonify(
+            {
+                "success": False,
+                "error": "internal_error",
+                "debug_exception": str(e),
+                "debug_traceback": traceback.format_exc(),
+            }
+        )
+
+
+@bp_dashboard_internal.get("/debug-dashboard-state")
+@login_required
+def api_internal_debug_dashboard_state():
+    """
+    Endpoint interno de debug.
+    NÃO tenta carregar dashboards, NÃO usa tokens,
+    NÃO mexe em ficheiros, NÃO chama build_dashboard_payload.
+
+    Só devolve:
+      - uploads do utilizador
+      - jobs associados a cada upload
+    """
+
+    try:
+        user_identifier = getattr(current_user, "id", None)
+
+        if user_identifier is None:
+            return jsonify({"success": True, "data": []})
+
+        upload_model, job_model = _get_orm_models()
+        if not upload_model or not job_model:
+            return jsonify(
+                {
+                    "success": False,
+                    "error": "missing_models",
+                    "debug_exception": "ORM models for uploads/jobs not found",
+                }
+            )
+
+        engine = _get_engine()
+
+        result: list[dict[str, Any]] = []
+        with Session(engine) as db:
+            uploads_query = db.query(upload_model)
+            if user_identifier is not None:
+                uploads_query = uploads_query.filter(upload_model.user_id == user_identifier)
+            if hasattr(upload_model, "created_at"):
+                uploads_query = uploads_query.order_by(upload_model.created_at.desc())
+
+            uploads = uploads_query.all()
+
+            for u in uploads:
+                jobs_query = db.query(job_model).filter(job_model.upload_id == getattr(u, "id", None))
+                if hasattr(job_model, "created_at"):
+                    jobs_query = jobs_query.order_by(job_model.created_at.desc())
+
+                jobs = jobs_query.all()
+                job_list = []
+                for j in jobs:
+                    job_list.append(
+                        {
+                            "id": getattr(j, "id", None),
+                            "job_id": getattr(j, "job_id", None),
+                            "status": getattr(j, "status", None),
+                            "created_at": str(getattr(j, "created_at", None)),
+                            "upload_id": getattr(j, "upload_id", None),
+                        }
+                    )
+
+                result.append(
+                    {
+                        "upload_id": getattr(u, "id", None),
+                        "user_id": getattr(u, "user_id", None),
+                        "filename": getattr(u, "filename", None)
+                        or getattr(u, "file_name", None),
+                        "is_master": getattr(u, "is_master", None),
+                        "created_at": str(getattr(u, "created_at", None)),
+                        "jobs": job_list,
+                    }
+                )
+
+        return jsonify({"success": True, "data": result})
+
+    except Exception as e:  # noqa: BLE001 - endpoint de debug deve devolver rastreio
+        logger.exception("Erro em /api/internal/debug-dashboard-state")
         import traceback
 
         return jsonify(
