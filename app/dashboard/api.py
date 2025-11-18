@@ -205,41 +205,53 @@ def api_current_dashboard():
 
         conn = DatabasePool.get_connection()
         with conn.cursor() as cur:
-            cur.execute(
-                """
-                SELECT id, user_id, is_master, created_at
-                FROM uploads
-                WHERE user_id = %s
-                ORDER BY created_at DESC
-                """,
-                (user_identifier,),
-            )
-            upload_columns = [desc[0] for desc in cur.description]
-            uploads: List[Dict[str, Any]] = [dict(zip(upload_columns, row)) for row in cur.fetchall() or []]
+            token: Optional[str] = None
 
-            if not uploads:
+            # Prefer a finished job associated with a master upload when the column exists
+            try:
+                cur.execute(
+                    """
+                    SELECT j.id
+                    FROM uploads u
+                    JOIN jobs j ON j.upload_id = u.id
+                    WHERE u.user_id = %s
+                      AND u.is_master = true
+                      AND j.status = 'done'
+                    ORDER BY j.created_at DESC
+                    LIMIT 1
+                    """,
+                    (user_identifier,),
+                )
+                row = cur.fetchone()
+                if row:
+                    token = row[0]
+            except Exception:
+                logger.debug(
+                    "[DASHBOARD CURRENT] Master upload lookup failed; falling back to latest job",
+                    exc_info=True,
+                )
+
+            if token is None:
+                cur.execute(
+                    """
+                    SELECT j.id
+                    FROM uploads u
+                    JOIN jobs j ON j.upload_id = u.id
+                    WHERE u.user_id = %s
+                      AND j.status = 'done'
+                    ORDER BY j.created_at DESC
+                    LIMIT 1
+                    """,
+                    (user_identifier,),
+                )
+                row = cur.fetchone()
+                if row:
+                    token = row[0]
+
+            if not token:
                 return jsonify({"success": True, "data": {"has_data": False}})
 
-            master_upload = next((u for u in uploads if u.get("is_master")), None)
-            main_upload = master_upload or uploads[0]
-
-            cur.execute(
-                """
-                SELECT id
-                FROM jobs
-                WHERE upload_id = %s AND status = 'done'
-                ORDER BY created_at DESC
-                LIMIT 1
-                """,
-                (main_upload.get("id"),),
-            )
-            row = cur.fetchone()
-            if not row:
-                return jsonify({"success": True, "data": {"has_data": False}})
-
-            token = row[0]
-
-        return jsonify({"success": True, "data": {"has_data": True, "token": token}})
+        return jsonify({"success": True, "data": {"has_data": True, "token": str(token)}})
     except Exception:
         logger.exception(
             "Erro em /api/dashboard/current para user %s",
