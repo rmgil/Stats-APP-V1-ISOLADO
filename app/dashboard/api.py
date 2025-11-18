@@ -6,8 +6,12 @@ import os, re, tempfile, json
 import logging
 import traceback
 from datetime import datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, Optional, List, Tuple
+from sqlalchemy import MetaData, Table, create_engine, select
+from sqlalchemy.engine import Engine
+from sqlalchemy.orm import Session
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
@@ -27,6 +31,24 @@ bp_dashboard_debug = Blueprint(
 logger = logging.getLogger(__name__)
 
 SAFE_RE = re.compile(r"^[a-zA-Z0-9_\-]{8,64}$")
+
+
+@lru_cache()
+def _get_engine() -> Engine:
+    database_url = os.environ.get("DATABASE_URL")
+    if not database_url:
+        raise RuntimeError("DATABASE_URL environment variable not set")
+
+    return create_engine(database_url)
+
+
+@lru_cache()
+def _get_tables() -> tuple[Engine, Table, Table]:
+    engine = _get_engine()
+    metadata = MetaData()
+    uploads_table = Table("uploads", metadata, autoload_with=engine)
+    jobs_table = Table("jobs", metadata, autoload_with=engine)
+    return engine, uploads_table, jobs_table
 
 
 def _read_storage_or_local(storage, storage_path: str, local_path: Path) -> Optional[bytes]:
@@ -366,84 +388,74 @@ def api_user_main_sample(group: str, stat_key: str):
 @bp_dashboard_debug.get("/state")
 @login_required
 def api_debug_dashboard_state():
-    """Mapeia uploads → jobs → tokens e verifica se o payload existe."""
+    """Mapeia uploads → jobs → tokens de forma resiliente usando ORM/reflexão."""
 
     try:
         user_identifier = str(getattr(current_user, "id", ""))
         if not user_identifier:
             return jsonify({"success": False, "error": "missing_user_id"}), 400
 
-        conn = None
-        uploads: list[dict] = []
-        jobs: list[dict] = []
+        engine, uploads_table, jobs_table = _get_tables()
 
-        try:
-            conn = DatabasePool.get_connection()
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT id, user_id, client_upload_token, file_name, is_master, created_at
-                    FROM uploads
-                    WHERE user_id = %s
-                    ORDER BY created_at DESC
-                    """,
-                    (user_identifier,),
-                )
-                upload_rows = cur.fetchall() or []
-                upload_columns = [desc[0] for desc in cur.description]
-                uploads = [dict(zip(upload_columns, row)) for row in upload_rows]
+        with Session(engine) as session:
+            uploads_query = (
+                select(uploads_table)
+                .where(uploads_table.c.user_id == user_identifier)
+            )
+            if "created_at" in uploads_table.c:
+                uploads_query = uploads_query.order_by(uploads_table.c.created_at.desc())
 
-                upload_ids = [row.get("id") for row in uploads if row.get("id") is not None]
+            upload_rows = session.execute(uploads_query).mappings().all()
+            upload_ids = [row.get("id") for row in upload_rows if row.get("id") is not None]
 
-                if upload_ids:
-                    cur.execute(
-                        """
-                        SELECT id, upload_id, status, created_at
-                        FROM jobs
-                        WHERE upload_id = ANY(%s)
-                        ORDER BY created_at DESC
-                        """,
-                        (upload_ids,),
-                    )
-                    job_rows = cur.fetchall() or []
-                    job_columns = [desc[0] for desc in cur.description]
-                    jobs = [dict(zip(job_columns, row)) for row in job_rows]
-        finally:
-            if conn:
-                DatabasePool.return_connection(conn)
+            jobs_rows: list[dict] = []
+            if upload_ids:
+                jobs_query = select(jobs_table).where(jobs_table.c.upload_id.in_(upload_ids))
+                if "created_at" in jobs_table.c:
+                    jobs_query = jobs_query.order_by(jobs_table.c.created_at.desc())
 
-        items = []
-        for job in jobs:
+                jobs_rows = session.execute(jobs_query).mappings().all()
+
+        jobs_by_upload: dict[Any, list[dict[str, Any]]] = {}
+        debug_jobs: list[dict[str, Any]] = []
+
+        for job in jobs_rows:
             token = job.get("id")
             has_payload = False
             error = None
 
-            try:
-                payload = build_dashboard_payload(str(token), month=None)
-                has_payload = bool(payload)
-            except Exception as exc:  # noqa: BLE001 - debug endpoint deve expor erros
-                error = str(exc)
+            if token:
+                try:
+                    payload = build_dashboard_payload(str(token), month=None)
+                    has_payload = bool(payload)
+                except Exception as exc:  # noqa: BLE001 - debug endpoint deve expor erros
+                    error = str(exc)
 
-            items.append(
-                {
-                    "job_id": job.get("id"),
-                    "upload_id": job.get("upload_id"),
-                    "status": job.get("status"),
-                    "created_at": job.get("created_at"),
-                    "token": str(token),
-                    "has_payload": has_payload,
-                    "error": error,
-                }
-            )
+            job_data = {
+                "id": job.get("id"),
+                "upload_id": job.get("upload_id"),
+                "status": job.get("status"),
+                "created_at": job.get("created_at"),
+                "job_id": job.get("job_id"),
+                "result_path": job.get("result_path"),
+                "token": str(token) if token is not None else None,
+                "has_payload": has_payload,
+                "error": error,
+            }
 
-        def _serialize_upload(upload: dict) -> dict:
+            debug_jobs.append(job_data)
+            jobs_by_upload.setdefault(job.get("upload_id"), []).append(job_data)
+
+        def _serialize_upload(upload: dict[str, Any]) -> dict[str, Any]:
             return {
                 "id": upload.get("id"),
                 "user_id": upload.get("user_id"),
-                "client_upload_token": upload.get("client_upload_token"),
-                "file_name": upload.get("file_name"),
+                "filename": upload.get("filename") or upload.get("file_name"),
                 "is_master": upload.get("is_master"),
                 "created_at": upload.get("created_at"),
+                "upload_token": upload.get("token") or upload.get("client_upload_token"),
+                "storage_path": upload.get("storage_path"),
+                "jobs": jobs_by_upload.get(upload.get("id"), []),
             }
 
         return jsonify(
@@ -451,8 +463,8 @@ def api_debug_dashboard_state():
                 "success": True,
                 "data": {
                     "user_identifier_used_in_uploads": user_identifier,
-                    "uploads": [_serialize_upload(u) for u in uploads],
-                    "jobs": items,
+                    "uploads": [_serialize_upload(u) for u in upload_rows],
+                    "jobs": debug_jobs,
                 },
             }
         )
