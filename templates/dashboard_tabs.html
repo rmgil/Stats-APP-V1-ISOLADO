@@ -971,8 +971,8 @@
                     <span>Outros:</span>
                     <span class="summary-value" style="color: #64748b;" id="otherHands">-</span>
                 </div>
-                <div class="summary-item">
-                    <span>Token:</span>
+                <div class="summary-item" id="tokenSummaryItem">
+                    <span id="tokenLabel">Token:</span>
                     <span class="summary-value" id="tokenDisplay" style="font-family: monospace; font-size: 11px;">-</span>
                 </div>
             </div>
@@ -1178,15 +1178,15 @@
         };
         
         const urlParams = new URLSearchParams(window.location.search);
-        const dashboardMode = (window.dashboardApiMode || 'token').toLowerCase();
-        const isMainDashboard = dashboardMode === 'main';
+        const pathName = window.location.pathname;
+        const tokenPathMatch = pathName.match(/^\/dashboard\/([^/]+)\/?$/);
+        const isMainDashboard = /^\/dashboard\/?$/.test(pathName);
 
         document.addEventListener('DOMContentLoaded', async function() {
             // Resolve token from path, query string or server-provided default
             let token = null;
-            const pathMatch = window.location.pathname.match(/\/dashboard\/([a-f0-9]{12})/);
-            if (pathMatch) {
-                token = pathMatch[1];
+            if (tokenPathMatch) {
+                token = tokenPathMatch[1];
             } else {
                 token = urlParams.get('token') || window.initialDashboardToken || null;
             }
@@ -1200,7 +1200,6 @@
             let month = urlParams.get('month') || window.initialDashboardMonth || null;
 
             if (isMainDashboard) {
-                document.getElementById('tokenDisplay').textContent = 'main';
                 try {
                     await loadMainDashboard(month);
                 } catch (error) {
@@ -1236,6 +1235,7 @@
                 return;
             }
 
+            resetTokenSummary();
             document.getElementById('tokenDisplay').textContent = token;
 
             const monthSelectorContainer = document.getElementById('monthSelectorContainer');
@@ -1312,6 +1312,7 @@
                 }
 
                 dashboardData = data.data;
+                updateVisionSummaryFromMonths(Array.isArray(dashboardData?.meta?.months) ? dashboardData.meta.months : []);
                 displayDashboard(dashboardData);
 
             } catch (error) {
@@ -1360,7 +1361,10 @@
 
             mainDashboardMonths = Array.isArray(data.meta?.months) ? data.meta.months : [];
             updateMonthsBanner(mainDashboardMonths);
-            
+            if (isMainDashboard) {
+                updateVisionSummaryFromMonths(mainDashboardMonths);
+            }
+
             document.getElementById('totalHands').textContent = totalHands;
             document.getElementById('validHands').textContent = validHands;
             
@@ -1460,6 +1464,48 @@
 
             banner.textContent = `Baseado nos meses: ${formatted.join(', ')}`;
             banner.style.display = 'block';
+        }
+
+        function resetTokenSummary() {
+            const summaryItem = document.getElementById('tokenSummaryItem');
+            const tokenLabel = document.getElementById('tokenLabel');
+            const tokenDisplay = document.getElementById('tokenDisplay');
+            if (!summaryItem || !tokenLabel || !tokenDisplay) return;
+
+            summaryItem.style.display = 'flex';
+            tokenLabel.textContent = 'Token:';
+            tokenDisplay.style.fontFamily = 'monospace';
+            tokenDisplay.style.fontSize = '11px';
+        }
+
+        function formatMonthsSummary(monthEntries) {
+            if (!Array.isArray(monthEntries) || monthEntries.length === 0) return '';
+
+            const formatted = monthEntries
+                .filter(entry => entry && entry.month)
+                .map(entry => {
+                    const weightPct = entry.weight !== undefined && entry.weight !== null
+                        ? (entry.weight * 100).toFixed(0)
+                        : '0';
+                    return `${entry.month} (${weightPct}%)`;
+                });
+
+            return formatted.join(' / ');
+        }
+
+        function updateVisionSummaryFromMonths(monthEntries) {
+            const summaryItem = document.getElementById('tokenSummaryItem');
+            const tokenLabel = document.getElementById('tokenLabel');
+            const tokenDisplay = document.getElementById('tokenDisplay');
+            if (!summaryItem || !tokenLabel || !tokenDisplay) return;
+
+            const formatted = formatMonthsSummary(monthEntries);
+
+            summaryItem.style.display = 'flex';
+            tokenLabel.textContent = 'Visão:';
+            tokenDisplay.textContent = formatted || 'Últimos meses';
+            tokenDisplay.style.fontFamily = '';
+            tokenDisplay.style.fontSize = '';
         }
         
         function displayGeneralTab(data) {
