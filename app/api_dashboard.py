@@ -623,131 +623,32 @@ def compute_weighted_scores_for_month_selection(
     }
 
 
-def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -> dict:
-    """Build consolidated dashboard payload from runs or current directory
-    
-    Args:
-        token: Job token (12 hex characters)
-        month: Optional month in YYYY-MM format. If provided, loads month-specific data.
-               If None, loads aggregate data across all months.
-    
-    Returns:
-        Dashboard payload dict
-    """
-    
-    if month and (not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month)):
-        month = None
-
-    # Resolve base directory
-    if token:
-        base = Path('runs') / token
-    else:
-        base = Path('.')
-    
-    # Try to load pipeline_result.json first (new pipeline)
-    # Use ResultStorage to read from cloud storage instead of local work directory
-    pipeline_result = {}
-    months_manifest = None
+def _build_dashboard_payload_from_pipeline(
+    *,
+    pipeline_result: Dict[str, Any],
+    token: Optional[str],
+    month: Optional[str],
+    base: Path,
+    months_manifest: Optional[Dict[str, Any]],
+    selected_scope: str,
+    month_not_found: bool,
+    result_storage: Optional[Any],
+    extra_meta: Optional[Dict[str, Any]] = None,
+) -> dict:
     import logging
+
     logger = logging.getLogger(__name__)
-
-    result_storage = None
-    selected_scope = 'aggregate'
-    month_not_found = False
-    months_info: List[Dict[str, Any]] = []
-
-    if token:
-        try:
-            from app.services.result_storage import get_result_storage
-            result_storage = get_result_storage()
-        except Exception as storage_error:
-            logger.error(f"[LOAD] Failed to initialise result storage: {storage_error}")
-            result_storage = None
-
-    if token and result_storage:
-        aggregate_result: Optional[Dict[str, Any]] = None
-
-        if month:
-            try:
-                pipeline_result = result_storage.get_pipeline_result(token, month=month)
-                if pipeline_result:
-                    selected_scope = 'monthly'
-                    logger.info(
-                        "[LOAD] ✓ Loaded monthly pipeline_result for %s (%s)",
-                        token,
-                        month,
-                    )
-            except FileNotFoundError:
-                month_not_found = True
-                selected_scope = 'missing'
-                logger.warning("[LOAD] Monthly pipeline_result missing for %s/%s", token, month)
-            except Exception as load_error:
-                logger.error(f"[LOAD] Failed to load monthly pipeline_result: {load_error}")
-
-        if not pipeline_result:
-            aggregate_result = result_storage.get_pipeline_result(token)
-            if not aggregate_result:
-                logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
-                raise FileNotFoundError(f"Pipeline result not found for token {token}")
-            pipeline_result = aggregate_result
-            if not month_not_found:
-                selected_scope = 'aggregate'
-            logger.info(
-                "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
-                list(pipeline_result.keys()),
-            )
-
-        if hasattr(result_storage, 'list_available_months'):
-            try:
-                months_info = result_storage.list_available_months(token)
-            except Exception as manifest_error:
-                logger.debug(f"[LOAD] Unable to list months: {manifest_error}")
-                months_info = []
-
-        if months_info:
-            months_manifest = {'months': months_info}
-        else:
-            try:
-                months_manifest = result_storage.get_months_manifest(token)
-            except Exception as manifest_error:
-                logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
-                months_manifest = None
-
-    elif token:
-        # Fallback to local filesystem (primarily used in tests/dev)
-        local_base = Path('work') / token
-        if month:
-            month_path = local_base / 'months' / month / 'pipeline_result.json'
-            if month_path.exists():
-                pipeline_result = json.loads(month_path.read_text())
-                selected_scope = 'monthly'
-            else:
-                month_not_found = True
-        if not pipeline_result:
-            aggregate_path = local_base / 'pipeline_result.json'
-            if aggregate_path.exists():
-                pipeline_result = json.loads(aggregate_path.read_text())
-                selected_scope = 'aggregate'
-        if not pipeline_result:
-            raise FileNotFoundError(f"Pipeline result not found for token {token}")
-
-        manifest_path = local_base / 'months_manifest.json'
-        if manifest_path.exists():
-            try:
-                months_manifest = json.loads(manifest_path.read_text())
-            except Exception:
-                months_manifest = None
 
     # Find stats file
     stats_path = base / 'stats' / 'stat_counts.json'
     if not stats_path.exists():
         stats_path = Path('stats') / 'stat_counts.json'
-    
-    # Find score file  
+
+    # Find score file
     score_path = base / 'scores' / 'scorecard.json'
     if not score_path.exists():
         score_path = Path('scores') / 'scorecard.json'
-    
+
     # Load config file for weights and ideals
     config_path = Path('app/score/config.yml')
     config = {}
@@ -1129,6 +1030,9 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     if months_manifest:
         response_data['months_manifest'] = months_manifest
 
+    if extra_meta:
+        response_data['meta'] = extra_meta
+
     if month and month_not_found:
         logger.warning("[LOAD] Returning empty dashboard payload for %s month %s (no monthly data)", token, month)
 
@@ -1142,11 +1046,186 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         logger.info(f"[DEBUG]   - has 'stats' field: {bool(pf_all.get('stats'))}")
         logger.info(f"[DEBUG]   - has 'file_count' field: {bool(pf_all.get('file_count'))}")
         logger.info(f"[DEBUG]   - has 'sites_included' field: {bool(pf_all.get('sites_included'))}")
-        
+
         if pf_all.get('subgroups'):
             logger.info(f"[DEBUG]   - subgroup names: {list(pf_all.get('subgroups', {}).keys())}")
-    
+
     return response_data
+
+
+def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -> dict:
+    """Build consolidated dashboard payload from runs or current directory
+
+    Args:
+        token: Job token (12 hex characters)
+        month: Optional month in YYYY-MM format. If provided, loads month-specific data.
+               If None, loads aggregate data across all months.
+
+    Returns:
+        Dashboard payload dict
+    """
+
+    if month and (not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month)):
+        month = None
+
+    # Resolve base directory
+    if token:
+        base = Path('runs') / token
+    else:
+        base = Path('.')
+
+    # Try to load pipeline_result.json first (new pipeline)
+    # Use ResultStorage to read from cloud storage instead of local work directory
+    pipeline_result = {}
+    months_manifest = None
+    import logging
+    logger = logging.getLogger(__name__)
+
+    result_storage = None
+    selected_scope = 'aggregate'
+    month_not_found = False
+    months_info: List[Dict[str, Any]] = []
+
+    if token:
+        try:
+            from app.services.result_storage import get_result_storage
+            result_storage = get_result_storage()
+        except Exception as storage_error:
+            logger.error(f"[LOAD] Failed to initialise result storage: {storage_error}")
+            result_storage = None
+
+    if token and result_storage:
+        aggregate_result: Optional[Dict[str, Any]] = None
+
+        if month:
+            try:
+                pipeline_result = result_storage.get_pipeline_result(token, month=month)
+                if pipeline_result:
+                    selected_scope = 'monthly'
+                    logger.info(
+                        "[LOAD] ✓ Loaded monthly pipeline_result for %s (%s)",
+                        token,
+                        month,
+                    )
+            except FileNotFoundError:
+                month_not_found = True
+                selected_scope = 'missing'
+                logger.warning("[LOAD] Monthly pipeline_result missing for %s/%s", token, month)
+            except Exception as load_error:
+                logger.error(f"[LOAD] Failed to load monthly pipeline_result: {load_error}")
+
+        if not pipeline_result:
+            aggregate_result = result_storage.get_pipeline_result(token)
+            if not aggregate_result:
+                logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
+                raise FileNotFoundError(f"Pipeline result not found for token {token}")
+            pipeline_result = aggregate_result
+            if not month_not_found:
+                selected_scope = 'aggregate'
+            logger.info(
+                "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
+                list(pipeline_result.keys()),
+            )
+
+        if hasattr(result_storage, 'list_available_months'):
+            try:
+                months_info = result_storage.list_available_months(token)
+            except Exception as manifest_error:
+                logger.debug(f"[LOAD] Unable to list months: {manifest_error}")
+                months_info = []
+
+        if months_info:
+            months_manifest = {'months': months_info}
+        else:
+            try:
+                months_manifest = result_storage.get_months_manifest(token)
+            except Exception as manifest_error:
+                logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
+                months_manifest = None
+
+    elif token:
+        # Fallback to local filesystem (primarily used in tests/dev)
+        local_base = Path('work') / token
+        if month:
+            month_path = local_base / 'months' / month / 'pipeline_result.json'
+            if month_path.exists():
+                pipeline_result = json.loads(month_path.read_text())
+                selected_scope = 'monthly'
+            else:
+                month_not_found = True
+        if not pipeline_result:
+            aggregate_path = local_base / 'pipeline_result.json'
+            if aggregate_path.exists():
+                pipeline_result = json.loads(aggregate_path.read_text())
+                selected_scope = 'aggregate'
+        if not pipeline_result:
+            raise FileNotFoundError(f"Pipeline result not found for token {token}")
+
+        manifest_path = local_base / 'months_manifest.json'
+        if manifest_path.exists():
+            try:
+                months_manifest = json.loads(manifest_path.read_text())
+            except Exception:
+                months_manifest = None
+
+    return _build_dashboard_payload_from_pipeline(
+        pipeline_result=pipeline_result,
+        token=token,
+        month=month,
+        base=base,
+        months_manifest=months_manifest,
+        selected_scope=selected_scope,
+        month_not_found=month_not_found,
+        result_storage=result_storage,
+    )
+
+
+def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
+    """
+    Devolve o payload de dashboard para este utilizador+month,
+    com a mesma estrutura de /api/dashboard/<token>?month=YYYY-MM.
+    """
+
+    if not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month):
+        raise ValueError("month must be in YYYY-MM format")
+
+    from app.services.user_months_service import build_user_month_pipeline_result
+
+    pipeline_result = build_user_month_pipeline_result(user_id, month)
+    month_not_found = pipeline_result is None
+    pipeline_result = pipeline_result or {}
+    selected_scope = 'monthly'
+    if month_not_found:
+        selected_scope = 'missing'
+
+    base = Path('results') / 'users' / str(user_id) / 'months' / month
+    months_manifest = {
+        'months': [
+            {
+                'month': month,
+                'has_data': not month_not_found,
+                'source': 'user_month',
+            }
+        ]
+    }
+
+    meta = {
+        'mode': 'user_month',
+        'user_id': str(user_id),
+        'month': month,
+    }
+
+    return _build_dashboard_payload_from_pipeline(
+        pipeline_result=pipeline_result,
+        token=None,
+        month=month,
+        base=base,
+        months_manifest=months_manifest,
+        selected_scope=selected_scope,
+        month_not_found=month_not_found,
+        result_storage=None,
+        extra_meta=meta,
+    )
 
 
 def build_groups_structure(
