@@ -1178,18 +1178,20 @@
         };
         
         const urlParams = new URLSearchParams(window.location.search);
-        const pathName = window.location.pathname;
-        const tokenPathMatch = pathName.match(/^\/dashboard\/([^/]+)\/?$/);
-        const isMainDashboard = /^\/dashboard\/?$/.test(pathName);
+        const path = window.location.pathname;
+        const parts = path.split('/').filter(Boolean);
+
+        const isMainDashboard =
+            (parts.length === 1 && parts[0] === 'dashboard') ||
+            (parts.length === 2 && parts[0] === 'dashboard' && parts[1] === 'main');
 
         document.addEventListener('DOMContentLoaded', async function() {
             // Resolve token from path, query string or server-provided default
-            let token = null;
-            if (tokenPathMatch) {
-                token = tokenPathMatch[1];
-            } else {
-                token = urlParams.get('token') || window.initialDashboardToken || null;
-            }
+            const tokenFromPath = (!isMainDashboard && parts.length === 2 && parts[0] === 'dashboard')
+                ? parts[1]
+                : null;
+
+            let token = tokenFromPath || urlParams.get('token') || window.initialDashboardToken || null;
 
             const uploadIdFromQuery = urlParams.get('upload_id');
             if (uploadIdFromQuery) {
@@ -1201,33 +1203,11 @@
 
             if (isMainDashboard) {
                 try {
-                    await loadMainDashboard(month);
+                    await loadMainDashboard();
                 } catch (error) {
                     showError('Erro de conexão: ' + error.message);
                 }
                 return;
-            }
-
-            if (!token) {
-                try {
-                    const currentResponse = await fetch('/api/dashboard/current');
-                    if (!currentResponse.ok) {
-                        showError('Erro ao carregar dashboard atual');
-                        return;
-                    }
-
-                    const currentPayload = await currentResponse.json();
-                    if (!currentPayload.has_data) {
-                        showError('Ainda não carregaste nenhum ficheiro.');
-                        return;
-                    }
-
-                    currentUploadId = currentPayload.upload_id || currentUploadId;
-                    token = currentPayload.upload_id || currentPayload.client_token || token;
-                } catch (error) {
-                    showError('Erro de conexão: ' + error.message);
-                    return;
-                }
             }
 
             if (!token) {
@@ -1235,21 +1215,7 @@
                 return;
             }
 
-            resetTokenSummary();
-            document.getElementById('tokenDisplay').textContent = token;
-
-            const monthSelectorContainer = document.getElementById('monthSelectorContainer');
-            if (monthSelectorContainer) {
-                monthSelectorContainer.dataset.token = token;
-                monthSelectorContainer.dataset.currentMonth = month || '';
-            }
-
-            initializeMonthSelector(token, month);
-
-            // Load download URLs first, then dashboard payload
-            loadHandsByStatSection(token, month, currentUploadId).then(() => {
-                loadDashboard(token, month, currentUploadId);
-            });
+            loadDashboardByToken(token, month, currentUploadId);
         });
         
         // Tab switching
@@ -1286,43 +1252,51 @@
             document.getElementById(`nonko-${subTab}`).style.display = 'block';
         }
         
-        async function loadMainDashboard(month = null) {
+        async function loadMainDashboard() {
             try {
-                const params = new URLSearchParams();
-                if (month) {
-                    params.set('month', month);
-                }
-
-                const query = params.toString();
-                const url = query ? `/api/dashboard/main?${query}` : '/api/dashboard/main';
-                const response = await fetch(url);
-                const data = await response.json();
-
-                if (!response.ok || !data.success) {
-                    showError(data.error || 'Erro ao carregar dados');
+                const res = await fetch('/api/dashboard/main');
+                if (!res.ok) {
+                    showError('Erro ao carregar dados da Main Page.');
                     return;
                 }
 
-                if (!data.data) {
-                    const message = data.message === 'no_data_for_user'
-                        ? 'Ainda não carregaste nenhum ficheiro.'
-                        : 'Dashboard principal indisponível.';
-                    showError(message);
+                const json = await res.json();
+
+                if (isNoDataResponse(json)) {
+                    showNoDataMessage();
                     return;
                 }
 
-                dashboardData = data.data;
-                updateVisionSummaryFromMonths(Array.isArray(dashboardData?.meta?.months) ? dashboardData.meta.months : []);
-                displayDashboard(dashboardData);
+                if (!json.success || !json.data) {
+                    showError(json.error || 'Erro ao carregar dados da Main Page.');
+                    return;
+                }
 
-            } catch (error) {
-                showError('Erro de conexão: ' + error.message);
+                const payload = json.data;
+
+                renderDashboardFromPayload(payload);
+                updateHeaderForMainDashboard(json);
+            } catch (e) {
+                console.error(e);
+                showError('Erro ao carregar dados da Main Page.');
             }
         }
 
-        // Load dashboard data
-        async function loadDashboard(token, month = null, uploadId = null) {
+        async function loadDashboardByToken(token, month = null, uploadId = null) {
             try {
+                resetTokenSummary();
+                document.getElementById('tokenDisplay').textContent = token;
+
+                const monthSelectorContainer = document.getElementById('monthSelectorContainer');
+                if (monthSelectorContainer) {
+                    monthSelectorContainer.dataset.token = token;
+                    monthSelectorContainer.dataset.currentMonth = month || '';
+                }
+
+                initializeMonthSelector(token, month);
+
+                await loadHandsByStatSection(token, month, uploadId);
+
                 const params = new URLSearchParams();
                 if (month) {
                     params.set('month', month);
@@ -1336,22 +1310,31 @@
                 const response = await fetch(url);
                 const data = await response.json();
 
-                if (!data.ok) {
+                if (isNoDataResponse(data)) {
+                    showNoDataMessage();
+                    return;
+                }
+
+                if (!response.ok || (!data.ok && data.success !== true)) {
                     showError(data.error || 'Erro ao carregar dados');
                     return;
                 }
-                
-                dashboardData = data.data;
 
-                if (month && dashboardData.month_not_found) {
+                const payload = data.data;
+
+                if (month && payload?.month_not_found) {
                     console.warn(`Nenhum dado encontrado para o mês ${month}. Exibindo visão agregada.`);
                 }
 
-                displayDashboard(dashboardData);
-                
+                renderDashboardFromPayload(payload);
             } catch (error) {
                 showError('Erro de conexão: ' + error.message);
             }
+        }
+
+        function renderDashboardFromPayload(payload) {
+            dashboardData = payload;
+            displayDashboard(dashboardData);
         }
         
         function displayDashboard(data) {
@@ -2521,8 +2504,44 @@
             if (score >= 45) return 'score-below';
             return 'score-poor';
         }
-        
-        
+
+        function isNoDataResponse(payload) {
+            if (!payload) return false;
+
+            const noDataFlags =
+                (payload.success === true && payload.data === null) ||
+                (payload.ok === true && payload.data === null);
+
+            const noDataMessages = payload.message === 'no_upload_for_user' || payload.message === 'no_payload_for_token';
+
+            return noDataFlags || noDataMessages;
+        }
+
+        function showNoDataMessage() {
+            showError('Ainda não carregaste nenhum ficheiro.');
+        }
+
+        function updateHeaderForMainDashboard(json) {
+            const summaryItem = document.getElementById('tokenSummaryItem');
+            const tokenLabel = document.getElementById('tokenLabel');
+            const tokenDisplay = document.getElementById('tokenDisplay');
+            if (!summaryItem || !tokenLabel || !tokenDisplay) return;
+
+            const monthsSummary = formatMonthsSummary(mainDashboardMonths);
+            summaryItem.style.display = 'flex';
+
+            tokenLabel.textContent = monthsSummary ? 'Visão:' : 'Visão principal';
+            tokenDisplay.style.fontFamily = '';
+            tokenDisplay.style.fontSize = '';
+
+            if (monthsSummary) {
+                tokenDisplay.textContent = monthsSummary;
+            } else {
+                const uploadToken = json?.token ? ` (upload ${json.token})` : '';
+                tokenDisplay.textContent = `Último upload${uploadToken}`;
+            }
+        }
+
         function showError(message) {
             document.getElementById('error').textContent = message;
             document.getElementById('error').style.display = 'block';
@@ -2587,7 +2606,7 @@
         }
         
         // No longer need separate initialization for hands by stat
-        // It's now called before loadDashboard
+        // It's now called before loadDashboardByToken
         
         // Month Selector Initialization
         function initializeMonthSelector(token, currentMonth) {
