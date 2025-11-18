@@ -10,10 +10,7 @@ from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
 from app.services.result_storage import ResultStorageService
-from app.services.user_main_dashboard_service import (
-    build_user_main_dashboard_payload,
-    get_user_main_month_weights,
-)
+from app.services.user_main_dashboard_service import get_user_main_month_weights
 from app.services.user_months_service import UserMonthsService
 from app.services.storage import get_storage
 from app.stats.hand_collector import HandCollector
@@ -216,26 +213,45 @@ def api_current_dashboard():
 @bp_dashboard.get("/main")
 @login_required
 def api_user_main_dashboard():
-    """Return the main dashboard payload for the authenticated user."""
-
-    payload = build_user_main_dashboard_payload(str(current_user.id))
-
-    logger.debug(
-        "MAIN DASHBOARD: user_id=%s, payload_keys=%s",
-        current_user.id,
-        list(payload.keys()) if payload else None,
-    )
-
-    if not payload or payload.get("empty") or not payload.get("meta", {}).get("months"):
-        return jsonify({"success": True, "data": None, "message": "no_data_for_user"})
+    """Return the main dashboard payload for the authenticated user using a robust fallback."""
 
     try:
-        payload_size = len(json.dumps(payload))
-        logger.debug("[USER_MAIN] Returning main dashboard payload size=%s bytes", payload_size)
-    except Exception as exc:  # noqa: BLE001 - logging should not block response
-        logger.debug("[USER_MAIN] Failed to compute payload size: %s", exc)
+        upload = UploadService.get_master_or_latest_upload_for_user(str(current_user.id))
+        if not upload:
+            return jsonify({"success": True, "data": None, "message": "no_upload_for_user"})
 
-    return jsonify({"success": True, "data": payload})
+        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
+        if not token:
+            logger.error(
+                "MAIN DASHBOARD: upload sem token para user_id=%s upload=%s",
+                current_user.id,
+                upload.get("id"),
+            )
+            return jsonify({"success": False, "error": "upload_without_token"})
+
+        payload = build_dashboard_payload(token, month=None)
+        if not payload:
+            logger.warning(
+                "MAIN DASHBOARD: payload vazio para user_id=%s token=%s",
+                current_user.id,
+                token,
+            )
+            return jsonify({"success": True, "data": None, "message": "no_payload_for_token"})
+
+        logger.debug(
+            "MAIN DASHBOARD OK: user_id=%s token=%s keys=%s",
+            current_user.id,
+            token,
+            list(payload.keys()),
+        )
+
+        return jsonify(
+            {"success": True, "data": payload, "mode": "single_token_fallback", "token": token}
+        )
+
+    except Exception:
+        logger.exception("MAIN DASHBOARD: erro inesperado para user_id=%s", current_user.id)
+        return jsonify({"success": False, "error": "internal_error_main_dashboard"})
 
 
 @bp_dashboard.get("/main/sample/<group>/<stat_key>")
@@ -282,3 +298,15 @@ def api_user_main_sample(group: str, stat_key: str):
         payload += "\n"
 
     return Response(payload, mimetype="text/plain")
+
+
+if __name__ == "__main__":
+    # Substitui por um user_id real com uploads para testar rapidamente o fallback.
+    test_user_id = "<USER_ID_DE_TESTE>"
+    upload = UploadService.get_master_or_latest_upload_for_user(test_user_id)
+    print("UPLOAD:", upload.get("id") if upload else None)
+    if upload:
+        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
+        print("TOKEN:", token)
+        payload = build_dashboard_payload(token, month=None)
+        print("HAS_PAYLOAD:", bool(payload))
