@@ -22,15 +22,21 @@ def upload_page():
     return render_template('simple_upload.html', is_admin=is_admin)
 
 @bp.route('/dashboard')
+@bp.route('/dashboard/main')
 @login_required
 @email_confirmation_required
 def dashboard_page():
-    """Render the dashboard page - requires authentication and email confirmation"""
+    """Render the dashboard main page - requires authentication and email confirmation"""
 
     month = request.args.get('month')
     latest_token = None
 
-    return render_template('dashboard_tabs.html', token=latest_token, month=month)
+    return render_template(
+        'dashboard_tabs.html',
+        token=latest_token,
+        month=month,
+        dashboard_api_mode='main'
+    )
 
 @bp.route('/dashboard/<token>')
 def dashboard_with_token(token):
@@ -69,8 +75,7 @@ def dashboard_with_token(token):
             error_title="Resultados Não Encontrados",
             error_message=f"O processamento foi concluído, mas os resultados não foram encontrados no armazenamento.",
             suggestion="Os resultados podem ter expirado. Tente processar novamente."), 404
-    
-    return render_template('dashboard_tabs.html', token=token)
+    return render_template('dashboard_tabs.html', token=token, dashboard_api_mode='token')
 
 @bp.route('/api/analyze', methods=['POST'])
 @login_required
