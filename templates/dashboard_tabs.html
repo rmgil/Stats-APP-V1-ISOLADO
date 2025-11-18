@@ -7,6 +7,7 @@
     <script>
         window.initialDashboardToken = "{{ token or '' }}";
         window.initialDashboardMonth = "{{ month or '' }}";
+        window.dashboardApiMode = "{{ dashboard_api_mode or 'token' }}";
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -1164,6 +1165,8 @@
         };
         
         const urlParams = new URLSearchParams(window.location.search);
+        const dashboardMode = (window.dashboardApiMode || 'token').toLowerCase();
+        const isMainDashboard = dashboardMode === 'main';
 
         document.addEventListener('DOMContentLoaded', async function() {
             // Resolve token from path, query string or server-provided default
@@ -1182,6 +1185,16 @@
 
             // Resolve month selection (query string wins over initial value)
             let month = urlParams.get('month') || window.initialDashboardMonth || null;
+
+            if (isMainDashboard) {
+                document.getElementById('tokenDisplay').textContent = 'main';
+                try {
+                    await loadMainDashboard(month);
+                } catch (error) {
+                    showError('Erro de conexão: ' + error.message);
+                }
+                return;
+            }
 
             if (!token) {
                 try {
@@ -1260,6 +1273,39 @@
             document.getElementById(`nonko-${subTab}`).style.display = 'block';
         }
         
+        async function loadMainDashboard(month = null) {
+            try {
+                const params = new URLSearchParams();
+                if (month) {
+                    params.set('month', month);
+                }
+
+                const query = params.toString();
+                const url = query ? `/api/dashboard/main?${query}` : '/api/dashboard/main';
+                const response = await fetch(url);
+                const data = await response.json();
+
+                if (!response.ok || !data.success) {
+                    showError(data.error || 'Erro ao carregar dados');
+                    return;
+                }
+
+                if (!data.data) {
+                    const message = data.message === 'no_data_for_user'
+                        ? 'Ainda não carregaste nenhum ficheiro.'
+                        : 'Dashboard principal indisponível.';
+                    showError(message);
+                    return;
+                }
+
+                dashboardData = data.data;
+                displayDashboard(dashboardData);
+
+            } catch (error) {
+                showError('Erro de conexão: ' + error.message);
+            }
+        }
+
         // Load dashboard data
         async function loadDashboard(token, month = null, uploadId = null) {
             try {

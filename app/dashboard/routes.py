@@ -39,7 +39,8 @@ def show_dashboard(token):
         return render_template('dashboard_tabs.html',
                              token=token,
                              month=month,
-                             data=json.dumps(data))
+                             data=json.dumps(data),
+                             dashboard_api_mode='token')
     
     except FileNotFoundError:
         month_msg = f" para o mês {month}" if month else ""
