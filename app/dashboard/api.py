@@ -195,20 +195,23 @@ def api_current_dashboard():
     """Return the current master or latest successful dashboard token for the user."""
 
     try:
-        upload = UploadService.get_master_or_latest_upload_for_user(str(current_user.id))
+        # uploads.user_id stores the Supabase auth user UUID (current_user.id)
+        user_identifier = str(current_user.id)
+
+        upload = UploadService.get_master_or_latest_upload_for_user(user_identifier)
         if not upload:
             return jsonify({"success": True, "data": {"has_data": False}})
 
-        job = JobService.get_latest_successful_job_for_upload(str(upload.get("id")))
-        if not job:
-            return jsonify({"success": True, "data": {"has_data": False}})
+        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
+        if not token:
+            job = JobService.get_latest_successful_job_for_upload(str(upload.get("id")))
+            token = job.get("id") if job else None
 
-        token = job.get("id")
         if not token:
             logger.error(
                 "[DASHBOARD_CURRENT] Job without token for upload_id=%s user_id=%s", upload.get("id"), current_user.id
             )
-            return jsonify({"success": False, "error": "job_without_token"})
+            return jsonify({"success": True, "data": {"has_data": False}})
 
         return jsonify({"success": True, "data": {"has_data": True, "token": token}})
     except Exception:
