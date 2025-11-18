@@ -29,7 +29,7 @@ from app.stats.engine import run_stats
 # Import hands API blueprint
 from app.hands.api import bp as hands_api_bp
 from app.api_dashboard import build_dashboard_payload
-from app.dashboard import bp_dashboard, bp_dashboard_debug
+from app.dashboard import bp_dashboard, bp_dashboard_debug, bp_dashboard_internal
 from app.dashboard.routes import dashboard_bp
 from app.api.jobs import bp_jobs
 
@@ -856,6 +856,9 @@ app.register_blueprint(bp_dashboard)
 
 # Register dashboard debug API blueprint
 app.register_blueprint(bp_dashboard_debug)
+
+# Register internal dashboard debug blueprint
+app.register_blueprint(bp_dashboard_internal)
 
 # Register dashboard frontend blueprint
 app.register_blueprint(dashboard_bp)
