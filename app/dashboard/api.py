@@ -4,6 +4,7 @@ from flask import Blueprint, Response, jsonify, request
 from flask_login import current_user, login_required
 import os, re, tempfile, json
 import logging
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Optional, List, Tuple
 from .aggregate import build_overview
@@ -15,6 +16,7 @@ from app.services.user_main_dashboard_service import get_user_main_month_weights
 from app.services.user_months_service import UserMonthsService
 from app.services.storage import get_storage
 from app.stats.hand_collector import HandCollector
+from app.services.db_pool import DatabasePool
 
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
 
@@ -192,31 +194,70 @@ def api_months_manifest(token):
 @bp_dashboard.get("/current")
 @login_required
 def api_current_dashboard():
-    """Return the current master or latest successful dashboard token for the user."""
+    """Endpoint TEMPORÁRIO de diagnóstico para inspeção de uploads e jobs do utilizador."""
 
+    conn = None
     try:
-        # uploads.user_id stores the Supabase auth user UUID (current_user.id)
-        user_identifier = str(current_user.id)
+        user_identifier = str(getattr(current_user, "id", ""))
+        user_debug = {
+            "id": getattr(current_user, "id", None),
+            "email": getattr(current_user, "email", None),
+        }
 
-        upload = UploadService.get_master_or_latest_upload_for_user(user_identifier)
-        if not upload:
-            return jsonify({"success": True, "data": {"has_data": False}})
+        uploads_debug: List[Dict[str, Any]] = []
+        jobs_debug: List[Dict[str, Any]] = []
 
-        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
-        if not token:
-            job = JobService.get_latest_successful_job_for_upload(str(upload.get("id")))
-            token = job.get("id") if job else None
-
-        if not token:
-            logger.error(
-                "[DASHBOARD_CURRENT] Job without token for upload_id=%s user_id=%s", upload.get("id"), current_user.id
+        conn = DatabasePool.get_connection()
+        with conn.cursor() as cur:
+            cur.execute(
+                """
+                SELECT id, user_id, client_upload_token, file_name, is_master, created_at
+                FROM uploads
+                WHERE user_id = %s
+                ORDER BY created_at DESC
+                LIMIT 20
+                """,
+                (user_identifier,),
             )
-            return jsonify({"success": True, "data": {"has_data": False}})
+            upload_columns = [desc[0] for desc in cur.description]
+            for row in cur.fetchall() or []:
+                upload_entry = dict(zip(upload_columns, row))
+                if isinstance(upload_entry.get("created_at"), datetime):
+                    upload_entry["created_at"] = upload_entry["created_at"].isoformat()
+                uploads_debug.append(upload_entry)
 
-        return jsonify({"success": True, "data": {"has_data": True, "token": token}})
+            cur.execute(
+                """
+                SELECT id, user_id, upload_id, status, created_at
+                FROM jobs
+                WHERE user_id = %s
+                ORDER BY created_at DESC
+                LIMIT 20
+                """,
+                (user_identifier,),
+            )
+            job_columns = [desc[0] for desc in cur.description]
+            for row in cur.fetchall() or []:
+                job_entry = dict(zip(job_columns, row))
+                if isinstance(job_entry.get("created_at"), datetime):
+                    job_entry["created_at"] = job_entry["created_at"].isoformat()
+                jobs_debug.append(job_entry)
+
+        data = {"has_data": False}
+
+        return jsonify(
+            {
+                "success": True,
+                "data": data,
+                "debug": {"user": user_debug, "uploads": uploads_debug, "jobs": jobs_debug},
+            }
+        )
     except Exception:
-        logger.exception("Error in /api/dashboard/current for user %s", current_user.id)
+        logger.exception("Erro em /api/dashboard/current (debug) para user %s", getattr(current_user, "id", None))
         return jsonify({"success": False, "error": "internal_error"})
+    finally:
+        if conn:
+            DatabasePool.return_connection(conn)
 
 
 @bp_dashboard.get("/main")
