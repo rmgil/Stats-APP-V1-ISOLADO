@@ -220,7 +220,13 @@ def api_user_main_dashboard():
 
     payload = build_user_main_dashboard_payload(str(current_user.id))
 
-    if not payload.get("meta", {}).get("months"):
+    logger.debug(
+        "MAIN DASHBOARD: user_id=%s, payload_keys=%s",
+        current_user.id,
+        list(payload.keys()) if payload else None,
+    )
+
+    if not payload or payload.get("empty") or not payload.get("meta", {}).get("months"):
         return jsonify({"success": True, "data": None, "message": "no_data_for_user"})
 
     try:

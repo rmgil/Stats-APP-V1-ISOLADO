@@ -1,5 +1,4 @@
 import logging
-from datetime import datetime
 from typing import Any, Dict, List, Tuple
 
 from app.api_dashboard import build_user_month_dashboard_payload
@@ -22,8 +21,7 @@ def _sorted_months_desc(months: List[str]) -> List[str]:
 
 
 def _select_months(months: List[str]) -> Tuple[List[str], List[float]]:
-    today_month = datetime.utcnow().strftime("%Y-%m")
-    filtered = [m for m in months if m and m != today_month]
+    filtered = [m for m in months if m]
     sorted_months = _sorted_months_desc(filtered)
     selected = sorted_months[:3]
 
@@ -312,3 +310,12 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
         "groups": aggregated_groups,
         "weighted_scores": final_weighted_scores,
     }
+
+
+if __name__ == "__main__":  # pragma: no cover - dev helper
+    test_user_id = "<USER_ID_WITH_UPLOADS>"
+    payload = build_user_main_dashboard_payload(test_user_id)
+    print("HAS_DATA:", bool(payload))
+    if payload:
+        print("GROUP_KEYS:", list(payload.get("groups", {}).keys()))
+        print("MONTHS:", payload.get("meta", {}).get("months"))
