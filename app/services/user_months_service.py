@@ -1,7 +1,10 @@
+import json
 import logging
 from collections import defaultdict
-from typing import Dict, List
+from pathlib import Path
+from typing import Dict, List, Optional
 
+from app.services.master_result_builder import _merge_pipeline_results
 from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 
@@ -66,3 +69,69 @@ class UserMonthsService:
         logger.debug("[USER_MONTHS] Final month-to-tokens map for user %s: %s", user_id, final_map)
 
         return final_map
+
+
+def build_user_month_pipeline_result(user_id: str, month: str) -> Optional[dict]:
+    """
+    Build a synthetic monthly ``pipeline_result`` by aggregating all job tokens for a
+    given user/month pair.
+
+    The aggregation mirrors the original pipeline behavior (including deduplication of
+    hands and recalculation of scores) and returns a payload compatible with
+    ``pipeline_result_<YYYY-MM>.json``.
+    """
+
+    logger.info("[USER_MONTHS] Building aggregated pipeline_result for user=%s month=%s", user_id, month)
+
+    months_service = UserMonthsService()
+    result_storage = ResultStorageService()
+
+    user_months = months_service.get_user_months_map(user_id)
+    tokens = user_months.get(month, [])
+
+    if not tokens:
+        logger.info("[USER_MONTHS] No tokens found for user=%s month=%s", user_id, month)
+        return None
+
+    cache_path = Path("results") / "users" / str(user_id) / "months" / month / "pipeline_result.json"
+    try:
+        if cache_path.exists():
+            cached = json.loads(cache_path.read_text())
+            logger.info("[USER_MONTHS] Returning cached pipeline_result for user=%s month=%s", user_id, month)
+            return cached
+    except Exception as exc:  # noqa: BLE001 - cache read failure should not block rebuild
+        logger.debug("[USER_MONTHS] Failed to read cached pipeline_result for %s/%s: %s", user_id, month, exc)
+
+    result_entries = []
+    for token in tokens:
+        try:
+            pipeline_result = result_storage.get_pipeline_result(token, month=month)
+        except FileNotFoundError:
+            logger.warning("[USER_MONTHS] Missing pipeline_result for token=%s month=%s", token, month)
+            continue
+        except Exception as exc:  # noqa: BLE001 - continue with other tokens
+            logger.warning("[USER_MONTHS] Error loading pipeline_result for %s/%s: %s", token, month, exc)
+            continue
+
+        if pipeline_result:
+            result_entries.append((token, pipeline_result))
+
+    if not result_entries:
+        logger.info("[USER_MONTHS] No pipeline results available to merge for %s/%s", user_id, month)
+        return None
+
+    merged_result = _merge_pipeline_results(result_entries, month_key=month)
+
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(json.dumps(merged_result, indent=2), encoding="utf-8")
+        logger.info(
+            "[USER_MONTHS] Cached aggregated pipeline_result for user=%s month=%s at %s",
+            user_id,
+            month,
+            cache_path,
+        )
+    except Exception as exc:  # noqa: BLE001 - caching is optional
+        logger.debug("[USER_MONTHS] Failed to cache pipeline_result for %s/%s: %s", user_id, month, exc)
+
+    return merged_result
