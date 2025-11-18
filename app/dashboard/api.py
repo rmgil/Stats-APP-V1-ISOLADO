@@ -258,51 +258,25 @@ def api_current_dashboard():
 
         conn = DatabasePool.get_connection()
         with conn.cursor() as cur:
-            token: Optional[str] = None
+            cur.execute(
+                """
+                SELECT j.id
+                FROM uploads u
+                JOIN jobs j ON j.upload_id = u.id
+                WHERE u.user_id = %s
+                  AND j.status = 'done'
+                ORDER BY COALESCE(j.finished_at, j.created_at) DESC
+                LIMIT 1
+                """,
+                (user_identifier,),
+            )
 
-            # Prefer a finished job associated with a master upload when the column exists
-            try:
-                cur.execute(
-                    """
-                    SELECT j.id
-                    FROM uploads u
-                    JOIN jobs j ON j.upload_id = u.id
-                    WHERE u.user_id = %s
-                      AND u.is_master = true
-                      AND j.status = 'done'
-                    ORDER BY j.created_at DESC
-                    LIMIT 1
-                    """,
-                    (user_identifier,),
-                )
-                row = cur.fetchone()
-                if row:
-                    token = row[0]
-            except Exception:
-                logger.debug(
-                    "[DASHBOARD CURRENT] Master upload lookup failed; falling back to latest job",
-                    exc_info=True,
-                )
+            row = cur.fetchone()
 
-            if token is None:
-                cur.execute(
-                    """
-                    SELECT j.id
-                    FROM uploads u
-                    JOIN jobs j ON j.upload_id = u.id
-                    WHERE u.user_id = %s
-                      AND j.status = 'done'
-                    ORDER BY j.created_at DESC
-                    LIMIT 1
-                    """,
-                    (user_identifier,),
-                )
-                row = cur.fetchone()
-                if row:
-                    token = row[0]
-
-            if not token:
+            if not row:
                 return jsonify({"success": True, "data": {"has_data": False}})
+
+            token = row[0]
 
         return jsonify({"success": True, "data": {"has_data": True, "token": str(token)}})
     except Exception:
