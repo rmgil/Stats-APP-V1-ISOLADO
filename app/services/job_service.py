@@ -212,6 +212,43 @@ class JobService:
             if conn:
                 DatabasePool.return_connection(conn)
 
+    @classmethod
+    def get_latest_successful_job_for_upload(cls, upload_id: str) -> Optional[Dict[str, Any]]:
+        """Return the most recent successful job for a given upload."""
+
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, upload_id, status, progress, created_at, started_at, finished_at,
+                           error_message, input_path, result_path
+                    FROM jobs
+                    WHERE upload_id = %s AND status = 'done'
+                    ORDER BY created_at DESC
+                    LIMIT 1
+                    """,
+                    (upload_id,),
+                )
+
+                row = cur.fetchone()
+                if not row:
+                    return None
+
+                return cls._row_to_dict(cur.description, row)
+        except Exception as exc:
+            logger.error(
+                "Failed to fetch latest successful job for upload %s: %s",
+                upload_id,
+                exc,
+                exc_info=True,
+            )
+            return None
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
     @staticmethod
     def _row_to_dict(description, row) -> Dict[str, Any]:
         columns = [col[0] for col in description]

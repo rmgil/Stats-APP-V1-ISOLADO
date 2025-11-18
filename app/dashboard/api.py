@@ -9,6 +9,7 @@ from typing import Any, Dict, Optional, List, Tuple
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
+from app.services.job_service import JobService
 from app.services.result_storage import ResultStorageService
 from app.services.user_main_dashboard_service import get_user_main_month_weights
 from app.services.user_months_service import UserMonthsService
@@ -191,23 +192,28 @@ def api_months_manifest(token):
 @bp_dashboard.get("/current")
 @login_required
 def api_current_dashboard():
-    """Return the current master upload for the authenticated user."""
+    """Return the current master or latest successful dashboard token for the user."""
 
-    master_token = f"user-{current_user.id}"
+    try:
+        upload = UploadService.get_master_or_latest_upload_for_user(str(current_user.id))
+        if not upload:
+            return jsonify({"success": True, "data": {"has_data": False}})
 
-    upload_service = UploadService()
-    master_upload = upload_service.get_master_upload(str(current_user.id))
+        job = JobService.get_latest_successful_job_for_upload(str(upload.get("id")))
+        if not job:
+            return jsonify({"success": True, "data": {"has_data": False}})
 
-    result_service = ResultStorageService()
-    has_data = result_service.job_exists(master_token)
+        token = job.get("id")
+        if not token:
+            logger.error(
+                "[DASHBOARD_CURRENT] Job without token for upload_id=%s user_id=%s", upload.get("id"), current_user.id
+            )
+            return jsonify({"success": False, "error": "job_without_token"})
 
-    return jsonify(
-        {
-            "upload_id": master_token,
-            "has_data": has_data,
-            "client_token": master_upload.get("client_upload_token") if master_upload else None,
-        }
-    )
+        return jsonify({"success": True, "data": {"has_data": True, "token": token}})
+    except Exception:
+        logger.exception("Error in /api/dashboard/current for user %s", current_user.id)
+        return jsonify({"success": False, "error": "internal_error"})
 
 
 @bp_dashboard.get("/main")
