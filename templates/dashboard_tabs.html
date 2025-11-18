@@ -29,6 +29,18 @@
             padding: 20px;
             border-bottom: 1px solid #222;
         }
+
+        .months-banner {
+            max-width: 1400px;
+            margin: 10px auto 0;
+            padding: 12px 16px;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.12), rgba(118, 75, 162, 0.12));
+            border: 1px solid rgba(102, 126, 234, 0.35);
+            border-radius: 10px;
+            color: #cbd5ff;
+            font-size: 13px;
+            display: none;
+        }
         
         .header-content {
             max-width: 1400px;
@@ -540,7 +552,6 @@
         /* Table Header */
         .stat-header {
             display: grid;
-            grid-template-columns: 100px 1fr 100px 120px 130px 80px;
             gap: 20px;
             align-items: center;
             padding: 12px 20px;
@@ -571,7 +582,6 @@
         
         .stat-row {
             display: grid;
-            grid-template-columns: 100px 1fr 100px 120px 130px 80px;
             gap: 20px;
             align-items: center;
             padding: 12px 0;
@@ -583,14 +593,14 @@
             position: relative;
         }
         
-        /* Highlight "Nota final" column (6th column) with subtle gradient background */
-        .stat-row > div:nth-child(6) {
+        /* Highlight "Nota final" column with subtle gradient background */
+        .stat-row .score-cell {
             background: linear-gradient(90deg, rgba(102, 126, 234, 0.08), rgba(118, 75, 162, 0.08));
             border-radius: 6px;
             padding: 8px 10px;
         }
-        
-        .stat-header > div:nth-child(6) {
+
+        .stat-header .score-cell {
             background: linear-gradient(90deg, rgba(102, 126, 234, 0.12), rgba(118, 75, 162, 0.12));
             border-radius: 6px;
             padding: 8px 10px;
@@ -968,7 +978,9 @@
             </div>
         </div>
     </div>
-    
+
+    <div id="monthsBanner" class="months-banner"></div>
+
     <div class="tabs-container">
         <!-- Main Tab Navigation -->
         <div class="tab-nav">
@@ -1103,6 +1115,7 @@
         let currentTab = 'geral';
         let currentNonkoSubTab = '9max';
         let currentUploadId = null;
+        let mainDashboardMonths = [];
         
         // Combined tooltips: Rules + Practical Examples (English, Hero perspective, verified against code)
         const statTooltips = {
@@ -1344,6 +1357,9 @@
             // Update summary - check both direct and overall paths
             const totalHands = data.total_hands || (data.overall && data.overall.total_hands) || 0;
             const validHands = data.valid_hands || (data.overall && data.overall.valid_hands) || 0;
+
+            mainDashboardMonths = Array.isArray(data.meta?.months) ? data.meta.months : [];
+            updateMonthsBanner(mainDashboardMonths);
             
             document.getElementById('totalHands').textContent = totalHands;
             document.getElementById('validHands').textContent = validHands;
@@ -1415,6 +1431,35 @@
             displayNonkoTab(data);
             displayPkoTab(data);
             displayPostflopTab(data);
+        }
+
+        function updateMonthsBanner(monthEntries) {
+            const banner = document.getElementById('monthsBanner');
+            if (!banner) return;
+
+            if (!Array.isArray(monthEntries) || monthEntries.length === 0) {
+                banner.style.display = 'none';
+                banner.textContent = '';
+                return;
+            }
+
+            const formatted = monthEntries
+                .filter(entry => entry && entry.month)
+                .map(entry => {
+                    const weightPct = entry.weight !== undefined && entry.weight !== null
+                        ? (entry.weight * 100).toFixed(0)
+                        : '0';
+                    return `${entry.month} (${weightPct}%)`;
+                });
+
+            if (formatted.length === 0) {
+                banner.style.display = 'none';
+                banner.textContent = '';
+                return;
+            }
+
+            banner.textContent = `Baseado nos meses: ${formatted.join(', ')}`;
+            banner.style.display = 'block';
         }
         
         function displayGeneralTab(data) {
@@ -1647,7 +1692,7 @@
             const nonko9max = data.groups.nonko_9max || {};
             if (nonko9max.hands_count > 0) {
                 const nonko9maxScores = transformScoresToWeightedFormat(nonko9max);
-                displayStatsContainer('content-nonko-9max', '9-max', nonko9max, nonko9maxScores);
+                displayStatsContainer('content-nonko-9max', '9-max', nonko9max, nonko9maxScores, mainDashboardMonths);
             } else {
                 document.getElementById('content-nonko-9max').innerHTML = `
                     <div class="empty-state">
@@ -1664,7 +1709,7 @@
             const nonko6max = data.groups.nonko_6max || {};
             if (nonko6max.hands_count > 0) {
                 const nonko6maxScores = transformScoresToWeightedFormat(nonko6max);
-                displayStatsContainer('content-nonko-6max', '6-max', nonko6max, nonko6maxScores);
+                displayStatsContainer('content-nonko-6max', '6-max', nonko6max, nonko6maxScores, mainDashboardMonths);
             } else {
                 document.getElementById('content-nonko-6max').innerHTML = `
                     <div class="empty-state">
@@ -1681,11 +1726,11 @@
         function displayPkoTab(data) {
             const weightedScores = data.weighted_scores || {};
             const pkoWeightedData = weightedScores.pko;
-            
-            
+
+
             const pkoData = data.groups.pko || {};
             if (pkoData.hands_count > 0) {
-                displayStatsContainer('content-pko', 'PKO', pkoData, pkoWeightedData);
+                displayStatsContainer('content-pko', 'PKO', pkoData, pkoWeightedData, mainDashboardMonths);
             } else {
                 document.getElementById('content-pko').innerHTML = `
                     <div class="empty-state">
@@ -1708,7 +1753,7 @@
             if (postflopAll) {
                 // Use pre-aggregated postflop_all data from API
                 console.log('[POSTFLOP DEBUG] Using postflop_all with', postflopAll.hands_count, 'hands');
-                displayStatsContainer('content-postflop', 'POSTFLOP', postflopAll);
+                displayStatsContainer('content-postflop', 'POSTFLOP', postflopAll, null, mainDashboardMonths);
             } else {
                 // Fallback: Combine postflop stats from individual groups
                 const combinedStats = {};
@@ -1829,9 +1874,15 @@
         }
         
         
-        function displayStatsContainer(containerId, title, groupData, weightedScoresData) {
+        function getStatGridTemplate(monthCount) {
+            const safeCount = Math.max(monthCount, 1);
+            const monthColumns = Array(safeCount).fill('110px');
+            return ['100px', '1fr', ...monthColumns, '120px', '130px', '80px'].join(' ');
+        }
+
+        function displayStatsContainer(containerId, title, groupData, weightedScoresData = null, monthsInfo = []) {
             const container = document.getElementById(containerId);
-            
+
             // Handle different data structures for postflop vs preflop
             let stats = {};
             if (title === 'POSTFLOP' && groupData.subgroups) {
@@ -1844,6 +1895,7 @@
                                 attempts: statData.att || statData.attempts || 0,
                                 opportunities: statData.opps || statData.opportunities || 0,
                                 percentage: statData.pct || statData.percentage || 0,
+                                frequencies_by_month: statData.frequencies_by_month,
                                 ideal: statData.ideal,
                                 score: statData.score,
                                 weight: statData.weight
@@ -1891,8 +1943,19 @@
                     'Defesa da SB': ['SB fold to CO Steal', 'SB fold to BTN Steal', 'SB resteal vs BTN']
                 };
             }
-            
+
             // Build HTML
+            const monthEntries = Array.isArray(monthsInfo) ? monthsInfo.filter(entry => entry && entry.month) : [];
+            const monthsToRender = monthEntries.length > 0 ? monthEntries : [{ month: 'Resultado', weight: null }];
+            const gridTemplate = getStatGridTemplate(monthsToRender.length);
+
+            const monthHeaders = monthsToRender.map(entry => {
+                const weight = entry.weight !== null && entry.weight !== undefined
+                    ? ` (${(entry.weight * 100).toFixed(0)}%)`
+                    : '';
+                return `<div style="text-align: center;">% ${entry.month}${weight}</div>`;
+            }).join('');
+
             let html = `
                 <div class="stats-container">
                     <div class="stats-header-wrapper">
@@ -1914,13 +1977,13 @@
                                 "><span style="opacity: 0.8;">📊 Nota Geral:</span> <span class="${getScoreColorClass(groupData.overall_score)}" style="font-size: 16px;">${groupData.overall_score.toFixed(0)}/100</span></span>` : ''}
                             </div>
                         </div>
-                        <div class="stat-header">
+                        <div class="stat-header" style="grid-template-columns: ${gridTemplate};">
                             <div style="text-align: center;">Download</div>
                             <div style="text-align: left;">Stat</div>
-                            <div style="text-align: center;">Resultado</div>
+                            ${monthHeaders}
                             <div style="text-align: center;">Sample</div>
                             <div style="text-align: left;">Nº ideal</div>
-                            <div style="text-align: center;">Nota final</div>
+                            <div class="score-cell" style="text-align: center;">Nota final</div>
                         </div>
                     </div>
                     <div class="stats-body">
@@ -1992,26 +2055,21 @@
                 categoryStats.forEach(stat => {
                     // Use pre-calculated percentage/pct if available (for W$WSF Rating, River Agg %)
                     // Otherwise calculate standard percentage
-                    let percentage;
+                    let aggregatedPercentage = null;
                     // W$WSF Rating and River Agg % need 2 decimal places (1.07), others need 1 (90.3%)
                     const decimalPlaces = (stat.key === 'W$WSF Rating' || stat.key === 'River Agg %') ? 2 : 1;
-                    
+
                     if (stat.percentage !== undefined && stat.percentage !== null) {
-                        // Use pre-calculated value (could be rating like 1.07 or percentage like 90.27)
-                        percentage = stat.percentage.toFixed(decimalPlaces);
+                        aggregatedPercentage = Number(stat.percentage);
                     } else if (stat.pct !== undefined && stat.pct !== null) {
-                        // Use pct value from API
-                        percentage = stat.pct.toFixed(decimalPlaces);
+                        aggregatedPercentage = Number(stat.pct);
                     } else if (stat.opportunities > 0) {
-                        // Fallback: calculate percentage
-                        percentage = ((stat.attempts / stat.opportunities) * 100).toFixed(decimalPlaces);
-                    } else {
-                        // CHANGED: Show N/A instead of 0.0 when no data exists
-                        percentage = 'N/A';
+                        aggregatedPercentage = (stat.attempts / stat.opportunities) * 100;
                     }
-                    
-                    // CHANGED: Handle N/A percentage for fillWidth
-                    const fillWidth = percentage === 'N/A' ? 0 : Math.min(100, parseFloat(percentage));
+
+                    const aggregatedPercentageDisplay = aggregatedPercentage !== null
+                        ? aggregatedPercentage.toFixed(decimalPlaces)
+                        : 'N/A';
                     
                     // Get individual score and ideal for this stat
                     let scoreDisplay = '-';
@@ -2162,7 +2220,9 @@
                     console.log(`[DOWNLOAD DEBUG] Stat: "${stat.key}", Normalized: "${normalizedKey}", Format: "${formatKey}"`);
                     
                     // For POSTFLOP tab, prioritize 'all' (cross-format), then search specific formats
-                    if (formatKey === 'postflop_all') {
+                    if (isMainDashboard && formatKey) {
+                        url = `/api/dashboard/main/sample/${formatKey}/${encodeURIComponent(normalizedKey)}`;
+                    } else if (formatKey === 'postflop_all') {
                         for (const format of ['all', 'nonko_9max', 'nonko_6max', 'pko']) {
                             if (downloadUrls[format]) {
                                 // Try normalized key first
@@ -2245,7 +2305,7 @@
                     
                     // Apply color to percentage result based on score (same gradient as final score)
                     const percentageColorClass = (stat.score !== null && stat.score !== undefined) ? getScoreColorClass(stat.score) : '';
-                    
+
                     // W$WSF Rating and River Agg % don't show (attempts/opportunities) count
                     const showCount = !(stat.key === 'W$WSF Rating' || stat.key === 'River Agg %');
                     const countDisplay = showCount ? `<span class="stat-count">(${stat.attempts}/${stat.opportunities})</span>` : '<span class="stat-count" style="color: #666;">—</span>';
@@ -2268,14 +2328,25 @@
                         console.log(`[DOWNLOAD BUTTON] No button for stat: "${stat.key}"`);
                     }
                     
+                    const monthValues = monthsToRender.map((entry, idx) => {
+                        const frequencies = Array.isArray(stat.frequencies_by_month) ? stat.frequencies_by_month : [];
+                        let value = aggregatedPercentageDisplay;
+
+                        if (monthEntries.length > 0 && frequencies[idx] !== undefined && frequencies[idx] !== null) {
+                            value = Number(frequencies[idx]).toFixed(decimalPlaces);
+                        }
+
+                        return `<div style="text-align: center;"><span class="stat-percentage ${percentageColorClass}" style="font-weight: 600;">${value}${displaySuffix}</span></div>`;
+                    }).join('');
+
                     html += `
-                        <div class="stat-row">
+                        <div class="stat-row" style="grid-template-columns: ${gridTemplate};">
                             <div style="text-align: center;">${downloadButton}</div>
                             <div style="text-align: left;">${statNameWithTooltip}</div>
-                            <div style="text-align: center;"><span class="stat-percentage ${percentageColorClass}" style="font-weight: 600;">${percentage}${displaySuffix}</span></div>
+                            ${monthValues}
                             <div style="text-align: center;">${countDisplay}</div>
                             <div style="text-align: left;">${idealDisplay}</div>
-                            <div style="text-align: center;"><span class="stat-score ${scoreColorClass}" style="font-weight: 600;">${scoreDisplay}</span></div>
+                            <div class="score-cell" style="text-align: center;"><span class="stat-score ${scoreColorClass}" style="font-weight: 600;">${scoreDisplay}</span></div>
                         </div>
                     `;
                 });
