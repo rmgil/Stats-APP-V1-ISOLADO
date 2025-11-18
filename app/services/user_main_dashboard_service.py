@@ -212,6 +212,8 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     months_map = months_service.get_user_months_map(user_id)
     all_months = list(months_map.keys())
 
+    logger.debug("[USER_MAIN] Months available for %s: %s", user_id, sorted(all_months))
+
     selected_months, base_weights = _select_months(all_months)
     logger.debug("[USER_MAIN] Selected months for %s: %s", user_id, selected_months)
 
@@ -287,6 +289,13 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
         merged_score = merge_group_scores(weighted_scores["overall"])
         if merged_score is not None:
             final_weighted_scores["overall"] = merged_score
+
+    logger.debug(
+        "[USER_MAIN] Aggregating months for %s -> months_used=%s weights=%s",
+        user_id,
+        months_used,
+        weights,
+    )
 
     return {
         "meta": {
