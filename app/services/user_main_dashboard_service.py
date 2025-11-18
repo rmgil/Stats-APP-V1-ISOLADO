@@ -215,7 +215,12 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     logger.debug("[USER_MAIN] Months available for %s: %s", user_id, sorted(all_months))
 
     selected_months, base_weights = _select_months(all_months)
-    logger.debug("[USER_MAIN] Selected months for %s: %s", user_id, selected_months)
+    logger.debug(
+        "[USER_MAIN] Selected months for %s: %s with base weights=%s",
+        user_id,
+        selected_months,
+        base_weights,
+    )
 
     month_payloads: List[Tuple[str, Dict[str, Any]]] = []
     for month in selected_months:
@@ -249,6 +254,7 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     logger.debug("[USER_MAIN] Normalized weights: %s", weights)
 
     aggregated_groups = _merge_group_stats(month_payloads, weights)
+    logger.debug("[USER_MAIN] Aggregated groups count for %s: %s", user_id, len(aggregated_groups))
 
     weighted_scores = {}
     months_used = []
