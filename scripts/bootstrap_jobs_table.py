@@ -5,7 +5,7 @@ import psycopg2
 CREATE_TABLE_SQL = """
 CREATE TABLE IF NOT EXISTS jobs (
     id VARCHAR(32) PRIMARY KEY,
-    user_id UUID NOT NULL REFERENCES auth.users(id),
+    user_id UUID NOT NULL,
     upload_id UUID NOT NULL REFERENCES uploads(id),
     status VARCHAR(32) NOT NULL DEFAULT 'pending',
     progress INTEGER NOT NULL DEFAULT 0,
