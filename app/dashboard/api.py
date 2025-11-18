@@ -212,7 +212,7 @@ def api_current_dashboard():
         with conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT id, user_id, file_name, is_master, created_at
+                SELECT id, user_id, filename, is_master, created_at
                 FROM uploads
                 WHERE user_id = %s
                 ORDER BY created_at DESC
