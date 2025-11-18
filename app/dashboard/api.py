@@ -4,6 +4,7 @@ from flask import Blueprint, Response, jsonify, request
 from flask_login import current_user, login_required
 import os, re, tempfile, json
 import logging
+import traceback
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, Optional, List, Tuple
@@ -252,9 +253,22 @@ def api_current_dashboard():
                 "debug": {"user": user_debug, "uploads": uploads_debug, "jobs": jobs_debug},
             }
         )
-    except Exception:
-        logger.exception("Erro em /api/dashboard/current (debug) para user %s", getattr(current_user, "id", None))
-        return jsonify({"success": False, "error": "internal_error"})
+    except Exception as e:
+        logger.exception(
+            "Erro em /api/dashboard/current (debug) para user %s",
+            getattr(current_user, "id", None),
+        )
+
+        tb = traceback.format_exc()
+
+        return jsonify(
+            {
+                "success": False,
+                "error": "internal_error",
+                "debug_exception": str(e),
+                "debug_traceback": tb,
+            }
+        )
     finally:
         if conn:
             DatabasePool.return_connection(conn)
