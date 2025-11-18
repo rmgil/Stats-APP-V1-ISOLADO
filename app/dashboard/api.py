@@ -20,6 +20,9 @@ from app.stats.hand_collector import HandCollector
 from app.services.db_pool import DatabasePool
 
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
+bp_dashboard_debug = Blueprint(
+    "bp_dashboard_debug", __name__ + "_debug", url_prefix="/api/debug/dashboard"
+)
 
 logger = logging.getLogger(__name__)
 
@@ -137,7 +140,7 @@ def api_dashboard_with_token(token):
     try:
         # Get optional month parameter from query string
         month = request.args.get('month')
-        
+
         # Validate month format if provided
         if month:
             import re
@@ -148,7 +151,14 @@ def api_dashboard_with_token(token):
                     "detail": "Month must be in YYYY-MM format"
                 }), 400
         
-        # Use the build_dashboard_payload function from api_dashboard
+        # DEBUG NOTE:
+        # O token da dashboard é o próprio jobs.id (gerado em JobService.create_job
+        # com secrets.token_hex(6)). /api/dashboard/<token> passa esse valor direto
+        # para build_dashboard_payload(token, ...), que usa ResultStorageService
+        # para ler /results/<token>/pipeline_result_global.json e as variantes
+        # mensais (pipeline_result_<YYYY-MM>.json ou months/<YYYY-MM>/pipeline_result.json).
+        # Assim, o diretório de storage base é sempre /results/<jobs.id>/.
+
         data = build_dashboard_payload(token, month=month)
         return jsonify({"ok": True, "data": data})
     except FileNotFoundError as e:
@@ -351,6 +361,113 @@ def api_user_main_sample(group: str, stat_key: str):
         payload += "\n"
 
     return Response(payload, mimetype="text/plain")
+
+
+@bp_dashboard_debug.get("/state")
+@login_required
+def api_debug_dashboard_state():
+    """Mapeia uploads → jobs → tokens e verifica se o payload existe."""
+
+    try:
+        user_identifier = str(getattr(current_user, "id", ""))
+        if not user_identifier:
+            return jsonify({"success": False, "error": "missing_user_id"}), 400
+
+        conn = None
+        uploads: list[dict] = []
+        jobs: list[dict] = []
+
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, is_master, created_at
+                    FROM uploads
+                    WHERE user_id = %s
+                    ORDER BY created_at DESC
+                    """,
+                    (user_identifier,),
+                )
+                upload_rows = cur.fetchall() or []
+                upload_columns = [desc[0] for desc in cur.description]
+                uploads = [dict(zip(upload_columns, row)) for row in upload_rows]
+
+                upload_ids = [row.get("id") for row in uploads if row.get("id") is not None]
+
+                if upload_ids:
+                    cur.execute(
+                        """
+                        SELECT id, upload_id, status, created_at
+                        FROM jobs
+                        WHERE upload_id = ANY(%s)
+                        ORDER BY created_at DESC
+                        """,
+                        (upload_ids,),
+                    )
+                    job_rows = cur.fetchall() or []
+                    job_columns = [desc[0] for desc in cur.description]
+                    jobs = [dict(zip(job_columns, row)) for row in job_rows]
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
+        items = []
+        for job in jobs:
+            token = job.get("id")
+            has_payload = False
+            error = None
+
+            try:
+                payload = build_dashboard_payload(str(token), month=None)
+                has_payload = bool(payload)
+            except Exception as exc:  # noqa: BLE001 - debug endpoint deve expor erros
+                error = str(exc)
+
+            items.append(
+                {
+                    "job_id": job.get("id"),
+                    "upload_id": job.get("upload_id"),
+                    "status": job.get("status"),
+                    "created_at": job.get("created_at"),
+                    "token": str(token),
+                    "has_payload": has_payload,
+                    "error": error,
+                }
+            )
+
+        def _serialize_upload(upload: dict) -> dict:
+            return {
+                "id": upload.get("id"),
+                "user_id": upload.get("user_id"),
+                "client_upload_token": upload.get("client_upload_token"),
+                "file_name": upload.get("file_name"),
+                "is_master": upload.get("is_master"),
+                "created_at": upload.get("created_at"),
+            }
+
+        return jsonify(
+            {
+                "success": True,
+                "data": {
+                    "user_identifier_used_in_uploads": user_identifier,
+                    "uploads": [_serialize_upload(u) for u in uploads],
+                    "jobs": items,
+                },
+            }
+        )
+    except Exception as e:  # noqa: BLE001 - endpoint de debug deve devolver rastreio
+        logger.exception("Erro em /api/debug/dashboard/state")
+        import traceback
+
+        return jsonify(
+            {
+                "success": False,
+                "error": "internal_error",
+                "debug_exception": str(e),
+                "debug_traceback": traceback.format_exc(),
+            }
+        )
 
 
 if __name__ == "__main__":
