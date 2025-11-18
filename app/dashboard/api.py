@@ -195,7 +195,7 @@ def api_months_manifest(token):
 @bp_dashboard.get("/current")
 @login_required
 def api_current_dashboard():
-    """Endpoint TEMPORÁRIO de diagnóstico para inspeção de uploads e jobs do utilizador."""
+    """Devolve o token de dashboard mais recente (ou master) para o utilizador autenticado."""
 
     conn = None
     try:
@@ -212,20 +212,21 @@ def api_current_dashboard():
         with conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT id, user_id, client_upload_token, file_name, is_master, created_at
+                SELECT id, user_id, file_name, is_master, created_at
                 FROM uploads
                 WHERE user_id = %s
                 ORDER BY created_at DESC
-                LIMIT 20
                 """,
                 (user_identifier,),
             )
             upload_columns = [desc[0] for desc in cur.description]
+            uploads: List[Dict[str, Any]] = []
             for row in cur.fetchall() or []:
                 upload_entry = dict(zip(upload_columns, row))
                 if isinstance(upload_entry.get("created_at"), datetime):
                     upload_entry["created_at"] = upload_entry["created_at"].isoformat()
-                uploads_debug.append(upload_entry)
+                uploads_debug.append(upload_entry.copy())
+                uploads.append(upload_entry)
 
             cur.execute(
                 """
@@ -244,7 +245,37 @@ def api_current_dashboard():
                     job_entry["created_at"] = job_entry["created_at"].isoformat()
                 jobs_debug.append(job_entry)
 
-        data = {"has_data": False}
+            if not uploads:
+                data = {"has_data": False}
+            else:
+                master_upload = next((u for u in uploads if u.get("is_master")), None)
+                candidate_uploads = []
+                if master_upload:
+                    candidate_uploads.append(master_upload)
+                candidate_uploads.extend(
+                    [u for u in uploads if not master_upload or u.get("id") != master_upload.get("id")]
+                )
+
+                token = None
+                for upload in candidate_uploads:
+                    cur.execute(
+                        """
+                        SELECT id
+                        FROM jobs
+                        WHERE upload_id = %s AND status = 'done'
+                        ORDER BY created_at DESC
+                        LIMIT 1
+                        """,
+                        (upload.get("id"),),
+                    )
+                    row = cur.fetchone()
+                    if row:
+                        token = row[0]
+                        break
+
+                data: Dict[str, Any] = {"has_data": bool(token)}
+                if token:
+                    data["token"] = token
 
         return jsonify(
             {
