@@ -9,6 +9,7 @@ from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
 from app.services.result_storage import ResultStorageService
+from app.services.user_main_dashboard_service import build_user_main_dashboard_payload
 
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
 
@@ -119,3 +120,16 @@ def api_current_dashboard():
             "client_token": master_upload.get("client_upload_token") if master_upload else None,
         }
     )
+
+
+@bp_dashboard.get("/main")
+@login_required
+def api_user_main_dashboard():
+    """Return the main dashboard payload for the authenticated user."""
+
+    payload = build_user_main_dashboard_payload(str(current_user.id))
+
+    if not payload.get("meta", {}).get("months"):
+        return jsonify({"success": True, "data": None, "message": "no_data_for_user"})
+
+    return jsonify({"success": True, "data": payload})
