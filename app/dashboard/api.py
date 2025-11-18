@@ -200,19 +200,14 @@ def api_current_dashboard():
     conn = None
     try:
         user_identifier = str(getattr(current_user, "id", ""))
-        user_debug = {
-            "id": getattr(current_user, "id", None),
-            "email": getattr(current_user, "email", None),
-        }
-
-        uploads_debug: List[Dict[str, Any]] = []
-        jobs_debug: List[Dict[str, Any]] = []
+        if not user_identifier:
+            return jsonify({"success": True, "data": {"has_data": False}})
 
         conn = DatabasePool.get_connection()
         with conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT id, user_id, filename, is_master, created_at
+                SELECT id, user_id, is_master, created_at
                 FROM uploads
                 WHERE user_id = %s
                 ORDER BY created_at DESC
@@ -220,86 +215,37 @@ def api_current_dashboard():
                 (user_identifier,),
             )
             upload_columns = [desc[0] for desc in cur.description]
-            uploads: List[Dict[str, Any]] = []
-            for row in cur.fetchall() or []:
-                upload_entry = dict(zip(upload_columns, row))
-                if isinstance(upload_entry.get("created_at"), datetime):
-                    upload_entry["created_at"] = upload_entry["created_at"].isoformat()
-                uploads_debug.append(upload_entry.copy())
-                uploads.append(upload_entry)
+            uploads: List[Dict[str, Any]] = [dict(zip(upload_columns, row)) for row in cur.fetchall() or []]
+
+            if not uploads:
+                return jsonify({"success": True, "data": {"has_data": False}})
+
+            master_upload = next((u for u in uploads if u.get("is_master")), None)
+            main_upload = master_upload or uploads[0]
 
             cur.execute(
                 """
-                SELECT id, user_id, upload_id, status, created_at
+                SELECT id
                 FROM jobs
-                WHERE user_id = %s
+                WHERE upload_id = %s AND status = 'done'
                 ORDER BY created_at DESC
-                LIMIT 20
+                LIMIT 1
                 """,
-                (user_identifier,),
+                (main_upload.get("id"),),
             )
-            job_columns = [desc[0] for desc in cur.description]
-            for row in cur.fetchall() or []:
-                job_entry = dict(zip(job_columns, row))
-                if isinstance(job_entry.get("created_at"), datetime):
-                    job_entry["created_at"] = job_entry["created_at"].isoformat()
-                jobs_debug.append(job_entry)
+            row = cur.fetchone()
+            if not row:
+                return jsonify({"success": True, "data": {"has_data": False}})
 
-            if not uploads:
-                data = {"has_data": False}
-            else:
-                master_upload = next((u for u in uploads if u.get("is_master")), None)
-                candidate_uploads = []
-                if master_upload:
-                    candidate_uploads.append(master_upload)
-                candidate_uploads.extend(
-                    [u for u in uploads if not master_upload or u.get("id") != master_upload.get("id")]
-                )
+            token = row[0]
 
-                token = None
-                for upload in candidate_uploads:
-                    cur.execute(
-                        """
-                        SELECT id
-                        FROM jobs
-                        WHERE upload_id = %s AND status = 'done'
-                        ORDER BY created_at DESC
-                        LIMIT 1
-                        """,
-                        (upload.get("id"),),
-                    )
-                    row = cur.fetchone()
-                    if row:
-                        token = row[0]
-                        break
-
-                data: Dict[str, Any] = {"has_data": bool(token)}
-                if token:
-                    data["token"] = token
-
-        return jsonify(
-            {
-                "success": True,
-                "data": data,
-                "debug": {"user": user_debug, "uploads": uploads_debug, "jobs": jobs_debug},
-            }
-        )
-    except Exception as e:
+        return jsonify({"success": True, "data": {"has_data": True, "token": token}})
+    except Exception:
         logger.exception(
-            "Erro em /api/dashboard/current (debug) para user %s",
+            "Erro em /api/dashboard/current para user %s",
             getattr(current_user, "id", None),
         )
-
-        tb = traceback.format_exc()
-
-        return jsonify(
-            {
-                "success": False,
-                "error": "internal_error",
-                "debug_exception": str(e),
-                "debug_traceback": tb,
-            }
-        )
+        return jsonify({"success": False, "error": "internal_error"})
     finally:
         if conn:
             DatabasePool.return_connection(conn)
