@@ -10,6 +10,61 @@ logger = logging.getLogger(__name__)
 class UploadService:
     """Provide CRUD helpers for the uploads table."""
 
+    @classmethod
+    def get_master_or_latest_upload_for_user(cls, user_id: str) -> Optional[Dict[str, Any]]:
+        """Return the master upload for the user or, if missing, the latest upload."""
+
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, file_hash,
+                           created_at, updated_at, is_active, is_master
+                    FROM uploads
+                    WHERE user_id = %s AND is_master = true AND is_active = true
+                    ORDER BY created_at DESC
+                    LIMIT 1
+                    """,
+                    (user_id,),
+                )
+
+                row = cur.fetchone()
+                if row:
+                    columns = [desc[0] for desc in cur.description]
+                    return dict(zip(columns, row))
+
+                cur.execute(
+                    """
+                    SELECT id, user_id, client_upload_token, file_name, file_hash,
+                           created_at, updated_at, is_active, is_master
+                    FROM uploads
+                    WHERE user_id = %s AND is_active = true
+                    ORDER BY created_at DESC
+                    LIMIT 1
+                    """,
+                    (user_id,),
+                )
+
+                row = cur.fetchone()
+                if row:
+                    columns = [desc[0] for desc in cur.description]
+                    return dict(zip(columns, row))
+
+                return None
+        except Exception as exc:
+            logger.error(
+                "Failed to fetch master or latest upload for user %s: %s",
+                user_id,
+                exc,
+                exc_info=True,
+            )
+            return None
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
     def get_active_upload_by_hash(self, user_id: str, file_hash: str) -> Optional[Dict[str, Any]]:
         """Fetch the most recent active upload matching a user's file hash."""
         conn = None
