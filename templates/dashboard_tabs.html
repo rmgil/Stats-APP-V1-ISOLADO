@@ -1181,16 +1181,14 @@
         const path = window.location.pathname;
         const parts = path.split('/').filter(Boolean);
 
-        const isMainDashboard =
-            (parts.length === 1 && parts[0] === 'dashboard') ||
-            (parts.length === 2 && parts[0] === 'dashboard' && parts[1] === 'main');
+        const isDashboardRoot = parts.length === 1 && parts[0] === 'dashboard';
+        const tokenFromPath = (parts.length === 2 && parts[0] === 'dashboard' && parts[1] !== 'main')
+            ? parts[1]
+            : null;
+        const isMainDashboard = parts.length === 2 && parts[0] === 'dashboard' && parts[1] === 'main';
 
         document.addEventListener('DOMContentLoaded', async function() {
             // Resolve token from path, query string or server-provided default
-            const tokenFromPath = (!isMainDashboard && parts.length === 2 && parts[0] === 'dashboard')
-                ? parts[1]
-                : null;
-
             let token = tokenFromPath || urlParams.get('token') || window.initialDashboardToken || null;
 
             const uploadIdFromQuery = urlParams.get('upload_id');
@@ -1210,12 +1208,21 @@
                 return;
             }
 
-            if (!token) {
-                showError('Token não fornecido');
+            if (token) {
+                loadDashboardByToken(token, month, currentUploadId);
                 return;
             }
 
-            loadDashboardByToken(token, month, currentUploadId);
+            if (isDashboardRoot) {
+                try {
+                    await loadCurrentDashboard();
+                } catch (error) {
+                    showError('Erro de conexão: ' + error.message);
+                }
+                return;
+            }
+
+            showError('Token não fornecido');
         });
         
         // Tab switching
@@ -1252,6 +1259,38 @@
             document.getElementById(`nonko-${subTab}`).style.display = 'block';
         }
         
+        async function loadCurrentDashboard() {
+            try {
+                const res = await fetch('/api/dashboard/current');
+                if (!res.ok) {
+                    showError('Erro ao carregar dashboard atual.');
+                    return;
+                }
+
+                const json = await res.json();
+                if (!json.success) {
+                    showError('Erro ao carregar dashboard atual.');
+                    return;
+                }
+
+                const info = json.data || {};
+                if (!info.has_data) {
+                    showNoDataMessage();
+                    return;
+                }
+
+                if (!info.token) {
+                    showError('Dashboard atual sem token.');
+                    return;
+                }
+
+                loadDashboardByToken(info.token);
+            } catch (e) {
+                console.error(e);
+                showError('Erro ao carregar dashboard atual.');
+            }
+        }
+
         async function loadMainDashboard() {
             try {
                 const res = await fetch('/api/dashboard/main');
