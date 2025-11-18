@@ -1,19 +1,110 @@
 # app/dashboard/api.py
 from __future__ import annotations
-from flask import Blueprint, request, jsonify
-from flask_login import login_required, current_user
-import os, re, tempfile
+from flask import Blueprint, Response, jsonify, request
+from flask_login import current_user, login_required
+import os, re, tempfile, json
 import logging
-from typing import Any, Dict, Optional
+from pathlib import Path
+from typing import Any, Dict, Optional, List, Tuple
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload
 from app.services.upload_service import UploadService
 from app.services.result_storage import ResultStorageService
-from app.services.user_main_dashboard_service import build_user_main_dashboard_payload
+from app.services.user_main_dashboard_service import (
+    build_user_main_dashboard_payload,
+    get_user_main_month_weights,
+)
+from app.services.user_months_service import UserMonthsService
+from app.services.storage import get_storage
+from app.stats.hand_collector import HandCollector
 
 bp_dashboard = Blueprint("bp_dashboard", __name__, url_prefix="/api/dashboard")
 
+logger = logging.getLogger(__name__)
+
 SAFE_RE = re.compile(r"^[a-zA-Z0-9_\-]{8,64}$")
+
+
+def _read_storage_or_local(storage, storage_path: str, local_path: Path) -> Optional[bytes]:
+    try:
+        data = storage.download_file(storage_path)
+        if data:
+            return data
+    except Exception as exc:  # noqa: BLE001 - best-effort fallback to local
+        logger.debug("[MAIN_SAMPLE] Storage read failed for %s: %s", storage_path, exc)
+
+    try:
+        if local_path.exists():
+            return local_path.read_bytes()
+    except Exception as exc:  # noqa: BLE001 - optional fallback
+        logger.debug("[MAIN_SAMPLE] Local read failed for %s: %s", local_path, exc)
+
+    return None
+
+
+def _load_metadata(storage, base_storage_prefix: str, base_local_dir: Path) -> Dict[str, Any]:
+    metadata_bytes = _read_storage_or_local(
+        storage,
+        f"{base_storage_prefix}/metadata.json",
+        base_local_dir / "metadata.json",
+    )
+
+    if not metadata_bytes:
+        return {}
+
+    try:
+        return json.loads(metadata_bytes.decode("utf-8"))
+    except Exception as exc:  # noqa: BLE001 - guard against malformed metadata
+        logger.warning("[MAIN_SAMPLE] Failed to parse metadata at %s: %s", base_storage_prefix, exc)
+        return {}
+
+
+def _load_stat_hands(
+    storage,
+    token: str,
+    month: str,
+    group: str,
+    stat_key: str,
+    stat_filename: str,
+) -> List[Tuple[str, str]]:
+    base_storage_prefix = f"/results/{token}/months/{month}/hands_by_stat/{group}"
+    base_local_dir = Path("work") / token / "months" / month / "hands_by_stat" / group
+
+    metadata = _load_metadata(storage, base_storage_prefix, base_local_dir)
+    hand_ids = (metadata.get("hand_ids") or {}).get(stat_key)
+    if not hand_ids:
+        return []
+
+    data_bytes = _read_storage_or_local(
+        storage,
+        f"{base_storage_prefix}/{stat_filename}",
+        base_local_dir / stat_filename,
+    )
+
+    if not data_bytes:
+        return []
+
+    try:
+        content = data_bytes.decode("utf-8")
+    except UnicodeDecodeError:
+        content = data_bytes.decode("latin-1", errors="ignore")
+
+    hands = [segment.strip() for segment in re.split(r"\n{2,}", content) if segment.strip()]
+
+    if len(hand_ids) != len(hands):
+        logger.warning(
+            "[MAIN_SAMPLE] Mismatch between hand_ids (%s) and hands (%s) for %s/%s/%s",
+            len(hand_ids),
+            len(hands),
+            token,
+            month,
+            stat_filename,
+        )
+        pair_count = min(len(hand_ids), len(hands))
+        hand_ids = hand_ids[:pair_count]
+        hands = hands[:pair_count]
+
+    return list(zip(hand_ids, hands))
 
 def _job_dir(job: str) -> str:
     # todos os jobs vão para /tmp/mtt_jobs/<job>
@@ -133,3 +224,49 @@ def api_user_main_dashboard():
         return jsonify({"success": True, "data": None, "message": "no_data_for_user"})
 
     return jsonify({"success": True, "data": payload})
+
+
+@bp_dashboard.get("/main/sample/<group>/<stat_key>")
+@login_required
+def api_user_main_sample(group: str, stat_key: str):
+    """Return a merged TXT with unique hands for a stat across main page months."""
+
+    allowed_groups = {"nonko_9max", "nonko_6max", "pko", "postflop_all"}
+    if group not in allowed_groups:
+        return jsonify({"success": False, "error": "invalid_group"}), 400
+
+    stat_filename = HandCollector.stat_filenames.get(stat_key)
+    if not stat_filename:
+        return jsonify({"success": False, "error": "invalid_stat"}), 404
+
+    storage = get_storage()
+    months_service = UserMonthsService()
+    months_map = months_service.get_user_months_map(str(current_user.id))
+
+    month_weights = get_user_main_month_weights(str(current_user.id))
+    if not month_weights:
+        return jsonify({"success": False, "error": "no_months"}), 404
+
+    seen_ids = set()
+    collected_hands: List[str] = []
+
+    for entry in month_weights:
+        month = entry.get("month")
+        if not month:
+            continue
+
+        for token in months_map.get(month, []):
+            for hand_id, hand_text in _load_stat_hands(storage, token, month, group, stat_key, stat_filename):
+                if hand_id in seen_ids:
+                    continue
+                seen_ids.add(hand_id)
+                collected_hands.append(hand_text.strip())
+
+    if not collected_hands:
+        return jsonify({"success": False, "error": "no_hands"}), 404
+
+    payload = "\n\n\n".join(collected_hands)
+    if payload and not payload.endswith("\n"):
+        payload += "\n"
+
+    return Response(payload, mimetype="text/plain")

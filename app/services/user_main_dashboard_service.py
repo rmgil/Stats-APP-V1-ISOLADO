@@ -39,6 +39,36 @@ def _select_months(months: List[str]) -> Tuple[List[str], List[float]]:
     return selected, weights
 
 
+def get_user_main_month_weights(user_id: str) -> List[Dict[str, float]]:
+    """
+    Return the months and normalized weights used on the user's main dashboard.
+
+    The selection follows the same rules as the main payload aggregation: take
+    the last 3 available months (excluding the current month) with base weights
+    50/30/20 (or 70/30 for 2 months, 100% for a single month) and normalize the
+    weights so they sum to 1.0.
+    """
+
+    months_service = UserMonthsService()
+    months_map = months_service.get_user_months_map(user_id)
+
+    selected_months, base_weights = _select_months(list(months_map.keys()))
+    if not selected_months:
+        return []
+
+    total_weight = sum(base_weights[: len(selected_months)])
+    normalized_weights = []
+    if total_weight > 0:
+        normalized_weights = [weight / total_weight for weight in base_weights[: len(selected_months)]]
+    else:
+        normalized_weights = [0.0 for _ in selected_months]
+
+    return [
+        {"month": month, "weight": weight}
+        for month, weight in zip(selected_months, normalized_weights)
+    ]
+
+
 def _normalized_weights(values: List[Tuple[float, float]]) -> float:
     total_weight = sum(weight for _, weight in values if weight > 0)
     if total_weight <= 0:
