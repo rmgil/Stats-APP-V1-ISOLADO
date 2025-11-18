@@ -223,6 +223,12 @@ def api_user_main_dashboard():
     if not payload.get("meta", {}).get("months"):
         return jsonify({"success": True, "data": None, "message": "no_data_for_user"})
 
+    try:
+        payload_size = len(json.dumps(payload))
+        logger.debug("[USER_MAIN] Returning main dashboard payload size=%s bytes", payload_size)
+    except Exception as exc:  # noqa: BLE001 - logging should not block response
+        logger.debug("[USER_MAIN] Failed to compute payload size: %s", exc)
+
     return jsonify({"success": True, "data": payload})
 
 

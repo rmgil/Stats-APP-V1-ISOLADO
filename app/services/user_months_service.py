@@ -67,6 +67,9 @@ class UserMonthsService:
 
         final_map = dict(months_map)
         logger.debug("[USER_MONTHS] Final month-to-tokens map for user %s: %s", user_id, final_map)
+        logger.debug(
+            "[USER_MONTHS] Months available for user %s: %s", user_id, sorted(final_map.keys())
+        )
 
         return final_map
 
@@ -121,6 +124,16 @@ def build_user_month_pipeline_result(user_id: str, month: str) -> Optional[dict]
         return None
 
     merged_result = _merge_pipeline_results(result_entries, month_key=month)
+
+    logger.debug(
+        "[USER_MONTHS] Aggregated %s tokens for %s/%s -> total_hands=%s valid_hands=%s discards=%s",
+        len(result_entries),
+        user_id,
+        month,
+        merged_result.get("total_hands"),
+        merged_result.get("valid_hands"),
+        (merged_result.get("aggregated_discards") or {}).get("total"),
+    )
 
     try:
         cache_path.parent.mkdir(parents=True, exist_ok=True)
