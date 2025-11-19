@@ -98,7 +98,23 @@ def build_user_month_pipeline_result(user_id: str, month: str) -> Optional[dict]
         logger.info("[USER_MONTHS] No tokens found for user=%s month=%s", user_id, month)
         return None
 
-    cache_path = Path("results") / "users" / str(user_id) / "months" / month / "pipeline_result.json"
+    aggregated_token = f"user-{user_id}"
+
+    try:
+        persisted_payload = result_storage.get_pipeline_result(aggregated_token, month=month)
+        if persisted_payload:
+            logger.info(
+                "[USER_MONTHS] Loaded persisted aggregated pipeline_result for %s/%s",
+                user_id,
+                month,
+            )
+            return persisted_payload
+    except FileNotFoundError:
+        logger.debug("[USER_MONTHS] Aggregated payload for %s/%s not found yet", user_id, month)
+    except Exception as exc:  # noqa: BLE001 - fallback to merge logic
+        logger.debug("[USER_MONTHS] Failed to load aggregated payload for %s/%s: %s", user_id, month, exc)
+
+    cache_path = Path("results") / "by_user" / str(user_id) / f"pipeline_result_{month}.json"
     try:
         if cache_path.exists():
             cached = json.loads(cache_path.read_text())

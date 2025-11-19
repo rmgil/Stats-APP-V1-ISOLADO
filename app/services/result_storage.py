@@ -177,10 +177,38 @@ class ResultStorageService:
             raise FileNotFoundError(f"Pipeline result for month {month} not found")
 
         # Load aggregate pipeline_result (default behavior)
+        logger.info(
+            "[RESULT STORAGE] Attempting to load pipeline_result_GLOBAL.json for %s",
+            token,
+        )
+        upper_storage_path = f"/results/{token_dir}/pipeline_result_GLOBAL.json"
+        result = self._read_json_from_storage(upper_storage_path)
+
+        if result:
+            logger.info("[RESULT STORAGE] Loaded pipeline_result_GLOBAL.json for %s from cloud storage", token)
+            return result
+
+        upper_local_path = self.local_work_dir / token_dir / "pipeline_result_GLOBAL.json"
+        result = self._read_json_from_local(upper_local_path)
+
+        if result:
+            logger.info("[RESULT STORAGE] Loaded pipeline_result_GLOBAL.json for %s from local filesystem", token)
+            return result
+
+        upper_alt_local = self.local_results_dir / token_dir / "pipeline_result_GLOBAL.json"
+        result = self._read_json_from_local(upper_alt_local)
+
+        if result:
             logger.info(
-                "[RESULT STORAGE] Attempting to load pipeline_result_global.json for %s",
+                "[RESULT STORAGE] Loaded pipeline_result_GLOBAL.json for %s from local consolidated directory",
                 token,
             )
+            return result
+
+        logger.info(
+            "[RESULT STORAGE] Attempting to load pipeline_result_global.json for %s",
+            token,
+        )
         storage_path = f"/results/{token_dir}/pipeline_result_global.json"
         result = self._read_json_from_storage(storage_path)
 

@@ -8,6 +8,7 @@ from fastapi import APIRouter, HTTPException, Request
 from fastapi.concurrency import run_in_threadpool
 
 from app.services.user_main_dashboard_service import build_user_main_dashboard_payload
+from app.services.user_months_service import UserMonthsService
 
 logger = logging.getLogger(__name__)
 
@@ -158,3 +159,13 @@ async def get_main_page(request: Request) -> Dict[str, Any]:
         raise HTTPException(status_code=500, detail="main_page_format_error")
 
     return {"success": True, **data}
+
+
+@router.get("/debug/months")
+async def debug_user_months(request: Request) -> Dict[str, Any]:
+    """DEBUG ONLY endpoint exposing the raw months map for troubleshooting."""
+
+    user_id = _require_user_id(request)
+    months_service = UserMonthsService()
+    months_map = months_service.get_user_months_map(user_id)
+    return {"success": True, "months": months_map}
