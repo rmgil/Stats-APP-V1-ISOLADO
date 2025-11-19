@@ -125,6 +125,42 @@ class UploadService:
             if conn:
                 DatabasePool.return_connection(conn)
 
+    def get_upload_by_token(self, user_id: str, token: str) -> Optional[Dict[str, Any]]:
+        """Fetch a single upload owned by the user that matches the token."""
+
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, token, filename, status,
+                           uploaded_at, processed_at, hand_count,
+                           archive_sha256, error_message
+                    FROM uploads
+                    WHERE user_id = %s AND token = %s
+                    ORDER BY uploaded_at DESC
+                    LIMIT 1
+                    """,
+                    (user_id, token),
+                )
+                row = cur.fetchone()
+                if row:
+                    return self._row_to_dict(cur.description, row)
+                return None
+        except Exception as exc:
+            logger.error(
+                "Failed to fetch upload %s for user %s: %s",
+                token,
+                user_id,
+                exc,
+                exc_info=True,
+            )
+            return None
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
     def create_upload(
         self,
         *,

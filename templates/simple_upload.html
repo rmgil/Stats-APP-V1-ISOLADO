@@ -521,6 +521,7 @@
     
     <div class="main-content">
         <div class="container">
+        <form id="uploadForm" enctype="multipart/form-data">
         <h1>Upload de HH</h1>
         
         <div class="upload-area" id="uploadArea">
@@ -540,7 +541,7 @@
             <div class="file-size">Tamanho: <span id="fileSize"></span></div>
         </div>
         
-        <button class="btn-analyze" id="btnAnalyze">Analisar Ficheiro</button>
+        <button class="btn-analyze" id="btnAnalyze" type="submit">Enviar ficheiro</button>
         
         <div class="progress-section" id="progressSection">
             <div class="progress-info">
@@ -576,27 +577,13 @@
         </div>
         
         <div class="error-message" id="errorMessage"></div>
+    </form>
     </div>
     
-    <!-- Breakout Game -->
-    <div class="game-container" id="gameContainer">
-        <div class="game-title">🐍 Snake</div>
-        <div class="game-subtitle">Use as setas para controlar</div>
-        <canvas id="gameCanvas" class="game-canvas" width="800" height="180"></canvas>
-        <div class="game-stats">
-            <div class="game-stat">
-                <div class="game-stat-label">Pontos</div>
-                <div class="game-stat-value" id="gameScore">0</div>
-            </div>
-            <div class="game-stat">
-                <div class="game-stat-label">Vidas</div>
-                <div class="game-stat-value" id="gameLives">3</div>
-            </div>
-        </div>
-        <button class="game-close" onclick="hideGame()">Fechar</button>
-    </div>
-    
+
+
     <script>
+        const uploadForm = document.getElementById('uploadForm');
         const uploadArea = document.getElementById('uploadArea');
         const fileInput = document.getElementById('fileInput');
         const fileInfo = document.getElementById('fileInfo');
@@ -608,758 +595,274 @@
         const progressStatus = document.getElementById('progressStatus');
         const progressPercentage = document.getElementById('progressPercentage');
         const errorMessage = document.getElementById('errorMessage');
-        
+
+        const stepOrder = ['step-upload', 'step-extract', 'step-classify', 'step-parse', 'step-complete'];
+
         let selectedFile = null;
-        let progressInterval = null;
-        let elapsedTimeInterval = null;
-        
-        // Progress steps
-        const steps = [
-            { id: 'step-upload', text: 'A enviar ficheiro...', duration: 2000 },
-            { id: 'step-extract', text: 'A extrair ficheiros...', duration: 3000 },
-            { id: 'step-classify', text: 'A classificar mãos...', duration: 4000 },
-            { id: 'step-parse', text: 'A analisar estatísticas...', duration: 5000 },
-            { id: 'step-complete', text: 'A gerar dashboard...', duration: 1000 }
-        ];
-        
-        // Click to upload
-        uploadArea.addEventListener('click', () => {
-            fileInput.click();
-        });
-        
-        // Drag and drop
-        uploadArea.addEventListener('dragover', (e) => {
-            e.preventDefault();
-            uploadArea.classList.add('dragover');
-        });
-        
-        uploadArea.addEventListener('dragleave', () => {
-            uploadArea.classList.remove('dragover');
-        });
-        
-        uploadArea.addEventListener('drop', (e) => {
-            e.preventDefault();
-            uploadArea.classList.remove('dragover');
-            
-            const files = e.dataTransfer.files;
-            if (files.length > 0) {
-                handleFile(files[0]);
+        let currentToken = null;
+        let pollingTimeout = null;
+        let uploadStartedAt = null;
+
+        function formatFileSize(bytes) {
+            if (!Number.isFinite(bytes) || bytes <= 0) {
+                return '0 bytes';
             }
-        });
-        
-        // File input change
-        fileInput.addEventListener('change', (e) => {
-            if (e.target.files.length > 0) {
-                handleFile(e.target.files[0]);
-            }
-        });
-        
+            if (bytes < 1024) return `${bytes} bytes`;
+            if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+            return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+        }
+
+        function clearError() {
+            errorMessage.textContent = '';
+            errorMessage.classList.remove('show');
+        }
+
+        function showError(message) {
+            errorMessage.textContent = message || 'Ocorreu um erro inesperado.';
+            errorMessage.classList.add('show');
+        }
+
+        function resetSelection() {
+            selectedFile = null;
+            fileInfo.classList.remove('show');
+            btnAnalyze.classList.remove('show');
+            btnAnalyze.disabled = false;
+            fileInput.value = '';
+        }
+
         function handleFile(file) {
-            const validExtensions = ['.zip', '.rar'];
-            const fileExtension = file.name.toLowerCase().substr(file.name.lastIndexOf('.'));
-            
-            if (!validExtensions.includes(fileExtension)) {
-                showError('Por favor, selecione um ficheiro ZIP ou RAR');
+            if (!file) {
+                resetSelection();
                 return;
             }
-            
+
+            const lower = file.name.toLowerCase();
+            if (!lower.endsWith('.zip') && !lower.endsWith('.rar')) {
+                showError('Por favor, selecione um ficheiro ZIP ou RAR.');
+                resetSelection();
+                return;
+            }
+
             selectedFile = file;
             fileName.textContent = file.name;
             fileSize.textContent = formatFileSize(file.size);
             fileInfo.classList.add('show');
             btnAnalyze.classList.add('show');
-            hideError();
+            btnAnalyze.disabled = false;
+            clearError();
         }
-        
-        function formatFileSize(bytes) {
-            if (bytes < 1024) return bytes + ' bytes';
-            if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(2) + ' KB';
-            return (bytes / (1024 * 1024)).toFixed(2) + ' MB';
-        }
-        
-        // Smooth progress animation system
-        let currentDisplayProgress = 0;
-        let targetProgress = 0;
-        let animationFrameId = null;
-        let progressHistory = [];
-        let startTime = Date.now();
-        
-        function smoothProgressAnimation() {
-            const speed = 0.15; // Interpolation speed (0.15 = smooth, responsive)
-            
-            if (Math.abs(targetProgress - currentDisplayProgress) > 0.1) {
-                const diff = targetProgress - currentDisplayProgress;
-                currentDisplayProgress += diff * speed;
-                
-                progressBar.style.width = currentDisplayProgress + '%';
-                progressPercentage.textContent = Math.round(currentDisplayProgress) + '%';
-                
-                animationFrameId = requestAnimationFrame(smoothProgressAnimation);
-            } else {
-                // Animation complete - snap to target and reset frame ID
-                currentDisplayProgress = targetProgress;
-                progressBar.style.width = currentDisplayProgress + '%';
-                progressPercentage.textContent = Math.round(currentDisplayProgress) + '%';
-                animationFrameId = null; // Critical: allow next update to restart animation
-            }
-        }
-        
-        function updateProgress(newProgress) {
-            const now = Date.now();
-            targetProgress = newProgress;
-            
-            // Track progress history for ETA calculation
-            progressHistory.push({
-                percentage: newProgress,
-                timestamp: now
-            });
-            
-            // Keep only last 5 data points
-            if (progressHistory.length > 5) {
-                progressHistory.shift();
-            }
-            
-            // Start smooth animation
-            if (!animationFrameId) {
-                animationFrameId = requestAnimationFrame(smoothProgressAnimation);
-            }
-            
-            // Calculate and display ETA
-            updateETA();
-        }
-        
-        function updateETA() {
-            if (progressHistory.length < 2) return;
-            
-            const firstPoint = progressHistory[0];
-            const lastPoint = progressHistory[progressHistory.length - 1];
-            
-            const progressDiff = lastPoint.percentage - firstPoint.percentage;
-            const timeDiff = (lastPoint.timestamp - firstPoint.timestamp) / 1000; // seconds
-            
-            if (progressDiff > 0 && timeDiff > 0) {
-                const rate = progressDiff / timeDiff; // percentage per second
-                const remaining = 100 - lastPoint.percentage;
-                const eta = remaining / rate; // seconds
-                
-                let etaText = '';
-                if (eta < 60) {
-                    etaText = `~${Math.round(eta)}s restantes`;
-                } else if (eta < 120) {
-                    etaText = '~1min restante';
-                } else {
-                    etaText = `~${Math.round(eta / 60)}min restantes`;
-                }
-                
-                // Update status with ETA
-                const currentStage = document.querySelector('.progress-step.active .step-text');
-                if (currentStage && targetProgress < 95) {
-                    progressStatus.textContent = `${currentStage.textContent} • ${etaText}`;
-                }
-            }
-        }
-        
-        function getContextualMessage(percentage, stage) {
-            if (percentage < 15) return 'A iniciar análise...';
-            if (percentage < 40) return 'A processar ficheiros...';
-            if (percentage < 70) return 'A analisar mãos...';
-            if (percentage < 95) return 'A calcular estatísticas...';
-            return 'A finalizar...';
-        }
-        
-        // Map backend phases to frontend steps
-        const phaseToStep = {
-            'initializing': 'step-extract',
-            'combining': 'step-extract',
-            'assembling': 'step-extract',
-            'extracting': 'step-classify',
-            'classifying': 'step-classify',
-            'analyzing': 'step-parse',
-            'finalizing': 'step-complete',
-            'processing': 'step-extract' // fallback
-        };
-        
-        async function pollProgress(token, onComplete) {
-            const startTime = Date.now();
-            let elapsedTimeInterval;
-            
-            // Update elapsed time display every second
-            elapsedTimeInterval = setInterval(() => {
-                const elapsed = Math.floor((Date.now() - startTime) / 1000);
-                const minutes = Math.floor(elapsed / 60);
-                const seconds = elapsed % 60;
-                const timeStr = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-                document.getElementById('progressPercentage').textContent = `⏱️ ${timeStr}`;
-            }, 1000);
-            
-            const pollInterval = setInterval(async () => {
-                try {
-                    // Use new progress endpoint served by FastAPI
-                    const response = await fetch(`/api/upload/status/${token}`, {
-                        credentials: 'include'
-                    });
-                    const data = await response.json();
 
-                    if (!response.ok) {
-                        clearInterval(pollInterval);
-                        clearInterval(elapsedTimeInterval);
-                        const errorDetail = data?.detail || data?.error || `Erro ao verificar progresso (${response.status})`;
-                        showError(errorDetail);
-                        return;
-                    }
-
-                    const serverProgress = data.progress ?? 0;
-                    const status = data.status || 'processing';
-                    const phase = data.phase || 'processing';
-                    const message = data.message || 'A processar...';
-                    const stats = data.stats || {};
-                    
-                    // TASKS 12-13: Show queue position when pending
-                    if (status === 'pending' && data.queue) {
-                        // Show queue position message (formatted by backend)
-                        progressStatus.textContent = data.queue.message;
-                        // Set progress to 5% to show activity while waiting in queue
-                        updateDisplayProgress(5);
-                        return; // Skip normal processing while in queue
-                    }
-                    
-                    // Update progress bar
-                    updateProgress(serverProgress);
-                    
-                    // Update status message with real backend message
-                    let statusText = message;
-                    if (stats.files_processed && stats.total_files) {
-                        statusText += ` (${stats.files_processed}/${stats.total_files})`;
-                    }
-                    
-                    // TASK 16: Add heartbeat timestamp when processing
-                    if (status === 'processing' && data.heartbeat) {
-                        const heartbeatTime = new Date(data.heartbeat);
-                        const secondsAgo = Math.floor((Date.now() - heartbeatTime.getTime()) / 1000);
-                        if (secondsAgo < 10) {
-                            statusText += ' • Ativo agora';
-                        } else if (secondsAgo < 60) {
-                            statusText += ` • Ativo há ${secondsAgo}s`;
-                        } else {
-                            const minutesAgo = Math.floor(secondsAgo / 60);
-                            statusText += ` • Ativo há ${minutesAgo}min`;
-                        }
-                    }
-                    
-                    progressStatus.textContent = statusText;
-                    
-                    // Update steps based on phase from backend
-                    const currentStepId = phaseToStep[phase] || 'step-extract';
-                    const allSteps = ['step-extract', 'step-classify', 'step-parse', 'step-complete'];
-                    
-                    // Mark previous steps as completed
-                    const currentIndex = allSteps.indexOf(currentStepId);
-                    allSteps.forEach((stepId, index) => {
-                        const stepEl = document.getElementById(stepId);
-                        if (index < currentIndex) {
-                            stepEl.classList.add('completed');
-                            stepEl.classList.remove('active');
-                        } else if (index === currentIndex) {
-                            stepEl.classList.add('active');
-                            stepEl.classList.remove('completed');
-                        } else {
-                            stepEl.classList.remove('active', 'completed');
-                        }
-                    });
-                    
-                    // Check if complete
-                    if (status === 'completed' && serverProgress >= 100) {
-                        clearInterval(pollInterval);
-                        clearInterval(elapsedTimeInterval);
-                        if (animationFrameId) {
-                            cancelAnimationFrame(animationFrameId);
-                            animationFrameId = null;
-                        }
-                        
-                        // Mark all steps as completed
-                        allSteps.forEach(stepId => {
-                            document.getElementById(stepId).classList.add('completed');
-                            document.getElementById(stepId).classList.remove('active');
-                        });
-                        
-                        progressStatus.textContent = 'Concluído! A redirecionar...';
-                        
-                        // Use result token if provided, otherwise use upload token
-                        const resultToken = data.resultToken || token;
-                        setTimeout(() => onComplete(resultToken), 500);
-                    }
-                    
-                    // Check if failed
-                    if (status === 'failed') {
-                        clearInterval(pollInterval);
-                        clearInterval(elapsedTimeInterval);
-                        if (animationFrameId) {
-                            cancelAnimationFrame(animationFrameId);
-                            animationFrameId = null;
-                        }
-                        showError(data.error || 'Erro ao processar ficheiro');
-                    }
-                    
-                } catch (error) {
-                    console.error('Error polling progress:', error);
-                    // Don't stop polling on network errors, just log them
-                }
-            }, 5000); // Poll every 5 seconds (intelligent polling)
-            
-            return { pollInterval, elapsedTimeInterval };
-        }
-        
-        // Generate unique upload ID (12 hex characters)
-        function generateUploadId() {
-            // Generate 12 random hexadecimal characters (same format as Python's uuid.uuid4().hex[:12])
-            const randomBytes = new Uint8Array(6); // 6 bytes = 12 hex chars
-            crypto.getRandomValues(randomBytes);
-            return Array.from(randomBytes)
-                .map(b => b.toString(16).padStart(2, '0'))
-                .join('');
-        }
-        
-        // Simple direct upload function
-        async function uploadFile(file) {
-            // Step 1: Upload file directly
-            progressStatus.textContent = 'A enviar ficheiro...';
-            document.getElementById('step-upload').classList.add('active');
-            
-            const formData = new FormData();
-            formData.append('file', file);
-            
-            const uploadResponse = await fetch('/api/upload/simple', {
-                method: 'POST',
-                credentials: 'include',
-                body: formData
-            });
-            
-            if (!uploadResponse.ok) {
-                const errorData = await uploadResponse.json();
-                throw new Error(errorData.error || 'Erro ao enviar ficheiro');
-            }
-            
-            const uploadData = await uploadResponse.json();
-            // New synchronous processing - upload completes immediately with results
-            if (uploadData.success && uploadData.download_url) {
-                // Processing completed during upload (synchronous)
-                updateProgress(100);
-                progressStatus.textContent = 'Processamento concluído!';
-                
-                // Mark all steps as complete
-                ['step-upload', 'step-extract', 'step-classify', 'step-parse', 'step-complete'].forEach(stepId => {
-                    document.getElementById(stepId).classList.add('completed');
-                    document.getElementById(stepId).classList.remove('active');
-                });
-                
-                // Redirect to results
-                setTimeout(() => {
-                    window.location.href = '/main';
-                }, 1500);
-                
-                return null; // No need to poll
-            }
-            
-            // Mark upload step as complete
-            updateProgress(10);
-            document.getElementById('step-upload').classList.add('completed');
-            document.getElementById('step-upload').classList.remove('active');
-            
-            return uploadData.token; // Return the upload token
-        }
-        
-        btnAnalyze.addEventListener('click', async () => {
-            if (!selectedFile) return;
-            
-            btnAnalyze.disabled = true;
-            btnAnalyze.style.display = 'none';
-            progressSection.classList.add('show');
-            hideError();
-            
-            // Reset progress variables
-            currentDisplayProgress = 0;
-            targetProgress = 0;
-            progressHistory = [];
-            startTime = Date.now();
-            if (animationFrameId) {
-                cancelAnimationFrame(animationFrameId);
-                animationFrameId = null;
-            }
-            
-            // Reset UI
-            progressBar.style.width = '0%';
-            progressPercentage.textContent = '0%';
-            progressStatus.textContent = 'A iniciar...';
-            steps.forEach(step => {
-                const element = document.getElementById(step.id);
-                element.classList.remove('active', 'completed');
-            });
-            
-            try {
-                // Upload file directly (now processes synchronously)
-                progressStatus.textContent = 'A processar ficheiro (pode demorar até 40 segundos)...';
-                
-                // Show spinner while processing
-                progressBar.classList.add('progress-bar-animated');
-                updateProgress(5); // Start with 5% to show activity
-                
-                // Simulate progress updates while waiting
-                let simulatedProgress = 5;
-                const progressSimulator = setInterval(() => {
-                    simulatedProgress = Math.min(simulatedProgress + 2, 95);
-                    updateProgress(simulatedProgress);
-                    
-                    // Update status messages based on simulated progress
-                    if (simulatedProgress < 20) {
-                        progressStatus.textContent = 'A carregar ficheiro...';
-                    } else if (simulatedProgress < 40) {
-                        progressStatus.textContent = 'A extrair arquivos...';
-                    } else if (simulatedProgress < 60) {
-                        progressStatus.textContent = 'A classificar ficheiros...';
-                    } else if (simulatedProgress < 80) {
-                        progressStatus.textContent = 'A analisar mãos de poker...';
-                    } else {
-                        progressStatus.textContent = 'A finalizar processamento...';
-                    }
-                }, 1000);
-                
-                let uploadToken = null;
-                try {
-                    uploadToken = await uploadFile(selectedFile);
-                    clearInterval(progressSimulator);
-                } finally {
-                    clearInterval(progressSimulator);
-                    progressBar.classList.remove('progress-bar-animated');
-                }
-                
-                // If token is null, upload already completed (synchronous)
-                if (!uploadToken) {
-                    return;
-                }
-                
-                // Otherwise, start polling (legacy support)
-                const intervals = pollProgress(uploadToken, () => {
-                    // On complete, redirect to dashboard
-                    window.location.href = '/main';
-                });
-                
-                // Store intervals for cleanup if needed
-                if (intervals) {
-                    progressInterval = intervals.pollInterval;
-                    elapsedTimeInterval = intervals.elapsedTimeInterval;
-                }
-                
-                // Show Breakout game after 15 seconds
-                setTimeout(() => {
-                    showGame();
-                }, 15000);
-                
-            } catch (error) {
-                console.error('Upload error:', error);
-                showError(error.message || 'Erro de conexão. Tente novamente.');
-                progressSection.classList.remove('show');
-                btnAnalyze.style.display = 'block';
-                btnAnalyze.disabled = false;
+        uploadArea.addEventListener('click', () => fileInput.click());
+        uploadArea.addEventListener('dragover', (event) => {
+            event.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+        uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+        uploadArea.addEventListener('drop', (event) => {
+            event.preventDefault();
+            uploadArea.classList.remove('dragover');
+            const files = event.dataTransfer?.files;
+            if (files && files.length > 0) {
+                handleFile(files[0]);
             }
         });
-        
-        function showError(message) {
-            errorMessage.textContent = message;
-            errorMessage.classList.add('show');
-        }
-        
-        function hideError() {
-            errorMessage.classList.remove('show');
-        }
-        
-        // Snake Game Logic
-        let snakeGame = null;
-        let gameActive = false;
-        
-        function showGame() {
-            if (gameActive) return;
-            
-            const container = document.getElementById('gameContainer');
-            container.classList.add('show');
-            gameActive = true;
-            
-            initSnakeGame();
-        }
-        
-        function hideGame() {
-            const container = document.getElementById('gameContainer');
-            container.classList.remove('show');
-            gameActive = false;
-            
-            if (snakeGame) {
-                snakeGame.stop();
-                snakeGame = null;
+        fileInput.addEventListener('change', (event) => {
+            if (event.target.files && event.target.files.length > 0) {
+                handleFile(event.target.files[0]);
             }
+        });
+
+        function showProgressUI(message, progressValue = 0) {
+            progressSection.classList.add('show');
+            progressStatus.textContent = message;
+            updateProgress(progressValue);
         }
-        
-        function initSnakeGame() {
-            const canvas = document.getElementById('gameCanvas');
-            const ctx = canvas.getContext('2d');
-            const scoreElement = document.getElementById('gameScore');
-            const livesElement = document.getElementById('gameLives');
-            
-            const gridSize = 18;
-            const tileCount = {
-                x: Math.floor(canvas.width / gridSize),
-                y: Math.floor(canvas.height / gridSize)
-            };
-            
-            let score = 0;
-            let speed = 8;
-            let gameLoopInterval;
-            
-            // Snake
-            let snake = [
-                {x: 10, y: 5},
-                {x: 9, y: 5},
-                {x: 8, y: 5}
-            ];
-            let direction = {x: 1, y: 0};
-            let nextDirection = {x: 1, y: 0};
-            
-            // Food
-            let food = spawnFood();
-            
-            function spawnFood() {
-                let newFood;
-                let validPosition = false;
-                
-                while (!validPosition) {
-                    newFood = {
-                        x: Math.floor(Math.random() * tileCount.x),
-                        y: Math.floor(Math.random() * tileCount.y)
-                    };
-                    
-                    validPosition = !snake.some(segment => 
-                        segment.x === newFood.x && segment.y === newFood.y
-                    );
-                }
-                
-                return newFood;
-            }
-            
-            // Keyboard controls
-            document.addEventListener('keydown', (e) => {
-                if (!gameActive) return;
-                
-                switch(e.key) {
-                    case 'ArrowUp':
-                        if (direction.y === 0) nextDirection = {x: 0, y: -1};
-                        e.preventDefault();
-                        break;
-                    case 'ArrowDown':
-                        if (direction.y === 0) nextDirection = {x: 0, y: 1};
-                        e.preventDefault();
-                        break;
-                    case 'ArrowLeft':
-                        if (direction.x === 0) nextDirection = {x: -1, y: 0};
-                        e.preventDefault();
-                        break;
-                    case 'ArrowRight':
-                        if (direction.x === 0) nextDirection = {x: 1, y: 0};
-                        e.preventDefault();
-                        break;
+
+        function updateProgress(value) {
+            const safeValue = Math.max(0, Math.min(100, Number(value) || 0));
+            progressBar.style.width = `${safeValue}%`;
+            progressPercentage.textContent = `${safeValue.toFixed(0)}%`;
+        }
+
+        function setActiveStep(stepId) {
+            const activeIndex = Math.max(stepOrder.indexOf(stepId), 0);
+            stepOrder.forEach((id, index) => {
+                const el = document.getElementById(id);
+                if (!el) return;
+                if (index === activeIndex) {
+                    el.classList.add('active');
+                    el.classList.remove('completed');
+                } else if (index < activeIndex) {
+                    el.classList.add('completed');
+                    el.classList.remove('active');
+                } else {
+                    el.classList.remove('active', 'completed');
                 }
             });
-            
-            function update() {
-                direction = nextDirection;
-                
-                const head = {
-                    x: snake[0].x + direction.x,
-                    y: snake[0].y + direction.y
-                };
-                
-                // Check wall collision
-                if (head.x < 0 || head.x >= tileCount.x || 
-                    head.y < 0 || head.y >= tileCount.y) {
-                    gameOver();
-                    return;
-                }
-                
-                // Check self collision
-                if (snake.some(segment => segment.x === head.x && segment.y === head.y)) {
-                    gameOver();
-                    return;
-                }
-                
-                snake.unshift(head);
-                
-                // Check food collision
-                if (head.x === food.x && head.y === food.y) {
-                    score += 10;
-                    scoreElement.textContent = score;
-                    food = spawnFood();
-                    
-                    // Increase speed slightly
-                    if (speed < 15 && score % 50 === 0) {
-                        speed++;
-                        clearInterval(gameLoopInterval);
-                        gameLoopInterval = setInterval(gameLoop, 1000 / speed);
-                    }
-                } else {
-                    snake.pop();
-                }
-            }
-            
-            function draw() {
-                // Background with grid
-                const bgGradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
-                bgGradient.addColorStop(0, '#0a0a1a');
-                bgGradient.addColorStop(0.5, '#1a1a2e');
-                bgGradient.addColorStop(1, '#0a0a1a');
-                ctx.fillStyle = bgGradient;
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-                
-                // Draw subtle grid
-                ctx.strokeStyle = 'rgba(102, 126, 234, 0.1)';
-                ctx.lineWidth = 1;
-                for (let x = 0; x < tileCount.x; x++) {
-                    for (let y = 0; y < tileCount.y; y++) {
-                        ctx.strokeRect(x * gridSize, y * gridSize, gridSize, gridSize);
-                    }
-                }
-                
-                // Draw snake
-                snake.forEach((segment, index) => {
-                    const gradient = ctx.createLinearGradient(
-                        segment.x * gridSize, 
-                        segment.y * gridSize,
-                        segment.x * gridSize + gridSize, 
-                        segment.y * gridSize + gridSize
-                    );
-                    
-                    if (index === 0) {
-                        // Head
-                        gradient.addColorStop(0, '#22c55e');
-                        gradient.addColorStop(1, '#16a34a');
-                    } else {
-                        // Body
-                        const alpha = 1 - (index / snake.length) * 0.3;
-                        gradient.addColorStop(0, `rgba(102, 126, 234, ${alpha})`);
-                        gradient.addColorStop(1, `rgba(118, 75, 162, ${alpha})`);
-                    }
-                    
-                    ctx.fillStyle = gradient;
-                    ctx.fillRect(
-                        segment.x * gridSize + 1, 
-                        segment.y * gridSize + 1, 
-                        gridSize - 2, 
-                        gridSize - 2
-                    );
-                    
-                    // Glow on head
-                    if (index === 0) {
-                        ctx.shadowBlur = 10;
-                        ctx.shadowColor = '#22c55e';
-                        ctx.fillRect(
-                            segment.x * gridSize + 1, 
-                            segment.y * gridSize + 1, 
-                            gridSize - 2, 
-                            gridSize - 2
-                        );
-                        ctx.shadowBlur = 0;
-                    }
-                });
-                
-                // Draw food
-                const foodGradient = ctx.createRadialGradient(
-                    food.x * gridSize + gridSize / 2,
-                    food.y * gridSize + gridSize / 2,
-                    2,
-                    food.x * gridSize + gridSize / 2,
-                    food.y * gridSize + gridSize / 2,
-                    gridSize / 2
-                );
-                foodGradient.addColorStop(0, '#fbbf24');
-                foodGradient.addColorStop(1, '#f59e0b');
-                
-                ctx.fillStyle = foodGradient;
-                ctx.beginPath();
-                ctx.arc(
-                    food.x * gridSize + gridSize / 2,
-                    food.y * gridSize + gridSize / 2,
-                    gridSize / 2 - 2,
-                    0,
-                    Math.PI * 2
-                );
-                ctx.fill();
-                
-                // Food glow
-                ctx.shadowBlur = 15;
-                ctx.shadowColor = '#fbbf24';
-                ctx.beginPath();
-                ctx.arc(
-                    food.x * gridSize + gridSize / 2,
-                    food.y * gridSize + gridSize / 2,
-                    gridSize / 2 - 2,
-                    0,
-                    Math.PI * 2
-                );
-                ctx.fill();
-                ctx.shadowBlur = 0;
-            }
-            
-            function gameLoop() {
-                if (!gameActive) return;
-                update();
-                draw();
-            }
-            
-            function gameOver() {
-                gameActive = false;
-                clearInterval(gameLoopInterval);
-                
-                ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-                
-                ctx.fillStyle = '#fff';
-                ctx.font = 'bold 24px Arial';
-                ctx.textAlign = 'center';
-                ctx.fillText('Fim de Jogo!', canvas.width / 2, canvas.height / 2 - 20);
-                ctx.font = '16px Arial';
-                ctx.fillText(`Pontuação: ${score}`, canvas.width / 2, canvas.height / 2 + 15);
-                ctx.font = '12px Arial';
-                ctx.fillStyle = '#999';
-                ctx.fillText('Clique para jogar novamente', canvas.width / 2, canvas.height / 2 + 40);
-                
-                canvas.addEventListener('click', restartGame, {once: true});
-            }
-            
-            function restartGame() {
-                score = 0;
-                speed = 8;
-                scoreElement.textContent = '0';
-                livesElement.textContent = snake.length;
-                
-                snake = [
-                    {x: 10, y: 5},
-                    {x: 9, y: 5},
-                    {x: 8, y: 5}
-                ];
-                direction = {x: 1, y: 0};
-                nextDirection = {x: 1, y: 0};
-                food = spawnFood();
-                
-                gameActive = true;
-                gameLoopInterval = setInterval(gameLoop, 1000 / speed);
-            }
-            
-            snakeGame = {
-                stop: () => {
-                    gameActive = false;
-                    clearInterval(gameLoopInterval);
-                }
-            };
-            
-            livesElement.textContent = snake.length;
-            gameLoopInterval = setInterval(gameLoop, 1000 / speed);
         }
+
+        function stopPolling() {
+            if (pollingTimeout) {
+                clearTimeout(pollingTimeout);
+                pollingTimeout = null;
+            }
+        }
+
+        function scheduleNextPoll(delay = 2000) {
+            if (!currentToken) {
+                return;
+            }
+            stopPolling();
+            pollingTimeout = window.setTimeout(pollStatus, delay);
+        }
+
+        async function pollStatus() {
+            if (!currentToken) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/upload/status/${currentToken}`, {
+                    credentials: 'include'
+                });
+
+                if (response.status === 404) {
+                    const initializing = uploadStartedAt && (Date.now() - uploadStartedAt) < 10000;
+                    if (initializing) {
+                        progressStatus.textContent = 'A iniciar processamento...';
+                        scheduleNextPoll();
+                        return;
+                    }
+                    stopPolling();
+                    showError('Upload não encontrado.');
+                    btnAnalyze.disabled = false;
+                    return;
+                }
+
+                const data = await response.json().catch(() => ({}));
+                if (!response.ok) {
+                    const detail = data?.detail || data?.error || 'Não foi possível obter o estado do upload.';
+                    stopPolling();
+                    showError(detail);
+                    btnAnalyze.disabled = false;
+                    return;
+                }
+
+                const shouldContinue = handleStatusResponse(data);
+                if (shouldContinue) {
+                    scheduleNextPoll();
+                }
+            } catch (error) {
+                console.warn('Erro temporário ao consultar estado', error);
+                if (currentToken) {
+                    progressStatus.textContent = 'A processar...';
+                    scheduleNextPoll(3000);
+                }
+            }
+        }
+
+        function handleStatusResponse(data) {
+            const status = data.status || 'processing';
+            const message = data.message || 'A processar...';
+            const progressValue = typeof data.progress === 'number' ? data.progress : undefined;
+
+            if (status === 'error' || data.success === false) {
+                stopPolling();
+                showError(data.error_message || message || 'Erro ao processar ficheiro.');
+                btnAnalyze.disabled = false;
+                return false;
+            }
+
+            if (status === 'completed') {
+                stopPolling();
+                setActiveStep('step-complete');
+                updateProgress(100);
+                progressStatus.textContent = message || 'Processamento concluído.';
+                const redirectTarget = data.redirect_url || '/main';
+                setTimeout(() => {
+                    window.location.href = redirectTarget;
+                }, 800);
+                return false;
+            }
+
+            if (status === 'queued') {
+                setActiveStep('step-upload');
+                progressStatus.textContent = message;
+                updateProgress(progressValue ?? 5);
+                return true;
+            }
+
+            setActiveStep('step-extract');
+            progressStatus.textContent = message;
+            updateProgress(progressValue ?? 50);
+            return true;
+        }
+
+        async function submitUpload(event) {
+            event.preventDefault();
+            if (!selectedFile) {
+                showError('Selecione um ficheiro ZIP ou RAR antes de enviar.');
+                return;
+            }
+
+            clearError();
+            stopPolling();
+            currentToken = null;
+            uploadStartedAt = null;
+
+            btnAnalyze.disabled = true;
+            showProgressUI('A enviar ficheiro...', 0);
+            setActiveStep('step-upload');
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            try {
+                const response = await fetch('/api/upload/simple', {
+                    method: 'POST',
+                    body: formData,
+                    credentials: 'include'
+                });
+
+                let data = {};
+                try {
+                    data = await response.json();
+                } catch (parseError) {
+                    console.error('Resposta inválida do servidor', parseError);
+                }
+
+                if (!response.ok || !data?.success) {
+                    const detail = data?.detail || data?.error || data?.error_message || 'Não foi possível iniciar o upload.';
+                    throw new Error(detail);
+                }
+
+                if (!data.token) {
+                    throw new Error('Resposta do servidor sem token de upload.');
+                }
+
+                currentToken = data.token;
+                uploadStartedAt = Date.now();
+
+                if (data.duplicate) {
+                    setActiveStep('step-complete');
+                    updateProgress(100);
+                    progressStatus.textContent = data.message || 'Processamento já concluído. A redirecionar...';
+                    const redirectTarget = data.dashboard_url || '/main';
+                    setTimeout(() => {
+                        window.location.href = redirectTarget;
+                    }, 800);
+                    return;
+                }
+
+                pollStatus();
+            } catch (error) {
+                console.error('Erro ao enviar ficheiro', error);
+                showError(error.message || 'Erro ao enviar ficheiro.');
+                btnAnalyze.disabled = false;
+            }
+        }
+
+        uploadForm.addEventListener('submit', submitUpload);
     </script>
     </div>
 </body>

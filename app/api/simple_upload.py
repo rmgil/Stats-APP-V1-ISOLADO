@@ -30,7 +30,7 @@ MAX_FILE_SIZE = 200 * 1024 * 1024  # 200MB
 ALLOWED_EXTENSIONS = {".zip", ".rar"}
 
 # Track processing progress during the background job
-PROCESSING_STATUS: Dict[str, Dict[str, Optional[int | str]]] = {}
+PROCESSING_STATUS: Dict[str, Dict[str, object]] = {}
 
 # Temporary storage for uploads that still need to be processed in the background
 PENDING_UPLOADS: Dict[str, Dict[str, object]] = {}
@@ -170,6 +170,7 @@ async def upload_file(
         "message": "Na fila de processamento",
         "total_hands": 0,
         "processed_hands": 0,
+        "user_id": user_id,
     }
 
     PENDING_UPLOADS[token] = {
@@ -212,6 +213,7 @@ def run_pipeline_background(token: str, upload_id: str, user_id: str) -> None:
         "message": "A inicializar processamento...",
         "total_hands": 0,
         "processed_hands": 0,
+        "user_id": user_id,
     }
 
     def progress_callback(percent: int, message: str) -> None:
@@ -313,6 +315,7 @@ def run_pipeline_background(token: str, upload_id: str, user_id: str) -> None:
             "message": str(exc),
             "total_hands": 0,
             "processed_hands": 0,
+            "user_id": user_id,
         }
     finally:
         status = PROCESSING_STATUS.get(token)
@@ -322,12 +325,22 @@ def run_pipeline_background(token: str, upload_id: str, user_id: str) -> None:
 
 
 @router.get("/status/{token}")
-async def get_status(token: str):
+async def get_status(token: str, current_user: User = Depends(get_current_user)):
     """Return the current status for a token, checking storage on completion."""
+
+    user_id = current_user.get_id() or current_user.id
+    if not user_id:
+        raise HTTPException(status_code=401, detail="user_not_authenticated")
+    user_id = str(user_id)
 
     status_info = PROCESSING_STATUS.get(token)
     if status_info:
-        return {
+        status_owner = status_info.get("user_id")
+        if status_owner and status_owner != user_id:
+            raise HTTPException(status_code=404, detail="upload_nao_encontrado")
+
+        payload = {
+            "success": status_info.get("status") != "error",
             "token": token,
             "status": status_info.get("status", "processing"),
             "progress": status_info.get("progress", 0),
@@ -335,22 +348,58 @@ async def get_status(token: str):
             "total_hands": status_info.get("total_hands", 0),
             "processed_hands": status_info.get("processed_hands", 0),
         }
+        if not payload["success"]:
+            payload["error_message"] = status_info.get("message") or "Erro no processamento"
+        return payload
 
-    storage = get_storage()
-    if storage.use_cloud:
-        test_file = f"results/{token}/pipeline_result.json"
-        exists = storage.download_file(test_file) is not None
-    else:
-        work_dir = Path("work") / token
-        exists = work_dir.exists()
+    upload_service = UploadService()
+    upload = upload_service.get_upload_by_token(user_id=user_id, token=token)
+    if not upload:
+        raise HTTPException(status_code=404, detail="upload_nao_encontrado")
 
-    if exists:
+    upload_status = (upload.get("status") or "uploaded").lower()
+    if upload_status == "error":
+        error_message = upload.get("error_message") or "Erro no processamento"
         return {
+            "success": False,
             "token": token,
-            "status": "completed",
-            "progress": 100,
-            "message": "Processamento concluído",
-            "download_url": f"/api/download/result/{token}",
+            "status": "error",
+            "progress": 0,
+            "message": error_message,
+            "error_message": error_message,
         }
 
-    raise HTTPException(status_code=404, detail="resultado_nao_encontrado")
+    if upload_status in {"processed", "done"}:
+        storage = get_storage()
+        if storage.use_cloud:
+            test_file = f"results/{token}/pipeline_result.json"
+            exists = storage.download_file(test_file) is not None
+        else:
+            exists = (Path("work") / token).exists()
+
+        if exists:
+            return {
+                "success": True,
+                "token": token,
+                "status": "completed",
+                "progress": 100,
+                "message": "Processamento concluído",
+                "redirect_url": "/main",
+            }
+
+    if upload_status == "processing":
+        return {
+            "success": True,
+            "token": token,
+            "status": "processing",
+            "progress": 50,
+            "message": "A processar...",
+        }
+
+    return {
+        "success": True,
+        "token": token,
+        "status": "queued",
+        "progress": 0,
+        "message": "Na fila de processamento",
+    }
