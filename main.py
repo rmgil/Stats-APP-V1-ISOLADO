@@ -3238,7 +3238,7 @@ def dashboard_v2_page():
     """Phase 10.C - Dashboard v2 with hierarchical UI"""
     # Pass token to template for "Voltar ao pipeline" buttons
     token = request.args.get("token", "")
-    return render_template('dashboard_tabs.html', token=token)
+    return render_template('dashboard_tabs.html', token=token, available_months=[])
 
 @app.route('/ingest')
 def ingest_page():

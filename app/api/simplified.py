@@ -1,15 +1,20 @@
 """
 API endpoints for the simplified workflow
 """
-from flask import Blueprint, request, jsonify, render_template, redirect, url_for
-from flask_login import login_required
-from app.auth.decorators import email_confirmation_required
+import logging
+from pathlib import Path
 import os
 import tempfile
 import json
-from pathlib import Path
+
+from flask import Blueprint, request, jsonify, render_template, redirect, url_for
+from flask_login import login_required, current_user
+
+from app.auth.decorators import email_confirmation_required
+from app.services.user_months_service import UserMonthsService
 
 bp = Blueprint('simplified', __name__)
+logger = logging.getLogger(__name__)
 
 @bp.route('/upload')
 @login_required
@@ -32,11 +37,22 @@ def dashboard_page():
     month = request.args.get('month')
     latest_token = None
 
+    available_months: list[str] = []
+    user_identifier = getattr(current_user, 'id', None)
+
+    if user_identifier:
+        try:
+            months_map = UserMonthsService().get_user_months_map(str(user_identifier))
+            available_months = sorted((m for m in months_map.keys() if m), reverse=True)
+        except Exception:  # pragma: no cover - logging only
+            logger.exception("Failed to load available months for user %s", user_identifier)
+
     return render_template(
         'dashboard_tabs.html',
         token=latest_token,
         month=month,
-        dashboard_api_mode='main'
+        dashboard_api_mode='main',
+        available_months=available_months,
     )
 
 @bp.route('/dashboard/<token>')
@@ -76,7 +92,12 @@ def dashboard_with_token(token):
             error_title="Resultados Não Encontrados",
             error_message=f"O processamento foi concluído, mas os resultados não foram encontrados no armazenamento.",
             suggestion="Os resultados podem ter expirado. Tente processar novamente."), 404
-    return render_template('dashboard_tabs.html', token=token, dashboard_api_mode='token')
+    return render_template(
+        'dashboard_tabs.html',
+        token=token,
+        dashboard_api_mode='token',
+        available_months=[],
+    )
 
 @bp.route('/api/analyze', methods=['POST'])
 @login_required

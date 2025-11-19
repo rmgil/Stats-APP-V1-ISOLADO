@@ -1,5 +1,5 @@
 import logging
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Set, Tuple
 
 from app.api_dashboard import build_user_month_dashboard_payload
 from app.services.user_months_service import UserMonthsService
@@ -81,11 +81,14 @@ def _weighted_average(values: List[Tuple[float, float]]) -> float | None:
     return sum(value * weight for value, weight in values if weight > 0) / total_weight
 
 
-def _aggregate_stat(
+def _aggregate_stat_for_group(
+    group_name: str,
     stat_name: str,
     month_payloads: List[Tuple[str, Dict[str, Any]]],
     weights: Dict[str, float],
 ) -> Dict[str, Any]:
+    """Aggregate a stat for a specific group across all available months."""
+
     opportunities_total = 0
     attempts_total = 0
     frequency_by_month: List[Any] = []
@@ -93,44 +96,39 @@ def _aggregate_stat(
     ideal_value = None
 
     for month, payload in month_payloads:
-        stat_data = (
-            payload.get("stats", {})
-            .get(stat_name, {})
-            if isinstance(payload.get("stats"), dict)
-            else payload.get("groups", {})
-        )
-        # If groups are present, search inside each group
-        if isinstance(stat_data, dict) and "score" not in stat_data:
-            stat_data = None
-            for group_data in payload.get("groups", {}).values():
-                group_stat = group_data.get("stats", {}).get(stat_name)
-                if group_stat:
-                    stat_data = group_stat
-                    break
+        group_data = payload.get("groups", {}).get(group_name)
+        if not isinstance(group_data, dict):
+            frequency_by_month.append(None)
+            continue
 
+        stat_data = (group_data.get("stats") or {}).get(stat_name)
         if not isinstance(stat_data, dict):
             frequency_by_month.append(None)
             continue
 
-        opportunities_total += stat_data.get("opportunities", 0) or 0
-        attempts_total += stat_data.get("attempts", 0) or 0
-        frequency_by_month.append(stat_data.get("percentage"))
+        opps_value = stat_data.get("opportunities")
+        if opps_value is None:
+            opps_value = stat_data.get("opps")
+        attempts_value = stat_data.get("attempts")
+        if attempts_value is None:
+            attempts_value = stat_data.get("att")
 
-        if stat_data.get("ideal") is not None and ideal_value is None:
+        opportunities_total += int(opps_value or 0)
+        attempts_total += int(attempts_value or 0)
+
+        pct_value = stat_data.get("percentage")
+        if pct_value is None:
+            pct_value = stat_data.get("pct")
+        frequency_by_month.append(pct_value if pct_value is not None else None)
+
+        if ideal_value is None and stat_data.get("ideal") is not None:
             ideal_value = stat_data.get("ideal")
 
         score = stat_data.get("score")
         if score is not None:
-            note_weights.append((score, weights.get(month, 0.0)))
+            note_weights.append((float(score), weights.get(month, 0.0)))
 
-    normalized_total = sum(weight for _, weight in note_weights if weight > 0)
-    adjusted_weights = [
-        (value, weight / normalized_total)
-        for value, weight in note_weights
-        if weight > 0 and normalized_total > 0
-    ]
-
-    note = _weighted_average(adjusted_weights) if adjusted_weights else None
+    note = _weighted_average(note_weights)
 
     return {
         "score": note,
@@ -141,62 +139,178 @@ def _aggregate_stat(
     }
 
 
+def _aggregate_subgroup_stat(
+    group_name: str,
+    subgroup_name: str,
+    stat_name: str,
+    month_payloads: List[Tuple[str, Dict[str, Any]]],
+    weights: Dict[str, float],
+) -> Dict[str, Any]:
+    """Aggregate stats that live inside subgroup structures (e.g., POSTFLOP tree)."""
+
+    opportunities_total = 0
+    attempts_total = 0
+    frequency_by_month: List[Any] = []
+    pct_weights: List[Tuple[float, float]] = []
+    stat_score_weights: List[Tuple[float, float]] = []
+    ideal_value = None
+    stat_weight = None
+
+    for month, payload in month_payloads:
+        group_data = payload.get("groups", {}).get(group_name)
+        if not isinstance(group_data, dict):
+            frequency_by_month.append(None)
+            continue
+
+        subgroup_data = (group_data.get("subgroups") or {}).get(subgroup_name)
+        if not isinstance(subgroup_data, dict):
+            frequency_by_month.append(None)
+            continue
+
+        stats_dict = subgroup_data.get("stats")
+        if not isinstance(stats_dict, dict):
+            frequency_by_month.append(None)
+            continue
+
+        stat_data = stats_dict.get(stat_name)
+        if not isinstance(stat_data, dict):
+            frequency_by_month.append(None)
+            continue
+
+        opps_value = stat_data.get("opportunities")
+        if opps_value is None:
+            opps_value = stat_data.get("opps")
+        attempts_value = stat_data.get("attempts")
+        if attempts_value is None:
+            attempts_value = stat_data.get("att")
+
+        opportunities_total += int(opps_value or 0)
+        attempts_total += int(attempts_value or 0)
+
+        pct_value = stat_data.get("percentage")
+        if pct_value is None:
+            pct_value = stat_data.get("pct")
+        frequency_by_month.append(pct_value if pct_value is not None else None)
+        if pct_value is not None:
+            pct_weights.append((float(pct_value), weights.get(month, 0.0)))
+
+        if ideal_value is None and stat_data.get("ideal") is not None:
+            ideal_value = stat_data.get("ideal")
+
+        if stat_weight is None and stat_data.get("weight") is not None:
+            stat_weight = stat_data.get("weight")
+
+        stat_score = stat_data.get("score")
+        if stat_score is not None:
+            stat_score_weights.append((float(stat_score), weights.get(month, 0.0)))
+
+    aggregated_pct = _weighted_average(pct_weights)
+    aggregated_score = _weighted_average(stat_score_weights)
+
+    return {
+        "opps": opportunities_total,
+        "opportunities": opportunities_total,
+        "att": attempts_total,
+        "attempts": attempts_total,
+        "pct": aggregated_pct,
+        "percentage": aggregated_pct,
+        "score": aggregated_score,
+        "ideal": ideal_value,
+        "weight": stat_weight,
+        "frequencies_by_month": frequency_by_month,
+    }
+
+
 def _merge_group_stats(
     month_payloads: List[Tuple[str, Dict[str, Any]]], weights: Dict[str, float]
 ) -> Dict[str, Any]:
     aggregated_groups: Dict[str, Any] = {}
-    stats_counter = 0
 
     group_keys = set()
     for _, payload in month_payloads:
         group_keys.update(payload.get("groups", {}).keys())
 
     for group_name in group_keys:
-        group_stats: Dict[str, Any] = {}
+        stat_names: Set[str] = set()
         group_hands = 0
+        label = None
         subgroup_scores: Dict[str, List[Tuple[float, float]]] = {}
+        subgroup_metadata: Dict[str, Dict[str, Any]] = {}
+        subgroup_stat_names: Dict[str, Set[str]] = {}
+        subgroup_keys: Set[str] = set()
         group_score_values: List[Tuple[float, float]] = []
 
         for month, payload in month_payloads:
-            group_data = payload.get("groups", {}).get(group_name, {})
+            group_data = payload.get("groups", {}).get(group_name)
             if not isinstance(group_data, dict):
                 continue
 
-            group_hands += group_data.get("hands_count", 0) or 0
+            group_hands += int(group_data.get("hands_count", 0) or 0)
 
-            for stat_name in group_data.get("stats", {}):
-                if stat_name not in group_stats:
-                    group_stats[stat_name] = _aggregate_stat(stat_name, month_payloads, weights)
-                    stats_counter += 1
+            if label is None and group_data.get("label"):
+                label = group_data.get("label")
+
+            stats_dict = group_data.get("stats")
+            if isinstance(stats_dict, dict):
+                stat_names.update(stats_dict.keys())
 
             for subgroup, data in (group_data.get("subgroups") or {}).items():
-                if data.get("score") is None:
+                if not isinstance(data, dict):
+                    continue
+                subgroup_keys.add(subgroup)
+                meta = subgroup_metadata.setdefault(subgroup, {})
+                if not meta:
+                    for key in ("label", "weight"):
+                        if data.get(key) is not None:
+                            meta[key] = data.get(key)
+                score = data.get("score")
+                if score is None:
                     continue
                 subgroup_scores.setdefault(subgroup, []).append(
-                    (data.get("score"), weights.get(month, 0.0))
+                    (float(score), weights.get(month, 0.0))
                 )
 
-            if group_data.get("overall_score") is not None:
-                group_score_values.append((group_data.get("overall_score"), weights.get(month, 0.0)))
+                stats_dict = data.get("stats")
+                if isinstance(stats_dict, dict):
+                    subgroup_stat_names.setdefault(subgroup, set()).update(stats_dict.keys())
 
-        merged_subgroups = {}
-        for subgroup, entries in subgroup_scores.items():
-            merged = _weighted_average(entries)
-            if merged is not None:
-                merged_subgroups[subgroup] = {"score": merged}
+            if group_data.get("overall_score") is not None:
+                group_score_values.append((float(group_data.get("overall_score")), weights.get(month, 0.0)))
+
+        group_stats: Dict[str, Any] = {}
+        for stat_name in stat_names:
+            group_stats[stat_name] = _aggregate_stat_for_group(
+                group_name, stat_name, month_payloads, weights
+            )
+
+        merged_subgroups: Dict[str, Any] = {}
+        all_subgroup_names = set(subgroup_keys) | set(subgroup_scores.keys())
+        for subgroup in all_subgroup_names:
+            entries = subgroup_scores.get(subgroup, [])
+            merged_score = _weighted_average(entries) if entries else None
+            entry = dict(subgroup_metadata.get(subgroup, {}))
+            entry["score"] = merged_score
+
+            stat_names_for_subgroup = subgroup_stat_names.get(subgroup)
+            if stat_names_for_subgroup:
+                stats_payload = {}
+                for stat_name in stat_names_for_subgroup:
+                    stats_payload[stat_name] = _aggregate_subgroup_stat(
+                        group_name, subgroup, stat_name, month_payloads, weights
+                    )
+                entry["stats"] = stats_payload
+
+            merged_subgroups[subgroup] = entry
 
         aggregated_groups[group_name] = {
-            "label": next(
-                (p.get("groups", {}).get(group_name, {}).get("label") for _, p in month_payloads if group_name in p.get("groups", {})),
-                group_name,
-            ),
+            "label": label or group_name,
             "hands_count": group_hands,
             "stats": group_stats,
             "subgroups": merged_subgroups,
-            "overall_score": _weighted_average(group_score_values) or 0,
+            "overall_score": _weighted_average(group_score_values),
         }
 
-    logger.debug("[USER_MAIN] Aggregated %s stats across groups", stats_counter)
+    logger.debug("[USER_MAIN] Aggregated groups: %s", list(aggregated_groups.keys()))
     return aggregated_groups
 
 
