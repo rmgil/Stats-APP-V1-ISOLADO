@@ -23,6 +23,7 @@ def upload_page():
 
 @bp.route('/dashboard')
 @bp.route('/dashboard/main')
+@bp.route('/main')
 @login_required
 @email_confirmation_required
 def dashboard_page():

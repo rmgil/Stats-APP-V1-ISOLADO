@@ -1178,14 +1178,14 @@
         };
         
         const urlParams = new URLSearchParams(window.location.search);
-        const path = window.location.pathname;
-        const parts = path.split('/').filter(Boolean);
+        const rawPath = window.location.pathname.replace(/\/+$/, '') || '/';
+        const parts = rawPath.split('/').filter(Boolean);
 
-        const isDashboardRoot = parts.length === 1 && parts[0] === 'dashboard';
-        const tokenFromPath = (parts.length === 2 && parts[0] === 'dashboard' && parts[1] !== 'main')
+        const isDashboardRoot = rawPath === '/dashboard';
+        const isMainDashboard = rawPath === '/dashboard/main' || rawPath === '/main';
+        const tokenFromPath = (!isMainDashboard && parts.length === 2 && parts[0] === 'dashboard')
             ? parts[1]
             : null;
-        const isMainDashboard = parts.length === 2 && parts[0] === 'dashboard' && parts[1] === 'main';
 
         document.addEventListener('DOMContentLoaded', async function() {
             // Resolve token from path, query string or server-provided default
@@ -1291,9 +1291,224 @@
             }
         }
 
+        function computeWeightedPercentage(values, weights) {
+            if (!Array.isArray(values) || values.length === 0) {
+                return null;
+            }
+
+            let numerator = 0;
+            let denominator = 0;
+            values.forEach((value, idx) => {
+                const weight = Array.isArray(weights) && weights[idx] !== undefined ? Number(weights[idx]) : 0;
+                if (value !== null && value !== undefined && !Number.isNaN(value) && weight > 0) {
+                    numerator += Number(value) * weight;
+                    denominator += weight;
+                }
+            });
+
+            if (denominator === 0) {
+                return null;
+            }
+
+            return numerator / denominator;
+        }
+
+        function buildMonthContext(apiResponse) {
+            const months = Array.isArray(apiResponse.months) ? apiResponse.months : [];
+            let normalizedWeights = Array.isArray(apiResponse.normalized_weights) ? apiResponse.normalized_weights : [];
+
+            if (normalizedWeights.length !== months.length) {
+                const fallbackWeight = months.length > 0 ? 1 / months.length : 0;
+                normalizedWeights = Array(months.length).fill(fallbackWeight);
+            }
+
+            const entries = months.map((month, idx) => ({
+                month,
+                weight: normalizedWeights[idx] ?? null,
+            }));
+
+            return { entries, weights: normalizedWeights };
+        }
+
+        function convertMainStat(stat, monthContext) {
+            if (!stat) {
+                return null;
+            }
+
+            const frequencies = monthContext.entries.map((_, idx) => {
+                const key = `pct_month_${idx + 1}`;
+                const value = stat[key];
+                return value !== undefined && value !== null ? Number(value) : null;
+            });
+
+            const aggregatedPercentage = (stat.percentage !== undefined && stat.percentage !== null)
+                ? Number(stat.percentage)
+                : computeWeightedPercentage(frequencies, monthContext.weights);
+
+            return {
+                score: stat.score ?? null,
+                ideal: stat.ideal ?? null,
+                opportunities: stat.opportunities ?? 0,
+                attempts: stat.attempts ?? 0,
+                percentage: aggregatedPercentage,
+                frequencies_by_month: frequencies,
+            };
+        }
+
+        function convertMainGroup(group, monthContext) {
+            if (!group) {
+                return {
+                    label: '',
+                    hands_count: 0,
+                    stats: {},
+                    subgroups: {},
+                    overall_score: null,
+                };
+            }
+
+            const stats = {};
+            Object.entries(group.stats || {}).forEach(([statName, statValue]) => {
+                const converted = convertMainStat(statValue, monthContext);
+                if (converted) {
+                    stats[statName] = converted;
+                }
+            });
+
+            return {
+                label: group.label || '',
+                hands_count: group.hands_count || 0,
+                stats,
+                subgroups: group.subgroups || {},
+                overall_score: group.overall_score ?? null,
+            };
+        }
+
+        function mergeSubgroupScores(entries) {
+            const validEntries = (entries || []).filter(entry => entry && entry.group);
+            const result = {};
+
+            if (validEntries.length === 0) {
+                return result;
+            }
+
+            const subgroupNames = new Set();
+            validEntries.forEach(entry => {
+                Object.keys(entry.group.subgroups || {}).forEach(name => subgroupNames.add(name));
+            });
+
+            const totalWeight = validEntries.reduce((sum, entry) => sum + (entry.weight || 0), 0);
+            const multipleSources = validEntries.filter(entry => (entry.weight || 0) > 0).length > 1;
+
+            subgroupNames.forEach(name => {
+                let numerator = 0;
+                let weightSum = 0;
+                validEntries.forEach(entry => {
+                    const subgroup = entry.group.subgroups ? entry.group.subgroups[name] : null;
+                    if (subgroup && subgroup.score !== null && subgroup.score !== undefined) {
+                        const sourceWeight = entry.weight || 0;
+                        numerator += subgroup.score * sourceWeight;
+                        weightSum += sourceWeight;
+                    }
+                });
+
+                if (weightSum > 0) {
+                    const weightRatio = (multipleSources && totalWeight > 0)
+                        ? weightSum / totalWeight
+                        : null;
+                    result[name] = {
+                        score: numerator / weightSum,
+                        weight: weightRatio,
+                    };
+                } else {
+                    result[name] = {
+                        score: null,
+                        weight: null,
+                    };
+                }
+            });
+
+            return result;
+        }
+
+        function buildWeightedScoresFromMain(groups, geralStats) {
+            const components = (geralStats && geralStats.components) || {};
+
+            const nonko9 = groups.nonko_9max || { hands_count: 0, subgroups: {} };
+            const nonko6 = groups.nonko_6max || { hands_count: 0, subgroups: {} };
+            const nonkoTotal = (nonko9.hands_count || 0) + (nonko6.hands_count || 0);
+
+            const nonkoSummary = {
+                group_score: components.NONKO ?? null,
+                weight_9max: nonkoTotal > 0 ? Number(((nonko9.hands_count || 0) / nonkoTotal * 100).toFixed(1)) : 0,
+                weight_6max: nonkoTotal > 0 ? Number(((nonko6.hands_count || 0) / nonkoTotal * 100).toFixed(1)) : 0,
+                subgroups: mergeSubgroupScores([
+                    { group: nonko9, weight: nonko9.hands_count || 0 },
+                    { group: nonko6, weight: nonko6.hands_count || 0 },
+                ]),
+            };
+
+            const pkoSummary = {
+                group_score: components.PKO ?? null,
+                subgroups: mergeSubgroupScores([
+                    { group: groups.pko || { subgroups: {} }, weight: (groups.pko && groups.pko.hands_count) || 0 },
+                ]),
+            };
+
+            const postflopSummary = {
+                group_score: components.POSTFLOP ?? null,
+                subgroups: mergeSubgroupScores([
+                    { group: groups.postflop_all || { subgroups: {} }, weight: (groups.postflop_all && groups.postflop_all.hands_count) || 0 },
+                ]),
+            };
+
+            return {
+                overall: (geralStats && geralStats.overall_score) ?? null,
+                nonko: nonkoSummary,
+                pko: pkoSummary,
+                postflop: postflopSummary,
+            };
+        }
+
+        function transformMainApiPayload(apiResponse) {
+            if (!apiResponse || typeof apiResponse !== 'object') {
+                return null;
+            }
+
+            const monthContext = buildMonthContext(apiResponse);
+            const statsTree = apiResponse.stats || {};
+
+            const groups = {
+                nonko_9max: convertMainGroup(statsTree.NONKO && statsTree.NONKO['9-max'], monthContext),
+                nonko_6max: convertMainGroup(statsTree.NONKO && statsTree.NONKO['6-max'], monthContext),
+                pko: convertMainGroup(statsTree.PKO, monthContext),
+                postflop_all: convertMainGroup(statsTree.POSTFLOP, monthContext),
+            };
+
+            const totalHands = (groups.nonko_9max.hands_count || 0)
+                + (groups.nonko_6max.hands_count || 0)
+                + (groups.pko.hands_count || 0);
+
+            return {
+                meta: {
+                    months: monthContext.entries,
+                    mode: apiResponse.meta?.mode || 'user_main_3months',
+                },
+                groups,
+                weighted_scores: buildWeightedScoresFromMain(groups, statsTree.GERAL),
+                total_hands: totalHands,
+                valid_hands: totalHands,
+                discard_stats: {},
+            };
+        }
+
         async function loadMainDashboard() {
             try {
-                const res = await fetch('/api/dashboard/main');
+                const res = await fetch('/api/main', {
+                    headers: {
+                        'Accept': 'application/json'
+                    },
+                    credentials: 'include'
+                });
                 if (!res.ok) {
                     showError('Erro ao carregar dados da Main Page.');
                     return;
@@ -1301,20 +1516,29 @@
 
                 const json = await res.json();
 
-                if (isNoDataResponse(json)) {
+                if (!json.success) {
+                    showError(json.detail || json.error || 'Erro ao carregar dados da Main Page.');
+                    return;
+                }
+
+                const payload = transformMainApiPayload(json);
+                if (!payload) {
                     showNoDataMessage();
                     return;
                 }
 
-                if (!json.success || !json.data) {
-                    showError(json.error || 'Erro ao carregar dados da Main Page.');
+                const hasData = Object.values(payload.groups || {}).some(group => {
+                    if (!group) return false;
+                    return (group.hands_count || 0) > 0 || Object.keys(group.stats || {}).length > 0;
+                });
+
+                if (!hasData) {
+                    showNoDataMessage();
                     return;
                 }
 
-                const payload = json.data;
-
                 renderDashboardFromPayload(payload);
-                updateHeaderForMainDashboard(json);
+                updateHeaderForMainDashboard({ token: json.token });
             } catch (e) {
                 console.error(e);
                 showError('Erro ao carregar dados da Main Page.');
@@ -1661,7 +1885,8 @@
                 if (name in subgroups) {
                     const data = subgroups[name];
                     const score = data.score;
-                    const weight = (data.weight * 100).toFixed(0);
+                    const hasWeight = typeof data.weight === 'number' && !Number.isNaN(data.weight);
+                    const weight = hasWeight ? `${(data.weight * 100).toFixed(0)}%` : '—';
                     
                     // Distinguish between null/undefined (no data) and 0 (bad performance)
                     let scoreDisplay = '-';
@@ -1680,7 +1905,7 @@
                             <span class="subgroup-name">${name}</span>
                             <div class="subgroup-score">
                                 <span class="subgroup-score-value ${scoreColorClass}">${scoreDisplay}</span>
-                                <span class="subgroup-weight">(${weight}%)</span>
+                                <span class="subgroup-weight">(${weight})</span>
                             </div>
                         </div>
                     `;
@@ -2560,7 +2785,7 @@
             showError('Ainda não carregaste nenhum ficheiro.');
         }
 
-        function updateHeaderForMainDashboard(json) {
+        function updateHeaderForMainDashboard(context = {}) {
             const summaryItem = document.getElementById('tokenSummaryItem');
             const tokenLabel = document.getElementById('tokenLabel');
             const tokenDisplay = document.getElementById('tokenDisplay');
@@ -2569,16 +2794,17 @@
             const monthsSummary = formatMonthsSummary(mainDashboardMonths);
             summaryItem.style.display = 'flex';
 
-            tokenLabel.textContent = monthsSummary ? 'Visão:' : 'Visão principal';
-            tokenDisplay.style.fontFamily = '';
-            tokenDisplay.style.fontSize = '';
-
             if (monthsSummary) {
+                tokenLabel.textContent = 'Visão:';
                 tokenDisplay.textContent = monthsSummary;
             } else {
-                const uploadToken = json?.token ? ` (upload ${json.token})` : '';
-                tokenDisplay.textContent = `Último upload${uploadToken}`;
+                tokenLabel.textContent = 'Visão principal';
+                const uploadToken = context && context.token ? ` (upload ${context.token})` : '';
+                tokenDisplay.textContent = uploadToken ? `Último upload${uploadToken}` : 'Últimos resultados';
             }
+
+            tokenDisplay.style.fontFamily = '';
+            tokenDisplay.style.fontSize = '';
         }
 
         function showError(message) {
