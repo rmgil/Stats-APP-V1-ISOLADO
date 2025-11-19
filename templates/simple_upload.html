@@ -506,9 +506,9 @@
 <body>
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="/dashboard" class="navbar-brand">Stat Manager</a>
+            <a href="/main" class="navbar-brand">Stat Manager</a>
             <div class="navbar-menu">
-                <a href="/dashboard" class="navbar-link">Dashboard</a>
+                <a href="/main" class="navbar-link">Dashboard</a>
                 <a href="/upload" class="navbar-link">Nova Análise</a>
                 {% if is_admin %}
                 <a href="/admin/emails" class="navbar-link">Admin Panel</a>
@@ -951,7 +951,7 @@
                 
                 // Redirect to results
                 setTimeout(() => {
-                    window.location.href = '/dashboard';
+                    window.location.href = '/main';
                 }, 1500);
                 
                 return null; // No need to poll
@@ -1037,7 +1037,7 @@
                 // Otherwise, start polling (legacy support)
                 const intervals = pollProgress(uploadToken, () => {
                     // On complete, redirect to dashboard
-                    window.location.href = '/dashboard';
+                    window.location.href = '/main';
                 });
                 
                 // Store intervals for cleanup if needed
