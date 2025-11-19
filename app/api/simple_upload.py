@@ -9,10 +9,12 @@ import json
 import secrets
 import traceback
 from pathlib import Path
+from typing import Optional
 from flask import Blueprint, request, jsonify, send_file
 from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 import io
+from app.services.upload_service import UploadService
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +69,8 @@ def upload_file():
     Processes file immediately and returns results
     """
     token = None
+    upload_record_id: Optional[str] = None
+    upload_service = UploadService()
     
     try:
         # Validate file
@@ -133,7 +137,7 @@ def upload_file():
         
         if history_service.enabled:
             existing = history_service.find_by_file_hash(file_hash, user_id=user_id)
-            
+
             if existing:
                 old_token = existing.get('token')
                 logger.info(f"🔄 Duplicate file detected! Returning results from {old_token}")
@@ -150,7 +154,44 @@ def upload_file():
                     'original_date': existing.get('created_at'),
                     'total_hands': existing.get('total_hands', 0)
                 }), 200
-        
+
+        try:
+            logger.info(
+                "REGISTERING UPLOAD: user_id=%s, filename=%s, token=%s",
+                user_id,
+                filename,
+                token,
+            )
+            upload_record_id = upload_service.create_upload(
+                user_id=user_id,
+                token=token,
+                filename=filename,
+                archive_sha256=file_hash,
+                status='uploaded',
+                hand_count=0,
+            )
+        except Exception:
+            logger.exception("ERROR REGISTERING UPLOAD IN DB")
+            cleanup_temp_files(token)
+            return jsonify({'success': False, 'error': 'failed_to_register_upload'}), 500
+
+        if not upload_record_id:
+            logger.error(
+                "Failed to register upload metadata for user_id=%s filename=%s token=%s",
+                user_id,
+                filename,
+                token,
+            )
+            cleanup_temp_files(token)
+            return jsonify({'success': False, 'error': 'failed_to_register_upload'}), 500
+
+        logger.info(
+            "UPLOAD REGISTERED IN DB: upload_id=%s, user_id=%s, token=%s",
+            upload_record_id,
+            user_id,
+            token,
+        )
+
         # Process file immediately (synchronously)
         try:
             from app.pipeline.multi_site_runner import run_multi_site_pipeline
@@ -188,6 +229,8 @@ def upload_file():
             
             # Run pipeline
             logger.info(f"Starting pipeline for {token}")
+            if upload_record_id:
+                upload_service.update_upload_status(upload_record_id, status='processing')
             success, message, pipeline_result = run_multi_site_pipeline(
                 archive_path=str(file_path),
                 work_root=str(work_base),
@@ -195,9 +238,21 @@ def upload_file():
                 progress_callback=progress_callback,
                 user_id=user_id,
             )
-            
+
             if not success:
                 raise Exception(f'Pipeline failed: {message}')
+
+            if upload_record_id:
+                total_hands = None
+                if isinstance(pipeline_result, dict):
+                    total_hands = pipeline_result.get('total_hands') or pipeline_result.get('valid_hands')
+                upload_service.update_upload_status(
+                    upload_record_id,
+                    status='processed',
+                    processed=True,
+                    hand_count=total_hands,
+                    error_message=None,
+                )
             
             logger.info(f"Pipeline completed: {message}")
             
@@ -291,14 +346,28 @@ def upload_file():
             # Clear processing status on error
             if token in PROCESSING_STATUS:
                 del PROCESSING_STATUS[token]
-                
+
             logger.error(f"Processing error for {token}: {e}")
             logger.error(traceback.format_exc())
+            if upload_record_id:
+                upload_service.update_upload_status(
+                    upload_record_id,
+                    status='error',
+                    processed=False,
+                    error_message=str(e),
+                )
             return jsonify({'error': f'Erro no processamento: {str(e)}'}), 500
-            
+
     except Exception as e:
         logger.error(f"Upload error: {e}")
         logger.error(traceback.format_exc())
+        if upload_record_id:
+            upload_service.update_upload_status(
+                upload_record_id,
+                status='error',
+                processed=False,
+                error_message=str(e),
+            )
         return jsonify({'error': f'Erro no upload: {str(e)}'}), 500
         
     finally:

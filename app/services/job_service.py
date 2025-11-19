@@ -19,8 +19,9 @@ class JobService:
         user_id: str,
         upload_id: str,
         input_path: str,
+        job_id: Optional[str] = None,
     ) -> Optional[str]:
-        job_id = secrets.token_hex(6)
+        job_id = job_id or secrets.token_hex(6)
         conn = None
         try:
             conn = DatabasePool.get_connection()

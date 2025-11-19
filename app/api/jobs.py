@@ -1,5 +1,6 @@
 """Job-centric upload and status endpoints."""
 
+import logging
 import os
 import secrets
 import tempfile
@@ -14,6 +15,9 @@ from app.services.storage import get_storage
 from app.services.jobs_background_worker import ensure_jobs_worker
 from app.services.file_hash import FileHashService
 from app.utils.supabase_retry import with_supabase_retry
+
+
+logger = logging.getLogger(__name__)
 
 
 bp_jobs = Blueprint("bp_jobs", __name__, url_prefix="/api/jobs")
@@ -45,18 +49,32 @@ def upload_job():
     try:
         file_hash = FileHashService.calculate_hash(temp_path)
         user_id = str(current_user.id)
-        client_token = secrets.token_hex(6)
+        token = secrets.token_hex(6)
+        logger.info(
+            "REGISTERING UPLOAD: user_id=%s, filename=%s, token=%s",
+            user_id,
+            filename,
+            token,
+        )
 
         upload_id = upload_service.create_upload(
             user_id=user_id,
-            client_upload_token=client_token,
-            file_name=filename,
-            file_hash=file_hash,
-            is_master=False,
+            token=token,
+            filename=filename,
+            archive_sha256=file_hash,
+            status='uploaded',
+            hand_count=0,
         )
 
         if not upload_id:
             return jsonify({"ok": False, "error": "upload_not_created"}), 500
+
+        logger.info(
+            "UPLOAD REGISTERED IN DB: upload_id=%s, user_id=%s, token=%s",
+            upload_id,
+            user_id,
+            token,
+        )
 
         storage_path = f"uploads/{user_id}/{upload_id}/input{suffix}"
 
@@ -73,14 +91,16 @@ def upload_job():
             user_id=user_id,
             upload_id=upload_id,
             input_path=storage_path,
+            job_id=token,
         )
 
         if not job_id:
+            upload_service.update_upload_status(upload_id, status='error', processed=False, error_message='job_not_created')
             return jsonify({"ok": False, "error": "job_not_created"}), 500
 
         ensure_jobs_worker()
 
-        return jsonify({"ok": True, "job_id": job_id, "upload_id": upload_id})
+        return jsonify({"ok": True, "job_id": job_id, "upload_id": upload_id, "token": token})
     finally:
         try:
             os.unlink(temp_path)

@@ -34,7 +34,7 @@ class UserMonthsService:
         uploads = self.upload_service.list_all_uploads(user_id)
         logger.debug("[USER_MONTHS] Upload entries for %s: %s", user_id, uploads)
 
-        tokens = [u.get("client_upload_token") for u in uploads if u.get("client_upload_token")]
+        tokens = [u.get("token") for u in uploads if u.get("token")]
 
         logger.debug("[USER_MONTHS] Found tokens for user %s: %s", user_id, tokens)
 

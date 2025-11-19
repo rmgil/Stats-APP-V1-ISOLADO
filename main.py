@@ -338,8 +338,8 @@ def resolve_upload_token_from_request():
     try:
         upload_service = UploadService()
         master_upload = upload_service.get_master_upload(str(current_user.id))
-        if master_upload and master_upload.get('client_upload_token'):
-            return master_upload['client_upload_token'], None
+        if master_upload and master_upload.get('token'):
+            return master_upload['token'], None
     except Exception as exc:
         app.logger.error(
             "Failed to resolve current upload for user %s: %s",
@@ -1953,15 +1953,21 @@ def process_uploaded_file(file_path, upload_id):
 
             if existing_upload:
                 logical_upload_id = existing_upload.get('id')
-                upload_service.refresh_upload(logical_upload_id, client_upload_token=upload_id, file_name=upload_info.get('file_name'))
+                upload_service.refresh_upload(
+                    logical_upload_id,
+                    token=upload_id,
+                    filename=upload_info.get('file_name'),
+                )
                 upload_info['is_duplicate'] = True
                 app.logger.info(f"Duplicate upload detected. Reusing logical upload ID {logical_upload_id}")
             else:
                 logical_upload_id = upload_service.create_upload(
                     user_id=user_id,
-                    client_upload_token=upload_id,
-                    file_name=upload_info.get('file_name'),
-                    file_hash=file_hash
+                    token=upload_id,
+                    filename=upload_info.get('file_name') or file_path.name,
+                    archive_sha256=file_hash,
+                    status='uploaded',
+                    hand_count=0,
                 )
                 upload_info['is_duplicate'] = False
                 app.logger.info(f"Created new logical upload ID {logical_upload_id}")
