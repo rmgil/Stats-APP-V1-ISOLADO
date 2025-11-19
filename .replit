@@ -6,7 +6,7 @@ packages = ["bzip2", "cabextract", "diffutils", "file", "glibcLocales", "gnugrep
 
 [deployment]
 deploymentTarget = "autoscale"
-run = ["gunicorn", "--config", "gunicorn.conf.py", "main:app"]
+run = ["uvicorn", "main:fastapi_app", "--host", "0.0.0.0", "--port", "5000"]
 
 [workflows]
 runButton = "Project"
@@ -29,7 +29,7 @@ outputType = "webview"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "gunicorn --bind 0.0.0.0:5000 --workers 1 --timeout 900 --worker-class sync --max-requests 500 --max-requests-jitter 50 --reuse-port --reload main:app"
+args = "uvicorn main:fastapi_app --host 0.0.0.0 --port 5000 --reload"
 waitForPort = 5000
 
 [[ports]]
