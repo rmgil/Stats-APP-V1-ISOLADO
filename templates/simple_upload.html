@@ -794,21 +794,22 @@
             
             const pollInterval = setInterval(async () => {
                 try {
-                    // Use new progress endpoint (no auth required)
+                    // Use new progress endpoint served by FastAPI
                     const response = await fetch(`/api/upload/status/${token}`, {
                         credentials: 'include'
                     });
                     const data = await response.json();
-                    
-                    if (!data.success) {
+
+                    if (!response.ok) {
                         clearInterval(pollInterval);
                         clearInterval(elapsedTimeInterval);
-                        showError(data.error || 'Erro ao verificar progresso');
+                        const errorDetail = data?.detail || data?.error || `Erro ao verificar progresso (${response.status})`;
+                        showError(errorDetail);
                         return;
                     }
-                    
-                    const serverProgress = data.progress || 0;
-                    const status = data.status;
+
+                    const serverProgress = data.progress ?? 0;
+                    const status = data.status || 'processing';
                     const phase = data.phase || 'processing';
                     const message = data.message || 'A processar...';
                     const stats = data.stats || {};
