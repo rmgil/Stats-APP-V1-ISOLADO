@@ -19,6 +19,8 @@ import magic
 import rarfile
 import chardet
 from flask_login import LoginManager, current_user, login_required
+from fastapi import FastAPI
+from fastapi.middleware.wsgi import WSGIMiddleware
 
 # Import partition module
 from app.partition.runner import build_partitions
@@ -47,8 +49,8 @@ from app.admin import admin_bp
 from app.admin.routes import *
 from app.admin.initializer import initialize_production_emails, ensure_primary_admin
 
-# Import simple upload API (simplified synchronous version)
-from app.api.simple_upload import simple_upload_bp
+# Import simple upload FastAPI router
+from app.api.simple_upload import router as simple_upload_router
 
 # Import database pool only (no background worker needed)
 from app.services.db_pool import DatabasePool
@@ -875,8 +877,7 @@ app.register_blueprint(auth_bp)
 # Register admin blueprint
 app.register_blueprint(admin_bp)
 
-# Register simple upload API blueprint (replaces distributed upload)
-app.register_blueprint(simple_upload_bp)
+# Simple upload API handled via FastAPI router (see fastapi_app configuration)
 
 # Register history API blueprint
 from app.api.history import history_bp
@@ -886,7 +887,10 @@ app.register_blueprint(history_bp)
 from app.api.cleanup_admin import cleanup_admin_bp
 app.register_blueprint(cleanup_admin_bp)
 
-# Blueprint registration handled elsewhere
+# FastAPI application exposing the asynchronous upload router
+fastapi_app = FastAPI(title="Stats Upload Service")
+fastapi_app.include_router(simple_upload_router)
+fastapi_app.mount("/", WSGIMiddleware(app))
 
 @app.route('/')
 def index():
