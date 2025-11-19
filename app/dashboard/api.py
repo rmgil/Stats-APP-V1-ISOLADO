@@ -260,11 +260,12 @@ def api_current_dashboard():
         with conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT id, user_id, filename, token, status,
-                       uploaded_at, processed_at, error_message
-                FROM uploads
-                WHERE user_id = %s
-                ORDER BY uploaded_at DESC
+                SELECT u.id, u.token, u.filename, u.status,
+                       u.uploaded_at, u.processed_at, u.error_message
+                FROM uploads AS u
+                INNER JOIN jobs AS j ON j.upload_id = u.id
+                WHERE j.user_id = %s
+                ORDER BY u.uploaded_at DESC
                 LIMIT 5
                 """,
                 (user_identifier,),
@@ -274,18 +275,20 @@ def api_current_dashboard():
             columns = [desc[0] for desc in cur.description]
             uploads = [dict(zip(columns, row)) for row in rows]
 
+        def _to_iso(value):
+            if not value:
+                return None
+            iso_value = value.isoformat()
+            return iso_value[:-6] + "Z" if iso_value.endswith("+00:00") else iso_value
+
         recent_uploads = [
             {
                 "id": str(entry.get("id")),
                 "token": entry.get("token"),
                 "filename": entry.get("filename"),
                 "status": entry.get("status"),
-                "uploaded_at": entry.get("uploaded_at").isoformat()
-                if entry.get("uploaded_at")
-                else None,
-                "processed_at": entry.get("processed_at").isoformat()
-                if entry.get("processed_at")
-                else None,
+                "uploaded_at": _to_iso(entry.get("uploaded_at")),
+                "processed_at": _to_iso(entry.get("processed_at")),
                 "error_message": entry.get("error_message"),
             }
             for entry in uploads
@@ -296,9 +299,8 @@ def api_current_dashboard():
         payload = {
             "has_data": has_data,
             "recent_uploads": recent_uploads,
+            "latest_token": recent_uploads[0].get("token") if recent_uploads else None,
         }
-        if recent_uploads:
-            payload["token"] = recent_uploads[0].get("token")
 
         return jsonify({"success": True, "data": payload})
     except Exception:
