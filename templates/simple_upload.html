@@ -795,7 +795,9 @@
             const pollInterval = setInterval(async () => {
                 try {
                     // Use new progress endpoint (no auth required)
-                    const response = await fetch(`/api/upload/status/${token}`);
+                    const response = await fetch(`/api/upload/status/${token}`, {
+                        credentials: 'include'
+                    });
                     const data = await response.json();
                     
                     if (!data.success) {
