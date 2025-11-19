@@ -2,7 +2,7 @@ modules = ["python-3.11", "postgresql-16"]
 
 [nix]
 channel = "stable-24_05"
-packages = ["bzip2", "cabextract", "diffutils", "file", "glibcLocales", "gnugrep", "gnutar", "gzip", "libarchive", "libxcrypt", "libyaml", "lzip", "openssl", "p7zip", "postgresql", "unrar", "unzip", "xz", "zip", "zpaq"]
+packages = ["bzip2", "cabextract", "diffutils", "file", "glibcLocales", "gnugrep", "gnutar", "gzip", "libarchive", "libxcrypt", "libyaml", "lzip", "openssl", "p7zip", "postgresql", "unrar", "unzip", "xz", "zip", "zpaq", "imagemagick_light"]
 
 [deployment]
 deploymentTarget = "autoscale"
