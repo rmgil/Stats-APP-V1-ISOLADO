@@ -18,6 +18,7 @@ from app.services.storage import get_storage
 from app.services.supabase_history import SupabaseHistoryService
 from app.services.supabase_storage import SupabaseStorageService
 from app.services.upload_service import UploadService
+from app.services.master_result_builder import rebuild_user_master_results
 
 logger = logging.getLogger(__name__)
 
@@ -289,6 +290,12 @@ def run_pipeline_background(token: str, upload_id: str, user_id: str) -> None:
                 )
             except Exception as exc:  # pragma: no cover - defensive
                 logger.warning("Failed to save to Supabase history: %s", exc)
+
+        try:
+            logger.info("Rebuilding consolidated results for user %s", user_id)
+            rebuild_user_master_results(user_id)
+        except Exception as exc:  # pragma: no cover - defensive
+            logger.warning("Failed to rebuild master results for user %s: %s", user_id, exc)
 
         logger.info("Pipeline completed for %s", token)
     except Exception as exc:  # pragma: no cover - defensive

@@ -19,6 +19,7 @@ from app.pipeline.multi_site_runner import (
 from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 from app.stats.aggregate import MultiSiteAggregator
+from app.services.storage import get_storage
 from app.stats.stat_categories import (
     BB_DEFENSE_STATS,
     BVB_STATS,
@@ -226,6 +227,40 @@ def _merge_pipeline_results(
     return payload
 
 
+def _upload_user_results_to_storage(output_root: Path, user_id: str) -> None:
+    """Upload consolidated user results to Supabase Storage when available."""
+
+    storage = get_storage()
+    if not storage.use_cloud:
+        logger.debug("[MASTER] Storage running in local mode; skipping upload for %s", user_id)
+        return
+
+    storage_prefix = f"/results/by_user/{user_id}"
+    uploaded = 0
+
+    for file_path in output_root.rglob("*.json"):
+        relative = file_path.relative_to(output_root)
+        storage_path = f"{storage_prefix}/{relative}".replace("\\", "/")
+        try:
+            with open(file_path, "rb") as handle:
+                storage.upload_fileobj(handle, storage_path, "application/json")
+            uploaded += 1
+        except Exception as exc:  # noqa: BLE001 - continue uploading remaining files
+            logger.warning(
+                "[MASTER] Failed to upload %s to %s: %s",
+                file_path,
+                storage_path,
+                exc,
+            )
+
+    logger.info(
+        "[MASTER] Uploaded %s aggregated artifact(s) for user %s to %s",
+        uploaded,
+        user_id,
+        storage_prefix,
+    )
+
+
 def rebuild_user_master_results(user_id: str) -> Path:
     """Rebuild consolidated dashboard artifacts for all active uploads of a user."""
 
@@ -276,6 +311,9 @@ def rebuild_user_master_results(user_id: str) -> Path:
     global_path = output_root / "pipeline_result_global.json"
     global_path.write_text(json.dumps(master_payload, indent=2), encoding="utf-8")
 
+    global_upper_path = output_root / "pipeline_result_GLOBAL.json"
+    global_upper_path.write_text(json.dumps(master_payload, indent=2), encoding="utf-8")
+
     month_entries = []
     for month_key, month_results in months_map.items():
         merged_month = _merge_pipeline_results(month_results, month_key=month_key)
@@ -310,6 +348,11 @@ def rebuild_user_master_results(user_id: str) -> Path:
         master_payload.get("valid_hands", 0),
         output_root,
     )
+
+    try:
+        _upload_user_results_to_storage(output_root, user_id)
+    except Exception as exc:  # noqa: BLE001 - never break caller due to upload errors
+        logger.warning("[MASTER] Failed to upload aggregated artifacts for %s: %s", user_id, exc)
 
     return output_root
 

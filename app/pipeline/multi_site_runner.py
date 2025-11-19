@@ -1227,6 +1227,11 @@ def run_multi_site_pipeline(
             json.dump(result_data, f, indent=2)
         logger.info(f"[{token}] ✅ Wrote global pipeline_result to {global_result_path}")
 
+        global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
+        with open(global_result_upper, 'w', encoding='utf-8') as f:
+            json.dump(result_data, f, indent=2)
+        logger.info(f"[{token}] ✅ Wrote GLOBAL pipeline_result to {global_result_upper}")
+
         legacy_result_path = os.path.join(work_dir, "pipeline_result.json")
         with open(legacy_result_path, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, indent=2)
@@ -1275,6 +1280,13 @@ def run_multi_site_pipeline(
                     storage_path = f"/results/{token}/pipeline_result_global.json"
                     storage.upload_file_stream(f, storage_path, 'application/json')
                     logger.info(f"[{token}] ✅ Uploaded pipeline_result_global.json")
+
+            global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
+            if os.path.exists(global_result_upper):
+                with open(global_result_upper, 'rb') as f:
+                    storage_path = f"/results/{token}/pipeline_result_GLOBAL.json"
+                    storage.upload_file_stream(f, storage_path, 'application/json')
+                    logger.info(f"[{token}] ✅ Uploaded pipeline_result_GLOBAL.json")
 
             # Upload legacy aggregate file for backwards compatibility
             aggregate_result_path = os.path.join(work_dir, "pipeline_result.json")
