@@ -9,7 +9,7 @@ import shutil
 from pathlib import Path
 from typing import Dict, Optional
 
-from fastapi import APIRouter, BackgroundTasks, File, HTTPException, Request, UploadFile
+from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, UploadFile
 from werkzeug.utils import secure_filename
 
 from app.pipeline.multi_site_runner import run_multi_site_pipeline
@@ -19,6 +19,8 @@ from app.services.supabase_history import SupabaseHistoryService
 from app.services.supabase_storage import SupabaseStorageService
 from app.services.upload_service import UploadService
 from app.services.master_result_builder import rebuild_user_master_results
+from app.api.auth_dependencies import get_current_user
+from app.models.user import User
 
 logger = logging.getLogger(__name__)
 
@@ -63,17 +65,12 @@ def cleanup_temp_files(token: str) -> None:
         logger.warning("Cleanup error for %s: %s", token, exc)
 
 
-def _require_user_id(request: Request) -> str:
-    """Read the user identifier from headers or raise an error."""
-
-    user_id = request.headers.get("x-user-id") or request.headers.get("x-user-email")
-    if not user_id:
-        raise HTTPException(status_code=401, detail="missing_user_id")
-    return user_id
-
-
 @router.post("/simple")
-async def upload_file(background_tasks: BackgroundTasks, request: Request, file: UploadFile = File(...)):
+async def upload_file(
+    background_tasks: BackgroundTasks,
+    current_user: User = Depends(get_current_user),
+    file: UploadFile = File(...),
+):
     """Handle archive reception, registration and pipeline scheduling."""
 
     if not file.filename:
@@ -83,7 +80,11 @@ async def upload_file(background_tasks: BackgroundTasks, request: Request, file:
     if not allowed_file(filename):
         raise HTTPException(status_code=400, detail="invalid_extension")
 
-    user_id = _require_user_id(request)
+    logger.info(f"FASTAPI AUTH USER = {current_user.id}")
+    user_id = current_user.get_id() or current_user.id
+    if not user_id:
+        raise HTTPException(status_code=401, detail="user_not_authenticated")
+    user_id = str(user_id)
     token = secrets.token_hex(6)
     upload_dir = Path("/tmp") / token
     upload_dir.mkdir(parents=True, exist_ok=True)
