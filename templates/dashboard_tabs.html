@@ -920,6 +920,17 @@
         <div class="header-content">
             <h1>Dashboard de Análise</h1>
             <div class="header-actions">
+                {% if dashboard_api_mode == 'main' and available_months %}
+                <div class="month-selector">
+                    <label for="mainMonthSelect">Dashboard mensal:</label>
+                    <select id="mainMonthSelect" class="month-dropdown">
+                        <option value="">Selecione um mês</option>
+                        {% for m in available_months %}
+                            <option value="{{ m }}">{{ m }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                {% endif %}
                 <div class="month-selector" id="monthSelectorContainer" style="display: none;" data-token="{{ token }}" data-current-month="{{ month or '' }}">
                     <label for="monthSelector">Período:</label>
                     <select id="monthSelector" class="month-dropdown">
@@ -1188,6 +1199,17 @@
             : null;
 
         document.addEventListener('DOMContentLoaded', async function() {
+            const mainMonthSelect = document.getElementById('mainMonthSelect');
+            if (mainMonthSelect) {
+                mainMonthSelect.addEventListener('change', (event) => {
+                    const selectedMonth = event.target.value;
+                    if (!selectedMonth) {
+                        return;
+                    }
+                    window.location.href = `/dashboard?month=${encodeURIComponent(selectedMonth)}`;
+                });
+            }
+
             // Resolve token from path, query string or server-provided default
             let token = tokenFromPath || urlParams.get('token') || window.initialDashboardToken || null;
 

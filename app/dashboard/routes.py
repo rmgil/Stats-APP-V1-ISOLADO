@@ -36,11 +36,14 @@ def show_dashboard(token):
             abort(404, description=f"Não foi encontrado nenhum resultado para o token '{token}'.")
         
         # Render the dashboard template with the data
-        return render_template('dashboard_tabs.html',
-                             token=token,
-                             month=month,
-                             data=json.dumps(data),
-                             dashboard_api_mode='token')
+        return render_template(
+            'dashboard_tabs.html',
+            token=token,
+            month=month,
+            data=json.dumps(data),
+            dashboard_api_mode='token',
+            available_months=[],
+        )
     
     except FileNotFoundError:
         month_msg = f" para o mês {month}" if month else ""
