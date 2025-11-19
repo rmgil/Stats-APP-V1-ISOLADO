@@ -10,9 +10,28 @@ logger = logging.getLogger(__name__)
 class UploadService:
     """Provide CRUD helpers for the uploads table."""
 
+    DEFAULT_SELECT = (
+        "id",
+        "user_id",
+        "token",
+        "filename",
+        "status",
+        "uploaded_at",
+        "processed_at",
+        "hand_count",
+        "archive_sha256",
+        "error_message",
+    )
+
+    @staticmethod
+    def _row_to_dict(description, row) -> Dict[str, Any]:
+        columns = [desc[0] for desc in description]
+        data = dict(zip(columns, row))
+        return data
+
     @classmethod
     def get_master_or_latest_upload_for_user(cls, user_id: str) -> Optional[Dict[str, Any]]:
-        """Return the master upload for the user or, if missing, the latest upload."""
+        """Return the latest upload for the user (master concept removed)."""
 
         conn = None
         try:
@@ -20,11 +39,12 @@ class UploadService:
             with conn.cursor() as cur:
                 cur.execute(
                     """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
+                    SELECT id, user_id, token, filename, status,
+                           uploaded_at, processed_at, hand_count,
+                           archive_sha256, error_message
                     FROM uploads
-                    WHERE user_id = %s AND is_master = true AND is_active = true
-                    ORDER BY created_at DESC
+                    WHERE user_id = %s
+                    ORDER BY COALESCE(processed_at, uploaded_at) DESC
                     LIMIT 1
                     """,
                     (user_id,),
@@ -32,30 +52,11 @@ class UploadService:
 
                 row = cur.fetchone()
                 if row:
-                    columns = [desc[0] for desc in cur.description]
-                    return dict(zip(columns, row))
-
-                cur.execute(
-                    """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
-                    FROM uploads
-                    WHERE user_id = %s AND is_active = true
-                    ORDER BY created_at DESC
-                    LIMIT 1
-                    """,
-                    (user_id,),
-                )
-
-                row = cur.fetchone()
-                if row:
-                    columns = [desc[0] for desc in cur.description]
-                    return dict(zip(columns, row))
-
+                    return cls._row_to_dict(cur.description, row)
                 return None
         except Exception as exc:
             logger.error(
-                "Failed to fetch master or latest upload for user %s: %s",
+                "Failed to fetch latest upload for user %s: %s",
                 user_id,
                 exc,
                 exc_info=True,
@@ -66,18 +67,19 @@ class UploadService:
                 DatabasePool.return_connection(conn)
 
     def get_active_upload_by_hash(self, user_id: str, file_hash: str) -> Optional[Dict[str, Any]]:
-        """Fetch the most recent active upload matching a user's file hash."""
+        """Fetch the most recent upload matching a user's archive hash."""
         conn = None
         try:
             conn = DatabasePool.get_connection()
             with conn.cursor() as cur:
                 cur.execute(
                     """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
+                    SELECT id, user_id, token, filename, status,
+                           uploaded_at, processed_at, hand_count,
+                           archive_sha256, error_message
                     FROM uploads
-                    WHERE user_id = %s AND file_hash = %s AND is_active = true
-                    ORDER BY updated_at DESC
+                    WHERE user_id = %s AND archive_sha256 = %s
+                    ORDER BY uploaded_at DESC
                     LIMIT 1
                     """,
                     (user_id, file_hash),
@@ -86,8 +88,7 @@ class UploadService:
                 if not row:
                     return None
 
-                columns = [desc[0] for desc in cur.description]
-                return dict(zip(columns, row))
+                return self._row_to_dict(cur.description, row)
         except Exception as exc:
             logger.error("Failed to fetch existing upload: %s", exc, exc_info=True)
             return None
@@ -96,46 +97,29 @@ class UploadService:
                 DatabasePool.return_connection(conn)
 
     def get_master_upload(self, user_id: str) -> Optional[Dict[str, Any]]:
-        """Return the current master upload for a user (if any)."""
+        """Return the latest processed upload for a user (legacy helper)."""
         conn = None
         try:
             conn = DatabasePool.get_connection()
             with conn.cursor() as cur:
                 cur.execute(
                     """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
+                    SELECT id, user_id, token, filename, status,
+                           uploaded_at, processed_at, hand_count,
+                           archive_sha256, error_message
                     FROM uploads
-                    WHERE user_id = %s AND is_master = true AND is_active = true
-                    ORDER BY updated_at DESC
+                    WHERE user_id = %s
+                    ORDER BY COALESCE(processed_at, uploaded_at) DESC
                     LIMIT 1
                     """,
                     (user_id,),
                 )
                 row = cur.fetchone()
                 if row:
-                    columns = [desc[0] for desc in cur.description]
-                    return dict(zip(columns, row))
-
-                # Fallback: latest active upload if master not set yet
-                cur.execute(
-                    """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
-                    FROM uploads
-                    WHERE user_id = %s AND is_active = true
-                    ORDER BY updated_at DESC
-                    LIMIT 1
-                    """,
-                    (user_id,),
-                )
-                row = cur.fetchone()
-                if row:
-                    columns = [desc[0] for desc in cur.description]
-                    return dict(zip(columns, row))
+                    return self._row_to_dict(cur.description, row)
                 return None
         except Exception as exc:
-            logger.error("Failed to fetch master upload: %s", exc, exc_info=True)
+            logger.error("Failed to fetch latest upload: %s", exc, exc_info=True)
             return None
         finally:
             if conn:
@@ -145,12 +129,13 @@ class UploadService:
         self,
         *,
         user_id: str,
-        client_upload_token: Optional[str],
-        file_name: str,
-        file_hash: str,
-        is_master: bool = False,
+        token: str,
+        filename: str,
+        archive_sha256: Optional[str],
+        status: str = "uploaded",
+        hand_count: Optional[int] = 0,
     ) -> Optional[str]:
-        """Create a new logical upload entry and return its ID."""
+        """Create a new upload entry and return its ID."""
         conn = None
         try:
             conn = DatabasePool.get_connection()
@@ -158,23 +143,44 @@ class UploadService:
                 cur.execute(
                     """
                     INSERT INTO uploads (
-                        user_id, client_upload_token, file_name, file_hash, is_active, is_master
-                    ) VALUES (%s, %s, %s, %s, true, %s)
+                        id,
+                        uploaded_at,
+                        processed_at,
+                        hand_count,
+                        status,
+                        error_message,
+                        archive_sha256,
+                        user_id,
+                        filename,
+                        token
+                    )
+                    VALUES (
+                        gen_random_uuid(),
+                        NOW(),
+                        NULL,
+                        %s,
+                        %s,
+                        NULL,
+                        %s,
+                        %s,
+                        %s,
+                        %s
+                    )
                     RETURNING id
                     """,
-                    (user_id, client_upload_token, file_name, file_hash, is_master),
+                    (hand_count or 0, status, archive_sha256, user_id, filename, token),
                 )
                 new_id = cur.fetchone()[0]
                 conn.commit()
                 logger.info(
-                    "Created logical upload %s for user %s (token=%s)",
+                    "Created upload %s for user %s (token=%s)",
                     new_id,
                     user_id,
-                    client_upload_token,
+                    token,
                 )
                 return str(new_id)
         except Exception as exc:
-            logger.error("Failed to create logical upload: %s", exc, exc_info=True)
+            logger.error("Failed to create upload: %s", exc, exc_info=True)
             if conn:
                 conn.rollback()
             return None
@@ -182,97 +188,17 @@ class UploadService:
             if conn:
                 DatabasePool.return_connection(conn)
 
-    def set_master_upload(self, user_id: str, upload_id: str) -> bool:
-        """Mark the given upload as the master for the user, clearing previous masters."""
-        conn = None
-        try:
-            conn = DatabasePool.get_connection()
-            with conn.cursor() as cur:
-                # Clear previous master flags for this user
-                cur.execute(
-                    "UPDATE uploads SET is_master = false WHERE user_id = %s AND is_master = true AND id != %s",
-                    (user_id, upload_id),
-                )
+    def update_upload_status(
+        self,
+        upload_id: str,
+        *,
+        status: str,
+        processed: bool = False,
+        hand_count: Optional[int] = None,
+        error_message: Optional[str] = None,
+    ) -> bool:
+        """Update status and optional metadata for an upload entry."""
 
-                # Mark the selected upload as master
-                cur.execute(
-                    "UPDATE uploads SET is_master = true WHERE id = %s AND user_id = %s",
-                    (upload_id, user_id),
-                )
-
-                if cur.rowcount == 0:
-                    raise ValueError("Upload not found for user")
-
-                conn.commit()
-                logger.info("Marked upload %s as master for user %s", upload_id, user_id)
-                return True
-        except Exception as exc:
-            logger.error("Failed to set master upload: %s", exc, exc_info=True)
-            if conn:
-                conn.rollback()
-            return False
-        finally:
-            if conn:
-                DatabasePool.return_connection(conn)
-
-    def list_active_uploads(self, user_id: str) -> list[Dict[str, Any]]:
-        """Return all active uploads for a user ordered by most recent."""
-
-        conn = None
-        try:
-            conn = DatabasePool.get_connection()
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
-                    FROM uploads
-                    WHERE user_id = %s AND is_active = true
-                    ORDER BY updated_at DESC
-                    """,
-                    (user_id,),
-                )
-
-                rows = cur.fetchall() or []
-                columns = [desc[0] for desc in cur.description]
-                return [dict(zip(columns, row)) for row in rows]
-        except Exception as exc:
-            logger.error("Failed to list active uploads: %s", exc, exc_info=True)
-            return []
-        finally:
-            if conn:
-                DatabasePool.return_connection(conn)
-
-    def list_all_uploads(self, user_id: str) -> list[Dict[str, Any]]:
-        """Return all uploads for a user (active and inactive) ordered by most recent."""
-
-        conn = None
-        try:
-            conn = DatabasePool.get_connection()
-            with conn.cursor() as cur:
-                cur.execute(
-                    """
-                    SELECT id, user_id, client_upload_token, file_name, file_hash,
-                           created_at, updated_at, is_active, is_master
-                    FROM uploads
-                    WHERE user_id = %s
-                    ORDER BY updated_at DESC
-                    """,
-                    (user_id,),
-                )
-
-                rows = cur.fetchall() or []
-                columns = [desc[0] for desc in cur.description]
-                return [dict(zip(columns, row)) for row in rows]
-        except Exception as exc:
-            logger.error("Failed to list uploads: %s", exc, exc_info=True)
-            return []
-        finally:
-            if conn:
-                DatabasePool.return_connection(conn)
-
-    def refresh_upload(self, upload_id: str, *, client_upload_token: Optional[str] = None, file_name: Optional[str] = None) -> bool:
-        """Update the timestamp (and optionally metadata) for an existing upload."""
         conn = None
         try:
             conn = DatabasePool.get_connection()
@@ -280,15 +206,91 @@ class UploadService:
                 cur.execute(
                     """
                     UPDATE uploads
-                    SET updated_at = NOW(),
-                        client_upload_token = COALESCE(%s, client_upload_token),
-                        file_name = COALESCE(%s, file_name)
+                    SET status = %s,
+                        processed_at = CASE
+                            WHEN %s THEN COALESCE(processed_at, NOW())
+                            ELSE processed_at
+                        END,
+                        hand_count = COALESCE(%s, hand_count),
+                        error_message = %s
                     WHERE id = %s
                     """,
-                    (client_upload_token, file_name, upload_id),
+                    (status, processed, hand_count, error_message, upload_id),
                 )
                 conn.commit()
-                return True
+                return cur.rowcount > 0
+        except Exception as exc:
+            logger.error("Failed to update upload %s: %s", upload_id, exc, exc_info=True)
+            if conn:
+                conn.rollback()
+            return False
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
+    def set_master_upload(self, user_id: str, upload_id: str) -> bool:
+        """Legacy helper used by background worker to mark upload as processed."""
+        updated = self.update_upload_status(upload_id, status="processed", processed=True)
+        if updated:
+            logger.info("Marked upload %s as processed for user %s", upload_id, user_id)
+        return updated
+
+    def list_active_uploads(self, user_id: str) -> list[Dict[str, Any]]:
+        """Return all uploads for a user ordered by most recent."""
+
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    SELECT id, user_id, token, filename, status,
+                           uploaded_at, processed_at, hand_count,
+                           archive_sha256, error_message
+                    FROM uploads
+                    WHERE user_id = %s
+                    ORDER BY uploaded_at DESC
+                    """,
+                    (user_id,),
+                )
+
+                rows = cur.fetchall() or []
+                return [self._row_to_dict(cur.description, row) for row in rows]
+        except Exception as exc:
+            logger.error("Failed to list uploads: %s", exc, exc_info=True)
+            return []
+        finally:
+            if conn:
+                DatabasePool.return_connection(conn)
+
+    def list_all_uploads(self, user_id: str) -> list[Dict[str, Any]]:
+        """Alias to list_active_uploads for backwards compatibility."""
+
+        return self.list_active_uploads(user_id)
+
+    def refresh_upload(
+        self,
+        upload_id: str,
+        *,
+        token: Optional[str] = None,
+        filename: Optional[str] = None,
+    ) -> bool:
+        """Update metadata for an existing upload."""
+        conn = None
+        try:
+            conn = DatabasePool.get_connection()
+            with conn.cursor() as cur:
+                cur.execute(
+                    """
+                    UPDATE uploads
+                    SET token = COALESCE(%s, token),
+                        filename = COALESCE(%s, filename)
+                    WHERE id = %s
+                    """,
+                    (token, filename, upload_id),
+                )
+                conn.commit()
+                return cur.rowcount > 0
         except Exception as exc:
             logger.error("Failed to refresh upload %s: %s", upload_id, exc, exc_info=True)
             if conn:

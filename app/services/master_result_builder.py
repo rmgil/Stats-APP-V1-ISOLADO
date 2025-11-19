@@ -233,7 +233,7 @@ def rebuild_user_master_results(user_id: str) -> Path:
     result_service = ResultStorageService()
 
     uploads = upload_service.list_active_uploads(user_id)
-    tokens = [u.get("client_upload_token") for u in uploads if u.get("client_upload_token")]
+    tokens = [u.get("token") for u in uploads if u.get("token")]
 
     if not tokens:
         raise ValueError(f"No active uploads found for user {user_id}")

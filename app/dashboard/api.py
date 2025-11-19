@@ -248,7 +248,7 @@ def api_months_manifest(token):
 @bp_dashboard.get("/current")
 @login_required
 def api_current_dashboard():
-    """Devolve o token de dashboard mais recente (ou master) para o utilizador autenticado."""
+    """Devolve uploads recentes para o utilizador autenticado."""
 
     conn = None
     try:
@@ -260,25 +260,47 @@ def api_current_dashboard():
         with conn.cursor() as cur:
             cur.execute(
                 """
-                SELECT j.id
-                FROM uploads u
-                JOIN jobs j ON j.upload_id = u.id
-                WHERE u.user_id = %s
-                  AND j.status = 'done'
-                ORDER BY COALESCE(j.finished_at, j.created_at) DESC
-                LIMIT 1
+                SELECT id, user_id, filename, token, status,
+                       uploaded_at, processed_at, error_message
+                FROM uploads
+                WHERE user_id = %s
+                ORDER BY uploaded_at DESC
+                LIMIT 5
                 """,
                 (user_identifier,),
             )
 
-            row = cur.fetchone()
+            rows = cur.fetchall() or []
+            columns = [desc[0] for desc in cur.description]
+            uploads = [dict(zip(columns, row)) for row in rows]
 
-            if not row:
-                return jsonify({"success": True, "data": {"has_data": False}})
+        recent_uploads = [
+            {
+                "id": str(entry.get("id")),
+                "token": entry.get("token"),
+                "filename": entry.get("filename"),
+                "status": entry.get("status"),
+                "uploaded_at": entry.get("uploaded_at").isoformat()
+                if entry.get("uploaded_at")
+                else None,
+                "processed_at": entry.get("processed_at").isoformat()
+                if entry.get("processed_at")
+                else None,
+                "error_message": entry.get("error_message"),
+            }
+            for entry in uploads
+        ]
 
-            token = row[0]
+        has_data = len(recent_uploads) > 0
 
-        return jsonify({"success": True, "data": {"has_data": True, "token": str(token)}})
+        payload = {
+            "has_data": has_data,
+            "recent_uploads": recent_uploads,
+        }
+        if recent_uploads:
+            payload["token"] = recent_uploads[0].get("token")
+
+        return jsonify({"success": True, "data": payload})
     except Exception:
         logger.exception(
             "Erro em /api/dashboard/current para user %s",
@@ -300,7 +322,7 @@ def api_user_main_dashboard():
         if not upload:
             return jsonify({"success": True, "data": None, "message": "no_upload_for_user"})
 
-        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
+        token = upload.get("token") or upload.get("job_id")
         if not token:
             logger.error(
                 "MAIN DASHBOARD: upload sem token para user_id=%s upload=%s",
@@ -448,7 +470,7 @@ def api_debug_dashboard_state():
                 "filename": upload.get("filename") or upload.get("file_name"),
                 "is_master": upload.get("is_master"),
                 "created_at": upload.get("created_at"),
-                "upload_token": upload.get("token") or upload.get("client_upload_token"),
+                "upload_token": upload.get("token"),
                 "storage_path": upload.get("storage_path"),
                 "jobs": jobs_by_upload.get(upload.get("id"), []),
             }
@@ -570,7 +592,7 @@ if __name__ == "__main__":
     upload = UploadService.get_master_or_latest_upload_for_user(test_user_id)
     print("UPLOAD:", upload.get("id") if upload else None)
     if upload:
-        token = upload.get("client_upload_token") or upload.get("job_id") or upload.get("token")
+        token = upload.get("token") or upload.get("job_id")
         print("TOKEN:", token)
         payload = build_dashboard_payload(token, month=None)
         print("HAS_PAYLOAD:", bool(payload))
