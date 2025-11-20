@@ -1238,33 +1238,16 @@
                 currentUploadId = uploadIdFromQuery;
             }
 
-            // Resolve month selection (query string wins over initial value)
-            let month = urlParams.get('month') || window.initialDashboardMonth || null;
-            if (!MONTHS_ENABLED) {
-                month = null;
-                window.initialDashboardMonth = '';
-            }
+            // Month-specific dashboards are disabled while restoring the global flow
+            window.initialDashboardMonth = '';
 
             if (isMainDashboard) {
-                try {
-                    await loadMainDashboard();
-                } catch (error) {
-                    showError('Erro de conexão: ' + error.message);
-                }
+                showError('Main page em manutenção. Usa a dashboard global após upload.');
                 return;
             }
 
             if (token) {
-                loadDashboardByToken(token, month, currentUploadId);
-                return;
-            }
-
-            if (isDashboardRoot && month) {
-                try {
-                    await loadUserMonthDashboard(month);
-                } catch (error) {
-                    showError('Erro de conexão: ' + error.message);
-                }
+                loadDashboardByToken(token, currentUploadId);
                 return;
             }
 
@@ -1557,107 +1540,27 @@
         }
 
         async function loadMainDashboard() {
-            try {
-                const res = await fetch('/api/main', {
-                    headers: {
-                        'Accept': 'application/json'
-                    },
-                    credentials: 'include'
-                });
-                if (!res.ok) {
-                    showError('Erro ao carregar dados da Main Page.');
-                    return;
-                }
-
-                const json = await res.json();
-
-                if (!json.success) {
-                    showError(json.detail || json.error || 'Erro ao carregar dados da Main Page.');
-                    return;
-                }
-
-                const payload = transformMainApiPayload(json);
-                if (!payload) {
-                    showNoDataMessage();
-                    return;
-                }
-
-                const hasData = Object.values(payload.groups || {}).some(group => {
-                    if (!group) return false;
-                    return (group.hands_count || 0) > 0 || Object.keys(group.stats || {}).length > 0;
-                });
-
-                if (!hasData) {
-                    showNoDataMessage();
-                    return;
-                }
-
-                renderDashboardFromPayload(payload);
-                updateHeaderForMainDashboard({ token: json.token });
-            } catch (e) {
-                console.error(e);
-                showError('Erro ao carregar dados da Main Page.');
-            }
+            showError('Main page em manutenção. Usa a dashboard global após upload.');
         }
 
         async function loadUserMonthDashboard(month) {
-            if (!MONTHS_ENABLED) {
-                showError('Vista mensal temporariamente em manutenção.');
-                return;
-            }
-            try {
-                const res = await fetch(`/api/dashboard/user-month?month=${encodeURIComponent(month)}`);
-                if (!res.ok) {
-                    showError('Erro ao carregar dashboard mensal.');
-                    return;
-                }
-
-                const json = await res.json();
-                if (!json.success) {
-                    showError(json.error || 'Erro ao carregar dashboard mensal.');
-                    return;
-                }
-
-                if (!json.has_data || !json.data) {
-                    showNoDataMessage();
-                    return;
-                }
-
-                renderDashboardFromPayload(json.data);
-            } catch (e) {
-                console.error(e);
-                showError('Erro ao carregar dashboard mensal.');
-            }
+            showError('Vista mensal temporariamente desativada.');
+            return;
         }
 
-        async function loadDashboardByToken(token, month = null, uploadId = null) {
-            if (!MONTHS_ENABLED) {
-                month = null;
-            }
+        async function loadDashboardByToken(token, uploadId = null) {
             try {
                 resetTokenSummary();
                 document.getElementById('tokenDisplay').textContent = token;
 
                 const monthSelectorContainer = document.getElementById('monthSelectorContainer');
                 if (monthSelectorContainer) {
-                    monthSelectorContainer.dataset.token = token;
-                    monthSelectorContainer.dataset.currentMonth = month || '';
+                    monthSelectorContainer.style.display = 'none';
                 }
 
-                initializeMonthSelector(token, month);
+                await loadHandsByStatSection(token, null, uploadId);
 
-                await loadHandsByStatSection(token, month, uploadId);
-
-                const params = new URLSearchParams();
-                if (month) {
-                    params.set('month', month);
-                }
-                if (uploadId) {
-                    params.set('upload_id', uploadId);
-                }
-
-                const query = params.toString();
-                const url = query ? `/api/dashboard/${token}?${query}` : `/api/dashboard/${token}`;
+                const url = `/api/dashboard/${token}/global`;
                 const response = await fetch(url);
                 const data = await response.json();
 
@@ -1672,10 +1575,6 @@
                 }
 
                 const payload = data.data;
-
-                if (month && payload?.month_not_found) {
-                    console.warn(`Nenhum dado encontrado para o mês ${month}. Exibindo visão agregada.`);
-                }
 
                 renderDashboardFromPayload(payload);
             } catch (error) {

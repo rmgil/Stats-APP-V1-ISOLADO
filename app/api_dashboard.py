@@ -1108,13 +1108,20 @@ def _build_dashboard_payload_from_pipeline(
     return response_data
 
 
-def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -> dict:
+def build_dashboard_payload(
+    token: Optional[str],
+    month: Optional[str] = None,
+    *,
+    include_months: bool = False,
+) -> dict:
     """Build consolidated dashboard payload from runs or current directory
 
     Args:
         token: Job token (12 hex characters)
         month: Optional month in YYYY-MM format. If provided, loads month-specific data.
                If None, loads aggregate data across all months.
+        include_months: When True, include months metadata if available. Defaults
+            to False to prioritise the classic global dashboard flow.
 
     Returns:
         Dashboard payload dict
@@ -1182,21 +1189,22 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
                 list(pipeline_result.keys()),
             )
 
-        if hasattr(result_storage, 'list_available_months'):
-            try:
-                months_info = result_storage.list_available_months(token)
-            except Exception as manifest_error:
-                logger.debug(f"[LOAD] Unable to list months: {manifest_error}")
-                months_info = []
+        if include_months:
+            if hasattr(result_storage, 'list_available_months'):
+                try:
+                    months_info = result_storage.list_available_months(token)
+                except Exception as manifest_error:
+                    logger.debug(f"[LOAD] Unable to list months: {manifest_error}")
+                    months_info = []
 
-        if months_info:
-            months_manifest = {'months': months_info}
-        else:
-            try:
-                months_manifest = result_storage.get_months_manifest(token)
-            except Exception as manifest_error:
-                logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
-                months_manifest = None
+            if months_info:
+                months_manifest = {'months': months_info}
+            else:
+                try:
+                    months_manifest = result_storage.get_months_manifest(token)
+                except Exception as manifest_error:
+                    logger.debug(f"[LOAD] Months manifest not available: {manifest_error}")
+                    months_manifest = None
 
     elif token:
         # Fallback to local filesystem (primarily used in tests/dev)
@@ -1217,7 +1225,7 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
             raise FileNotFoundError(f"Pipeline result not found for token {token}")
 
         manifest_path = local_base / 'months_manifest.json'
-        if manifest_path.exists():
+        if include_months and manifest_path.exists():
             try:
                 months_manifest = json.loads(manifest_path.read_text())
             except Exception:
@@ -1260,7 +1268,11 @@ def build_user_month_dashboard_payload(
             return {"month_not_found": True}
 
         try:
-            payload = build_dashboard_payload(latest_upload["token"], month=None)
+            payload = build_dashboard_payload(
+                latest_upload["token"],
+                month=None,
+                include_months=False,
+            )
             payload.setdefault("meta", {})["mode"] = "user_latest_upload"
             payload["meta"]["month"] = LATEST_UPLOAD_KEY
             return payload

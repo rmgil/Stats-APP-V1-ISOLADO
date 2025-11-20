@@ -471,6 +471,16 @@ class ResultStorageService:
                 seen.add(month)
 
         return months_info
+
+    def get_global_pipeline_result(self, token: str) -> Optional[Dict[str, Any]]:
+        """Return only the aggregate pipeline_result for the given token.
+
+        This helper intentionally ignores any monthly splits so callers that
+        are restoring the classic global dashboard view do not accidentally
+        depend on month-aware paths.
+        """
+
+        return self.get_pipeline_result(token, month=None)
     
     def get_multi_site_manifest(self, token: str) -> Optional[Dict[str, Any]]:
         """

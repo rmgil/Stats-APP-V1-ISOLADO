@@ -226,37 +226,25 @@ def api_global_counts(token: str):
     counts = _extract_global_counts(result)
     return jsonify({"ok": True, "data": counts})
 
+@bp_dashboard.get("/<token>/global")
+def api_dashboard_global(token: str):
+    """Return only the global dashboard payload for a token."""
+
+    try:
+        payload = build_dashboard_payload(token, month=None, include_months=False)
+        return jsonify({"ok": True, "data": payload})
+    except FileNotFoundError as exc:
+        return jsonify({"ok": False, "error": "missing_artifact", "detail": str(exc)}), 404
+    except Exception as exc:  # noqa: BLE001 - keep response resilient
+        logger.exception("Failed to build global dashboard payload for %s: %s", token, exc)
+        return jsonify({"ok": False, "error": "unexpected"}), 500
+
+
 @bp_dashboard.get("/<token>")
 def api_dashboard_with_token(token):
-    """Get dashboard data for a specific token
-    
-    Query parameters:
-        month: Optional YYYY-MM format to load month-specific data.
-               If not provided, loads aggregate data.
-    """
+    """Get dashboard data for a specific token (global-only view)."""
     try:
-        # Get optional month parameter from query string
-        month = request.args.get('month')
-
-        # Validate month format if provided
-        if month:
-            import re
-            if not re.match(r'^\d{4}-\d{2}$', month):
-                return jsonify({
-                    "ok": False, 
-                    "error": "invalid_month", 
-                    "detail": "Month must be in YYYY-MM format"
-                }), 400
-        
-        # DEBUG NOTE:
-        # O token da dashboard é o próprio jobs.id (gerado em JobService.create_job
-        # com secrets.token_hex(6)). /api/dashboard/<token> passa esse valor direto
-        # para build_dashboard_payload(token, ...), que usa ResultStorageService
-        # para ler /results/<token>/pipeline_result_global.json e as variantes
-        # mensais (pipeline_result_<YYYY-MM>.json ou months/<YYYY-MM>/pipeline_result.json).
-        # Assim, o diretório de storage base é sempre /results/<jobs.id>/.
-
-        data = build_dashboard_payload(token, month=month)
+        data = build_dashboard_payload(token, month=None, include_months=False)
         return jsonify({"ok": True, "data": data})
     except FileNotFoundError as e:
         return jsonify({"ok": False, "error": "missing_artifact", "detail": str(e)}), 404
@@ -435,6 +423,14 @@ def api_user_main_dashboard():
     """Return the main dashboard payload for the authenticated user using a robust fallback."""
 
     try:
+        return jsonify(
+            {
+                "success": True,
+                "data": {"has_data": False, "message": "Main page em manutenção. Usa a dashboard global após upload."},
+                "mode": "maintenance",
+            }
+        )
+
         upload = UploadService.get_master_or_latest_upload_for_user(str(current_user.id))
         if not upload:
             return jsonify({"success": True, "data": None, "message": "no_upload_for_user"})
