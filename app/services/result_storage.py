@@ -40,6 +40,69 @@ class ResultStorageService:
         self.local_work_dir = Path("work")
         self.local_results_dir = Path("results")
 
+    # ------------------------------------------------------------------
+    # Helper methods for dashboard payload caching (main + monthly)
+    # ------------------------------------------------------------------
+    def _write_json(self, payload: Dict[str, Any], *, storage_path: str, local_path: Path) -> None:
+        """Persist a JSON payload to storage and local cache."""
+
+        data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+
+        # Always try cloud first; if it fails, log and keep going with local
+        try:
+            self.storage.upload_file(data, storage_path, content_type="application/json")
+        except Exception as exc:  # noqa: BLE001 - best-effort
+            logger.debug("[RESULT STORAGE] Failed to upload %s: %s", storage_path, exc)
+
+        try:
+            local_path.parent.mkdir(parents=True, exist_ok=True)
+            local_path.write_bytes(data)
+        except Exception as exc:  # noqa: BLE001 - optional local cache
+            logger.debug("[RESULT STORAGE] Failed to write %s: %s", local_path, exc)
+
+    def _read_cached_payload(self, *, storage_path: str, local_path: Path) -> Optional[Dict[str, Any]]:
+        """Read a cached payload from storage or local fallback."""
+
+        result = self._read_json_from_storage(storage_path)
+        if result:
+            return result
+
+        return self._read_json_from_local(local_path)
+
+    def save_main_dashboard_payload(self, user_id: str, payload: Dict[str, Any]) -> None:
+        """Persist the aggregated main dashboard payload for a user."""
+
+        token_dir = self._normalize_token(f"user-{user_id}")
+        storage_path = f"/results/{token_dir}/main_dashboard.json"
+        local_path = self.local_results_dir / token_dir / "main_dashboard.json"
+        self._write_json(payload, storage_path=storage_path, local_path=local_path)
+
+    def load_main_dashboard_payload(self, user_id: str) -> Optional[Dict[str, Any]]:
+        """Load the cached aggregated main dashboard payload for a user."""
+
+        token_dir = self._normalize_token(f"user-{user_id}")
+        storage_path = f"/results/{token_dir}/main_dashboard.json"
+        local_path = self.local_results_dir / token_dir / "main_dashboard.json"
+        return self._read_cached_payload(storage_path=storage_path, local_path=local_path)
+
+    def save_month_dashboard_payload(self, user_id: str, month: str, payload: Dict[str, Any]) -> None:
+        """Persist the monthly dashboard payload for a user."""
+
+        token_dir = self._normalize_token(f"user-{user_id}")
+        filename = f"dashboard_month_{month}.json"
+        storage_path = f"/results/{token_dir}/months/{filename}"
+        local_path = self.local_results_dir / token_dir / "months" / filename
+        self._write_json(payload, storage_path=storage_path, local_path=local_path)
+
+    def load_month_dashboard_payload(self, user_id: str, month: str) -> Optional[Dict[str, Any]]:
+        """Load the cached monthly dashboard payload for a user."""
+
+        token_dir = self._normalize_token(f"user-{user_id}")
+        filename = f"dashboard_month_{month}.json"
+        storage_path = f"/results/{token_dir}/months/{filename}"
+        local_path = self.local_results_dir / token_dir / "months" / filename
+        return self._read_cached_payload(storage_path=storage_path, local_path=local_path)
+
     def _normalize_token(self, token: str) -> str:
         """Map logical tokens to storage directories.
 

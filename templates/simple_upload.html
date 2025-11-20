@@ -785,6 +785,14 @@
                 return false;
             }
 
+            if (status === 'processing') {
+                setActiveStep('step-extract');
+                const displayProgress = progressValue ?? 95;
+                updateProgress(Math.min(displayProgress, 99));
+                progressStatus.textContent = message || 'A processar mãos, isto pode demorar alguns minutos...';
+                return true;
+            }
+
             if (status === 'queued') {
                 setActiveStep('step-upload');
                 progressStatus.textContent = message;

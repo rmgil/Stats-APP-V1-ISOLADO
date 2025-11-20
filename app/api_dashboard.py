@@ -104,6 +104,7 @@
 
 import json
 import re
+import time
 import yaml
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
@@ -1180,7 +1181,13 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
     )
 
 
-def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
+def build_user_month_dashboard_payload(
+    user_id: str,
+    month: str,
+    *,
+    use_cache: bool = True,
+    result_storage: ResultStorageService | None = None,
+) -> dict:
     """
     Devolve o payload de dashboard para este utilizador+month,
     com a mesma estrutura de /api/dashboard/<token>?month=YYYY-MM.
@@ -1190,9 +1197,28 @@ def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
         raise ValueError("month must be in YYYY-MM format")
 
     from app.services.user_months_service import build_user_month_pipeline_result
-    from app.services.result_storage import ResultStorageService
 
-    result_storage = ResultStorageService()
+    start = time.monotonic()
+    result_storage = result_storage or ResultStorageService()
+
+    if use_cache:
+        try:
+            cached = result_storage.load_month_dashboard_payload(user_id, month)
+            if cached:
+                logger.info(
+                    "[USER_MONTH] Loaded cached dashboard payload for %s/%s in %.2fs",
+                    user_id,
+                    month,
+                    time.monotonic() - start,
+                )
+                return cached
+        except Exception as exc:  # noqa: BLE001 - best-effort fallback
+            logger.debug(
+                "[USER_MONTH] Failed to read cached dashboard payload for %s/%s: %s",
+                user_id,
+                month,
+                exc,
+            )
     pipeline_result = None
     selected_scope = 'monthly'
     month_not_found = False
@@ -1237,7 +1263,7 @@ def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
         'month': month,
     }
 
-    return _build_dashboard_payload_from_pipeline(
+    payload = _build_dashboard_payload_from_pipeline(
         pipeline_result=pipeline_result,
         token=None,
         month=month,
@@ -1248,6 +1274,26 @@ def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
         result_storage=None,
         extra_meta=meta,
     )
+
+    if use_cache and payload:
+        try:
+            result_storage.save_month_dashboard_payload(user_id, month, payload)
+        except Exception as exc:  # noqa: BLE001 - optional cache write
+            logger.debug(
+                "[USER_MONTH] Failed to persist dashboard payload for %s/%s: %s",
+                user_id,
+                month,
+                exc,
+            )
+
+    logger.info(
+        "[USER_MONTH] Built dashboard payload for %s/%s in %.2fs",
+        user_id,
+        month,
+        time.monotonic() - start,
+    )
+
+    return payload
 
 
 def build_groups_structure(

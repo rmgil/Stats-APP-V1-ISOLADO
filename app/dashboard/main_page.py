@@ -23,6 +23,7 @@ from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import JSONResponse
 
 from app.services.user_main_dashboard_service import build_user_main_dashboard_payload
+from app.services.upload_service import UploadService
 from app.services.user_months_service import UserMonthsService
 from app.api.auth_dependencies import get_current_user
 from app.models.user import User
@@ -42,6 +43,7 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
         raise HTTPException(status_code=401, detail="user_not_authenticated")
     user_id = str(user_id)
 
+    upload_service = UploadService()
     try:
         payload = await run_in_threadpool(build_user_main_dashboard_payload, user_id)
     except Exception:  # noqa: BLE001 - surface controlled error to frontend
@@ -55,8 +57,10 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
             },
         )
 
+    has_uploads = _user_has_completed_uploads(upload_service, user_id)
+
     if not payload or not payload.get("meta"):
-        return _empty_main_response()
+        return _empty_main_response(has_uploads)
 
     try:
         data = _format_main_payload(payload)
@@ -71,7 +75,7 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
             },
         )
 
-    return {"success": True, **data}
+    return {"success": True, **data, "has_uploads": has_uploads}
 
 
 @router.get("/debug/months")
@@ -86,7 +90,7 @@ async def debug_user_months(current_user: User = Depends(get_current_user)) -> D
     months_map = months_service.get_user_months_map(user_id)
     return {"success": True, "months": months_map}
 
-def _empty_main_response() -> Dict[str, Any]:
+def _empty_main_response(has_uploads: bool = False) -> Dict[str, Any]:
     return {
         "success": True,
         "months": [],
@@ -94,7 +98,7 @@ def _empty_main_response() -> Dict[str, Any]:
         "normalized_weights": [],
         "stats": {},
         "meta": {"mode": "user_main_3months"},
-        "has_data": False,
+        "has_data": bool(has_uploads),
     }
 
 
@@ -122,15 +126,26 @@ def _format_main_payload(payload: Dict[str, Any]) -> Dict[str, Any]:
         payload.get("weighted_scores") or {},
     )
 
+    has_uploads = bool(meta.get("has_uploads"))
+
     return {
         "months": months,
         "weights": meta.get("weights") or [],
         "normalized_weights": normalized_weights,
         "stats": stats,
         "meta": {"mode": meta.get("mode", "user_main_3months")},
-        "has_data": _stats_tree_has_data(stats),
+        "has_data": _stats_tree_has_data(stats) or has_uploads,
         "token": payload.get("token"),
     }
+
+
+def _user_has_completed_uploads(upload_service: UploadService, user_id: str) -> bool:
+    uploads = upload_service.list_all_uploads(user_id)
+    for entry in uploads:
+        status = (entry.get("status") or "").lower()
+        if status in {"done", "processed", "completed"}:
+            return True
+    return False
 
 
 def _build_stats_tree(
