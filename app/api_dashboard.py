@@ -176,6 +176,8 @@ def ensure_group_defaults(groups: Dict[str, Any]) -> Dict[str, Any]:
     return groups
 
 
+# NOTE: This endpoint bypasses the standard dashboard error handlers on purpose.
+# It should always return a best-effort snapshot instead of mapped "NotFound" errors.
 @router.get("/api/debug/user_main_state")
 async def api_debug_user_main_state(current_user: User = Depends(get_current_user)):
     """
@@ -204,6 +206,7 @@ async def api_debug_user_main_state(current_user: User = Depends(get_current_use
             "success": False,
             "error": "internal_error",
             "detail": str(exc),
+            "type": "debug_internal_error",
         }
 
 

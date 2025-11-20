@@ -527,6 +527,9 @@ def get_user_main_debug_snapshot(
     user_months_service,
     uploads_repo=None,
 ):
+    # NOTE: This function is intentionally defensive and must never raise NotFound.
+    # It is used by /api/debug/user_main_state to troubleshoot why dashboards/main
+    # are not seeing data for a given user.
     """
     Returns a debug snapshot of the user's dashboard-related state:
     - uploads and their statuses
@@ -588,6 +591,7 @@ def get_user_main_debug_snapshot(
         global_result = storage.get_pipeline_result(user_token)
         snapshot["pipeline_results"]["global_exists"] = bool(global_result)
     except FileNotFoundError:
+        logger.info("[USER_DEBUG] No global pipeline result for %s", user_token)
         snapshot["pipeline_results"]["global_exists"] = False
     except Exception:  # noqa: BLE001 - ignore failures but log
         logger.exception("[USER_DEBUG] Failed to read global pipeline result for %s", user_token)
@@ -598,6 +602,7 @@ def get_user_main_debug_snapshot(
             snapshot["pipeline_results"]["months"][month] = {"exists": bool(month_result)}
         except FileNotFoundError:
             snapshot["pipeline_results"]["months"][month] = {"exists": False}
+            logger.info("[USER_DEBUG] No monthly pipeline result for %s/%s", user_token, month)
         except Exception:  # noqa: BLE001 - continue with best-effort data
             snapshot["pipeline_results"]["months"][month] = {"exists": False}
             logger.exception(
@@ -607,6 +612,9 @@ def get_user_main_debug_snapshot(
     try:
         main_cache = storage.load_main_dashboard_payload(user_id)
         snapshot["dashboard_cache"]["main_exists"] = bool(main_cache)
+    except FileNotFoundError:
+        logger.info("[USER_DEBUG] No main dashboard cache for %s", user_id)
+        snapshot["dashboard_cache"]["main_exists"] = False
     except Exception:  # noqa: BLE001 - keep going when cache is missing
         logger.exception("[USER_DEBUG] Failed to load main dashboard cache for %s", user_id)
 
@@ -614,6 +622,9 @@ def get_user_main_debug_snapshot(
         try:
             month_cache = storage.load_month_dashboard_payload(user_id, month)
             snapshot["dashboard_cache"]["monthly"][month] = {"exists": bool(month_cache)}
+        except FileNotFoundError:
+            snapshot["dashboard_cache"]["monthly"][month] = {"exists": False}
+            logger.info("[USER_DEBUG] No month dashboard cache for %s/%s", user_id, month)
         except Exception:  # noqa: BLE001 - ignore cache errors but log
             snapshot["dashboard_cache"]["monthly"][month] = {"exists": False}
             logger.exception(
