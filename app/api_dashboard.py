@@ -103,15 +103,22 @@
 # =============================================================================
 
 import json
+import logging
 import re
 import time
 import yaml
 from pathlib import Path
 from typing import Optional, Dict, Any, List, Tuple
 
+from fastapi import APIRouter, Depends
+
+from app.api.auth_dependencies import get_current_user
+from app.models.user import User
 from app.parse.site_parsers.site_detector import detect_poker_site
 from app.score.scoring import score_step
 from app.services.result_storage import ResultStorageService
+from app.services.upload_service import UploadService
+from app.services.user_months_service import UserMonthsService
 from app.stats.stat_categories import CATEGORY_LABELS, CATEGORY_WEIGHTS
 
 MONTH_KEY_PATTERN = re.compile(r"^\d{4}-\d{2}$")
@@ -123,6 +130,14 @@ DEFAULT_GROUP_LABELS = {
     'pko': 'PKO',
     'postflop_all': 'POSTFLOP',
 }
+
+logger = logging.getLogger(__name__)
+
+router = APIRouter()
+
+result_storage = ResultStorageService()
+user_months_service = UserMonthsService()
+uploads_service = UploadService()
 
 
 def ensure_group_defaults(groups: Dict[str, Any]) -> Dict[str, Any]:
@@ -159,6 +174,37 @@ def ensure_group_defaults(groups: Dict[str, Any]) -> Dict[str, Any]:
             value['has_data'] = has_data
 
     return groups
+
+
+@router.get("/api/debug/user_main_state")
+async def api_debug_user_main_state(current_user: User = Depends(get_current_user)):
+    """
+    INTERNAL DEBUG ENDPOINT.
+
+    Returns a snapshot of the current user's dashboard-related state:
+    uploads, pipeline results, dashboard cache, and months detected.
+    This is meant for development/debugging, not for end users.
+    """
+
+    try:
+        from app.services import user_main_dashboard_service
+
+        user_id = current_user.get_id() if hasattr(current_user, "get_id") else None
+        user_id = user_id or getattr(current_user, "id", None)
+        snapshot = user_main_dashboard_service.get_user_main_debug_snapshot(
+            user_id=str(user_id),
+            result_storage=result_storage,
+            user_months_service=user_months_service,
+            uploads_repo=uploads_service,
+        )
+        return {"success": True, "data": snapshot}
+    except Exception as exc:  # noqa: BLE001 - return debug friendly error
+        logger.exception("Error in api_debug_user_main_state for user %s", getattr(current_user, "id", None))
+        return {
+            "success": False,
+            "error": "internal_error",
+            "detail": str(exc),
+        }
 
 
 def reset_groups_for_missing_data(groups: Dict[str, Any]) -> Dict[str, Any]:
