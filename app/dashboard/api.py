@@ -246,7 +246,7 @@ def api_user_month_dashboard():
 
     try:
         payload = build_user_month_dashboard_payload(
-            user_identifier, month, result_storage=result_storage
+            user_identifier, month, use_cache=False, result_storage=result_storage
         )
     except Exception:  # noqa: BLE001 - keep response stable for frontend
         logger.exception(

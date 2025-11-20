@@ -338,28 +338,36 @@ def get_or_build_month_dashboard_payload(
     month: str,
     *,
     result_storage: ResultStorageService | None = None,
+    ignore_cache: bool = True,
 ) -> dict:
     """Load cached monthly payload or build and persist it on-demand."""
 
     storage = result_storage or ResultStorageService()
     start = time.monotonic()
 
-    try:
-        cached = storage.load_month_dashboard_payload(user_id, month)
-        if cached:
-            logger.info(
-                "[USER_MONTH] Loaded cached dashboard payload for %s/%s in %.2fs",
+    if not ignore_cache:
+        try:
+            cached = storage.load_month_dashboard_payload(user_id, month)
+            if cached:
+                logger.info(
+                    "[USER_MONTH] Loaded cached dashboard payload for %s/%s in %.2fs",
+                    user_id,
+                    month,
+                    time.monotonic() - start,
+                )
+                return cached
+        except Exception as exc:  # noqa: BLE001 - fallback to build
+            logger.debug(
+                "[USER_MONTH] Failed to load cached month payload for %s/%s: %s",
                 user_id,
                 month,
-                time.monotonic() - start,
+                exc,
             )
-            return cached
-    except Exception as exc:  # noqa: BLE001 - fallback to build
+    else:
         logger.debug(
-            "[USER_MONTH] Failed to load cached month payload for %s/%s: %s",
+            "[USER_MONTH] Ignoring existing month cache for %s/%s; rebuilding from pipeline_result",
             user_id,
             month,
-            exc,
         )
 
     payload = build_user_month_dashboard_payload(
@@ -392,6 +400,7 @@ def get_or_build_main_dashboard_payload(
     result_storage: ResultStorageService | None = None,
     months_service: UserMonthsService | None = None,
     upload_service: UploadService | None = None,
+    ignore_cache: bool = True,
 ) -> dict:
     """Return cached main payload or rebuild it by aggregating monthly caches."""
 
@@ -400,18 +409,24 @@ def get_or_build_main_dashboard_payload(
     upload_service = upload_service or UploadService()
     start = time.monotonic()
 
-    try:
-        cached = storage.load_main_dashboard_payload(user_id)
-        if cached:
-            logger.info(
-                "[USER_MAIN] Loaded cached main payload for %s in %.2fs",
-                user_id,
-                time.monotonic() - start,
+    if not ignore_cache:
+        try:
+            cached = storage.load_main_dashboard_payload(user_id)
+            if cached:
+                logger.info(
+                    "[USER_MAIN] Loaded cached main payload for %s in %.2fs",
+                    user_id,
+                    time.monotonic() - start,
+                )
+                return cached
+        except Exception as exc:  # noqa: BLE001 - rebuild on cache errors
+            logger.debug(
+                "[USER_MAIN] Failed to load cached main payload for %s: %s", user_id, exc
             )
-            return cached
-    except Exception as exc:  # noqa: BLE001 - rebuild on cache errors
+    else:
         logger.debug(
-            "[USER_MAIN] Failed to load cached main payload for %s: %s", user_id, exc
+            "[USER_MAIN] Ignoring cached main payload for %s; aggregating fresh monthly data",
+            user_id,
         )
 
     months_map = months_service.get_user_months_map(user_id)
@@ -644,41 +659,31 @@ def user_has_data(
     user_months_service,
     uploads_repo=None,
 ) -> bool:
-    """
-    Returns True if the user has at least one completed/processed upload AND
-    at least one pipeline result (global or per-month). This is the canonical
-    check used by /api/main and monthly dashboards to decide if there is data.
-    """
+    """Return True when uploads and a global pipeline result exist for the user."""
 
-    snapshot = get_user_main_debug_snapshot(
-        user_id=user_id,
-        result_storage=result_storage,
-        user_months_service=user_months_service,
-        uploads_repo=uploads_repo,
-    )
+    upload_service = uploads_repo or UploadService()
+    storage = result_storage or ResultStorageService()
 
-    uploads = snapshot.get("uploads") or []
-    pipeline_results = snapshot.get("pipeline_results") or {}
-    months_info = pipeline_results.get("months") or {}
+    try:
+        uploads = upload_service.list_all_uploads(user_id) or []
+    except Exception:  # noqa: BLE001 - conservative default
+        logger.exception("[USER_MAIN] Failed to list uploads for %s", user_id)
+        uploads = []
 
-    # Consider uploads "done" when they are in any of these statuses
     DONE_STATUSES = {"done", "completed", "processed"}
-
-    has_any_completed_upload = any(
-        str(u.get("status")).lower() in DONE_STATUSES
-        for u in uploads
+    has_final_upload = any(
+        str(upload.get("status") or "").lower() in DONE_STATUSES for upload in uploads
     )
 
-    # There is data if there is either a global pipeline result or at least one month result
-    global_exists = bool(pipeline_results.get("global_exists"))
-    has_any_month_pipeline = any(
-        bool(m.get("exists"))
-        for m in months_info.values()
-    )
+    try:
+        has_global_result = bool(storage.get_pipeline_result(f"user-{user_id}"))
+    except FileNotFoundError:
+        has_global_result = False
+    except Exception:  # noqa: BLE001 - treat errors as missing data
+        logger.exception("[USER_MAIN] Failed to load global pipeline result for %s", user_id)
+        has_global_result = False
 
-    has_any_pipeline = global_exists or has_any_month_pipeline
-
-    return has_any_completed_upload and has_any_pipeline
+    return has_final_upload and has_global_result
 
 
 # Mini-changelog (caching strategy):
