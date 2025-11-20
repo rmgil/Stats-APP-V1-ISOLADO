@@ -86,13 +86,35 @@ class UserMonthsService:
         months_with_counts: list[dict] = []
 
         for month in sorted(months_map.keys(), reverse=True):
+            payload: dict | None = None
+            user_token = f"user-{user_id}"
             try:
-                payload = build_user_month_pipeline_result(user_id, month)
+                payload = self.result_storage.get_pipeline_result(user_token, month=month)
+                logger.debug(
+                    "[USER_MONTHS] Loaded cached month payload for %s/%s from %s",
+                    user_id,
+                    month,
+                    user_token,
+                )
+            except FileNotFoundError:
+                logger.debug(
+                    "[USER_MONTHS] No cached month payload for %s/%s; falling back to merge",
+                    user_id,
+                    month,
+                )
             except Exception as exc:  # noqa: BLE001 - continue with remaining months
                 logger.debug(
-                    "[USER_MONTHS] Failed to build monthly payload for %s/%s: %s", user_id, month, exc
+                    "[USER_MONTHS] Failed to load cached payload for %s/%s: %s", user_id, month, exc
                 )
-                continue
+
+            if payload is None:
+                try:
+                    payload = build_user_month_pipeline_result(user_id, month)
+                except Exception as exc:  # noqa: BLE001 - continue with remaining months
+                    logger.debug(
+                        "[USER_MONTHS] Failed to build monthly payload for %s/%s: %s", user_id, month, exc
+                    )
+                    continue
 
             if not payload:
                 continue

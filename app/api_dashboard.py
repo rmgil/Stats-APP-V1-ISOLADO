@@ -1190,13 +1190,35 @@ def build_user_month_dashboard_payload(user_id: str, month: str) -> dict:
         raise ValueError("month must be in YYYY-MM format")
 
     from app.services.user_months_service import build_user_month_pipeline_result
+    from app.services.result_storage import ResultStorageService
 
-    pipeline_result = build_user_month_pipeline_result(user_id, month)
-    month_not_found = pipeline_result is None
-    pipeline_result = pipeline_result or {}
+    result_storage = ResultStorageService()
+    pipeline_result = None
     selected_scope = 'monthly'
-    if month_not_found:
-        selected_scope = 'missing'
+    month_not_found = False
+
+    # 1) Tenta ler diretamente o cache consolidado do utilizador (user-<id>)
+    try:
+        pipeline_result = result_storage.get_pipeline_result(f"user-{user_id}", month=month)
+        selected_scope = 'monthly'
+        logger.debug(
+            "[USER_MONTH] Loaded cached pipeline_result for user %s month %s", user_id, month
+        )
+    except FileNotFoundError:
+        logger.debug(
+            "[USER_MONTH] Missing cached pipeline_result for user %s month %s", user_id, month
+        )
+    except Exception as exc:  # noqa: BLE001 - fallback to merge path
+        logger.debug(
+            "[USER_MONTH] Failed to load cached pipeline_result for %s/%s: %s", user_id, month, exc
+        )
+
+    # 2) Fallback: agrega tokens do mês (sem reprocessar HHs)
+    if pipeline_result is None:
+        pipeline_result = build_user_month_pipeline_result(user_id, month)
+        month_not_found = pipeline_result is None
+        pipeline_result = pipeline_result or {}
+        selected_scope = 'missing' if month_not_found else 'monthly'
 
     base = Path('results') / 'users' / str(user_id) / 'months' / month
     months_manifest = {

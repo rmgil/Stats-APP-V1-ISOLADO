@@ -1,3 +1,17 @@
+# AUDITORIA (main page / leituras de payloads)
+# - A pipeline pesada (run_multi_site_pipeline) é executada em background após uploads
+#   via SimpleBackgroundWorker/JobService, gravando
+#   work/<token>/pipeline_result_GLOBAL.json e pipeline_result_<YYYY-MM>.json, depois
+#   publicados em /results/<token>/ e agregados por utilizador em /results/by_user/<id>/
+#   por rebuild_user_master_results.
+# - As rotas de leitura usam apenas artefactos persistidos:
+#   • /api/dashboard/<token> → build_dashboard_payload → ResultStorageService.get_pipeline_result
+#   • /api/dashboard/user-month e /api/main → build_user_month_dashboard_payload /
+#     build_user_main_dashboard_payload → ResultStorageService (token user-<id> ou meses do utilizador)
+#   • downloads de amostras (hands_by_stat) leem ficheiros TXT + metadata já gravados.
+# Atualização (changelog):
+#   reorganizada a leitura da main/dashboard mensal para usar caches do ResultStorageService
+#   e expor subgrupos NONKO/PKO também na aba GERAL, sem reprocessar HHs.
 """FastAPI endpoint dedicated to the dashboard main page aggregation."""
 from __future__ import annotations
 
