@@ -933,8 +933,12 @@
                         {% for entry in available_months_info %}
                             {% set m = entry.month if entry.month is defined else entry['month'] %}
                             {% set hands = entry.hands if entry.hands is defined else entry['hands'] %}
-                            {% set parts = m.split('-') %}
-                            {% set label = (month_names.get(parts[1], m) ~ ' ' ~ parts[0]) ~ ' (' ~ ("{:,.0f}".format(hands|int).replace(',', '.')) ~ ' mãos)' %}
+                            {% if m == 'latest-upload' %}
+                                {% set label = 'Upload atual (sem separar meses)' ~ ' (' ~ ("{:,.0f}".format(hands|int).replace(',', '.')) ~ ' mãos)' %}
+                            {% else %}
+                                {% set parts = m.split('-') %}
+                                {% set label = (month_names.get(parts[1], m) ~ ' ' ~ parts[0]) ~ ' (' ~ ("{:,.0f}".format(hands|int).replace(',', '.')) ~ ' mãos)' %}
+                            {% endif %}
                             <option value="{{ m }}" {% if month == m %}selected{% endif %}>{{ label }}</option>
                         {% endfor %}
                     </select>

@@ -15,6 +15,7 @@ import os
 import logging
 import json
 import shutil
+import re
 from typing import Optional, Dict, Any, List, Set, Tuple
 from pathlib import Path
 from .storage import get_storage
@@ -115,6 +116,10 @@ class ResultStorageService:
 
         if token.startswith("user-"):
             return f"by_user/{token.removeprefix('user-')}"
+
+        # Treat anything that is not a 12-char hex token as a consolidated user id.
+        if not re.fullmatch(r"[a-f0-9]{12}", token or ""):
+            return f"by_user/{token}"
         return token
     
     def _read_json_from_storage(self, storage_path: str) -> Optional[Dict[str, Any]]:
