@@ -21,6 +21,9 @@ from .storage import get_storage
 
 logger = logging.getLogger(__name__)
 
+# Global and monthly pipeline_result_*.json share the same PipelineResult format.
+# Monthly results are built by applying the global pipeline to month-filtered hands,
+# so sums across months match the global totals and stats.
 class ResultStorageService:
     """
     Service for reading job results from persistent storage
