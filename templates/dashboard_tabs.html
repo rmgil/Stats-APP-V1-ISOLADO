@@ -927,7 +927,7 @@
             <h1>Dashboard de Análise</h1>
             <div class="header-actions">
                 {% if dashboard_api_mode == 'main' and available_months_info %}
-                <div class="month-selector">
+                <div class="month-selector" style="display: none;">
                     <label for="mainMonthSelect">Dashboard mensal:</label>
                     <select id="mainMonthSelect" class="month-dropdown">
                         <option value="">Main (últimos 3 meses – 50/30/20)</option>
@@ -1218,20 +1218,8 @@
             : null;
 
         document.addEventListener('DOMContentLoaded', async function() {
-            const mainMonthSelect = document.getElementById('mainMonthSelect');
-            if (mainMonthSelect) {
-                mainMonthSelect.addEventListener('change', (event) => {
-                    const selectedMonth = event.target.value;
-                    if (!selectedMonth) {
-                        window.location.href = '/main';
-                        return;
-                    }
-                    window.location.href = `/dashboard?month=${encodeURIComponent(selectedMonth)}`;
-                });
-            }
-
             // Resolve token from path, query string or server-provided default
-            let token = tokenFromPath || urlParams.get('token') || window.initialDashboardToken || null;
+            const token = tokenFromPath || urlParams.get('token') || window.initialDashboardToken || null;
 
             const uploadIdFromQuery = urlParams.get('upload_id');
             if (uploadIdFromQuery) {
@@ -1246,21 +1234,12 @@
                 return;
             }
 
-            if (token) {
-                loadDashboardByToken(token, currentUploadId);
+            if (!token) {
+                showError('Token não fornecido. Faz upload de um ficheiro para gerar uma dashboard.');
                 return;
             }
 
-            if (isDashboardRoot) {
-                try {
-                    await loadCurrentDashboard();
-                } catch (error) {
-                    showError('Erro de conexão: ' + error.message);
-                }
-                return;
-            }
-
-            showError('Token não fornecido');
+            loadDashboardByToken(token, currentUploadId);
         });
         
         // Tab switching
@@ -1297,38 +1276,6 @@
             document.getElementById(`nonko-${subTab}`).style.display = 'block';
         }
         
-        async function loadCurrentDashboard() {
-            try {
-                const res = await fetch('/api/dashboard/current');
-                if (!res.ok) {
-                    showError('Erro ao carregar dashboard atual.');
-                    return;
-                }
-
-                const json = await res.json();
-                if (!json.success) {
-                    showError('Erro ao carregar dashboard atual.');
-                    return;
-                }
-
-                const info = json.data || {};
-                if (!info.has_data) {
-                    showNoDataMessage();
-                    return;
-                }
-
-                if (!info.token) {
-                    showError('Dashboard atual sem token.');
-                    return;
-                }
-
-                loadDashboardByToken(info.token);
-            } catch (e) {
-                console.error(e);
-                showError('Erro ao carregar dashboard atual.');
-            }
-        }
-
         function computeWeightedPercentage(values, weights) {
             if (!Array.isArray(values) || values.length === 0) {
                 return null;
@@ -1560,7 +1507,7 @@
 
                 await loadHandsByStatSection(token, null, uploadId);
 
-                const url = `/api/dashboard/${token}/global`;
+                const url = `/api/dashboard/${token}`;
                 const response = await fetch(url);
                 const data = await response.json();
 
@@ -1570,7 +1517,8 @@
                 }
 
                 if (!response.ok || (!data.ok && data.success !== true)) {
-                    showError(data.error || 'Erro ao carregar dados');
+                    const detail = data.error || data.detail || 'Erro ao carregar dados do dashboard global.';
+                    showError(`${detail} Verifica se o upload foi concluído com sucesso.`);
                     return;
                 }
 
@@ -1578,7 +1526,7 @@
 
                 renderDashboardFromPayload(payload);
             } catch (error) {
-                showError('Erro de conexão: ' + error.message);
+                showError('Erro ao carregar dashboard global para este upload. Verifica se o upload foi concluído com sucesso.');
             }
         }
 

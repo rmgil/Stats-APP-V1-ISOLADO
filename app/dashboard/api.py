@@ -193,6 +193,20 @@ def _extract_global_counts(result: Dict[str, Any]) -> Dict[str, int]:
         "lt4": int((discards or {}).get("less_than_4_players", 0)),
     }
 
+
+def _load_global_dashboard_payload(token: str) -> Dict[str, Any]:
+    """Load the classic global dashboard payload or raise FileNotFoundError."""
+
+    payload = build_dashboard_payload(token, month=None, include_months=False)
+    if not payload or not isinstance(payload, dict):
+        raise FileNotFoundError(f"Dashboard payload not found for {token}")
+
+    groups = payload.get("groups")
+    if not isinstance(groups, dict) or not groups:
+        raise FileNotFoundError(f"Dashboard payload missing groups for {token}")
+
+    return payload
+
 @bp_dashboard.get("/overview")
 def api_overview():
     job = request.args.get("job", "").strip()
@@ -231,10 +245,13 @@ def api_dashboard_global(token: str):
     """Return only the global dashboard payload for a token."""
 
     try:
-        payload = build_dashboard_payload(token, month=None, include_months=False)
+        payload = _load_global_dashboard_payload(token)
         return jsonify({"ok": True, "data": payload})
     except FileNotFoundError as exc:
-        return jsonify({"ok": False, "error": "missing_artifact", "detail": str(exc)}), 404
+        return (
+            jsonify({"ok": False, "error": "not_found", "detail": str(exc)}),
+            404,
+        )
     except Exception as exc:  # noqa: BLE001 - keep response resilient
         logger.exception("Failed to build global dashboard payload for %s: %s", token, exc)
         return jsonify({"ok": False, "error": "unexpected"}), 500
@@ -244,12 +261,16 @@ def api_dashboard_global(token: str):
 def api_dashboard_with_token(token):
     """Get dashboard data for a specific token (global-only view)."""
     try:
-        data = build_dashboard_payload(token, month=None, include_months=False)
+        data = _load_global_dashboard_payload(token)
         return jsonify({"ok": True, "data": data})
-    except FileNotFoundError as e:
-        return jsonify({"ok": False, "error": "missing_artifact", "detail": str(e)}), 404
-    except Exception as e:
-        return jsonify({"ok": False, "error": "unexpected", "detail": str(e)}), 500
+    except FileNotFoundError as exc:
+        return (
+            jsonify({"ok": False, "error": "not_found", "detail": str(exc)}),
+            404,
+        )
+    except Exception as exc:
+        logger.exception("Unexpected error building dashboard for %s: %s", token, exc)
+        return jsonify({"ok": False, "error": "unexpected", "detail": str(exc)}), 500
 
 
 @bp_dashboard.get("/user-month")
