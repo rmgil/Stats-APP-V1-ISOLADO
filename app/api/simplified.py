@@ -38,12 +38,15 @@ def dashboard_page():
     latest_token = None
 
     available_months: list[str] = []
+    available_months_info: list[dict] = []
     user_identifier = getattr(current_user, 'id', None)
 
     if user_identifier:
         try:
-            months_map = UserMonthsService().get_user_months_map(str(user_identifier))
-            available_months = sorted((m for m in months_map.keys() if m), reverse=True)
+            service = UserMonthsService()
+            months_info = service.list_user_months_with_hands(str(user_identifier))
+            available_months_info = months_info
+            available_months = [entry["month"] for entry in months_info]
         except Exception:  # pragma: no cover - logging only
             logger.exception("Failed to load available months for user %s", user_identifier)
 
@@ -53,6 +56,7 @@ def dashboard_page():
         month=month,
         dashboard_api_mode='main',
         available_months=available_months,
+        available_months_info=available_months_info,
     )
 
 @bp.route('/dashboard/<token>')

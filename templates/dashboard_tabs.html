@@ -920,13 +920,22 @@
         <div class="header-content">
             <h1>Dashboard de Análise</h1>
             <div class="header-actions">
-                {% if dashboard_api_mode == 'main' and available_months %}
+                {% if dashboard_api_mode == 'main' and available_months_info %}
                 <div class="month-selector">
                     <label for="mainMonthSelect">Dashboard mensal:</label>
                     <select id="mainMonthSelect" class="month-dropdown">
-                        <option value="">Selecione um mês</option>
-                        {% for m in available_months %}
-                            <option value="{{ m }}">{{ m }}</option>
+                        <option value="">Main (últimos 3 meses – 50/30/20)</option>
+                        {% set month_names = {
+                            '01': 'Janeiro', '02': 'Fevereiro', '03': 'Março', '04': 'Abril',
+                            '05': 'Maio', '06': 'Junho', '07': 'Julho', '08': 'Agosto',
+                            '09': 'Setembro', '10': 'Outubro', '11': 'Novembro', '12': 'Dezembro'
+                        } %}
+                        {% for entry in available_months_info %}
+                            {% set m = entry.month if entry.month is defined else entry['month'] %}
+                            {% set hands = entry.hands if entry.hands is defined else entry['hands'] %}
+                            {% set parts = m.split('-') %}
+                            {% set label = (month_names.get(parts[1], m) ~ ' ' ~ parts[0]) ~ ' (' ~ ("{:,.0f}".format(hands|int).replace(',', '.')) ~ ' mãos)' %}
+                            <option value="{{ m }}" {% if month == m %}selected{% endif %}>{{ label }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -1204,6 +1213,7 @@
                 mainMonthSelect.addEventListener('change', (event) => {
                     const selectedMonth = event.target.value;
                     if (!selectedMonth) {
+                        window.location.href = '/main';
                         return;
                     }
                     window.location.href = `/dashboard?month=${encodeURIComponent(selectedMonth)}`;
@@ -1232,6 +1242,15 @@
 
             if (token) {
                 loadDashboardByToken(token, month, currentUploadId);
+                return;
+            }
+
+            if (isDashboardRoot && month) {
+                try {
+                    await loadUserMonthDashboard(month);
+                } catch (error) {
+                    showError('Erro de conexão: ' + error.message);
+                }
                 return;
             }
 
@@ -1564,6 +1583,32 @@
             } catch (e) {
                 console.error(e);
                 showError('Erro ao carregar dados da Main Page.');
+            }
+        }
+
+        async function loadUserMonthDashboard(month) {
+            try {
+                const res = await fetch(`/api/dashboard/user-month?month=${encodeURIComponent(month)}`);
+                if (!res.ok) {
+                    showError('Erro ao carregar dashboard mensal.');
+                    return;
+                }
+
+                const json = await res.json();
+                if (!json.success) {
+                    showError(json.error || 'Erro ao carregar dashboard mensal.');
+                    return;
+                }
+
+                if (!json.has_data || !json.data) {
+                    showNoDataMessage();
+                    return;
+                }
+
+                renderDashboardFromPayload(json.data);
+            } catch (e) {
+                console.error(e);
+                showError('Erro ao carregar dashboard mensal.');
             }
         }
 

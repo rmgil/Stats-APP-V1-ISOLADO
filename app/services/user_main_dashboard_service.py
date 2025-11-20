@@ -134,6 +134,7 @@ def _aggregate_stat_for_group(
         "score": note,
         "opportunities": opportunities_total,
         "attempts": attempts_total,
+        "sample_total": opportunities_total,
         "frequencies_by_month": frequency_by_month,
         "ideal": ideal_value,
     }
@@ -212,6 +213,7 @@ def _aggregate_subgroup_stat(
         "opportunities": opportunities_total,
         "att": attempts_total,
         "attempts": attempts_total,
+        "sample_total": opportunities_total,
         "pct": aggregated_pct,
         "percentage": aggregated_pct,
         "score": aggregated_score,

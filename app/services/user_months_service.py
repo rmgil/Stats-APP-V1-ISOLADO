@@ -1,5 +1,6 @@
 import json
 import logging
+import re
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -61,7 +62,10 @@ class UserMonthsService:
                     continue
 
                 month = month_entry.get("month")
-                if not month:
+                if not self._is_valid_month(month):
+                    continue
+
+                if not self._month_has_payload(token, month):
                     continue
 
                 if token not in months_map[month]:
@@ -74,6 +78,50 @@ class UserMonthsService:
         )
 
         return final_map
+
+    def list_user_months_with_hands(self, user_id: str) -> list[dict]:
+        """Return months with a friendly hands count for dropdowns and selectors."""
+
+        months_map = self.get_user_months_map(user_id)
+        months_with_counts: list[dict] = []
+
+        for month in sorted(months_map.keys(), reverse=True):
+            try:
+                payload = build_user_month_pipeline_result(user_id, month)
+            except Exception as exc:  # noqa: BLE001 - continue with remaining months
+                logger.debug(
+                    "[USER_MONTHS] Failed to build monthly payload for %s/%s: %s", user_id, month, exc
+                )
+                continue
+
+            if not payload:
+                continue
+
+            hands_count = int(payload.get("valid_hands") or payload.get("total_hands") or 0)
+            months_with_counts.append({"month": month, "hands": hands_count})
+
+        return months_with_counts
+
+    @staticmethod
+    def _is_valid_month(month: str | None) -> bool:
+        if not month or not isinstance(month, str):
+            return False
+        if not re.fullmatch(r"\d{4}-\d{2}", month):
+            return False
+        if month.startswith("1970-"):
+            return False
+        return True
+
+    def _month_has_payload(self, token: str, month: str) -> bool:
+        try:
+            result = self.result_storage.get_pipeline_result(token, month=month)
+            return bool(result)
+        except FileNotFoundError:
+            logger.debug("[USER_MONTHS] Missing pipeline_result for token=%s month=%s", token, month)
+            return False
+        except Exception as exc:  # noqa: BLE001 - best effort skip on failures
+            logger.debug("[USER_MONTHS] Error loading pipeline_result for %s/%s: %s", token, month, exc)
+            return False
 
 
 def build_user_month_pipeline_result(user_id: str, month: str) -> Optional[dict]:
