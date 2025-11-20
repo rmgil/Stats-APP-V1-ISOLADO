@@ -384,7 +384,7 @@ async def get_status(token: str, current_user: User = Depends(get_current_user))
                 "status": "completed",
                 "progress": 100,
                 "message": "Processamento concluído",
-                "redirect_url": "/main",
+                "redirect_url": f"/dashboard/{token}",
             }
 
     if upload_status == "processing":
