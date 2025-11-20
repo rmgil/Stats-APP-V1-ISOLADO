@@ -804,6 +804,10 @@ def _build_dashboard_payload_from_pipeline(
         # Ensure months are unique and sorted chronologically, keeping 'unknown' last
         months = _sort_months(sorted(set(months)))
 
+    # Month-specific dashboards are temporarily disabled to prioritise the
+    # original global behaviour, so surface no month entries to the frontend.
+    months = []
+
     # Load ingest manifest if exists
     ingest = {}
     manifest_path = base / "manifest.json"
@@ -1116,8 +1120,8 @@ def build_dashboard_payload(token: Optional[str], month: Optional[str] = None) -
         Dashboard payload dict
     """
 
-    if month and (not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month)):
-        month = None
+    # Temporarily disable month-specific views to restore the original global flow
+    month = None
 
     # Resolve base directory
     if token:

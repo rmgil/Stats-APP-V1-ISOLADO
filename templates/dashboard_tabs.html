@@ -8,6 +8,7 @@
         window.initialDashboardToken = "{{ token or '' }}";
         window.initialDashboardMonth = "{{ month or '' }}";
         window.dashboardApiMode = "{{ dashboard_api_mode or 'token' }}";
+        const MONTHS_ENABLED = false;
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -40,6 +41,11 @@
             color: #cbd5ff;
             font-size: 13px;
             display: none;
+        }
+
+        /* Months navigation temporarily disabled while global view is restored */
+        .month-selector {
+            display: none !important;
         }
         
         .header-content {
@@ -1234,6 +1240,10 @@
 
             // Resolve month selection (query string wins over initial value)
             let month = urlParams.get('month') || window.initialDashboardMonth || null;
+            if (!MONTHS_ENABLED) {
+                month = null;
+                window.initialDashboardMonth = '';
+            }
 
             if (isMainDashboard) {
                 try {
@@ -1591,6 +1601,10 @@
         }
 
         async function loadUserMonthDashboard(month) {
+            if (!MONTHS_ENABLED) {
+                showError('Vista mensal temporariamente em manutenção.');
+                return;
+            }
             try {
                 const res = await fetch(`/api/dashboard/user-month?month=${encodeURIComponent(month)}`);
                 if (!res.ok) {
@@ -1617,6 +1631,9 @@
         }
 
         async function loadDashboardByToken(token, month = null, uploadId = null) {
+            if (!MONTHS_ENABLED) {
+                month = null;
+            }
             try {
                 resetTokenSummary();
                 document.getElementById('tokenDisplay').textContent = token;
@@ -1755,6 +1772,11 @@
         }
 
         function updateMonthsBanner(monthEntries) {
+            if (!MONTHS_ENABLED) {
+                const banner = document.getElementById('monthsBanner');
+                if (banner) banner.style.display = 'none';
+                return;
+            }
             const banner = document.getElementById('monthsBanner');
             if (!banner) return;
 
@@ -1796,6 +1818,7 @@
         }
 
         function formatMonthsSummary(monthEntries) {
+            if (!MONTHS_ENABLED) return '';
             if (!Array.isArray(monthEntries) || monthEntries.length === 0) return '';
 
             const formatted = monthEntries
@@ -1811,6 +1834,7 @@
         }
 
         function updateVisionSummaryFromMonths(monthEntries) {
+            if (!MONTHS_ENABLED) return;
             const summaryItem = document.getElementById('tokenSummaryItem');
             const tokenLabel = document.getElementById('tokenLabel');
             const tokenDisplay = document.getElementById('tokenDisplay');
@@ -2946,6 +2970,11 @@
         
         // Month Selector Initialization
         function initializeMonthSelector(token, currentMonth) {
+            if (!MONTHS_ENABLED) {
+                const container = document.getElementById('monthSelectorContainer');
+                if (container) container.style.display = 'none';
+                return;
+            }
             const monthSelectorContainer = document.getElementById('monthSelectorContainer');
             const monthSelector = document.getElementById('monthSelector');
 
