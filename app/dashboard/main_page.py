@@ -22,7 +22,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from fastapi.concurrency import run_in_threadpool
 from fastapi.responses import JSONResponse
 
-from app.services.user_main_dashboard_service import build_user_main_dashboard_payload
+from app.services import user_main_dashboard_service
+from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 from app.services.user_months_service import UserMonthsService
 from app.api.auth_dependencies import get_current_user
@@ -44,8 +45,23 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
     user_id = str(user_id)
 
     upload_service = UploadService()
+    result_storage = ResultStorageService()
+    months_service = UserMonthsService()
+
+    has_data = user_main_dashboard_service.user_has_data(
+        user_id=user_id,
+        result_storage=result_storage,
+        user_months_service=months_service,
+        uploads_repo=upload_service,
+    )
+
+    if not has_data:
+        return {"success": True, "data": _empty_main_response(has_data=False)}
+
     try:
-        payload = await run_in_threadpool(build_user_main_dashboard_payload, user_id)
+        payload = await run_in_threadpool(
+            user_main_dashboard_service.build_user_main_dashboard_payload, user_id
+        )
     except Exception:  # noqa: BLE001 - surface controlled error to frontend
         logger.exception("Failed to build main page payload for user %s", user_id)
         return JSONResponse(
@@ -57,10 +73,18 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
             },
         )
 
-    has_uploads = _user_has_completed_uploads(upload_service, user_id)
-
     if not payload or not payload.get("meta"):
-        return _empty_main_response(has_uploads)
+        logger.exception(
+            "[USER_MAIN] Missing main payload for user %s despite detected data", user_id
+        )
+        return JSONResponse(
+            status_code=500,
+            content={
+                "success": False,
+                "error": "main_payload_missing",
+                "message": "Falha ao carregar os dados do utilizador, apesar de existirem resultados.",
+            },
+        )
 
     try:
         data = _format_main_payload(payload)
@@ -75,7 +99,7 @@ async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[
             },
         )
 
-    return {"success": True, **data, "has_uploads": has_uploads}
+    return {"success": True, "data": data, "has_uploads": True}
 
 
 @router.get("/debug/months")
@@ -90,15 +114,14 @@ async def debug_user_months(current_user: User = Depends(get_current_user)) -> D
     months_map = months_service.get_user_months_map(user_id)
     return {"success": True, "months": months_map}
 
-def _empty_main_response(has_uploads: bool = False) -> Dict[str, Any]:
+def _empty_main_response(has_data: bool = False) -> Dict[str, Any]:
     return {
-        "success": True,
         "months": [],
         "weights": [],
         "normalized_weights": [],
         "stats": {},
         "meta": {"mode": "user_main_3months"},
-        "has_data": bool(has_uploads),
+        "has_data": bool(has_data),
     }
 
 

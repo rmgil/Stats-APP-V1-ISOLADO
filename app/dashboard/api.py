@@ -15,6 +15,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from .aggregate import build_overview
 from app.api_dashboard import build_dashboard_payload, build_user_month_dashboard_payload
+from app.services import user_main_dashboard_service
 from app.services.upload_service import UploadService
 from app.services.job_service import JobService
 from app.services.result_storage import ResultStorageService
@@ -223,19 +224,52 @@ def api_user_month_dashboard():
     if not user_identifier:
         return jsonify({"success": False, "error": "missing_user"}), 401
 
+    result_storage = ResultStorageService()
+    months_service = UserMonthsService()
+    uploads_repo = UploadService()
+
+    has_data = user_main_dashboard_service.user_has_data(
+        user_id=user_identifier,
+        result_storage=result_storage,
+        user_months_service=months_service,
+        uploads_repo=uploads_repo,
+    )
+
+    if not has_data:
+        return jsonify(
+            {
+                "success": False,
+                "error": "no_data_for_user",
+                "help": "Please upload a file first",
+            }
+        )
+
     try:
-        payload = build_user_month_dashboard_payload(user_identifier, month)
+        payload = build_user_month_dashboard_payload(
+            user_identifier, month, result_storage=result_storage
+        )
     except Exception:  # noqa: BLE001 - keep response stable for frontend
         logger.exception(
             "Erro em /api/dashboard/user-month para user %s mes %s", user_identifier, month
         )
         return jsonify({"success": False, "error": "internal_error"}), 500
 
-    has_data = bool(payload) and not payload.get("month_not_found")
-    if not has_data and not payload:
-        return jsonify({"success": True, "data": None, "has_data": False, "month_not_found": True})
+    month_not_found = not payload or payload.get("month_not_found")
+    if month_not_found:
+        logger.exception(
+            "[USER_MONTH] No dashboard payload for user %s month %s despite detected data",
+            user_identifier,
+            month,
+        )
+        return jsonify(
+            {
+                "success": False,
+                "error": "no_data_for_month",
+                "help": f"No monthly dashboard could be built for {month} even though the user has pipeline results.",
+            }
+        )
 
-    return jsonify({"success": True, "data": payload, "has_data": has_data})
+    return jsonify({"success": True, "data": payload, "has_data": True})
 
 @bp_dashboard.get("/<token>/months")
 def api_months_manifest(token):

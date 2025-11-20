@@ -634,6 +634,53 @@ def get_user_main_debug_snapshot(
     return snapshot
 
 
+# NOTE: This function deliberately uses the same view as get_user_main_debug_snapshot
+# so that "has_data" is aligned with what /api/debug/user_main_state reports.
+# A user is considered to have data if there is at least one processed upload AND
+# at least one pipeline result (global or per-month), regardless of dashboard cache.
+def user_has_data(
+    user_id: str,
+    result_storage,
+    user_months_service,
+    uploads_repo=None,
+) -> bool:
+    """
+    Returns True if the user has at least one completed/processed upload AND
+    at least one pipeline result (global or per-month). This is the canonical
+    check used by /api/main and monthly dashboards to decide if there is data.
+    """
+
+    snapshot = get_user_main_debug_snapshot(
+        user_id=user_id,
+        result_storage=result_storage,
+        user_months_service=user_months_service,
+        uploads_repo=uploads_repo,
+    )
+
+    uploads = snapshot.get("uploads") or []
+    pipeline_results = snapshot.get("pipeline_results") or {}
+    months_info = pipeline_results.get("months") or {}
+
+    # Consider uploads "done" when they are in any of these statuses
+    DONE_STATUSES = {"done", "completed", "processed"}
+
+    has_any_completed_upload = any(
+        str(u.get("status")).lower() in DONE_STATUSES
+        for u in uploads
+    )
+
+    # There is data if there is either a global pipeline result or at least one month result
+    global_exists = bool(pipeline_results.get("global_exists"))
+    has_any_month_pipeline = any(
+        bool(m.get("exists"))
+        for m in months_info.values()
+    )
+
+    has_any_pipeline = global_exists or has_any_month_pipeline
+
+    return has_any_completed_upload and has_any_pipeline
+
+
 # Mini-changelog (caching strategy):
 # - Main dashboard payloads are cached at /results/by_user/<id>/main_dashboard.json
 #   and are rebuilt on-demand from cached monthly payloads when missing.
