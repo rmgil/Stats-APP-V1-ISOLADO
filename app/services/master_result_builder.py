@@ -16,7 +16,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 from app.pipeline.multi_site_runner import (
     _aggregate_month_groups,
 )
-from app.pipeline.sanity_checks import log_monthly_global_consistency
+from app.pipeline.sanity_checks import log_monthly_global_consistency, log_reference_consistency
 from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 from app.stats.aggregate import MultiSiteAggregator
@@ -314,6 +314,11 @@ def rebuild_user_master_results(user_id: str) -> Path:
 
     global_upper_path = output_root / "pipeline_result_GLOBAL.json"
     global_upper_path.write_text(json.dumps(master_payload, indent=2), encoding="utf-8")
+
+    try:
+        log_reference_consistency(global_upper_path)
+    except Exception as exc:  # noqa: BLE001 - log but continue
+        logger.warning("[MASTER] Reference check failed for %s: %s", user_id, exc)
 
     month_entries = []
     for month_key, month_results in months_map.items():

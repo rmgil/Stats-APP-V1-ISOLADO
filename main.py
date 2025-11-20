@@ -53,6 +53,7 @@ from app.admin.initializer import initialize_production_emails, ensure_primary_a
 # Import simple upload FastAPI router
 from app.api.simple_upload import router as simple_upload_router
 from app.dashboard.main_page import router as main_page_router
+from app.api.debug_by_user_pipeline import router as debug_by_user_pipeline_router
 
 # Import database pool only (no background worker needed)
 from app.services.db_pool import DatabasePool
@@ -893,6 +894,7 @@ app.register_blueprint(cleanup_admin_bp)
 fastapi_app = FastAPI(title="Stats Upload Service")
 fastapi_app.include_router(simple_upload_router)
 fastapi_app.include_router(main_page_router)
+fastapi_app.include_router(debug_by_user_pipeline_router)
 fastapi_app.include_router(dashboard_debug_router)
 fastapi_app.mount("/", WSGIMiddleware(app))
 
