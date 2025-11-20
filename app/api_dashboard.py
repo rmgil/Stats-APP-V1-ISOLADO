@@ -118,7 +118,7 @@ from app.parse.site_parsers.site_detector import detect_poker_site
 from app.score.scoring import score_step
 from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
-from app.services.user_months_service import UserMonthsService
+from app.services.user_months_service import LATEST_UPLOAD_KEY, UserMonthsService
 from app.stats.stat_categories import CATEGORY_LABELS, CATEGORY_WEIGHTS
 
 MONTH_KEY_PATTERN = re.compile(r"^\d{4}-\d{2}$")
@@ -1243,13 +1243,28 @@ def build_user_month_dashboard_payload(
     com a mesma estrutura de /api/dashboard/<token>?month=YYYY-MM.
     """
 
-    if not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month):
+    if month != LATEST_UPLOAD_KEY and (not isinstance(month, str) or not MONTH_KEY_PATTERN.fullmatch(month)):
         raise ValueError("month must be in YYYY-MM format")
-
-    from app.services.user_months_service import build_user_month_pipeline_result
 
     start = time.monotonic()
     result_storage = result_storage or ResultStorageService()
+
+    # Special case: latest upload without month split
+    if month == LATEST_UPLOAD_KEY:
+        latest_upload = uploads_service.get_master_or_latest_upload_for_user(user_id)
+        if not latest_upload or not latest_upload.get("token"):
+            return {"month_not_found": True}
+
+        try:
+            payload = build_dashboard_payload(latest_upload["token"], month=None)
+            payload.setdefault("meta", {})["mode"] = "user_latest_upload"
+            payload["meta"]["month"] = LATEST_UPLOAD_KEY
+            return payload
+        except Exception as exc:  # noqa: BLE001 - keep same contract
+            logger.debug(
+                "[USER_MONTH] Failed to build latest-upload payload for %s: %s", user_id, exc
+            )
+            return {"month_not_found": True}
 
     if use_cache:
         try:
@@ -1289,12 +1304,11 @@ def build_user_month_dashboard_payload(
             "[USER_MONTH] Failed to load cached pipeline_result for %s/%s: %s", user_id, month, exc
         )
 
-    # 2) Fallback: agrega tokens do mês (sem reprocessar HHs)
+    # 2) Não reconstrói – apenas usa artefactos persistidos
     if pipeline_result is None:
-        pipeline_result = build_user_month_pipeline_result(user_id, month)
-        month_not_found = pipeline_result is None
-        pipeline_result = pipeline_result or {}
-        selected_scope = 'missing' if month_not_found else 'monthly'
+        month_not_found = True
+        pipeline_result = {}
+        selected_scope = 'missing'
 
     base = Path('results') / 'users' / str(user_id) / 'months' / month
     months_manifest = {

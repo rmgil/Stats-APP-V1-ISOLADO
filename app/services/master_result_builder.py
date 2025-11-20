@@ -168,8 +168,16 @@ def _merge_pipeline_results(
         total_hands += int(result.get("total_hands") or 0)
         valid_hands += int(result.get("valid_hands") or 0)
 
-        for month, count in (result.get("hands_per_month") or {}).items():
-            hands_per_month[month] += int(count or 0)
+        month_counts = result.get("hands_per_month") or {}
+        if not isinstance(month_counts, dict):
+            month_counts = {}
+
+        if month_key:
+            if month_key in month_counts:
+                hands_per_month[month_key] += int(month_counts.get(month_key) or 0)
+        else:
+            for month, count in month_counts.items():
+                hands_per_month[month] += int(count or 0)
 
         if result.get("valid_hand_records"):
             valid_records.extend(result["valid_hand_records"])
@@ -190,6 +198,15 @@ def _merge_pipeline_results(
                     group_info.get("hands_by_stat", {}),
                 )
                 group_sources[group_key].add(site_name)
+
+    if month_key:
+        filtered_records = []
+        for record in valid_records:
+            record_month = record.get("month") if isinstance(record, dict) else None
+            if record_month and record_month != month_key:
+                continue
+            filtered_records.append(record)
+        valid_records = filtered_records
 
     deduped_records, group_id_sets = _deduplicate_valid_records(valid_records)
     aggregated_discards = _merge_discards(result for _, result in result_entries)
@@ -285,13 +302,30 @@ def rebuild_user_master_results(user_id: str) -> Path:
 
         results.append((token, result))
 
+        months_from_global = []
         try:
-            months_info = result_service.list_available_months(token)
+            hands_per_month = result.get("hands_per_month") or {}
+            if isinstance(hands_per_month, dict):
+                months_from_global = [
+                    month_key
+                    for month_key, count in hands_per_month.items()
+                    if month_key and int(count or 0) > 0
+                ]
         except Exception:
-            months_info = []
+            months_from_global = []
 
-        for month_entry in months_info:
-            month_key = month_entry.get("month")
+        if not months_from_global:
+            try:
+                months_info = result_service.list_available_months(token)
+            except Exception:
+                months_info = []
+            months_from_global = [
+                month_entry.get("month")
+                for month_entry in months_info
+                if isinstance(month_entry, dict) and month_entry.get("month")
+            ]
+
+        for month_key in months_from_global:
             if not month_key:
                 continue
             try:

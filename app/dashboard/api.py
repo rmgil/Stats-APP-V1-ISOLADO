@@ -20,7 +20,7 @@ from app.services.upload_service import UploadService
 from app.services.job_service import JobService
 from app.services.result_storage import ResultStorageService
 from app.services.user_main_dashboard_service import get_user_main_month_weights
-from app.services.user_months_service import UserMonthsService
+from app.services.user_months_service import LATEST_UPLOAD_KEY, UserMonthsService
 from app.services.storage import get_storage
 from app.stats.hand_collector import HandCollector
 from app.services.db_pool import DatabasePool
@@ -217,7 +217,7 @@ def api_user_month_dashboard():
     """Return the monthly dashboard payload using the authenticated user's history."""
 
     month = (request.args.get("month") or "").strip()
-    if not month or not re.match(r"^\d{4}-\d{2}$", month):
+    if not month or (month != LATEST_UPLOAD_KEY and not re.match(r"^\d{4}-\d{2}$", month)):
         return jsonify({"success": False, "error": "invalid_month"}), 400
 
     user_identifier = str(getattr(current_user, "id", "") or "")

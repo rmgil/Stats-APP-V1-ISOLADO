@@ -11,6 +11,8 @@ from app.services.upload_service import UploadService
 
 logger = logging.getLogger(__name__)
 
+LATEST_UPLOAD_KEY = "latest-upload"
+
 
 class UserMonthsService:
     def __init__(
@@ -42,30 +44,49 @@ class UserMonthsService:
         months_map: Dict[str, List[str]] = defaultdict(list)
 
         for token in tokens:
+            # Prefer the canonical global pipeline to discover month coverage so that
+            # the mapping reflects the exact set of valid hands used by the pipeline.
             try:
-                manifest = self.result_storage.get_months_manifest(token)
-            except Exception as exc:  # noqa: BLE001 - bubble up debug info without stopping the loop
-                logger.warning("[USER_MONTHS] Failed to load months_manifest for %s: %s", token, exc)
+                global_result = self.result_storage.get_pipeline_result(token)
+            except Exception as exc:  # noqa: BLE001 - skip tokens without usable results
+                logger.warning("[USER_MONTHS] Skipping token %s (global result unavailable: %s)", token, exc)
                 continue
 
-            if not manifest or not isinstance(manifest, dict):
-                logger.debug("[USER_MONTHS] No months_manifest found for token %s", token)
-                continue
+            hands_per_month = global_result.get("hands_per_month") or {}
+            if not isinstance(hands_per_month, dict):
+                hands_per_month = {}
 
-            months = manifest.get("months", [])
-            if not isinstance(months, list):
-                logger.debug("[USER_MONTHS] Malformed months_manifest for token %s", token)
-                continue
-
-            for month_entry in months:
-                if not isinstance(month_entry, dict):
-                    continue
-
-                month = month_entry.get("month")
+            discovered_months: set[str] = set()
+            for month, count in hands_per_month.items():
                 if not self._is_valid_month(month):
                     continue
+                if int(count or 0) <= 0:
+                    continue
+                discovered_months.add(month)
 
+            # Fallback to months_manifest when hands_per_month is missing
+            if not discovered_months:
+                try:
+                    manifest = self.result_storage.get_months_manifest(token)
+                except Exception as exc:  # noqa: BLE001 - bubble up debug info without stopping the loop
+                    logger.warning("[USER_MONTHS] Failed to load months_manifest for %s: %s", token, exc)
+                    manifest = None
+
+                months = manifest.get("months", []) if isinstance(manifest, dict) else []
+                for month_entry in months:
+                    if not isinstance(month_entry, dict):
+                        continue
+
+                    month = month_entry.get("month")
+                    if not self._is_valid_month(month):
+                        continue
+                    discovered_months.add(month)
+
+            for month in sorted(discovered_months):
                 if not self._month_has_payload(token, month):
+                    logger.debug(
+                        "[USER_MONTHS] Skipping %s for %s (missing monthly payload)", month, token
+                    )
                     continue
 
                 if token not in months_map[month]:
@@ -84,6 +105,22 @@ class UserMonthsService:
 
         months_map = self.get_user_months_map(user_id)
         months_with_counts: list[dict] = []
+
+        # Special entry: latest upload without month separation
+        latest_upload = self.upload_service.get_master_or_latest_upload_for_user(user_id)
+        if latest_upload and latest_upload.get("token"):
+            try:
+                latest_result = self.result_storage.get_pipeline_result(latest_upload["token"])
+                if latest_result:
+                    hands = int(latest_result.get("valid_hands") or latest_result.get("total_hands") or 0)
+                    months_with_counts.append({
+                        "month": LATEST_UPLOAD_KEY,
+                        "hands": hands,
+                    })
+            except Exception as exc:  # noqa: BLE001 - optional helper
+                logger.debug(
+                    "[USER_MONTHS] Failed to load latest upload pipeline_result for %s: %s", user_id, exc
+                )
 
         for month in sorted(months_map.keys(), reverse=True):
             payload: dict | None = None
