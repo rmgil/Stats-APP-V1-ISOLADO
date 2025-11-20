@@ -14,6 +14,7 @@ import traceback
 from datetime import datetime
 from pathlib import Path
 from flask import Flask, render_template, request, send_file, abort, flash, redirect, url_for, Response, jsonify, session, stream_with_context, make_response
+from werkzeug.exceptions import NotFound
 from werkzeug.utils import secure_filename
 import magic
 import rarfile
@@ -30,7 +31,7 @@ from app.stats.engine import run_stats
 
 # Import hands API blueprint
 from app.hands.api import bp as hands_api_bp
-from app.api_dashboard import build_dashboard_payload
+from app.api_dashboard import build_dashboard_payload, router as dashboard_debug_router
 from app.dashboard import bp_dashboard, bp_dashboard_debug, bp_dashboard_internal
 from app.dashboard.routes import dashboard_bp
 from app.api.jobs import bp_jobs
@@ -892,6 +893,7 @@ app.register_blueprint(cleanup_admin_bp)
 fastapi_app = FastAPI(title="Stats Upload Service")
 fastapi_app.include_router(simple_upload_router)
 fastapi_app.include_router(main_page_router)
+fastapi_app.include_router(dashboard_debug_router)
 fastapi_app.mount("/", WSGIMiddleware(app))
 
 @app.route('/')
@@ -2282,6 +2284,29 @@ def handle_exception(e):
     app.logger.error(f"Unhandled exception: {type(e).__name__}: {e}")
     import traceback
     app.logger.error(f"Full traceback: {traceback.format_exc()}")
+
+    if isinstance(e, NotFound):
+        # NOTE: /api/debug/user_main_state bypasses the friendly "Erro no processamento do ficheiro"
+        # mapping so we can inspect the raw NotFound cause during dashboard debugging.
+        # Any future debug endpoints that need raw errors must be explicitly bypassed here as well.
+        if request.path.startswith("/api/debug/user_main_state"):
+            return jsonify(
+                {
+                    "success": False,
+                    "error": "debug_not_found",
+                    "detail": str(e),
+                    "path": request.path,
+                    "type": "NotFoundDebugBypass",
+                }
+            ), 404
+
+        return jsonify(
+            {
+                "error": "Erro no processamento do ficheiro",
+                "success": False,
+                "type": "NotFound",
+            }
+        ), 404
 
     # Return JSON response
     return jsonify({
