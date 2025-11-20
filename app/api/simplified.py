@@ -26,6 +26,15 @@ def upload_page():
     is_admin = current_user.email == 'gilrmendes@gmail.com'
     return render_template('simple_upload.html', is_admin=is_admin)
 
+
+@bp.route('/upload/main')
+@login_required
+@email_confirmation_required
+def legacy_upload_main_redirect():
+    """Legacy redirect kept for old links to the main dashboard."""
+
+    return redirect(url_for('simplified.dashboard_page'), code=301)
+
 @bp.route('/dashboard')
 @bp.route('/dashboard/main')
 @bp.route('/main')

@@ -603,6 +603,16 @@
         let pollingTimeout = null;
         let uploadStartedAt = null;
 
+        function normalizeRedirect(target) {
+            if (!target) return '/main';
+            if (target.startsWith('http://') || target.startsWith('https://')) {
+                return target;
+            }
+
+            const sanitized = target.replace(/^\/+/, '');
+            return `/${sanitized || 'main'}`;
+        }
+
         function formatFileSize(bytes) {
             if (!Number.isFinite(bytes) || bytes <= 0) {
                 return '0 bytes';
@@ -778,7 +788,7 @@
                 setActiveStep('step-complete');
                 updateProgress(100);
                 progressStatus.textContent = message || 'Processamento concluído.';
-                const redirectTarget = data.redirect_url || '/main';
+                const redirectTarget = normalizeRedirect(data.redirect_url || '/main');
                 setTimeout(() => {
                     window.location.href = redirectTarget;
                 }, 800);
@@ -855,7 +865,7 @@
                     setActiveStep('step-complete');
                     updateProgress(100);
                     progressStatus.textContent = data.message || 'Processamento já concluído. A redirecionar...';
-                    const redirectTarget = data.dashboard_url || '/main';
+                    const redirectTarget = normalizeRedirect(data.dashboard_url || '/main');
                     setTimeout(() => {
                         window.location.href = redirectTarget;
                     }, 800);
