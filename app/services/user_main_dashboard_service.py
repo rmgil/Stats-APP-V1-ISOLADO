@@ -7,6 +7,8 @@ from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 from app.services.user_months_service import UserMonthsService
 
+# Debug helper used by /api/debug/user_main_state to inspect user dashboard state
+
 logger = logging.getLogger(__name__)
 
 from app.api_dashboard import calculate_weighted_scores_from_groups
@@ -517,6 +519,108 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     """
 
     return get_or_build_main_dashboard_payload(user_id)
+
+
+def get_user_main_debug_snapshot(
+    user_id: str,
+    result_storage,
+    user_months_service,
+    uploads_repo=None,
+):
+    """
+    Returns a debug snapshot of the user's dashboard-related state:
+    - uploads and their statuses
+    - existence of pipeline results (global and per-month)
+    - existence of cached main/monthly dashboards
+    - months detected by UserMonthsService
+    """
+
+    storage = result_storage or ResultStorageService()
+    months_service = user_months_service or UserMonthsService()
+    uploads_service = uploads_repo or UploadService()
+
+    snapshot = {
+        "user_id": user_id,
+        "uploads": [],
+        "pipeline_results": {
+            "global_exists": False,
+            "months": {},
+        },
+        "dashboard_cache": {
+            "main_exists": False,
+            "monthly": {},
+        },
+        "months_service": {
+            "months_map": {},
+        },
+    }
+
+    try:
+        uploads = uploads_service.list_all_uploads(user_id)
+        for upload in uploads:
+            snapshot["uploads"].append(
+                {
+                    "id": getattr(upload, "id", None) or (upload.get("id") if isinstance(upload, dict) else None),
+                    "status": getattr(upload, "status", None) or (upload.get("status") if isinstance(upload, dict) else None),
+                    "created_at": getattr(upload, "created_at", None)
+                    or (upload.get("created_at") if isinstance(upload, dict) else None),
+                    "updated_at": getattr(upload, "updated_at", None)
+                    or (upload.get("updated_at") if isinstance(upload, dict) else None),
+                    "client_upload_token": getattr(upload, "client_upload_token", None)
+                    or (upload.get("client_upload_token") if isinstance(upload, dict) else None),
+                }
+            )
+    except Exception:  # noqa: BLE001 - debug snapshot is best-effort
+        logger.exception("[USER_DEBUG] Failed to list uploads for user %s", user_id)
+
+    months_map = {}
+    try:
+        months_map = months_service.get_user_months_map(user_id) or {}
+    except Exception:  # noqa: BLE001 - continue with empty months map
+        logger.exception("[USER_DEBUG] Failed to load months map for user %s", user_id)
+
+    snapshot["months_service"]["months_map"] = months_map if isinstance(months_map, dict) else {}
+
+    known_months = list(snapshot["months_service"]["months_map"].keys())
+    user_token = f"user-{user_id}"
+
+    try:
+        global_result = storage.get_pipeline_result(user_token)
+        snapshot["pipeline_results"]["global_exists"] = bool(global_result)
+    except FileNotFoundError:
+        snapshot["pipeline_results"]["global_exists"] = False
+    except Exception:  # noqa: BLE001 - ignore failures but log
+        logger.exception("[USER_DEBUG] Failed to read global pipeline result for %s", user_token)
+
+    for month in known_months:
+        try:
+            month_result = storage.get_pipeline_result(user_token, month=month)
+            snapshot["pipeline_results"]["months"][month] = {"exists": bool(month_result)}
+        except FileNotFoundError:
+            snapshot["pipeline_results"]["months"][month] = {"exists": False}
+        except Exception:  # noqa: BLE001 - continue with best-effort data
+            snapshot["pipeline_results"]["months"][month] = {"exists": False}
+            logger.exception(
+                "[USER_DEBUG] Failed to read pipeline result for %s/%s", user_token, month
+            )
+
+    try:
+        main_cache = storage.load_main_dashboard_payload(user_id)
+        snapshot["dashboard_cache"]["main_exists"] = bool(main_cache)
+    except Exception:  # noqa: BLE001 - keep going when cache is missing
+        logger.exception("[USER_DEBUG] Failed to load main dashboard cache for %s", user_id)
+
+    for month in known_months:
+        try:
+            month_cache = storage.load_month_dashboard_payload(user_id, month)
+            snapshot["dashboard_cache"]["monthly"][month] = {"exists": bool(month_cache)}
+        except Exception:  # noqa: BLE001 - ignore cache errors but log
+            snapshot["dashboard_cache"]["monthly"][month] = {"exists": False}
+            logger.exception(
+                "[USER_DEBUG] Failed to load month dashboard cache for %s/%s", user_id, month
+            )
+
+    return snapshot
 
 
 # Mini-changelog (caching strategy):
