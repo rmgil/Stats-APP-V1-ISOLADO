@@ -176,8 +176,9 @@ def ensure_group_defaults(groups: Dict[str, Any]) -> Dict[str, Any]:
     return groups
 
 
-# NOTE: This endpoint bypasses the standard dashboard error handlers on purpose.
-# It should always return a best-effort snapshot instead of mapped "NotFound" errors.
+# NOTE: This endpoint is intentionally excluded from the generic NotFound ->
+# "Erro no processamento do ficheiro" mapping so we can inspect raw missing-data
+# causes when debugging dashboard issues.
 @router.get("/api/debug/user_main_state")
 async def api_debug_user_main_state(current_user: User = Depends(get_current_user)):
     """
