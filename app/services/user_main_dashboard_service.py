@@ -6,6 +6,8 @@ from app.services.user_months_service import UserMonthsService
 
 logger = logging.getLogger(__name__)
 
+from app.api_dashboard import calculate_weighted_scores_from_groups
+
 MONTH_WEIGHTS_3 = [0.5, 0.3, 0.2]
 MONTH_WEIGHTS_2 = [0.7, 0.3]
 MONTH_WEIGHTS_1 = [1.0]
@@ -370,45 +372,17 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     aggregated_groups = _merge_group_stats(month_payloads, weights)
     logger.debug("[USER_MAIN] Aggregated groups count for %s: %s", user_id, len(aggregated_groups))
 
-    weighted_scores = {}
+    weighted_scores = calculate_weighted_scores_from_groups(
+        aggregated_groups, aggregated_groups.get("postflop_all")
+    )
+    logger.debug(
+        "[USER_MAIN] Weighted scores for %s -> keys=%s", user_id, list(weighted_scores.keys())
+    )
+
     months_used = []
     for month, payload in month_payloads:
         month_weights = weights.get(month, 0.0)
         months_used.append({"month": month, "weight": month_weights})
-
-        for group_key in ["nonko", "pko", "postflop", "overall"]:
-            source = payload.get("weighted_scores", {}).get(group_key)
-            if source is None:
-                continue
-            weighted_scores.setdefault(group_key, []).append((source, month_weights))
-
-    def merge_group_scores(entries: List[Tuple[Dict[str, Any], float]]):
-        scores_list = []
-        for data, weight in entries:
-            if data is None:
-                continue
-            score_value = data.get("group_score") if isinstance(data, dict) else None
-            if score_value is not None:
-                scores_list.append((score_value, weight))
-        return _weighted_average(scores_list)
-
-    final_weighted_scores: Dict[str, Any] = {}
-    if "nonko" in weighted_scores:
-        merged_score = merge_group_scores(weighted_scores["nonko"])
-        if merged_score is not None:
-            final_weighted_scores["nonko"] = {"group_score": merged_score}
-    if "pko" in weighted_scores:
-        merged_score = merge_group_scores(weighted_scores["pko"])
-        if merged_score is not None:
-            final_weighted_scores["pko"] = {"group_score": merged_score}
-    if "postflop" in weighted_scores:
-        merged_score = merge_group_scores(weighted_scores["postflop"])
-        if merged_score is not None:
-            final_weighted_scores["postflop"] = {"group_score": merged_score}
-    if "overall" in weighted_scores:
-        merged_score = merge_group_scores(weighted_scores["overall"])
-        if merged_score is not None:
-            final_weighted_scores["overall"] = merged_score
 
     logger.debug(
         "[USER_MAIN] Aggregating months for %s -> months_used=%s weights=%s",
@@ -424,7 +398,7 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
             "weights": base_weights,
         },
         "groups": aggregated_groups,
-        "weighted_scores": final_weighted_scores,
+        "weighted_scores": weighted_scores,
     }
 
 
