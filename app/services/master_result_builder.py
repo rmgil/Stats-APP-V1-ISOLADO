@@ -16,6 +16,7 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple
 from app.pipeline.multi_site_runner import (
     _aggregate_month_groups,
 )
+from app.pipeline.sanity_checks import log_monthly_global_consistency
 from app.services.result_storage import ResultStorageService
 from app.services.upload_service import UploadService
 from app.stats.aggregate import MultiSiteAggregator
@@ -339,6 +340,19 @@ def rebuild_user_master_results(user_id: str) -> Path:
         months_manifest = {"months": sorted(month_entries, key=lambda x: x.get("month", ""))}
         (output_root / "months_manifest.json").write_text(
             json.dumps(months_manifest, indent=2), encoding="utf-8"
+        )
+
+    monthly_paths = {
+        entry["month"]: output_root / f"pipeline_result_{entry['month']}.json"
+        for entry in month_entries
+        if entry.get("month")
+    }
+
+    try:
+        log_monthly_global_consistency(global_upper_path, monthly_paths)
+    except Exception as exc:  # noqa: BLE001 - keep aggregation resilient
+        logger.warning(
+            "[MASTER] Failed to run monthly/global sanity check for %s: %s", user_id, exc
         )
 
     logger.info(

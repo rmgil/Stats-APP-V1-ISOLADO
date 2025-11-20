@@ -20,6 +20,10 @@ from app.pipeline.global_samples import (
     build_global_samples,
     POSTFLOP_GROUP_KEY,
 )
+from app.pipeline.sanity_checks import (
+    log_monthly_global_consistency,
+    log_reference_consistency,
+)
 from app.pipeline.pipeline_result import build_pipeline_result_payload
 from app.pipeline.new_runner import run_simplified_pipeline
 from app.stats.aggregate import MultiSiteAggregator
@@ -1250,6 +1254,16 @@ def run_multi_site_pipeline(
         with open(global_result_upper, 'w', encoding='utf-8') as f:
             json.dump(result_data, f, indent=2)
         logger.info(f"[{token}] ✅ Wrote GLOBAL pipeline_result to {global_result_upper}")
+
+        log_reference_consistency(Path(global_result_upper))
+
+        if is_multi_month:
+            monthly_paths = {
+                bucket.month: Path(work_dir) / f"pipeline_result_{bucket.month}.json"
+                for bucket in buckets
+                if getattr(bucket, "month", None)
+            }
+            log_monthly_global_consistency(Path(global_result_upper), monthly_paths)
 
         legacy_result_path = os.path.join(work_dir, "pipeline_result.json")
         with open(legacy_result_path, 'w', encoding='utf-8') as f:
