@@ -193,6 +193,10 @@ def _format_stat_entry(stat_payload: Dict[str, Any], normalized_weights: List[fl
         "ideal": stat_payload.get("ideal"),
         "opportunities": stat_payload.get("opportunities", 0) or 0,
         "attempts": stat_payload.get("attempts", 0) or 0,
+        "sample_total": stat_payload.get("sample_total")
+        or stat_payload.get("opportunities")
+        or stat_payload.get("opps")
+        or 0,
     }
 
     frequencies = stat_payload.get("frequencies_by_month") or []

@@ -14,7 +14,7 @@ from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from .aggregate import build_overview
-from app.api_dashboard import build_dashboard_payload
+from app.api_dashboard import build_dashboard_payload, build_user_month_dashboard_payload
 from app.services.upload_service import UploadService
 from app.services.job_service import JobService
 from app.services.result_storage import ResultStorageService
@@ -208,6 +208,34 @@ def api_dashboard_with_token(token):
         return jsonify({"ok": False, "error": "missing_artifact", "detail": str(e)}), 404
     except Exception as e:
         return jsonify({"ok": False, "error": "unexpected", "detail": str(e)}), 500
+
+
+@bp_dashboard.get("/user-month")
+@login_required
+def api_user_month_dashboard():
+    """Return the monthly dashboard payload using the authenticated user's history."""
+
+    month = (request.args.get("month") or "").strip()
+    if not month or not re.match(r"^\d{4}-\d{2}$", month):
+        return jsonify({"success": False, "error": "invalid_month"}), 400
+
+    user_identifier = str(getattr(current_user, "id", "") or "")
+    if not user_identifier:
+        return jsonify({"success": False, "error": "missing_user"}), 401
+
+    try:
+        payload = build_user_month_dashboard_payload(user_identifier, month)
+    except Exception:  # noqa: BLE001 - keep response stable for frontend
+        logger.exception(
+            "Erro em /api/dashboard/user-month para user %s mes %s", user_identifier, month
+        )
+        return jsonify({"success": False, "error": "internal_error"}), 500
+
+    has_data = bool(payload) and not payload.get("month_not_found")
+    if not has_data and not payload:
+        return jsonify({"success": True, "data": None, "has_data": False, "month_not_found": True})
+
+    return jsonify({"success": True, "data": payload, "has_data": has_data})
 
 @bp_dashboard.get("/<token>/months")
 def api_months_manifest(token):
