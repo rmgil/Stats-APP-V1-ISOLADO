@@ -160,6 +160,39 @@ def _job_dir(job: str) -> str:
     os.makedirs(base, exist_ok=True)
     return os.path.join(base, job)
 
+
+def _extract_global_counts(result: Dict[str, Any]) -> Dict[str, int]:
+    classification = result.get("classification") if isinstance(result, dict) else {}
+    discards = classification.get("discarded_hands") if isinstance(classification, dict) else {}
+
+    if not isinstance(discards, dict):
+        discards = result.get("aggregated_discards") if isinstance(result, dict) else {}
+    if not isinstance(discards, dict):
+        discards = result.get("discarded_hands") if isinstance(result, dict) else {}
+
+    total = classification.get("total_hands") if isinstance(classification, dict) else result.get("total_hands", 0)
+    valid = classification.get("valid_hands") if isinstance(classification, dict) else result.get("valid_hands", 0)
+
+    try:
+        total_val = int(total or 0)
+    except Exception:
+        total_val = 0
+
+    try:
+        valid_val = int(valid or 0)
+    except Exception:
+        valid_val = 0
+
+    if isinstance(discards, dict) and not valid_val:
+        valid_val = total_val - int(discards.get("total", 0))
+
+    return {
+        "total": total_val,
+        "valid": valid_val,
+        "mystery": int((discards or {}).get("mystery", 0)),
+        "lt4": int((discards or {}).get("less_than_4_players", 0)),
+    }
+
 @bp_dashboard.get("/overview")
 def api_overview():
     job = request.args.get("job", "").strip()
@@ -172,6 +205,26 @@ def api_overview():
         return jsonify({"ok": False, "error": "missing_artifact", "detail": str(e)}), 404
     except Exception as e:
         return jsonify({"ok": False, "error": "unexpected", "detail": str(e)}), 500
+
+
+@bp_dashboard.get("/<token>/global-counts")
+def api_global_counts(token: str):
+    """Lightweight helper to inspect global counters for a token."""
+
+    storage = ResultStorageService()
+    try:
+        result = storage.get_pipeline_result(token)
+    except FileNotFoundError:
+        return jsonify({"ok": False, "error": "missing_artifact"}), 404
+    except Exception as exc:  # noqa: BLE001 - keep response resilient
+        logger.exception("Failed to load pipeline_result for %s: %s", token, exc)
+        return jsonify({"ok": False, "error": "unexpected"}), 500
+
+    if not result:
+        return jsonify({"ok": False, "error": "missing_artifact"}), 404
+
+    counts = _extract_global_counts(result)
+    return jsonify({"ok": True, "data": counts})
 
 @bp_dashboard.get("/<token>")
 def api_dashboard_with_token(token):

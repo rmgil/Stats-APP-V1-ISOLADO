@@ -38,68 +38,13 @@ router = APIRouter(prefix="/api/main", tags=["main"])
 async def get_main_page(current_user: User = Depends(get_current_user)) -> Dict[str, Any]:
     """Return the aggregated main dashboard payload for the authenticated user."""
 
-    logger.info(f"FASTAPI AUTH USER = {current_user.id}")
-    user_id = current_user.get_id() or current_user.id
-    if not user_id:
-        raise HTTPException(status_code=401, detail="user_not_authenticated")
-    user_id = str(user_id)
-
-    upload_service = UploadService()
-    result_storage = ResultStorageService()
-    months_service = UserMonthsService()
-
-    has_data = user_main_dashboard_service.user_has_data(
-        user_id=user_id,
-        result_storage=result_storage,
-        user_months_service=months_service,
-        uploads_repo=upload_service,
-    )
-
-    if not has_data:
-        return {"success": True, "data": _empty_main_response(has_data=False)}
-
-    try:
-        payload = await run_in_threadpool(
-            user_main_dashboard_service.build_user_main_dashboard_payload, user_id
-        )
-    except Exception:  # noqa: BLE001 - surface controlled error to frontend
-        logger.exception("Failed to build main page payload for user %s", user_id)
-        return JSONResponse(
-            status_code=500,
-            content={
-                "success": False,
-                "error": "internal_error",
-                "message": "Falha ao carregar dados agregados do utilizador.",
-            },
-        )
-
-    if not payload or not payload.get("meta"):
-        logger.exception(
-            "[USER_MAIN] Missing main payload for user %s despite detected data", user_id
-        )
-        return JSONResponse(
-            status_code=500,
-            content={
-                "success": False,
-                "error": "main_payload_missing",
-                "message": "Falha ao carregar os dados do utilizador, apesar de existirem resultados.",
-            },
-        )
-
-    try:
-        data = _format_main_payload(payload)
-    except Exception:  # noqa: BLE001 - ensure API never propagates formatting errors
-        logger.exception("Failed to format main page payload for user %s", user_id)
-        return JSONResponse(
-            status_code=500,
-            content={
-                "success": False,
-                "error": "main_page_format_error",
-                "message": "Falha ao preparar os dados da Main Page.",
-            },
-        )
-
-    return {"success": True, "data": data, "has_uploads": True}
+    # Temporarily disable the main (50/30/20) view to prioritise restoring the
+    # original global dashboard behaviour without breaking the app.
+    return {
+        "success": True,
+        "data": {"message": "Dashboard principal em manutenção."},
+        "has_uploads": False,
+    }
 
 
 @router.get("/debug/months")
