@@ -1,7 +1,10 @@
 import logging
+import time
 from typing import Any, Dict, List, Set, Tuple
 
 from app.api_dashboard import build_user_month_dashboard_payload
+from app.services.result_storage import ResultStorageService
+from app.services.upload_service import UploadService
 from app.services.user_months_service import UserMonthsService
 
 logger = logging.getLogger(__name__)
@@ -11,6 +14,16 @@ from app.api_dashboard import calculate_weighted_scores_from_groups
 MONTH_WEIGHTS_3 = [0.5, 0.3, 0.2]
 MONTH_WEIGHTS_2 = [0.7, 0.3]
 MONTH_WEIGHTS_1 = [1.0]
+
+
+def _has_completed_uploads(user_id: str, upload_service: UploadService | None = None) -> bool:
+    service = upload_service or UploadService()
+    uploads = service.list_all_uploads(user_id)
+    for entry in uploads:
+        status = (entry.get("status") or "").lower()
+        if status in {"done", "processed", "completed"}:
+            return True
+    return False
 
 
 def _sorted_months_desc(months: List[str]) -> List[str]:
@@ -318,13 +331,87 @@ def _merge_group_stats(
     return aggregated_groups
 
 
-def build_user_main_dashboard_payload(user_id: str) -> dict:
-    """
-    Devolve o payload completo da Main Page do utilizador,
-    agregando os últimos 3 meses concluídos com pesos 50/30/20.
-    """
+def get_or_build_month_dashboard_payload(
+    user_id: str,
+    month: str,
+    *,
+    result_storage: ResultStorageService | None = None,
+) -> dict:
+    """Load cached monthly payload or build and persist it on-demand."""
 
-    months_service = UserMonthsService()
+    storage = result_storage or ResultStorageService()
+    start = time.monotonic()
+
+    try:
+        cached = storage.load_month_dashboard_payload(user_id, month)
+        if cached:
+            logger.info(
+                "[USER_MONTH] Loaded cached dashboard payload for %s/%s in %.2fs",
+                user_id,
+                month,
+                time.monotonic() - start,
+            )
+            return cached
+    except Exception as exc:  # noqa: BLE001 - fallback to build
+        logger.debug(
+            "[USER_MONTH] Failed to load cached month payload for %s/%s: %s",
+            user_id,
+            month,
+            exc,
+        )
+
+    payload = build_user_month_dashboard_payload(
+        user_id, month, use_cache=False, result_storage=storage
+    )
+
+    if payload:
+        try:
+            storage.save_month_dashboard_payload(user_id, month, payload)
+        except Exception as exc:  # noqa: BLE001 - cache best-effort
+            logger.debug(
+                "[USER_MONTH] Failed to persist month payload for %s/%s: %s",
+                user_id,
+                month,
+                exc,
+            )
+
+    logger.info(
+        "[USER_MONTH] Built dashboard payload for %s/%s in %.2fs",
+        user_id,
+        month,
+        time.monotonic() - start,
+    )
+    return payload or {}
+
+
+def get_or_build_main_dashboard_payload(
+    user_id: str,
+    *,
+    result_storage: ResultStorageService | None = None,
+    months_service: UserMonthsService | None = None,
+    upload_service: UploadService | None = None,
+) -> dict:
+    """Return cached main payload or rebuild it by aggregating monthly caches."""
+
+    storage = result_storage or ResultStorageService()
+    months_service = months_service or UserMonthsService()
+    upload_service = upload_service or UploadService()
+    start = time.monotonic()
+
+    try:
+        cached = storage.load_main_dashboard_payload(user_id)
+        if cached:
+            logger.info(
+                "[USER_MAIN] Loaded cached main payload for %s in %.2fs",
+                user_id,
+                time.monotonic() - start,
+            )
+            return cached
+    except Exception as exc:  # noqa: BLE001 - rebuild on cache errors
+        logger.debug(
+            "[USER_MAIN] Failed to load cached main payload for %s: %s", user_id, exc
+        )
+
     months_map = months_service.get_user_months_map(user_id)
     all_months = list(months_map.keys())
 
@@ -341,20 +428,32 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
     month_payloads: List[Tuple[str, Dict[str, Any]]] = []
     for month in selected_months:
         try:
-            payload = build_user_month_dashboard_payload(user_id, month)
-            month_payloads.append((month, payload))
+            payload = get_or_build_month_dashboard_payload(
+                user_id, month, result_storage=storage
+            )
+            if payload:
+                month_payloads.append((month, payload))
         except Exception as exc:  # noqa: BLE001 - continue aggregating available months
             logger.warning("[USER_MAIN] Failed to load payload for %s/%s: %s", user_id, month, exc)
 
+    has_uploads = _has_completed_uploads(user_id, upload_service)
+
     if not month_payloads:
-        return {
+        payload = {
             "meta": {
                 "mode": "user_main_3months",
                 "months": [],
-                "weights": [],
+                "weights": base_weights,
+                "has_uploads": has_uploads,
             },
             "groups": {},
+            "has_data": False,
         }
+        try:
+            storage.save_main_dashboard_payload(user_id, payload)
+        except Exception:  # noqa: BLE001 - optional cache write
+            logger.debug("[USER_MAIN] Skipped saving empty main payload for %s", user_id)
+        return payload
 
     weights: Dict[str, float] = {}
     total_weight = 0.0
@@ -384,22 +483,49 @@ def build_user_main_dashboard_payload(user_id: str) -> dict:
         month_weights = weights.get(month, 0.0)
         months_used.append({"month": month, "weight": month_weights})
 
-    logger.debug(
-        "[USER_MAIN] Aggregating months for %s -> months_used=%s weights=%s",
-        user_id,
-        months_used,
-        weights,
-    )
-
-    return {
+    payload = {
         "meta": {
             "mode": "user_main_3months",
             "months": months_used,
             "weights": base_weights,
+            "has_uploads": has_uploads,
         },
         "groups": aggregated_groups,
         "weighted_scores": weighted_scores,
+        "has_data": True,
     }
+
+    try:
+        storage.save_main_dashboard_payload(user_id, payload)
+    except Exception as exc:  # noqa: BLE001 - cache best-effort
+        logger.debug(
+            "[USER_MAIN] Failed to persist main payload for %s: %s", user_id, exc
+        )
+
+    logger.info(
+        "[USER_MAIN] Built main dashboard payload for %s in %.2fs",
+        user_id,
+        time.monotonic() - start,
+    )
+    return payload
+
+
+def build_user_main_dashboard_payload(user_id: str) -> dict:
+    """
+    Devolve o payload completo da Main Page do utilizador,
+    agregando os últimos 3 meses concluídos com pesos 50/30/20.
+    """
+
+    return get_or_build_main_dashboard_payload(user_id)
+
+
+# Mini-changelog (caching strategy):
+# - Main dashboard payloads are cached at /results/by_user/<id>/main_dashboard.json
+#   and are rebuilt on-demand from cached monthly payloads when missing.
+# - Monthly dashboard payloads live under /results/by_user/<id>/months/dashboard_month_<YYYY-MM>.json
+#   and are generated from precomputed pipeline_result_<YYYY-MM>.json without rereading HHs.
+# - has_data now honours real uploads (status done/processed/completed) to avoid false
+#   "Ainda não carregaste nenhum ficheiro" when pipeline results exist but caches are cold.
 
 
 if __name__ == "__main__":  # pragma: no cover - dev helper
