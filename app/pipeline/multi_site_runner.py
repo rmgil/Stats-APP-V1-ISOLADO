@@ -1237,11 +1237,13 @@ def run_multi_site_pipeline(
 
                 month_records = month_result.get('valid_hand_records', [])
                 month_counts = _count_hands_per_month(month_records)
-                if month_counts:
-                    for key, count in month_counts.items():
-                        hands_per_month[key] = count
-                elif month_key:
-                    hands_per_month[month_key] = len({record['hand_id'] for record in month_records})
+                if not month_counts and month_key:
+                    month_counts = {
+                        month_key: len({record['hand_id'] for record in month_records})
+                    }
+
+                for key, count in month_counts.items():
+                    hands_per_month[key] = count
 
                 month_discards = month_result.get('aggregated_discards', {})
                 for reason, count in month_discards.items():
