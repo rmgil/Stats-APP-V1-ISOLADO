@@ -17,6 +17,30 @@ def test_dashboard_with_token_global_mode(monkeypatch, client):
     assert captured["token"] == "sampletoken"
 
 
+def test_dashboard_with_and_without_month(monkeypatch, client):
+    def fake_load_global(token):
+        return {"mode": "global", "token": token}
+
+    captured = {}
+
+    def fake_build_payload(token, month=None, include_months=False):
+        captured["args"] = (token, month, include_months)
+        return {"mode": "monthly", "month": month}
+
+    monkeypatch.setattr(dashboard_api, "_load_global_dashboard_payload", fake_load_global)
+    monkeypatch.setattr(dashboard_api, "build_dashboard_payload", fake_build_payload)
+
+    global_response = client.get("/api/dashboard/sampletoken")
+    monthly_response = client.get("/api/dashboard/sampletoken?month=2024-02")
+
+    assert global_response.status_code == 200
+    assert global_response.get_json() == {"ok": True, "data": {"mode": "global", "token": "sampletoken"}}
+
+    assert monthly_response.status_code == 200
+    assert monthly_response.get_json() == {"ok": True, "data": {"mode": "monthly", "month": "2024-02"}}
+    assert captured["args"] == ("sampletoken", "2024-02", True)
+
+
 def test_dashboard_with_token_month_payload(monkeypatch, client):
     captured = {}
 
