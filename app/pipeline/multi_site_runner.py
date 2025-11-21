@@ -6,6 +6,13 @@ and supports monthly bucketing for multi-month uploads.
 # Monthly pipeline results are now built by reusing the exact same global pipeline
 # on a per-month subset of the hands. There is no separate logic for counting
 # valid/mystery/<4 or stat opportunities – everything goes through the global builder.
+#
+# DEBUG SUMMARY (global pipeline): the global counters were drifting because some
+# sites ended up with hands that were neither marked as válidas/mystery/<4 nor
+# reflected in any room summary. The pipeline now tracks raw vs parsed hands,
+# forces every parsed hand into either a discard bucket or “discarded_no_reason”,
+# and publishes per-room totals alongside a new /api/debug/global-stats/<token>
+# endpoint so we can verify the counts end-to-end.
 """
 import os
 import json
@@ -60,6 +67,61 @@ def _is_dev_environment() -> bool:
         os.getenv("APP_ENV", ""),
     ]
     return any(value and value.lower().startswith("dev") for value in env_candidates)
+
+
+def _empty_debug_totals() -> Dict[str, Any]:
+    return {
+        'raw_lines': 0,
+        'parsed_hands': 0,
+        'valid_hands': 0,
+        'mystery_hands': 0,
+        'lt4_hands': 0,
+        'discarded_no_reason': 0,
+        'by_room': {},
+    }
+
+
+def _merge_debug_totals(target: Dict[str, Any], source: Optional[Dict[str, Any]]) -> Dict[str, Any]:
+    if not source:
+        return target
+
+    target['raw_lines'] += int(source.get('raw_lines') or source.get('parsed_hands') or 0)
+    target['parsed_hands'] += int(source.get('parsed_hands') or 0)
+    target['valid_hands'] += int(source.get('valid_hands') or 0)
+    target['mystery_hands'] += int(source.get('mystery_hands') or 0)
+    target['lt4_hands'] += int(source.get('lt4_hands') or 0)
+    target['discarded_no_reason'] += int(source.get('discarded_no_reason') or 0)
+
+    for room, counts in (source.get('by_room') or {}).items():
+        room_bucket = target['by_room'].setdefault(room, {
+            'valid_hands': 0,
+            'total_hands': 0,
+            'mystery_hands': 0,
+            'lt4_hands': 0,
+            'discarded_no_reason': 0,
+        })
+
+        room_bucket['valid_hands'] += int(counts.get('valid_hands') or 0)
+        room_bucket['total_hands'] += int(counts.get('total_hands') or counts.get('parsed_hands') or 0)
+        room_bucket['mystery_hands'] += int(counts.get('mystery_hands') or 0)
+        room_bucket['lt4_hands'] += int(counts.get('lt4_hands') or 0)
+        room_bucket['discarded_no_reason'] += int(counts.get('discarded_no_reason') or 0)
+
+    return target
+
+
+def _reconcile_debug_totals(debug_totals: Dict[str, Any], discard_counts: Optional[Dict[str, int]]) -> Dict[str, Any]:
+    discard_counts = discard_counts or {}
+    discard_total = int(discard_counts.get('total') or sum(
+        int(v or 0) for k, v in discard_counts.items() if k != 'total'
+    ))
+
+    missing = debug_totals['parsed_hands'] - (debug_totals['valid_hands'] + discard_total)
+    if missing > debug_totals.get('discarded_no_reason', 0):
+        debug_totals['discarded_no_reason'] = missing
+
+    debug_totals['raw_lines'] = max(debug_totals.get('raw_lines', 0), debug_totals['parsed_hands'])
+    return debug_totals
 
 
 def _validate_category_counts(valid_hand_records: List[Dict[str, Any]], total_valid_hands: int) -> None:
@@ -293,6 +355,25 @@ def _process_site_for_month(
         record_with_site = dict(record)
         record_with_site['site'] = site
         site_valid_hand_records.append(record_with_site)
+
+    discards = classification_stats.get('discarded_hands') or {}
+    valid_total = sum(classification_stats.get('hands_per_group', {}).values())
+    parsed_hands = int(classification_stats.get('parsed_hands') or classification_stats.get('total_hands') or 0)
+    raw_segments = int(classification_stats.get('raw_segments') or parsed_hands)
+    counted_discards = sum(
+        int(v or 0) for k, v in discards.items() if k not in ['total', 'total_segments']
+    )
+    site_discarded_no_reason = max(parsed_hands - (valid_total + counted_discards), 0)
+
+    site_room_summary = {
+        site: {
+            'valid_hands': valid_total,
+            'total_hands': parsed_hands,
+            'mystery_hands': int(discards.get('mystery', 0) or 0),
+            'lt4_hands': int(discards.get('less_than_4_players', 0) or 0),
+            'discarded_no_reason': site_discarded_no_reason,
+        }
+    }
     
     for group_key, group_label in classification_stats['group_labels'].items():
         group_dir = os.path.join(classified_dir, group_key)
@@ -465,13 +546,25 @@ def _process_site_for_month(
         
         # Add to aggregator
         aggregator.add_site_results(site, group_key, all_stats, hands_by_stat)
-        
+
         logger.info(f"[{token}] {site}/{group_key}: Processed {hand_count} hands")
-    
+
+    site_debug = {
+        'raw_lines': raw_segments,
+        'parsed_hands': parsed_hands,
+        'valid_hands': valid_total,
+        'mystery_hands': int(discards.get('mystery', 0) or 0),
+        'lt4_hands': int(discards.get('less_than_4_players', 0) or 0),
+        'discarded_no_reason': site_discarded_no_reason,
+        'by_room': site_room_summary,
+    }
+
     return {
         'site_stats': site_stats,
         'site_discards': site_discards,
         'valid_hand_records': site_valid_hand_records,
+        'debug': site_debug,
+        'room_summary': site_room_summary,
     }
 
 
@@ -642,6 +735,7 @@ def _process_month_bucket(
     month_sites = {}
     month_discards = {}
     month_valid_records: List[Dict[str, Any]] = []
+    month_debug = _empty_debug_totals()
     
     total_sites = len(site_files)
     for site_idx, (site, files) in enumerate(site_files.items(), 1):
@@ -650,14 +744,16 @@ def _process_month_bucket(
             progress_callback(percent, f'Mês {bucket.month} - {site} - a processar...')
         
         site_result = _process_site_for_month(
-            site, files, month_work_dir, token, 
+            site, files, month_work_dir, token,
             month_aggregator, progress_callback, base_progress
         )
-        
+
         # Collect results
         month_sites[site] = site_result['site_stats']
         if site_result['site_discards']:
             month_discards[site] = site_result['site_discards']
+
+        month_debug = _merge_debug_totals(month_debug, site_result.get('debug'))
 
         if site_result.get('valid_hand_records'):
             for record in site_result['valid_hand_records']:
@@ -697,6 +793,8 @@ def _process_month_bucket(
 
     month_samples = build_global_samples(month_valid_records, aggregated_discards)
 
+    month_debug = _reconcile_debug_totals(month_debug, month_samples.discard_counts)
+
     month_result = build_pipeline_result_payload(
         combined=combined_stats,
         valid_hand_records=month_valid_records,
@@ -709,6 +807,8 @@ def _process_month_bucket(
         extra={
             'sites_detected': list(site_files.keys()),
             'discarded_hands': month_discards,
+            'debug': month_debug,
+            'rooms': month_debug.get('by_room', {}),
         },
     )
 
@@ -779,6 +879,7 @@ def run_multi_site_pipeline(
         'combined': {},
         'valid_hand_records': [],
     }
+    global_debug = _empty_debug_totals()
     
     try:
         # Step 1: Extract archive
@@ -877,6 +978,8 @@ def run_multi_site_pipeline(
                 # Store site results
                 result_data['sites'][site] = site_result['site_stats']
 
+                global_debug = _merge_debug_totals(global_debug, site_result.get('debug'))
+
                 if site_result.get('valid_hand_records'):
                     result_data['valid_hand_records'].extend(site_result['valid_hand_records'])
 
@@ -934,6 +1037,8 @@ def run_multi_site_pipeline(
                 aggregated_discards,
             )
 
+            global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
+
             # Keep combined hand counts in sync with the normalised samples
             for group_key, group_sample in global_samples.groups.items():
                 if group_key == POSTFLOP_GROUP_KEY:
@@ -957,6 +1062,8 @@ def run_multi_site_pipeline(
                 extra={
                     'token': token,
                     'sites_detected': result_data.get('sites_detected', []),
+                    'debug': global_debug,
+                    'rooms': global_debug.get('by_room', {}),
                 },
             )
 
@@ -1009,6 +1116,8 @@ def run_multi_site_pipeline(
                     result_data['months'][bucket.month] = month_result
                     bucket_results[bucket.month] = month_result
                     bucket_lookup[bucket.month] = bucket
+
+                    global_debug = _merge_debug_totals(global_debug, month_result.get('debug'))
 
                     if month_result.get('valid_hand_records'):
                         result_data['valid_hand_records'].extend(month_result['valid_hand_records'])
@@ -1094,6 +1203,8 @@ def run_multi_site_pipeline(
                 global_discards,
             )
 
+            global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
+
             logger.info(
                 f"[{token}] Global classification totals: valid_hands={global_samples.validas}, "
                 f"discarded={global_samples.discard_counts.get('total', 0)}, "
@@ -1156,6 +1267,8 @@ def run_multi_site_pipeline(
                     extra={
                         'sites_detected': month_result.get('sites_detected', []),
                         'discarded_hands': month_result.get('discarded_hands', {}),
+                        'debug': month_result.get('debug'),
+                        'rooms': month_result.get('rooms', {}),
                     },
                 )
 
@@ -1233,6 +1346,8 @@ def run_multi_site_pipeline(
                     'months': bucket_results,
                     'months_manifest': months_manifest,
                     'multi_month': True,
+                    'debug': global_debug,
+                    'rooms': global_debug.get('by_room', {}),
                 },
             )
 

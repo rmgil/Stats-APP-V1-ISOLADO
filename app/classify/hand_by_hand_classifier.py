@@ -134,6 +134,7 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
     stats = {
         'total_files': 0,
         'total_hands': 0,
+        'raw_segments': 0,
         'mystery_hands': 0,
         'discarded_hands': {
             'mystery': 0,
@@ -200,6 +201,9 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
         
         # Get the real total segments for this file
         file_total_segments = file_discard_stats.get('total_segments', len(split_into_hands(content)))
+
+        # Track raw segments for debug/consistency checks
+        stats['raw_segments'] += file_total_segments
         
         file_info = {
             'filename': txt_file.name,
@@ -269,6 +273,12 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
     
     # Total hands = valid classified hands + all discarded hands
     stats['total_hands'] = total_classified + total_discarded
+
+    # Align parsed_hands with the calculated total for downstream debug reporting
+    stats['parsed_hands'] = stats['total_hands']
+
+    # Keep a copy of total_segments to compare against downstream totals
+    stats['discarded_hands']['total_segments'] = stats['raw_segments']
 
     # Store normalized valid hand metadata for downstream consistency
     stats['valid_hand_records'] = valid_hand_records

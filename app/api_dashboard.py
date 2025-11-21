@@ -211,6 +211,75 @@ async def api_debug_user_main_state(current_user: User = Depends(get_current_use
         }
 
 
+@router.get("/api/debug/global-stats/{token}")
+async def api_debug_global_stats(token: str):
+    """Return raw debug counters for a given upload token."""
+
+    try:
+        pipeline_result = result_storage.get_pipeline_result(token)
+    except FileNotFoundError:
+        return {
+            "success": False,
+            "error": "not_found",
+            "detail": f"pipeline_result not found for {token}",
+        }
+    except Exception as exc:  # noqa: BLE001 - expose debug-friendly detail
+        logger.exception("[DEBUG] Failed to load pipeline_result for %s", token)
+        return {
+            "success": False,
+            "error": "internal_error",
+            "detail": str(exc),
+        }
+
+    classification = pipeline_result.get("classification") if isinstance(pipeline_result, dict) else {}
+    discard_stats = (
+        pipeline_result.get("aggregated_discards")
+        or (classification or {}).get("discarded_hands")
+        or pipeline_result.get("discarded_hands")
+        or {}
+    )
+
+    debug_payload = pipeline_result.get("debug") if isinstance(pipeline_result, dict) else {}
+    rooms = pipeline_result.get("rooms") if isinstance(pipeline_result, dict) else {}
+    parsed_hands = debug_payload.get("parsed_hands") if isinstance(debug_payload, dict) else None
+
+    totals = {
+        "raw_lines": debug_payload.get("raw_lines") if isinstance(debug_payload, dict) else None,
+        "parsed_hands": parsed_hands if isinstance(parsed_hands, (int, float)) else pipeline_result.get("total_hands", 0),
+        "valid_hands": debug_payload.get("valid_hands") if isinstance(debug_payload, dict) else pipeline_result.get("valid_hands", 0),
+        "mystery_hands": debug_payload.get("mystery_hands") if isinstance(debug_payload, dict) else discard_stats.get("mystery", 0),
+        "lt4_hands": debug_payload.get("lt4_hands") if isinstance(debug_payload, dict) else discard_stats.get("less_than_4_players", 0),
+        "discarded_no_reason": debug_payload.get("discarded_no_reason") if isinstance(debug_payload, dict) else 0,
+    }
+
+    try:
+        parsed_int = int(totals.get("parsed_hands") or 0)
+    except Exception:
+        parsed_int = 0
+
+    discard_total = discard_stats.get("total")
+    if not isinstance(discard_total, (int, float)):
+        discard_total = sum(int(v or 0) for k, v in discard_stats.items() if k != "total")
+
+    missing = parsed_int - (int(totals.get("valid_hands") or 0) + int(discard_total or 0))
+    if missing > (totals.get("discarded_no_reason") or 0):
+        totals["discarded_no_reason"] = missing
+
+    totals["raw_lines"] = totals.get("raw_lines") or parsed_int
+
+    return {
+        "success": True,
+        "token": token,
+        "raw_lines": int(totals.get("raw_lines") or 0),
+        "parsed_hands": parsed_int,
+        "valid_hands": int(totals.get("valid_hands") or 0),
+        "mystery_hands": int(totals.get("mystery_hands") or 0),
+        "lt4_hands": int(totals.get("lt4_hands") or 0),
+        "discarded_no_reason": int(totals.get("discarded_no_reason") or 0),
+        "by_room": rooms or (debug_payload.get("by_room") if isinstance(debug_payload, dict) else {}),
+    }
+
+
 def reset_groups_for_missing_data(groups: Dict[str, Any]) -> Dict[str, Any]:
     """Reset expected groups to an empty state with has_data=False."""
 
@@ -233,13 +302,41 @@ def reset_groups_for_missing_data(groups: Dict[str, Any]) -> Dict[str, Any]:
     return groups
 
 
-def detect_sites_from_hands(token: str, pipeline_sites: Optional[Dict[str, Any]] = None) -> Dict[str, int]:
+def detect_sites_from_hands(token: str, pipeline_data: Optional[Dict[str, Any]] = None) -> Dict[str, int]:
     """Detect poker sites from pipeline_result['sites'] structure and aggregate hand counts"""
     import logging
     logger = logging.getLogger(__name__)
-    
+
     hands_by_site = {}
-    
+
+    if pipeline_data and not isinstance(pipeline_data, dict):
+        pipeline_sites = pipeline_data
+        pipeline_data = {}
+    else:
+        pipeline_sites = (pipeline_data or {}).get('sites')
+
+    room_summary = {}
+    if isinstance(pipeline_data, dict):
+        room_summary = pipeline_data.get('rooms') or (pipeline_data.get('debug') or {}).get('by_room', {})
+
+    # Prefer explicit room summaries when available to keep the "MÃOS VÁLIDAS" card accurate
+    if room_summary:
+        for room_name, counts in room_summary.items():
+            try:
+                total_valid = int(counts.get('valid_hands') or 0)
+            except Exception:
+                total_valid = 0
+
+            if total_valid <= 0:
+                total_valid = int(counts.get('total_hands') or 0)
+
+            if total_valid:
+                hands_by_site[room_name] = total_valid
+                logger.info(f"[SITE_DETECT] {room_name}: {total_valid} hands (rooms summary)")
+
+    if hands_by_site:
+        return hands_by_site
+
     if not pipeline_sites:
         logger.warning("[SITE_DETECT] No pipeline_sites provided")
         return hands_by_site
@@ -1033,7 +1130,7 @@ def _build_dashboard_payload_from_pipeline(
     groups = ensure_group_defaults(groups)
 
     # Detect poker sites from hands
-    hands_by_site = detect_sites_from_hands(token, pipeline_result.get('sites')) if token and pipeline_result else {}
+    hands_by_site = detect_sites_from_hands(token, pipeline_result) if token and pipeline_result else {}
     
     # Build response
     response_data = {
