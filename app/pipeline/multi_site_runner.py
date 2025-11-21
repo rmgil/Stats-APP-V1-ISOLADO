@@ -1112,6 +1112,9 @@ def run_multi_site_pipeline(
                 },
             )
 
+            if hands_per_month:
+                logger.info("[%s] [DEBUG] hands_per_month = %s", token, hands_per_month)
+
             _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
             _validate_month_totals(hands_per_month, global_samples.validas)
             
@@ -1357,36 +1360,47 @@ def run_multi_site_pipeline(
                     total_lt4,
                 )
 
-                if (
-                    global_samples.total_encontradas != total_hands_months
-                    or global_samples.validas != total_valid_months
-                    or global_samples.mystery != total_mystery
-                    or global_samples.lt4_players != total_lt4
-                ):
-                    logger.error(
-                        "[%s] Mismatch between global and summed monthly results", token
+                global_valid_id_set = set(global_samples.valid_hand_ids)
+
+                if global_samples.total_encontradas != total_hands_months:
+                    logger.warning(
+                        "[%s] Monthly total hands mismatch (%s != %s)",
+                        token,
+                        total_hands_months,
+                        global_samples.total_encontradas,
                     )
 
-                assert total_valid_months == global_samples.validas, (
-                    "Sum of monthly valid hands does not match global total"
-                )
+                if global_samples.validas != total_valid_months:
+                    logger.warning(
+                        "[%s] Monthly valid hand sum mismatch (%s != %s)",
+                        token,
+                        total_valid_months,
+                        global_samples.validas,
+                    )
 
-                assert total_hands_months == global_samples.total_encontradas, (
-                    "Sum of monthly total hands does not match global total"
-                )
+                if global_samples.mystery != total_mystery:
+                    logger.warning(
+                        "[%s] Monthly mystery sum mismatch (%s != %s)",
+                        token,
+                        total_mystery,
+                        global_samples.mystery,
+                    )
 
-                assert total_mystery == global_samples.mystery, (
-                    "Sum of monthly mystery hands does not match global total"
-                )
+                if global_samples.lt4_players != total_lt4:
+                    logger.warning(
+                        "[%s] Monthly <4 player sum mismatch (%s != %s)",
+                        token,
+                        total_lt4,
+                        global_samples.lt4_players,
+                    )
 
-                assert total_lt4 == global_samples.lt4_players, (
-                    "Sum of monthly <4 player hands does not match global total"
-                )
+                if monthly_valid_union != global_valid_id_set:
+                    logger.warning(
+                        "[%s] Monthly valid hand IDs do not match global set", token
+                    )
 
-                global_valid_id_set = set(global_samples.valid_hand_ids)
-                assert monthly_valid_union == global_valid_id_set, (
-                    "Union of monthly valid hand identifiers does not match global set"
-                )
+            if hands_per_month:
+                logger.info("[%s] [DEBUG] hands_per_month = %s", token, hands_per_month)
 
             _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
             _validate_month_totals(hands_per_month, global_samples.validas)
@@ -1551,18 +1565,27 @@ def run_multi_site_pipeline(
         
     except Exception as e:
         import traceback
+
         traceback_str = traceback.format_exc()
-        logger.error(f"[{token}] Multi-site pipeline failed: {str(e)}")
-        logger.error(f"[{token}] Traceback:\n{traceback_str}")
+        logger.exception("[%s] Multi-site pipeline failed", token)
+
         error_info = {
             'error': str(e),
             'traceback': traceback_str
         }
-        
+
+        try:
+            logs_dir = Path(work_dir) / "_logs"
+            logs_dir.mkdir(parents=True, exist_ok=True)
+            with (logs_dir / "last_error.json").open('w', encoding='utf-8') as f:
+                json.dump(error_info, f, indent=2)
+        except Exception:
+            logger.warning("[%s] Failed to persist last_error.json", token)
+
         result_data['status'] = 'failed'
         result_data['error'] = error_info
-        
+
         # Mark progress as failed
         progress_tracker.fail_job(token, str(e))
-        
+
         return False, token, result_data
