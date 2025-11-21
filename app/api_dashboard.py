@@ -1153,22 +1153,26 @@ def _build_dashboard_payload_from_pipeline(
         "month_not_found": month_not_found,
     }
 
-    if month and month_not_found and selected_scope == 'missing':
-        response_data['groups'] = reset_groups_for_missing_data(groups)
-        response_data['valid_hands'] = 0
-        response_data['total_hands'] = 0
-        response_data['hands_by_site'] = {}
-        response_data['discard_stats'] = {}
-        response_data['overall'] = {'total_hands': 0, 'valid_hands': 0}
-        response_data['group_level'] = {}
-        response_data['samples'] = {}
-        response_data['counts'] = {}
-        response_data['weighted_scores'] = {}
-        response_data['ingest'] = {}
-        response_data['hands_per_month'] = {}
-        response_data.pop('monthly_score_details', None)
+    if selected_scope == 'missing':
         response_data['month_scope'] = 'missing'
         response_data['selected_month'] = None
+
+        if month and month_not_found:
+            response_data['groups'] = reset_groups_for_missing_data(groups)
+            response_data['valid_hands'] = 0
+            response_data['total_hands'] = 0
+            response_data['hands_by_site'] = {}
+            response_data['discard_stats'] = {}
+            response_data['overall'] = {'total_hands': 0, 'valid_hands': 0}
+            response_data['group_level'] = {}
+            response_data['samples'] = {}
+            response_data['counts'] = {}
+            response_data['weighted_scores'] = {}
+            response_data['ingest'] = {}
+            response_data['hands_per_month'] = {}
+            response_data.pop('monthly_score_details', None)
+        else:
+            response_data['groups'] = groups
     else:
         response_data['groups'] = groups
 
@@ -1280,7 +1284,8 @@ def build_dashboard_payload(
                 logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
                 raise FileNotFoundError(f"Pipeline result not found for token {token}")
             pipeline_result = aggregate_result
-            selected_scope = 'aggregate'
+            if not month_not_found:
+                selected_scope = 'aggregate'
             logger.info(
                 "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
                 list(pipeline_result.keys()),
