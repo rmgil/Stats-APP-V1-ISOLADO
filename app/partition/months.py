@@ -97,6 +97,43 @@ def parse_timestamp(value: Optional[str]) -> Optional[datetime]:
     return dt
 
 
+def parse_hand_datetime(line: str) -> Optional[datetime]:
+    """Extract a timezone-aware ``datetime`` from a hand header line.
+
+    Supports the main production formats (GG, PokerStars, 888.pt) without
+    inventing fallback dates. Returns ``None`` when no pattern matches.
+    """
+
+    if not isinstance(line, str) or not line.strip():
+        return None
+
+    # GG: "... - 2025/06/20 13:40:39"
+    match = re.search(r"-\s*(\d{4})/(\d{2})/(\d{2})\s+(\d{2}):(\d{2}):(\d{2})", line)
+    if match:
+        year, month, day, hh, mm, ss = map(int, match.groups())
+        return datetime(year, month, day, hh, mm, ss, tzinfo=timezone.utc)
+
+    # PokerStars: "... - 2025/06/30 18:02:48 WET [2025/06/30 13:02:48 ET]"
+    match = re.search(
+        r"-\s*(\d{4})/(\d{2})/(\d{2})\s+(\d{2}):(\d{2}):(\d{2})\s+\w+",
+        line,
+    )
+    if match:
+        year, month, day, hh, mm, ss = map(int, match.groups())
+        return datetime(year, month, day, hh, mm, ss, tzinfo=timezone.utc)
+
+    # 888.pt: "*** 07 07 2025 14:27:28"
+    match = re.search(
+        r"\*\*\*\s+(\d{2})\s+(\d{2})\s+(\d{4})\s+(\d{2}):(\d{2}):(\d{2})",
+        line,
+    )
+    if match:
+        day, month, year, hh, mm, ss = map(int, match.groups())
+        return datetime(year, month, day, hh, mm, ss, tzinfo=timezone.utc)
+
+    return None
+
+
 def month_key_from_datetime(dt: datetime) -> str:
     """Convert a timezone-aware datetime into a ``YYYY-MM`` string."""
 
