@@ -263,6 +263,11 @@ def api_dashboard_with_token(token):
 
     month = (request.args.get("month") or "").strip()
     month = month if month else None
+    """Get dashboard data for a specific token (global or monthly view)."""
+
+    month = request.args.get("month")
+    if month:
+        month = month.strip()
 
     if month and not re.fullmatch(r"\d{4}-\d{2}", month):
         return jsonify({"ok": False, "error": "invalid_month"}), 400
@@ -272,6 +277,14 @@ def api_dashboard_with_token(token):
         if month and not data:
             return jsonify({"ok": False, "error": "not_found"}), 404
         return jsonify({"ok": True, "data": data})
+        if month:
+            payload = build_dashboard_payload(token, month=month, include_months=True)
+            if not payload or payload.get("month_not_found"):
+                return jsonify({"ok": False, "error": "not_found"}), 404
+        else:
+            payload = _load_global_dashboard_payload(token)
+
+        return jsonify({"ok": True, "data": payload})
     except FileNotFoundError as exc:
         return (
             jsonify({"ok": False, "error": "not_found", "detail": str(exc)}),
