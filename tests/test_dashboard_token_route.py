@@ -46,7 +46,20 @@ def test_dashboard_with_token_missing_month(monkeypatch, client):
     assert response.status_code == 404
     body = response.get_json()
     assert body["ok"] is False
-    assert body["error"] == "month_not_found"
+    assert body["error"] == "not_found"
+
+
+def test_dashboard_with_token_empty_payload(monkeypatch, client):
+    def fake_build_payload(token, month=None, include_months=False):
+        return {}
+
+    monkeypatch.setattr(dashboard_api, "build_dashboard_payload", fake_build_payload)
+
+    response = client.get("/api/dashboard/sampletoken?month=2023-12")
+
+    assert response.status_code == 404
+    body = response.get_json()
+    assert body == {"ok": False, "error": "not_found"}
 
 
 def test_dashboard_with_token_invalid_month(client):
