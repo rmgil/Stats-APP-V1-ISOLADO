@@ -378,9 +378,9 @@
                 <span class="summary-label">Token:</span>
                 <span id="tokenDisplay" style="font-family: monospace;">-</span>
             </div>
-            <div class="month-selector-container" id="monthSelectorContainer">
+            <div class="month-selector-container" id="group-month-selector" style="display: none;">
                 <span class="month-selector-label">Mês:</span>
-                <select id="monthSelector" class="month-selector"></select>
+                <select id="group-month-select" class="month-selector"></select>
             </div>
             <button class="btn-new-analysis" onclick="window.location.href='/upload'">
                 Nova Análise
@@ -403,44 +403,53 @@
         const token = urlParams.get('token');
         const initialMonth = urlParams.get('month');
 
+        window.DASHBOARD_TOKEN = token;
         let currentMonthScope = 'aggregate';
 
         if (!token) {
             showError('Token não fornecido');
         } else {
             document.getElementById('tokenDisplay').textContent = token;
-            loadDashboard(token, initialMonth);
+            loadGroupDashboard(token, initialMonth);
         }
 
-        async function loadDashboard(token, month = null) {
+        async function loadGroupDashboard(token, month = null) {
             try {
                 let apiUrl = `/api/dashboard/${token}`;
+                const params = new URLSearchParams();
+
                 if (month) {
-                    apiUrl += `?month=${encodeURIComponent(month)}`;
+                    params.set('month', month);
+                }
+
+                const query = params.toString();
+                if (query) {
+                    apiUrl += `?${query}`;
                 }
 
                 const response = await fetch(apiUrl);
-                const data = await response.json();
+                const json = await response.json();
+                const data = json.data || json;
 
-                if (!data.ok) {
-                    showError(data.error || 'Erro ao carregar dados');
+                if (!response.ok || (json.success !== true && json.ok !== true)) {
+                    showError(json.error || json.detail || 'Erro ao carregar dados');
                     return;
                 }
 
-                displayDashboard(data.data);
+                renderGroupDashboard(data);
 
             } catch (error) {
                 showError('Erro de conexão');
             }
         }
-        
-        function displayDashboard(data) {
+
+        function renderGroupDashboard(data) {
             document.getElementById('loading').style.display = 'none';
             document.getElementById('groupsContainer').style.display = 'grid';
 
             currentMonthScope = data.month_scope || 'aggregate';
 
-            setupMonthSelector(data);
+            setupGroupMonthSelector(data);
 
             // Update summary
             document.getElementById('totalFiles').textContent = data.total_files || 0;
@@ -469,74 +478,54 @@
             }
         }
 
-        function setupMonthSelector(data) {
-            const container = document.getElementById('monthSelectorContainer');
-            const selector = document.getElementById('monthSelector');
+        function setupGroupMonthSelector(data) {
+            const container = document.getElementById('group-month-selector');
+            const selector = document.getElementById('group-month-select');
 
-            const months = getAvailableMonths(data);
+            if (!container || !selector) {
+                return;
+            }
 
-            if (!months.length) {
+            let monthKeys = Array.isArray(data.months) ? data.months.slice() : [];
+
+            if ((!monthKeys || monthKeys.length === 0) && data.months_manifest && Array.isArray(data.months_manifest.months)) {
+                monthKeys = data.months_manifest.months
+                    .map(entry => (entry && entry.month) ? entry.month : null)
+                    .filter(Boolean);
+            }
+
+            if (!monthKeys || monthKeys.length === 0) {
                 container.style.display = 'none';
                 return;
             }
 
-            container.style.display = 'flex';
-
+            container.style.display = '';
             selector.innerHTML = '';
 
-            const globalOption = document.createElement('option');
-            globalOption.value = '';
-            globalOption.textContent = 'Visão global';
-            selector.appendChild(globalOption);
+            const optGlobal = document.createElement('option');
+            optGlobal.value = '';
+            optGlobal.textContent = 'Visão global';
+            selector.appendChild(optGlobal);
 
-            months.forEach(month => {
+            monthKeys.forEach(month => {
                 const option = document.createElement('option');
                 option.value = month;
                 option.textContent = month;
                 selector.appendChild(option);
             });
 
-            let selectedValue = '';
-            if (data.month_scope === 'monthly') {
-                selectedValue = data.selected_month || '';
-            } else if (data.month_scope === 'missing') {
-                selectedValue = data.requested_month || '';
-            }
-
-            if (selectedValue && !months.includes(selectedValue)) {
-                const extraOption = document.createElement('option');
-                extraOption.value = selectedValue;
-                extraOption.textContent = selectedValue;
-                selector.appendChild(extraOption);
-            }
-
-            selector.value = selectedValue;
+            const selectedValue = data.month_scope === 'monthly' && data.selected_month
+                ? data.selected_month
+                : '';
+            selector.value = monthKeys.includes(selectedValue) ? selectedValue : '';
 
             if (!selector.dataset.bound) {
                 selector.addEventListener('change', (event) => {
                     const chosenMonth = event.target.value || null;
-                    loadDashboard(token, chosenMonth);
+                    loadGroupDashboard(window.DASHBOARD_TOKEN, chosenMonth);
                 });
                 selector.dataset.bound = 'true';
             }
-        }
-
-        function getAvailableMonths(data) {
-            const monthsSet = new Set();
-
-            if (data.months_manifest?.months) {
-                data.months_manifest.months.forEach(entry => {
-                    if (entry.month) {
-                        monthsSet.add(entry.month);
-                    }
-                });
-            }
-
-            if (Array.isArray(data.months)) {
-                data.months.forEach(month => monthsSet.add(month));
-            }
-
-            return Array.from(monthsSet).sort();
         }
         
         function createConsolidatedNonKoCard(data9max, data6max) {

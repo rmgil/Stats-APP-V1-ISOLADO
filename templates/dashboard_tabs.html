@@ -8,7 +8,7 @@
         window.initialDashboardToken = "{{ token or '' }}";
         window.initialDashboardMonth = "{{ month or '' }}";
         window.dashboardApiMode = "{{ dashboard_api_mode or 'token' }}";
-        const MONTHS_ENABLED = false;
+        const MONTHS_ENABLED = true;
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <style>
@@ -1503,37 +1503,33 @@
                 resetTokenSummary();
                 document.getElementById('tokenDisplay').textContent = token;
 
-                const monthSelectorContainer = document.getElementById('monthSelectorContainer');
-                if (monthSelectorContainer) {
-                    monthSelectorContainer.style.display = 'none';
-                }
+                await loadHandsByStatSection(token, month, resolvedUploadId);
 
-                await loadHandsByStatSection(token, null, resolvedUploadId);
-
+                let url = `/api/dashboard/${token}`;
                 const params = new URLSearchParams();
 
                 if (month) {
                     params.set('month', month);
                 }
 
-                const url = params.toString()
-                    ? `/api/dashboard/${token}?${params.toString()}`
-                    : `/api/dashboard/${token}`;
-                const response = await fetch(url);
-                const data = await response.json();
+                if (params.toString()) {
+                    url += `?${params.toString()}`;
+                }
 
-                if (isNoDataResponse(data)) {
+                const response = await fetch(url);
+                const json = await response.json();
+                const payload = json.data || json;
+
+                if (isNoDataResponse(json)) {
                     showNoDataMessage();
                     return;
                 }
 
-                if (!response.ok || (!data.ok && data.success !== true)) {
-                    const detail = data.error || data.detail || 'Erro ao carregar dados do dashboard global.';
+                if (!response.ok || (json.success !== true && json.ok !== true)) {
+                    const detail = json.error || json.detail || 'Erro ao carregar dados do dashboard global.';
                     showError(`${detail} Verifica se o upload foi concluído com sucesso.`);
                     return;
                 }
-
-                const payload = data.data;
 
                 renderDashboardFromPayload(payload);
             } catch (error) {
@@ -1550,39 +1546,24 @@
             const monthSelectorContainer = document.getElementById('monthSelectorContainer');
             const monthSelector = document.getElementById('monthSelector');
 
-            if (!monthSelectorContainer || !monthSelector || !MONTHS_ENABLED) {
-                if (monthSelectorContainer) {
-                    monthSelectorContainer.style.display = 'none';
-                }
+            if (!monthSelectorContainer || !monthSelector) {
                 return;
             }
 
-            const sourceMonths = Array.isArray(data.months) && data.months.length > 0
-                ? data.months
-                : (Array.isArray(data.months_manifest?.months) ? data.months_manifest.months : []);
+            let monthKeys = Array.isArray(data.months) ? data.months.slice() : [];
 
-            const validMonthPattern = /^\d{4}-\d{2}$/;
-            const normalizedMonths = sourceMonths
-                .map(entry => {
-                    if (typeof entry === 'string') {
-                        return { month: entry, total_hands: null };
-                    }
+            if ((!monthKeys || monthKeys.length === 0) && data.months_manifest && Array.isArray(data.months_manifest.months)) {
+                monthKeys = data.months_manifest.months
+                    .map(entry => (entry && typeof entry.month === 'string') ? entry.month : null)
+                    .filter(Boolean);
+            }
 
-                    if (entry && typeof entry === 'object' && typeof entry.month === 'string') {
-                        const totalHands = entry.total_hands ?? entry.hands ?? entry.total ?? entry.count ?? entry.totalHands ?? null;
-                        return { month: entry.month, total_hands: totalHands };
-                    }
-
-                    return null;
-                })
-                .filter(entry => entry && validMonthPattern.test(entry.month))
-                .sort((a, b) => b.month.localeCompare(a.month));
-
-            if (!normalizedMonths.length) {
+            if (!monthKeys || monthKeys.length === 0) {
                 monthSelectorContainer.style.display = 'none';
                 return;
             }
 
+            monthSelectorContainer.style.display = '';
             monthSelector.innerHTML = '';
 
             const globalOption = document.createElement('option');
@@ -1590,29 +1571,12 @@
             globalOption.textContent = 'Global';
             monthSelector.appendChild(globalOption);
 
-            normalizedMonths.forEach(monthData => {
-                const option = document.createElement('option');
-                option.value = monthData.month;
-
-                const [year, monthValue] = monthData.month.split('-');
-                const date = new Date(parseInt(year, 10), parseInt(monthValue, 10) - 1, 1);
-                const monthName = new Intl.DateTimeFormat('pt-PT', {
-                    month: 'long',
-                    year: 'numeric'
-                }).format(date);
-                const formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
-
-                const hasHandCount = monthData.total_hands !== null && monthData.total_hands !== undefined;
-                const handCount = hasHandCount
-                    ? ` (${Number(monthData.total_hands).toLocaleString('pt-PT')} mãos)`
-                    : '';
-
-                option.textContent = `${formattedMonth}${handCount}`;
-
-                monthSelector.appendChild(option);
+            monthKeys.forEach(monthKey => {
+                const opt = document.createElement('option');
+                opt.value = monthKey;
+                opt.textContent = monthKey;
+                monthSelector.appendChild(opt);
             });
-
-            monthSelectorContainer.style.display = 'flex';
 
             const preselectedMonth = (data.month_scope === 'monthly' && data.selected_month)
                 ? data.selected_month
