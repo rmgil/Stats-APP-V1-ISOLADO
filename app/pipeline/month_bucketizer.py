@@ -10,7 +10,7 @@ import re
 import shutil
 import logging
 from pathlib import Path
-from typing import Callable, Dict, List, Optional, Set, Tuple
+from typing import Callable, Dict, List, Optional
 
 from app.partition.months import (
     DEFAULT_FALLBACK_MONTH,
@@ -159,8 +159,6 @@ def build_month_buckets(
         return []
 
     buckets: Dict[str, MonthBucket] = {}
-    seen: Set[Tuple[str, str]] = set()
-
     for file_path in txt_files:
         try:
             content = Path(file_path).read_text(encoding='utf-8', errors='ignore')
@@ -175,15 +173,6 @@ def build_month_buckets(
 
         if not tournament_id:
             tournament_id = Path(file_path).stem
-
-        key = (month, tournament_id)
-        if key in seen:
-            logger.info(
-                f"[{token}] Skipping duplicate tournament {tournament_id} for {month}"
-            )
-            continue
-
-        seen.add(key)
 
         month_work_dir = os.path.join(work_root, token, "months", month)
         if month not in buckets:

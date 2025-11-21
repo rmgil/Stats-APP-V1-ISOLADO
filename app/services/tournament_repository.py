@@ -87,17 +87,29 @@ class TournamentRepository:
         month_dir = user_dir / safe_month
         month_dir.mkdir(parents=True, exist_ok=True)
 
+        manifest = self._load_manifest(user_id)
+        month_entries = manifest.setdefault("months", {}).setdefault(safe_month, {})
+
+        # Always preserve existing entries by generating a unique identifier per file
         dest_path = month_dir / f"{safe_tournament}.txt"
-        replaced = dest_path.exists()
+        unique_id = tournament_id
+        suffix = 1
+
+        while dest_path.exists() or unique_id in month_entries:
+            suffix += 1
+            unique_id = f"{tournament_id}_{suffix}"
+            dest_path = month_dir / f"{self._sanitize_tournament(unique_id)}.txt"
+
+        replaced = False
 
         normalized = content.replace("\r\n", "\n").replace("\r", "\n")
         dest_path.write_text(normalized, encoding="utf-8")
 
-        manifest = self._load_manifest(user_id)
-        manifest.setdefault("months", {}).setdefault(safe_month, {})[tournament_id] = {
+        month_entries[unique_id] = {
             "filename": dest_path.name,
             "source": source_filename,
             "updated_at": datetime.utcnow().isoformat(),
+            "tournament_id": tournament_id,
         }
         self._save_manifest(user_id, manifest)
 
@@ -106,7 +118,7 @@ class TournamentRepository:
             "[TOURNAMENT REPO] %s tournament %s/%s for user %s",
             action,
             safe_month,
-            tournament_id,
+            unique_id,
             user_id,
         )
 
