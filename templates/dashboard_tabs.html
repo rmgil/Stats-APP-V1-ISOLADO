@@ -928,7 +928,6 @@
             <div id="month-selector-container" style="display: none; margin-bottom: 1rem;">
                 <label for="month-select">Mês:</label>
                 <select id="month-select"></select>
-                <span id="month-debug" style="margin-left: 1rem; font-size: 0.8rem; color: #666;"></span>
             </div>
             <div class="header-actions">
                 {% if dashboard_api_mode == 'main' and available_months_info %}
@@ -1519,12 +1518,6 @@
             const response = await fetch(url);
             const json = await response.json();
             const data = json.data || json;
-
-            // Debug mínimo para ver no browser se months está a vir
-            const debugEl = document.getElementById("month-debug");
-            if (debugEl) {
-                debugEl.textContent = `scope=${data.month_scope || "?"}, selected=${data.selected_month || ""}, months=${(data.months || []).join(",")}`;
-            }
 
             renderDashboard(data);
         }
