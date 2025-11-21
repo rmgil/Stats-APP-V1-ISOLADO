@@ -43,6 +43,7 @@ from app.pipeline.month_bucketizer import (
 )
 from app.parse.runner import ParserRunner
 from app.services.tournament_repository import TournamentRepository
+from app.partition.months import month_key_from_datetime, normalize_month_key, parse_timestamp
 from app.stats.stat_categories import (
     BB_DEFENSE_STATS,
     BVB_STATS,
@@ -75,6 +76,24 @@ def _is_dev_environment() -> bool:
         os.getenv("APP_ENV", ""),
     ]
     return any(value and value.lower().startswith("dev") for value in env_candidates)
+
+
+def _count_hands_per_month(records: List[Dict[str, Any]]) -> Dict[str, int]:
+    counts: Dict[str, int] = defaultdict(int)
+
+    for record in records or []:
+        month_key: Optional[str] = None
+        ts = record.get("timestamp_utc") if isinstance(record, dict) else None
+        dt = parse_timestamp(ts) if ts else None
+        if dt:
+            month_key = month_key_from_datetime(dt)
+        elif isinstance(record, dict):
+            month_key = normalize_month_key(record.get("month"))
+
+        if month_key:
+            counts[month_key] += 1
+
+    return dict(counts)
 
 
 def _empty_debug_totals() -> Dict[str, Any]:
@@ -773,7 +792,8 @@ def _process_month_bucket(
         if site_result.get('valid_hand_records'):
             for record in site_result['valid_hand_records']:
                 record_with_month = dict(record)
-                record_with_month['month'] = bucket.month
+                if not record_with_month.get('month'):
+                    record_with_month['month'] = bucket.month
                 month_valid_records.append(record_with_month)
         
         # Track all groups
@@ -1059,6 +1079,8 @@ def run_multi_site_pipeline(
                 aggregated_discards,
             )
 
+            hands_per_month = _count_hands_per_month(result_data.get('valid_hand_records', []))
+
             global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
 
             # Keep combined hand counts in sync with the normalised samples
@@ -1079,6 +1101,7 @@ def run_multi_site_pipeline(
                 valid_hand_records=result_data.get('valid_hand_records', []),
                 aggregated_discards=aggregated_discards,
                 sites=result_data.get('sites', {}),
+                hands_per_month=hands_per_month,
                 postflop_hands_count=postflop_sample.hand_count if postflop_sample else None,
                 samples=global_samples,
                 extra={
@@ -1090,6 +1113,7 @@ def run_multi_site_pipeline(
             )
 
             _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
+            _validate_month_totals(hands_per_month, global_samples.validas)
             
             # Generate manifest
             manifest = aggregator.get_combined_manifest()
@@ -1212,7 +1236,12 @@ def run_multi_site_pipeline(
                     continue
 
                 month_records = month_result.get('valid_hand_records', [])
-                hands_per_month[month_key] = len({record['hand_id'] for record in month_records})
+                month_counts = _count_hands_per_month(month_records)
+                if month_counts:
+                    for key, count in month_counts.items():
+                        hands_per_month[key] = count
+                elif month_key:
+                    hands_per_month[month_key] = len({record['hand_id'] for record in month_records})
 
                 month_discards = month_result.get('aggregated_discards', {})
                 for reason, count in month_discards.items():
@@ -1277,12 +1306,16 @@ def run_multi_site_pipeline(
 
                 postflop_month = month_samples.groups.get(POSTFLOP_GROUP_KEY)
 
+                month_counts = _count_hands_per_month(month_records)
+                if not month_counts and month_key:
+                    month_counts = {month_key: month_samples.validas}
+
                 updated_month = build_pipeline_result_payload(
                     combined=combined_groups,
                     valid_hand_records=month_result.get('valid_hand_records', []),
                     aggregated_discards=month_samples.discard_counts,
                     sites=month_result.get('sites', {}),
-                    hands_per_month={month_key: month_samples.validas},
+                    hands_per_month=month_counts,
                     month=month_key,
                     postflop_hands_count=postflop_month.hand_count if postflop_month else None,
                     samples=month_samples,
@@ -1294,7 +1327,8 @@ def run_multi_site_pipeline(
                     },
                 )
 
-                hands_per_month[month_key] = month_samples.validas
+                for key, count in month_counts.items():
+                    hands_per_month[key] = count
                 bucket_results[month_key] = updated_month
                 bucket = bucket_lookup.get(month_key)
                 if bucket:

@@ -6,10 +6,17 @@ import os
 import json
 import re
 from pathlib import Path
+from datetime import timezone
 from typing import Dict, List, Tuple, Optional
 from app.parse.hand_splitter import split_into_hands, split_into_hands_with_stats, classify_hand_format, is_tournament_summary, is_cash_game
 from app.classify.run import classify_tournament
 from app.utils.hand_fingerprint import fingerprint_hand
+from app.partition.months import (
+    month_key_from_datetime,
+    normalize_month_key,
+    parse_hand_datetime,
+    parse_timestamp,
+)
 
 # REMOVED: _has_allin_preflop() and _has_low_stack_villain() functions
 # These were filtering hands at classification stage, preventing stat-level validation
@@ -35,6 +42,26 @@ def classify_hands_individually(content: str, filename: str) -> Tuple[List[Dict]
         'other': 0,
         'total_segments': splitter_discards.get('total_segments', 0)
     }
+
+    def _extract_timestamp_and_month(hand_text: str) -> Tuple[Optional[str], Optional[str]]:
+        lines = [line for line in hand_text.split('\n') if line.strip()]
+        dt = None
+
+        for line in lines:
+            dt = parse_hand_datetime(line)
+            if dt:
+                break
+            parsed = parse_timestamp(line)
+            if parsed:
+                dt = parsed
+                break
+
+        if not dt:
+            return None, None
+
+        dt_utc = dt.astimezone(timezone.utc)
+        timestamp = dt_utc.isoformat().replace("+00:00", "Z")
+        return timestamp, month_key_from_datetime(dt_utc)
     
     # Check if filename contains 'mystery' (case insensitive)
     # If yes, ALL hands in this file are Mystery and should be discarded
@@ -220,6 +247,8 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
             stats['groups'][group]['files'].add(txt_file.name)
             stats['groups'][group]['hands'].append(hand_data)
 
+            timestamp_utc, month_key = _extract_timestamp_and_month(hand_text)
+
             valid_hand_records.append({
                 'hand_id': fingerprint_hand(hand_text),
                 'source_file': txt_file.name,
@@ -227,6 +256,8 @@ def process_files_hand_by_hand(input_dir: str, output_dir: str, token: Optional[
                 'group': group,
                 'tournament_type': hand_data['tournament_type'],
                 'table_format': hand_data['table_format'],
+                **({'timestamp_utc': timestamp_utc} if timestamp_utc else {}),
+                **({'month': normalize_month_key(month_key) or month_key} if month_key else {}),
             })
             
             # Update file distribution
