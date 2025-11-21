@@ -261,7 +261,7 @@ def api_dashboard_global(token: str):
 def api_dashboard_with_token(token):
     """Get dashboard data for a specific token (global or monthly view)."""
 
-    month = request.args.get("month") or None
+    month = (request.args.get("month") or "").strip()
 
     if month and not re.fullmatch(r"\d{4}-\d{2}", month):
         return jsonify({"ok": False, "error": "invalid_month"}), 400
@@ -269,17 +269,8 @@ def api_dashboard_with_token(token):
     try:
         if month:
             payload = build_dashboard_payload(token, month=month, include_months=True)
-            if payload.get("month_not_found"):
-                return (
-                    jsonify(
-                        {
-                            "ok": False,
-                            "error": "month_not_found",
-                            "detail": f"No dashboard data for {month}",
-                        }
-                    ),
-                    404,
-                )
+            if not payload or payload.get("month_not_found"):
+                return jsonify({"ok": False, "error": "not_found"}), 404
         else:
             payload = _load_global_dashboard_payload(token)
 
