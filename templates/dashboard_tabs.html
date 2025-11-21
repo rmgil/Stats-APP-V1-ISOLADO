@@ -925,6 +925,11 @@
     <div class="header">
         <div class="header-content">
             <h1>Dashboard de Análise</h1>
+            <div id="month-selector-container" style="display: none; margin-bottom: 1rem;">
+                <label for="month-select">Mês:</label>
+                <select id="month-select"></select>
+                <span id="month-debug" style="margin-left: 1rem; font-size: 0.8rem; color: #666;"></span>
+            </div>
             <div class="header-actions">
                 {% if dashboard_api_mode == 'main' and available_months_info %}
                 <div class="month-selector" style="display: none;">
@@ -1241,7 +1246,7 @@
             }
 
             window.DASHBOARD_TOKEN = token;
-            loadDashboardByToken(token, requestedMonth, currentUploadId);
+            loadDashboardByToken(token, requestedMonth);
         });
         
         // Tab switching
@@ -1497,48 +1502,96 @@
             return;
         }
 
-        async function loadDashboardByToken(token, month = null, uploadId = null) {
-            try {
-                const resolvedUploadId = uploadId ?? currentUploadId ?? null;
-                resetTokenSummary();
-                document.getElementById('tokenDisplay').textContent = token;
-
-                await loadHandsByStatSection(token, month, resolvedUploadId);
-
-                let url = `/api/dashboard/${token}`;
-                const params = new URLSearchParams();
-
-                if (month) {
-                    params.set('month', month);
-                }
-
-                if (params.toString()) {
-                    url += `?${params.toString()}`;
-                }
-
-                const response = await fetch(url);
-                const json = await response.json();
-                const payload = json.data || json;
-
-                if (isNoDataResponse(json)) {
-                    showNoDataMessage();
-                    return;
-                }
-
-                if (!response.ok || (json.success !== true && json.ok !== true)) {
-                    const detail = json.error || json.detail || 'Erro ao carregar dados do dashboard global.';
-                    showError(`${detail} Verifica se o upload foi concluído com sucesso.`);
-                    return;
-                }
-
-                renderDashboardFromPayload(payload);
-            } catch (error) {
-                showError('Erro ao carregar dashboard global para este upload. Verifica se o upload foi concluído com sucesso.');
+        async function loadDashboardByToken(token, month) {
+            // Construir URL com ou sem mês
+            let url = `/api/dashboard/${token}`;
+            if (month) {
+                const params = new URLSearchParams({ month });
+                url += `?${params.toString()}`;
             }
+
+            console.log("[UI] Carregar dashboard:", url);
+
+            if (typeof loadHandsByStatSection === 'function') {
+                await loadHandsByStatSection(token, month);
+            }
+
+            const response = await fetch(url);
+            const json = await response.json();
+            const data = json.data || json;
+
+            // Debug mínimo para ver no browser se months está a vir
+            const debugEl = document.getElementById("month-debug");
+            if (debugEl) {
+                debugEl.textContent = `scope=${data.month_scope || "?"}, selected=${data.selected_month || ""}, months=${(data.months || []).join(",")}`;
+            }
+
+            renderDashboard(data);
         }
 
-        function renderDashboardFromPayload(payload) {
-            dashboardData = payload;
+        function renderDashboard(data) {
+            // TODO: aqui manténs a lógica existente de atualizar contadores, tabs, etc.
+            // NÃO apagues o que já existe – apenas insere a lógica do selector de mês A SEGUIR.
+
+            // --- LÓGICA DO SELECTOR DE MÊS ---
+            const container = document.getElementById("month-selector-container");
+            const select = document.getElementById("month-select");
+
+            if (!container || !select) {
+                console.warn("[UI] month selector elements not found");
+            } else {
+                // Determinar lista de meses a partir do payload
+                let monthKeys = Array.isArray(data.months) ? data.months.slice() : [];
+
+                if ((!monthKeys || monthKeys.length === 0) && data.months_manifest && Array.isArray(data.months_manifest.months)) {
+                    monthKeys = data.months_manifest.months
+                        .map(entry => entry && entry.month ? entry.month : null)
+                        .filter(Boolean);
+                }
+
+                if (!monthKeys || monthKeys.length === 0) {
+                    // Sem meses → escondemos o seletor
+                    container.style.display = "none";
+                } else {
+                    container.style.display = "";
+                    select.innerHTML = "";
+
+                    // Opção Global
+                    const optGlobal = document.createElement("option");
+                    optGlobal.value = "";
+                    optGlobal.textContent = "Global";
+                    select.appendChild(optGlobal);
+
+                    // Opções YYYY-MM
+                    monthKeys.forEach(m => {
+                        const opt = document.createElement("option");
+                        opt.value = m;
+                        opt.textContent = m;
+                        select.appendChild(opt);
+                    });
+
+                    // Determinar valor selecionado com base no payload
+                    const selected =
+                        data.month_scope === "monthly" && data.selected_month
+                            ? data.selected_month
+                            : "";
+
+                    select.value = selected;
+
+                    if (!select.dataset.bound) {
+                        select.addEventListener("change", () => {
+                            const chosen = select.value || null;
+                            console.log("[UI] Mês selecionado:", chosen);
+                            loadDashboardByToken(window.DASHBOARD_TOKEN, chosen);
+                        });
+                        select.dataset.bound = "true";
+                    }
+                }
+            }
+
+            // --- FIM LÓGICA SELECTOR DE MÊS ---
+            // Mantém aqui em baixo o resto da lógica que atualiza contadores, tabs, etc.
+            dashboardData = data;
             displayDashboard(dashboardData);
         }
 
@@ -1591,7 +1644,7 @@
             if (!monthSelectorInitialized) {
                 monthSelector.addEventListener('change', function(e) {
                     const pickedMonth = e.target.value || null;
-                    loadDashboardByToken(window.DASHBOARD_TOKEN, pickedMonth, currentUploadId);
+                    loadDashboardByToken(window.DASHBOARD_TOKEN, pickedMonth);
                 });
                 monthSelectorInitialized = true;
             }
@@ -2877,7 +2930,10 @@
         
         // No longer need separate initialization for hands by stat
         // It's now called before loadDashboardByToken
-        
+
+    </script>
+    <script>
+        window.DASHBOARD_TOKEN = "{{ token }}";
     </script>
 </body>
 </html>
