@@ -3660,10 +3660,11 @@ def api_score_detailed():
 def api_dashboard_token(token):
     """Get dashboard data for a specific token with proper response structure"""
     try:
-        data = build_dashboard_payload(token)
+        month = request.args.get("month")
+        data = build_dashboard_payload(token, month=month, include_months=True)
         return jsonify({
             "ok": True,
-            "data": data
+            **data
         })
     except Exception as e:
         app.logger.error(f"Error fetching dashboard data: {e}")
