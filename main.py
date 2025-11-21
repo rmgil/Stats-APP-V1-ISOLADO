@@ -68,6 +68,7 @@ from app.services.tmp_cleanup import run_startup_cleanup
 
 # Configure logging
 logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
 
 # Run /tmp cleanup at startup to prevent disk quota issues
 run_startup_cleanup()
@@ -3661,17 +3662,31 @@ def api_dashboard_token(token):
     """Get dashboard data for a specific token with proper response structure"""
     try:
         month = request.args.get("month")
-        data = build_dashboard_payload(token, month=month, include_months=True)
+        logger.info("[API] /api/dashboard/%s called with month=%r", token, month)
+
+        payload = build_dashboard_payload(
+            token=token,
+            month=month,
+            include_months=True,
+        )
+
+        logger.info(
+            "[API] payload.month_scope=%s, selected_month=%r, months=%s",
+            payload.get("month_scope"),
+            payload.get("selected_month"),
+            payload.get("months"),
+        )
+
         return jsonify({
-            "ok": True,
-            **data
+            "data": payload,
+            "success": True,
         })
     except Exception as e:
-        app.logger.error(f"Error fetching dashboard data: {e}")
+        logger.exception("Error fetching dashboard data")
         return jsonify({
-            "ok": False,
+            "success": False,
             "error": str(e)
-        })
+        }), 500
 
 @app.route('/api/dashboard/payload', methods=['GET'])
 def api_dashboard_payload():
