@@ -57,7 +57,28 @@ def parse_timestamp(value: Optional[str]) -> Optional[datetime]:
     if not text:
         return None
 
+    # Normalize common separators to simplify regex parsing
     normalized = text.replace("/", "-").replace("\u2013", "-")
+
+    # Explicit patterns matching the HH formats seen in production
+    explicit_patterns = [
+        r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}",  # 2025-06-02 21:01:17
+        r"\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}:\d{2}Z",  # 2025-06-02T21:01:17Z
+    ]
+
+    for pat in explicit_patterns:
+        match = re.search(pat, normalized)
+        if match:
+            candidate = match.group(0)
+            try:
+                dt = parser.isoparse(candidate)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                else:
+                    dt = dt.astimezone(timezone.utc)
+                return dt
+            except (ValueError, TypeError):
+                continue
 
     dt: Optional[datetime] = None
     try:
@@ -194,16 +215,35 @@ def make_hand_id(hand_obj: dict) -> str:
 
 def parse_hand_datetime(hand: dict) -> str:
     """
-    Extract datetime from hand object.
-    
-    Args:
-        hand: Hand dictionary with datetime field
-        
-    Returns:
-        Timestamp string or empty if not found
+    Extract the most reliable datetime from a hand object.
+
+    The function prioritizes explicit timestamp fields and falls back to
+    scanning the raw/original text for a timestamp string when necessary.
     """
-    # Try different date fields that might exist
-    return hand.get('timestamp_utc') or hand.get('datetime') or hand.get('timestamp') or hand.get('date') or ""
+
+    candidate_fields = [
+        hand.get("timestamp_utc"),
+        hand.get("datetime"),
+        hand.get("timestamp"),
+        hand.get("date"),
+    ]
+
+    for value in candidate_fields:
+        dt = parse_timestamp(value)
+        if dt:
+            return dt.isoformat()
+
+    # Fallback: try to extract from raw/original text when available
+    raw_text = hand.get("original_text") or hand.get("raw_text") or ""
+    if isinstance(raw_text, str) and raw_text.strip():
+        for pattern in _TIMESTAMP_REGEXES:
+            match = pattern.search(raw_text)
+            if match:
+                dt = parse_timestamp(match.group(0))
+                if dt:
+                    return dt.isoformat()
+
+    return ""
 
 
 def partition_by_month(hands_jsonl: str, output_dir: str) -> Dict[str, str]:
