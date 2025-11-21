@@ -259,10 +259,30 @@ def api_dashboard_global(token: str):
 
 @bp_dashboard.get("/<token>")
 def api_dashboard_with_token(token):
-    """Get dashboard data for a specific token (global-only view)."""
+    """Get dashboard data for a specific token (global or monthly view)."""
+
+    month = (request.args.get("month") or "").strip()
+    if month and not re.fullmatch(r"\d{4}-\d{2}", month):
+        return jsonify({"ok": False, "error": "invalid_month"}), 400
+
     try:
-        data = _load_global_dashboard_payload(token)
-        return jsonify({"ok": True, "data": data})
+        if month:
+            payload = build_dashboard_payload(token, month=month, include_months=True)
+            if payload.get("month_not_found"):
+                return (
+                    jsonify(
+                        {
+                            "ok": False,
+                            "error": "month_not_found",
+                            "detail": f"No dashboard data for {month}",
+                        }
+                    ),
+                    404,
+                )
+        else:
+            payload = _load_global_dashboard_payload(token)
+
+        return jsonify({"ok": True, "data": payload})
     except FileNotFoundError as exc:
         return (
             jsonify({"ok": False, "error": "not_found", "detail": str(exc)}),
