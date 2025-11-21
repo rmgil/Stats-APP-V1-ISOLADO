@@ -261,7 +261,8 @@ def api_dashboard_global(token: str):
 def api_dashboard_with_token(token):
     """Get dashboard data for a specific token (global or monthly view)."""
 
-    month = (request.args.get("month") or "").strip()
+    month = request.args.get("month") or None
+
     if month and not re.fullmatch(r"\d{4}-\d{2}", month):
         return jsonify({"ok": False, "error": "invalid_month"}), 400
 
