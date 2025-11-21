@@ -1146,6 +1146,7 @@
         let currentNonkoSubTab = '9max';
         let currentUploadId = null;
         let mainDashboardMonths = [];
+        let monthSelectorInitialized = false;
         
         // Combined tooltips: Rules + Practical Examples (English, Hero perspective, verified against code)
         const statTooltips = {
@@ -1226,8 +1227,8 @@
                 currentUploadId = uploadIdFromQuery;
             }
 
-            // Month-specific dashboards are disabled while restoring the global flow
-            window.initialDashboardMonth = '';
+            const requestedMonth = urlParams.get('month');
+            window.initialDashboardMonth = requestedMonth || '';
 
             if (isMainDashboard) {
                 showError('Main page em manutenção. Usa a dashboard global após upload.');
@@ -1239,7 +1240,8 @@
                 return;
             }
 
-            loadDashboardByToken(token, currentUploadId);
+            window.DASHBOARD_TOKEN = token;
+            loadDashboardByToken(token, requestedMonth, currentUploadId);
         });
         
         // Tab switching
@@ -1495,8 +1497,9 @@
             return;
         }
 
-        async function loadDashboardByToken(token, uploadId = null) {
+        async function loadDashboardByToken(token, month = null, uploadId = null) {
             try {
+                const resolvedUploadId = uploadId ?? currentUploadId ?? null;
                 resetTokenSummary();
                 document.getElementById('tokenDisplay').textContent = token;
 
@@ -1505,9 +1508,17 @@
                     monthSelectorContainer.style.display = 'none';
                 }
 
-                await loadHandsByStatSection(token, null, uploadId);
+                await loadHandsByStatSection(token, null, resolvedUploadId);
 
-                const url = `/api/dashboard/${token}`;
+                const params = new URLSearchParams();
+
+                if (month) {
+                    params.set('month', month);
+                }
+
+                const url = params.toString()
+                    ? `/api/dashboard/${token}?${params.toString()}`
+                    : `/api/dashboard/${token}`;
                 const response = await fetch(url);
                 const data = await response.json();
 
@@ -1534,6 +1545,93 @@
             dashboardData = payload;
             displayDashboard(dashboardData);
         }
+
+        function updateMonthSelector(data) {
+            const monthSelectorContainer = document.getElementById('monthSelectorContainer');
+            const monthSelector = document.getElementById('monthSelector');
+
+            if (!monthSelectorContainer || !monthSelector || !MONTHS_ENABLED) {
+                if (monthSelectorContainer) {
+                    monthSelectorContainer.style.display = 'none';
+                }
+                return;
+            }
+
+            const sourceMonths = Array.isArray(data.months) && data.months.length > 0
+                ? data.months
+                : (Array.isArray(data.months_manifest?.months) ? data.months_manifest.months : []);
+
+            const validMonthPattern = /^\d{4}-\d{2}$/;
+            const normalizedMonths = sourceMonths
+                .map(entry => {
+                    if (typeof entry === 'string') {
+                        return { month: entry, total_hands: null };
+                    }
+
+                    if (entry && typeof entry === 'object' && typeof entry.month === 'string') {
+                        const totalHands = entry.total_hands ?? entry.hands ?? entry.total ?? entry.count ?? entry.totalHands ?? null;
+                        return { month: entry.month, total_hands: totalHands };
+                    }
+
+                    return null;
+                })
+                .filter(entry => entry && validMonthPattern.test(entry.month))
+                .sort((a, b) => b.month.localeCompare(a.month));
+
+            if (!normalizedMonths.length) {
+                monthSelectorContainer.style.display = 'none';
+                return;
+            }
+
+            monthSelector.innerHTML = '';
+
+            const globalOption = document.createElement('option');
+            globalOption.value = '';
+            globalOption.textContent = 'Global';
+            monthSelector.appendChild(globalOption);
+
+            normalizedMonths.forEach(monthData => {
+                const option = document.createElement('option');
+                option.value = monthData.month;
+
+                const [year, monthValue] = monthData.month.split('-');
+                const date = new Date(parseInt(year, 10), parseInt(monthValue, 10) - 1, 1);
+                const monthName = new Intl.DateTimeFormat('pt-PT', {
+                    month: 'long',
+                    year: 'numeric'
+                }).format(date);
+                const formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
+
+                const hasHandCount = monthData.total_hands !== null && monthData.total_hands !== undefined;
+                const handCount = hasHandCount
+                    ? ` (${Number(monthData.total_hands).toLocaleString('pt-PT')} mãos)`
+                    : '';
+
+                option.textContent = `${formattedMonth}${handCount}`;
+
+                monthSelector.appendChild(option);
+            });
+
+            monthSelectorContainer.style.display = 'flex';
+
+            const preselectedMonth = (data.month_scope === 'monthly' && data.selected_month)
+                ? data.selected_month
+                : '';
+
+            if (preselectedMonth && monthSelector.querySelector(`option[value="${preselectedMonth}"]`)) {
+                monthSelector.value = preselectedMonth;
+            } else {
+                monthSelector.value = '';
+            }
+
+            if (!monthSelectorInitialized) {
+                monthSelector.addEventListener('change', function(e) {
+                    const pickedMonth = e.target.value || null;
+                    loadDashboardByToken(window.DASHBOARD_TOKEN, pickedMonth, currentUploadId);
+                });
+                monthSelectorInitialized = true;
+            }
+        }
         
         function displayDashboard(data) {
             // Update summary - check both direct and overall paths
@@ -1541,6 +1639,7 @@
             const validHands = data.valid_hands || (data.overall && data.overall.valid_hands) || 0;
 
             mainDashboardMonths = Array.isArray(data.meta?.months) ? data.meta.months : [];
+            updateMonthSelector(data);
             updateMonthsBanner(mainDashboardMonths);
             if (isMainDashboard) {
                 updateVisionSummaryFromMonths(mainDashboardMonths);
@@ -2815,120 +2914,6 @@
         // No longer need separate initialization for hands by stat
         // It's now called before loadDashboardByToken
         
-        // Month Selector Initialization
-        function initializeMonthSelector(token, currentMonth) {
-            if (!MONTHS_ENABLED) {
-                const container = document.getElementById('monthSelectorContainer');
-                if (container) container.style.display = 'none';
-                return;
-            }
-            const monthSelectorContainer = document.getElementById('monthSelectorContainer');
-            const monthSelector = document.getElementById('monthSelector');
-
-            if (!monthSelectorContainer || !monthSelector) return;
-
-            monthSelector.innerHTML = '';
-
-            // Fetch months manifest
-            const monthParams = new URLSearchParams();
-            if (currentUploadId) {
-                monthParams.set('upload_id', currentUploadId);
-            }
-
-            const monthsUrl = monthParams.toString()
-                ? `/api/dashboard/${token}/months?${monthParams.toString()}`
-                : `/api/dashboard/${token}/months`;
-
-            fetch(monthsUrl)
-                .then(response => {
-                    if (!response.ok) {
-                        // No months manifest (single-month or legacy upload)
-                        console.log('No months manifest available');
-                        return null;
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    if (!data || !data.ok || !data.data || !data.data.months) {
-                        console.log('Invalid months manifest data');
-                        return;
-                    }
-
-                    const months = data.data.months;
-                    const validMonthPattern = /^\d{4}-\d{2}$/;
-
-                    const validMonths = months.filter(monthData =>
-                        typeof monthData.month === 'string' && validMonthPattern.test(monthData.month)
-                    );
-
-                    if (validMonths.length === 0) {
-                        console.log('No valid month data available, hiding month selector');
-                        return;
-                    }
-
-                    // Sort months descending (newest first)
-                    validMonths.sort((a, b) => b.month.localeCompare(a.month));
-
-                    // Populate dropdown
-                    validMonths.forEach(monthData => {
-                        const option = document.createElement('option');
-                        option.value = monthData.month;
-
-                        const [year, monthValue] = monthData.month.split('-');
-                        const date = new Date(parseInt(year, 10), parseInt(monthValue, 10) - 1, 1);
-                        const monthName = new Intl.DateTimeFormat('pt-PT', {
-                            month: 'long',
-                            year: 'numeric'
-                        }).format(date);
-                        const formattedMonth = monthName.charAt(0).toUpperCase() + monthName.slice(1);
-
-                        const handCount = monthData.total_hands ?
-                            ` (${Number(monthData.total_hands).toLocaleString('pt-PT')} mãos)` : '';
-
-                        option.textContent = `${formattedMonth}${handCount}`;
-
-                        if (currentMonth && monthData.month === currentMonth) {
-                            option.selected = true;
-                        }
-
-                        monthSelector.appendChild(option);
-                    });
-
-                    // Show the selector
-                    monthSelectorContainer.style.display = 'flex';
-
-                    if (currentMonth && validMonthPattern.test(currentMonth)) {
-                        monthSelector.value = currentMonth;
-                    } else {
-                        monthSelector.value = '';
-                    }
-
-                    console.log(`Month selector initialized with ${months.length} months`);
-                })
-                .catch(error => {
-                    console.error('Error loading months manifest:', error);
-                    // Keep selector hidden on error
-                });
-
-            // Handle month selection change
-            monthSelector.addEventListener('change', function(e) {
-                const selectedMonth = e.target.value;
-
-                // Build URL preserving token, adding/removing month param
-                const url = new URL(window.location.href);
-
-                if (selectedMonth) {
-                    // Set month parameter
-                    url.searchParams.set('month', selectedMonth);
-                } else {
-                    // Remove month parameter (show all months)
-                    url.searchParams.delete('month');
-                }
-
-                // Navigate to new URL
-                window.location.href = url.toString();
-            });
-        }
-</script>
+    </script>
 </body>
 </html>
