@@ -22,6 +22,8 @@ from app.partition.months import (
 
 logger = logging.getLogger(__name__)
 
+SUMMARY_KEYWORDS = ("summary", "resumo", "- summary")
+
 
 class MonthBucket:
     """Represents a bucket of files for a specific month."""
@@ -152,6 +154,9 @@ def build_month_buckets(
     for root, dirs, files in os.walk(input_dir):
         for file in files:
             if file.lower().endswith('.txt'):
+                if any(keyword in file.lower() for keyword in SUMMARY_KEYWORDS):
+                    logger.info("[%s] Skipping summary-like file during month bucketing: %s", token, file)
+                    continue
                 txt_files.append(os.path.join(root, file))
 
     if not txt_files:
