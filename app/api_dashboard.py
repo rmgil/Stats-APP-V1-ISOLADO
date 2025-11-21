@@ -901,10 +901,6 @@ def _build_dashboard_payload_from_pipeline(
         # Ensure months are unique and sorted chronologically, keeping 'unknown' last
         months = _sort_months(sorted(set(months)))
 
-    # Month-specific dashboards are temporarily disabled to prioritise the
-    # original global behaviour, so surface no month entries to the frontend.
-    months = []
-
     # Load ingest manifest if exists
     ingest = {}
     manifest_path = base / "manifest.json"
@@ -1109,7 +1105,7 @@ def _build_dashboard_payload_from_pipeline(
         logger.info(f"[DEBUG] Calculated weighted_scores: {list(weighted_scores.keys())}")
 
         # If a specific month is selected and we have result storage, blend scores across months
-        if token and month and result_storage:
+        if token and month and result_storage and not month_not_found:
             month_weighting = compute_weighted_scores_for_month_selection(
                 token,
                 month,
@@ -1157,7 +1153,7 @@ def _build_dashboard_payload_from_pipeline(
         "month_not_found": month_not_found,
     }
 
-    if month and month_not_found:
+    if month and month_not_found and selected_scope == 'missing':
         response_data['groups'] = reset_groups_for_missing_data(groups)
         response_data['valid_hands'] = 0
         response_data['total_hands'] = 0
@@ -1224,8 +1220,13 @@ def build_dashboard_payload(
         Dashboard payload dict
     """
 
-    # Temporarily disable month-specific views to restore the original global flow
-    month = None
+    if month is not None:
+        if not isinstance(month, str):
+            logger.warning("[LOAD] Ignoring non-string month value: %s", month)
+            month = None
+        elif not MONTH_KEY_PATTERN.fullmatch(month):
+            logger.warning("[LOAD] Ignoring invalid month format: %s", month)
+            month = None
 
     # Resolve base directory
     if token:
@@ -1279,8 +1280,7 @@ def build_dashboard_payload(
                 logger.error("[LOAD] No aggregate pipeline_result found for token %s", token)
                 raise FileNotFoundError(f"Pipeline result not found for token {token}")
             pipeline_result = aggregate_result
-            if not month_not_found:
-                selected_scope = 'aggregate'
+            selected_scope = 'aggregate'
             logger.info(
                 "[LOAD] ✓ Loaded aggregate pipeline_result with keys: %s",
                 list(pipeline_result.keys()),
