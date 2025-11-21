@@ -58,6 +58,14 @@ from app.stats.stat_categories import (
 
 logger = logging.getLogger(__name__)
 
+SUMMARY_KEYWORDS = ("summary", "resumo", "- summary")
+
+
+def _is_summary_filename(file_name: str) -> bool:
+    """Return True when the file name indicates a tournament summary."""
+    lower_name = file_name.lower()
+    return any(keyword in lower_name for keyword in SUMMARY_KEYWORDS)
+
 
 def _is_dev_environment() -> bool:
     """Return True when running in a development environment."""
@@ -189,6 +197,10 @@ def _ingest_tournaments_for_user(
         if not file_path.is_file():
             continue
 
+        if _is_summary_filename(file_path.name):
+            logger.info("[%s] Skipping summary-like file: %s", token, file_path.name)
+            continue
+
         summary['total_files'] += 1
 
         content = _read_text_file(file_path)
@@ -255,6 +267,9 @@ def detect_sites_in_directory(directory: str) -> Dict[str, List[str]]:
     for root, dirs, files in os.walk(directory):
         for file in files:
             if file.endswith(('.txt', '.xml')):
+                if _is_summary_filename(file):
+                    logger.info("Ignoring summary-like file during detection: %s", file)
+                    continue
                 file_path = os.path.join(root, file)
                 try:
                     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
@@ -902,40 +917,47 @@ def run_multi_site_pipeline(
         if progress_callback:
             progress_callback(35, f'Extraídos {file_count} ficheiros')
         
-        # Step 2: Ingest tournaments and build month buckets
-        parser_runner = ParserRunner()
-        repository = TournamentRepository()
-        user_key = user_id or token
+        use_month_bucketizer = False
+        buckets: List[MonthBucket] = []
+        is_multi_month = False
 
-        logger.info(f"[{token}] Ingesting tournaments for user dataset {user_key}")
-        ingest_summary = _ingest_tournaments_for_user(user_key, Path(input_dir), repository, parser_runner, token)
+        if use_month_bucketizer:
+            # Step 2: Ingest tournaments and build month buckets (disabled in global mode)
+            parser_runner = ParserRunner()
+            repository = TournamentRepository()
+            user_key = user_id or token
 
-        dataset_dir = Path(work_dir) / "dataset"
-        total_tournaments = repository.export_dataset(user_key, dataset_dir)
+            logger.info(f"[{token}] Ingesting tournaments for user dataset {user_key}")
+            ingest_summary = _ingest_tournaments_for_user(user_key, Path(input_dir), repository, parser_runner, token)
 
-        result_data['tournament_ingest'] = ingest_summary
+            dataset_dir = Path(work_dir) / "dataset"
+            total_tournaments = repository.export_dataset(user_key, dataset_dir)
 
-        if total_tournaments == 0:
-            logger.error(f"[{token}] No tournaments available after ingest")
-            raise ValueError("No tournament files available for processing")
+            result_data['tournament_ingest'] = ingest_summary
 
-        logger.info(f"[{token}] Building month buckets")
-        buckets = build_month_buckets(
-            token,
-            str(dataset_dir),
-            work_root,
-            metadata_resolver=parser_runner.extract_tournament_metadata,
-        )
+            if total_tournaments == 0:
+                logger.error(f"[{token}] No tournaments available after ingest")
+                raise ValueError("No tournament files available for processing")
 
-        if not buckets:
-            logger.error(f"[{token}] No files to process after bucketing")
-            raise ValueError("No processable files found")
+            logger.info(f"[{token}] Building month buckets")
+            buckets = build_month_buckets(
+                token,
+                str(dataset_dir),
+                work_root,
+                metadata_resolver=parser_runner.extract_tournament_metadata,
+            )
 
-        logger.info(f"[{token}] Created {len(buckets)} month bucket(s): {[b.month for b in buckets]}")
-        
-        # Check if single-month or multi-month
-        is_multi_month = len(buckets) > 1
-        
+            if not buckets:
+                logger.error(f"[{token}] No files to process after bucketing")
+                raise ValueError("No processable files found")
+
+            logger.info(f"[{token}] Created {len(buckets)} month bucket(s): {[b.month for b in buckets]}")
+
+            # Check if single-month or multi-month
+            is_multi_month = len(buckets) > 1
+        else:
+            logger.info(f"[{token}] Global mode: skipping month bucketizer and processing files directly")
+
         if not is_multi_month:
             # Single month - use existing code path for backwards compatibility
             logger.info(f"[{token}] Single-month upload detected, using standard pipeline")
