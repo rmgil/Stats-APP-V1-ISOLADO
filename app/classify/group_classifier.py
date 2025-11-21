@@ -43,6 +43,8 @@ def classify_into_final_groups(input_dir: str, output_dir: str, token: Optional[
             'nonko_6max': stats['groups']['nonko_6max']['hand_count'],
             'pko': stats['groups']['pko']['hand_count']
         },
+        'raw_segments': stats.get('raw_segments', 0),
+        'parsed_hands': stats.get('parsed_hands', stats.get('total_hands', 0)),
         'files': stats.get('file_details', []),
         'group_labels': stats.get('group_labels', {}),
         'valid_hand_records': stats.get('valid_hand_records', [])
