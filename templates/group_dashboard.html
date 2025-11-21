@@ -43,6 +43,26 @@
             align-items: center;
             gap: 10px;
         }
+
+        .month-selector-container {
+            display: none;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .month-selector-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .month-selector {
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid #d0d0d0;
+            background: white;
+            font-size: 14px;
+            color: #333;
+        }
         
         .summary-label {
             font-weight: 600;
@@ -358,6 +378,10 @@
                 <span class="summary-label">Token:</span>
                 <span id="tokenDisplay" style="font-family: monospace;">-</span>
             </div>
+            <div class="month-selector-container" id="monthSelectorContainer">
+                <span class="month-selector-label">Mês:</span>
+                <select id="monthSelector" class="month-selector"></select>
+            </div>
             <button class="btn-new-analysis" onclick="window.location.href='/upload'">
                 Nova Análise
             </button>
@@ -377,26 +401,34 @@
         // Get token from URL
         const urlParams = new URLSearchParams(window.location.search);
         const token = urlParams.get('token');
-        
+        const initialMonth = urlParams.get('month');
+
+        let currentMonthScope = 'aggregate';
+
         if (!token) {
             showError('Token não fornecido');
         } else {
             document.getElementById('tokenDisplay').textContent = token;
-            loadDashboard(token);
+            loadDashboard(token, initialMonth);
         }
-        
-        async function loadDashboard(token) {
+
+        async function loadDashboard(token, month = null) {
             try {
-                const response = await fetch(`/api/dashboard/${token}`);
+                let apiUrl = `/api/dashboard/${token}`;
+                if (month) {
+                    apiUrl += `?month=${encodeURIComponent(month)}`;
+                }
+
+                const response = await fetch(apiUrl);
                 const data = await response.json();
-                
+
                 if (!data.ok) {
                     showError(data.error || 'Erro ao carregar dados');
                     return;
                 }
-                
+
                 displayDashboard(data.data);
-                
+
             } catch (error) {
                 showError('Erro de conexão');
             }
@@ -405,7 +437,11 @@
         function displayDashboard(data) {
             document.getElementById('loading').style.display = 'none';
             document.getElementById('groupsContainer').style.display = 'grid';
-            
+
+            currentMonthScope = data.month_scope || 'aggregate';
+
+            setupMonthSelector(data);
+
             // Update summary
             document.getElementById('totalFiles').textContent = data.total_files || 0;
             document.getElementById('totalHands').textContent = data.total_hands || 0;
@@ -431,6 +467,76 @@
                 );
                 container.appendChild(pkoCard);
             }
+        }
+
+        function setupMonthSelector(data) {
+            const container = document.getElementById('monthSelectorContainer');
+            const selector = document.getElementById('monthSelector');
+
+            const months = getAvailableMonths(data);
+
+            if (!months.length) {
+                container.style.display = 'none';
+                return;
+            }
+
+            container.style.display = 'flex';
+
+            selector.innerHTML = '';
+
+            const globalOption = document.createElement('option');
+            globalOption.value = '';
+            globalOption.textContent = 'Visão global';
+            selector.appendChild(globalOption);
+
+            months.forEach(month => {
+                const option = document.createElement('option');
+                option.value = month;
+                option.textContent = month;
+                selector.appendChild(option);
+            });
+
+            let selectedValue = '';
+            if (data.month_scope === 'monthly') {
+                selectedValue = data.selected_month || '';
+            } else if (data.month_scope === 'missing') {
+                selectedValue = data.requested_month || '';
+            }
+
+            if (selectedValue && !months.includes(selectedValue)) {
+                const extraOption = document.createElement('option');
+                extraOption.value = selectedValue;
+                extraOption.textContent = selectedValue;
+                selector.appendChild(extraOption);
+            }
+
+            selector.value = selectedValue;
+
+            if (!selector.dataset.bound) {
+                selector.addEventListener('change', (event) => {
+                    const chosenMonth = event.target.value || null;
+                    loadDashboard(token, chosenMonth);
+                });
+                selector.dataset.bound = 'true';
+            }
+        }
+
+        function getAvailableMonths(data) {
+            const monthsSet = new Set();
+
+            if (data.months_manifest?.months) {
+                data.months_manifest.months.forEach(entry => {
+                    if (entry.month) {
+                        monthsSet.add(entry.month);
+                    }
+                });
+            }
+
+            if (Array.isArray(data.months)) {
+                data.months.forEach(month => monthsSet.add(month));
+            }
+
+            return Array.from(monthsSet).sort();
         }
         
         function createConsolidatedNonKoCard(data9max, data6max) {
@@ -490,10 +596,10 @@
                     </div>
                 </div>
                 <div class="stats-section">
-                    ${createStatsHTML(consolidatedStats, rfiScore)}
+                    ${createStatsHTML(consolidatedStats, rfiScore, currentMonthScope === 'missing')}
                 </div>
             `;
-            
+
             return card;
         }
         
@@ -509,16 +615,18 @@
                     <strong>${data.hands_count || 0}</strong> mãos
                 </div>
                 <div class="stats-section">
-                    ${createStatsHTML(data.stats || {}, data.overall_score)}
+                    ${createStatsHTML(data.stats || {}, data.overall_score, currentMonthScope === 'missing')}
                 </div>
             `;
-            
+
             return card;
         }
         
-        function createStatsHTML(stats, rfiScore) {
+        function createStatsHTML(stats, rfiScore, suppressEmptyMessage = false) {
             if (Object.keys(stats).length === 0) {
-                return '<div style="text-align: center; color: #999;">Calculando estatísticas...</div>';
+                return suppressEmptyMessage
+                    ? ''
+                    : '<div style="text-align: center; color: #999;">Calculando estatísticas...</div>';
             }
             
             // Definir a ordem exata das estatísticas
@@ -718,6 +826,10 @@
                 html += '</div>';
             });
             
+            if (!html && suppressEmptyMessage) {
+                return '';
+            }
+
             return html || '<div style="text-align: center; color: #999;">Sem estatísticas disponíveis</div>';
         }
         
