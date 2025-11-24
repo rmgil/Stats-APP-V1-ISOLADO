@@ -250,12 +250,14 @@ def make_hand_id(hand_obj: dict) -> str:
     return hashlib.sha1(s.encode("utf-8")).hexdigest()[:16]
 
 
-def parse_hand_datetime(hand: dict) -> str:
+def extract_hand_timestamp(hand: dict) -> str:
     """
-    Extract the most reliable datetime from a hand object.
+    Extract the most reliable datetime string from a hand object.
 
     The function prioritizes explicit timestamp fields and falls back to
     scanning the raw/original text for a timestamp string when necessary.
+    Returns an ISO-formatted string when successful, otherwise an empty
+    string.
     """
 
     candidate_fields = [
@@ -308,7 +310,7 @@ def partition_by_month(hands_jsonl: str, output_dir: str) -> Dict[str, str]:
                     hand['hand_id'] = make_hand_id(hand)
 
                 # Get month bucket with fallback to the last valid month
-                timestamp = parse_hand_datetime(hand)
+                timestamp = extract_hand_timestamp(hand)
                 month_key = month_bucket(
                     timestamp,
                     fallback_month=last_month_key,
@@ -323,7 +325,7 @@ def partition_by_month(hands_jsonl: str, output_dir: str) -> Dict[str, str]:
                 try:
                     hand = json.loads(line.strip())
                     hand['hand_id'] = make_hand_id(hand)
-                    timestamp = parse_hand_datetime(hand)
+                    timestamp = extract_hand_timestamp(hand)
                     month_key = month_bucket(
                         timestamp,
                         fallback_month=last_month_key,

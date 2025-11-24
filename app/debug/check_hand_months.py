@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from typing import Any, Dict, Iterable, Iterator, List, Optional
 
-from app.partition.months import month_bucket, parse_hand_datetime
+from app.partition.months import extract_hand_timestamp, month_bucket
 from app.services.result_storage import get_result_storage
 
 logger = logging.getLogger(__name__)
@@ -148,7 +148,7 @@ def sample_hand_dates_for_token(token: str, limit: int = 20) -> None:
     for hand in _load_hand_records(token, months=months):
         ts = hand.get("timestamp_utc") or hand.get("ts") or hand.get("datetime")
         if not ts:
-            ts = parse_hand_datetime(hand) or ""
+            ts = extract_hand_timestamp(hand) or ""
         month_key = hand.get("month") or hand.get("month_key")
         if not month_key:
             month_key = month_bucket(ts, debug_context="debug-sample")
