@@ -357,6 +357,6 @@ def run_full_pipeline(zip_file_path: str, work_root: str = "work") -> Tuple[bool
         error_file = os.path.join(logs_dir, "last_error.json")
         with open(error_file, 'w') as f:
             json.dump(error_info, f, indent=2)
-        
-        logger.error(f"[{token}] Pipeline failed: {str(e)}")
+
+        logger.exception("[%s] Pipeline failed", token)
         return False, token, error_info

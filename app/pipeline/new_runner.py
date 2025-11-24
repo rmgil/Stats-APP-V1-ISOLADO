@@ -403,9 +403,9 @@ def run_simplified_pipeline(archive_path: str, work_root: str = "work", token: O
             'error': str(e),
             'traceback': traceback.format_exc()
         }
-        
+
         log_step(token, "pipeline", "failed", "", str(e))
-        logger.error(f"[{token}] Pipeline failed: {str(e)}")
+        logger.exception("[%s] Pipeline failed", token)
         
         # Save error info
         error_file = os.path.join(work_dir, "_logs", "error.json")

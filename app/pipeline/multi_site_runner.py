@@ -1113,7 +1113,7 @@ def run_multi_site_pipeline(
             )
 
             if hands_per_month:
-                logger.info("[%s] [DEBUG] hands_per_month = %s", token, hands_per_month)
+                logger.info("[%s] [DEBUG] hands_per_month global: %s", token, hands_per_month)
 
             _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
             _validate_month_totals(hands_per_month, global_samples.validas)
@@ -1400,7 +1400,7 @@ def run_multi_site_pipeline(
                     )
 
             if hands_per_month:
-                logger.info("[%s] [DEBUG] hands_per_month = %s", token, hands_per_month)
+                logger.info("[%s] [DEBUG] hands_per_month global: %s", token, hands_per_month)
 
             _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
             _validate_month_totals(hands_per_month, global_samples.validas)

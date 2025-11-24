@@ -222,7 +222,7 @@ def build_all_safe(manifest_path: str, out_dir: str):
     try:
         return build_all(manifest_path, out_dir)
     except Exception as e:
-        logger.error(f"Pipeline failed: {e}")
+        logger.exception("Pipeline failed for manifest=%s", manifest_path)
         import traceback
         error_log = Path(out_dir) / "pipeline_error.log"
         with open(error_log, "w") as f:

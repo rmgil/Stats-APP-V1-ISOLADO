@@ -3423,10 +3423,9 @@ def _run_robust_pipeline(job_dir, buckets):
         result["classification"] = manifest["inputs"]
         
         return result
-    except Exception as e:
-        app.logger.error(f"Pipeline failed: {e}")
-        app.logger.error(traceback.format_exc())
-        raise
+        except Exception:
+            app.logger.exception("Pipeline failed for job_dir=%s", job_dir)
+            raise
 
 @app.post("/api/pipeline")
 def api_pipeline():
