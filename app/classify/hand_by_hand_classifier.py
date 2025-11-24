@@ -22,6 +22,33 @@ from app.partition.months import (
 # These were filtering hands at classification stage, preventing stat-level validation
 # Stack and all-in validations are now handled per-stat in PreflopStats
 
+def _extract_timestamp_and_month(hand_text: str) -> Tuple[Optional[str], Optional[str]]:
+    """
+    Extract the hand timestamp in UTC and its month key using the shared parsing
+    helpers. This mirrors the date parsing logic used across the pipeline to
+    keep classifications aligned.
+    """
+
+    lines = [line for line in hand_text.split('\n') if line.strip()]
+    dt = None
+
+    for line in lines:
+        dt = parse_hand_datetime(line)
+        if dt:
+            break
+        parsed = parse_timestamp(line)
+        if parsed:
+            dt = parsed
+            break
+
+    if not dt:
+        return None, None
+
+    dt_utc = dt.astimezone(timezone.utc)
+    timestamp = dt_utc.isoformat().replace("+00:00", "Z")
+    return timestamp, month_key_from_datetime(dt_utc)
+
+
 def classify_hands_individually(content: str, filename: str) -> Tuple[List[Dict], Dict]:
     """
     Classify each hand individually in a file
@@ -30,7 +57,7 @@ def classify_hands_individually(content: str, filename: str) -> Tuple[List[Dict]
     # Use the new function to get hands and initial discard stats
     hands, splitter_discards = split_into_hands_with_stats(content)
     classified_hands = []
-    
+
     # Detailed tracking of discarded hands (including splitter stats)
     # NOTE: Stack and all-in filtering REMOVED - now handled per-stat in PreflopStats
     discard_stats = {
@@ -42,26 +69,6 @@ def classify_hands_individually(content: str, filename: str) -> Tuple[List[Dict]
         'other': 0,
         'total_segments': splitter_discards.get('total_segments', 0)
     }
-
-    def _extract_timestamp_and_month(hand_text: str) -> Tuple[Optional[str], Optional[str]]:
-        lines = [line for line in hand_text.split('\n') if line.strip()]
-        dt = None
-
-        for line in lines:
-            dt = parse_hand_datetime(line)
-            if dt:
-                break
-            parsed = parse_timestamp(line)
-            if parsed:
-                dt = parsed
-                break
-
-        if not dt:
-            return None, None
-
-        dt_utc = dt.astimezone(timezone.utc)
-        timestamp = dt_utc.isoformat().replace("+00:00", "Z")
-        return timestamp, month_key_from_datetime(dt_utc)
     
     # Check if filename contains 'mystery' (case insensitive)
     # If yes, ALL hands in this file are Mystery and should be discarded
