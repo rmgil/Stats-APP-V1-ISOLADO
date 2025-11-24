@@ -532,14 +532,22 @@ def build_monthly_results_for_token(
             {},
         )
 
+        # NOTE: Monthly failures must never break the global pipeline. Ensure
+        # downstream consumers always receive usable samples.
         context.update(
             {
                 'global_samples': fallback_samples,
                 'postflop_sample': fallback_samples.groups.get(POSTFLOP_GROUP_KEY),
+                'hands_per_month': context.get('hands_per_month') or {},
+                'months_manifest': context.get('months_manifest') or {},
+                'bucket_results': context.get('bucket_results') or {},
+                'global_discards': fallback_samples.discard_counts,
             }
         )
 
     return context
+
+
 def _ingest_tournaments_for_user(
     user_key: str,
     source_dir: Path,
@@ -1537,6 +1545,21 @@ def run_multi_site_pipeline(
                 )
                 postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
 
+            # NOTE: Monthly consistency issues must never cause the pipeline to fail.
+            # Global pipeline remains the source of truth for upload success/failure.
+            try:
+                _validate_category_counts(
+                    result_data.get('valid_hand_records', []),
+                    global_samples.validas,
+                )
+                _validate_month_totals(hands_per_month, global_samples.validas)
+            except Exception:
+                logger.exception(
+                    "[%s] [MONTHLY] Validation failed (category/month totals). "
+                    "Treating monthly validation as best-effort.",
+                    token,
+                )
+
             result_data = build_aggregate_pipeline_result(
                 token,
                 result_data,
@@ -1552,121 +1575,128 @@ def run_multi_site_pipeline(
                 multi_month=True,
             )
         
-        global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
+    global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
 
-        if is_multi_month:
-            monthly_paths = {
-                bucket.month: Path(work_dir) / f"pipeline_result_{bucket.month}.json"
-                for bucket in buckets
-                if getattr(bucket, "month", None)
-            }
-            log_monthly_global_consistency(Path(global_result_upper), monthly_paths)
-
-        legacy_result_path = os.path.join(work_dir, "pipeline_result.json")
-        with open(legacy_result_path, 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, indent=2)
-
-        result_data['status'] = 'completed'
-        
-        if is_multi_month:
-            log_step(token, "pipeline", "completed", f"Multi-month multi-site pipeline completed ({len(buckets)} months)")
-        else:
-            log_step(token, "pipeline", "completed", f"Multi-site pipeline completed successfully")
-        
-        # Mark progress as complete
-        progress_tracker.update_stage(token, 'stats', 'completed', 'Dashboard pronto!')
-        progress_tracker.complete_job(token)
-        
-        # Upload results to Supabase Storage (if enabled)
-        logger.info(f"[{token}] Uploading results to Supabase Storage")
+    if is_multi_month:
+        monthly_paths = {
+            bucket.month: Path(work_dir) / f"pipeline_result_{bucket.month}.json"
+            for bucket in buckets
+            if getattr(bucket, "month", None)
+        }
         try:
-            from app.services.storage import get_storage
-            storage = get_storage()
+            log_monthly_global_consistency(Path(global_result_upper), monthly_paths)
+        except Exception:
+            logger.exception(
+                "[%s] [MONTHLY] log_monthly_global_consistency failed; "
+                "treating as non-fatal monthly diagnostics issue.",
+                token,
+            )
 
-            def _upload_directory(local_dir: str, remote_prefix: str) -> int:
-                uploaded = 0
-                if not os.path.isdir(local_dir):
-                    return uploaded
+    legacy_result_path = os.path.join(work_dir, "pipeline_result.json")
+    with open(legacy_result_path, 'w', encoding='utf-8') as f:
+        json.dump(result_data, f, indent=2)
 
-                for root_dir, _, files in os.walk(local_dir):
-                    for file_name in files:
-                        local_path = os.path.join(root_dir, file_name)
-                        relative_path = os.path.relpath(local_path, local_dir)
-                        storage_key = f"{remote_prefix}/{relative_path}".replace('\\', '/')
-                        content_type = 'application/json' if file_name.endswith('.json') else 'text/plain'
+    result_data['status'] = 'completed'
 
-                        with open(local_path, 'rb') as stream:
-                            storage.upload_file_stream(stream, storage_key, content_type)
+    if is_multi_month:
+        log_step(token, "pipeline", "completed", f"Multi-month multi-site pipeline completed ({len(buckets)} months)")
+    else:
+        log_step(token, "pipeline", "completed", f"Multi-site pipeline completed successfully")
 
-                        uploaded += 1
+    # Mark progress as complete
+    progress_tracker.update_stage(token, 'stats', 'completed', 'Dashboard pronto!')
+    progress_tracker.complete_job(token)
 
-                logger.info(f"[{token}] Uploaded {uploaded} files under {remote_prefix}")
+    # Upload results to Supabase Storage (if enabled)
+    logger.info(f"[{token}] Uploading results to Supabase Storage")
+    try:
+        from app.services.storage import get_storage
+        storage = get_storage()
+
+        def _upload_directory(local_dir: str, remote_prefix: str) -> int:
+            uploaded = 0
+            if not os.path.isdir(local_dir):
                 return uploaded
 
-            # Upload new global pipeline_result
-            global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
-            if os.path.exists(global_result_path):
-                with open(global_result_path, 'rb') as f:
-                    storage_path = f"/results/{token}/pipeline_result_global.json"
+            for root_dir, _, files in os.walk(local_dir):
+                for file_name in files:
+                    local_path = os.path.join(root_dir, file_name)
+                    relative_path = os.path.relpath(local_path, local_dir)
+                    storage_key = f"{remote_prefix}/{relative_path}".replace('\\', '/')
+                    content_type = 'application/json' if file_name.endswith('.json') else 'text/plain'
+
+                    with open(local_path, 'rb') as stream:
+                        storage.upload_file_stream(stream, storage_key, content_type)
+
+                    uploaded += 1
+
+            logger.info(f"[{token}] Uploaded {uploaded} files under {remote_prefix}")
+            return uploaded
+
+        # Upload new global pipeline_result
+        global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
+        if os.path.exists(global_result_path):
+            with open(global_result_path, 'rb') as f:
+                storage_path = f"/results/{token}/pipeline_result_global.json"
+                storage.upload_file_stream(f, storage_path, 'application/json')
+                logger.info(f"[{token}] ✅ Uploaded pipeline_result_global.json")
+
+        global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
+        if os.path.exists(global_result_upper):
+            with open(global_result_upper, 'rb') as f:
+                storage_path = f"/results/{token}/pipeline_result_GLOBAL.json"
+                storage.upload_file_stream(f, storage_path, 'application/json')
+                logger.info(f"[{token}] ✅ Uploaded pipeline_result_GLOBAL.json")
+
+        # Upload legacy aggregate file for backwards compatibility
+        aggregate_result_path = os.path.join(work_dir, "pipeline_result.json")
+        if os.path.exists(aggregate_result_path):
+            with open(aggregate_result_path, 'rb') as f:
+                storage_path = f"/results/{token}/pipeline_result.json"
+                storage.upload_file_stream(f, storage_path, 'application/json')
+                logger.info(f"[{token}] ✅ Uploaded legacy pipeline_result.json")
+
+        # Upload aggregated hands_by_stat files (global scope)
+        hands_dir = os.path.join(work_dir, "hands_by_stat")
+        _upload_directory(hands_dir, f"/results/{token}/hands_by_stat")
+
+        # Upload months_manifest.json (if multi-month)
+        if is_multi_month:
+            manifest_local = os.path.join(work_dir, "months_manifest.json")
+            if os.path.exists(manifest_local):
+                with open(manifest_local, 'rb') as f:
+                    storage_path = f"/results/{token}/months_manifest.json"
                     storage.upload_file_stream(f, storage_path, 'application/json')
-                    logger.info(f"[{token}] ✅ Uploaded pipeline_result_global.json")
+                    logger.info(f"[{token}] ✅ Uploaded months_manifest.json")
 
-            global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
-            if os.path.exists(global_result_upper):
-                with open(global_result_upper, 'rb') as f:
-                    storage_path = f"/results/{token}/pipeline_result_GLOBAL.json"
-                    storage.upload_file_stream(f, storage_path, 'application/json')
-                    logger.info(f"[{token}] ✅ Uploaded pipeline_result_GLOBAL.json")
+            # Upload each month's results and hands_by_stat/
+            for bucket in buckets:
+                month = bucket.month
+                month_work_dir = bucket.work_dir
 
-            # Upload legacy aggregate file for backwards compatibility
-            aggregate_result_path = os.path.join(work_dir, "pipeline_result.json")
-            if os.path.exists(aggregate_result_path):
-                with open(aggregate_result_path, 'rb') as f:
-                    storage_path = f"/results/{token}/pipeline_result.json"
-                    storage.upload_file_stream(f, storage_path, 'application/json')
-                    logger.info(f"[{token}] ✅ Uploaded legacy pipeline_result.json")
-
-            # Upload aggregated hands_by_stat files (global scope)
-            hands_dir = os.path.join(work_dir, "hands_by_stat")
-            _upload_directory(hands_dir, f"/results/{token}/hands_by_stat")
-
-            # Upload months_manifest.json (if multi-month)
-            if is_multi_month:
-                manifest_local = os.path.join(work_dir, "months_manifest.json")
-                if os.path.exists(manifest_local):
-                    with open(manifest_local, 'rb') as f:
-                        storage_path = f"/results/{token}/months_manifest.json"
+                # Upload monthly pipeline_result.json
+                month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
+                if os.path.exists(month_result_path):
+                    with open(month_result_path, 'rb') as f:
+                        storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
                         storage.upload_file_stream(f, storage_path, 'application/json')
-                        logger.info(f"[{token}] ✅ Uploaded months_manifest.json")
-                
-                # Upload each month's results and hands_by_stat/
-                for bucket in buckets:
-                    month = bucket.month
-                    month_work_dir = bucket.work_dir
+                        logger.info(f"[{token}] ✅ Uploaded pipeline_result.json for month {month}")
 
-                    # Upload monthly pipeline_result.json
-                    month_result_path = os.path.join(month_work_dir, "pipeline_result.json")
-                    if os.path.exists(month_result_path):
-                        with open(month_result_path, 'rb') as f:
-                            storage_path = f"/results/{token}/months/{month}/pipeline_result.json"
-                            storage.upload_file_stream(f, storage_path, 'application/json')
-                            logger.info(f"[{token}] ✅ Uploaded pipeline_result.json for month {month}")
+                month_root_path = os.path.join(work_dir, f"pipeline_result_{month}.json")
+                if os.path.exists(month_root_path):
+                    with open(month_root_path, 'rb') as f:
+                        storage_path = f"/results/{token}/pipeline_result_{month}.json"
+                        storage.upload_file_stream(f, storage_path, 'application/json')
+                        logger.info(f"[{token}] ✅ Uploaded pipeline_result_{month}.json")
 
-                    month_root_path = os.path.join(work_dir, f"pipeline_result_{month}.json")
-                    if os.path.exists(month_root_path):
-                        with open(month_root_path, 'rb') as f:
-                            storage_path = f"/results/{token}/pipeline_result_{month}.json"
-                            storage.upload_file_stream(f, storage_path, 'application/json')
-                            logger.info(f"[{token}] ✅ Uploaded pipeline_result_{month}.json")
+                month_hands_dir = os.path.join(month_work_dir, "hands_by_stat")
+                _upload_directory(month_hands_dir, f"/results/{token}/months/{month}/hands_by_stat")
 
-                    month_hands_dir = os.path.join(month_work_dir, "hands_by_stat")
-                    _upload_directory(month_hands_dir, f"/results/{token}/months/{month}/hands_by_stat")
-
-            logger.info(f"[{token}] ✅ All results uploaded to Supabase Storage successfully")
-        except Exception as e:
-            logger.error(f"[{token}] Failed to upload results to Supabase Storage: {e}")
-            # Don't fail the job if storage upload fails in non-production
-            # But log prominently for debugging
+    logger.info(f"[{token}] ✅ All results uploaded to Supabase Storage successfully")
+    except Exception as e:
+        logger.error(f"[{token}] Failed to upload results to Supabase Storage: {e}")
+        # Don't fail the job if storage upload fails in non-production
+        # But log prominently for debugging
         
         if progress_callback:
             progress_callback(100, 'Processamento concluído!')
