@@ -198,6 +198,348 @@ def _read_text_file(path: Path) -> str:
         return path.read_text(encoding='latin-1', errors='ignore')
 
 
+def build_aggregate_pipeline_result(
+    token: str,
+    result_data: Dict[str, Any],
+    work_dir: str,
+    *,
+    aggregated_discards: Dict[str, int],
+    hands_per_month: Dict[str, int],
+    global_samples: GlobalSamples,
+    global_debug: Dict[str, Any],
+    postflop_sample: Optional[Any],
+    manifest_builder: Any,
+    bucket_results: Optional[Dict[str, Any]] = None,
+    months_manifest: Optional[Dict[str, Any]] = None,
+    multi_month: bool = False,
+) -> Dict[str, Any]:
+    """
+    Constrói e persiste o pipeline_result GLOBAL.
+
+    Qualquer falha aqui deve ser considerada grave – não há captura de exceções
+    neste nível.
+    """
+
+    extra_payload: Dict[str, Any] = {
+        'token': token,
+        'debug': global_debug,
+        'rooms': global_debug.get('by_room', {}),
+    }
+
+    if multi_month:
+        extra_payload.update(
+            {
+                'months': bucket_results or {},
+                'months_manifest': months_manifest or {},
+                'multi_month': True,
+            }
+        )
+
+    result_payload = build_pipeline_result_payload(
+        combined=result_data.get('combined', {}),
+        valid_hand_records=result_data.get('valid_hand_records', []),
+        aggregated_discards=aggregated_discards,
+        sites=result_data.get('sites', {}),
+        hands_per_month=hands_per_month,
+        postflop_hands_count=postflop_sample.hand_count if postflop_sample else None,
+        samples=global_samples,
+        extra=extra_payload,
+    )
+
+    manifest = manifest_builder.get_combined_manifest()
+    if aggregated_discards:
+        manifest['discards'] = aggregated_discards
+
+    manifest_path = os.path.join(work_dir, "multi_site_manifest.json")
+    with open(manifest_path, 'w', encoding='utf-8') as f:
+        json.dump(manifest, f, indent=2)
+
+    global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
+    with open(global_result_path, 'w', encoding='utf-8') as f:
+        json.dump(result_payload, f, indent=2)
+    logger.info(f"[{token}] ✅ Wrote global pipeline_result to {global_result_path}")
+
+    global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
+    with open(global_result_upper, 'w', encoding='utf-8') as f:
+        json.dump(result_payload, f, indent=2)
+    logger.info(f"[{token}] ✅ Wrote GLOBAL pipeline_result to {global_result_upper}")
+
+    log_reference_consistency(Path(global_result_upper))
+
+    return result_payload
+
+
+def build_monthly_results_for_token(
+    token: str,
+    work_dir: str,
+    result_data: Dict[str, Any],
+    buckets: List[MonthBucket],
+    bucket_results: Dict[str, Dict[str, Any]],
+    bucket_lookup: Dict[str, MonthBucket],
+    global_debug: Dict[str, Any],
+    global_aggregator: MultiSiteAggregator,
+    global_groups: Set[str],
+    progress_callback=None,
+) -> Dict[str, Any]:
+    """
+    Constrói os resultados mensais para um token.
+
+    Qualquer falha aqui deve ser LOGADA mas nunca propagada.
+    """
+
+    logger.info(
+        "[MONTHLY] Building monthly results for token=%s with months=%s",
+        token,
+        list(bucket_results.keys()),
+    )
+
+    context: Dict[str, Any] = {
+        'result_data': result_data,
+        'hands_per_month': _count_hands_per_month(result_data.get('valid_hand_records', [])),
+        'global_samples': None,
+        'postflop_sample': None,
+        'months_manifest': {},
+        'bucket_results': bucket_results,
+        'global_discards': {},
+    }
+
+    try:
+        logger.info(f"[{token}] Aggregating global results across all months")
+
+        if progress_callback:
+            progress_callback(80, 'A agregar resultados globais...')
+
+        global_combined = _aggregate_month_groups(global_aggregator, work_dir, global_groups)
+
+        group_id_sets: Dict[str, set] = defaultdict(set)
+        for record in result_data.get('valid_hand_records', []):
+            group_id_sets[record['group']].add(record['hand_id'])
+
+        for group, group_data in global_combined.items():
+            total_postflop_hands = 0
+
+            for month_result in result_data['months'].values():
+                if month_result.get('status') == 'completed':
+                    for site_data in month_result.get('sites', {}).values():
+                        if group in site_data:
+                            total_postflop_hands += site_data[group].get('postflop_hands_count', 0)
+
+            group_data['hand_count'] = len(group_id_sets.get(group, set()))
+            group_data['postflop_hands_count'] = total_postflop_hands
+
+        result_data['combined'] = global_combined
+
+        logger.info(f"[{token}] Writing global cross-format postflop outputs")
+        global_aggregator.write_cross_format_postflop_outputs(work_dir)
+
+        months_manifest = generate_months_manifest(token, buckets, bucket_results)
+        result_data['months_manifest'] = months_manifest
+
+        manifest_path = os.path.join(work_dir, "months_manifest.json")
+        with open(manifest_path, 'w', encoding='utf-8') as f:
+            json.dump(months_manifest, f, indent=2)
+
+        global_discards: Dict[str, int] = {}
+        hands_per_month: Dict[str, int] = {}
+
+        for month_key, month_result in result_data['months'].items():
+            if month_result.get('status') != 'completed':
+                continue
+
+            month_records = month_result.get('valid_hand_records', [])
+            month_counts = _count_hands_per_month(month_records)
+            if not month_counts and month_key:
+                month_counts = {
+                    month_key: len({record['hand_id'] for record in month_records})
+                }
+
+            for key, count in month_counts.items():
+                hands_per_month[key] = count
+
+            month_discards = month_result.get('aggregated_discards', {})
+            for reason, count in month_discards.items():
+                if reason == 'total':
+                    continue
+                global_discards[reason] = global_discards.get(reason, 0) + count
+
+        global_samples = build_global_samples(
+            result_data.get('valid_hand_records', []),
+            global_discards,
+        )
+
+        global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
+
+        logger.info(
+            f"[{token}] Global classification totals: valid_hands={global_samples.validas}, "
+            f"discarded={global_samples.discard_counts.get('total', 0)}, "
+            f"total={global_samples.total_encontradas}"
+        )
+
+        for group_key, group_sample in global_samples.groups.items():
+            if group_key == POSTFLOP_GROUP_KEY:
+                continue
+            if group_key in result_data.get('combined', {}):
+                result_data['combined'][group_key]['hand_count'] = group_sample.hand_count
+
+        postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
+        if postflop_sample:
+            assert postflop_sample.hand_count == global_samples.validas, (
+                "POSTFLOP group count must match total valid hands"
+            )
+
+        monthly_summaries: List[GlobalSamples] = []
+        monthly_valid_union: Set[str] = set()
+
+        for month_key, month_result in result_data['months'].items():
+            if month_result.get('status') != 'completed':
+                continue
+
+            month_records = month_result.get('valid_hand_records', [])
+            month_hand_ids = {
+                record.get('hand_id')
+                for record in month_records
+                if isinstance(record, dict) and record.get('hand_id')
+            }
+
+            month_samples = global_samples.restrict_to(
+                month_hand_ids,
+                month_result.get('aggregated_discards'),
+            )
+
+            monthly_summaries.append(month_samples)
+            monthly_valid_union.update(month_hand_ids)
+
+            combined_groups = month_result.get('combined', {})
+            for group_key, group_sample in month_samples.groups.items():
+                if group_key == POSTFLOP_GROUP_KEY:
+                    continue
+                if group_key in combined_groups:
+                    combined_groups[group_key]['hand_count'] = group_sample.hand_count
+
+            postflop_month = month_samples.groups.get(POSTFLOP_GROUP_KEY)
+
+            month_counts = _count_hands_per_month(month_records)
+            if not month_counts and month_key:
+                month_counts = {month_key: month_samples.validas}
+
+            updated_month = build_pipeline_result_payload(
+                combined=combined_groups,
+                valid_hand_records=month_result.get('valid_hand_records', []),
+                aggregated_discards=month_samples.discard_counts,
+                sites=month_result.get('sites', {}),
+                hands_per_month=month_counts,
+                month=month_key,
+                postflop_hands_count=postflop_month.hand_count if postflop_month else None,
+                samples=month_samples,
+                extra={
+                    'sites_detected': month_result.get('sites_detected', []),
+                    'discarded_hands': month_result.get('discarded_hands', {}),
+                    'debug': month_result.get('debug'),
+                    'rooms': month_result.get('rooms', {}),
+                },
+            )
+
+            for key, count in month_counts.items():
+                hands_per_month[key] = count
+            bucket_results[month_key] = updated_month
+            bucket = bucket_lookup.get(month_key)
+            if bucket:
+                _write_month_pipeline_result(bucket, updated_month)
+
+        if monthly_summaries:
+            total_valid_months = sum(summary.validas for summary in monthly_summaries)
+            total_hands_months = sum(
+                summary.total_encontradas for summary in monthly_summaries
+            )
+            total_mystery = sum(summary.mystery for summary in monthly_summaries)
+            total_lt4 = sum(summary.lt4_players for summary in monthly_summaries)
+
+            logger.info(
+                "[%s] Global vs monthly sanity check: total=%s/%s valid=%s/%s mystery=%s/%s lt4=%s/%s",
+                token,
+                global_samples.total_encontradas,
+                total_hands_months,
+                global_samples.validas,
+                total_valid_months,
+                global_samples.mystery,
+                total_mystery,
+                global_samples.lt4_players,
+                total_lt4,
+            )
+
+            global_valid_id_set = set(global_samples.valid_hand_ids)
+
+            if global_samples.total_encontradas != total_hands_months:
+                logger.warning(
+                    "[%s] Monthly total hands mismatch (%s != %s)",
+                    token,
+                    total_hands_months,
+                    global_samples.total_encontradas,
+                )
+
+            if global_samples.validas != total_valid_months:
+                logger.warning(
+                    "[%s] Monthly valid hand sum mismatch (%s != %s)",
+                    token,
+                    total_valid_months,
+                    global_samples.validas,
+                )
+
+            if global_samples.mystery != total_mystery:
+                logger.warning(
+                    "[%s] Monthly mystery sum mismatch (%s != %s)",
+                    token,
+                    total_mystery,
+                    global_samples.mystery,
+                )
+
+            if global_samples.lt4_players != total_lt4:
+                logger.warning(
+                    "[%s] Monthly <4 player sum mismatch (%s != %s)",
+                    token,
+                    total_lt4,
+                    global_samples.lt4_players,
+                )
+
+            if monthly_valid_union != global_valid_id_set:
+                logger.warning(
+                    "[%s] Monthly valid hand IDs do not match global set", token
+                )
+
+        if hands_per_month:
+            logger.info("[%s] [DEBUG] hands_per_month global: %s", token, hands_per_month)
+
+        _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
+        _validate_month_totals(hands_per_month, global_samples.validas)
+
+        context.update(
+            {
+                'result_data': result_data,
+                'hands_per_month': hands_per_month,
+                'global_samples': global_samples,
+                'postflop_sample': postflop_sample,
+                'months_manifest': months_manifest,
+                'bucket_results': bucket_results,
+                'global_discards': global_samples.discard_counts,
+            }
+        )
+
+    except Exception:
+        logger.exception("[MONTHLY] Failed to build monthly results for token=%s", token)
+
+        fallback_samples = build_global_samples(
+            result_data.get('valid_hand_records', []),
+            {},
+        )
+
+        context.update(
+            {
+                'global_samples': fallback_samples,
+                'postflop_sample': fallback_samples.groups.get(POSTFLOP_GROUP_KEY),
+            }
+        )
+
+    return context
 def _ingest_tournaments_for_user(
     user_key: str,
     source_dir: Path,
@@ -1066,7 +1408,6 @@ def run_multi_site_pipeline(
             if progress_callback:
                 progress_callback(80, 'A finalizar processamento...')
             
-            # Aggregate discard statistics
             aggregated_discards: Dict[str, int] = {}
             if 'discarded_hands' in result_data:
                 for site, discards in result_data['discarded_hands'].items():
@@ -1083,7 +1424,6 @@ def run_multi_site_pipeline(
 
             global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
 
-            # Keep combined hand counts in sync with the normalised samples
             for group_key, group_sample in global_samples.groups.items():
                 if group_key == POSTFLOP_GROUP_KEY:
                     continue
@@ -1096,37 +1436,17 @@ def run_multi_site_pipeline(
                     "POSTFLOP group count must match total valid hands"
                 )
 
-            result_data = build_pipeline_result_payload(
-                combined=result_data.get('combined', {}),
-                valid_hand_records=result_data.get('valid_hand_records', []),
+            result_data = build_aggregate_pipeline_result(
+                token,
+                result_data,
+                work_dir,
                 aggregated_discards=aggregated_discards,
-                sites=result_data.get('sites', {}),
                 hands_per_month=hands_per_month,
-                postflop_hands_count=postflop_sample.hand_count if postflop_sample else None,
-                samples=global_samples,
-                extra={
-                    'token': token,
-                    'sites_detected': result_data.get('sites_detected', []),
-                    'debug': global_debug,
-                    'rooms': global_debug.get('by_room', {}),
-                },
+                global_samples=global_samples,
+                global_debug=global_debug,
+                postflop_sample=postflop_sample,
+                manifest_builder=aggregator,
             )
-
-            if hands_per_month:
-                logger.info("[%s] [DEBUG] hands_per_month global: %s", token, hands_per_month)
-
-            _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
-            _validate_month_totals(hands_per_month, global_samples.validas)
-            
-            # Generate manifest
-            manifest = aggregator.get_combined_manifest()
-            
-            if 'aggregated_discards' in result_data:
-                manifest['discards'] = result_data['aggregated_discards']
-            
-            manifest_path = os.path.join(work_dir, "multi_site_manifest.json")
-            with open(manifest_path, 'w', encoding='utf-8') as f:
-                json.dump(manifest, f, indent=2)
             
         else:
             # Multi-month processing mode
@@ -1189,260 +1509,50 @@ def run_multi_site_pipeline(
                     }
                     # Continue with other months
             
-            # Aggregate global results
-            logger.info(f"[{token}] Aggregating global results across all months")
-            
-            if progress_callback:
-                progress_callback(80, 'A agregar resultados globais...')
-            
-            # Create combined results for all months
-            global_combined = _aggregate_month_groups(global_aggregator, work_dir, global_groups)
-            
-            group_id_sets: Dict[str, set] = defaultdict(set)
-            for record in result_data.get('valid_hand_records', []):
-                group_id_sets[record['group']].add(record['hand_id'])
-
-            # Calculate global hand counts
-            for group, group_data in global_combined.items():
-                total_postflop_hands = 0
-
-                for month_result in result_data['months'].values():
-                    if month_result.get('status') == 'completed':
-                        for site_data in month_result.get('sites', {}).values():
-                            if group in site_data:
-                                total_postflop_hands += site_data[group].get('postflop_hands_count', 0)
-
-                group_data['hand_count'] = len(group_id_sets.get(group, set()))
-                group_data['postflop_hands_count'] = total_postflop_hands
-            
-            result_data['combined'] = global_combined
-            
-            # Write global cross-format postflop
-            logger.info(f"[{token}] Writing global cross-format postflop outputs")
-            global_aggregator.write_cross_format_postflop_outputs(work_dir)
-            
-            # Generate months manifest
-            months_manifest = generate_months_manifest(token, buckets, bucket_results)
-            result_data['months_manifest'] = months_manifest
-            
-            # Save months manifest
-            manifest_path = os.path.join(work_dir, "months_manifest.json")
-            with open(manifest_path, 'w', encoding='utf-8') as f:
-                json.dump(months_manifest, f, indent=2)
-            
-            # Aggregate global discard statistics and totals
-            global_discards: Dict[str, int] = {}
-            hands_per_month: Dict[str, int] = {}
-
-            for month_key, month_result in result_data['months'].items():
-                if month_result.get('status') != 'completed':
-                    continue
-
-                month_records = month_result.get('valid_hand_records', [])
-                month_counts = _count_hands_per_month(month_records)
-                if not month_counts and month_key:
-                    month_counts = {
-                        month_key: len({record['hand_id'] for record in month_records})
-                    }
-
-                for key, count in month_counts.items():
-                    hands_per_month[key] = count
-
-                month_discards = month_result.get('aggregated_discards', {})
-                for reason, count in month_discards.items():
-                    if reason == 'total':
-                        continue
-                    global_discards[reason] = global_discards.get(reason, 0) + count
-
-            global_samples = build_global_samples(
-                result_data.get('valid_hand_records', []),
-                global_discards,
+            monthly_context = build_monthly_results_for_token(
+                token,
+                work_dir,
+                result_data,
+                buckets,
+                bucket_results,
+                bucket_lookup,
+                global_debug,
+                global_aggregator,
+                global_groups,
+                progress_callback,
             )
 
-            global_debug = _reconcile_debug_totals(global_debug, global_samples.discard_counts)
+            result_data = monthly_context.get('result_data', result_data)
+            hands_per_month = monthly_context.get('hands_per_month', {})
+            global_samples = monthly_context.get('global_samples')
+            postflop_sample = monthly_context.get('postflop_sample')
+            months_manifest = monthly_context.get('months_manifest')
+            bucket_results = monthly_context.get('bucket_results', bucket_results)
+            aggregated_discards = monthly_context.get('global_discards') or {}
 
-            logger.info(
-                f"[{token}] Global classification totals: valid_hands={global_samples.validas}, "
-                f"discarded={global_samples.discard_counts.get('total', 0)}, "
-                f"total={global_samples.total_encontradas}"
-            )
-
-            # Sync combined hand counts with the canonical samples
-            for group_key, group_sample in global_samples.groups.items():
-                if group_key == POSTFLOP_GROUP_KEY:
-                    continue
-                if group_key in result_data.get('combined', {}):
-                    result_data['combined'][group_key]['hand_count'] = group_sample.hand_count
-
-            postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
-            if postflop_sample:
-                assert postflop_sample.hand_count == global_samples.validas, (
-                    "POSTFLOP group count must match total valid hands"
+            if global_samples is None:
+                global_samples = build_global_samples(
+                    result_data.get('valid_hand_records', []),
+                    aggregated_discards,
                 )
+                postflop_sample = global_samples.groups.get(POSTFLOP_GROUP_KEY)
 
-            monthly_summaries: List[GlobalSamples] = []
-            monthly_valid_union: Set[str] = set()
-
-            for month_key, month_result in result_data['months'].items():
-                if month_result.get('status') != 'completed':
-                    continue
-
-                month_records = month_result.get('valid_hand_records', [])
-                month_hand_ids = {
-                    record.get('hand_id')
-                    for record in month_records
-                    if isinstance(record, dict) and record.get('hand_id')
-                }
-
-                month_samples = global_samples.restrict_to(
-                    month_hand_ids,
-                    month_result.get('aggregated_discards'),
-                )
-
-                monthly_summaries.append(month_samples)
-                monthly_valid_union.update(month_hand_ids)
-
-                combined_groups = month_result.get('combined', {})
-                for group_key, group_sample in month_samples.groups.items():
-                    if group_key == POSTFLOP_GROUP_KEY:
-                        continue
-                    if group_key in combined_groups:
-                        combined_groups[group_key]['hand_count'] = group_sample.hand_count
-
-                postflop_month = month_samples.groups.get(POSTFLOP_GROUP_KEY)
-
-                month_counts = _count_hands_per_month(month_records)
-                if not month_counts and month_key:
-                    month_counts = {month_key: month_samples.validas}
-
-                updated_month = build_pipeline_result_payload(
-                    combined=combined_groups,
-                    valid_hand_records=month_result.get('valid_hand_records', []),
-                    aggregated_discards=month_samples.discard_counts,
-                    sites=month_result.get('sites', {}),
-                    hands_per_month=month_counts,
-                    month=month_key,
-                    postflop_hands_count=postflop_month.hand_count if postflop_month else None,
-                    samples=month_samples,
-                    extra={
-                        'sites_detected': month_result.get('sites_detected', []),
-                        'discarded_hands': month_result.get('discarded_hands', {}),
-                        'debug': month_result.get('debug'),
-                        'rooms': month_result.get('rooms', {}),
-                    },
-                )
-
-                for key, count in month_counts.items():
-                    hands_per_month[key] = count
-                bucket_results[month_key] = updated_month
-                bucket = bucket_lookup.get(month_key)
-                if bucket:
-                    _write_month_pipeline_result(bucket, updated_month)
-
-            if monthly_summaries:
-                total_valid_months = sum(summary.validas for summary in monthly_summaries)
-                total_hands_months = sum(
-                    summary.total_encontradas for summary in monthly_summaries
-                )
-                total_mystery = sum(summary.mystery for summary in monthly_summaries)
-                total_lt4 = sum(summary.lt4_players for summary in monthly_summaries)
-
-                logger.info(
-                    "[%s] Global vs monthly sanity check: total=%s/%s valid=%s/%s mystery=%s/%s lt4=%s/%s",
-                    token,
-                    global_samples.total_encontradas,
-                    total_hands_months,
-                    global_samples.validas,
-                    total_valid_months,
-                    global_samples.mystery,
-                    total_mystery,
-                    global_samples.lt4_players,
-                    total_lt4,
-                )
-
-                global_valid_id_set = set(global_samples.valid_hand_ids)
-
-                if global_samples.total_encontradas != total_hands_months:
-                    logger.warning(
-                        "[%s] Monthly total hands mismatch (%s != %s)",
-                        token,
-                        total_hands_months,
-                        global_samples.total_encontradas,
-                    )
-
-                if global_samples.validas != total_valid_months:
-                    logger.warning(
-                        "[%s] Monthly valid hand sum mismatch (%s != %s)",
-                        token,
-                        total_valid_months,
-                        global_samples.validas,
-                    )
-
-                if global_samples.mystery != total_mystery:
-                    logger.warning(
-                        "[%s] Monthly mystery sum mismatch (%s != %s)",
-                        token,
-                        total_mystery,
-                        global_samples.mystery,
-                    )
-
-                if global_samples.lt4_players != total_lt4:
-                    logger.warning(
-                        "[%s] Monthly <4 player sum mismatch (%s != %s)",
-                        token,
-                        total_lt4,
-                        global_samples.lt4_players,
-                    )
-
-                if monthly_valid_union != global_valid_id_set:
-                    logger.warning(
-                        "[%s] Monthly valid hand IDs do not match global set", token
-                    )
-
-            if hands_per_month:
-                logger.info("[%s] [DEBUG] hands_per_month global: %s", token, hands_per_month)
-
-            _validate_category_counts(result_data.get('valid_hand_records', []), global_samples.validas)
-            _validate_month_totals(hands_per_month, global_samples.validas)
-
-            result_data = build_pipeline_result_payload(
-                combined=result_data.get('combined', {}),
-                valid_hand_records=result_data.get('valid_hand_records', []),
+            result_data = build_aggregate_pipeline_result(
+                token,
+                result_data,
+                work_dir,
                 aggregated_discards=global_samples.discard_counts,
-                sites=result_data.get('sites', {}),
                 hands_per_month=hands_per_month,
-                postflop_hands_count=postflop_sample.hand_count if postflop_sample else None,
-                samples=global_samples,
-                extra={
-                    'token': token,
-                    'months': bucket_results,
-                    'months_manifest': months_manifest,
-                    'multi_month': True,
-                    'debug': global_debug,
-                    'rooms': global_debug.get('by_room', {}),
-                },
+                global_samples=global_samples,
+                global_debug=global_debug,
+                postflop_sample=postflop_sample,
+                manifest_builder=global_aggregator,
+                bucket_results=bucket_results,
+                months_manifest=months_manifest,
+                multi_month=True,
             )
-
-            # Generate global manifest
-            manifest = global_aggregator.get_combined_manifest()
-            manifest['discards'] = global_discards
-
-            manifest_path = os.path.join(work_dir, "multi_site_manifest.json")
-            with open(manifest_path, 'w', encoding='utf-8') as f:
-                json.dump(manifest, f, indent=2)
         
-        # Save final result (new and legacy filenames)
-        global_result_path = os.path.join(work_dir, "pipeline_result_global.json")
-        with open(global_result_path, 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, indent=2)
-        logger.info(f"[{token}] ✅ Wrote global pipeline_result to {global_result_path}")
-
         global_result_upper = os.path.join(work_dir, "pipeline_result_GLOBAL.json")
-        with open(global_result_upper, 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, indent=2)
-        logger.info(f"[{token}] ✅ Wrote GLOBAL pipeline_result to {global_result_upper}")
-
-        log_reference_consistency(Path(global_result_upper))
 
         if is_multi_month:
             monthly_paths = {
