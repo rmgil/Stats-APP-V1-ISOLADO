@@ -2,6 +2,7 @@
 Hand-by-hand classification module
 Processes each hand individually for accurate 6-max vs 9-max detection
 """
+import logging
 import os
 import json
 import re
@@ -12,6 +13,7 @@ from app.parse.hand_splitter import split_into_hands, split_into_hands_with_stat
 from app.classify.run import classify_tournament
 from app.utils.hand_fingerprint import fingerprint_hand
 from app.partition.months import (
+    DEFAULT_FALLBACK_MONTH,
     month_key_from_datetime,
     normalize_month_key,
     parse_hand_datetime,
@@ -22,11 +24,17 @@ from app.partition.months import (
 # These were filtering hands at classification stage, preventing stat-level validation
 # Stack and all-in validations are now handled per-stat in PreflopStats
 
-def _extract_timestamp_and_month(hand_text: str) -> Tuple[Optional[str], Optional[str]]:
+logger = logging.getLogger(__name__)
+
+
+def _extract_timestamp_and_month(hand_text: str) -> Tuple[str, str]:
     """
     Extract the hand timestamp in UTC and its month key using the shared parsing
     helpers. This mirrors the date parsing logic used across the pipeline to
     keep classifications aligned.
+
+    This wrapper guarantees a tuple is always returned; on failure it logs a
+    warning and provides stable fallback values.
     """
 
     lines = [line for line in hand_text.split('\n') if line.strip()]
@@ -42,7 +50,12 @@ def _extract_timestamp_and_month(hand_text: str) -> Tuple[Optional[str], Optiona
             break
 
     if not dt:
-        return None, None
+        fallback_timestamp = "1970-01-01T00:00:00Z"
+        logger.warning(
+            "Failed to extract timestamp/month from hand_text; using fallback month. First 80 chars: %r",
+            hand_text[:80],
+        )
+        return fallback_timestamp, DEFAULT_FALLBACK_MONTH
 
     dt_utc = dt.astimezone(timezone.utc)
     timestamp = dt_utc.isoformat().replace("+00:00", "Z")
