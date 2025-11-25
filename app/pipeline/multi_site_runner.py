@@ -1223,7 +1223,7 @@ def run_multi_site_pipeline(
     token: Optional[str] = None,
     progress_callback=None,
     user_id: Optional[str] = None,
-) -> Tuple[bool, str, Dict[str, Any]]:
+) -> Tuple[bool, str, Optional[Dict[str, Any]]]:
     """
     Run pipeline that handles multiple poker sites and aggregates results.
     Supports monthly bucketing for multi-month uploads.
@@ -1701,8 +1701,13 @@ def run_multi_site_pipeline(
             if progress_callback:
                 progress_callback(100, 'Processamento concluído!')
 
-            return True, token, result_data
-        
+            return True, f"Pipeline completed successfully (storage upload failed: {e})", result_data
+
+        if progress_callback:
+            progress_callback(100, 'Processamento concluído!')
+
+        return True, "Pipeline completed successfully", result_data
+
     except Exception as e:
         import traceback
 
@@ -1728,4 +1733,4 @@ def run_multi_site_pipeline(
         # Mark progress as failed
         progress_tracker.fail_job(token, str(e))
 
-        return False, token, result_data
+        return False, str(e), None
